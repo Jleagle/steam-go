@@ -3,39 +3,33 @@ package steam
 import (
 	"encoding/json"
 	"net/url"
-	"strings"
-
-	"github.com/steam-authority/steam-authority/logger"
 )
 
-func GetAppList() (apps []GetAppListApp, err error) {
+func GetAppList() (apps AppList, bytes []byte, err error) {
 
-	bytes, err := get("ISteamApps/GetAppList/v2/", url.Values{})
+	bytes, err = get("ISteamApps/GetAppList/v2/", url.Values{})
 	if err != nil {
-		return apps, err
+		return apps, bytes, err
 	}
 
 	// Unmarshal JSON
-	resp := GetAppListBody{}
+	resp := AppListResponse{}
 	if err := json.Unmarshal(bytes, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(bytes))
-		}
-		return apps, err
+		return apps, bytes, err
 	}
 
-	return resp.AppList.Apps, nil
+	return resp.AppList, bytes, nil
 }
 
-type GetAppListBody struct {
-	AppList GetAppListAppList `json:"applist"`
+type AppListResponse struct {
+	AppList AppList `json:"applist"`
 }
 
-type GetAppListAppList struct {
-	Apps []GetAppListApp `json:"apps"`
+type AppList struct {
+	Apps []App `json:"apps"`
 }
 
-type GetAppListApp struct {
+type App struct {
 	AppID int    `json:"appid"`
 	Name  string `json:"name"`
 }

@@ -30,8 +30,6 @@ func GetAppDetailsFromStore(id int) (app AppDetailsBody, err error) {
 
 	path := "http://store.steampowered.com/api/appdetails?" + query.Encode()
 
-	logs.AddLog(path)
-
 	response, err := http.Get(path)
 	if err != nil {
 		return app, err
@@ -244,8 +242,6 @@ func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, err error) {
 
 	path := "http://store.steampowered.com/api/packagedetails?" + query.Encode()
 
-	logs.AddLog(path)
-
 	response, err := http.Get(path)
 	if err != nil {
 		return pack, err
@@ -314,8 +310,6 @@ func GetTags() (tags []steamTag, err error) {
 
 	path := "http://store.steampowered.com/tagdata/populartags/english"
 
-	logs.AddLog(path)
-
 	// Get tags names
 	response, err := http.Get(path)
 	if err != nil {
@@ -361,8 +355,6 @@ func GetReviews(appID int) (reviews ReviewsResponse, err error) {
 	query.Set("purchase_type", "all")
 
 	path := "http://store.steampowered.com/appreviews/" + strconv.Itoa(appID) + "?" + query.Encode()
-
-	logs.AddLog(path)
 
 	response, err := http.Get(path)
 	if err != nil {
