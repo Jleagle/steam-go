@@ -13,7 +13,7 @@ func GetAppList() (apps AppList, bytes []byte, err error) {
 	}
 
 	// Unmarshal JSON
-	resp := AppListResponse{}
+	var resp AppListResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return apps, bytes, err
 	}
