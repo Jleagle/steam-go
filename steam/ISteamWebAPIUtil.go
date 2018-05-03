@@ -3,13 +3,10 @@ package steam
 import (
 	"encoding/json"
 	"net/url"
-	"strings"
-
-	"github.com/steam-authority/steam-authority/logger"
 )
 
 // Gets the list of supported API calls. This is used to build this documentation.
-func GetSupportedAPIList() (percentages []SupportedAPIListInterface, err error) {
+func GetSupportedAPIList() (percentages APIInterfaces, err error) {
 
 	bytes, err := get("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{})
 	if err != nil {
@@ -17,34 +14,37 @@ func GetSupportedAPIList() (percentages []SupportedAPIListInterface, err error) 
 	}
 
 	// Unmarshal JSON
-	var resp SupportedAPIListResponseResponse
+	var resp SupportedAPIListResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(bytes))
-		}
 		return percentages, err
 	}
 
-	return resp.SupportedAPIListResponseOuter.SupportedAPIListInterfaces, nil
+	return resp.APIList, nil
 }
 
-type SupportedAPIListResponseResponse struct {
-	SupportedAPIListResponseOuter struct {
-		SupportedAPIListInterfaces []SupportedAPIListInterface `json:"interfaces"`
-	} `json:"apilist"`
+type SupportedAPIListResponse struct {
+	APIList APIInterfaces `json:"apilist"`
 }
 
-type SupportedAPIListInterface struct {
-	Name string `json:"name"`
-	Methods []struct {
-		Name       string `json:"name"`
-		Version    int    `json:"version"`
-		Httpmethod string `json:"httpmethod"`
-		Parameters []struct {
-			Name        string `json:"name"`
-			Type        string `json:"type"`
-			Optional    bool   `json:"optional"`
-			Description string `json:"description"`
-		} `json:"parameters"`
-	} `json:"methods"`
+type APIInterfaces struct {
+	Interfaces []APIInterface `json:"interfaces"`
+}
+
+type APIInterface struct {
+	Name    string      `json:"name"`
+	Methods []APIMethod `json:"methods"`
+}
+
+type APIMethod struct {
+	Name       string         `json:"name"`
+	Version    int            `json:"version"`
+	Httpmethod string         `json:"httpmethod"`
+	Parameters []APIParameter `json:"parameters"`
+}
+
+type APIParameter struct {
+	Name        string `json:"name"`
+	Type        string `json:"type"`
+	Optional    bool   `json:"optional"`
+	Description string `json:"description"`
 }

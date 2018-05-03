@@ -28,7 +28,6 @@ func GetFriendList(id int) (friends FriendsList, bytes []byte, err error) {
 		return friends, bytes, ErrNoUserFound
 	}
 
-	// Unmarshal JSON
 	var resp FriendListResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return friends, bytes, err
@@ -46,11 +45,12 @@ type FriendsList struct {
 }
 
 type Friend struct {
-	SteamID      string `json:"steamid"`
+	SteamID      string `json:"steamid"` // todo, should be int64
 	Relationship string `json:"relationship"`
 	FriendSince  int    `json:"friend_since"`
 }
 
+// todo, return SteamID as int64
 func ResolveVanityURL(id string) (info VanityURL, bytes []byte, err error) {
 
 	options := url.Values{}
@@ -62,7 +62,6 @@ func ResolveVanityURL(id string) (info VanityURL, bytes []byte, err error) {
 		return info, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp VanityURLRepsonse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return info, bytes, err
@@ -80,7 +79,7 @@ type VanityURLRepsonse struct {
 }
 
 type VanityURL struct {
-	SteamID string `json:"steamid"`
+	SteamID string `json:"steamid"` // todo, make int64
 	Success int8   `json:"success"`
 	Message string `json:"message"`
 }
@@ -98,7 +97,6 @@ func GetPlayer(id int) (player PlayerSummary, bytes []byte, err error) {
 	var regex *regexp.Regexp
 	var s = string(bytes)
 
-	// Convert strings to ints
 	regex = regexp.MustCompile(`"primaryclanid":\s?"(\d+)"`)
 	s = regex.ReplaceAllString(s, `"primaryclanid": $1`)
 
@@ -107,7 +105,6 @@ func GetPlayer(id int) (player PlayerSummary, bytes []byte, err error) {
 
 	bytes = []byte(s)
 
-	// Unmarshal JSON
 	var resp PlayerResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return player, bytes, err
@@ -129,7 +126,7 @@ type PlayerSummaries struct {
 }
 
 type PlayerSummary struct {
-	SteamID                  int    `json:"steamid"`
+	SteamID                  int64  `json:"steamid"`
 	CommunityVisibilityState int    `json:"communityvisibilitystate"`
 	ProfileState             int    `json:"profilestate"`
 	PersonaName              string `json:"personaname"`
@@ -158,7 +155,6 @@ func GetPlayerBans(id int) (bans GetPlayerBanResponse, bytes []byte, err error) 
 		return bans, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp GetPlayerBansResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -177,7 +173,7 @@ type GetPlayerBansResponse struct {
 }
 
 type GetPlayerBanResponse struct {
-	SteamID          string `json:"SteamId"`
+	SteamID          string `json:"SteamId"` // todo, make int64
 	CommunityBanned  bool   `json:"CommunityBanned"`
 	VACBanned        bool   `json:"VACBanned"`
 	NumberOfVACBans  int    `json:"NumberOfVACBans"`
@@ -197,7 +193,6 @@ func GetUserGroupList(id int) (groups UserGroupList, bytes []byte, err error) {
 		return groups, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp UserGroupListResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {

@@ -9,7 +9,9 @@ import (
 
 var (
 	key string
+)
 
+var (
 	ErrInvalidKey = errors.New("invalid api key")
 )
 

@@ -9,17 +9,15 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-
-	"github.com/steam-authority/steam-authority/logger"
 )
 
 var (
-	ErrGhostApp     = errors.New("steam: store: no app with id in steam")
-	ErrGhostPackage = errors.New("steam: store: no package with id in steam")
-	ErrNullResponse = errors.New("steam: store: null response")
+	ErrAppNotFound     = errors.New("steam: store: app not found")
+	ErrPackageNotFound = errors.New("steam: store: package not found")
+	ErrNullResponse    = errors.New("steam: store: null response")
 )
 
-func GetAppDetailsFromStore(id int) (app AppDetailsBody, err error) {
+func GetAppDetailsFromStore(id int) (app AppDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
@@ -32,75 +30,71 @@ func GetAppDetailsFromStore(id int) (app AppDetailsBody, err error) {
 
 	response, err := http.Get(path)
 	if err != nil {
-		return app, err
+		return app, bytes, err
 	}
 	defer response.Body.Close()
 
-	// Convert to bytes
-	contents, err := ioutil.ReadAll(response.Body)
+	bytes, err = ioutil.ReadAll(response.Body)
 	if err != nil {
-		return app, err
+		return app, bytes, err
 	}
 
 	// Check for no app
-	if string(contents) == "null" {
-		return app, ErrNullResponse
+	if string(bytes) == "null" {
+		return app, bytes, ErrNullResponse
 	}
 
 	// Fix values that can change type, causing unmarshal errors
 	var regex *regexp.Regexp
-	var b = string(contents)
+	var s = string(bytes)
 
 	// Convert strings to ints
 	regex = regexp.MustCompile(`:\s?"(\d+)"`) // After colon
-	b = regex.ReplaceAllString(b, `:$1`)
+	s = regex.ReplaceAllString(s, `:$1`)
 
 	regex = regexp.MustCompile(`,\s?"(\d+)"`) // After comma
-	b = regex.ReplaceAllString(b, `,$1`)
+	s = regex.ReplaceAllString(s, `,$1`)
 
 	regex = regexp.MustCompile(`"(\d+)",`) // Before comma
-	b = regex.ReplaceAllString(b, `$1,`)
+	s = regex.ReplaceAllString(s, `$1,`)
 
 	regex = regexp.MustCompile(`"packages":\s?\["(\d+)"\]`) // Package array with single int
-	b = regex.ReplaceAllString(b, `"packages":[$1]`)
+	s = regex.ReplaceAllString(s, `"packages":[$1]`)
 
 	// Make some its strings again
 	regex = regexp.MustCompile(`"date":\s?(\d+)`)
-	b = regex.ReplaceAllString(b, `"date":"$1"`)
+	s = regex.ReplaceAllString(s, `"date":"$1"`)
 
 	regex = regexp.MustCompile(`"name":\s?(\d+)`)
-	b = regex.ReplaceAllString(b, `"name":"$1"`)
+	s = regex.ReplaceAllString(s, `"name":"$1"`)
 
 	regex = regexp.MustCompile(`"description":\s?(\d+)`)
-	b = regex.ReplaceAllString(b, `"description":"$1"`)
+	s = regex.ReplaceAllString(s, `"description":"$1"`)
 
 	regex = regexp.MustCompile(`"display_type":\s?(\d+)`)
-	b = regex.ReplaceAllString(b, `"display_type":"$1"`)
+	s = regex.ReplaceAllString(s, `"display_type":"$1"`)
 
 	regex = regexp.MustCompile(`"legal_notice":\s?(\d+)`)
-	b = regex.ReplaceAllString(b, `"legal_notice":"$1"`)
+	s = regex.ReplaceAllString(s, `"legal_notice":"$1"`)
 
 	// Fix arrays that should be objects
 	// todo, update to regex to use \s?
-	b = strings.Replace(b, "\"pc_requirements\":[]", "\"pc_requirements\":null", 1)
-	b = strings.Replace(b, "\"mac_requirements\":[]", "\"mac_requirements\":null", 1)
-	b = strings.Replace(b, "\"linux_requirements\":[]", "\"linux_requirements\":null", 1)
-	contents = []byte(b)
+	s = strings.Replace(s, "\"pc_requirements\":[]", "\"pc_requirements\":null", 1)
+	s = strings.Replace(s, "\"mac_requirements\":[]", "\"mac_requirements\":null", 1)
+	s = strings.Replace(s, "\"linux_requirements\":[]", "\"linux_requirements\":null", 1)
+	bytes = []byte(s)
 
 	// Unmarshal JSON
-	resp := make(map[string]AppDetailsBody)
-	if err := json.Unmarshal(contents, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(contents))
-		}
-		return app, err
+	resp := map[string]AppDetailsBody{}
+	if err := json.Unmarshal(bytes, &resp); err != nil {
+		return app, bytes, err
 	}
 
 	if resp[idx].Success == false {
-		return app, ErrGhostApp
+		return app, bytes, ErrAppNotFound
 	}
 
-	return resp[idx], nil
+	return resp[idx], bytes, nil
 }
 
 type AppDetailsBody struct {
@@ -108,7 +102,7 @@ type AppDetailsBody struct {
 	Data struct {
 		Type                string `json:"type"`
 		Name                string `json:"name"`
-		SteamAppID          int    `json:"steam_appid"`
+		AppID               int    `json:"steam_appid"`
 		RequiredAge         int    `json:"required_age"`
 		IsFree              bool   `json:"is_free"`
 		DLC                 []int  `json:"dlc"`
@@ -140,7 +134,7 @@ type AppDetailsBody struct {
 		Developers  []string `json:"developers"`
 		Publishers  []string `json:"publishers"`
 		Demos []struct {
-			Appid       int    `json:"appid"`
+			AppID       int    `json:"appid"`
 			Description string `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
@@ -159,7 +153,7 @@ type AppDetailsBody struct {
 			DisplayType             string `json:"display_type"` // Can be string or int
 			IsRecurringSubscription string `json:"is_recurring_subscription"`
 			Subs []struct {
-				Packageid                int    `json:"packageid"`
+				PackageID                int    `json:"packageid"`
 				PercentSavingsText       string `json:"percent_savings_text"`
 				PercentSavings           int    `json:"percent_savings"`
 				OptionText               string `json:"option_text"`
@@ -231,7 +225,7 @@ type AppDetailsCategory struct {
 	Description string `json:"description"`
 }
 
-func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, err error) {
+func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
@@ -244,35 +238,32 @@ func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, err error) {
 
 	response, err := http.Get(path)
 	if err != nil {
-		return pack, err
+		return pack, bytes, err
 	}
 	defer response.Body.Close()
 
 	// Convert to bytes
-	contents, err := ioutil.ReadAll(response.Body)
+	bytes, err = ioutil.ReadAll(response.Body)
 	if err != nil {
-		return pack, err
+		return pack, bytes, err
 	}
 
 	// Check for no pack
-	if string(contents) == "null" {
-		return pack, ErrNullResponse
+	if string(bytes) == "null" {
+		return pack, bytes, ErrNullResponse
 	}
 
 	// Unmarshal JSON
-	resp := make(map[string]PackageDetailsBody)
-	if err := json.Unmarshal(contents, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(contents))
-		}
-		return pack, err
+	resp := map[string]PackageDetailsBody{}
+	if err := json.Unmarshal(bytes, &resp); err != nil {
+		return pack, bytes, err
 	}
 
 	if resp[idx].Success == false {
-		return pack, ErrGhostPackage
+		return pack, bytes, ErrPackageNotFound
 	}
 
-	return resp[idx], nil
+	return resp[idx], bytes, nil
 }
 
 type PackageDetailsBody struct {
@@ -306,44 +297,45 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func GetTags() (tags []steamTag, err error) {
+func GetTags() (tags Tags, bytes []byte, err error) {
 
-	path := "http://store.steampowered.com/tagdata/populartags/english"
-
-	// Get tags names
-	response, err := http.Get(path)
+	response, err := http.Get("http://store.steampowered.com/tagdata/populartags/english")
 	if err != nil {
-		logger.Error(err)
-		return tags, err
+		return tags, bytes, err
 	}
 	defer response.Body.Close()
 
-	// Convert to bytes
-	contents, err := ioutil.ReadAll(response.Body)
+	bytes, err = ioutil.ReadAll(response.Body)
 	if err != nil {
-		logger.Error(err)
-		return tags, err
+		return tags, bytes, err
 	}
 
-	// Unmarshal JSON
-	if err := json.Unmarshal(contents, &tags); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(contents))
-		} else {
-			logger.Error(err)
-		}
-		return tags, err
+	var resp []Tag
+	if err := json.Unmarshal(bytes, &resp); err != nil {
+		return tags, bytes, err
 	}
 
-	return tags, nil
+	return Tags{Tags: resp,}, bytes, nil
 }
 
-type steamTag struct {
+type Tags struct {
+	Tags []Tag `json:"tags"`
+}
+
+func (t Tags) GetIDs() (ids []int) {
+
+	for _, v := range t.Tags {
+		ids = append(ids, v.TagID)
+	}
+	return ids
+}
+
+type Tag struct {
 	TagID int    `json:"tagid"`
 	Name  string `json:"name"`
 }
 
-func GetReviews(appID int) (reviews ReviewsResponse, err error) {
+func GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -358,37 +350,32 @@ func GetReviews(appID int) (reviews ReviewsResponse, err error) {
 
 	response, err := http.Get(path)
 	if err != nil {
-		return reviews, err
+		return reviews, bytes, err
 	}
 	defer response.Body.Close()
 
 	// Convert to bytes
-	contents, err := ioutil.ReadAll(response.Body)
+	bytes, err = ioutil.ReadAll(response.Body)
 	if err != nil {
-		return reviews, err
+		return reviews, bytes, err
 	}
 
-	b := string(contents)
+	s := string(bytes)
 
 	regex := regexp.MustCompile(`"comment_count":\s?"(\d+)"`)
-	b = regex.ReplaceAllString(b, `"comment_count": $1`)
+	s = regex.ReplaceAllString(s, `"comment_count": $1`)
 
 	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	b = regex.ReplaceAllString(b, `"steamid": $1`)
+	s = regex.ReplaceAllString(s, `"steamid": $1`)
 
-	contents = []byte(b)
+	bytes = []byte(s)
 
 	// Unmarshal JSON
-	if err := json.Unmarshal(contents, &reviews); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(contents))
-		} else {
-			logger.Error(err)
-		}
-		return reviews, err
+	if err := json.Unmarshal(bytes, &reviews); err != nil {
+		return reviews, bytes, err
 	}
 
-	return reviews, nil
+	return reviews, bytes, nil
 }
 
 type ReviewsResponse struct {
@@ -397,12 +384,12 @@ type ReviewsResponse struct {
 	Reviews []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author struct {
-			SteamID              int `json:"steamid"`
-			NumGamesOwned        int `json:"num_games_owned"`
-			NumReviews           int `json:"num_reviews"`
-			PlaytimeForever      int `json:"playtime_forever"`
-			PlaytimeLastTwoWeeks int `json:"playtime_last_two_weeks"`
-			LastPlayed           int `json:"last_played"`
+			SteamID              int64 `json:"steamid"`
+			NumGamesOwned        int   `json:"num_games_owned"`
+			NumReviews           int   `json:"num_reviews"`
+			PlaytimeForever      int   `json:"playtime_forever"`
+			PlaytimeLastTwoWeeks int   `json:"playtime_last_two_weeks"`
+			LastPlayed           int   `json:"last_played"`
 		} `json:"author"`
 		Language                 string `json:"language"`
 		Review                   string `json:"review"`

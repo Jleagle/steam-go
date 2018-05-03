@@ -16,7 +16,6 @@ func GetNews(id string) (articles News, bytes []byte, err error) {
 		return articles, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp NewsResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return articles, bytes, err
@@ -36,7 +35,7 @@ type News struct {
 }
 
 type NewsArticle struct {
-	GID           string `json:"gid"`
+	GID           string `json:"gid"` // todo, make int64
 	Title         string `json:"title"`
 	URL           string `json:"url"`
 	IsExternalURL bool   `json:"is_external_url"`

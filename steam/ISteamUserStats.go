@@ -4,38 +4,33 @@ import (
 	"encoding/json"
 	"net/url"
 	"strconv"
-	"strings"
-
-	"github.com/steam-authority/steam-authority/logger"
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func GetGlobalAchievementPercentagesForApp(appID int) (percentages []AchievementPercentage, err error) {
+func GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	bytes, err := get("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options)
+	bytes, err = get("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options)
 	if err != nil {
-		return percentages, err
+		return percentages, bytes, err
 	}
 
-	// Unmarshal JSON
-	var resp GlobalAchievementPercentagesForAppResponse
+	var resp GlobalAchievementPercentagesResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(bytes))
-		}
-		return percentages, err
+		return percentages, bytes, err
 	}
 
-	return resp.AchievementPercentagesOuter.AchievementPercentages, nil
+	return resp.GlobalAchievementPercentagesOuter, bytes, nil
 }
 
-type GlobalAchievementPercentagesForAppResponse struct {
-	AchievementPercentagesOuter struct {
-		AchievementPercentages []AchievementPercentage `json:"achievements"`
-	} `json:"achievementpercentages"`
+type GlobalAchievementPercentagesResponse struct {
+	GlobalAchievementPercentagesOuter GlobalAchievementPercentages `json:"achievementpercentages"`
+}
+
+type GlobalAchievementPercentages struct {
+	GlobalAchievementPercentage []AchievementPercentage `json:"achievements"`
 }
 
 type AchievementPercentage struct {
@@ -44,80 +39,80 @@ type AchievementPercentage struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func GetNumberOfCurrentPlayers(appID int) (players int, err error) {
+func GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	bytes, err := get("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options)
+	bytes, err = get("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options)
 	if err != nil {
-		return players, err
+		return players, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp NumberOfCurrentPlayersResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(bytes))
-		}
-		return players, err
+		return players, bytes, err
 	}
 
-	return resp.Response.PlayerCount, nil
+	return resp.Response.PlayerCount, bytes, nil
 }
 
 type NumberOfCurrentPlayersResponse struct {
-	Response struct {
-		PlayerCount int `json:"player_count"`
-		Result      int `json:"result"`
-	} `json:"response"`
+	Response NumberOfCurrentPlayers `json:"response"`
+}
+
+type NumberOfCurrentPlayers struct {
+	PlayerCount int `json:"player_count"`
+	Result      int `json:"result"`
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func GetSchemaForGame(appID int) (schema GameSchema, err error) {
+func GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	bytes, err := get("ISteamUserStats/GetSchemaForGame/v2", options)
+	bytes, err = get("ISteamUserStats/GetSchemaForGame/v2", options)
 	if err != nil {
-		return schema, err
+		return schema, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp SchemaForGameResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
-		if strings.Contains(err.Error(), "cannot unmarshal") {
-			logger.Info(err.Error() + " - " + string(bytes))
-		}
-		return schema, err
+		return schema, bytes, err
 	}
 
-	return resp.Game, nil
+	return resp.Game, bytes, nil
 }
 
 type SchemaForGameResponse struct {
-	Game GameSchema `json:"game"`
+	Game SchemaForGame `json:"game"`
 }
 
-type GameSchema struct {
-	GameName    string `json:"gameName"`
-	GameVersion string `json:"gameVersion"`
-	AvailableGameStats struct {
-		Stats []struct {
-			Name         string `json:"name"`
-			Defaultvalue int    `json:"defaultvalue"`
-			DisplayName  string `json:"displayName"`
-		} `json:"stats"`
-		Achievements []struct {
-			Name         string `json:"name"`
-			Defaultvalue int    `json:"defaultvalue"`
-			DisplayName  string `json:"displayName"`
-			Hidden       int    `json:"hidden"`
-			Description  string `json:"description"`
-			Icon         string `json:"icon"`
-			Icongray     string `json:"icongray"`
-		} `json:"achievements"`
-	} `json:"availableGameStats"`
+type SchemaForGame struct {
+	Name               string             `json:"gameName"`
+	Version            string             `json:"gameVersion"`
+	AvailableGameStats SchemaForGameGroup `json:"availableGameStats"`
+}
+
+type SchemaForGameGroup struct {
+	Stats        []SchemaForGameStats        `json:"stats"`
+	Achievements []SchemaForGameAchievements `json:"achievements"`
+}
+
+type SchemaForGameStats struct {
+	Name         string `json:"name"`
+	DefaultValue int    `json:"defaultvalue"`
+	DisplayName  string `json:"displayName"`
+}
+
+type SchemaForGameAchievements struct {
+	Name         string `json:"name"`
+	DefaultValue int    `json:"defaultvalue"`
+	DisplayName  string `json:"displayName"`
+	Hidden       int8    `json:"hidden"`
+	Description  string `json:"description"`
+	Icon         string `json:"icon"`
+	IconGray     string `json:"icongray"`
 }

@@ -6,6 +6,7 @@ import (
 	"strconv"
 )
 
+// Gets information about a player's recently played games
 func GetRecentlyPlayedGames(playerID int) (games RecentlyPlayedGames, bytes []byte, err error) {
 
 	options := url.Values{}
@@ -17,7 +18,6 @@ func GetRecentlyPlayedGames(playerID int) (games RecentlyPlayedGames, bytes []by
 		return games, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp RecentlyPlayedGamesResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -58,7 +58,6 @@ func GetOwnedGames(id int) (games OwnedGames, bytes []byte, err error) {
 		return games, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp OwnedGamesResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -97,7 +96,6 @@ func GetSteamLevel(id int) (level int, bytes []byte, err error) {
 		return level, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp LevelResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -124,7 +122,6 @@ func GetBadges(id int) (badges BadgesInfo, bytes []byte, err error) {
 		return badges, bytes, err
 	}
 
-	// Unmarshal JSON
 	var resp BadgesResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
