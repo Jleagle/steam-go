@@ -46,10 +46,10 @@ type RecentlyPlayedGame struct {
 }
 
 // Return a list of games owned by the player
-func (s Steam) GetOwnedGames(id int64) (games OwnedGames, bytes []byte, err error) {
+func (s Steam) GetOwnedGames(playerID int64) (games OwnedGames, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamid", strconv.FormatInt(id, 10))
+	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("include_appinfo", "1")
 	options.Set("include_played_free_games", "1")
 
@@ -86,10 +86,10 @@ type OwnedGame struct {
 }
 
 // Returns the Steam Level of a user
-func (s Steam) GetSteamLevel(id int64) (level int, bytes []byte, err error) {
+func (s Steam) GetSteamLevel(playerID int64) (level int, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamid", strconv.FormatInt(id, 10))
+	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options)
 	if err != nil {
@@ -112,10 +112,10 @@ type LevelResponse struct {
 }
 
 // Gets badges that are owned by a specific user
-func (s Steam) GetBadges(id int64) (badges BadgesInfo, bytes []byte, err error) {
+func (s Steam) GetBadges(playerID int64) (badges BadgesInfo, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamid", strconv.FormatInt(id, 10))
+	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("IPlayerService/GetBadges/v1", options)
 	if err != nil {

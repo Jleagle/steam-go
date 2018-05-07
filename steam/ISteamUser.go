@@ -12,10 +12,10 @@ var (
 	ErrNoUserFound = errors.New("no user found")
 )
 
-func (s Steam) GetFriendList(id int) (friends FriendsList, bytes []byte, err error) {
+func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamid", strconv.Itoa(id))
+	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("relationship", "friend")
 
 	bytes, err = s.getFromAPI("ISteamUser/GetFriendList/v1/", options)
