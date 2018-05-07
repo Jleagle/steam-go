@@ -3,8 +3,6 @@ package steam
 import (
 	"encoding/json"
 	"errors"
-	"io/ioutil"
-	"net/http"
 	"net/url"
 	"regexp"
 	"strconv"
@@ -17,7 +15,7 @@ var (
 	ErrNullResponse    = errors.New("steam: store: null response")
 )
 
-func GetAppDetailsFromStore(id int) (app AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetailsFromStore(id int) (app AppDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
@@ -26,15 +24,7 @@ func GetAppDetailsFromStore(id int) (app AppDetailsBody, bytes []byte, err error
 	query.Set("cc", "us") // Currency
 	query.Set("l", "en")  // Language
 
-	path := "http://store.steampowered.com/api/appdetails?" + query.Encode()
-
-	response, err := http.Get(path)
-	if err != nil {
-		return app, bytes, err
-	}
-	defer response.Body.Close()
-
-	bytes, err = ioutil.ReadAll(response.Body)
+	bytes, err = s.getFromStore("api/appdetails", query)
 	if err != nil {
 		return app, bytes, err
 	}
@@ -46,43 +36,43 @@ func GetAppDetailsFromStore(id int) (app AppDetailsBody, bytes []byte, err error
 
 	// Fix values that can change type, causing unmarshal errors
 	var regex *regexp.Regexp
-	var s = string(bytes)
+	var str = string(bytes)
 
 	// Convert strings to ints
 	regex = regexp.MustCompile(`:\s?"(\d+)"`) // After colon
-	s = regex.ReplaceAllString(s, `:$1`)
+	str = regex.ReplaceAllString(str, `:$1`)
 
 	regex = regexp.MustCompile(`,\s?"(\d+)"`) // After comma
-	s = regex.ReplaceAllString(s, `,$1`)
+	str = regex.ReplaceAllString(str, `,$1`)
 
 	regex = regexp.MustCompile(`"(\d+)",`) // Before comma
-	s = regex.ReplaceAllString(s, `$1,`)
+	str = regex.ReplaceAllString(str, `$1,`)
 
-	regex = regexp.MustCompile(`"packages":\s?\["(\d+)"\]`) // Package array with single int
-	s = regex.ReplaceAllString(s, `"packages":[$1]`)
+	regex = regexp.MustCompile(`"packages":\s?\["(\d+)"]`) // Package array with single int
+	str = regex.ReplaceAllString(str, `"packages":[$1]`)
 
 	// Make some its strings again
 	regex = regexp.MustCompile(`"date":\s?(\d+)`)
-	s = regex.ReplaceAllString(s, `"date":"$1"`)
+	str = regex.ReplaceAllString(str, `"date":"$1"`)
 
 	regex = regexp.MustCompile(`"name":\s?(\d+)`)
-	s = regex.ReplaceAllString(s, `"name":"$1"`)
+	str = regex.ReplaceAllString(str, `"name":"$1"`)
 
 	regex = regexp.MustCompile(`"description":\s?(\d+)`)
-	s = regex.ReplaceAllString(s, `"description":"$1"`)
+	str = regex.ReplaceAllString(str, `"description":"$1"`)
 
 	regex = regexp.MustCompile(`"display_type":\s?(\d+)`)
-	s = regex.ReplaceAllString(s, `"display_type":"$1"`)
+	str = regex.ReplaceAllString(str, `"display_type":"$1"`)
 
 	regex = regexp.MustCompile(`"legal_notice":\s?(\d+)`)
-	s = regex.ReplaceAllString(s, `"legal_notice":"$1"`)
+	str = regex.ReplaceAllString(str, `"legal_notice":"$1"`)
 
 	// Fix arrays that should be objects
-	// todo, update to regex to use \s?
-	s = strings.Replace(s, "\"pc_requirements\":[]", "\"pc_requirements\":null", 1)
-	s = strings.Replace(s, "\"mac_requirements\":[]", "\"mac_requirements\":null", 1)
-	s = strings.Replace(s, "\"linux_requirements\":[]", "\"linux_requirements\":null", 1)
-	bytes = []byte(s)
+	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":null", 1)
+	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":null", 1)
+	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":null", 1)
+
+	bytes = []byte(str)
 
 	// Unmarshal JSON
 	resp := map[string]AppDetailsBody{}
@@ -225,7 +215,7 @@ type AppDetailsCategory struct {
 	Description string `json:"description"`
 }
 
-func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
@@ -234,16 +224,7 @@ func GetPackageDetailsFromStore(id int) (pack PackageDetailsBody, bytes []byte, 
 	query.Set("cc", "us") // Currency
 	query.Set("l", "en")  // Language
 
-	path := "http://store.steampowered.com/api/packagedetails?" + query.Encode()
-
-	response, err := http.Get(path)
-	if err != nil {
-		return pack, bytes, err
-	}
-	defer response.Body.Close()
-
-	// Convert to bytes
-	bytes, err = ioutil.ReadAll(response.Body)
+	bytes, err = s.getFromStore("api/packagedetails", query)
 	if err != nil {
 		return pack, bytes, err
 	}
@@ -297,15 +278,9 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func GetTags() (tags Tags, bytes []byte, err error) {
+func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
 
-	response, err := http.Get("http://store.steampowered.com/tagdata/populartags/english")
-	if err != nil {
-		return tags, bytes, err
-	}
-	defer response.Body.Close()
-
-	bytes, err = ioutil.ReadAll(response.Body)
+	bytes, err = s.getFromStore("tagdata/populartags/english", url.Values{})
 	if err != nil {
 		return tags, bytes, err
 	}
@@ -335,7 +310,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err error) {
+func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -346,29 +321,20 @@ func GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err error) {
 	query.Set("review_type", "all")
 	query.Set("purchase_type", "all")
 
-	path := "http://store.steampowered.com/appreviews/" + strconv.Itoa(appID) + "?" + query.Encode()
-
-	response, err := http.Get(path)
-	if err != nil {
-		return reviews, bytes, err
-	}
-	defer response.Body.Close()
-
-	// Convert to bytes
-	bytes, err = ioutil.ReadAll(response.Body)
+	bytes, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
 		return reviews, bytes, err
 	}
 
-	s := string(bytes)
+	str := string(bytes)
 
 	regex := regexp.MustCompile(`"comment_count":\s?"(\d+)"`)
-	s = regex.ReplaceAllString(s, `"comment_count": $1`)
+	str = regex.ReplaceAllString(str, `"comment_count": $1`)
 
 	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	s = regex.ReplaceAllString(s, `"steamid": $1`)
+	str = regex.ReplaceAllString(str, `"steamid": $1`)
 
-	bytes = []byte(s)
+	bytes = []byte(str)
 
 	// Unmarshal JSON
 	if err := json.Unmarshal(bytes, &reviews); err != nil {

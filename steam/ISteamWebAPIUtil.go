@@ -6,9 +6,9 @@ import (
 )
 
 // Gets the list of supported API calls. This is used to build this documentation.
-func GetSupportedAPIList() (percentages APIInterfaces, err error) {
+func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, err error) {
 
-	bytes, err := get("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{})
+	bytes, err := s.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{})
 	if err != nil {
 		return percentages, err
 	}

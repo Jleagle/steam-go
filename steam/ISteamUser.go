@@ -6,28 +6,33 @@ import (
 	"net/url"
 	"regexp"
 	"strconv"
-	"strings"
 )
 
 var (
 	ErrNoUserFound = errors.New("no user found")
 )
 
-func GetFriendList(id int) (friends FriendsList, bytes []byte, err error) {
+func (s Steam) GetFriendList(id int) (friends FriendsList, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(id))
 	options.Set("relationship", "friend")
 
-	bytes, err = get("ISteamUser/GetFriendList/v1/", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetFriendList/v1/", options)
 	if err != nil {
 		return friends, bytes, err
 	}
 
-	if strings.Contains(string(bytes), "Internal Server Error") {
-		return friends, bytes, ErrNoUserFound
-	}
+	// Regex
+	var regex *regexp.Regexp
+	var str = string(bytes)
 
+	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"steamid": $1`)
+
+	bytes = []byte(str)
+
+	// Unmarhsal
 	var resp FriendListResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return friends, bytes, err
@@ -45,23 +50,32 @@ type FriendsList struct {
 }
 
 type Friend struct {
-	SteamID      string `json:"steamid"` // todo, should be int64
+	SteamID      int64  `json:"steamid"`
 	Relationship string `json:"relationship"`
-	FriendSince  int    `json:"friend_since"`
+	FriendSince  int64  `json:"friend_since"`
 }
 
-// todo, return SteamID as int64
-func ResolveVanityURL(id string) (info VanityURL, bytes []byte, err error) {
+func (s Steam) ResolveVanityURL(id string) (info VanityURL, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("vanityurl", id)
 	options.Set("url_type", "1") // 1 (default): Individual profile, 2: Group, 3: Official game group
 
-	bytes, err = get("ISteamUser/ResolveVanityURL/v1/", options)
+	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1/", options)
 	if err != nil {
 		return info, bytes, err
 	}
 
+	// Regex
+	var regex *regexp.Regexp
+	var str = string(bytes)
+
+	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"steamid": $1`)
+
+	bytes = []byte(str)
+
+	// Unmarhsal
 	var resp VanityURLRepsonse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return info, bytes, err
@@ -79,32 +93,34 @@ type VanityURLRepsonse struct {
 }
 
 type VanityURL struct {
-	SteamID string `json:"steamid"` // todo, make int64
+	SteamID int64  `json:"steamid"`
 	Success int8   `json:"success"`
 	Message string `json:"message"`
 }
 
-func GetPlayer(id int) (player PlayerSummary, bytes []byte, err error) {
+func (s Steam) GetPlayer(id int) (player PlayerSummary, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.Itoa(id))
 
-	bytes, err = get("ISteamUser/GetPlayerSummaries/v2/", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2/", options)
 	if err != nil {
 		return player, bytes, err
 	}
 
+	// Regex
 	var regex *regexp.Regexp
-	var s = string(bytes)
+	var str = string(bytes)
 
 	regex = regexp.MustCompile(`"primaryclanid":\s?"(\d+)"`)
-	s = regex.ReplaceAllString(s, `"primaryclanid": $1`)
+	str = regex.ReplaceAllString(str, `"primaryclanid": $1`)
 
 	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	s = regex.ReplaceAllString(s, `"steamid": $1`)
+	str = regex.ReplaceAllString(str, `"steamid": $1`)
 
-	bytes = []byte(s)
+	bytes = []byte(str)
 
+	// Unmarshal
 	var resp PlayerResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return player, bytes, err
@@ -145,16 +161,26 @@ type PlayerSummary struct {
 	LOCStateCode             string `json:"locstatecode"`
 }
 
-func GetPlayerBans(id int) (bans GetPlayerBanResponse, bytes []byte, err error) {
+func (s Steam) GetPlayerBans(id int) (bans GetPlayerBanResponse, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.Itoa(id))
 
-	bytes, err = get("ISteamUser/GetPlayerBans/v1", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetPlayerBans/v1", options)
 	if err != nil {
 		return bans, bytes, err
 	}
 
+	// Regex
+	var regex *regexp.Regexp
+	var str = string(bytes)
+
+	regex = regexp.MustCompile(`"SteamId":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"SteamId": $1`)
+
+	bytes = []byte(str)
+
+	// Unmarshal
 	var resp GetPlayerBansResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -173,7 +199,7 @@ type GetPlayerBansResponse struct {
 }
 
 type GetPlayerBanResponse struct {
-	SteamID          string `json:"SteamId"` // todo, make int64
+	SteamID          int64  `json:"SteamId"`
 	CommunityBanned  bool   `json:"CommunityBanned"`
 	VACBanned        bool   `json:"VACBanned"`
 	NumberOfVACBans  int    `json:"NumberOfVACBans"`
@@ -182,17 +208,26 @@ type GetPlayerBanResponse struct {
 	EconomyBan       string `json:"EconomyBan"`
 }
 
-// todo, regex the ids into ints
-func GetUserGroupList(id int) (groups UserGroupList, bytes []byte, err error) {
+func (s Steam) GetUserGroupList(id int) (groups UserGroupList, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(id))
 
-	bytes, err = get("ISteamUser/GetUserGroupList/v1", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetUserGroupList/v1", options)
 	if err != nil {
 		return groups, bytes, err
 	}
 
+	// Regex
+	var regex *regexp.Regexp
+	var str = string(bytes)
+
+	regex = regexp.MustCompile(`"gid":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"gid": $1`)
+
+	bytes = []byte(str)
+
+	// Unmarshal
 	var resp UserGroupListResponse
 	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
@@ -217,12 +252,11 @@ type UserGroupList struct {
 
 func (u UserGroupList) GetIDs() (ids []int) {
 	for _, v := range u.Groups {
-		gidx, _ := strconv.Atoi(v.GID)
-		ids = append(ids, gidx)
+		ids = append(ids, v.GID)
 	}
 	return ids
 }
 
 type UserGroup struct {
-	GID string `json:"gid"`
+	GID int `json:"gid"`
 }

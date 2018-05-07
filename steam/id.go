@@ -7,13 +7,13 @@ import (
 	"strconv"
 )
 
-func GetID(in string) (out int64, err error) {
+func (s Steam) GetID(in string) (out int64, err error) {
 
-	if regexp.MustCompile(`^STEAM_(0|1):(0|1):[0-9][0-9]{0,8}$`).MatchString(in) { // STEAM_0:0:4180232
+	if regexp.MustCompile(`^STEAM_([01]):([01]):[0-9][0-9]{0,8}$`).MatchString(in) { // STEAM_0:0:4180232
 
 		return convert0to64(in), nil
 
-	} else if regexp.MustCompile(`(\[)?U:1:\d+(\])?`).MatchString(in) { // [U:1:8360464]
+	} else if regexp.MustCompile(`(\[)?U:1:\d+(])?`).MatchString(in) { // [U:1:8360464]
 
 		return convert3to64(in), nil
 
@@ -31,7 +31,7 @@ func GetID(in string) (out int64, err error) {
 
 	} else {
 
-		resp, _, err := ResolveVanityURL(in)
+		resp, _, err := s.ResolveVanityURL(in)
 		if err != nil {
 			return out, err
 		}

@@ -7,12 +7,12 @@ import (
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, bytes []byte, err error) {
+func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	bytes, err = get("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options)
 	if err != nil {
 		return percentages, bytes, err
 	}
@@ -39,12 +39,12 @@ type AchievementPercentage struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, err error) {
+func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	bytes, err = get("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options)
 	if err != nil {
 		return players, bytes, err
 	}
@@ -67,13 +67,13 @@ type NumberOfCurrentPlayers struct {
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, err error) {
+func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	bytes, err = get("ISteamUserStats/GetSchemaForGame/v2", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options)
 	if err != nil {
 		return schema, bytes, err
 	}
@@ -111,7 +111,7 @@ type SchemaForGameAchievements struct {
 	Name         string `json:"name"`
 	DefaultValue int    `json:"defaultvalue"`
 	DisplayName  string `json:"displayName"`
-	Hidden       int8    `json:"hidden"`
+	Hidden       int8   `json:"hidden"`
 	Description  string `json:"description"`
 	Icon         string `json:"icon"`
 	IconGray     string `json:"icongray"`

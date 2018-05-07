@@ -5,9 +5,9 @@ import (
 	"net/url"
 )
 
-func GetAppList() (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList() (apps AppList, bytes []byte, err error) {
 
-	bytes, err = get("ISteamApps/GetAppList/v2/", url.Values{})
+	bytes, err = s.getFromAPI("ISteamApps/GetAppList/v2", url.Values{})
 	if err != nil {
 		return apps, bytes, err
 	}

@@ -3,19 +3,30 @@ package steam
 import (
 	"encoding/json"
 	"net/url"
+	"regexp"
 )
 
-func GetNews(id string) (articles News, bytes []byte, err error) {
+func (s Steam) GetNews(id string) (articles News, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", id)
 	options.Set("count", "20")
 
-	bytes, err = get("ISteamNews/GetNewsForApp/v2/", options)
+	bytes, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options)
 	if err != nil {
 		return articles, bytes, err
 	}
 
+	// Regex
+	var regex *regexp.Regexp
+	var str = string(bytes)
+
+	regex = regexp.MustCompile(`"gid":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"gid": $1`)
+
+	bytes = []byte(str)
+
+	// Unmarshal
 	var resp NewsResponse
 	if err := json.Unmarshal(bytes, &resp); err != nil {
 		return articles, bytes, err
@@ -35,7 +46,7 @@ type News struct {
 }
 
 type NewsArticle struct {
-	GID           string `json:"gid"` // todo, make int64
+	GID           int64  `json:"gid"`
 	Title         string `json:"title"`
 	URL           string `json:"url"`
 	IsExternalURL bool   `json:"is_external_url"`

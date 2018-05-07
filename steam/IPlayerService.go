@@ -7,13 +7,13 @@ import (
 )
 
 // Gets information about a player's recently played games
-func GetRecentlyPlayedGames(playerID int) (games RecentlyPlayedGames, bytes []byte, err error) {
+func (s Steam) GetRecentlyPlayedGames(playerID int) (games RecentlyPlayedGames, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(playerID))
 	options.Set("count", "0")
 
-	bytes, err = get("IPlayerService/GetRecentlyPlayedGames/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -46,14 +46,14 @@ type RecentlyPlayedGame struct {
 }
 
 // Return a list of games owned by the player
-func GetOwnedGames(id int) (games OwnedGames, bytes []byte, err error) {
+func (s Steam) GetOwnedGames(id int) (games OwnedGames, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(id))
 	options.Set("include_appinfo", "1")
 	options.Set("include_played_free_games", "1")
 
-	bytes, err = get("IPlayerService/GetOwnedGames/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetOwnedGames/v1", options)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -86,12 +86,12 @@ type OwnedGame struct {
 }
 
 // Returns the Steam Level of a user
-func GetSteamLevel(id int) (level int, bytes []byte, err error) {
+func (s Steam) GetSteamLevel(id int) (level int, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(id))
 
-	bytes, err = get("IPlayerService/GetSteamLevel/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options)
 	if err != nil {
 		return level, bytes, err
 	}
@@ -112,12 +112,12 @@ type LevelResponse struct {
 }
 
 // Gets badges that are owned by a specific user
-func GetBadges(id int) (badges BadgesInfo, bytes []byte, err error) {
+func (s Steam) GetBadges(id int) (badges BadgesInfo, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.Itoa(id))
 
-	bytes, err = get("IPlayerService/GetBadges/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetBadges/v1", options)
 	if err != nil {
 		return badges, bytes, err
 	}
