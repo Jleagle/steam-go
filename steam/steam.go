@@ -52,15 +52,36 @@ func init() {
 }
 
 var statusCodes = map[int]string{
-	200: "Success!",
-	400: "Please verify that all required parameters are being sent.",
-	401: "Access is denied. Retrying will not help. Please verify your key= parameter.",
-	403: "Access is denied. Retrying will not help. Please verify your key= parameter.",
-	404: "The API requested does not exists.",
-	405: "This API has been called with a the wrong HTTP method like GET or PUSH.",
-	429: "You are being rate limited.",
-	500: "An unrecoverable error has occurred, please try again.If this continues to persist then please post to the Steamworks developer discussion with additional details of your request.",
-	503: "Server is temporarily unavailable, or too busy to respond.Please wait and try again later.",
+	400: "steam: please verify that all required parameters are being sent.",
+	401: "steam: access is denied. retrying will not help. please verify your key= parameter.",
+	403: "steam: access is denied. retrying will not help. please verify your key= parameter.",
+	404: "steam: the api requested does not exists.",
+	405: "steam: this api has been called with a the wrong http method like get or push.",
+	429: "steam: you are being rate limited.",
+	500: "steam: an unrecoverable error has occurred, please try again. if this continues to persist then please post to the steamworks developer discussion with additional details of your request.",
+	503: "steam: server is temporarily unavailable, or too busy to respond. please wait and try again later.",
+}
+
+type Error struct {
+	err  string
+	code int
+}
+
+func (e Error) Error() string {
+	return e.err
+}
+
+func (e Error) Code() int {
+	return e.code
+}
+
+func (e Error) IsHardFail() bool {
+	for _, v := range []int{400, 401, 403, 404, 405} {
+		if v == e.code {
+			return true
+		}
+	}
+	return false
 }
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
@@ -91,7 +112,10 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	// Handle errors
 	if response.StatusCode != 200 {
 		if val, ok := statusCodes[response.StatusCode]; ok {
-			return bytes, errors.New(val)
+			return bytes, Error{
+				err:  val,
+				code: response.StatusCode,
+			}
 		} else {
 			return bytes, errors.New("steam: something went wrong")
 		}
