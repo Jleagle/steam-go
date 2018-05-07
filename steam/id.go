@@ -31,7 +31,9 @@ func (s Steam) GetID(in string) (out int64, err error) {
 
 	} else {
 
-		resp, _, err := s.ResolveVanityURL(in)
+		id, err := strconv.ParseInt(in, 10, 64)
+
+		resp, _, err := s.ResolveVanityURL(id)
 		if err != nil {
 			return out, err
 		}
