@@ -9,10 +9,10 @@ import (
 )
 
 type Steam struct {
-	key        string      // API key
-	throttle   bool        // Rate limit calls
-	logChannel chan string // channel to return call URLs
-	format     string      // json, vdf, xml
+	Key        string      // API key
+	Throttle   bool        // Rate limit calls
+	LogChannel chan string // channel to return call URLs
+	Format     string      // json, vdf, xml
 }
 
 var (
@@ -65,21 +65,21 @@ var statusCodes = map[int]string{
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.throttle {
+	if s.Throttle {
 		<-apiThrottle
 	}
 
-	if s.format == "" {
-		s.format = "json"
+	if s.Format == "" {
+		s.Format = "json"
 	}
 
-	query.Add("format", s.format)
-	query.Add("key", s.key)
+	query.Add("format", s.Format)
+	query.Add("key", s.Key)
 
 	path = "http://api.steampowered.com/" + path + "?" + query.Encode()
 
-	if s.logChannel != nil {
-		s.logChannel <- path
+	if s.LogChannel != nil {
+		s.LogChannel <- path
 	}
 
 	response, err := http.Get(path)
@@ -108,14 +108,14 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.throttle {
+	if s.Throttle {
 		<-storeThrottle
 	}
 
 	path = "http://store.steampowered.com/" + path + "?" + query.Encode()
 
-	if s.logChannel != nil {
-		s.logChannel <- path
+	if s.LogChannel != nil {
+		s.LogChannel <- path
 	}
 
 	response, err := http.Get(path)
