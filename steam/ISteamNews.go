@@ -7,10 +7,10 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetNews(appID int64) (articles News, bytes []byte, err error) {
+func (s Steam) GetNews(appID int) (articles News, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("appid", strconv.FormatInt(appID, 10))
+	options.Set("appid", strconv.Itoa(appID))
 	options.Set("count", "20")
 
 	bytes, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options)
