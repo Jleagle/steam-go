@@ -55,10 +55,10 @@ type Friend struct {
 	FriendSince  int64  `json:"friend_since"`
 }
 
-func (s Steam) ResolveVanityURL(id string) (info VanityURL, bytes []byte, err error) {
+func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("vanityurl", id)
+	options.Set("vanityurl", strconv.FormatInt(playerID, 10))
 	options.Set("url_type", "1") // 1 (default): Individual profile, 2: Group, 3: Official game group
 
 	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1/", options)
@@ -98,10 +98,10 @@ type VanityURL struct {
 	Message string `json:"message"`
 }
 
-func (s Steam) GetPlayer(id int) (player PlayerSummary, bytes []byte, err error) {
+func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamids", strconv.Itoa(id))
+	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2/", options)
 	if err != nil {
@@ -161,10 +161,10 @@ type PlayerSummary struct {
 	LOCStateCode             string `json:"locstatecode"`
 }
 
-func (s Steam) GetPlayerBans(id int) (bans GetPlayerBanResponse, bytes []byte, err error) {
+func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamids", strconv.Itoa(id))
+	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("ISteamUser/GetPlayerBans/v1", options)
 	if err != nil {
@@ -208,10 +208,10 @@ type GetPlayerBanResponse struct {
 	EconomyBan       string `json:"EconomyBan"`
 }
 
-func (s Steam) GetUserGroupList(id int) (groups UserGroupList, bytes []byte, err error) {
+func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("steamid", strconv.Itoa(id))
+	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("ISteamUser/GetUserGroupList/v1", options)
 	if err != nil {
