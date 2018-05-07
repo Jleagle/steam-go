@@ -18,7 +18,7 @@ func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte,
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("relationship", "friend")
 
-	bytes, err = s.getFromAPI("ISteamUser/GetFriendList/v1/", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetFriendList/v1", options)
 	if err != nil {
 		return friends, bytes, err
 	}
@@ -61,7 +61,7 @@ func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, e
 	options.Set("vanityurl", strconv.FormatInt(playerID, 10))
 	options.Set("url_type", "1") // 1 (default): Individual profile, 2: Group, 3: Official game group
 
-	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1/", options)
+	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1", options)
 	if err != nil {
 		return info, bytes, err
 	}
@@ -103,7 +103,7 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, er
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2/", options)
+	bytes, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2", options)
 	if err != nil {
 		return player, bytes, err
 	}
