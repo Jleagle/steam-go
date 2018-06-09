@@ -6,13 +6,13 @@ import (
 	"strconv"
 )
 
-type GetAppList struct {
+type GetAppListOptions struct {
 	ModifiedAfter int64
 	AfterAppID    int
-	MaxResults    int // 10,000 default
+	MaxResults    int // 10000 default
 }
 
-func (s Steam) GetAppList(options GetAppList) (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList(options GetAppListOptions) (apps AppList, bytes []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
