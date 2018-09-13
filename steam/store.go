@@ -381,10 +381,10 @@ type ReviewsSummaryResponse struct {
 	TotalReviews    int     `json:"total_reviews"`
 }
 
-func (r ReviewsSummaryResponse) GetPositivePerent() float64 {
+func (r ReviewsSummaryResponse) GetPositivePercent() float64 {
 	return float64(r.TotalPositive) / float64(r.TotalReviews) * 100
 }
 
-func (r ReviewsSummaryResponse) GetNegativePerent() float64 {
+func (r ReviewsSummaryResponse) GetNegativePercent() float64 {
 	return float64(r.TotalNegative) / float64(r.TotalReviews) * 100
 }
