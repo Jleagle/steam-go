@@ -3,8 +3,8 @@ package steam
 import (
 	"math/big"
 	"regexp"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func (s Steam) GetID(in string) (out int64, err error) {

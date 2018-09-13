@@ -89,7 +89,7 @@ func (s Steam) GetAppDetails(id int) (app AppDetailsBody, bytes []byte, err erro
 
 type AppDetailsBody struct {
 	Success bool `json:"success"`
-	Data struct {
+	Data    struct {
 		Type                string `json:"type"`
 		Name                string `json:"name"`
 		AppID               int    `json:"steam_appid"`
@@ -100,7 +100,7 @@ type AppDetailsBody struct {
 		DetailedDescription string `json:"detailed_description"`
 		AboutTheGame        string `json:"about_the_game"`
 		ShortDescription    string `json:"short_description"`
-		Fullgame struct {
+		Fullgame            struct {
 			AppID int    `json:"appid"`
 			Name  string `json:"name"`
 		} `json:"fullgame"`
@@ -108,7 +108,7 @@ type AppDetailsBody struct {
 		Reviews            string `json:"reviews"`
 		HeaderImage        string `json:"header_image"`
 		Website            string `json:"website"`
-		PcRequirements struct {
+		PcRequirements     struct {
 			Minimum     string `json:"minimum"`
 			Recommended string `json:"recommended"`
 		} `json:"pc_requirements"`
@@ -123,7 +123,7 @@ type AppDetailsBody struct {
 		LegalNotice string   `json:"legal_notice"`
 		Developers  []string `json:"developers"`
 		Publishers  []string `json:"publishers"`
-		Demos []struct {
+		Demos       []struct {
 			AppID       int    `json:"appid"`
 			Description string `json:"description"`
 		} `json:"demos"`
@@ -133,7 +133,7 @@ type AppDetailsBody struct {
 			Final           int    `json:"final"`
 			DiscountPercent int    `json:"discount_percent"`
 		} `json:"price_overview"`
-		Packages []int `json:"packages"`
+		Packages      []int `json:"packages"`
 		PackageGroups []struct {
 			Name                    string `json:"name"`
 			Title                   string `json:"title"`
@@ -142,7 +142,7 @@ type AppDetailsBody struct {
 			SaveText                string `json:"save_text"`
 			DisplayType             string `json:"display_type"` // Can be string or int
 			IsRecurringSubscription string `json:"is_recurring_subscription"`
-			Subs []struct {
+			Subs                    []struct {
 				PackageID                int    `json:"packageid"`
 				PercentSavingsText       string `json:"percent_savings_text"`
 				PercentSavings           int    `json:"percent_savings"`
@@ -165,11 +165,11 @@ type AppDetailsBody struct {
 		Categories  []AppDetailsCategory   `json:"categories"`
 		Genres      []AppDetailsGenre      `json:"genres"`
 		Screenshots []AppDetailsScreenshot `json:"screenshots"`
-		Movies []struct {
+		Movies      []struct {
 			ID        int    `json:"id"`
 			Name      string `json:"name"`
 			Thumbnail string `json:"thumbnail"`
-			Webm struct {
+			Webm      struct {
 				Num480 string `json:"480"`
 				Max    string `json:"max"`
 			} `json:"webm"`
@@ -179,7 +179,7 @@ type AppDetailsBody struct {
 			Total int `json:"total"`
 		} `json:"recommendations"`
 		Achievements AppDetailsAchievements `json:"achievements"`
-		ReleaseDate struct {
+		ReleaseDate  struct {
 			ComingSoon bool   `json:"coming_soon"`
 			Date       string `json:"date"`
 		} `json:"release_date"`
@@ -198,7 +198,7 @@ type AppDetailsScreenshot struct {
 }
 
 type AppDetailsAchievements struct {
-	Total int `json:"total"`
+	Total       int `json:"total"`
 	Highlighted []struct {
 		Name string `json:"name"`
 		Path string `json:"path"`
@@ -249,12 +249,12 @@ func (s Steam) GetPackageDetails(id int) (pack PackageDetailsBody, bytes []byte,
 
 type PackageDetailsBody struct {
 	Success bool `json:"success"`
-	Data struct {
+	Data    struct {
 		Name        string `json:"name"`
 		PageImage   string `json:"page_image"`
 		HeaderImage string `json:"header_image"`
 		SmallLogo   string `json:"small_logo"`
-		Apps []struct {
+		Apps        []struct {
 			ID   int    `json:"id"`
 			Name string `json:"name"`
 		} `json:"apps"`
@@ -270,7 +270,7 @@ type PackageDetailsBody struct {
 			Mac     bool `json:"mac"`
 			Linux   bool `json:"linux"`
 		} `json:"platforms"`
-		Controller map[string]bool `json:"controller"`
+		Controller  map[string]bool `json:"controller"`
 		ReleaseDate struct {
 			ComingSoon bool   `json:"coming_soon"`
 			Date       string `json:"date"`
@@ -347,9 +347,9 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 type ReviewsResponse struct {
 	Success      int                    `json:"success"`
 	QuerySummary ReviewsSummaryResponse `json:"query_summary"`
-	Reviews []struct {
+	Reviews      []struct {
 		Recommendationid string `json:"recommendationid"`
-		Author struct {
+		Author           struct {
 			SteamID              int64 `json:"steamid"`
 			NumGamesOwned        int   `json:"num_games_owned"`
 			NumReviews           int   `json:"num_reviews"`
