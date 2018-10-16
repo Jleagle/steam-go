@@ -86,7 +86,7 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	return ioutil.ReadAll(response.Body)
 }
 
-func (s Steam) initThrottle() {
+func (s *Steam) initThrottle() {
 	if s.RateLimit > 0 && s.apiThrottle == nil {
 		s.apiThrottle = ratelimit.New(s.RateLimit)
 		s.storeThrottle = ratelimit.New(s.RateLimit)
