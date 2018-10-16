@@ -2,10 +2,11 @@ package steam
 
 import (
 	"errors"
-	"go.uber.org/ratelimit"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+
+	"go.uber.org/ratelimit"
 )
 
 var statusCodes = map[int]string{
