@@ -15,14 +15,14 @@ var (
 	ErrNullResponse    = errors.New("steam: store: null response")
 )
 
-func (s Steam) GetAppDetails(id int) (app AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app AppDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
 	query := url.Values{}
 	query.Set("appids", idx)
-	query.Set("cc", "us") // 2 letter country code
-	query.Set("l", "en")  // Language
+	query.Set("cc", string(code)) // Used for code
+	query.Set("l", string(language))
 
 	bytes, err = s.getFromStore("api/appdetails", query)
 	if err != nil {
@@ -215,14 +215,14 @@ type AppDetailsCategory struct {
 	Description string `json:"description"`
 }
 
-func (s Steam) GetPackageDetails(id int) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (pack PackageDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
 	query := url.Values{}
 	query.Set("packageids", idx)
-	query.Set("cc", "us") // 2 letter country code
-	query.Set("l", "en")  // Language
+	query.Set("cc", string(code)) // Used for currency
+	query.Set("l", string(language))
 
 	bytes, err = s.getFromStore("api/packagedetails", query)
 	if err != nil {
