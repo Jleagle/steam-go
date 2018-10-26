@@ -21,7 +21,7 @@ func (s Steam) GetAppDetails(id int) (app AppDetailsBody, bytes []byte, err erro
 
 	query := url.Values{}
 	query.Set("appids", idx)
-	query.Set("cc", "us") // Currency
+	query.Set("cc", "us") // 2 letter country code
 	query.Set("l", "en")  // Language
 
 	bytes, err = s.getFromStore("api/appdetails", query)
@@ -221,7 +221,7 @@ func (s Steam) GetPackageDetails(id int) (pack PackageDetailsBody, bytes []byte,
 
 	query := url.Values{}
 	query.Set("packageids", idx)
-	query.Set("cc", "us") // Currency
+	query.Set("cc", "us") // 2 letter country code
 	query.Set("l", "en")  // Language
 
 	bytes, err = s.getFromStore("api/packagedetails", query)
