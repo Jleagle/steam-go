@@ -23,16 +23,22 @@ var statusCodes = map[int]string{
 type Steam struct {
 	Key        string      // api key
 	LogChannel chan string // channel to return call URLs
-	RateLimit  int         // per second, 0 to disable
 
+	rateLimit     bool
 	apiThrottle   ratelimit.Limiter
 	storeThrottle ratelimit.Limiter
 }
 
+func (s *Steam) SetRateLimit(rate int) {
+
+	s.rateLimit = true
+	s.apiThrottle = ratelimit.New(rate)
+	s.storeThrottle = ratelimit.New(rate)
+}
+
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.RateLimit > 0 {
-		s.initThrottle()
+	if s.rateLimit {
 		s.apiThrottle.Take()
 	}
 
@@ -66,8 +72,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.RateLimit > 0 {
-		s.initThrottle()
+	if s.rateLimit {
 		s.storeThrottle.Take()
 	}
 
@@ -84,13 +89,6 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	defer response.Body.Close()
 
 	return ioutil.ReadAll(response.Body)
-}
-
-func (s *Steam) initThrottle() {
-	if s.RateLimit > 0 && s.apiThrottle == nil {
-		s.apiThrottle = ratelimit.New(s.RateLimit)
-		s.storeThrottle = ratelimit.New(s.RateLimit)
-	}
 }
 
 type Error struct {
