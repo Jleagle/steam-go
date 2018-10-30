@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"strconv"
 	"time"
 )
 
@@ -22,8 +23,8 @@ var statusCodes = map[int]string{
 }
 
 type Steam struct {
-	Key        string      // api key
-	LogChannel chan string // channel to return call URLs
+	Key        string   // api key
+	LogChannel chan Log // channel to return call URLs
 	UserAgent  string
 
 	apiRateLimit   time.Duration
@@ -59,10 +60,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 	path = "https://api.steampowered.com/" + path + "?" + query.Encode()
 
-	if s.LogChannel != nil {
-		s.LogChannel <- path
-	}
-
+	// Create request
 	client := &http.Client{}
 
 	req, err := http.NewRequest("GET", path, nil)
@@ -76,7 +74,16 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 	req.Header.Set("User-Agent", s.UserAgent)
 
+	start := time.Now()
 	response, err := client.Do(req)
+	elapsed := time.Since(start)
+
+	// Send log
+	if s.LogChannel != nil {
+		s.LogChannel <- Log{path, response.StatusCode, elapsed}
+	}
+
+	//
 	if err != nil {
 		return bytes, err
 	}
@@ -103,10 +110,7 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 
 	path = "https://store.steampowered.com/" + path + "?" + query.Encode()
 
-	if s.LogChannel != nil {
-		s.LogChannel <- path
-	}
-
+	// Create request
 	client := &http.Client{}
 
 	req, err := http.NewRequest("GET", path, nil)
@@ -120,13 +124,32 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 
 	req.Header.Set("User-Agent", s.UserAgent)
 
+	start := time.Now()
 	response, err := client.Do(req)
+	elapsed := time.Since(start)
+
+	// Send log
+	if s.LogChannel != nil {
+		s.LogChannel <- Log{path, response.StatusCode, elapsed}
+	}
+
+	//
 	if err != nil {
 		return nil, err
 	}
 	defer response.Body.Close()
 
 	return ioutil.ReadAll(response.Body)
+}
+
+type Log struct {
+	Path string
+	Code int
+	Time time.Duration
+}
+
+func (l Log) String() string {
+	return strconv.Itoa(l.Code) + " " + l.Path + " " + l.Time.String()
 }
 
 type Error struct {
