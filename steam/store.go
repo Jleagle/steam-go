@@ -334,6 +334,9 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
 	str = regex.ReplaceAllString(str, `"steamid": $1`)
 
+	regex = regexp.MustCompile(`"weighted_vote_score":\s?"([0-9.]+)"`)
+	str = regex.ReplaceAllString(str, `"weighted_vote_score": $1`)
+
 	bytes = []byte(str)
 
 	// Unmarshal JSON
@@ -357,18 +360,18 @@ type ReviewsResponse struct {
 			PlaytimeLastTwoWeeks int   `json:"playtime_last_two_weeks"`
 			LastPlayed           int   `json:"last_played"`
 		} `json:"author"`
-		Language                 string `json:"language"`
-		Review                   string `json:"review"`
-		TimestampCreated         int64  `json:"timestamp_created"`
-		TimestampUpdated         int64  `json:"timestamp_updated"`
-		VotedUp                  bool   `json:"voted_up"`
-		VotesUp                  int    `json:"votes_up"`
-		VotesFunny               int    `json:"votes_funny"`
-		WeightedVoteScore        string `json:"weighted_vote_score"`
-		CommentCount             int    `json:"comment_count"`
-		SteamPurchase            bool   `json:"steam_purchase"`
-		ReceivedForFree          bool   `json:"received_for_free"`
-		WrittenDuringEarlyAccess bool   `json:"written_during_early_access"`
+		Language                 string  `json:"language"`
+		Review                   string  `json:"review"`
+		TimestampCreated         int64   `json:"timestamp_created"`
+		TimestampUpdated         int64   `json:"timestamp_updated"`
+		VotedUp                  bool    `json:"voted_up"`
+		VotesUp                  int     `json:"votes_up"`
+		VotesFunny               int     `json:"votes_funny"`
+		WeightedVoteScore        float64 `json:"weighted_vote_score"`
+		CommentCount             int     `json:"comment_count"`
+		SteamPurchase            bool    `json:"steam_purchase"`
+		ReceivedForFree          bool    `json:"received_for_free"`
+		WrittenDuringEarlyAccess bool    `json:"written_during_early_access"`
 	} `json:"reviews"`
 }
 
