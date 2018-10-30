@@ -5,8 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-
-	"go.uber.org/ratelimit"
+	"time"
 )
 
 const defaultUserAgent = "github.com/Jleagle/steam-go"
@@ -27,22 +26,32 @@ type Steam struct {
 	LogChannel chan string // channel to return call URLs
 	UserAgent  string
 
-	rateLimit     bool
-	apiThrottle   ratelimit.Limiter
-	storeThrottle ratelimit.Limiter
+	apiRateLimit   time.Duration
+	storeRateLimit time.Duration
+	apiThrottle    *time.Ticker
+	storeThrottle  *time.Ticker
 }
 
-func (s *Steam) SetRateLimit(rate int) {
+func (s *Steam) SetRateLimit(apiRate time.Duration, storeRate time.Duration) {
 
-	s.rateLimit = true
-	s.apiThrottle = ratelimit.New(rate)
-	s.storeThrottle = ratelimit.New(rate)
+	s.apiRateLimit = apiRate
+	s.storeRateLimit = storeRate
+
+	if apiRate > 0 {
+		s.apiThrottle = time.NewTicker(apiRate)
+	}
+
+	if storeRate > 0 {
+		s.storeThrottle = time.NewTicker(storeRate)
+	}
+
+	s.apiThrottle.Stop()
 }
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.rateLimit {
-		s.apiThrottle.Take()
+	if s.apiRateLimit > 0 {
+		<-s.apiThrottle.C
 	}
 
 	query.Add("format", "json")
@@ -88,8 +97,8 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.rateLimit {
-		s.storeThrottle.Take()
+	if s.storeRateLimit > 0 {
+		<-s.storeThrottle.C
 	}
 
 	path = "https://store.steampowered.com/" + path + "?" + query.Encode()
