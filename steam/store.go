@@ -12,7 +12,8 @@ import (
 var (
 	ErrAppNotFound     = errors.New("steam: store: app not found")
 	ErrPackageNotFound = errors.New("steam: store: package not found")
-	ErrNullResponse    = errors.New("steam: store: null response")
+	ErrNullResponse    = errors.New("steam: store: null response") // Probably being rate limited
+	ErrHTMLResponse    = errors.New("steam: store: null response") // Probably down
 )
 
 func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app AppDetailsBody, bytes []byte, err error) {
@@ -21,17 +22,20 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 
 	query := url.Values{}
 	query.Set("appids", idx)
-	query.Set("cc", string(code)) // Used for code
-	query.Set("l", string(language))
+	query.Set("cc", string(code))    // Price urrency
+	query.Set("l", string(language)) // Text
 
 	bytes, err = s.getFromStore("api/appdetails", query)
 	if err != nil {
 		return app, bytes, err
 	}
 
-	// Check for no app
+	// Check invalid responses
 	if string(bytes) == "null" {
 		return app, bytes, ErrNullResponse
+	}
+	if strings.HasPrefix(string(bytes), "<") {
+		return app, bytes, ErrHTMLResponse
 	}
 
 	// Fix values that can change type, causing unmarshal errors
@@ -221,17 +225,20 @@ func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (p
 
 	query := url.Values{}
 	query.Set("packageids", idx)
-	query.Set("cc", string(code)) // Used for currency
-	query.Set("l", string(language))
+	query.Set("cc", string(code))    // Price urrency
+	query.Set("l", string(language)) // Text
 
 	bytes, err = s.getFromStore("api/packagedetails", query)
 	if err != nil {
 		return pack, bytes, err
 	}
 
-	// Check for no pack
+	// Check invalid responses
 	if string(bytes) == "null" {
 		return pack, bytes, ErrNullResponse
+	}
+	if strings.HasPrefix(string(bytes), "<") {
+		return pack, bytes, ErrHTMLResponse
 	}
 
 	// Unmarshal JSON
