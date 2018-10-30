@@ -9,6 +9,8 @@ import (
 	"go.uber.org/ratelimit"
 )
 
+const defaultUserAgent = "github.com/Jleagle/steam-go"
+
 var statusCodes = map[int]string{
 	400: "steam-go: (400) please verify that all required parameters are being sent.",
 	401: "steam-go: (401) access is denied. retrying will not help. please verify your key= parameter.",
@@ -23,6 +25,7 @@ var statusCodes = map[int]string{
 type Steam struct {
 	Key        string      // api key
 	LogChannel chan string // channel to return call URLs
+	UserAgent  string
 
 	rateLimit     bool
 	apiThrottle   ratelimit.Limiter
@@ -51,7 +54,20 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 		s.LogChannel <- path
 	}
 
-	response, err := http.Get(path)
+	client := &http.Client{}
+
+	req, err := http.NewRequest("GET", path, nil)
+	if err != nil {
+		return bytes, err
+	}
+
+	if s.UserAgent == "" {
+		s.UserAgent = defaultUserAgent
+	}
+
+	req.Header.Set("User-Agent", s.UserAgent)
+
+	response, err := client.Do(req)
 	if err != nil {
 		return bytes, err
 	}
@@ -82,7 +98,20 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 		s.LogChannel <- path
 	}
 
-	response, err := http.Get(path)
+	client := &http.Client{}
+
+	req, err := http.NewRequest("GET", path, nil)
+	if err != nil {
+		return bytes, err
+	}
+
+	if s.UserAgent == "" {
+		s.UserAgent = defaultUserAgent
+	}
+
+	req.Header.Set("User-Agent", s.UserAgent)
+
+	response, err := client.Do(req)
 	if err != nil {
 		return nil, err
 	}
