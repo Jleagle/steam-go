@@ -54,8 +54,8 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 		<-s.apiThrottle.C
 	}
 
-	query.Add("format", "json")
-	query.Add("key", s.Key)
+	query.Set("format", "json")
+	query.Set("key", s.Key)
 
 	path = "https://api.steampowered.com/" + path + "?" + query.Encode()
 
