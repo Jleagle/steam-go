@@ -45,8 +45,6 @@ func (s *Steam) SetRateLimit(apiRate time.Duration, storeRate time.Duration) {
 	if storeRate > 0 {
 		s.storeThrottle = time.NewTicker(storeRate)
 	}
-
-	s.apiThrottle.Stop()
 }
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
