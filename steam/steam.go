@@ -23,35 +23,30 @@ var statusCodes = map[int]string{
 }
 
 type Steam struct {
-	Key        string   // api key
-	LogChannel chan Log // channel to return call URLs
-	UserAgent  string
+	Key        string        // API key
+	LogChannel chan Log      // Channel to return call URLs
+	UserAgent  string        // User agent
+	APIRate    time.Duration // Min time between each call
+	StoreRate  time.Duration // Min time between each call
 
-	apiRateLimit   time.Duration
-	storeRateLimit time.Duration
-	apiThrottle    *time.Ticker
-	storeThrottle  *time.Ticker
+	apiThrottle   *time.Ticker
+	storeThrottle *time.Ticker
 }
 
-func (s *Steam) SetRateLimit(apiRate time.Duration, storeRate time.Duration) {
-
-	s.apiRateLimit = apiRate
-	s.storeRateLimit = storeRate
-
-	if apiRate > 0 {
-		s.apiThrottle = time.NewTicker(apiRate)
+func (s *Steam) setup() {
+	if s.apiThrottle == nil {
+		s.apiThrottle = time.NewTicker(s.APIRate)
 	}
-
-	if storeRate > 0 {
-		s.storeThrottle = time.NewTicker(storeRate)
+	if s.storeThrottle == nil {
+		s.storeThrottle = time.NewTicker(s.StoreRate)
 	}
 }
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.apiRateLimit > 0 {
-		<-s.apiThrottle.C
-	}
+	// Throttle
+	s.setup()
+	<-s.apiThrottle.C
 
 	query.Set("format", "json")
 	query.Set("key", s.Key)
@@ -102,9 +97,9 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err error) {
 
-	if s.storeRateLimit > 0 {
-		<-s.storeThrottle.C
-	}
+	// Throttle
+	s.setup()
+	<-s.storeThrottle.C
 
 	path = "https://store.steampowered.com/" + path + "?" + query.Encode()
 
