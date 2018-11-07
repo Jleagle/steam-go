@@ -304,12 +304,21 @@ type Tags struct {
 	Tags []Tag `json:"tags"`
 }
 
-func (t Tags) GetIDs() (ids []int) {
+func (t Tags) GetSlice() (ids []int) {
 
 	for _, v := range t.Tags {
 		ids = append(ids, v.TagID)
 	}
 	return ids
+}
+
+func (t Tags) GetMap() (tags map[int]string) {
+
+	tags = map[int]string{}
+	for _, v := range t.Tags {
+		tags[v.TagID] = v.Name
+	}
+	return tags
 }
 
 type Tag struct {
