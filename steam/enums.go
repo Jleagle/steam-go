@@ -151,3 +151,87 @@ var Languages = map[Language]string{
 	LanguageUkrainian:           "Ukrainian",
 	LanguageVietnamese:          "Vietnamese",
 }
+
+type CurrencyCode string
+
+const CurrencyAED CurrencyCode = "AED"
+const CurrencyARS CurrencyCode = "ARS"
+const CurrencyAUD CurrencyCode = "AUD"
+const CurrencyBRL CurrencyCode = "BRL"
+const CurrencyCAD CurrencyCode = "CAD"
+const CurrencyCHF CurrencyCode = "CHF"
+const CurrencyCLP CurrencyCode = "CLP"
+const CurrencyCNY CurrencyCode = "CNY"
+const CurrencyCOP CurrencyCode = "COP"
+const CurrencyCRC CurrencyCode = "CRC"
+const CurrencyEUR CurrencyCode = "EUR"
+const CurrencyGBP CurrencyCode = "GBP"
+const CurrencyHKD CurrencyCode = "HKD"
+const CurrencyILS CurrencyCode = "ILS"
+const CurrencyIDR CurrencyCode = "IDR"
+const CurrencyINR CurrencyCode = "INR"
+const CurrencyJPY CurrencyCode = "JPY"
+const CurrencyKRW CurrencyCode = "KRW"
+const CurrencyKWD CurrencyCode = "KWD"
+const CurrencyKZT CurrencyCode = "KZT"
+const CurrencyMXN CurrencyCode = "MXN"
+const CurrencyMYR CurrencyCode = "MYR"
+const CurrencyNOK CurrencyCode = "NOK"
+const CurrencyNZD CurrencyCode = "NZD"
+const CurrencyPEN CurrencyCode = "PEN"
+const CurrencyPHP CurrencyCode = "PHP"
+const CurrencyPLN CurrencyCode = "PLN"
+const CurrencyQAR CurrencyCode = "QAR"
+const CurrencyRUB CurrencyCode = "RUB"
+const CurrencySAR CurrencyCode = "SAR"
+const CurrencySGD CurrencyCode = "SGD"
+const CurrencyTHB CurrencyCode = "THB"
+const CurrencyTRY CurrencyCode = "TRY"
+const CurrencyTWD CurrencyCode = "TWD"
+const CurrencyUAH CurrencyCode = "UAH"
+const CurrencyUSD CurrencyCode = "USD"
+const CurrencyUYU CurrencyCode = "UYU"
+const CurrencyVND CurrencyCode = "VND"
+const CurrencyZAR CurrencyCode = "ZAR"
+
+var Currencies = map[CurrencyCode]string{
+	CurrencyAED: "United Arab Emirates Dirham",
+	CurrencyARS: "Argentine Peso",
+	CurrencyAUD: "Australian Dollars",
+	CurrencyBRL: "Brazilian Reals",
+	CurrencyCAD: "Canadian Dollars",
+	CurrencyCHF: "Swiss Francs",
+	CurrencyCLP: "Chilean Peso",
+	CurrencyCNY: "Chinese Renminbi (yuan)",
+	CurrencyCOP: "Colombian Peso",
+	CurrencyCRC: "Costa Rican Colón",
+	CurrencyEUR: "European Union Euro",
+	CurrencyGBP: "United Kingdom Pound",
+	CurrencyHKD: "Hong Kong Dollar",
+	CurrencyILS: "Israeli New Shekel",
+	CurrencyIDR: "Indonesian Rupiah",
+	CurrencyINR: "Indian Rupee",
+	CurrencyJPY: "Japanese Yen",
+	CurrencyKRW: "South Korean Won",
+	CurrencyKWD: "Kuwaiti Dinar",
+	CurrencyKZT: "Kazakhstani Tenge",
+	CurrencyMXN: "Mexican Peso",
+	CurrencyMYR: "Malaysian Ringgit",
+	CurrencyNOK: "Norwegian Krone",
+	CurrencyNZD: "New Zealand Dollar",
+	CurrencyPEN: "Peruvian Nuevo Sol",
+	CurrencyPHP: "Philippine Peso",
+	CurrencyPLN: "Polish Złoty",
+	CurrencyQAR: "Qatari Riyal",
+	CurrencyRUB: "Russian Rouble",
+	CurrencySAR: "Saudi Riyal",
+	CurrencySGD: "Singapore Dollar",
+	CurrencyTHB: "Thai Baht",
+	CurrencyTRY: "Turkish Lira",
+	CurrencyTWD: "New Taiwan Dollar",
+	CurrencyUAH: "Ukrainian Hryvnia",
+	CurrencyUSD: "United States Dollar",
+	CurrencyUYU: "Uruguayan Peso",
+	CurrencyVND: "Vietnamese Dong",
+	CurrencyZAR: "South African Rand",
+}
