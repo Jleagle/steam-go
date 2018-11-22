@@ -86,6 +86,7 @@ var Countries = map[CountryCode]string{
 	CountryZA: "South African Rand",
 }
 
+// https://partner.steamgames.com/doc/store/localization
 type Language string
 
 const (
@@ -152,6 +153,7 @@ var Languages = map[Language]string{
 	LanguageVietnamese:          "Vietnamese",
 }
 
+// https://partner.steamgames.com/doc/store/pricing/currencies
 type CurrencyCode string
 
 const CurrencyAED CurrencyCode = "AED"
