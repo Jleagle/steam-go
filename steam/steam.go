@@ -85,7 +85,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	// Handle errors
 	if response.StatusCode != 200 {
 		if val, ok := statusCodes[response.StatusCode]; ok {
-			return bytes, Error{val, response.StatusCode}
+			return bytes, Error{err: val, code: response.StatusCode, url: path}
 		} else {
 			return bytes, errors.New("steam: something went wrong")
 		}
@@ -148,6 +148,7 @@ func (l Log) String() string {
 type Error struct {
 	err  string
 	code int
+	url  string
 }
 
 func (e Error) Error() string {
