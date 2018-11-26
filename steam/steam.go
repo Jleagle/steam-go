@@ -12,14 +12,14 @@ import (
 const defaultUserAgent = "github.com/Jleagle/steam-go"
 
 var statusCodes = map[int]string{
-	400: "steam-go: (400) please verify that all required parameters are being sent.",
-	401: "steam-go: (401) access is denied. retrying will not help. please verify your key= parameter.",
-	403: "steam-go: (403) access is denied. retrying will not help. please verify your key= parameter.",
-	404: "steam-go: (404) the api requested does not exists.",
-	405: "steam-go: (405) this api has been called with a the wrong http method like get or push.",
-	429: "steam-go: (429) you are being rate limited.",
-	500: "steam-go: (500) an unrecoverable error has occurred, please try again. if this continues to persist then please post to the steamworks developer discussion with additional details of your request.",
-	503: "steam-go: (503) server is temporarily unavailable, or too busy to respond. please wait and try again later.",
+	400: "please verify that all required parameters are being sent.",
+	401: "access is denied. retrying will not help. please verify your key= parameter.",
+	403: "access is denied. retrying will not help. please verify your key= parameter.",
+	404: "the api requested does not exists.",
+	405: "this api has been called with a the wrong http method like get or push.",
+	429: "you are being rate limited.",
+	500: "an unrecoverable error has occurred, please try again. if this continues to persist then please post to the steamworks developer discussion with additional details of your request.",
+	503: "server is temporarily unavailable, or too busy to respond. please wait and try again later.",
 }
 
 type Steam struct {
@@ -152,7 +152,7 @@ type Error struct {
 }
 
 func (e Error) Error() string {
-	return e.err
+	return "steam-go: (" + strconv.Itoa(e.code) + ") " + e.err + " (" + e.url + ")"
 }
 
 func (e Error) Code() int {
