@@ -31,7 +31,7 @@ func (s Steam) GetAppList(options GetAppListOptions) (apps AppList, bytes []byte
 		q.Set("max_results", strconv.Itoa(options.MaxResults))
 	}
 
-	bytes, err = s.getFromAPI("ISteamApps/GetAppList/v2", q)
+	bytes, err = s.getFromAPI("IStoreService/GetAppList/v1", q)
 	if err != nil {
 		return apps, bytes, err
 	}
@@ -41,11 +41,11 @@ func (s Steam) GetAppList(options GetAppListOptions) (apps AppList, bytes []byte
 		return apps, bytes, err
 	}
 
-	return resp.AppList, bytes, nil
+	return resp.AppListResponseInner, bytes, nil
 }
 
 type AppListResponse struct {
-	AppList AppList `json:"applist"`
+	AppListResponseInner AppList `json:"response"`
 }
 
 type AppList struct {
