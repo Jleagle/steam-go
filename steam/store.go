@@ -331,7 +331,7 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	query := url.Values{}
 	query.Set("json", "1")
 	query.Set("filter", "all")
-	//query.Set("language", "all")
+	query.Set("language", string(LanguageEnglish))
 	query.Set("day_range", "all")
 	query.Set("start_offset", "0")
 	query.Set("review_type", "all")
