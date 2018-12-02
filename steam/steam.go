@@ -26,19 +26,28 @@ type Steam struct {
 	Key        string        // API key
 	LogChannel chan Log      // Channel to return call URLs
 	UserAgent  string        // User agent
-	APIRate    time.Duration // Min time between each call
-	StoreRate  time.Duration // Min time between each call
+	APIRate    time.Duration // Min time between each call, defaults to 1 second
+	StoreRate  time.Duration // Min time between each call, defaults to 1 second
 
 	apiThrottle   *time.Ticker
 	storeThrottle *time.Ticker
 }
 
 func (s *Steam) setup() {
+	if s.APIRate <= 0 {
+		s.APIRate = time.Second
+	}
+	if s.StoreRate <= 0 {
+		s.StoreRate = time.Second
+	}
 	if s.apiThrottle == nil {
 		s.apiThrottle = time.NewTicker(s.APIRate)
 	}
 	if s.storeThrottle == nil {
 		s.storeThrottle = time.NewTicker(s.StoreRate)
+	}
+	if s.UserAgent == "" {
+		s.UserAgent = defaultUserAgent
 	}
 }
 
@@ -59,10 +68,6 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	req, err := http.NewRequest("GET", path, nil)
 	if err != nil {
 		return bytes, err
-	}
-
-	if s.UserAgent == "" {
-		s.UserAgent = defaultUserAgent
 	}
 
 	req.Header.Set("User-Agent", s.UserAgent)
@@ -109,10 +114,6 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	req, err := http.NewRequest("GET", path, nil)
 	if err != nil {
 		return bytes, err
-	}
-
-	if s.UserAgent == "" {
-		s.UserAgent = defaultUserAgent
 	}
 
 	req.Header.Set("User-Agent", s.UserAgent)
