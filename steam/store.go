@@ -330,12 +330,18 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 
 	query := url.Values{}
 	query.Set("json", "1")
-	query.Set("filter", "all")
+	query.Set("filter", "all") // all / summary
 	query.Set("language", string(LanguageEnglish))
 	query.Set("day_range", "all")
 	query.Set("start_offset", "0")
 	query.Set("review_type", "all")
 	query.Set("purchase_type", "all")
+	//query.Set("start_date", "")
+	//query.Set("end_date", "")
+	//query.Set("date_range_type", "include")
+	//query.Set("review_beta_enabled", "1")
+	//query.Set("summary_num_positive_reviews", "1")
+	//query.Set("summary_num_reviews", "1")
 
 	bytes, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
