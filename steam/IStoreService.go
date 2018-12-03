@@ -49,6 +49,6 @@ type AppList struct {
 type App struct {
 	AppID             int    `json:"appid"`
 	Name              string `json:"name"`
-	LastModified      string `json:"last_modified"`
-	PriceChangeNumber string `json:"price_change_number"`
+	LastModified      int64  `json:"last_modified"`
+	PriceChangeNumber int    `json:"price_change_number"`
 }
