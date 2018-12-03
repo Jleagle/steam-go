@@ -6,13 +6,7 @@ import (
 	"strconv"
 )
 
-type GetAppListOptions struct {
-	ModifiedAfter int64
-	AfterAppID    int
-	MaxResults    int // 10000 default
-}
-
-func (s Steam) GetAppList(options GetAppListOptions) (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -20,15 +14,13 @@ func (s Steam) GetAppList(options GetAppListOptions) (apps AppList, bytes []byte
 	q.Set("include_software", "1")
 	q.Set("include_videos", "1")
 	q.Set("include_hardware", "1")
+	//q.Set("if_modified_since", "")
 
-	if options.ModifiedAfter > 0 {
-		q.Set("if_modified_since", strconv.FormatInt(options.ModifiedAfter, 10))
+	if offset > 0 {
+		q.Set("last_appid", strconv.Itoa(offset))
 	}
-	if options.AfterAppID > 0 {
-		q.Set("last_appid", strconv.Itoa(options.AfterAppID))
-	}
-	if options.MaxResults > 0 {
-		q.Set("max_results", strconv.Itoa(options.MaxResults))
+	if limit > 0 {
+		q.Set("max_results", strconv.Itoa(limit))
 	}
 
 	bytes, err = s.getFromAPI("IStoreService/GetAppList/v1", q)
