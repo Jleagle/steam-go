@@ -49,7 +49,9 @@ type AppListResponse struct {
 }
 
 type AppList struct {
-	Apps []App `json:"apps"`
+	Apps            []App `json:"apps"`
+	HaveMoreResults bool  `json:"have_more_results"`
+	LastAppID       int   `json:"last_appid"`
 }
 
 type App struct {
