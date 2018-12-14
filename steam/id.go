@@ -1,45 +1,38 @@
 package steam
 
 import (
+	"errors"
 	"math/big"
 	"regexp"
 	"strconv"
 	"strings"
 )
 
-func (s Steam) GetID(in string) (out int64, err error) {
+func (s Steam) GetID(id string) (id64 int64, err error) {
 
-	if regexp.MustCompile(`^STEAM_([01]):([01]):[0-9][0-9]{0,8}$`).MatchString(in) { // STEAM_0:0:4180232
+	if regexp.MustCompile(`^STEAM_([01]):([01]):[0-9][0-9]{0,8}$`).MatchString(id) { // STEAM_0:0:4180232
 
-		return convert0to64(in), nil
+		return convert0to64(id), nil
 
-	} else if regexp.MustCompile(`(\[)?U:1:\d+(])?`).MatchString(in) { // [U:1:8360464]
+	} else if regexp.MustCompile(`(\[)?U:1:\d+(])?`).MatchString(id) { // [U:1:8360464]
 
-		return convert3to64(in), nil
+		return convert3to64(id), nil
 
-	} else if regexp.MustCompile(`^\d{17}$`).MatchString(in) { // 76561197968626192
+	} else if regexp.MustCompile(`^\d{17}$`).MatchString(id) { // 76561197968626192
 
-		i, err := strconv.ParseInt(in, 10, 64)
+		i, err := strconv.ParseInt(id, 10, 64)
 		if err != nil {
-			return out, err
+			return id64, err
 		}
 		return i, nil
 
-	} else if regexp.MustCompile(`^\d{1,16}$`).MatchString(in) { // 8360464
+	} else if regexp.MustCompile(`^\d{1,16}$`).MatchString(id) { // 8360464
 
-		return convert32to64(in), nil
+		return convert32to64(id), nil
 
-	} else {
-
-		id, err := strconv.ParseInt(in, 10, 64)
-
-		resp, _, err := s.ResolveVanityURL(id)
-		if err != nil {
-			return out, err
-		}
-
-		return resp.SteamID, nil
 	}
+	
+	return 0, errors.New("invalid id")
 }
 
 func convert3to64(in string) (out int64) {
