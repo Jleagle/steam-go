@@ -13,7 +13,7 @@ var (
 	ErrAppNotFound     = errors.New("steam: store: app not found")
 	ErrPackageNotFound = errors.New("steam: store: package not found")
 	ErrNullResponse    = errors.New("steam: store: null response") // Probably being rate limited
-	ErrHTMLResponse    = errors.New("steam: store: null response") // Probably down
+	ErrHTMLResponse    = errors.New("steam: store: html response") // Probably down
 )
 
 func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app AppDetailsBody, bytes []byte, err error) {
