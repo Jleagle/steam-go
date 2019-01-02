@@ -43,17 +43,14 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 	var str = string(bytes)
 
 	// Convert strings to ints
-	regex = regexp.MustCompile(`:\s?"(\d+)"`) // After colon
-	str = regex.ReplaceAllString(str, `:$1`)
+	regex = regexp.MustCompile(`"can_get_free_license":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"can_get_free_license":$1`)
 
-	regex = regexp.MustCompile(`,\s?"(\d+)"`) // After comma
-	str = regex.ReplaceAllString(str, `,$1`)
+	regex = regexp.MustCompile(`"appid":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"appid":$1`)
 
-	regex = regexp.MustCompile(`"(\d+)",`) // Before comma
-	str = regex.ReplaceAllString(str, `$1,`)
-
-	regex = regexp.MustCompile(`"packages":\s?\["(\d+)"]`) // Package array with single int
-	str = regex.ReplaceAllString(str, `"packages":[$1]`)
+	regex = regexp.MustCompile(`"required_age":\s?"(\d+)"`)
+	str = regex.ReplaceAllString(str, `"required_age":$1`)
 
 	// Make some its strings again
 	regex = regexp.MustCompile(`"date":\s?(\d+)`)
@@ -210,7 +207,7 @@ type AppDetailsAchievements struct {
 }
 
 type AppDetailsGenre struct {
-	ID          int    `json:"id"`
+	ID          string `json:"id"`
 	Description string `json:"description"`
 }
 
