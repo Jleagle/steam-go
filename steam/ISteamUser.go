@@ -248,6 +248,7 @@ type UserGroupListResponse struct {
 type UserGroupList struct {
 	Success bool        `json:"success"`
 	Groups  []UserGroup `json:"groups"`
+	Error   string      `json:"error"`
 }
 
 func (u UserGroupList) GetIDs() (ids []int) {
