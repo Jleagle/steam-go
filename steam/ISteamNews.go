@@ -30,7 +30,8 @@ func (s Steam) GetNews(appID int, limit int) (articles News, bytes []byte, err e
 
 	// Unmarshal
 	var resp NewsResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return articles, bytes, err
 	}
 

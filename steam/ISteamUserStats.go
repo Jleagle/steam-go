@@ -18,7 +18,8 @@ func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages Glo
 	}
 
 	var resp GlobalAchievementPercentagesResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return percentages, bytes, err
 	}
 
@@ -50,7 +51,8 @@ func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, 
 	}
 
 	var resp NumberOfCurrentPlayersResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return players, bytes, err
 	}
 
@@ -79,7 +81,8 @@ func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, 
 	}
 
 	var resp SchemaForGameResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return schema, bytes, err
 	}
 

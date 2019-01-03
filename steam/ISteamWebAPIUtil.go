@@ -15,7 +15,8 @@ func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, err error) {
 
 	// Unmarshal JSON
 	var resp SupportedAPIListResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return percentages, err
 	}
 

@@ -77,7 +77,8 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 
 	// Unmarshal JSON
 	resp := map[string]AppDetailsBody{}
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return app, bytes, err
 	}
 
@@ -240,7 +241,8 @@ func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (p
 
 	// Unmarshal JSON
 	resp := map[string]PackageDetailsBody{}
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return pack, bytes, err
 	}
 
@@ -290,7 +292,8 @@ func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
 	}
 
 	var resp []Tag
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return tags, bytes, err
 	}
 
@@ -359,7 +362,8 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	bytes = []byte(str)
 
 	// Unmarshal JSON
-	if err := json.Unmarshal(bytes, &reviews); err != nil {
+	err = json.Unmarshal(bytes, &reviews)
+	if err != nil {
 		return reviews, bytes, err
 	}
 

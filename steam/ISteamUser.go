@@ -34,7 +34,8 @@ func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte,
 
 	// Unmarhsal
 	var resp FriendListResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return friends, bytes, err
 	}
 
@@ -77,7 +78,8 @@ func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, e
 
 	// Unmarhsal
 	var resp VanityURLRepsonse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return info, bytes, err
 	}
 
@@ -122,7 +124,8 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, er
 
 	// Unmarshal
 	var resp PlayerResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return player, bytes, err
 	}
 

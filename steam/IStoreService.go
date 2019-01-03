@@ -29,7 +29,8 @@ func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, er
 	}
 
 	var resp AppListResponse
-	if err := json.Unmarshal(bytes, &resp); err != nil {
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
 		return apps, bytes, err
 	}
 
