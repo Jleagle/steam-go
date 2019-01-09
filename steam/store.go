@@ -164,19 +164,10 @@ type AppDetailsBody struct {
 			Score int8   `json:"score"`
 			URL   string `json:"url"`
 		} `json:"metacritic"`
-		Categories  []AppDetailsCategory   `json:"categories"`
-		Genres      []AppDetailsGenre      `json:"genres"`
-		Screenshots []AppDetailsScreenshot `json:"screenshots"`
-		Movies      []struct {
-			ID        int    `json:"id"`
-			Name      string `json:"name"`
-			Thumbnail string `json:"thumbnail"`
-			Webm      struct {
-				Num480 string `json:"480"`
-				Max    string `json:"max"`
-			} `json:"webm"`
-			Highlight bool `json:"highlight"`
-		} `json:"movies"`
+		Categories      []AppDetailsCategory   `json:"categories"`
+		Genres          []AppDetailsGenre      `json:"genres"`
+		Screenshots     []AppDetailsScreenshot `json:"screenshots"`
+		Movies          []AppDetailsMovie      `json:"movies"`
 		Recommendations struct {
 			Total int `json:"total"`
 		} `json:"recommendations"`
@@ -191,6 +182,17 @@ type AppDetailsBody struct {
 		} `json:"support_info"`
 		Background string `json:"background"`
 	} `json:"data"`
+}
+
+type AppDetailsMovie struct {
+	ID        int    `json:"id"`
+	Name      string `json:"name"`
+	Thumbnail string `json:"thumbnail"`
+	Webm      struct {
+		Num480 string `json:"480"`
+		Max    string `json:"max"`
+	} `json:"webm"`
+	Highlight bool `json:"highlight"`
 }
 
 type AppDetailsScreenshot struct {
