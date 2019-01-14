@@ -39,39 +39,16 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 	}
 
 	// Fix values that can change type, causing unmarshal errors
-	var regex *regexp.Regexp
 	var str = string(bytes)
 
-	// Convert strings to ints
-	regex = regexp.MustCompile(`"can_get_free_license":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"can_get_free_license":$1`)
-
-	regex = regexp.MustCompile(`"appid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"appid":$1`)
-
-	regex = regexp.MustCompile(`"required_age":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"required_age":$1`)
-
-	// Make some its strings again
-	regex = regexp.MustCompile(`"date":\s?(\d+)`)
-	str = regex.ReplaceAllString(str, `"date":"$1"`)
-
-	regex = regexp.MustCompile(`"name":\s?(\d+)`)
-	str = regex.ReplaceAllString(str, `"name":"$1"`)
-
-	regex = regexp.MustCompile(`"description":\s?(\d+)`)
-	str = regex.ReplaceAllString(str, `"description":"$1"`)
-
-	regex = regexp.MustCompile(`"display_type":\s?(\d+)`)
+	// Fix ints that should be strings
+	regex := regexp.MustCompile(`"display_type":\s?(\d+)`)
 	str = regex.ReplaceAllString(str, `"display_type":"$1"`)
 
-	regex = regexp.MustCompile(`"legal_notice":\s?(\d+)`)
-	str = regex.ReplaceAllString(str, `"legal_notice":"$1"`)
-
 	// Fix arrays that should be objects
-	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":null", 1)
-	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":null", 1)
-	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":null", 1)
+	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
+	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
+	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
 
 	bytes = []byte(str)
 
@@ -95,7 +72,7 @@ type AppDetailsBody struct {
 		Type                string `json:"type"`
 		Name                string `json:"name"`
 		AppID               int    `json:"steam_appid"`
-		RequiredAge         int    `json:"required_age"`
+		RequiredAge         int    `json:"required_age,string"`
 		IsFree              bool   `json:"is_free"`
 		DLC                 []int  `json:"dlc"`
 		ControllerSupport   string `json:"controller_support"`
@@ -103,7 +80,7 @@ type AppDetailsBody struct {
 		AboutTheGame        string `json:"about_the_game"`
 		ShortDescription    string `json:"short_description"`
 		Fullgame            struct {
-			AppID int    `json:"appid"`
+			AppID int    `json:"appid,string"`
 			Name  string `json:"name"`
 		} `json:"fullgame"`
 		SupportedLanguages string `json:"supported_languages"`
@@ -126,7 +103,7 @@ type AppDetailsBody struct {
 		Developers  []string `json:"developers"`
 		Publishers  []string `json:"publishers"`
 		Demos       []struct {
-			AppID       int    `json:"appid"`
+			AppID       int    `json:"appid,string"`
 			Description string `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
@@ -150,7 +127,7 @@ type AppDetailsBody struct {
 				PercentSavings           int    `json:"percent_savings"`
 				OptionText               string `json:"option_text"`
 				OptionDescription        string `json:"option_description"`
-				CanGetFreeLicense        int    `json:"can_get_free_license"`
+				CanGetFreeLicense        int    `json:"can_get_free_license,string"`
 				IsFreeLicense            bool   `json:"is_free_license"`
 				PriceInCentsWithDiscount int    `json:"price_in_cents_with_discount"`
 			} `json:"subs"`
@@ -350,19 +327,6 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 		return reviews, bytes, err
 	}
 
-	str := string(bytes)
-
-	regex := regexp.MustCompile(`"comment_count":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"comment_count": $1`)
-
-	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"steamid": $1`)
-
-	regex = regexp.MustCompile(`"weighted_vote_score":\s?"([0-9.]+)"`)
-	str = regex.ReplaceAllString(str, `"weighted_vote_score": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarshal JSON
 	err = json.Unmarshal(bytes, &reviews)
 	if err != nil {
@@ -378,7 +342,7 @@ type ReviewsResponse struct {
 	Reviews      []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author           struct {
-			SteamID              int64 `json:"steamid"`
+			SteamID              int64 `json:"steamid,string"`
 			NumGamesOwned        int   `json:"num_games_owned"`
 			NumReviews           int   `json:"num_reviews"`
 			PlaytimeForever      int   `json:"playtime_forever"`
@@ -392,7 +356,7 @@ type ReviewsResponse struct {
 		VotedUp                  bool    `json:"voted_up"`
 		VotesUp                  int     `json:"votes_up"`
 		VotesFunny               int     `json:"votes_funny"`
-		WeightedVoteScore        float64 `json:"weighted_vote_score"`
+		WeightedVoteScore        float64 `json:"weighted_vote_score,string"`
 		CommentCount             int     `json:"comment_count"`
 		SteamPurchase            bool    `json:"steam_purchase"`
 		ReceivedForFree          bool    `json:"received_for_free"`
