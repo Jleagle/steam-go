@@ -53,6 +53,10 @@ func (s *Steam) setup() {
 
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
+	if s.Key == "" {
+		return bytes, errors.New("missing api key")
+	}
+
 	// Throttle
 	s.setup()
 	<-s.apiThrottle.C
