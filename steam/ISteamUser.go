@@ -1,11 +1,11 @@
 package steam
 
 import (
-	"encoding/json"
 	"errors"
 	"net/url"
-	"regexp"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 var (
@@ -23,18 +23,9 @@ func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte,
 		return friends, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"steamid": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarhsal
 	var resp FriendListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return friends, bytes, err
 	}
@@ -67,18 +58,9 @@ func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, e
 		return info, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"steamid": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarhsal
 	var resp VanityURLRepsonse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return info, bytes, err
 	}
@@ -110,21 +92,9 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, er
 		return player, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"primaryclanid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"primaryclanid": $1`)
-
-	regex = regexp.MustCompile(`"steamid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"steamid": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarshal
 	var resp PlayerResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return player, bytes, err
 	}
@@ -174,18 +144,9 @@ func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes [
 		return bans, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"SteamId":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"SteamId": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarshal
 	var resp GetPlayerBansResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return bans, bytes, err
 	}
@@ -221,18 +182,9 @@ func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []b
 		return groups, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"gid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"gid": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarshal
 	var resp UserGroupListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return groups, bytes, err
 	}

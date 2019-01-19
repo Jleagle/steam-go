@@ -1,9 +1,10 @@
 package steam
 
 import (
-	"encoding/json"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 // Gets information about a player's recently played games
@@ -19,7 +20,7 @@ func (s Steam) GetRecentlyPlayedGames(playerID int64) (games RecentlyPlayedGames
 	}
 
 	var resp RecentlyPlayedGamesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -59,7 +60,7 @@ func (s Steam) GetOwnedGames(playerID int64) (games OwnedGames, bytes []byte, er
 	}
 
 	var resp OwnedGamesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -97,7 +98,7 @@ func (s Steam) GetSteamLevel(playerID int64) (level int, bytes []byte, err error
 	}
 
 	var resp LevelResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return level, bytes, err
 	}
@@ -123,7 +124,7 @@ func (s Steam) GetBadges(playerID int64) (badges BadgesInfo, bytes []byte, err e
 	}
 
 	var resp BadgesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return badges, bytes, err
 	}

@@ -2,6 +2,7 @@ package steam
 
 import (
 	"errors"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -111,6 +112,7 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	<-s.storeThrottle.C
 
 	path = "https://store.steampowered.com/" + path + "?" + query.Encode()
+	fmt.Println(path)
 
 	// Create request
 	client := &http.Client{}

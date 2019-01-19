@@ -1,10 +1,10 @@
 package steam
 
 import (
-	"encoding/json"
 	"net/url"
-	"regexp"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 func (s Steam) GetNews(appID int, limit int) (articles News, bytes []byte, err error) {
@@ -19,18 +19,9 @@ func (s Steam) GetNews(appID int, limit int) (articles News, bytes []byte, err e
 		return articles, bytes, err
 	}
 
-	// Regex
-	var regex *regexp.Regexp
-	var str = string(bytes)
-
-	regex = regexp.MustCompile(`"gid":\s?"(\d+)"`)
-	str = regex.ReplaceAllString(str, `"gid": $1`)
-
-	bytes = []byte(str)
-
 	// Unmarshal
 	var resp NewsResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return articles, bytes, err
 	}

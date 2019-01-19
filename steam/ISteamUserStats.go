@@ -1,9 +1,10 @@
 package steam
 
 import (
-	"encoding/json"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 // Retrieves the global achievement percentages for the specified app.
@@ -18,7 +19,7 @@ func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages Glo
 	}
 
 	var resp GlobalAchievementPercentagesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return percentages, bytes, err
 	}
@@ -51,7 +52,7 @@ func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, 
 	}
 
 	var resp NumberOfCurrentPlayersResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return players, bytes, err
 	}
@@ -81,7 +82,7 @@ func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, 
 	}
 
 	var resp SchemaForGameResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return schema, bytes, err
 	}

@@ -1,12 +1,12 @@
 package steam
 
 import (
-	"encoding/json"
 	"errors"
 	"net/url"
-	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 var (
@@ -38,23 +38,9 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 		return app, bytes, ErrHTMLResponse
 	}
 
-	// Fix values that can change type, causing unmarshal errors
-	var str = string(bytes)
-
-	// Fix ints that should be strings
-	regex := regexp.MustCompile(`"display_type":\s?(\d+)`)
-	str = regex.ReplaceAllString(str, `"display_type":"$1"`)
-
-	// Fix arrays that should be objects
-	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
-	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
-	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
-
-	bytes = []byte(str)
-
 	// Unmarshal JSON
 	resp := map[string]AppDetailsBody{}
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return app, bytes, err
 	}
@@ -72,7 +58,7 @@ type AppDetailsBody struct {
 		Type                string `json:"type"`
 		Name                string `json:"name"`
 		AppID               int    `json:"steam_appid"`
-		RequiredAge         int    `json:"required_age,string"`
+		RequiredAge         int    `json:"required_age"`
 		IsFree              bool   `json:"is_free"`
 		DLC                 []int  `json:"dlc"`
 		ControllerSupport   string `json:"controller_support"`
@@ -80,7 +66,7 @@ type AppDetailsBody struct {
 		AboutTheGame        string `json:"about_the_game"`
 		ShortDescription    string `json:"short_description"`
 		Fullgame            struct {
-			AppID int    `json:"appid,string"`
+			AppID int    `json:"appid"`
 			Name  string `json:"name"`
 		} `json:"fullgame"`
 		SupportedLanguages string `json:"supported_languages"`
@@ -103,7 +89,7 @@ type AppDetailsBody struct {
 		Developers  []string `json:"developers"`
 		Publishers  []string `json:"publishers"`
 		Demos       []struct {
-			AppID       int    `json:"appid,string"`
+			AppID       int    `json:"appid"`
 			Description string `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
@@ -127,7 +113,7 @@ type AppDetailsBody struct {
 				PercentSavings           int    `json:"percent_savings"`
 				OptionText               string `json:"option_text"`
 				OptionDescription        string `json:"option_description"`
-				CanGetFreeLicense        int    `json:"can_get_free_license,string"`
+				CanGetFreeLicense        int    `json:"can_get_free_license"`
 				IsFreeLicense            bool   `json:"is_free_license"`
 				PriceInCentsWithDiscount int    `json:"price_in_cents_with_discount"`
 			} `json:"subs"`
@@ -220,7 +206,7 @@ func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (p
 
 	// Unmarshal JSON
 	resp := map[string]PackageDetailsBody{}
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return pack, bytes, err
 	}
@@ -271,7 +257,7 @@ func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
 	}
 
 	var resp []Tag
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return tags, bytes, err
 	}
@@ -315,12 +301,12 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	query.Set("start_offset", "0")
 	query.Set("review_type", "all")
 	query.Set("purchase_type", "all")
-	//query.Set("start_date", "")
-	//query.Set("end_date", "")
-	//query.Set("date_range_type", "include")
-	//query.Set("review_beta_enabled", "1")
-	//query.Set("summary_num_positive_reviews", "1")
-	//query.Set("summary_num_reviews", "1")
+	// query.Set("start_date", "")
+	// query.Set("end_date", "")
+	// query.Set("date_range_type", "include")
+	// query.Set("review_beta_enabled", "1")
+	// query.Set("summary_num_positive_reviews", "1")
+	// query.Set("summary_num_reviews", "1")
 
 	bytes, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
@@ -328,7 +314,7 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	}
 
 	// Unmarshal JSON
-	err = json.Unmarshal(bytes, &reviews)
+	err = unmarshal.Unmarshal(bytes, &reviews)
 	if err != nil {
 		return reviews, bytes, err
 	}
@@ -342,7 +328,7 @@ type ReviewsResponse struct {
 	Reviews      []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author           struct {
-			SteamID              int64 `json:"steamid,string"`
+			SteamID              int64 `json:"steamid"`
 			NumGamesOwned        int   `json:"num_games_owned"`
 			NumReviews           int   `json:"num_reviews"`
 			PlaytimeForever      int   `json:"playtime_forever"`
@@ -356,7 +342,7 @@ type ReviewsResponse struct {
 		VotedUp                  bool    `json:"voted_up"`
 		VotesUp                  int     `json:"votes_up"`
 		VotesFunny               int     `json:"votes_funny"`
-		WeightedVoteScore        float64 `json:"weighted_vote_score,string"`
+		WeightedVoteScore        float64 `json:"weighted_vote_score"`
 		CommentCount             int     `json:"comment_count"`
 		SteamPurchase            bool    `json:"steam_purchase"`
 		ReceivedForFree          bool    `json:"received_for_free"`

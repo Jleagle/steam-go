@@ -1,9 +1,10 @@
 package steam
 
 import (
-	"encoding/json"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, err error) {
@@ -29,7 +30,7 @@ func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, er
 	}
 
 	var resp AppListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = unmarshal.Unmarshal(bytes, &resp)
 	if err != nil {
 		return apps, bytes, err
 	}
