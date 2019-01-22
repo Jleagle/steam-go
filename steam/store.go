@@ -187,7 +187,7 @@ type AppDetailsAchievements struct {
 }
 
 type AppDetailsGenre struct {
-	ID          string `json:"id"`
+	ID          int    `json:"id"`
 	Description string `json:"description"`
 }
 
