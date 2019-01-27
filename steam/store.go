@@ -1,12 +1,13 @@
 package steam
 
 import (
+	"encoding/json"
 	"errors"
 	"net/url"
 	"strconv"
 	"strings"
 
-	"github.com/Jleagle/unmarshal-go/unmarshal"
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 var (
@@ -38,9 +39,16 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 		return app, bytes, ErrHTMLResponse
 	}
 
+	// Fix arrays that should be objects
+	var str = string(bytes)
+	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
+	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
+	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
+	bytes = []byte(str)
+
 	// Unmarshal JSON
 	resp := map[string]AppDetailsBody{}
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return app, bytes, err
 	}
@@ -55,19 +63,19 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 type AppDetailsBody struct {
 	Success bool `json:"success"`
 	Data    struct {
-		Type                string `json:"type"`
-		Name                string `json:"name"`
-		AppID               int    `json:"steam_appid"`
-		RequiredAge         int    `json:"required_age"`
-		IsFree              bool   `json:"is_free"`
-		DLC                 []int  `json:"dlc"`
-		ControllerSupport   string `json:"controller_support"`
-		DetailedDescription string `json:"detailed_description"`
-		AboutTheGame        string `json:"about_the_game"`
-		ShortDescription    string `json:"short_description"`
+		Type                string      `json:"type"`
+		Name                string      `json:"name"`
+		AppID               int         `json:"steam_appid"`
+		RequiredAge         ctypes.CInt `json:"required_age"`
+		IsFree              bool        `json:"is_free"`
+		DLC                 []int       `json:"dlc"`
+		ControllerSupport   string      `json:"controller_support"`
+		DetailedDescription string      `json:"detailed_description"`
+		AboutTheGame        string      `json:"about_the_game"`
+		ShortDescription    string      `json:"short_description"`
 		Fullgame            struct {
-			AppID int    `json:"appid"`
-			Name  string `json:"name"`
+			AppID ctypes.CInt `json:"appid"`
+			Name  string      `json:"name"`
 		} `json:"fullgame"`
 		SupportedLanguages string `json:"supported_languages"`
 		Reviews            string `json:"reviews"`
@@ -89,8 +97,8 @@ type AppDetailsBody struct {
 		Developers  []string `json:"developers"`
 		Publishers  []string `json:"publishers"`
 		Demos       []struct {
-			AppID       int    `json:"appid"`
-			Description string `json:"description"`
+			AppID       ctypes.CInt `json:"appid"`
+			Description string      `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
 			Currency        string `json:"currency"`
@@ -100,22 +108,22 @@ type AppDetailsBody struct {
 		} `json:"price_overview"`
 		Packages      []int `json:"packages"`
 		PackageGroups []struct {
-			Name                    string `json:"name"`
-			Title                   string `json:"title"`
-			Description             string `json:"description"`
-			SelectionText           string `json:"selection_text"`
-			SaveText                string `json:"save_text"`
-			DisplayType             string `json:"display_type"` // Can be string or int
-			IsRecurringSubscription string `json:"is_recurring_subscription"`
+			Name                    string         `json:"name"`
+			Title                   string         `json:"title"`
+			Description             string         `json:"description"`
+			SelectionText           string         `json:"selection_text"`
+			SaveText                string         `json:"save_text"`
+			DisplayType             ctypes.CString `json:"display_type"`
+			IsRecurringSubscription string         `json:"is_recurring_subscription"`
 			Subs                    []struct {
-				PackageID                int    `json:"packageid"`
-				PercentSavingsText       string `json:"percent_savings_text"`
-				PercentSavings           int    `json:"percent_savings"`
-				OptionText               string `json:"option_text"`
-				OptionDescription        string `json:"option_description"`
-				CanGetFreeLicense        int    `json:"can_get_free_license"`
-				IsFreeLicense            bool   `json:"is_free_license"`
-				PriceInCentsWithDiscount int    `json:"price_in_cents_with_discount"`
+				PackageID                int          `json:"packageid"`
+				PercentSavingsText       string       `json:"percent_savings_text"`
+				PercentSavings           int          `json:"percent_savings"`
+				OptionText               string       `json:"option_text"`
+				OptionDescription        string       `json:"option_description"`
+				CanGetFreeLicense        ctypes.CBool `json:"can_get_free_license"`
+				IsFreeLicense            bool         `json:"is_free_license"`
+				PriceInCentsWithDiscount int          `json:"price_in_cents_with_discount"`
 			} `json:"subs"`
 		} `json:"package_groups"`
 		Platforms struct {
@@ -206,7 +214,7 @@ func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (p
 
 	// Unmarshal JSON
 	resp := map[string]PackageDetailsBody{}
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return pack, bytes, err
 	}
@@ -257,7 +265,7 @@ func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
 	}
 
 	var resp []Tag
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return tags, bytes, err
 	}
@@ -314,7 +322,7 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	}
 
 	// Unmarshal JSON
-	err = unmarshal.Unmarshal(bytes, &reviews)
+	err = json.Unmarshal(bytes, &reviews)
 	if err != nil {
 		return reviews, bytes, err
 	}
@@ -328,25 +336,25 @@ type ReviewsResponse struct {
 	Reviews      []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author           struct {
-			SteamID              int64 `json:"steamid"`
-			NumGamesOwned        int   `json:"num_games_owned"`
-			NumReviews           int   `json:"num_reviews"`
-			PlaytimeForever      int   `json:"playtime_forever"`
-			PlaytimeLastTwoWeeks int   `json:"playtime_last_two_weeks"`
-			LastPlayed           int   `json:"last_played"`
+			SteamID              ctypes.CInt64 `json:"steamid"`
+			NumGamesOwned        int           `json:"num_games_owned"`
+			NumReviews           int           `json:"num_reviews"`
+			PlaytimeForever      int           `json:"playtime_forever"`
+			PlaytimeLastTwoWeeks int           `json:"playtime_last_two_weeks"`
+			LastPlayed           int           `json:"last_played"`
 		} `json:"author"`
-		Language                 string  `json:"language"`
-		Review                   string  `json:"review"`
-		TimestampCreated         int64   `json:"timestamp_created"`
-		TimestampUpdated         int64   `json:"timestamp_updated"`
-		VotedUp                  bool    `json:"voted_up"`
-		VotesUp                  int     `json:"votes_up"`
-		VotesFunny               int     `json:"votes_funny"`
-		WeightedVoteScore        float64 `json:"weighted_vote_score"`
-		CommentCount             int     `json:"comment_count"`
-		SteamPurchase            bool    `json:"steam_purchase"`
-		ReceivedForFree          bool    `json:"received_for_free"`
-		WrittenDuringEarlyAccess bool    `json:"written_during_early_access"`
+		Language                 string          `json:"language"`
+		Review                   string          `json:"review"`
+		TimestampCreated         int64           `json:"timestamp_created"`
+		TimestampUpdated         int64           `json:"timestamp_updated"`
+		VotedUp                  bool            `json:"voted_up"`
+		VotesUp                  int             `json:"votes_up"`
+		VotesFunny               int             `json:"votes_funny"`
+		WeightedVoteScore        ctypes.CFloat64 `json:"weighted_vote_score"`
+		CommentCount             int             `json:"comment_count"`
+		SteamPurchase            bool            `json:"steam_purchase"`
+		ReceivedForFree          bool            `json:"received_for_free"`
+		WrittenDuringEarlyAccess bool            `json:"written_during_early_access"`
 	} `json:"reviews"`
 }
 

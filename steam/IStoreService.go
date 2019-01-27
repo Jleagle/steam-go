@@ -1,10 +1,9 @@
 package steam
 
 import (
+	"encoding/json"
 	"net/url"
 	"strconv"
-
-	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, err error) {
@@ -15,7 +14,7 @@ func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, er
 	q.Set("include_software", "1")
 	q.Set("include_videos", "1")
 	q.Set("include_hardware", "1")
-	//q.Set("if_modified_since", "")
+	// q.Set("if_modified_since", "")
 
 	if offset > 0 {
 		q.Set("last_appid", strconv.Itoa(offset))
@@ -30,7 +29,7 @@ func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, er
 	}
 
 	var resp AppListResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return apps, bytes, err
 	}

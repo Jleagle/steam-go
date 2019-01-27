@@ -3,15 +3,23 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:6074c04797c522554cda2ad62bb5a91d7fa0b0ef778fc9de40a8c1102eb701a9"
+  digest = "1:fb0484109aab8bd7dceb4cca3d315dd603ae3358135fb9888c19449c203826a9"
   name = "github.com/Jleagle/unmarshal-go"
-  packages = ["unmarshal"]
+  packages = ["ctypes"]
   pruneopts = "UT"
-  revision = "1e09a9276f04b15a711848b1a7fb750a9c931c57"
+  revision = "51d03ed22324591bd90e6ba21b83b9dbe4b82517"
+
+[[projects]]
+  branch = "master"
+  digest = "1:69e7139f6d546cc6ffc9ca98e7f4cfe95be479f4044eb30bb92017b5b87c9d40"
+  name = "github.com/buger/jsonparser"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "bf1c66bbce23153d89b23f8960071a680dbef54b"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/Jleagle/unmarshal-go/unmarshal"]
+  input-imports = ["github.com/Jleagle/unmarshal-go/ctypes"]
   solver-name = "gps-cdcl"
   solver-version = 1

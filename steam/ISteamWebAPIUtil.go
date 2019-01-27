@@ -1,9 +1,8 @@
 package steam
 
 import (
+	"encoding/json"
 	"net/url"
-
-	"github.com/Jleagle/unmarshal-go/unmarshal"
 )
 
 // Gets the list of supported API calls. This is used to build this documentation.
@@ -16,7 +15,7 @@ func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, err error) {
 
 	// Unmarshal JSON
 	var resp SupportedAPIListResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return percentages, err
 	}

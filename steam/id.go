@@ -31,7 +31,7 @@ func (s Steam) GetID(id string) (id64 int64, err error) {
 		return convert32to64(id), nil
 
 	}
-	
+
 	return 0, errors.New("invalid id")
 }
 

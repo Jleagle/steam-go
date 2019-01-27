@@ -1,11 +1,12 @@
 package steam
 
 import (
+	"encoding/json"
 	"errors"
 	"net/url"
 	"strconv"
 
-	"github.com/Jleagle/unmarshal-go/unmarshal"
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 var (
@@ -25,7 +26,7 @@ func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte,
 
 	// Unmarhsal
 	var resp FriendListResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return friends, bytes, err
 	}
@@ -42,9 +43,9 @@ type FriendsList struct {
 }
 
 type Friend struct {
-	SteamID      int64  `json:"steamid"`
-	Relationship string `json:"relationship"`
-	FriendSince  int64  `json:"friend_since"`
+	SteamID      ctypes.CInt64 `json:"steamid"`
+	Relationship string        `json:"relationship"`
+	FriendSince  int64         `json:"friend_since"`
 }
 
 func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, err error) {
@@ -60,7 +61,7 @@ func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, e
 
 	// Unmarhsal
 	var resp VanityURLRepsonse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return info, bytes, err
 	}
@@ -77,9 +78,9 @@ type VanityURLRepsonse struct {
 }
 
 type VanityURL struct {
-	SteamID int64  `json:"steamid"`
-	Success int8   `json:"success"`
-	Message string `json:"message"`
+	SteamID ctypes.CInt64 `json:"steamid"`
+	Success int8          `json:"success"`
+	Message string        `json:"message"`
 }
 
 func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, err error) {
@@ -94,7 +95,7 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, er
 
 	// Unmarshal
 	var resp PlayerResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return player, bytes, err
 	}
@@ -115,23 +116,23 @@ type PlayerSummaries struct {
 }
 
 type PlayerSummary struct {
-	SteamID                  int64  `json:"steamid"`
-	CommunityVisibilityState int    `json:"communityvisibilitystate"`
-	ProfileState             int    `json:"profilestate"`
-	PersonaName              string `json:"personaname"`
-	LastLogOff               int64  `json:"lastlogoff"`
-	CommentPermission        int    `json:"commentpermission"`
-	ProfileURL               string `json:"profileurl"`
-	Avatar                   string `json:"avatar"`
-	AvatarMedium             string `json:"avatarmedium"`
-	AvatarFull               string `json:"avatarfull"`
-	PersonaState             int    `json:"personastate"`
-	RealName                 string `json:"realname"`
-	PrimaryClanID            int    `json:"primaryclanid"`
-	TimeCreated              int64  `json:"timecreated"`
-	PersonaStateFlags        int    `json:"personastateflags"`
-	LOCCountryCode           string `json:"loccountrycode"`
-	LOCStateCode             string `json:"locstatecode"`
+	SteamID                  ctypes.CInt64 `json:"steamid"`
+	CommunityVisibilityState int           `json:"communityvisibilitystate"`
+	ProfileState             int           `json:"profilestate"`
+	PersonaName              string        `json:"personaname"`
+	LastLogOff               int64         `json:"lastlogoff"`
+	CommentPermission        int           `json:"commentpermission"`
+	ProfileURL               string        `json:"profileurl"`
+	Avatar                   string        `json:"avatar"`
+	AvatarMedium             string        `json:"avatarmedium"`
+	AvatarFull               string        `json:"avatarfull"`
+	PersonaState             int           `json:"personastate"`
+	RealName                 string        `json:"realname"`
+	PrimaryClanID            ctypes.CInt   `json:"primaryclanid"`
+	TimeCreated              int64         `json:"timecreated"`
+	PersonaStateFlags        int           `json:"personastateflags"`
+	LOCCountryCode           string        `json:"loccountrycode"`
+	LOCStateCode             string        `json:"locstatecode"`
 }
 
 func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes []byte, err error) {
@@ -146,7 +147,7 @@ func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes [
 
 	// Unmarshal
 	var resp GetPlayerBansResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return bans, bytes, err
 	}
@@ -163,13 +164,13 @@ type GetPlayerBansResponse struct {
 }
 
 type GetPlayerBanResponse struct {
-	SteamID          int64  `json:"SteamId"`
-	CommunityBanned  bool   `json:"CommunityBanned"`
-	VACBanned        bool   `json:"VACBanned"`
-	NumberOfVACBans  int    `json:"NumberOfVACBans"`
-	DaysSinceLastBan int    `json:"DaysSinceLastBan"`
-	NumberOfGameBans int    `json:"NumberOfGameBans"`
-	EconomyBan       string `json:"EconomyBan"`
+	SteamID          ctypes.CInt64 `json:"SteamId"`
+	CommunityBanned  bool          `json:"CommunityBanned"`
+	VACBanned        bool          `json:"VACBanned"`
+	NumberOfVACBans  int           `json:"NumberOfVACBans"`
+	DaysSinceLastBan int           `json:"DaysSinceLastBan"`
+	NumberOfGameBans int           `json:"NumberOfGameBans"`
+	EconomyBan       string        `json:"EconomyBan"`
 }
 
 func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []byte, err error) {
@@ -184,7 +185,7 @@ func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []b
 
 	// Unmarshal
 	var resp UserGroupListResponse
-	err = unmarshal.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(bytes, &resp)
 	if err != nil {
 		return groups, bytes, err
 	}
@@ -208,11 +209,11 @@ type UserGroupList struct {
 
 func (u UserGroupList) GetIDs() (ids []int) {
 	for _, v := range u.Groups {
-		ids = append(ids, v.GID)
+		ids = append(ids, int(v.GID))
 	}
 	return ids
 }
 
 type UserGroup struct {
-	GID int `json:"gid"`
+	GID ctypes.CInt `json:"gid"`
 }
