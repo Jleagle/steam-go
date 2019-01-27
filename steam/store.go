@@ -181,8 +181,8 @@ type AppDetailsAchievements struct {
 }
 
 type AppDetailsGenre struct {
-	ID          int    `json:"id"`
-	Description string `json:"description"`
+	ID          ctypes.CInt `json:"id"`
+	Description string      `json:"description"`
 }
 
 type AppDetailsCategory struct {
