@@ -3,11 +3,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:fb0484109aab8bd7dceb4cca3d315dd603ae3358135fb9888c19449c203826a9"
+  digest = "1:7d5a00ef830d47f201162d139ffe1dbed6f643e715adfab055be8552823b9a77"
   name = "github.com/Jleagle/unmarshal-go"
   packages = ["ctypes"]
   pruneopts = "UT"
-  revision = "51d03ed22324591bd90e6ba21b83b9dbe4b82517"
+  revision = "4239706b54bf38b2c8e829af6044a230f0867bd6"
 
 [[projects]]
   branch = "master"
