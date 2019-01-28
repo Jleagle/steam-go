@@ -11,22 +11,20 @@ import (
 
 func TestSteam(t *testing.T) {
 
-	var steamClient = &steam.Steam{
-		APIRate:   time.Millisecond * 1000,
-		StoreRate: time.Millisecond * 1000,
-	}
+	steamClient := steam.Steam{}
+	steamClient.SetStoreRateLimit(time.Second, 3)
 
+	// Random app IDs
+	var ids = []int{408070, 208370, 568670, 595588, 507580, 787980, 994300, 620520, 576250, 759300}
 	var wg sync.WaitGroup
 
-	for i := 1; i <= 1; i++ {
+	for _, v := range ids {
 		wg.Add(1)
-		go func() {
-			_, _, err := steamClient.GetAppDetails(440, steam.CountryUS, steam.LanguageEnglish)
-			if err != nil {
-				fmt.Println(err)
-			}
+		go func(v int) {
+			_, _, err := steamClient.GetAppDetails(v, steam.CountryUS, steam.LanguageEnglish)
+			fmt.Println(err)
 			wg.Done()
-		}()
+		}(v)
 	}
 	wg.Wait()
 }

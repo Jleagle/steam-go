@@ -7,7 +7,7 @@
   name = "github.com/Jleagle/unmarshal-go"
   packages = ["ctypes"]
   pruneopts = "UT"
-  revision = "4239706b54bf38b2c8e829af6044a230f0867bd6"
+  revision = "8ab9c10d2f0a9d1cabf6200a2db8ea24e240d14e"
 
 [[projects]]
   branch = "master"
@@ -17,9 +17,20 @@
   pruneopts = "UT"
   revision = "bf1c66bbce23153d89b23f8960071a680dbef54b"
 
+[[projects]]
+  digest = "1:190ff84d9b2ed6589088f178cba8edb4b8ecb334df4572421fb016be1ac20463"
+  name = "github.com/juju/ratelimit"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "59fac5042749a5afb9af70e813da1dd5474f0167"
+  version = "1.0.1"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/Jleagle/unmarshal-go/ctypes"]
+  input-imports = [
+    "github.com/Jleagle/unmarshal-go/ctypes",
+    "github.com/juju/ratelimit",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
