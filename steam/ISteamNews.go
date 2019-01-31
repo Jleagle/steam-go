@@ -35,21 +35,19 @@ type NewsResponse struct {
 }
 
 type News struct {
-	AppID int           `json:"appid"`
-	Items []NewsArticle `json:"newsitems"`
-	Count int           `json:"count"`
-}
-
-type NewsArticle struct {
-	GID           ctypes.CInt64 `json:"gid"`
-	Title         string        `json:"title"`
-	URL           string        `json:"url"`
-	IsExternalURL bool          `json:"is_external_url"`
-	Author        string        `json:"author"`
-	Contents      string        `json:"contents"`
-	Feedlabel     string        `json:"feedlabel"`
-	Date          int64         `json:"date"`
-	Feedname      string        `json:"feedname"`
-	FeedType      int           `json:"feed_type"`
-	AppID         int           `json:"appid"`
+	AppID int `json:"appid"`
+	Items []struct {
+		GID           ctypes.CInt64 `json:"gid"`
+		Title         string        `json:"title"`
+		URL           string        `json:"url"`
+		IsExternalURL bool          `json:"is_external_url"`
+		Author        string        `json:"author"`
+		Contents      string        `json:"contents"`
+		Feedlabel     string        `json:"feedlabel"`
+		Date          int64         `json:"date"`
+		Feedname      string        `json:"feedname"`
+		FeedType      int           `json:"feed_type"`
+		AppID         int           `json:"appid"`
+	} `json:"newsitems"`
+	Count int `json:"count"`
 }

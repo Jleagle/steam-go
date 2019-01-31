@@ -31,12 +31,18 @@ type GlobalAchievementPercentagesResponse struct {
 }
 
 type GlobalAchievementPercentages struct {
-	GlobalAchievementPercentage []AchievementPercentage `json:"achievements"`
+	GlobalAchievementPercentage []struct {
+		Name    string  `json:"name"`
+		Percent float64 `json:"percent"`
+	} `json:"achievements"`
 }
 
-type AchievementPercentage struct {
-	Name    string  `json:"name"`
-	Percent float64 `json:"percent"`
+func (a GlobalAchievementPercentages) GetMap() map[string]float64 {
+	m := map[string]float64{}
+	for _, v := range a.GlobalAchievementPercentage {
+		m[v.Name] = v.Percent
+	}
+	return m
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
@@ -60,12 +66,10 @@ func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, 
 }
 
 type NumberOfCurrentPlayersResponse struct {
-	Response NumberOfCurrentPlayers `json:"response"`
-}
-
-type NumberOfCurrentPlayers struct {
-	PlayerCount int `json:"player_count"`
-	Result      int `json:"result"`
+	Response struct {
+		PlayerCount int `json:"player_count"`
+		Result      int `json:"result"`
+	} `json:"response"`
 }
 
 // Gets the complete list of stats and achievements for the specified game.
@@ -94,28 +98,22 @@ type SchemaForGameResponse struct {
 }
 
 type SchemaForGame struct {
-	Name               string             `json:"gameName"`
-	Version            string             `json:"gameVersion"`
-	AvailableGameStats SchemaForGameGroup `json:"availableGameStats"`
-}
-
-type SchemaForGameGroup struct {
-	Stats        []SchemaForGameStats        `json:"stats"`
-	Achievements []SchemaForGameAchievements `json:"achievements"`
-}
-
-type SchemaForGameStats struct {
-	Name         string `json:"name"`
-	DefaultValue int    `json:"defaultvalue"`
-	DisplayName  string `json:"displayName"`
-}
-
-type SchemaForGameAchievements struct {
-	Name         string `json:"name"`
-	DefaultValue int    `json:"defaultvalue"`
-	DisplayName  string `json:"displayName"`
-	Hidden       int8   `json:"hidden"`
-	Description  string `json:"description"`
-	Icon         string `json:"icon"`
-	IconGray     string `json:"icongray"`
+	Name               string `json:"gameName"`
+	Version            string `json:"gameVersion"`
+	AvailableGameStats struct {
+		Stats []struct {
+			Name         string `json:"name"`
+			DefaultValue int    `json:"defaultvalue"`
+			DisplayName  string `json:"displayName"`
+		} `json:"stats"`
+		Achievements []struct {
+			Name         string `json:"name"`
+			DefaultValue int    `json:"defaultvalue"`
+			DisplayName  string `json:"displayName"`
+			Hidden       int8   `json:"hidden"`
+			Description  string `json:"description"`
+			Icon         string `json:"icon"`
+			IconGray     string `json:"icongray"`
+		} `json:"achievements"`
+	} `json:"availableGameStats"`
 }

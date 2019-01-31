@@ -135,15 +135,40 @@ type AppDetailsBody struct {
 			Score int8   `json:"score"`
 			URL   string `json:"url"`
 		} `json:"metacritic"`
-		Categories      []AppDetailsCategory   `json:"categories"`
-		Genres          []AppDetailsGenre      `json:"genres"`
-		Screenshots     []AppDetailsScreenshot `json:"screenshots"`
-		Movies          []AppDetailsMovie      `json:"movies"`
+		Categories []struct {
+			ID          int8   `json:"id"`
+			Description string `json:"description"`
+		} `json:"categories"`
+		Genres []struct {
+			ID          ctypes.CInt `json:"id"`
+			Description string      `json:"description"`
+		} `json:"genres"`
+		Screenshots []struct {
+			ID            int    `json:"id"`
+			PathThumbnail string `json:"path_thumbnail"`
+			PathFull      string `json:"path_full"`
+		} `json:"screenshots"`
+		Movies []struct {
+			ID        int    `json:"id"`
+			Name      string `json:"name"`
+			Thumbnail string `json:"thumbnail"`
+			Webm      struct {
+				Num480 string `json:"480"`
+				Max    string `json:"max"`
+			} `json:"webm"`
+			Highlight bool `json:"highlight"`
+		} `json:"movies"`
 		Recommendations struct {
 			Total int `json:"total"`
 		} `json:"recommendations"`
-		Achievements AppDetailsAchievements `json:"achievements"`
-		ReleaseDate  struct {
+		Achievements struct {
+			Total       int `json:"total"`
+			Highlighted []struct {
+				Name string `json:"name"`
+				Path string `json:"path"`
+			} `json:"highlighted"`
+		} `json:"achievements"`
+		ReleaseDate struct {
 			ComingSoon bool   `json:"coming_soon"`
 			Date       string `json:"date"`
 		} `json:"release_date"`
@@ -153,41 +178,6 @@ type AppDetailsBody struct {
 		} `json:"support_info"`
 		Background string `json:"background"`
 	} `json:"data"`
-}
-
-type AppDetailsMovie struct {
-	ID        int    `json:"id"`
-	Name      string `json:"name"`
-	Thumbnail string `json:"thumbnail"`
-	Webm      struct {
-		Num480 string `json:"480"`
-		Max    string `json:"max"`
-	} `json:"webm"`
-	Highlight bool `json:"highlight"`
-}
-
-type AppDetailsScreenshot struct {
-	ID            int    `json:"id"`
-	PathThumbnail string `json:"path_thumbnail"`
-	PathFull      string `json:"path_full"`
-}
-
-type AppDetailsAchievements struct {
-	Total       int `json:"total"`
-	Highlighted []struct {
-		Name string `json:"name"`
-		Path string `json:"path"`
-	} `json:"highlighted"`
-}
-
-type AppDetailsGenre struct {
-	ID          ctypes.CInt `json:"id"`
-	Description string      `json:"description"`
-}
-
-type AppDetailsCategory struct {
-	ID          int8   `json:"id"`
-	Description string `json:"description"`
 }
 
 func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (pack PackageDetailsBody, bytes []byte, err error) {
@@ -270,7 +260,7 @@ func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
 		return tags, bytes, err
 	}
 
-	return Tags{Tags: resp,}, bytes, nil
+	return Tags{Tags: resp}, bytes, nil
 }
 
 type Tags struct {
@@ -331,9 +321,16 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 }
 
 type ReviewsResponse struct {
-	Success      int                    `json:"success"`
-	QuerySummary ReviewsSummaryResponse `json:"query_summary"`
-	Reviews      []struct {
+	Success      int `json:"success"`
+	QuerySummary struct {
+		NumReviews      int     `json:"num_reviews"`
+		ReviewScore     float64 `json:"review_score"`
+		ReviewScoreDesc string  `json:"review_score_desc"`
+		TotalPositive   int     `json:"total_positive"`
+		TotalNegative   int     `json:"total_negative"`
+		TotalReviews    int     `json:"total_reviews"`
+	} `json:"query_summary"`
+	Reviews []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author           struct {
 			SteamID              ctypes.CInt64 `json:"steamid"`
@@ -358,19 +355,10 @@ type ReviewsResponse struct {
 	} `json:"reviews"`
 }
 
-type ReviewsSummaryResponse struct {
-	NumReviews      int     `json:"num_reviews"`
-	ReviewScore     float64 `json:"review_score"`
-	ReviewScoreDesc string  `json:"review_score_desc"`
-	TotalPositive   int     `json:"total_positive"`
-	TotalNegative   int     `json:"total_negative"`
-	TotalReviews    int     `json:"total_reviews"`
+func (r ReviewsResponse) GetPositivePercent() float64 {
+	return float64(r.QuerySummary.TotalPositive) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (r ReviewsSummaryResponse) GetPositivePercent() float64 {
-	return float64(r.TotalPositive) / float64(r.TotalReviews) * 100
-}
-
-func (r ReviewsSummaryResponse) GetNegativePercent() float64 {
-	return float64(r.TotalNegative) / float64(r.TotalReviews) * 100
+func (r ReviewsResponse) GetNegativePercent() float64 {
+	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }

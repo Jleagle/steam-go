@@ -42,14 +42,12 @@ type AppListResponse struct {
 }
 
 type AppList struct {
-	Apps            []App `json:"apps"`
-	HaveMoreResults bool  `json:"have_more_results"`
-	LastAppID       int   `json:"last_appid"`
-}
-
-type App struct {
-	AppID             int    `json:"appid"`
-	Name              string `json:"name"`
-	LastModified      int64  `json:"last_modified"`
-	PriceChangeNumber int    `json:"price_change_number"`
+	Apps []struct {
+		AppID             int    `json:"appid"`
+		Name              string `json:"name"`
+		LastModified      int64  `json:"last_modified"`
+		PriceChangeNumber int    `json:"price_change_number"`
+	} `json:"apps"`
+	HaveMoreResults bool `json:"have_more_results"`
+	LastAppID       int  `json:"last_appid"`
 }

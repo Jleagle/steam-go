@@ -28,24 +28,18 @@ type SupportedAPIListResponse struct {
 }
 
 type APIInterfaces struct {
-	Interfaces []APIInterface `json:"interfaces"`
-}
-
-type APIInterface struct {
-	Name    string      `json:"name"`
-	Methods []APIMethod `json:"methods"`
-}
-
-type APIMethod struct {
-	Name       string         `json:"name"`
-	Version    int            `json:"version"`
-	Httpmethod string         `json:"httpmethod"`
-	Parameters []APIParameter `json:"parameters"`
-}
-
-type APIParameter struct {
-	Name        string `json:"name"`
-	Type        string `json:"type"`
-	Optional    bool   `json:"optional"`
-	Description string `json:"description"`
+	Interfaces []struct {
+		Name    string `json:"name"`
+		Methods []struct {
+			Name       string `json:"name"`
+			Version    int    `json:"version"`
+			Httpmethod string `json:"httpmethod"`
+			Parameters []struct {
+				Name        string `json:"name"`
+				Type        string `json:"type"`
+				Optional    bool   `json:"optional"`
+				Description string `json:"description"`
+			} `json:"parameters"`
+		} `json:"methods"`
+	} `json:"interfaces"`
 }

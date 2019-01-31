@@ -39,13 +39,11 @@ type FriendListResponse struct {
 }
 
 type FriendsList struct {
-	Friends []Friend `json:"friends"`
-}
-
-type Friend struct {
-	SteamID      ctypes.CInt64 `json:"steamid"`
-	Relationship string        `json:"relationship"`
-	FriendSince  int64         `json:"friend_since"`
+	Friends []struct {
+		SteamID      ctypes.CInt64 `json:"steamid"`
+		Relationship string        `json:"relationship"`
+		FriendSince  int64         `json:"friend_since"`
+	} `json:"friends"`
 }
 
 func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, err error) {
@@ -108,11 +106,9 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, er
 }
 
 type PlayerResponse struct {
-	Response PlayerSummaries `json:"response"`
-}
-
-type PlayerSummaries struct {
-	Players []PlayerSummary `json:"players"`
+	Response struct {
+		Players []PlayerSummary `json:"players"`
+	} `json:"response"`
 }
 
 type PlayerSummary struct {
@@ -202,9 +198,11 @@ type UserGroupListResponse struct {
 }
 
 type UserGroupList struct {
-	Success bool        `json:"success"`
-	Groups  []UserGroup `json:"groups"`
-	Error   string      `json:"error"`
+	Success bool `json:"success"`
+	Groups  []struct {
+		GID ctypes.CInt `json:"gid"`
+	} `json:"groups"`
+	Error string `json:"error"`
 }
 
 func (u UserGroupList) GetIDs() (ids []int) {
@@ -212,8 +210,4 @@ func (u UserGroupList) GetIDs() (ids []int) {
 		ids = append(ids, int(v.GID))
 	}
 	return ids
-}
-
-type UserGroup struct {
-	GID ctypes.CInt `json:"gid"`
 }

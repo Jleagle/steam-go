@@ -32,17 +32,15 @@ type RecentlyPlayedGamesResponse struct {
 }
 
 type RecentlyPlayedGames struct {
-	TotalCount int                  `json:"total_count"`
-	Games      []RecentlyPlayedGame `json:"games"`
-}
-
-type RecentlyPlayedGame struct {
-	AppID           int    `json:"appid"`
-	Name            string `json:"name"`
-	PlayTime2Weeks  int    `json:"playtime_2weeks"`
-	PlayTimeForever int    `json:"playtime_forever"`
-	ImgIconURL      string `json:"img_icon_url"`
-	ImgLogoURL      string `json:"img_logo_url"`
+	TotalCount int `json:"total_count"`
+	Games      []struct {
+		AppID           int    `json:"appid"`
+		Name            string `json:"name"`
+		PlayTime2Weeks  int    `json:"playtime_2weeks"`
+		PlayTimeForever int    `json:"playtime_forever"`
+		ImgIconURL      string `json:"img_icon_url"`
+		ImgLogoURL      string `json:"img_logo_url"`
+	} `json:"games"`
 }
 
 // Return a list of games owned by the player
@@ -72,17 +70,15 @@ type OwnedGamesResponse struct {
 }
 
 type OwnedGames struct {
-	GameCount int         `json:"game_count"`
-	Games     []OwnedGame `json:"games"`
-}
-
-type OwnedGame struct {
-	AppID                    int    `json:"appid"`
-	Name                     string `json:"name"`
-	PlaytimeForever          int    `json:"playtime_forever"`
-	ImgIconURL               string `json:"img_icon_url"`
-	ImgLogoURL               string `json:"img_logo_url"`
-	HasCommunityVisibleStats bool   `json:"has_community_visible_stats,omitempty"`
+	GameCount int `json:"game_count"`
+	Games     []struct {
+		AppID                    int    `json:"appid"`
+		Name                     string `json:"name"`
+		PlaytimeForever          int    `json:"playtime_forever"`
+		ImgIconURL               string `json:"img_icon_url"`
+		ImgLogoURL               string `json:"img_logo_url"`
+		HasCommunityVisibleStats bool   `json:"has_community_visible_stats,omitempty"`
+	} `json:"games"`
 }
 
 // Returns the Steam Level of a user
