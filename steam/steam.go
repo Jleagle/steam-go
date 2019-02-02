@@ -2,6 +2,7 @@ package steam
 
 import (
 	"errors"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -29,7 +30,7 @@ var (
 
 type Steam struct {
 	key         string
-	logChannel  chan Log
+	logger      logger
 	userAgent   string
 	apiBucket   *ratelimit.Bucket
 	storeBucket *ratelimit.Bucket
@@ -39,8 +40,8 @@ func (s *Steam) SetKey(key string) {
 	s.key = key
 }
 
-func (s *Steam) SetLogChannel(c chan Log) {
-	s.logChannel = c
+func (s *Steam) SetLogger(logger logger) {
+	s.logger = logger
 }
 
 func (s *Steam) SetUserAgent(userAgent string) {
@@ -89,8 +90,8 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	elapsed := time.Since(start)
 
 	// Send log
-	if s.logChannel != nil {
-		s.logChannel <- Log{path, response.StatusCode, elapsed}
+	if s.logger != nil {
+		s.logger.Write(Log{path, response.StatusCode, elapsed})
 	}
 
 	//
@@ -104,7 +105,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	// Handle errors
 	if response.StatusCode != 200 {
 		if val, ok := statusCodes[response.StatusCode]; ok {
-			return bytes, Error{err: val, code: response.StatusCode, url: path}
+			return bytes, Error{Err: val, Code: response.StatusCode, URL: path}
 		} else {
 			return bytes, errors.New("steam: something went wrong")
 		}
@@ -141,8 +142,8 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	elapsed := time.Since(start)
 
 	// Send log
-	if s.logChannel != nil {
-		s.logChannel <- Log{path, response.StatusCode, elapsed}
+	if s.logger != nil {
+		s.logger.Write(Log{path, response.StatusCode, elapsed})
 	}
 
 	//
@@ -156,26 +157,33 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	return ioutil.ReadAll(response.Body)
 }
 
+type logger interface {
+	Write(log Log)
+}
+
+type DefaultLogger struct {
+}
+
+func (l DefaultLogger) Write(log Log) {
+	fmt.Println(log.String())
+}
+
 type Log struct {
-	Path string
-	Code int
-	Time time.Duration
+	Path     string
+	Code     int
+	Duration time.Duration
 }
 
 func (l Log) String() string {
-	return strconv.Itoa(l.Code) + " " + l.Path + " " + l.Time.String()
+	return strconv.Itoa(l.Code) + " " + l.Path + " " + l.Duration.String()
 }
 
 type Error struct {
-	err  string
-	code int
-	url  string
+	Err  string
+	Code int
+	URL  string
 }
 
 func (e Error) Error() string {
-	return "steam-go: (" + strconv.Itoa(e.code) + ") " + e.err + " (" + e.url + ")"
-}
-
-func (e Error) Code() int {
-	return e.code
+	return "steam-go: (" + strconv.Itoa(e.Code) + ") " + e.Err + " (" + e.URL + ")"
 }
