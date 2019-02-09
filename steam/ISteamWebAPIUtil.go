@@ -33,7 +33,7 @@ type APIInterfaces struct {
 		Methods []struct {
 			Name       string `json:"name"`
 			Version    int    `json:"version"`
-			Httpmethod string `json:"httpmethod"`
+			HTTPmethod string `json:"httpmethod"`
 			Parameters []struct {
 				Name        string `json:"name"`
 				Type        string `json:"type"`
