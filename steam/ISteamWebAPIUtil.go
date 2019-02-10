@@ -28,10 +28,10 @@ type SupportedAPIListResponse struct {
 }
 
 type APIInterfaces struct {
-	Interfaces []Interface `json:"interfaces"`
+	Interfaces []APIInterface `json:"interfaces"`
 }
 
-type Interface struct {
+type APIInterface struct {
 	Name    string `json:"name"`
 	Methods []struct {
 		Name       string `json:"name"`
