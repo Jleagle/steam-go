@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList(limit int, offset int, afterDate int64, language Language) (apps AppList, bytes []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -14,7 +14,14 @@ func (s Steam) GetAppList(limit int, offset int) (apps AppList, bytes []byte, er
 	q.Set("include_software", "1")
 	q.Set("include_videos", "1")
 	q.Set("include_hardware", "1")
-	// q.Set("if_modified_since", "")
+
+	if afterDate > 0 {
+		q.Set("if_modified_since", strconv.FormatInt(afterDate, 10))
+	}
+
+	if language != "" {
+		q.Set("have_description_language", string(language))
+	}
 
 	if offset > 0 {
 		q.Set("last_appid", strconv.Itoa(offset))
