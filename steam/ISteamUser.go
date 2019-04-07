@@ -47,9 +47,9 @@ type FriendsList struct {
 }
 
 const (
-	IndividualProfile = 1
-	Group             = 2
-	OfficialGameGroup = 3
+	VanityURLProfile   = 1
+	VanityURLGroup     = 2
+	VanityURLGameGroup = 3
 )
 
 func (s Steam) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, bytes []byte, err error) {
