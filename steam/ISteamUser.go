@@ -46,11 +46,17 @@ type FriendsList struct {
 	} `json:"friends"`
 }
 
-func (s Steam) ResolveVanityURL(playerID int64) (info VanityURL, bytes []byte, err error) {
+const (
+	IndividualProfile = 1
+	Group             = 2
+	OfficialGameGroup = 3
+)
+
+func (s Steam) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, bytes []byte, err error) {
 
 	options := url.Values{}
-	options.Set("vanityurl", strconv.FormatInt(playerID, 10))
-	options.Set("url_type", "1") // 1 (default): Individual profile, 2: Group, 3: Official game group
+	options.Set("vanityurl", vanityURL)
+	options.Set("url_type", strconv.Itoa(urlType))
 
 	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1", options)
 	if err != nil {
