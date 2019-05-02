@@ -15,8 +15,9 @@ import (
 const defaultUserAgent = "github.com/Jleagle/steam-go"
 
 var (
-	errMissingKey = errors.New("missing api key")
-	statusCodes   = map[int]string{
+	ErrMissingKey = errors.New("missing api key")
+
+	apiStatusCodes = map[int]string{
 		400: "please verify that all required parameters are being sent.",
 		401: "access is denied. retrying will not help. please verify your key= parameter.",
 		403: "access is denied. retrying will not help. please verify your key= parameter.",
@@ -29,11 +30,12 @@ var (
 )
 
 type Steam struct {
-	key         string
-	logger      logger
-	userAgent   string
-	apiBucket   *ratelimit.Bucket
-	storeBucket *ratelimit.Bucket
+	key             string
+	logger          logger
+	userAgent       string
+	apiBucket       *ratelimit.Bucket
+	storeBucket     *ratelimit.Bucket
+	communityBucket *ratelimit.Bucket
 }
 
 func (s *Steam) SetKey(key string) {
@@ -56,10 +58,14 @@ func (s *Steam) SetStoreRateLimit(duration time.Duration, burst int64) {
 	s.storeBucket = ratelimit.NewBucket(duration, burst)
 }
 
+func (s *Steam) SetCommunityRateLimit(duration time.Duration, burst int64) {
+	s.communityBucket = ratelimit.NewBucket(duration, burst)
+}
+
 func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
 
 	if s.key == "" {
-		return bytes, errMissingKey
+		return bytes, ErrMissingKey
 	}
 
 	if s.apiBucket != nil {
@@ -69,32 +75,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	query.Set("format", "json")
 	query.Set("key", s.key)
 
-	path = "https://api.steampowered.com/" + path + "?" + query.Encode()
-
-	// Create request
-	client := &http.Client{}
-
-	req, err := http.NewRequest("GET", path, nil)
-	if err != nil {
-		return bytes, err
-	}
-
-	if s.userAgent == "" {
-		req.Header.Set("User-Agent", defaultUserAgent)
-	} else {
-		req.Header.Set("User-Agent", s.userAgent)
-	}
-
-	start := time.Now()
-	response, err := client.Do(req)
-	elapsed := time.Since(start)
-
-	// Send log
-	if s.logger != nil {
-		s.logger.Write(Log{path, response.StatusCode, elapsed})
-	}
-
-	//
+	response, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
 		return bytes, err
 	}
@@ -104,7 +85,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 	// Handle errors
 	if response.StatusCode != 200 {
-		if val, ok := statusCodes[response.StatusCode]; ok {
+		if val, ok := apiStatusCodes[response.StatusCode]; ok {
 			return bytes, Error{Err: val, Code: response.StatusCode, URL: path}
 		} else {
 			return bytes, errors.New("steam: something went wrong")
@@ -121,14 +102,42 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 		s.storeBucket.Wait(1)
 	}
 
-	path = "https://store.steampowered.com/" + path + "?" + query.Encode()
+	response, err := s.get("https://store.steampowered.com/" + path + "?" + query.Encode())
+	if err != nil {
+		return bytes, err
+	}
+
+	//noinspection GoUnhandledErrorResult
+	defer response.Body.Close()
+
+	return ioutil.ReadAll(response.Body)
+}
+
+func (s Steam) getFromCommunity(path string, query url.Values) (bytes []byte, err error) {
+
+	if s.communityBucket != nil {
+		s.communityBucket.Wait(1)
+	}
+
+	response, err := s.get("https://steamcommunity.com/" + path + "?" + query.Encode())
+	if err != nil {
+		return bytes, err
+	}
+
+	//noinspection GoUnhandledErrorResult
+	defer response.Body.Close()
+
+	return ioutil.ReadAll(response.Body)
+}
+
+func (s Steam) get(path string) (response *http.Response, err error) {
 
 	// Create request
 	client := &http.Client{}
 
 	req, err := http.NewRequest("GET", path, nil)
 	if err != nil {
-		return bytes, err
+		return response, err
 	}
 
 	if s.userAgent == "" {
@@ -138,23 +147,16 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	}
 
 	start := time.Now()
-	response, err := client.Do(req)
+	response, err = client.Do(req)
 	elapsed := time.Since(start)
 
 	// Send log
-	if s.logger != nil {
+	if s.logger != nil && response != nil {
 		s.logger.Write(Log{path, response.StatusCode, elapsed})
 	}
 
 	//
-	if err != nil {
-		return nil, err
-	}
-
-	//noinspection GoUnhandledErrorResult
-	defer response.Body.Close()
-
-	return ioutil.ReadAll(response.Body)
+	return response, err
 }
 
 type logger interface {
