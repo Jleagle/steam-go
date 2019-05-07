@@ -362,3 +362,50 @@ func (r ReviewsResponse) GetPositivePercent() float64 {
 func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
+
+func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, bytes []byte, err error) {
+
+	query := url.Values{}
+	query.Set("p", "0")
+
+	bytes, err = s.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
+	if err != nil {
+		return wishlist, bytes, err
+	}
+
+	// Unmarshal JSON
+	err = json.Unmarshal(bytes, &wishlist.Items)
+	return wishlist, bytes, err
+}
+
+type Wishlist struct {
+	Items map[string]WishlistItem
+}
+
+type WishlistItem struct {
+	Name           string        `json:"name"`
+	Capsule        string        `json:"capsule"`
+	ReviewScore    int           `json:"review_score"`
+	ReviewDesc     string        `json:"review_desc"`
+	ReviewsTotal   string        `json:"reviews_total"`
+	ReviewsPercent int           `json:"reviews_percent"`
+	ReleaseDate    ctypes.CInt64 `json:"release_date"`
+	ReleaseString  string        `json:"release_string"`
+	PlatformIcons  string        `json:"platform_icons"`
+	Subs           []struct {
+		ID            int    `json:"id"`
+		DiscountBlock string `json:"discount_block"`
+		DiscountPct   int    `json:"discount_pct"`
+		Price         int    `json:"price"`
+	} `json:"subs"`
+	Type        string   `json:"type"`
+	Screenshots []string `json:"screenshots"`
+	ReviewCSS   string   `json:"review_css"`
+	Priority    int      `json:"priority"`
+	Added       int      `json:"added"`
+	Background  string   `json:"background"`
+	Rank        string   `json:"rank"`
+	Tags        []string `json:"tags"`
+	EarlyAccess int      `json:"early_access"`
+	Win         int      `json:"win"`
+}
