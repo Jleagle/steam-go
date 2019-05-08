@@ -11,10 +11,11 @@ import (
 )
 
 var (
-	ErrAppNotFound     = errors.New("steam: store: app not found")
-	ErrPackageNotFound = errors.New("steam: store: package not found")
-	ErrNullResponse    = errors.New("steam: store: null response") // Probably being rate limited
-	ErrHTMLResponse    = errors.New("steam: store: html response") // Probably down
+	ErrAppNotFound      = errors.New("steam: store: app not found")
+	ErrPackageNotFound  = errors.New("steam: store: package not found")
+	ErrWishlistNotFound = errors.New("steam: store: wishlist not found")
+	ErrNullResponse     = errors.New("steam: store: null response") // Probably being rate limited
+	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
 func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app AppDetailsBody, bytes []byte, err error) {
@@ -373,9 +374,23 @@ func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, bytes []byte, err
 		return wishlist, bytes, err
 	}
 
+	// Check for fail response
+	failResp := WishlistFail{}
+	err = json.Unmarshal(bytes, &failResp)
+	if err != nil {
+		return wishlist, bytes, err
+	}
+	if failResp.Success > 0 {
+		return wishlist, bytes, ErrWishlistNotFound
+	}
+
 	// Unmarshal JSON
 	err = json.Unmarshal(bytes, &wishlist.Items)
 	return wishlist, bytes, err
+}
+
+type WishlistFail struct {
+	Success int `json:"success"`
 }
 
 type Wishlist struct {
