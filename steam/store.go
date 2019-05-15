@@ -374,13 +374,15 @@ func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, bytes []byte, err
 		return wishlist, bytes, err
 	}
 
+	// No items
+	if strings.TrimSpace(string(bytes)) == "[]" {
+		return wishlist, bytes, err
+	}
+
 	// Check for fail response
 	failResp := WishlistFail{}
 	err = json.Unmarshal(bytes, &failResp)
-	if err != nil {
-		return wishlist, bytes, err
-	}
-	if failResp.Success > 0 {
+	if err == nil && failResp.Success > 0 {
 		return wishlist, bytes, ErrWishlistNotFound
 	}
 
