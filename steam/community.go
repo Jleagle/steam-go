@@ -180,13 +180,29 @@ type PriceOverview struct {
 	MedianPrice string `json:"median_price"`
 }
 
-func (s Steam) GetGroup(id int64) (resp GroupInfo, bytes []byte, err error) {
+func (s Steam) GetGroupByID(id int64) (resp GroupInfo, bytes []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("xml", "1")
 	vals.Set("p", "1")
 
 	bytes, err = s.getFromCommunity("gid/"+strconv.FormatInt(id, 10)+"/memberslistxml", vals)
+	if err != nil {
+		return resp, bytes, err
+	}
+
+	//
+	err = xml.Unmarshal(bytes, &resp)
+	return resp, bytes, err
+}
+
+func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err error) {
+
+	vals := url.Values{}
+	vals.Set("xml", "1")
+	vals.Set("p", "1")
+
+	bytes, err = s.getFromCommunity("groups/"+name+"/memberslistxml", vals)
 	if err != nil {
 		return resp, bytes, err
 	}
