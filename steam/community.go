@@ -5,6 +5,8 @@ import (
 	"encoding/xml"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 func (s Steam) GetInventory(playerID int64, appID int) (resp CommunityInventory, bytes []byte, err error) {
@@ -213,30 +215,30 @@ func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err er
 }
 
 type GroupInfo struct {
-	XMLName      xml.Name `xml:"memberList"`
-	Text         string   `xml:",chardata"`
-	GroupID64    string   `xml:"groupID64"`
+	XMLName      xml.Name      `xml:"memberList"`
+	Text         string        `xml:",chardata"`
+	GroupID64    ctypes.CInt64 `xml:"groupID64"`
 	GroupDetails struct {
-		Text          string `xml:",chardata"`
-		GroupName     string `xml:"groupName"`
-		GroupURL      string `xml:"groupURL"`
-		Headline      string `xml:"headline"`
-		Summary       string `xml:"summary"`
-		AvatarIcon    string `xml:"avatarIcon"`
-		AvatarMedium  string `xml:"avatarMedium"`
-		AvatarFull    string `xml:"avatarFull"`
-		MemberCount   string `xml:"memberCount"`
-		MembersInChat string `xml:"membersInChat"`
-		MembersInGame string `xml:"membersInGame"`
-		MembersOnline string `xml:"membersOnline"`
+		Text          string      `xml:",chardata"`
+		GroupName     string      `xml:"groupName"`
+		GroupURL      string      `xml:"groupURL"`
+		Headline      string      `xml:"headline"`
+		Summary       string      `xml:"summary"`
+		AvatarIcon    string      `xml:"avatarIcon"`
+		AvatarMedium  string      `xml:"avatarMedium"`
+		AvatarFull    string      `xml:"avatarFull"`
+		MemberCount   ctypes.CInt `xml:"memberCount"`
+		MembersInChat ctypes.CInt `xml:"membersInChat"`
+		MembersInGame ctypes.CInt `xml:"membersInGame"`
+		MembersOnline ctypes.CInt `xml:"membersOnline"`
 	} `xml:"groupDetails"`
-	MemberCount    string `xml:"memberCount"`
-	TotalPages     string `xml:"totalPages"`
-	CurrentPage    string `xml:"currentPage"`
-	StartingMember string `xml:"startingMember"`
-	NextPageLink   string `xml:"nextPageLink"`
+	MemberCount    ctypes.CInt `xml:"memberCount"`
+	TotalPages     ctypes.CInt `xml:"totalPages"`
+	CurrentPage    ctypes.CInt `xml:"currentPage"`
+	StartingMember ctypes.CInt `xml:"startingMember"`
+	NextPageLink   string      `xml:"nextPageLink"`
 	Members        struct {
-		Text      string   `xml:",chardata"`
-		SteamID64 []string `xml:"steamID64"`
+		Text      string          `xml:",chardata"`
+		SteamID64 []ctypes.CInt64 `xml:"steamID64"`
 	} `xml:"members"`
 }
