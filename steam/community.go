@@ -2,6 +2,7 @@ package steam
 
 import (
 	"encoding/json"
+	"encoding/xml"
 	"net/url"
 	"strconv"
 )
@@ -177,4 +178,49 @@ type PriceOverview struct {
 	LowestPrice string `json:"lowest_price"`
 	Volume      string `json:"volume"`
 	MedianPrice string `json:"median_price"`
+}
+
+func (s Steam) GetGroup(id int64) (resp GroupInfo, bytes []byte, err error) {
+
+	vals := url.Values{}
+	vals.Set("xml", "1")
+	vals.Set("p", "1")
+
+	bytes, err = s.getFromCommunity("gid/"+strconv.FormatInt(id, 10)+"/memberslistxml", vals)
+	if err != nil {
+		return resp, bytes, err
+	}
+
+	//
+	err = xml.Unmarshal(bytes, &resp)
+	return resp, bytes, err
+}
+
+type GroupInfo struct {
+	XMLName      xml.Name `xml:"memberList"`
+	Text         string   `xml:",chardata"`
+	GroupID64    string   `xml:"groupID64"`
+	GroupDetails struct {
+		Text          string `xml:",chardata"`
+		GroupName     string `xml:"groupName"`
+		GroupURL      string `xml:"groupURL"`
+		Headline      string `xml:"headline"`
+		Summary       string `xml:"summary"`
+		AvatarIcon    string `xml:"avatarIcon"`
+		AvatarMedium  string `xml:"avatarMedium"`
+		AvatarFull    string `xml:"avatarFull"`
+		MemberCount   string `xml:"memberCount"`
+		MembersInChat string `xml:"membersInChat"`
+		MembersInGame string `xml:"membersInGame"`
+		MembersOnline string `xml:"membersOnline"`
+	} `xml:"groupDetails"`
+	MemberCount    string `xml:"memberCount"`
+	TotalPages     string `xml:"totalPages"`
+	CurrentPage    string `xml:"currentPage"`
+	StartingMember string `xml:"startingMember"`
+	NextPageLink   string `xml:"nextPageLink"`
+	Members        struct {
+		Text      string   `xml:",chardata"`
+		SteamID64 []string `xml:"steamID64"`
+	} `xml:"members"`
 }
