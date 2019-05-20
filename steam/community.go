@@ -182,13 +182,13 @@ type PriceOverview struct {
 	MedianPrice string `json:"median_price"`
 }
 
-func (s Steam) GetGroupByID(id int64) (resp GroupInfo, bytes []byte, err error) {
+func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("xml", "1")
 	vals.Set("p", "1")
 
-	bytes, err = s.getFromCommunity("gid/"+strconv.FormatInt(id, 10)+"/memberslistxml", vals)
+	bytes, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
 	if err != nil {
 		return resp, bytes, err
 	}
@@ -215,13 +215,13 @@ func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err er
 }
 
 type GroupInfo struct {
-	XMLName      xml.Name      `xml:"memberList"`
-	Text         string        `xml:",chardata"`
-	GroupID64    ctypes.CInt64 `xml:"groupID64"`
-	GroupDetails struct {
+	XMLName xml.Name `xml:"memberList"`
+	Text    string   `xml:",chardata"`
+	ID64    string   `xml:"groupID64"` // Too big for int64
+	Details struct {
 		Text          string      `xml:",chardata"`
-		GroupName     string      `xml:"groupName"`
-		GroupURL      string      `xml:"groupURL"`
+		Name          string      `xml:"groupName"`
+		URL           string      `xml:"groupURL"`
 		Headline      string      `xml:"headline"`
 		Summary       string      `xml:"summary"`
 		AvatarIcon    string      `xml:"avatarIcon"`
