@@ -9,7 +9,7 @@ import (
 	"github.com/Jleagle/steam-go/steam"
 )
 
-func TestSteam(t *testing.T) {
+func TestRateLimits(t *testing.T) {
 
 	steamClient := steam.Steam{}
 	steamClient.SetStoreRateLimit(time.Second, 3)
@@ -27,4 +27,34 @@ func TestSteam(t *testing.T) {
 		}(v)
 	}
 	wg.Wait()
+}
+
+func TestGroupTypes(t *testing.T) {
+
+	var resp steam.GroupInfo
+	// var b []byte
+	// var err error
+
+	steamClient := steam.Steam{}
+
+	resp, _, _ = steamClient.GetGroupByID("103582791433980119")
+	if resp.Type != "game" {
+		t.Error("group type: " + resp.Type)
+	}
+
+	resp, _, _ = steamClient.GetGroupByID("103582791429670253")
+	if resp.Type != "group" {
+		t.Error("group type: " + resp.Type)
+	}
+
+}
+
+func TestGroupName(t *testing.T) {
+
+	steamClient := steam.Steam{}
+
+	resp, _, _ := steamClient.GetGroupByID("103582791432805705")
+	if resp.Details.Name == "" {
+		t.Error("empty name")
+	}
 }

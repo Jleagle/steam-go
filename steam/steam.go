@@ -113,21 +113,14 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 	return ioutil.ReadAll(response.Body)
 }
 
-func (s Steam) getFromCommunity(path string, query url.Values) (bytes []byte, err error) {
+func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Response, err error) {
 
 	if s.communityBucket != nil {
 		s.communityBucket.Wait(1)
 	}
 
-	response, err := s.get("https://steamcommunity.com/" + path + "?" + query.Encode())
-	if err != nil {
-		return bytes, err
-	}
-
-	//noinspection GoUnhandledErrorResult
-	defer response.Body.Close()
-
-	return ioutil.ReadAll(response.Body)
+	// Response body gets closed in caller function
+	return s.get("https://steamcommunity.com/" + path + "?" + query.Encode())
 }
 
 func (s Steam) get(path string) (response *http.Response, err error) {

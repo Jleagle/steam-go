@@ -3,8 +3,10 @@ package steam
 import (
 	"encoding/json"
 	"encoding/xml"
+	"io/ioutil"
 	"net/url"
 	"strconv"
+	"strings"
 
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
@@ -185,36 +187,65 @@ type PriceOverview struct {
 func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error) {
 
 	vals := url.Values{}
-	vals.Set("xml", "1")
+	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
 	vals.Set("p", "1")
 
-	bytes, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
+	r, err := s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
 	if err != nil {
 		return resp, bytes, err
 	}
 
-	//
+	//noinspection GoUnhandledErrorResult
+	defer r.Body.Close()
+
+	bytes, err = ioutil.ReadAll(r.Body)
+	if err != nil {
+		return resp, bytes, err
+	}
+
 	err = xml.Unmarshal(bytes, &resp)
+
+	if strings.Contains(r.Request.URL.Path, "/games/") {
+		resp.Type = "game"
+	} else if strings.Contains(r.Request.URL.Path, "/groups/") {
+		resp.Type = "group"
+	}
+
 	return resp, bytes, err
 }
 
 func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err error) {
 
 	vals := url.Values{}
-	vals.Set("xml", "1")
+	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
 	vals.Set("p", "1")
 
-	bytes, err = s.getFromCommunity("groups/"+name+"/memberslistxml", vals)
+	r, err := s.getFromCommunity("groups/"+name+"/memberslistxml", vals)
 	if err != nil {
 		return resp, bytes, err
 	}
 
-	//
+	//noinspection GoUnhandledErrorResult
+	defer r.Body.Close()
+
+	bytes, err = ioutil.ReadAll(r.Body)
+	if err != nil {
+		return resp, bytes, err
+	}
+
 	err = xml.Unmarshal(bytes, &resp)
+
+	if strings.Contains(r.Request.URL.Path, "/games/") {
+		resp.Type = "game"
+	} else if strings.Contains(r.Request.URL.Path, "/groups/") {
+		resp.Type = "group"
+	}
+
 	return resp, bytes, err
 }
 
 type GroupInfo struct {
+	Type    string   `xml:"-"` // Not in Steam response
 	XMLName xml.Name `xml:"memberList"`
 	Text    string   `xml:",chardata"`
 	ID64    string   `xml:"groupID64"` // Too big for int64
