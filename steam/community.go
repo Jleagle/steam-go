@@ -3,6 +3,7 @@ package steam
 import (
 	"encoding/json"
 	"encoding/xml"
+	"errors"
 	"io/ioutil"
 	"net/url"
 	"strconv"
@@ -184,6 +185,8 @@ type PriceOverview struct {
 	MedianPrice string `json:"median_price"`
 }
 
+var ErrRateLimited = errors.New("rate limited")
+
 func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error) {
 
 	vals := url.Values{}
@@ -201,6 +204,10 @@ func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error)
 	bytes, err = ioutil.ReadAll(r.Body)
 	if err != nil {
 		return resp, bytes, err
+	}
+
+	if strings.TrimSpace(string(bytes)) == "null" {
+		return resp, bytes, ErrRateLimited
 	}
 
 	err = xml.Unmarshal(bytes, &resp)
@@ -231,6 +238,10 @@ func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err er
 	bytes, err = ioutil.ReadAll(r.Body)
 	if err != nil {
 		return resp, bytes, err
+	}
+
+	if strings.TrimSpace(string(bytes)) == "null" {
+		return resp, bytes, ErrRateLimited
 	}
 
 	err = xml.Unmarshal(bytes, &resp)
