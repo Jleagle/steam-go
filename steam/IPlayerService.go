@@ -154,11 +154,12 @@ func (b BadgesInfo) GetPercentOfLevel() int {
 }
 
 type BadgeResponse struct {
-	BadgeID        int   `json:"badgeid"`
-	Level          int   `json:"level"`
-	CompletionTime int64 `json:"completion_time"`
-	XP             int   `json:"xp"`
-	Scarcity       int   `json:"scarcity"`
-	AppID          int   `json:"appid"`
-	BorderColor    int   `json:"border_color"`
+	AppID           int   `json:"appid"`
+	BadgeID         int   `json:"badgeid"`
+	BorderColor     int   `json:"border_color"`
+	CommunityItemID int64 `json:"communityitemid"`
+	CompletionTime  int64 `json:"completion_time"`
+	Level           int   `json:"level"`
+	Scarcity        int   `json:"scarcity"`
+	XP              int   `json:"xp"`
 }
