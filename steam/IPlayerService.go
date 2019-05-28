@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 // Gets information about a player's recently played games
@@ -154,12 +156,12 @@ func (b BadgesInfo) GetPercentOfLevel() int {
 }
 
 type BadgeResponse struct {
-	AppID           int   `json:"appid"`
-	BadgeID         int   `json:"badgeid"`
-	BorderColor     int   `json:"border_color"`
-	CommunityItemID int64 `json:"communityitemid"`
-	CompletionTime  int64 `json:"completion_time"`
-	Level           int   `json:"level"`
-	Scarcity        int   `json:"scarcity"`
-	XP              int   `json:"xp"`
+	AppID           int           `json:"appid"`
+	BadgeID         int           `json:"badgeid"`
+	BorderColor     int           `json:"border_color"`
+	CommunityItemID ctypes.CInt64 `json:"communityitemid"`
+	CompletionTime  int64         `json:"completion_time"`
+	Level           int           `json:"level"`
+	Scarcity        int           `json:"scarcity"`
+	XP              int           `json:"xp"`
 }
