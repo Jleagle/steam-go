@@ -53,7 +53,8 @@ func TestGroupName(t *testing.T) {
 
 	steamClient := steam.Steam{}
 
-	resp, _, _ := steamClient.GetGroupByID("103582791432805705")
+	resp, _, err := steamClient.GetGroupByID("103582791432805705")
+	fmt.Println(err)
 	if resp.Details.Name == "" {
 		t.Error("empty name")
 	}

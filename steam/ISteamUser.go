@@ -206,14 +206,14 @@ type UserGroupListResponse struct {
 type UserGroupList struct {
 	Success bool `json:"success"`
 	Groups  []struct {
-		GID ctypes.CInt64 `json:"gid"`
+		GID string `json:"gid"` // Can be over 64 bit
 	} `json:"groups"`
 	Error string `json:"error"`
 }
 
-func (u UserGroupList) GetIDs() (ids []int64) {
+func (u UserGroupList) GetIDs() (ids []string) {
 	for _, v := range u.Groups {
-		ids = append(ids, int64(v.GID))
+		ids = append(ids, v.GID)
 	}
 	return ids
 }
