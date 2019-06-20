@@ -9,7 +9,7 @@ import (
 )
 
 // Gets information about a player's recently played games
-func (s Steam) GetRecentlyPlayedGames(playerID int64) (games RecentlyPlayedGames, bytes []byte, err error) {
+func (s Steam) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -26,7 +26,7 @@ func (s Steam) GetRecentlyPlayedGames(playerID int64) (games RecentlyPlayedGames
 		return games, bytes, err
 	}
 
-	return resp.Response, bytes, nil
+	return resp.Response.Games, bytes, nil
 }
 
 type RecentlyPlayedGamesResponse struct {
@@ -34,15 +34,17 @@ type RecentlyPlayedGamesResponse struct {
 }
 
 type RecentlyPlayedGames struct {
-	TotalCount int `json:"total_count"`
-	Games      []struct {
-		AppID           int    `json:"appid"`
-		Name            string `json:"name"`
-		PlayTime2Weeks  int    `json:"playtime_2weeks"`
-		PlayTimeForever int    `json:"playtime_forever"`
-		ImgIconURL      string `json:"img_icon_url"`
-		ImgLogoURL      string `json:"img_logo_url"`
-	} `json:"games"`
+	TotalCount int                  `json:"total_count"`
+	Games      []RecentlyPlayedGame `json:"games"`
+}
+
+type RecentlyPlayedGame struct {
+	AppID           int    `json:"appid"`
+	Name            string `json:"name"`
+	PlayTime2Weeks  int    `json:"playtime_2weeks"`
+	PlayTimeForever int    `json:"playtime_forever"`
+	ImgIconURL      string `json:"img_icon_url"`
+	ImgLogoURL      string `json:"img_logo_url"`
 }
 
 // Return a list of games owned by the player
