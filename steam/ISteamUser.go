@@ -13,7 +13,7 @@ var (
 	ErrNoUserFound = errors.New("no user found")
 )
 
-func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte, err error) {
+func (s Steam) GetFriendList(playerID int64) (friends []Friend, bytes []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -31,7 +31,7 @@ func (s Steam) GetFriendList(playerID int64) (friends FriendsList, bytes []byte,
 		return friends, bytes, err
 	}
 
-	return resp.Friendslist, bytes, nil
+	return resp.Friendslist.Friends, bytes, nil
 }
 
 type FriendListResponse struct {
@@ -39,11 +39,13 @@ type FriendListResponse struct {
 }
 
 type FriendsList struct {
-	Friends []struct {
-		SteamID      ctypes.CInt64 `json:"steamid"`
-		Relationship string        `json:"relationship"`
-		FriendSince  int64         `json:"friend_since"`
-	} `json:"friends"`
+	Friends []Friend `json:"friends"`
+}
+
+type Friend struct {
+	SteamID      ctypes.CInt64 `json:"steamid"`
+	Relationship string        `json:"relationship"`
+	FriendSince  int64         `json:"friend_since"`
 }
 
 const (
