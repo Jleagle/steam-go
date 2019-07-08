@@ -86,6 +86,11 @@ var Countries = map[CountryCode]string{
 	CountryZA: "South African Rand",
 }
 
+func ValidCountryCode(cc CountryCode) bool {
+	_, ok := Countries[cc]
+	return ok
+}
+
 // https://partner.steamgames.com/doc/store/localization
 type Language string
 
