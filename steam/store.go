@@ -415,14 +415,17 @@ type WishlistItem struct {
 		DiscountPct   int    `json:"discount_pct"`
 		Price         int    `json:"price"`
 	} `json:"subs"`
-	Type        string   `json:"type"`
-	Screenshots []string `json:"screenshots"`
-	ReviewCSS   string   `json:"review_css"`
-	Priority    int      `json:"priority"`
-	Added       int      `json:"added"`
-	Background  string   `json:"background"`
-	Rank        string   `json:"rank"`
-	Tags        []string `json:"tags"`
-	EarlyAccess int      `json:"early_access"`
-	Win         int      `json:"win"`
+	Type        string       `json:"type"`
+	Screenshots []string     `json:"screenshots"`
+	ReviewCSS   string       `json:"review_css"`
+	Priority    int          `json:"priority"`
+	Added       int          `json:"added"`
+	Background  string       `json:"background"`
+	Rank        string       `json:"rank"`
+	Tags        []string     `json:"tags"`
+	EarlyAccess int          `json:"early_access"`
+	IsFreeGame  bool         `json:"is_free_game"`
+	Win         ctypes.CBool `json:"win"`
+	Mac         ctypes.CBool `json:"mac"`
+	Linux       ctypes.CBool `json:"linux"`
 }
