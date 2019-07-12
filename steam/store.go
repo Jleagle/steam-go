@@ -11,33 +11,40 @@ import (
 )
 
 var (
-	ErrAppNotFound      = errors.New("steam: store: app not found")
 	ErrPackageNotFound  = errors.New("steam: store: package not found")
 	ErrWishlistNotFound = errors.New("steam: store: wishlist not found")
 	ErrNullResponse     = errors.New("steam: store: null response") // Probably being rate limited
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app AppDetailsBody, bytes []byte, err error) {
+// cc: ae,ar,au,az,br,ca,ch,cl,cn,co,cr,eu,hk,id,il,in,jp,kr,kw,kz,mx,my,no,nz,pe,ph,pk,pl,qa,ru,sa,sg,th,tr,tw,ua,uk,us,uy,vn,za
 
-	idx := strconv.Itoa(id)
+func (s Steam) GetAppDetails(ids []int, cc string, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
+
+	var stringIDs []string
+	for _, id := range ids {
+		stringIDs = append(stringIDs, strconv.Itoa(id))
+	}
 
 	query := url.Values{}
-	query.Set("appids", idx)
-	query.Set("cc", string(code))    // Price currency
-	query.Set("l", string(language)) // Text
+	query.Set("appids", strings.Join(stringIDs, ","))
+	query.Set("cc", cc)              // Country code (not from enum)
+	query.Set("l", string(language)) // Text language
+	if filters != nil && len(filters) > 0 {
+		query.Set("filters", strings.Join(filters, ","))
+	}
 
 	bytes, err = s.getFromStore("api/appdetails", query)
 	if err != nil {
-		return app, bytes, err
+		return resp, bytes, err
 	}
 
 	// Check invalid responses
 	if string(bytes) == "null" {
-		return app, bytes, ErrNullResponse
+		return resp, bytes, ErrNullResponse
 	}
 	if strings.HasPrefix(string(bytes), "<") {
-		return app, bytes, ErrHTMLResponse
+		return resp, bytes, ErrHTMLResponse
 	}
 
 	// Fix arrays that should be objects
@@ -48,17 +55,10 @@ func (s Steam) GetAppDetails(id int, code CountryCode, language Language) (app A
 	bytes = []byte(str)
 
 	// Unmarshal JSON
-	resp := map[string]AppDetailsBody{}
+	resp = map[string]AppDetailsBody{}
 	err = json.Unmarshal(bytes, &resp)
-	if err != nil {
-		return app, bytes, err
-	}
 
-	if resp[idx].Success == false {
-		return app, bytes, ErrAppNotFound
-	}
-
-	return resp[idx], bytes, nil
+	return resp, bytes, err
 }
 
 type AppDetailsBody struct {
@@ -181,13 +181,13 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetPackageDetails(id int, code CountryCode, language Language) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetails(id int, code string, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
 	query := url.Values{}
 	query.Set("packageids", idx)
-	query.Set("cc", string(code))    // Price currency
+	query.Set("cc", code)            // Price currency
 	query.Set("l", string(language)) // Text
 
 	bytes, err = s.getFromStore("api/packagedetails", query)
