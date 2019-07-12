@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetAppList(limit int, offset int, afterDate int64, language Language) (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, bytes []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")

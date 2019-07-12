@@ -21,7 +21,7 @@ func TestRateLimits(t *testing.T) {
 	for _, v := range ids {
 		wg.Add(1)
 		go func(v int) {
-			_, _, err := steamClient.GetAppDetails(v, steam.CountryUS, steam.LanguageEnglish)
+			_, _, err := steamClient.GetAppDetails([]int{v}, "eu", steam.LanguageEnglish, nil)
 			fmt.Println(err)
 			wg.Done()
 		}(v)
