@@ -397,3 +397,12 @@ var ProductCCs = []ProductCC{ProductCCAE, ProductCCAR, ProductCCAU, ProductCCAZ,
 	ProductCCKW, ProductCCKZ, ProductCCMX, ProductCCMY, ProductCCNO, ProductCCNZ, ProductCCPE, ProductCCPH, ProductCCPK, ProductCCPL,
 	ProductCCQA, ProductCCRU, ProductCCSA, ProductCCSG, ProductCCTH, ProductCCTR, ProductCCTW, ProductCCUA, ProductCCUK, ProductCCUS,
 	ProductCCUY, ProductCCVN, ProductCCZA}
+
+func IsProductCC(i string) bool {
+	for _, v := range ProductCCs {
+		if string(v) == i {
+			return true
+		}
+	}
+	return false
+}
