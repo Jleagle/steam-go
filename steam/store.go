@@ -11,15 +11,30 @@ import (
 )
 
 var (
+	ErrAppNotFound      = errors.New("steam: store: app not found")
 	ErrPackageNotFound  = errors.New("steam: store: package not found")
 	ErrWishlistNotFound = errors.New("steam: store: wishlist not found")
 	ErrNullResponse     = errors.New("steam: store: null response") // Probably being rate limited
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-// cc: ae,ar,au,az,br,ca,ch,cl,cn,co,cr,eu,hk,id,il,in,jp,kr,kw,kz,mx,my,no,nz,pe,ph,pk,pl,qa,ru,sa,sg,th,tr,tw,ua,uk,us,uy,vn,za
+func (s Steam) GetAppDetails(id int, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, bytes []byte, err error) {
 
-func (s Steam) GetAppDetails(ids []int, cc string, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
+	resp, bytes, err := s.GetAppDetailsMulti([]int{id}, cc, language, filters)
+	if err != nil {
+		return app, bytes, err
+	}
+
+	idx := strconv.Itoa(id)
+
+	if resp[idx].Success == false {
+		return app, bytes, ErrAppNotFound
+	}
+
+	return resp[idx], bytes, nil
+}
+
+func (s Steam) GetAppDetailsMulti(ids []int, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -28,7 +43,7 @@ func (s Steam) GetAppDetails(ids []int, cc string, language LanguageCode, filter
 
 	query := url.Values{}
 	query.Set("appids", strings.Join(stringIDs, ","))
-	query.Set("cc", cc)              // Country code (not from enum)
+	query.Set("cc", string(cc))      // Country code (not from enum)
 	query.Set("l", string(language)) // Text language
 	if filters != nil && len(filters) > 0 {
 		query.Set("filters", strings.Join(filters, ","))
@@ -181,13 +196,13 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetPackageDetails(id int, code string, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetails(id int, code ProductCC, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
 
 	idx := strconv.Itoa(id)
 
 	query := url.Values{}
 	query.Set("packageids", idx)
-	query.Set("cc", code)            // Price currency
+	query.Set("cc", string(code))    // Price currency
 	query.Set("l", string(language)) // Text
 
 	bytes, err = s.getFromStore("api/packagedetails", query)
