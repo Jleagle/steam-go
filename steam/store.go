@@ -117,10 +117,10 @@ type AppDetailsBody struct {
 			Description string      `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
-			Currency        string `json:"currency"`
-			Initial         int    `json:"initial"`
-			Final           int    `json:"final"`
-			DiscountPercent int    `json:"discount_percent"`
+			Currency        CurrencyCode `json:"currency"`
+			Initial         int          `json:"initial"`
+			Final           int          `json:"final"`
+			DiscountPercent int          `json:"discount_percent"`
 		} `json:"price_overview"`
 		Packages      []int `json:"packages"`
 		PackageGroups []struct {
@@ -244,11 +244,11 @@ type PackageDetailsBody struct {
 			Name string `json:"name"`
 		} `json:"apps"`
 		Price struct {
-			Currency        string `json:"currency"`
-			Initial         int    `json:"initial"`
-			Final           int    `json:"final"`
-			DiscountPercent int    `json:"discount_percent"`
-			Individual      int    `json:"individual"`
+			Currency        CurrencyCode `json:"currency"`
+			Initial         int          `json:"initial"`
+			Final           int          `json:"final"`
+			DiscountPercent int          `json:"discount_percent"`
+			Individual      int          `json:"individual"`
 		} `json:"price"`
 		Platforms struct {
 			Windows bool `json:"windows"`
