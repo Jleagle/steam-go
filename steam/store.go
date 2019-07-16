@@ -54,11 +54,13 @@ func (s Steam) GetAppDetailsMulti(ids []int, cc ProductCC, language LanguageCode
 		return resp, bytes, err
 	}
 
+	var bytesString = string(bytes)
+
 	// Check invalid responses
-	if string(bytes) == "null" {
+	if bytesString == "null" {
 		return resp, bytes, ErrNullResponse
 	}
-	if strings.HasPrefix(string(bytes), "<") {
+	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
 		return resp, bytes, ErrHTMLResponse
 	}
 
@@ -210,11 +212,13 @@ func (s Steam) GetPackageDetails(id int, code ProductCC, language LanguageCode) 
 		return pack, bytes, err
 	}
 
+	var bytesString = string(bytes)
+
 	// Check invalid responses
-	if string(bytes) == "null" {
+	if bytesString == "null" {
 		return pack, bytes, ErrNullResponse
 	}
-	if strings.HasPrefix(string(bytes), "<") {
+	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
 		return pack, bytes, ErrHTMLResponse
 	}
 
