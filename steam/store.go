@@ -65,11 +65,11 @@ func (s Steam) GetAppDetailsMulti(ids []int, cc ProductCC, language LanguageCode
 	}
 
 	// Fix arrays that should be objects
-	var str = string(bytes)
-	str = strings.Replace(str, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
-	str = strings.Replace(str, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
-	str = strings.Replace(str, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
-	bytes = []byte(str)
+	bytesString = strings.Replace(bytesString, "{\"success\":true,\"data\":[]}", "{\"success\":true,\"data\":{}}", 1)
+	bytesString = strings.Replace(bytesString, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
+	bytesString = strings.Replace(bytesString, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
+	bytesString = strings.Replace(bytesString, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
+	bytes = []byte(bytesString)
 
 	// Unmarshal JSON
 	resp = map[string]AppDetailsBody{}
