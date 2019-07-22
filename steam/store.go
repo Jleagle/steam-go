@@ -119,10 +119,12 @@ type AppDetailsBody struct {
 			Description string      `json:"description"`
 		} `json:"demos"`
 		PriceOverview struct {
-			Currency        CurrencyCode `json:"currency"`
-			Initial         int          `json:"initial"`
-			Final           int          `json:"final"`
-			DiscountPercent int          `json:"discount_percent"`
+			Currency         CurrencyCode `json:"currency"`
+			Initial          int          `json:"initial"`
+			Final            int          `json:"final"`
+			DiscountPercent  int          `json:"discount_percent"`
+			InitialFormatted string       `json:"initial_formatted"`
+			FinalFormatted   string       `json:"final_formatted"`
 		} `json:"price_overview"`
 		Packages      []int `json:"packages"`
 		PackageGroups []struct {
@@ -194,7 +196,11 @@ type AppDetailsBody struct {
 			URL   string `json:"url"`
 			Email string `json:"email"`
 		} `json:"support_info"`
-		Background string `json:"background"`
+		Background         string `json:"background"`
+		ContentDescriptors struct {
+			IDs   interface{}
+			Notes interface{}
+		}
 	} `json:"data"`
 }
 
