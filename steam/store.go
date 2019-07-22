@@ -111,10 +111,12 @@ type AppDetailsBody struct {
 			Minimum     string `json:"minimum"`
 			Recommended string `json:"recommended"`
 		} `json:"linux_requirements"`
-		LegalNotice string   `json:"legal_notice"`
-		Developers  []string `json:"developers"`
-		Publishers  []string `json:"publishers"`
-		Demos       []struct {
+		LegalNotice          string   `json:"legal_notice"`
+		ExtUserAccountNotice string   `json:"ext_user_account_notice"`
+		DRMNotice            string   `json:"drm_notice"`
+		Developers           []string `json:"developers"`
+		Publishers           []string `json:"publishers"`
+		Demos                []struct {
 			AppID       ctypes.CInt `json:"appid"`
 			Description string      `json:"description"`
 		} `json:"demos"`
@@ -200,7 +202,7 @@ type AppDetailsBody struct {
 		ContentDescriptors struct {
 			IDs   interface{}
 			Notes interface{}
-		}
+		} `json:"content_descriptors"`
 	} `json:"data"`
 }
 
