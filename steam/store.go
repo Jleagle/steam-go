@@ -138,7 +138,7 @@ type AppDetailsBody struct {
 			SelectionText           string         `json:"selection_text"`
 			SaveText                string         `json:"save_text"`
 			DisplayType             ctypes.CString `json:"display_type"`
-			IsRecurringSubscription string         `json:"is_recurring_subscription"`
+			IsRecurringSubscription ctypes.CBool   `json:"is_recurring_subscription"`
 			Subs                    []struct {
 				PackageID                int          `json:"packageid"`
 				PercentSavingsText       string       `json:"percent_savings_text"`
