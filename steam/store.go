@@ -127,6 +127,8 @@ type AppDetailsBody struct {
 			DiscountPercent  int          `json:"discount_percent"`
 			InitialFormatted string       `json:"initial_formatted"`
 			FinalFormatted   string       `json:"final_formatted"`
+			RecurringSub     string       `json:"recurring_sub"`
+			RecurringSubDesc string       `json:"recurring_sub_desc"`
 		} `json:"price_overview"`
 		Packages      []int `json:"packages"`
 		PackageGroups []struct {
