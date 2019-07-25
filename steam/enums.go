@@ -35,6 +35,11 @@ const (
 	LanguageVietnamese          LanguageCode = "vietnamese"
 )
 
+var LanguageCodes = []LanguageCode{LanguageArabic, LanguageBulgarian, LanguageChineseSimplified, LanguageChineseTraditional, LanguageCzech, LanguageDanish,
+	LanguageDutch, LanguageEnglish, LanguageFinnish, LanguageFrench, LanguageGerman, LanguageGreek, LanguageHungarian, LanguageItalian, LanguageJapanese,
+	LanguageKorean, LanguageNorwegian, LanguagePolish, LanguagePortuguese, LanguagePortugueseBrazil, LanguageRomanian, LanguageRussian, LanguageSpanishSpain,
+	LanguageSpanishLatinAmerica, LanguageSwedish, LanguageThai, LanguageTurkish, LanguageUkrainian, LanguageVietnamese}
+
 type LanguageCodeWeb string
 
 const (
