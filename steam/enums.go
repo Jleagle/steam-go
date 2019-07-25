@@ -1,7 +1,25 @@
 package steam
 
+import (
+	"strings"
+)
+
 // https://partner.steamgames.com/doc/store/localization
 type LanguageCode string
+
+func (lc LanguageCode) Title() string {
+
+	switch lc {
+	case LanguageChineseSimplified:
+		return "Chinese (Simplified)"
+	case LanguageChineseTraditional:
+		return "Chinese (Traditional)"
+	case LanguageSpanishLatinAmerica:
+		return "Spanish (Latin America)"
+	default:
+		return strings.Title(string(lc))
+	}
+}
 
 const (
 	LanguageArabic              LanguageCode = "arabic"
