@@ -22,7 +22,7 @@ func (s Steam) GetItemDefMeta(appID int) (meta ItemDefMeta, bytes []byte, err er
 
 type ItemDefMeta struct {
 	Response struct {
-		Modified int    `json:"modified"`
+		Modified int64  `json:"modified"`
 		Digest   string `json:"digest"`
 	} `json:"response"`
 }
