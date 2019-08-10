@@ -27,7 +27,7 @@ type ItemDefArchive struct {
 	ItemdefID        string    `json:"itemdefid"`
 	Timestamp        time.Time `json:"Timestamp"`
 	Modified         string    `json:"modified"`
-	DateCreated      string    `json:"date_created"`
+	DateCreated      time.Time `json:"date_created"`
 	Type             string    `json:"type"`
 	DisplayType      string    `json:"display_type"`
 	Name             string    `json:"name"`
