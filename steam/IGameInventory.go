@@ -33,20 +33,20 @@ type ItemDefArchive struct {
 	Name             string    `json:"name"`
 	Quantity         int       `json:"quantity"`
 	Description      string    `json:"description"`
-	IconURL          string    `json:"icon_url,omitempty"`
-	IconURLLarge     string    `json:"icon_url_large,omitempty"`
-	Tags             string    `json:"tags,omitempty"`
+	IconURL          string    `json:"icon_url"`
+	IconURLLarge     string    `json:"icon_url_large"`
+	Tags             string    `json:"tags"`
 	Tradable         bool      `json:"tradable"`
 	Marketable       bool      `json:"marketable"`
 	Commodity        bool      `json:"commodity"`
 	DropInterval     int       `json:"drop_interval"`
 	DropMaxPerWindow int       `json:"drop_max_per_window"`
 	WorkshopID       string    `json:"workshopid"`
-	Descrption       string    `json:"descrption,omitempty"`
-	ItemQuality      string    `json:"item_quality,omitempty"`
-	Hash             string    `json:"hash,omitempty"`
-	Price            string    `json:"price,omitempty"`
-	Promo            string    `json:"promo,omitempty"`
-	Exchange         string    `json:"exchange,omitempty"`
-	Bundle           string    `json:"bundle,omitempty"`
+	Descrption       string    `json:"descrption"`
+	ItemQuality      string    `json:"item_quality"`
+	Hash             string    `json:"hash"`
+	Price            string    `json:"price"`
+	Promo            string    `json:"promo"`
+	Exchange         string    `json:"exchange"`
+	Bundle           string    `json:"bundle"`
 }
