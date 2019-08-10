@@ -5,6 +5,8 @@ import (
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, bytes []byte, err error) {
@@ -23,30 +25,30 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 }
 
 type ItemDefArchive struct {
-	AppID            string    `json:"appid"`
-	ItemdefID        string    `json:"itemdefid"`
-	Timestamp        time.Time `json:"Timestamp"`
-	Modified         string    `json:"modified"`
-	DateCreated      time.Time `json:"date_created"`
-	Type             string    `json:"type"`
-	DisplayType      string    `json:"display_type"`
-	Name             string    `json:"name"`
-	Quantity         int       `json:"quantity"`
-	Description      string    `json:"description"`
-	IconURL          string    `json:"icon_url"`
-	IconURLLarge     string    `json:"icon_url_large"`
-	Tags             string    `json:"tags"`
-	Tradable         bool      `json:"tradable"`
-	Marketable       bool      `json:"marketable"`
-	Commodity        bool      `json:"commodity"`
-	DropInterval     int       `json:"drop_interval"`
-	DropMaxPerWindow int       `json:"drop_max_per_window"`
-	WorkshopID       string    `json:"workshopid"`
-	Descrption       string    `json:"descrption"`
-	ItemQuality      string    `json:"item_quality"`
-	Hash             string    `json:"hash"`
-	Price            string    `json:"price"`
-	Promo            string    `json:"promo"`
-	Exchange         string    `json:"exchange"`
-	Bundle           string    `json:"bundle"`
+	AppID            ctypes.CInt   `json:"appid"`
+	ItemdefID        string        `json:"itemdefid"`
+	Timestamp        time.Time     `json:"Timestamp"`
+	Modified         time.Time     `json:"modified"`
+	DateCreated      time.Time     `json:"date_created"`
+	Type             string        `json:"type"`
+	DisplayType      string        `json:"display_type"`
+	Name             string        `json:"name"`
+	Quantity         int           `json:"quantity"`
+	Description      string        `json:"description"`
+	IconURL          string        `json:"icon_url"`
+	IconURLLarge     string        `json:"icon_url_large"`
+	Tags             string        `json:"tags"`
+	Tradable         bool          `json:"tradable"`
+	Marketable       bool          `json:"marketable"`
+	Commodity        bool          `json:"commodity"`
+	DropInterval     int           `json:"drop_interval"`
+	DropMaxPerWindow int           `json:"drop_max_per_window"`
+	WorkshopID       ctypes.CInt64 `json:"workshopid"`
+	Descrption       string        `json:"descrption"`
+	ItemQuality      string        `json:"item_quality"`
+	Hash             string        `json:"hash"`
+	Price            string        `json:"price"`
+	Promo            string        `json:"promo"`
+	Exchange         string        `json:"exchange"`
+	Bundle           string        `json:"bundle"`
 }
