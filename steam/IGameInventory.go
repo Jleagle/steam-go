@@ -26,7 +26,7 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 
 type ItemDefArchive struct {
 	AppID            ctypes.CInt   `json:"appid"`
-	ItemdefID        string        `json:"itemdefid"`
+	ItemdefID        ctypes.CInt   `json:"itemdefid"`
 	Timestamp        time.Time     `json:"Timestamp"`
 	Modified         time.Time     `json:"modified"`
 	DateCreated      time.Time     `json:"date_created"`
