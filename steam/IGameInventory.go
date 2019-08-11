@@ -26,29 +26,28 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 
 type ItemDefArchive struct {
 	AppID            ctypes.CInt   `json:"appid"`
-	ItemdefID        ctypes.CInt   `json:"itemdefid"`
-	Timestamp        time.Time     `json:"Timestamp"`
-	Modified         time.Time     `json:"modified"`
-	DateCreated      time.Time     `json:"date_created"`
-	Type             string        `json:"type"`
-	DisplayType      string        `json:"display_type"`
-	Name             string        `json:"name"`
-	Quantity         int           `json:"quantity"`
-	Description      string        `json:"description"`
-	IconURL          string        `json:"icon_url"`
-	IconURLLarge     string        `json:"icon_url_large"`
-	Tags             string        `json:"tags"`
-	Tradable         bool          `json:"tradable"`
-	Marketable       bool          `json:"marketable"`
+	Bundle           string        `json:"bundle"`
 	Commodity        bool          `json:"commodity"`
+	DateCreated      time.Time     `json:"date_created"`
+	Description      string        `json:"description"`
+	DisplayType      string        `json:"display_type"`
 	DropInterval     int           `json:"drop_interval"`
 	DropMaxPerWindow int           `json:"drop_max_per_window"`
-	WorkshopID       ctypes.CInt64 `json:"workshopid"`
-	Descrption       string        `json:"descrption"`
-	ItemQuality      string        `json:"item_quality"`
+	Exchange         string        `json:"exchange"`
 	Hash             string        `json:"hash"`
+	IconURL          string        `json:"icon_url"`
+	IconURLLarge     string        `json:"icon_url_large"`
+	ItemdefID        ctypes.CInt   `json:"itemdefid"`
+	ItemQuality      string        `json:"item_quality"`
+	Marketable       bool          `json:"marketable"`
+	Modified         time.Time     `json:"modified"`
+	Name             string        `json:"name"`
 	Price            string        `json:"price"`
 	Promo            string        `json:"promo"`
-	Exchange         string        `json:"exchange"`
-	Bundle           string        `json:"bundle"`
+	Quantity         int           `json:"quantity"`
+	Tags             string        `json:"tags"`
+	Timestamp        time.Time     `json:"Timestamp"`
+	Tradable         bool          `json:"tradable"`
+	Type             string        `json:"type"`
+	WorkshopID       ctypes.CInt64 `json:"workshopid"`
 }
