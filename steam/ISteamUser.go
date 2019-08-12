@@ -132,7 +132,7 @@ type PlayerSummary struct {
 	AvatarFull               string        `json:"avatarfull"`
 	PersonaState             int           `json:"personastate"`
 	RealName                 string        `json:"realname"`
-	PrimaryClanID            ctypes.CInt   `json:"primaryclanid"`
+	PrimaryClanID            string        `json:"primaryclanid"`
 	TimeCreated              int64         `json:"timecreated"`
 	PersonaStateFlags        int           `json:"personastateflags"`
 	LOCCountryCode           string        `json:"loccountrycode"`
