@@ -51,7 +51,7 @@ type ItemDefArchive struct {
 	ItemdefID        ctypes.CInt   `json:"itemdefid"`
 	ItemQuality      string        `json:"item_quality"`
 	Marketable       bool          `json:"marketable"`
-	Modified         time.Time     `json:"modified"`
+	Modified         string        `json:"modified"` // Can't be time.Time
 	Name             string        `json:"name"`
 	Price            string        `json:"price"`
 	Promo            string        `json:"promo"`
