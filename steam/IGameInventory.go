@@ -2,6 +2,7 @@ package steam
 
 import (
 	"encoding/json"
+	"errors"
 	"net/url"
 	"strconv"
 	"time"
@@ -9,7 +10,13 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
+var ErrInvalidDigest = errors.New("invalid digest")
+
 func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, bytes []byte, err error) {
+
+	if digest == "" {
+		return archives, bytes, ErrInvalidDigest
+	}
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
