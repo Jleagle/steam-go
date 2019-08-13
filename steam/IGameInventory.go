@@ -6,7 +6,6 @@ import (
 	"errors"
 	"net/url"
 	"strconv"
-	"time"
 
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
@@ -57,7 +56,7 @@ type ItemDefArchive struct {
 	Promo            string        `json:"promo"`
 	Quantity         int           `json:"quantity"`
 	Tags             string        `json:"tags"`
-	Timestamp        time.Time     `json:"Timestamp"`
+	Timestamp        string        `json:"Timestamp"` // Can't be time.Time, - ""
 	Tradable         bool          `json:"tradable"`
 	Type             string        `json:"type"`
 	WorkshopID       ctypes.CInt64 `json:"workshopid"`

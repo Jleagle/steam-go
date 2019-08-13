@@ -21,7 +21,7 @@ func TestRateLimits(t *testing.T) {
 	for _, v := range ids {
 		wg.Add(1)
 		go func(v int) {
-			_, _, err := steamClient.GetAppDetails([]int{v}, "eu", steam.LanguageEnglish, nil)
+			_, _, err := steamClient.GetAppDetails(v, "eu", steam.LanguageEnglish, nil)
 			fmt.Println(err)
 			wg.Done()
 		}(v)
@@ -58,4 +58,15 @@ func TestGroupName(t *testing.T) {
 	if resp.Details.Name == "" {
 		t.Error("empty name")
 	}
+}
+
+func TestDigest(t *testing.T) {
+
+	steamClient := steam.Steam{}
+	steamClient.SetKey("x")
+
+	resp, b, err := steamClient.GetItemDefArchive(365960, "6FD2576E9AE2C17F60D08A59D2E7E80F3265BA5B")
+	fmt.Println(resp)
+	fmt.Println(b)
+	fmt.Println(err)
 }
