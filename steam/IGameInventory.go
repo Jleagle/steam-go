@@ -1,6 +1,7 @@
 package steam
 
 import (
+	"bytes"
 	"encoding/json"
 	"errors"
 	"net/url"
@@ -12,23 +13,26 @@ import (
 
 var ErrInvalidDigest = errors.New("invalid digest")
 
-func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, bytes []byte, err error) {
+func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, b []byte, err error) {
 
 	if digest == "" {
-		return archives, bytes, ErrInvalidDigest
+		return archives, b, ErrInvalidDigest
 	}
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("digest", digest)
 
-	bytes, err = s.getFromAPI("IGameInventory/GetItemDefArchive/v1", options)
+	b, err = s.getFromAPI("IGameInventory/GetItemDefArchive/v1", options)
 	if err != nil {
-		return archives, bytes, err
+		return archives, b, err
 	}
 
-	err = json.Unmarshal(bytes, &archives)
-	return archives, bytes, err
+	// The response has an empty byte at the end of it causing Unmarshal to fail
+	b = bytes.TrimSuffix(b, []byte{0x00})
+
+	err = json.Unmarshal(b, &archives)
+	return archives, b, err
 }
 
 type ItemDefArchive struct {
