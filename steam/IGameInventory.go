@@ -39,7 +39,7 @@ type ItemDefArchive struct {
 	AppID            ctypes.CInt   `json:"appid"`
 	Bundle           string        `json:"bundle"`
 	Commodity        bool          `json:"commodity"`
-	DateCreated      time.Time     `json:"date_created"`
+	DateCreated      string        `json:"date_created"` // Can't be time.Time, - "20161010T080316Z"
 	Description      string        `json:"description"`
 	DisplayType      string        `json:"display_type"`
 	DropInterval     int           `json:"drop_interval"`
@@ -51,7 +51,7 @@ type ItemDefArchive struct {
 	ItemdefID        ctypes.CInt   `json:"itemdefid"`
 	ItemQuality      string        `json:"item_quality"`
 	Marketable       bool          `json:"marketable"`
-	Modified         string        `json:"modified"` // Can't be time.Time
+	Modified         string        `json:"modified"` // Can't be time.Time, - "20161010T080316Z"
 	Name             string        `json:"name"`
 	Price            string        `json:"price"`
 	Promo            string        `json:"promo"`
