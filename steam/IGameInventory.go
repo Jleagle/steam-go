@@ -30,6 +30,10 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 	// The response has an empty byte at the end of it causing Unmarshal to fail
 	b = bytes.TrimSuffix(b, []byte{0x00})
 
+	if len(bytes.TrimSpace(b)) == 0 {
+		return archives, b, nil
+	}
+
 	err = json.Unmarshal(b, &archives)
 	return archives, b, err
 }
