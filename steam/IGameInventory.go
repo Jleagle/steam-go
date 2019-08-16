@@ -58,7 +58,7 @@ type ItemDefArchive struct {
 	Name             string        `json:"name"`
 	Price            string        `json:"price"`
 	Promo            string        `json:"promo"`
-	Quantity         int           `json:"quantity"`
+	Quantity         ctypes.CInt   `json:"quantity"` // Can be 0 or "0"
 	Tags             string        `json:"tags"`
 	Timestamp        string        `json:"Timestamp"` // Can't be time.Time, - ""
 	Tradable         bool          `json:"tradable"`
