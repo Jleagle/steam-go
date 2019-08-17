@@ -61,7 +61,7 @@ type ItemDefArchive struct {
 	Quantity         ctypes.CInt   `json:"quantity"` // Can be 0 or "0"
 	Tags             string        `json:"tags"`
 	Timestamp        string        `json:"Timestamp"` // Can't be time.Time, - ""
-	Tradable         bool          `json:"tradable"`
+	Tradable         ctypes.CBool  `json:"tradable"`  // Can be false or "false"
 	Type             string        `json:"type"`
 	WorkshopID       ctypes.CInt64 `json:"workshopid"`
 }
