@@ -41,12 +41,12 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 type ItemDefArchive struct {
 	AppID            ctypes.CInt   `json:"appid"`
 	Bundle           string        `json:"bundle"`
-	Commodity        bool          `json:"commodity"`
+	Commodity        ctypes.CBool  `json:"commodity"`
 	DateCreated      string        `json:"date_created"` // Can't be time.Time, - "20161010T080316Z"
 	Description      string        `json:"description"`
 	DisplayType      string        `json:"display_type"`
-	DropInterval     int           `json:"drop_interval"`
-	DropMaxPerWindow int           `json:"drop_max_per_window"`
+	DropInterval     ctypes.CInt   `json:"drop_interval"`
+	DropMaxPerWindow ctypes.CInt   `json:"drop_max_per_window"`
 	Exchange         string        `json:"exchange"`
 	Hash             string        `json:"hash"`
 	IconURL          string        `json:"icon_url"`
