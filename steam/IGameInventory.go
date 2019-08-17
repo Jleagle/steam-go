@@ -53,7 +53,7 @@ type ItemDefArchive struct {
 	IconURLLarge     string        `json:"icon_url_large"`
 	ItemDefID        ctypes.CInt   `json:"itemdefid"`
 	ItemQuality      string        `json:"item_quality"`
-	Marketable       bool          `json:"marketable"`
+	Marketable       ctypes.CBool  `json:"marketable"`
 	Modified         string        `json:"modified"` // Can't be time.Time, - "20161010T080316Z"
 	Name             string        `json:"name"`
 	Price            string        `json:"price"`
