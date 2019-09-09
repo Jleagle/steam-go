@@ -27,21 +27,6 @@ var (
 	ErrWideString = errors.New("WideString not supported")
 )
 
-type KeyValue struct {
-	Key      string
-	Value    string
-	Children []KeyValue
-}
-
-func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
-	for _, child := range kv.Children {
-		if child.Key == key {
-			return child, true
-		}
-	}
-	return child, false
-}
-
 func ReadBinaryFile(path string) (kv KeyValue, err error) {
 
 	r, err := os.Open(path)
