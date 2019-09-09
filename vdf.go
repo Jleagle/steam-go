@@ -30,10 +30,10 @@ var (
 type KeyValue struct {
 	Key      string
 	Value    string
-	Children []*KeyValue
+	Children []KeyValue
 }
 
-func (kv KeyValue) GetChild(key string) (child *KeyValue, found bool) {
+func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
 	for _, child := range kv.Children {
 		if child.Key == key {
 			return child, true
@@ -148,7 +148,7 @@ func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 		}
 
 		if parent != nil {
-			parent.Children = append(parent.Children, current)
+			parent.Children = append(parent.Children, *current)
 		}
 
 		current = &KeyValue{}
