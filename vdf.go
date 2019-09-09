@@ -138,7 +138,7 @@ func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 		}
 
 		if parent != nil {
-			parent.Children = append(parent.Children, *current)
+			parent.SetChild(*current)
 		}
 
 		current = &KeyValue{}

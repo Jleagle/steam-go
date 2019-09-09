@@ -15,6 +15,16 @@ func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
 	return child, false
 }
 
+func (kv *KeyValue) SetChild(value KeyValue) {
+	for k, child := range kv.Children {
+		if child.Key == value.Key {
+			kv.Children[k] = value
+			return
+		}
+	}
+	kv.Children = append(kv.Children, value)
+}
+
 func (kv KeyValue) Map() (m map[string]interface{}) {
 
 	m = map[string]interface{}{}
