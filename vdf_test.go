@@ -9,11 +9,11 @@ import (
 	"gotest.tools/assert"
 )
 
-func TestUnmarshalBinary(t *testing.T) {
+func TestReadBinary(t *testing.T) {
 
 	ints := regexp.MustCompile("[0-9]+")
 
-	files, _ := filepath.Glob("testdata/package_*.bin")
+	files, _ := filepath.Glob("testdata/*.bin")
 	for _, file := range files {
 
 		id := ints.FindString(file)
