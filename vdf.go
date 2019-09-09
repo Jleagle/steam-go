@@ -66,6 +66,10 @@ func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
 	return ReadBinaryReader(bytes.NewReader(b))
 }
 
+func IsBinary(b []byte) bool {
+	return bytes.Contains(b, []byte{TypeNone})
+}
+
 // Thanks to https://github.com/SteamRE/SteamKit
 func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 
