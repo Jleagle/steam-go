@@ -45,6 +45,7 @@ func TestUnmarshalBinary(t *testing.T) {
 
 			extended, ok := kv.GetChild("extended")
 			assert.Assert(t, ok)
+			assert.Assert(t, len(extended.Children) == 1)
 
 			child, ok = extended.GetChild("allowcrossregiontradingandgifting")
 			assert.Assert(t, ok)
@@ -65,6 +66,7 @@ func TestUnmarshalBinary(t *testing.T) {
 			//
 			extended, ok := kv.GetChild("extended")
 			assert.Assert(t, ok)
+			assert.Assert(t, len(extended.Children) == 2)
 
 			child, ok = extended.GetChild("curatorconnect")
 			assert.Assert(t, ok)
