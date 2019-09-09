@@ -52,6 +52,9 @@ func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
 }
 
 func IsBinary(b []byte) bool {
+
+	b = bytes.TrimSuffix(b, []byte{TypeNone}) // Text VDF contains a null byte suffix
+
 	return bytes.Contains(b, []byte{TypeNone})
 }
 
