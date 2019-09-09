@@ -1,0 +1,610 @@
+"appinfo"
+{
+	"appid"		"245470"
+	"common"
+	{
+		"name"		"Democracy 3"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"4c2e14499c3cbda796994a00586f7d384fa1a56b"
+		"logo_small"		"4c2e14499c3cbda796994a00586f7d384fa1a56b_thumb"
+		"icon"		"1ded3e2c1cedb1a8e24d7a92023bb46505d80ef8"
+		"clienticon"		"e426c387e83c03889e68146b4b7259d6b651c5dd"
+		"clienttga"		"450d75077c276c41981b64c81c22d0c86f8dca50"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"8e61b11233cf88f3d37cfb3594440e92a1d5afb8"
+		"linuxclienticon"		"f8fc264904ec71124b11ba9453fa9f1bbf24c0be"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"metacritic_name"		"Democracy 3"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"german"		"capsule_231x87_german.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"german"		"header_german.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"89.05397210430561"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1560853762"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Positech Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Positech Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_30"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1381770120"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/democracy-3?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"245470"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4754"
+			"2"		"9"
+			"3"		"492"
+			"4"		"1677"
+			"5"		"4853"
+			"6"		"4182"
+			"7"		"4695"
+			"8"		"12472"
+			"9"		"3810"
+			"10"		"1669"
+			"11"		"4026"
+			"12"		"3871"
+			"13"		"1741"
+			"14"		"1036"
+			"15"		"597"
+			"16"		"4845"
+			"17"		"5230"
+			"18"		"4136"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Positech Games"
+		"publisher"		"Positech Games"
+		"homepage"		"http://www.positech.co.uk/democracy3"
+		"gamemanualurl"		"https://store.steampowered.com/manual/245470/"
+		"listofdlc"		"274050,277530,277531,291900,291901,291902,322000,330220,483450"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Democracy 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Democracy3.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Democracy3.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Democracy3.bin.x86"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Democracy3.bin.x86_64"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"245471"
+		{
+			"name"		"Democracy 3 Windows"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8945941554568170291"
+				"original"		"1483532260497696302"
+			}
+			"maxsize"		"250480734"
+		}
+		"245472"
+		{
+			"name"		"Democracy 3 OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5204340317901135735"
+				"original"		"8638871140583801092"
+			}
+			"maxsize"		"261583346"
+		}
+		"245473"
+		{
+			"name"		"Democracy 3 Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7662552328407115563"
+				"original"		"5330676551637524426"
+			}
+			"maxsize"		"239199475"
+		}
+		"245474"
+		{
+			"name"		"Democracy 3 Windows (German)"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5018086882247795634"
+			}
+			"maxsize"		"181285862"
+		}
+		"245475"
+		{
+			"name"		"Democracy 3 OSX (German)"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2635712469677184436"
+			}
+			"maxsize"		"1539750"
+		}
+		"245476"
+		{
+			"name"		"Democracy 3 Linux (German)"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1012512266557694969"
+			}
+			"maxsize"		"1539750"
+		}
+		"245477"
+		{
+			"name"		"Democracy 3 Windows (French)"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6253034548744041101"
+			}
+			"maxsize"		"184997363"
+		}
+		"245478"
+		{
+			"name"		"Democracy 3 OSX (French)"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1778424705155802387"
+			}
+			"maxsize"		"5657948"
+		}
+		"245479"
+		{
+			"name"		"Democracy 3 Linux (French)"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2107717871217252554"
+			}
+			"maxsize"		"5657948"
+		}
+		"274050"
+		{
+			"name"		"Democracy 3: Social Engineering (274050) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"274050"
+			"manifests"
+			{
+				"public"		"473182061098224661"
+				"original"		"40442087219737480"
+			}
+			"maxsize"		"2446634"
+		}
+		"277530"
+		{
+			"name"		"Democracy 3: Social Engineering Mac (277530) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"277530"
+			"manifests"
+			{
+				"public"		"6860717260139573620"
+				"original"		"3547166328136878627"
+			}
+			"maxsize"		"215496"
+		}
+		"277531"
+		{
+			"name"		"Democracy 3: Social Engineering Linux (277531) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"277531"
+			"manifests"
+			{
+				"public"		"2492713332504124932"
+				"original"		"8618046938623531775"
+			}
+			"maxsize"		"215597"
+		}
+		"291902"
+		{
+			"name"		"Democracy 3: Extremism Linux (291902) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"291902"
+			"manifests"
+			{
+				"public"		"5032236188689126673"
+				"original"		"6464423836445768512"
+			}
+			"maxsize"		"247529"
+		}
+		"291901"
+		{
+			"name"		"Democracy 3: Extremism Mac (291901) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"291901"
+			"manifests"
+			{
+				"public"		"5188997867141880712"
+				"original"		"692962685314134769"
+			}
+			"maxsize"		"247478"
+		}
+		"291900"
+		{
+			"name"		"Democracy 3: Extremism (291900) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"291900"
+			"manifests"
+			{
+				"public"		"8708268325494187877"
+				"original"		"9140786295952005308"
+			}
+			"maxsize"		"3036554"
+		}
+		"322000"
+		{
+			"name"		"Democracy 3: Clones and Drones (322000) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"322000"
+			"manifests"
+			{
+				"public"		"6725349255715585005"
+				"original"		"5485543351920287561"
+			}
+			"maxsize"		"4310709"
+		}
+		"322001"
+		{
+			"name"		"Democracy 3 Clones & Drones Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3629252899785734721"
+				"original"		"7396072690919747224"
+			}
+			"maxsize"		"1267280"
+		}
+		"322002"
+		{
+			"name"		"Democracy 3 Clones & Drones Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"910913738378981556"
+				"original"		"7164462688177224446"
+			}
+			"maxsize"		"1267076"
+		}
+		"245480"
+		{
+			"name"		"Democracy 3 Social Engineering PC Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"274050"
+			"manifests"
+			{
+				"public"		"2997907402427688310"
+			}
+			"maxsize"		"2302284"
+		}
+		"245481"
+		{
+			"name"		"Democracy 3 Windows (Polish)"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6399188334218644389"
+			}
+			"maxsize"		"188054848"
+		}
+		"245482"
+		{
+			"name"		"Democracy 3 Extremism PC (Polish)"
+			"dlcappid"		"291900"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"475528716402824637"
+			}
+			"maxsize"		"2913064"
+		}
+		"245483"
+		{
+			"name"		"Democracy 3 Clones & Drones PC (Polish)"
+			"dlcappid"		"322000"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6890879423596820434"
+			}
+			"maxsize"		"4100767"
+		}
+		"245485"
+		{
+			"name"		"Democracy 3: Electioneering OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"483450"
+			"manifests"
+			{
+				"public"		"6289201349964139959"
+				"original"		"4419928737783591129"
+			}
+			"maxsize"		"8236745"
+		}
+		"483450"
+		{
+			"name"		"Democracy 3: Electioneering (483450) Depot"
+			"dlcappid"		"483450"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2686341114105919907"
+				"original"		"2835104360495505832"
+			}
+			"maxsize"		"8843818"
+		}
+		"245484"
+		{
+			"name"		"Democracy 3 Electioneering Linux"
+			"dlcappid"		"483450"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"9065433337790949466"
+			}
+			"maxsize"		"8004042"
+		}
+		"workshopdepot"		"245470"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3091416"
+				"timeupdated"		"1536079680"
+			}
+			"original"
+			{
+				"buildid"		"1253823"
+				"description"		""
+				"timeupdated"		"1510919909"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

@@ -1,0 +1,499 @@
+"appinfo"
+{
+	"appid"		"515180"
+	"common"
+	{
+		"name"		"Bus Simulator 18"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"846567c34caf4b972158fe392d5dd55844cd7b40"
+		"clienticon"		"35e2a18b9074464b72ceebe0b8c36f4f82053e77"
+		"clienttga"		"cc48098c33b48999dc9ee717cc9a194208a03589"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"dbe321a3acad07a02f45fb40cc4302f392b2cb46"
+		"logo_small"		"dbe321a3acad07a02f45fb40cc4302f392b2cb46_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"515180_eula_0"
+				"name"		"Bus Simulator 18 EULA"
+				"url"		"https://store.steampowered.com//eula/515180_eula_0"
+			}
+		}
+		"metacritic_name"		"Bus Simulator 18"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1560866642"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"stillalive studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"astragon Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Bus Simulator"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_33"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1528909200"
+		"metacritic_score"		"67"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/bus-simulator-18?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"515180"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1644"
+			"2"		"3859"
+			"3"		"4175"
+			"4"		"1695"
+			"5"		"4182"
+			"6"		"1685"
+			"7"		"3839"
+			"8"		"19"
+			"9"		"12472"
+			"10"		"9"
+		}
+	}
+	"extended"
+	{
+		"developer"		"stillalive studios"
+		"publisher"		"astragon Entertainment"
+		"homepage"		"http://www.bussimulator-game.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/515180/"
+		"listofdlc"		"850070,850080,850090,850100,886910,886920,968910,968911,968912,968913,1058190,1123650,1149720"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bus Simulator 18"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BusSimulator18.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"515180"
+		"baselanguages"		""
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"515181"
+		{
+			"name"		"Bus Simulator 18 Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4296690553364006820"
+			}
+			"maxsize"		"4872105800"
+			"encryptedmanifests"
+			{
+				"abranch"
+				{
+					"encrypted_gid_2"		"C1963B2795388A8AF43CB8FAE7551CE5"
+					"encrypted_size_2"		"72923A29584CA625A76C1973ED7F583C"
+				}
+				"bbranch"
+				{
+					"encrypted_gid_2"		"7537D1B56D05F6351C808D051F38B276"
+					"encrypted_size_2"		"4687B3DD1EA41E2EF962FE7E8C516999"
+				}
+				"cbranch"
+				{
+					"encrypted_gid_2"		"189C3B53663D22B00773960EC6CA9463"
+					"encrypted_size_2"		"F9CA0914AC9919822333A37A37D90745"
+				}
+				"dbranch"
+				{
+					"encrypted_gid_2"		"F07038ADF1BD961EDE5781EF4E8D522E"
+					"encrypted_size_2"		"DB2A9E0E5B09AFFD8E8E604E0C6ACCD8"
+				}
+				"hotfix"
+				{
+					"encrypted_gid_2"		"B89F8BEBE4518B8A5F92713F93B43481"
+					"encrypted_size_2"		"C9943595F09F3A9DAC8ECD30A950B6E6"
+				}
+				"internal"
+				{
+					"encrypted_gid_2"		"8F5986B43C966D381CF60213F951862F"
+					"encrypted_size_2"		"E5E4C283A9769386678E5C558ABFB43E"
+				}
+				"loca"
+				{
+					"encrypted_gid_2"		"1A53D6FEEFFEEE5C9C0626BB60D5979F"
+					"encrypted_size_2"		"EAE4F186353D57C12C51193977DEA9EF"
+				}
+				"mapbranch"
+				{
+					"encrypted_gid_2"		"523B575BB511E146D2511FEF4A52C4A0"
+					"encrypted_size_2"		"D176DB181ABBEEAFE647508AE9A51C19"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"1E5BF9643834E3A3696B28ED85B8B821"
+					"encrypted_size_2"		"F5649350018D92E4DBCBCB931FF5C7D2"
+				}
+				"modding"
+				{
+					"encrypted_gid_2"		"B812755876BBEF6378F9B18C46CC4478"
+					"encrypted_size_2"		"ABC8C30228A7516759485FB16CDD4967"
+				}
+				"performancetest"
+				{
+					"encrypted_gid_2"		"FA7C331D649350CF4C5925483C082A04"
+					"encrypted_size_2"		"EF5060D97BD4F135B201DCDBA6EB823F"
+				}
+			}
+		}
+		"515182"
+		{
+			"name"		"Bus Simulator 18 German"
+			"manifests"
+			{
+				"public"		"6317373018163509323"
+			}
+		}
+		"515183"
+		{
+			"name"		"Bus Simulator 18 English"
+			"manifests"
+			{
+				"public"		"7705620443348437836"
+			}
+		}
+		"515184"
+		{
+			"name"		"Bus Simulator 18 French"
+			"manifests"
+			{
+				"public"		"6476490784562254424"
+			}
+		}
+		"515185"
+		{
+			"name"		"Bus Simulator 18 Japanese"
+			"manifests"
+			{
+				"public"		"592769051183752181"
+			}
+		}
+		"515186"
+		{
+			"name"		"Bus Simulator 18 Polish"
+			"manifests"
+			{
+				"public"		"6773061152464050419"
+			}
+		}
+		"515187"
+		{
+			"name"		"Bus Simulator 18 Portugese"
+			"manifests"
+			{
+				"public"		"3630410731877437255"
+			}
+		}
+		"515188"
+		{
+			"name"		"Bus Simulator 18 Russian"
+			"manifests"
+			{
+				"public"		"2314725712353963148"
+			}
+		}
+		"515189"
+		{
+			"name"		"Bus Simulator 18 Spanish"
+			"manifests"
+			{
+				"public"		"3295676884107003978"
+			}
+		}
+		"832900"
+		{
+			"name"		"Bus Simulator 18 Czech"
+			"manifests"
+			{
+				"public"		"7862031734938503366"
+			}
+		}
+		"832901"
+		{
+			"name"		"Bus Simulator 18 Turkish"
+			"manifests"
+			{
+				"public"		"5143269225989993291"
+			}
+		}
+		"832902"
+		{
+			"name"		"Bus Simulator 18 Simplified Chinese"
+			"manifests"
+			{
+				"public"		"6481655882764896395"
+			}
+		}
+		"832903"
+		{
+			"name"		"Bus Simulator 18 Korean"
+			"manifests"
+			{
+				"public"		"1968118734004388160"
+			}
+		}
+		"968911"
+		{
+			"name"		"\"Bus Simulator 18 - Mercedes-Benz Interior Pack 1 (968911)\"-Depot"
+			"manifests"
+			{
+				"public"		"2395237961655233336"
+			}
+			"dlcappid"		"968911"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4040362"
+				"timeupdated"		"1563974004"
+			}
+			"abranch"
+			{
+				"buildid"		"4141120"
+				"description"		"Testing Branch 1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566896816"
+			}
+			"bbranch"
+			{
+				"buildid"		"4169363"
+				"description"		"Testing Branch 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567683748"
+			}
+			"cbranch"
+			{
+				"buildid"		"4154290"
+				"description"		"Testing Branch 3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567186996"
+			}
+			"dbranch"
+			{
+				"buildid"		"4024487"
+				"description"		"Testing Branch 4"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563481899"
+			}
+			"ebranch"
+			{
+				"buildid"		"4037273"
+				"description"		"Testing Branch 5"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563896308"
+			}
+			"hotfix"
+			{
+				"buildid"		"3855147"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558707010"
+			}
+			"internal"
+			{
+				"buildid"		"4178051"
+				"description"		"Internal Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568001444"
+			}
+			"loca"
+			{
+				"buildid"		"3010228"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1533626220"
+			}
+			"mapbranch"
+			{
+				"buildid"		"4177709"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567982684"
+			}
+			"marketing"
+			{
+				"buildid"		"3951093"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561471474"
+			}
+			"modding"
+			{
+				"buildid"		"3199418"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539172609"
+			}
+			"performancetest"
+			{
+				"buildid"		"3793657"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556966267"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

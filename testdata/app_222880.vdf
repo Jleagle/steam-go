@@ -1,0 +1,586 @@
+"appinfo"
+{
+	"appid"		"222880"
+	"common"
+	{
+		"name"		"Insurgency"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"b620a8286682299e2a1ff272b04fb09d1b4edd38"
+		"logo_small"		"b620a8286682299e2a1ff272b04fb09d1b4edd38_thumb"
+		"icon"		"b072fc4239951c1952f4877edde340419438b528"
+		"clienticon"		"76c27bfbd3b2b85f5f026825d0da7cd1d722da5a"
+		"clienttga"		"8c8a5c426a82623aae3d32de8dac44422c2c8078"
+		"clienticns"		"ac58193190b3b3d5672360e3ed058e209892094e"
+		"linuxclienticon"		"4f10ca54a51c7dba0a44f8f5e9e6641ba3591fe0"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"ukrainian"		"1"
+		}
+		"metacritic_name"		"Insurgency"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"27"
+				"height_pct"		"35"
+			}
+		}
+		"store_asset_mtime"		"1560771304"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"New World Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"New World Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Insurgency"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_8"		"1"
+			"category_33"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1390422060"
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/insurgency?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"222880"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"4175"
+			"2"		"1708"
+			"3"		"3859"
+			"4"		"1774"
+			"5"		"19"
+			"6"		"4168"
+			"7"		"5711"
+			"8"		"1685"
+			"9"		"3839"
+			"10"		"9"
+			"11"		"1678"
+			"12"		"3843"
+			"13"		"3878"
+			"14"		"492"
+			"15"		"599"
+			"16"		"1775"
+			"17"		"4166"
+			"18"		"4182"
+			"19"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"New World Interactive"
+		"gamedir"		"insurgency"
+		"homepage"		"https://www.newworldinteractive.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"serverbrowsername"		"Insurgency"
+		"publisher"		"New World Interactive"
+		"listofdlc"		"222890"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"insurgency2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"insurgency_BE.exe"
+				"arguments"		"-console -crashinprocess"
+				"workingdir"		"bin"
+				"description"		"Launch with Console"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"insurgency.sh"
+				"arguments"		"-console"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"insurgency.sh"
+				"arguments"		"-console"
+				"description"		"Launch with Console"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"545519959"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"222881"
+		{
+			"name"		"Insurgency 2 Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1126888633636088522"
+			}
+			"maxsize"		"8940787282"
+			"encryptedmanifests"
+			{
+				"ai-updates"
+				{
+					"encrypted_gid_2"		"B594CBB458E7A555A5AEAAF3006ED6CD"
+					"encrypted_size_2"		"7973B57FDBD216927316706B0BA3D7B6"
+				}
+				"build-testing"
+				{
+					"encrypted_gid_2"		"7E0AFA1A2B664CF428B6646D0FD24698"
+					"encrypted_size_2"		"37933941CB9906265A539BB4727C6CD6"
+				}
+				"competitive"
+				{
+					"encrypted_gid_2"		"BC48A899823A3304A8F3A1876703E19E"
+					"encrypted_size_2"		"9A5AB577750AC44D2644BF16962246A1"
+				}
+				"demos_20151027"
+				{
+					"encrypted_gid_2"		"BA06CEFDD1E3D86C70C5CAC58501FB93"
+					"encrypted_size_2"		"A44F492C336A83A5B5F178668512FE7C"
+				}
+				"demos_20151112"
+				{
+					"encrypted_gid_2"		"44465DDB1DE48175296BF5043E247E83"
+					"encrypted_size_2"		"4222D4E44D7B818427C1C40C3431B3A0"
+				}
+				"demos_20160127"
+				{
+					"encrypted_gid_2"		"B098BBE5C912CFEDD0CD55D6F592D506"
+					"encrypted_size_2"		"4D38DB36064B92598A037157A15C398D"
+				}
+				"internal-ui"
+				{
+					"encrypted_gid_2"		"CA2A0AD72499E03AE0BC317B50D889D6"
+					"encrypted_size_2"		"1EA3E6F03AFFF8CB1F5D8B83FA6627BE"
+				}
+			}
+		}
+		"222882"
+		{
+			"name"		"Insurgency Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8952076168263683470"
+			}
+			"maxsize"		"178550311"
+			"encryptedmanifests"
+			{
+				"ai-updates"
+				{
+					"encrypted_gid_2"		"85CA4F508A8B525134528B75DD4FBF92"
+					"encrypted_size_2"		"B41E6B929190E9AB3E688FF07B24A090"
+				}
+				"build-testing"
+				{
+					"encrypted_gid_2"		"BB0C6D4BA3979BB8022D0917D5ABFC25"
+					"encrypted_size_2"		"1E8550BBE918E1076ABEF823AE507CA3"
+				}
+				"competitive"
+				{
+					"encrypted_gid_2"		"FEB76998CF22D10643DC7C45C7DEF967"
+					"encrypted_size_2"		"24F0C4DFE65A2514F3B193A9069E5CEF"
+				}
+				"demos_20151027"
+				{
+					"encrypted_gid_2"		"4A6F84DE19D4F2A5A1A0C593458BCA94"
+					"encrypted_size_2"		"234A849C728FF20C8A55EDECF0188EAB"
+				}
+				"demos_20151112"
+				{
+					"encrypted_gid_2"		"7584D5610BB2B5396E7DF4F483462C17"
+					"encrypted_size_2"		"3A8CE8FDBAF592B5FB78F9A11A9DBBD0"
+				}
+				"demos_20160127"
+				{
+					"encrypted_gid_2"		"9341EAE69C8B162497C1675C6B30F25D"
+					"encrypted_size_2"		"AF072C2126A57A91320514F8C9D2E255"
+				}
+				"internal-ui"
+				{
+					"encrypted_gid_2"		"EDF46F43520B8C379007B21F4FB25E2E"
+					"encrypted_size_2"		"0B54C6B7BB76419AD92D265F7A34AFB3"
+				}
+			}
+		}
+		"222883"
+		{
+			"name"		"Insurgency OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6866083906643020698"
+			}
+			"maxsize"		"147759146"
+			"encryptedmanifests"
+			{
+				"ai-updates"
+				{
+					"encrypted_gid_2"		"D1C904F5AD826093DD79906FB3FB45AF"
+					"encrypted_size_2"		"091BD77FB857F09D6DCA2B1E38A53ECB"
+				}
+				"build-testing"
+				{
+					"encrypted_gid_2"		"C1D24CE2643D7A328090F5004B490B55"
+					"encrypted_size_2"		"5629E934C27F7DA2EB961D6F1A608F1F"
+				}
+				"competitive"
+				{
+					"encrypted_gid_2"		"73A309A5718F79A4A58BD7552F3D0789"
+					"encrypted_size_2"		"95BFF967BA0147E230649BEF51643758"
+				}
+				"demos_20151027"
+				{
+					"encrypted_gid_2"		"2ED3462DB6976B0E17A8B9960624E136"
+					"encrypted_size_2"		"04F896E7C45E76FF8BBB0FE4E5752AC4"
+				}
+				"demos_20151112"
+				{
+					"encrypted_gid_2"		"1D2BC3A6B3DCECFC3AA0900B2ADA5863"
+					"encrypted_size_2"		"1A0B4FAE3D25DE1569D1B26B10C86461"
+				}
+				"demos_20160127"
+				{
+					"encrypted_gid_2"		"6CBE2A3D526B6F29A63829BE260E67CC"
+					"encrypted_size_2"		"69646380F73EEE2A71EE97FB2B29328B"
+				}
+				"internal-ui"
+				{
+					"encrypted_gid_2"		"BA32FFD41500A82216309117D12D4F2D"
+					"encrypted_size_2"		"E12044728C0E36F7946B390C75ED41A6"
+				}
+			}
+		}
+		"222884"
+		{
+			"name"		"Insurgency Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4874402851781940787"
+			}
+			"maxsize"		"101508589"
+			"encryptedmanifests"
+			{
+				"ai-updates"
+				{
+					"encrypted_gid_2"		"9E9DCB089675F5119BE60D33C34C5111"
+					"encrypted_size_2"		"072BA33F48C676511EA1BA673FBA8798"
+				}
+				"build-testing"
+				{
+					"encrypted_gid_2"		"42CD3804BEB6E87F5C9E264B11D7CE11"
+					"encrypted_size_2"		"55B14576E76E485BC82C98E593BA6B8A"
+				}
+				"competitive"
+				{
+					"encrypted_gid_2"		"6FD98746799343C84B1EB884833B0015"
+					"encrypted_size_2"		"B02ADCB7994E004DCFDD2E161B9A497B"
+				}
+				"demos_20151027"
+				{
+					"encrypted_gid_2"		"66FC9BDC87845E78A478247D94868114"
+					"encrypted_size_2"		"4BB485B813958D9CB229B660528AA95F"
+				}
+				"demos_20151112"
+				{
+					"encrypted_gid_2"		"ADF1E0D818D6A44E2B55ADBCF36049E2"
+					"encrypted_size_2"		"9F15A89059A72B333FE4B4C0070CF6A7"
+				}
+				"demos_20160127"
+				{
+					"encrypted_gid_2"		"16E127C899C6AF73A9C83ECC6B8E59CF"
+					"encrypted_size_2"		"62088CAF1E503F64BFE8DFC5E8F5A97A"
+				}
+				"internal-ui"
+				{
+					"encrypted_gid_2"		"21EF9F5FA638154231544BD19689142C"
+					"encrypted_size_2"		"B9DEAFA7AA20AF596998168D584B8F97"
+				}
+			}
+		}
+		"222890"
+		{
+			"name"		"Insurgency SDK"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2140895414899844075"
+			}
+			"maxsize"		"108778000"
+			"encryptedmanifests"
+			{
+				"ai-updates"
+				{
+					"encrypted_gid_2"		"4271476FEA2FC0B9BFC1EDE00B1CFE10"
+					"encrypted_size_2"		"F2DEED5FE70DD56E2AD7B708F7CC1BF7"
+				}
+				"build-testing"
+				{
+					"encrypted_gid_2"		"9FCA26055E6165FBED836831E16997AE"
+					"encrypted_size_2"		"16AE2F15446CD28F3ABB2E2E25AEA9B5"
+				}
+				"competitive"
+				{
+					"encrypted_gid_2"		"C12AA91ECCF8045BDD57D411388DF5B7"
+					"encrypted_size_2"		"45255DD50DF9A6F321027C54FC3B5F98"
+				}
+				"demos_20151027"
+				{
+					"encrypted_gid_2"		"F6855F8A19D397A877C12B531029A6C1"
+					"encrypted_size_2"		"02A25461B9534203C0ACB71A700F4471"
+				}
+				"demos_20151112"
+				{
+					"encrypted_gid_2"		"5E96336EBC1C7A4EE73D51E4E8D8950F"
+					"encrypted_size_2"		"2FBCEA2FE99B9CB0F67EE17D292D3681"
+				}
+				"demos_20160127"
+				{
+					"encrypted_gid_2"		"B4F98635FDA701703A5A64AE1BFE1174"
+					"encrypted_size_2"		"4B9672DB8CE24C8EF1F3033C726730A4"
+				}
+				"internal-ui"
+				{
+					"encrypted_gid_2"		"CEDF323697D4F7EF347B4B1BC117418A"
+					"encrypted_size_2"		"7D740D7EEFDA9B9D26E04C7F7781B162"
+				}
+			}
+			"dlcappid"		"222890"
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,polish,dutch,turkish,brazilian,ukrainian"
+		"workshopdepot"		"222880"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3125346"
+				"timeupdated"		"1537037452"
+			}
+			"ai-updates"
+			{
+				"buildid"		"1086066"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1461197961"
+			}
+			"beta"
+			{
+				"buildid"		"3125346"
+				"description"		"Pre-release testing branch"
+				"timeupdated"		"1537037169"
+			}
+			"build-testing"
+			{
+				"buildid"		"1371691"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1475527375"
+			}
+			"competitive"
+			{
+				"buildid"		"1141662"
+				"description"		"Competitive testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1464027851"
+			}
+			"demos_20151027"
+			{
+				"buildid"		"796689"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"demos_20151112"
+			{
+				"buildid"		"856334"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"demos_20160127"
+			{
+				"buildid"		"906760"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"internal-ui"
+			{
+				"buildid"		"1018179"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

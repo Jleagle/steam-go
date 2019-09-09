@@ -1,0 +1,496 @@
+"appinfo"
+{
+	"appid"		"704270"
+	"common"
+	{
+		"name"		"Generation Zero"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"clienticon"		"bef83715c8e7846e4916f674835665e5cb36a55c"
+		"clienttga"		"ab468e38546f2daa2e3143de0ef9777c1f3ffde1"
+		"icon"		"33945fbcf8183c7107c17f6bc9f68b48959ad0ce"
+		"logo"		"f9bf209d0cef652aaec6af5e1f91a415926b34c2"
+		"logo_small"		"f9bf209d0cef652aaec6af5e1f91a415926b34c2_thumb"
+		"metacritic_name"		"Generation Zero®"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1567426801"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Avalanche Publishing"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Avalanche Publishing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1553583600"
+		"steam_release_date"		"1553590491"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"704270"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"1685"
+			"2"		"1662"
+			"3"		"3859"
+			"4"		"1663"
+			"5"		"5752"
+			"6"		"21"
+			"7"		"19"
+			"8"		"4182"
+			"9"		"3835"
+			"10"		"3843"
+			"11"		"7743"
+			"12"		"3839"
+			"13"		"3942"
+			"14"		"4821"
+			"15"		"1687"
+			"16"		"4166"
+			"17"		"1756"
+			"18"		"1667"
+			"19"		"1774"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Avalanche Publishing"
+		"publisher"		"Avalanche Publishing"
+		"homepage"		"https://generationzero.com/en/"
+		"listofdlc"		"974380,1062400,1062420,1099600,1103830,1157550"
+	}
+	"config"
+	{
+		"installdir"		"GenerationZero"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GenerationZero_F.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"arguments"		"-mem_shark"
+				"description"		"Release"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"development"
+				}
+			}
+			"2"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"marketing"
+				}
+			}
+			"3"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_1"
+				}
+			}
+			"4"
+			{
+				"executable"		"GenerationZero_P.exe"
+				"description"		"Profile Build"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"compatability"
+				}
+			}
+			"5"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release Build"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"compatability"
+				}
+			}
+			"6"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release Build"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"localization"
+				}
+			}
+			"7"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release Build"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_2"
+				}
+			}
+			"8"
+			{
+				"executable"		"GenerationZero_P.exe"
+				"description"		"Profile Build"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"hw_vendors"
+				}
+			}
+			"9"
+			{
+				"executable"		"GenerationZero_R.exe"
+				"description"		"Release Build"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_3"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,spanish,schinese,russian,japanese,polish"
+		"704271"
+		{
+			"name"		"Cataclysm Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2784734993141984695"
+			}
+			"maxsize"		"37256670132"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F8A042A8DF507C1CF2584AF80CC6339E"
+					"encrypted_size_2"		"7CA78FDB2BB806A1CA76F568E97FC1BD"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"984A6C42163C2BBB74EB36BB62002CA6"
+					"encrypted_size_2"		"1AEB1EECEF61BD7F11E9FAC5BF6FD5B2"
+				}
+				"gz_friends"
+				{
+					"encrypted_gid_2"		"32866B93A35C9396BB98C4ED95448058"
+					"encrypted_size_2"		"CF2CE428F686481593B66487EB31A8A2"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"FF006235F5F2BE62BEF4242BB0EB92AC"
+					"encrypted_size_2"		"0CA07F65D8F0FC914E0CE25108C9A47C"
+				}
+				"qa_1"
+				{
+					"encrypted_gid_2"		"9B7796A51D53E171013A3B3290CC210D"
+					"encrypted_size_2"		"B81CDE30E70CAA9935384A1B57CA8267"
+				}
+				"qa_2"
+				{
+					"encrypted_gid_2"		"1363B7D7427CC6B7F44C586305A9FFD4"
+					"encrypted_size_2"		"A5EB6D35CE3CFC5558F174D7AC943A29"
+				}
+				"qa_3"
+				{
+					"encrypted_gid_2"		"8ED1FF2791FC03A8F3969103402BFF11"
+					"encrypted_size_2"		"1BF59E7CF79E5BBBD10D98D5803CCE0A"
+				}
+			}
+		}
+		"704272"
+		{
+			"name"		"Cataclysm Debug Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1331529934810858260"
+			}
+			"maxsize"		"1580377636"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"D805FF21AE1DE74ED3172BADA6246DAF"
+					"encrypted_size_2"		"86F2CEF18891CB3E17A6F947CBB3806D"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"33E1886E4CF395C496C726FAC73C77F0"
+					"encrypted_size_2"		"267B4504DB0BC02CA5DAD1B7B8E4F07C"
+				}
+				"gz_friends"
+				{
+					"encrypted_gid_2"		"D54EE2A40636EF04EAA8AAA43FB6F48B"
+					"encrypted_size_2"		"C50F7BAD849A3168244A7FEA9DB71A39"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"089AC901A56684D7ABCCEA7AEF019C1E"
+					"encrypted_size_2"		"17DA7AD5380118B88BDBB6B895472855"
+				}
+				"qa_1"
+				{
+					"encrypted_gid_2"		"6A2576374816DC06A5BCCCDEFAFFF937"
+					"encrypted_size_2"		"147F40641677C35ED83F8038983DDB1E"
+				}
+				"qa_2"
+				{
+					"encrypted_gid_2"		"8BE2D75AF528F4CA6C9ACA8F6BAD12B6"
+					"encrypted_size_2"		"470FCF0DE5E444F887C9BC6EC62CC1D3"
+				}
+				"qa_3"
+				{
+					"encrypted_gid_2"		"6A7DE8AF40892B9A1C6E7B2C4B0DBD03"
+					"encrypted_size_2"		"9B36EDC7CF8ADE3A4F5C7BFE0460072A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4110341"
+				"timeupdated"		"1566893787"
+			}
+			"baseline"
+			{
+				"buildid"		"3518520"
+				"description"		"PC Gold Master"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549272136"
+			}
+			"compatability"
+			{
+				"buildid"		"4110341"
+				"description"		"Compat testing TL"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567518492"
+			}
+			"development"
+			{
+				"buildid"		"4164535"
+				"description"		"General Dev Branch for Play Tests etc"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567585607"
+			}
+			"gz_friends"
+			{
+				"buildid"		"4158277"
+				"description"		"Community Beta Testers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567417379"
+			}
+			"localization"
+			{
+				"buildid"		"4161299"
+				"description"		"Loc Branch used for testing ONLY BY LOC!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567494387"
+			}
+			"marketing"
+			{
+				"buildid"		"4110341"
+				"description"		"Marketing. Sandbox for trailers, demos etc"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566302976"
+			}
+			"qa_1"
+			{
+				"buildid"		"4177894"
+				"description"		"QA testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568010478"
+			}
+			"qa_2"
+			{
+				"buildid"		"4171411"
+				"description"		"QA testing branch - Claim based!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567750094"
+			}
+			"qa_3"
+			{
+				"buildid"		"4164173"
+				"description"		"QA testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567607089"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Avalanche Studios/GenerationZero/Saves/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

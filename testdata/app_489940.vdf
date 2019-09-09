@@ -1,0 +1,473 @@
+"appinfo"
+{
+	"appid"		"489940"
+	"common"
+	{
+		"name"		"BATTALION 1944"
+		"type"		"Game"
+		"logo"		"fe06e9f4fd5c87cf2a6d9f859c8c3c6032fb889c"
+		"logo_small"		"fe06e9f4fd5c87cf2a6d9f859c8c3c6032fb889c_thumb"
+		"icon"		"6e7ecfbac1d32106fa75d24118d54ecbfd3c346c"
+		"clienticon"		"0d22dfc8d281af5ee6c5abcce411169d5ad0000e"
+		"clienttga"		"45f9429177dd56052946e8d4ad466fc9b319d816"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"489940_eula_0"
+				"name"		"BATTALION 1944 EULA"
+				"url"		"https://store.steampowered.com//eula/489940_eula_0"
+			}
+		}
+		"metacritic_name"		"Battalion 1944"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1564673396"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bulkhead Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_1"		"1"
+			"category_35"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1558627200"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"489940"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"4150"
+			"2"		"19"
+			"3"		"3859"
+			"4"		"3878"
+			"5"		"1774"
+			"6"		"1678"
+			"7"		"493"
+			"8"		"128"
+			"9"		"4182"
+			"10"		"3839"
+			"11"		"4168"
+			"12"		"4667"
+			"13"		"1708"
+			"14"		"1662"
+			"15"		"1685"
+			"16"		"1734"
+			"17"		"1773"
+			"18"		"9"
+			"19"		"4345"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Bulkhead Interactive"
+		"publisher"		"Square Enix"
+		"homepage"		"http://www.battaliongame.com"
+		"listofdlc"		"794150,805140,1133020"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Battalion 1944"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Battalion.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"489941"
+		{
+			"name"		"Battalion 1944 Content"
+			"manifests"
+			{
+				"public"		"3102207229429708736"
+			}
+			"maxsize"		"26396873689"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"14ACF6644023FE9E3D4C604B42C437F4"
+					"encrypted_size_2"		"25428B2B16020B5C408EFE6429CC7C67"
+				}
+				"development_server"
+				{
+					"encrypted_gid_2"		"003E079699BE0EA6DBC370E47B6B9340"
+					"encrypted_size_2"		"941D542D249AB4A5D07F1279C04A89BF"
+				}
+				"development_server_win"
+				{
+					"encrypted_gid_2"		"D8675777622F58A93AF54A722941F4C9"
+					"encrypted_size_2"		"0DCE9CAFE445A8F0228D594E50709961"
+				}
+				"development_server_win_dist"
+				{
+					"encrypted_gid_2"		"34B861A45324532447932D8289B06E82"
+					"encrypted_size_2"		"D07BE9F4332FA5970C80C247472DDDEC"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"F7C2A665406A48B042D8913846BE512E"
+					"encrypted_size_2"		"E1A62B563A7DC43349376C00DD78B8B6"
+				}
+				"external_dev_client"
+				{
+					"encrypted_gid_2"		"949E6D3CD22A1196C3C84F51443181D6"
+					"encrypted_size_2"		"23FC46C65154AB1CD0AEDC009BD0CE47"
+				}
+				"external_dev_client_mainline"
+				{
+					"encrypted_gid_2"		"4DF23C59D3E9BD065EEEAE7679663C25"
+					"encrypted_size_2"		"92722BB4CDE245CD979BFFE6474B8C88"
+				}
+				"multiplay_community_server"
+				{
+					"encrypted_gid_2"		"AD6F49D51BFDBA5F1C64066AD480ACE2"
+					"encrypted_size_2"		"C8C479FBD4E106ABD930766EB1BAE188"
+				}
+				"multiplay_mm_server"
+				{
+					"encrypted_gid_2"		"E6180F5284864F7E644AF3A300F11758"
+					"encrypted_size_2"		"F11F91F5C75A25335F8FEBC2E7648570"
+				}
+				"public_beta"
+				{
+					"encrypted_gid_2"		"6D780621320D8903FD9928D8F03B9CDE"
+					"encrypted_size_2"		"5EB1E5ABC479AD68C467753D026E815E"
+				}
+				"release_lanonly"
+				{
+					"encrypted_gid_2"		"D7761923007E1AE624573241F90F483B"
+					"encrypted_size_2"		"09055EE289C1EB7E194D081AD7C70CF8"
+				}
+				"release_server_staging"
+				{
+					"encrypted_gid_2"		"196F66C55B0FE01AEB6952C8C5E17FBA"
+					"encrypted_size_2"		"4FC76D9E0907126560F7725AAF239639"
+				}
+				"release_server_staging_dist"
+				{
+					"encrypted_gid_2"		"57F6771D7602B1A7601A4C618A9F69EB"
+					"encrypted_size_2"		"F5D5C47E3477BD5A05CA94E8696E4F4D"
+				}
+				"se_age_ratings"
+				{
+					"encrypted_gid_2"		"0124FB0AF83E1F5B828CF8642D70EFEE"
+					"encrypted_size_2"		"022D3D3F66FAFBAAC44F0D3AE825FFE2"
+				}
+				"se_age_ratings_server"
+				{
+					"encrypted_gid_2"		"21864E07F1CBEBFA63F085EE64F6405A"
+					"encrypted_size_2"		"170C209614C6208F3F8DBD406744F9E0"
+				}
+				"se_compatibility"
+				{
+					"encrypted_gid_2"		"BE307935E5EEDA24F0958957720CCC9A"
+					"encrypted_size_2"		"F3B0A8266BD4E57BAF3D20FA81E0E788"
+				}
+				"se_compatibility_server"
+				{
+					"encrypted_gid_2"		"8F96F08F202EFB0B226F78E1147922BA"
+					"encrypted_size_2"		"A3C8940419EF78CC4D96D0CA71C6ECCB"
+				}
+				"se_milestone_client"
+				{
+					"encrypted_gid_2"		"C618FC204D5EFC57F6ADE80CF37D8E4F"
+					"encrypted_size_2"		"9EDE0FEFF7A59B7BCCA052B0E4F103DA"
+				}
+				"se_milestone_server"
+				{
+					"encrypted_gid_2"		"FD08EAA5DDDACBA93721D34DDC4C9111"
+					"encrypted_size_2"		"52B8CA2BBB59261DCC5E4DAF4BC16B70"
+				}
+				"se_qa_client"
+				{
+					"encrypted_gid_2"		"A57CA1525F379F16A12489A2C88F656D"
+					"encrypted_size_2"		"C8361C7E75C14F3A6CB4380DD7A84CA8"
+				}
+				"se_qa_dedserver"
+				{
+					"encrypted_gid_2"		"2B2157677DAF5A5E2059807B03554A80"
+					"encrypted_size_2"		"9CF992534C0918E5D0F2790088FFEFFD"
+				}
+				"sec_qa"
+				{
+					"encrypted_gid_2"		"37329C310E4FA98CA29026F21D7FB2CD"
+					"encrypted_size_2"		"B9205C35F9F837B20F9983E969C54031"
+				}
+			}
+		}
+		"workshopdepot"		"489940"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4172275"
+				"timeupdated"		"1567767563"
+			}
+			"development"
+			{
+				"buildid"		"4179044"
+				"description"		"Coders"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568029981"
+			}
+			"development_server"
+			{
+				"buildid"		"4141682"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566889128"
+			}
+			"development_server_win"
+			{
+				"buildid"		"2806044"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527241760"
+			}
+			"development_server_win_dist"
+			{
+				"buildid"		"4179014"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568029037"
+			}
+			"external"
+			{
+				"buildid"		"2597446"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520879731"
+			}
+			"external_dev_client"
+			{
+				"buildid"		"4068535"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564737308"
+			}
+			"external_dev_client_mainline"
+			{
+				"buildid"		"3882316"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559552131"
+			}
+			"multiplay_community_server"
+			{
+				"buildid"		"3132181"
+				"description"		"Live community server (Linux)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537280039"
+			}
+			"multiplay_mm_server"
+			{
+				"buildid"		"3132190"
+				"description"		"Live matchmaking server (Linux)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537280017"
+			}
+			"public_beta"
+			{
+				"buildid"		"3565635"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550255039"
+			}
+			"release_lanonly"
+			{
+				"buildid"		"2194724"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1507858667"
+			}
+			"release_server_staging"
+			{
+				"buildid"		"4172244"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567757388"
+			}
+			"release_server_staging_dist"
+			{
+				"buildid"		"4172213"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567756858"
+			}
+			"release_staging"
+			{
+				"buildid"		"4172275"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567758016"
+			}
+			"se_age_ratings"
+			{
+				"buildid"		"3396076"
+				"description"		"Ratings"
+				"pwdrequired"		"1"
+				"timeupdated"		"1544773194"
+			}
+			"se_age_ratings_server"
+			{
+				"buildid"		"3396018"
+				"description"		"Ratings"
+				"pwdrequired"		"1"
+				"timeupdated"		"1544773178"
+			}
+			"se_compatibility"
+			{
+				"buildid"		"3858567"
+				"description"		"Compatibility"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558820371"
+			}
+			"se_compatibility_server"
+			{
+				"buildid"		"2426601"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1516022722"
+			}
+			"se_milestone_client"
+			{
+				"buildid"		"2337707"
+				"description"		"Milestone Client"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512383354"
+			}
+			"se_milestone_server"
+			{
+				"buildid"		"2337679"
+				"description"		"Milestone Server"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512383381"
+			}
+			"se_qa_client"
+			{
+				"buildid"		"3759504"
+				"description"		"QA Client"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556004078"
+			}
+			"se_qa_dedserver"
+			{
+				"buildid"		"3650065"
+				"description"		"QA Server"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552668868"
+			}
+			"sec_qa"
+			{
+				"buildid"		"3759504"
+				"description"		"SE QA Client"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556004065"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

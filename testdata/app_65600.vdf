@@ -1,0 +1,462 @@
+"appinfo"
+{
+	"appid"		"65600"
+	"common"
+	{
+		"name"		"Gothic 3 Forsaken Gods Enhanced Edition"
+		"clienticon"		"6900809e3b3c519e95242eb4eebe3b3ed8f3b9d6"
+		"clienttga"		"83d9ef534646225fa947f31a5ce7d7bfdfe2915e"
+		"icon"		"1f3a115192445d0871f1cba256ed326e31c72fef"
+		"logo"		"308126152f2929f63cde421897c78b07d72c4116"
+		"logo_small"		"308126152f2929f63cde421897c78b07d72c4116_thumb"
+		"type"		"game"
+		"metacritic_name"		"Gothic 3 - Forsaken Gods"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"61.901983663944"
+				"height_pct"		"70.51769175967704"
+			}
+		}
+		"store_asset_mtime"		"1568009508"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Trine Studios"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"G3 Community Patch Team"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Mad Vulture Games"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"THQ Nordic"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Gothic"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"65600"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1695"
+			"2"		"4182"
+			"3"		"19"
+			"4"		"21"
+			"5"		"3952"
+			"6"		"1684"
+			"7"		"1697"
+			"8"		"5144"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Trine Studios"
+		"gamedir"		"Gothic 3 Forsaken Gods"
+		"gamemanualurl"		"http://store.steampowered.com/manual/65600/"
+		"homepage"		"http://g3aee.madvulture.de/"
+		"icon"		""
+		"installscript"		"65600_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"65601"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"THQ Nordic"
+	}
+	"config"
+	{
+		"installscriptsignature"		"3b8e29a1b55737adf1bea29366cc1231492b5de453aa1a81cc82aad98c2c0829d2db99b4e387cff7fd5a49b18e18238a94f4ae0be0272e6d568792e60e498a432fd2a4b2e587b97c83f380e20287a8f27f57d28470a40f1a0cd562a9d27db0ee5ce40aea1f53c8e1933a1c48c536a1df190f5b010e2adf8c9c7dc4dea3971bd4"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Gothic 3 Forsaken Gods"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Gothic III Forsaken Gods.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\\software\\jowood\\gothic iii - forsaken gods"
+			{
+				"string"
+				{
+					"currentversion"		"2.00.17414.16"
+					"description"		"Gothic 3 Forsaken Gods Enhanced Edition"
+					"copyright"		"(c)2011 Gothic 3 FSG Community Patch Team & JoWooD"
+					"install_dir"		"%INSTALLDIR%"
+					"installdate"		"%DATE%"
+					"english"
+					{
+						"textlanguage"		"English"
+						"audiolanguage"		"English"
+						"oslanguage"		"en"
+					}
+					"french"
+					{
+						"textlanguage"		"French"
+						"audiolanguage"		"English"
+						"oslanguage"		"fr"
+					}
+					"german"
+					{
+						"textlanguage"		"German"
+						"audiolanguage"		"German"
+						"oslanguage"		"de"
+					}
+					"italian"
+					{
+						"textlanguage"		"Italian"
+						"audiolanguage"		"English"
+						"oslanguage"		"it"
+					}
+					"spanish"
+					{
+						"textlanguage"		"Spanish"
+						"audiolanguage"		"English"
+						"oslanguage"		"es"
+					}
+				}
+				"dword"
+				{
+					"flags"		"1"
+					"english"
+					{
+						"oslanguageid"		"1033"
+					}
+					"french"
+					{
+						"oslanguageid"		"1036"
+					}
+					"german"
+					{
+						"oslanguageid"		"1031"
+					}
+					"italian"
+					{
+						"oslanguageid"		"1040"
+					}
+					"spanish"
+					{
+						"oslanguageid"		"1034"
+					}
+				}
+			}
+			"hkey_current_user\\software\\jowood\\gothic iii - forsaken gods"
+			{
+				"string"
+				{
+					"currentversion"		"2.00.17414.16"
+					"description"		"Gothic 3 Forsaken Gods Enhanced Edition"
+					"copyright"		"(c)2011 Gothic 3 FSG Community Patch Team & JoWooD"
+					"install_dir"		"%INSTALLDIR%"
+					"installdate"		"%DATE%"
+					"english"
+					{
+						"textlanguage"		"English"
+						"audiolanguage"		"English"
+						"oslanguage"		"en"
+					}
+					"french"
+					{
+						"textlanguage"		"French"
+						"audiolanguage"		"English"
+						"oslanguage"		"fr"
+					}
+					"german"
+					{
+						"textlanguage"		"German"
+						"audiolanguage"		"German"
+						"oslanguage"		"de"
+					}
+					"italian"
+					{
+						"textlanguage"		"Italian"
+						"audiolanguage"		"English"
+						"oslanguage"		"it"
+					}
+					"spanish"
+					{
+						"textlanguage"		"Spanish"
+						"audiolanguage"		"English"
+						"oslanguage"		"es"
+					}
+				}
+				"dword"
+				{
+					"flags"		"1"
+					"english"
+					{
+						"oslanguageid"		"1033"
+					}
+					"french"
+					{
+						"oslanguageid"		"1036"
+					}
+					"german"
+					{
+						"oslanguageid"		"1031"
+					}
+					"italian"
+					{
+						"oslanguageid"		"1040"
+					}
+					"spanish"
+					{
+						"oslanguageid"		"1034"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\65600"
+				"process 1"		"%INSTALLDIR%\\Support\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\65600"
+				"process 1"		"%windir%\\system32\\msiexec.exe"
+				"command 1"		"/i \"%INSTALLDIR%\\Support\\VCRedist\\vcredist.msi\" /passive"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"65601"
+		{
+			"name"		"Gothic 3: Forsaken Gods Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8455738367317402322"
+				"enhancededition_2.00.16"		"6749902021199113421"
+			}
+			"maxsize"		"2565450134"
+		}
+		"65602"
+		{
+			"name"		"Gothic 3: Forsaken Gods English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"7187147295948870530"
+				"enhancededition_2.00.16"		"1780357337510879345"
+			}
+			"maxsize"		"674646789"
+		}
+		"65603"
+		{
+			"name"		"Gothic 3: Forsaken Gods French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"3221031338189605088"
+				"enhancededition_2.00.16"		"1700803392106793450"
+			}
+			"maxsize"		"706813808"
+		}
+		"65604"
+		{
+			"name"		"Gothic 3: Forsaken Gods German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"7996835659833780851"
+				"enhancededition_2.00.16"		"2523115472740015474"
+			}
+			"maxsize"		"672754879"
+		}
+		"65605"
+		{
+			"name"		"Gothic 3: Forsaken Gods Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"6135081367531150069"
+				"enhancededition_2.00.16"		"545537706341851909"
+			}
+			"maxsize"		"706831507"
+		}
+		"65606"
+		{
+			"name"		"Gothic 3: Forsaken Gods Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"7227469932999987310"
+				"enhancededition_2.00.16"		"3257150326791480893"
+			}
+			"maxsize"		"706809049"
+		}
+		"65607"
+		{
+			"name"		"Gothic 3: Forsaken Gods Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"3033609448445266155"
+			}
+			"maxsize"		"946092433"
+		}
+		"65608"
+		{
+			"name"		"Gothic 3: Forsaken Gods Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+		}
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1188580"
+				"timeupdated"		"1466405111"
+			}
+			"enhancededition_2.00.16"
+			{
+				"buildid"		"23935"
+				"description"		""
+			}
+			"testgate"
+			{
+				"buildid"		"1188580"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1466404975"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Gothic3ForsakenGods"
+				"pattern"		"*.g3savcp"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Gothic3ForsakenGods"
+				"pattern"		"*.g3savcpdat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

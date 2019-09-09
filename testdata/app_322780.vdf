@@ -1,0 +1,464 @@
+"appinfo"
+{
+	"appid"		"322780"
+	"common"
+	{
+		"name"		"Worlds Adrift"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"fb31217c0e884236e7e3c463ef7520690363e92d"
+		"logo_small"		"fb31217c0e884236e7e3c463ef7520690363e92d_thumb"
+		"icon"		"f24710a52e7ed088118d97f625f7fa75d8cc206e"
+		"clienttga"		"d0b6b33f9915d7c2c075907e9fb8646f93027941"
+		"clienticns"		"d8a2a15d8efce2fac9e6e57e496d4f1bf374a46a"
+		"linuxclienticon"		"d8a2a15d8efce2fac9e6e57e496d4f1bf374a46a"
+		"clienticon"		"02b6e12fff4b448f0c869e3a1d62a58eb40c8a60"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"322780_eula_0"
+				"name"		"Worlds Adrift EULA"
+				"url"		"http://store.steampowered.com//eula/322780_eula_0"
+			}
+		}
+		"exfgls"		"1"
+		"metacritic_name"		"Worlds Adrift"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1548673754"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bossa Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bossa Studios"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"29"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1495645020"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"322780"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"1702"
+			"2"		"3834"
+			"3"		"128"
+			"4"		"1662"
+			"5"		"21"
+			"6"		"3810"
+			"7"		"3968"
+			"8"		"1775"
+			"9"		"3859"
+			"10"		"1643"
+			"11"		"4166"
+			"12"		"15045"
+			"13"		"493"
+			"14"		"19"
+			"15"		"4252"
+			"16"		"1756"
+			"17"		"1777"
+			"18"		"492"
+			"19"		"1681"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Bossa Studios"
+		"publisher"		"Bossa Studios"
+		"homepage"		"http://www.worldsadrift.com/"
+		"listofdlc"		"627580,627581,627582,640220,640221,640222,795620,795621,876350"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WorldsAdrift"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"worldsadrift.exe"
+				"arguments"		"-show-screen-selector +appName worlds_adrift +projectName worlds_adrift +authProvider steam +linkProtocol RakNet +assetDatabaseStrategy Local +localAssetDatabasePath ./Assets"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"322780"
+		"hasdepotsindlc"		"0"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"322783"
+		{
+			"name"		"[WIP] Worlds Adrift Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4624240741051053915"
+				"beta"		"4539839941422395409"
+			}
+			"maxsize"		"8659700315"
+			"encryptedmanifests"
+			{
+				"betatrailer"
+				{
+					"encrypted_gid_2"		"EFA1F4A5BB2069ADF6AED2090F2BEB8D"
+					"encrypted_size_2"		"BA431A17B093A8C84852E31D0FB15840"
+				}
+				"black"
+				{
+					"encrypted_gid_2"		"FEEF432ABD4FD3F203DAB3E963377D71"
+					"encrypted_size_2"		"F4F33F5C43D19B26BE1D2596B1D7AFCF"
+				}
+				"blue"
+				{
+					"encrypted_gid_2"		"11FF2A1BFC8F02DDF8A344378E991BE8"
+					"encrypted_size_2"		"E23B4A04866C7392B36555ECF637FA18"
+				}
+				"crystal"
+				{
+					"encrypted_gid_2"		"1DB0688105C0ACB30F801DDB9A71A557"
+					"encrypted_size_2"		"B922103343B293A3437A253AF48085B6"
+				}
+				"diamond"
+				{
+					"encrypted_gid_2"		"019A13236A32149F039F50204A15A48B"
+					"encrypted_size_2"		"F4891FA5AA8D17A3603CAD801271EA4F"
+				}
+				"emerald"
+				{
+					"encrypted_gid_2"		"F24AEF520E569A6FE6B0608752DAC392"
+					"encrypted_size_2"		"7B4E7FE0A4E952D88862F24F910A42E9"
+				}
+				"firered"
+				{
+					"encrypted_gid_2"		"95CA12D9E381F55D93E107C2BDC1CFEF"
+					"encrypted_size_2"		"78DF04CB1D942269FBFDD7AA6626663C"
+				}
+				"gold"
+				{
+					"encrypted_gid_2"		"9B0733E46AAF564F9B93B292EBEDB50D"
+					"encrypted_size_2"		"5664FA903C856B20F321110A7810CC06"
+				}
+				"green"
+				{
+					"encrypted_gid_2"		"3394AC573C77A3EEA05BAF6C6954BCC6"
+					"encrypted_size_2"		"31C6A8A353A33CB5AB34B5B1C270A8B9"
+				}
+				"heartgold"
+				{
+					"encrypted_gid_2"		"7147699C78D8DE9CC811DA12713C8470"
+					"encrypted_size_2"		"E0FB7A6418B5953A2218F1967D100669"
+				}
+				"leafgreen"
+				{
+					"encrypted_gid_2"		"3E40A651B623AA046DFF5D33EDF2588D"
+					"encrypted_size_2"		"B3C68B3B1094AFA92F41C1F3698B7A15"
+				}
+				"pearl"
+				{
+					"encrypted_gid_2"		"3DC5CB1B5D7DBDC8A4E79B470BF90E6A"
+					"encrypted_size_2"		"7A31013E64F4F0C581B873FFE7EC7351"
+				}
+				"platinum"
+				{
+					"encrypted_gid_2"		"A3677B99A8C45A4088C112C279D7D0C6"
+					"encrypted_size_2"		"A087114053D02A7CBD6344B723D9C04B"
+				}
+				"ruby"
+				{
+					"encrypted_gid_2"		"501D258BB994B3EDF04793EA87886C44"
+					"encrypted_size_2"		"D0AFB98722E2071B86A6C7672E658919"
+				}
+				"sapphire"
+				{
+					"encrypted_gid_2"		"6FC244F68A0623DD9CE4799A25366078"
+					"encrypted_size_2"		"9FD633E75A0B88BA8205B7BE9FF51822"
+				}
+				"silver"
+				{
+					"encrypted_gid_2"		"533023E93261BE24B256C314F1FD7EB9"
+					"encrypted_size_2"		"08657F0F6A27372A01278776E8B35A24"
+				}
+				"white"
+				{
+					"encrypted_gid_2"		"5FB597CEF9DA2D930527F90A4772A457"
+					"encrypted_size_2"		"258FF6E080109B507258C5D1C706CFB9"
+				}
+				"yellow"
+				{
+					"encrypted_gid_2"		"032F2C4E4239EDDD26F190DE350A6DE4"
+					"encrypted_size_2"		"18D94673DB187493286FEDB1EA61CC4E"
+				}
+			}
+		}
+		"322785"
+		{
+			"name"		"Worlds Adrift OST"
+			"dlcappid"		"640220"
+			"manifests"
+			{
+				"public"		"2915191016242313936"
+			}
+			"maxsize"		"127657554"
+			"encryptedmanifests"
+			{
+				"blue"
+				{
+					"encrypted_gid_2"		"19039CB605C80F873EB93DAFB514AB50"
+					"encrypted_size_2"		"EEA4FE9D109FB84925B8A6BA3221CC9B"
+				}
+			}
+		}
+		"322786"
+		{
+			"name"		"Worlds Adrift Artbook"
+			"dlcappid"		"640221"
+			"manifests"
+			{
+				"public"		"6430020296803139309"
+			}
+			"maxsize"		"78609837"
+			"encryptedmanifests"
+			{
+				"blue"
+				{
+					"encrypted_gid_2"		"F294C639E37D5C3D28D1A70180A189EF"
+					"encrypted_size_2"		"5329556F0B588DE58A10AE7D5DF56DF3"
+				}
+			}
+		}
+		"322787"
+		{
+			"name"		"Worlds Adrift Streamer Pack"
+			"dlcappid"		"640222"
+			"manifests"
+			{
+				"public"		"9162221422225345628"
+			}
+			"maxsize"		"790413231"
+			"encryptedmanifests"
+			{
+				"blue"
+				{
+					"encrypted_gid_2"		"A964A99BC4EB6772FD6C1DC450937979"
+					"encrypted_size_2"		"D213EF49D71F20EA498695834F50C008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4012356"
+				"timeupdated"		"1563205031"
+			}
+			"beta"
+			{
+				"buildid"		"3958150"
+				"description"		"Pre-release channel"
+				"timeupdated"		"1561582813"
+			}
+			"betatrailer"
+			{
+				"buildid"		"3162422"
+				"description"		"Beta PTS Update 27 Trailer Shoot"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538119077"
+			}
+			"black"
+			{
+				"buildid"		"3532192"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549351204"
+			}
+			"blue"
+			{
+				"buildid"		"3907414"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560247780"
+			}
+			"crystal"
+			{
+				"buildid"		"3784872"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556724837"
+			}
+			"diamond"
+			{
+				"buildid"		"3729072"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554991224"
+			}
+			"emerald"
+			{
+				"buildid"		"3721305"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554798912"
+			}
+			"firered"
+			{
+				"buildid"		"3529399"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549276895"
+			}
+			"gold"
+			{
+				"buildid"		"3826694"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557940101"
+			}
+			"green"
+			{
+				"buildid"		"3781743"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556637880"
+			}
+			"heartgold"
+			{
+				"buildid"		"4112968"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565976097"
+			}
+			"leafgreen"
+			{
+				"buildid"		"3529101"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549269539"
+			}
+			"pearl"
+			{
+				"buildid"		"3398415"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544801231"
+			}
+			"platinum"
+			{
+				"buildid"		"3514659"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548832369"
+			}
+			"ruby"
+			{
+				"buildid"		"3738992"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555339635"
+			}
+			"sapphire"
+			{
+				"buildid"		"3720585"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554778319"
+			}
+			"silver"
+			{
+				"buildid"		"3784811"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556723501"
+			}
+			"white"
+			{
+				"buildid"		"3452060"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546966836"
+			}
+			"yellow"
+			{
+				"buildid"		"3826646"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557938999"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

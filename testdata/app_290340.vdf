@@ -1,0 +1,873 @@
+"appinfo"
+{
+	"appid"		"290340"
+	"common"
+	{
+		"name"		"Armello"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"2d50d5f6e52913bc23926ebbb661c64d641e24cd"
+		"logo_small"		"2d50d5f6e52913bc23926ebbb661c64d641e24cd_thumb"
+		"clienticon"		"b4088e54fe69ee1e8e511ace4bee60ba4ad156f4"
+		"clienttga"		"7cea1fd9a8fb566b2413bccdfe04a53edcbe9872"
+		"icon"		"1eb84eb6e2f5e611c16e13b380b38d15cbfcabd1"
+		"clienticns"		"a8c0658471d7bc58ec4be6b6c330cc1b0e9fef8c"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"4237a7cf1fc96965e63013fa497ece496440faa9"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"brazilian"		"1"
+		}
+		"osarch"		""
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"290340_eula_1"
+				"name"		"Armello EULA"
+				"url"		"http://store.steampowered.com//eula/290340_eula_1"
+			}
+		}
+		"metacritic_name"		"Armello"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"koreana"		"header_koreana.jpg"
+			"russian"		"header_russian.jpg"
+			"schinese"		"header_schinese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,ru,ko,zh-tw"
+			"library_hero"		"en"
+			"library_logo"		"en,zh-cn,ru,zh-tw,ko"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"36.81471701375202"
+				"height_pct"		"77.43218886216556"
+			}
+		}
+		"store_asset_mtime"		"1567477102"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"League of Geeks"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"League of Geeks"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_8"		"1"
+			"category_36"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1441123560"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/armello?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"290340"
+		"store_tags"
+		{
+			"0"		"1770"
+			"1"		"1741"
+			"2"		"3859"
+			"3"		"9"
+			"4"		"1666"
+			"5"		"1684"
+			"6"		"492"
+			"7"		"4604"
+			"8"		"21"
+			"9"		"1717"
+			"10"		"1677"
+			"11"		"122"
+			"12"		"1756"
+			"13"		"21725"
+			"14"		"4726"
+			"15"		"4182"
+			"16"		"6971"
+			"17"		"4364"
+			"18"		"5153"
+			"19"		"5407"
+		}
+	}
+	"extended"
+	{
+		"developer"		"League of Geeks"
+		"publisher"		"League of Geeks"
+		"homepage"		"http://www.armello.com"
+		"listofdlc"		"386790,386791,386792,386793,386794,386795,386796,386797,386798,389600,392980,398910,398911,398912,398913,398914,398915,398916,398917,398918,398919,1130630"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Armello"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"armello.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"armello.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"armello.x86"
+				"arguments"		"LANG=\"\" %command%"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"armello.x86_64"
+				"arguments"		"LANG=\"\" %command%"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,dutch,brazilian"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"290343"
+		{
+			"name"		"Armello Win32"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"7327272348430464012"
+			}
+			"maxsize"		"2398266162"
+			"encryptedmanifests"
+			{
+				"master-automation"
+				{
+					"encrypted_gid_2"		"39F79FA16EF90D7B8EC608AAD2BE1B9E"
+					"encrypted_size_2"		"1D1B96D3F70FB27C056214FB7D13FECA"
+				}
+				"master-final"
+				{
+					"encrypted_gid_2"		"1EACC2EEEC9A6886F111C1F4C71AE50E"
+					"encrypted_size_2"		"7E3DE0B527D09C7C8D5275490F11716E"
+				}
+				"master-qa"
+				{
+					"encrypted_gid_2"		"250C59CB756AAD4DB693FE6EAC090E77"
+					"encrypted_size_2"		"157DD323682A0FC41E9CF5B5D28C5168"
+				}
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"7266E9DF716866A96FA9F6D5C85EA4B0"
+					"encrypted_size_2"		"A5CF2AE0EFE58D9E92FC2E4F7FEA37E4"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"0DDBA10BB9C518A3A0D2D2BC413C796B"
+					"encrypted_size_2"		"3EE1D1EFA3877234745660C048C00429"
+				}
+			}
+		}
+		"290344"
+		{
+			"name"		"Armello Win64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"364747855396374907"
+			}
+			"maxsize"		"1646242076"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"4689E1D48C353B5C136254F9832CC3CB"
+					"encrypted_size_2"		"ABAFEE3E773B4C5BC80978A46C237CB2"
+				}
+				"beta-final"
+				{
+					"encrypted_gid_2"		"99DBEA447B08A9A1E42FC89034629040"
+					"encrypted_size_2"		"08B94B563B54807D6B3B14898B57E910"
+				}
+				"beta-qa"
+				{
+					"encrypted_gid_2"		"05F6C9C080075CCE9266769ABE064981"
+					"encrypted_size_2"		"319409BF58A731605703DA53C7BC765B"
+				}
+				"developer"
+				{
+					"encrypted_gid_2"		"A1E03A66ADAB9C456B356D88ACEF1A0D"
+					"encrypted_size_2"		"1A91AA45416C182E046BE2A8AFA5A291"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"C662FEF8EAA531D0E09475DF92911AB2"
+					"encrypted_size_2"		"62AA9C6CB4E93FE85484DD584FA77955"
+				}
+				"master-automation"
+				{
+					"encrypted_gid_2"		"59ED110765A8988B9F379BAF5C33CB74"
+					"encrypted_size_2"		"BC2DE6583CA3993F9AA5707FC6FA1B72"
+				}
+				"master-final"
+				{
+					"encrypted_gid_2"		"3F8EAD0814FC525D28F62A0A8B485360"
+					"encrypted_size_2"		"CFA1DE83B138D0A213E0A74AC72373D6"
+				}
+				"master-qa"
+				{
+					"encrypted_gid_2"		"0A81D064C89BEF1881302B3C7B41957C"
+					"encrypted_size_2"		"1BFBB3E72C47774CB662AAF64330F3FE"
+				}
+				"patch-automation"
+				{
+					"encrypted_gid_2"		"36CC86AD854B7901AE5F7CE6A292B9C6"
+					"encrypted_size_2"		"93948E01171DC8ECACBFF12FBA956740"
+				}
+				"patch-final"
+				{
+					"encrypted_gid_2"		"1F2018C0D8DB6BF08B8F587919745783"
+					"encrypted_size_2"		"6A91C4A26C4F1DDF59C9C7CA5137E5B3"
+				}
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"4323A8F7864D7501B9E0C39279EB9665"
+					"encrypted_size_2"		"5A351EEDC1AB07961AFA834442CFB67C"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"EAE72C36F927DF10AA9C5BAFF752D3DE"
+					"encrypted_size_2"		"DB166331C560F6CE2BEF32605DC0BE20"
+				}
+				"release-automation"
+				{
+					"encrypted_gid_2"		"D1419BF2518196F97F07C64F2A1072A2"
+					"encrypted_size_2"		"FDBFF03A3137BD2E0978E9588B2DAB29"
+				}
+				"release-final"
+				{
+					"encrypted_gid_2"		"3F9DA643754027E606CEAB2BA04C7AC0"
+					"encrypted_size_2"		"013D8CFBF298F1B1B3A8836D39A2B088"
+				}
+				"release-qa"
+				{
+					"encrypted_gid_2"		"2F3AA500FFCC6485E00DE8FCF812BE0D"
+					"encrypted_size_2"		"A1F95DCE657ED321A3E4ED1717F44CDD"
+				}
+				"teamcity_automation_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"4E65922DB5B1E912B12045EA3F241403"
+					"encrypted_size_2"		"362A7C4A3DF0F9694CACF146CB5B3FD6"
+				}
+				"teamcity_retail_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"29EC31526A52F6B591221DA84D967D46"
+					"encrypted_size_2"		"0E340562BB11F5B56F0FE685034688D2"
+				}
+				"teamcity_retail_master"
+				{
+					"encrypted_gid_2"		"97C8EEB6821D1DD8023D3E3DE5CB31F3"
+					"encrypted_size_2"		"F654482681B3D3E84F3FF7DDFD55BD06"
+				}
+				"teamcity_sandbox_1.12.3_steam_f1"
+				{
+					"encrypted_gid_2"		"BC100E698B4FB1E830968DD2680A49D3"
+					"encrypted_size_2"		"6FFDECFADA4BDE5E700D9E8582E728DF"
+				}
+				"teamcity_sandbox_master"
+				{
+					"encrypted_gid_2"		"EA8B56B561DBF0C66E4B94364FD8F7AE"
+					"encrypted_size_2"		"2E1A56101433C0F716B8ED215FDAB6B8"
+				}
+			}
+		}
+		"290342"
+		{
+			"name"		"Armello OSX Universal"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"2137196331846110203"
+			}
+			"maxsize"		"2409894093"
+			"encryptedmanifests"
+			{
+				"master-qa"
+				{
+					"encrypted_gid_2"		"54445043BF2A482E5B5C4830491033C4"
+					"encrypted_size_2"		"28F0CD8475B935F8F2ED92BA57E8E8E6"
+				}
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"E58346D5E74B3C06C9F1EEE34E4A6464"
+					"encrypted_size_2"		"3D378344C2442A76077A1CF840E7B082"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"ABBD3978F5B88B31AED7C0DA0F872862"
+					"encrypted_size_2"		"0B4D86AE3775186B9D043D28D94DB264"
+				}
+			}
+		}
+		"290346"
+		{
+			"name"		"Armello OSX64"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4158157250079611146"
+			}
+			"maxsize"		"1706985159"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"977A7759EF19A40005650B7F2C5EC553"
+					"encrypted_size_2"		"AFBC5AEDF14E5B6B9185C3DBD16A48A6"
+				}
+				"beta-final"
+				{
+					"encrypted_gid_2"		"5E8778E3D2447E4A21C612B6E4C6247E"
+					"encrypted_size_2"		"CD160844A2F34FEF5A52E27EC2D8AEB1"
+				}
+				"beta-qa"
+				{
+					"encrypted_gid_2"		"6B4478543CE0045366B389CE5E2FA830"
+					"encrypted_size_2"		"3E89DF0082FAFFA6E8F6EE65498A54D8"
+				}
+				"developer"
+				{
+					"encrypted_gid_2"		"1880C01E68564443581A577496C23315"
+					"encrypted_size_2"		"AFDD5A1E4D9CBE31B23D71367D2BB63C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"BB8B5CA1FA4D6E0B2725AA37BF537426"
+					"encrypted_size_2"		"94AA418CD304D8E38DE6FA10722EEABD"
+				}
+				"master-automation"
+				{
+					"encrypted_gid_2"		"091CDC00E78B709590CA419C9B55187D"
+					"encrypted_size_2"		"4E177783FFBC8C7DC2CCB3B8514FE855"
+				}
+				"master-final"
+				{
+					"encrypted_gid_2"		"D23275C055D4C585A6838C09C0B1D5DE"
+					"encrypted_size_2"		"ADDDE9E95A26A0D0D3FE95BCDC34320C"
+				}
+				"master-qa"
+				{
+					"encrypted_gid_2"		"AB9E52AD8377ECDBD4F1CD0D6D6D96C3"
+					"encrypted_size_2"		"C3A731ECA504BBAEB53D92B642871A51"
+				}
+				"patch-automation"
+				{
+					"encrypted_gid_2"		"88D9E91037B056D472F974AA1D98AE43"
+					"encrypted_size_2"		"7F6407FA00366BB9A461CC594B227294"
+				}
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"99E293172BC0C278637EFED884886EC3"
+					"encrypted_size_2"		"52A34E7625321148AC8B9318A6580D05"
+				}
+				"release-automation"
+				{
+					"encrypted_gid_2"		"5B1C938ACC56FF604AF12C037284ACE7"
+					"encrypted_size_2"		"18E20DC989E0DBF89789400F88F28618"
+				}
+				"release-final"
+				{
+					"encrypted_gid_2"		"2E7F54CA42423A6DE51CEB57970862E0"
+					"encrypted_size_2"		"73EC87C72E0BD6A136CC3CBDB8D72AD1"
+				}
+				"release-qa"
+				{
+					"encrypted_gid_2"		"01C2DEAAF04119DEEA3B1204EBB19C9C"
+					"encrypted_size_2"		"808C58069986C8A75CBEE08AB4F2F289"
+				}
+				"teamcity_automation_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"F5DF943D4307ACEC9C7361D5A2EDD416"
+					"encrypted_size_2"		"283D0994CA1636F23BDD86B112925C0F"
+				}
+				"teamcity_retail_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"04A5E397FFD470C1C6E54328CB87B7FF"
+					"encrypted_size_2"		"BF79CF33433387A0559F0071753559A2"
+				}
+				"teamcity_retail_master"
+				{
+					"encrypted_gid_2"		"3D85530A5A4CDB9E0DFE27654D730604"
+					"encrypted_size_2"		"D1123ED512C892F38593C0FBF8D2BA96"
+				}
+				"teamcity_sandbox_1.12.3_steam_f1"
+				{
+					"encrypted_gid_2"		"C8D4BB2B9B350470BE3836B79452EB10"
+					"encrypted_size_2"		"F6CACD7D18BCA794149013C4514321CD"
+				}
+				"teamcity_sandbox_master"
+				{
+					"encrypted_gid_2"		"B9E9EEB6F462524F777A0F83BF7DB75B"
+					"encrypted_size_2"		"8CEB205C39AF2C5943C3890549FF63AA"
+				}
+			}
+		}
+		"290345"
+		{
+			"name"		"Armello Linux Universal"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"3726043958249178108"
+			}
+			"maxsize"		"2430016183"
+			"encryptedmanifests"
+			{
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"152C17C2876B7AA0E634871880C14931"
+					"encrypted_size_2"		"B5D5054A558991DCC12DBE8BE54C246D"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"CBF99D6C1FB0D846972B3C0C94B6F7CE"
+					"encrypted_size_2"		"0B4D86AE3775186B9D043D28D94DB264"
+				}
+			}
+		}
+		"290341"
+		{
+			"name"		"Armello Linux64"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1571501388699511447"
+			}
+			"maxsize"		"1552987916"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"71057A02979D9B50FCEBD06567C5FA6F"
+					"encrypted_size_2"		"ED53C9474F1EA21B799AC3A6C0CB291D"
+				}
+				"beta-final"
+				{
+					"encrypted_gid_2"		"05B90C8D4EF3E0009D0F19D067394575"
+					"encrypted_size_2"		"F23C7C9D286015A639428FEB412288CF"
+				}
+				"beta-qa"
+				{
+					"encrypted_gid_2"		"08BB05ECCFA86E163DCD1651745E9B66"
+					"encrypted_size_2"		"CCBD760A20E803F4881A49ACE6046527"
+				}
+				"developer"
+				{
+					"encrypted_gid_2"		"53860CA6F3C28D6655CFFBC2F3DEABCC"
+					"encrypted_size_2"		"F963D7AF0F9FD6D1ED1250EF9740C83E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"CD47C7977D455ADD25A0B62F830DD53A"
+					"encrypted_size_2"		"729B6A20A87708E2AF616634EA8714D7"
+				}
+				"master-automation"
+				{
+					"encrypted_gid_2"		"C41563DE39ED8226CBFAB84E02B0BBC0"
+					"encrypted_size_2"		"048D96CFFF49D9035B04E41DB363FBD8"
+				}
+				"master-final"
+				{
+					"encrypted_gid_2"		"EBD54E94BCA98DB7AFA357CFC5F5A715"
+					"encrypted_size_2"		"CA020AB997216138FD615011E03DB0FB"
+				}
+				"master-qa"
+				{
+					"encrypted_gid_2"		"4013E30520EFB733AF1C51F5D787F4BD"
+					"encrypted_size_2"		"63AE832A188A179132AC513C5DB63BE4"
+				}
+				"patch-automation"
+				{
+					"encrypted_gid_2"		"0B7B52918D37C8BEEAA583E473BCB957"
+					"encrypted_size_2"		"6BC0B9AF3C6D94D8CF5E72BE35784B39"
+				}
+				"patch-qa"
+				{
+					"encrypted_gid_2"		"3F2B1EC5F98400980AC34AED2A2BCFCC"
+					"encrypted_size_2"		"B3517A170A7F57F262B45CC9D0B33BDF"
+				}
+				"release-automation"
+				{
+					"encrypted_gid_2"		"49EE36FD288E08BEC3A9995B33E4B72F"
+					"encrypted_size_2"		"F5ADE5ECC304257A17627A22C602483C"
+				}
+				"release-final"
+				{
+					"encrypted_gid_2"		"4A14108E33DB8A89B8D7CA974A3E3195"
+					"encrypted_size_2"		"FFA6612A59950F78B9C866085CD494CF"
+				}
+				"release-qa"
+				{
+					"encrypted_gid_2"		"87C0CA826776028A1D20C10948D6A01D"
+					"encrypted_size_2"		"9F4A578231A04F6517D84745275513C5"
+				}
+				"teamcity_automation_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"9881FBE2CA7406B37AA634A73FB69698"
+					"encrypted_size_2"		"93C4D84303DE473BFBE98B2D318581BC"
+				}
+				"teamcity_retail_2.0_steam_f1"
+				{
+					"encrypted_gid_2"		"ED19CB821BBD5558DE5D83E79033A3E2"
+					"encrypted_size_2"		"FD920BF8CF336C3D0E729D942E17C6FD"
+				}
+				"teamcity_retail_master"
+				{
+					"encrypted_gid_2"		"35992C32D9753FDB635A10C5867FA0E4"
+					"encrypted_size_2"		"59FE0DDBC0B2D23F35DF586AA7CAF372"
+				}
+				"teamcity_sandbox_1.12.3_steam_f1"
+				{
+					"encrypted_gid_2"		"A7A3177774ADE99EFC1E4A6C735CB09D"
+					"encrypted_size_2"		"A0444779E09B62167471A7AB4E4DE301"
+				}
+				"teamcity_sandbox_master"
+				{
+					"encrypted_gid_2"		"23CCC13191C56E77945E9527B2A2F532"
+					"encrypted_size_2"		"1B5910A6D0B4EB513FCA020A57E0EAA6"
+				}
+			}
+		}
+		"398911"
+		{
+			"name"		"Soundtrack (398911) Depot"
+			"dlcappid"		"398911"
+			"manifests"
+			{
+				"public"		"6812428920925678037"
+			}
+			"maxsize"		"75481279"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4168293"
+				"timeupdated"		"1567658758"
+			}
+			"beta"
+			{
+				"buildid"		"4148200"
+				"description"		"Public Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567058363"
+			}
+			"beta-final"
+			{
+				"buildid"		"4148200"
+				"description"		"Private build of beta code"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567045423"
+			}
+			"beta-qa"
+			{
+				"buildid"		"2988168"
+				"description"		"Private QA build of beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532935755"
+			}
+			"developer"
+			{
+				"buildid"		"4177395"
+				"description"		"Private developer branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567963812"
+			}
+			"marketing"
+			{
+				"buildid"		"2425163"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1515558941"
+			}
+			"master-automation"
+			{
+				"buildid"		"4177497"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567969120"
+			}
+			"master-final"
+			{
+				"buildid"		"3781140"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556626173"
+			}
+			"master-qa"
+			{
+				"buildid"		"3780722"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556617412"
+			}
+			"patch-automation"
+			{
+				"buildid"		"4179698"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568043641"
+			}
+			"patch-final"
+			{
+				"buildid"		"4178315"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568012376"
+			}
+			"patch-qa"
+			{
+				"buildid"		"4168587"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567666326"
+			}
+			"press"
+			{
+				"buildid"		"1535341"
+				"description"		"Press Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1482372688"
+			}
+			"release-automation"
+			{
+				"buildid"		"4179782"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568045523"
+			}
+			"release-final"
+			{
+				"buildid"		"4141849"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566893089"
+			}
+			"release-qa"
+			{
+				"buildid"		"4138942"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566815386"
+			}
+			"teamcity_automation_2.0_steam_f1"
+			{
+				"buildid"		"3449767"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546904114"
+			}
+			"teamcity_retail_2.0_steam_f1"
+			{
+				"buildid"		"3447445"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546834481"
+			}
+			"teamcity_retail_master"
+			{
+				"buildid"		"3389792"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544613001"
+			}
+			"teamcity_sandbox_1.12.3_steam_f1"
+			{
+				"buildid"		"3334438"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542984326"
+			}
+			"teamcity_sandbox_master"
+			{
+				"buildid"		"3391452"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544643819"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"33554432"
+		"maxnumfiles"		"512"
+	}
+}
+ 

@@ -1,0 +1,603 @@
+"appinfo"
+{
+	"appid"		"374040"
+	"common"
+	{
+		"name"		"Portal Knights"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"thai"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"czech"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"clienttga"		"eeca3b1526736edfb643a9cf724a5367dda88938"
+		"clienticon"		"50b1f26eb1b7aa2f17f20f42f9ee76813efa6766"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"374040_eula_0"
+				"name"		"Portal Knights EULA"
+				"url"		"http://store.steampowered.com//eula/374040_eula_0"
+			}
+		}
+		"icon"		"464bad8b53edd14ea24f1bf0315a84740220f470"
+		"logo"		"5a293e572eba24d456fee8cd1d8b2c1b3fb7dd25"
+		"logo_small"		"5a293e572eba24d456fee8cd1d8b2c1b3fb7dd25_thumb"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"metacritic_name"		"Portal Knights"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"swedish"		"capsule_231x87_swedish.jpg"
+			"norwegian"		"capsule_231x87_norwegian.jpg"
+			"finnish"		"capsule_231x87_finnish.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+			"turkish"		"capsule_231x87_turkish.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+			"thai"		"capsule_231x87_thai.jpg"
+			"czech"		"capsule_231x87_czech.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"german"		"header_german.jpg"
+			"french"		"header_french.jpg"
+			"swedish"		"header_swedish.jpg"
+			"norwegian"		"header_norwegian.jpg"
+			"finnish"		"header_finnish.jpg"
+			"koreana"		"header_koreana.jpg"
+			"japanese"		"header_japanese.jpg"
+			"schinese"		"header_schinese.jpg"
+			"russian"		"header_russian.jpg"
+			"spanish"		"header_spanish.jpg"
+			"italian"		"header_italian.jpg"
+			"polish"		"header_polish.jpg"
+			"turkish"		"header_turkish.jpg"
+			"brazilian"		"header_brazilian.jpg"
+			"thai"		"header_thai.jpg"
+			"czech"		"header_czech.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"27"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1544798092"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Keen Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"505 Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1495119720"
+		"metacritic_score"		"72"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/portal-knights?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"374040"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"3810"
+			"2"		"3859"
+			"3"		"1643"
+			"4"		"122"
+			"5"		"1702"
+			"6"		"1662"
+			"7"		"1685"
+			"8"		"19"
+			"9"		"3834"
+			"10"		"4182"
+			"11"		"1684"
+			"12"		"493"
+			"13"		"1732"
+			"14"		"597"
+			"15"		"4726"
+			"16"		"1720"
+			"17"		"1697"
+			"18"		"1756"
+			"19"		"3841"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Keen Games"
+		"publisher"		"505 Games"
+		"homepage"		"http://portalknights.com"
+		"listofdlc"		"607390,617090,617100,617110,617120,617140,618730,837990,851860,851870,918540,1046050,1085410"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Portal Knights"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"portal_knights_x64.exe"
+				"description"		"Launch Portal Knights"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,thai,japanese,polish,finnish,norwegian,swedish,czech,turkish,brazilian"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"374041"
+		{
+			"name"		"Portal Knights Content"
+			"manifests"
+			{
+				"public"		"2525877409081498725"
+			}
+			"maxsize"		"10285411902"
+			"encryptedmanifests"
+			{
+				"current_release_qa"
+				{
+					"encrypted_gid_2"		"6063AC86D0F5954002F232ED176B3410"
+					"encrypted_size_2"		"A93F840C5CC26C937C03B5745DB5C4CB"
+				}
+				"dedicated_server"
+				{
+					"encrypted_gid_2"		"34DF35ECE6131EAB516B3C36D8046D35"
+					"encrypted_size_2"		"5355AE29336F78D3BB12D2875C6B5FA3"
+				}
+				"early_access_release"
+				{
+					"encrypted_gid_2"		"FFBB08903AB54080E0F7C58667481B8D"
+					"encrypted_size_2"		"8F5F8CC6CECB95D770B31F48E78326CD"
+				}
+				"early_access_update_0.1.3"
+				{
+					"encrypted_gid_2"		"39F6A9CEA5623602B2963E4050A1C61A"
+					"encrypted_size_2"		"C72DCDBD25778F178928C2AB3B5225E4"
+				}
+				"early_access_update_0.2.2"
+				{
+					"encrypted_gid_2"		"0DD706DB80FA1C6BA7D85ED1481B573A"
+					"encrypted_size_2"		"FAF0BB64824B84947DE2990511E17238"
+				}
+				"early_access_update_0.3.3"
+				{
+					"encrypted_gid_2"		"9C5B7787617377DDE5292643D7288A58"
+					"encrypted_size_2"		"CB1C0EA3D92A4AD2A547C046E72778B8"
+				}
+				"early_access_update_0.5.2"
+				{
+					"encrypted_gid_2"		"659DD363087972FD02F82DA322163FCE"
+					"encrypted_size_2"		"4A83F1D7C40836F8C9EA72655AE3260B"
+				}
+				"early_access_update_0.6.2"
+				{
+					"encrypted_gid_2"		"4ED74936A24DA97EFA83AD00EC07561E"
+					"encrypted_size_2"		"94D4D90080EEFC1599EE637112220A22"
+				}
+				"early_access_update_0.7.3"
+				{
+					"encrypted_gid_2"		"B028415B97062166083322295A2296DE"
+					"encrypted_size_2"		"65E04A11C1ABE29AD0B4FEB2A6310050"
+				}
+				"early_access_update_0.8.2"
+				{
+					"encrypted_gid_2"		"513CE56B4964F9377CF47AB1A6A7FEEA"
+					"encrypted_size_2"		"14C4B894EE94C2348B1A0B7452E097AE"
+				}
+				"feature_prototype"
+				{
+					"encrypted_gid_2"		"CF2A07265C3D984473AEF84C39CA9D00"
+					"encrypted_size_2"		"C31930398C659EDC210BCE5790BCB402"
+				}
+				"interim"
+				{
+					"encrypted_gid_2"		"49DB962C167D9A1E4B549B157EA1629F"
+					"encrypted_size_2"		"46985F9B500614AB6C5D05667C7C3166"
+				}
+				"key_art_version"
+				{
+					"encrypted_gid_2"		"29EF205C79A8F4B26B4ADA7120C375D4"
+					"encrypted_size_2"		"D4082FC2EFA56828D93EF436E22F5AA7"
+				}
+				"milestone_build"
+				{
+					"encrypted_gid_2"		"78B069A91FE520988E5B85F370EBF886"
+					"encrypted_size_2"		"132A5E34B6EA162DBA8667EA34C91F98"
+				}
+				"press_release"
+				{
+					"encrypted_gid_2"		"394CE591AAF113782E6770C8C80BF73D"
+					"encrypted_size_2"		"E5CAF27221BFA388DEC92ADEACE23429"
+				}
+				"qa_interim"
+				{
+					"encrypted_gid_2"		"9E3EE79B43C36E83A845B3A263D3883E"
+					"encrypted_size_2"		"E7EB1F532AEC4A9F953B77DE891E7513"
+				}
+				"qa_interim_release"
+				{
+					"encrypted_gid_2"		"2FA4A4D5F04323ABE801B9ECE187BEE0"
+					"encrypted_size_2"		"842CFCD8DFF6459A17E99E2A1F3129DB"
+				}
+				"release_update_1.0.2"
+				{
+					"encrypted_gid_2"		"953BC587F96307176E628E6F06416BAF"
+					"encrypted_size_2"		"24E5F5DA8704EBD17CC2B28CDC914E92"
+				}
+				"release_update_1.1.3"
+				{
+					"encrypted_gid_2"		"334A609260C7CC0F109D1EA15C2F072C"
+					"encrypted_size_2"		"C6560A23A17ABE140864A440EE9A5D81"
+				}
+				"release_update_1.2.2"
+				{
+					"encrypted_gid_2"		"5D9080905444CFBAE444313FCB6F837B"
+					"encrypted_size_2"		"B737CD10FA31502EB4F489DA6B22117C"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"AC64AA9A737EE6BCCF3F7153055FD4E7"
+					"encrypted_size_2"		"D58410C3F87D41FFE5A867C497F9D410"
+				}
+			}
+		}
+		"618730"
+		{
+			"name"		"Portal Knights - Early Access Flag and Cape (618730) Depot"
+			"dlcappid"		"618730"
+		}
+		"617100"
+		{
+			"name"		"Portal Knights - Gold Throne Pack (617100) Depot"
+			"dlcappid"		"617100"
+		}
+		"617110"
+		{
+			"name"		"Portal Knights - Bibot Box (617110) Depot"
+			"dlcappid"		"617110"
+		}
+		"617120"
+		{
+			"name"		"Portal Knights - Lobot Box (617120) Depot"
+			"dlcappid"		"617120"
+		}
+		"617140"
+		{
+			"name"		"Portal Knights - Emoji Box (617140) Depot"
+			"dlcappid"		"617140"
+		}
+		"617090"
+		{
+			"name"		"Portal Knights - Portal Pioneer Pack (617090) Depot"
+			"dlcappid"		"617090"
+		}
+		"workshopdepot"		"374040"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4128782"
+				"timeupdated"		"1566479349"
+			}
+			"current_release_qa"
+			{
+				"buildid"		"4128739"
+				"description"		"Current Release QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568027929"
+			}
+			"dedicated_server"
+			{
+				"buildid"		"2786264"
+				"description"		"QA Master Version of 1.3.5 Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526655224"
+			}
+			"early_access_release"
+			{
+				"buildid"		"994394"
+				"description"		"Early Access"
+				"pwdrequired"		"1"
+			}
+			"early_access_update_0.1.3"
+			{
+				"buildid"		"1018232"
+				"description"		"Early Access Update 0.1.3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1458814788"
+			}
+			"early_access_update_0.2.2"
+			{
+				"buildid"		"1050346"
+				"description"		"Early Access Update 0.2.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1461575638"
+			}
+			"early_access_update_0.3.3"
+			{
+				"buildid"		"1118922"
+				"description"		"Early Access Update 0.3.3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1464167961"
+			}
+			"early_access_update_0.5.2"
+			{
+				"buildid"		"1398176"
+				"description"		"Early Access Update 0.5.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476784332"
+			}
+			"early_access_update_0.6.2"
+			{
+				"buildid"		"1396184"
+				"description"		"Early Access Update 0.6.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476876638"
+			}
+			"early_access_update_0.7.3"
+			{
+				"buildid"		"1492206"
+				"description"		"Early Access Update 0.7.3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1486726838"
+			}
+			"early_access_update_0.8.2"
+			{
+				"buildid"		"1734278"
+				"description"		"Early Access Update 0.8.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1492092057"
+			}
+			"feature_prototype"
+			{
+				"buildid"		"2883064"
+				"description"		"Feature Prototype"
+				"pwdrequired"		"1"
+				"timeupdated"		"1529591202"
+			}
+			"interim"
+			{
+				"buildid"		"3828958"
+				"description"		"Interim Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558013785"
+			}
+			"interim_release"
+			{
+				"buildid"		"4128782"
+				"description"		"Interim Release Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566465481"
+			}
+			"key_art_version"
+			{
+				"buildid"		"1720481"
+				"description"		"Key Art Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1490720583"
+			}
+			"milestone_build"
+			{
+				"buildid"		"4154000"
+				"description"		"Build for current MS evaluation"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567181249"
+			}
+			"press_release"
+			{
+				"buildid"		"966604"
+				"description"		"Press Release"
+				"pwdrequired"		"1"
+			}
+			"qa_interim"
+			{
+				"buildid"		"4178683"
+				"description"		"QA Interim Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568021493"
+			}
+			"qa_interim_release"
+			{
+				"buildid"		"4128739"
+				"description"		"QA Interim Release Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566464545"
+			}
+			"release_update_1.0.2"
+			{
+				"buildid"		"1840147"
+				"description"		"Release Update 1.0.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502365577"
+			}
+			"release_update_1.1.3"
+			{
+				"buildid"		"2021186"
+				"description"		"Release Update 1.1.3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502365695"
+			}
+			"release_update_1.2.2"
+			{
+				"buildid"		"2331925"
+				"description"		"Release Update 1.2.2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1513357263"
+			}
+			"test"
+			{
+				"buildid"		"3225329"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568027904"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1610612736"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

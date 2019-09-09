@@ -1,0 +1,455 @@
+"appinfo"
+{
+	"appid"		"520940"
+	"common"
+	{
+		"name"		"MX vs ATV All Out"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"f6ca7db4812850e7b29d0d8d9134640bc32c556e"
+		"logo_small"		"f6ca7db4812850e7b29d0d8d9134640bc32c556e_thumb"
+		"clienticon"		"aeee525e7a9daf9c8ebf61ca3babe452440a650a"
+		"clienttga"		"c854f675ca54f1e5239d67d20222b3319edc8046"
+		"icon"		"ea74d1c1d6df96d584ccbab7b2345d23a2e4699b"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"MX vs ATV All Out"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1561967146"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rainbow Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"THQ Nordic"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"MX vs ATV"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1522169340"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"520940"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"701"
+			"2"		"15868"
+			"3"		"599"
+			"4"		"129761"
+			"5"		"198913"
+			"6"		"7622"
+			"7"		"1695"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Rainbow Studios"
+		"publisher"		"THQ Nordic"
+		"listofdlc"		"829730,829731,829732,829733,829734,829735,829736,829737,842210,842211,842212,842213,842214,842215,856140,856141,856142,856143,856144,856145,856146,856147,856148,856149,856150,876730,876731,876732,876733,876734,876735,881330,907280,939730,984340,1102660"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MX vs. ATV NEXT"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MxNext.exe"
+				"arguments"		"-nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"MxNext.exe"
+				"arguments"		"-windowed -log"
+				"description"		"MX vs ATV NEXT w/ Log"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"nightly"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1345165700"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,agerating,alpha,baseline,dlc-staging,evaluation,focus,gamepreview,influencer-preview,marketing,milestone,nightly,physics,playtest,shipping,testgate"
+			}
+			"1364802967"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,agerating,alpha,baseline,dlc-staging,evaluation,focus,gamepreview,influencer-preview,marketing,milestone,nightly,physics,playtest,shipping,testgate"
+			}
+			"1366236130"
+			{
+				"controller_type"		"controller_generic"
+				"enabled_branches"		"default,agerating,alpha,baseline,dlc-staging,evaluation,focus,gamepreview,influencer-preview,marketing,milestone,nightly,physics,playtest,shipping,testgate"
+			}
+			"1438604045"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,agerating,alpha,baseline,dlc-staging,evaluation,focus,gamepreview,influencer-preview,marketing,milestone,nightly,physics,playtest,shipping,testgate"
+			}
+			"1569903203"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,agerating,alpha,baseline,dlc-staging,evaluation,focus,gamepreview,influencer-preview,marketing,milestone,nightly,physics,playtest,shipping,testgate"
+			}
+		}
+		"steamconfigurator3rdpartynative"		"13"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"520941"
+		{
+			"name"		"MX vs. ATV NEXT Content"
+			"manifests"
+			{
+				"public"		"363449154938191846"
+			}
+			"maxsize"		"17939885384"
+			"encryptedmanifests"
+			{
+				"agerating"
+				{
+					"encrypted_gid_2"		"65F66E60B5AC66F13ADDBEBC8CEBB0EE"
+					"encrypted_size_2"		"84B014936023525AF515FFE9645AEBE6"
+				}
+				"alpha"
+				{
+					"encrypted_gid_2"		"D0A6754CF060FBC79C3309C70A09CD0C"
+					"encrypted_size_2"		"F1FEDFD9CA1709587F862DF501A7A20D"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"65EA2929271C278B9804187CDAB0E8CF"
+					"encrypted_size_2"		"673DB58406E0F2AF2759BE01B83C60A5"
+				}
+				"evaluation"
+				{
+					"encrypted_gid_2"		"606E8BDB71281E2DBF27BC288435F19D"
+					"encrypted_size_2"		"CAD8C79F0E5813645981EF515070AD2B"
+				}
+				"focus"
+				{
+					"encrypted_gid_2"		"B55C75F408C3D55DB544FF219EB9EAE6"
+					"encrypted_size_2"		"A4257EF17568D44520A237162BEF81D5"
+				}
+				"gamepreview"
+				{
+					"encrypted_gid_2"		"6E84B7DD92EF0A2CE8B6EE287B763E59"
+					"encrypted_size_2"		"C93FB2CBC54A04C9F72FD1E2CED4981C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"5FD369783F840F4290E5A875154C0BD0"
+					"encrypted_size_2"		"BF2D3B60DC1D84032ABD15B8D19235B7"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"A8F73A21460D22D51EB98807BFFF902B"
+					"encrypted_size_2"		"6A70D41D232F5C90B6DBDC3E9C080267"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"CC6AB5242B6B648D2FB7EF3DF535F411"
+					"encrypted_size_2"		"3D581CEF794EE0D40CFE8E5D681F9BC5"
+				}
+				"physics"
+				{
+					"encrypted_gid_2"		"305AEB1E793D5B3DD2A81BC4EEDCE8A2"
+					"encrypted_size_2"		"82E12AEFEAF28F53BCEA9C7F8BEB39A5"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"9659875BD948255D133B293681B3E0DE"
+					"encrypted_size_2"		"3C746AE6C84DE24C832045ED3E19A937"
+				}
+				"shipping"
+				{
+					"encrypted_gid_2"		"A1FACCB5321A9EC165B83B009743414B"
+					"encrypted_size_2"		"7B94D16622DC181B0C22267A8B624D34"
+				}
+				"testgate"
+				{
+					"encrypted_gid_2"		"3AF41F330E7B7F840CDFAA36F1C4EF14"
+					"encrypted_size_2"		"AC004879F6DBF02F94F915168955B77F"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4114319"
+				"timeupdated"		"1566255838"
+			}
+			"agerating"
+			{
+				"buildid"		"2378016"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1513732177"
+			}
+			"alpha"
+			{
+				"buildid"		"1951064"
+				"description"		"Alpha Milestone"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506591463"
+			}
+			"baseline"
+			{
+				"buildid"		"2543233"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1519217716"
+			}
+			"dlc-staging"
+			{
+				"buildid"		"4114319"
+				"description"		"DLC Staging"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566249546"
+			}
+			"evaluation"
+			{
+				"buildid"		"2531891"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1518886190"
+			}
+			"focus"
+			{
+				"buildid"		"2295218"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1511030149"
+			}
+			"gamepreview"
+			{
+				"buildid"		"2628184"
+				"description"		"Press Preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1521824433"
+			}
+			"marketing"
+			{
+				"buildid"		"4120028"
+				"description"		"Marketing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566249425"
+			}
+			"milestone"
+			{
+				"buildid"		"2234748"
+				"description"		"Milestone"
+				"pwdrequired"		"1"
+				"timeupdated"		"1509461691"
+			}
+			"nightly"
+			{
+				"buildid"		"4179742"
+				"description"		"Nightly Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568044863"
+			}
+			"physics"
+			{
+				"buildid"		"2166448"
+				"description"		"Physics review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1510611846"
+			}
+			"playtest"
+			{
+				"buildid"		"2913263"
+				"description"		"Internal Playtest"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530574380"
+			}
+			"shipping"
+			{
+				"buildid"		"4120028"
+				"description"		"Shipping Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566245496"
+			}
+			"testgate"
+			{
+				"buildid"		"4093090"
+				"description"		"QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565452434"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MXvsATVAllOut/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

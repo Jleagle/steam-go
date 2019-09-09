@@ -1,0 +1,434 @@
+"appinfo"
+{
+	"appid"		"504230"
+	"common"
+	{
+		"name"		"Celeste"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"075182d9480064141836468579a70add4b2d74a9"
+		"logo_small"		"075182d9480064141836468579a70add4b2d74a9_thumb"
+		"icon"		"04cb7aa0b497a3962e6b1655b7fd81a2cc95d18b"
+		"clienttga"		"347932efff3e9cea33499412f3e59fbf50a0306f"
+		"clienticon"		"fbcf1fbb408b277b7fa0e601a3b87d82b6b2a531"
+		"clienticns"		"8482ca6145431472d234eb3ada5f5d514ba7f772"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"linuxclienticon"		"57e73c9872f0340159aa8ff41a8f84f33f686189"
+		"metacritic_name"		"Celeste"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32"
+				"height_pct"		"51"
+			}
+		}
+		"store_asset_mtime"		"1567740774"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Matt Makes Games Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Matt Makes Games Inc."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1516867200"
+		"steam_release_date"		"1516898280"
+		"metacritic_score"		"88"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"504230"
+		"store_tags"
+		{
+			"0"		"1625"
+			"1"		"3964"
+			"2"		"4026"
+			"3"		"1756"
+			"4"		"492"
+			"5"		"7208"
+			"6"		"3871"
+			"7"		"1742"
+			"8"		"4182"
+			"9"		"21"
+			"10"		"4726"
+			"11"		"5537"
+			"12"		"19"
+			"13"		"4166"
+			"14"		"4004"
+			"15"		"3798"
+			"16"		"3834"
+			"17"		"4136"
+			"18"		"1721"
+			"19"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Matt Makes Games Inc."
+		"publisher"		"Matt Makes Games Inc."
+		"homepage"		"http://www.celestegame.com"
+		"listofdlc"		"1092840"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Celeste"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Celeste.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Celeste.app/Contents/MacOS/Celeste"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./Celeste"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229005"
+		{
+			"name"		".NET 4.6 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"62009092"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"name"		"XNA 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"7061608"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"504231"
+		{
+			"name"		"Celeste Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1696446392462892243"
+				"opengl"		"3053657655253938048"
+				"outdated-1.2.3.0"		"3816491515399043107"
+				"outdated-1.2.3.0-opengl"		"5328162946930759875"
+				"outdated-1.2.5.0"		"183302404329232326"
+				"outdated-1.2.5.0-opengl"		"8717950562654373331"
+			}
+			"maxsize"		"1392357962"
+			"encryptedmanifests"
+			{
+				"localizers"
+				{
+					"encrypted_gid_2"		"4E8138D0D84DD59AB5EE29785A64FA16"
+					"encrypted_size_2"		"2722BAEDCB435B4F1B0A9EB9205443D2"
+				}
+				"localizers2"
+				{
+					"encrypted_gid_2"		"608F0E501DCB0C455CC36B995752ECB6"
+					"encrypted_size_2"		"0323CCD0A271CE347B392543E793D4C0"
+				}
+				"tech-test"
+				{
+					"encrypted_gid_2"		"FE4F3744DF3B36220B9AC1D6FED79B43"
+					"encrypted_size_2"		"00055C1EAA607DDB3B3B46CA1C243D11"
+				}
+			}
+		}
+		"504232"
+		{
+			"name"		"Celeste OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1675771122091361909"
+				"outdated-1.2.3.0"		"4102358484052403716"
+				"outdated-1.2.3.0-opengl"		"4102358484052403716"
+				"outdated-1.2.5.0"		"5704516120124074576"
+				"outdated-1.2.5.0-opengl"		"5704516120124074576"
+			}
+			"maxsize"		"1413246791"
+			"encryptedmanifests"
+			{
+				"localizers"
+				{
+					"encrypted_gid_2"		"9CBE9BA140F79D6D34A4C9AA0E96C694"
+					"encrypted_size_2"		"36548CFDA2FF17780D9AF09111B544B2"
+				}
+				"localizers2"
+				{
+					"encrypted_gid_2"		"4875207E69F73440613E8FA9262A417A"
+					"encrypted_size_2"		"B211F93FFF9A2530806A98E49A7607C1"
+				}
+				"tech-test"
+				{
+					"encrypted_gid_2"		"B0406BE9CE188E6C9EB719BA69F4955C"
+					"encrypted_size_2"		"0FF267F52B770E4103F408CD9BAA66A6"
+				}
+			}
+		}
+		"504233"
+		{
+			"name"		"Celeste Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2137077586052255380"
+				"outdated-1.2.3.0"		"2986276643635489893"
+				"outdated-1.2.3.0-opengl"		"2986276643635489893"
+				"outdated-1.2.5.0"		"2306852612305865799"
+				"outdated-1.2.5.0-opengl"		"2306852612305865799"
+			}
+			"maxsize"		"1422661592"
+			"encryptedmanifests"
+			{
+				"localizers"
+				{
+					"encrypted_gid_2"		"975984DD2277B79727F436CCBF9C895A"
+					"encrypted_size_2"		"C65C7C41F5BCF8835AD580106FF866C2"
+				}
+				"localizers2"
+				{
+					"encrypted_gid_2"		"322FD4C7E58BFFF3E8B8D370614FE368"
+					"encrypted_size_2"		"C599241EDF8A808F9C34CD6804F5BA12"
+				}
+				"tech-test"
+				{
+					"encrypted_gid_2"		"6ABCD9D8932E4E38728BB6E758702D8A"
+					"encrypted_size_2"		"755E4106A8AAE2E32752143624AEC3D7"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4178270"
+				"timeupdated"		"1568011703"
+			}
+			"localizers"
+			{
+				"buildid"		"4038107"
+				"description"		"Debug Build for Localizers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563913732"
+			}
+			"localizers2"
+			{
+				"buildid"		"4071392"
+				"description"		"Debug Build for Localizers (2)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564789612"
+			}
+			"opengl"
+			{
+				"buildid"		"4178290"
+				"description"		""
+				"timeupdated"		"1568011722"
+			}
+			"outdated-1.2.3.0"
+			{
+				"buildid"		"2784233"
+				"description"		""
+				"timeupdated"		"1540598015"
+			}
+			"outdated-1.2.3.0-opengl"
+			{
+				"buildid"		"2784236"
+				"description"		""
+				"timeupdated"		"1540597523"
+			}
+			"outdated-1.2.5.0"
+			{
+				"buildid"		"3363769"
+				"description"		""
+				"timeupdated"		"1543907186"
+			}
+			"outdated-1.2.5.0-opengl"
+			{
+				"buildid"		"3363770"
+				"description"		""
+				"timeupdated"		"1543907169"
+			}
+			"press"
+			{
+				"buildid"		"4178270"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568011184"
+			}
+			"tech-test"
+			{
+				"buildid"		"4038153"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563915359"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.celeste"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		"Celeste"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"Celeste"
+			}
+		}
+	}
+}
+ 

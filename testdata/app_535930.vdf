@@ -1,0 +1,1176 @@
+"appinfo"
+{
+	"appid"		"535930"
+	"common"
+	{
+		"name"		"Two Point Hospital"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"dbb50e8665c7fcf074bcbca91d63f67cda962b18"
+		"logo_small"		"dbb50e8665c7fcf074bcbca91d63f67cda962b18_thumb"
+		"icon"		"7d4e0bb3a682616929406ea2b55cffc17505835c"
+		"clienticon"		"6be749da26a65e730d835046b968f19ed18fa538"
+		"clienttga"		"b56f2091253056b94a7c8d7fb660f2a56d832a41"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"535930_eula_1"
+				"name"		"Two Point Hospital EULA"
+				"url"		"https://store.steampowered.com//eula/535930_eula_1"
+			}
+		}
+		"metacritic_name"		"Two Point Hospital"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48"
+				"height_pct"		"54"
+			}
+		}
+		"store_asset_mtime"		"1566564533"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Two Point Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SEGA"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1535608800"
+		"metacritic_score"		"83"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/two-point-hospital?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"535930"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"12472"
+			"2"		"1643"
+			"3"		"4182"
+			"4"		"4136"
+			"5"		"9"
+			"6"		"1719"
+			"7"		"3810"
+			"8"		"597"
+			"9"		"492"
+			"10"		"4711"
+			"11"		"4328"
+			"12"		"4195"
+			"13"		"1693"
+			"14"		"5851"
+			"15"		"4004"
+			"16"		"3859"
+			"17"		"5350"
+			"18"		"1708"
+			"19"		"1742"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Two Point Studios"
+		"publisher"		"SEGA"
+		"homepage"		"https://www.twopointhospital.com"
+		"listofdlc"		"898770,963240,966690,1003310,1035020,1096580,1144500"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TPH"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TPH.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TPH.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TPH.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"TPH.exe"
+				"arguments"		"-show-screen-selector"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"nightlyDISABLED"
+				}
+			}
+			"5"
+			{
+				"executable"		"TPH.exe"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"hands_on_demo press_build_august"
+				}
+			}
+			"6"
+			{
+				"executable"		"TPH.exe"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"preview_build"
+				}
+			}
+			"7"
+			{
+				"executable"		"TPH.app"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"hands_on_demo press_build press_build_august"
+				}
+			}
+			"8"
+			{
+				"executable"		"TPH.app"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"preview_build"
+				}
+			}
+			"9"
+			{
+				"executable"		"TPH.x86_64"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"hands_on_demo press_build press_build_august"
+				}
+			}
+			"10"
+			{
+				"executable"		"TPH.x86_64"
+				"arguments"		"--hands-on-demo --disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"preview_build"
+				}
+			}
+			"11"
+			{
+				"executable"		"TPH.exe"
+				"arguments"		"--disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"mock_review two_point_preview"
+				}
+			}
+			"12"
+			{
+				"executable"		"TPH.app"
+				"arguments"		"--disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"mock_review two_point_preview"
+				}
+			}
+			"13"
+			{
+				"executable"		"TPH.x86_64"
+				"arguments"		"--disable-debug-features"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"mock_review two_point_preview"
+				}
+			}
+			"14"
+			{
+				"executable"		"TPH.app"
+				"arguments"		"-force-glcore"
+				"description"		"Two Point Hospital (OpenGL;10.11, 10.12)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1415665646"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,alpha_build,amd_build,beta_build,compat_test,david_build,denuvo_build,hymers_build,jo_build,joe_build,lqa_build,nightly,nightly_debug,nightly_testing,nightly_update1,nightly_update1_debug,nightly_update1_testing,nightly_update2,nightly_update2_debug,nightly_update2_testing,nightly_update3,nightly_update3_debug,nightly_update3_testing,nvidia_build,pezza_build,press_build,press_build_august,ratings_build,rc_build,stream_build,tim_build,two_point_preview,twopointhospital_patch_beta,twopointhospital_review,twopointhosptial_patch_beta,update1_branch,weekly_qa,weekly_stable_qa"
+			}
+		}
+	}
+	"depots"
+	{
+		"535931"
+		{
+			"name"		"Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"782650670932673111"
+			}
+			"maxsize"		"6286386128"
+			"encryptedmanifests"
+			{
+				"closed_beta_testing"
+				{
+					"encrypted_gid_2"		"3B5F4701FBE103DD76028C1387E8372D"
+					"encrypted_size_2"		"A23FC874AAD696590D8B0BD79ECA591F"
+				}
+				"feature_5_user_test"
+				{
+					"encrypted_gid_2"		"518EE34585E6FFFB0F8E945CDC410D29"
+					"encrypted_size_2"		"384BE1C1820DB0324779BAC794D24E9A"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"91FAA51C5707B43E67A76FBBDF3FB98A"
+					"encrypted_size_2"		"5CB8EA4FA69013FA20C316AEA9843F1A"
+				}
+				"global_step"
+				{
+					"encrypted_gid_2"		"81D13898BC8DDD6229F1C7982C904D9D"
+					"encrypted_size_2"		"3701B47AAC1BC845C49C7ADB519FE0A7"
+				}
+				"lqa_build"
+				{
+					"encrypted_gid_2"		"9812392615B6A0CD32366AC72DA92942"
+					"encrypted_size_2"		"7EB44A6DC7EB5CFC6B2738408BD3E0DE"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"D72D6448E8BB7E74CF130D9DA6C9F9A2"
+					"encrypted_size_2"		"194AEDA8D1B5F51306DF153237C5BB5D"
+				}
+				"nightly_debug"
+				{
+					"encrypted_gid_2"		"A4A667872E5ABC21A683DAB10D721FEC"
+					"encrypted_size_2"		"BB680614E7F440664E30CBF09DED1909"
+				}
+				"nightly_feature_4"
+				{
+					"encrypted_gid_2"		"7F27CFC13ED1F2AB4F19875D3D6CBBDD"
+					"encrypted_size_2"		"7272BA6685462F21B77D14346B8084C8"
+				}
+				"nightly_feature_4_debug"
+				{
+					"encrypted_gid_2"		"8B1F5EBDD1A6F53C7C1F88B771C89786"
+					"encrypted_size_2"		"34E887A429110BB3F0D0E86258FC47BF"
+				}
+				"nightly_feature_4_testing"
+				{
+					"encrypted_gid_2"		"F14FC5A6E82A482CF5405474A6D972FE"
+					"encrypted_size_2"		"D64FFF0EC4143A088341DF65C6D8EC7F"
+				}
+				"nightly_feature_5_testing"
+				{
+					"encrypted_gid_2"		"5C803482DEA782189E60F9C6FC935364"
+					"encrypted_size_2"		"DE08431F26AE4C7B76A1A7B61976BCA5"
+				}
+				"nightly_feature_6"
+				{
+					"encrypted_gid_2"		"085982C814346F9A2E31B009D2BCA196"
+					"encrypted_size_2"		"6D093222641E71C75925C2196C038A6A"
+				}
+				"nightly_feature_6_debug"
+				{
+					"encrypted_gid_2"		"37075B60721791379367F0F817EC212B"
+					"encrypted_size_2"		"3C4D05021E4C841C08484A4A1FFCECCC"
+				}
+				"nightly_feature_6_testing"
+				{
+					"encrypted_gid_2"		"EE45A1FD4E128A97FD8D227325CA257F"
+					"encrypted_size_2"		"C609D14F6972DC0FB50A2168CB25EDA1"
+				}
+				"nightly_release_1_15"
+				{
+					"encrypted_gid_2"		"A057FAB8C88E4EE82F1363007539F48E"
+					"encrypted_size_2"		"AD17218EE5B8E19BFC82F0B5249062BE"
+				}
+				"nightly_release_1_15_debug"
+				{
+					"encrypted_gid_2"		"EBABB96BD2C19584436CB0DE539D8A30"
+					"encrypted_size_2"		"9A131573A204A4C869BA9CDE1569BF36"
+				}
+				"nightly_release_1_15_testing"
+				{
+					"encrypted_gid_2"		"61777EC11143A55CAD794C1F2AAF2E57"
+					"encrypted_size_2"		"8C77D363843823969F5BA67D0A789949"
+				}
+				"nightly_release_1_16"
+				{
+					"encrypted_gid_2"		"CADD6B642267A7AD1D8148FCC6B0DBBC"
+					"encrypted_size_2"		"9264558071DD1CCEA5D3DEECE3939A06"
+				}
+				"nightly_release_1_16_debug"
+				{
+					"encrypted_gid_2"		"15A798D4E6BC2AA0F7A2382F1F13F8B7"
+					"encrypted_size_2"		"D9AC28FDE00DE8F92523CFD0D683C34A"
+				}
+				"nightly_release_1_16_testing"
+				{
+					"encrypted_gid_2"		"D206AB4F91F6E5C992F310E8EA4079C9"
+					"encrypted_size_2"		"4892A94DB9A4684D9DAE041E5A6A1E1B"
+				}
+				"nightly_release_1_17"
+				{
+					"encrypted_gid_2"		"3597966C14C6F330DB8AF93438B5B000"
+					"encrypted_size_2"		"200456721026A9D9EFBA3320EE8F813B"
+				}
+				"nightly_release_1_17_debug"
+				{
+					"encrypted_gid_2"		"89B85C63C82835B5F846D9FC31BD7B2D"
+					"encrypted_size_2"		"3ACB9545798BFA89FC4C0155AA05F307"
+				}
+				"nightly_release_1_17_testing"
+				{
+					"encrypted_gid_2"		"8A65B7288894B3840C8E6EE26CB585F1"
+					"encrypted_size_2"		"3606BC8778A6495E52CF9D800456F144"
+				}
+				"nightly_testing"
+				{
+					"encrypted_gid_2"		"BEFD4835B22215BE539C0AA297C007C1"
+					"encrypted_size_2"		"647845BB5CB2206B977F0C6907D01EDB"
+				}
+				"qa_backup"
+				{
+					"encrypted_gid_2"		"8DDF7C72E9B3871068E7D99882C47808"
+					"encrypted_size_2"		"CEE7230000B7B043DC365F4BE670080C"
+				}
+				"trailer_farm"
+				{
+					"encrypted_gid_2"		"C8C569429767C829AE14A7AF23823DD8"
+					"encrypted_size_2"		"03C3865A3D6B70F5B9E952AF5AA33266"
+				}
+				"twopointhospital_dlc_beta"
+				{
+					"encrypted_gid_2"		"A9C4E9C5CADD76D2AF1486E4BA7E374F"
+					"encrypted_size_2"		"4052EEC217847508072CE781978402CF"
+				}
+				"twopointhospital_dlc3_beta"
+				{
+					"encrypted_gid_2"		"8EB80E3C0C61D21E55131461403C5BC6"
+					"encrypted_size_2"		"0D7D879B7DF45E45BCD1E75E4644CF77"
+				}
+				"twopointhospital_dlc3_press"
+				{
+					"encrypted_gid_2"		"A8203E64D0AF8BE6D669327ED08470ED"
+					"encrypted_size_2"		"F62163042434922E3FAE412BE05BCE9C"
+				}
+				"twopointhospital_press_build"
+				{
+					"encrypted_gid_2"		"07ABD7051DB8B49FA0B8C46FEA05EF4E"
+					"encrypted_size_2"		"1D7C65E20EB8463FF290C172D412FA5A"
+				}
+				"twopointhospital_private_beta"
+				{
+					"encrypted_gid_2"		"764FB79CFB0687EE6354D2FBE92EACCD"
+					"encrypted_size_2"		"074AF2E71ED36436C54FA7392966969D"
+				}
+				"twopointrich_test"
+				{
+					"encrypted_gid_2"		"35EE50FE3629E31E9EDDD77FF98192E6"
+					"encrypted_size_2"		"C91FD490949B9DA91E9DFA8845F92466"
+				}
+				"twopointsam_test"
+				{
+					"encrypted_gid_2"		"F1AEEAB4DF4709AD263E2DABFFE40159"
+					"encrypted_size_2"		"FED0D3221E423B4F6C8936F35A9717F9"
+				}
+			}
+		}
+		"535932"
+		{
+			"name"		"OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3997317733928279043"
+			}
+			"maxsize"		"6371994802"
+			"encryptedmanifests"
+			{
+				"closed_beta_testing"
+				{
+					"encrypted_gid_2"		"70D5C6FCCEC6F560FF4299D2D08AB0C0"
+					"encrypted_size_2"		"0356E80AEA6C761F99BD7C3B2850E6D4"
+				}
+				"feature_5_user_test"
+				{
+					"encrypted_gid_2"		"18A25845D907251F0D0E7A0130DC002F"
+					"encrypted_size_2"		"238FF21C4348C0DBE8A0B18B3C328AB5"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"5CEB86086A965D3CB12B0B40C933F10A"
+					"encrypted_size_2"		"4D4AE03ED87BFBBC5AF567C77324BF4C"
+				}
+				"global_step"
+				{
+					"encrypted_gid_2"		"11653E22391DACB74255E00F52B6B80D"
+					"encrypted_size_2"		"37712F841CE1E50A584F510C103BE037"
+				}
+				"lqa_build"
+				{
+					"encrypted_gid_2"		"7F76F77FCC523EF45DD560CB16DEEA36"
+					"encrypted_size_2"		"D79281834A71291F8B685C18EC8E2416"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"75DBBCC04797E8A1654C096336501868"
+					"encrypted_size_2"		"31B5DB64A86C8882E8EC1BD874CA06E7"
+				}
+				"nightly_debug"
+				{
+					"encrypted_gid_2"		"C92422509069EF711366AA438270992A"
+					"encrypted_size_2"		"79EC80D1BBA3EDAF37EB6276CBBA7ED4"
+				}
+				"nightly_feature_4"
+				{
+					"encrypted_gid_2"		"A55CC27027A7B22D9B1AAC7427B41DC7"
+					"encrypted_size_2"		"0FF6CD963339193A0752BEFED4F81F52"
+				}
+				"nightly_feature_4_debug"
+				{
+					"encrypted_gid_2"		"5C325E620753CCA122D0BABA03D24C6C"
+					"encrypted_size_2"		"BD8D3F1455C389710731AB84ADF2AC46"
+				}
+				"nightly_feature_4_testing"
+				{
+					"encrypted_gid_2"		"350215836B63DEED39FF3A036F52788B"
+					"encrypted_size_2"		"1C0C5F500E37E082752B9BF47140A64A"
+				}
+				"nightly_feature_5_testing"
+				{
+					"encrypted_gid_2"		"9BCA643E92E844E03105F8CD6F4BAC45"
+					"encrypted_size_2"		"6DA01C03042DF70A5180F9146300E8D7"
+				}
+				"nightly_feature_6"
+				{
+					"encrypted_gid_2"		"C6AF4F1D964CD1CD587795B08745F856"
+					"encrypted_size_2"		"3546981EAE4FCECBCDF802FF510544A3"
+				}
+				"nightly_feature_6_debug"
+				{
+					"encrypted_gid_2"		"36B374AA3501A37849F419E9DF24A256"
+					"encrypted_size_2"		"89781237C32E7364E6EEE3E34A8A5945"
+				}
+				"nightly_feature_6_testing"
+				{
+					"encrypted_gid_2"		"7B3F27F5C21AC6AB1D7362085FE595E9"
+					"encrypted_size_2"		"185C3C81F25FE50CAC174AA5B22A2EA5"
+				}
+				"nightly_release_1_15"
+				{
+					"encrypted_gid_2"		"D94AF1ADF31694C3F3D507EB286F4EA1"
+					"encrypted_size_2"		"4F77CC75975F708F1E8EDB8964C9CD63"
+				}
+				"nightly_release_1_15_debug"
+				{
+					"encrypted_gid_2"		"979BC3D5F4E783CA1B2E7910115AEC5C"
+					"encrypted_size_2"		"FA39396D669AEC9003577FA8F3E4B1B3"
+				}
+				"nightly_release_1_15_testing"
+				{
+					"encrypted_gid_2"		"0E26ED0A2103DC1795B774ED566EC3B1"
+					"encrypted_size_2"		"4ECF42D3F6A13A09BCF6B3ED9176B93F"
+				}
+				"nightly_release_1_16"
+				{
+					"encrypted_gid_2"		"B49F05C95D05A2E796607622C8E9D9CC"
+					"encrypted_size_2"		"D65476327A6779F7462BA89DF51AC8C2"
+				}
+				"nightly_release_1_16_debug"
+				{
+					"encrypted_gid_2"		"24427F0EFC387CD7497B39D41C16320D"
+					"encrypted_size_2"		"85E8A4091EB8C1D89DB08DF22BC7044F"
+				}
+				"nightly_release_1_16_testing"
+				{
+					"encrypted_gid_2"		"F51B2515A1204EB849DC5DBF8E077017"
+					"encrypted_size_2"		"1B82A06568720738EC8F891866BBE9D7"
+				}
+				"nightly_release_1_17"
+				{
+					"encrypted_gid_2"		"7330E15870FFE8B0EBD1D580111F2328"
+					"encrypted_size_2"		"166154D6501C68015F569431B5E15034"
+				}
+				"nightly_release_1_17_debug"
+				{
+					"encrypted_gid_2"		"C38914997A66997977ACD45C21857AC4"
+					"encrypted_size_2"		"F0715EFACA4C7BC13509C7DE88F2EF33"
+				}
+				"nightly_release_1_17_testing"
+				{
+					"encrypted_gid_2"		"5234ED989DDFE9131F207DB28A28729B"
+					"encrypted_size_2"		"69B8BC70218EEAF3D5429F18AE6B50CB"
+				}
+				"nightly_testing"
+				{
+					"encrypted_gid_2"		"692172132DAF0CD11BFA1BD38B086403"
+					"encrypted_size_2"		"AA0B71DB3FC9D7B0F823262F0D21C5DC"
+				}
+				"qa_backup"
+				{
+					"encrypted_gid_2"		"E6BA2DD9B28781F1EB709BB2EEBBCF5F"
+					"encrypted_size_2"		"D2F30D5286B9E155799DE53D09D50756"
+				}
+				"trailer_farm"
+				{
+					"encrypted_gid_2"		"63779143688DD0AA629B1908AF37B223"
+					"encrypted_size_2"		"3EE0B133F00761A8CB72CDBAA4C5F4AF"
+				}
+				"twopointhospital_dlc_beta"
+				{
+					"encrypted_gid_2"		"BC14CCBE52D733C005A1208A6A6663C0"
+					"encrypted_size_2"		"6ADECAB85F3A05E4268AE0754147D933"
+				}
+				"twopointhospital_dlc3_beta"
+				{
+					"encrypted_gid_2"		"BD1167E055A82D12794ECD254241F1AB"
+					"encrypted_size_2"		"C6F71FCAE886F7373AFDFC1B76B0DE2E"
+				}
+				"twopointhospital_dlc3_press"
+				{
+					"encrypted_gid_2"		"875526653465135222DA722A819FA9F4"
+					"encrypted_size_2"		"62E28A571BCC0FE4D72CA13F85CC256B"
+				}
+				"twopointhospital_press_build"
+				{
+					"encrypted_gid_2"		"1F38B330D12C36662058DBA211E2EF91"
+					"encrypted_size_2"		"E9EDAFB13F4C92D81E686565765308D3"
+				}
+				"twopointhospital_private_beta"
+				{
+					"encrypted_gid_2"		"EDEB9C04BE5A94F68199C6355387E75E"
+					"encrypted_size_2"		"308CFBFFF891CF6A3F03A5A0E8B555D7"
+				}
+				"twopointrich_test"
+				{
+					"encrypted_gid_2"		"63B7DB5298ED4B0669FD8400AC736DC2"
+					"encrypted_size_2"		"E10E337CC6056AC1B13C8BA2191D67B6"
+				}
+				"twopointsam_test"
+				{
+					"encrypted_gid_2"		"EB4DB2447F509C57F447319F06BA3597"
+					"encrypted_size_2"		"E7D984543607E16B61F1ECA0E72700FC"
+				}
+			}
+		}
+		"535933"
+		{
+			"name"		"Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8390177929962028170"
+			}
+			"maxsize"		"6258000312"
+			"encryptedmanifests"
+			{
+				"closed_beta_testing"
+				{
+					"encrypted_gid_2"		"7335D8CB25FF8332F9E06B15BB7192D2"
+					"encrypted_size_2"		"200A14BBB563E89466C49EAC97AF8172"
+				}
+				"feature_5_user_test"
+				{
+					"encrypted_gid_2"		"FC6C65A673739E0110A2A16D968E49B7"
+					"encrypted_size_2"		"238FF21C4348C0DBE8A0B18B3C328AB5"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"B75933269A70DFD40A3165B240055751"
+					"encrypted_size_2"		"38581A6676E8BBD911D57E93AE4DB697"
+				}
+				"global_step"
+				{
+					"encrypted_gid_2"		"DD63D20195EEBB14BC5F21893670FA83"
+					"encrypted_size_2"		"F7FDEF59BDF2B919191114CFAF605B35"
+				}
+				"lqa_build"
+				{
+					"encrypted_gid_2"		"1C8DD8A5DDAAF757D70B3A5555B37156"
+					"encrypted_size_2"		"D79281834A71291F8B685C18EC8E2416"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"844224EB1458B470241583C7605F486C"
+					"encrypted_size_2"		"A8C489D1F93B84CFC1D333425F5FDA64"
+				}
+				"nightly_debug"
+				{
+					"encrypted_gid_2"		"9FD32E0FD5A760C6D0361129E7BCB6E8"
+					"encrypted_size_2"		"E8051283866DA06506CC3D0B7C99A258"
+				}
+				"nightly_feature_4"
+				{
+					"encrypted_gid_2"		"F1A0517975B78DFE47283E0AF3D25ACF"
+					"encrypted_size_2"		"A03D6EBE5EE37C3ABB269DF7DECB8E24"
+				}
+				"nightly_feature_4_debug"
+				{
+					"encrypted_gid_2"		"2F20D86240E8E37EFC91AA5C45EF3131"
+					"encrypted_size_2"		"73AE98D22AD7C3D2FDD8856EBC2B3E16"
+				}
+				"nightly_feature_4_testing"
+				{
+					"encrypted_gid_2"		"35D508AA4D0C0707F6BE468B3814822D"
+					"encrypted_size_2"		"8D1C828C3A469D04F77C2683FBA6A0C3"
+				}
+				"nightly_feature_5_testing"
+				{
+					"encrypted_gid_2"		"6DB51855A7A90503D91B0294629A1676"
+					"encrypted_size_2"		"6DA01C03042DF70A5180F9146300E8D7"
+				}
+				"nightly_feature_6"
+				{
+					"encrypted_gid_2"		"30F7D5EB88748381F425123A627B8BB8"
+					"encrypted_size_2"		"BC267C658D695976D989CBD9B89A7414"
+				}
+				"nightly_feature_6_debug"
+				{
+					"encrypted_gid_2"		"928761F9393B05F67D483D62CF35A7B1"
+					"encrypted_size_2"		"619710C92A975ACFEC00E25C0C1F4313"
+				}
+				"nightly_feature_6_testing"
+				{
+					"encrypted_gid_2"		"052671076B45EEC75BEF712C44747007"
+					"encrypted_size_2"		"F4F2AF8249DFD71C8AA9345433D898F6"
+				}
+				"nightly_release_1_15"
+				{
+					"encrypted_gid_2"		"9B880D77E713211DBD6AE4C01838AB79"
+					"encrypted_size_2"		"126927DA9AD1041423A69DF2DE1DFAA0"
+				}
+				"nightly_release_1_15_debug"
+				{
+					"encrypted_gid_2"		"D509AA6E7019765C2238DF333DA6F157"
+					"encrypted_size_2"		"34A54354FC409BED12DCCE3AF7721041"
+				}
+				"nightly_release_1_15_testing"
+				{
+					"encrypted_gid_2"		"85B43202E2AB2B835A54EC0FF975CEF8"
+					"encrypted_size_2"		"E5D8FC6FF34996652B609973D16CAC34"
+				}
+				"nightly_release_1_16"
+				{
+					"encrypted_gid_2"		"71632728E7E1DEADA0C7E530D9DCFDA4"
+					"encrypted_size_2"		"841F9ED162D5EF4C1027735816C61824"
+				}
+				"nightly_release_1_16_debug"
+				{
+					"encrypted_gid_2"		"82ADA8E9A050B961A96F5691C3E781DC"
+					"encrypted_size_2"		"C437875D854075C31E8A6D1FB07629D4"
+				}
+				"nightly_release_1_16_testing"
+				{
+					"encrypted_gid_2"		"04AB936BC04D5C33EB9B8E65FA2C4E14"
+					"encrypted_size_2"		"877C914FBFEFB1C6D5D35DC4DF3A14AD"
+				}
+				"nightly_release_1_17"
+				{
+					"encrypted_gid_2"		"D63AAA0A3C67249379FA96F00770AB98"
+					"encrypted_size_2"		"B49676716C4594A27394A4464DC5697D"
+				}
+				"nightly_release_1_17_debug"
+				{
+					"encrypted_gid_2"		"655F1D6CA487E692ECA04640BD426B25"
+					"encrypted_size_2"		"5B540FE9098A89CA284D965D9FB3D87E"
+				}
+				"nightly_release_1_17_testing"
+				{
+					"encrypted_gid_2"		"7669F13E27671F5790E0E32C0C2E23B8"
+					"encrypted_size_2"		"35150DB672A60CCEF12C9589AA855B65"
+				}
+				"nightly_testing"
+				{
+					"encrypted_gid_2"		"C039783EB96B071F78EC72C160A559BF"
+					"encrypted_size_2"		"1CE70D923E70A5059E4DEBB82593022C"
+				}
+				"qa_backup"
+				{
+					"encrypted_gid_2"		"C4C626282E3158261BC69EA7EBEFD207"
+					"encrypted_size_2"		"89E597042D7083E36E57402026F23006"
+				}
+				"trailer_farm"
+				{
+					"encrypted_gid_2"		"410A57B159563C34AB8842411323C4BE"
+					"encrypted_size_2"		"46CD14B10661ABA007BF723A73199BFA"
+				}
+				"twopointhospital_dlc_beta"
+				{
+					"encrypted_gid_2"		"4A6EED225C343B06887A1A7B2CE01C79"
+					"encrypted_size_2"		"1059E7EB5DFE87DCC57A8906555D712C"
+				}
+				"twopointhospital_dlc3_beta"
+				{
+					"encrypted_gid_2"		"FE3B44B63963565B2676C8E3C7793EFC"
+					"encrypted_size_2"		"176D6585786FF9167A1439FCDE0A8EA1"
+				}
+				"twopointhospital_dlc3_press"
+				{
+					"encrypted_gid_2"		"DA044A459A0D1A58345CC3F4A6832BA7"
+					"encrypted_size_2"		"44DEE409548BCD34C483BEB88D4F07D5"
+				}
+				"twopointhospital_press_build"
+				{
+					"encrypted_gid_2"		"C4AE5BD0757F3D0C78460584B8AC9446"
+					"encrypted_size_2"		"6ABD7DF86DC97E05E24EC00921BB01CB"
+				}
+				"twopointhospital_private_beta"
+				{
+					"encrypted_gid_2"		"FB717DDD77084E514B16E90A640BA4A8"
+					"encrypted_size_2"		"85FFA088734A721C446CD772FAF1AEFA"
+				}
+				"twopointrich_test"
+				{
+					"encrypted_gid_2"		"62E5A045D9230CC1432CAEA89A709362"
+					"encrypted_size_2"		"E10E337CC6056AC1B13C8BA2191D67B6"
+				}
+				"twopointsam_test"
+				{
+					"encrypted_gid_2"		"A552063F1D3F9CABA4C3504BFD1453D5"
+					"encrypted_size_2"		"3F2BC0E38D54B1D1902574B5A843B311"
+				}
+			}
+		}
+		"workshopdepot"		"535930"
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,polish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4169558"
+				"timeupdated"		"1567765483"
+			}
+			"closed_beta_testing"
+			{
+				"buildid"		"3649642"
+				"description"		"Branch for closed beta testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552921311"
+			}
+			"feature_5_user_test"
+			{
+				"buildid"		"3791476"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556892470"
+			}
+			"gamescom"
+			{
+				"buildid"		"4124272"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566464432"
+			}
+			"global_step"
+			{
+				"buildid"		"4071521"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564997712"
+			}
+			"lqa_build"
+			{
+				"buildid"		"3939931"
+				"description"		"Build for LQA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561382531"
+			}
+			"nightly"
+			{
+				"buildid"		"4175061"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567820333"
+			}
+			"nightly_debug"
+			{
+				"buildid"		"4175068"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567820463"
+			}
+			"nightly_feature_4"
+			{
+				"buildid"		"4064199"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564628054"
+			}
+			"nightly_feature_4_debug"
+			{
+				"buildid"		"4064197"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564628052"
+			}
+			"nightly_feature_4_testing"
+			{
+				"buildid"		"4064198"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564628052"
+			}
+			"nightly_feature_5_testing"
+			{
+				"buildid"		"4174906"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567815176"
+			}
+			"nightly_feature_6"
+			{
+				"buildid"		"3994056"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562641948"
+			}
+			"nightly_feature_6_debug"
+			{
+				"buildid"		"3994058"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562642082"
+			}
+			"nightly_feature_6_testing"
+			{
+				"buildid"		"3994221"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562647868"
+			}
+			"nightly_release_1_15"
+			{
+				"buildid"		"3952683"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561468735"
+			}
+			"nightly_release_1_15_debug"
+			{
+				"buildid"		"3952654"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561468249"
+			}
+			"nightly_release_1_15_testing"
+			{
+				"buildid"		"3952735"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561469448"
+			}
+			"nightly_release_1_16"
+			{
+				"buildid"		"4067603"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564706264"
+			}
+			"nightly_release_1_16_debug"
+			{
+				"buildid"		"4067585"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564705823"
+			}
+			"nightly_release_1_16_testing"
+			{
+				"buildid"		"4067663"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564707654"
+			}
+			"nightly_release_1_17"
+			{
+				"buildid"		"4174995"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567817828"
+			}
+			"nightly_release_1_17_debug"
+			{
+				"buildid"		"4174962"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567816367"
+			}
+			"nightly_release_1_17_testing"
+			{
+				"buildid"		"4175067"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567820434"
+			}
+			"nightly_testing"
+			{
+				"buildid"		"4175062"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567820385"
+			}
+			"qa_backup"
+			{
+				"buildid"		"4064117"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564665242"
+			}
+			"trailer_farm"
+			{
+				"buildid"		"4043861"
+				"description"		"Build for Trailer Farm"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564067021"
+			}
+			"twopointhospital_dlc_beta"
+			{
+				"buildid"		"3661460"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553096694"
+			}
+			"twopointhospital_dlc3_beta"
+			{
+				"buildid"		"4147918"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567090830"
+			}
+			"twopointhospital_dlc3_press"
+			{
+				"buildid"		"4112068"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565969333"
+			}
+			"twopointhospital_patch_beta"
+			{
+				"buildid"		"4169558"
+				"description"		""
+				"timeupdated"		"1567700893"
+			}
+			"twopointhospital_press_build"
+			{
+				"buildid"		"3661460"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553096728"
+			}
+			"twopointhospital_private_beta"
+			{
+				"buildid"		"3876177"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559308809"
+			}
+			"twopointrich_test"
+			{
+				"buildid"		"3780116"
+				"description"		"Rich's Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561969921"
+			}
+			"twopointsam_test"
+			{
+				"buildid"		"3928173"
+				"description"		"Sam's Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568048281"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"{Steam3AccountID}"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"com.twopointstudios.twopointhospital/Cloud"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/Two Point Studios/Two Point Hospital/Cloud"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"Two Point Studios/Two Point Hospital/Cloud"
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,557 @@
+"appinfo"
+{
+	"appid"		"1091980"
+	"common"
+	{
+		"name"		"The Bard's Tale IV: Director's Cut"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienticon"		"9b445c3b4ef831a94d72e3acc37d0ea91f9d429b"
+		"clienttga"		"48b22c1d0018bcc7f438f11623da98daa2ead73e"
+		"icon"		"f8b5e1f5ea4b6f13354d25c1b3b32bf048fde136"
+		"logo"		"13afd84e08def86fc6b704e44ca3cafa5b6e59e9"
+		"logo_small"		"13afd84e08def86fc6b704e44ca3cafa5b6e59e9_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"The Bard's Tale IV: Director's Cut"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"61.08746928609531"
+				"height_pct"		"97.62858698953033"
+			}
+		}
+		"store_asset_mtime"		"1567795564"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"inXile Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"inXile Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"The Bard's Tale"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1566921702"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1091980"
+		"store_tags"
+		{
+			"0"		"122"
+		}
+	}
+	"extended"
+	{
+		"developer"		"inXile Entertainment"
+		"publisher"		"inXile Entertainment"
+		"homepage"		"http://www.BardsTale.com/"
+		"listofdlc"		"1107880,1107881"
+	}
+	"config"
+	{
+		"installdir"		"The Bard's Tale IV Director's Cut"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BardsTale4.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BardsTale4.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"BardsTale4.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1091981"
+		{
+			"name"		"The Bard's Tale IV: Director's Cut - Win"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6031414069184018009"
+			}
+			"maxsize"		"28342835097"
+			"encryptedmanifests"
+			{
+				"daniels_super_cool_branch"
+				{
+					"encrypted_gid_2"		"958B13DCB5D973199594FDA9EC8BD381"
+					"encrypted_size_2"		"F3594510CB3DD34A40AA71F9FC2E96A8"
+				}
+				"jenkins_build_branch"
+				{
+					"encrypted_gid_2"		"D245D0568CF455B3756F95F52B4473FC"
+					"encrypted_size_2"		"5F555537969071948EF9BCBB5CC898BF"
+				}
+				"mike_test_branch"
+				{
+					"encrypted_gid_2"		"BD972F0597A126B730FB6225931B4E03"
+					"encrypted_size_2"		"40B94E96B341184452FEB5BAEB7B0300"
+				}
+				"press_staging"
+				{
+					"encrypted_gid_2"		"BD9B14DA5F5CC643C53A606E0C127D43"
+					"encrypted_size_2"		"179474ACF57F6787019DB0222F8500C2"
+				}
+				"qa_linux"
+				{
+					"encrypted_gid_2"		"CDD2F76EDD0384018BF1993297095CF7"
+					"encrypted_size_2"		"D0B2391DB7E3FD3D2A8FA0EFCC06BDFD"
+				}
+				"qa_linux_drm"
+				{
+					"encrypted_gid_2"		"3B872C2F13E5EFBC1F0FFD65826FAF84"
+					"encrypted_size_2"		"33C8A4E199223B817853557F64A4D3A6"
+				}
+				"qa_linux_shipping"
+				{
+					"encrypted_gid_2"		"4C3D38868D6BF62B3131DEA852EB675A"
+					"encrypted_size_2"		"BB65350291E1FE7EB9EB74C5953C09B3"
+				}
+				"qa_localization"
+				{
+					"encrypted_gid_2"		"EC5819AC20CDAD972F02BA184ADEBE6B"
+					"encrypted_size_2"		"5CCC5D9B0F8CE01890F1F47BA8F675DF"
+				}
+				"qa_mac"
+				{
+					"encrypted_gid_2"		"101F9F7A019669531E35D3175C610AED"
+					"encrypted_size_2"		"4874D1BE35843EBD1A54552D7A5BEDC2"
+				}
+				"qa_mac_shipping"
+				{
+					"encrypted_gid_2"		"A47E4973C94D469C19547198982250EE"
+					"encrypted_size_2"		"FD8F3280C9DFEF5252BF119041FDA0EB"
+				}
+				"qa_shipping"
+				{
+					"encrypted_gid_2"		"F213F9346E19DBE955587670B0EFF9D7"
+					"encrypted_size_2"		"3B20A2D62A2C7DC60A734E758FF07AFD"
+				}
+				"qa_testing"
+				{
+					"encrypted_gid_2"		"16DF7A3F1CE2CEF5D112799C803AD734"
+					"encrypted_size_2"		"77BEBEBBCA72AA61F7B22C707FFDB2ED"
+				}
+			}
+		}
+		"1091982"
+		{
+			"name"		"The Bard's Tale IV: Director's Cut - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6246416773451579044"
+			}
+			"maxsize"		"56678100077"
+			"encryptedmanifests"
+			{
+				"pd_linux_staging"
+				{
+					"encrypted_gid_2"		"5BAD1227AEE6808E31E4157E3B924D4A"
+					"encrypted_size_2"		"968478C764AAED9C07BE0CED31BD532F"
+				}
+				"pd_mac_staging"
+				{
+					"encrypted_gid_2"		"176C70E923E035EBC415CF61AD751D6B"
+					"encrypted_size_2"		"3996E4B5850F79265183B052D7BB230D"
+				}
+				"qa_mac"
+				{
+					"encrypted_gid_2"		"92B497B0428E724FA530E78311774944"
+					"encrypted_size_2"		"76F8D1DB25ED96F60EA1D14EA1EB13BD"
+				}
+				"qa_mac_shipping"
+				{
+					"encrypted_gid_2"		"D71E1CC1087603E06F714196C0CB5EAA"
+					"encrypted_size_2"		"CCD1479FD5A143F63543CD760F88F4A0"
+				}
+				"qa_shipping"
+				{
+					"encrypted_gid_2"		"8A776627C0F41CB5DA3DB006116372F3"
+					"encrypted_size_2"		"79A5DBA6A6C68FCE23D672FDC1CE1BA1"
+				}
+			}
+		}
+		"1091983"
+		{
+			"name"		"The Bard's Tale IV: Director's Cut - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5095745826497712407"
+			}
+			"maxsize"		"43491975086"
+			"encryptedmanifests"
+			{
+				"pd_mac_staging"
+				{
+					"encrypted_gid_2"		"9ACE6CAE51301CCF73CDB2912D064103"
+					"encrypted_size_2"		"F5C7B0C1B9404FD214A36DADB57DBF92"
+				}
+				"qa_linux"
+				{
+					"encrypted_gid_2"		"9B276A2F9944559E3AB193E0238F6C3D"
+					"encrypted_size_2"		"6E7BB926E65D65BBBF7F0BFE0D174761"
+				}
+				"qa_linux_drm"
+				{
+					"encrypted_gid_2"		"36A3CBCEDCBBCA111DDECCE92ADBEFDF"
+					"encrypted_size_2"		"3769A0160AFDBBCFA31806F0BD89E33E"
+				}
+				"qa_linux_shipping"
+				{
+					"encrypted_gid_2"		"B80DF7C313044EC6627779ADA176D09F"
+					"encrypted_size_2"		"035EF8688FA133BD542F606BE029169E"
+				}
+				"qa_mac"
+				{
+					"encrypted_gid_2"		"37BD0E19A6B89A89857B514AB6A84D57"
+					"encrypted_size_2"		"37AE60D76BFD8C3B2746DB49BC3B33DC"
+				}
+			}
+		}
+		"1091984"
+		{
+			"name"		"The Bard's Tale IV: Director's Cut Standard Edition"
+			"dlcappid"		"1107880"
+			"manifests"
+			{
+				"public"		"1858018626392152835"
+			}
+			"maxsize"		"137191013"
+			"encryptedmanifests"
+			{
+				"daniels_super_cool_branch"
+				{
+					"encrypted_gid_2"		"8C4021A3202DD3F285A627FB67F23706"
+					"encrypted_size_2"		"AACC1F0969D568D00E7B4A6447031AE8"
+				}
+				"qa_testing"
+				{
+					"encrypted_gid_2"		"FAB39353ADECCDC051833C5E349DAACA"
+					"encrypted_size_2"		"E919D0D41947E73E6BF0B29C4B0CC8AF"
+				}
+			}
+		}
+		"1091985"
+		{
+			"name"		"The Bard's Tale IV: Director's Cut Deluxe Edition"
+			"dlcappid"		"1107881"
+			"manifests"
+			{
+				"public"		"5215725026726629996"
+			}
+			"maxsize"		"869477355"
+			"encryptedmanifests"
+			{
+				"daniels_super_cool_branch"
+				{
+					"encrypted_gid_2"		"2606FF85A8DBA8B0B161B134F76532F9"
+					"encrypted_size_2"		"0514CE237AF70FA92BAF034508CB4FAA"
+				}
+				"pd_linux_staging"
+				{
+					"encrypted_gid_2"		"8216CBFBAAD0593312FC67B24430AC32"
+					"encrypted_size_2"		"ACE3B027869A3E929D2E500825E63D4C"
+				}
+				"pd_mac_staging"
+				{
+					"encrypted_gid_2"		"58B40A72B0D4443ECB5EA8EEED791772"
+					"encrypted_size_2"		"58DF716466678EA70242C42275E0FE7F"
+				}
+				"qa_testing"
+				{
+					"encrypted_gid_2"		"94B23141B3532A65057E1C394C3B3E58"
+					"encrypted_size_2"		"1BD820D1B279EE5584F06DF537FE6522"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4155243"
+				"timeupdated"		"1567212269"
+			}
+			"daniels_super_cool_branch"
+			{
+				"buildid"		"4173434"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567781349"
+			}
+			"deluxe_goods_branch"
+			{
+				"buildid"		"4154417"
+				"description"		"Delxue Edition Goods"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567189817"
+			}
+			"jenkins_build_branch"
+			{
+				"buildid"		"4178687"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568021524"
+			}
+			"mike_test_branch"
+			{
+				"buildid"		"4116440"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566142966"
+			}
+			"pd_linux_staging"
+			{
+				"buildid"		"4134571"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566597581"
+			}
+			"pd_mac_staging"
+			{
+				"buildid"		"4134569"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566597559"
+			}
+			"press"
+			{
+				"buildid"		"4122538"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566324565"
+			}
+			"press_staging"
+			{
+				"buildid"		"4175117"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567828600"
+			}
+			"qa_linux"
+			{
+				"buildid"		"4171550"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567734869"
+			}
+			"qa_linux_drm"
+			{
+				"buildid"		"4129343"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566478386"
+			}
+			"qa_linux_shipping"
+			{
+				"buildid"		"4174963"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567816386"
+			}
+			"qa_localization"
+			{
+				"buildid"		"4081480"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565144805"
+			}
+			"qa_mac"
+			{
+				"buildid"		"4158209"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567378587"
+			}
+			"qa_mac_shipping"
+			{
+				"buildid"		"4176472"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567904254"
+			}
+			"qa_shipping"
+			{
+				"buildid"		"4175345"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567834050"
+			}
+			"qa_testing"
+			{
+				"buildid"		"4175322"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567832819"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"900000000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"BardsTale4DC/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Epic/BardsTale4DC/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Epic/BardsTale4DC/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

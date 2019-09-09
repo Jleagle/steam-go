@@ -1,0 +1,653 @@
+"appinfo"
+{
+	"appid"		"392160"
+	"common"
+	{
+		"name"		"X4: Foundations"
+		"type"		"Game"
+		"logo"		"fa88749b0d10d9ab0485bbee82f997ee90d5b7a7"
+		"logo_small"		"fa88749b0d10d9ab0485bbee82f997ee90d5b7a7_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienticon"		"f4a8620b493e033e06f5c89dc136626c356a1f72"
+		"clienttga"		"b5000e3c85f48b60f83e7713ebf715f90fb90059"
+		"icon"		"89022109a84c57ed7e329933e42c1153e06c1096"
+		"releasestate"		"released"
+		"sortas"		"X8"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"X4 Foundations"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"54.93232205367562"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567676594"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Egosoft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Egosoft"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"X"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1543587106"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"392160"
+		"store_tags"
+		{
+			"0"		"1755"
+			"1"		"3810"
+			"2"		"599"
+			"3"		"3942"
+			"4"		"1695"
+			"5"		"4695"
+			"6"		"16598"
+			"7"		"19"
+			"8"		"3834"
+			"9"		"4182"
+			"10"		"1670"
+			"11"		"15045"
+			"12"		"4166"
+			"13"		"4202"
+			"14"		"1643"
+			"15"		"1662"
+			"16"		"4295"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Egosoft"
+		"publisher"		"Egosoft"
+		"homepage"		"https://www.x4foundations.com"
+		"listofdlc"		"942190,986330,1133000"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"X4 Foundations"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"X4.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"testandlaunch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"392161"
+		{
+			"name"		"X4: Foundations Main Data 1"
+			"manifests"
+			{
+				"public"		"3599048962740069162"
+			}
+			"maxsize"		"11350856836"
+			"encryptedmanifests"
+			{
+				"private_beta2"
+				{
+					"encrypted_gid_2"		"F3E5015C6801CF46BCC46A2DEF6C42F2"
+					"encrypted_size_2"		"400835B40B5E9F3CEA02EC6063E4E116"
+				}
+				"private_beta3"
+				{
+					"encrypted_gid_2"		"284C522E8EAEA2EE8111BCE61EDBFCB4"
+					"encrypted_size_2"		"D019CE5F82E20A126F098C3D4DF6A83C"
+				}
+				"private_beta4"
+				{
+					"encrypted_gid_2"		"43A1468652A9EFA126951B23D0E8469A"
+					"encrypted_size_2"		"69A2179DCA2FE586456F883940110C0D"
+				}
+			}
+		}
+		"392162"
+		{
+			"name"		"X4: Foundations Main Data 2"
+			"manifests"
+			{
+				"public"		"3076732753239594164"
+			}
+			"maxsize"		"1482819766"
+			"encryptedmanifests"
+			{
+				"private_beta2"
+				{
+					"encrypted_gid_2"		"5B23F060E1B26E92109235FFA8C94083"
+					"encrypted_size_2"		"621973F3C5821099BD5B31E125F6C6D9"
+				}
+				"private_beta3"
+				{
+					"encrypted_gid_2"		"D1793946A688927CC6C29DE6933D38F4"
+					"encrypted_size_2"		"667F9C3875FA69251CDB34E4BFAFFA21"
+				}
+				"private_beta4"
+				{
+					"encrypted_gid_2"		"47CEA32190DB7686ED68A7215756184B"
+					"encrypted_size_2"		"AAF1B201631DD86E0F649D7647D0966D"
+				}
+			}
+		}
+		"392163"
+		{
+			"name"		"X4: Foundations Main Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7552688819479457587"
+			}
+			"maxsize"		"50101984"
+			"encryptedmanifests"
+			{
+				"private_beta2"
+				{
+					"encrypted_gid_2"		"14E2A8858E46F297136EE98244274085"
+					"encrypted_size_2"		"87C56368B301CE506537F0C5DEAAE8C1"
+				}
+				"private_beta3"
+				{
+					"encrypted_gid_2"		"05D4701D77A42BA3C73CE81C2CB0F5AB"
+					"encrypted_size_2"		"AECF389F68923745B479BB1296BC82CC"
+				}
+				"private_beta4"
+				{
+					"encrypted_gid_2"		"535A90D0760B29790856CD0DCEB3EEE5"
+					"encrypted_size_2"		"E70222D4F48BE851DE8F8E42CACC7958"
+				}
+			}
+		}
+		"392164"
+		{
+			"name"		"X4: Foundations Main Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7426053900063621776"
+			}
+			"maxsize"		"56572858"
+		}
+		"392165"
+		{
+			"name"		"X4: Foundations Main Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2247870969124201167"
+			}
+			"maxsize"		"50369076"
+		}
+		"392166"
+		{
+			"name"		"X4: Foundations Main Debug"
+			"manifests"
+			{
+				"public"		"1428443897261327369"
+			}
+			"encryptedmanifests"
+			{
+				"cheats"
+				{
+					"encrypted_gid_2"		"68293DF49264C8246B47756CA79F412D"
+					"encrypted_size_2"		"FCE284C35322F8AEB7B83FEFB6601D44"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"5ACD7E756605F65A1E60DFB2B32DDA5A"
+					"encrypted_size_2"		"68DFE1A3741E08AF1B3A90D023A6A030"
+				}
+				"nightly_cheat"
+				{
+					"encrypted_gid_2"		"65A53E6988C7B3282BCECD2034836923"
+					"encrypted_size_2"		"59FBF6DED5A56083243E72B06ACFCA96"
+				}
+				"nightly_debug"
+				{
+					"encrypted_gid_2"		"6A4B7D5DA0585479AD25CB8BC872E56D"
+					"encrypted_size_2"		"CF3E201CA628EAD0EA3497953834872F"
+				}
+				"private_beta"
+				{
+					"encrypted_gid_2"		"76CADFB666490D32BBECD1123BE931AA"
+					"encrypted_size_2"		"E3ECD10C427AC891956BA6FAB6D44E83"
+				}
+				"private_beta2"
+				{
+					"encrypted_gid_2"		"08CF2DDAEB53503839FEA32EC965A430"
+					"encrypted_size_2"		"440B9B46702F6E315786739A8670390C"
+				}
+				"private_beta3"
+				{
+					"encrypted_gid_2"		"3510F716924B1D5E1AE0122C9F6AC99B"
+					"encrypted_size_2"		"FFBFE7F2348A19162E59F7EC8B1931E1"
+				}
+				"private_beta4"
+				{
+					"encrypted_gid_2"		"0667E91F9ECE771AAACF31C2CD9DB60D"
+					"encrypted_size_2"		"1382DCF6E9078C06D9BE3E56855A424E"
+				}
+			}
+		}
+		"392167"
+		{
+			"name"		"X4: Foundations German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"8438881501429417845"
+			}
+			"maxsize"		"4"
+		}
+		"392168"
+		{
+			"name"		"X4: Foundations French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"7387442413130457154"
+			}
+			"maxsize"		"4"
+		}
+		"392169"
+		{
+			"name"		"X4: Foundations Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"7474697231672727401"
+			}
+			"maxsize"		"4"
+		}
+		"942190"
+		{
+			"name"		"X4: Foundations Collector's Edition Content (942190) Depot"
+			"dlcappid"		"942190"
+			"manifests"
+			{
+				"public"		"1776561289489070320"
+			}
+			"maxsize"		"1216348141"
+		}
+		"942191"
+		{
+			"name"		"X4: Foundations Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2008715382918066049"
+			}
+			"maxsize"		"5"
+		}
+		"942192"
+		{
+			"name"		"X4: Foundations Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"2184735555500823524"
+			}
+			"maxsize"		"4"
+		}
+		"942193"
+		{
+			"name"		"X4: Foundations Portuguese-Brazil"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"963441056274287689"
+			}
+			"maxsize"		"4"
+		}
+		"942194"
+		{
+			"name"		"X4: Foundations Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"9062583292843475231"
+			}
+			"maxsize"		"4"
+		}
+		"942195"
+		{
+			"name"		"X4: Foundations Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"1336734153095223615"
+			}
+			"maxsize"		"4"
+		}
+		"942196"
+		{
+			"name"		"X4: Foundations Korean"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"8424650925559839944"
+			}
+			"maxsize"		"4"
+		}
+		"942197"
+		{
+			"name"		"X4: Foundations Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"3979290990888571350"
+			}
+			"maxsize"		"4"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3886629"
+				"timeupdated"		"1559648427"
+			}
+			"cheats"
+			{
+				"buildid"		"3883467"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559573278"
+			}
+			"nightly"
+			{
+				"buildid"		"3883458"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559570841"
+			}
+			"nightly_cheat"
+			{
+				"buildid"		"3883467"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559570975"
+			}
+			"nightly_debug"
+			{
+				"buildid"		"3883478"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563387061"
+			}
+			"private_beta"
+			{
+				"buildid"		"3883458"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559573294"
+			}
+			"private_beta2"
+			{
+				"buildid"		"4112646"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565969741"
+			}
+			"private_beta3"
+			{
+				"buildid"		"4178996"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568028625"
+			}
+			"private_beta4"
+			{
+				"buildid"		"4178989"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568028466"
+			}
+			"public_beta"
+			{
+				"buildid"		"3886629"
+				"description"		"2.50 Hotfix 1 (released)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559648370"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"60"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X4\\{Steam3AccountID}"
+				"pattern"		"inputmap*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X4\\{Steam3AccountID}"
+				"pattern"		"uidata.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X4\\{Steam3AccountID}\\save"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X4\\{Steam3AccountID}\\save"
+				"pattern"		"*.xml.gz"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

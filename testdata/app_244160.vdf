@@ -1,0 +1,779 @@
+"appinfo"
+{
+	"appid"		"244160"
+	"common"
+	{
+		"name"		"Homeworld Remastered Collection"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+		}
+		"icon"		"8c74f09dfd9598adab163b2000e9696faff73024"
+		"clienticon"		"452141b235d0b86cd656ca9f52a91de4a44b20cf"
+		"clienttga"		"1b939d5651a65e2a2fff6875fee2bbc20a35ac62"
+		"logo"		"781843882c34af271123ae226ba0681cfe52c8d9"
+		"logo_small"		"781843882c34af271123ae226ba0681cfe52c8d9_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"244160_eula_0"
+				"name"		"Homeworld Remastered Collection EULA"
+				"url"		"http://store.steampowered.com//eula/244160_eula_0"
+			}
+		}
+		"clienticns"		"c4b676d79ddf63eb192821d019a6c3c474028bbc"
+		"requireskbmouse"		"1"
+		"openvrsupport"		"1"
+		"osarch"		""
+		"metacritic_name"		"Homeworld Remastered Collection"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1465319342"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gearbox Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gearbox Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Homeworld"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1424851200"
+		"steam_release_date"		"1424887200"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/homeworld-remastered-collection?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"244160"
+		"store_tags"
+		{
+			"0"		"1755"
+			"1"		"9"
+			"2"		"1676"
+			"3"		"3942"
+			"4"		"1693"
+			"5"		"1756"
+			"6"		"1742"
+			"7"		"5708"
+			"8"		"4166"
+			"9"		"3859"
+			"10"		"599"
+			"11"		"1708"
+			"12"		"4182"
+			"13"		"1669"
+			"14"		"5144"
+			"15"		"3965"
+			"16"		"19"
+			"17"		"1670"
+			"18"		"21"
+			"19"		"7208"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gearbox Software"
+		"publisher"		"Gearbox Publishing"
+		"homepage"		"http://homeworldremastered.com"
+		"listofdlc"		"255550,255551,352590,352710"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Homeworld"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HWLauncher\\Launcher.exe"
+				"description"		"Homeworld Launcher (NEW)"
+				"workingdir"		"HWLauncher"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"HomeworldRemastered.app"
+				"description"		"Homeworld Remastered"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"HomeworldRM\\bin\\Release\\HomeworldRM.exe"
+				"arguments"		"-params=..\\Params\\HWVR-Baseline.txt -params=..\\Params\\HWVR-Parkinglot.txt"
+				"workingdir"		"HomeworldRM\\bin\\Release"
+				"description"		"Parkinglot"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"mango"
+				}
+			}
+			"7"
+			{
+				"executable"		"HomeworldRM\\bin\\Release\\HomeworldRM.exe"
+				"arguments"		"-params=..\\Params\\HWVR-Baseline.txt -params=..\\Params\\HWVR-HW1-Skirmish.txt"
+				"workingdir"		"HomeworldRM\\bin\\Release"
+				"description"		"HW1 2v2 CPU Spectator"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"mango"
+				}
+			}
+			"8"
+			{
+				"executable"		"HomeworldRM\\bin\\Release\\HomeworldRM.exe"
+				"arguments"		"-params=..\\Params\\HWVR-Baseline.txt -params=..\\Params\\HWVR-HW2-Skirmish.txt"
+				"workingdir"		"HomeworldRM\\bin\\Release"
+				"description"		"HW2 2v2 CPU Spectator"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"mango"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,russian"
+		"workshopdepot"		"244160"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"name"		".NET 4.0 Client Profile Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"43001447"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"244161"
+		{
+			"name"		"Hickory HD"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8722053496801098910"
+			}
+			"maxsize"		"4755307807"
+			"encryptedmanifests"
+			{
+				"apricot"
+				{
+					"encrypted_gid_2"		"2E03BA63B44A4C7D7C8E66656115659B"
+					"encrypted_size_2"		"C2F743B1277BE6A312E72F2D8FB4160B"
+				}
+				"balance_beta"
+				{
+					"encrypted_gid_2"		"AA74D5D55F2943EA95E1F28795921DDB"
+					"encrypted_size_2"		"327564997E0F93296EE22A5A47429AC5"
+				}
+				"mango"
+				{
+					"encrypted_gid_2"		"CBBD7B26E67A462B2FE6D2626CC85FB7"
+					"encrypted_size_2"		"AD969973BBB95B2CB44F730BFA4BE49A"
+				}
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"50357E5906FAB86DE61E5B57683095F8"
+					"encrypted_size_2"		"EF9AFF27966D49F1F22402776722DA87"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"3898751C0C84DEF85A75D4A20047E003"
+					"encrypted_size_2"		"22474292163A4705A462792591CF70CF"
+				}
+			}
+		}
+		"255550"
+		{
+			"name"		"Hickory1 (255550) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5805824925082218652"
+			}
+			"maxsize"		"1401510543"
+			"encryptedmanifests"
+			{
+				"apricot"
+				{
+					"encrypted_gid_2"		"B2A85DD75445BF06C14E980D4FCBD3F8"
+					"encrypted_size_2"		"37A8FAA1B9546EEF24ADD12F63446632"
+				}
+				"balance_beta"
+				{
+					"encrypted_gid_2"		"E3EA29A346536CE89CDFFE1E068C9001"
+					"encrypted_size_2"		"C27C52B84B2090AE7F03EA1C4D083566"
+				}
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"9332B6C8C7F5E9CF3B64FAA18F617662"
+					"encrypted_size_2"		"2186E59BA80B999D19361A374810EFD2"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"C7FA2F52D7CEA586727E1E335D7D1270"
+					"encrypted_size_2"		"302E13B215D20B587E8639235E595D61"
+				}
+			}
+			"dlcappid"		"255550"
+		}
+		"255551"
+		{
+			"name"		"Hickory2 (255551) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1654304762241805239"
+			}
+			"maxsize"		"2630988924"
+			"encryptedmanifests"
+			{
+				"apricot"
+				{
+					"encrypted_gid_2"		"D470B286D315B7EC376A12C287081EC7"
+					"encrypted_size_2"		"37A8FAA1B9546EEF24ADD12F63446632"
+				}
+				"balance_beta"
+				{
+					"encrypted_gid_2"		"B63F69EB1A2511EAEB2951F9CA1AFE17"
+					"encrypted_size_2"		"1279EE8B6F4FD03424C3B52F559C4F85"
+				}
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"37E8792206CF9D7954CDC0E3C0E10A1E"
+					"encrypted_size_2"		"730BBE74F09079AC7D88EC0BAC465762"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"B6BE509BDE2C5627B254E747111C19D5"
+					"encrypted_size_2"		"1CC7A98ED08B3D2CE49769E0E2C0EB53"
+				}
+			}
+			"dlcappid"		"255551"
+		}
+		"302150"
+		{
+			"name"		"Hickory HD (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7312118722235225396"
+			}
+			"maxsize"		"6697418690"
+			"encryptedmanifests"
+			{
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"5BDB12275A0651593742F01E3F4AD781"
+					"encrypted_size_2"		"2296EF95DB1A84AC3BE5801DBEAFB879"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"D0A9F06213F6715101C337984972B94D"
+					"encrypted_size_2"		"FAE71CC3B141CE377DC0FF2F5DA58B3F"
+				}
+			}
+		}
+		"302151"
+		{
+			"name"		"Hickory1 Classic (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"924807833304338152"
+			}
+			"maxsize"		"314449471"
+			"encryptedmanifests"
+			{
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"709B4D7EBD6B332D45987BDCEBE92809"
+					"encrypted_size_2"		"971A00881D7C33704FCFB91EA85400FA"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"B9AE9255F6064CBBF4613D27B693FB7F"
+					"encrypted_size_2"		"ACCB55F134F1C89E58633D25F2CDD547"
+				}
+			}
+		}
+		"302152"
+		{
+			"name"		"Hickory2 Classic (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8258662284104988282"
+			}
+			"maxsize"		"1530153753"
+			"encryptedmanifests"
+			{
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"1E2EBB5F4022BA7F7C2FE3BA85C95601"
+					"encrypted_size_2"		"08D36F127274C3DFE6A4E7B51CA7B124"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"4C8A44D08019EAE6FBAFF9DEB5EF7E90"
+					"encrypted_size_2"		"06233D23B242CDF403B2C801488EADC6"
+				}
+			}
+		}
+		"302153"
+		{
+			"name"		"Hickory Launcher (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"302154"
+		{
+			"name"		"Hickory1 HD (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"255550"
+			"manifests"
+			{
+				"public"		"2476044194604354387"
+			}
+			"maxsize"		"1082931568"
+			"encryptedmanifests"
+			{
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"4B096E319BA22991CC62F90B0CB42435"
+					"encrypted_size_2"		"F487313413FF197FE0A2D8D4D3DCF103"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"9AB9E5810922CD87DF6BF8C40ADB77FE"
+					"encrypted_size_2"		"68D6E52EF314D08B0DC3F90D5B84DE6C"
+				}
+			}
+		}
+		"302155"
+		{
+			"name"		"Hickory2 HD (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"255551"
+			"manifests"
+			{
+				"public"		"6332503737766850482"
+			}
+			"maxsize"		"1100450225"
+			"encryptedmanifests"
+			{
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"42AE6A7AD0119DA01532FDC66F6A097C"
+					"encrypted_size_2"		"13A761D16A10FC7F64143CDEE06F01E8"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"C2B5632C33D044DA115EAD726155BDB6"
+					"encrypted_size_2"		"09C52F26C5B07E23E0452086CC123AFE"
+				}
+			}
+		}
+		"302156"
+		{
+			"name"		"Homeworld 1 Soundtrack (Mac)"
+			"dlcappid"		"352590"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"460346647082428500"
+			}
+			"maxsize"		"504178902"
+		}
+		"302157"
+		{
+			"name"		"Homeworld 2 Soundtrack (Mac)"
+			"dlcappid"		"352710"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"38926960722440421"
+			}
+			"maxsize"		"791585347"
+		}
+		"244165"
+		{
+			"name"		"Hickory Launcher 2"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7650091075141428926"
+			}
+			"maxsize"		"21767950"
+		}
+		"352590"
+		{
+			"name"		"Homeworld Remastered Collection - Soundtrack (352590) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2326669011239664624"
+			}
+			"maxsize"		"504178902"
+			"dlcappid"		"352590"
+		}
+		"352710"
+		{
+			"name"		"Homeworld 2 - Soundtrack (352710) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1477612541929997219"
+			}
+			"maxsize"		"791585347"
+			"dlcappid"		"352710"
+		}
+		"244162"
+		{
+			"name"		"Patch files"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"850134567854187785"
+			}
+			"maxsize"		"22853902"
+			"encryptedmanifests"
+			{
+				"balance_beta"
+				{
+					"encrypted_gid_2"		"52EB2E924786AECF382DB718D759E942"
+					"encrypted_size_2"		"65BA072339464495E31A423D6A6F2BF7"
+				}
+				"patch_preview"
+				{
+					"encrypted_gid_2"		"7F9015DC8C7480E5E8BB820816682D54"
+					"encrypted_size_2"		"B39EAFCA67EB176C088617B14C9F548A"
+				}
+				"raspberry"
+				{
+					"encrypted_gid_2"		"2978DEDBE4502623C981376D49657523"
+					"encrypted_size_2"		"388A6CDC0DB0E06FDC57157A138323BE"
+				}
+			}
+		}
+		"244163"
+		{
+			"name"		"Homeworld 244163"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"244164"
+		{
+			"name"		"Homeworld 244164"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"apricot"
+				{
+					"encrypted_gid_2"		"D47EEC23E5D4C0AE245A7CEE0EB5751C"
+					"encrypted_size_2"		"977B9A9834213C42852D093558A28AE6"
+				}
+			}
+		}
+		"244166"
+		{
+			"name"		"Homeworld 244166"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"244167"
+		{
+			"name"		"Homeworld Remastered Collection Depot Extras"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1494898245223251335"
+			}
+			"maxsize"		"49143763"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1215175"
+				"timeupdated"		"1467829720"
+			}
+			"apricot"
+			{
+				"buildid"		"1195405"
+				"description"		"Mac Internal Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1466692965"
+			}
+			"balance_beta"
+			{
+				"buildid"		"1010968"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"mango"
+			{
+				"buildid"		"1309093"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1472600875"
+			}
+			"patch_preview"
+			{
+				"buildid"		"1213556"
+				"description"		"Preview for upcoming patches"
+				"pwdrequired"		"1"
+				"timeupdated"		"1467757427"
+			}
+			"raspberry"
+			{
+				"buildid"		"1189691"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1466456110"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"300"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"HomeworldRM/bin/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Homeworld2Classic/bin/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Homeworld1Classic/Data/SavedGames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Homeworld Remastered Collection/RM/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Homeworld Remastered Collection/2C/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Homeworld Remastered Collection/1C/SavedGames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

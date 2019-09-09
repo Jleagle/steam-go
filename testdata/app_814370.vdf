@@ -1,0 +1,451 @@
+"appinfo"
+{
+	"appid"		"814370"
+	"common"
+	{
+		"name"		"Monster Sanctuary"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"3fb896548568f8be5d96282bc0e241785d81495b"
+		"logo_small"		"3fb896548568f8be5d96282bc0e241785d81495b_thumb"
+		"icon"		"35e86c5470c9258e13ea127c0a72f7da7502ebe6"
+		"clienticon"		"87c7d6f0e3d7da46ab3ed20982b74816967659ac"
+		"clienttga"		"545ef61072d735407da8e7f4e4d62b83bdd7ae02"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"metacritic_name"		"Monster Sanctuary"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"73.70410232755654"
+				"height_pct"		"59.63397749624783"
+			}
+		}
+		"store_asset_mtime"		"1567156125"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Moi Rai Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team17 Digital Ltd"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Team17 Digital"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1567011645"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"814370"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"492"
+			"3"		"3964"
+			"4"		"3871"
+			"5"		"1628"
+			"6"		"9"
+			"7"		"3834"
+			"8"		"493"
+			"9"		"4325"
+			"10"		"1625"
+			"11"		"1695"
+			"12"		"19"
+			"13"		"4182"
+			"14"		"1702"
+			"15"		"7481"
+			"16"		"3798"
+			"17"		"4026"
+			"18"		"4726"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Moi Rai Games"
+		"publisher"		"Team17 Digital Ltd"
+		"homepage"		"https://monster-sanctuary.com"
+		"listofdlc"		"873570"
+	}
+	"config"
+	{
+		"installdir"		"Monster Sanctuary"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Monster Sanctuary.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Monster Sanctuary.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Monster Sanctuary.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Monster Sanctuary.app\\Contents\\MacOS\\Monster Sanctuary"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"814371"
+		{
+			"name"		"Monster Sanctuary Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1364387649449701255"
+			}
+			"maxsize"		"279006564"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"E57D4F5C644E3D6B6C5A3C104F85D81F"
+					"encrypted_size_2"		"9DE66BA292766A431CA70F4F9B73F9FA"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"755C7E133150E44520BE5CC1A86AB762"
+					"encrypted_size_2"		"216133844DCF3451F9E115079A93176B"
+				}
+				"localisation"
+				{
+					"encrypted_gid_2"		"1B8D5E37854530F0EBDA7B9596DABDE4"
+					"encrypted_size_2"		"37A9DE0568E18E664F0611B735769AB5"
+				}
+				"steam_review"
+				{
+					"encrypted_gid_2"		"E2BF0441CA64C2990E59C4A190856553"
+					"encrypted_size_2"		"780C34FCE1DE19B4CE408E38BB2B26D3"
+				}
+			}
+		}
+		"814372"
+		{
+			"name"		"Monster Sanctuary Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4445558072147002659"
+			}
+			"maxsize"		"309735852"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"1EBDC270D980C75CE7E0B13A95A5619F"
+					"encrypted_size_2"		"933DAEC987406F2B0B1C7EE75D91A0C4"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"78A9FF78F7795F21CD256BA84C263A0D"
+					"encrypted_size_2"		"0A16D52FAEB91CDD8F3CAFD0FEC24C10"
+				}
+				"localisation"
+				{
+					"encrypted_gid_2"		"4ABBC18EA3D692A2F635D9A00BB12290"
+					"encrypted_size_2"		"46099F22BA5636432FED0490F78CBB9B"
+				}
+				"steam_review"
+				{
+					"encrypted_gid_2"		"FC23727BC585DF767486A17B1C0571CC"
+					"encrypted_size_2"		"C8A21F965AFBC2F1BB2450179E1FE083"
+				}
+			}
+		}
+		"814373"
+		{
+			"name"		"Monster Sanctuary Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5151690510281856278"
+			}
+			"maxsize"		"288602478"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"603EDD04C42DF0944007A60D9FF09311"
+					"encrypted_size_2"		"00348E72B09E2A916FD638253D0AD6DC"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"3A6C53069A0666865F69B4359638F384"
+					"encrypted_size_2"		"403094D1C1FF929D170CBB2A33A99DB5"
+				}
+				"localisation"
+				{
+					"encrypted_gid_2"		"C87B5B0E74A2381CD34D4A8B4C8EE032"
+					"encrypted_size_2"		"9FB329CFFDC51136EDC502EF735B3F7A"
+				}
+				"steam_review"
+				{
+					"encrypted_gid_2"		"AEA6586824A1E3DAB196B4DDC697B53D"
+					"encrypted_size_2"		"E194B2F40DA2AFBF236165BD49545A0D"
+				}
+			}
+		}
+		"814374"
+		{
+			"name"		"Monster Sanctuary 32b"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4644915656090986191"
+			}
+			"maxsize"		"273366132"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"5D7083EE517529FD70B0FF7200B7C13C"
+					"encrypted_size_2"		"B014A279CB1B1171998D4202DE9C7F66"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"1BB2EB808FE31E069B7683F32D12F175"
+					"encrypted_size_2"		"65878223333781C64CC86C8AC8ABC194"
+				}
+				"localisation"
+				{
+					"encrypted_gid_2"		"5021D2D76223BEF28543928F29C5B045"
+					"encrypted_size_2"		"1E50EE8121D86582E5E142DEAB9E4B12"
+				}
+				"steam_review"
+				{
+					"encrypted_gid_2"		"B59DF5FA1B3D59C11E85336BF2811A36"
+					"encrypted_size_2"		"2992C43134629B587E0863FE46CC7235"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4153039"
+				"timeupdated"		"1567171830"
+			}
+			"beta"
+			{
+				"buildid"		"4153039"
+				"description"		"Beta branch for Kickstarter backers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567171861"
+			}
+			"compatibility"
+			{
+				"buildid"		"4103746"
+				"description"		"Branch for compatibility testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565769255"
+			}
+			"debug"
+			{
+				"buildid"		"4178924"
+				"description"		"Dev branch for debug builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568027055"
+			}
+			"development"
+			{
+				"buildid"		"4153039"
+				"description"		"Dev branch for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567161791"
+			}
+			"localisation"
+			{
+				"buildid"		"4125718"
+				"description"		"Branch for localisation testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566840518"
+			}
+			"steam_review"
+			{
+				"buildid"		"4125777"
+				"description"		"Branch for Steam Build Review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566389335"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games\\Monster Sanctuary\\{64BitSteamID}"
+				"pattern"		"*.dat"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games\\Monster Sanctuary\\{64BitSteamID"
+				"pattern"		"*.xml"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Monster Sanctuary/{64BitSteamID}"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"4"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Monster Sanctuary/{64BitSteamID}"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"5"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Monster Sanctuary/{64BitSteamID}"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"6"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Monster Sanctuary/{64BitSteamID}"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,950 @@
+"appinfo"
+{
+	"appid"		"622220"
+	"common"
+	{
+		"name"		"Fate/EXTELLA LINK"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"koreana"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"clienttga"		"cafe9d73d1412d43524f1421b2a268318de4b1af"
+		"clienticon"		"18c68fd6221e340a372314694e2a818ba3ade098"
+		"icon"		"4dca847dc027fbb1d6a5bb67394bf6da67f84a83"
+		"logo"		"c4c80bd4ca219dc29d2ff0ef01e627c32b63c087"
+		"logo_small"		"c4c80bd4ca219dc29d2ff0ef01e627c32b63c087_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Fate/EXTELLA LINK"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1550688338"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Marvelous Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"XSEED Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Marvelous USA, Inc."
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Marvelous"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1553014800"
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/fateextella-link?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"622220"
+		"store_tags"
+		{
+			"0"		"4085"
+			"1"		"19"
+			"2"		"1646"
+			"3"		"122"
+			"4"		"3859"
+			"5"		"1742"
+			"6"		"4182"
+			"7"		"3799"
+			"8"		"1684"
+			"9"		"4434"
+			"10"		"9551"
+			"11"		"12095"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Marvelous Inc."
+		"publisher"		"XSEED Games"
+		"homepage"		"http://fateextellalink.com/"
+		"listofdlc"		"909300,1028700,1028701,1028702,1028703,1028704,1028705,1028710,1028711,1028712,1028720,1028721,1029280,1029290,1029300,1029301,1029310,1029311,1029312,1029320,1029321,1029322,1029323,1029330,1029331,1029350,1029351,1029352,1029360,1029361,1029362,1029370,1029371,1029372,1029390,1029391,1029392,1029400,1029401,1029402,1029410,1029411,1029412,1029430,1029431,1029432,1029440,1029441,1029450,1029451,1029480,1029481"
+	}
+	"config"
+	{
+		"installdir"		"Fate Extella Link"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"fateextellalink.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,koreana,schinese,tchinese,japanese"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"622221"
+		{
+			"name"		"Link Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6542885577449172561"
+			}
+			"maxsize"		"13479340241"
+			"encryptedmanifests"
+			{
+				"linkdevelopdailyrelease"
+				{
+					"encrypted_gid_2"		"98B1D21648B9BC6212988BE96105D339"
+					"encrypted_size_2"		"DE77F9C349CF3F1BBB9334D73D66863B"
+				}
+			}
+		}
+		"909300"
+		{
+			"name"		"TestDlc (909300) デポ"
+			"dlcappid"		"909300"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7963150930818133681"
+			}
+			"maxsize"		"7"
+		}
+		"1028712"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Nero (1028712) デポ"
+			"dlcappid"		"1028712"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8918703263343139518"
+			}
+			"maxsize"		"7"
+		}
+		"1028721"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Altera (1028721) デポ"
+			"dlcappid"		"1028721"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3263892537704933688"
+			}
+			"maxsize"		"7"
+		}
+		"1028700"
+		{
+			"name"		"Fate/EXTELLA LINK - Sergeant of the Shadow Lands (1028700) デポ"
+			"dlcappid"		"1028700"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"711150770646652694"
+			}
+			"maxsize"		"7"
+		}
+		"1028701"
+		{
+			"name"		"Fate/EXTELLA LINK - Bowman of Justice (1028701) デポ"
+			"dlcappid"		"1028701"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8415297022846785680"
+			}
+			"maxsize"		"7"
+		}
+		"1028702"
+		{
+			"name"		"Fate/EXTELLA LINK - Burning Bikini (1028702) デポ"
+			"dlcappid"		"1028702"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2430988828979256995"
+			}
+			"maxsize"		"7"
+		}
+		"1028703"
+		{
+			"name"		"Fate/EXTELLA LINK - Beach Flower (1028703) デポ"
+			"dlcappid"		"1028703"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6087618793549943250"
+			}
+			"maxsize"		"7"
+		}
+		"1028704"
+		{
+			"name"		"Fate/EXTELLA LINK - Cool & Sporty (1028704) デポ"
+			"dlcappid"		"1028704"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3039704564564553395"
+			}
+			"maxsize"		"7"
+		}
+		"1028705"
+		{
+			"name"		"Fate/EXTELLA LINK - Beach Bloody Demoness (1028705) デポ"
+			"dlcappid"		"1028705"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6473026790550965234"
+			}
+			"maxsize"		"7"
+		}
+		"1028710"
+		{
+			"name"		"Fate/EXTELLA LINK - Captain's Glorious Summer Vacation (1028710) デポ"
+			"dlcappid"		"1028710"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2624565750370260123"
+			}
+			"maxsize"		"7"
+		}
+		"1028711"
+		{
+			"name"		"Fate/EXTELLA LINK - Brave King’s Surf Shorts (1028711) デポ"
+			"dlcappid"		"1028711"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1136938603073403050"
+			}
+			"maxsize"		"7"
+		}
+		"1028720"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Tamamo (1028720) デポ"
+			"dlcappid"		"1028720"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1167554153516851405"
+			}
+			"maxsize"		"7"
+		}
+		"1029360"
+		{
+			"name"		"Fate/EXTELLA LINK - Planetary Arabian (1029360) デポ"
+			"dlcappid"		"1029360"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"860734666248797996"
+			}
+			"maxsize"		"7"
+		}
+		"1029372"
+		{
+			"name"		"Fate/EXTELLA LINK - Dark Elf Armor (1029372) デポ"
+			"dlcappid"		"1029372"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3989591897131196653"
+			}
+			"maxsize"		"7"
+		}
+		"1029300"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Gil (1029300) デポ"
+			"dlcappid"		"1029300"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4057197019005193506"
+			}
+			"maxsize"		"7"
+		}
+		"1029301"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Jeanne (1029301) デポ"
+			"dlcappid"		"1029301"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6666621974855823754"
+			}
+			"maxsize"		"7"
+		}
+		"1029310"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Artoria (1029310) デポ"
+			"dlcappid"		"1029310"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3718106046596392003"
+			}
+			"maxsize"		"7"
+		}
+		"1029311"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Charlie (1029311) デポ"
+			"dlcappid"		"1029311"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5418344635666374875"
+			}
+			"maxsize"		"7"
+		}
+		"1029312"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Scathach (1029312) デポ"
+			"dlcappid"		"1029312"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"22075342274989020"
+			}
+			"maxsize"		"7"
+		}
+		"1029320"
+		{
+			"name"		"Fate/EXTELLA LINK - Young Altera (1029320) デポ"
+			"dlcappid"		"1029320"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3826371350085440241"
+			}
+			"maxsize"		"7"
+		}
+		"1029321"
+		{
+			"name"		"Fate/EXTELLA LINK - Wild Swim (1029321) デポ"
+			"dlcappid"		"1029321"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5635913757209121159"
+			}
+			"maxsize"		"7"
+		}
+		"1029322"
+		{
+			"name"		"Fate/EXTELLA LINK - Masque du Gorgon (1029322) デポ"
+			"dlcappid"		"1029322"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4624254327135254600"
+			}
+			"maxsize"		"7"
+		}
+		"1029323"
+		{
+			"name"		"Fate/EXTELLA LINK - Summer Battle Clothes (1029323) デポ"
+			"dlcappid"		"1029323"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3106935853947678139"
+			}
+			"maxsize"		"7"
+		}
+		"1029330"
+		{
+			"name"		"Fate/EXTELLA LINK - Beach Crisis (1029330) デポ"
+			"dlcappid"		"1029330"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2279905614047151210"
+			}
+			"maxsize"		"7"
+		}
+		"1029331"
+		{
+			"name"		"Fate/EXTELLA LINK - Sparkling Frills (1029331) デポ"
+			"dlcappid"		"1029331"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5593867015608537976"
+			}
+			"maxsize"		"7"
+		}
+		"1029350"
+		{
+			"name"		"Fate/EXTELLA LINK - Sun Set Sun (1029350) デポ"
+			"dlcappid"		"1029350"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3477147842309218495"
+			}
+			"maxsize"		"7"
+		}
+		"1029351"
+		{
+			"name"		"Fate/EXTELLA LINK - Shiva Bathing Suit (1029351) デポ"
+			"dlcappid"		"1029351"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7474133186158251656"
+			}
+			"maxsize"		"7"
+		}
+		"1029352"
+		{
+			"name"		"Fate/EXTELLA LINK - Emperor in Villager's Clothing (1029352) デポ"
+			"dlcappid"		"1029352"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5879716964414459263"
+			}
+			"maxsize"		"7"
+		}
+		"1029361"
+		{
+			"name"		"Fate/EXTELLA LINK - Kilenc Hunter Outfit (1029361) デポ"
+			"dlcappid"		"1029361"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4316724703115403112"
+			}
+			"maxsize"		"7"
+		}
+		"1029362"
+		{
+			"name"		"Fate/EXTELLA LINK - Afterglow of the Old Days (1029362) デポ"
+			"dlcappid"		"1029362"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2074836496853704818"
+			}
+			"maxsize"		"7"
+		}
+		"1029370"
+		{
+			"name"		"Fate/EXTELLA LINK - Heretic Acolyte Garb (1029370) デポ"
+			"dlcappid"		"1029370"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2426633876394114452"
+			}
+			"maxsize"		"7"
+		}
+		"1029371"
+		{
+			"name"		"Fate/EXTELLA LINK - Achaemenes Bone Armor Shell (1029371) デポ"
+			"dlcappid"		"1029371"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4798368575982370806"
+			}
+			"maxsize"		"7"
+		}
+		"1029390"
+		{
+			"name"		"Fate/EXTELLA LINK - Magical Tamamo (1029390) デポ"
+			"dlcappid"		"1029390"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2101511423987223646"
+			}
+			"maxsize"		"7"
+		}
+		"1029391"
+		{
+			"name"		"Fate/EXTELLA LINK - Rune Priestess Garb (1029391) デポ"
+			"dlcappid"		"1029391"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8220451673837146920"
+			}
+			"maxsize"		"7"
+		}
+		"1029392"
+		{
+			"name"		"Fate/EXTELLA LINK - Pegasus Warrior Dress (1029392) デポ"
+			"dlcappid"		"1029392"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2174379404754616128"
+			}
+			"maxsize"		"7"
+		}
+		"1029400"
+		{
+			"name"		"Fate/EXTELLA LINK - Robin, the Forest Ninja (1029400) デポ"
+			"dlcappid"		"1029400"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2611841162117755726"
+			}
+			"maxsize"		"7"
+		}
+		"1029401"
+		{
+			"name"		"Fate/EXTELLA LINK - Adventurous & Educated Gentleman (1029401) デポ"
+			"dlcappid"		"1029401"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5502738671432850138"
+			}
+			"maxsize"		"7"
+		}
+		"1029402"
+		{
+			"name"		"Fate/EXTELLA LINK - Macedonian Rider Armor (1029402) デポ"
+			"dlcappid"		"1029402"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"9184301550800913286"
+			}
+			"maxsize"		"7"
+		}
+		"1029410"
+		{
+			"name"		"Fate/EXTELLA LINK - Conqueror of Turbulent Times (1029410) デポ"
+			"dlcappid"		"1029410"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2548106219677610500"
+			}
+			"maxsize"		"7"
+		}
+		"1029411"
+		{
+			"name"		"Fate/EXTELLA LINK - The Hero (1029411) デポ"
+			"dlcappid"		"1029411"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5139278137070017495"
+			}
+			"maxsize"		"7"
+		}
+		"1029412"
+		{
+			"name"		"Fate/EXTELLA LINK - Black Elegance (1029412) デポ"
+			"dlcappid"		"1029412"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"538888066449686604"
+			}
+			"maxsize"		"7"
+		}
+		"1029430"
+		{
+			"name"		"Fate/EXTELLA LINK - Sky Blue Dress (1029430) デポ"
+			"dlcappid"		"1029430"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1815429008797811268"
+			}
+			"maxsize"		"7"
+		}
+		"1029431"
+		{
+			"name"		"Fate/EXTELLA LINK - Perfectly Flawless Special Ops (1029431) デポ"
+			"dlcappid"		"1029431"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"9198562643041583883"
+			}
+			"maxsize"		"7"
+		}
+		"1029432"
+		{
+			"name"		"Fate/EXTELLA LINK - Generous Bartender (1029432) デポ"
+			"dlcappid"		"1029432"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3422531389230392739"
+			}
+			"maxsize"		"7"
+		}
+		"1029440"
+		{
+			"name"		"Fate/EXTELLA LINK - Wild Western (1029440) デポ"
+			"dlcappid"		"1029440"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"306012325860774959"
+			}
+			"maxsize"		"7"
+		}
+		"1029441"
+		{
+			"name"		"Fate/EXTELLA LINK - Blue Diver (1029441) デポ"
+			"dlcappid"		"1029441"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1085088617442030635"
+			}
+			"maxsize"		"7"
+		}
+		"1029450"
+		{
+			"name"		"Fate/EXTELLA LINK - Candy Pink (1029450) デポ"
+			"dlcappid"		"1029450"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5738714595172154125"
+			}
+			"maxsize"		"7"
+		}
+		"1029451"
+		{
+			"name"		"Fate/EXTELLA LINK - Divine Spear's Combat Outfit (1029451) デポ"
+			"dlcappid"		"1029451"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7048424778023945371"
+			}
+			"maxsize"		"7"
+		}
+		"1029480"
+		{
+			"name"		"Fate/EXTELLA LINK - Alteria (1029480) デポ"
+			"dlcappid"		"1029480"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8317856190072093218"
+			}
+			"maxsize"		"7"
+		}
+		"1029481"
+		{
+			"name"		"Fate/EXTELLA LINK - Soundtrack (1029481) デポ"
+			"dlcappid"		"1029481"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8686977885459700317"
+			}
+			"maxsize"		"103330039"
+		}
+		"1029280"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Eliza (1029280) デポ"
+			"dlcappid"		"1029280"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"681897273423213"
+			}
+			"maxsize"		"7"
+		}
+		"1029290"
+		{
+			"name"		"Fate/EXTELLA LINK - Li'l Nameless (1029290) デポ"
+			"dlcappid"		"1029290"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2040336486180302536"
+			}
+			"maxsize"		"7"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3810333"
+				"timeupdated"		"1557777005"
+			}
+			"linkdevelopdaily"
+			{
+				"buildid"		"3810333"
+				"description"		"link daily ship build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557460718"
+			}
+			"linkdevelopdailyrelease"
+			{
+				"buildid"		"3810208"
+				"description"		"link daily release build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557456647"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"4000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"savedata"
+				"pattern"		"*.bin"
+			}
+		}
+	}
+}
+ 

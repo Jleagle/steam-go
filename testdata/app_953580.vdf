@@ -1,0 +1,500 @@
+"appinfo"
+{
+	"appid"		"953580"
+	"common"
+	{
+		"name"		"Tourist Bus Simulator"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"6e92b7f6cd73fdd6da5d06bc19df97221f54cec2"
+		"clienticon"		"aed9ea9a882aa508f93b56d09b43e582a4f0b52e"
+		"icon"		"e790ed050a811e94ae1a71d91980b2a3325d1e24"
+		"logo"		"66101bc12477fb10c793d37d4fc4296e1d519045"
+		"logo_small"		"66101bc12477fb10c793d37d4fc4296e1d519045_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"953580_eula_0"
+				"name"		"Tourist Bus Simulator EULA"
+				"url"		"https://store.steampowered.com//eula/953580_eula_0"
+			}
+		}
+		"metacritic_name"		"Tourist Bus Simulator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1562938401"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TML-Studios"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"PEDEPE"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Aerosoft GmbH"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1544118782"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"953580"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1644"
+			"2"		"1695"
+			"3"		"12472"
+			"4"		"4175"
+			"5"		"4182"
+			"6"		"3859"
+		}
+	}
+	"extended"
+	{
+		"developer"		"TML-Studios"
+		"publisher"		"Aerosoft GmbH"
+		"homepage"		"https://www.aerosoft.com/en/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/953580/"
+		"listofdlc"		"953680,953681,953682,1026750,1121020"
+	}
+	"config"
+	{
+		"installdir"		"Tourist Bus Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TouristBusSimulator\\Binaries\\Win64\\TouristBusSimulator.exe"
+				"type"		"none"
+			}
+			"1"
+			{
+				"executable"		"TouristBusSimulator\\Binaries\\Win64\\TouristBusSimulator.exe"
+				"arguments"		"-dx12"
+				"description"		"DirectX 12 (BETA)"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"nighlybuild"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,koreana,spanish,schinese,russian,japanese,polish,swedish,hungarian,turkish,brazilian"
+		"workshopdepot"		"953580"
+		"953581"
+		{
+			"name"		"Tourist Bus Simulator Content"
+			"manifests"
+			{
+				"public"		"9044737762770234673"
+				"beta"		"3340727728950830934"
+				"previousversion"		"6013421445446198040"
+			}
+			"maxsize"		"12908471546"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"32BB4CAE21084A250B4150D40930F79B"
+					"encrypted_size_2"		"4731CC4215087B5A0D0995DAF5F662F7"
+				}
+				"beta_test_vdl_futura"
+				{
+					"encrypted_gid_2"		"4B0D04357898AD66C7898627966306E6"
+					"encrypted_size_2"		"021F2414FFDC9366016965F241DA5156"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"D6BA26B8CE6F2377656E924D321AD817"
+					"encrypted_size_2"		"6C06833A35FCE2A51260C08F47796F42"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"F46AAFA6984BD6A18DCF0954FC8DE7A8"
+					"encrypted_size_2"		"25A92FC6B3CE2B41ABAD57883C0DEB5F"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"39A1B6EA7B6EE4B3000BDD6122202599"
+					"encrypted_size_2"		"EDD7EB35E2A094887665AB529CEE3B2E"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"51222B06FC55ECEBAC989B3418B7D877"
+					"encrypted_size_2"		"F9DA4A6CEB1C7ED087633B285B28073C"
+				}
+			}
+		}
+		"953582"
+		{
+			"name"		"Tourist Bus Simulator - Comfort Class HD"
+			"dlcappid"		"953680"
+			"manifests"
+			{
+				"public"		"872572472043730585"
+				"beta"		"3541361369289087008"
+				"previousversion"		"4581091003915258475"
+			}
+			"maxsize"		"160359828"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"141C03D5789B7424394F72D8D154FC84"
+					"encrypted_size_2"		"24F066ED5CCC0367264F739118656F30"
+				}
+				"beta_test_vdl_futura"
+				{
+					"encrypted_gid_2"		"7AE2CB6F0F335643765997D963A70BBB"
+					"encrypted_size_2"		"F16858A8690AD0E9684C9F42E2E0179E"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"7423E505298F05B746CC5E57E701C9A1"
+					"encrypted_size_2"		"C79B2CFB72E6EC9C25DDD225B528F60A"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"7299FDAB1D2FC7C2DD440900022AB53B"
+					"encrypted_size_2"		"BED04B776BC008EAF2168212CFBB6366"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"8B5220D5284D8DE71B307DD505F05EB0"
+					"encrypted_size_2"		"A2262AD8827ABAC2CCE4FF1E9F256486"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"A2E2A5D44694C44F14754EB2D3BFF6BD"
+					"encrypted_size_2"		"E8EFA4B45A2D756E8E0F816143D531BA"
+				}
+			}
+		}
+		"953583"
+		{
+			"name"		"Tourist Bus Simulator - VDL Futura FHD2"
+			"dlcappid"		"953681"
+			"manifests"
+			{
+				"public"		"6173171884103880907"
+				"beta"		"1540043548171088494"
+				"previousversion"		"5457190279771195582"
+			}
+			"maxsize"		"122622077"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"FD352D26AA9D8178B7AA5CC05FFE329B"
+					"encrypted_size_2"		"24F066ED5CCC0367264F739118656F30"
+				}
+				"beta_test_vdl_futura"
+				{
+					"encrypted_gid_2"		"A3A0CFD77A516C804F84C291D40D2FB1"
+					"encrypted_size_2"		"9D08B8FC7C8A6B56AF0B2C0167CE68CF"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"135871F07C12C734D31068B097DCDF00"
+					"encrypted_size_2"		"777443FBB9E09CCE19885338F3AB7978"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"ACD661E5B37DDB389FC9AD00FDA57FDA"
+					"encrypted_size_2"		"BED04B776BC008EAF2168212CFBB6366"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"AC98264373C9848D929548B5F6715209"
+					"encrypted_size_2"		"FF264FBCD9A09BC900DB72BDDC90FAAB"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"96E46F9CB7537A7CD07B9503F6AEB5C9"
+					"encrypted_size_2"		"7228C0EF275760919A5A65E835E09F92"
+				}
+			}
+		}
+		"953584"
+		{
+			"name"		"Tourist Bus Simulator - Neoplan Skyliner"
+			"dlcappid"		"953682"
+			"manifests"
+			{
+				"public"		"4999515774385525938"
+				"beta"		"8549963757149401421"
+				"previousversion"		"6336666708309581927"
+			}
+			"maxsize"		"61168828"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"0F3ABA95FBDF0A0130E72D7A784C54AB"
+					"encrypted_size_2"		"24F066ED5CCC0367264F739118656F30"
+				}
+				"beta_test_vdl_futura"
+				{
+					"encrypted_gid_2"		"4AC7303FC3A4E72C3612B69C2C54C61E"
+					"encrypted_size_2"		"9E7D4C7E3C7788D725E606795139CFFF"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"C1F77D55B92D56BB3B3057B2207BF79B"
+					"encrypted_size_2"		"80FED30D6EFB1DE4812990A54E456B81"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"7A2BC3425232F1B4D06409ED09F78C4C"
+					"encrypted_size_2"		"BED04B776BC008EAF2168212CFBB6366"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"AADC8FEA8058F5782588FCC378ACF6AD"
+					"encrypted_size_2"		"E80DA1F2E270F0E957C50D0AED733C6A"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"E5C620BA8650301A9404FED25CBDE0E5"
+					"encrypted_size_2"		"154179B899ABBAF187AF323D6C80345D"
+				}
+			}
+		}
+		"953585"
+		{
+			"name"		"Tourist Bus Simulator - MAN Lion's Intercity"
+			"dlcappid"		"1026750"
+			"manifests"
+			{
+				"public"		"4276426729656164631"
+				"beta"		"1965314352752840864"
+				"previousversion"		"8313407093060289899"
+			}
+			"maxsize"		"62902954"
+			"encryptedmanifests"
+			{
+				"beta_test_vdl_futura"
+				{
+					"encrypted_gid_2"		"430B7DDAD28D055FB8E5539E8B79C91F"
+					"encrypted_size_2"		"0856F88450F3B4AA78548B98B76223A2"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"FA3EB7D1791C278500F361B36F879980"
+					"encrypted_size_2"		"A5CF001BA52723D296F19B9000CA8835"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"FEDDC1F7F3C98EE180FA26600CCD4CA8"
+					"encrypted_size_2"		"7459A7FE723D6349BA82D8E777030458"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"082CC9D99E42113AE70CFD1F84B1D56F"
+					"encrypted_size_2"		"B964605AFFA9A00C3C9C70998099E987"
+				}
+			}
+		}
+		"953586"
+		{
+			"name"		"Tourist Bus Simulator - C"
+			"dlcappid"		"1121020"
+			"manifests"
+			{
+				"beta"		"7905533250923973792"
+			}
+			"maxsize"		"14628549"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"53ABD213B807A2739821C774098B2A35"
+					"encrypted_size_2"		"9FC2947D162FDFF57668B2E064B66FE8"
+				}
+				"nightlybuild"
+				{
+					"encrypted_gid_2"		"7260DBEF0BF095FD60E5DFB59B71445E"
+					"encrypted_size_2"		"809076C386643B8F666B43E91D55187A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3751979"
+				"timeupdated"		"1556033180"
+			}
+			"baseline"
+			{
+				"buildid"		"3232488"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540215077"
+			}
+			"beta"
+			{
+				"buildid"		"4129674"
+				"description"		""
+				"timeupdated"		"1566486532"
+			}
+			"beta_test_vdl_futura"
+			{
+				"buildid"		"3528516"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549354743"
+			}
+			"closed_beta"
+			{
+				"buildid"		"4129674"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566486545"
+			}
+			"denuvo"
+			{
+				"buildid"		"3203109"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539262924"
+			}
+			"nightlybuild"
+			{
+				"buildid"		"4179483"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568038878"
+			}
+			"previousversion"
+			{
+				"buildid"		"3780782"
+				"description"		""
+				"timeupdated"		"1556618805"
+			}
+			"test"
+			{
+				"buildid"		"3761065"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556175136"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

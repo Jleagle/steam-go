@@ -1,0 +1,711 @@
+"appinfo"
+{
+	"appid"		"1017900"
+	"common"
+	{
+		"name"		"Age of Empires: Definitive Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+			"vietnamese"		"1"
+			"latam"		"1"
+		}
+		"logo"		"2a2de80ec44e52e97f8d4a82ea87850dfeeea230"
+		"logo_small"		"2a2de80ec44e52e97f8d4a82ea87850dfeeea230_thumb"
+		"icon"		"e8623421f060fd7e3a5f79a5c003701702acec42"
+		"clienticon"		"45f48e15c8de2ddfb9f646ad93380392a38f17c3"
+		"clienttga"		"f23b0afdca1413c9cd7c26bb80b726916e5ed588"
+		"metacritic_name"		"Age of Empires: Definitive Edition"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"30.853517877739314"
+				"height_pct"		"31.550770678903405"
+			}
+		}
+		"store_asset_mtime"		"1565910070"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Forgotten Empires"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Tantalus"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Xbox Game Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Age of Empires"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"vietnamese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1566226911"
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/age-of-empires-definitive-edition?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1017900"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"1693"
+			"3"		"3987"
+			"4"		"3859"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Forgotten Empires"
+		"publisher"		"Xbox Game Studios"
+		"homepage"		"https://www.ageofempires.com"
+	}
+	"config"
+	{
+		"installdir"		"AoEDE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AoEDE_s.exe"
+				"description"		"Tantalus RelicLink Build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"tantalus_nightly,tantalus_final,tantalus_beta_release,tantalus_beta_final,closed-beta"
+				}
+			}
+			"1"
+			{
+				"executable"		"AoEDE_Release_D3D11.exe"
+				"description"		"FE SteamPort Build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"darwin_1,darwin_2,darwin_3,darwin_4,darwin_5"
+				}
+			}
+			"2"
+			{
+				"executable"		"AoEDE_Steam.exe"
+				"description"		"Tantalus RelicLink Build (old)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"tantalus_fe"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1017901"
+		{
+			"name"		"Darwin Content"
+			"manifests"
+			{
+				"public"		"3110410868246805666"
+			}
+			"maxsize"		"18921153589"
+			"encryptedmanifests"
+			{
+				"closed-beta"
+				{
+					"encrypted_gid_2"		"AD9901C5995EB708E2C93840250DC8B7"
+					"encrypted_size_2"		"BE3A2EC1350E5B7D772ACD3FA62C320F"
+				}
+				"cu02"
+				{
+					"encrypted_gid_2"		"B2611ED40DA8AA69A0315A79317BDE55"
+					"encrypted_size_2"		"08E810C6C4BCF746905240E0EC69C295"
+				}
+				"darwin_1"
+				{
+					"encrypted_gid_2"		"C2BC767994ED8EE481916232F5A1BD53"
+					"encrypted_size_2"		"F83D150B06DFA31354A0713B540956E1"
+				}
+				"darwin_2"
+				{
+					"encrypted_gid_2"		"2BC74E0D6503E48BE03F33C033089441"
+					"encrypted_size_2"		"A6BAF7D4E710A558BB9848874FFCD790"
+				}
+				"darwin_3"
+				{
+					"encrypted_gid_2"		"752EE9FE1144A4A19BE78D8F38E4D7A9"
+					"encrypted_size_2"		"E4500F7455DC52DEB8FA5F73596D436F"
+				}
+				"microsoft_sandbox"
+				{
+					"encrypted_gid_2"		"FDC6684BD0D0382DA2A38B884944D1FF"
+					"encrypted_size_2"		"4366A3CAA697D7DAD1B2A06FF18A41EB"
+				}
+				"microsoft_test_lkg"
+				{
+					"encrypted_gid_2"		"C476DF97ACA48F4AF10F728CC3C4331B"
+					"encrypted_size_2"		"E3D95FDF461BD73CF1385A2412B1D1A9"
+				}
+				"tantalus-beta-staging"
+				{
+					"encrypted_gid_2"		"990A0A9A0B20EFFCCFF387D8A1AF990E"
+					"encrypted_size_2"		"C3EF5FBB27F7FC40F84490E7BDB7D1F2"
+				}
+				"tantalus_beta_final"
+				{
+					"encrypted_gid_2"		"04D5BD5FF2A4B2B08E2BA232FF610F35"
+					"encrypted_size_2"		"C49285A1A583B3818CEC2E0516C07086"
+				}
+				"tantalus_beta_release"
+				{
+					"encrypted_gid_2"		"C855EB696B9E1A6CB028F2FB62984A88"
+					"encrypted_size_2"		"1894BB848569BAF81A8B7FF466123976"
+				}
+				"tantalus_build"
+				{
+					"encrypted_gid_2"		"44CF5BDE6AF5B05820FB5C39672E53B4"
+					"encrypted_size_2"		"C8FA256BFB0C1442B838125CF9056620"
+				}
+				"tantalus_cert_final"
+				{
+					"encrypted_gid_2"		"4563155B534326B21CC24CFEB11CA319"
+					"encrypted_size_2"		"877D2B41A0762F20CAB102B3F46DE102"
+				}
+				"tantalus_cert_release"
+				{
+					"encrypted_gid_2"		"9C3F884607758CF7F619AAD07F85E325"
+					"encrypted_size_2"		"06E917311BB1D321358D274C5F81A571"
+				}
+				"tantalus_fe"
+				{
+					"encrypted_gid_2"		"AD8AD9AE867CA62DAA8F501D4308FF29"
+					"encrypted_size_2"		"0E5137A7F91FC23C70E286260600A13D"
+				}
+				"tantalus_final"
+				{
+					"encrypted_gid_2"		"C817701124D12BD77F201B2ECFFF9C6F"
+					"encrypted_size_2"		"4EA3566CC258880FA426648A4E58DF3F"
+				}
+				"tantalus_milestone"
+				{
+					"encrypted_gid_2"		"F3E04338CAC973AB29B3865F3F9AFB54"
+					"encrypted_size_2"		"FD994266A98989861C388AEF034FD286"
+				}
+				"tantalus_nightly"
+				{
+					"encrypted_gid_2"		"175D02F640E4798D9BB6202E7B8A7091"
+					"encrypted_size_2"		"53C97C50892EF92DD6A44C83E946FE14"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4141688"
+				"timeupdated"		"1567024227"
+			}
+			"closed-beta"
+			{
+				"buildid"		"4067909"
+				"description"		"Closed Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566224291"
+			}
+			"cu02"
+			{
+				"buildid"		"4121683"
+				"description"		"First Cert recognized CU"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567123398"
+			}
+			"cu03"
+			{
+				"buildid"		"4141688"
+				"description"		"Second Cert recognized CU"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567123427"
+			}
+			"darwin_1"
+			{
+				"buildid"		"3612874"
+				"description"		"Last but one FE Steam build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1551668661"
+			}
+			"darwin_2"
+			{
+				"buildid"		"3665983"
+				"description"		"Last but two FE Steam build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553126316"
+			}
+			"darwin_3"
+			{
+				"buildid"		"3723465"
+				"description"		"Last but three FE Steam build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554847102"
+			}
+			"microsoft_sandbox"
+			{
+				"buildid"		"4139196"
+				"description"		"Microsoft"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566831604"
+			}
+			"microsoft_test_lkg"
+			{
+				"buildid"		"4082814"
+				"description"		"Last known good build for Test Team"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565639742"
+			}
+			"tantalus-beta-staging"
+			{
+				"buildid"		"4068566"
+				"description"		"Staging branch for beta/flight builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564735215"
+			}
+			"tantalus_beta_final"
+			{
+				"buildid"		"4122322"
+				"description"		"Beta Final build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566301586"
+			}
+			"tantalus_beta_release"
+			{
+				"buildid"		"4122285"
+				"description"		"Beta Release build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566300680"
+			}
+			"tantalus_build"
+			{
+				"buildid"		"3937626"
+				"description"		"Stable Reliclink build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561028696"
+			}
+			"tantalus_cert_final"
+			{
+				"buildid"		"4179095"
+				"description"		"Cert Final build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568031389"
+			}
+			"tantalus_cert_release"
+			{
+				"buildid"		"4179065"
+				"description"		"Cert Release build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568030476"
+			}
+			"tantalus_fe"
+			{
+				"buildid"		"3741514"
+				"description"		"RelicLink build for FE"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555407054"
+			}
+			"tantalus_final"
+			{
+				"buildid"		"4178958"
+				"description"		"Nightly Final build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568027784"
+			}
+			"tantalus_milestone"
+			{
+				"buildid"		"3810527"
+				"description"		"Latest Tantalus milestone build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557507665"
+			}
+			"tantalus_nightly"
+			{
+				"buildid"		"4178910"
+				"description"		"Nightly Release build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568026883"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"schinese"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"正在浏览游戏存档"
+					"#in_game"		"进行一场游戏"
+					"#in_game_settings"		"在游戏设置"
+					"#in_hotkey_editor"		"在热键编辑器"
+					"#in_main_menu"		"在主菜单"
+					"#in_the_campaign_editor"		"在战役编辑器"
+					"#in_the_campaign_menus"		"在战役菜单"
+					"#in_the_scenario_editor"		"在剧本编辑器"
+					"#playing_a_campaign"		"正在进行一场战役"
+					"#playing_a_multiplayer_game"		"正在进行一场多人游戏"
+					"#preparing_for_a_custom_game"		"正在准备一场自定义游戏"
+					"#searching_for_a_multiplayer_match"		"正在搜寻一场多人游戏比赛"
+					"#setting_up_a_multiplayer_game"		"正在设置一场多人游戏"
+					"#spectating_a_multiplayer_game"		"正在观看一场多人游戏"
+				}
+			}
+			"tchinese"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"正在瀏覽遊戲存檔"
+					"#in_game"		"進行一場遊戲"
+					"#in_game_settings"		"在遊戲設置"
+					"#in_hotkey_editor"		"在熱鍵編輯器"
+					"#in_main_menu"		"在主選單"
+					"#in_the_campaign_editor"		"在戰役編輯器"
+					"#in_the_campaign_menus"		"在戰役選單"
+					"#in_the_scenario_editor"		"在劇本編輯器"
+					"#playing_a_campaign"		"正在進行一場戰役"
+					"#playing_a_multiplayer_game"		"正在進行一場多人遊戲"
+					"#preparing_for_a_custom_game"		"正在準備一場自訂遊戲"
+					"#searching_for_a_multiplayer_match"		"正在搜尋一場多人遊戲比賽"
+					"#setting_up_a_multiplayer_game"		"正在設置一場多人遊戲"
+					"#spectating_a_multiplayer_game"		"正在觀看一場多人遊戲"
+				}
+			}
+			"english"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Browsing through saved games"
+					"#in_game"		"Playing a game"
+					"#in_game_settings"		"In game settings"
+					"#in_hotkey_editor"		"In hotkey editor"
+					"#in_main_menu"		"In main menu"
+					"#in_the_campaign_editor"		"In the campaign editor"
+					"#in_the_campaign_menus"		"In campaign menus"
+					"#in_the_scenario_editor"		"In the scenario editor"
+					"#playing_a_campaign"		"Playing a campaign"
+					"#playing_a_multiplayer_game"		"Playing a multiplayer game"
+					"#preparing_for_a_custom_game"		"Preparing for a custom game"
+					"#searching_for_a_multiplayer_match"		"Searching for a multiplayer match"
+					"#setting_up_a_multiplayer_game"		"Setting up a multiplayer game"
+					"#spectating_a_multiplayer_game"		"Spectating a multiplayer game"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Consulte les parties enregistrées."
+					"#in_game"		"Joue une partie."
+					"#in_game_settings"		"Dans les préférences du jeu"
+					"#in_hotkey_editor"		"Dans l'éditeur de raccourcis"
+					"#in_main_menu"		"Dans le menu principal"
+					"#in_the_campaign_editor"		"Dans l'éditeur de campagnes"
+					"#in_the_campaign_menus"		"Dans les menus de campagnes"
+					"#in_the_scenario_editor"		"Dans l'éditeur de scénarios"
+					"#playing_a_campaign"		"Joue une campagne."
+					"#playing_a_multiplayer_game"		"Joue une partie multijoueur."
+					"#preparing_for_a_custom_game"		"Prépare une partie personnalisée."
+					"#searching_for_a_multiplayer_match"		"Recherche une partie multijoueur."
+					"#setting_up_a_multiplayer_game"		"Configure une partie multijoueur."
+					"#spectating_a_multiplayer_game"		"Suit une partie multijoueur."
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Durchstöbert die Spielstände"
+					"#in_game"		"Spielt ein Spiel"
+					"#in_game_settings"		"In den Spieleinstellungen"
+					"#in_hotkey_editor"		"Passt die Hotkeys an"
+					"#in_main_menu"		"Im Hauptmenü"
+					"#in_the_campaign_editor"		"Im Kampagneneditor"
+					"#in_the_campaign_menus"		"Im Kampagnenmenü"
+					"#in_the_scenario_editor"		"Im Szenarioeditor"
+					"#playing_a_campaign"		"Spielt die Kampagne"
+					"#playing_a_multiplayer_game"		"Spielt eine Mehrspielerpartie"
+					"#preparing_for_a_custom_game"		"In einem benutzerdefinierten Spiel"
+					"#searching_for_a_multiplayer_match"		"Sucht nach einer Mehrspielerpartie"
+					"#setting_up_a_multiplayer_game"		"Richtet eine Mehrspielerpartie ein"
+					"#spectating_a_multiplayer_game"		"Beobachtet eine Mehrspielerpartie"
+				}
+			}
+			"italian"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Ricerca tra le partite salvate"
+					"#in_game"		"Gioca una partita"
+					"#in_game_settings"		"Nelle impostazioni di gioco"
+					"#in_hotkey_editor"		"Nell'editor di hotkey"
+					"#in_main_menu"		"Nel menu principale"
+					"#in_the_campaign_editor"		"Nell'editor della campagna"
+					"#in_the_campaign_menus"		"Nei menu della campagna"
+					"#in_the_scenario_editor"		"Nell'editor di scenari"
+					"#playing_a_campaign"		"Giocando a una campagna"
+					"#playing_a_multiplayer_game"		"Gioca una partita multiplayer"
+					"#preparing_for_a_custom_game"		"Preparazione per partita personalizzata"
+					"#searching_for_a_multiplayer_match"		"Ricerca di una partita multiplayer"
+					"#setting_up_a_multiplayer_game"		"Impostazione partita multiplayer"
+					"#spectating_a_multiplayer_game"		"Assisti a una partita multiplayer"
+				}
+			}
+			"japanese"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"セーブデータを閲覧中"
+					"#in_game"		"ゲームをプレイ中"
+					"#in_game_settings"		"ゲーム設定"
+					"#in_hotkey_editor"		"ホットキーエディター"
+					"#in_main_menu"		"メインメニューで待機中"
+					"#in_the_campaign_editor"		"キャンペーンエディター"
+					"#in_the_campaign_menus"		"キャンペーンメニュー"
+					"#in_the_scenario_editor"		"シナリオエディター"
+					"#playing_a_campaign"		"キャンペーンをプレイ中"
+					"#playing_a_multiplayer_game"		"マルチプレイヤー ゲームをプレイ中"
+					"#preparing_for_a_custom_game"		"カスタムゲームを準備中"
+					"#searching_for_a_multiplayer_match"		"マルチプレイでマッチ検索中"
+					"#setting_up_a_multiplayer_game"		"マルチプレイヤー ゲームの設定中"
+					"#spectating_a_multiplayer_game"		"マルチプレイヤー ゲームを観戦中"
+				}
+			}
+			"koreana"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"저장된 게임 탐색 중"
+					"#in_game"		"게임 플레이 중"
+					"#in_game_settings"		"게임 설정"
+					"#in_hotkey_editor"		"핫키 편집기"
+					"#in_main_menu"		"메인 메뉴"
+					"#in_the_campaign_editor"		"캠페인 편집기"
+					"#in_the_campaign_menus"		"캠페인 메뉴"
+					"#in_the_scenario_editor"		"시나리오 편집기"
+					"#playing_a_campaign"		"캠페인 플레이 중"
+					"#playing_a_multiplayer_game"		"멀티 플레이어 게임 플레이 중"
+					"#preparing_for_a_custom_game"		"사용자 지정 게임 준비 중"
+					"#searching_for_a_multiplayer_match"		"멀티 플레이어 매치 검색 중"
+					"#setting_up_a_multiplayer_game"		"멀티 플레이어 게임 설정 중"
+					"#spectating_a_multiplayer_game"		"멀티 플레이어 게임 관전 중"
+				}
+			}
+			"brazilian"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Busca por jogos salvos"
+					"#in_game"		"Jogando uma partida"
+					"#in_game_settings"		"Nas configurações de jogo"
+					"#in_hotkey_editor"		"No editor de teclas de atalho"
+					"#in_main_menu"		"No menu principal"
+					"#in_the_campaign_editor"		"No editor de campanha"
+					"#in_the_campaign_menus"		"Nos menus de campanha"
+					"#in_the_scenario_editor"		"No editor de cenário"
+					"#playing_a_campaign"		"Jogando uma campanha"
+					"#playing_a_multiplayer_game"		"Jogando uma partida multijogador"
+					"#preparing_for_a_custom_game"		"Preparando para um jogo personalizado"
+					"#searching_for_a_multiplayer_match"		"Procurando uma partida multijogador"
+					"#setting_up_a_multiplayer_game"		"Configurando jogo multijogador"
+					"#spectating_a_multiplayer_game"		"Assistindo a uma partida multijogador"
+				}
+			}
+			"russian"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Просматривает сохраненные игры"
+					"#in_game"		"Играет"
+					"#in_game_settings"		"В меню настроек"
+					"#in_hotkey_editor"		"В редакторе горячих клавиш"
+					"#in_main_menu"		"В главном меню"
+					"#in_the_campaign_editor"		"В редакторе кампании"
+					"#in_the_campaign_menus"		"В меню кампании"
+					"#in_the_scenario_editor"		"В редакторе сценария"
+					"#playing_a_campaign"		"Играет в кампании"
+					"#playing_a_multiplayer_game"		"Играет в сетевой игре"
+					"#preparing_for_a_custom_game"		"Готовится к своей игре"
+					"#searching_for_a_multiplayer_match"		"Проводит поиск сетевого матча"
+					"#setting_up_a_multiplayer_game"		"Создает сетевую игру"
+					"#spectating_a_multiplayer_game"		"Наблюдает за сетевой игрой"
+				}
+			}
+			"spanish"
+			{
+				"tokens"
+				{
+					"#browsing_through_saved_games"		"Buscando partidas guardadas"
+					"#in_game"		"Jugando una partida"
+					"#in_game_settings"		"En configuración de partida"
+					"#in_hotkey_editor"		"En el editor de tecla de acceso rápido"
+					"#in_main_menu"		"En el menú principal"
+					"#in_the_campaign_editor"		"En el editor de campaña"
+					"#in_the_campaign_menus"		"En menús de campaña"
+					"#in_the_scenario_editor"		"En el editor de escenario"
+					"#playing_a_campaign"		"Jugando una campaña"
+					"#playing_a_multiplayer_game"		"Jugando una partida multijugador"
+					"#preparing_for_a_custom_game"		"Preparando una partida personalizada"
+					"#searching_for_a_multiplayer_match"		"Buscando un combate multijugador"
+					"#setting_up_a_multiplayer_game"		"Preparando una partida multijugador"
+					"#spectating_a_multiplayer_game"		"Observando una partida multijugador"
+				}
+			}
+		}
+	}
+}
+ 

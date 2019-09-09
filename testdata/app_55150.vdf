@@ -1,0 +1,481 @@
+"appinfo"
+{
+	"appid"		"55150"
+	"common"
+	{
+		"name"		"Warhammer 40,000: Space Marine"
+		"logo"		"c18d0776e4b1db78c57e66b5bd7ba74b5927816a"
+		"logo_small"		"c18d0776e4b1db78c57e66b5bd7ba74b5927816a_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"czech"		"1"
+		}
+		"clienticon"		"dc9b3a681ca4a22a97eb25cbd82ed32f68a384ad"
+		"clienttga"		"473899e5d04be3c037bb9184abb7d8d4b559047f"
+		"icon"		"46b0ce6e587472d1d56cc88dd32c8b57392f8b10"
+		"type"		"game"
+		"metacritic_name"		"Warhammer 40,000: Space Marine"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"42"
+				"height_pct"		"32"
+			}
+		}
+		"store_asset_mtime"		"1527852207"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Relic"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SEGA"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Warhammer"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1315281600"
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warhammer-40000-space-marine?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"55150"
+		"store_tags"
+		{
+			"0"		"12286"
+			"1"		"19"
+			"2"		"3814"
+			"3"		"3942"
+			"4"		"1697"
+			"5"		"3859"
+			"6"		"4345"
+			"7"		"1774"
+			"8"		"4182"
+			"9"		"1646"
+			"10"		"5310"
+			"11"		"1685"
+			"12"		"5030"
+			"13"		"21"
+			"14"		"4166"
+			"15"		"1742"
+			"16"		"3843"
+			"17"		"4295"
+			"18"		"7481"
+			"19"		"5144"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Relic"
+		"gamedir"		"Warhammer 40,000 Space Marine"
+		"gamemanualurl"		"http://store.steampowered.com/manual/55150/"
+		"guideappid"		"22893"
+		"homepage"		"http://www.spacemarine.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"55152"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"publisher"		"SEGA"
+		"listofdlc"		"22893,55340,55341,55342,55343,55344,55345,55346,55347,55348,55349,55410,55470,55471,55472,55473,55474,55475,55476"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4e2f0561519b05cbe2dfa39ff43f4f734a80103bdbfa594c7f477c88f3e189631c0e3b99fa2ef06773c95153b11e1c333e4b7f80f0d8a242f33f979ee715f97dfb8aaa4e87e69a6f76d76e4064829fbf9e197655f3e3e834aa4cc40d803f929e94ec2eaad9d998af48559f902974a4b6365add800f80024a2e763c5b1b91665a"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Warhammer 40,000 Space Marine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpaceMarine.exe"
+			}
+		}
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B01850A97649ACD1D9DB362E518B59264274DCEF9557050B8FB82B952811E324AF808E18D987C54DE169631A1E5C9EDE0480B295A7B849C4D7BF2E5E2A5290076E2EEA4C1811A3742B8D87C531DB7AE0084FA4A6B7C3021D7470D01149F24F8BFD80FE476940B71E767612083AF64894FC6615C0E32C9E5EE3D1EEF6E1FDB1BB020111"
+		"checkguid"		"SpaceMarine.exe"
+		"checkguids"		"spacemarine.exe"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\directx\\DXSETUP.EXE"
+				"command 1"		"/silent"
+				"description"		"DirectX Runtime"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"55152"
+		{
+			"name"		"spacemarine_content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7732626057366896266"
+			}
+			"maxsize"		"9387223509"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"B5C398BF91EEFF4EDD4A006673E995D3"
+					"encrypted_size_2"		"FA9DADB71083FC224EC35F077A598FF0"
+				}
+			}
+		}
+		"55153"
+		{
+			"name"		"spacemarine_binaries"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5316515551330539091"
+			}
+			"maxsize"		"132514796"
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid_2"		"2B9F25FE841EDE77B357ECC7838DD60A"
+					"encrypted_size_2"		"06B20BD3416366ECCECB4286A726F227"
+				}
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"1A6311610B9973427FA7DC705EA93C15"
+					"encrypted_size_2"		"228A6AD1E764FF66B3DF8BBFD12901EF"
+				}
+			}
+		}
+		"55154"
+		{
+			"name"		"Warhammer 40,000 Space Marine Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"868675989080103967"
+			}
+			"maxsize"		"183862"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"55DA27610517083277BE3A1DA63D37B0"
+					"encrypted_size_2"		"83A264E1861E4C5E29B1AADD658F7A12"
+				}
+			}
+		}
+		"55155"
+		{
+			"name"		"Warhammer 40,000 Space Marine Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"8940353249204101203"
+			}
+			"maxsize"		"213598"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"8C853C708EE245DAD3D623DFE9317C41"
+					"encrypted_size_2"		"64453E632016BB70AC13AC331816174A"
+				}
+			}
+		}
+		"55156"
+		{
+			"name"		"Warhammer 40,000 Space Marine Dutch"
+			"config"
+			{
+				"language"		"dutch"
+			}
+			"manifests"
+			{
+				"public"		"1028619944509671662"
+			}
+			"maxsize"		"208534"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"EEC1EC351F611BE59E687FA8BD001D7E"
+					"encrypted_size_2"		"5E66B31CB48C076F9FD22286DBDD1C6F"
+				}
+			}
+		}
+		"55157"
+		{
+			"name"		"Warhammer 40,000 Space Marine english"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"8570175942921542109"
+			}
+			"maxsize"		"205160"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"E1E6A6155C03B29BE8AB58239D3DE98A"
+					"encrypted_size_2"		"4C6E3AA297FD586E606EFFF3BB391130"
+				}
+			}
+		}
+		"55158"
+		{
+			"name"		"Warhammer 40,000 Space Marine french"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"59163885033298122"
+			}
+			"maxsize"		"256608"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"1445F575F687C4178B073CB388C50F4A"
+					"encrypted_size_2"		"43E3390ABA159842AB9DC8CAA31BB6DE"
+				}
+			}
+		}
+		"55159"
+		{
+			"name"		"Warhammer 40,000 Space Marine german"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1948134711496472537"
+			}
+			"maxsize"		"258374"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"4B5409735B8C063E4C10BD344B82D6CC"
+					"encrypted_size_2"		"609AA90726B8023CD43F4A58A0FDBA95"
+				}
+			}
+		}
+		"55350"
+		{
+			"name"		"Warhammer 40,000 Space Marine italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"7934593195949255214"
+			}
+			"maxsize"		"247497"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"02708937469B016DD39FB2BB0CB3D423"
+					"encrypted_size_2"		"0DF824D2F2F56F4397FEC28980FD3462"
+				}
+			}
+		}
+		"55351"
+		{
+			"name"		"Warhammer 40,000 Space Marine Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"2597776270728213154"
+			}
+			"maxsize"		"216949"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"05993A7D4134A076BC5387FD0E2ABFE5"
+					"encrypted_size_2"		"156ECC81BFDD5EBC4B70FB64C630F125"
+				}
+			}
+		}
+		"55352"
+		{
+			"name"		"Warhammer 40,000 Space Marine Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"6951698301628534302"
+			}
+			"maxsize"		"248362"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"24E15F9C52274036421A8C5FBEFEFD9D"
+					"encrypted_size_2"		"DB9BE86EB2EABAF3AFC83A2FAC1518EF"
+				}
+			}
+		}
+		"55353"
+		{
+			"name"		"Warhammer 40,000 Space Marine spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1415144130525641305"
+			}
+			"maxsize"		"244853"
+			"encryptedmanifests"
+			{
+				"xpectemp"
+				{
+					"encrypted_gid_2"		"D4E5E82FAAA857B325D139786585E998"
+					"encrypted_size_2"		"F92957B70BAB15440645B376180790DF"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"382250"
+			}
+			"test"
+			{
+				"buildid"		"371573"
+				"description"		"for QA test"
+				"pwdrequired"		"1"
+			}
+			"xpec"
+			{
+				"buildid"		"382250"
+				"description"		"xpec internal"
+				"pwdrequired"		"1"
+			}
+			"xpectemp"
+			{
+				"buildid"		"344069"
+				"description"		"xpec"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

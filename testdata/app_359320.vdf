@@ -1,0 +1,542 @@
+"appinfo"
+{
+	"appid"		"359320"
+	"common"
+	{
+		"name"		"Elite Dangerous"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"359320_eula_0"
+				"name"		"Elite: Dangerous EULA"
+				"url"		"http://store.steampowered.com//eula/359320_eula_0"
+			}
+		}
+		"logo"		"8cec856f5350e59f874bc1171fc864175fe095eb"
+		"logo_small"		"8cec856f5350e59f874bc1171fc864175fe095eb_thumb"
+		"icon"		"c893e2752550a70950d90c5b881c7d6aac312356"
+		"clienticon"		"a9a0ab456790afb831c7246e1be5aa69642a19c8"
+		"clienttga"		"18509d14904af8709e94335b13cf001fea67dd1d"
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"openvrsupport"		"1"
+		"osarch"		""
+		"metacritic_name"		"Elite: Dangerous"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"61.55192532088682"
+				"height_pct"		"71.31940156732368"
+			}
+		}
+		"store_asset_mtime"		"1563182770"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Frontier Developments"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Frontier Developments"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"29"
+			"3"		"3"
+			"4"		"28"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_18"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_31"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1427982840"
+		"metacritic_score"		"80"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/elite-dangerous?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"359320"
+		"store_tags"
+		{
+			"0"		"16598"
+			"1"		"1755"
+			"2"		"1695"
+			"3"		"3834"
+			"4"		"3942"
+			"5"		"599"
+			"6"		"128"
+			"7"		"3859"
+			"8"		"3839"
+			"9"		"19"
+			"10"		"3810"
+			"11"		"21"
+			"12"		"3843"
+			"13"		"4202"
+			"14"		"21978"
+			"15"		"4182"
+			"16"		"122"
+			"17"		"4026"
+			"18"		"9"
+			"19"		"8075"
+		}
+	}
+	"extended"
+	{
+		"foo"		"bla"
+		"developer"		"Frontier Developments"
+		"publisher"		"Frontier Developments"
+		"homepage"		"http://www.elitedangerous.com/"
+		"listofdlc"		"441340,441730,475180,546310,546311,546312,546320,1046870,1066540,1067920,1067921"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Elite Dangerous"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EDLaunch.exe"
+				"arguments"		"/Steam /novr"
+				"description"		"Elite Dangerous"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Elite Dangerous Launcher.app"
+				"arguments"		"-Steam"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"EDLaunch.exe"
+				"arguments"		"/Steam /novr"
+				"description"		"Elite Dangerous - Dev"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev"
+				}
+			}
+			"4"
+			{
+				"executable"		"EDlaunch.exe"
+				"arguments"		"/EDH /steamid 441340 /novr"
+				"description"		"Elite Dangerous: Horizons"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"441340"
+				}
+			}
+			"5"
+			{
+				"executable"		"EDLaunch.exe"
+				"arguments"		"/Steam /VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"756154829"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,spanish,russian"
+		"359321"
+		{
+			"name"		"Elite: Dangerous Launcher"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7176191624086920607"
+			}
+			"maxsize"		"4166653"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"22B4A108690D0A5A499EB2EBB2084012"
+					"encrypted_size_2"		"F576F8D3A767AEB5F6097A0A5E4F0817"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"197F940FC0CF79A4A19545861E885593"
+					"encrypted_size_2"		"53653EDCD04A5A91AC6B6AE18ACCB201"
+				}
+				"dev_latest"
+				{
+					"encrypted_gid_2"		"112DE2322879A407420E1D6C0ABB8418"
+					"encrypted_size_2"		"ADDE5170B19340CB31D773FECC151424"
+				}
+				"dev_loc"
+				{
+					"encrypted_gid_2"		"327360165CE6F259395B29B594E0B41A"
+					"encrypted_size_2"		"F6C73573AAA0B5F7D75F9AD7652239FC"
+				}
+				"outsource_art"
+				{
+					"encrypted_gid_2"		"9ADFC5CE8BB0EBC30135EFC09E68E58F"
+					"encrypted_size_2"		"EAF507D2193462A09DDEF6BEC2BF9CD2"
+				}
+			}
+		}
+		"359322"
+		{
+			"name"		"Elite: Dangerous Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2084844569949660571"
+			}
+			"maxsize"		"10564091171"
+		}
+		"359323"
+		{
+			"name"		"Elite: Dangerous Combat Tutorial Demo"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6421232734138010041"
+			}
+			"maxsize"		"1668039544"
+		}
+		"359324"
+		{
+			"name"		"Elite: Dangerous Launcher (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1006754460954584250"
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"B3AC211D2D3D6962AB01992B5881A316"
+					"encrypted_size_2"		"92B07DD0B36D5690B10550DF20525FB8"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"318AB9E8302E1AD666569325432E532B"
+					"encrypted_size_2"		"19E00E902F387974097C9C4CA42FF526"
+				}
+			}
+		}
+		"359325"
+		{
+			"name"		"Elite: Dangerous Content (Mac)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2497700816018804697"
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"978C0A1517136AAADAB784DCA442D746"
+					"encrypted_size_2"		"23487EDE708AB76E799338F5ED65E8D7"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"B88FC5238CBB8DB356FB37B50CC6DF6B"
+					"encrypted_size_2"		"25B3FDCF9FF925DA019539DF79A19AF9"
+				}
+			}
+		}
+		"359326"
+		{
+			"name"		"Elite: Dangerous Content (Win64)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1842609295615649336"
+			}
+			"maxsize"		"20152432471"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"4F10B665CBA91268812C292AF6D63A99"
+					"encrypted_size_2"		"AC04CD6E9C8AD34F94836492418F0C9F"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"76CB1B7A46FDA223E7DCAD74DBC64A65"
+					"encrypted_size_2"		"39544956F9C4C5D45F50F11CBB5BF749"
+				}
+				"dev_latest"
+				{
+					"encrypted_gid_2"		"F861C8D6DBC625456765904C57E42C3B"
+					"encrypted_size_2"		"F75DA74D29DD3D9B34EC291D1F3A4BAB"
+				}
+				"dev_loc"
+				{
+					"encrypted_gid_2"		"2DCFD5DF7093BD395D255D9AC6B84960"
+					"encrypted_size_2"		"ACC54554891B433E166F3DE66849D781"
+				}
+				"outsource_art"
+				{
+					"encrypted_gid_2"		"E412707EECCC9E1B74DABFE8327DC0C9"
+					"encrypted_size_2"		"83CFA77A2E37F7DFE4718EAE221509B9"
+				}
+			}
+		}
+		"419273"
+		{
+			"name"		"Elite Dangerous: VR Demo"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2931311517626320937"
+			}
+			"maxsize"		"7060854062"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"632D3A1B5E4443E6D20761C0702B55C4"
+					"encrypted_size_2"		"36EB1D69D91D0E87D4909E072F7E0A02"
+				}
+			}
+			"depotfromapp"		"419270"
+		}
+		"359327"
+		{
+			"name"		"Elite Dangerous: PTS"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1291814850671097058"
+			}
+			"maxsize"		"20151346546"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"697DD99DE91C0B0484FF3FBDD1A13657"
+					"encrypted_size_2"		"E23DA691A3DABA4F4784F34E892B7363"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"FF2F88FEA2BEA0362666ED02490B2349"
+					"encrypted_size_2"		"39544956F9C4C5D45F50F11CBB5BF749"
+				}
+				"dev_latest"
+				{
+					"encrypted_gid_2"		"A68D6A0D7B6A231247F49579176CC896"
+					"encrypted_size_2"		"8EBC5E23B16402739A0A21230D61EBDB"
+				}
+				"dev_loc"
+				{
+					"encrypted_gid_2"		"28FB4DBF36B48AA652B2BF46B2AE4F38"
+					"encrypted_size_2"		"B4E003BE8653A46BA59823614BF72B7A"
+				}
+				"outsource_art"
+				{
+					"encrypted_gid_2"		"89E58D3888973751E587DD5D64FE96B9"
+					"encrypted_size_2"		"0CA2B6EBADCABE67957598B4BEE7DFE0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3891076"
+				"timeupdated"		"1560848402"
+			}
+			"beta"
+			{
+				"buildid"		"2500556"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1517927305"
+			}
+			"dev"
+			{
+				"buildid"		"2139823"
+				"description"		"Development"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506414494"
+			}
+			"dev_latest"
+			{
+				"buildid"		"4178759"
+				"description"		"Latest Final Development Builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568022990"
+			}
+			"dev_loc"
+			{
+				"buildid"		"4178759"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568023884"
+			}
+			"outsource_art"
+			{
+				"buildid"		"3719530"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554798822"
+			}
+			"development"
+			{
+				"buildid"		"952438"
+				"description"		"Development Branch"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
+ 

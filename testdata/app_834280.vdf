@@ -1,0 +1,1265 @@
+"appinfo"
+{
+	"appid"		"834280"
+	"common"
+	{
+		"name"		"Fishing Sim World®: Pro Tour"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"98889f5788bffad666a04fb85bae5dabbdc7f70a"
+		"logo_small"		"98889f5788bffad666a04fb85bae5dabbdc7f70a_thumb"
+		"icon"		"ee187c7c152ac4f55e394ae26a277cc6b885f0c3"
+		"clienttga"		"15b6ae55574a408f5d5bfd8ab660df1152ce3532"
+		"clienticon"		"22fbdda6ff6d2a87d3accd62b0fad736ed24e80f"
+		"linuxclienticon"		"05468bf7db7969ef91175eb060571705339ed737"
+		"metacritic_name"		"Fishing Sim World®: Pro Tour"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"latam"		"capsule_231x87_latam.jpg"
+			"norwegian"		"capsule_231x87_norwegian.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+			"portuguese"		"capsule_231x87_portuguese.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+			"swedish"		"capsule_231x87_swedish.jpg"
+			"turkish"		"capsule_231x87_turkish.jpg"
+			"arabic"		"capsule_231x87_arabic.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+			"danish"		"capsule_231x87_danish.jpg"
+			"dutch"		"capsule_231x87_dutch.jpg"
+			"finnish"		"capsule_231x87_finnish.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"arabic"		"header_arabic.jpg"
+			"brazilian"		"header_brazilian.jpg"
+			"danish"		"header_danish.jpg"
+			"dutch"		"header_dutch.jpg"
+			"finnish"		"header_finnish.jpg"
+			"french"		"header_french.jpg"
+			"german"		"header_german.jpg"
+			"italian"		"header_italian.jpg"
+			"japanese"		"header_japanese.jpg"
+			"latam"		"header_latam.jpg"
+			"norwegian"		"header_norwegian.jpg"
+			"polish"		"header_polish.jpg"
+			"portuguese"		"header_portuguese.jpg"
+			"russian"		"header_russian.jpg"
+			"schinese"		"header_schinese.jpg"
+			"spanish"		"header_spanish.jpg"
+			"swedish"		"header_swedish.jpg"
+			"turkish"		"header_turkish.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"ar,pt-br,da,nl,fi,fr,de,it,ja,es-419,no,pl,pt,ru,zh-cn,es,sv,tr,en"
+			"library_hero"		"tr,ar,pt-br,da,nl,fi,fr,de,it,ja,es-419,no,pl,pt,ru,zh-cn,es,sv,en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"79.27823050058208"
+				"height_pct"		"62.83259259259259"
+			}
+		}
+		"store_asset_mtime"		"1564146764"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dovetail Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dovetail Games - Fishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Fishing Sim World"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1537279200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"834280"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"15564"
+			"2"		"3859"
+			"3"		"4175"
+			"4"		"4182"
+			"5"		"701"
+			"6"		"597"
+			"7"		"4166"
+			"8"		"3839"
+			"9"		"21"
+			"10"		"1654"
+			"11"		"1685"
+			"12"		"7481"
+			"13"		"19"
+			"14"		"5350"
+			"15"		"1663"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Dovetail Games"
+		"publisher"		"Dovetail Games - Fishing"
+		"homepage"		"https://live.dovetailgames.com/live/fishing-sim-world"
+		"listofdlc"		"903660,905190,916220,931530,940530,973610,973611,973612,976080,978880,1030560,1030561,1030562,1030563,1030564,1088930,1136000,1136001,1136002,1136003,1136004"
+	}
+	"config"
+	{
+		"installdir"		"Fishing Sim World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"development"
+				}
+			}
+			"1"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Shipping.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"release_candidate(shipping)"
+				}
+			}
+			"2"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Test.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"release_candidate(test)"
+				}
+			}
+			"3"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Shipping.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame.exe"
+				"description"		"Review Build"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dev_review"
+				}
+			}
+			"5"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Test.exe"
+				"description"		"FSW RC Test"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"rc_test"
+				}
+			}
+			"6"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Test.exe"
+				"description"		"FSW 19 RC Test"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"rc19_test"
+				}
+			}
+			"7"
+			{
+				"executable"		"FishingGame\\Binaries\\Win64\\FishingGame-Win64-Test.exe"
+				"description"		"FSW 19 RC Test"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dev_review"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,polish,brazilian"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"834281"
+		{
+			"name"		"Fishing Sim World Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7657755035726488429"
+			}
+			"maxsize"		"49948508338"
+			"encryptedmanifests"
+			{
+				"alpha"
+				{
+					"encrypted_gid_2"		"B90FAF901643506C8BA34DCD005910F2"
+					"encrypted_size_2"		"B9AB4BDFF36AFF689D5BA175210EEF44"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"499B0FB45D82340990D7478F20D040F2"
+					"encrypted_size_2"		"5EF274260FB3691C9F6A056117FA1E70"
+				}
+				"dev_review"
+				{
+					"encrypted_gid_2"		"7E15F9B74DCE654B834F4AE00DACF6E2"
+					"encrypted_size_2"		"1F52A5ECAED710A74AD94219B481747E"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"B38031BDA79748D659B005902754650A"
+					"encrypted_size_2"		"6A0CD8478D13F66EA154647D3F9876EC"
+				}
+				"disk_version"
+				{
+					"encrypted_gid_2"		"4722844C69296E26459A0B107374C24F"
+					"encrypted_size_2"		"AF589351CC012AC4DAD32939BDF77287"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"E96697E43958ABD6F720EA89146A56E9"
+					"encrypted_size_2"		"6556D9DA39DE09D922DD9CB7CDBF2F1D"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"E2F955AA5E47EA1A0B1009272171B0D4"
+					"encrypted_size_2"		"FF36A8D3AF1BBBD487EE6EA155062A94"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"1BADB742B45AFE0B73A79FE383CDC759"
+					"encrypted_size_2"		"8A20555E80BCB4312FDC0B6EEFB1C0F6"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"2AA67F36757FA5CEAE727A1C1B87EA2C"
+					"encrypted_size_2"		"26A369CF724582B28F3E019BE3A6D90C"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"D5462B61030ED957F580CE65A740C08C"
+					"encrypted_size_2"		"238A97735E6A2320B2ED9C9B82AB9668"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"C2487DCA3C620898683E87E4AF92DC8A"
+					"encrypted_size_2"		"6074B70A1C0F14A1DFE077CAF76765D7"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"32537C01D1E282835A66A6D50DF1AA38"
+					"encrypted_size_2"		"2E3ECDD8195DC4B86E1192F7742C6353"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"B50FC5D2D9536BD316CE9794043BA888"
+					"encrypted_size_2"		"D5496D5E7A10AA6EED510CFB25CBECC1"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"F1407ABA1D774A59487B762B9993296B"
+					"encrypted_size_2"		"21672A5FF4BFA6ABA8CB63198BA85130"
+				}
+			}
+		}
+		"903660"
+		{
+			"name"		"PreOrder (903660) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"903660"
+			"manifests"
+			{
+				"public"		"4866820302837016099"
+			}
+			"maxsize"		"6057608"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"77EA99BEB0AE5656457225FF869C0CE2"
+					"encrypted_size_2"		"38214248ACB44F2F31E4ABCA436B6EA8"
+				}
+			}
+		}
+		"905190"
+		{
+			"name"		"Deluxe Pack (905190) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"905190"
+			"manifests"
+			{
+				"public"		"245250878802804071"
+			}
+			"maxsize"		"6059165"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"8775FB28A06A140BB8D80E807F2DA79E"
+					"encrypted_size_2"		"91A015AB334D450BD15C125FDA531265"
+				}
+			}
+		}
+		"916220"
+		{
+			"name"		"California Lake (916220) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"916220"
+			"manifests"
+			{
+				"public"		"5907161105383988413"
+			}
+			"maxsize"		"10671347"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"58B267F8F26619F1FAB2FCF36194092C"
+					"encrypted_size_2"		"732F707C488807105B13B43DD3829A41"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"7C019402B61BBB626EE34910C7E85138"
+					"encrypted_size_2"		"58FB262712F16DA02809AADE9F7A8676"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"CB56B7355A88C30248538997EFC42FA5"
+					"encrypted_size_2"		"0D7A0EF8C2A73137B38AE1BA798E3383"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"C5943ECB54C7DD7EE703596C5696FBFC"
+					"encrypted_size_2"		"74C25EDBD97A6F62EF0F5B18227D6D87"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"519D207F8C0393D359E9803956CA7DA4"
+					"encrypted_size_2"		"A7B26BB8BB67B0CFC778E709ADB4C8F6"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"196C90AF4898EBAEA198A9885811C270"
+					"encrypted_size_2"		"CA492AC34F2F9A4907DC74B7541B5122"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"3D932CCC13E13A74865A721AD3561FD6"
+					"encrypted_size_2"		"3DB008CED6F4D3C311171196853E495E"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"667544D7AA44DD76DED8396315732044"
+					"encrypted_size_2"		"6412E1D7CCEB6F240E0EEEFF6C329364"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"91C5B64D167B531B7D80AABA4BF1A7A9"
+					"encrypted_size_2"		"73320A6DFB364F6A14D474BCBA4755C9"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"73599729834AF34CEE019A8AEE9671DA"
+					"encrypted_size_2"		"44890C763DA5BFBF7C17B96156ACFB25"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"19ADC20A12E74AC8FC01A37525291B1E"
+					"encrypted_size_2"		"544C96B477DFC203E0DF7CA01787A0C8"
+				}
+			}
+		}
+		"931530"
+		{
+			"name"		"Al Lake (931530) Depot"
+			"dlcappid"		"931530"
+			"manifests"
+			{
+				"public"		"4823675148548714093"
+			}
+			"maxsize"		"10671270"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"8BCB4CACE8F31AF3559DDA9761E9E565"
+					"encrypted_size_2"		"E53692FED0DFAEEE128E543CF1AE9F64"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"F78A29C117DD8CC3CBBFB0654833823C"
+					"encrypted_size_2"		"11A34288CA0409F4AE7D9708327BE793"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"0661CB0AF8874A535F919FB6D6622D98"
+					"encrypted_size_2"		"12DB03E4AEEC6C301A40757F4D09D64F"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"E682C4140F854265E3A69FDCC74B350E"
+					"encrypted_size_2"		"2E0D4EF72E83D368CC7B915F3D07743B"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"EC410D79C64E5C7638F7006C9E15AC99"
+					"encrypted_size_2"		"1D905A13DB618ABCB2F1C7474621C53C"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"551FCEB256CD8E9B4117FC12C64E9355"
+					"encrypted_size_2"		"79E0C1354E74ABF32C75AF38810E5123"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"DE592A85245B3AB5058A8628483C23DF"
+					"encrypted_size_2"		"BD857963881C69F6DCB3AC04DE753396"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"00A3CAF1736E5BE4AA2FF46C5761DEEA"
+					"encrypted_size_2"		"AAE2703D550D742F7CFED8FB41B67B32"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"29186F6452F3E0E62B0A0FD1168040D4"
+					"encrypted_size_2"		"1AA2116CA424FA672253102D0AB24CAE"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"745545D8E53317D8FCB9C09F5F5803C7"
+					"encrypted_size_2"		"1C876A1B5B99EA60628928AAC942530F"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"6FA3A698E009D7B21A065A09277EB75E"
+					"encrypted_size_2"		"A8A2C1EC4614DF266A0EC20EE1A78D56"
+				}
+			}
+		}
+		"940530"
+		{
+			"name"		"Po Lake (940530) Depot"
+			"dlcappid"		"940530"
+			"manifests"
+			{
+				"public"		"3879730072382113990"
+			}
+			"maxsize"		"10669665"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"9490E6B5104AB12CA1A8A58DF61904F6"
+					"encrypted_size_2"		"85625873CF0891D194EC8685016DE126"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"C0F270A606141774626E59473E2194E0"
+					"encrypted_size_2"		"04B48F15AA28DC9C63F3B4EB6A22EAD2"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"7650DFEA48B71397AE6275E5A72486A7"
+					"encrypted_size_2"		"B9F550031098C6E0CD480EDA7FE72CD4"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"B5DEBBEEB3CCF0779F60CC55BD614142"
+					"encrypted_size_2"		"46C0C4828E6AA9E76F145DFEE071968F"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"EB1965115043DE74A3BB95E3D7A96BA4"
+					"encrypted_size_2"		"688B0D04F1469E7239BA51DB2D4805F2"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"B9B69114D6EB6DBE7378B35EFAE8DDCA"
+					"encrypted_size_2"		"127E9C7524622EB7A198A2A91FE9D4E4"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"B944298D929AD5088819FDE88298A409"
+					"encrypted_size_2"		"ECF69BA254B165CD2F0355E01DA52165"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"2648FC6DCBAB6FF708207A7143A325F3"
+					"encrypted_size_2"		"ABC5642BF84878A9E1EED8F993244290"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"18D22A76201FB99BD4E85469D3ACA6DA"
+					"encrypted_size_2"		"E719A7AF312E93EC9D10F0AA8DB9917F"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"3E95F06D18A9089DDAAD67F9E2CBD4F2"
+					"encrypted_size_2"		"9D0DCF2E28D777BDB69014B96AE133E8"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"EF3D4995F3315723A83818212F1E5CC6"
+					"encrypted_size_2"		"F128A4C7B17BDCCDAB69095627BA5AD5"
+				}
+			}
+		}
+		"973610"
+		{
+			"name"		"MN Lake (973610) Depot"
+			"dlcappid"		"973610"
+			"manifests"
+			{
+				"public"		"1966202744631635564"
+			}
+			"maxsize"		"10669725"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"A459C5EEAA50B7273230AC3CE23A3642"
+					"encrypted_size_2"		"81B79E652CD2D97221856ABFD1A5DA24"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"F429EF3FB9E247497843C9EF701D049F"
+					"encrypted_size_2"		"86188128F3AAE46402EFD49803E7F637"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"0892532EF7FF68863491840F66211A77"
+					"encrypted_size_2"		"75D3009914A198EB1CBA2D4AB6D62983"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"BCE7F67D3DD7511A0C88DAC04F9ADE22"
+					"encrypted_size_2"		"D7F32DB2D6F39E1AC320C80141E2472C"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"513BCD62028CF9A82AB2DF2FC49A9234"
+					"encrypted_size_2"		"5A7FCB986AF49F5E3B547CFA58F85647"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"B183AE2858AD86DCD5C6DD539F48F49B"
+					"encrypted_size_2"		"E951B436D342CFA2F757314AB104E96A"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"7F079D1D1143AF0ED042C775EED663F4"
+					"encrypted_size_2"		"136F46DE3A19B750A842E2A45E7081D6"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"DD8DCA53B9536D43CDD4B0D43585284D"
+					"encrypted_size_2"		"EF36D338F93C6E85343F89D179F4EDFA"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"A5842DA605E70733D8C6C8BD6D398B66"
+					"encrypted_size_2"		"5CCDE995DF444C6916DB18BA875732D2"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"EDE8601D127E8B87E0A4A77EC92B02C8"
+					"encrypted_size_2"		"12E7AB34C6BF81BCCEBE63CAD363A6FC"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"C94E5CBCD6AE6AED94782C838EE23D1A"
+					"encrypted_size_2"		"C111D62F821A7AEE75BEB045294B8EE9"
+				}
+			}
+		}
+		"973612"
+		{
+			"name"		"Gig Rd Lake (973612) Depot"
+			"dlcappid"		"973612"
+			"manifests"
+			{
+				"public"		"540528044954078139"
+			}
+			"maxsize"		"10669641"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"FFF9AA41CC03108B8CF8CC00EA0A0C5B"
+					"encrypted_size_2"		"C31D8BBCEE4392754DC4D88B23AC0E33"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"AC18B54967AC6F7FDBBB519C8E733DF0"
+					"encrypted_size_2"		"66D629E5B5E2183B451C8FFED90620AC"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"4CBA65C4E11A64E7486269588EDA4B89"
+					"encrypted_size_2"		"9178C6294F07668EF34BD1D84F6D1D98"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"7BFFD78A4B3EBC6EB822B7C0687E84DE"
+					"encrypted_size_2"		"AFEEB8F1EF31E8E1BD83869A17F48A28"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"F072F6E126E225D75E2B0044D8B42562"
+					"encrypted_size_2"		"754346F6CFCDBC427EFDA4B520EC75CD"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"CF0112BDAEDCB09951E22748F44427F9"
+					"encrypted_size_2"		"25468431051B5047226023C18551D551"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"261E89759CAAB5B8D3550A480AA965A4"
+					"encrypted_size_2"		"6C2EA0430FF892EB96939B04562395C3"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"77D641A9137731586929AFDC3C591114"
+					"encrypted_size_2"		"3BCA71E7B0733BD40726CA43E84DA97A"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"F3FA596707B44BEDB28056EA8B15ABEF"
+					"encrypted_size_2"		"D3B21AA684FFFF73BFCFF0F9953AD949"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"C2E53B34B2B3347E8215D9727A1B7A72"
+					"encrypted_size_2"		"217A9ED423312F35E989B2BF10FFA1FD"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"66364E884E3BDD272AFB0719C1C418ED"
+					"encrypted_size_2"		"02E29BF097592CA90AFD6E30CFE35C78"
+				}
+			}
+		}
+		"978880"
+		{
+			"name"		"Sp Lake (978880) Depot"
+			"dlcappid"		"978880"
+			"manifests"
+			{
+				"public"		"5658780734412986939"
+			}
+			"maxsize"		"10673797"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"FC058C265A4CBEE4B70E39C1BFB5F114"
+					"encrypted_size_2"		"7013A12B5CC0515DEEE10A215DF6883C"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"ECDB5267D8CEAFBE4F38A33B4F135CBF"
+					"encrypted_size_2"		"70B3FB5E59509B24A9F98B28175C43C1"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"9C4CC6E525F5C4F0D5C4EC2CC9B85908"
+					"encrypted_size_2"		"BC61E03CC3F86FD4C1877734463643B4"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"D7FBDF1832225D6F2B0B6E28F681784C"
+					"encrypted_size_2"		"66F5D3122F1FBE31AB5FEB90BC887E8D"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"7327FCE0DBF024D225D8B0B48CCA3F9D"
+					"encrypted_size_2"		"10C102FC74C07CC9E1F4AF1FE3DAD2D2"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"AA74FD664B22D70833738B9A8C86D6C8"
+					"encrypted_size_2"		"43044B9D366985AE076F92A4EE057215"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"A6CF0761E8B31A04720D2B334F668892"
+					"encrypted_size_2"		"CD3DE6C54CB65E8EDE5C409BD2EABB24"
+				}
+				"release_candidate(shipping)"
+				{
+					"encrypted_gid_2"		"65FE31EB54AE3E16955ABBFBE748BED6"
+					"encrypted_size_2"		"D84EB53358FBA8C05343C044183CBA21"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"BE31BAFEAA9E0DC4651E5EB5CA09C5B8"
+					"encrypted_size_2"		"6FEC7D33A69FB030CFD22BFFEA396805"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"FC809D950A6AAC25D031FFF20396DDB4"
+					"encrypted_size_2"		"53DD5E56D8F34713830AFAFB49CCC298"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"ECCF79EA97EC2FF6C8910FE5D71363DB"
+					"encrypted_size_2"		"7D6D7A61176C720B2FC5BD25DD5FBAE4"
+				}
+			}
+		}
+		"973611"
+		{
+			"name"		"Eq Pack 1 (973611) Depot"
+			"dlcappid"		"973611"
+			"manifests"
+			{
+				"public"		"3397348426176208141"
+			}
+			"maxsize"		"6370505"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"5F308E5DD529C0C25923E858796E3621"
+					"encrypted_size_2"		"C8A4236F5A79311B4DC44CB450AAD032"
+				}
+				"rc_test"
+				{
+					"encrypted_gid_2"		"03E986F6770CDB81D2F0466132763B74"
+					"encrypted_size_2"		"FF6DF5540CD15208333BFD89288BA3BB"
+				}
+			}
+		}
+		"1030561"
+		{
+			"name"		"FSW DLC 2 LT (1030561) Depot"
+			"dlcappid"		"1030561"
+			"manifests"
+			{
+				"public"		"6543274450355455677"
+			}
+			"maxsize"		"10669713"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"AC6E8917D4958C6CA71E5C89F964A572"
+					"encrypted_size_2"		"19606D58C8C4E28612E0F703564B7391"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"1EA6B39E73DEFA65D4529C6D55BC8817"
+					"encrypted_size_2"		"6FAC29E8C1D235D4FCF3537924CB669E"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"FA0E605FBDAEA29546077168B66E6C2B"
+					"encrypted_size_2"		"1FA8E9CC43EEDA2B4266A0AE68DCAA1A"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"230D0081D71389445A8633FFC9112AF8"
+					"encrypted_size_2"		"E4B37D74CCE5D26458A2DC0724350421"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"42257386D571C5ACA9A7F49AC5C3C778"
+					"encrypted_size_2"		"34DC3052EF98C38ED8E0D89C288F08E1"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"9D2EE152E1B772999044A948721B4F85"
+					"encrypted_size_2"		"8460A9D1E328A53BA34E46826FA5CD2F"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"625E9ADE50ED7D5C29C53DB6B536A521"
+					"encrypted_size_2"		"35D0B70D3365194FA07D528830C8204A"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"ECB5F3E9608EB2BD91D0087DF3C9C8D9"
+					"encrypted_size_2"		"CF4277698E2DD1E9650949F172C9552D"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"EF9C63DD7E027100956783642013BE9E"
+					"encrypted_size_2"		"B766AA1A962DAEC10C98753A295166E4"
+				}
+			}
+		}
+		"1030562"
+		{
+			"name"		"FSW DLC 3 (1030562) Depot"
+			"dlcappid"		"1030562"
+			"manifests"
+			{
+				"public"		"879924087772540331"
+			}
+			"maxsize"		"10669677"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"D1896BD12293E66BF57754A51DFEF4B2"
+					"encrypted_size_2"		"C290B940A6E819F66C369F4502CF37F3"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"40C13A59FAA7F8E850D5322082956E95"
+					"encrypted_size_2"		"15563CF08BDF6E313539711228CFBE0E"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"728D8B2DECFE145D394C35BEDB7E8120"
+					"encrypted_size_2"		"211D39B3542012B64DF9C1F4727E571F"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"BA93FC24A5B5549099F8ED5BCFFAC8C2"
+					"encrypted_size_2"		"BA4F00046BA22AAD9EA515AAC819243F"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"3134A7D73C913987595AA42A2248814E"
+					"encrypted_size_2"		"850EACEC961EF230E4636CD86C60618E"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"73093C67AB116B7BF58A4F6DC72EF0B7"
+					"encrypted_size_2"		"ECFB0F0C2A4777E363FBE38F6BCAC525"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"AB8EDB79787614EE205D76FB928835BA"
+					"encrypted_size_2"		"FF542CF29AB3D648450882D31D368E30"
+				}
+				"release_candidate(test)backup"
+				{
+					"encrypted_gid_2"		"A9386D9250A0A7333C434A3702F33BD1"
+					"encrypted_size_2"		"1FF229DDE16A02A8C80E40C8F571D3FF"
+				}
+				"test_default"
+				{
+					"encrypted_gid_2"		"94D60826F8E51855D7017BAF26C37C16"
+					"encrypted_size_2"		"32E7932855A5CCC4AFF5D24156292945"
+				}
+			}
+		}
+		"1030560"
+		{
+			"name"		"FSW DLC 1 Tx (1030560) Depot"
+			"dlcappid"		"1030560"
+			"manifests"
+			{
+				"public"		"833594678315704168"
+			}
+			"maxsize"		"10669365"
+			"encryptedmanifests"
+			{
+				"dev_review"
+				{
+					"encrypted_gid_2"		"1357BBFA91F84A3DED4945EA13A6E20C"
+					"encrypted_size_2"		"65961E378B29EDA74042B9E8D0820114"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"2688A4A333F07FD74098324945259DB9"
+					"encrypted_size_2"		"C4B513A4EBB7450534E7A4310F79AC44"
+				}
+				"rc19_shipping"
+				{
+					"encrypted_gid_2"		"7C249D7E521F350BD6B9B02121838889"
+					"encrypted_size_2"		"B9BFC37481B57C95554F610E56647BEE"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"779EB1A4FD6C81C69386711CF0CBC77F"
+					"encrypted_size_2"		"700E1382D14A0610C2B8CBFE72D9F60B"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"09F894A8EB10DBF1E1526ED6A953A0CB"
+					"encrypted_size_2"		"340A57BEE2EA686F47D6BCF51931B16B"
+				}
+				"release_candidate(shipping)backup"
+				{
+					"encrypted_gid_2"		"EC23B4DF8C180FEF50BBB05B1BA452B3"
+					"encrypted_size_2"		"83B046857B8F92632DDF132024FB53C2"
+				}
+			}
+		}
+		"1030563"
+		{
+			"name"		"FSW DLC 4 (1030563) Depot"
+			"dlcappid"		"1030563"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"10B8363AC59156F6DE592F09C9FE350C"
+					"encrypted_size_2"		"0362030288EF330514E69DD4D4BAEFBB"
+				}
+				"rc19_test"
+				{
+					"encrypted_gid_2"		"BB70FB7DAB8DCD2B542B9875E9AC6CBC"
+					"encrypted_size_2"		"99EB18FC13748D7B7376525C256C9BD8"
+				}
+				"rc19_test(shipping)"
+				{
+					"encrypted_gid_2"		"82EA856D4728958026A624F6CFFC3FA3"
+					"encrypted_size_2"		"5F767FECAC7F4FE75170CB97E4948E3D"
+				}
+			}
+		}
+		"1030564"
+		{
+			"name"		"FSW DLC 5 (1030564) Depot"
+			"dlcappid"		"1030564"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"EAAFC68E770CC25F8E9BC1C86621C46C"
+					"encrypted_size_2"		"009F733405BCBA7EFE46DA172FD12CBE"
+				}
+			}
+		}
+		"1136000"
+		{
+			"name"		"FSW DLC 6 (1136000) Depot"
+			"dlcappid"		"1136000"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"9BF43AFCEA68BAE64CD3B89E24518B04"
+					"encrypted_size_2"		"17B19660B16D942426110EDC3ABC13A8"
+				}
+			}
+		}
+		"1136001"
+		{
+			"name"		"FSW DLC 7 (1136001) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"AE9CF8B672402474738A32CF278CAEAC"
+					"encrypted_size_2"		"B5672A4EB507E37A9B7E685D60040859"
+				}
+			}
+			"dlcappid"		"1136001"
+		}
+		"1136002"
+		{
+			"name"		"FSW DLC 8 (1136002) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"6BECC46099E61D11C618A0382407426C"
+					"encrypted_size_2"		"229D17B6E2437F00628B7FF303A251B1"
+				}
+			}
+			"dlcappid"		"1136002"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4155074"
+				"timeupdated"		"1567501931"
+			}
+			"alpha"
+			{
+				"buildid"		"2796628"
+				"description"		"Dev Alpha holding branch NOT FOR QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1527071262"
+			}
+			"baseline"
+			{
+				"buildid"		"3055663"
+				"description"		"merge this branch with disk_version so can do goldmaster"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536334047"
+			}
+			"dev_review"
+			{
+				"buildid"		"4090372"
+				"description"		"feedback"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565348578"
+			}
+			"development"
+			{
+				"buildid"		"4178822"
+				"description"		"Nightly Dev build NOT FOR QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568024453"
+			}
+			"disk_version"
+			{
+				"buildid"		"3015666"
+				"description"		"This should be the branch we build hte disk from to match the console versions"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533733207"
+			}
+			"preview"
+			{
+				"buildid"		"4006632"
+				"description"		"Preview of Fishing Sim World Pro Tour"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563194616"
+			}
+			"rc_test"
+			{
+				"buildid"		"3710419"
+				"description"		"ONLY for test requiring console commands"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554410652"
+			}
+			"rc19_shipping"
+			{
+				"buildid"		"4177097"
+				"description"		"F19 build Submission branch, to go live"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567945064"
+			}
+			"rc19_shipping(backup)"
+			{
+				"buildid"		"4155074"
+				"description"		"F19 store approved build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567495981"
+			}
+			"rc19_test"
+			{
+				"buildid"		"4176633"
+				"description"		"F19 build RC branch, test config with console"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567916270"
+			}
+			"rc19_test(shipping)"
+			{
+				"buildid"		"4176848"
+				"description"		"F19 build RC branch, shipping config"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567930553"
+			}
+			"release_candidate(shipping)"
+			{
+				"buildid"		"3709525"
+				"description"		"Test this one! It's the one that will go live"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554393325"
+			}
+			"release_candidate(shipping)backup"
+			{
+				"buildid"		"4120156"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567495363"
+			}
+			"release_candidate(test)backup"
+			{
+				"buildid"		"4065669"
+				"description"		"Pro 19 P1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565688960"
+			}
+			"test_default"
+			{
+				"buildid"		"4075202"
+				"description"		"Builds tested here before pushed to default"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564992916"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"FishingGame/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
+ 

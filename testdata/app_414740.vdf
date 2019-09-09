@@ -1,0 +1,477 @@
+"appinfo"
+{
+	"appid"		"414740"
+	"common"
+	{
+		"name"		"RAID: World War II"
+		"type"		"Game"
+		"clienttga"		"b234173143d9516444cf15e0b532b28f2b31bba2"
+		"clienticon"		"6ddb045e104eed0a61744d70bdabd996c7fa5064"
+		"icon"		"8772cf97be4b32c64657f9acb573fd0faf207d09"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"00ada58fc8d4eeb6461f56f03673d2aa2a1c3b81"
+		"logo_small"		"00ada58fc8d4eeb6461f56f03673d2aa2a1c3b81_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"RAID: World War II"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"50"
+				"height_pct"		"42.40085490382332"
+			}
+		}
+		"store_asset_mtime"		"1567699179"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lion game Lion"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Starbreeze Publishing AB"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1506409200"
+		"steam_release_date"		"1506446100"
+		"metacritic_score"		"53"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/raid-world-war-ii?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"414740"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4150"
+			"2"		"1663"
+			"3"		"1685"
+			"4"		"3859"
+			"5"		"1774"
+			"6"		"3839"
+			"7"		"4667"
+			"8"		"1680"
+			"9"		"1687"
+			"10"		"21"
+			"11"		"4345"
+			"12"		"122"
+			"13"		"4182"
+			"14"		"1719"
+			"15"		"1756"
+			"16"		"10397"
+			"17"		"1695"
+			"18"		"4166"
+			"19"		"1678"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Lion game Lion"
+		"publisher"		"Starbreeze Publishing AB"
+		"homepage"		"http://www.raidworldwar2.com/"
+		"listofdlc"		"707070,707080,720860,755330,804050"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RAID World War II"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"raid_win64_d3d9_release.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"414741"
+		{
+			"name"		"RAID: World War II Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8415752314127049565"
+			}
+			"maxsize"		"26730972377"
+			"encryptedmanifests"
+			{
+				"beta_testing"
+				{
+					"encrypted_gid_2"		"ECDA1D721CCA7B40279540290F7061BD"
+					"encrypted_size_2"		"76E09DA3CC88FC102B15754C4AE3445D"
+				}
+				"beta_testing_secondary"
+				{
+					"encrypted_gid_2"		"A1F701B7E46AE3E584595538721A7876"
+					"encrypted_size_2"		"D6DDA3AAC4264649E47586E55E787042"
+				}
+				"jenkins_win32_censored"
+				{
+					"encrypted_gid_2"		"458C169DE718CD2759A176CD9C83DADD"
+					"encrypted_size_2"		"D7C8D9B80208032DCDF7C0DDD9452345"
+				}
+				"lgl_qa"
+				{
+					"encrypted_gid_2"		"7252919D01D566BFF6520CD774E5EEF1"
+					"encrypted_size_2"		"361B29002000A3D59F6F5B6B91004BE4"
+				}
+			}
+		}
+		"414747"
+		{
+			"name"		"RAID: World War II Depot Censored Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5468010464535083116"
+			}
+			"maxsize"		"26703332089"
+			"encryptedmanifests"
+			{
+				"beta_testing"
+				{
+					"encrypted_gid_2"		"AA8C582561AF341C2742286E63F14FD8"
+					"encrypted_size_2"		"2E2749EFDA5F54708946A9F52A73D1DA"
+				}
+				"beta_testing_secondary"
+				{
+					"encrypted_gid_2"		"84540FF113E63ADDC8C6C8D51F0FFB44"
+					"encrypted_size_2"		"17F6535C3EFB591C57C6B66542B2F9EF"
+				}
+				"lgl_qa"
+				{
+					"encrypted_gid_2"		"2A49930D06931CFD5E151C3E62CBB90C"
+					"encrypted_size_2"		"2508EE65932C8838643F2843C5DE98C8"
+				}
+			}
+		}
+		"414742"
+		{
+			"name"		"RAID: World War II Depot - German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5461089587238897884"
+			}
+			"maxsize"		"1373"
+		}
+		"414743"
+		{
+			"name"		"RAID: World War II Depot - French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4719048754015046483"
+			}
+			"maxsize"		"1373"
+		}
+		"414744"
+		{
+			"name"		"RAID: World War II Depot - Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4174878885898476536"
+			}
+			"maxsize"		"1374"
+		}
+		"414745"
+		{
+			"name"		"RAID: World War II Depot - Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"463896024781131342"
+			}
+			"maxsize"		"1374"
+		}
+		"414746"
+		{
+			"name"		"RAID: World War II Depot - Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7130948976647061238"
+			}
+			"maxsize"		"1374"
+		}
+		"414748"
+		{
+			"name"		"RAID: World War II Depot - Chinese Simplified"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"8560636920066673951"
+			}
+			"maxsize"		"1385"
+		}
+		"707081"
+		{
+			"name"		"RAID: World War II Depot Art Special Edition Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"707080"
+			"manifests"
+			{
+				"public"		"3048988680620135682"
+			}
+			"maxsize"		"203581353"
+		}
+		"414749"
+		{
+			"name"		"RAID: World War II Depot Debug Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"lgl_qa"
+				{
+					"encrypted_gid_2"		"58D1032AE033D8A40EC896271AEA9333"
+					"encrypted_size_2"		"08DE9223D4339479322E6737CF20BE54"
+				}
+			}
+		}
+		"720861"
+		{
+			"name"		"RAID: World War II Soundtrack Depot"
+			"dlcappid"		"720860"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3719283028707641575"
+			}
+			"maxsize"		"357138235"
+		}
+		"707071"
+		{
+			"name"		"RAID: World War II Depot Censored Debug Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"lgl_qa"
+				{
+					"encrypted_gid_2"		"F6A43330F02D0C693DD7D8C516EE6E8B"
+					"encrypted_size_2"		"D3778D7149541689CD72E229531AC943"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2816197"
+				"timeupdated"		"1527785913"
+			}
+			"beta_testing"
+			{
+				"buildid"		"2799600"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527081736"
+			}
+			"beta_testing_secondary"
+			{
+				"buildid"		"2583610"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520429318"
+			}
+			"jenkins_win32"
+			{
+				"buildid"		"2815705"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527607363"
+			}
+			"jenkins_win32_censored"
+			{
+				"buildid"		"2815672"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527606665"
+			}
+			"lgl_qa"
+			{
+				"buildid"		"2775706"
+				"description"		"LGL qa branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526393157"
+			}
+			"staging_release"
+			{
+				"buildid"		"2816197"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527617402"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"20"
+	}
+}
+ 

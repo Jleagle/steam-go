@@ -1,0 +1,477 @@
+"appinfo"
+{
+	"appid"		"807120"
+	"common"
+	{
+		"name"		"Iratus: Lord of the Dead"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"87aa241c8a67f42e6f26ca8ca5fdd1b83d0b5423"
+		"logo_small"		"87aa241c8a67f42e6f26ca8ca5fdd1b83d0b5423_thumb"
+		"icon"		"0e18fba1f7cc46e8f6dc3b9ce048441d7e1a5044"
+		"clienttga"		"5123163d0f51a48e88cca7185d3015c76f49f319"
+		"clienticon"		"4789820054934186c349085fa885d63e9f6f10b1"
+		"linuxclienticon"		"cc5557a8aa8e70eaef0cf8d381c19fa843bc5ca1"
+		"clienticns"		"d7e86187aff1c7509902569b9c28f3eeb9a5e59e"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+		}
+		"osextended"		""
+		"metacritic_name"		"Iratus: Lord of the Dead"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1565625974"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unfrozen"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Daedalic Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Daedalic Entertainment"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1563983912"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"807120"
+		"store_tags"
+		{
+			"0"		"4325"
+			"1"		"122"
+			"2"		"4604"
+			"3"		"3959"
+			"4"		"9"
+			"5"		"492"
+			"6"		"4342"
+			"7"		"14139"
+			"8"		"7432"
+			"9"		"1684"
+			"10"		"3871"
+			"11"		"1677"
+			"12"		"3952"
+			"13"		"4026"
+			"14"		"493"
+			"15"		"4711"
+			"16"		"4667"
+			"17"		"1716"
+			"18"		"4345"
+			"19"		"4182"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"developer"		"Unfrozen"
+		"publisher"		"Daedalic Entertainment"
+		"homepage"		"http://iratus.org/"
+		"listofdlc"		"1018320,1018330,1125270"
+	}
+	"config"
+	{
+		"installdir"		"Iratus Lord of the Dead"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Iratus.exe"
+				"arguments"		"-logFile iratus.log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"open_bonus_win.bat"
+				"description"		"Bonus Content"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1018320,1018330"
+				}
+			}
+			"3"
+			{
+				"executable"		"open_bonus_lin.sh"
+				"description"		"Bonus Content"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"ownsdlc"		"1018320,1018330"
+				}
+			}
+			"4"
+			{
+				"executable"		"Contents\\MacOS\\Iratus"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"open_bonus_osx.sh"
+				"description"		"Bonus Content"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"1018320,1018330"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,koreana,spanish,schinese,tchinese,russian"
+		"807121"
+		{
+			"name"		"iratus win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6220834417156029494"
+			}
+			"maxsize"		"2441675899"
+			"encryptedmanifests"
+			{
+				"chinabuild"
+				{
+					"encrypted_gid_2"		"148977208251EC3A64DEEBEE3C5D719D"
+					"encrypted_size_2"		"6882F47E4AE0E13608776A0B9D720DDD"
+				}
+				"daedalic.test.patch"
+				{
+					"encrypted_gid_2"		"2EF4B850782D33EA76495AA56CD1E159"
+					"encrypted_size_2"		"6A632AAEEF3DF7FE92A2AF7A65D88623"
+				}
+				"developers"
+				{
+					"encrypted_gid_2"		"32C918615691015BA3A63114B5CD3E16"
+					"encrypted_size_2"		"8C57D402AC5085EB4FD58ACE2FB8CE8F"
+				}
+				"developersmac"
+				{
+					"encrypted_gid_2"		"459ECBCD1A9E909C7A88169B4F093BE7"
+					"encrypted_size_2"		"4145B2241E5EFE8782650A8850340511"
+				}
+				"kickstarter.backers"
+				{
+					"encrypted_gid_2"		"56525F4CC4841364AC5EA542F752F36F"
+					"encrypted_size_2"		"A6A2220C24DBE3478430287FDAB4D82C"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"883BB6FD15E5249C0669CF481EDB36CA"
+					"encrypted_size_2"		"F0BB2641762103BFEFE221C7627DF0A9"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"EE6A4E9F180C15F709DE1BD0B3ECFF60"
+					"encrypted_size_2"		"A3E5B9A697AC823294ED83F24AD6E975"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"8B366F390B1798F9C4C10686C4F90750"
+					"encrypted_size_2"		"8EFB29977ABDB0BADA79EA9F766077D8"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"ACF32377AC6DA453AD6B7E90FE3CBD8D"
+					"encrypted_size_2"		"A248A45965E4B874B7CE218A50F283D2"
+				}
+				"testing-ex"
+				{
+					"encrypted_gid_2"		"9C4BC2CBF26B915B729D1AA2AF1CEB02"
+					"encrypted_size_2"		"D7F280197C6AA83E2068E490DF975EE5"
+				}
+			}
+		}
+		"807122"
+		{
+			"name"		"iratus osx"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"developersmac"
+				{
+					"encrypted_gid_2"		"8860A3F12E2A3B60ED8A77FAC51CEFD3"
+					"encrypted_size_2"		"295EEDCA1A45079828E3763202A70BA3"
+				}
+			}
+		}
+		"807123"
+		{
+			"name"		"iratus lin"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"1018320"
+		{
+			"name"		"iratus soundtrack"
+			"dlcappid"		"1018320"
+			"manifests"
+			{
+				"public"		"6925661662138855151"
+			}
+			"maxsize"		"231543307"
+		}
+		"1018330"
+		{
+			"name"		"iratus artbook & strategy content"
+			"dlcappid"		"1018330"
+		}
+		"1125270"
+		{
+			"name"		"iratus supporter pack content"
+			"dlcappid"		"1125270"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4142010"
+				"timeupdated"		"1567094207"
+			}
+			"chinabuild"
+			{
+				"buildid"		"3764318"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556103794"
+			}
+			"daedalic.test.hotfix"
+			{
+				"buildid"		"4142010"
+				"description"		"Current Hotfix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566896853"
+			}
+			"daedalic.test.patch"
+			{
+				"buildid"		"4153647"
+				"description"		"Next patch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567174653"
+			}
+			"developers"
+			{
+				"buildid"		"4153561"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567172808"
+			}
+			"developersmac"
+			{
+				"buildid"		"4153631"
+				"description"		"mac version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567174177"
+			}
+			"kickstarter.backers"
+			{
+				"buildid"		"4087411"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565279213"
+			}
+			"localization"
+			{
+				"buildid"		"3956624"
+				"description"		"External Localization QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561563694"
+			}
+			"milestone"
+			{
+				"buildid"		"4087411"
+				"description"		"Lastest milestone"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565279255"
+			}
+			"preview"
+			{
+				"buildid"		"4087411"
+				"description"		"Press preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565279271"
+			}
+			"review"
+			{
+				"buildid"		"4087411"
+				"description"		"Press review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565279288"
+			}
+			"testing-ex"
+			{
+				"buildid"		"4002539"
+				"description"		"External testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562923107"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Unfrozen/Iratus/"
+				"pattern"		"*.svf"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Unfrozen/Iratus/"
+				"pattern"		"*.mapsave"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".local/share/"
+			}
+		}
+	}
+}
+ 

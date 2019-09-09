@@ -1,0 +1,470 @@
+"appinfo"
+{
+	"appid"		"700330"
+	"common"
+	{
+		"name"		"SCP: Secret Laboratory"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"a958d5fa8695a07758a901947fac20a53226fb5e"
+		"logo_small"		"a958d5fa8695a07758a901947fac20a53226fb5e_thumb"
+		"icon"		"85c1c1fc51a8952bcc19bb1c4c3270cb20788f10"
+		"clienttga"		"192b20abe0007ee37a9c55be1f0242df66863725"
+		"clienticon"		"700f8fa16aae82fe0605806b6c44e4bb9701fc8d"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"700330_eula_0"
+				"name"		"SCP: Secret Laboratory EULA"
+				"url"		"http://store.steampowered.com//eula/700330_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"finnish"		"1"
+			"swedish"		"1"
+		}
+		"metacritic_name"		"SCP: Secret Laboratory"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1541271252"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Northwood Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Northwood Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1514563214"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"700330"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1667"
+			"2"		"3859"
+			"3"		"3839"
+			"4"		"1685"
+			"5"		"3978"
+			"6"		"19"
+			"7"		"1774"
+			"8"		"3843"
+			"9"		"10397"
+			"10"		"3942"
+			"11"		"1663"
+			"12"		"1662"
+			"13"		"1721"
+			"14"		"4166"
+			"15"		"9"
+			"16"		"492"
+			"17"		"4026"
+			"18"		"21"
+			"19"		"1684"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Northwood Studios"
+		"publisher"		"Northwood Studios"
+		"homepage"		"https://scpslgame.com/"
+		"isfreeapp"		"1"
+		"listofdlc"		"786920,859190,859210,996560"
+	}
+	"config"
+	{
+		"installdir"		"SCP Secret Laboratory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SCPSL.exe"
+				"description"		"Play on Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"LocalAdmin.exe"
+				"description"		"Windows dedicated server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SCPSL.x86_64"
+				"description"		"Play on Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"PrivateBeta\\SCPSL.exe"
+				"description"		"private beta on Windows"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"859210"
+				}
+			}
+			"4"
+			{
+				"executable"		"PrivateBeta\\LocalAdmin.exe"
+				"description"		"private beta dedicated server on Windows"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"859210"
+				}
+			}
+		}
+		"usemms"		"1"
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,polish"
+		"hasdepotsindlc"		"1"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"700331"
+		{
+			"name"		"SCP: Secret Laboratory Content"
+			"manifests"
+			{
+				"public"		"8083032121875433812"
+				"aprilfools"		"1713721555727322325"
+				"first_version_of_sl_published_on_steam"		"6289375014704618905"
+				"linux"		"5955348963792069023"
+			}
+			"maxsize"		"3988811800"
+			"encryptedmanifests"
+			{
+				"privatebeta"
+				{
+					"encrypted_gid_2"		"639D8CEF9D79BE079FBB5FA9AF2ADEAF"
+					"encrypted_size_2"		"A42E406C686FD77956BAECD6F9FE45D0"
+				}
+				"privatebetalinux"
+				{
+					"encrypted_gid_2"		"802A38A826EC14373DC7643EAA5497B6"
+					"encrypted_size_2"		"65E75FC37C2F5529F09DCCB9883B6248"
+				}
+				"qa-testing"
+				{
+					"encrypted_gid_2"		"ED41BA937C31219F3BF1801CC9D38CD6"
+					"encrypted_size_2"		"D02354149121A276A8C1894FB76EC519"
+				}
+				"zabszkbomb"
+				{
+					"encrypted_gid_2"		"4C49E6B8A0E9B7699CD2406F6440A816"
+					"encrypted_size_2"		"9E677DD4194B36BA1C8572B224F29112"
+				}
+				"zap-testing"
+				{
+					"encrypted_gid_2"		"50999DBE07F7B279F6706435827253FE"
+					"encrypted_size_2"		"2246BC33FEC0B88DC68BBB0962C8C2E7"
+				}
+			}
+		}
+		"700332"
+		{
+			"name"		"SCP: Secret Laboratory Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3455417"
+				"timeupdated"		"1554227816"
+			}
+			"aprilfools"
+			{
+				"buildid"		"3698758"
+				"description"		""
+				"timeupdated"		"1554132950"
+			}
+			"first_version_of_sl_published_on_steam"
+			{
+				"buildid"		"2061666"
+				"description"		"First version of SCP:SL published on Steam (version before official release)"
+				"timeupdated"		"1531881237"
+			}
+			"linux"
+			{
+				"buildid"		"3455489"
+				"description"		"For penguin lovers :D"
+				"timeupdated"		"1554227798"
+			}
+			"privatebeta"
+			{
+				"buildid"		"3942782"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561142720"
+			}
+			"privatebetalinux"
+			{
+				"buildid"		"4058423"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564500108"
+			}
+			"qa-testing"
+			{
+				"buildid"		"4154126"
+				"description"		"Private beta branch for QA Testing."
+				"pwdrequired"		"1"
+				"timeupdated"		"1567183334"
+			}
+			"zabszkbomb"
+			{
+				"buildid"		"2858776"
+				"description"		"Last version affected by ZabszkBomb"
+				"pwdrequired"		"1"
+				"timeupdated"		"1529420512"
+			}
+			"zap-testing"
+			{
+				"buildid"		"3601750"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551382754"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"31457280"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"keybinding.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"SteamIDWhitelist.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"mutes.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"4"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"GameOn_*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"5"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"cmdbinding.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"6"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SCP Secret Laboratory"
+				"pattern"		"registry.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

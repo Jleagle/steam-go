@@ -1,0 +1,839 @@
+"appinfo"
+{
+	"appid"		"859580"
+	"common"
+	{
+		"name"		"Imperator: Rome"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"f7375a959da2b46fdea99e310f2b810bf9848429"
+		"logo_small"		"f7375a959da2b46fdea99e310f2b810bf9848429_thumb"
+		"icon"		"2cf7114753a78cc067a250a5cbdbb6a34698ab0c"
+		"clienticon"		"9c666f3481074d644551e4bff1eb0229f9420f10"
+		"clienttga"		"247b2db93f2c6b9c1a6ae2825551446c024dc189"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"Imperator: Rome"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"70.06184665593318"
+				"height_pct"		"74.14733186270648"
+			}
+		}
+		"store_asset_mtime"		"1561539044"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Paradox Development Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Imperator"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1556208001"
+		"metacritic_score"		"76"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/imperator-rome?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"859580"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4364"
+			"2"		"6948"
+			"3"		"3987"
+			"4"		"599"
+			"5"		"4182"
+			"6"		"4853"
+			"7"		"12472"
+			"8"		"3859"
+			"9"		"4695"
+			"10"		"4754"
+			"11"		"493"
+			"12"		"1678"
+			"13"		"1669"
+			"14"		"6426"
+			"15"		"1695"
+			"16"		"3810"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Paradox Development Studio"
+		"publisher"		"Paradox Interactive"
+		"homepage"		"https://www.gameimperator.com/"
+		"listofdlc"		"978950,978951,1016070,1016080,1029700,1029710,1065420,1065421,1065430,1065431,1065450,1065451,1065470,1065471,1066080,1066081,1070470"
+	}
+	"config"
+	{
+		"installdir"		"ImperatorRome"
+		"launch"
+		{
+			"4"
+			{
+				"executable"		"launcher/Paradox Launcher.app/Contents/MacOS/Paradox Launcher"
+				"arguments"		"-- -steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"launcher/Paradox Launcher"
+				"arguments"		"-- -steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"launcher/Paradox Launcher.exe"
+				"arguments"		"-- -steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"launcher/Paradox Launcher.exe"
+				"arguments"		"-- -steam -hardoos -randomlog"
+				"description"		"Multiplayer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"atlantis_rising_beta"
+				}
+			}
+			"8"
+			{
+				"executable"		"launcher/Paradox Launcher"
+				"arguments"		"-- -steam -hardoos -randomlog"
+				"description"		"Multiplayer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"atlantis_rising_beta"
+				}
+			}
+			"9"
+			{
+				"executable"		"launcher/Paradox Launcher.app/Contents/MacOS/Paradox Launcher"
+				"arguments"		"-- -steam -hardoos -randomlog"
+				"description"		"Multiplayer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"atlantis_rising_beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"name"		".NET 4.0 Client Profile Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"43001447"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"859581"
+		{
+			"name"		"Imperator: Rome Content"
+			"manifests"
+			{
+				"public"		"1569479884532326482"
+				"1.0.0"		"3262693555324609489"
+				"1.0.1"		"2974990231809382761"
+				"1.0.3"		"437042845517386971"
+				"1.2-beta"		"108462181349372422"
+			}
+			"maxsize"		"3006322296"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"3803DA66DB0E6D7C070F1767A4EDD849"
+					"encrypted_size_2"		"1D03FC6E48F2499E0F865F78343159B5"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"1FACBAE93B7677AB97B20EC86F7CD3B5"
+					"encrypted_size_2"		"B899BCDB80F8D05E94016DD473DF5DBC"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"95B972D14EE9BEB059B136471A1469EE"
+					"encrypted_size_2"		"BF000FCF0FC86FF1CC547FDD83F91862"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"8846BA5FB90BFAA22EB4D97E3B9E0D62"
+					"encrypted_size_2"		"6A0D462DED1303D2F3B6B5619345E4BF"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"6A0A45693FDF016E50FF7BE13A63EBD0"
+					"encrypted_size_2"		"32BDA9D95DD55860885DA73FEDA6B4D6"
+				}
+			}
+		}
+		"859582"
+		{
+			"name"		"Imperator: Rome Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7440392288664759281"
+				"1.0.0"		"4010775159794416743"
+				"1.0.1"		"5199852476160605875"
+				"1.0.3"		"520389504104642237"
+				"1.2-beta"		"8900749733447322354"
+			}
+			"maxsize"		"426808221"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"3415F2A29F8A4282BB460112A896E5B6"
+					"encrypted_size_2"		"C695139F6B98E55D80BC6DAB34D71F0E"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"2A3672EE8F0494A2C6D9B5CAFFF2A578"
+					"encrypted_size_2"		"2359809A7419C62227D37FB8F1215F91"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"A24DA2503CD9F5451DA8C0171328FB89"
+					"encrypted_size_2"		"817B9945DF548BF610D912A7666BD3D6"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"8A530E993E3B1A94674DC5CE192F711F"
+					"encrypted_size_2"		"E93B7DC0B469788C5D3D66FD48EC7CA5"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"5C062AE470750448893CA905A4A8D1AD"
+					"encrypted_size_2"		"3CF6F46891C52D2AB30B41185ECC5863"
+				}
+			}
+		}
+		"859583"
+		{
+			"name"		"Imperator: Rome OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2511325495230486131"
+				"1.0.0"		"419337131040568770"
+				"1.0.1"		"1699266625492914786"
+				"1.0.3"		"4161860667938756697"
+				"1.2-beta"		"2240349192410209783"
+			}
+			"maxsize"		"152261275"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"CC7B6F9F31310FF98D4A7F1A387D9AD8"
+					"encrypted_size_2"		"FC7394A565109184092B489EC6433846"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"62FBA1469D6345B5109A4D6EF4C3283C"
+					"encrypted_size_2"		"C9F717A40C46EDFB19893DC05D5DC303"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"5884474E5A89A6A14A268454BB128B56"
+					"encrypted_size_2"		"254A35B5CA74713CBD768C077D1A6C99"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"5A2583AA1520505DBBCCF53AC8307E0E"
+					"encrypted_size_2"		"563D3DBFBE2E9F51BE858296AF5935CB"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C99C0CD3A828D98F501E09387AC83315"
+					"encrypted_size_2"		"F447D8EBDD4D11392002E5E85D93FDA5"
+				}
+			}
+		}
+		"859584"
+		{
+			"name"		"Imperator: Rome Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6713266669166857104"
+				"1.0.0"		"4634897433634805554"
+				"1.0.1"		"2622969394530431669"
+				"1.0.3"		"6628904501640865688"
+				"1.2-beta"		"594571748996180081"
+			}
+			"maxsize"		"267542933"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"659BC63AB3617E8DF4134AE830EC528C"
+					"encrypted_size_2"		"5692FB6B5FAA3E8B7D56E7157046B9A6"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"B86F126B9370189DC0E51E21D7368620"
+					"encrypted_size_2"		"21E38750C8795801017DD6E8BC79103E"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"0C86EC80323341F8DAAC71E67518A1A0"
+					"encrypted_size_2"		"3DEC6448BE39AA37F0FC3A721C99AD38"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"027EE866D559D354FCF3DFBCD8AF5E3A"
+					"encrypted_size_2"		"9CC8401EFD709E93F8E8103B6D41D87A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"40FD6974EA5600213DCA169623FFBB50"
+					"encrypted_size_2"		"E1A1DE160C6A0610AB0CC8B682B5A4EF"
+				}
+			}
+		}
+		"859585"
+		{
+			"name"		"Imperator: Rome Launcher Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1404704749182006089"
+				"1.0.0"		"5911589035849885401"
+			}
+			"maxsize"		"143216438"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"EF7C157705A59499A2BBD9CA6E6F7B1D"
+					"encrypted_size_2"		"907CC4778F71608C851CB6737179490A"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"B6C94BDFACE3556B1CEAA3DD8F944F2E"
+					"encrypted_size_2"		"AB8C38107795BBBAB26BF9A50FA232E4"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"AD55C591FEE2223F9FCC9C87A0078E13"
+					"encrypted_size_2"		"FCC5E3F7294BD74331307B1795EFDC97"
+				}
+			}
+		}
+		"859586"
+		{
+			"name"		"Imperator: Rome Launcher OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5709177109811992327"
+				"1.0.0"		"6939057796799227180"
+			}
+			"maxsize"		"381326243"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"914B1D18E6840342EED99F2CCA13174B"
+					"encrypted_size_2"		"94EA14C4E37B282BD4C6CECFBB42CC40"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"32FC16BB68D68A30F7DACA8517121ADC"
+					"encrypted_size_2"		"664EC08D763F285718C364A70991F23F"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"224E7CCF610FA2BD27815988E160E9C3"
+					"encrypted_size_2"		"5F9080CBB095B66A50A2E5BD91250E99"
+				}
+			}
+		}
+		"859587"
+		{
+			"name"		"Imperator: Rome Launcher Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1071324977320016395"
+				"1.0.0"		"662254303456022000"
+			}
+			"maxsize"		"148537784"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"CCCE30E52161D0EE0F581E5644E5CBAF"
+					"encrypted_size_2"		"597E0A0F6691701360B296B15079951F"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"60ED04C61FC4EFE8871A2B144B86CE91"
+					"encrypted_size_2"		"61F495C2AEE5F5A91B618C4866396C9F"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"931783752FFCE958ECAA81CE436263C5"
+					"encrypted_size_2"		"CB8B261DC37FB7361557CADE27AE503F"
+				}
+			}
+		}
+		"859588"
+		{
+			"name"		"Imperator: Rome Launcher Content Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"156391022532284331"
+				"1.0.0"		"7083831102428831748"
+				"1.0.1"		"5180930631212514330"
+				"1.0.3"		"8127837551806211289"
+				"1.2-beta"		"6285383209941481587"
+			}
+			"maxsize"		"544"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"0789BFC0AA85831EF212847B797D0863"
+					"encrypted_size_2"		"3AC32E6F9CFE8B4174B8A0AA0CAE2B75"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"536184E2DE8C454D58CA63326F4FDD7E"
+					"encrypted_size_2"		"87481B0616B9C001C5412A2A362114D0"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"97F92AE8A2C04127EDF48037C2F1009C"
+					"encrypted_size_2"		"FB2D50E30E8B220D8C2D7596799E541B"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"C0531FAF23C09A90153D5CB53386FF53"
+					"encrypted_size_2"		"1867640B026D5642207F16F74D397B89"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"5B5031E3720483EC7204843199203B0A"
+					"encrypted_size_2"		"2DB2A9630FEF627BE187F67BE373C30E"
+				}
+			}
+		}
+		"859589"
+		{
+			"name"		"Imperator: Rome Launcher Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3654991795931308386"
+				"1.0.0"		"4243223766526464548"
+				"1.0.1"		"4140539011212595758"
+				"1.0.3"		"4431958038156925197"
+				"1.2-beta"		"8609289508556831434"
+			}
+			"maxsize"		"557"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"DA906CC2882841915245A82E65E556C4"
+					"encrypted_size_2"		"DBDE46F0DBAADAD1576A9DB6983C3A31"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"A4319A147F5A7A6562941280F16C5D6F"
+					"encrypted_size_2"		"9C32975D401DFD7C2C6ADC4A8660B75D"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"58DD9800B40C40F5B729A2772A7AA90B"
+					"encrypted_size_2"		"C62432D2F1004F7664E7AAC76A78D3E6"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"729AECA5C6F48EEC6D4E0BB51350D1E0"
+					"encrypted_size_2"		"FE06AA21562785A7ED4AF9EC76E49E86"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C60A4EE6A3359F58456C640035D3D49B"
+					"encrypted_size_2"		"F3FE2E5194C172220B9E9FF1544EF98A"
+				}
+			}
+		}
+		"859590"
+		{
+			"name"		"Imperator: Rome Launcher Content Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1301775103174130331"
+				"1.0.0"		"2200107480638785078"
+				"1.0.1"		"3057157514145001079"
+				"1.0.3"		"4673544074731432728"
+				"1.2-beta"		"887639367925162568"
+			}
+			"maxsize"		"531"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"D52EFA608386E473B2DCDCFC9E4E1D57"
+					"encrypted_size_2"		"E5BA2E4F7DEC4220FB9DA350867BBAC0"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"447F2A26F937316DEE091C51BABDD6C2"
+					"encrypted_size_2"		"68D033CB0242045CEB6EFD61BA75C0B6"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"D3C66D91C3D1B7A57BD83055BF3B3ED9"
+					"encrypted_size_2"		"A4BD6746DFAFFCB0C23409514BD5B1AA"
+				}
+				"pegi_review"
+				{
+					"encrypted_gid_2"		"D44B16C04AEBC27F64349DD1A349591A"
+					"encrypted_size_2"		"F0759236C32B8588AED3F36B942034D8"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"BC09EE191497C4BE6B11DA8F3C370E17"
+					"encrypted_size_2"		"AA6E039443383D14B9418C4DFE958BED"
+				}
+			}
+		}
+		"978951"
+		{
+			"name"		"Epirus Flavor Pack"
+			"dlcappid"		"978951"
+			"manifests"
+			{
+				"public"		"7241078662614862520"
+				"1.0.0"		"6220698352937116687"
+				"1.0.1"		"6220698352937116687"
+				"1.0.3"		"6220698352937116687"
+				"1.2-beta"		"4294485116182393283"
+			}
+			"maxsize"		"28774823"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"A14919B6D389A404280D20C186FAD97A"
+					"encrypted_size_2"		"9B2F144931668B1D6EA6D5888FD01A73"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"D99407466EC1794BE690F6316FED0E2E"
+					"encrypted_size_2"		"5E905F1ED1B44D42EC26AB31F94EA689"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C021315BCAB187FAEF3A142E71BCACC5"
+					"encrypted_size_2"		"E26A605DC35F1AE46B4C85936EDC4BD0"
+				}
+			}
+		}
+		"978950"
+		{
+			"name"		"Hellenistic World Flavor Pack"
+			"dlcappid"		"978950"
+			"manifests"
+			{
+				"public"		"4554858593581242806"
+				"1.0.0"		"5499018901715664105"
+				"1.0.1"		"5499018901715664105"
+				"1.0.3"		"5499018901715664105"
+				"1.2-beta"		"6964886478557243953"
+			}
+			"maxsize"		"90262206"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"40A96809EAEF4EFABF00DD8AD8AD3001"
+					"encrypted_size_2"		"425E789D60D4356DA5DA529A19B186B7"
+				}
+				"atlantis_rising_beta"
+				{
+					"encrypted_gid_2"		"9590F3E4F2CE395737C0E815E1E4BA37"
+					"encrypted_size_2"		"C19780EA10E53597E1DBF35E5FBE5288"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"11418DA779697025F559E70D93CB5F12"
+					"encrypted_size_2"		"FB27EF77F1A4A0B1F764F367A57ADEF8"
+				}
+			}
+		}
+		"1070470"
+		{
+			"name"		"Imperator: Rome - Art Book + Wallpapers (1070470) Depot"
+			"manifests"
+			{
+				"public"		"3286907488264929574"
+				"1.0.0"		"1578540071426917631"
+				"1.0.1"		"1578540071426917631"
+				"1.0.3"		"1578540071426917631"
+			}
+			"maxsize"		"425644466"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"B6DCAC0DE2B613DE62D326DD6F38FE40"
+					"encrypted_size_2"		"8E9325CA98AA3E53AD2F3E51C3ACEFAB"
+				}
+			}
+			"dlcappid"		"1070470"
+		}
+		"1016080"
+		{
+			"name"		"Imperator: Rome - Complete Soundtrack (1016080) Depot"
+			"manifests"
+			{
+				"public"		"5059351749304116131"
+				"1.0.0"		"4414964009012675029"
+				"1.0.1"		"4414964009012675029"
+				"1.0.3"		"4414964009012675029"
+			}
+			"maxsize"		"560861578"
+			"encryptedmanifests"
+			{
+				"achievement-test"
+				{
+					"encrypted_gid_2"		"ADFA6D86A41E295942F5B5677A805A64"
+					"encrypted_size_2"		"72884E5ADFE632EDAD2CE0B5E4246DA9"
+				}
+			}
+			"dlcappid"		"1016080"
+		}
+		"workshopdepot"		"859580"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3973804"
+				"timeupdated"		"1562150382"
+			}
+			"1.0.0"
+			{
+				"buildid"		"3769468"
+				"description"		"Old Version"
+				"timeupdated"		"1556786696"
+			}
+			"1.0.1"
+			{
+				"buildid"		"3784760"
+				"description"		"Old Version"
+				"timeupdated"		"1557402470"
+			}
+			"1.0.3"
+			{
+				"buildid"		"3822395"
+				"description"		"Old Version"
+				"timeupdated"		"1561539379"
+			}
+			"1.2-beta"
+			{
+				"buildid"		"4102290"
+				"description"		"Cicero Beta"
+				"timeupdated"		"1565782442"
+			}
+			"achievement-test"
+			{
+				"buildid"		"3932144"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560931609"
+			}
+			"atlantis_rising_beta"
+			{
+				"buildid"		"4179701"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568043671"
+			}
+			"partner"
+			{
+				"buildid"		"3883703"
+				"description"		"Build for sharing with Partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559575557"
+			}
+			"pegi_review"
+			{
+				"buildid"		"3671982"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553498092"
+			}
+			"staging"
+			{
+				"buildid"		"4149184"
+				"description"		"(staging) Place for new builds to be uploaded by default"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567072947"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

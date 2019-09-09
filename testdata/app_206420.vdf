@@ -1,0 +1,893 @@
+"appinfo"
+{
+	"appid"		"206420"
+	"common"
+	{
+		"name"		"Saints Row IV"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"clienticon"		"7c5b6a28fea487525d41cea7a81d9594341a24db"
+		"clienttga"		"acbc9bee9f5534a4694e11f6e0f6c322a3ead847"
+		"icon"		"b5e8448a3e2ea31ddf3595addae4e1eee2375c0d"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"6f7e659c6b58971ebf9710b7f0048c20c68aadd7"
+		"logo_small"		"6f7e659c6b58971ebf9710b7f0048c20c68aadd7_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"206420_eula_0"
+				"name"		"Saints Row IV EULA"
+				"url"		"http://store.steampowered.com/eula/206420_eula_0"
+			}
+		}
+		"has_adult_content"		"1"
+		"linuxclienticon"		"b243ab8bf84466d857d4eace1189dea4bf1097d8"
+		"metacritic_name"		"Saints Row IV"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"57"
+				"height_pct"		"40"
+			}
+		}
+		"store_asset_mtime"		"1486042711"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Deep Silver Volition"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Deep Silver"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Saints Row"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1376971200"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/saints-row-iv?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"206420"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"19"
+			"2"		"1719"
+			"3"		"1685"
+			"4"		"3814"
+			"5"		"1671"
+			"6"		"3810"
+			"7"		"4747"
+			"8"		"4136"
+			"9"		"1697"
+			"10"		"21"
+			"11"		"3843"
+			"12"		"1673"
+			"13"		"4878"
+			"14"		"3859"
+			"15"		"1756"
+			"16"		"4182"
+			"17"		"3942"
+			"18"		"5923"
+			"19"		"7208"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Deep Silver Volition"
+		"gamedir"		"ValveTestApp206420"
+		"homepage"		"http://www.saintsrow.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Deep Silver"
+		"gamemanualurl"		"https://store.steampowered.com/manual/206420/"
+		"listofdlc"		"206435,238300,238301,238302,238303,238304,238305,238360,247290,247291,247292,247293,247294,247295,247296,247297,247298,247299,247300,247301,247302,247303,247304,247305,247306,247307,247308,247309,255050,256090,266730,267230,314580"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Saints Row IV"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SaintsRowIV.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./saintsrow4"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"818529005"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100DFD18BBA72C15204D4D0C3F507241D041FC619EF58E0A038516EE2EAAFB83BB678B097268019DCB75DB6F4E1B3B17F679CF4E8627BC20CFCDFE2AE3D67E0FC88E81FB79268586937ED69F721C0BA713E91100331EAF48C394B4ECBDE6A831FBC7472EFE26D4C36C0E50530A475CDF8373BB88D93FA1373868355F621D00A97D5020111"
+		"checkguid"		"SaintsRowIV.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,russian,japanese,polish"
+		"markdlcdepots"		"1"
+		"workshopdepot"		"206420"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"206421"
+		{
+			"name"		"sr4main"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"32002699204955846"
+				"local"		"5352076310723453861"
+			}
+			"maxsize"		"10563300041"
+			"encryptedmanifests"
+			{
+				"alex_branch"
+				{
+					"encrypted_gid_2"		"DC4D24F85AFC8BF80348920763C0A728"
+					"encrypted_size_2"		"AF2E7A368F9BC630C4DDB3C250ED3F25"
+				}
+				"amd"
+				{
+					"encrypted_gid_2"		"405AE3921AD2F960BAA9AE454285AE1A"
+					"encrypted_size_2"		"D7871B500780CCB7F72EE1F595383CBA"
+				}
+				"capture_branch"
+				{
+					"encrypted_gid_2"		"63698E5960DA629246AF2CF9E65E5517"
+					"encrypted_size_2"		"3492FC297629E63895CB299482E0C463"
+				}
+				"deepsilver"
+				{
+					"encrypted_gid_2"		"95EEB4144750447EADAFC08916518EBA"
+					"encrypted_size_2"		"109B0021E871DC07AB417806E51765B6"
+				}
+				"default_test"
+				{
+					"encrypted_gid_2"		"27D80EAEBA1DC28BB79DAA5F7EC720BE"
+					"encrypted_size_2"		"34B85929070777581DD36E6448E1B21D"
+				}
+				"dlc_testbed"
+				{
+					"encrypted_gid_2"		"280B225FC185255F403FDE850C3A68A4"
+					"encrypted_size_2"		"7271611B83172ADE66E89255235B9048"
+				}
+				"evaluation"
+				{
+					"encrypted_gid_2"		"722C5A883D9584BD181146906075076B"
+					"encrypted_size_2"		"0B1B5D5554AD36458A1F79A72CE4CBE6"
+				}
+				"from_russia_with_vol"
+				{
+					"encrypted_gid_2"		"E82D2AECEBF52F84349E93D3930993F0"
+					"encrypted_size_2"		"DAF34D478B5450FE6D86CABB3D412D34"
+				}
+				"gold_disc_branch"
+				{
+					"encrypted_gid_2"		"8398716EBF5B6A07EA303BD2166B847E"
+					"encrypted_size_2"		"C488C12D908AE59B3587A18867076B5C"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"53A291FD020B341B51024828F4CE98DB"
+					"encrypted_size_2"		"18A687FE8C083EFD4469CCCFCB33B78C"
+				}
+				"jp_testbed"
+				{
+					"encrypted_gid_2"		"4EB2D55C368247DFFECFA68EAB75334A"
+					"encrypted_size_2"		"A2D6F66A73609CCA6C36582D1B48A92F"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"96855F2C13804C8EB6A05907A9F06D6E"
+					"encrypted_size_2"		"F6D8280A8939AAFB04DD0F5697B97E6B"
+				}
+				"original_live_build"
+				{
+					"encrypted_gid_2"		"1D750270B6637BD2200F6765CFA9AC35"
+					"encrypted_size_2"		"77F14FE9AC115EFB7E48514DBA45DBA1"
+				}
+				"port_test"
+				{
+					"encrypted_gid_2"		"95BB8460276CD61433BF77C0D8226E50"
+					"encrypted_size_2"		"AF1C0E5015D82C5D2C1198EC60710360"
+				}
+				"pre_mod_test"
+				{
+					"encrypted_gid_2"		"0545C6590C475351E8900AF38B7B7164"
+					"encrypted_size_2"		"B032D5B828803C6A7A926F01997E40A7"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"AF66FDCCA9BDF1F59CCA02C01D29369C"
+					"encrypted_size_2"		"A5B387602F814E176FD71878CDA8AC42"
+				}
+				"silverlink"
+				{
+					"encrypted_gid_2"		"1DCCBB5C910E8608E7D58FFFBB68B42A"
+					"encrypted_size_2"		"BE5A99B7E6A8EF5CB030F61BC8365E16"
+				}
+				"staging_dlc"
+				{
+					"encrypted_gid_2"		"69D4125DE9B24C6ED2688B66261BCDAD"
+					"encrypted_size_2"		"70A651C475089476AECF9B216FF8879F"
+				}
+				"staging_jp"
+				{
+					"encrypted_gid_2"		"9D28A43EEA4B56BBAD5D489F65E9694F"
+					"encrypted_size_2"		"93162AEA30849102B40557783FE1CE65"
+				}
+				"staging_main"
+				{
+					"encrypted_gid_2"		"70D5EA591798C2E51E86AAC09884076A"
+					"encrypted_size_2"		"F467C77B9BCBC9CC8758BDFD311CDFAB"
+				}
+				"staging_mod"
+				{
+					"encrypted_gid_2"		"DA51C86D14C38F148A254A0A05550D34"
+					"encrypted_size_2"		"144021D535DE49D8ED061A762AF7FB89"
+				}
+			}
+		}
+		"206422"
+		{
+			"name"		"sr4binaries"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6013726710204312506"
+				"local"		"8174711981709682812"
+			}
+			"maxsize"		"20295168"
+			"encryptedmanifests"
+			{
+				"alex_branch"
+				{
+					"encrypted_gid_2"		"86367A7413EE2F52EB3EC3BD7FA7E6FD"
+					"encrypted_size_2"		"FEDBE39C3558EB53AA7C0C5B2BE3807B"
+				}
+				"amd"
+				{
+					"encrypted_gid_2"		"29D058EAB24F0F4A7ABDCA1897F2BDB2"
+					"encrypted_size_2"		"2EE26D8D4BAB9605F652AAC6D2900118"
+				}
+				"capture_branch"
+				{
+					"encrypted_gid_2"		"749B41BE72EB2F61FF776A5DDD070AFD"
+					"encrypted_size_2"		"666CA85EB343D2A7F7D1A8AB3FB096FF"
+				}
+				"deepsilver"
+				{
+					"encrypted_gid_2"		"1DC4B59989EE5D31B9814E65893CA181"
+					"encrypted_size_2"		"FD2707B29856808B5648805E7C40CE9E"
+				}
+				"default_test"
+				{
+					"encrypted_gid_2"		"2272BEE2AB576CADC2DCB2D5E8EA260C"
+					"encrypted_size_2"		"E9A98FBD12FE3D6377C5A7B05CDF9655"
+				}
+				"dlc_testbed"
+				{
+					"encrypted_gid_2"		"079A004F2F745EB1E7A5EA81555B078A"
+					"encrypted_size_2"		"45A0AE63EB8F77BC777AFDB3A1D02A66"
+				}
+				"evaluation"
+				{
+					"encrypted_gid_2"		"B2D8AB18A1FCB39D058BF2E5F40D23E0"
+					"encrypted_size_2"		"35C9D58DFE0A63D20D0C23E8302976CC"
+				}
+				"from_russia_with_vol"
+				{
+					"encrypted_gid_2"		"178BF310E2FC67C97E436A13D335EB4D"
+					"encrypted_size_2"		"02517B33EED24A941880D09DB20B9E57"
+				}
+				"gold_disc_branch"
+				{
+					"encrypted_gid_2"		"212F0151813FB4D6A47D41C966DEF2D9"
+					"encrypted_size_2"		"908E1E7FD10412EBBE64203F64845E18"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"11663C91707C604F4486D3A70B47784D"
+					"encrypted_size_2"		"86E180876E6002FEE5E11665438DBE2D"
+				}
+				"jp_testbed"
+				{
+					"encrypted_gid_2"		"C7B13ECB9F0BC7FB705C97E1B26B1748"
+					"encrypted_size_2"		"0216CC5C49EA73017DBBBAA6E9EF79BA"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"E310E8867CC05A02CBEF75EEE223B861"
+					"encrypted_size_2"		"50EF4F348CD8297CFEA95E0A353B367E"
+				}
+				"original_live_build"
+				{
+					"encrypted_gid_2"		"5EFC80D24F834E06A24DA9438731763E"
+					"encrypted_size_2"		"D2127ED59E4DE799BB7E5B564344C96E"
+				}
+				"port_test"
+				{
+					"encrypted_gid_2"		"093F8724AF7E75A2D57F80EA9C1B616C"
+					"encrypted_size_2"		"38976DDB0832A8B6638A8F67C14B5455"
+				}
+				"pre_mod_test"
+				{
+					"encrypted_gid_2"		"93A78E4982A64CF953D877C78AE86640"
+					"encrypted_size_2"		"BFF9C40C13ED996D9D972AE0518586FE"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"F7B7EED1D6BB0C610A18688EC1D5F08C"
+					"encrypted_size_2"		"1CEF63B09F74E3C58A785E2DDA0083C4"
+				}
+				"silverlink"
+				{
+					"encrypted_gid_2"		"119978F2359859FA6F5F5DC72018BC2D"
+					"encrypted_size_2"		"89DF105336B2C5C01F9667000E2170AD"
+				}
+				"staging_dlc"
+				{
+					"encrypted_gid_2"		"DD68552964F3634A6399B1282EA545EF"
+					"encrypted_size_2"		"9DBE3C708EACD98C1AA786FFE43932E6"
+				}
+				"staging_jp"
+				{
+					"encrypted_gid_2"		"35D52BE19D46E6385C5A840C1130F6D7"
+					"encrypted_size_2"		"943079F4673B11E11588BDE0738F1B76"
+				}
+				"staging_main"
+				{
+					"encrypted_gid_2"		"DE00E13F4745F4474E74362C90225A17"
+					"encrypted_size_2"		"1A1C8BF0462846AAFEC70C12CDA4CE55"
+				}
+				"staging_mod"
+				{
+					"encrypted_gid_2"		"905E661C1895AA60B66C946F7695508C"
+					"encrypted_size_2"		"BA83A6E12E4BAAC9B8E9BB8725AC2FFB"
+				}
+			}
+		}
+		"206423"
+		{
+			"name"		"sr4debug"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8855461700897563989"
+			}
+			"encryptedmanifests"
+			{
+				"gold_disc_branch"
+				{
+					"encrypted_gid_2"		"D14D1F4E34595EABAFD740DBFEAB8241"
+					"encrypted_size_2"		"5C62ED1497F849D2DEEFFC7AE9935CED"
+				}
+			}
+		}
+		"206425"
+		{
+			"name"		"sr4lvaus"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3029064039942818866"
+			}
+			"maxsize"		"16487936"
+			"encryptedmanifests"
+			{
+				"alex_branch"
+				{
+					"encrypted_gid_2"		"85E266C6B1B7999FEE00EA7B6AEFEA25"
+					"encrypted_size_2"		"A73BD751119F093D5AB1F6F5A85D1858"
+				}
+				"amd"
+				{
+					"encrypted_gid_2"		"57CC1BBC789AEAD6E8ED6A3134D2BAA3"
+					"encrypted_size_2"		"3457AA9AC6B11BCD7535DC19220D54A4"
+				}
+				"capture_branch"
+				{
+					"encrypted_gid_2"		"D06B3D9F310AA738F812F00A2B2B7760"
+					"encrypted_size_2"		"7D72CE0A23FD8026FC94E8956EE86AD4"
+				}
+				"deepsilver"
+				{
+					"encrypted_gid_2"		"E89F737C397CFAE05C6AC57B15B6D069"
+					"encrypted_size_2"		"D130FF9A5409F862DD3F4F90A6D207EE"
+				}
+				"default_test"
+				{
+					"encrypted_gid_2"		"C9DCCC302CB323F6AEA251CF8DC0E7C3"
+					"encrypted_size_2"		"E9A98FBD12FE3D6377C5A7B05CDF9655"
+				}
+				"dlc_testbed"
+				{
+					"encrypted_gid_2"		"34911E4CB693F5AECF762BCB59331588"
+					"encrypted_size_2"		"45A0AE63EB8F77BC777AFDB3A1D02A66"
+				}
+				"evaluation"
+				{
+					"encrypted_gid_2"		"600DD0219787F68F763044185BFB8B9F"
+					"encrypted_size_2"		"35C9D58DFE0A63D20D0C23E8302976CC"
+				}
+				"from_russia_with_vol"
+				{
+					"encrypted_gid_2"		"2D477B528069399B08213A48B64A95D1"
+					"encrypted_size_2"		"4CE035DA7F57A9405A9EF5BE6923D5CD"
+				}
+				"gold_disc_branch"
+				{
+					"encrypted_gid_2"		"31D3057B6E56BF170DAADB4FCEA6C1DB"
+					"encrypted_size_2"		"908E1E7FD10412EBBE64203F64845E18"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"8E963A3D69F0DA203D67F2351726B411"
+					"encrypted_size_2"		"FAB4086D556D6C5A3290F4D8C9B92678"
+				}
+				"jp_testbed"
+				{
+					"encrypted_gid_2"		"6A0A778E19D5F72B149ED79A816C9D30"
+					"encrypted_size_2"		"0216CC5C49EA73017DBBBAA6E9EF79BA"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"2A5A04748C69C838FF24611422AEDE9C"
+					"encrypted_size_2"		"C37CE9A569502F77F1C045B18326E224"
+				}
+				"original_live_build"
+				{
+					"encrypted_gid_2"		"58000EE025691EA825241AF2B27AF32B"
+					"encrypted_size_2"		"F1F58FA583BA36D2601F0AD4C748F91C"
+				}
+				"port_test"
+				{
+					"encrypted_gid_2"		"F42407900921064B0833EFED77E66DD2"
+					"encrypted_size_2"		"38976DDB0832A8B6638A8F67C14B5455"
+				}
+				"pre_mod_test"
+				{
+					"encrypted_gid_2"		"1E01990F6C11DD4D0C3A280D8A4D634E"
+					"encrypted_size_2"		"D6B064C72A852D3CE602DA9F72813D14"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"F2FF0A7F5F266DD98A9C8642F19408B5"
+					"encrypted_size_2"		"1ECC23669E610353891B6C2D6B0B357E"
+				}
+				"silverlink"
+				{
+					"encrypted_gid_2"		"E623307906DA35774917A35B18A26BFD"
+					"encrypted_size_2"		"B0A64AF4F290055DA74AE33A187FEA32"
+				}
+				"staging_dlc"
+				{
+					"encrypted_gid_2"		"42D520BD47E66DFC742252274F4B5442"
+					"encrypted_size_2"		"E750329AA08B46BF00BB6951EBE683C5"
+				}
+				"staging_jp"
+				{
+					"encrypted_gid_2"		"DB2E658AE6C122AE17AAB790327CD098"
+					"encrypted_size_2"		"943079F4673B11E11588BDE0738F1B76"
+				}
+				"staging_main"
+				{
+					"encrypted_gid_2"		"DD43A5F22E36B7CFF0EC622D0E37FDE7"
+					"encrypted_size_2"		"1A1C8BF0462846AAFEC70C12CDA4CE55"
+				}
+				"staging_mod"
+				{
+					"encrypted_gid_2"		"F7FB0D4E0E2B8351B5B7906C93E4EF88"
+					"encrypted_size_2"		"4D5219DA4D866B4850DA99AE7BCA4875"
+				}
+			}
+		}
+		"206424"
+		{
+			"name"		"sr4lvausdata"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4175297753291580241"
+			}
+			"maxsize"		"2192275682"
+			"encryptedmanifests"
+			{
+				"gold_disc_branch"
+				{
+					"encrypted_gid_2"		"D882CFFA45FED5B1DF2D19D305F6D46B"
+					"encrypted_size_2"		"EFAD540C0D8961E240E9EEABCEC88D98"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"75370D791F99D606313ED9B5BE68B550"
+					"encrypted_size_2"		"D2AE2EDAAD646AC07EF0DB19B3607745"
+				}
+				"original_live_build"
+				{
+					"encrypted_gid_2"		"59B8D4EE0234EB7F59ABBB82F1475AE5"
+					"encrypted_size_2"		"9E8C234031C969022E4684E756B54F9E"
+				}
+				"pre_mod_test"
+				{
+					"encrypted_gid_2"		"738A89DCF7695090F71DF6F7D859B49A"
+					"encrypted_size_2"		"D6B064C72A852D3CE602DA9F72813D14"
+				}
+				"staging_main"
+				{
+					"encrypted_gid_2"		"605CC3E24AABFCCB8D1731249D6815E3"
+					"encrypted_size_2"		"1A1C8BF0462846AAFEC70C12CDA4CE55"
+				}
+			}
+		}
+		"206426"
+		{
+			"name"		"Saints Row IV Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"641706767085429081"
+			}
+			"maxsize"		"36572684"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid_2"		"57BB96C36300750B2CB840DA1399150D"
+					"encrypted_size_2"		"AF59C3D31676832E9577FC32F4B84705"
+				}
+			}
+		}
+		"206427"
+		{
+			"name"		"Saints Row IV OS X"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"206428"
+		{
+			"name"		"Saints Row IV Port LV"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4084272530003812694"
+			}
+			"maxsize"		"2215340301"
+		}
+		"206429"
+		{
+			"name"		"Saints Row IV Chinese Data"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"port_test"
+				{
+					"encrypted_gid_2"		"6E4937F8DBE6B4C6CC3F4FFF702F99F5"
+					"encrypted_size_2"		"81371BD239F8A58A8217B46188542B8F"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1598311"
+				"timeupdated"		"1485766047"
+			}
+			"alex_branch"
+			{
+				"buildid"		"156141"
+				"description"		"Branch for Alex to Capture Stuff"
+				"pwdrequired"		"1"
+			}
+			"amd"
+			{
+				"buildid"		"104660"
+				"description"		"Build for AMD to look at"
+				"pwdrequired"		"1"
+			}
+			"capture_branch"
+			{
+				"buildid"		"147469"
+				"description"		"For capturing video..."
+				"pwdrequired"		"1"
+			}
+			"deepsilver"
+			{
+				"buildid"		"127787"
+				"description"		"Branch for corporate"
+				"pwdrequired"		"1"
+			}
+			"default_test"
+			{
+				"buildid"		"908073"
+				"description"		"Release Testing"
+				"pwdrequired"		"1"
+			}
+			"dlc_testbed"
+			{
+				"buildid"		"166692"
+				"description"		"DLC Build for QA, etc"
+				"pwdrequired"		"1"
+			}
+			"evaluation"
+			{
+				"buildid"		"169280"
+				"description"		"Branch for Port and Sherry"
+				"pwdrequired"		"1"
+			}
+			"from_russia_with_vol"
+			{
+				"buildid"		"154862"
+				"description"		"Branch to look at Russian"
+				"pwdrequired"		"1"
+			}
+			"gold_disc_branch"
+			{
+				"buildid"		"92396"
+				"description"		"Holds the data for GOLD"
+				"pwdrequired"		"1"
+			}
+			"intel"
+			{
+				"buildid"		"104660"
+				"description"		"Build for Intel to look at"
+				"pwdrequired"		"1"
+			}
+			"jp_testbed"
+			{
+				"buildid"		"168929"
+				"description"		"JP Build for QA, etc"
+				"pwdrequired"		"1"
+			}
+			"local"
+			{
+				"buildid"		"105536"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"mod_beta_branch"
+			{
+				"buildid"		"1598139"
+				"description"		"Branch for wide beta to modders for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1485752092"
+			}
+			"moddern_playground"
+			{
+				"buildid"		"1598139"
+				"description"		"Branch for the Modders out there"
+				"pwdrequired"		"1"
+				"timeupdated"		"1485752112"
+			}
+			"nvidia"
+			{
+				"buildid"		"102543"
+				"description"		"Video Card Testing"
+				"pwdrequired"		"1"
+			}
+			"original_live_build"
+			{
+				"buildid"		"102543"
+				"description"		"Most likely, the original released build...(90% certain)"
+				"pwdrequired"		"1"
+			}
+			"port_test"
+			{
+				"buildid"		"1284451"
+				"description"		"Linux port"
+				"pwdrequired"		"1"
+				"timeupdated"		"1471441330"
+			}
+			"pre_mod_test"
+			{
+				"buildid"		"4041875"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564006429"
+			}
+			"release_candidate"
+			{
+				"buildid"		"172239"
+				"description"		"RC Build"
+				"pwdrequired"		"1"
+			}
+			"silverlink"
+			{
+				"buildid"		"129754"
+				"description"		"Branch for checking silverlink"
+				"pwdrequired"		"1"
+			}
+			"staging_dlc"
+			{
+				"buildid"		"168452"
+				"description"		"Staging Location for PC_DLC"
+				"pwdrequired"		"1"
+			}
+			"staging_jp"
+			{
+				"buildid"		"168929"
+				"description"		"Staging location for PC_JP"
+				"pwdrequired"		"1"
+			}
+			"staging_main"
+			{
+				"buildid"		"4041836"
+				"description"		"Staging Location for PC_Main"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564005365"
+			}
+			"staging_mod"
+			{
+				"buildid"		"1769357"
+				"description"		"Staging Location for PC_Mod"
+				"pwdrequired"		"1"
+				"timeupdated"		"1492673053"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

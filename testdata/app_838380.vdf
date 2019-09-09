@@ -1,0 +1,611 @@
+"appinfo"
+{
+	"appid"		"838380"
+	"common"
+	{
+		"name"		"DEAD OR ALIVE 6"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"82e1eca56c2a9a556439418e1ad5e9d3b27ba5a7"
+		"logo_small"		"82e1eca56c2a9a556439418e1ad5e9d3b27ba5a7_thumb"
+		"icon"		"db88cc33fed2f4cf2a0d2964abb5f67927cfd3be"
+		"clienticon"		"664bad4a8ef14588f2eaa381c30fd300aa8dc4c7"
+		"clienttga"		"ff69b0ee9d797aa02e76cbd5571097367bbe6acb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"838380_eula_0"
+				"name"		"DEAD OR ALIVE 6 EULA"
+				"url"		"https://store.steampowered.com//eula/838380_eula_0"
+			}
+		}
+		"metacritic_name"		"DEAD OR ALIVE 6"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48"
+				"height_pct"		"60"
+			}
+		}
+		"store_asset_mtime"		"1555649714"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"KOEI TECMO GAMES CO., LTD."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KOEI TECMO GAMES CO., LTD."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_33"		"1"
+			"category_35"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1551427140"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dead-or-alive-6?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"838380"
+		"store_tags"
+		{
+			"0"		"1743"
+			"1"		"12095"
+			"2"		"19"
+			"3"		"7208"
+			"4"		"6650"
+			"5"		"4667"
+			"6"		"3859"
+			"7"		"3878"
+			"8"		"1688"
+			"9"		"5611"
+			"10"		"4085"
+			"11"		"4182"
+			"12"		"4345"
+			"13"		"113"
+			"14"		"1756"
+			"15"		"4158"
+			"16"		"1773"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"developer"		"KOEI TECMO GAMES CO., LTD."
+		"publisher"		"KOEI TECMO GAMES CO., LTD."
+		"homepage"		"http://teamninja-studio.com/doa6/"
+		"listofdlc"		"983110,1033460,1033470,1033471,1033472,1033473,1033474,1033475,1033476,1033477,1033478,1033479,1033480,1033481,1033482,1033483,1033484,1033485,1033486,1033487,1033488,1033489,1033490,1033491,1033492,1034470,1034471,1034480,1034481,1034482,1034483,1034484,1042850,1042851,1048380,1048381,1054330,1058120,1058121,1074260,1074261,1074262,1074263,1074264,1074265,1074266,1074267,1074270,1074271,1074272,1074273,1074274,1074275,1074276,1074277,1074278,1092290,1092291,1099190,1099191,1099200,1099201,1099202,1099203"
+	}
+	"config"
+	{
+		"installdir"		"Dead or Alive 6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOA6.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"79"
+	}
+	"depots"
+	{
+		"workshopdepot"		"838380"
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"838381"
+		{
+			"name"		"Release Data"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"980191524224847544"
+			}
+			"maxsize"		"40624333177"
+			"encryptedmanifests"
+			{
+				"v1.01"
+				{
+					"encrypted_gid_2"		"CDAD8C4EE2F3C24EB83CD069250E91A7"
+					"encrypted_size_2"		"E96187FED4AE864EFBB88953B4005CA7"
+				}
+				"v1.02"
+				{
+					"encrypted_gid_2"		"1FC79DF9837ECAA63D9335702CDDF284"
+					"encrypted_size_2"		"8A5C5884A1DB5FCFD9A76E1419907072"
+				}
+				"v1.03a"
+				{
+					"encrypted_gid_2"		"A979A1563D01925C54AC0A2963D00BEF"
+					"encrypted_size_2"		"8801AE0956C25C3B849CD363E0D81187"
+				}
+				"v1.03b"
+				{
+					"encrypted_gid_2"		"5D2D24EB70C9AF96C66A325550DA9D14"
+					"encrypted_size_2"		"BE8D7FD31CE36381096CDFB5BF1DFF51"
+				}
+				"v1.04a"
+				{
+					"encrypted_gid_2"		"161E2784600A108CB08BD68FA738A491"
+					"encrypted_size_2"		"DB215306BBDB30D2F2204C3A1A318E14"
+				}
+				"v1.05"
+				{
+					"encrypted_gid_2"		"E0936251F40106A2311FECECDB39A7F4"
+					"encrypted_size_2"		"B2BB7224B7A8E5EA51A73BB2236364E0"
+				}
+				"v1.06"
+				{
+					"encrypted_gid_2"		"CDC03DE1B207DE5B08494DD780C8A3C3"
+					"encrypted_size_2"		"065B8E758E707A96E73119E15900BBE1"
+				}
+				"v1.06a"
+				{
+					"encrypted_gid_2"		"7D5A961CDA964098FC2C2B5EC90C6079"
+					"encrypted_size_2"		"CF3A9AB46A13BBB3E2CDD2A464B10BFB"
+				}
+				"v1.07"
+				{
+					"encrypted_gid_2"		"F7E6A3F19E3BE54012A9C5162739EA76"
+					"encrypted_size_2"		"7884A1C1904E3BD4401B12B5FEC41658"
+				}
+				"v1.08"
+				{
+					"encrypted_gid_2"		"CEA8F9B28D58B85DF827A4E78192D5C5"
+					"encrypted_size_2"		"EB09AE790E91597AC1451D5A0F033F2E"
+				}
+				"v1.09"
+				{
+					"encrypted_gid_2"		"23C9415D8278682375DD79AA5BAF15D0"
+					"encrypted_size_2"		"2FEC8A7D481B3FD6242E4028D8069730"
+				}
+				"v1.11"
+				{
+					"encrypted_gid_2"		"E2BAFA360F36137DDB710E17CE227160"
+					"encrypted_size_2"		"20A76E65C77613F56AD154880494AEAF"
+				}
+			}
+		}
+		"838382"
+		{
+			"name"		"Release App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"278236636573956098"
+			}
+			"maxsize"		"46441680"
+			"encryptedmanifests"
+			{
+				"v1.01"
+				{
+					"encrypted_gid_2"		"B82061DF1AE6D1EB45E6265EDD8F1DDD"
+					"encrypted_size_2"		"7A3A43118C765BEAD98127BD65357EE7"
+				}
+				"v1.02"
+				{
+					"encrypted_gid_2"		"544A786BA643EE6B234BDDE617EC5D1A"
+					"encrypted_size_2"		"07A0050035C779AB65256E07E1080DF9"
+				}
+				"v1.03a"
+				{
+					"encrypted_gid_2"		"080C31E74E999335563A15F70719AD13"
+					"encrypted_size_2"		"E3F03B41EBD986EC47887EB6FDF68B9A"
+				}
+				"v1.03b"
+				{
+					"encrypted_gid_2"		"9FA1F140467A0E6464C8DE8CA92F4190"
+					"encrypted_size_2"		"2E0CB4BBDC5B8B74C479D2745CB5C70A"
+				}
+				"v1.04a"
+				{
+					"encrypted_gid_2"		"9989D28218904A0B8D5213AEC8A06BBC"
+					"encrypted_size_2"		"D15DA12EC2342CCCF8023D68A56087C8"
+				}
+				"v1.05"
+				{
+					"encrypted_gid_2"		"590E7AA678489A0AEFEEC2F570458688"
+					"encrypted_size_2"		"46192561EACAC6131711AC9D943464E7"
+				}
+				"v1.06"
+				{
+					"encrypted_gid_2"		"51EAB4567FE2B4B9811D6621B200D534"
+					"encrypted_size_2"		"B535D58C47BC49816F93A837CB1A1B0B"
+				}
+				"v1.06a"
+				{
+					"encrypted_gid_2"		"D0D03932945893CE5C1FC470BDCA1299"
+					"encrypted_size_2"		"D8473484F39D7EF18944C0D15501BE09"
+				}
+				"v1.07"
+				{
+					"encrypted_gid_2"		"10F1C6E33608954941B5DA6E05B53CB9"
+					"encrypted_size_2"		"EB4357D08595CC8F59E18CE87DD09BEC"
+				}
+				"v1.08"
+				{
+					"encrypted_gid_2"		"4443DB446E848C4E56200FBFE85C529A"
+					"encrypted_size_2"		"67641167CDBC8421CE85CDFC5351CA87"
+				}
+				"v1.09"
+				{
+					"encrypted_gid_2"		"60BBCB9579208C9B7760C8DE47819A71"
+					"encrypted_size_2"		"C16912A6077BF593C48CFC1647CC3E42"
+				}
+				"v1.11"
+				{
+					"encrypted_gid_2"		"73C70EC7428232091569E10ADA888B93"
+					"encrypted_size_2"		"49DF483944AA5130D014287957D742E6"
+				}
+			}
+		}
+		"838385"
+		{
+			"name"		"Devel v1.10 Data"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"838386"
+		{
+			"name"		"Devel v1.10 App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"838383"
+		{
+			"name"		"Devel v1.11 Data"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"838384"
+		{
+			"name"		"Devel v1.11 App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"838387"
+		{
+			"name"		"Devel v1.12 Data"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"v1.12"
+				{
+					"encrypted_gid_2"		"AFFA05D1CBFAE1B6246938F26BB615EA"
+					"encrypted_size_2"		"3A844AACDD2E94AF32B024F201AA12FC"
+				}
+			}
+		}
+		"838388"
+		{
+			"name"		"Devel v1.12 App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"v1.12"
+				{
+					"encrypted_gid_2"		"63C4A25B92D9D55513D3267065BCFBA1"
+					"encrypted_size_2"		"B7603D0A0D7BC6C31D534A303C559654"
+				}
+			}
+		}
+		"838389"
+		{
+			"name"		"Reserved"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"1033461"
+		{
+			"name"		"v1.xx Data"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"1033462"
+		{
+			"name"		"v1.xx App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4078048"
+				"timeupdated"		"1567729151"
+			}
+			"v1.01"
+			{
+				"buildid"		"3623777"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560490080"
+			}
+			"v1.02"
+			{
+				"buildid"		"3655280"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560490550"
+			}
+			"v1.03a"
+			{
+				"buildid"		"3676985"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560490656"
+			}
+			"v1.03b"
+			{
+				"buildid"		"3711923"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560490747"
+			}
+			"v1.04a"
+			{
+				"buildid"		"3728763"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560490842"
+			}
+			"v1.05"
+			{
+				"buildid"		"3888873"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559699034"
+			}
+			"v1.06"
+			{
+				"buildid"		"3894414"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559876974"
+			}
+			"v1.06a"
+			{
+				"buildid"		"3933274"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560952649"
+			}
+			"v1.07"
+			{
+				"buildid"		"3915132"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560433398"
+			}
+			"v1.08"
+			{
+				"buildid"		"3977628"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562145623"
+			}
+			"v1.09"
+			{
+				"buildid"		"4053414"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564405673"
+			}
+			"v1.10"
+			{
+				"buildid"		"4078048"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565071442"
+			}
+			"v1.11"
+			{
+				"buildid"		"4172521"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567764137"
+			}
+			"v1.12"
+			{
+				"buildid"		"4171677"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567738359"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"KoeiTecmo/DEADORALIVE6/{64BitSteamID}/SYSTEMDATA"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

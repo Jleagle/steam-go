@@ -1,0 +1,450 @@
+"appinfo"
+{
+	"appid"		"714010"
+	"common"
+	{
+		"name"		"Aim Lab"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"59abd3093d51288e36e45092203ec497e8ea9151"
+		"logo_small"		"59abd3093d51288e36e45092203ec497e8ea9151_thumb"
+		"icon"		"168a4165c633fe8c1fe8d0d72fbef1652592dbe0"
+		"clienticon"		"2c769af3c75d32f4c1cfdac82306251040b15c1c"
+		"clienttga"		"65b7e8d92d48218e4f4e0626c644a2e3a3735e36"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"714010_eula_0"
+				"name"		"Aim Lab EULA"
+				"url"		"http://store.steampowered.com//eula/714010_eula_0"
+			}
+		}
+		"metacritic_name"		"Aim Lab"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1562226311"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Statespace"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Statespace"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"37"
+			"4"		"23"
+			"5"		"28"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1518022800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"714010"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1663"
+			"2"		"599"
+			"3"		"1774"
+			"4"		"493"
+			"5"		"19"
+			"6"		"3839"
+			"7"		"492"
+			"8"		"4182"
+			"9"		"5055"
+			"10"		"4026"
+			"11"		"7423"
+			"12"		"3878"
+			"13"		"3814"
+			"14"		"21"
+			"15"		"5154"
+			"16"		"1708"
+			"17"		"1734"
+			"18"		"597"
+			"19"		"176981"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Statespace"
+		"publisher"		"Statespace"
+		"homepage"		"https://www.aimlab.gg"
+		"isfreeapp"		"1"
+		"listofdlc"		"1122400"
+	}
+	"config"
+	{
+		"installdir"		"Aim Lab"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"aimlab_tb.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"714011"
+		{
+			"name"		"Aim Lab Content"
+			"manifests"
+			{
+				"public"		"4981964445207703574"
+			}
+			"maxsize"		"4461799181"
+			"encryptedmanifests"
+			{
+				"0.25eb_hotfix2"
+				{
+					"encrypted_gid_2"		"5A3E68A0669F1825BF28FC57F1A03081"
+					"encrypted_size_2"		"FD95089A4D1260B48AAF58080576BAB0"
+				}
+				"0.26eb"
+				{
+					"encrypted_gid_2"		"8090F123FB14303CE79330427C9556E8"
+					"encrypted_size_2"		"12DC5458D6A814942DE065EF303135B6"
+				}
+				"0.26eb_hotfix"
+				{
+					"encrypted_gid_2"		"13013E40589417965B5E2DF01EC807C2"
+					"encrypted_size_2"		"5C367EE24DAB46EBA3BD10A67DA22F13"
+				}
+				"0.27eb"
+				{
+					"encrypted_gid_2"		"75EF74BCCF1BBB371C7A488214EEB145"
+					"encrypted_size_2"		"CF6792F7F44FE2DFE92B9C259A386E2E"
+				}
+				"0.27eb_hotfix"
+				{
+					"encrypted_gid_2"		"C8A1A1FEE03A66747386349451FC9991"
+					"encrypted_size_2"		"166AA868CB564E1EA5D4D043EBB20FB2"
+				}
+				"0.28eb"
+				{
+					"encrypted_gid_2"		"551483A318D1D14B0BFA27BF4F894F15"
+					"encrypted_size_2"		"0A24B80A9B926F8BD8711E7064DB8DF3"
+				}
+				"0.28eb_hotfix1"
+				{
+					"encrypted_gid_2"		"70DE892C8ADA8152D7534CCF46E91D42"
+					"encrypted_size_2"		"0AC3374ACF1FF0700F4119AAE0B3CBAB"
+				}
+				"0.28eb_hotfix2"
+				{
+					"encrypted_gid_2"		"B2D665B9589EC1F6F6990428ABEB8315"
+					"encrypted_size_2"		"948BF820343D25D1339D9C6438F95E92"
+				}
+				"0.29eb"
+				{
+					"encrypted_gid_2"		"429D08E74772C43F2A484ACC26AFD4F5"
+					"encrypted_size_2"		"156D08B1BCD8A2C68DD2C7B2AD4A0BFF"
+				}
+				"0.29eb_hotfix"
+				{
+					"encrypted_gid_2"		"C9D786133B0224A0A0BCB90C53C19386"
+					"encrypted_size_2"		"04DB8C9873B2FFB274728BA481DC98D5"
+				}
+				"0.29eb_hotfix2"
+				{
+					"encrypted_gid_2"		"B413067CFF06AFB88D4729E4B76008B8"
+					"encrypted_size_2"		"C76A5A4866D272D2602A6C82E58C3EBE"
+				}
+				"0.30eb"
+				{
+					"encrypted_gid_2"		"4F78A2F15A238FAF705ECFE50D64BBF2"
+					"encrypted_size_2"		"40126F274EBA51B6664B844785C6FA23"
+				}
+				"alex"
+				{
+					"encrypted_gid_2"		"48F7AA54C1268A47F064C92E2B8D95B1"
+					"encrypted_size_2"		"F94D773C27A9D9CB56D2E5712BE4FF46"
+				}
+				"beekay"
+				{
+					"encrypted_gid_2"		"3B36452D18C91CA1BBCE7E820518D173"
+					"encrypted_size_2"		"544B964C274757D45C7F6F3E54100039"
+				}
+				"beta_internal"
+				{
+					"encrypted_gid_2"		"32BDA3DBA843776202A0A87AE66F4FE5"
+					"encrypted_size_2"		"041EFB3D3E3C89732CD13D9ABC829746"
+				}
+				"brendan"
+				{
+					"encrypted_gid_2"		"34B47F3519E2C69C1C17E4734822F843"
+					"encrypted_size_2"		"6F837C223248683AB0B3781891D2EE20"
+				}
+				"nfl_tournament"
+				{
+					"encrypted_gid_2"		"3B597A201688F58293AB774DBA02B129"
+					"encrypted_size_2"		"4DC8560E10FB6BE04BB3FE5E931E0FFA"
+				}
+				"nfl_tournament_tag1"
+				{
+					"encrypted_gid_2"		"867063FEA741C9F0FC422E3C829DB819"
+					"encrypted_size_2"		"68654AA56FB20286BD7734DAE420AE18"
+				}
+				"rohan"
+				{
+					"encrypted_gid_2"		"C23345760A67DD11AED133E4A814A7E4"
+					"encrypted_size_2"		"4A28159AA6A4B7D07E1659E9241CF2BC"
+				}
+				"smoketest"
+				{
+					"encrypted_gid_2"		"45C4DAF6291AB8EA78DA63FE6203A206"
+					"encrypted_size_2"		"B29D9725983280AF8A1625976D74DF1B"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"D72186439E43E999D21B1ADB9C36A76B"
+					"encrypted_size_2"		"1913A1E004716E6422FAC81D32410A9E"
+				}
+			}
+		}
+		"714013"
+		{
+			"name"		"Aim Lab Depot Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6236786288122970659"
+			}
+		}
+		"714014"
+		{
+			"name"		"Aim Lab Depot Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6016187668436832287"
+			}
+		}
+		"workshopdepot"		"714010"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4170947"
+				"timeupdated"		"1567720174"
+			}
+			"0.25eb_hotfix2"
+			{
+				"buildid"		"3987162"
+				"description"		"hotfix 2 for 0.25eb"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562439153"
+			}
+			"0.26eb"
+			{
+				"buildid"		"4006490"
+				"description"		"leaderboards"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562948132"
+			}
+			"0.26eb_hotfix"
+			{
+				"buildid"		"4008267"
+				"description"		"win7 pirate hotfix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562983732"
+			}
+			"0.27eb"
+			{
+				"buildid"		"4028019"
+				"description"		"bugfixes and ncs"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563564337"
+			}
+			"0.27eb_hotfix"
+			{
+				"buildid"		"4033774"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563817787"
+			}
+			"0.28eb"
+			{
+				"buildid"		"4059555"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564525277"
+			}
+			"0.28eb_hotfix1"
+			{
+				"buildid"		"4071772"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564849681"
+			}
+			"0.28eb_hotfix2"
+			{
+				"buildid"		"4077479"
+				"description"		"speed precision card fixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565047708"
+			}
+			"0.29eb"
+			{
+				"buildid"		"4099521"
+				"description"		"bugfixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565665910"
+			}
+			"0.29eb_hotfix"
+			{
+				"buildid"		"4110637"
+				"description"		"crashesfixes_thirdPfixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565925449"
+			}
+			"0.29eb_hotfix2"
+			{
+				"buildid"		"4136417"
+				"description"		"float parse comma decimal fix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566687289"
+			}
+			"0.30eb"
+			{
+				"buildid"		"4146932"
+				"description"		"gridshot"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567016444"
+			}
+			"0.30eb_hotfix1"
+			{
+				"buildid"		"4170947"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567720143"
+			}
+			"alex"
+			{
+				"buildid"		"4133624"
+				"description"		"alex testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566577268"
+			}
+			"beekay"
+			{
+				"buildid"		"4179632"
+				"description"		"Bk testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042149"
+			}
+			"beta"
+			{
+				"buildid"		"4170947"
+				"description"		"test branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567719175"
+			}
+			"beta_internal"
+			{
+				"buildid"		"4177433"
+				"description"		"internal beta branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567965894"
+			}
+			"brendan"
+			{
+				"buildid"		"4177830"
+				"description"		"brendan testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567989516"
+			}
+			"nfl_tournament"
+			{
+				"buildid"		"4062457"
+				"description"		"nfl tournament"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564590884"
+			}
+			"nfl_tournament_tag1"
+			{
+				"buildid"		"4060147"
+				"description"		"tag branch for nfl"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564582386"
+			}
+			"rohan"
+			{
+				"buildid"		"4088094"
+				"description"		"rohan testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565290836"
+			}
+			"smoketest"
+			{
+				"buildid"		"4179890"
+				"description"		"automated testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568047989"
+			}
+			"testing"
+			{
+				"buildid"		"4140758"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566859336"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

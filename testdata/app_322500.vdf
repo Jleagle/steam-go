@@ -1,0 +1,596 @@
+"appinfo"
+{
+	"appid"		"322500"
+	"common"
+	{
+		"name"		"SUPERHOT"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"a221de8513e479c7a29e301fc38e4eadb95e47d1"
+		"clienttga"		"2e036ca715ef5fac0fbc4ac561a90efba7d4f4cc"
+		"icon"		"81839f0d50cb3e54c9aa7c69c04916f1e53d8c35"
+		"clienticns"		"45f274779d794a003170535a3e689dff027d6d3d"
+		"logo"		"d07cfbe2c3b2c204f4bc269aba3c448c09a81b75"
+		"logo_small"		"d07cfbe2c3b2c204f4bc269aba3c448c09a81b75_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"322500_eula_0"
+				"name"		"SUPERHOT EULA"
+				"url"		"http://store.steampowered.com//eula/322500_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"SUPERHOT"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"45.47511312217193"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1560763137"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SUPERHOT Team"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SUPERHOT Team"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1456387200"
+		"steam_release_date"		"1456435440"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/superhot?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"322500"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"19"
+			"2"		"5796"
+			"3"		"6625"
+			"4"		"3839"
+			"5"		"4182"
+			"6"		"492"
+			"7"		"1774"
+			"8"		"1664"
+			"9"		"4094"
+			"10"		"4234"
+			"11"		"4026"
+			"12"		"4115"
+			"13"		"5153"
+			"14"		"4667"
+			"15"		"597"
+			"16"		"21"
+			"17"		"1734"
+			"18"		"3942"
+			"19"		"4345"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"SUPERHOT Team"
+		"publisher"		"SUPERHOT Team"
+		"homepage"		"http://superhotgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SUPERHOT"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SUPERHOT.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SUPERHOT.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"SUPERHOT.x86_64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229002"
+		{
+			"name"		".NET 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"50450161"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"322501"
+		{
+			"name"		"SUPERHOT Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7286270989822901818"
+				"previous-patch"		"961227154686225856"
+			}
+			"maxsize"		"4143816037"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"36C9F54DDA53A76DC2C6934DA7795643"
+					"encrypted_size_2"		"0AEDF9FD0F3526A364F2E94689706DDE"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"57E829714E7ED874FB45D1704B3A3F26"
+					"encrypted_size_2"		"158B2A1638C1E0E4F02862A0750EA644"
+				}
+				"internal-test"
+				{
+					"encrypted_gid_2"		"0C417DA3EF55C92A9543D181DDAACFC2"
+					"encrypted_size_2"		"876E43C23EA2CE36E2D5DC814CD0CAC5"
+				}
+				"internal-test-godmode"
+				{
+					"encrypted_gid_2"		"BCD36D7F63FAAC0F951CD1D25059DDE9"
+					"encrypted_size_2"		"1FE8325A9152350AC997EC28A4F26379"
+				}
+				"language-qa"
+				{
+					"encrypted_gid_2"		"8D1AE13C112496230488EB13D4B92980"
+					"encrypted_size_2"		"1EBED1EE28A0B74C00B9B03A23878C7B"
+				}
+				"pre-alpha"
+				{
+					"encrypted_gid_2"		"7093919075E01A4F1BE4E55A7B9E5014"
+					"encrypted_size_2"		"358EA5C49F6F110CC8DC7EE6B4A5AAA3"
+				}
+				"qa1branch"
+				{
+					"encrypted_gid_2"		"771E9337D42F87D27C978F975CABD22D"
+					"encrypted_size_2"		"95793D39A6A722CFF9CBE3FD914BC544"
+				}
+				"qa2branch"
+				{
+					"encrypted_gid_2"		"83128B58D7FBE27D0ED792A55BC896BF"
+					"encrypted_size_2"		"584D4572184C63E8CE82E05B67C85152"
+				}
+				"superhot-review"
+				{
+					"encrypted_gid_2"		"FFE628A2281FCAD56B99C7CD1243901B"
+					"encrypted_size_2"		"6C49CF0013BD13D526FDCFD1F4E59543"
+				}
+				"supertajnehot"
+				{
+					"encrypted_gid_2"		"BE4EB26756D4275D4256A409C1D85DBF"
+					"encrypted_size_2"		"96BAC0B6ABB71308628484B57575848F"
+				}
+			}
+		}
+		"322502"
+		{
+			"name"		"SUPERHOT Content - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1961924719131777927"
+				"previous-patch"		"3498229029274870052"
+			}
+			"maxsize"		"4135912165"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"1ECDFD516921790EB772195D57CFA8C3"
+					"encrypted_size_2"		"BFBE24C7711B1B2A14D3DA2304F4D76B"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"E34AF31CAAA445DDDCB7C05ADF468C29"
+					"encrypted_size_2"		"5BCB63BAFC09C4709E08E6D3289AA1EE"
+				}
+				"internal-test"
+				{
+					"encrypted_gid_2"		"11767F29DCFA34DFAE13AEA49B1FB5F9"
+					"encrypted_size_2"		"57DD5743F691B72DA4B3F4B0C6559AE7"
+				}
+				"internal-test-godmode"
+				{
+					"encrypted_gid_2"		"8123EBEE52CCE940429107913707CAB6"
+					"encrypted_size_2"		"CAA640F1AB85872432974F5E9BEDC1EF"
+				}
+				"internal-test-mac"
+				{
+					"encrypted_gid_2"		"8091984D9B85CE1D9AE5739768CFAEA3"
+					"encrypted_size_2"		"0DB591496C2D2539D7B87929849C7D34"
+				}
+				"language-qa"
+				{
+					"encrypted_gid_2"		"38ED029A1CBBB4D6462652F26E0AAE9F"
+					"encrypted_size_2"		"DCD8CCF3507BEA6CD72123926B87505A"
+				}
+				"pre-alpha"
+				{
+					"encrypted_gid_2"		"E328C0318016240D44320C4955641835"
+					"encrypted_size_2"		"06908563B8908F09DA4823564A44DBC5"
+				}
+				"qa1branch"
+				{
+					"encrypted_gid_2"		"330E36F3E3EE980C76873BE145BB2047"
+					"encrypted_size_2"		"B34C1B8D5E5938C0E72F563C51C8180C"
+				}
+				"qa2branch"
+				{
+					"encrypted_gid_2"		"32E4192908D97B1684ABEF8DFD1CF607"
+					"encrypted_size_2"		"7CD13CC51400A755FB3497D0A6EB4B5C"
+				}
+				"superhot-review"
+				{
+					"encrypted_gid_2"		"7F6D29C8C8A71BA9F7E8FAAE50E9BCF0"
+					"encrypted_size_2"		"AB41523599FDBEF741B1BFC1F04E7653"
+				}
+				"supertajnehot"
+				{
+					"encrypted_gid_2"		"D0F8367A724BFBD0094C5B4A1190D810"
+					"encrypted_size_2"		"8FD5A5B27B12A8BB875580DE914B6352"
+				}
+			}
+		}
+		"322503"
+		{
+			"name"		"SUPERHOT Content - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1241707428072997735"
+				"previous-patch"		"3379357510546731918"
+			}
+			"maxsize"		"4111349902"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"864A1F0A8F344B92927087F0542F8BA9"
+					"encrypted_size_2"		"7DC7FBC996F9957C9DC4483FF4860185"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"2ACBD5E59D5A15DC4DB8E58F24863FA5"
+					"encrypted_size_2"		"3A527D77122D2DCB747880FCE23FB30D"
+				}
+				"internal-test"
+				{
+					"encrypted_gid_2"		"45253A26712BE43A49683E2AB6E3856F"
+					"encrypted_size_2"		"49B7300CB5B3D6D2A399228F143370BF"
+				}
+				"internal-test-godmode"
+				{
+					"encrypted_gid_2"		"A58457D5E1BFE00A31ACD1BD7BAA9F7C"
+					"encrypted_size_2"		"EAE9C5B68EF2C8C65AE27F8245219A9C"
+				}
+				"language-qa"
+				{
+					"encrypted_gid_2"		"57D95D4D9BBEEFFA5A445934E300D23F"
+					"encrypted_size_2"		"0B4710F0802ED897D684ABD2092D298A"
+				}
+				"pre-alpha"
+				{
+					"encrypted_gid_2"		"75DBB203B06029B990D3D741DC0FA162"
+					"encrypted_size_2"		"6CEB1F7113455A618E17BBA7E02F9102"
+				}
+				"qa1branch"
+				{
+					"encrypted_gid_2"		"65F39973A1BA93E1CF2A8B7B7E44B763"
+					"encrypted_size_2"		"7ADE9C0280C97278C730F8802A0EFEF0"
+				}
+				"qa2branch"
+				{
+					"encrypted_gid_2"		"367907D474BBBE1996C542EEF8A2E33E"
+					"encrypted_size_2"		"23359F7EB638A904E135075B54468132"
+				}
+				"superhot-review"
+				{
+					"encrypted_gid_2"		"6622C31C4ED1A3C2386776198BD23364"
+					"encrypted_size_2"		"11319818E01399DB9EF30079F722E9C6"
+				}
+				"supertajnehot"
+				{
+					"encrypted_gid_2"		"7DD2F836D2E8AC5311849B57A4FD9273"
+					"encrypted_size_2"		"4D842597C82E56155C0BFE6ACBB01F94"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4142830"
+				"timeupdated"		"1566996631"
+			}
+			"baseline"
+			{
+				"buildid"		"963302"
+				"description"		"Used to build retail installers. Needs to be called baseline for whatever reason."
+				"pwdrequired"		"1"
+			}
+			"beta"
+			{
+				"buildid"		"734264"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"internal-test"
+			{
+				"buildid"		"4141795"
+				"description"		"Used to test internally."
+				"pwdrequired"		"1"
+				"timeupdated"		"1566892038"
+			}
+			"internal-test-godmode"
+			{
+				"buildid"		"3995254"
+				"description"		"Used to test internally. Builds with God Mode."
+				"pwdrequired"		"1"
+				"timeupdated"		"1562672684"
+			}
+			"internal-test-mac"
+			{
+				"buildid"		"4142964"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566916656"
+			}
+			"internal-test2"
+			{
+				"buildid"		"4142830"
+				"description"		"Used to test internally."
+				"pwdrequired"		"1"
+				"timeupdated"		"1566914443"
+			}
+			"language-qa"
+			{
+				"buildid"		"1053194"
+				"description"		"Used for LQA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1459532413"
+			}
+			"pre-alpha"
+			{
+				"buildid"		"551609"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"previous-patch"
+			{
+				"buildid"		"4082925"
+				"description"		"Version from the last update"
+				"timeupdated"		"1566912011"
+			}
+			"qa1branch"
+			{
+				"buildid"		"2899727"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553603264"
+			}
+			"qa2branch"
+			{
+				"buildid"		"2368787"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553604522"
+			}
+			"superhot-review"
+			{
+				"buildid"		"1005151"
+				"description"		"Branch for our amazing prerelease reviewers."
+				"pwdrequired"		"1"
+			}
+			"supertajnehot"
+			{
+				"buildid"		"995364"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SUPERHOT_Team/SUPERHOT"
+				"pattern"		"*.hot"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/unity3d/SUPERHOT_Team/SUPERHOT"
+				"pattern"		"*.hot"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
+ 

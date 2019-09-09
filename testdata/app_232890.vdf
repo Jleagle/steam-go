@@ -1,0 +1,958 @@
+"appinfo"
+{
+	"appid"		"232890"
+	"common"
+	{
+		"name"		"Stronghold Crusader 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"1e94888e7ac06dc974f4767db2a520c090fa6dbd"
+		"logo"		"938239398dafb14588dc4c5c17fbe13606f7206a"
+		"logo_small"		"938239398dafb14588dc4c5c17fbe13606f7206a_thumb"
+		"clienticon"		"0f76d51806079eff9a2722e45d7cfc207f58cd92"
+		"clienttga"		"6680dcafa0a8bb775312d6d445abebb8b35ef57a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"oslist"		"windows"
+		"metacritic_name"		"Stronghold: Crusader II"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"60"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1568047615"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FireFly Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FireFly Studios"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Stronghold"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1411419840"
+		"metacritic_score"		"65"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/stronghold-crusader-ii?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"232890"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4172"
+			"2"		"4328"
+			"3"		"1676"
+			"4"		"3859"
+			"5"		"599"
+			"6"		"3987"
+			"7"		"1693"
+			"8"		"1685"
+			"9"		"4182"
+			"10"		"1643"
+			"11"		"8945"
+			"12"		"4166"
+			"13"		"5144"
+			"14"		"19"
+			"15"		"3810"
+			"16"		"1708"
+			"17"		"1695"
+			"18"		"21"
+			"19"		"1662"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"Stronghold Crusader 2"
+		"noservers"		"0"
+		"developer"		"FireFly Studios"
+		"publisher"		"FireFly Studios"
+		"homepage"		"http://www.strongholdcrusader2.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/232890/"
+		"listofdlc"		"316470,317590,317591,317592,317593,317594,319790,319800,348990,349000,349230,349231,412590,412591,412592,412593,412594"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stronghold Crusader 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\win32_release\\Crusader2.exe"
+				"description"		"Stronghold Crusader 2"
+				"workingdir"		"bin\\win32_release"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"572670530,572672007"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		""
+		"workshopdepot"		"232890"
+		"232891"
+		{
+			"name"		"Stronghold Crusader 2 Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2432126269012688589"
+			}
+			"maxsize"		"3446876750"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"3D28222DE353EF4C7915BCE78C14CADD"
+					"encrypted_size_2"		"BD5E465CAA6A87C9F3D051E3E8C130C2"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"C7EFF9A8FA156E31263DE2E4ED94BC62"
+					"encrypted_size_2"		"4309E06BAD99E133C7DAFB2040A717C6"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"6CE7F0A5E4653D0EB70C820B8AFBE18F"
+					"encrypted_size_2"		"7C1A94F87AE85C2E1116D42DC74482B5"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"B5C09D5B11B9C78A18319344FA02619C"
+					"encrypted_size_2"		"6ED1A593FDB3417EDF39D6747EEF56A1"
+				}
+			}
+		}
+		"232892"
+		{
+			"name"		"Stronghold Crusader 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2179502518079728309"
+			}
+			"maxsize"		"163832727"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"580C03AA4868555E09CC706F1F3EF605"
+					"encrypted_size_2"		"E8ECD3106D6C1D8DB3BC53E4CAD9DE00"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"7B1228A18079DFAFAD88EBA9AD4CAC12"
+					"encrypted_size_2"		"B698B72FE622D71CF5CDC6B04F2FC5A0"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"0656B2AFBB0B38D2136EC8AFED9620F9"
+					"encrypted_size_2"		"060ADCE528475B6948BF3D3209B0087E"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"0F2F177712599B0D0F58AF965C2A294D"
+					"encrypted_size_2"		"0195B6B7F425A6CA0A02F57218021D9F"
+				}
+			}
+		}
+		"232893"
+		{
+			"name"		"Stronghold Crusader 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8772548753764253200"
+			}
+			"maxsize"		"146717943"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"A708937DECF64368C33565ACD74CB458"
+					"encrypted_size_2"		"2F128D36C5E5CC00D9F9D8E617871144"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"C8C2BCCD902F2E253B0594EA90C1D12B"
+					"encrypted_size_2"		"DEC69F05FCE2D735C080F3B194B004C6"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"F0AA1E8846E8DD7EEADAC4C289AA2861"
+					"encrypted_size_2"		"3A9CB96BB59A49FF0F7A444E0042910D"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"D656300776CC48711A013EF8A814669D"
+					"encrypted_size_2"		"C32851E3AFDBDCE76E33E2D63EAA9A9E"
+				}
+			}
+		}
+		"232894"
+		{
+			"name"		"Stronghold Crusader 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5595792804425142782"
+			}
+			"maxsize"		"151641853"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"486E0E16F3BE491E4945DD661C921164"
+					"encrypted_size_2"		"61928348DA9CD075A6D49DD8F260A6FF"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"97F9D68538E45AD6827BDAC6A08D7FAF"
+					"encrypted_size_2"		"7697F9902E0FD293F11E25C849F4FC71"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"7B2A39F94E389E179EB74DF106AB1E2A"
+					"encrypted_size_2"		"DB738C915135EAFA3C46B79C8ADF2652"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"0567F483E70D99BFC8101F58C526C3DA"
+					"encrypted_size_2"		"31462019FB04A41552631EC8682643C0"
+				}
+			}
+		}
+		"232895"
+		{
+			"name"		"Stronghold Crusader 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7277493748551652089"
+			}
+			"maxsize"		"147432444"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"B30A9ED8C3B1C63033F8B5B2965E35BF"
+					"encrypted_size_2"		"E6E43BDC731CC923EF93E35C88B92BD2"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"6AB71578E806A07C1446F09BED3560A1"
+					"encrypted_size_2"		"E64039FECB790CBE957BB4DDD1C300E7"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"F1FF178AED38109775EACF406A3F65DA"
+					"encrypted_size_2"		"9D125DB2ED6D085CE1E1C67A1070F92F"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"6C76B9A0B2E7EFC6F19F72D622BF4DC7"
+					"encrypted_size_2"		"680F072260974221A9CFECE2C1C221B3"
+				}
+			}
+		}
+		"232896"
+		{
+			"name"		"Stronghold Crusader 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8202788161670852765"
+			}
+			"maxsize"		"154966715"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"4B8C693BA272EF1B0908F35AF01E36BC"
+					"encrypted_size_2"		"B1DDA81DAA01BB8505FD8750CF7E71F6"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"0943AC50BBAA722917E031DA2261E2A9"
+					"encrypted_size_2"		"A891CB5442F7337E0C266294072656CD"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"B96C772F948006046C0FFC0D52A4D7B3"
+					"encrypted_size_2"		"BF605F0712923CB928F90633EE3953BE"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"D4602B56C4653815FE52F1C65B7FF8CD"
+					"encrypted_size_2"		"4F28A2E649C3A55A20963DEC717C4888"
+				}
+			}
+		}
+		"232897"
+		{
+			"name"		"Stronghold Crusader 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1868152961141877718"
+			}
+			"maxsize"		"154029899"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"CA44924333F841DCE4B4E1C773EDAE18"
+					"encrypted_size_2"		"CB7C4703632BE4E5C89DD622B109A274"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"2D003302046AE8969DD9C879A0D3AC72"
+					"encrypted_size_2"		"22EBD8446C770B60CA290D2CCC37420B"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"842C26AFA125AF7410EB2F513C3E706E"
+					"encrypted_size_2"		"C3F1C35EE2E76A1A88439F3D946D3126"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"CEF8AB01CF9014438D037C1E9B3E3BFC"
+					"encrypted_size_2"		"4943015775F289E96C3D8381FB592063"
+				}
+			}
+		}
+		"232898"
+		{
+			"name"		"Stronghold Crusader 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3941541175555031056"
+			}
+			"maxsize"		"147227552"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"24E29EB17163CF03459BEED1D8E97F5A"
+					"encrypted_size_2"		"EF27C8CA84A7EA64632DE9604D24B05C"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"151795296CEB604610D5427D32CF6A8D"
+					"encrypted_size_2"		"CCF80BA2007622316E929D5AC003FA2E"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"B365C6D42986D3D7C62030397E267F46"
+					"encrypted_size_2"		"6A1074636A47E782288CBED94FB3C981"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"BB698A6CB844F37A6C67CEA2B06E0B15"
+					"encrypted_size_2"		"590EEFDC2E757D60BA95D3716CD3F5C6"
+				}
+			}
+		}
+		"232899"
+		{
+			"name"		"Stronghold Crusader 2 Brazilian"
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6129293473077875159"
+			}
+			"maxsize"		"161882554"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"A0E07E058A72F9289DAFB9AF71D0D3B6"
+					"encrypted_size_2"		"BCDA836CDA40842B76650CF49F7AE314"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"D06FA9B103402759C39D2655382CE98C"
+					"encrypted_size_2"		"503776E2A0764E2678400A5E14A2A667"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"92AF3165B1B26A47E90346AE8A107D75"
+					"encrypted_size_2"		"37F52B85217835702ED62B5745A46C87"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"BBAF9D2F8C32DFBF7675126E5A415338"
+					"encrypted_size_2"		"568DC64DD2D44E49FB535F2020520EEA"
+				}
+			}
+		}
+		"232909"
+		{
+			"name"		"Stronghold Crusader 2 Koch Logo"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"448902471441250152"
+			}
+			"maxsize"		"16794932"
+		}
+		"232900"
+		{
+			"name"		"Stronghold Crusader 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"1466235298709577515"
+			}
+			"maxsize"		"163955877"
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid_2"		"F004F200B4881E261F4312F79E5DDD3E"
+					"encrypted_size_2"		"7C16E1FF6FF5386273B141BF823DDE3E"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"5D78997919D62B8674A1752F1BE44743"
+					"encrypted_size_2"		"8465D2E0DE24C2E7010BD59BE150BC55"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"0FF560CE9A7F7A03AF8FB611AB2436C8"
+					"encrypted_size_2"		"3FDC75E7ED5FD9E90AF92B2DD2CBE3C4"
+				}
+			}
+		}
+		"317590"
+		{
+			"name"		"Pre-order \"Delivering Justice\" mini-campaign (317590) Depot"
+			"dlcappid"		"317590"
+			"manifests"
+			{
+				"public"		"1951794772085475968"
+			}
+			"maxsize"		"3500926"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"EEBC74D65FA799947B981649B24E817B"
+					"encrypted_size_2"		"DDF27ACC5D817A2D3F064CFAAB5B08D9"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"CD8D301733EFA84FD8CB0EB92730E248"
+					"encrypted_size_2"		"94269365EBE191540A595DFB36879B71"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"1550440816382FC6D7B1563C221CF5AF"
+					"encrypted_size_2"		"40107072F3537C10CCA72C4D168F223B"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"421ABBFD4E1F5ED8672E90B93C2AA501"
+					"encrypted_size_2"		"7C9C493AD7BB04759CE9ACABB497091D"
+				}
+			}
+		}
+		"317591"
+		{
+			"name"		"Pre-order \"Freedom Fighters\" mini-campaign (317591) Depot"
+			"dlcappid"		"317591"
+			"manifests"
+			{
+				"public"		"836288305194955287"
+			}
+			"maxsize"		"5193367"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"A15B530B954C2DD4B401758AF1C88A16"
+					"encrypted_size_2"		"76BD58A7C8C6777F434B67B28723BF0B"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"3BBD6619FE47678FC04CB51B230C9F7C"
+					"encrypted_size_2"		"3AE054BBEDE5DDE1BD579348BEF4390D"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"5A441DEF9F33F97AFA642EE59B5B5AE1"
+					"encrypted_size_2"		"5E54FE16F925D025968F3215BCB4DFB9"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"1302DBCF53D5E265423DD4375DE4B5C2"
+					"encrypted_size_2"		"43073F998A8868560DE1F68CDD083F4F"
+				}
+			}
+		}
+		"317592"
+		{
+			"name"		"Pre-order bonus shields (317592) Depot"
+			"dlcappid"		"317592"
+		}
+		"317593"
+		{
+			"name"		"Firefly shield (317593) Depot"
+			"dlcappid"		"317593"
+		}
+		"317594"
+		{
+			"name"		"Beta Tester shield (317594) Depot"
+			"dlcappid"		"317594"
+		}
+		"319790"
+		{
+			"name"		"Stronghold Crusader 2 - Official Soundtrack (319790) Depot"
+			"dlcappid"		"319790"
+			"manifests"
+			{
+				"public"		"2972188062330845029"
+			}
+			"maxsize"		"204686871"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid_2"		"AD4438B104E7310787DBBBB344F6A6C0"
+					"encrypted_size_2"		"1B3FEDBE116BF9649E6576441A6DAC2B"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"2599198EDDCC0B2CE0E507F6B6909DD3"
+					"encrypted_size_2"		"B0BD23809D64B6BB120D68561AF3EF26"
+				}
+				"test_log_build"
+				{
+					"encrypted_gid_2"		"E25DB33DDAEAF0ACB60371B2835F33D0"
+					"encrypted_size_2"		"A366E58E8288D45DCA256F9D867F9E0D"
+				}
+				"zoo"
+				{
+					"encrypted_gid_2"		"BC41E54396767AEED89C45A48CBE42F9"
+					"encrypted_size_2"		"8F49498A2375E6351246C98F2E41C6FD"
+				}
+			}
+		}
+		"319800"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book (319800) Depot"
+			"config"
+			{
+				"language"		"english"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1710504930767756683"
+			}
+			"maxsize"		"218179205"
+		}
+		"319801"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"french"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"966594649947872662"
+			}
+			"maxsize"		"218187629"
+		}
+		"319802"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"german"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1360799941782512746"
+			}
+			"maxsize"		"218022618"
+		}
+		"319803"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"2280169271085485294"
+			}
+			"maxsize"		"218029478"
+		}
+		"319804"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"5884248621686496835"
+			}
+			"maxsize"		"218034759"
+		}
+		"319805"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1021702783831850310"
+			}
+			"maxsize"		"218116497"
+		}
+		"319806"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"204399767611202319"
+			}
+			"maxsize"		"217365470"
+		}
+		"319807"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1619979517702073925"
+			}
+			"maxsize"		"218034390"
+		}
+		"319808"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"dlcappid"		"319800"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"7554906042638265050"
+			}
+			"maxsize"		"218179205"
+		}
+		"348990"
+		{
+			"name"		"Stronghold Crusader 2 - The Princess & The Pig (348990) Depot"
+			"dlcappid"		"348990"
+			"manifests"
+			{
+				"public"		"1351527982347206757"
+			}
+			"maxsize"		"1343"
+		}
+		"349000"
+		{
+			"name"		"Stronghold Crusader 2 - The Emperor & The Hermit (349000) Depot"
+			"dlcappid"		"349000"
+			"manifests"
+			{
+				"public"		"5754754060163105652"
+			}
+			"maxsize"		"1418"
+		}
+		"349230"
+		{
+			"name"		"Stronghold Crusader 2: The Templar & The Duke (349230) Depot"
+			"dlcappid"		"349230"
+			"manifests"
+			{
+				"public"		"491908686729935777"
+			}
+			"maxsize"		"1365"
+		}
+		"349231"
+		{
+			"name"		"Stronghold Crusader 2: The Jackal & The Khan (349231) Depot"
+			"dlcappid"		"349231"
+			"manifests"
+			{
+				"public"		"2960604363957901686"
+			}
+			"maxsize"		"1651"
+		}
+		"412590"
+		{
+			"name"		"Ultimate Edition Shields (412590) Depot"
+			"dlcappid"		"412590"
+		}
+		"232901"
+		{
+			"name"		"Stronghold Crusader 2 Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"619433027914766565"
+			}
+			"maxsize"		"162483700"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3062091"
+				"timeupdated"		"1541083246"
+			}
+			"day1release"
+			{
+				"buildid"		"391086"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"jack_chen"
+			{
+				"buildid"		"3062091"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1535132284"
+			}
+			"test"
+			{
+				"buildid"		"711338"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"test_log_build"
+			{
+				"buildid"		"480664"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"zoo"
+			{
+				"buildid"		"851276"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Stronghold Crusader 2/Saved Games"
+				"pattern"		"*.sgd"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Stronghold Crusader 2/Profiles"
+				"pattern"		"campaign_manager_state.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

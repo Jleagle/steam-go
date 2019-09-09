@@ -1,0 +1,463 @@
+"appinfo"
+{
+	"appid"		"471710"
+	"common"
+	{
+		"name"		"Rec Room"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"f557637186688996be65d2a6393b998c117b9447"
+		"logo_small"		"f557637186688996be65d2a6393b998c117b9447_thumb"
+		"clienticon"		"2fed37ffe33033cbb7547201df498944a2c7d735"
+		"clienttga"		"98a4e7d78e8b2229551e5c3255fc2b931b9c1fa4"
+		"icon"		"3237b1fb4f85d964d9412e0014a727e2a83a0698"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"471710_eula_0"
+				"name"		"Rec Room EULA"
+				"url"		"http://store.steampowered.com//eula/471710_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"openvr_controller_bindings"
+		{
+			"0"
+			{
+				"controller_type"		"knuckles"
+				"url"		"vr-input-workshop://1829246336"
+			}
+			"1"
+			{
+				"controller_type"		"vive_controller"
+				"url"		"vr-input-workshop://1814456821"
+			}
+			"2"
+			{
+				"controller_type"		"oculus_touch"
+				"url"		"vr-input-workshop://1822410565"
+			}
+		}
+		"metacritic_name"		"Rec Room"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"36"
+				"height_pct"		"42"
+			}
+		}
+		"store_asset_mtime"		"1560447929"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Against Gravity®"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Against Gravity®"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"37"
+			"4"		"29"
+			"5"		"18"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_40"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_27"		"1"
+			"category_17"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1464764400"
+		"steam_release_date"		"1467158040"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"471710"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"113"
+			"2"		"3859"
+			"3"		"701"
+			"4"		"493"
+			"5"		"3843"
+			"6"		"128"
+			"7"		"1685"
+			"8"		"4136"
+			"9"		"597"
+			"10"		"19"
+			"11"		"21"
+			"12"		"3839"
+			"13"		"599"
+			"14"		"1663"
+			"15"		"1774"
+			"16"		"5350"
+			"17"		"12095"
+			"18"		"4182"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Against Gravity®"
+		"publisher"		"Against Gravity®"
+		"homepage"		"http://www.againstgrav.com"
+		"isfreeapp"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RecRoom"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Recroom_Release.exe"
+				"arguments"		"+forcemode:vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Recroom_Release.exe"
+				"arguments"		"+forcemode:screen"
+				"description"		"Rec Room in Screen (non-VR) Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+		}
+	}
+	"depots"
+	{
+		"471711"
+		{
+			"name"		"RecRoom Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3740416007224945875"
+			}
+			"maxsize"		"4418646565"
+			"encryptedmanifests"
+			{
+				"bvts"
+				{
+					"encrypted_gid_2"		"32D6F72CC6F58B9C706B6FD9F5DDF285"
+					"encrypted_size_2"		"C0D172DF1860E99FC2889A5892F94945"
+				}
+				"crime_show"
+				{
+					"encrypted_gid_2"		"B710557DEB67685154181E5CF1F11C22"
+					"encrypted_size_2"		"9E8A48052583911DA028D9315143411E"
+				}
+				"fqaftlog"
+				{
+					"encrypted_gid_2"		"AA8341F7014143949E274B774F8883E9"
+					"encrypted_size_2"		"F40FE7EA96FD78F272CC3339C01869AE"
+				}
+				"happy_trails"
+				{
+					"encrypted_gid_2"		"66206975D8A3269623CE1960785CF208"
+					"encrypted_size_2"		"B1DB1FA45D21CE2C05B74A17953CEB0D"
+				}
+				"internal_debug"
+				{
+					"encrypted_gid_2"		"AB7CED02C03DBE0F3A6A6C5FCFA300BD"
+					"encrypted_size_2"		"3FCBB9E4BC37040142350005AE564212"
+				}
+				"internal_main"
+				{
+					"encrypted_gid_2"		"E305D8F40818BC6806AD0C420ECA2BD7"
+					"encrypted_size_2"		"A709B2DE2E562C07952EE18B439D6F5D"
+				}
+				"internal_test"
+				{
+					"encrypted_gid_2"		"828427F226478AE55E4B34439467B7BE"
+					"encrypted_size_2"		"CEF31581770575E6FC8C915E6794AD5F"
+				}
+				"karl"
+				{
+					"encrypted_gid_2"		"03A92FE7E523889E3D8CE9B3E318D6C3"
+					"encrypted_size_2"		"6B4AF5BA42D54695E6DCF2F861207B25"
+				}
+				"live_bugs"
+				{
+					"encrypted_gid_2"		"EFF47B047403F05CB71B80BB21E09EDA"
+					"encrypted_size_2"		"EE6F66C6797544645FC8E32E2601CE7D"
+				}
+				"matchmaking_test"
+				{
+					"encrypted_gid_2"		"3BEC97B09727C817AE42104511812220"
+					"encrypted_size_2"		"CA17F2D7AD50D88CCADCC798CD302C65"
+				}
+				"nothing_wrong"
+				{
+					"encrypted_gid_2"		"0AB73D9037B1B709124B7CFCE89C7632"
+					"encrypted_size_2"		"563BAD887C171955192BDFB8B7521042"
+				}
+				"old_zebra_shirt"
+				{
+					"encrypted_gid_2"		"5ECA59A645D3E6F246A1A3DB6080CCDC"
+					"encrypted_size_2"		"8231B51B97308B11AF34541C8B6DB2F8"
+				}
+				"p2pe_test"
+				{
+					"encrypted_gid_2"		"069E56697EC623B36739B29488D0FFC1"
+					"encrypted_size_2"		"0A980B566B18997C8DD42778A34E2627"
+				}
+				"pedro_test"
+				{
+					"encrypted_gid_2"		"8B468EECF955888EB7F24BFA2AC916FD"
+					"encrypted_size_2"		"BD29BB9D17122810D19E7DE1B0F6C4DD"
+				}
+				"poab"
+				{
+					"encrypted_gid_2"		"D03F655C032DC40C0BDBE8BF1CD1AB95"
+					"encrypted_size_2"		"41C358433F83ADC66AB7F2FECCC7BF43"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"DD2E0A03431E22F191AFBC0AF9159C37"
+					"encrypted_size_2"		"7F52BFFE01029B609114F343C720E507"
+				}
+				"sars_server"
+				{
+					"encrypted_gid_2"		"7B6C955ED27DFFF9A3620D579FE9E641"
+					"encrypted_size_2"		"3B428F0EE64632B3EA6343300A14A579"
+				}
+				"tested"
+				{
+					"encrypted_gid_2"		"583B5E5C6BBEEBD51BB163EFCF63609D"
+					"encrypted_size_2"		"68DCBDC2857E76E0256C8623BFD7FB9C"
+				}
+				"the_no_vomit_comet"
+				{
+					"encrypted_gid_2"		"EEF91AA1DE0C031816D01649F73F9E8C"
+					"encrypted_size_2"		"1F5A00C9D94626BF1C20512CF14EB210"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4171676"
+				"timeupdated"		"1567779047"
+			}
+			"bvts"
+			{
+				"buildid"		"4174338"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567800214"
+			}
+			"crime_show"
+			{
+				"buildid"		"4155229"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567211899"
+			}
+			"fqaftlog"
+			{
+				"buildid"		"3927603"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560825149"
+			}
+			"happy_trails"
+			{
+				"buildid"		"4127956"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566440528"
+			}
+			"internal_debug"
+			{
+				"buildid"		"4040601"
+				"description"		"Random debug builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564005922"
+			}
+			"internal_main"
+			{
+				"buildid"		"4179566"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568040777"
+			}
+			"internal_release"
+			{
+				"buildid"		"4171676"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567738318"
+			}
+			"internal_test"
+			{
+				"buildid"		"3942511"
+				"description"		"Internal testing builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561137431"
+			}
+			"karl"
+			{
+				"buildid"		"4179048"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568030083"
+			}
+			"live_bugs"
+			{
+				"buildid"		"3949801"
+				"description"		"Fix small issues found in Prod"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561402478"
+			}
+			"matchmaking_test"
+			{
+				"buildid"		"3766382"
+				"description"		"Testing new RecNet Matchmaking Service"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556148866"
+			}
+			"nothing_wrong"
+			{
+				"buildid"		"4174363"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567800962"
+			}
+			"old_zebra_shirt"
+			{
+				"buildid"		"4171083"
+				"description"		"fat chance!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567723326"
+			}
+			"p2pe_test"
+			{
+				"buildid"		"4171371"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567729634"
+			}
+			"pedro_test"
+			{
+				"buildid"		"3770103"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556234576"
+			}
+			"poab"
+			{
+				"buildid"		"4003710"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562871915"
+			}
+			"release_candidate"
+			{
+				"buildid"		"4134096"
+				"description"		"For storing RCs"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566586729"
+			}
+			"sars_server"
+			{
+				"buildid"		"3954617"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561502873"
+			}
+			"tested"
+			{
+				"buildid"		"4152304"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567145545"
+			}
+			"the_no_vomit_comet"
+			{
+				"buildid"		"4077435"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565042917"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1"
+	}
+}
+ 

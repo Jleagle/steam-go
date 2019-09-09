@@ -1,0 +1,1383 @@
+"appinfo"
+{
+	"appid"		"928600"
+	"common"
+	{
+		"name"		"F1 2019"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"d0f552eb2863c6b5dc91b22260b6d58ca8ac654a"
+		"logo_small"		"d0f552eb2863c6b5dc91b22260b6d58ca8ac654a_thumb"
+		"icon"		"bd9027dc12d42ffa937e58c6b5a04e8890c00353"
+		"clienticon"		"9c9447bb65dc8e04d3b2ec9c662c096fd34bd747"
+		"clienttga"		"7d64ad5de14baa8049a7ae26fa24d116917ec36d"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"928600_eula_0"
+				"name"		"F1 2019 EULA"
+				"url"		"https://store.steampowered.com//eula/928600_eula_0"
+			}
+		}
+		"metacritic_name"		"F1 2019"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.218883048505226"
+				"height_pct"		"91.90783614707345"
+			}
+		}
+		"store_asset_mtime"		"1567780768"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Codemasters"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Codemasters"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Formula One"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_30"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1561647720"
+		"metacritic_score"		"87"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/f1-2019?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"928600"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"599"
+			"2"		"701"
+			"3"		"3859"
+			"4"		"1644"
+			"5"		"4175"
+			"6"		"4182"
+			"7"		"21978"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Codemasters"
+		"publisher"		"Codemasters"
+		"homepage"		"http://www.formula1game.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/928600/"
+		"listofdlc"		"975320,1071370,1071371,1071372,1071373,1071374,1071375,1071376,1071377,1071378,1071379,1071390,1071391,1071392,1071393,1071394,1071395,1071396,1143970,1143971,1143972,1143973,1143974,1143975,1143976,1143977,1143978,1143979,1143980,1143981,1143982,1143983,1143990,1143991,1143992,1143993,1143994,1143995"
+	}
+	"config"
+	{
+		"installdir"		"F1 2019"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"F1_2019_dx12.exe"
+				"description"		"F1 2019 (DirectX 12 - Win 10 only)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"F1_2019.exe"
+				"description"		"F1 2019 (DirectX 11)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,japanese,polish,brazilian"
+		"workshopdepot"		"928600"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"928601"
+		{
+			"name"		"F1 2019 - Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8114742691250042639"
+			}
+			"maxsize"		"13841880494"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"E1830908976BFA55CCC9D1CB8CA52AAF"
+					"encrypted_size_2"		"F713E1BB68DED2910736D17BC648E5D7"
+				}
+				"devcheck"
+				{
+					"encrypted_gid_2"		"D6DFD3EC7A0E9D246FB9898007E514E2"
+					"encrypted_size_2"		"B79E15DA41B6FEBC3AC0BC872079D070"
+				}
+				"esportslan"
+				{
+					"encrypted_gid_2"		"B8E077A8C4D1BB915E28DBBC3DE5E69D"
+					"encrypted_size_2"		"FE2FC5D2CA56DFEBD77BB301078E9C0A"
+				}
+				"externaltesting"
+				{
+					"encrypted_gid_2"		"3BA26EAC0BCFC8D15DDCF35A5B891CA7"
+					"encrypted_size_2"		"451DEE1A75AF5DCA0C2448112120755B"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"D53A6309876EB5F4F9B2CC77E156045E"
+					"encrypted_size_2"		"EA586D4A10553B5A586C81E1E8565F21"
+				}
+				"patch10testbranch"
+				{
+					"encrypted_gid_2"		"BD75878C49E2096D8331C75D1F984DDA"
+					"encrypted_size_2"		"1F3B4AC20C21092CDA0636B8391EC937"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"A6993B7846C8F2447DD2E5F284DE485F"
+					"encrypted_size_2"		"D7054A3479B5246191CD1A9D97B43799"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"CAADB696C02E7A9169748811F158B144"
+					"encrypted_size_2"		"B8A5CCAF0E84EA5FB6BB2636364DAC88"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"3E754176029EB110C7999F210ABDD24A"
+					"encrypted_size_2"		"386B7BE858FAE3293A0FDBA51FF3C30D"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"0FF8A8BB9945A41E9AFEB4198D8259DE"
+					"encrypted_size_2"		"0A219877A1D7395620F67A2C417606F7"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"A3E5D203773B7EFD30E25D9B833BB63C"
+					"encrypted_size_2"		"FB337E1113FEB41966B8035B10B671C4"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"8915D964138C21414C58DE7579E50AE3"
+					"encrypted_size_2"		"ACCCA5DBAB589949193032632EBF23B1"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"7EB88F9FC0F6A25B000830623C7D9004"
+					"encrypted_size_2"		"DF88626E02F414B73FF3DFDC7F037AD4"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"CEB3884CAFE813BB94E628FFD3149D14"
+					"encrypted_size_2"		"FB9480F1CB9B6172B8437336E205CE71"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"3D9E25EF19FBEED3342B2C54A8353413"
+					"encrypted_size_2"		"7A144217582A7A566FFAD5BE1BE83FCF"
+				}
+			}
+		}
+		"928602"
+		{
+			"name"		"F1 2019 - Tracks"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1702356827499265553"
+			}
+			"maxsize"		"25246957627"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"94E39E988A677ADCDC4031F6CBFF84EE"
+					"encrypted_size_2"		"EBE85833BBD557F05702729370DA2703"
+				}
+				"devcheck"
+				{
+					"encrypted_gid_2"		"C9D1600EA7AF1AD8B57E0381D13397F4"
+					"encrypted_size_2"		"2F90E283F075D561718630F010A26B8C"
+				}
+				"esportslan"
+				{
+					"encrypted_gid_2"		"9DB05AE2D26B728A57639C3C6060D864"
+					"encrypted_size_2"		"04251D560793108D4AD675E2B54F6E89"
+				}
+				"externaltesting"
+				{
+					"encrypted_gid_2"		"717B67722D74B5A416934AD571138AEA"
+					"encrypted_size_2"		"F0DDECA1CA56BA614D2F2D7EE025A037"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"4BB6C328CD53ADC2E5D0D693927D63F8"
+					"encrypted_size_2"		"9299AA32488E4B099D56E6CC04C3EBAD"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"229AD55FA0EBC97A250A6EDA169361F4"
+					"encrypted_size_2"		"26DA7FED5BAB78DAB7F881C4E47F5289"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"894E365A7C3D57F707D28BF466D2A2AD"
+					"encrypted_size_2"		"FEEBEC03B33EBE56735395660134BF5C"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"23D6265CD2D57E0D7FDF9427EA7E9D0D"
+					"encrypted_size_2"		"3E91762444ED60A449AC7D7E36B68CD1"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"342CDBB19BF93A020555AA287D1763B0"
+					"encrypted_size_2"		"89CADA5D3D9F4D443A62636C8D3CE389"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"C0565F556B16FC6CE1FA0185A2EB03F6"
+					"encrypted_size_2"		"F29BB7AAA46558BF4BB273582D2DCCAF"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"BAB1CB07024D62E7AECBA157CC1E884B"
+					"encrypted_size_2"		"FD654539E6F08497D6015D42B9F12307"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"15949429D9FB755992437331932C9E5A"
+					"encrypted_size_2"		"AEE907A3551819D4BD33D83D725211FD"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"7B294DB81CE44F2EDC58FF420CF2BFA7"
+					"encrypted_size_2"		"9B88166958443C0D48E5CB460284B134"
+				}
+			}
+		}
+		"928603"
+		{
+			"name"		"F1 2019 - Language en-GB"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6674220643874223927"
+			}
+			"maxsize"		"778570603"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"F92A936ED31875328698F3C3F77EF8FF"
+					"encrypted_size_2"		"AE62106607F56094A889057F5578AAB6"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"5A16E357C61B30E4E16D5143A6D17626"
+					"encrypted_size_2"		"879A6AD010ED64BC01A7BF6A54C7909F"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"F0A6F36FD8EECDB20D21624DF28F9F60"
+					"encrypted_size_2"		"E8709EAE6B3843208DA347FBFDF42AF0"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"3F5C66050C1660969B2C80420490EDD1"
+					"encrypted_size_2"		"9E267148D486FB90EE363608DBFE026D"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"944E76EFB162B8ABDFAC246AA4D4A889"
+					"encrypted_size_2"		"E1DDFB2B0F9633003E44DEB959BF0482"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"BF1058C6D232EF122692C890548B7351"
+					"encrypted_size_2"		"92BD121DA3561AEEB1F317A186A79CCB"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"23E03E79F34227088A15BD20C53637D4"
+					"encrypted_size_2"		"821D68744E595296EA38171C8DDEE8EE"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"1F0952897B37F14980EA9B0A5E32820A"
+					"encrypted_size_2"		"3B8797124E59E5F7EE5AF0481368B8B3"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"BA3030690B323147C48AE29ECDC831EB"
+					"encrypted_size_2"		"971B81D167F186D7371BB12B90553AEC"
+				}
+			}
+		}
+		"928604"
+		{
+			"name"		"F1 2019 - Language de-DE"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2321186349854787295"
+			}
+			"maxsize"		"699383882"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"BCE5328241C62CF130447CE3E23E2372"
+					"encrypted_size_2"		"7F91A1A5347D7F9FC1535FC3B812D7D1"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"A3825763135B3727EED1B1F5A56942D7"
+					"encrypted_size_2"		"2AE3790455521D023DFD058C40C5856A"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"A83B888B224A742D4F3B30C8BE9FF7DE"
+					"encrypted_size_2"		"8119323719ADF16EAEEC28C764AB3D50"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"60327BEF745DEE6A1B4BA652BF15F2AC"
+					"encrypted_size_2"		"01033CB5DFDA4D7823C09ECC83450BAA"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"CE6BF7FFE604EFDA3FFF32967CD03BAF"
+					"encrypted_size_2"		"B1E0876A96F56C00F1E75869D24B0E9B"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"FA051E3A98B6781FDACC8CFE918BBA70"
+					"encrypted_size_2"		"EE0DCDFB32DD63AAAE1977D4CDA5E6AE"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"FD036576D6AB72B3706932017F1E09F4"
+					"encrypted_size_2"		"A9122C809A2BA848EC197888D8DFD72F"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"40A0104CB0AB932B93F393FE3836D05C"
+					"encrypted_size_2"		"784E2FC2E3FB2995BE10EF4920F39BEA"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"BAD5BBD76F3E1FB2647B0A5037D272E3"
+					"encrypted_size_2"		"704C1BADD6BE6AED771C65E5485F646E"
+				}
+			}
+		}
+		"928605"
+		{
+			"name"		"F1 2019 - Language es-ES"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3262440416141604886"
+			}
+			"maxsize"		"805447480"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"670E72B27FF3A757A4641450A2C29C30"
+					"encrypted_size_2"		"B382B6E2A9574EE43763E5DC43260124"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"958DF7A3003E6A422F955E2ACEA1702B"
+					"encrypted_size_2"		"5449B6D2F1DEB9323CB06E0C33291F9E"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"BA0FD81B875245FE2F9712038C5DF952"
+					"encrypted_size_2"		"F95620484B996814E7A04A8D1DFC2BD2"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"947E09809D519561A8A79C71CDEE7731"
+					"encrypted_size_2"		"F1B2BA7DADC854CEDDE1EBF620FC646F"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"27C1D498B24E9F6E0CDABB79D8E51F96"
+					"encrypted_size_2"		"D7E6936EBBE9F3ED886BE2241A04075A"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"2F57A0DBCDD8B286ABA57EE44C584A23"
+					"encrypted_size_2"		"7CB22E714532015F89A10503888CE9C4"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"0AFFFDD93462D0818E5D458F6598AD92"
+					"encrypted_size_2"		"9B48AAD239D0483B0886474EF4DCE072"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"3941BCD3952A3035A5E745B8C0A5737D"
+					"encrypted_size_2"		"7D55AAAC3249F1164F61B7BC039E404B"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"EDD88AD5F9A53D8EF4FBC099F152F07E"
+					"encrypted_size_2"		"BD731D5B0B5D815EB205582581E13B6B"
+				}
+			}
+		}
+		"928606"
+		{
+			"name"		"F1 2019 - Language fr-FR"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4224394941466428184"
+			}
+			"maxsize"		"653568127"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"46615A5DD01CA81E7C9632416A3A9C2F"
+					"encrypted_size_2"		"5F26AA3E50ABA3A6C16D5508B166AC12"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"2EB52874D70D5AE8DBB80D9AA0695B80"
+					"encrypted_size_2"		"5D91FC4661678255CFD2B3AB630E1DD6"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"A1B345671BD3E319B025952A49373B01"
+					"encrypted_size_2"		"D1BF32B05856CCBE33CB612FBC20903A"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"0A59A5D6CD3368745A0ED9679B3C59E9"
+					"encrypted_size_2"		"C895CE839E43E997353AFE2FDA071497"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"6F621E0B67654E4DCA4D9E56F04629ED"
+					"encrypted_size_2"		"DF395C337D8FAB12D40D4EF55E1CDADF"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"CE2C3DE4D11A14CBF03A265F590F2D75"
+					"encrypted_size_2"		"F50B050FAA48360E4F1ECDD21A2CEE3D"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"6BDB6465CA8005AEB55404B89C7AB083"
+					"encrypted_size_2"		"832324C0CFAABA3F94F1DACF6D7BAF60"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"54C4C6D9EECFED879F71B3F89104813A"
+					"encrypted_size_2"		"685FD4FD09927248BE5BA200A3095FFF"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"67599A3C3215203682C7BDB7DEFC9AF3"
+					"encrypted_size_2"		"E3317EA457DC8336CDB3A2F8F4CDB190"
+				}
+			}
+		}
+		"928607"
+		{
+			"name"		"F1 2019 - Language it-IT"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3903412516659283167"
+			}
+			"maxsize"		"766672386"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"070F83E4B15AC884F75198F8D34044FA"
+					"encrypted_size_2"		"E5432E0EBB7F03C231F49912AC349955"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"9623DE0C363AF6D1B7ED45C40FE9DE96"
+					"encrypted_size_2"		"A73ACE05E37215480301B16F9E701198"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"AA023241C3F19E7C99D2E5DD0489CCF3"
+					"encrypted_size_2"		"A8BF6E3884B1D92A8AC96277AF5A9BFB"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"415BC37BB561CE5679BF807191F5E82A"
+					"encrypted_size_2"		"B665B8D5FB11F255ED0D96AEE7B81128"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"E0C98A533AD1209032A375D06E67A4F3"
+					"encrypted_size_2"		"99110BC287644E29E2110E1B9D16B503"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"7C796F951EBEDF7FCFFC221BFFB3444D"
+					"encrypted_size_2"		"A26F18E897E16681EC811AB67200D6E6"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"53CDB8B04A435740888D1733C3366D85"
+					"encrypted_size_2"		"AAAC1BC3B3EA4973A20F9F1330172C92"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"B4B6E054B97032C8A4B4E454A71BD934"
+					"encrypted_size_2"		"1934988620CD1950BF236CEC209BE967"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"DCD89651BA21546C24643B3F35F1CC6C"
+					"encrypted_size_2"		"FD292F68E639442CDE00854804BEBABC"
+				}
+			}
+		}
+		"928608"
+		{
+			"name"		"F1 2019 - Language ja-JP"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1105039558832412532"
+			}
+			"maxsize"		"646476472"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"1A0CFC5F737F9D0AA911C643D07EFD71"
+					"encrypted_size_2"		"EB3421AF1E269473C10112921F8767D2"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"DFF88591B3964A9D25E32B21150CD818"
+					"encrypted_size_2"		"31C0784A33F734DDC05575DC5323E638"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"8377B15607BBBB3D4008949A65ED3185"
+					"encrypted_size_2"		"96BC91D069E227A117DB930586C0F674"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"FF265E309802CF0F347A3E43CE498058"
+					"encrypted_size_2"		"FD71C99191B1E8EA0CCE707FC356163D"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"5AED9A79DF835C2E3C26BAE5E463B444"
+					"encrypted_size_2"		"AEB5BFC373B433878321E8F97F2F0742"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"562BE6F5A84151B335440C98C6025EA5"
+					"encrypted_size_2"		"A853F13790A699C5AD7997F3FD4DCDAB"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"5C49380E8DD101FFB676818C9470F04F"
+					"encrypted_size_2"		"1FA0FABD0845CF70B04C29D1712E5D6F"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"0FA87048D3CA9E1D313A3029B3A8D6EE"
+					"encrypted_size_2"		"6BC53C73E67D1C55B431F1DADE727A4F"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"D1CEC83604E13468B0C072462485C6EF"
+					"encrypted_size_2"		"CB76DEC8BDFE05338E09B93EFA2FE062"
+				}
+			}
+		}
+		"928609"
+		{
+			"name"		"F1 2019 - Language pt-BR"
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1147541063198723045"
+			}
+			"maxsize"		"700237500"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"CDD95D25140490586505C2E39757C9DF"
+					"encrypted_size_2"		"D1A7860A01AC4688D71AD6B9D2541ED8"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"78A2CA0F379A938E8409F83D8C4F023F"
+					"encrypted_size_2"		"6AB78C4CDEBCF238FAD3B4387021F717"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"A315FD217EC9BB6990FE124A639B67CC"
+					"encrypted_size_2"		"5A186DA738B1994ED832EA612BA87C55"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"A354771581134E56C4804E1E30493D69"
+					"encrypted_size_2"		"919D47567F66FF30E2A6C0C96F9963F5"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"59F69AB062C486B20F11A7FD6E7E71CD"
+					"encrypted_size_2"		"47F2B251EDCA09BC71325744B42DF2CE"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"8ED6818B06D306D3817CCF98E7597720"
+					"encrypted_size_2"		"D71200D5374BBF6218C87563CC4E2CD8"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"8EA053E9FAB8EB606306E1EA6D35A7D7"
+					"encrypted_size_2"		"F558CF1673B54C2710AF045AD33E988F"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"B7B863DD1135FB28998D64AEBB11991D"
+					"encrypted_size_2"		"D7D49D72E6A1B7ED3BB3E5CFB9DA1FA6"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"F841401B880FDD3D9D147E10A2974B1D"
+					"encrypted_size_2"		"8F5B5DA979FC02BE538741AC937D13E6"
+				}
+			}
+		}
+		"944390"
+		{
+			"name"		"F1 2019 - Language pl-PL"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2394065586637530432"
+			}
+			"maxsize"		"645951422"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"54447432F73F7FC4E621D84149BCB7B9"
+					"encrypted_size_2"		"7DAED275590CE93F78CE5A74C94F4B11"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"0A7DC23248B529ED7E2FEF9523DC50CE"
+					"encrypted_size_2"		"A09BE1322BEF9ECBB0EA4149A6772037"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"B78772526C6EAA4B699370EDAF8DD7E4"
+					"encrypted_size_2"		"0F13E96B885E1A01A7E8DD984BF9F679"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"D4D9F86CC08AA50B6465A7DD86E7CFA4"
+					"encrypted_size_2"		"B41C2D75DE138E40A1DCD7C8825CEA40"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"A7E95CCDA428861F6E639492DFC3BE38"
+					"encrypted_size_2"		"44904F5727A28BCC8CBE5ABEDE208C56"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"0F932427E31E3C944C0FED690C7EED94"
+					"encrypted_size_2"		"078258959EBA68299D1597853B8F3442"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"CC32CCBF2B6D576CE6BDF1F9B452036F"
+					"encrypted_size_2"		"F94DD0C0AB3B4FAE4E7EF63FFBA37B71"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"9E249D2F22E567617A6610D2BC1DEDEB"
+					"encrypted_size_2"		"79C5AE519B78F160B696F010F630D01D"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"FEE7D0BE3FA43AE214A765D329D1DF7C"
+					"encrypted_size_2"		"8270FD3E331062800A1E2E32EA03CF59"
+				}
+			}
+		}
+		"944391"
+		{
+			"name"		"F1 2019 - Language ru-RU"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8394064142528393409"
+			}
+			"maxsize"		"650874814"
+			"encryptedmanifests"
+			{
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"D9B4A84A2F569B9091A51BFF23928C16"
+					"encrypted_size_2"		"6D6C5BC3FBAA401588703DEAD2FF3956"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"B1562F169976BE10DB3ED20287D9B79A"
+					"encrypted_size_2"		"E8E189D497AED2B31845692718AEFC47"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"AEFD98F1975DE76A4CAC31B92591A491"
+					"encrypted_size_2"		"187A9F9A6DF9758BDCA6E156BFA4635E"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"C792DAC992CCAE243CD91572EBC2CB05"
+					"encrypted_size_2"		"22C59FC169949FFCC741E4A88CA1FC65"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"9B4CE93E88C47CF3EFF377EA8AD2DB5F"
+					"encrypted_size_2"		"D4DB120DEC82AAD302D1D20BC78FCBD5"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"AD8E1E0FC15C92DE222360BE17442032"
+					"encrypted_size_2"		"3EB30A6B17569CB131180E02E3DECB17"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"598DBD6CC27DFD987DCC69AEA042685A"
+					"encrypted_size_2"		"4C16F64CCD63F672838828E38056874D"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"C9177AFB39D3E8BCF681CC939F37D420"
+					"encrypted_size_2"		"55BAE0FC0847E409A9449690A226394C"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"094C39200A9F357331F4115BF1A24D43"
+					"encrypted_size_2"		"28E32FA3E90FC1646B6C2325F8B8889A"
+				}
+			}
+		}
+		"944393"
+		{
+			"name"		"F1 2019 - Main"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2980015279140369706"
+			}
+			"maxsize"		"863651328"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"C18BDE1FE0B208742657B2F30A5EDC5A"
+					"encrypted_size_2"		"27E4C63F849C33442D639ECE883BB226"
+				}
+				"devcheck"
+				{
+					"encrypted_gid_2"		"94A131073F8AEF1DC1D405097FCBE78F"
+					"encrypted_size_2"		"D4600297C374CB57062EDDCA80E95A5C"
+				}
+				"esportslan"
+				{
+					"encrypted_gid_2"		"5D188F1D120A956B9D84974C29F27376"
+					"encrypted_size_2"		"6E23ACF908CF7F4A55C5EDBE7C33C98C"
+				}
+				"externaltesting"
+				{
+					"encrypted_gid_2"		"EC379CBE6F4268D26951DB4CBD19094F"
+					"encrypted_size_2"		"F04C856ECCAF984B3B0995E9DB34CF49"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"2AD57159ECF8F043C55B0D71E436E90B"
+					"encrypted_size_2"		"6212D4D4E2E6E7F2D3D20E3C5DB998B7"
+				}
+				"patch10testbranch"
+				{
+					"encrypted_gid_2"		"8BCF991049C667E0F9B2C0FEB1DFD5EA"
+					"encrypted_size_2"		"7AE9661B5CA6F8E361FE42F2A52E476E"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"7C1E02CD4759D8A652A4A931C92389C2"
+					"encrypted_size_2"		"61FDBCE158D639C20994700FC09C47FE"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"3C53B811E8A745D01E1A533CFE323C2D"
+					"encrypted_size_2"		"473482BF9D2A6655C5679627610B2581"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"9EC02F6A90781D1D9C226FF89209B6BD"
+					"encrypted_size_2"		"EDFE188CF9406E9C04FA60971F801CAA"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"31359F5BB83AA74B1DBD2ED6CAD084DE"
+					"encrypted_size_2"		"0A98B84A1A2474DC5BBA1D2367BF73CF"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"9F13E7F838800F3AE1D4AA519B76229F"
+					"encrypted_size_2"		"B57FC83E58DB7DC6ED48334DD3B092BE"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"6DA426EA23DE399627094BCC6BF93980"
+					"encrypted_size_2"		"FB022AB6DDA1E2A47FFAC85230EB9D47"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"85BB5210702A67B027F8E588CAAF4A6D"
+					"encrypted_size_2"		"C528BF429CF4D4588C7EFAAD72DACA65"
+				}
+				"qapatch9"
+				{
+					"encrypted_gid_2"		"0D11AD5AB128D6B8A55E297744E085A6"
+					"encrypted_size_2"		"1CDE4116CDDF350B27BBABBF6D4E2975"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"2AF2B09A24DDA8C3E55613FF00D15541"
+					"encrypted_size_2"		"4BA5F7CABB02F08FC1C7EE8047F6E5A2"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"4A63DAC064B92CD2B29F8D004C83D28B"
+					"encrypted_size_2"		"5F5CFCAF738DC4699AC3018BE06241B1"
+				}
+			}
+		}
+		"944394"
+		{
+			"name"		"F1 2019 - Debug"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2405144760257833505"
+			}
+			"maxsize"		"330512438"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"ACA39394AD1646B383AE9E1071046D58"
+					"encrypted_size_2"		"B273FF264D4866CC4D539DE424E740D8"
+				}
+				"devcheck"
+				{
+					"encrypted_gid_2"		"EC2E5E85FFC2FD2339E9C55ABC6BAC09"
+					"encrypted_size_2"		"253A12B69D0BD33DA1BEC9B87A4DB272"
+				}
+				"esportslan"
+				{
+					"encrypted_gid_2"		"B8A6BA77B2DCE679853D7791E4314C5F"
+					"encrypted_size_2"		"B32CFDFA11ECB37649C558D0A6DFEC36"
+				}
+				"externaltesting"
+				{
+					"encrypted_gid_2"		"FE4B2328A1EE259BE00018261216E88E"
+					"encrypted_size_2"		"9B56DEB6700E686C2FE4F7A0AB6B49BE"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"BD5A346FB03F48F164872D5CAEAD49D8"
+					"encrypted_size_2"		"2C07CB341245624D2B14D7363E35B5F3"
+				}
+				"patch10testbranch"
+				{
+					"encrypted_gid_2"		"D6CB8F99D5D6D8F9D9DF1AFD96CE158B"
+					"encrypted_size_2"		"EC2A286F1F4B50576224E54ABE8E2AC0"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"1CE02EFB986A9D2A3D370F3DB29D259A"
+					"encrypted_size_2"		"9C2E6282DF2A585FA76618A2C9305722"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"A0C157D9859B137B67AFA05B28899B37"
+					"encrypted_size_2"		"E8EC805AF0F385ADC3213C066CDC1AF5"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"BDB1217EF9E3D05E7C6F4AD0717A97DF"
+					"encrypted_size_2"		"9D66FF11EB05703330C0109F56A4200A"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"922440EF3EF65296FAF561A1DD21B8EF"
+					"encrypted_size_2"		"B0D201E0D0942262792FE62214FCC3CC"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"D546C8DA6AC72B51D337F23A14FC38FB"
+					"encrypted_size_2"		"0808867A4B0CCE03CCA1751E7DC35E79"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"02EBB809B3F3441AFB35CF0AA4461D91"
+					"encrypted_size_2"		"8761AC3668F2607BCF42A42BEC45B4BA"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"F3699D84A9E4F6A4EA36141417A2DE83"
+					"encrypted_size_2"		"2CD66F61F68A86AC021FB88C8FDAB2CF"
+				}
+				"qapatch9"
+				{
+					"encrypted_gid_2"		"28C50895C82C5071F9493DB4CEEC6C0C"
+					"encrypted_size_2"		"12D7276F280861E0B172C45968263A8A"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"4C490A6ED2186BDB6C8C6AFB7A07DE9B"
+					"encrypted_size_2"		"FD75A22AC62A4EB5D652C5BA0108E3C8"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"3CE29E6FBF6AD5703FE937945F4CC588"
+					"encrypted_size_2"		"6DBD96099F57644832050418068EAE49"
+				}
+			}
+		}
+		"944395"
+		{
+			"name"		"F1 2019 - gfn"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2740212080371566466"
+			}
+			"maxsize"		"73312768"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"A5280DA570813F0BF706F9763EFB92E3"
+					"encrypted_size_2"		"324EDEEA581489A122CC0ADA7D7F899E"
+				}
+				"devcheck"
+				{
+					"encrypted_gid_2"		"0F40CBC6F81FE90163FAEE933C91F8B3"
+					"encrypted_size_2"		"2DE6247387A2F30D099538324CB7A2BE"
+				}
+				"esportslan"
+				{
+					"encrypted_gid_2"		"F8AE6AA1E8847761BB72324285240BE5"
+					"encrypted_size_2"		"CCD5771447C2838E003F4CDD7E215E29"
+				}
+				"externaltesting"
+				{
+					"encrypted_gid_2"		"415B81440C9CCFE62AD6DD731ABED6CB"
+					"encrypted_size_2"		"33DFA843C54EF86C57118BB2E438BEF8"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"B57E7145D453A33F26B43BA2112383E2"
+					"encrypted_size_2"		"6F128E0939261D883DCBE22031164080"
+				}
+				"patch10testbranch"
+				{
+					"encrypted_gid_2"		"C5147DB56460BF82C068BEB992D15C32"
+					"encrypted_size_2"		"3B0AF86B35E8AE6825FFB731102E20AD"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"46EE6EA26CDD94CFC7A2634ED6B5AB18"
+					"encrypted_size_2"		"5BA9A8F282161571BA006A5E9B3D5299"
+				}
+				"patch6testbranch"
+				{
+					"encrypted_gid_2"		"EF038905211F7E0DFD355377EF4368C5"
+					"encrypted_size_2"		"20357A1E183DB30BB8ECDF2E7E967DD6"
+				}
+				"playthroughbranch"
+				{
+					"encrypted_gid_2"		"B26EE81A4FDDBB77207E478643751FA5"
+					"encrypted_size_2"		"984A44A7B891AB404F9639E860149AE1"
+				}
+				"qapatch5"
+				{
+					"encrypted_gid_2"		"D2D5183A517995D1886087F92AF4FC00"
+					"encrypted_size_2"		"F0A9DEAB3A08318139EF87A2C1786C01"
+				}
+				"qapatch6"
+				{
+					"encrypted_gid_2"		"6E2B4A1DE812882D49A03E298BCCC617"
+					"encrypted_size_2"		"655AE50A7D159492A9E3647531A441F5"
+				}
+				"qapatch7"
+				{
+					"encrypted_gid_2"		"69CA64187E8EE56B250C3E37C49F541D"
+					"encrypted_size_2"		"C315689BDC6EC0A2355359280843B471"
+				}
+				"qapatch8"
+				{
+					"encrypted_gid_2"		"62C76D256EDD77FAE453B63A91555B50"
+					"encrypted_size_2"		"6780BD963CC1197D3FFD6269AD895C3C"
+				}
+				"qapatch9"
+				{
+					"encrypted_gid_2"		"816C4962F1EA9B941CB1CC78CD700386"
+					"encrypted_size_2"		"2C65ECD4DB2DD6550809BB72999313EE"
+				}
+				"qaplaythroughtestbranch"
+				{
+					"encrypted_gid_2"		"C70FEFD01B64DB9D93EE0B21F9CBC3FE"
+					"encrypted_size_2"		"022AACBEF690A29CF88B9EF1677BA53C"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"FA43A92F288B94AB52703FAADB8973EC"
+					"encrypted_size_2"		"AE646579BBF2A1F743331CD79AC731F6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4113843"
+				"timeupdated"		"1566393349"
+			}
+			"baber"
+			{
+				"buildid"		"4113843"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566392625"
+			}
+			"denuvo"
+			{
+				"buildid"		"4164612"
+				"description"		"Denuvo Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567608747"
+			}
+			"devcheck"
+			{
+				"buildid"		"4171418"
+				"description"		"For Development"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567755148"
+			}
+			"esportslan"
+			{
+				"buildid"		"4120953"
+				"description"		"Esports LAN build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566311973"
+			}
+			"externaltesting"
+			{
+				"buildid"		"4127674"
+				"description"		"External Partner Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566479014"
+			}
+			"goldmaster"
+			{
+				"buildid"		"3817493"
+				"description"		"Gold Master"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557930261"
+			}
+			"patch10testbranch"
+			{
+				"buildid"		"4134403"
+				"description"		"Patch 10 Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567084763"
+			}
+			"patch4"
+			{
+				"buildid"		"3965597"
+				"description"		"v1.04"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563355228"
+			}
+			"patch6testbranch"
+			{
+				"buildid"		"4032193"
+				"description"		"Patch 6 Testbranch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563965326"
+			}
+			"playthroughbranch"
+			{
+				"buildid"		"3828217"
+				"description"		"Playthrough Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558090982"
+			}
+			"qapatch5"
+			{
+				"buildid"		"4009298"
+				"description"		"Patch5 Connecting to QA Online Services"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563175945"
+			}
+			"qapatch6"
+			{
+				"buildid"		"4045687"
+				"description"		"Patch6 Connecting to QA Online Services"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564127907"
+			}
+			"qapatch7"
+			{
+				"buildid"		"4067341"
+				"description"		"Patch7 Connecting to QA Online Services"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564759729"
+			}
+			"qapatch8"
+			{
+				"buildid"		"4092493"
+				"description"		"Patch8 Connecting to QA Online Services"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565591666"
+			}
+			"qapatch9"
+			{
+				"buildid"		"4123896"
+				"description"		" Patch9 Connecting to QA Online Services"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566371531"
+			}
+			"qaplaythroughtestbranch"
+			{
+				"buildid"		"4005122"
+				"description"		"India Playthrough Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563282769"
+			}
+			"qatestbranch"
+			{
+				"buildid"		"4171418"
+				"description"		"QA Main test branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567758639"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"367001600"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

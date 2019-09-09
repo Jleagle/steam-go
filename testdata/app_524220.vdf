@@ -1,0 +1,458 @@
+"appinfo"
+{
+	"appid"		"524220"
+	"common"
+	{
+		"name"		"NieR:Automata™"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+		}
+		"logo"		"907a5a93209a68b9605513c9e5658c8cc8924bd3"
+		"logo_small"		"907a5a93209a68b9605513c9e5658c8cc8924bd3_thumb"
+		"icon"		"ec431ecb2a5178c5a01bb15550f112f93af029bb"
+		"clienticon"		"7a2d30e2c6773240ca5b3d98bc35893a6458f813"
+		"clienttga"		"c7697abe9799918553c1a80675c7c4dd69d4c6d7"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"524220_eula_0"
+				"name"		"NieR:Automata™ EULA"
+				"url"		"http://store.steampowered.com//eula/524220_eula_0"
+			}
+		}
+		"metacritic_name"		"NieR: Automata"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"95.09918319719954"
+				"height_pct"		"46.80598432676326"
+			}
+		}
+		"store_asset_mtime"		"1562596281"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Square Enix"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"PlatinumGames Inc."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"NIER"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1489766340"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/nier-automata?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"524220"
+		"store_tags"
+		{
+			"0"		"1756"
+			"1"		"1742"
+			"2"		"7208"
+			"3"		"19"
+			"4"		"1646"
+			"5"		"122"
+			"6"		"1695"
+			"7"		"4085"
+			"8"		"4434"
+			"9"		"3835"
+			"10"		"4182"
+			"11"		"5752"
+			"12"		"4166"
+			"13"		"3942"
+			"14"		"4777"
+			"15"		"4885"
+			"16"		"6650"
+			"17"		"3955"
+			"18"		"21"
+			"19"		"4667"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Square Enix"
+		"publisher"		"Square Enix"
+		"homepage"		"http://www.niergame.com/"
+		"listofdlc"		"580600,580610,583990,583991,583992,583993,583994,605260,1017420,1017430"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NieRAutomata"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NieRAutomata.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,japanese"
+		"hasdepotsindlc"		"0"
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"524221"
+		{
+			"name"		"NieR:Automata™ Default"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6804539827574949545"
+			}
+			"maxsize"		"48041491414"
+			"encryptedmanifests"
+			{
+				"debug"
+				{
+					"encrypted_gid_2"		"3A0128D81CE168B7D380A7A9A054A35D"
+					"encrypted_size_2"		"475E96B3CD5584E86BBA2C747184C97D"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"B2E29497EF884AAEF5D9762132E86284"
+					"encrypted_size_2"		"D3221155F204D518CD1216EBC353B1A0"
+				}
+				"jkfes9uqt43ql"
+				{
+					"encrypted_gid_2"		"D8AA2AE550552164627A4A84F462D884"
+					"encrypted_size_2"		"E199EE8579DFE4EE6CFDD3881A669DF6"
+				}
+				"qa_board"
+				{
+					"encrypted_gid_2"		"41CD277206C4154FB22BB5C05E1DB5BC"
+					"encrypted_size_2"		"BDF425173386286AFFD12A48B3758287"
+				}
+			}
+		}
+		"580600"
+		{
+			"name"		"NieR:Automata™ - 3C3C1D119440927 (580600) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"580600"
+			"manifests"
+			{
+				"public"		"6352626735786606959"
+			}
+			"maxsize"		"3507768459"
+			"encryptedmanifests"
+			{
+				"483qtryh438w"
+				{
+					"encrypted_gid_2"		"A0FECF6D6B2A4D510C6470F41D8110C7"
+					"encrypted_size_2"		"8F9B66B20CFFEEB93428C1611DEE3F81"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"A6BB34810EA7D745E57DB86BCEF34588"
+					"encrypted_size_2"		"669AFEF59B3A57D961317B4B089A40FB"
+				}
+				"jkfes9uqt43ql"
+				{
+					"encrypted_gid_2"		"B45A814A556152B3D29B0A2E0466E179"
+					"encrypted_size_2"		"C1EAA0A06050E669E13832E02F608273"
+				}
+			}
+		}
+		"580610"
+		{
+			"name"		"NieR:Automata™ - Grimoire Weiss Pod (580610) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"580610"
+			"manifests"
+			{
+				"public"		"70539499618618565"
+			}
+			"maxsize"		"2920624"
+		}
+		"583990"
+		{
+			"name"		"NieR:Automata™ - Mask Character Accessory (583990) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"583990"
+			"manifests"
+			{
+				"public"		"7857600567806192582"
+			}
+			"maxsize"		"659632"
+		}
+		"583991"
+		{
+			"name"		"NieR:Automata™ - Valve Character Accessory (583991) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"583991"
+			"manifests"
+			{
+				"public"		"7822405453448242645"
+			}
+			"maxsize"		"727288"
+		}
+		"583992"
+		{
+			"name"		"NieR:Automata™ - Cardboard Pod Skin (583992) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"583992"
+			"manifests"
+			{
+				"public"		"7955785643780797608"
+			}
+			"maxsize"		"4163760"
+		}
+		"583993"
+		{
+			"name"		"NieR:Automata™ - Retro Red Pod Skin (583993) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"583993"
+			"manifests"
+			{
+				"public"		"3440919711813183915"
+			}
+			"maxsize"		"4688048"
+		}
+		"583994"
+		{
+			"name"		"NieR:Automata™ - Retro Grey Pod Skin (583994) 個のデポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"583994"
+			"manifests"
+			{
+				"public"		"6837545457254028528"
+			}
+			"maxsize"		"4688048"
+		}
+		"1017430"
+		{
+			"name"		"NieR:Automata™ - Game of the YoRHa Edition Wallpaper Set (1017430) デポ"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1820157406263693639"
+			}
+			"maxsize"		"16090077"
+			"dlcappid"		"1017430"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3574007"
+				"timeupdated"		"1550574512"
+			}
+			"483qtryh438w"
+			{
+				"buildid"		"1779351"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493118722"
+			}
+			"baseline"
+			{
+				"buildid"		"3574007"
+				"description"		"Mastering Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550570632"
+			}
+			"debug"
+			{
+				"buildid"		"1682478"
+				"description"		"	profile ver.191194.191334.191460.191463"
+				"pwdrequired"		"1"
+				"timeupdated"		"1489144796"
+			}
+			"develop"
+			{
+				"buildid"		"1784458"
+				"description"		"release ver.191194.191334.191460.191463"
+				"pwdrequired"		"1"
+				"timeupdated"		"1493284556"
+			}
+			"jkfes9uqt43ql"
+			{
+				"buildid"		"1779193"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493114056"
+			}
+			"locqa"
+			{
+				"buildid"		"3574007"
+				"description"		"Loc QA profile ver.191194.191334.191460.191463"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550570660"
+			}
+			"qa-test"
+			{
+				"buildid"		"3574232"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550574802"
+			}
+			"qa_board"
+			{
+				"buildid"		"1682678"
+				"description"		"Profile Ver.191194.191334.191448.191460.191463"
+				"pwdrequired"		"1"
+				"timeupdated"		"1489145648"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/NieR_Automata/"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

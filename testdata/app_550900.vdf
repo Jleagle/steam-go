@@ -1,0 +1,865 @@
+"appinfo"
+{
+	"appid"		"550900"
+	"common"
+	{
+		"name"		"Metin2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"6e698488e76320e94b0d6dbac26004c3429529b2"
+		"logo_small"		"6e698488e76320e94b0d6dbac26004c3429529b2_thumb"
+		"clienticon"		"aa7ab52a781838766c407b3d4f823dab28106d8f"
+		"clienttga"		"6f38ed47cc18f347a8ddf57b288180e301a0add9"
+		"icon"		"095d9cd6bf6e885fce572dd0e25e4cd0fd4ed2c1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"550900_eula_0"
+				"name"		"Metin2 EULA"
+				"url"		"http://store.steampowered.com//eula/550900_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"metacritic_name"		"Metin2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"35"
+				"height_pct"		"49"
+			}
+		}
+		"store_asset_mtime"		"1560937156"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WEBZEN Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gameforge 4D GmbH"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"37"
+			"3"		"29"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_29"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1166342400"
+		"steam_release_date"		"1494245069"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"550900"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1754"
+			"2"		"128"
+			"3"		"21"
+			"4"		"19"
+			"5"		"1775"
+			"6"		"122"
+			"7"		"3859"
+			"8"		"1695"
+			"9"		"1684"
+			"10"		"6730"
+			"11"		"4231"
+			"12"		"9"
+			"13"		"12095"
+			"14"		"6650"
+			"15"		"597"
+			"16"		"198631"
+			"17"		"1646"
+			"18"		"4106"
+			"19"		"10397"
+		}
+	}
+	"extended"
+	{
+		"developer"		"WEBZEN Inc."
+		"publisher"		"Gameforge 4D GmbH"
+		"homepage"		"https://metin2.gameforge.com/"
+		"isfreeapp"		"1"
+		"listofdlc"		"640200,732410"
+	}
+	"config"
+	{
+		"installdir"		"Metin2"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"steam_launcher.exe"
+				"arguments"		"--steam"
+				"type"		"none"
+			}
+			"2"
+			{
+				"executable"		"config.exe"
+				"type"		"config"
+			}
+			"3"
+			{
+				"executable"		"change_lang.bat"
+				"description"		"Change Lang"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa_branch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,portuguese,polish,danish,dutch,hungarian,czech,romanian,turkish,arabic,greek"
+		"550901"
+		{
+			"name"		"Metin2 Content"
+			"manifests"
+			{
+				"public"		"5718957427729648879"
+			}
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"3AA3504D5FCC192F5C474486A6E9AF4A"
+					"encrypted_size_2"		"CD659491156AA274F79025D6AEBEDCC1"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"49526C9C3B0C1CEA9DCE17936201E374"
+					"encrypted_size_2"		"B73831C0A41048E7ED025E1EA568411E"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"065880C2549B96EAF26B6C903AF91F43"
+					"encrypted_size_2"		"AFA4D90483317CC9FD37C89CD9E442D4"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"5B7FDFB8BF7D81FDD744E918D0FBB00D"
+					"encrypted_size_2"		"86EC0A08FB76EB0280B2351524A95B0D"
+				}
+			}
+		}
+		"550902"
+		{
+			"name"		"Metin2 Content DE"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1767551884748128623"
+			}
+			"maxsize"		"4133686888"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"EE422219CDBF5B77065836B08C5D3297"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"EF925A667D182422DAD00E14717FA3AB"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"748FDC2D6A6ACB1CA7B8B37864E6527B"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"F14B45C0CEC1B3AAAC3E8BF03C115402"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550904"
+		{
+			"name"		"Metin2 Content AE"
+			"config"
+			{
+				"language"		"arabic"
+			}
+			"manifests"
+			{
+				"public"		"6765433043247433164"
+			}
+			"maxsize"		"4133652101"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"A5E49C2E9473EFFFA56ACD63555EDE5A"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"5269DE7585A74C5BE6C7A3BC32CB2183"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"306EF0A565FBE616F306CED48E80EAFE"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"464BC2903FF81038286D668451555C10"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550905"
+		{
+			"name"		"Metin2 Content IT"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"6128511748145808068"
+			}
+			"maxsize"		"4133651399"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"322F88D928F915BF23DD3C3D900A403C"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"13C9A1A77C393BA44F6E7DEB46068D38"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"374D3DE4143B27E925B04D83ECE2F50C"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"A44DD9F7FACEBAB96B989C84B37574E3"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550906"
+		{
+			"name"		"Metin2 Content RU"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"3813845683200742880"
+			}
+			"maxsize"		"4133644585"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"1DDBFB10CDF9CA065FF3AE94B310E79D"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"A744771B3BE38795035B10619F0CE296"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"2106C8F6DA334EFBD5D7970DC8321A8B"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"437FB4CB1754619A5D0DC794F811C883"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550907"
+		{
+			"name"		"Metin2 Content CZ"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"8013926051263985162"
+			}
+			"maxsize"		"4133651415"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"1A1CC524AD30E29B1B02FAB5E177AA09"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"EDC3F926B6CCDC654513E85A17ECAF0B"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"B6634DCA6BD3C8DD0B761E113CAC71BC"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"54606972AA119DE249B57A1FECF9F1D0"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550908"
+		{
+			"name"		"Metin2 Content DK"
+			"config"
+			{
+				"language"		"danish"
+			}
+			"manifests"
+			{
+				"public"		"2835186780554721573"
+			}
+			"maxsize"		"4133638351"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"B093EECCDD97AEF0254E400A14A13ABB"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"A50DF184F39BA5C00ACBD749763B385F"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"7D6651D943FFBD7CD447D800A173134B"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"C017F993BB488499FA25451C0341071F"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550909"
+		{
+			"name"		"Metin2 Content HU"
+			"config"
+			{
+				"language"		"hungarian"
+			}
+			"manifests"
+			{
+				"public"		"6720580220313688346"
+			}
+			"maxsize"		"4133651193"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"7519E4DEFEAB24C558960550FA03818E"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"920753592BCFB8187E3ED240E2469677"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"D31828B743506FCA530BCEC9B63216BE"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"70EA5B52C4AA79F91EAB87F9038E2C3E"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618530"
+		{
+			"name"		"Metin2 Content NL"
+			"config"
+			{
+				"language"		"dutch"
+			}
+			"manifests"
+			{
+				"public"		"8714358097522971502"
+			}
+			"maxsize"		"4133638246"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"4F4EFF04928FE7A9B0A2A3C2F8E3A350"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"8B8E6173E91966D1E5C40FF2A6EEBE96"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"78CD2D61A16ED3D9AC7967DE46078C24"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"95B73AB7F456572D3CDD57E4EB704E00"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618531"
+		{
+			"name"		"Metin2 Content RO"
+			"config"
+			{
+				"language"		"romanian"
+			}
+			"manifests"
+			{
+				"public"		"6255888215820880810"
+			}
+			"maxsize"		"4133698096"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"C32E7FFECB861C034F7719E684FA75C2"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"78D8243E7A805C9F059B37F9992EE569"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"DD43A8F3E6D9E19B5414ADA1B8217D41"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"4C1E6A4AA2C822B9A00A0458CEED93CB"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618532"
+		{
+			"name"		"Metin2 Content TR"
+			"config"
+			{
+				"language"		"turkish"
+			}
+			"manifests"
+			{
+				"public"		"8626349718809000945"
+			}
+			"maxsize"		"4133803662"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"C3B308BBB33DA4CDE786B36CF7C38551"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"02731DCA7DCAD2CF58675910B6610859"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"826CE328674C537AF6949C080316E783"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"C39A17F1CEE1DE898E3F1F9A07503B5C"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618533"
+		{
+			"name"		"Metin2 Content ES"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"8734333951722070895"
+			}
+			"maxsize"		"4133674700"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"EB8E574CB3DE15FE54A357F4AE35F866"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"5C5FD09453DBC2B01D423D8E377C1660"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"72173536DD707B86302D88779D3F1B56"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"9BB4502D5D849D7CEF575DD3A5CB1B91"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618534"
+		{
+			"name"		"Metin2 Content FR"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"2038934147907641447"
+			}
+			"maxsize"		"4133651344"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"E31850874C6B29E2F64C39F4BD453E17"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"0C72E2239011DD1603B9CC8AF98517B6"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"68A120CA34B88B19D114B1E9FF8D4786"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"CA888A6846A2F53D1EBC8B42819F9A32"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618535"
+		{
+			"name"		"Metin2 Content GR"
+			"config"
+			{
+				"language"		"greek"
+			}
+			"manifests"
+			{
+				"public"		"9026429128372389282"
+			}
+			"maxsize"		"4133640051"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"8FE840338499D879222BF84ABA445949"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"11A62BB958815F4C27E4AA9588467D54"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"1D2FAF67259B5AC2A2D1077DA2316C95"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"57B7162019955D667474752C587B524F"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618536"
+		{
+			"name"		"Metin2 Content PL"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"952595465634315128"
+			}
+			"maxsize"		"4133686456"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"9273FC6D4A9E6843F8A6205E2CAD2562"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"D5BA125093768E78140715C3A787211F"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"93306A3657DEC4C35B28A688A487C747"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"88EBDB17E86E38D15020F6AD61579600"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"618537"
+		{
+			"name"		"Metin2 Content PT"
+			"config"
+			{
+				"language"		"portuguese"
+			}
+			"manifests"
+			{
+				"public"		"5390336723688494032"
+			}
+			"maxsize"		"4133651568"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"AF31F1E2F0A2A7EC1E115C74A9AD7413"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"7486B8936881035E2AB05B575F77CCA2"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"22CB978C462290B2361F31D6D78AAF4F"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"EAAE9F3A53994B355E337259C000EB73"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"550903"
+		{
+			"name"		"Metin2 Content EN"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"7136874221049617477"
+			}
+			"maxsize"		"4133640040"
+			"encryptedmanifests"
+			{
+				"en_alpha"
+				{
+					"encrypted_gid_2"		"F4C5DDFB9903082EBFF0AE9C393969CE"
+					"encrypted_size_2"		"FFB8CF00339B8D8E4513D09DE49A3A78"
+				}
+				"en_beta"
+				{
+					"encrypted_gid_2"		"9F40C69D9A69057CA81CCCE58B2EB91F"
+					"encrypted_size_2"		"90FDFCF608EAB5490C5D25FCFA16998F"
+				}
+				"en_current"
+				{
+					"encrypted_gid_2"		"F6D66D8B779E10E7C44B11B167A91060"
+					"encrypted_size_2"		"1DA75B5F40E687F977E7C8CA4B597C4F"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"58851C80FF2CD7A437846B6D6112AA2E"
+					"encrypted_size_2"		"7191E63A1FF89D0CE2CE5FCE570C4B6B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4166756"
+				"timeupdated"		"1567673684"
+			}
+			"en_alpha"
+			{
+				"buildid"		"4166190"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567601734"
+			}
+			"en_beta"
+			{
+				"buildid"		"4160020"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567597870"
+			}
+			"en_current"
+			{
+				"buildid"		"4168705"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567673694"
+			}
+			"qa_branch"
+			{
+				"buildid"		"4179707"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568044267"
+			}
+			"qa_live"
+			{
+				"buildid"		"4166756"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567669774"
+			}
+		}
+	}
+}
+ 

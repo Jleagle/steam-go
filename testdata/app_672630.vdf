@@ -1,0 +1,423 @@
+"appinfo"
+{
+	"appid"		"672630"
+	"common"
+	{
+		"name"		"Academia : School Simulator"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"044a570bcab3839673aee557ecb7484aecc2978d"
+		"logo_small"		"044a570bcab3839673aee557ecb7484aecc2978d_thumb"
+		"icon"		"c7d9b97d27848dca036e39d75ad433453f37e66a"
+		"clienttga"		"6b9c9a13416a340c33112b83f06fe9b9847fed84"
+		"clienticon"		"fa3e7cd4cb96a21c81a1a3c8e65df6109a431c52"
+		"metacritic_name"		"Academia : School Simulator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567951438"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Squeaky Wheel Studio Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Squeaky Wheel Studio Inc"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1504854000"
+		"steam_release_date"		"1504882800"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"672630"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"12472"
+			"2"		"9"
+			"3"		"1643"
+			"4"		"493"
+			"5"		"492"
+			"6"		"3810"
+			"7"		"8945"
+			"8"		"7332"
+			"9"		"4328"
+			"10"		"5350"
+			"11"		"1036"
+			"12"		"3871"
+			"13"		"4695"
+			"14"		"1669"
+			"15"		"4791"
+			"16"		"4182"
+			"17"		"4845"
+			"18"		"7107"
+			"19"		"4136"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Squeaky Wheel Studio Inc"
+		"publisher"		"Squeaky Wheel Studio Inc"
+		"homepage"		"http://www.academiagame.com/"
+	}
+	"config"
+	{
+		"installdir"		"AcademiaSchoolSimulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Academia.exe"
+				"arguments"		"-noheap"
+				"description"		"Academia: School Simulator 32bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Academia.app"
+				"arguments"		"-noheap"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Academia64.exe"
+				"arguments"		"-noheap"
+				"description"		"Academia: School Simulator 64bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"672630"
+		"672631"
+		{
+			"name"		"Academia : School Simulator PC"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"7742248844717721770"
+			}
+			"maxsize"		"133572787"
+			"encryptedmanifests"
+			{
+				"achievements"
+				{
+					"encrypted_gid_2"		"A16953AC5C9EBA3A2BF14D35C82F1387"
+					"encrypted_size_2"		"B411465B9206DDE9693EEF0975B21912"
+				}
+				"hotfix"
+				{
+					"encrypted_gid_2"		"40DB0FBD26B138BD531A623537EC54E9"
+					"encrypted_size_2"		"2EAD9A9DE0B968F76D9F702008B7865B"
+				}
+				"outdated"
+				{
+					"encrypted_gid_2"		"2F3D8541CDC04C99A7E15EC2A6E171AD"
+					"encrypted_size_2"		"5A730F7DB5C2730FF45F615E96347C45"
+				}
+				"test_localization"
+				{
+					"encrypted_gid_2"		"B32FCBB96B7E814D579D17EFE93CD97B"
+					"encrypted_size_2"		"B7613BBE4C83AF8F4C8F32E0660C9C07"
+				}
+				"unstable"
+				{
+					"encrypted_gid_2"		"27477250764F4484D546E143DABE09D5"
+					"encrypted_size_2"		"7C6F4AF5746FB70F7C16C896330BAD97"
+				}
+			}
+		}
+		"672633"
+		{
+			"name"		"Academia : School Simulator PC 64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6809308898451867708"
+			}
+			"maxsize"		"142913598"
+			"encryptedmanifests"
+			{
+				"achievements"
+				{
+					"encrypted_gid_2"		"E95C8E507B779798E6F637CC55934F7F"
+					"encrypted_size_2"		"4F9F6F1F88F1D13AD4D7D179A248DE23"
+				}
+				"hotfix"
+				{
+					"encrypted_gid_2"		"900A5A56AC6BF1CDCF22E7D3C91E0F01"
+					"encrypted_size_2"		"371279E5927D19E5FE2B0819B816DAE2"
+				}
+				"outdated"
+				{
+					"encrypted_gid_2"		"7A799B4B29E338F7F18805E2ED900857"
+					"encrypted_size_2"		"81D3E31F25E943E9A23C218A1D2407CD"
+				}
+				"test_localization"
+				{
+					"encrypted_gid_2"		"D3C8C435A00EB669F4317184016677D6"
+					"encrypted_size_2"		"EFFDF16EBCA0A7494627965042A77E2D"
+				}
+				"unstable"
+				{
+					"encrypted_gid_2"		"11C3459C74CBC368B7BBC0AF35B6F1AE"
+					"encrypted_size_2"		"B27DEDF3C6C775FE69F80BDF9230A6EB"
+				}
+			}
+		}
+		"672632"
+		{
+			"name"		"Academia : School Simulator Mac"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6444662043298011148"
+			}
+			"maxsize"		"132080967"
+			"encryptedmanifests"
+			{
+				"achievements"
+				{
+					"encrypted_gid_2"		"D93F18BE0AD2050941AA7C89CAB7EA4E"
+					"encrypted_size_2"		"C8FFA6746646C6A648C24A338A4C5E78"
+				}
+				"hotfix"
+				{
+					"encrypted_gid_2"		"3EFF8B9AA7AF0F00A420D8281F80A0DD"
+					"encrypted_size_2"		"1491F9C0A554F12E2CECCDAA48BC1AA2"
+				}
+				"outdated"
+				{
+					"encrypted_gid_2"		"7D7322E3670BF75E5D825C73D455FD1E"
+					"encrypted_size_2"		"ACEF88693EEC12FB378B60B732C693C3"
+				}
+				"test_localization"
+				{
+					"encrypted_gid_2"		"7BF7D7A0D03888B7C5FC543456570BF7"
+					"encrypted_size_2"		"24AECD223D1218852154E5D98658CA94"
+				}
+				"unstable"
+				{
+					"encrypted_gid_2"		"714B9350775F6C405A3A27A4017FC13E"
+					"encrypted_size_2"		"75E8BAD59F59C71282A06358BEE94A49"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4173548"
+				"timeupdated"		"1567783307"
+			}
+			"achievements"
+			{
+				"buildid"		"3368767"
+				"description"		"Used for testing achievements"
+				"pwdrequired"		"1"
+				"timeupdated"		"1544016050"
+			}
+			"candidate"
+			{
+				"buildid"		"4173548"
+				"description"		"Candidate for release builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567783336"
+			}
+			"hotfix"
+			{
+				"buildid"		"4089842"
+				"description"		"Testing branch for hotfixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565337074"
+			}
+			"outdated"
+			{
+				"buildid"		"4111050"
+				"description"		"Last outdated build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565939174"
+			}
+			"test"
+			{
+				"buildid"		"4173548"
+				"description"		"For testing before releasing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567783250"
+			}
+			"test_localization"
+			{
+				"buildid"		"2837524"
+				"description"		"Used for testing localization"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528262667"
+			}
+			"unstable"
+			{
+				"buildid"		"2868739"
+				"description"		"Unstable builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533475497"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Squeaky Wheel/Academia/Saves"
+				"pattern"		"*.xml"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Squeaky Wheel/Academia/Saves"
+						"replace"		"unity.SqueakyWheel.Academia/Saves"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Squeaky Wheel/Academia/Saves"
+						"replace"		".config/unity3d/SqueakyWheel/Academia/Saves"
+					}
+				}
+			}
+		}
+	}
+}
+ 

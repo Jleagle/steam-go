@@ -1,0 +1,434 @@
+"appinfo"
+{
+	"appid"		"816020"
+	"common"
+	{
+		"name"		"JUMP FORCE"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"ae9e9094b918196ec3ea23879d0a90ddb9a98559"
+		"logo_small"		"ae9e9094b918196ec3ea23879d0a90ddb9a98559_thumb"
+		"icon"		"5c7c0a472f9bfc71bac2f01c3b70865a5540900c"
+		"clienticon"		"f13471cf44f29c1775e3b137ad4fe0ef6edc03b4"
+		"clienttga"		"d81285439418f09f7a489178454df6e1a87300cc"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"thai"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"JUMP FORCE"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"28.505849858478996"
+				"height_pct"		"48.013370049422576"
+			}
+		}
+		"store_asset_mtime"		"1564584911"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spike Chunsoft Co., Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1550181600"
+		"metacritic_score"		"60"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/jump-force?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"816020"
+		"store_tags"
+		{
+			"0"		"4085"
+			"1"		"1743"
+			"2"		"19"
+			"3"		"3859"
+			"4"		"4747"
+			"5"		"4182"
+			"6"		"7368"
+			"7"		"122"
+			"8"		"1695"
+			"9"		"597"
+			"10"		"1742"
+			"11"		"7481"
+			"12"		"4158"
+			"13"		"128"
+			"14"		"1756"
+			"15"		"4667"
+			"16"		"1684"
+			"17"		"3810"
+			"18"		"6650"
+			"19"		"1663"
+		}
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"developer"		"Spike Chunsoft Co., Ltd."
+		"publisher"		"BANDAI NAMCO Entertainment"
+		"homepage"		"https://www.bandainamcoent.com/games/jump-force"
+		"listofdlc"		"974700,974701,974702,974720,974721,974722,974723,974724,974725,974726,974727,974728,974729,1150200"
+	}
+	"config"
+	{
+		"installdir"		"JUMP FORCE"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"JUMP_FORCE.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"816021"
+		{
+			"name"		"revo Content"
+			"manifests"
+			{
+				"public"		"7658616455085172682"
+			}
+			"maxsize"		"20495347107"
+			"encryptedmanifests"
+			{
+				"build-review"
+				{
+					"encrypted_gid_2"		"D5FF7D6D874A9D7A7AD2063B982EACF0"
+					"encrypted_size_2"		"0246DFADBDC4D61997BAED76D3185F2C"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"59405884B303C2D03B93B05AAC817D71"
+					"encrypted_size_2"		"CFD4BE9FF5484B234B445E87F938070C"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"C20CD12524665E21EB4AD657015695A9"
+					"encrypted_size_2"		"D3D666E3A0AA045244EFCCC7274EDAE4"
+				}
+				"eac_test"
+				{
+					"encrypted_gid_2"		"A32515FA9D2D1B3A1953ABF66052294F"
+					"encrypted_size_2"		"B3C9B8035BD4C8B76E17CC672DAFA74C"
+				}
+				"mc_debug"
+				{
+					"encrypted_gid_2"		"E5AA36B43411BEA129918DEDE57343F6"
+					"encrypted_size_2"		"330148013D832F6453160F410F9A2459"
+				}
+				"mc_debug2"
+				{
+					"encrypted_gid_2"		"4AAD19ED3AAB385B71AA8D443EEBDC80"
+					"encrypted_size_2"		"9F301ED667F5574FB88FCD6F90273914"
+				}
+				"mc_debug3"
+				{
+					"encrypted_gid_2"		"6362340818BF52E2C880500965AE294E"
+					"encrypted_size_2"		"D05561619D86E9A51FF51A027E555B6D"
+				}
+				"mc_release"
+				{
+					"encrypted_gid_2"		"767793713F7EC28867C1F60CEEF4E60F"
+					"encrypted_size_2"		"740919D7FA8A390A91B3EBACE8A52E1E"
+				}
+				"mc_release2"
+				{
+					"encrypted_gid_2"		"AF04EE572CA4D08F35D56AB412482854"
+					"encrypted_size_2"		"FC2793CA99DA76D5B27E6D47DC2E9B63"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"925B20A758476BA41B8B1A77BDFDF601"
+					"encrypted_size_2"		"DFD3D97A7053A747F472B54D7D5B4B0A"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"F90A2D26F8EB010E205C4C0049FA2407"
+					"encrypted_size_2"		"DBE3D70C3FE9677F0513B75E85223CFE"
+				}
+				"qa_debug"
+				{
+					"encrypted_gid_2"		"744A99D0BEDE02E1640E0E9040BECE03"
+					"encrypted_size_2"		"B24F13095A5B1CBA8E32D0DA7105A3C8"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,polish,arabic,brazilian,latam"
+		"workshopdepot"		"816020"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4148028"
+				"timeupdated"		"1567134005"
+			}
+			"build-review"
+			{
+				"buildid"		"3484166"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547922976"
+			}
+			"compat"
+			{
+				"buildid"		"3530400"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549358039"
+			}
+			"development"
+			{
+				"buildid"		"4151705"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567135310"
+			}
+			"eac_test"
+			{
+				"buildid"		"3541207"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549870733"
+			}
+			"mc_debug"
+			{
+				"buildid"		"4151705"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567132510"
+			}
+			"mc_debug2"
+			{
+				"buildid"		"4153493"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568006976"
+			}
+			"mc_debug3"
+			{
+				"buildid"		"4148260"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567047402"
+			}
+			"mc_production"
+			{
+				"buildid"		"4148028"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567135265"
+			}
+			"mc_release"
+			{
+				"buildid"		"4152004"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567135765"
+			}
+			"mc_release2"
+			{
+				"buildid"		"4153447"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568006964"
+			}
+			"mc_release3"
+			{
+				"buildid"		"4148028"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567045844"
+			}
+			"nvidia"
+			{
+				"buildid"		"3535031"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549529687"
+			}
+			"press"
+			{
+				"buildid"		"3541207"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549664790"
+			}
+			"qa_debug"
+			{
+				"buildid"		"4148260"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567135281"
+			}
+			"qa_release"
+			{
+				"buildid"		"4148028"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567135241"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"105369600"
+		"maxnumfiles"		"102"
+	}
+}
+ 

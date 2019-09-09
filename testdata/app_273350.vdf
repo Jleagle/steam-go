@@ -1,0 +1,1370 @@
+"appinfo"
+{
+	"appid"		"273350"
+	"common"
+	{
+		"name"		"Evolve Stage 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"6b9e205c389185a4b0e079a13090c751e47375d2"
+		"clienticon"		"aad391388d9a85536a6cd2110cd633c99a8c9417"
+		"clienttga"		"eea8cc57f3bdd5b8faab148b58cf63f1b8023933"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"df025d71b278e46eb9322230bbd19c0cb8004b0d"
+		"logo_small"		"df025d71b278e46eb9322230bbd19c0cb8004b0d_thumb"
+		"osarch"		"64"
+		"metacritic_name"		"Evolve"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1472661179"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Turtle Rock Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2K"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_8"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1423584000"
+		"metacritic_score"		"77"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/evolve?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"273350"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3859"
+			"2"		"1685"
+			"3"		"1663"
+			"4"		"3843"
+			"5"		"1774"
+			"6"		"5711"
+			"7"		"1662"
+			"8"		"3942"
+			"9"		"1673"
+			"10"		"1775"
+			"11"		"3839"
+			"12"		"4155"
+			"13"		"9"
+			"14"		"4166"
+			"15"		"1697"
+			"16"		"1708"
+			"17"		"4182"
+			"18"		"1687"
+			"19"		"597"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Turtle Rock Studios"
+		"publisher"		"2K"
+		"homepage"		"http://www.evolveupdates.com/stage2/"
+		"listofdlc"		"331330,337170,338470,338740,338741,338742,338743,338744,338745,338746,341840,341841,341842,341843,341844,341845,341846,341847,341848,341849,341850,346740,346741,346742,346743,350410,350411,350412,350413,350414,350415,350416,350417,350418,350419,350420,356740,356741,356742,356743,356744,356750,356751,370250,370260,370261,370262,370263,370610,375990,378940,384390,426570,435330,440680,443610,499310,527130"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"EvolveGame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin64_SteamRetail/Evolve.exe"
+				"workingdir"		"Bin64_SteamRetail/"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Evolve.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Evolve.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"usemms"		"1"
+		"checkguid"		"Evolve.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,brazilian"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"273351"
+		{
+			"name"		"Turtle Rock Game 3 Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8194957421976031400"
+				"legacyevolve"		"486788927773919692"
+			}
+			"maxsize"		"19621932113"
+			"encryptedmanifests"
+			{
+				"cl252019"
+				{
+					"encrypted_gid_2"		"FFD1B7661148BA6B61C3A0A1D08CBB44"
+					"encrypted_size_2"		"8C4BB05DF02643FC3EF8DE537E14ED39"
+				}
+				"cl336427"
+				{
+					"encrypted_gid_2"		"A77D546A08653A8E222332AA2AA0DF59"
+					"encrypted_size_2"		"41726FDBF95424DAA5D241748F86708A"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"DB5EE8B9265CCA731C11F8B17505686D"
+					"encrypted_size_2"		"D311294E0B76B76B8D11EECA617BBC78"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"96E2C4188C866C2C228133ACB2B205E8"
+					"encrypted_size_2"		"39889E44E00D0774A82C269FEF2083CD"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"4C7326803C11ED847D857FBDADDB6BF8"
+					"encrypted_size_2"		"71260E323A6630FDA850307CAA3BB2C9"
+				}
+				"cl344440"
+				{
+					"encrypted_gid_2"		"D591259345851F58BBDA0725E4D3C9D4"
+					"encrypted_size_2"		"8DBA2A339DC072E3FB5B5F3C15AE36A0"
+				}
+				"cl347231"
+				{
+					"encrypted_gid_2"		"D8FD224F11171AAC1A3F1E65899E41F1"
+					"encrypted_size_2"		"BB12466D95A17BEBB78FCBC281D1BEEE"
+				}
+				"cl349508"
+				{
+					"encrypted_gid_2"		"97BAA9CB215A0A9A5036102695D4D36A"
+					"encrypted_size_2"		"FBD05B85D0C4B33E2C21A3996C3726F8"
+				}
+				"cl351769"
+				{
+					"encrypted_gid_2"		"76697D9244A39FDC0EFB8DDC91D3933C"
+					"encrypted_size_2"		"444FD75C83CA0259C52B09D85DA5C048"
+				}
+				"cl352334"
+				{
+					"encrypted_gid_2"		"F87B9CE8146185929F6D3BC7279A59A5"
+					"encrypted_size_2"		"846F71AA67A49C157F3E884721C33F08"
+				}
+				"cl352496"
+				{
+					"encrypted_gid_2"		"2AD265160B53E1B6168E61A23C76ECA7"
+					"encrypted_size_2"		"93FC6689566F6183B294DC024E075E11"
+				}
+				"cl352608"
+				{
+					"encrypted_gid_2"		"BCEE72AE63A63942C975B00A8A176C11"
+					"encrypted_size_2"		"29B7A540C46CEFDB002FEB184F0712A7"
+				}
+				"cl352687"
+				{
+					"encrypted_gid_2"		"13F86955487C01845E7422BA9D144D90"
+					"encrypted_size_2"		"08243D5A6718304763917EE5674A85FE"
+				}
+				"cl352710"
+				{
+					"encrypted_gid_2"		"E00F3AEB82C09AA3D5E7E0F8FFE285A9"
+					"encrypted_size_2"		"71984E25DEBC6BF10C82F6BBE331777C"
+				}
+				"cl352822"
+				{
+					"encrypted_gid_2"		"B77B084ADAE6F144063F84D637B5D5C1"
+					"encrypted_size_2"		"88DF49D76D6543086324DF40E058C4E1"
+				}
+				"domesticated_internal"
+				{
+					"encrypted_gid_2"		"DD00A3A007986F0BDBCB2B56BDE753E3"
+					"encrypted_size_2"		"4659CC76F9DC0FEEA2819A56EE7F9D34"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"7D56C2FD742C902786B49D6EEA190333"
+					"encrypted_size_2"		"E8E408CE82F50325600DA6CC7253436E"
+				}
+				"security_branch"
+				{
+					"encrypted_gid_2"		"A70A85F4A0B49FB77FD9C0B420E67715"
+					"encrypted_size_2"		"6ADDE256F575E2EAF22E69A155B88BD0"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"C5D0A38AF3A53E1B405DEAFD3A666069"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+				"unix_monster_race"
+				{
+					"encrypted_gid_2"		"0E58D1C4D68CA13E9402B57F341EE28E"
+					"encrypted_size_2"		"1391AB0337E552EE932F24CEDA4FCFA7"
+				}
+				"unix_monster_race2"
+				{
+					"encrypted_gid_2"		"F0F08BA2727757B93EBEA2CF56F88E60"
+					"encrypted_size_2"		"CAFEAB4F288DE2ED523B888CA4837950"
+				}
+			}
+		}
+		"331339"
+		{
+			"name"		"Pre-Purchase Placeholder Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"331330"
+		{
+			"name"		"Monster - Behemoth (331330) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"331330"
+			"manifests"
+			{
+				"public"		"37925679640641956"
+			}
+		}
+		"337170"
+		{
+			"name"		"Amazon Instant Hunter Pack (337170) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"310178537744798097"
+			}
+		}
+		"338470"
+		{
+			"name"		"Hunting Season Pass Magma Skins (338470) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338470"
+			"manifests"
+			{
+				"public"		"53984247477162520"
+			}
+		}
+		"338740"
+		{
+			"name"		"Savage Goliath Skin (338740) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338740"
+			"manifests"
+			{
+				"public"		"97314759379538981"
+			}
+		}
+		"338741"
+		{
+			"name"		"Exterminator Weapon Skins Pack (338741) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338741"
+			"manifests"
+			{
+				"public"		"17072562034453148"
+			}
+		}
+		"338742"
+		{
+			"name"		"Kraken - Dev/Press Unlock (338742) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338742"
+			"manifests"
+			{
+				"public"		"34635876529404044"
+			}
+		}
+		"338743"
+		{
+			"name"		"Hunter -  Assault 04 (338743) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338743"
+			"manifests"
+			{
+				"public"		"228501272118419012"
+			}
+		}
+		"338744"
+		{
+			"name"		"Hunter -  Trapper 04 (338744) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338744"
+			"manifests"
+			{
+				"public"		"91676724325227675"
+			}
+		}
+		"338745"
+		{
+			"name"		"Hunter -  Medic 04 (338745) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338745"
+			"manifests"
+			{
+				"public"		"44011842386944670"
+			}
+		}
+		"338746"
+		{
+			"name"		"Hunter -  Support 04 (338746) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"338746"
+			"manifests"
+			{
+				"public"		"90370657580083812"
+			}
+		}
+		"341849"
+		{
+			"name"		"Medic Valkyrie Skin Pack (341849) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341849"
+		}
+		"341850"
+		{
+			"name"		"Support Stormbringer Skin Pack (341850) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341850"
+		}
+		"341840"
+		{
+			"name"		"Wendigo Monster Skin Pack (341840) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341840"
+		}
+		"341841"
+		{
+			"name"		"Plasma Monster Skin Pack (341841) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341841"
+		}
+		"341844"
+		{
+			"name"		"Trapper Bushman Skin Pack (341844) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341844"
+		}
+		"341845"
+		{
+			"name"		"Medic Savior Skin Pack (341845) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341845"
+		}
+		"341846"
+		{
+			"name"		"Support Nordita Skin Pack (341846) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341846"
+		}
+		"341847"
+		{
+			"name"		"Assault Ragnarok Skin Pack (341847) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341847"
+		}
+		"341848"
+		{
+			"name"		"Trapper Blood Eagle Skin Pack (341848) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341848"
+		}
+		"341843"
+		{
+			"name"		"Assault Sword Skin Pack (341843) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341843"
+		}
+		"341842"
+		{
+			"name"		"Swamp Monster Skin Pack (341842) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"341842"
+		}
+		"273352"
+		{
+			"name"		"Evolve Mac App"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"local"		"6235441266906948252"
+			}
+			"encryptedmanifests"
+			{
+				"domesticated_internal"
+				{
+					"encrypted_gid_2"		"75B49D909E0BDE8188252E7D5B58B1B7"
+					"encrypted_size_2"		"CBF6609C995B2CF802995F7BB01CC29C"
+				}
+				"unix_monster_race"
+				{
+					"encrypted_gid_2"		"0A5CCFC265FA0A1DF306E3C8406D41DE"
+					"encrypted_size_2"		"4AE48C68DD738398239AA1822FFB4D3A"
+				}
+				"unix_monster_race2"
+				{
+					"encrypted_gid_2"		"694DABA176F2EAB102F1C001798C1511"
+					"encrypted_size_2"		"4DEC2C7BF6B2C6C92842181D67D7A893"
+				}
+			}
+			"maxsize"		"198274270"
+		}
+		"273353"
+		{
+			"name"		"Evolve Mac Data"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"local"		"50620873308744810"
+			}
+			"encryptedmanifests"
+			{
+				"domesticated_internal"
+				{
+					"encrypted_gid_2"		"D2736A0C53009C5333647178BE97075A"
+					"encrypted_size_2"		"B08D6B1BB86F09A349BDDE0B0978D731"
+				}
+				"unix_monster_race"
+				{
+					"encrypted_gid_2"		"9F21EE4044EDE1C93D7C6DDF3C006D4D"
+					"encrypted_size_2"		"A42FC5185C1BB9324EB3EA2995D98048"
+				}
+				"unix_monster_race2"
+				{
+					"encrypted_gid_2"		"08DAB3FC55A824590210C126EFB51920"
+					"encrypted_size_2"		"E522EEB0E92C6C254224BF0B679C6FC5"
+				}
+			}
+			"maxsize"		"48197564928"
+		}
+		"273354"
+		{
+			"name"		"Evolve Linux App"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"local"		"4130912122385259812"
+			}
+			"encryptedmanifests"
+			{
+				"domesticated_internal"
+				{
+					"encrypted_gid_2"		"34FF479F19C4D0F68CA76A497D3E5C10"
+					"encrypted_size_2"		"F5E5B79D3B47D286A7801EEBF3EE1221"
+				}
+				"unix_monster_race"
+				{
+					"encrypted_gid_2"		"B7CE3D537A67AFD83F02BA27C7D1FCB5"
+					"encrypted_size_2"		"289E59F56138366DE034AC9EE9BB1B93"
+				}
+				"unix_monster_race2"
+				{
+					"encrypted_gid_2"		"F68C1D730FAFFE07AA4F9D032F90ED13"
+					"encrypted_size_2"		"9DDB1D726D7B052943453EF1C0CCB593"
+				}
+			}
+			"maxsize"		"361807621"
+		}
+		"273355"
+		{
+			"name"		"Evolve Linux Data"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"local"		"7505189569410239908"
+			}
+			"encryptedmanifests"
+			{
+				"domesticated_internal"
+				{
+					"encrypted_gid_2"		"E44658960AA0FA954720DE45B49DB206"
+					"encrypted_size_2"		"B08D6B1BB86F09A349BDDE0B0978D731"
+				}
+				"unix_monster_race"
+				{
+					"encrypted_gid_2"		"46667AFB61A45B0120A10AB79BB75050"
+					"encrypted_size_2"		"A42FC5185C1BB9324EB3EA2995D98048"
+				}
+				"unix_monster_race2"
+				{
+					"encrypted_gid_2"		"A20151DFDC3FE0BFEFA3B9593512CA9F"
+					"encrypted_size_2"		"E522EEB0E92C6C254224BF0B679C6FC5"
+				}
+			}
+			"maxsize"		"48197564928"
+		}
+		"273356"
+		{
+			"name"		"Evolve Windows App"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6414154817355400228"
+				"legacyevolve"		"9188205743575846362"
+			}
+			"maxsize"		"64208104"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"8A8E4235116EF60198251CBC135A0545"
+					"encrypted_size_2"		"D719CF3202DA366C88A65B8A035A46A2"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"D9ECCE5EEA212BB3245979E93E7365E9"
+					"encrypted_size_2"		"C4FD8197A480102F4B27D6B0579F945A"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"C0E72642900FD5AA3EB86D13FF311D1A"
+					"encrypted_size_2"		"8B3BA72A69DBE200126D02C2856071FE"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"4F329A5F9B23338A0B78B7002ABD067B"
+					"encrypted_size_2"		"4A871A3DE311219A5F62F1A4C3DB2B78"
+				}
+				"cl344440"
+				{
+					"encrypted_gid_2"		"C1298F0000CCB68DC700FD9BFE04C80C"
+					"encrypted_size_2"		"035E5B3DF813A1C662E6464B0882E724"
+				}
+				"cl347231"
+				{
+					"encrypted_gid_2"		"11E073A2359B9DAC0A783694E75151D9"
+					"encrypted_size_2"		"AA86889EFC2511DF5840737E8E582898"
+				}
+				"cl349508"
+				{
+					"encrypted_gid_2"		"15CF79C1459E29E96E1DA6B9C22BA973"
+					"encrypted_size_2"		"DCAA5FF769A0291EAB618CF40CB4A622"
+				}
+				"cl351769"
+				{
+					"encrypted_gid_2"		"3F8901E391D65F33CF9388D30628BAD6"
+					"encrypted_size_2"		"4E27572746827EA90CE432E885B3C346"
+				}
+				"cl352334"
+				{
+					"encrypted_gid_2"		"B91BC4714C53185C48D15278BCD264F3"
+					"encrypted_size_2"		"02E72BB3D0ABDECC08F40F2A7DA2CD9A"
+				}
+				"cl352496"
+				{
+					"encrypted_gid_2"		"E49B20522FAC3513A36DD829EE0A0FC3"
+					"encrypted_size_2"		"2853C27109C38824A10FD7FACEE8D2BA"
+				}
+				"cl352608"
+				{
+					"encrypted_gid_2"		"46DA357CA9900F0DF07A08755D1BA749"
+					"encrypted_size_2"		"18CC77FA57F903D49B1E331EA8DEBAA8"
+				}
+				"cl352687"
+				{
+					"encrypted_gid_2"		"59FC8E085AEB2F3ED9623E6BBFC64EA4"
+					"encrypted_size_2"		"315D2A260AF57BAED7677CAE4D6973EE"
+				}
+				"cl352710"
+				{
+					"encrypted_gid_2"		"559E986DD1619E068ED2747E127F015E"
+					"encrypted_size_2"		"B65BF6A8C2CFCA710B24CF6BC91C8FDC"
+				}
+				"cl352822"
+				{
+					"encrypted_gid_2"		"EB2C09687C182AFCCAEA13C3281C3933"
+					"encrypted_size_2"		"103438FC44B9AAA846E21D5320352912"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"BB13A4883C4ACCDCE4F0480AFFF63068"
+					"encrypted_size_2"		"84882C4EC4994ED4878BB74C3541DE8C"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"6094F6F73F3316B886BC76EFE16B35BB"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273357"
+		{
+			"name"		"Evolve Data USA-EN"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7489639370332252664"
+				"legacyevolve"		"634167212197130308"
+			}
+			"maxsize"		"1545726304"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"13FBE7DB704C33C2FE686156FB542206"
+					"encrypted_size_2"		"9567B6D5280E6FF045D6A0FB05F3E814"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"E4052488A49154D48B2E47CFC4235B22"
+					"encrypted_size_2"		"1F444A549580B60C10A36B0634843EB5"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"89079AB3E314B503825DA2BD49AD5F33"
+					"encrypted_size_2"		"8FDB86E1A20171334AA676B05B1C5A92"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"6BA601D6CC953FCF79AFA3E4BA38FAB8"
+					"encrypted_size_2"		"C5CC1C0A2AD5B7B66BC6ED2F3970A064"
+				}
+				"cl344440"
+				{
+					"encrypted_gid_2"		"6EE3D52B4B07E99FDFB0A2BD59768C41"
+					"encrypted_size_2"		"5508F5A8E86466603B0835A96F21E944"
+				}
+				"cl347231"
+				{
+					"encrypted_gid_2"		"ED2F55CF11BE1FD61ECCA762506D9328"
+					"encrypted_size_2"		"1BB6D3463218F0A77DC95B01A64BD458"
+				}
+				"cl349508"
+				{
+					"encrypted_gid_2"		"003BAF289D736A3CC770E3200CDFFE95"
+					"encrypted_size_2"		"5DAC35EBCF0A0EE83CB8E8E4F5E4A471"
+				}
+				"cl351769"
+				{
+					"encrypted_gid_2"		"CDB0EFE5D557782123BEECF142BCB5AD"
+					"encrypted_size_2"		"B81FDD72B667F11FA2AFAF60B8FE918B"
+				}
+				"cl352334"
+				{
+					"encrypted_gid_2"		"9F8A8B89AEBE007A8716E1F7C6DB144F"
+					"encrypted_size_2"		"E9522B4EA288F66CFB7C03341AFCB382"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"34A631A5FE89F2354F70E3565E03870E"
+					"encrypted_size_2"		"F73ECC68797A6C8046B0754B07C95703"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"6142608848263443A6C3633A9E7BB660"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273358"
+		{
+			"name"		"Evolve Data ITA-IT"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1032171145213360084"
+				"legacyevolve"		"6405307077879042325"
+			}
+			"maxsize"		"1288798318"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"2756175C6C911E6EE901101FB0EB22E9"
+					"encrypted_size_2"		"7550D44C1ED52B942419D20748819922"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"31E7EEBFC3F1A98F451CB7B24205C325"
+					"encrypted_size_2"		"DA89149CAB961C854871162083A1577E"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"F9D6173C3E24D659E4A224ADBB8DA062"
+					"encrypted_size_2"		"F9D41392C52FC04B4E669432BDB16A6D"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"846C8F3D95D96C6B4FF53C640B18DB62"
+					"encrypted_size_2"		"EA04FA6D58BA4DB7E3857CBBBE86248C"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"F311DA0B64256E3E6C4FE2E20755B830"
+					"encrypted_size_2"		"7BB7C8D4BDAAA26EA91828AAD31BE824"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"AE39F911B1527B5AAA92EFF2BFC47B2B"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273359"
+		{
+			"name"		"Evolve Data RUS-RU"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4742628143896974355"
+				"legacyevolve"		"4419370793624175245"
+			}
+			"maxsize"		"1282715611"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"CCC5FB696D6B5EB0B631E19324A55C60"
+					"encrypted_size_2"		"979F436CA859F81743167F0F2E25FC03"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"B1FF6F45F7693BE08ACD2E4FE25F63C9"
+					"encrypted_size_2"		"780C50C3FECEA8A498AE489F8B1C83E2"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"9C7A6C57F58EF703DA42CC36E2FD5DF6"
+					"encrypted_size_2"		"AF35794FB3FADE01117EA5044A350D77"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"7E601C16A4E6A9DC4456DBDFD72362A8"
+					"encrypted_size_2"		"AF6067C3979EDE4BE1237177D36852D5"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"5708B90370EC652477B6BC470FD2F75C"
+					"encrypted_size_2"		"51253F529DAADCA885CB36D15AED104A"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"36083FC0ED8FB2210174CDF390E20A46"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273360"
+		{
+			"name"		"Evolve Data DEU-DE"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5987297647637327735"
+				"legacyevolve"		"648653024728730384"
+			}
+			"maxsize"		"1223702728"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"0E0DEA34258859BA093E397005F01703"
+					"encrypted_size_2"		"8C935159E9EFF6FB76D82FE78ADCD6B3"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"586AADE624A1159C0D732831EBD0B659"
+					"encrypted_size_2"		"77E3285D7955144F586DE669709B4098"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"0DB15E7659BC2D723BA654D7AE582B67"
+					"encrypted_size_2"		"2ECE3E0C4DE427CBC8F31172A9E0E520"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"FADFB91ACD13FB2ECB61B5F3169964E7"
+					"encrypted_size_2"		"CDD903EA9B3C37AF178A4F1D24A45925"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"6C29D7E67726D1474E3FFF53D6887DAC"
+					"encrypted_size_2"		"2C1B60D1506075BAF5A4A3C461732EFA"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"53EAF91A7F9AADF7F40D768308D86740"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273361"
+		{
+			"name"		"Evolve Data ESP-ES"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"382284799469097964"
+				"legacyevolve"		"7728497076407457692"
+			}
+			"maxsize"		"1216391189"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"13A990693D7C5081952B32184E6BC2EA"
+					"encrypted_size_2"		"3F68AB4C76C6A8F33B2BEABEB809D721"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"EA6C893B26C64D46CE17FAF4528A7278"
+					"encrypted_size_2"		"34654607FAD373DDFE6B80FF5A7FDD05"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"F4ECA2FC80E76BCF681FCAF241A4A00D"
+					"encrypted_size_2"		"C175072407D06435B4758EBCE17F483C"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"6AF19DC1C0D335D0E7C3F060EAD5848D"
+					"encrypted_size_2"		"8F2B55F90F734D1B344C788E26E452FC"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"AE71EB783E4F5DF2B70B13586A1836E4"
+					"encrypted_size_2"		"766EDB8E3EFEA05CF108706914D1D57C"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"D5A4A25F4DC4E8EFE768FD0B3B856182"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273362"
+		{
+			"name"		"Evolve Data FRA-FR"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4545841336353397451"
+				"legacyevolve"		"7766008478647689483"
+			}
+			"maxsize"		"1170786653"
+			"encryptedmanifests"
+			{
+				"cl336427"
+				{
+					"encrypted_gid_2"		"9FFCE686802658CF2C01D0796B37C367"
+					"encrypted_size_2"		"3C74A2902397AD93231EE2792F8EACCE"
+				}
+				"cl338513"
+				{
+					"encrypted_gid_2"		"CF8766410506E1B82282CE18ECB62D5C"
+					"encrypted_size_2"		"F445FAA4FC16D4D700F56AE2DAA08F3D"
+				}
+				"cl340456"
+				{
+					"encrypted_gid_2"		"BC274D24DBCC235574CDC1A0FBC346D1"
+					"encrypted_size_2"		"9D1F9EF0A296E11B956C57BCDAB584D6"
+				}
+				"cl342047"
+				{
+					"encrypted_gid_2"		"A0082C83F54AED54DE8C86C44EB9AC70"
+					"encrypted_size_2"		"994D7B11B4042EA5915B77A278C8D1FF"
+				}
+				"latest"
+				{
+					"encrypted_gid_2"		"53F2028296E0E1DF4080FBFF7849F99B"
+					"encrypted_size_2"		"19729F819A8CE8F7B1F0031F082BB652"
+				}
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"ECF770B052A853ADE1B1B8B14AD5701A"
+					"encrypted_size_2"		"BF52A73464C10F5C1C83419598EE71CF"
+				}
+			}
+		}
+		"273363"
+		{
+			"name"		"Evolve Legacy TU08"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"640784082736973785"
+				"legacyevolve"		"5622791495155068068"
+			}
+			"maxsize"		"43026716347"
+			"encryptedmanifests"
+			{
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"19A9F05725207F86EA7DAEC30F669C4C"
+					"encrypted_size_2"		"F1D03128C98C4650F4BA3BEC25773C52"
+				}
+			}
+		}
+		"273364"
+		{
+			"name"		"Legacy file swap"
+			"manifests"
+			{
+				"legacyevolve"		"6763091660425532461"
+			}
+			"maxsize"		"6180893"
+			"encryptedmanifests"
+			{
+				"tomkeytest"
+				{
+					"encrypted_gid_2"		"CDB9D849AAEE14B56789773F8FE81344"
+					"encrypted_size_2"		"E95F97C9FBBF29942C808DF6C4E0C42D"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1413694"
+				"timeupdated"		"1477420968"
+			}
+			"cl252019"
+			{
+				"buildid"		"921796"
+				"description"		"2016-01-06 #252019.252019 DLC8Patch"
+				"pwdrequired"		"1"
+			}
+			"cl336427"
+			{
+				"buildid"		"1302095"
+				"description"		"2016-08-25 #336419.336427 DC 2.08"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472228885"
+			}
+			"cl338513"
+			{
+				"buildid"		"1315437"
+				"description"		"2016-09-02 #338496.338513 DC 2.09"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472844754"
+			}
+			"cl340456"
+			{
+				"buildid"		"1328128"
+				"description"		"2016-09-09 #340418.340456 DC 2.10"
+				"pwdrequired"		"1"
+				"timeupdated"		"1473473253"
+			}
+			"cl342047"
+			{
+				"buildid"		"1340144"
+				"description"		"2016-09-15 #341928.342047 DC 2.11"
+				"pwdrequired"		"1"
+				"timeupdated"		"1474048423"
+			}
+			"cl344440"
+			{
+				"buildid"		"1354487"
+				"description"		"2016-09-23 #344410.344440 DC 2.12"
+				"pwdrequired"		"1"
+				"timeupdated"		"1474676730"
+			}
+			"cl347231"
+			{
+				"buildid"		"1367875"
+				"description"		"2016-09-30 #347229.347231 DC 2.13"
+				"pwdrequired"		"1"
+				"timeupdated"		"1475269337"
+			}
+			"cl349508"
+			{
+				"buildid"		"1380335"
+				"description"		"2016-10-06 #349064.349508 DC 2.14"
+				"pwdrequired"		"1"
+				"timeupdated"		"1475857743"
+			}
+			"cl351769"
+			{
+				"buildid"		"1393230"
+				"description"		"2016-10-14 #351769.351769 DC 2.15"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476479093"
+			}
+			"cl352334"
+			{
+				"buildid"		"1399633"
+				"description"		"2016-10-18 #352334.352334 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476827832"
+			}
+			"cl352496"
+			{
+				"buildid"		"1401957"
+				"description"		"2016-10-18 #352494.352496 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476911073"
+			}
+			"cl352608"
+			{
+				"buildid"		"1402190"
+				"description"		"2016-10-19 #352602.352608 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476920247"
+			}
+			"cl352687"
+			{
+				"buildid"		"1403695"
+				"description"		"2016-10-19 #352683.352687 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476980707"
+			}
+			"cl352710"
+			{
+				"buildid"		"1404016"
+				"description"		"2016-10-20 #352683.352710 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476989960"
+			}
+			"cl352822"
+			{
+				"buildid"		"1404620"
+				"description"		"2016-10-20 #352822.352822 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1477008987"
+			}
+			"cl353012"
+			{
+				"buildid"		"1411214"
+				"description"		"2016-10-24 #353012.353012 DC 2.16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1477342767"
+			}
+			"domesticated_internal"
+			{
+				"buildid"		"1063092"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1460050876"
+			}
+			"latest"
+			{
+				"buildid"		"1450946"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1478790587"
+			}
+			"legacyevolve"
+			{
+				"buildid"		"1358574"
+				"description"		"The Original Evolve Product"
+				"timeupdated"		"1474930883"
+			}
+			"local"
+			{
+				"buildid"		"1062832"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1460042794"
+			}
+			"security_branch"
+			{
+				"buildid"		"1119615"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1462902652"
+			}
+			"tomkeytest"
+			{
+				"buildid"		"1351218"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1474559458"
+			}
+			"unix_monster_race"
+			{
+				"buildid"		"737827"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"unix_monster_race2"
+			{
+				"buildid"		"789768"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"100"
+	}
+}
+ 

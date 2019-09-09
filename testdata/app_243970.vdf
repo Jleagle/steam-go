@@ -1,0 +1,523 @@
+"appinfo"
+{
+	"appid"		"243970"
+	"common"
+	{
+		"name"		"Invisible, Inc."
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"21cc7b593c065eac8beb7842669dff4313dc0b3f"
+		"clienticon"		"ccc128309868513cca6561a1b5ad1806ab7d415f"
+		"clienttga"		"521ea149937e0b2b97a6136c5820232634bdfa5a"
+		"logo"		"ab1bcfd36b8ae6bfd4dcd37f29c2c9fcd063d936"
+		"logo_small"		"ab1bcfd36b8ae6bfd4dcd37f29c2c9fcd063d936_thumb"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"3f23493dc54552eeed5192e67bd4a934dd1fb2bb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"243970_eula_0"
+				"name"		"Invisible, Inc. EULA"
+				"url"		"http://store.steampowered.com//eula/243970_eula_0"
+			}
+		}
+		"metacritic_name"		"Invisible, Inc."
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1445366207"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Klei Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Klei Entertainment"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1431449340"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/invisible-inc?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"243970"
+		"store_tags"
+		{
+			"0"		"1687"
+			"1"		"1741"
+			"2"		"4115"
+			"3"		"1677"
+			"4"		"1716"
+			"5"		"9"
+			"6"		"492"
+			"7"		"5125"
+			"8"		"5851"
+			"9"		"4182"
+			"10"		"14139"
+			"11"		"1708"
+			"12"		"1759"
+			"13"		"4026"
+			"14"		"3959"
+			"15"		"3942"
+			"16"		"19"
+			"17"		"21"
+			"18"		"1756"
+			"19"		"7208"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Klei Entertainment"
+		"publisher"		"Klei Entertainment"
+		"homepage"		"http://invisibleincgame.com/"
+		"listofdlc"		"370650,376980"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"InvisibleInc"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"invisibleinc.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"InvisibleInc.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run-linux.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"506470698"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"243971"
+		{
+			"name"		"Incognita Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8257163775179454551"
+			}
+			"maxsize"		"1132332606"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"FF9E0AA0C8AD86B5364C649724A93347"
+					"encrypted_size_2"		"A3267EC2C33C78724308156BC34339C7"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"AEA8CB2E0AEF032F31A1A56B865A8891"
+					"encrypted_size_2"		"71A63D285D461012852DBD88253F1325"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"EF3A01B66B6D88368CD3707ADD46475F"
+					"encrypted_size_2"		"A1CFE68AA6CF126F75465A96C925DA1B"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"2427C9559C019F849521B3E0681E1D2E"
+					"encrypted_size_2"		"695A91FBF7DFB1E33F8EBA85741413D9"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"EDCFFA6AF9D1D0EB1F32B6113971B8A5"
+					"encrypted_size_2"		"A0819272EAD630A3B297669A5C40BCC3"
+				}
+			}
+		}
+		"243972"
+		{
+			"name"		"Invisible, Inc. Depot OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7748012374558106151"
+			}
+			"maxsize"		"1123186649"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"4CCBD8EEE5FD49543279D9F210D14E5E"
+					"encrypted_size_2"		"15D041F8228F27081802A1D988BC8D09"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"29962F7F89CEA5DEDB6026378F6C594A"
+					"encrypted_size_2"		"158EC0C1E6EE9AAE1E7F402535E92C61"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"9DFD1D00943155AE9B9F165445F15D4B"
+					"encrypted_size_2"		"C8B29B1B05F9C13967BCBAB3AF6BC12D"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"69E887D7B7DDF451A125F8404127EEFD"
+					"encrypted_size_2"		"17EE9097E57F97A62EAE6A2D15479F1A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C11567FA22CB99BB09356E3CFE78E1D4"
+					"encrypted_size_2"		"29D94BEBF921754C433096DC0C19EC61"
+				}
+			}
+		}
+		"243973"
+		{
+			"name"		"Invisible, Inc. Depot Linux64"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8059783910065719114"
+			}
+			"maxsize"		"1125538120"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"EAEC276BC62CF53B31262A4C2C877938"
+					"encrypted_size_2"		"F8AE1EE9B20C25DE43F6AF17C4F9BE39"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"7AD4647D89B1C14F90A2F5EC2359906F"
+					"encrypted_size_2"		"CA301C991B1731F945C5E30D45B357C5"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"A5EB38F503C73FDD8213B376048E4743"
+					"encrypted_size_2"		"603DCFCD5180EB4C271BE42CD9057228"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"BE4D53C98284F5C95E74EF667E3B91BC"
+					"encrypted_size_2"		"EEF732DEE9ECFBB539E84E9038B0B43A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"294FD63D017E1387045D01DA33FFC80E"
+					"encrypted_size_2"		"8D8D9C121911C5B33BDD0F799767E90E"
+				}
+			}
+		}
+		"243974"
+		{
+			"name"		"Invisible, Inc. Depot Linux32"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4842042279610315875"
+			}
+			"maxsize"		"1123440039"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"17F4B7F63801C2C60EE5DFCE4754080E"
+					"encrypted_size_2"		"BD5F33ED65EFE05D8830A30E1BF4C7C6"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"B8B31A1FFACA55CF6365E5BB7D1E4C87"
+					"encrypted_size_2"		"FFB98C048755C394509F1ADCAD0A0D92"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"F03F66AF289244745E623C08E78C1370"
+					"encrypted_size_2"		"CEBBAE546A8D73EFA7C8D2F814B4E887"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"A17B42E75C5C1BD4352986744C9B67C4"
+					"encrypted_size_2"		"923E7D9AB74F2C9DB69E9E8EF562889C"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"675D64051D70880B7D380C049054A849"
+					"encrypted_size_2"		"BDDFD8596288CB58ACE21D4A358A3D6D"
+				}
+			}
+		}
+		"370650"
+		{
+			"name"		"Invisible, Inc. Soundtrack (370650) Depot"
+			"manifests"
+			{
+				"public"		"7702776266198984922"
+			}
+			"maxsize"		"391417145"
+			"dlcappid"		"370650"
+		}
+		"376981"
+		{
+			"name"		"Invisible, Inc. DLC 001 - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"376980"
+			"manifests"
+			{
+				"public"		"1336232298934820634"
+			}
+			"maxsize"		"35866570"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"0A99028016E51E795F1C6DF4E768C5E6"
+					"encrypted_size_2"		"D7958F4C9BA31A507822EE83E97E7914"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"493E1C5A4CB46F396B7441A49790B1A9"
+					"encrypted_size_2"		"422CE737B008D22ADB3532301B3DB219"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"3854DD486D5AACDD629463066B20B938"
+					"encrypted_size_2"		"D492E2992CD715C266CE69187B4607CF"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"262F1913D5E00BF559938245679E443D"
+					"encrypted_size_2"		"40E077F0A272CF3C674D5E9DDC38B315"
+				}
+			}
+		}
+		"376982"
+		{
+			"name"		"Invisible, Inc. DLC 001 - OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"376980"
+			"manifests"
+			{
+				"public"		"1816254908195862572"
+			}
+			"maxsize"		"35898172"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"9C6ADC5055AD1F2EC20F3973F67DA206"
+					"encrypted_size_2"		"EE5D4EB40588B2B4E19298BF42303465"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"31B0A190F8B60751F6E399CEA6752E41"
+					"encrypted_size_2"		"393D0642CE98B7B850604426E990484D"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"E15D597B9215A0BB914A0C437AE93B96"
+					"encrypted_size_2"		"54BD90907386303838B32E46D7A973ED"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"19874AC7956C1DC06AD6485AE2B5D6F1"
+					"encrypted_size_2"		"C71A6B07A9A1135630E79183B49B318E"
+				}
+			}
+		}
+		"376983"
+		{
+			"name"		"Invisible, Inc. DLC 001 - Linux"
+			"dlcappid"		"376980"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7446566602122410696"
+			}
+			"maxsize"		"35625144"
+			"encryptedmanifests"
+			{
+				"last_release"
+				{
+					"encrypted_gid_2"		"171DF83C3E75A6A3A8F60F0CDE233F33"
+					"encrypted_size_2"		"B9760BB4ADA4018C8A2BA7E1B896A30B"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"6583DF982FB9E869CFA38F7C8802909A"
+					"encrypted_size_2"		"606326B3E79EC3136C78AB15C40609BE"
+				}
+				"playtesters"
+				{
+					"encrypted_gid_2"		"F48FDEC7F10D0B6E2ED03FE5392D00C3"
+					"encrypted_size_2"		"1096C14E3A4019E020E09C5E8EA5778A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"67BB2FA9E4C1CDFA94EC8B0E39DFFE89"
+					"encrypted_size_2"		"4100BD9385C89DA168E845C4D7B84EEA"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3048821"
+				"timeupdated"		"1534801355"
+			}
+			"dev"
+			{
+				"buildid"		"3048821"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534794351"
+			}
+			"last_release"
+			{
+				"buildid"		"894029"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1459898912"
+			}
+			"nightly"
+			{
+				"buildid"		"3597228"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551214787"
+			}
+			"playtesters"
+			{
+				"buildid"		"948217"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"preview"
+			{
+				"buildid"		"609636"
+				"description"		"For Press / Streamer preview"
+				"pwdrequired"		"1"
+			}
+			"staging"
+			{
+				"buildid"		"912580"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

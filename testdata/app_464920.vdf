@@ -1,0 +1,1330 @@
+"appinfo"
+{
+	"appid"		"464920"
+	"common"
+	{
+		"name"		"Surviving Mars"
+		"type"		"Game"
+		"logo"		"1cd2a32fde1c5ca1ebeb81d4304e6761361d03f1"
+		"logo_small"		"1cd2a32fde1c5ca1ebeb81d4304e6761361d03f1_thumb"
+		"icon"		"6c0bbf943ed725a16304161b89061ac1d37f6a2a"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticns"		"392634827716e87f6e74c067ef349908840d55a2"
+		"linuxclienticon"		"751b49da2297c609a853f31a6511a69866a8925e"
+		"clienttga"		"3cb829f53a98359d2808f3d03556a5db1604274e"
+		"clienticon"		"55f69363c4217703e01b5fc77e9d748ea26a0686"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"464920_eula_0"
+				"name"		"Surviving Mars EULA"
+				"url"		"http://store.steampowered.com//eula/464920_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Surviving Mars"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"37.1934273506393"
+				"height_pct"		"72.91666666666666"
+			}
+		}
+		"store_asset_mtime"		"1560849885"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Haemimont Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Surviving Mars"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1521133200"
+		"metacritic_score"		"76"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/surviving-mars?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"464920"
+		"store_tags"
+		{
+			"0"		"4328"
+			"1"		"9"
+			"2"		"1662"
+			"3"		"1755"
+			"4"		"6702"
+			"5"		"7332"
+			"6"		"3942"
+			"7"		"599"
+			"8"		"8945"
+			"9"		"4182"
+			"10"		"1643"
+			"11"		"12472"
+			"12"		"16598"
+			"13"		"4295"
+			"14"		"3810"
+			"15"		"1676"
+			"16"		"1756"
+			"17"		"3859"
+			"18"		"1695"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Haemimont Games"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"801650,801670,801680,801690,801710,801720,801730,802700,802701,808250,808251,808252,808253,808254,808255,808260,808261,808280,808300,808310,808320,808330,830780,881760,952890,952891,952892,953590,953600,975870,975880,975890,975900,981920,981930,981940,1042360,1086770,1086780,1086790,1086800"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Surviving Mars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MarsSteam.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"MarsSteam.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"MarsSteam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"464920"
+		"baselanguages"		"english,german,french,spanish,russian,polish,brazilian"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"464921"
+		{
+			"name"		"Project MacGyver Content"
+			"config"
+			{
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3037781534500428011"
+			}
+			"maxsize"		"5662597985"
+			"encryptedmanifests"
+			{
+				"age_rating"
+				{
+					"encrypted_gid_2"		"C9E1F9E86E26A19456B82348C8E081B5"
+					"encrypted_size_2"		"A721FC8E55B504370B424B8487ED3BBB"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"66BCA94436E80100EFF7BAF7AE1F2574"
+					"encrypted_size_2"		"1933EAAD882CC5CD10D880345476A6A7"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"6E73444B7D607B35F74CE7D07F1D4B18"
+					"encrypted_size_2"		"F448E7BC457F664CED9C900C93EDF764"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"36B44D258C7AB701824BDD2D76CD221C"
+					"encrypted_size_2"		"4F6A18F8FC89D7EBBFA3E643D4BE475C"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"B75165C75799F7EFCD40254D6C756602"
+					"encrypted_size_2"		"BFB93F2AB9DCDA696CB765E8016AB5F4"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"23C223E9407D3590D2F87A43E6E2D776"
+					"encrypted_size_2"		"C94BFD51C28FC6E510999030022709F2"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"0D2E52116873802689CE6F922128B420"
+					"encrypted_size_2"		"B541B97F961A121E1E8885F027D520E5"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"7CDC5600FAAB5F902386A81ADD54545F"
+					"encrypted_size_2"		"A171FC80044CAE405DE7DD7D9292C623"
+				}
+				"nasa_build"
+				{
+					"encrypted_gid_2"		"83A29C29466F363B9910964DC216C83F"
+					"encrypted_size_2"		"F37DEC03B69C8F0F150C07EAA0C95211"
+				}
+				"omuk"
+				{
+					"encrypted_gid_2"		"4ACAC62CB6291301814ECB07F90E4697"
+					"encrypted_size_2"		"B48BE919DD77AD8E6672ED106C7A607F"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"68CCA672B8704A173C6E604E3505B720"
+					"encrypted_size_2"		"879723C3D6E1E03F73AB7621253C5F8B"
+				}
+				"pdx_playtest"
+				{
+					"encrypted_gid_2"		"43049AACDF3F35BE18E69DB2ACE9213E"
+					"encrypted_size_2"		"E2CC33D0D61D38033A3A602F38ED05EF"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"D0F90148A52FE087DA14E2B59B29D740"
+					"encrypted_size_2"		"E414A183D76E3712D7D57E1A511996EB"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"3E730CA5A3F36197564093AEAF26BDAD"
+					"encrypted_size_2"		"3F49709D10D6C18E4309993396360143"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"C72ECCB84E0C9F2134C27EC1D78665BD"
+					"encrypted_size_2"		"1E81B1726362500281B0641E1D15A828"
+				}
+				"trailer_branch"
+				{
+					"encrypted_gid_2"		"B107D521167189E665AFDAF9720DBC1E"
+					"encrypted_size_2"		"E37315D1C1CC5545269788DCB69C8458"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"B44C3E0DDF7F68A4DDCA9BFA78D8E2CF"
+					"encrypted_size_2"		"DB975BB654851AD4E1C9EE347A1676A1"
+				}
+			}
+		}
+		"464922"
+		{
+			"name"		"Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2359767115577491545"
+			}
+			"maxsize"		"402127804"
+			"encryptedmanifests"
+			{
+				"age_rating"
+				{
+					"encrypted_gid_2"		"639AB468EA8F258A493DC5CF5DB8736D"
+					"encrypted_size_2"		"49FF731F8B470A47D47698F2057A9FC0"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"EAF3FF036BA705298C7E529AB63D5B9A"
+					"encrypted_size_2"		"428A999EF7850AE7F6315623A2C46C67"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"6FA8E0B4F22673B0BD25A04F3F79ED25"
+					"encrypted_size_2"		"FF7622ED8D716BBADE54FF3CE0792BC8"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"1C62D18CDCCF8F4EAACC06A41E5CEE9F"
+					"encrypted_size_2"		"34FD9B4BE1403754C2DA9DD011B7795D"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"EA4BAC161A64FAEBB8BDD6983D2D7E69"
+					"encrypted_size_2"		"CDF3B72A9416BED9AC90BAD671F7477F"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"A6B5B0E3D51E52A335884C8CADBC81FC"
+					"encrypted_size_2"		"2F4D7B6F1040CAC3A138070E7AA89C9E"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"BD2D75ECB423910D5844E96F680A5EFC"
+					"encrypted_size_2"		"733FDD0790DBF91DE64818D1E3CC19C0"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"EBC99CCE21E568CBE2FF3662ABDFFD44"
+					"encrypted_size_2"		"2CBDD5ECE38C1060205EC7A8B121D379"
+				}
+				"nasa_build"
+				{
+					"encrypted_gid_2"		"FE0A79B1FBA1B1E06A2B8E47C9183DA3"
+					"encrypted_size_2"		"919499437E503CC919AC7D350E00BDBD"
+				}
+				"omuk"
+				{
+					"encrypted_gid_2"		"6C7EB1779600718DF93E3462F9116B1C"
+					"encrypted_size_2"		"372305689BB86431B30B1E6C1EE6DB4B"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"B39437F4ED03E8661EC7640E246ACC99"
+					"encrypted_size_2"		"F95360C0E576AEB2AE66D4B3AD7A3C0C"
+				}
+				"pdx_playtest"
+				{
+					"encrypted_gid_2"		"DA46B27939189B7E4E70F3034DCE29F9"
+					"encrypted_size_2"		"A5B8C5D42441392A907A6238FAF937ED"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"B554F6A2AFFDEC981975DEACA1AA1AC1"
+					"encrypted_size_2"		"14839720664D9D546793866EB7618A93"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"65D26D354F5876F66A9C8A11FA694DA8"
+					"encrypted_size_2"		"6DC89C71D0938C24F8AD32DF555FEDF4"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"BBDAC514ACBE7F301B06120DED185845"
+					"encrypted_size_2"		"A26213AC3BF88B2CDB22C13FA283B051"
+				}
+				"trailer_branch"
+				{
+					"encrypted_gid_2"		"65AD682375FABD1F2A16F494FD085EE3"
+					"encrypted_size_2"		"12637C736B8EFF240235D07157B0EE14"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"44AA3FF39A5B1B337B79CC210D1EC9F7"
+					"encrypted_size_2"		"B386B94B089801B2B844B1FB0CEB1D6B"
+				}
+			}
+		}
+		"464923"
+		{
+			"name"		"OSX"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7607938488870442700"
+			}
+			"maxsize"		"649421037"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"43CB23EB56FCCC39B26EADE44389A27A"
+					"encrypted_size_2"		"8C07A29011FC7D10DAEBC138295060D1"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"F5A7BE710C5B82DF6AFF2B739F678C8B"
+					"encrypted_size_2"		"407CB6813D10C56B43449A8DE458B097"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"26C56BE5D38663DF90FACB9F59B4091A"
+					"encrypted_size_2"		"81BF7F633F6627C481C2F18BA605E532"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"B2A8C1E86A053E97E3557CB19574393B"
+					"encrypted_size_2"		"8697F11A27F34622495EC2F4E06931CA"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"60ADDB1E2F8AA29A5ECF33C27A9D5FB8"
+					"encrypted_size_2"		"2F1A64B40BA3E1EEB29E9C35987461C7"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"0E795B9C1AD65ACBECB3B8D42441CA66"
+					"encrypted_size_2"		"D4520133CF37B050B849918B2010AA55"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"D4C8978135E7C0C599C260A14D8F6916"
+					"encrypted_size_2"		"856A8E77A930CF803F4ACD8A47E9EF6C"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"6D6F307BC4B82B4B265C5DB0ADE623F9"
+					"encrypted_size_2"		"EA728AC79E03BB1E7DB994244CD4E53F"
+				}
+				"pdx_playtest"
+				{
+					"encrypted_gid_2"		"AF2089539FB7F6C4A922F71CF2FAF093"
+					"encrypted_size_2"		"8583CACA94C74E835D4D2CFA14E61090"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"8B1B63E4402DBC02969D19E689016E4C"
+					"encrypted_size_2"		"54847549BC81EED374E9F0EE755BE14F"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"364B36F30D4B9D5B16403A0DF1C63275"
+					"encrypted_size_2"		"96AE4A7BD936DC80B5F3B57D2BEA3A63"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"491C30638229565AE8A09EA1D822A27B"
+					"encrypted_size_2"		"D73479B4DBAD9132AC8F289D75EBE168"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"43C8A64A58A4B415A80B487798CFEC6D"
+					"encrypted_size_2"		"518DD824A097009B5234FEAE527C14D0"
+				}
+			}
+		}
+		"464924"
+		{
+			"name"		"Linux"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1986802075910798574"
+			}
+			"maxsize"		"412801443"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8F36C8E74AA843462494C5FA324A049C"
+					"encrypted_size_2"		"E75661BE627998D6A6C4F5F740B01ACE"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"CA9E33CBD94DA3BFC29E63748A0B71F4"
+					"encrypted_size_2"		"D416E8A7C25927096F673A9A289FF8A6"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"CEA8AD33C7830A219AC0B4E4F476E041"
+					"encrypted_size_2"		"718B1CE25C737DB8E9CE4087F91A47BC"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"60693E9A061A16D04AC48829C2A687CB"
+					"encrypted_size_2"		"29788889F7C833E7118798D903F2CF6F"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"9BC262A96A8F9A9A17F9A5938457E26F"
+					"encrypted_size_2"		"46E65DA64281EF105B3DC0ECBBF71464"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"9F83993D742506251015F258C395458A"
+					"encrypted_size_2"		"C4DF29D23D8F869A6E47A383E78348FA"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"BEBA0E087BF460694C20A7BBDD9F8693"
+					"encrypted_size_2"		"4CC7B50D45FE5FF267BA98AE3B096A2D"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"6F6E678B5206D9C06C8F68C01D483091"
+					"encrypted_size_2"		"70EAAE4387C821C464CDB6A70290D528"
+				}
+				"pdx_playtest"
+				{
+					"encrypted_gid_2"		"F1D0D2EF003D4FCD7718CB34FB6FC84D"
+					"encrypted_size_2"		"B1E6139831FFF5DE8293E04999934404"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"D61C9DC1945C9CA090D3407B319D5EBA"
+					"encrypted_size_2"		"2CE91CEA928FDF1F33DF323B26255A97"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"1BB036073D6A74EA42E821D4551F7478"
+					"encrypted_size_2"		"DBBD01E4278417C5CF985A06316B0657"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"B29D2C5A5F8848C0AEA74FA105ED37B5"
+					"encrypted_size_2"		"65DA1879D059B6DBB17045066FD13609"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"407837CFE14727F22163BB8D8F889EFC"
+					"encrypted_size_2"		"BC315D50671100A02F5969C7B27DDFD3"
+				}
+			}
+		}
+		"464926"
+		{
+			"name"		"Project MacGyver ModTools Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7114521740283160625"
+			}
+			"maxsize"		"168067053"
+			"encryptedmanifests"
+			{
+				"age_rating"
+				{
+					"encrypted_gid_2"		"5A3F1963B637C32C8506AD86927EB55E"
+					"encrypted_size_2"		"75D3E1166CA27A01D478B296DBEF0F02"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"FFB4070D854712DAC2500BE6EB209E44"
+					"encrypted_size_2"		"34B5CDFAF81E30181D826CC8222A23D2"
+				}
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"63736F971EB6C979CADA0791174F36F1"
+					"encrypted_size_2"		"9505C48269D265FD4453D334A4809751"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"D63FDF2FDBBE87797A1B76BD0AAF1467"
+					"encrypted_size_2"		"18410B28E1FAA7F7EA0B7E3A0639D024"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"131788934EB5831A022C6EA6FAC8421F"
+					"encrypted_size_2"		"19DBB747B577B580A0048E5C1D3F0B29"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"428692DCD00DD8CA5C6D28B4E08117DB"
+					"encrypted_size_2"		"8AF270765C4B6291050B627EEB644DD1"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"D730F957E8AA748C2E3A0021C09158DA"
+					"encrypted_size_2"		"BA3964BF3F034C5DAAAC6BE00F1B4AE7"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"2C2618068AD7D66135B331E2C6178BCC"
+					"encrypted_size_2"		"B6A77FB2CF0AB0524C82B7AC39868FCB"
+				}
+				"nasa_build"
+				{
+					"encrypted_gid_2"		"1C8381E679DAF00D27C85471D38C4E8A"
+					"encrypted_size_2"		"24EDBD7F6508E2EE0B092B74FBACB669"
+				}
+				"omuk"
+				{
+					"encrypted_gid_2"		"39CB72187FA71DB1EA240A5004358F6C"
+					"encrypted_size_2"		"F0D13C08383A04C4909D60654190C05C"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"1F759197AED3636267AA9B3E62EB8CAF"
+					"encrypted_size_2"		"006ECD8FC1520159FF92525DAC70C14D"
+				}
+				"pdx_playtest"
+				{
+					"encrypted_gid_2"		"B2BD0F9E95AB18D0946DBFA24869A6B0"
+					"encrypted_size_2"		"7682A54E751CC9111B4BFB37E7562A63"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"6633DC70CDFF88097B44CAE5E79546B9"
+					"encrypted_size_2"		"A5E9BB36EE6EF425C00CE7D36B4BF400"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"D1F9E22E5DDF0DB717D61B6C1944FF09"
+					"encrypted_size_2"		"915F1FBBE1BB29B9FCE55581301F5F7B"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"DAF3DA4286D7C1265EBE093C996099C6"
+					"encrypted_size_2"		"854E1E50C843EA94F872626DDAA82647"
+				}
+				"trailer_branch"
+				{
+					"encrypted_gid_2"		"5E3D03BABD3CCF1655C147B5FF023EEF"
+					"encrypted_size_2"		"C97D1A76A44202142A7A695E858484F3"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"A8397899518447CAE0680424328EA7D4"
+					"encrypted_size_2"		"DF691A9EEEBC37557A8F6D6EDAA2EA95"
+				}
+			}
+		}
+		"801650"
+		{
+			"name"		"Surviving Mars - Stellaris Dome Set (801650) Depot"
+			"dlcappid"		"801650"
+			"manifests"
+			{
+				"public"		"7457101450828212885"
+			}
+			"maxsize"		"4753676"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"4FC4EE184A6A42CF032C7CC1B5E36ADC"
+					"encrypted_size_2"		"FC158ACDE73BFAFB80C08AA53222EAA4"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"9A5D1B3486BB4718BF8D0693EF3DED9A"
+					"encrypted_size_2"		"19FA052D979DCBEB7BC517E93A96F22B"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"78747BB7612447E2BD3E773ABF67B139"
+					"encrypted_size_2"		"3B7E577BE198EBE519454522655098F7"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"AF2A8CFFA2932CF419C42DD89E0F9F2F"
+					"encrypted_size_2"		"34429C9881F441F9F1970D8843F1ADFD"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"6348F64F9F817CC5474C723DF04D8F1B"
+					"encrypted_size_2"		"727DFC641FBD8CAC1D2E528A0DEDB828"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"29D50001EDD2C9DCCD4EC28CD0929A82"
+					"encrypted_size_2"		"2C7115BD56B49CA2236A5E46D308C2BA"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"1A4C11B54789DF6A14755D931C5F275A"
+					"encrypted_size_2"		"BFB2B99C774635D79668F80495FC7E3F"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"6B21F4ED4BB5BD8EF2B15FE16299809C"
+					"encrypted_size_2"		"7098AB08DB7511481F102F8C7D5F33CB"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"29E4AE84E8CF5BCD17373FC8E2282474"
+					"encrypted_size_2"		"701AAC343FF73EE314AAE9AF619645E6"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"9FF23ACC997FA994CD13063D3B375BE1"
+					"encrypted_size_2"		"3BDE6F846AE89788323D3584B8EFC9E1"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"BA6D08FB1A871C17345E96FFD772DE89"
+					"encrypted_size_2"		"B381300F54078E703EA16195791E9720"
+				}
+			}
+		}
+		"801680"
+		{
+			"name"		"Surviving Mars - Art Book (801680) Depot"
+			"dlcappid"		"801680"
+			"manifests"
+			{
+				"public"		"1061448776058161571"
+			}
+			"maxsize"		"60430610"
+		}
+		"801710"
+		{
+			"name"		"Surviving Mars - Deluxe Edition Upgrade Pack (801710) Depot"
+			"dlcappid"		"801710"
+			"manifests"
+			{
+				"public"		"8096275791173891527"
+			}
+			"maxsize"		"70146152"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"D43EE7C1D388687C29F6E8E1AB3549BB"
+					"encrypted_size_2"		"184030406CA110E4F3458DCCE8D07156"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"70080ADF37C929B2B7640DA1E6B7D835"
+					"encrypted_size_2"		"7BC1ABF82E8DE1EBA4DA710FEBA4D766"
+				}
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"D5F2088CA7CAA5EE7BE88D6E7B4F44B5"
+					"encrypted_size_2"		"0D2DBD71C4F6029D200B33CD5762E1E7"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"13E347CCD5677ACBAE56DA73038369D7"
+					"encrypted_size_2"		"31A8B23B01DB1E8DF09214688A7A49DF"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"80BCDD4DD8659FD8A8A97EA751835DA7"
+					"encrypted_size_2"		"0CABD8170789B8F411898C14B9466415"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"C78FD03FB0F443B6F9F2C58B234B6E2A"
+					"encrypted_size_2"		"034C9BE023684A217CCBF619587BE755"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"DAA8141815AA84F11E5EE31BDAE5BDF3"
+					"encrypted_size_2"		"BD85C1E5BC6D21B3FFD1F3D3F41DACD9"
+				}
+				"qloc_branch"
+				{
+					"encrypted_gid_2"		"AEC1EEF806F5D0252DFB83A965553A32"
+					"encrypted_size_2"		"BE115B67BB7EF501BECFBC5F9EC0B483"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"B9887ACB878F8CF80780F968073EE3B6"
+					"encrypted_size_2"		"FCC44E844A4C25013FA4E783FF0AFE78"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"4672C239E170DF2D5B7881B1FD75E96D"
+					"encrypted_size_2"		"0BFBBC220C048B1D1406C5E36A2ABE0F"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"0561945D8CC28E199D262CEB2F04A0F6"
+					"encrypted_size_2"		"968EA24DD37671B3E8224F149B9CFE11"
+				}
+			}
+		}
+		"801720"
+		{
+			"name"		"Surviving Mars - Wallpaper (801720) Depot"
+			"dlcappid"		"801720"
+			"manifests"
+			{
+				"public"		"262274256123306684"
+			}
+			"maxsize"		"6664085"
+		}
+		"801730"
+		{
+			"name"		"Surviving Mars - OST (801730) Depot"
+			"dlcappid"		"801730"
+			"manifests"
+			{
+				"public"		"6733073739076920202"
+			}
+			"maxsize"		"744610251"
+			"encryptedmanifests"
+			{
+				"gs_compat"
+				{
+					"encrypted_gid_2"		"48B4DCC39DDB334F0D5985376F3E1B0E"
+					"encrypted_size_2"		"52F9771E0C5B33CF008695FF87B42DF9"
+				}
+			}
+		}
+		"801690"
+		{
+			"name"		"Surviving Mars - Content Pack 1  (801690) Depot"
+			"dlcappid"		"801690"
+			"manifests"
+			{
+				"public"		"8822615049458351928"
+			}
+			"maxsize"		"3465916"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"B3A80B70F8B227268D2B5C1011DD99E4"
+					"encrypted_size_2"		"31CAF4705B98FF7513A8A73F502A0ADC"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"9D007F2815E47ACD0C9C37CA3A26C0D1"
+					"encrypted_size_2"		"11D0377C5E56D6A893B1F4DCD8B89987"
+				}
+				"ihv_test"
+				{
+					"encrypted_gid_2"		"5CFC90122933BBE14F44CBD3594EAAA7"
+					"encrypted_size_2"		"C498906276EA943D45028F84C55CDA5A"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"939D74F3B1AC532B4F01870BACA9D3A5"
+					"encrypted_size_2"		"0A043BA779C60D5D01F067EB09915963"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"409FD6D3CBF394B1A96EAB9A67B5CE1D"
+					"encrypted_size_2"		"1FDAA47A1BA3A2419BD9E7F25AABD356"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"F4F3318ED8C9F6E2148AB445E583474B"
+					"encrypted_size_2"		"CA719055E27336BD52E4548FE382AB9B"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"A76AFBF46001DEEDF0567ECDFFB01B6E"
+					"encrypted_size_2"		"09616F13F74259AD2994DA914F0A5A18"
+				}
+				"sr_alpha"
+				{
+					"encrypted_gid_2"		"D01ADBE208ABD238C2312FB89937E3AC"
+					"encrypted_size_2"		"D64B27BFC3ADF2B25EB87693A8FD58A7"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"EB923A6B5E2D033530B1EF7AD0DCAB03"
+					"encrypted_size_2"		"4CA523D0C418857981118E46371C647E"
+				}
+			}
+		}
+		"801670"
+		{
+			"name"		"Surviving Mars - Expansion Pack 1 (801670) Depot"
+			"dlcappid"		"801670"
+			"manifests"
+			{
+				"public"		"6508085108395779728"
+			}
+			"maxsize"		"22698106"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"57C47E4773DCD490340443444F7F9E00"
+					"encrypted_size_2"		"9AC6FE7E9C6D2567F40111863C12044C"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"9B6A360B924FBC40D03069A07DD082A0"
+					"encrypted_size_2"		"F919A676F1696752CD4DDA451DC26D1E"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"5017831825C28DC957065687163F3BB7"
+					"encrypted_size_2"		"35E46C0ADDC58D0BC25FE8E96DF8C053"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"A9199840C28E18D04A6C3AE43884987A"
+					"encrypted_size_2"		"3A4CFE2435E25664591C5FED583C2CC5"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"F21B062604E00DA479B5CE8F4BF7D0C9"
+					"encrypted_size_2"		"6D9F12AB0BD54BB5FF002B93C5DE274F"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"02DC158D7FBF6F679433EC3F48DE2C28"
+					"encrypted_size_2"		"8699BE57D15F6927399211E53D881540"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"EB1BE4C72D45FF3B18FEDDF1575C6F8C"
+					"encrypted_size_2"		"AE4714554D76C9835BE84906E82E67F0"
+				}
+			}
+		}
+		"952892"
+		{
+			"name"		"Surviving Mars: Colony Design Set (952892) Depot"
+			"dlcappid"		"952892"
+			"manifests"
+			{
+				"public"		"4452399460090908685"
+			}
+			"maxsize"		"11214746"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"D5005CD22F325C5043D4C4D5AADAF189"
+					"encrypted_size_2"		"CA7FBF7DA33A2FBD82BCFE37BFE33E6B"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"93E12BE0DEA2E0F0E845646B37CED59E"
+					"encrypted_size_2"		"B5AEAAC5F860960A432DFDA3A3C9460D"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"B014B7EDA12A4B7A5D058636DE1BFE9A"
+					"encrypted_size_2"		"15A02031C7D0D8B78BFFAAD1EDCE08A1"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"46BAA39D4F21188089265B5CF01D00BA"
+					"encrypted_size_2"		"1C2847F1AAC1DC48B0254B3626B17817"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"CDBF21C391BFF618450FB2BCC2A1396C"
+					"encrypted_size_2"		"D6E61B1D1E8B608F33C4C34613E265C5"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"3462E066AD81067BC015236CA09697B8"
+					"encrypted_size_2"		"13C23FE27CF04A08B51FFF34453BECC4"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"C53D95F1C8ECBDCFAA33AFA54B86FCA4"
+					"encrypted_size_2"		"27EC44F0D0BB71453F2B16B1BD8BE982"
+				}
+			}
+		}
+		"952891"
+		{
+			"name"		"Surviving Mars: Marsvision Song Contest (952891) Depot"
+			"dlcappid"		"952891"
+			"manifests"
+			{
+				"public"		"6260603449872393173"
+			}
+			"maxsize"		"44137791"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"60622D8FE947F38F66DDB608C4089816"
+					"encrypted_size_2"		"70F33CF908172083616734BC7575428B"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"097C4DE3A3E5AD91FBC163652B7AD02B"
+					"encrypted_size_2"		"28C940666809B1CA08292285F0D79F8B"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"890C73C38DFFCC4312E69CD1921790C0"
+					"encrypted_size_2"		"96C8CA31CE1C5EED66C008137D153B9D"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"D4A599EF69CD7157CBBAF0E0844EE84D"
+					"encrypted_size_2"		"2BE42CE6A3064AB5A6A14EC376776C59"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"DE9E9C717E97ED792B96A25EC7F801A6"
+					"encrypted_size_2"		"96BB2E3C39A6C0509361232D898344D0"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"14132A0F47EF91DEC3BF622FC6DEB989"
+					"encrypted_size_2"		"97A63C0F2DAFFDA3C3CE2741B31BDBDC"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"39C6C4BDA2DB839756BCEC1BF30DACAA"
+					"encrypted_size_2"		"8462B3ADF59600EFFF84F3E435C281E2"
+				}
+			}
+		}
+		"952890"
+		{
+			"name"		"Surviving Mars: Green Planet (952890) Depot"
+			"dlcappid"		"952890"
+			"manifests"
+			{
+				"public"		"1089930767211637003"
+			}
+			"maxsize"		"74598683"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"5CE0C075191C488C753E96541F0159E8"
+					"encrypted_size_2"		"7C1A28EB5EB719A4860EE24B098F066C"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"3AB2F0C934D2521F966E375F97A6A083"
+					"encrypted_size_2"		"5E8AE6751E3E26BB5108DB28F989E09F"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"287C07DD13A7BC3E56C3CE1DD5A8E3F7"
+					"encrypted_size_2"		"6A81E97C939AD784D2A8AAEA0F071A6E"
+				}
+				"modding_beta"
+				{
+					"encrypted_gid_2"		"9075B7BB40272754DFB94258F863F302"
+					"encrypted_size_2"		"F209ECC8515346A7452A04C108A97280"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"C6635E6E81E9E8C3FE3DD7A311293E07"
+					"encrypted_size_2"		"8FE7C0F1B6AD70FC0922113BDF1B1A75"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"EC2D57B2188AF606BD351C32AC583763"
+					"encrypted_size_2"		"D0389BD4F92586991584E1F867ACA894"
+				}
+			}
+		}
+		"1042360"
+		{
+			"name"		"Surviving Mars: P Pack (1042360) Depot"
+			"manifests"
+			{
+				"public"		"4949532057821552551"
+			}
+			"maxsize"		"3829852"
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"encrypted_gid_2"		"3EF28291CB3DFF867E55352BB32CA898"
+					"encrypted_size_2"		"A42E293167D353FFDCEBFDDEC1060CF6"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"0E171D4CFF4E4E2F137E2F26D4DA650D"
+					"encrypted_size_2"		"8352568CE8BE2AAE007487E93365DA0F"
+				}
+				"localisation_lqa"
+				{
+					"encrypted_gid_2"		"6D1C943D335E352326C91CEDA5658AFD"
+					"encrypted_size_2"		"C83F146DFC33DB027F31273391E8A3F1"
+				}
+				"release_staging"
+				{
+					"encrypted_gid_2"		"465CCAFF760DF71A0CB0B338A3E94106"
+					"encrypted_size_2"		"E8DEE8FB5A95E212C3D72C14A75EDE22"
+				}
+				"weekly"
+				{
+					"encrypted_gid_2"		"CF952054323D70A3DED60CA40D37BA75"
+					"encrypted_size_2"		"09E5879FAA5566AD68CF7870FE2235C7"
+				}
+			}
+			"dlcappid"		"1042360"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3864839"
+				"timeupdated"		"1559144918"
+			}
+			"age_rating"
+			{
+				"buildid"		"2294548"
+				"description"		"Age rating build, do not touch!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1511271938"
+			}
+			"baseline"
+			{
+				"buildid"		"2479010"
+				"description"		"The former \"disc_version\"."
+				"pwdrequired"		"1"
+				"timeupdated"		"1517575037"
+			}
+			"closed_beta"
+			{
+				"buildid"		"3739133"
+				"description"		"Branch for closed beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558000236"
+			}
+			"development"
+			{
+				"buildid"		"4179571"
+				"description"		"Developer internal testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568041580"
+			}
+			"gs_compat"
+			{
+				"buildid"		"2610596"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1521933881"
+			}
+			"ihv_test"
+			{
+				"buildid"		"2786711"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1526733763"
+			}
+			"localisation_lqa"
+			{
+				"buildid"		"4179571"
+				"description"		"Branch meant for localisation and LQA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568046120"
+			}
+			"modding_beta"
+			{
+				"buildid"		"3519313"
+				"description"		"Branch for modding beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548945603"
+			}
+			"nasa_build"
+			{
+				"buildid"		"2216798"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1508951485"
+			}
+			"omuk"
+			{
+				"buildid"		"2197105"
+				"description"		"access given to voiceover studio"
+				"pwdrequired"		"1"
+				"timeupdated"		"1508229448"
+			}
+			"partners"
+			{
+				"buildid"		"3260802"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541059235"
+			}
+			"pdx_playtest"
+			{
+				"buildid"		"2532807"
+				"description"		"Branch for external reviews and playtests"
+				"pwdrequired"		"1"
+				"timeupdated"		"1519145047"
+			}
+			"qloc_branch"
+			{
+				"buildid"		"2720440"
+				"description"		"Branch meant for QLOC to do compliance and localisation tests on"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524667301"
+			}
+			"release_staging"
+			{
+				"buildid"		"3768664"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556206646"
+			}
+			"sr_alpha"
+			{
+				"buildid"		"2871482"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1530628415"
+			}
+			"trailer_branch"
+			{
+				"buildid"		"2252527"
+				"description"		"for trailer production partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1510557101"
+			}
+			"weekly"
+			{
+				"buildid"		"4179571"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568046132"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Surviving Mars/{64BitSteamID}"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
+ 

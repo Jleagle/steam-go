@@ -1,0 +1,534 @@
+"appinfo"
+{
+	"appid"		"382310"
+	"common"
+	{
+		"name"		"Eco"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"dfc81262b1d51398f005d9497407571530adca3a"
+		"logo_small"		"dfc81262b1d51398f005d9497407571530adca3a_thumb"
+		"icon"		"a436675ab3b355bdd5c610227abcb23b9ca71b7a"
+		"clienttga"		"c0ac7632f36096b5760aab0692a8c23414f2fb90"
+		"clienticns"		"543b2652ba9f39125512eb1be31168174a16831a"
+		"linuxclienticon"		"4e356f4a0b0d59de4904635481945f095b281c35"
+		"clienticon"		"f2b61574006d6342684b20103544f747567760b4"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"metacritic_name"		"Eco"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"21.555832722465183"
+				"height_pct"		"62.525897780944064"
+			}
+		}
+		"store_asset_mtime"		"1562708011"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strange Loop Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Strange Loop Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1517939959"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"382310"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1695"
+			"2"		"3859"
+			"3"		"1643"
+			"4"		"1702"
+			"5"		"3810"
+			"6"		"599"
+			"7"		"21"
+			"8"		"1685"
+			"9"		"4695"
+			"10"		"3834"
+			"11"		"492"
+			"12"		"493"
+			"13"		"4175"
+			"14"		"3843"
+			"15"		"1036"
+			"16"		"7332"
+			"17"		"3839"
+			"18"		"4182"
+			"19"		"30358"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Strange Loop Games"
+		"publisher"		"Strange Loop Games"
+		"homepage"		"http://www.strangeloopgames.com/eco"
+		"listofdlc"		"739590"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Eco"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Eco.exe"
+				"arguments"		"-steam"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Eco.x86"
+				"arguments"		"-steam"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Eco.x86_64"
+				"arguments"		"-steam"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Eco.app"
+				"arguments"		"-steam"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"382311"
+		{
+			"name"		"Eco Win x86 Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4570526175904445870"
+				"8.0.7"		"5971618193851324351"
+				"8.1.0"		"6352625601176612791"
+				"8.1.1"		"669901031335917742"
+				"8.1.2"		"3234725009703947986"
+				"8.1.3"		"6968327360521894355"
+				"8.1.4"		"5555445768663930469"
+				"8.2.0"		"7714594681276329870"
+				"8.2.1"		"1000210898324506837"
+				"8.2.2"		"6082378289217357591"
+				"8.2.3"		"8065951625799809204"
+				"8.2.4"		"583279458072394858"
+				"8.2.5"		"5260435321424329793"
+				"8.2.6"		"1445422420597415023"
+				"8.2.7"		"4788365873297064776"
+				"8.2.8"		"8118569190101029723"
+				"8.2.9"		"5665662271619702331"
+				"bleeding_edge_staging_day"		"5555445768663930469"
+				"bleeding_edge_staging_night"		"5555445768663930469"
+				"staging"		"1067629013047197111"
+			}
+			"maxsize"		"950245478"
+			"encryptedmanifests"
+			{
+				"ci_branch"
+				{
+					"encrypted_gid_2"		"1815E268FF15F68539F51B6F697C9A1D"
+					"encrypted_size_2"		"814E2806473B0BE02231E891D66C13BE"
+				}
+				"community_preview"
+				{
+					"encrypted_gid_2"		"7B07AB9CFFCA9B42CD713CFD47259C9F"
+					"encrypted_size_2"		"DC3E8132891C91F71F0651639868E46A"
+				}
+				"master_preview"
+				{
+					"encrypted_gid_2"		"AD7A9654CF5C8F2CB36E4A4091881A46"
+					"encrypted_size_2"		"DBA4811ADEAA8B5A00DDAC912BE60306"
+				}
+			}
+		}
+		"382312"
+		{
+			"name"		"Eco Win x64  Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6814702245310619981"
+				"8.0.7"		"6915569710055332046"
+				"8.1.0"		"2819586400184107498"
+				"8.1.1"		"2081191670083167207"
+				"8.1.2"		"3429677500895317848"
+				"8.1.3"		"4983941861074459326"
+				"8.1.4"		"1521815626130566370"
+				"8.2.0"		"6711044640602329188"
+				"8.2.1"		"6565490994578493560"
+				"8.2.2"		"74014185870105576"
+				"8.2.3"		"2889595670754651166"
+				"8.2.4"		"8698752900836658863"
+				"8.2.5"		"878692130589620223"
+				"8.2.6"		"563521645537426634"
+				"8.2.7"		"7683822469479679027"
+				"8.2.8"		"5707135437852667012"
+				"8.2.9"		"3840693410312476402"
+				"bleeding_edge_staging_day"		"3776078225530820996"
+				"bleeding_edge_staging_night"		"3251544527477430898"
+				"staging"		"3035482256934625383"
+			}
+			"maxsize"		"963830434"
+			"encryptedmanifests"
+			{
+				"ci_branch"
+				{
+					"encrypted_gid_2"		"0D9FD8F3377A675C5CEE45CE9E0BE758"
+					"encrypted_size_2"		"89C488DB961BEECF0806D2422F50E9F8"
+				}
+				"community_preview"
+				{
+					"encrypted_gid_2"		"9F7476B2089C95E4DBD67E6156C04CD2"
+					"encrypted_size_2"		"5A5B2E107D1C863766BFF503A7852B8F"
+				}
+				"master_preview"
+				{
+					"encrypted_gid_2"		"2684A90EF6FE8A9E897FEDA4868686FB"
+					"encrypted_size_2"		"2D672AC36479396ADEA3080118783B1A"
+				}
+			}
+		}
+		"382313"
+		{
+			"name"		"Eco Mac Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"763878415511355147"
+				"8.0.7"		"71903101314684537"
+				"8.1.0"		"1023477620538195240"
+				"8.1.1"		"7728735827606888507"
+				"8.1.2"		"9170678221706487866"
+				"8.1.3"		"4117580211639232525"
+				"8.1.4"		"838829177971379071"
+				"8.2.0"		"5110486228308113990"
+				"8.2.1"		"7118192192448458865"
+				"8.2.2"		"4512405966121269941"
+				"8.2.3"		"3787776082824487442"
+				"8.2.4"		"1032804817205585611"
+				"8.2.5"		"8703363640044723319"
+				"8.2.6"		"3763393430862489105"
+				"8.2.7"		"2311589739249799980"
+				"8.2.8"		"8710117473221591046"
+				"8.2.9"		"4015013528647404845"
+				"bleeding_edge_staging_day"		"838829177971379071"
+				"bleeding_edge_staging_night"		"838829177971379071"
+				"staging"		"9106780914631968287"
+			}
+			"maxsize"		"997339762"
+			"encryptedmanifests"
+			{
+				"ci_branch"
+				{
+					"encrypted_gid_2"		"B910D59EE6FA6512765C7ECF2832FCF3"
+					"encrypted_size_2"		"EB9861661D86958892D885A1F08F38C1"
+				}
+				"community_preview"
+				{
+					"encrypted_gid_2"		"FDFFE9DF5FDA97FE49732BC017C1C55F"
+					"encrypted_size_2"		"76421FF85BCBF9E9A60F2AE587D1C8AE"
+				}
+				"master_preview"
+				{
+					"encrypted_gid_2"		"2937F496D5633546863E876215BC0B22"
+					"encrypted_size_2"		"314D056C33B366B7B18C5F54AF75AF34"
+				}
+			}
+		}
+		"382314"
+		{
+			"name"		"Eco Linux Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8523902240843406408"
+				"8.0.7"		"3991551231144783470"
+				"8.1.0"		"2928518864607184867"
+				"8.1.1"		"7792751341648286425"
+				"8.1.2"		"5292128695818157487"
+				"8.1.3"		"742779274619379808"
+				"8.1.4"		"8664733404747345204"
+				"8.2.0"		"5471505801591077093"
+				"8.2.1"		"7774630432364631804"
+				"8.2.2"		"4942034213632147274"
+				"8.2.3"		"3629282724737260154"
+				"8.2.4"		"7215795729334722872"
+				"8.2.5"		"6798522053462152580"
+				"8.2.6"		"8526572148456016332"
+				"8.2.7"		"5662311919885009008"
+				"8.2.8"		"7680522378606479903"
+				"8.2.9"		"4250669937375515468"
+				"bleeding_edge_staging_day"		"8664733404747345204"
+				"bleeding_edge_staging_night"		"8664733404747345204"
+				"staging"		"3774507081289287504"
+			}
+			"maxsize"		"1032490169"
+			"encryptedmanifests"
+			{
+				"ci_branch"
+				{
+					"encrypted_gid_2"		"0F9EDE2A48460CE73073BD1F90A90CCC"
+					"encrypted_size_2"		"A9ACF0469335097F9F00D90EC5A15993"
+				}
+				"community_preview"
+				{
+					"encrypted_gid_2"		"198FD89B2E6328A7EEE5265888EB6B82"
+					"encrypted_size_2"		"BE71211D47BE26D5EFAB7C840205B67B"
+				}
+				"master_preview"
+				{
+					"encrypted_gid_2"		"79CF7BE38A75C137B34D953B57E88217"
+					"encrypted_size_2"		"57F0B37551F202BE23C3611E08706A57"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4146176"
+				"timeupdated"		"1567001845"
+			}
+			"8.0.7"
+			{
+				"buildid"		"3639091"
+				"description"		"Beta 8.0.7"
+				"timeupdated"		"1552430765"
+			}
+			"8.1.0"
+			{
+				"buildid"		"3710230"
+				"description"		"Beta 8.1.0"
+				"timeupdated"		"1554406372"
+			}
+			"8.1.1"
+			{
+				"buildid"		"3720490"
+				"description"		"Beta 8.1.1"
+				"timeupdated"		"1554834726"
+			}
+			"8.1.2"
+			{
+				"buildid"		"3727505"
+				"description"		"Beta 8.1.2"
+				"timeupdated"		"1555013974"
+			}
+			"8.1.3"
+			{
+				"buildid"		"3744333"
+				"description"		"Beta 8.1.3"
+				"timeupdated"		"1555522755"
+			}
+			"8.1.4"
+			{
+				"buildid"		"3758213"
+				"description"		"Beta 8.1.4"
+				"timeupdated"		"1556082180"
+			}
+			"8.2.0"
+			{
+				"buildid"		"3925606"
+				"description"		"Beta 8.2.0"
+				"timeupdated"		"1560919249"
+			}
+			"8.2.1"
+			{
+				"buildid"		"3932813"
+				"description"		"Beta 8.2.1"
+				"timeupdated"		"1560944123"
+			}
+			"8.2.2"
+			{
+				"buildid"		"3933594"
+				"description"		"Beta 8.2.2"
+				"timeupdated"		"1561013896"
+			}
+			"8.2.3"
+			{
+				"buildid"		"3940653"
+				"description"		"Beta 8.2.3"
+				"timeupdated"		"1561105428"
+			}
+			"8.2.4"
+			{
+				"buildid"		"3954148"
+				"description"		"Beta 8.2.4"
+				"timeupdated"		"1561536732"
+			}
+			"8.2.5"
+			{
+				"buildid"		"3973119"
+				"description"		"Beta 8.2.5"
+				"timeupdated"		"1562059222"
+			}
+			"8.2.6"
+			{
+				"buildid"		"3982300"
+				"description"		"Beta 8.2.6"
+				"timeupdated"		"1562249337"
+			}
+			"8.2.7"
+			{
+				"buildid"		"3985934"
+				"description"		"Beta 8.2.7"
+				"timeupdated"		"1562342531"
+			}
+			"8.2.8"
+			{
+				"buildid"		"3999285"
+				"description"		"Beta 8.2.8"
+				"timeupdated"		"1562832475"
+			}
+			"8.2.9"
+			{
+				"buildid"		"4031397"
+				"description"		"Beta 8.2.9"
+				"timeupdated"		"1563866419"
+			}
+			"8.3.0"
+			{
+				"buildid"		"4146176"
+				"description"		"Beta 8.3.0"
+				"timeupdated"		"1567001831"
+			}
+			"bleeding_edge_staging_day"
+			{
+				"buildid"		"4129300"
+				"description"		""
+				"timeupdated"		"1566477508"
+			}
+			"bleeding_edge_staging_night"
+			{
+				"buildid"		"4177904"
+				"description"		""
+				"timeupdated"		"1567993125"
+			}
+			"ci_branch"
+			{
+				"buildid"		"3871423"
+				"description"		"CI autopushes here"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559177906"
+			}
+			"community_preview"
+			{
+				"buildid"		"4129909"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566491258"
+			}
+			"master_preview"
+			{
+				"buildid"		"4178480"
+				"description"		"Beta 8.3.0 or Something else"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568016791"
+			}
+			"release_preview"
+			{
+				"buildid"		"4146176"
+				"description"		"Beta 8.2.0"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566997417"
+			}
+			"staging"
+			{
+				"buildid"		"4135355"
+				"description"		"Staging 8.3.0"
+				"timeupdated"		"1566630570"
+			}
+		}
+	}
+}
+ 

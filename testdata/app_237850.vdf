@@ -1,0 +1,564 @@
+"appinfo"
+{
+	"appid"		"237850"
+	"common"
+	{
+		"name"		"Dreamfall Chapters"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"eulas"
+		{
+		}
+		"logo"		"06507734d920cae6fcd5275cf97069bcd0e365c4"
+		"logo_small"		"06507734d920cae6fcd5275cf97069bcd0e365c4_thumb"
+		"icon"		"e1238d11e33f11cb516d460dea2cd1d42d84ec2e"
+		"clienticon"		"6096301e601b4a42b72f25dca9e136f2259fb042"
+		"clienttga"		"21fad6a55df023d74b4069519618d0ddcb86af80"
+		"linuxclienticon"		"d3fb06374a69e06ac7518572f6190b382ac9039a"
+		"clienticns"		"4e99ef801c8083130ab719a53f0ef557a2419c18"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Dreamfall Chapters"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"62.30936819172114"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1568028738"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Red Thread Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Red Thread Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1413927780"
+		"metacritic_score"		"71"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dreamfall-chapters?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"237850"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1742"
+			"2"		"4166"
+			"3"		"1684"
+			"4"		"7208"
+			"5"		"4115"
+			"6"		"6426"
+			"7"		"4182"
+			"8"		"1697"
+			"9"		"1698"
+			"10"		"1756"
+			"11"		"4242"
+			"12"		"4295"
+			"13"		"5153"
+			"14"		"3942"
+			"15"		"4486"
+			"16"		"3834"
+			"17"		"5144"
+			"18"		"492"
+			"19"		"5900"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Red Thread Games"
+		"gamedir"		"ValveTestApp237850"
+		"homepage"		"http://www.dreamfallchapters.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Red Thread Games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/237850/"
+		"listofdlc"		"320530,635300,669480"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dreamfall Chapters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dreamfall Chapters.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Dreamfall Chapters.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dreamfall Chapters"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"237851"
+		{
+			"name"		"Dreamfall Chapters (Windows x86)"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"9091905473115178723"
+			}
+			"maxsize"		"21422158444"
+			"encryptedmanifests"
+			{
+				"bookfourbeta"
+				{
+					"encrypted_gid_2"		"C5887F3A22D02CE12D5D4E6A25B4FA8E"
+					"encrypted_size_2"		"3D7FBFC8658196E8C3EABB0D56874BCA"
+				}
+				"bookonebeta"
+				{
+					"encrypted_gid_2"		"6C9505F4514106AF2024BA491181DBD5"
+					"encrypted_size_2"		"8963C3E4208DFBAB287A761DCCC97F15"
+				}
+				"bookthreebeta"
+				{
+					"encrypted_gid_2"		"C99401B1B75CF5625248811018755F5B"
+					"encrypted_size_2"		"81462A58A62D8534877B5EA7C4842020"
+				}
+				"booktwobeta"
+				{
+					"encrypted_gid_2"		"2E40A9AC3B40063FA43A8979482DD4E6"
+					"encrypted_size_2"		"5538CDB02F529AEEE8F51CACB49CCECA"
+				}
+				"finalcut"
+				{
+					"encrypted_gid_2"		"8E111AA4B453ABDBBAB45EC963E709A7"
+					"encrypted_size_2"		"21FE406221D617176A902B8493490641"
+				}
+			}
+		}
+		"237852"
+		{
+			"name"		"Dreamfall Chapters (Mac x64)"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5377799756318817855"
+			}
+			"maxsize"		"21478511851"
+			"encryptedmanifests"
+			{
+				"bookfourbeta"
+				{
+					"encrypted_gid_2"		"34F87F175215B2FA5775EFF285AC3122"
+					"encrypted_size_2"		"C253D07187B9F953B274DE35B97D7729"
+				}
+				"bookonebeta"
+				{
+					"encrypted_gid_2"		"1F514DA7E046AF1BD961B55446DAE497"
+					"encrypted_size_2"		"0D2FA0C15428F32CA4C780BBF57ED546"
+				}
+				"bookthreebeta"
+				{
+					"encrypted_gid_2"		"39A3790C39D84E6F2DA2839E16ED197C"
+					"encrypted_size_2"		"1340B23157683C231293872BBC2B0B99"
+				}
+				"booktwobeta"
+				{
+					"encrypted_gid_2"		"AE2540ACC807CFE1E3CFD9FA72E5548C"
+					"encrypted_size_2"		"501AE29FF95176D86DA8F03D292F6505"
+				}
+				"finalcut"
+				{
+					"encrypted_gid_2"		"87FB61F6AFC8D03BFC450FE8C2C3CF2B"
+					"encrypted_size_2"		"5409F7AEC27AD40BD248862AD868077B"
+				}
+			}
+		}
+		"237853"
+		{
+			"name"		"Dreamfall Chapters (Linux x64)"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5213459599996496232"
+			}
+			"maxsize"		"21425004558"
+			"encryptedmanifests"
+			{
+				"bookfourbeta"
+				{
+					"encrypted_gid_2"		"5D2F3D317DB7710F58C4FA78B9B4F5DA"
+					"encrypted_size_2"		"E2C097874A42C93C68C01F70E749F1DE"
+				}
+				"bookonebeta"
+				{
+					"encrypted_gid_2"		"4C62547C05D3DB5940C9CC871C9AFD83"
+					"encrypted_size_2"		"1A8063CDCD5787B53CCFA3A72B6DA68E"
+				}
+				"bookthreebeta"
+				{
+					"encrypted_gid_2"		"90F170F71DE8310893B4B6515BD33820"
+					"encrypted_size_2"		"B79DD10FA7A46F425A28D389A9DB8809"
+				}
+				"booktwobeta"
+				{
+					"encrypted_gid_2"		"802A4CD3254B9E690F23E0325F83089F"
+					"encrypted_size_2"		"71AA2CF2846098F3041D329567E3EDE4"
+				}
+				"finalcut"
+				{
+					"encrypted_gid_2"		"866BCB50120E3C3A8D1F82C9E13390FE"
+					"encrypted_size_2"		"24FEF0B283D9AC9D97C468B2F94F8B85"
+				}
+			}
+		}
+		"237854"
+		{
+			"name"		"Dreamfall Chapters (Windows x64)"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2731610869413893804"
+			}
+			"maxsize"		"21426423468"
+			"encryptedmanifests"
+			{
+				"bookfourbeta"
+				{
+					"encrypted_gid_2"		"60CB765433BC2E0D47608D37C3CBE686"
+					"encrypted_size_2"		"898C91D7B98BFD5CB6853870EABE5C90"
+				}
+				"bookonebeta"
+				{
+					"encrypted_gid_2"		"26E78EDE4E0A7DC5735FB59B46333935"
+					"encrypted_size_2"		"F1158B46FD2E75C707A9CA4ADEEEF375"
+				}
+				"bookthreebeta"
+				{
+					"encrypted_gid_2"		"868AF8DE023EBB05CDCF4363D4AA7257"
+					"encrypted_size_2"		"EC14AA78D97B1455C3FD99D904E6E10B"
+				}
+				"booktwobeta"
+				{
+					"encrypted_gid_2"		"F215F80D2D70B5B5A87920690A11E8DC"
+					"encrypted_size_2"		"FD0E19C8D2D490FD1C81F4783B243F5F"
+				}
+				"finalcut"
+				{
+					"encrypted_gid_2"		"6CA19A999E55A2A37EDC54530FB5738A"
+					"encrypted_size_2"		"710C019C740D6B5E9AC7ECA3B9148C99"
+				}
+			}
+		}
+		"320530"
+		{
+			"name"		"Dreamfall Chapters Special Edition (320530) Depot"
+			"dlcappid"		"320530"
+			"manifests"
+			{
+				"public"		"7844442774255796883"
+			}
+			"maxsize"		"486043517"
+		}
+		"669480"
+		{
+			"name"		"Dreamfall Chapters Original Soundtrack (669480) Depot"
+			"dlcappid"		"669480"
+			"manifests"
+			{
+				"public"		"797941089412896408"
+			}
+			"maxsize"		"973651504"
+			"encryptedmanifests"
+			{
+				"finalcut"
+				{
+					"encrypted_gid_2"		"86410E2F29E858E9BFF3C8E9D62B7ED8"
+					"encrypted_size_2"		"19AB1ECFA2BB57DFE5FE3770F9550D38"
+				}
+			}
+		}
+		"237855"
+		{
+			"name"		"Dreamfall Chapters: The Final Cut (Windows x64)"
+			"dlcappid"		"635300"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7640080502417526376"
+				"5.7.4"		"2398986059326266300"
+			}
+			"maxsize"		"20753688669"
+			"encryptedmanifests"
+			{
+				"finalcut"
+				{
+					"encrypted_gid_2"		"D52C8CDA56396D7D37E79C630B826380"
+					"encrypted_size_2"		"DA8372E914731A3CBB963C0099420E0E"
+				}
+				"finalcutdlc"
+				{
+					"encrypted_gid_2"		"52F2A2D16CD476C719FF0DF1845066F2"
+					"encrypted_size_2"		"87ED81CDEC69C63BA59DCE94198EB6CB"
+				}
+			}
+		}
+		"237856"
+		{
+			"name"		"Dreamfall Chapters: The Final Cut (Windows x86)"
+			"dlcappid"		"635300"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4027707964634721302"
+				"5.7.4"		"7921993521069423812"
+			}
+			"maxsize"		"20749455317"
+			"encryptedmanifests"
+			{
+				"finalcutdlc"
+				{
+					"encrypted_gid_2"		"480582AFAA7451E79AF18A5744335C79"
+					"encrypted_size_2"		"9E9AF31CF4B13596DDDB85780D97B162"
+				}
+			}
+		}
+		"237857"
+		{
+			"name"		"Dreamfall Chapters: The Final Cut (Mac x64)"
+			"dlcappid"		"635300"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5172224996277561574"
+				"5.7.4"		"5228034531062618776"
+			}
+			"maxsize"		"20759251736"
+			"encryptedmanifests"
+			{
+				"finalcutdlc"
+				{
+					"encrypted_gid_2"		"EA29BDA38768D00B7DF1F828F4B45AE4"
+					"encrypted_size_2"		"E99BACE9C532E71673A6540F1895A2A0"
+				}
+			}
+		}
+		"237858"
+		{
+			"name"		"Dreamfall Chapters: The Final Cut (Linux x64)"
+			"dlcappid"		"635300"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5088376926420551891"
+				"5.7.4"		"4348793251549668183"
+			}
+			"maxsize"		"20753521993"
+			"encryptedmanifests"
+			{
+				"finalcutdlc"
+				{
+					"encrypted_gid_2"		"575E6D729288CC7F40E2B5BF62BA6BFC"
+					"encrypted_size_2"		"FC01100DB28200737B5D15C991093DA8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3202784"
+				"timeupdated"		"1539327615"
+			}
+			"5.7.4"
+			{
+				"buildid"		"2042529"
+				"description"		"Release build 5.7.4"
+				"timeupdated"		"1537265527"
+			}
+			"beta"
+			{
+				"buildid"		"3202784"
+				"description"		"Beta build 5.7.8"
+				"timeupdated"		"1539249645"
+			}
+			"bookfivebeta"
+			{
+				"buildid"		"1612567"
+				"description"		"Book Five (Beta)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1486383402"
+			}
+			"bookfourbeta"
+			{
+				"buildid"		"1002426"
+				"description"		"Book Four (Beta)"
+				"pwdrequired"		"1"
+			}
+			"bookonebeta"
+			{
+				"buildid"		"469831"
+				"description"		"Book One (Beta)"
+				"pwdrequired"		"1"
+			}
+			"bookthreebeta"
+			{
+				"buildid"		"874467"
+				"description"		"Book Three (Beta)"
+				"pwdrequired"		"1"
+			}
+			"booktwobeta"
+			{
+				"buildid"		"567926"
+				"description"		"Book Two (Beta)"
+				"pwdrequired"		"1"
+			}
+			"finalcut"
+			{
+				"buildid"		"1974796"
+				"description"		"The Final Cut (Beta)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500551970"
+			}
+			"finalcutdlc"
+			{
+				"buildid"		"2910964"
+				"description"		"The Final Cut DLC (Beta)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530513216"
+			}
+			"redthread"
+			{
+				"buildid"		"3202784"
+				"description"		"Internal builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539249661"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

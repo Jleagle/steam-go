@@ -1,0 +1,1400 @@
+"appinfo"
+{
+	"appid"		"435150"
+	"common"
+	{
+		"name"		"Divinity: Original Sin 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"a83a75b8338e5576bea30f9f52c4eb2454e18efd"
+		"logo_small"		"a83a75b8338e5576bea30f9f52c4eb2454e18efd_thumb"
+		"icon"		"519a99caef7c5e2b4625c8c2fa0620fb66a752f3"
+		"clienticon"		"a9ddbd774859a5ef9e6e129ac3e213558ed95a35"
+		"clienttga"		"4c2321fab5ddfc525e890c29cc464c3a52d06085"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+		}
+		"clienticns"		"2cae3be1bf9082158f045dc9ce9e741e7332563b"
+		"metacritic_name"		"Divinity: Original Sin II"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"50"
+				"height_pct"		"35"
+			}
+		}
+		"store_asset_mtime"		"1561485439"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Larian Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Larian Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_13"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1505372400"
+		"steam_release_date"		"1505401920"
+		"metacritic_score"		"93"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/divinity-original-sin-ii?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"435150"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1742"
+			"2"		"1677"
+			"3"		"1685"
+			"4"		"1684"
+			"5"		"4747"
+			"6"		"1695"
+			"7"		"21"
+			"8"		"4325"
+			"9"		"9"
+			"10"		"3859"
+			"11"		"4182"
+			"12"		"4474"
+			"13"		"1756"
+			"14"		"14139"
+			"15"		"10695"
+			"16"		"4166"
+			"17"		"5851"
+			"18"		"492"
+			"19"		"7208"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Larian Studios"
+		"publisher"		"Larian Studios"
+		"homepage"		"http://divinity.game"
+		"gamemanualurl"		"https://store.steampowered.com/manual/435150/"
+		"aliases"		"dos2"
+		"listofdlc"		"715950,717550,830770,880640"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Divinity Original Sin 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\SupportTool.exe"
+				"workingdir"		"bin"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Divinity - Original Sin 2.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"workshopdepot"		"435150"
+		"hasdepotsindlc"		"1"
+		"baselanguages"		""
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"name"		".NET 3.5 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"242743889"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"name"		".NET 3.5 Client Profile Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"267964564"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"name"		".NET 4.0 Client Profile Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"43001447"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"435151"
+		{
+			"name"		"Divinity: Original Sin 2 Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"81515071236078214"
+			}
+			"maxsize"		"61309522580"
+			"encryptedmanifests"
+			{
+				"260619"
+				{
+					"encrypted_gid_2"		"6E867691584C1F5D812044DF2FA00E46"
+					"encrypted_size_2"		"BF565E28C279B28EF68EABF35706745D"
+				}
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"F968018FA453331A39A3242D80067ACD"
+					"encrypted_size_2"		"F6BEFE003CA05089C9D5B366A7715460"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"C2E43107FE588D032546A2506E0FBD2D"
+					"encrypted_size_2"		"9928A347DEF2875D46A5D8F2A50C6FAE"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"CB7CCBD62AEA34DC933FE1F82C578B40"
+					"encrypted_size_2"		"E433E5BA7CF6A2EC8E77B708BE871C7B"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"50D3AC19F0D39AE886FBEF45E90CF556"
+					"encrypted_size_2"		"E6FF616822D505B97684763DBD7CB4A3"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"10F47E25532D117805E81CCF95965DA6"
+					"encrypted_size_2"		"DBC0AD2DE3F4E6C13A30DD754FD06F5E"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"FDD2933D717409B0476D40A4C748CF26"
+					"encrypted_size_2"		"9B33E6EFED39DE5684B631E49F5379FB"
+				}
+				"dos2de_hotfix"
+				{
+					"encrypted_gid_2"		"50BCBA76089F585A99363A6C33A95367"
+					"encrypted_size_2"		"DBD7E8D7B60DB67898FBA2FD55B8622B"
+				}
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"E065E017752E8458E92989D0B3DEC08B"
+					"encrypted_size_2"		"2263F5D17FD86C528F2FFEDDA5BEC045"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"B7FEFBFBD029F44A8C5E84D2A781D035"
+					"encrypted_size_2"		"DD4A729A3516441724A095A66CEB396B"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"A1D7E79AE4C3ED357C545290EE39F646"
+					"encrypted_size_2"		"A890493CD58EC276B5D2BFC7CAABD8CB"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"F13053633188AEDEAC9EA197F7422074"
+					"encrypted_size_2"		"14641B6B6B7FF4AC5EF5292ECA2ECCAE"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"8CF4A511E4C15B92654A51638666192C"
+					"encrypted_size_2"		"59455832D3EF9AA92705AFF706BF84A3"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"23AA92AAFB34CBB91154F6528B6C38ED"
+					"encrypted_size_2"		"E400B6CD51A0D202C224CF66AADB6E04"
+				}
+				"gm-test"
+				{
+					"encrypted_gid_2"		"3BA48E86076622CEFFE4B322DAAC2B0A"
+					"encrypted_size_2"		"FE2353AEC24E8BD7D79A233275AD35BA"
+				}
+				"locabranch"
+				{
+					"encrypted_gid_2"		"1A59DBB0DE2AD9874EFDA85AF4EE077A"
+					"encrypted_size_2"		"EF372D4ACE5FD6A090E274E10F4FA0C8"
+				}
+				"macversion"
+				{
+					"encrypted_gid_2"		"B2F1B290116C5A5F10C03350BD5D4075"
+					"encrypted_size_2"		"D99E454015BC9C264762ABAC66018463"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"584F84E52804393E7ABF98A573378C1E"
+					"encrypted_size_2"		"B27673F0844F43975377123B98433150"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"AB1BB10AC355780E743BD7574BEEACD5"
+					"encrypted_size_2"		"4EE1FCB41657B339D502EE2A740690BE"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"73F28FF102E28C0C3A2A2E3202D28630"
+					"encrypted_size_2"		"43AF1A92C37FA9D7D4457DE2325A35CB"
+				}
+				"patch5"
+				{
+					"encrypted_gid_2"		"FE61FFA5D8968FA066677890E6C209BE"
+					"encrypted_size_2"		"5C23BE09E3DCEB170A44203F1EF872FB"
+				}
+				"patch6"
+				{
+					"encrypted_gid_2"		"0EAF325D0C858C10256A6F7FD0F5EC3C"
+					"encrypted_size_2"		"4E67900D2A9F71290FAD21A1FA795DAE"
+				}
+				"public_macbeta"
+				{
+					"encrypted_gid_2"		"BAC95D373DB0AF41C6E13921D951954D"
+					"encrypted_size_2"		"F1EB90A60BE11FE621F32E1144CF00C8"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"030AA9FB00B5FECE788164FAD8C6D8D9"
+					"encrypted_size_2"		"6AA8193D1A27A3FE99B9C54137E65771"
+				}
+			}
+		}
+		"435152"
+		{
+			"name"		"English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7844138143823902363"
+			}
+			"maxsize"		"5909968"
+			"encryptedmanifests"
+			{
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"C88723156EC99AAF2F5700F099ACE484"
+					"encrypted_size_2"		"CE6BEF14858F377AB97433527A055D52"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"5EF5A9CAB8958DA737EB2B30CCB253BA"
+					"encrypted_size_2"		"A71E58274990D738B1B0409B6D8F59EB"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"38E96CD20E2A2880C2A6E158230F766C"
+					"encrypted_size_2"		"252C8F075FAD4F82FE9CA34B79C1EB07"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"B148785AB175840B729DA86C0CF189FA"
+					"encrypted_size_2"		"1475E52EEA22F7BF67B8FF3F2650A384"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"F8A592AB31A62CFA5CBA658B6B27F0D4"
+					"encrypted_size_2"		"5D41BEE399C4061F1278C6DDCE709662"
+				}
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"6F1296C64CE2280DDB98F1EB92D6F529"
+					"encrypted_size_2"		"D5FD133FD63A08F0A2561E0B08F3E144"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"4D4DE062A5485C5CC9B9902D840A6636"
+					"encrypted_size_2"		"AC09AF2BB8B131E86D84E17CFADAC7A7"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"D468DC2F733236AEF9ABE6DD6066F245"
+					"encrypted_size_2"		"FC4ED8DCBBED8461CB345E7B7E8214E9"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"56DBE3FBC9967BCACA7F61815EE24110"
+					"encrypted_size_2"		"8F353EFD7046BC2DF1DB51CC5E97E934"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"93395FB80325F5CBD6ABFE977E915B8B"
+					"encrypted_size_2"		"546853879D1C5E644AA443E2A12FCDCA"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"9C9A0CA012C00BF51DED032618E9F98D"
+					"encrypted_size_2"		"41461016654AF3DBD1BBE028BC0C03A6"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"A3E34318B5BB5864F4B99B2F925EB86D"
+					"encrypted_size_2"		"C72F7DA14E663D2D9ABC02E022237186"
+				}
+			}
+		}
+		"435153"
+		{
+			"name"		"French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"898309843669454558"
+			}
+			"maxsize"		"6398755"
+			"encryptedmanifests"
+			{
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"703B43131E2FEC6E3BC7181AB4131D94"
+					"encrypted_size_2"		"CE6BEF14858F377AB97433527A055D52"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"E05F6A86EBDA4CB4E3F8B9258DD7D328"
+					"encrypted_size_2"		"DCF331E151A955C2BBAD204B1948655F"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"D1F7168076106D1CB97E15B99BC7A256"
+					"encrypted_size_2"		"CCA835ED3579BB849FE902DC4413453A"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"0ECC29492AFEA443D68FF1A63A59306A"
+					"encrypted_size_2"		"B03DF4030B5F55F5405046F6F77B8813"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"9FC52A5C34CEB1924E2B6773FCB99BEE"
+					"encrypted_size_2"		"35A97213F03F103FB23629B961090A66"
+				}
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"6EE36DEA7854B6C641FCEC8DA55B8C5C"
+					"encrypted_size_2"		"D33FC3EB7935D69D135015BCE8E70B8B"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"0FFCAF1C4D4A87277A1693D7F1535EF5"
+					"encrypted_size_2"		"0ED576414AB6E27F7C0960AAE8109092"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"9A0BEB7A3BE5424730D6ED119E849946"
+					"encrypted_size_2"		"049B383963C7E40C85BCEEFF08953C02"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"14F76F497E9C7694EABCD2DFA497B94E"
+					"encrypted_size_2"		"5D80FB3E7B403080CF928A3E4B93316D"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"40D8391F41CB57D5C9C3A9B2B412498A"
+					"encrypted_size_2"		"546853879D1C5E644AA443E2A12FCDCA"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"5BAF08BC48A59DF0880011F2C70C9F94"
+					"encrypted_size_2"		"41461016654AF3DBD1BBE028BC0C03A6"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"EFD5E9864EAE8E7E7EEAF2EA0179AB31"
+					"encrypted_size_2"		"60A645CBE7BDC54D91E2DC27261990E7"
+				}
+			}
+		}
+		"435154"
+		{
+			"name"		"German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8440673381907628140"
+			}
+			"maxsize"		"6172389"
+			"encryptedmanifests"
+			{
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"1B49930FEBF0F5962F2F3005AD0F8A88"
+					"encrypted_size_2"		"CE6BEF14858F377AB97433527A055D52"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"51DD99F113F22F4DF971ECE8004B1E5B"
+					"encrypted_size_2"		"A19060D94D92C696317C62E006D1BD4C"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"51103713EA462FB8FABE8A1607388B82"
+					"encrypted_size_2"		"EF91F8D11D941B98477678ACBD7B64EF"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"D7E9643885350F34573014BABCFB99DC"
+					"encrypted_size_2"		"0EA276F33F849E189AC427B8D54EB6E0"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"C6C46E20EAB3A4FDB5DBB268213CB397"
+					"encrypted_size_2"		"2D006E43F53B8FEC38B6F2DACC3FFC7F"
+				}
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"E7ED663133C309C3824D396AEB56C23C"
+					"encrypted_size_2"		"DF11A934C8B671DFF0D4922A15255994"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"498DCCD5DE5E35137729980AD9D551FC"
+					"encrypted_size_2"		"B5478838EBE26E85BA16A4C804BE9DA6"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"6F7BC37AD8FFCB1780634E43AFFE4EB1"
+					"encrypted_size_2"		"26FDFFE6F46996AD54B09FA74049BB3C"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"A9D5EA9B2904863956E4C08A7D456B37"
+					"encrypted_size_2"		"96541EC6B90F81BF6D20E60C0E91B8DE"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"A0A6E7F8EB0E59E40C8BD61D4E7F306E"
+					"encrypted_size_2"		"546853879D1C5E644AA443E2A12FCDCA"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"42644B67889C8B3E5BF4E5AAC851F4E3"
+					"encrypted_size_2"		"41461016654AF3DBD1BBE028BC0C03A6"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"E5D12B57362F22EDD3A837F2966326DC"
+					"encrypted_size_2"		"E76F2717B46BE46BF999018630062736"
+				}
+			}
+		}
+		"435156"
+		{
+			"name"		"Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"272792910353549608"
+			}
+			"maxsize"		"6794792"
+			"encryptedmanifests"
+			{
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"CDBA9FB5FC5CBF9A3F6BA811FC78C9FE"
+					"encrypted_size_2"		"CE6BEF14858F377AB97433527A055D52"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"68DB0D0B59577FE894C1DE0C9C528266"
+					"encrypted_size_2"		"E91CAAC7EA238BBFD0589030B146D27C"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"CA9D088F80C597A64B1ACD0222E313F5"
+					"encrypted_size_2"		"464F07E46B59976C76D9E6A0340B92E5"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"3E1CDF91BE0540870EFFBF28F9646CF8"
+					"encrypted_size_2"		"B2811395059BC91D8B7620A3C3E04B14"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"C86672C59E4B96BB4C8D5CA8E4F2A875"
+					"encrypted_size_2"		"B84F5877C9E299488D9BDC2FC1CEFAF9"
+				}
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"3F6799F5C701930696A0DBE2AC39FD57"
+					"encrypted_size_2"		"A336A20817EC416AD47026609D1390A8"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"0F9D2DFA4747C2915F03DC70E0905691"
+					"encrypted_size_2"		"9FEA2E8E84CD0A83B63CF29A81416667"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"3A1A1083D16657C41D9C785D9515908F"
+					"encrypted_size_2"		"82A37774F133E98E567993F5BF352957"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"6AD76B7859B2FC84DB253697F2CDE916"
+					"encrypted_size_2"		"58CC8F63480D842EFA8F1D9B644EE6B1"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"316F2890CB76273A204543AB4F44D369"
+					"encrypted_size_2"		"546853879D1C5E644AA443E2A12FCDCA"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"841B881F7B65F91CAEBAC5BCBCD84346"
+					"encrypted_size_2"		"41461016654AF3DBD1BBE028BC0C03A6"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"1D9D8E2B9D80D18952EB0814F797858E"
+					"encrypted_size_2"		"027159CFCC75146F53B1F8D49E2EB50C"
+				}
+			}
+		}
+		"715950"
+		{
+			"name"		"Divinity: Original Sin 2 - Divine Ascension (715950) Depot"
+			"dlcappid"		"715950"
+			"manifests"
+			{
+				"public"		"13092185186497541"
+			}
+			"maxsize"		"4718214615"
+			"encryptedmanifests"
+			{
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"879496F84C5F9BAEA8A1737FF944570F"
+					"encrypted_size_2"		"D50107383E53C208CD44A964D5198967"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"BED113DFA80A41CC19A2346EBCE3ED42"
+					"encrypted_size_2"		"F460F55A7F0B1DCECC80EEE62B513125"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"2AF0F41C54E3D8ADF9A5E18A33E30407"
+					"encrypted_size_2"		"4D8E2A8FA912850100242CD345B16372"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"94F5057507139830A5AC874A2BFB41F6"
+					"encrypted_size_2"		"82ED64DCF645749405EBB59194ABC856"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"FB0A260668F068D2C870CDA22D0B84C1"
+					"encrypted_size_2"		"67BD7DE2F000F8132242021339823510"
+				}
+			}
+		}
+		"717550"
+		{
+			"name"		"Divinity Engine 2 Data (717550) Depot"
+			"dlcappid"		"717550"
+			"config"
+			{
+				"oslist"		"windows"
+				"optionaldlc"		"717550"
+			}
+			"manifests"
+			{
+				"public"		"2704260987765362886"
+			}
+			"maxsize"		"7509605750"
+			"encryptedmanifests"
+			{
+				"260619"
+				{
+					"encrypted_gid_2"		"BFC1EC203E9001A1D17248C3819C227A"
+					"encrypted_size_2"		"5EC5E9B1160F86DB4451F339F1F82713"
+				}
+				"3.0.141.716-release"
+				{
+					"encrypted_gid_2"		"8EB6AEC8A3517D0A9AFCC7CFD6146489"
+					"encrypted_size_2"		"00B1A0A1229CC5CEFA6BF5DAEE280CD7"
+				}
+				"3.0.143.148-patch2"
+				{
+					"encrypted_gid_2"		"FC4AE7601DE5C3D0EE691281F687FD4B"
+					"encrypted_size_2"		"CCE41ADFE60D7E703D2AA0335DC4BEDC"
+				}
+				"3.0.146.969_patch3"
+				{
+					"encrypted_gid_2"		"C6063B4A8A258412E8A4DA0EC59C57A2"
+					"encrypted_size_2"		"FD4E25A321AEC50DCA20038B9D76CCB8"
+				}
+				"3.0.150.188_patch4"
+				{
+					"encrypted_gid_2"		"815D7AF3BE37B86C79A534C8FB0F803E"
+					"encrypted_size_2"		"9A26B296EA07486F9B4DA794E62FF5AC"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"9154E0129CFCE1E4E0BE9F71E87B4FA3"
+					"encrypted_size_2"		"D21E5D60C98BA34C87EE852C214D6B09"
+				}
+				"dos2-test"
+				{
+					"encrypted_gid_2"		"4973C0621E5DB9BC2DD158F253C239D7"
+					"encrypted_size_2"		"7962CEB470BCA96B27A83F712FA3BAC5"
+				}
+				"gm-test"
+				{
+					"encrypted_gid_2"		"C65E3922478D4ACF426C96E9E1331FE0"
+					"encrypted_size_2"		"BBA4AB43E6AA9A5EB6F5009DF8A4A9A9"
+				}
+				"locabranch"
+				{
+					"encrypted_gid_2"		"051E5E83440FDDEE3149E0610F5E22F3"
+					"encrypted_size_2"		"CA0B9CE505BF97AAE67311CA4E572C3B"
+				}
+				"macversion"
+				{
+					"encrypted_gid_2"		"87C31BD7676F13B38D0677694D12BD9F"
+					"encrypted_size_2"		"413340A7EA2A4ABDF007911AB4C62542"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"80CD9307C96D86B4B818FACEE61BA657"
+					"encrypted_size_2"		"5EEADE311296C71AAE22E6DB41FDFA1C"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"1B57A54CE27EF21C2DDD32288FACFE2D"
+					"encrypted_size_2"		"900FA4102566E7FBE73FDD7500C0F2C0"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"94619219594D2E81632B755071B6AA56"
+					"encrypted_size_2"		"B22766676CF84BD560DD71A10F03747D"
+				}
+				"public_macbeta"
+				{
+					"encrypted_gid_2"		"96FCA41CCCA33CA6F857F9892EAB02E1"
+					"encrypted_size_2"		"FF8CBC6881B5EB88B66E8A922C3BB3D2"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"3C8419E640EAEB7DA7F6F18E5AA36041"
+					"encrypted_size_2"		"47BEC9960CCBC1E363F6153ECA492AE2"
+				}
+			}
+		}
+		"435157"
+		{
+			"name"		"Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8512792953585930507"
+			}
+			"maxsize"		"6729574"
+		}
+		"435158"
+		{
+			"name"		"Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6679982511610710072"
+			}
+			"maxsize"		"6348841"
+		}
+		"435159"
+		{
+			"name"		"Chinese"
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4582105655470292204"
+			}
+			"maxsize"		"67634799"
+		}
+		"880640"
+		{
+			"name"		"Divinity: Original Sin 2 - Companion: Sir Lora the Squirrel (880640) Depot"
+			"dlcappid"		"880640"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5028798400746426703"
+			}
+			"maxsize"		"142"
+		}
+		"435155"
+		{
+			"name"		"ChineseTrad"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7986547804666186874"
+			}
+			"maxsize"		"67634810"
+			"encryptedmanifests"
+			{
+				"ea_version_1"
+				{
+					"encrypted_gid_2"		"3E9DA22D4831192446E588514F895B0B"
+					"encrypted_size_2"		"62DB17DC3078D41E921A138CFCAAD53C"
+				}
+				"ea_version_2"
+				{
+					"encrypted_gid_2"		"38FD3F0E5B225CA32AEFE3377DA8D797"
+					"encrypted_size_2"		"1A33BC702592C064BC226C801064AD42"
+				}
+				"ea_version_3"
+				{
+					"encrypted_gid_2"		"AD1C9BC8BB351C587730F7D83EF15D3E"
+					"encrypted_size_2"		"1E86E0C523E5FF62224510726C3700B8"
+				}
+				"ea_version_4"
+				{
+					"encrypted_gid_2"		"796844107688D9652829DDEF6B4C9AC6"
+					"encrypted_size_2"		"49479BE95B9AF8F097ECEE17993E8981"
+				}
+				"ea_version_5"
+				{
+					"encrypted_gid_2"		"5F78BB9164A3EC1A3A3F82D02243EE8B"
+					"encrypted_size_2"		"546853879D1C5E644AA443E2A12FCDCA"
+				}
+				"ea_version_6"
+				{
+					"encrypted_gid_2"		"E4521B53CB40C12D56B4E097DA2E2044"
+					"encrypted_size_2"		"41461016654AF3DBD1BBE028BC0C03A6"
+				}
+			}
+		}
+		"715951"
+		{
+			"name"		"Divinity: Original Sin 2 OSX Base"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1138005293549136197"
+			}
+			"maxsize"		"20364325601"
+			"encryptedmanifests"
+			{
+				"260619"
+				{
+					"encrypted_gid_2"		"71FC4857F922255D025D350BDFFE92B4"
+					"encrypted_size_2"		"2EF3581F045620B9C1D54703C2D3FD33"
+				}
+				"dos2de_hotfix"
+				{
+					"encrypted_gid_2"		"66E7635377C5469CF5968C911DDDBF69"
+					"encrypted_size_2"		"BA1045B458643EA84085B477ACAE9AEB"
+				}
+				"macversion"
+				{
+					"encrypted_gid_2"		"A262CB9668BA86F3F97C09C86A6F0643"
+					"encrypted_size_2"		"759BBE4D1677EBA93663A9B551E9E3BB"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"B8E9575A609B85B06D031EC00811C009"
+					"encrypted_size_2"		"66BFB544BDCBC983607F261D6FBA64E5"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"305973D492DD8E44D0218C7498826512"
+					"encrypted_size_2"		"F8F98008E036DCD8B10BACBD5C897484"
+				}
+				"public_macbeta"
+				{
+					"encrypted_gid_2"		"895F2C8353C8698F9210774A05B84218"
+					"encrypted_size_2"		"6AC2772E460B19A2FF3B0C6AC93C504D"
+				}
+			}
+		}
+		"715952"
+		{
+			"name"		"OSX English"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"191086137175570855"
+			}
+			"maxsize"		"558"
+		}
+		"715953"
+		{
+			"name"		"OSX French"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"384327680541339692"
+			}
+			"maxsize"		"572"
+		}
+		"715954"
+		{
+			"name"		"OSX German"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"281910266379371786"
+			}
+			"maxsize"		"572"
+		}
+		"715955"
+		{
+			"name"		"OSX Russian"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"297051897148922143"
+			}
+			"maxsize"		"573"
+		}
+		"715956"
+		{
+			"name"		"OSX Polish"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"287289462677585446"
+			}
+			"maxsize"		"572"
+		}
+		"715957"
+		{
+			"name"		"OSX Spanish"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"128656930160567689"
+			}
+			"maxsize"		"573"
+		}
+		"715958"
+		{
+			"name"		"OSX Chinese"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"514406504296112177"
+			}
+			"maxsize"		"573"
+		}
+		"715959"
+		{
+			"name"		"OSX ChineseTrad"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"50363199820375883"
+			}
+			"maxsize"		"584"
+		}
+		"880641"
+		{
+			"name"		"Divinity: Original Sin 2 - Companion Sir Lora For Mac"
+			"dlcappid"		"880640"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1700988001881828326"
+			}
+			"maxsize"		"142"
+		}
+		"717551"
+		{
+			"name"		"Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"331726181868903248"
+			}
+			"maxsize"		"1151"
+			"encryptedmanifests"
+			{
+				"patch3"
+				{
+					"encrypted_gid_2"		"09601011375EE3811312D491F614ECE7"
+					"encrypted_size_2"		"530569EC2383DF0A195846932F95F156"
+				}
+			}
+		}
+		"717552"
+		{
+			"name"		"OSX Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6171371540709802965"
+			}
+			"maxsize"		"573"
+		}
+		"717553"
+		{
+			"name"		"Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"256771194908993499"
+			}
+			"maxsize"		"5909967"
+			"encryptedmanifests"
+			{
+				"locabranch"
+				{
+					"encrypted_gid_2"		"9CCFCEC6CB86BB8563A3B790196DEED8"
+					"encrypted_size_2"		"7128161ACAC8C02A1A0FE0E3FEF396C6"
+				}
+			}
+		}
+		"717554"
+		{
+			"name"		"OSX Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8112563861675773573"
+			}
+			"maxsize"		"572"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4166158"
+				"timeupdated"		"1567635152"
+			}
+			"260619"
+			{
+				"buildid"		"4007264"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562956770"
+			}
+			"3.0.141.716-release"
+			{
+				"buildid"		"2132834"
+				"description"		"DOS2 Release Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1505902424"
+			}
+			"3.0.143.148-patch2"
+			{
+				"buildid"		"2134494"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1506005122"
+			}
+			"3.0.146.969_patch3"
+			{
+				"buildid"		"2193286"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1509028320"
+			}
+			"3.0.150.188_patch4"
+			{
+				"buildid"		"2232430"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1509122501"
+			}
+			"beta"
+			{
+				"buildid"		"3089932"
+				"description"		"beta testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536048629"
+			}
+			"dos2-test"
+			{
+				"buildid"		"2633601"
+				"description"		"test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522063532"
+			}
+			"dos2de_hotfix"
+			{
+				"buildid"		"4139070"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566998972"
+			}
+			"ea_version_1"
+			{
+				"buildid"		"1339224"
+				"description"		"For saves with version 2.0.165.341"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476269409"
+			}
+			"ea_version_2"
+			{
+				"buildid"		"1401511"
+				"description"		"For saves with version 3.0.5.530"
+				"pwdrequired"		"1"
+				"timeupdated"		"1480513699"
+			}
+			"ea_version_3"
+			{
+				"buildid"		"1487305"
+				"description"		"For saves with version 3.0.15.252"
+				"pwdrequired"		"1"
+				"timeupdated"		"1486045224"
+			}
+			"ea_version_4"
+			{
+				"buildid"		"1617250"
+				"description"		"For saves with version 3.0.33.118"
+				"pwdrequired"		"1"
+				"timeupdated"		"1490703112"
+			}
+			"ea_version_5"
+			{
+				"buildid"		"1725406"
+				"description"		"For saves with version 3.0.52.425"
+				"pwdrequired"		"1"
+				"timeupdated"		"1495635082"
+			}
+			"ea_version_6"
+			{
+				"buildid"		"1843578"
+				"description"		"For saves with version 3.0.77.309"
+				"pwdrequired"		"1"
+				"timeupdated"		"1505399268"
+			}
+			"gm-test"
+			{
+				"buildid"		"3323102"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542721770"
+			}
+			"locabranch"
+			{
+				"buildid"		"3811956"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557494846"
+			}
+			"macversion"
+			{
+				"buildid"		"3721938"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554813336"
+			}
+			"patch2"
+			{
+				"buildid"		"3364228"
+				"description"		"patch2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543913729"
+			}
+			"patch3"
+			{
+				"buildid"		"3553647"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549971970"
+			}
+			"patch4"
+			{
+				"buildid"		"3624243"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551952949"
+			}
+			"patch5"
+			{
+				"buildid"		"4179343"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568036284"
+			}
+			"patch6"
+			{
+				"buildid"		"4178590"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568019272"
+			}
+			"public_macbeta"
+			{
+				"buildid"		"3543416"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549620085"
+			}
+			"stable"
+			{
+				"buildid"		"2360698"
+				"description"		"Designers builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1513079868"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

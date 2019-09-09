@@ -1,0 +1,906 @@
+"appinfo"
+{
+	"appid"		"548430"
+	"common"
+	{
+		"name"		"Deep Rock Galactic"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"c2b3d9b2a3df9bf3084c5363bb4412ecd3877f89"
+		"logo_small"		"c2b3d9b2a3df9bf3084c5363bb4412ecd3877f89_thumb"
+		"icon"		"e033e23c29a192a17c16a7645a2b423ac64ff447"
+		"clienttga"		"833fb04df6232f6ed6f36101f647bfc00178166f"
+		"clienticon"		"68a027efd8c7a79be74b4efd7b328b7e103e4708"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"swedish"		"1"
+			"turkish"		"1"
+			"ukrainian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"Deep Rock Galactic"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.360823889686046"
+				"height_pct"		"80.85098221588961"
+			}
+		}
+		"store_asset_mtime"		"1560333803"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ghost Ship Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Coffee Stain Publishing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1519804800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"548430"
+		"store_tags"
+		{
+			"0"		"1685"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"19"
+			"4"		"3834"
+			"5"		"3843"
+			"6"		"493"
+			"7"		"1662"
+			"8"		"3942"
+			"9"		"1774"
+			"10"		"3839"
+			"11"		"5125"
+			"12"		"4166"
+			"13"		"492"
+			"14"		"1755"
+			"15"		"6730"
+			"16"		"1695"
+			"17"		"4182"
+			"18"		"1667"
+			"19"		"4136"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ghost Ship Games"
+		"publisher"		"Coffee Stain Publishing"
+		"homepage"		"http://deeprockgalactic.com"
+		"listofdlc"		"801860,802640,1065500"
+	}
+	"config"
+	{
+		"installdir"		"Deep Rock Galactic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FSD.exe"
+				"arguments"		"-nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FSD.exe"
+				"arguments"		"-nohmd -dx12"
+				"description"		"with DX12"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"experimental"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"548431"
+		{
+			"name"		"Deep Rock Galactic Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6483606951563217757"
+				"experimental"		"4314084985620808903"
+			}
+			"maxsize"		"2224975338"
+			"encryptedmanifests"
+			{
+				"beta_translations"
+				{
+					"encrypted_gid_2"		"56922EEA166F0D5FC113A2D882631180"
+					"encrypted_size_2"		"1DA09EF0188B84701A267869977DE6BC"
+				}
+				"default_dev"
+				{
+					"encrypted_gid_2"		"020C6C8C471C7AAD93B529F438E7B636"
+					"encrypted_size_2"		"79B13B66EA809318D07D2FBB98888CF6"
+				}
+				"experimental_closed"
+				{
+					"encrypted_gid_2"		"2BDE1FA419A557D468437C030D2DFB80"
+					"encrypted_size_2"		"EC4D911D8FD84FA2FDBF6CF53C90D3BF"
+				}
+				"external_private"
+				{
+					"encrypted_gid_2"		"6334053DE9E6B09641C85F35ADA30760"
+					"encrypted_size_2"		"ACA672FCB78627A924BBCBE9377862DC"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"E1F3A64E77FBDA78B5B31A384117075C"
+					"encrypted_size_2"		"0AFE9C219FABA17C96A7DA48CBEAE26D"
+				}
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"A49B9947E0E42171474840242A3DDCED"
+					"encrypted_size_2"		"CCF1ABB67AF642968FB2BBC2173C9E75"
+				}
+				"mixer_test"
+				{
+					"encrypted_gid_2"		"7FDEBEB38645011E7FEC71B5CA20F190"
+					"encrypted_size_2"		"02840A54B1D8E9F42B2D67DD21CD7DD8"
+				}
+				"paxbranch"
+				{
+					"encrypted_gid_2"		"A6E5A70895EF62836B1C850E794CCF5A"
+					"encrypted_size_2"		"16D2F71E9CC97810D9E1FDA346B29ECF"
+				}
+				"pr_sessions"
+				{
+					"encrypted_gid_2"		"68522A22050B7A6FB7EFE2F50EB60284"
+					"encrypted_size_2"		"288956E034E5648E2FCC337A732014ED"
+				}
+				"quantic_lab_hw_test"
+				{
+					"encrypted_gid_2"		"E3073CEC70E10936A3455A01FB3FC5D9"
+					"encrypted_size_2"		"AEA8F3DAE09628E4181D48F15891BDDA"
+				}
+				"regulars_testing"
+				{
+					"encrypted_gid_2"		"DE2AA1AB7E52B2DF8DF4AFC37512E368"
+					"encrypted_size_2"		"54AB358D459F0AE2F16CB137C714EB62"
+				}
+				"update_23"
+				{
+					"encrypted_gid_2"		"F58C03868768403EC7B99BBCECA4C270"
+					"encrypted_size_2"		"8B4AF655292AD12AB57AC098B275264F"
+				}
+				"update_3"
+				{
+					"encrypted_gid_2"		"1B5F2AB57940789A574E1A01A5C10F1D"
+					"encrypted_size_2"		"EA8EEADA0B5139AB02A5478469C38107"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3948320"
+				"timeupdated"		"1561382169"
+			}
+			"beta_translations"
+			{
+				"buildid"		"2606627"
+				"description"		"external access - non public"
+				"pwdrequired"		"1"
+				"timeupdated"		"1521124550"
+			}
+			"default_dev"
+			{
+				"buildid"		"2917444"
+				"description"		"Default branch Dev build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530689568"
+			}
+			"experimental"
+			{
+				"buildid"		"3822579"
+				"description"		"Latest dev build - enter at own risk"
+				"timeupdated"		"1557847825"
+			}
+			"experimental_closed"
+			{
+				"buildid"		"4179306"
+				"description"		"Experimental - Testers Only"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568035778"
+			}
+			"external_nonpublic"
+			{
+				"buildid"		"3948320"
+				"description"		"External access - non public!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567686731"
+			}
+			"external_private"
+			{
+				"buildid"		"3491820"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548184547"
+			}
+			"gamescom"
+			{
+				"buildid"		"4112340"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566202765"
+			}
+			"internal_testing"
+			{
+				"buildid"		"4179306"
+				"description"		"Internal Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568035628"
+			}
+			"mixer_test"
+			{
+				"buildid"		"2510224"
+				"description"		"testing mixer"
+				"pwdrequired"		"1"
+				"timeupdated"		"1518132285"
+			}
+			"paxbranch"
+			{
+				"buildid"		"1673228"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1488825307"
+			}
+			"pr_sessions"
+			{
+				"buildid"		"2491869"
+				"description"		"dev build for us/uk tour"
+				"pwdrequired"		"1"
+				"timeupdated"		"1517575055"
+			}
+			"quantic_lab_hw_test"
+			{
+				"buildid"		"2457538"
+				"description"		"External access - non public!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516628705"
+			}
+			"regulars_testing"
+			{
+				"buildid"		"2681898"
+				"description"		"Test branch for Regulars"
+				"pwdrequired"		"1"
+				"timeupdated"		"1523603060"
+			}
+			"update_23"
+			{
+				"buildid"		"3687614"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558344654"
+			}
+			"update_3"
+			{
+				"buildid"		"1741562"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1497602201"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"FSD/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Loading..."
+					"#status_spacerig"		"Space Rig"
+					"#status_0"		"Crystalline Caves"
+					"#status_1"		"Fungus Bogus"
+					"#status_2"		"Glacial Strata"
+					"#status_3"		"Dense Biozone"
+					"#status_4"		"Magma Core"
+					"#status_5"		"Radioactive Zone"
+					"#status_6"		"Salt Pits"
+					"#status_7"		"Sandblasted Corridors"
+					"#class_driller"		"Driller"
+					"#class_gunner"		"Gunner"
+					"#class_scout"		"Scout"
+					"#class_engineer"		"Engineer"
+					"#mission_0"		"Mining Expedition"
+					"#mission_1"		"Egg Hunt"
+					"#mission_2"		"Egg Hunt"
+					"#mission_3"		"Elimination"
+					"#mission_4"		"Point Extraction"
+					"#mission_5"		"Salvage"
+				}
+			}
+			"tchinese"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"正在載入…"
+					"#status_spacerig"		"太空站"
+					"#status_0"		"水晶礦坑"
+					"#status_1"		"毒菌沼地"
+					"#status_2"		"凜冽冰川"
+					"#status_3"		"黯澹樹海"
+					"#status_4"		"熔火地核"
+					"#status_5"		"輻射禁地"
+					"#status_6"		"鹽晶峭壁"
+					"#status_7"		"沙瀑迴廊"
+					"#class_driller"		"鑽頭工"
+					"#class_gunner"		"機槍手"
+					"#class_scout"		"偵察兵"
+					"#class_engineer"		"工程師"
+					"#mission_0"		"採礦考察"
+					"#mission_1"		"蟲卵採集"
+					"#mission_2"		"蟲卵採集"
+					"#mission_3"		"蟲群勦滅"
+					"#mission_4"		"定點採集"
+					"#mission_5"		"搜救行動"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Chargement..."
+					"#status_spacerig"		"Station spatiale"
+					"#status_0"		"Cavernes cristallines"
+					"#status_1"		"Tourbière aux Champignons"
+					"#status_2"		"Couches glaciaires"
+					"#status_3"		"Biozone dense"
+					"#status_4"		"Cœur de magma"
+					"#status_5"		"Zone Radioactive"
+					"#status_6"		"Puits de sel"
+					"#status_7"		"Couloir Ensablés"
+					"#class_driller"		"Foreur"
+					"#class_gunner"		"Artilleur"
+					"#class_scout"		"Éclaireur"
+					"#class_engineer"		"Ingénieur"
+					"#mission_0"		"Expédition minière"
+					"#mission_1"		"Chasse aux œufs"
+					"#mission_2"		"Chasse aux œufs"
+					"#mission_3"		"Élimination"
+					"#mission_4"		"Point d'extraction"
+					"#mission_5"		"Sauvetage"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Laden..."
+					"#status_spacerig"		"Raumstation"
+					"#status_0"		"Kristallene Höhlen"
+					"#status_1"		"Pilz-Bogos"
+					"#status_2"		"Gletscherschicht"
+					"#status_3"		"verwachsene Zone"
+					"#status_4"		"Magmakern"
+					"#status_5"		"Radioaktive Zone"
+					"#status_6"		"Salzgruben"
+					"#status_7"		"Sandgestrahlte Korridore"
+					"#class_driller"		"Bohrer"
+					"#class_gunner"		"Schütze"
+					"#class_scout"		"Späher"
+					"#class_engineer"		"Ingenieur"
+					"#mission_0"		"Bergbau-Expedition"
+					"#mission_1"		"Eiersuche"
+					"#mission_2"		"Eiersuche"
+					"#mission_3"		"Elimination"
+					"#mission_4"		"Punktextraktion"
+					"#mission_5"		"Bergung"
+				}
+			}
+			"italian"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Caricamento..."
+					"#status_spacerig"		"Stazione Spaziale"
+					"#status_0"		"Caverne Cristalline"
+					"#status_1"		"Pantano Fungino"
+					"#status_2"		"Strati Ghiacciati"
+					"#status_3"		"Biozona Densa"
+					"#status_4"		"Nucleo Magmatico"
+					"#status_5"		"Zona Radioattiva"
+					"#status_6"		"Fosse di Sale"
+					"#status_7"		"Corridoi Sabbiati"
+					"#class_driller"		"Trivellatore"
+					"#class_gunner"		"Artigliere"
+					"#class_scout"		"Esploratore"
+					"#class_engineer"		"Ingegnere"
+					"#mission_0"		"Spedizione Mineraria"
+					"#mission_1"		"Caccia alle Uova"
+					"#mission_2"		"Caccia alle Uova"
+					"#mission_3"		"Eliminazione"
+					"#mission_4"		"Estrazione su Punto"
+					"#mission_5"		"Salvataggio"
+				}
+			}
+			"japanese"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"読み込み中…"
+					"#status_spacerig"		"スペースリグ"
+					"#status_0"		"クリスタルの洞窟"
+					"#status_1"		"真菌の沼地"
+					"#status_2"		"極寒の地層"
+					"#status_3"		"密集バイオゾーン"
+					"#status_4"		"マグマ コア"
+					"#status_5"		"放射性エリア"
+					"#status_6"		"塩の坑道"
+					"#status_7"		"サンドブラストの回廊"
+					"#class_driller"		"ドリラー"
+					"#class_gunner"		"ガンナー"
+					"#class_scout"		"スカウト"
+					"#class_engineer"		"エンジニア"
+					"#mission_0"		"採掘遠征"
+					"#mission_1"		"卵狩り"
+					"#mission_2"		"卵狩り"
+					"#mission_3"		"殲滅"
+					"#mission_4"		"地点採掘"
+					"#mission_5"		"回収"
+				}
+			}
+			"polish"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Wczytywanie..."
+					"#status_spacerig"		"Stacja kosmiczna"
+					"#status_0"		"Krystaliczne Groty"
+					"#status_1"		"Grzybowe Torfowiska"
+					"#status_2"		"Warstwa Lodowcowa"
+					"#status_3"		"Gęsta Biostrefa"
+					"#status_4"		"Jądro Magmowe"
+					"#status_5"		"Strefa Radioaktywna"
+					"#status_6"		"Groty Solne"
+					"#status_7"		"Zapiaszczone Korytarze"
+					"#class_driller"		"Kopacz"
+					"#class_gunner"		"Strzelec"
+					"#class_scout"		"Zwiadowca"
+					"#class_engineer"		"Inżynier"
+					"#mission_0"		"Ekspedycja górnicza"
+					"#mission_1"		"Polowanie na jaja"
+					"#mission_2"		"Polowanie na jaja"
+					"#mission_3"		"Eliminacja"
+					"#mission_4"		"Ekstrakcja"
+					"#mission_5"		"Odzysk"
+				}
+			}
+			"russian"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Загрузка..."
+					"#status_spacerig"		"Буровая станция"
+					"#status_0"		"Кристаллические пещеры"
+					"#status_1"		"Грибные топи"
+					"#status_2"		"Ледяные наслоения"
+					"#status_3"		"Биозона зарослей"
+					"#status_4"		"Магматическое ядро"
+					"#status_5"		"Радиоактивная зона"
+					"#status_6"		"Соляные ямы"
+					"#status_7"		"Пескоструйные коридоры"
+					"#class_driller"		"Бурильщик"
+					"#class_gunner"		"Стрелок"
+					"#class_scout"		"Разведчик"
+					"#class_engineer"		"Инженер"
+					"#mission_0"		"Шахтерская экспедиция"
+					"#mission_1"		"Охота за яйцами"
+					"#mission_2"		"Охота за яйцами"
+					"#mission_3"		"Уничтожение"
+					"#mission_4"		"Вывоз материалов"
+					"#mission_5"		"Спасение"
+				}
+			}
+			"spanish"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Cargando..."
+					"#status_spacerig"		"Plataforma Espacial"
+					"#status_0"		"Cuevas Cristalinas"
+					"#status_1"		"Ciénaga Hongosa"
+					"#status_2"		"Estratos Glaciales"
+					"#status_3"		"Biozona Densa"
+					"#status_4"		"Núcleo de Magma"
+					"#status_5"		"Zona Radioactiva"
+					"#status_6"		"Pozos de Sal"
+					"#status_7"		"Pasillos Erosionados"
+					"#class_driller"		"Perforador"
+					"#class_gunner"		"Artillero"
+					"#class_scout"		"Explorador"
+					"#class_engineer"		"Ingeniero"
+					"#mission_0"		"Expedición de Minería"
+					"#mission_1"		"Búsqueda de Huevos"
+					"#mission_2"		"Búsqueda de Huevos"
+					"#mission_3"		"Eliminación"
+					"#mission_4"		"Punto de Extracción"
+					"#mission_5"		"Salvamento"
+				}
+			}
+			"latam"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Cargando..."
+					"#status_spacerig"		"Plataforma Espacial"
+					"#status_0"		"Cuevas Cristalinas"
+					"#status_1"		"Ciénaga Hongosa"
+					"#status_2"		"Estratos Glaciales"
+					"#status_3"		"Biozona Densa"
+					"#status_4"		"Núcleo de Magma"
+					"#status_5"		"Zona Radioactiva"
+					"#status_6"		"Pozos de Sal"
+					"#status_7"		"Pasillos Erosionados"
+					"#class_driller"		"Perforador"
+					"#class_gunner"		"Artillero"
+					"#class_scout"		"Explorador"
+					"#class_engineer"		"Ingeniero"
+					"#mission_0"		"Expedición de Minería"
+					"#mission_1"		"Búsqueda de Huevos"
+					"#mission_2"		"Búsqueda de Huevos"
+					"#mission_3"		"Eliminación"
+					"#mission_4"		"Punto de Extracción"
+					"#mission_5"		"Salvamento"
+				}
+			}
+			"swedish"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Laddar..."
+					"#status_spacerig"		"Rymd Rigg"
+					"#status_0"		"Kristallina Grottor"
+					"#status_1"		"Falsk Svamp"
+					"#status_2"		"Iskallt Skikt"
+					"#status_3"		"Tät Biozon"
+					"#status_4"		"Magmakärna"
+					"#status_5"		"Radioaktiv Zon"
+					"#status_6"		"Salta Gropar"
+					"#status_7"		"Sandsprängda Korridorer"
+					"#class_driller"		"Grävare"
+					"#class_gunner"		"Väpnare"
+					"#class_scout"		"Scout"
+					"#class_engineer"		"Ingenjör"
+					"#mission_0"		"Gruvexpedition"
+					"#mission_1"		"Ägg Jakt"
+					"#mission_2"		"Äggjakt"
+					"#mission_3"		"Eleminering"
+					"#mission_4"		"Upphämtningspunkt"
+					"#mission_5"		"Bärga"
+				}
+			}
+			"turkish"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Yükleniyor..."
+					"#status_spacerig"		"Uzay İstasyonu"
+					"#status_0"		"Kristalleşmiş Mağaralar"
+					"#status_1"		"Küf Bataklıkları"
+					"#status_2"		"Buzul Tabakası"
+					"#status_3"		"Yoğun Biyobölge"
+					"#status_4"		"Magma Çekirdeği"
+					"#status_5"		"Radyoaktif Bölge"
+					"#status_6"		"Tuz Çukurları"
+					"#status_7"		"Taşlanmış Koridorlar"
+					"#class_driller"		"Delici"
+					"#class_gunner"		"Topçu"
+					"#class_scout"		"Gözcü"
+					"#class_engineer"		"Mühendis"
+					"#mission_0"		"Kazı Seferi"
+					"#mission_1"		"Yumurta Avı"
+					"#mission_2"		"Yumurta Avı"
+					"#mission_3"		"İmha Görevi"
+					"#mission_4"		"Çıkarma Harekatı"
+					"#mission_5"		"Kurtarma Operasyonu"
+				}
+			}
+			"ukrainian"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"Завантаження…"
+					"#status_spacerig"		"Космічна станція"
+					"#status_0"		"Кристалічні печери"
+					"#status_1"		"Грибні болота"
+					"#status_2"		"Крижані простори"
+					"#status_3"		"Щільна біозона"
+					"#status_4"		"Магматичне ядро"
+					"#status_5"		"Радіоактивна зона"
+					"#status_6"		"Соляні ями"
+					"#status_7"		"Піскоструйні коридори"
+					"#class_driller"		"Бурильник"
+					"#class_gunner"		"Кулеметник"
+					"#class_scout"		"Розвідник"
+					"#class_engineer"		"Інженер"
+					"#mission_0"		"Гірнича експедиція"
+					"#mission_1"		"Полювання на яйця"
+					"#mission_2"		"Полювання на яйця"
+					"#mission_3"		"Ліквідація"
+					"#mission_4"		"Видобуток в зоні"
+					"#mission_5"		"Порятунок"
+				}
+			}
+			"koreana"
+			{
+				"tokens"
+				{
+					"#status"		"{#Status_%gamestatus%}"
+					"#statuswithmission"		"(%steam_player_group_size%/4) %haz% | {#Mission_%mission%} | {#Status_%gamestatus%} | {#Class_%class%}"
+					"#statuswithoutmission"		"(%steam_player_group_size%/4) {#Class_%class%} | {#Status_%gamestatus%}"
+					"#status_loading"		"로딩 중..."
+					"#status_spacerig"		"우주 정거장"
+					"#status_0"		"크리스탈라인 동굴"
+					"#status_1"		"곰팡이 습지"
+					"#status_2"		"빙하 지층"
+					"#status_3"		"고밀도 생태지역"
+					"#status_4"		"마그마의 중심"
+					"#status_5"		"방사능 지역"
+					"#status_6"		"소금 구덩이"
+					"#status_7"		"사막화 지대"
+					"#class_driller"		"드릴러"
+					"#class_gunner"		"거너"
+					"#class_scout"		"스카웃"
+					"#class_engineer"		"엔지니어"
+					"#mission_0"		"채굴 원정"
+					"#mission_1"		"알 추적"
+					"#mission_2"		"알 추적"
+					"#mission_3"		"섬멸"
+					"#mission_4"		"채굴 지점"
+					"#mission_5"		"구조"
+				}
+			}
+		}
+	}
+}
+ 

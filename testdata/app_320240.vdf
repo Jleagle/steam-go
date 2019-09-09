@@ -1,0 +1,1225 @@
+"appinfo"
+{
+	"appid"		"320240"
+	"common"
+	{
+		"name"		"We Happy Few"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"473ceecdc886f695cae0d1e73fbab7e69b605d60"
+		"logo_small"		"473ceecdc886f695cae0d1e73fbab7e69b605d60_thumb"
+		"icon"		"1b2b2b9f9c1b5bd690530b8cc7ffc0931b475725"
+		"clienticon"		"8e92b27e0a0f2f8a69cdb1da04cdb15bff308354"
+		"clienttga"		"c29613b3b664ae20f1e9805bf517182b8408a0eb"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"320240_eula_0"
+				"name"		"We Happy Few EULA"
+				"url"		"http://store.steampowered.com//eula/320240_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"We Happy Few"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59.91831971995332"
+				"height_pct"		"80.0166231298979"
+			}
+		}
+		"store_asset_mtime"		"1567785008"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Compulsion Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gearbox Publishing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1533916740"
+		"metacritic_score"		"62"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/we-happy-few?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"320240"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"1662"
+			"2"		"1721"
+			"3"		"5030"
+			"4"		"3839"
+			"5"		"1667"
+			"6"		"21"
+			"7"		"4166"
+			"8"		"4182"
+			"9"		"19"
+			"10"		"1687"
+			"11"		"3834"
+			"12"		"492"
+			"13"		"4342"
+			"14"		"1702"
+			"15"		"3978"
+			"16"		"493"
+			"17"		"5125"
+			"18"		"5611"
+			"19"		"1716"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Compulsion Games"
+		"publisher"		"Gearbox Publishing"
+		"homepage"		"http://wehappyfewgame.com"
+		"listofdlc"		"742570,743020,743540,826260,919000,974570,974580,1024770"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WeHappyFew"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GlimpseGame/Binaries/Win64/GlimpseGame.exe"
+				"arguments"		"-installed"
+				"description"		"Launch"
+				"workingdir"		"GlimpseGame/Binaries/Win64"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"GlimpseGame.sh"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"320240"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"320241"
+		{
+			"name"		"Glimpse Content [Windows]"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2754965790392813429"
+				"clockwork"		"4516757006775521322"
+				"earlyaccesslaunch"		"2469670269293628690"
+				"maidenholm"		"2948392205070283698"
+				"technicolour"		"3325696528240515723"
+			}
+			"maxsize"		"11667164893"
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"BEAB2C2FD4A0E47F525E5D3932A08F01"
+					"encrypted_size_2"		"7A5ED672985B3338D3641E538E293CED"
+				}
+				"aareview"
+				{
+					"encrypted_gid_2"		"0E5927DE175DC2FE0BCB332FD4963A79"
+					"encrypted_size_2"		"F89270F11C45DAC9AE8AE02D045206A4"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"60A43E37EB5D2D7145A0EA75EB1EE9AC"
+					"encrypted_size_2"		"BD53039A0B978445CC21D0F5695DE871"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"9A29C39916DB6A155DAD91B1E0061778"
+					"encrypted_size_2"		"FED18E6D01721AAFCB9B40E63BAE6D89"
+				}
+				"buildreview"
+				{
+					"encrypted_gid_2"		"B77437D3461205FD49A1FEC66C849058"
+					"encrypted_size_2"		"8BDF5167CF90286ECF67A0690CA0DE7B"
+				}
+				"cmf"
+				{
+					"encrypted_gid_2"		"4B43BF2019B5CBBB4906E8946036CF75"
+					"encrypted_size_2"		"CDE584B885007BA98C2C3EEECDD10F35"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"38CE7B525F9533B414677DEC93E54F8D"
+					"encrypted_size_2"		"4DEADA8F42C2208587F88DF169C357A3"
+				}
+				"media"
+				{
+					"encrypted_gid_2"		"4BC74B470EDE59FB837B0C6A373A3C90"
+					"encrypted_size_2"		"57AB406420E4DAB22BBC8F1C7C4D6C6C"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"97BE4C782994B376A0DDDA491A2FF091"
+					"encrypted_size_2"		"18498779026133EB713B076568331CEE"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"71F394F19C477A6E66CB8BB4B5CC58ED"
+					"encrypted_size_2"		"388F77A124810F71D6181A182EFE2E2A"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"D17EE165F7E1D2822EBCF0DC8BD3E24F"
+					"encrypted_size_2"		"EE1900932D2F67F7206B2FF2B183604B"
+				}
+				"playtesting2"
+				{
+					"encrypted_gid_2"		"C2F127517B29629EF1E3FDD8C03A3526"
+					"encrypted_size_2"		"3CD0D2A6C5436AC0668C91A9AB850CD6"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"B4607F32B03B59D765AF9C0E99EA65BD"
+					"encrypted_size_2"		"0D273B5BF74BC696694A2F6A360E9D4C"
+				}
+				"pubstable"
+				{
+					"encrypted_gid_2"		"D7F3BF7BB0EEE1238BE8DF2570C52DA2"
+					"encrypted_size_2"		"69F40EC592A3B12006C33E77A1506CDA"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"FDAF4A684BC8568038A22863327DB54C"
+					"encrypted_size_2"		"86924B60148462AA3B950C7C4F492B06"
+				}
+				"retail"
+				{
+					"encrypted_gid_2"		"1AEB44D4CDE65371690B322D4533B636"
+					"encrypted_size_2"		"03477B29802090D0DBB94BE701545BBE"
+				}
+				"spike"
+				{
+					"encrypted_gid_2"		"FE6EA5FF3329F651EED4B1552516D8B1"
+					"encrypted_size_2"		"0BEC497CE194262CB766D8C1FFF70DE7"
+				}
+				"techreview"
+				{
+					"encrypted_gid_2"		"29AE16CDF57344D53E2CD54581F233CE"
+					"encrypted_size_2"		"F1C5D79987E71AD012E948367125A5BC"
+				}
+			}
+		}
+		"320242"
+		{
+			"name"		"Glimpse Story Content [Windows]"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"214530122609818817"
+				"clockwork"		"616257343720257290"
+				"earlyaccesslaunch"		"1408116839526491249"
+				"maidenholm"		"616257343720257290"
+				"technicolour"		"616257343720257290"
+			}
+			"maxsize"		"9364479793"
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"C4DDD5808274336B8F0166BEBF8DBAD5"
+					"encrypted_size_2"		"71A5D84FE4E3D78D852280611A5C7DEF"
+				}
+				"aareview"
+				{
+					"encrypted_gid_2"		"7CB78E21EB937D1BDB027925FF3DE267"
+					"encrypted_size_2"		"C6F9C6519EB8E2D2F885A0EFD4A04D33"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"B7E07561AC0E32AE6A1879543FB224B0"
+					"encrypted_size_2"		"16777ED7D58F36694BB0FB0AD0DB8AD7"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"04F5FC5345B78B0AB2479BE8965847EE"
+					"encrypted_size_2"		"568C6A4FA5103FD06E8A136BF6DB0088"
+				}
+				"buildreview"
+				{
+					"encrypted_gid_2"		"3F4D1607A966F9F00DDA0A83CEA9664F"
+					"encrypted_size_2"		"3B439FF94247136996E6023B1BF12F89"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"7132083009360B7B2260F218E816CE9D"
+					"encrypted_size_2"		"B608BD8BDDD4D671F3B6565415064985"
+				}
+				"media"
+				{
+					"encrypted_gid_2"		"60B90C19682753C015655A1A444B81CB"
+					"encrypted_size_2"		"69174C9E0143C1BF6828D46FFF3C9239"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"3E3F526B171EF4BB5DC0E3667CC10E17"
+					"encrypted_size_2"		"43228B4B11FB4BC5D9CD8CC59F47681C"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"8F2FAD21CD891E4B2B2377E6E7C606D1"
+					"encrypted_size_2"		"0FDA961E118057693E08306241AA2FEA"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"466F5C7CB75EBE3EE1B3B3B364113211"
+					"encrypted_size_2"		"26C640849EF5A1403FDDA85676445AAB"
+				}
+				"playtesting2"
+				{
+					"encrypted_gid_2"		"CF7B0758BE1C8023BFC8CD37E9D6E28B"
+					"encrypted_size_2"		"807467C7B00FEF20CEBC3683D023C3E2"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"0FA42DA228C5285CB9084F71C7151989"
+					"encrypted_size_2"		"500ED730768D2703651A10C2FEA007BC"
+				}
+				"pubstable"
+				{
+					"encrypted_gid_2"		"E2FDD1F873A5E4269630319F16ECB9BC"
+					"encrypted_size_2"		"0B6D0EC91A840E3C2A1EBFD6023A4E05"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"0ABF821C4BE6DAFE52247C951C4F57FC"
+					"encrypted_size_2"		"5FB1ECA7EBB9A2DE35760D66AA4588BF"
+				}
+				"retail"
+				{
+					"encrypted_gid_2"		"628639EDCB04567E2D49262A0968EB7C"
+					"encrypted_size_2"		"4808A7E8C7CE1BCBBA68B133868D9E10"
+				}
+				"spike"
+				{
+					"encrypted_gid_2"		"B3479471773540A9EFC08D74C161044E"
+					"encrypted_size_2"		"FD05994C376306CB1CE024A6406AA9EF"
+				}
+				"techreview"
+				{
+					"encrypted_gid_2"		"A47323DABB526A50AA12756764945910"
+					"encrypted_size_2"		"54D758178F632152BC6020F564B21D65"
+				}
+			}
+		}
+		"742570"
+		{
+			"name"		"We Happy Few - Soundtrack (742570) Depot"
+			"dlcappid"		"742570"
+		}
+		"743540"
+		{
+			"name"		"We Happy Few - Time Capsule (743540) Depot"
+			"dlcappid"		"743540"
+		}
+		"826260"
+		{
+			"name"		"We Happy Few - Jolly Brolly (826260) Depot [Windows]"
+			"dlcappid"		"826260"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8273853679665060326"
+			}
+			"maxsize"		"34930"
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"A0AD41325ABCC8A0B5C8BEB1952DE877"
+					"encrypted_size_2"		"331B6FAFE32B781EBCE2D2716C29CCF5"
+				}
+				"aareview"
+				{
+					"encrypted_gid_2"		"5516A4547C0CAC29F2DCC4F4B95C9782"
+					"encrypted_size_2"		"481DAD0616011A538878C12D1E215092"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"45928C883F71B0B7FDEF421520DEAD94"
+					"encrypted_size_2"		"051B689E9147B82E3BDA5B1CAF9A0741"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"CD5E926E58F74948F7C3DAD7AB30A344"
+					"encrypted_size_2"		"A1B98ABD31BFE19396067E7FF8C15A61"
+				}
+				"buildreview"
+				{
+					"encrypted_gid_2"		"FF68C6858B1F70906D1E5E1DC02C8A71"
+					"encrypted_size_2"		"A40D5507BA78A4CF844303EED68F8F6C"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"60C5CA38B7B9CCB4A970B1506B266E17"
+					"encrypted_size_2"		"D1347F1353C3983550C8AECE31900A56"
+				}
+				"media"
+				{
+					"encrypted_gid_2"		"C857367C8B2E948FB7DE92D2D787D5EF"
+					"encrypted_size_2"		"23C4B477E0C7B89DDDA17EF6F9039F96"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"10C9C0401F4041A4212F09512A37F061"
+					"encrypted_size_2"		"4E6AA4816C402103C7CF0ABDDE5CEC50"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"3778E05D61453734BC8F8707AFE8BDC3"
+					"encrypted_size_2"		"9D68435DEF2FE8EB26EF8C898697F5F4"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"C62859038AE823EB0758EBF0DC92A140"
+					"encrypted_size_2"		"A4E76D048F7EE727DB7A4315DEEC20AC"
+				}
+				"playtesting2"
+				{
+					"encrypted_gid_2"		"111F36019178CD4927054B8BC59083D9"
+					"encrypted_size_2"		"605B1465B53031ACB2476DE547FE2556"
+				}
+				"retail"
+				{
+					"encrypted_gid_2"		"E1DF26095FB405B97CC6DD6012846B07"
+					"encrypted_size_2"		"4025216C0CB0FFE1B083D4A7FCFFEE95"
+				}
+				"techreview"
+				{
+					"encrypted_gid_2"		"38173F8523C9317FB39C4A628ED5DF30"
+					"encrypted_size_2"		"D9D0F89511CBE3023498D9B57859ECDA"
+				}
+			}
+		}
+		"974570"
+		{
+			"name"		"We Happy Few - House Boys (974570) Depot [Windows]"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"974570"
+			"manifests"
+			{
+				"public"		"1654511947045243508"
+			}
+			"maxsize"		"345839673"
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"B546D79A27C1FEB5CE8CDACB8ED8CFE5"
+					"encrypted_size_2"		"52D5C85E4F745546022E51C7C8B5804B"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"D2B6BFA8D719E86BD2D1CDFF0353D5CD"
+					"encrypted_size_2"		"00B04C3FA776E9F520A30FFEF0B52CB9"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"61B557F5DBB0EFC3E9E20E1E32283655"
+					"encrypted_size_2"		"4250F055735C8CBF04165FBA8E5230FB"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"37538EC3AFF70A479E106C9F796031FB"
+					"encrypted_size_2"		"3418D1D3F6F24C02E22E3E3475B671F6"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"898E0EB4C23D2EB97F3BE7B1735C0660"
+					"encrypted_size_2"		"02B234570AF643EBA664A11DAC79C02B"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"1529DAC296172C9826500E0846BD6C08"
+					"encrypted_size_2"		"90FFB7AB6AC90BC7D2917862C11616C2"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"4C2794C9D3B29E5AF86A77E03C079180"
+					"encrypted_size_2"		"134D1453AC35D6E336A556ED6A073666"
+				}
+			}
+		}
+		"974580"
+		{
+			"name"		"We Happy Few - Nick Lightbearer (974580) Depot [Windows]"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"974580"
+			"manifests"
+			{
+				"public"		"4194493290695581450"
+			}
+			"maxsize"		"582255357"
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"28879AFF4C62F0C8A720574D39676E44"
+					"encrypted_size_2"		"865CC7F874C4324B3FCE5DD920916677"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"DA9CCCDFC1157F87BAC519C0D8C10F09"
+					"encrypted_size_2"		"865C10D28B30D71EB22F5FAA768CF699"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"5010EE25BC0E42D4DE04CE70F187D5E7"
+					"encrypted_size_2"		"C0D6D9C92F9619EF09FF0575842D360D"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"416C9C85D8D11A232B325AC714EC295E"
+					"encrypted_size_2"		"140FF3BE0840B7C46E84D236AB9D738E"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"91B4C47ED2925623726D1B9B05C08910"
+					"encrypted_size_2"		"449AFAA3782F42E5A45A0935DC599701"
+				}
+			}
+		}
+		"1024770"
+		{
+			"name"		"We Happy Few - Victoria (1024770) Depot [Windows]"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"1024770"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"B23661E288B8D33F4042943185C16C49"
+					"encrypted_size_2"		"4408207EB1D95F4EFF0937AC93B7EEF3"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"BA09FEA60784FCA7466D99B7D026AD23"
+					"encrypted_size_2"		"1312210B1BAE80F98F4167C11DDAA9D4"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"F0B8829C8E0E0094B388503E3992AF90"
+					"encrypted_size_2"		"5BE8D67E9E738B245F59072B137F46C6"
+				}
+				"platform"
+				{
+					"encrypted_gid_2"		"0647AC8B01078F059A41F18E09CF8BE4"
+					"encrypted_size_2"		"3B1F1C3CB9828BC940BE74263DA6A08F"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"A857B5F70D8F51C03DD93C457844E076"
+					"encrypted_size_2"		"1B71C539AC96253B2343131AD0376CB4"
+				}
+			}
+		}
+		"320243"
+		{
+			"name"		"Glimpse Content [Linux]"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"F2A37BDA01D03C046625D1E887681571"
+					"encrypted_size_2"		"28133D60170F1E760D80561CE1C46D67"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"986E4795D631B0087A231072EE399B2E"
+					"encrypted_size_2"		"410789D1944AB0A4DCAC27E81C782CCA"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"5125BFDAF32D20634DAB43D6B05C543A"
+					"encrypted_size_2"		"31CB2AB80EB514C9B82B171F20B481CA"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"92E78F39069DBC6B5439E097E21F7802"
+					"encrypted_size_2"		"0D9A0A6E586DE0A4E29BA1C31B873FF0"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7578E0D8F1E9E0B2707CE09854C35E88"
+					"encrypted_size_2"		"5AFE2BA4D87576FF1589DDAF6631D9CA"
+				}
+			}
+		}
+		"320244"
+		{
+			"name"		"Glimpse Story Content [Linux]"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"7E462B099DB6ECA67B273FE134DA411A"
+					"encrypted_size_2"		"8EC14DF33F60D0AAECBD999EA87998CA"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"B9A092C2E2A6C77F4F4D1E1DFB5C6C57"
+					"encrypted_size_2"		"0BD10ECDCF3CDE808E1ACF1CD2BFB9B5"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"B76C110CD6493177D7A006023B225EA6"
+					"encrypted_size_2"		"2FC2C23800F75A5DFAF7AAB98514FD4C"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"DC6E3CB2057AE42BC478647C787D786C"
+					"encrypted_size_2"		"7D1FAFF6BC4EE6515B49BA4EAFFCD14D"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"D7012D98398D03272A745B032EF9DDCA"
+					"encrypted_size_2"		"CC670A1EA599C720F8149C845E0EB225"
+				}
+			}
+		}
+		"743541"
+		{
+			"name"		"We Happy Few - Jolly Brolly [Linux]"
+			"dlcappid"		"826260"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"81C76D62FDD3DD268BB4B2634404DCA4"
+					"encrypted_size_2"		"FF43E2C10A847DC9AB08C916274AE18C"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"ACB0D6CA9933BB95E2B268B5C40E65AA"
+					"encrypted_size_2"		"D825138CF82F0182BC4B6E3F8BABAE39"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"7C7778B1560F0EF383AF0B40EE039BB6"
+					"encrypted_size_2"		"41D2403B89FE9CA27B6FAB34B5B6342F"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"8F1436594269D91BC5883DA5C2A16B9C"
+					"encrypted_size_2"		"F81475CD35FD20B31A3979C99E5F2A40"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"02CF0B2680BAF2DC6850B60403C3B011"
+					"encrypted_size_2"		"1DF1391DC8E5B70174E0F120E258B42F"
+				}
+			}
+		}
+		"974571"
+		{
+			"name"		"We Happy Few - House Boys [Linux]"
+			"dlcappid"		"974570"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"393F31599CF258D962B0BB7F4B12D5F1"
+					"encrypted_size_2"		"FE17FF4FB47C7C9F61D09CC17F01E433"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"E52BBFF7BBA03C04788DF536912A2943"
+					"encrypted_size_2"		"D07C32400697420122447BF51EF8855D"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"34A32A9B7898EC89C05F7A7968C0B8F9"
+					"encrypted_size_2"		"8B02E9D8B9BA01223D3186AED7567E6C"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"FB58F82EC8ED335210341A1B9A101957"
+					"encrypted_size_2"		"48F0C9DF3B6DC452F338048E8A7B5353"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"0ECA7D842F9F56A495B00C6F61D2F496"
+					"encrypted_size_2"		"3BB7FCE5316D5B7E904FEF0C4A095E07"
+				}
+			}
+		}
+		"974581"
+		{
+			"name"		"We Happy Few - Nick Lightbearer [Linux]"
+			"dlcappid"		"974580"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"08C2408975DD7EED69ABDF512BBD9D23"
+					"encrypted_size_2"		"BA98DDD395FEC2226F44B4727E289BF3"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"5950A0F7EB1B1BAC5053DEEFE6F4F46D"
+					"encrypted_size_2"		"43C46CEEDF0116E7B00FADFFF338C00F"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"E402C9680BDE9C517556BA092F4B5F4F"
+					"encrypted_size_2"		"EFA11A648234A5CF983F01E959C4D077"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"FE8CFE6C644EEC2388FDE5B10AA3C287"
+					"encrypted_size_2"		"F9CF3E0DFDD9F48A5A75640554AC91F6"
+				}
+			}
+		}
+		"1024771"
+		{
+			"name"		"We Happy Few - Victoria [Linux]"
+			"dlcappid"		"1024770"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"3day"
+				{
+					"encrypted_gid_2"		"4BEAECA311232FE27739010F820A7C38"
+					"encrypted_size_2"		"5E35AB1DA8022C497A517D38102553C5"
+				}
+				"alicorn"
+				{
+					"encrypted_gid_2"		"C987C022FA9018C01E39962F976581F9"
+					"encrypted_size_2"		"531B1349AF09C5CC91B684376636B45D"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"9394C29971475F08C702F9DCB8D3E747"
+					"encrypted_size_2"		"E89D7E20A75232D072D32AE58D1FCD31"
+				}
+				"playtesting"
+				{
+					"encrypted_gid_2"		"450F51FDCDE8775AFB2FBCD4EC520B9D"
+					"encrypted_size_2"		"65A447D717C4B13F33B1809FA0263505"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4037922"
+				"timeupdated"		"1564153698"
+			}
+			"3day"
+			{
+				"buildid"		"4172325"
+				"description"		"For 3 day testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567784789"
+			}
+			"aareview"
+			{
+				"buildid"		"2788477"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1526937742"
+			}
+			"alicorn"
+			{
+				"buildid"		"4128667"
+				"description"		"For tested nightly"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566479155"
+			}
+			"baseline"
+			{
+				"buildid"		"2934586"
+				"description"		"DO NOT CHANGE"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531253646"
+			}
+			"buildreview"
+			{
+				"buildid"		"2740351"
+				"description"		"For internal build reviews"
+				"pwdrequired"		"1"
+				"timeupdated"		"1525378327"
+			}
+			"clockwork"
+			{
+				"buildid"		"1535239"
+				"description"		"201612 - The Clockwork update!"
+				"timeupdated"		"1490211818"
+			}
+			"cmf"
+			{
+				"buildid"		"501724"
+				"description"		"CMF beta build"
+				"pwdrequired"		"1"
+			}
+			"demo"
+			{
+				"buildid"		"2875554"
+				"description"		"For shows/demonstrations etc"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530036275"
+			}
+			"earlyaccesslaunch"
+			{
+				"buildid"		"1340262"
+				"description"		"201607 - Early Access launch + hotfixes"
+				"timeupdated"		"1490212277"
+			}
+			"maidenholm"
+			{
+				"buildid"		"1756135"
+				"description"		"201703 - The Maidenholm update!"
+				"timeupdated"		"1498579782"
+			}
+			"media"
+			{
+				"buildid"		"3492421"
+				"description"		"For pre-release reviews"
+				"pwdrequired"		"1"
+				"timeupdated"		"1551987234"
+			}
+			"nightly"
+			{
+				"buildid"		"4178504"
+				"description"		"Nightly builds (untested, use at your own risk)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568017252"
+			}
+			"platform"
+			{
+				"buildid"		"3536155"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549568012"
+			}
+			"playtesting"
+			{
+				"buildid"		"4053339"
+				"description"		"Stable build for playtests!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564428521"
+			}
+			"playtesting2"
+			{
+				"buildid"		"2708496"
+				"description"		"Second stable build for playtests"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524262453"
+			}
+			"preview"
+			{
+				"buildid"		"3723151"
+				"description"		"Preview for users (password is provided to some users)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554840194"
+			}
+			"pubstable"
+			{
+				"buildid"		"2493245"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1517612017"
+			}
+			"rating"
+			{
+				"buildid"		"3628650"
+				"description"		"For ratings purposes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552343384"
+			}
+			"retail"
+			{
+				"buildid"		"3226115"
+				"description"		"Prerelease for updates"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539887567"
+			}
+			"spike"
+			{
+				"buildid"		"2581292"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1521221170"
+			}
+			"technicolour"
+			{
+				"buildid"		"2073313"
+				"description"		"201708 - Life in Technicolour"
+				"timeupdated"		"1533766362"
+			}
+			"techreview"
+			{
+				"buildid"		"2831025"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1528216742"
+			}
+			"testing"
+			{
+				"buildid"		"4037923"
+				"description"		"Testing grounds for release candidate builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563909400"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Settings"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot0"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"5"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot0"
+				"pattern"		"ScreenShot-*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"8"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot0"
+				"pattern"		"Events.csv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"9"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot1"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"10"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot1"
+				"pattern"		"ScreenShot-*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"11"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot1"
+				"pattern"		"Events.csv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"12"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot2"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"13"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot2"
+				"pattern"		"ScreenShot-*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"14"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames/Slot2"
+				"pattern"		"Events.csv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"15"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"16"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames"
+				"pattern"		"ScreenShot-*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"17"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/We Happy Few/SaveGames"
+				"pattern"		"Events.csv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

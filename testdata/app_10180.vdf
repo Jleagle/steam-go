@@ -1,0 +1,453 @@
+"appinfo"
+{
+	"appid"		"10180"
+	"common"
+	{
+		"name"		"Call of Duty: Modern Warfare 2"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"clienticon"		"5832406b04c416771fe0b20549b10d0dc7c679de"
+		"clienttga"		"145719e55871483d09278798c4f32f709eec1ec1"
+		"icon"		"ad502494f1658220f9166c7e17ac90422bf6a479"
+		"logo"		"82de30354cb5ee352609c47ea47b86797008e436"
+		"logo_small"		"82de30354cb5ee352609c47ea47b86797008e436_thumb"
+		"metacritic_url"		"pc/modernwarfare2"
+		"clienticns"		"9197567257a08b3901378157cbfae74935143a93"
+		"type"		"game"
+		"metacritic_name"		"Call of Duty: Modern Warfare 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1399585730"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Infinity Ward"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_23"		"1"
+			"category_8"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1258012800"
+		"steam_release_date"		"1258012800"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/call-of-duty-modern-warfare-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"10180"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"1774"
+			"4"		"3839"
+			"5"		"4182"
+			"6"		"1678"
+			"7"		"4168"
+			"8"		"1685"
+			"9"		"3843"
+			"10"		"1775"
+			"11"		"5144"
+			"12"		"1756"
+			"13"		"1742"
+			"14"		"4166"
+			"15"		"21"
+			"16"		"1708"
+			"17"		"9"
+			"18"		"7250"
+			"19"		"1669"
+		}
+	}
+	"extended"
+	{
+		"canskipinstallappchooser"		"1"
+		"developer"		"Infinity Ward"
+		"gamedir"		"Modern Warfare 2"
+		"gamemanualurl"		"http://store.steampowered.com/manual/10180/"
+		"homepage"		"https://www.callofduty.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"nodefaultenglishcontent"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"10181"
+		"retailautostart"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"suppressims"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"usemms"		"1"
+		"contenttype"		"3"
+		"installdir"		"Call of Duty Modern Warfare 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"iw4sp.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"COD_MW2_SP.app"
+				"description"		"Single Player"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B9A7528631D16DD01EB991726F58635BEDFEB9F91F5E08E97CB2D315E7F24D56A8C83F08EFC9AB77A43A428520E729975CA24D99F1F6ADB12446A0C4A8E592350BB4D2278CE0998626916D08DB2DDF2B492E57BB54016D5D921EBD561B3311316D8709F4E249E871B1A55819CC9695BC8E408DFCFC28BF5F36A24A246579C33F020111"
+		"checkguid"		"iw5sp.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"10182"
+		{
+			"name"		"Call of Duty Modern Warfare 2 content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7050448206564591918"
+			}
+			"maxsize"		"4435174963"
+		}
+		"10181"
+		{
+			"name"		"Call of Duty Modern Warfare 2 binaries"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7385504947037106020"
+			}
+			"maxsize"		"3497984"
+		}
+		"10186"
+		{
+			"name"		"Call of Duty Modern Warfare 2 LV DE content"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6253063533272841787"
+			}
+			"maxsize"		"7773907803"
+		}
+		"10183"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8707803059832053468"
+			}
+			"maxsize"		"7723140879"
+		}
+		"10185"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6960622809953595829"
+			}
+			"maxsize"		"7707597104"
+		}
+		"10187"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5447045943202156387"
+			}
+			"maxsize"		"7853722967"
+		}
+		"10188"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6075992503597705494"
+			}
+			"maxsize"		"7727353373"
+		}
+		"10189"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1493308596121358900"
+			}
+			"maxsize"		"7825589771"
+		}
+		"10191"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5365446663453490899"
+			}
+			"maxsize"		"7617964485"
+		}
+		"10192"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"246258347768300127"
+			}
+			"maxsize"		"7703582201"
+		}
+		"10193"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5456705176131695752"
+			}
+			"maxsize"		"7773907803"
+		}
+		"278280"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3619648325982091147"
+			}
+			"maxsize"		"4323750035"
+		}
+		"278281"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron SP Binary"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8081965988729392508"
+			}
+			"maxsize"		"25487352"
+		}
+		"278282"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3664267140507507825"
+			}
+			"maxsize"		"7723140765"
+		}
+		"278283"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6313141199869918175"
+			}
+			"maxsize"		"7707596984"
+		}
+		"278284"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4009187078934820154"
+			}
+			"maxsize"		"7853722856"
+		}
+		"278285"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4684911959805635804"
+			}
+			"maxsize"		"7727353262"
+		}
+		"278286"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4006477255675382643"
+			}
+			"maxsize"		"7773907690"
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"756723"
+			}
+			"beta"
+			{
+				"buildid"		"756723"
+				"description"		"MW2 Beta"
+				"pwdrequired"		"1"
+			}
+			"omicron"
+			{
+				"buildid"		"756723"
+				"description"		"Mac Branch"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"100"
+	}
+}
+ 

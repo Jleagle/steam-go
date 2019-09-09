@@ -1,0 +1,863 @@
+"appinfo"
+{
+	"appid"		"205990"
+	"common"
+	{
+		"name"		"Warlock 2: the Exiled"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"59e92284daf2ced1c0b6c4898938acf38adedf47"
+		"clienttga"		"90e67253cbad2601d85ca45fce97192dde5498f1"
+		"icon"		"8663e871f631cef5352b8c2d4d299c8c5eb024e9"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"205990_eula_0"
+				"name"		"Warlock 2: the Exiled EULA"
+				"url"		"http://store.steampowered.com/eula/205990_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"russian"		"1"
+		}
+		"logo"		"7282ec4f1f7e1f3ed1ca7168aa7afd2e89a768a3"
+		"logo_small"		"7282ec4f1f7e1f3ed1ca7168aa7afd2e89a768a3_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Warlock 2: The Exiled"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"84.35468749059166"
+				"height_pct"		"73.46263008514666"
+			}
+		}
+		"store_asset_mtime"		"1568016816"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ino-Co Plus"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1397113200"
+		"steam_release_date"		"1397148240"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warlock-2-the-exiled?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"205990"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1684"
+			"2"		"1677"
+			"3"		"1741"
+			"4"		"1670"
+			"5"		"4057"
+			"6"		"3859"
+			"7"		"1717"
+			"8"		"122"
+			"9"		"4182"
+			"10"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ino-Co Plus"
+		"gamedir"		"ValveTestApp205990"
+		"homepage"		"http://www.warlock2.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp205990\\SteamKey"
+		"legacykeyregistrationmethod"		"registry"
+		"supportscdkeycopytoclipboard"		"1"
+		"showcdkeyonlaunch"		"1"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"278030,278031,281510,281511,306150,320720,320721,320730,320740,320750,424550,424560,484540,484550,484560,484570,484580,484590,484600,484610,484620,484630,484640,484690"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Warlock 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"baselanguages"		"english"
+		"markdlcdepots"		"1"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"205996"
+		{
+			"name"		"Warlock 2: windows binaries"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5383391728817949117"
+				"linux_osx_beta"		"2250352415313223147"
+			}
+			"maxsize"		"53049030"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"2720E621E938B23CEAF52C6CA37737FC"
+					"encrypted_size_2"		"41C01436652E524F8379280A6A3A95A6"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"80AEF0CECEFDB277AC45F64F6C0C2457"
+					"encrypted_size_2"		"7078D8D0C6B69AB566CFB98D7EA6319F"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"91D713E967640CB5539704F16848D637"
+					"encrypted_size_2"		"7095AFB59169FAED3B60675E994E28C1"
+				}
+			}
+		}
+		"205991"
+		{
+			"name"		"Warlock 2: windows content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"509629125502683619"
+				"linux_osx_beta"		"8402699257550275326"
+			}
+			"maxsize"		"2008862972"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"F8BFE64D3142A6064346A87793D2F6B7"
+					"encrypted_size_2"		"96BD04F2048068DB32C8575EEE00B8CC"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"CDA8977EDA613C8BD47F37616B4E3840"
+					"encrypted_size_2"		"6A8CBCEF101E9178C8819BE4E47AFB24"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"BEF37AB5B04D4535D38A93099A2BECEE"
+					"encrypted_size_2"		"FF689BA8163A9B53568D3B397B390902"
+				}
+			}
+		}
+		"205997"
+		{
+			"name"		"Warlock 2: Linux binaries"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1223918260320023560"
+				"linux_osx_beta"		"4337010260899289859"
+			}
+			"maxsize"		"173334782"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"BF15FAF5E40B817113AD3A93E7BBBF52"
+					"encrypted_size_2"		"89EC7263AB83552B148FD9A63800D605"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"BF10B20E9AB85321CC2F6F7427A85520"
+					"encrypted_size_2"		"5DC606237BFD005811405D6B2E118BDE"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"1FFEC23F3338541291BE42C74DB7F1E4"
+					"encrypted_size_2"		"6AD7228C460286075A2D895EB432D750"
+				}
+			}
+		}
+		"206000"
+		{
+			"name"		"Warlock 2: Linux content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7479203179699935194"
+				"linux_osx_beta"		"5645963908887171613"
+			}
+			"maxsize"		"2008862972"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"9439AFC36FA03173215FC98A5625E469"
+					"encrypted_size_2"		"96BD04F2048068DB32C8575EEE00B8CC"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"D5329962C9D62C8BEDBFAD3BF3C78CFD"
+					"encrypted_size_2"		"6A8CBCEF101E9178C8819BE4E47AFB24"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"A040C0FB66D622D1A360374DD1B4E72A"
+					"encrypted_size_2"		"FF689BA8163A9B53568D3B397B390902"
+				}
+			}
+		}
+		"205998"
+		{
+			"name"		"Warlock 2: OSX binaries"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3643302423192563561"
+				"linux_osx_beta"		"3225616074409049583"
+			}
+			"maxsize"		"81363491"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"CE4636C0055C104F71685F4EDC252BDC"
+					"encrypted_size_2"		"7F5B3B3BAD4C137C8D396B5100301B2C"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"7FDFA1525E1AB4B7FBD8E7A7DA4ABED6"
+					"encrypted_size_2"		"871C42A5E9A1E857C9DFC47555853E07"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"7549E887642873060F2572782D4E3E4D"
+					"encrypted_size_2"		"264E19CDF00FCC98ACAB1E79BE324B6E"
+				}
+			}
+		}
+		"205999"
+		{
+			"name"		"Warlock 2: OSX content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2204325918665552176"
+				"linux_osx_beta"		"5855290828684093003"
+			}
+			"maxsize"		"2008862972"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"605E8ED537AEA99C84320E93E2DC6BE3"
+					"encrypted_size_2"		"96BD04F2048068DB32C8575EEE00B8CC"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"DF8BEC64A294A3113F1F5F05C5F80C5C"
+					"encrypted_size_2"		"6A8CBCEF101E9178C8819BE4E47AFB24"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"4630DBC6612014E291D9AC49650CCAC0"
+					"encrypted_size_2"		"FF689BA8163A9B53568D3B397B390902"
+				}
+			}
+		}
+		"205992"
+		{
+			"name"		"Warlock 2: Modding tools"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6636987029840430095"
+				"linux_osx_beta"		"2053868187257892827"
+			}
+			"maxsize"		"588889269"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"9E044B0BCE6A5EF474713ECE6C11016C"
+					"encrypted_size_2"		"88EF0417C7BE3BEBBAE5097A8FCB3EA7"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"5200C894350C9EC74AD5125761E99BCB"
+					"encrypted_size_2"		"A6BB43B34308220747B13E200DBBF67F"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"57B484948BACC3F993F7BF25FCCF1DED"
+					"encrypted_size_2"		"47D0BCF6EFEBE2D2AE33C36FC10D8CC0"
+				}
+			}
+		}
+		"205993"
+		{
+			"name"		"Warlock 2: English windows"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3291771469604901437"
+				"linux_osx_beta"		"1059392512956492920"
+			}
+			"maxsize"		"83233263"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"7F29F1C13013C773358BF0FDB9F887F0"
+					"encrypted_size_2"		"988E201AEA3858C51FF2A31F2704D46F"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"C600DD432C456258AB9C22E8C592D2BF"
+					"encrypted_size_2"		"3FC718D1F51278DB631EBB3B439FF2F1"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"24E2A64C9D4921CB89D58EBFFCAC43A9"
+					"encrypted_size_2"		"B45B0D0E7C01ABD9296CA82D57856D58"
+				}
+			}
+		}
+		"206001"
+		{
+			"name"		"Warlock 2: English linux"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7785192573649708657"
+				"linux_osx_beta"		"3429536340150795714"
+			}
+			"maxsize"		"83233263"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"F73FD9F12DA6811B8457323F68BF026C"
+					"encrypted_size_2"		"988E201AEA3858C51FF2A31F2704D46F"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"D182198DE55E3C7FC2F5A5546D059014"
+					"encrypted_size_2"		"3FC718D1F51278DB631EBB3B439FF2F1"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"066B488D7C05394A47EEE0B0015FD92B"
+					"encrypted_size_2"		"B45B0D0E7C01ABD9296CA82D57856D58"
+				}
+			}
+		}
+		"206002"
+		{
+			"name"		"Warlock 2: English osx"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1843554647291131882"
+				"linux_osx_beta"		"1016284110446360050"
+			}
+			"maxsize"		"83233263"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"7B5A908C11172683D67F7424C91B8C00"
+					"encrypted_size_2"		"988E201AEA3858C51FF2A31F2704D46F"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"9BA58DCBC3D61C099E08E4B6DEA522DB"
+					"encrypted_size_2"		"3FC718D1F51278DB631EBB3B439FF2F1"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"7F38F7D1212CC270D0ADE54BB1C7158D"
+					"encrypted_size_2"		"B45B0D0E7C01ABD9296CA82D57856D58"
+				}
+			}
+		}
+		"205994"
+		{
+			"name"		"Warlock 2: German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8426613294041583342"
+				"linux_osx_beta"		"6910602901369373193"
+			}
+			"maxsize"		"85226006"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"AA9EAC8BFC615A9D5621D4C2310ECBDC"
+					"encrypted_size_2"		"CC9DC6ED5991A0AA2CBCB9F2405484FF"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"4F9CA52EA89C1206E22E478C5B64A918"
+					"encrypted_size_2"		"C5C326E543B9929E865B49834511D390"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"BA0FDC70BE399E841783EDF6CDA88EE2"
+					"encrypted_size_2"		"87E72B339A69BF2DF398515821ADF27B"
+				}
+			}
+		}
+		"206003"
+		{
+			"name"		"Warlock 2: German linux"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5827934555548123922"
+				"linux_osx_beta"		"2256505845422399788"
+			}
+			"maxsize"		"85226006"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"EB4E077EAA261EB3B689EA506B605507"
+					"encrypted_size_2"		"CC9DC6ED5991A0AA2CBCB9F2405484FF"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"5ED6CF4BEFBEA88B66C27605E366AB42"
+					"encrypted_size_2"		"C5C326E543B9929E865B49834511D390"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"9E3F60B061614BDCFE2C44F934C9B3F1"
+					"encrypted_size_2"		"87E72B339A69BF2DF398515821ADF27B"
+				}
+			}
+		}
+		"206004"
+		{
+			"name"		"Warlock 2: German osx"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5811059375095926213"
+				"linux_osx_beta"		"8582631040874085721"
+			}
+			"maxsize"		"85226006"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"F9EBBF034703E65254633D2459FFEC81"
+					"encrypted_size_2"		"CC9DC6ED5991A0AA2CBCB9F2405484FF"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"88D2DF2736B7EDEAFA6EF67A544AE24E"
+					"encrypted_size_2"		"C5C326E543B9929E865B49834511D390"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"C1D6F24C1DA33E4208197DA12FE44ADF"
+					"encrypted_size_2"		"87E72B339A69BF2DF398515821ADF27B"
+				}
+			}
+		}
+		"205995"
+		{
+			"name"		"Warlock 2: Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7231709624525535726"
+				"linux_osx_beta"		"8805792105037250027"
+			}
+			"maxsize"		"95340344"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"411F0D2E9E1F56973D7A331E49F00E9E"
+					"encrypted_size_2"		"7B8F3D6360234366DA3A156637615B9C"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"C9E751D0FF94C4A9E41FF321147F9B30"
+					"encrypted_size_2"		"3AAA2C3AFA40C59E7087F3C3D18A2622"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"A2D91AFD5A662626AEC5C066AE27AAED"
+					"encrypted_size_2"		"8E0808B43790FCEB1DC91C878A55BADA"
+				}
+			}
+		}
+		"206005"
+		{
+			"name"		"Warlock 2: Russian linux"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2468933000840136536"
+				"linux_osx_beta"		"41986876938421598"
+			}
+			"maxsize"		"95340344"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"AC19F168512558C9322E837FD2EE26C8"
+					"encrypted_size_2"		"7B8F3D6360234366DA3A156637615B9C"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"EEF80EC529C60AAD60AF6D526119F62A"
+					"encrypted_size_2"		"3AAA2C3AFA40C59E7087F3C3D18A2622"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"957E5A69407508656602FA761838CC7F"
+					"encrypted_size_2"		"8E0808B43790FCEB1DC91C878A55BADA"
+				}
+			}
+		}
+		"206006"
+		{
+			"name"		"Warlock 2: Russian osx"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5078512855252494910"
+				"linux_osx_beta"		"7918991057061949175"
+			}
+			"maxsize"		"95340344"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"EB4604E72B7E2E960AE0FA2B057DE723"
+					"encrypted_size_2"		"7B8F3D6360234366DA3A156637615B9C"
+				}
+				"patch_for_live_version"
+				{
+					"encrypted_gid_2"		"40DF11FC53BF4281A87C04E3AFAD572F"
+					"encrypted_size_2"		"3AAA2C3AFA40C59E7087F3C3D18A2622"
+				}
+				"x_test"
+				{
+					"encrypted_gid_2"		"9F8D4E6F20A3E0A05D76792A64574B9C"
+					"encrypted_size_2"		"8E0808B43790FCEB1DC91C878A55BADA"
+				}
+			}
+		}
+		"278031"
+		{
+			"name"		"Warlock 2: Great Mage pass (278031) Depot"
+			"manifests"
+			{
+				"public"		"2652281660614565977"
+			}
+			"maxsize"		"722"
+			"dlcappid"		"278031"
+		}
+		"278030"
+		{
+			"name"		"Warlock 2: OST (W1 & W2) (278030) Depot"
+			"manifests"
+			{
+				"public"		"5499477236482514456"
+			}
+			"maxsize"		"131462042"
+			"dlcappid"		"278030"
+		}
+		"281510"
+		{
+			"name"		"Warlock 2: Art book (281510) Depot"
+			"manifests"
+			{
+				"public"		"1846471037808989908"
+			}
+			"maxsize"		"122915488"
+			"dlcappid"		"281510"
+		}
+		"281511"
+		{
+			"name"		"Warlock 2: Novel (281511) Depot"
+			"manifests"
+			{
+				"public"		"1805987655180947374"
+			}
+			"maxsize"		"3721872"
+			"dlcappid"		"281511"
+		}
+		"306150"
+		{
+			"name"		"Project Werewolf - Secret stuff (306150) Depot"
+			"manifests"
+			{
+				"public"		"1388136440161291896"
+			}
+			"maxsize"		"4"
+			"dlcappid"		"306150"
+		}
+		"320730"
+		{
+			"name"		"Project Werewolf - Mage pack (320730) Depot"
+			"manifests"
+			{
+				"public"		"9100803172897462475"
+			}
+			"maxsize"		"8"
+			"dlcappid"		"320730"
+		}
+		"320720"
+		{
+			"name"		"Project Werewolf - Lord Pack 1 (320720) Depot"
+			"manifests"
+			{
+				"public"		"306318011168284970"
+			}
+			"maxsize"		"9"
+			"dlcappid"		"320720"
+		}
+		"320721"
+		{
+			"name"		"Project Werewolf - Lord Pack 2 (320721) Depot"
+			"manifests"
+			{
+				"public"		"3911025238092232460"
+			}
+			"maxsize"		"9"
+			"dlcappid"		"320721"
+		}
+		"320750"
+		{
+			"name"		"Project Werewolf - Spell pack (320750) Depot"
+			"manifests"
+			{
+				"public"		"4368643480085171419"
+			}
+			"maxsize"		"9"
+			"dlcappid"		"320750"
+		}
+		"320740"
+		{
+			"name"		"Project Werewolf - World pack (320740) Depot"
+			"manifests"
+			{
+				"public"		"4712510133786903468"
+			}
+			"maxsize"		"9"
+			"dlcappid"		"320740"
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"429548"
+			}
+			"internal"
+			{
+				"buildid"		"447591"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"linux_osx_beta"
+			{
+				"buildid"		"447591"
+				"description"		""
+			}
+			"patch_for_live_version"
+			{
+				"buildid"		"532374"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"x_test"
+			{
+				"buildid"		"447591"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

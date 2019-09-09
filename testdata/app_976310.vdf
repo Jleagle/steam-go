@@ -1,0 +1,825 @@
+"appinfo"
+{
+	"appid"		"976310"
+	"common"
+	{
+		"name"		"Mortal Kombat 11"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"logo"		"60d2b2e0093e9cffac3b0bf46ae93ef5117b47da"
+		"logo_small"		"60d2b2e0093e9cffac3b0bf46ae93ef5117b47da_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"976310_eula_0"
+				"name"		"Mortal Kombat 11 EULA"
+				"url"		"https://store.steampowered.com//eula/976310_eula_0"
+			}
+		}
+		"clienticon"		"cc9afb3a99226d14d0d32bc76555c3fef7b5dc01"
+		"clienttga"		"4053cfd0c5fb70dbdbfb55beca939796cfffb5ca"
+		"icon"		"315c46ce25bcb6afa47473588b5fd8edeb3afdfa"
+		"metacritic_name"		"Mortal Kombat 11"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"59"
+			}
+		}
+		"store_asset_mtime"		"1547762511"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NetherRealm Studios"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"QLOC"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Shiver"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Warner Bros Interactive Entertainment"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Mortal Kombat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_35"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1556038800"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/mortal-kombat-11?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"976310"
+		"store_tags"
+		{
+			"0"		"1743"
+			"1"		"4345"
+			"2"		"4667"
+			"3"		"5228"
+			"4"		"3859"
+			"5"		"19"
+			"6"		"4736"
+			"7"		"5611"
+			"8"		"3878"
+			"9"		"4747"
+			"10"		"4182"
+			"11"		"1742"
+			"12"		"7368"
+			"13"		"4166"
+			"14"		"1756"
+			"15"		"1773"
+			"16"		"4975"
+			"17"		"4726"
+			"18"		"1667"
+			"19"		"12095"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"developer"		"NetherRealm Studios"
+		"publisher"		"Warner Bros Interactive Entertainment"
+		"homepage"		"http://mortalkombat.com/"
+		"listofdlc"		"1051620,1051621,1054480,1054870,1054871,1054872,1054873,1095030,1095031,1102090,1116620,1116621,1116622"
+	}
+	"config"
+	{
+		"installdir"		"Mortal Kombat 11"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Retail\\MK11.exe"
+				"description"		"Denuvo_executable (PROD)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"\\Binaries\\Retail\\MK11Game-RetailCheatsOn.exe"
+				"description"		"Debug_executable"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"test1 test2 test18"
+				}
+			}
+			"2"
+			{
+				"executable"		"\\Binaries\\Retail\\MK11Game-Retail.exe"
+				"description"		"No-Denuvo_executable"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"test1 test2 test18"
+				}
+			}
+			"3"
+			{
+				"executable"		"\\Binaries\\Retail\\MK11_DX12.exe"
+				"description"		"DirectX 12 (Windows 10 required)"
+				"type"		"option3"
+				"config"
+				{
+					"betakey"		"test1 test2 test18 test24 test20"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,polish,arabic,brazilian,latam"
+		"workshopdepot"		"976310"
+		"976311"
+		{
+			"name"		"Seven11 [codename] Content"
+			"manifests"
+			{
+				"public"		"6873039276277578836"
+				"local"		"1929775047787016382"
+			}
+			"maxsize"		"75718687693"
+			"encryptedmanifests"
+			{
+				"test_21"
+				{
+					"encrypted_gid_2"		"BE7258751A6932BF5854F6D667C32F45"
+					"encrypted_size_2"		"630C9410ADF1846F5DD5678F9D9A9985"
+				}
+				"test1"
+				{
+					"encrypted_gid_2"		"31BCB8CAB4D10A3C6D4E7536E4CA0413"
+					"encrypted_size_2"		"CCEDFB3D760B3CC081579487164EE5D4"
+				}
+				"test10"
+				{
+					"encrypted_gid_2"		"4FA8804FF14116142E75DF15FCA67DC9"
+					"encrypted_size_2"		"87D4AFE4B5E341AEAF40F91E4C1F3647"
+				}
+				"test11"
+				{
+					"encrypted_gid_2"		"41D8B352F6D890E5B62BBA963602A522"
+					"encrypted_size_2"		"63EA9B1A4BB2EAC694E5AFEB2B77CDA5"
+				}
+				"test12"
+				{
+					"encrypted_gid_2"		"AC748016EBA4EC9CEA1E3D916F892C90"
+					"encrypted_size_2"		"C37B8F1828DD12C78EDD26EDDA71F315"
+				}
+				"test13"
+				{
+					"encrypted_gid_2"		"9B909E09ACDE94DB0BF1057B5D4CA2C1"
+					"encrypted_size_2"		"BCC836F216D24064B9187458B42803AC"
+				}
+				"test14"
+				{
+					"encrypted_gid_2"		"307D8B3372CEEABE28FDC62E425A8AC7"
+					"encrypted_size_2"		"8C94A7F94E1E7F263A98A133E1ED2CDF"
+				}
+				"test15"
+				{
+					"encrypted_gid_2"		"73123508177A9835F2B7A9C6475A1C9D"
+					"encrypted_size_2"		"74B69EEE9CF157F4969DFBB9E3BC3134"
+				}
+				"test16"
+				{
+					"encrypted_gid_2"		"6DC4D6C0633B25FF5AE2C1D0A83AD0B5"
+					"encrypted_size_2"		"7CBB2DE00556BA7CEC300669A2E67E03"
+				}
+				"test18"
+				{
+					"encrypted_gid_2"		"673AE6FE5BA57CF755378BA03A982414"
+					"encrypted_size_2"		"7F248E723DDD94F68A0821A7B6F4A4D1"
+				}
+				"test19"
+				{
+					"encrypted_gid_2"		"9D8F54BB48D0C5E234F64521C97A7039"
+					"encrypted_size_2"		"AADFF494E33A8B67744FA57A5B9E6988"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"B52E9880C4C256BF0F08609E0FC43D9D"
+					"encrypted_size_2"		"5218D19334E935596CD7A7DA92623311"
+				}
+				"test20"
+				{
+					"encrypted_gid_2"		"26FD46E891206279720491609F061B7E"
+					"encrypted_size_2"		"9893D5491DAECDAE4DE9E29E517E5D3D"
+				}
+				"test22"
+				{
+					"encrypted_gid_2"		"2A043B651F1DB2FE334D8EE5C6F1F2A9"
+					"encrypted_size_2"		"2A2CA4F1BB7CB168F432C376465B2A12"
+				}
+				"test23"
+				{
+					"encrypted_gid_2"		"9731BCA508442527221046A0CED69A92"
+					"encrypted_size_2"		"8BAF37279CC64A2EA11088F6B7959072"
+				}
+				"test24"
+				{
+					"encrypted_gid_2"		"3F50BE51300AE32745158CA20C1E36DB"
+					"encrypted_size_2"		"FFD3532985D87F882EE92C8C1BDD34FC"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"1D139FAA05B0B205F78DC5B0F325062B"
+					"encrypted_size_2"		"10E4716BF8EB6E9A3C2B7F34305BEED4"
+				}
+				"test4"
+				{
+					"encrypted_gid_2"		"019867E6AEEBE2D0E3EA16D56BBA13DD"
+					"encrypted_size_2"		"99666CCA697A55124D585167247709F5"
+				}
+				"test5"
+				{
+					"encrypted_gid_2"		"FAAED1AAA923037F833E8EBE6FAD69B3"
+					"encrypted_size_2"		"803A69A2A4DF9C7595F5AB1D18C2E581"
+				}
+				"test7"
+				{
+					"encrypted_gid_2"		"4F389B2125207B09D23F1A0DC0C5F46E"
+					"encrypted_size_2"		"4E89F67756AF5D73A66CB6A4E4C003CD"
+				}
+				"test8"
+				{
+					"encrypted_gid_2"		"4E3B7A1598AAC7DE239FBE81DC2D8BFB"
+					"encrypted_size_2"		"1D5DB118469E2D7B8A032C454554ADD6"
+				}
+				"test9"
+				{
+					"encrypted_gid_2"		"93B559A79E3C04F3E7C94307F576F2CB"
+					"encrypted_size_2"		"65D53C1B01971CCC3275CF381DE61915"
+				}
+			}
+		}
+		"976312"
+		{
+			"name"		"SEVEN11_Binaries"
+			"manifests"
+			{
+				"public"		"5451951056378211654"
+			}
+			"maxsize"		"419658869"
+			"encryptedmanifests"
+			{
+				"test_21"
+				{
+					"encrypted_gid_2"		"181A6293A1B319154E492B92133B9885"
+					"encrypted_size_2"		"862946F6DFC9FC749ACB87E7EC80F2D7"
+				}
+				"test1"
+				{
+					"encrypted_gid_2"		"120D0C6D2BFB6B0D1F88E301F6CC476B"
+					"encrypted_size_2"		"34B2039B2D279CEBF324C8E54B608C10"
+				}
+				"test10"
+				{
+					"encrypted_gid_2"		"2374FDB4119A067C4330C9B4ED212DE1"
+					"encrypted_size_2"		"9B71763E9FCF2FADDBAF0B9A97430352"
+				}
+				"test11"
+				{
+					"encrypted_gid_2"		"5E885087910DB027CDC6B2BBABF90167"
+					"encrypted_size_2"		"5577CD1899627590BDACC9E2204CA3D8"
+				}
+				"test12"
+				{
+					"encrypted_gid_2"		"56C906A3B82644F3EA085837B1E5C405"
+					"encrypted_size_2"		"1438A1DD4E1B967A3434CF626885F5D0"
+				}
+				"test13"
+				{
+					"encrypted_gid_2"		"AF9012F249E924312C4767E14DC2B10F"
+					"encrypted_size_2"		"EE038AD3EA02C841B8D03DF20A371BDF"
+				}
+				"test14"
+				{
+					"encrypted_gid_2"		"8FFD37463973DB3BB64834E39EAD4CC3"
+					"encrypted_size_2"		"C5E0356BDDD104EC94AE51D7215F4EFA"
+				}
+				"test15"
+				{
+					"encrypted_gid_2"		"B128A14EFDC3A7108390C393D2D4BCC1"
+					"encrypted_size_2"		"3D80925A9F257489796D6E8587B3D46D"
+				}
+				"test16"
+				{
+					"encrypted_gid_2"		"AA1BAF76509EE8076D43306D29534691"
+					"encrypted_size_2"		"F607305F6305471E322C54C4D8E11F49"
+				}
+				"test18"
+				{
+					"encrypted_gid_2"		"050A90DD032D24561AD581AC6BB790CF"
+					"encrypted_size_2"		"21072BD94890656DF47C45EF606D926A"
+				}
+				"test19"
+				{
+					"encrypted_gid_2"		"96144D05FE4CAA5140B4BE7CD6D30A92"
+					"encrypted_size_2"		"8054482E463DB5D0420C4518641456F9"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"55BF3BEB56E1F4A64C5926A0463E4E02"
+					"encrypted_size_2"		"DB8C7CEA9AEEDD7A681FE07BB452202E"
+				}
+				"test20"
+				{
+					"encrypted_gid_2"		"3A4320D1178945C7B323BCA566434ABF"
+					"encrypted_size_2"		"0D2D9BBA009E5AFB35D2734F6E7B7D23"
+				}
+				"test22"
+				{
+					"encrypted_gid_2"		"4A142D65DD92425D089B9A3ECBAD9F50"
+					"encrypted_size_2"		"0092D23B59DE24434E759B677EE45D18"
+				}
+				"test23"
+				{
+					"encrypted_gid_2"		"A90F023FE945F86DE38516BB443F8BC9"
+					"encrypted_size_2"		"24E38D9D7E4A14BBC11921A837F233E4"
+				}
+				"test24"
+				{
+					"encrypted_gid_2"		"4FB055459136FBF51B576F28A9BF5BC9"
+					"encrypted_size_2"		"B8E72989F18D4861DFD9CAD6737103F1"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"6BA2C85E3EFE4550D7CD97B904CC243B"
+					"encrypted_size_2"		"7D74BA788B1104508BF68B971286F328"
+				}
+				"test4"
+				{
+					"encrypted_gid_2"		"52FA0AE47584E2F5D37919CA7932D3C3"
+					"encrypted_size_2"		"D2AB8F65B93EFDAFDC5394CC69D51629"
+				}
+				"test5"
+				{
+					"encrypted_gid_2"		"34D661FD06960DA25A4CBA9658C23A18"
+					"encrypted_size_2"		"9E4CB2490C878E08B67218349A992E10"
+				}
+				"test7"
+				{
+					"encrypted_gid_2"		"6B636348F2802DC3DE5C466AFD51B521"
+					"encrypted_size_2"		"FF1AAB40F21FAABEE28CDD6A90828765"
+				}
+				"test8"
+				{
+					"encrypted_gid_2"		"DD732DE547B0D543B5EA9161CA9EE14D"
+					"encrypted_size_2"		"EDF26725261641463E6863585675F488"
+				}
+				"test9"
+				{
+					"encrypted_gid_2"		"CD46019B3F0826686223B63DE3007DD3"
+					"encrypted_size_2"		"5EEBDD9B58D7EC591C69173E2A688A09"
+				}
+			}
+		}
+		"976313"
+		{
+			"name"		"SEVEN11_Endpoints"
+			"manifests"
+			{
+				"public"		"2460908145569459391"
+			}
+			"maxsize"		"542"
+			"encryptedmanifests"
+			{
+				"test1"
+				{
+					"encrypted_gid_2"		"6D5D712DC9C48EBE4E78980D2AAEF6A3"
+					"encrypted_size_2"		"893C0EC85A500A4F0B7974636D294C3A"
+				}
+				"test10"
+				{
+					"encrypted_gid_2"		"D9C31A7A72841061920CED1362574B26"
+					"encrypted_size_2"		"558B6C62BCB6967BCA2E2077C96B284A"
+				}
+				"test11"
+				{
+					"encrypted_gid_2"		"6EC93263190ADA1561DAA434F72DA256"
+					"encrypted_size_2"		"F312D157093096B5CE0F9014E74975E6"
+				}
+				"test12"
+				{
+					"encrypted_gid_2"		"2CDEF133522B46EA6D4687F1DE125C36"
+					"encrypted_size_2"		"884D89CF0EB529573395293EB8AB0794"
+				}
+				"test13"
+				{
+					"encrypted_gid_2"		"A016C34B34052D85CDCFD44B772A2FAF"
+					"encrypted_size_2"		"B4584BF06B8E551755410E672392F9B6"
+				}
+				"test14"
+				{
+					"encrypted_gid_2"		"FF641F96A6C55C8CD0F6ED62E55FD503"
+					"encrypted_size_2"		"EB4B555879CB5383714BCE12C04BBDCE"
+				}
+				"test15"
+				{
+					"encrypted_gid_2"		"D20AAED813A6A6986B37D2BC3DFA2F95"
+					"encrypted_size_2"		"B7AE0FCA045218995B2A9CEB00005DFD"
+				}
+				"test16"
+				{
+					"encrypted_gid_2"		"008EE63A1645E80482963E4638D54AE9"
+					"encrypted_size_2"		"9D696C0622FE1BBC4DA8EB258B18ADB8"
+				}
+				"test18"
+				{
+					"encrypted_gid_2"		"1DD36979D29C5D0CBDF87C2D75019FE2"
+					"encrypted_size_2"		"804CEC4C6BCCFC0DFB48285DC8B081E2"
+				}
+				"test19"
+				{
+					"encrypted_gid_2"		"68307C571D0E73DD24E0EEF82C7D830F"
+					"encrypted_size_2"		"5CC240861F05076E421B831A91BCB6B7"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"2CAA5B511BC20D86140D60920CEB5E78"
+					"encrypted_size_2"		"FB893A59684A66B682BEEEC959B9979B"
+				}
+				"test20"
+				{
+					"encrypted_gid_2"		"98D6110011D09B09291827AB2E71370D"
+					"encrypted_size_2"		"460A57649EAE9A2CF27A0BAECC4F4972"
+				}
+				"test22"
+				{
+					"encrypted_gid_2"		"AB15552719FB62B4A90E2CBDBE807B42"
+					"encrypted_size_2"		"10823E3D6E1F0356AEE00512EE0517AD"
+				}
+				"test23"
+				{
+					"encrypted_gid_2"		"DB35E7EB26C62D1A37C1CD504D85A17D"
+					"encrypted_size_2"		"F8ABC26BBC537E8CE04E53B1C89A554A"
+				}
+				"test24"
+				{
+					"encrypted_gid_2"		"94E817F8D80E172005A03FE40884819B"
+					"encrypted_size_2"		"A4A8279054D45AF4B60E9EF4C732DEB3"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"9F9EAEB884D6F5CF12B466A961050EA4"
+					"encrypted_size_2"		"F7E4637B089B96F9C25E5EBCC1A359B7"
+				}
+				"test5"
+				{
+					"encrypted_gid_2"		"BFA56A1E5B0A1F5E49D72922F85E960E"
+					"encrypted_size_2"		"EB660796225F74D8AB2BD82DC48B0B0E"
+				}
+				"test6"
+				{
+					"encrypted_gid_2"		"259A95E282E8C1CF2F70A74B26DFB2E6"
+					"encrypted_size_2"		"DD7EB9F7AEAF0A5E2D1A7C9F3D20D950"
+				}
+				"test7"
+				{
+					"encrypted_gid_2"		"BB64A78B403BBBF1E9F7007ADB206608"
+					"encrypted_size_2"		"1B174233BBBAF2D92AB40036DC3AA42F"
+				}
+				"test8"
+				{
+					"encrypted_gid_2"		"AD33D52629E3DAD18F43D9D4D1AF7926"
+					"encrypted_size_2"		"CD52AB3BA51BC23132ABFDED77A76D5A"
+				}
+				"test9"
+				{
+					"encrypted_gid_2"		"302BF00171834B6AE880519ACA651A46"
+					"encrypted_size_2"		"2B604D5F5331E2678E4D11F1028F3FE1"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4143452"
+				"timeupdated"		"1566925517"
+			}
+			"local"
+			{
+				"buildid"		"3284795"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1541592519"
+			}
+			"test_21"
+			{
+				"buildid"		"3782289"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556648946"
+			}
+			"test1"
+			{
+				"buildid"		"4179575"
+				"description"		"daily builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568041063"
+			}
+			"test10"
+			{
+				"buildid"		"3964154"
+				"description"		"Patch10RC3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561722544"
+			}
+			"test11"
+			{
+				"buildid"		"4016323"
+				"description"		"Patch11RC4"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565097332"
+			}
+			"test12"
+			{
+				"buildid"		"4142444"
+				"description"		"DEV_DEVMERGE_config_depot_file_backup"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566905861"
+			}
+			"test13"
+			{
+				"buildid"		"4061075"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564563755"
+			}
+			"test14"
+			{
+				"buildid"		"4044076"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564061429"
+			}
+			"test15"
+			{
+				"buildid"		"4173500"
+				"description"		"PROD_QA_config_depot_file_backup"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567782598"
+			}
+			"test16"
+			{
+				"buildid"		"4012454"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563197582"
+			}
+			"test18"
+			{
+				"buildid"		"3986236"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562347392"
+			}
+			"test19"
+			{
+				"buildid"		"4129794"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566488397"
+			}
+			"test2"
+			{
+				"buildid"		"4149573"
+				"description"		"DEV_DEVMERGE_config_depot_file"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567080097"
+			}
+			"test20"
+			{
+				"buildid"		"4131500"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566563160"
+			}
+			"test22"
+			{
+				"buildid"		"4026919"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563542849"
+			}
+			"test23"
+			{
+				"buildid"		"3952662"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561731468"
+			}
+			"test24"
+			{
+				"buildid"		"4164653"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567602124"
+			}
+			"test3"
+			{
+				"buildid"		"4179170"
+				"description"		"PROD_QA_config_depot_file"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568032980"
+			}
+			"test4"
+			{
+				"buildid"		"3761703"
+				"description"		"ReleaseRC5"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560860830"
+			}
+			"test5"
+			{
+				"buildid"		"4149148"
+				"description"		"Patch5RC2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567072328"
+			}
+			"test6"
+			{
+				"buildid"		"4149152"
+				"description"		"Patch6RC6"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567072414"
+			}
+			"test7"
+			{
+				"buildid"		"3877345"
+				"description"		"Patch7RC4"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560863185"
+			}
+			"test8"
+			{
+				"buildid"		"3963951"
+				"description"		"Patch8RC2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561718787"
+			}
+			"test9"
+			{
+				"buildid"		"3941777"
+				"description"		"Patch 9 RC 1 (DLC1 Early Access)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561121863"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"167772160"
+		"maxnumfiles"		"500"
+	}
+}
+ 

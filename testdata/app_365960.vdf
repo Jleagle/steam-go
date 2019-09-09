@@ -1,0 +1,458 @@
+"appinfo"
+{
+	"appid"		"365960"
+	"common"
+	{
+		"name"		"rFactor 2"
+		"type"		"Game"
+		"oslist"		"windows"
+		"clienticon"		"b84cebb69c810819dc427635f9fdf1555ceced70"
+		"clienttga"		"bc0e5fecd4d84d9472433e7aef4d35abd0b2d283"
+		"icon"		"ebecb341264f0770448d756a3fcef57d54d13773"
+		"logo"		"e234b9d85f84dfbbbc9c7103206196a42b004a9f"
+		"logo_small"		"e234b9d85f84dfbbbc9c7103206196a42b004a9f_thumb"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"365960_eula_0"
+				"name"		"rFactor 2 EULA"
+				"url"		"http://store.steampowered.com//eula/365960_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"metacritic_name"		"rFactor 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"24"
+				"height_pct"		"71"
+			}
+		}
+		"store_asset_mtime"		"1537543630"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Studio 397"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Studio 397"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1364454000"
+		"steam_release_date"		"1447347548"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"365960"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"599"
+			"2"		"4175"
+			"3"		"701"
+			"4"		"3859"
+			"5"		"1644"
+			"6"		"4182"
+			"7"		"21978"
+			"8"		"1669"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"rFactor 2"
+		"serverbrowsername"		"rFactor 2"
+		"vrheadsetstreaming"		"1"
+		"developer"		"Studio 397"
+		"publisher"		"Studio 397"
+		"homepage"		"https://www.studio-397.com/"
+		"listofdlc"		"377640,377641,400330"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"rFactor 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher\\Launch rFactor.exe"
+				"description"		"Launch rFactor 2"
+				"workingdir"		"Launcher"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"workshopdepot"		"365960"
+		"365961"
+		{
+			"name"		"rFactor 2 Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8228689319503545915"
+				"v1108"		"5530550342517009760"
+				"v1108-dx11-open-beta"		"7217400756897776960"
+				"v1109"		"6460971127393311072"
+				"v1109-dx9"		"101133636323590905"
+				"v1110"		"9079532344420330910"
+				"v1111"		"8140250768920992508"
+				"v1112"		"849981069332026181"
+				"v1114"		"5619423306593814517"
+			}
+			"maxsize"		"16333697066"
+			"encryptedmanifests"
+			{
+				"public-test"
+				{
+					"encrypted_gid_2"		"8F12BC6915139BBEA4F5C6A7D12D145D"
+					"encrypted_size_2"		"5B0BE625F7EF257918FD823EA1B08DA9"
+				}
+				"rf2-2989"
+				{
+					"encrypted_gid_2"		"D5C920F4208549EAE8EFE88A16F9900B"
+					"encrypted_size_2"		"815EBA4319A04B9EA37A4BF817AF121C"
+				}
+				"rf2-3833"
+				{
+					"encrypted_gid_2"		"33843C4817D4F8E16E8C0FE3A1471EDF"
+					"encrypted_size_2"		"EC65D7765DB9926DCD49502B30C491E2"
+				}
+				"rf2-3958"
+				{
+					"encrypted_gid_2"		"868242CF7C8B05B153939F4949A0C336"
+					"encrypted_size_2"		"67C9792AFBE583252A8D7F6EFDC7CC17"
+				}
+				"rf2-3962"
+				{
+					"encrypted_gid_2"		"56C30C4C89DEA343AA546DB2C0D872BF"
+					"encrypted_size_2"		"DFE365C96B0B5C6C31474262761D06A1"
+				}
+				"rf2-4053"
+				{
+					"encrypted_gid_2"		"FF624A5D06A22A1891C36656978B1204"
+					"encrypted_size_2"		"1B249D8D7FECBC32153E385E5423F6C2"
+				}
+				"rf2-465"
+				{
+					"encrypted_gid_2"		"8F0CD1D3B707D13D40C1957906FF9EA5"
+					"encrypted_size_2"		"4DDFDC3D927BB589672A276CD481366C"
+				}
+				"rf2-exp"
+				{
+					"encrypted_gid_2"		"E66CB2249D84B3B9A74AC7EACA883206"
+					"encrypted_size_2"		"FECE58E0613689B588B0AE4F0B20A5F9"
+				}
+				"rf2-gr"
+				{
+					"encrypted_gid_2"		"4D9260201D8E20E3FE198F6A177778C4"
+					"encrypted_size_2"		"69C8A32E73A6F134BB85770BCE0C82FC"
+				}
+				"rf2-ibl"
+				{
+					"encrypted_gid_2"		"D553E1CC8E4E2474A044DFE2784F3424"
+					"encrypted_size_2"		"C23FF5CC14CD715B3A298F1EFDF5CE6B"
+				}
+				"rf2-ibtk"
+				{
+					"encrypted_gid_2"		"55EA34E7239A06D7D5681BC574EF166C"
+					"encrypted_size_2"		"A19596F201C9BFBB3BA912F264F07077"
+				}
+				"rf2-sifat"
+				{
+					"encrypted_gid_2"		"02F2848C0FB6B01FCC04CE9E4E33C977"
+					"encrypted_size_2"		"123EC4A060037AB81B4BB362D30B2FC9"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"EDB2E95AD11C9FD94BB395306D4BE1D0"
+					"encrypted_size_2"		"6B3028AC4ABF6E35A98DFE25F6ED6E43"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"902400C4BBD38045AF56214E9F2D7BA4"
+					"encrypted_size_2"		"596DB18E67B78D93D2CBE61B7442A53C"
+				}
+				"testab"
+				{
+					"encrypted_gid_2"		"1B90E66392A6337C763119F21C989411"
+					"encrypted_size_2"		"29BC7920D0479679A079B1D90866AAFD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4159611"
+				"timeupdated"		"1567517981"
+			}
+			"public-test"
+			{
+				"buildid"		"3957575"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561737093"
+			}
+			"rf2-2989"
+			{
+				"buildid"		"3444176"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546682948"
+			}
+			"rf2-3833"
+			{
+				"buildid"		"3971387"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562055287"
+			}
+			"rf2-3958"
+			{
+				"buildid"		"4047054"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564135439"
+			}
+			"rf2-3962"
+			{
+				"buildid"		"4058481"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564571592"
+			}
+			"rf2-4053"
+			{
+				"buildid"		"4143341"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566924374"
+			}
+			"rf2-465"
+			{
+				"buildid"		"3887512"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559666530"
+			}
+			"rf2-exp"
+			{
+				"buildid"		"3866489"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559118058"
+			}
+			"rf2-gr"
+			{
+				"buildid"		"3614465"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561539866"
+			}
+			"rf2-ibl"
+			{
+				"buildid"		"4169772"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567705529"
+			}
+			"rf2-ibtk"
+			{
+				"buildid"		"3905327"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560200060"
+			}
+			"rf2-sifat"
+			{
+				"buildid"		"3873410"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559227853"
+			}
+			"smoke"
+			{
+				"buildid"		"4070397"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564997451"
+			}
+			"test"
+			{
+				"buildid"		"4179198"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568034321"
+			}
+			"testab"
+			{
+				"buildid"		"3957575"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561573770"
+			}
+			"v1108"
+			{
+				"buildid"		"2008937"
+				"description"		""
+				"timeupdated"		"1501757460"
+			}
+			"v1108-dx11-open-beta"
+			{
+				"buildid"		"1996804"
+				"description"		""
+				"timeupdated"		"1501587491"
+			}
+			"v1109"
+			{
+				"buildid"		"2445683"
+				"description"		""
+				"timeupdated"		"1516361839"
+			}
+			"v1109-dx9"
+			{
+				"buildid"		"2389822"
+				"description"		""
+				"timeupdated"		"1513882473"
+			}
+			"v1110"
+			{
+				"buildid"		"2989661"
+				"description"		""
+				"timeupdated"		"1532977265"
+			}
+			"v1111"
+			{
+				"buildid"		"3118567"
+				"description"		""
+				"timeupdated"		"1537183675"
+			}
+			"v1112"
+			{
+				"buildid"		"3984482"
+				"description"		""
+				"timeupdated"		"1562320751"
+			}
+			"v1114"
+			{
+				"buildid"		"4128876"
+				"description"		""
+				"timeupdated"		"1566472989"
+			}
+			"v1115"
+			{
+				"buildid"		"4159611"
+				"description"		""
+				"timeupdated"		"1567517946"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"UserData/player/Settings"
+				"pattern"		"*.svm"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

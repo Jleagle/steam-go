@@ -1,0 +1,1976 @@
+"appinfo"
+{
+	"appid"		"690790"
+	"common"
+	{
+		"name"		"DiRT Rally 2.0"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"icon"		"bd4cc20090b66b8e5a992a1ab67e3de0bef177da"
+		"logo"		"02a669eaa3bcc297070910cda27e889b07ba754e"
+		"logo_small"		"02a669eaa3bcc297070910cda27e889b07ba754e_thumb"
+		"clienttga"		"4f8b800a776cbcb9a00a6dfa4be7fbd3b1e82c09"
+		"clienticon"		"1035a23b66517798077252a6b7b443f98b1725bc"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"690790_eula_0"
+				"name"		"DiRT Rally 2.0 EULA"
+				"url"		"https://store.steampowered.com//eula/690790_eula_0"
+			}
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"DiRT Rally 2.0"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46"
+				"height_pct"		"58"
+			}
+		}
+		"store_asset_mtime"		"1565861459"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Codemasters"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Codemasters"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"DiRT"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1551139320"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dirt-rally-20?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"690790"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"599"
+			"2"		"4175"
+			"3"		"1644"
+			"4"		"7622"
+			"5"		"701"
+			"6"		"3859"
+			"7"		"4026"
+			"8"		"4182"
+			"9"		"3839"
+			"10"		"21978"
+			"11"		"29363"
+			"12"		"1695"
+			"13"		"8075"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Codemasters"
+		"publisher"		"Codemasters"
+		"homepage"		"http://www.dirtrally2.com"
+		"listofdlc"		"939880,939881,939882,977660,988660,988661,988662,988670,988671,988680,988820,1004840,1004870,1004871,1004880,1004881,1004890,1004891,1004892,1004893,1004894,1004900,1004920,1004921,1004930,1004940,1004950,1004960,1004970,1004980,1004990,1005010,1005020,1005030,1036470,1118250,1118251,1118260,1118261,1118262,1118263,1118264,1118265,1118270,1118271,1118272,1118273,1118274,1118275,1118280,1118281,1118282,1118283,1118284,1118285,1118286,1118287,1118288,1118289,1118290,1118291,1118292,1118293,1118294"
+	}
+	"config"
+	{
+		"installdir"		"DiRT Rally 2.0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dirtrally2.exe"
+				"arguments"		"-novr"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"dirtrally2.exe"
+				"arguments"		"-logging"
+				"description"		"RP17 - Logging"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devtest"
+				}
+			}
+			"2"
+			{
+				"executable"		"dirtrally2_qa.exe"
+				"description"		"RP17 - QA"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devtest"
+				}
+			}
+			"3"
+			{
+				"executable"		"dirtrally2_qa.exe"
+				"arguments"		"-logging"
+				"description"		"RP17 - QA - Logging"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devtest"
+				}
+			}
+			"4"
+			{
+				"executable"		"dirtrally2.exe"
+				"arguments"		"-vr open"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devtest3"
+				}
+			}
+			"5"
+			{
+				"executable"		"dirtrally2.exe"
+				"description"		"Oculus SDK"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devtest"
+				}
+			}
+			"6"
+			{
+				"executable"		"dirtrally2.exe"
+				"description"		"DiRT Rally 2.0"
+				"type"		"vr"
+			}
+			"7"
+			{
+				"executable"		"dirtrally2.exe"
+				"arguments"		"-novr"
+				"description"		"DiRT Rally 2.0"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"qatestbranch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,japanese,polish,brazilian"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"690791"
+		{
+			"name"		"RP17 Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"609250023908389562"
+			}
+			"maxsize"		"5668637290"
+			"encryptedmanifests"
+			{
+				"a_internal"
+				{
+					"encrypted_gid_2"		"B4469F64AD533BA566429E1CCF8813A9"
+					"encrypted_size_2"		"556DEC1426CB02F22446DAD7EF4A5704"
+				}
+				"a_stable"
+				{
+					"encrypted_gid_2"		"A2D62110B922F4A8061B92EBA3D7D8E4"
+					"encrypted_size_2"		"8B9F625658301DDCB96C5930C4E579B6"
+				}
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"D43DCB5A8EF5E859B90A00C9B103DD8F"
+					"encrypted_size_2"		"EE1494A679E4F0C4CDA8DDDEA7E6978A"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"57368D135F43AE85F19600EB0AAF5BE3"
+					"encrypted_size_2"		"4D618FD13DBA87C09354CBC2E91D1341"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"531400BD0D2CD4859A95B7600377BDF8"
+					"encrypted_size_2"		"E8FD61AA153E16FF620038D219EDF898"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"FC954B2AE9EDFED6EA051021EFDD4E2F"
+					"encrypted_size_2"		"3F69F917E5A9928C75E30091B535A653"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"FE7A71A4B86F0BDCF1F6CA3B5921DD70"
+					"encrypted_size_2"		"9A704533E05E68284139F3053CCAB3BD"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"B75B930BC44AC902316CF944A7058C41"
+					"encrypted_size_2"		"D13D5DFD542AA8AB50AF81542C4D15C4"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"987DCEC0ACA55783D87A2125FE145295"
+					"encrypted_size_2"		"3902D73795017A8CE0F82E745D88406B"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"E79A3641FA1D75C5456EA1B43E975983"
+					"encrypted_size_2"		"92A52332FFF9901A8CDD4458F6DD0079"
+				}
+				"internal"
+				{
+					"encrypted_gid_2"		"60F12985985E88108BD376CE78E87D8F"
+					"encrypted_size_2"		"7DE95192A1CA243A21DA0B8D685A291F"
+				}
+				"internal_box"
+				{
+					"encrypted_gid_2"		"B0B809CA73EFA25327ED9B0C44507E01"
+					"encrypted_size_2"		"C382555EC5F58A02C0C0BD63430CD103"
+				}
+				"loc_test"
+				{
+					"encrypted_gid_2"		"16C5B6F985EB1CB86CD8EF4DB62A7350"
+					"encrypted_size_2"		"E301AFB6C32560E632864355E1FF31FB"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"0CC03813292CFEE4AA2C0B62A5A1883D"
+					"encrypted_size_2"		"AA3126C053CC71C14A63D424939FE85C"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"6C40AA4B75C3B650FA7E43282D5C0BFB"
+					"encrypted_size_2"		"F68EBC3413DBCE623E8E2D77D6712FA0"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"609ED8DCEE1CCC66BEFA4B7714D2B772"
+					"encrypted_size_2"		"D60A5DF687FCF010BBD492B6ED075714"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"FD44E86A617EE681A3368D852F7E526B"
+					"encrypted_size_2"		"30F4994D4AC23FAADFC3FE83268D1EB5"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"41AFFD63813FFD9158288ECD1E6A9D9F"
+					"encrypted_size_2"		"AF7038F1618FB01BD9EB307EFBE4037D"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"BF871A44F59638AE38DA05398809F952"
+					"encrypted_size_2"		"7FB0CEBEA3EBBC5204FB8F68808CA85D"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"884382F2151A3030AFFE81398E228351"
+					"encrypted_size_2"		"EB15751D755B55F9E0A1390660713A96"
+				}
+				"testbranchv1.99"
+				{
+					"encrypted_gid_2"		"D424BE1B3EFCD8A3B3030F33F8E86F87"
+					"encrypted_size_2"		"9F42FECFECF87951C6AC073A18BC51B5"
+				}
+			}
+		}
+		"690792"
+		{
+			"name"		"RP17 Exe"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8332694776608950084"
+			}
+			"maxsize"		"22487040"
+			"encryptedmanifests"
+			{
+				"a_internal"
+				{
+					"encrypted_gid_2"		"C44B0CEFFEC42966408B5E382C04069A"
+					"encrypted_size_2"		"309FC8D13755E3DB7FF85D644FE93A0E"
+				}
+				"a_stable"
+				{
+					"encrypted_gid_2"		"8911DE75F8BC05EC34FA754FF7CB3F2D"
+					"encrypted_size_2"		"159B865DA31CB305CBBE473F2B8FD18A"
+				}
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"DA79D203FFF7E277DF373557C66A4260"
+					"encrypted_size_2"		"3F0697A9C02579A2A59620996EB7D459"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"0917BC8DC0D0B8F69F742F7E0EC799A2"
+					"encrypted_size_2"		"F8B7D82D71E589513FB7FB9E0691FF3E"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"AC82F0B3A826BA740D0D2DE0D40834C9"
+					"encrypted_size_2"		"1CCCE7C0EF660B4943B092A2C7C52B69"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"44C21E804EA4FA697BBAA909ED829755"
+					"encrypted_size_2"		"239CD038668EB0DE95C12794FBF540E7"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"22CF9B12941A552B8B8D698315B5B3E6"
+					"encrypted_size_2"		"65E2CA62DC727B7E9D971FB5368FC2BA"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"363335DE715DD2CC50506802D0FBC9D8"
+					"encrypted_size_2"		"56C0B09C02730232EEDD2665C3F27DBB"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"E0A640CFA96BE6EE9EB515BA299A13A9"
+					"encrypted_size_2"		"544C4885E64EDDFF6CAA4447B7B739E4"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"7462BA1E387AD24A55A20DD7BA430BA1"
+					"encrypted_size_2"		"11E4D41C5B5D632812D8DF3B0F82BF53"
+				}
+				"internal"
+				{
+					"encrypted_gid_2"		"C728063FC9BFCFA0F6E4F29007D5F4C4"
+					"encrypted_size_2"		"B994ACC68275F328BB4CBED1082E0134"
+				}
+				"internal_box"
+				{
+					"encrypted_gid_2"		"DB51105DCCFD395383ED1CA211263EFE"
+					"encrypted_size_2"		"DBDAD8884CC70321AF7712922A25ED7E"
+				}
+				"loc_test"
+				{
+					"encrypted_gid_2"		"1E0B1A50392799DE2CB189C064D97A8C"
+					"encrypted_size_2"		"225642169134035F1E90EC018E8A2558"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"6C6E99B3E6F0F4D0186B9DEF729A0F21"
+					"encrypted_size_2"		"D9BDF1D3D24624809875B18C2C81C313"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"5DDF3E3E2DEFC8AFEA219ADE8450A75F"
+					"encrypted_size_2"		"852A459AB9267F96D59D6AEC198B9268"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"915887AD82AD1010BE18A1EB89DEC2BD"
+					"encrypted_size_2"		"C91B5EBF7F21786B1A6CEAA241D9C08D"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"8E7B9A1B3C32978B8412A22444876008"
+					"encrypted_size_2"		"205B8D162D579E00FD94C8A989DE2B59"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"0B946D87C5BDCDC387989111B384AC7F"
+					"encrypted_size_2"		"70118D7AD3F47CE70D8ED9C84C998A1F"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"D2DE3FE814B645C8AE5B6CB7FAF9EE08"
+					"encrypted_size_2"		"B46F800875A9561F81B64957CF4D75B4"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"02D94152D8994AE7E9D51E1886926066"
+					"encrypted_size_2"		"725382313573D53F96EA974BF7E8A778"
+				}
+				"testbranchv1.99"
+				{
+					"encrypted_gid_2"		"01DD9433516BDBC65199B8F56779DE1F"
+					"encrypted_size_2"		"6DD5F832414E136C3CB6767D8B284D75"
+				}
+			}
+		}
+		"690793"
+		{
+			"name"		"RP17 Debug"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4280537490385688123"
+			}
+			"maxsize"		"39422573"
+			"encryptedmanifests"
+			{
+				"a_internal"
+				{
+					"encrypted_gid_2"		"78CF51482939C59846C2E30B6644C1E8"
+					"encrypted_size_2"		"AF290575628F0D27F913589F52700380"
+				}
+				"a_stable"
+				{
+					"encrypted_gid_2"		"A21BB25B505150DD149372F0CCB04439"
+					"encrypted_size_2"		"08567366FE2DBC84C7B536F273A2D99E"
+				}
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"F49544DDA085F8F816CBEAF16CF11CE3"
+					"encrypted_size_2"		"09532190E7C19EA96979BFD60FEB4826"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"13C0C4887C3939EBF2DC0925868F7CFB"
+					"encrypted_size_2"		"F740D2247B3F7B2F4242EF56D371D000"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"EEA1BD1DD57E1AFECB08336E9C508792"
+					"encrypted_size_2"		"0297FF8C38C184D56069CD7B05143283"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"E87F4837D4159442871FAD2080211A68"
+					"encrypted_size_2"		"00FCCF2877339278954BD235068F640C"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"0D2971D3729318CDAD2E499AD7E28973"
+					"encrypted_size_2"		"8F25DF4196DDED30C05A8AC5B7CD832D"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"4FB3996445151D4B0A0885B9AE9ED94B"
+					"encrypted_size_2"		"7D76ED377682F0FE22DDF8059872F0E0"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"2AED355BDF46384B4DCC08C815E64C6A"
+					"encrypted_size_2"		"20D2F09B3403847AC55B340E4559F810"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"80BB34C1DF078DB8E0823797FC3BAC99"
+					"encrypted_size_2"		"D44113EBCAB1834F94611B206F612673"
+				}
+				"internal"
+				{
+					"encrypted_gid_2"		"F1806BCE931F8D133337C655972E15D2"
+					"encrypted_size_2"		"3DA5EE4269C08F0EAE8C03B3BD471A1B"
+				}
+				"internal_box"
+				{
+					"encrypted_gid_2"		"E934AFEFF6D03D53CF6070533C271CA7"
+					"encrypted_size_2"		"32DA5560D7D78DA51F1354D4EB82D557"
+				}
+				"loc_test"
+				{
+					"encrypted_gid_2"		"5A74F9D1892DCEF1E9A37CE739D7A35D"
+					"encrypted_size_2"		"D50633EAEB0090540CAFC88F23DF7AAE"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"A5E81FB92CE3608A54180BBA5DC37562"
+					"encrypted_size_2"		"23809B77D28300C67941BFA9ED911208"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"B9134F224144966FE7BCE7781F2275E6"
+					"encrypted_size_2"		"5F60428D8A809F7B4A91F21E72746E38"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"2BDC26D056D4FAE7E70FE204AA7FA44D"
+					"encrypted_size_2"		"AAE7575F7D9E07D609ED17228C6E7EC0"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"EE93ECB6FF17DCF6FE4B1FB31FAFAC8C"
+					"encrypted_size_2"		"6E99F7819E0CF3A79CEEAEC0C05C6B8F"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"88693906A12DB477853ACCFD61BF958A"
+					"encrypted_size_2"		"FC734AD8C54D408852478E2A0007DDBA"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"AAEFD7A312FA425BF45C35D9DA90AFEC"
+					"encrypted_size_2"		"90A6B72CEF258ED1349D0FB79A23E989"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"DDFF62B6F147BF0FA6C6A196BD66C153"
+					"encrypted_size_2"		"A205B9CC63DD526E2C5957A7A8CD9285"
+				}
+				"testbranchv1.99"
+				{
+					"encrypted_gid_2"		"59A3E1AF7F6B2896E339DCE3B5D800BF"
+					"encrypted_size_2"		"505BD424E1FC30BA9A734CF084E64348"
+				}
+			}
+		}
+		"690794"
+		{
+			"name"		"DiRT Rally 2.0 Cars"
+			"manifests"
+			{
+				"public"		"6081185173809796296"
+			}
+			"maxsize"		"9346495616"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"DEC750C31B7EBECAB589F1A01CFEE092"
+					"encrypted_size_2"		"2BAE2CE4095FAF049634CB1BB7DE7822"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"C0000728A59C095A9C93E8775AA25451"
+					"encrypted_size_2"		"AB53E8594D260692E8219216E75E3279"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"1019885C3A01FCA770A9B3E6962689B4"
+					"encrypted_size_2"		"F86016A2BE1391ED9493492985C3341F"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"40A7BC50D1D1F7BB968A64017A732273"
+					"encrypted_size_2"		"C5C95F4D2B004F0F8656886083C99396"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"234F0F6FD68FF10FA6D0E1AC8943C8F5"
+					"encrypted_size_2"		"37AB190498C49B5CA8643B388AC2B7FE"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"ED7C20B2F0C089CB063D220388AFBD80"
+					"encrypted_size_2"		"41C71F2D1A51BD6462C18D972CF14A88"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"FE9E93215B1EC4FFE6A91D9D258B29D0"
+					"encrypted_size_2"		"03E444E48AF0CAB72AA5ACB24FFF5FD9"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"74CBCEC9DB5B0D451C07A0318268B51F"
+					"encrypted_size_2"		"FB9DF9327906DB994FEE2FBDB073A00A"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"C05D319C0097A947E4D5ADD5F39C896F"
+					"encrypted_size_2"		"82D8DF39C32F8E361086BFD6126A92C9"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"35E9D2A64437DA339F2D902ADE6BB425"
+					"encrypted_size_2"		"8506BB10789412C764246CA457E279F6"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"D22FD4E3CE24669A1207A2E5A10C4408"
+					"encrypted_size_2"		"0ACA76F252E678EE2FF830C572BA3F92"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"E9701EB43151E7A7CB621391688C3383"
+					"encrypted_size_2"		"2F22FCC827226C05CDA6A00CC73D9666"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"B5BCDC32E81CB1C4A784689261673711"
+					"encrypted_size_2"		"60CABC1751EE868D08F0AB0FECE099C8"
+				}
+				"testbranchv1.99"
+				{
+					"encrypted_gid_2"		"7E8F95A2BEBE4DAF9EBCA714D4C34EA8"
+					"encrypted_size_2"		"0BC53DDAF6DE3E776E982230E424DC14"
+				}
+			}
+		}
+		"690795"
+		{
+			"name"		"DiRT Rally 2.0 Location 0 (New Zealand Rally)"
+			"manifests"
+			{
+				"public"		"6152701538376316402"
+			}
+			"maxsize"		"4028863146"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A972181DAA4AB4BCFC5005D9539A8A27"
+					"encrypted_size_2"		"0BFDDD9D7722E6B08EB5604367131792"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"3A4B7E12DBB57852B401035FA1A5B639"
+					"encrypted_size_2"		"ECEE170EBD19B9E7DFB86BCAE6379604"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"BCB97FD19E1A31F1CF94F7650D703556"
+					"encrypted_size_2"		"9A4957BE706F5C03D16FA7C6E56FFB5E"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"D96C7FB6425F00206B0027A3AB8CD608"
+					"encrypted_size_2"		"66B7396D8744821970428B289CB5DFE3"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"39951DFB52280DC698F568B0D0E933FF"
+					"encrypted_size_2"		"2AB25C79021164BBB8682CBFE59F9094"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"F55502BE61B185DC2854E6D9C19FC51E"
+					"encrypted_size_2"		"E6DDE1CCA7BE4369741D59BE4B595867"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"25DFE32037CAE8C81D17B50755815608"
+					"encrypted_size_2"		"43E059E0C80019805F1F193CFF3DC3F9"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"66234527EFBD3295283A58806B129595"
+					"encrypted_size_2"		"EAAE9AE83F668D66D9C76A652FE7E5B2"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"84E4435F5AD692F221A459954734CA22"
+					"encrypted_size_2"		"F14A5A9801F5016E52D27449109DB89D"
+				}
+			}
+		}
+		"690796"
+		{
+			"name"		"DiRT Rally 2.0 Location 1 (Poland Rally)"
+			"manifests"
+			{
+				"public"		"5177698062175283153"
+			}
+			"maxsize"		"4937525412"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F949627684BDFFBBA4D07EE83F8114B0"
+					"encrypted_size_2"		"5C1455F6682F31A711459FFD6FF07E5C"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"B537948F4A9D82361718B268E21B26C9"
+					"encrypted_size_2"		"05254858D66734547B1B01DE2A2401C7"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"42DF55B85616EA691546BC159599A95A"
+					"encrypted_size_2"		"DD89CC2662B709BF82A5E9C781C2E51B"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"8025F1B2ECF3149462770395ECE47C74"
+					"encrypted_size_2"		"CD2B4318FB6882B2614BD2C2DD6958F4"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"B4BEAF0D67D4ABC99BF3C3F0FFFE58D4"
+					"encrypted_size_2"		"46FDF2CC74E2C1FF9FF835A71D556802"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"8BADE293F8AD9128E7B4292F5F584511"
+					"encrypted_size_2"		"7D3D431AED9F810CEE31C4019D57E3A0"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"CCAC9F38A138C33F815732B592EA9A94"
+					"encrypted_size_2"		"CD6919A54C46C651D4EFF273F82A577C"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"CDD226F56448CF968CD96E87B4A55F67"
+					"encrypted_size_2"		"6ABBD5523CDA8285E99C14A51564A8E4"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"447AA4751A030DDAD71D17538D5E0C68"
+					"encrypted_size_2"		"400BEBC18EFFA437686C531CBBBF1C74"
+				}
+			}
+		}
+		"690797"
+		{
+			"name"		"DiRT Rally 2.0 Location 2 (Spain Rally)"
+			"manifests"
+			{
+				"public"		"5191693106685464446"
+			}
+			"maxsize"		"4605202050"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"5C810B1651EBC7FF67A6D05978FA6565"
+					"encrypted_size_2"		"F9C8E7547D2B6CA8DAEAA0400BFDC83C"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"35683A5AC43BE9104D12E94578CF5E9C"
+					"encrypted_size_2"		"A39FC2EB29D80D0D98ABF56F5EBC38C5"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"BA82C9F59FE854F0887B5CCADC840CA3"
+					"encrypted_size_2"		"B4525607F81297A2E64EC42FC71F03AD"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"6192326CD106092F82704D3FA24C88AD"
+					"encrypted_size_2"		"5D540F5D3CF9D0B7F7F89EA070AD7C3E"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"5473A56D7D0B71AB2EE49BF01A0AC22C"
+					"encrypted_size_2"		"C4E524C595FB4EB1DAE90EDBE49C321C"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"4EFBE6CA5144BC9C0276C7047EE49C8B"
+					"encrypted_size_2"		"DB4F5D0394511AD9CF2307F3DA8AA427"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"8EFC9EA84F54F7A4D4BE43BFFBE30DF9"
+					"encrypted_size_2"		"AD0053153C0FCDC81ADBAA69374A7E09"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"C7B9D4518BED4CBA72838E2894694958"
+					"encrypted_size_2"		"CAA6E8E084B2E53A375A5D3F82E7B725"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"DF2442124E0870EB53F6A7C2FCBE9625"
+					"encrypted_size_2"		"837A7B03CD28849A705CF0940526E7A5"
+				}
+			}
+		}
+		"690798"
+		{
+			"name"		"DiRT Rally 2.0 Location 3 (Argentina Rally)"
+			"manifests"
+			{
+				"public"		"4668670909653897918"
+			}
+			"maxsize"		"5946013989"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"87FE6641DAA00F4BF211B8160FFC99FF"
+					"encrypted_size_2"		"6BF23164789AE1AD317BE33E839AF9BB"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"D6DBB377ED3C55816C770B4DCF19AC09"
+					"encrypted_size_2"		"8072668C97BEF1A9E1C041DA334E00F9"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"CE822A70E5C060211B9D8CF6F3221703"
+					"encrypted_size_2"		"1811F2FB5BDFA404CDF4BE2DA90D7579"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"FA496128DB98A3599D9FD7D53C43BC9B"
+					"encrypted_size_2"		"31739E9068882300AEE396C964270AEF"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"DE7034A274C4DC46A30C120EAB3FED76"
+					"encrypted_size_2"		"BCA7C7A13592477DFDD031C0ED8F5E8D"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"0679D704952013E9DF58B543C59A85BC"
+					"encrypted_size_2"		"0A499BF61A3712C1C36AC41A7F0DC396"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"511004471B647E8072D19AA6E3E0AE3B"
+					"encrypted_size_2"		"2375215E23FA4BD967F42C22DFA824E8"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"6F3755E51984CABA4E23D72A0C796DC6"
+					"encrypted_size_2"		"141E12A62B59C11154030C391DCB7B22"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"7D1E330951EF427886E750B806B4AFE3"
+					"encrypted_size_2"		"EC8A2BCAA4EB724DB3AE2AD25EFA65C6"
+				}
+			}
+		}
+		"690799"
+		{
+			"name"		"DiRT Rally 2.0 Location 4 (Australia Rally)"
+			"manifests"
+			{
+				"public"		"4438738795134699694"
+			}
+			"maxsize"		"4164482418"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8550A46DA09945DC7931F4F2719902F3"
+					"encrypted_size_2"		"D66A265AC1C10E2425B5EAC6A61F7E57"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"C5ED7D79F3E04BB8425E40B3E4BA84AC"
+					"encrypted_size_2"		"B1C0B25084B7F6B34ADDA4881A621012"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"E347E7A0B4F5D3F5597F96B9CDD5D35A"
+					"encrypted_size_2"		"AFD5222BC4EE8144507AC1EDECCD0CAB"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"14C392D1F45AD16E1F3FE4421A2DCE41"
+					"encrypted_size_2"		"F6D873BCCE4D3ABD3370ABDD601EB545"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"3AFC0A5B85EC77A50415BC1E08E7F12F"
+					"encrypted_size_2"		"7B3C4FDE82DF1712B995D253A54DADE0"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"9CA553B5E85A4D162C5464C15DE316F6"
+					"encrypted_size_2"		"DB4226C85D60E9C510213650512A7FCD"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"EA3B4938198FAABF1A3CCFAF16B54568"
+					"encrypted_size_2"		"FEAC47D5A20C2C50207E6D0360093F21"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"5FCB2A6D65B080DEAAF101E5A24D2B87"
+					"encrypted_size_2"		"6FB2F03E53FD3C9BDE0374175D672E5A"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"249DA5B327410B180CC71489578312CB"
+					"encrypted_size_2"		"0CAEA49FBA4ADAAD9A4BCFE7842CEEAD"
+				}
+			}
+		}
+		"939883"
+		{
+			"name"		"DiRT Rally 2.0 Location 5 (USA Rally)"
+			"manifests"
+			{
+				"public"		"6775270195344734644"
+			}
+			"maxsize"		"6426085203"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"7CE1BD8BC49173C3DAFA20D312F1FBC5"
+					"encrypted_size_2"		"E7F02862874A1CD2CAB743521D950826"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"9FFB3272A3166F4D0178FA5AE771B495"
+					"encrypted_size_2"		"00B89A893FD8B023BF7617950F49F4D8"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"C852A45991C5FF38008ACFB040285ABD"
+					"encrypted_size_2"		"C9B9459B829459F2CD337673FE3E40DB"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"E55AE8AF7ED3044F635CEE887C76DC7E"
+					"encrypted_size_2"		"3B84D4B2EA252E38962F59D59C26EEB8"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"051CA89A87C682B8C901A3EDAD3B0919"
+					"encrypted_size_2"		"191C7475D9F1F3D6B4B3E3F79A22A21A"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"94B1C65F314D1F64FD82C34601BA6ED2"
+					"encrypted_size_2"		"C6C44794F8BE8B7C6DE2B8289AC12E12"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"4EC465A6BB2174542E685DF9B240D1E2"
+					"encrypted_size_2"		"07842A1FE4C1F24C03850B6A427F5608"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"2529CA64641560451B5B05FFC06DFC48"
+					"encrypted_size_2"		"9FBDCC5DB1E54C0FFF77A31B81AE245F"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"E2093B07BF2B749B0D287E58B21788BD"
+					"encrypted_size_2"		"F1D631F0BBC3C3D16C59B06A62E22651"
+				}
+			}
+		}
+		"939884"
+		{
+			"name"		"DiRT Rally 2.0 Location 6 (Belgium RallyX)"
+			"manifests"
+			{
+				"public"		"591077615613640105"
+			}
+			"maxsize"		"1108436277"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"6057A39ED5954CC6BC6B9987B0F57E26"
+					"encrypted_size_2"		"B4D22363B12A013F08F206CD09C82BDD"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"89E82C352563F8BE6E3CBCAD142AEE5F"
+					"encrypted_size_2"		"B3780C9C7B816B40C4F308BEF88D4393"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"86EC6562D4B043B3204A5CF46E7B3F68"
+					"encrypted_size_2"		"05B617B6387C5C5350F58892251FC325"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"62E3A034CA996291C987B5A5E9827799"
+					"encrypted_size_2"		"7E64653E01ABD168C8A6A19131F9783E"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"1B8D59CBB7EBB877811C3E9012B658C6"
+					"encrypted_size_2"		"1C55C6CA5C5B62FB2A39ADCB72C5B581"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"FA8928FB1C39F974EF632D3F633281D6"
+					"encrypted_size_2"		"13E9ED17886520101BFB3D19E3C239C3"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"B1FE73651FD5DDEA84C2BBD94E1B0DC8"
+					"encrypted_size_2"		"537951154693D0EB83E7B0A161021035"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"A304577E4764946E77DF75C4E24E5D6F"
+					"encrypted_size_2"		"6C96AFD231EF9C0501DE3A5E026C5ADF"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"0C4FBAE18B84C4A311D0883779C315C6"
+					"encrypted_size_2"		"321D45B9B4E4173BC37E910FD218A002"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"3DDDA9FA3F57956496DA7703AFF9AD09"
+					"encrypted_size_2"		"A6AC37094EF1CB14503EB50C04B98DD3"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"5FE57BDE8A9ED2229DB00A2008925EC8"
+					"encrypted_size_2"		"F7C6DFF95746208069B396A74794F3E1"
+				}
+			}
+		}
+		"939885"
+		{
+			"name"		"DiRT Rally 2.0 Location 7 (Canada RallyX)"
+			"manifests"
+			{
+				"public"		"9128435499164207835"
+			}
+			"maxsize"		"2213990069"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"EDE6B16810F72F1DDFCCAA2767AA0D48"
+					"encrypted_size_2"		"E577BF2FAC4CB92926D3D05E0FE81E55"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"737189E5510C6557DDC24CE099355C62"
+					"encrypted_size_2"		"E366014845FD09D0BEE1D4573003DDFD"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"993F052A7DF48E20978BB3D66F5FDAC1"
+					"encrypted_size_2"		"31A2D7EE4C82703472E6656E35CEB807"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"9EEAB5F0A8607C30BB5C33A57033D80B"
+					"encrypted_size_2"		"ADF47763DFCFCEF6777AFC577201130B"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"B86C5D99EC6DB4FD90CEBB101E6E31B0"
+					"encrypted_size_2"		"43831BF20FED187C456DC75794B93960"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"588A6606203DD88CC2B7D3F52A032D76"
+					"encrypted_size_2"		"D12557277EAFF8A097775036738A671F"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"D7D7C4CA297304544E53CA9D15C1A155"
+					"encrypted_size_2"		"20EC472E217A69CAE78E504CDBE2CAA4"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"B67506D3491E2777CDC5E9F0D07F0F92"
+					"encrypted_size_2"		"10CD3FAC73D0D720F9ED2D7CC2E190A7"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"83CCD6AC88AD9DBAC66174775C4A1913"
+					"encrypted_size_2"		"E714FD60BDAE7401AEB12A6D78F7A238"
+				}
+			}
+		}
+		"939886"
+		{
+			"name"		"DiRT Rally 2.0 Location 8 (France RallyX)"
+			"manifests"
+			{
+				"public"		"6687593820984025421"
+			}
+			"maxsize"		"926492440"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"747C9EB46BB6B39D75877C05E2FC11F8"
+					"encrypted_size_2"		"E08D78ECA8982D586DB1D301C8C98A19"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"C1647D1B67F3D549D68991BD2B74B30A"
+					"encrypted_size_2"		"3F4860870896CA02E9DFC555728AAD4A"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"DDDDAE583763F75C5B21C78A9CA3ABAE"
+					"encrypted_size_2"		"A31D992974F8FFE891E2828CA398D412"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"C22B2E682F59B4CB7D298F922C6D043A"
+					"encrypted_size_2"		"69EFA4237C5EE163DB0A1A0B503E49B9"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"0CD554D62CCB1B0A0F40F1D6CDA4AED2"
+					"encrypted_size_2"		"2FBD3394FD2295FB6B6ED0E291097BE4"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"898B3B7C3F4A523C7F47B13F17ACC30B"
+					"encrypted_size_2"		"3405E0D689E80525E1A4F743DEAEE6C7"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"A218E6010F275A4A3559E4855AAFB5FD"
+					"encrypted_size_2"		"2FDDD0614F4915BA609C36249CEACA19"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"37444C512CDBB7D8EEBFA3F564A01AB8"
+					"encrypted_size_2"		"CFD2E5DB99FDA7AEC3714C1EDD83C18E"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"F961DBCF612D56C4F5A4C995EAA18648"
+					"encrypted_size_2"		"1458C5EE130D15BC0F0036D43224B5C7"
+				}
+			}
+		}
+		"939887"
+		{
+			"name"		"DiRT Rally 2.0 Location 9 (UK RallyX)"
+			"manifests"
+			{
+				"public"		"7536545564649662169"
+			}
+			"maxsize"		"1005597419"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A7E1C63C810AC99BE252855629CBB199"
+					"encrypted_size_2"		"FA1699F58CCC1050487AB7DC7B01D13E"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"B714C89EF5DADA0930228488AA4AC083"
+					"encrypted_size_2"		"865B0F243C1B5914FE0022BA2FCC91AA"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"EBABB667D9AD20FC4B70076646D02422"
+					"encrypted_size_2"		"BB1FCA2DB476BDB194476B49275EBE03"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"B3ED66F9B4B98E971B076D7DCBBCF949"
+					"encrypted_size_2"		"82BA246029E194F74BA45B2CF328B5B1"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"460D8DE456CB6C3831664351BF5BABAD"
+					"encrypted_size_2"		"3DE43B1A1DD5AEABEF478911259F9447"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"2F85C2AF494164BBA4AE784F86F4B280"
+					"encrypted_size_2"		"7D4E1EE6E12B1112CC733A1D632134A6"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"5E4BE098EE3F4FD24158E1338C9BA2FB"
+					"encrypted_size_2"		"71C5FDC43EE799ACEE526C56717087C8"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"F2AAC5A9B0904E0DBB881506A3F44D42"
+					"encrypted_size_2"		"64660A5750C32AA950F7F8FEE0275BF1"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"E28B310ACC7DDE923908433DEBAE4C1B"
+					"encrypted_size_2"		"31B7BAB34DAF03B30A1C45CD82B4BE00"
+				}
+			}
+		}
+		"939888"
+		{
+			"name"		"DiRT Rally 2.0 Location 10 (Norway RallyX)"
+			"manifests"
+			{
+				"public"		"3729427381119955317"
+			}
+			"maxsize"		"898473018"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"55FFC9F8E10C8908242D5325A58AB031"
+					"encrypted_size_2"		"8CD0A56D78EFF4D877EAC6788CD2545F"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"C90640EE6462FD4E38564F6E14DB3684"
+					"encrypted_size_2"		"2E6CBDC5DE76F98F0DA2C0176B206C04"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"02674A6B43A62F8FBB3E28E89EF40A6A"
+					"encrypted_size_2"		"599471FF7101F592AE91ACD8E2B7063F"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"DB4B18A1A5532E155AC7218B4586E798"
+					"encrypted_size_2"		"2BD17527E8F8B8510E9487956D8A359C"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"2F8CDFB5E3DB48CBA550D9AA10843519"
+					"encrypted_size_2"		"63AECDEFB23CD34B89F52069799262B9"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"F4DC0A54DD8FB585B04EA35EFC8270CF"
+					"encrypted_size_2"		"90A512C87333BDBE09B1553E0EF6F339"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"09646009DFA73C8E64A14BFB456D9D38"
+					"encrypted_size_2"		"7D1AE50CB96DA4553828954A1AD6AE10"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"EA47D4DF8B3A3B8E18BA359B88A8E60C"
+					"encrypted_size_2"		"7868519D7E27DC13D7B20AA71AE88EAB"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"1F126220486AE77D1DA708B11B0E8029"
+					"encrypted_size_2"		"C3942EDF1B92B0253D30C828833B012C"
+				}
+			}
+		}
+		"939889"
+		{
+			"name"		"DiRT Rally 2.0 Location 11 (Portugal RallyX)"
+			"manifests"
+			{
+				"public"		"2201105350167418927"
+			}
+			"maxsize"		"883551966"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"B7A451F1A2FFE9832542D22320A84A5F"
+					"encrypted_size_2"		"ED0204DD53B8F498BA973A58C792340A"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"CD1B23369FE0A7BB82B7347709510014"
+					"encrypted_size_2"		"B96336133AFA6A79F68F4B5A8710DE02"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"27F5BE2983C8AA3A6060BAEAD3B989CD"
+					"encrypted_size_2"		"2D3DA4453DAA9836F686223C4689689D"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"2E3BA2F1C1FBC2949C393204CB231E4E"
+					"encrypted_size_2"		"65F4CB491526AB26E0E0AC51875BC8E7"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"C708F25E2054EFD38F8ADA775BEB62D2"
+					"encrypted_size_2"		"D7CDEC00B7BBD8B94719CADE99C690D5"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"E18F51A99E93868EA0628FB9D0334C6A"
+					"encrypted_size_2"		"675410951E02C22D393C3C58A7946BCC"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"18AAC2ED45E1DADC26D26913E558D422"
+					"encrypted_size_2"		"8B59310B6732D9C22064511D886D5761"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"B931F5BA6F37833635DDE4E337C48DB6"
+					"encrypted_size_2"		"3F8F15EF69CC0F3B380DC21CFF25F722"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"067CBCC0F381E04F8A3AC6F8899DBF55"
+					"encrypted_size_2"		"23AAA3F5A77A4C7D54747A0229D0F2BD"
+				}
+			}
+		}
+		"977661"
+		{
+			"name"		"DiRT Rally 2.0 Location 12 (Spain RallyX)"
+			"manifests"
+			{
+				"public"		"3806616963286021545"
+			}
+			"maxsize"		"981010677"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F8BE91C972FA9B630A54675B87BE6F78"
+					"encrypted_size_2"		"8D37AA6481273D707C6D31BD6F29F7BB"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"6E176AE67BC667ADA81D8CA5D299291E"
+					"encrypted_size_2"		"1CAE9B2CB13ED45E0850A105B33E6731"
+				}
+				"external2"
+				{
+					"encrypted_gid_2"		"EC0D443EBCAC431FD0125312FB60EE09"
+					"encrypted_size_2"		"1695184E5A357F1D96905AADD991B580"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"85E071FB3A9D1A7E4818D2DF6BC2379C"
+					"encrypted_size_2"		"0073CBE69A71DB62B003B188DBF78EA2"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"655769C38196CB9165D49B51D9BA879A"
+					"encrypted_size_2"		"8AD832BBC48CF42CB3A83E45B0016510"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"B8802DFDD0990D1C98DA512C82113E7A"
+					"encrypted_size_2"		"16898FF2EC1525F8625D258A1A29E2D2"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"BD4A40F86CAFF82CDEB0136BDC937068"
+					"encrypted_size_2"		"EAA23887AFF484A7948C9DB472B0B862"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"204164D22B2CB42D5F3406F08F0AE7A2"
+					"encrypted_size_2"		"504002752F00AFD3315453E6C4F61283"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"7323FEB25BE7EF81354E200A1C17C46A"
+					"encrypted_size_2"		"7F0A14DA11286F4D973C19D032744B73"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"65C84D2335447E8A84A3EE5A8F9335A4"
+					"encrypted_size_2"		"8E8FA0DAA9709BAE8F7AB0CEF09542D9"
+				}
+			}
+		}
+		"977662"
+		{
+			"name"		"DiRT Rally 2.0 Location 13 (Sweden RallyX)"
+			"manifests"
+			{
+				"public"		"2913589459752426828"
+			}
+			"maxsize"		"1030135258"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"B214325BD0E76D6654E8C6B5C6D10DCB"
+					"encrypted_size_2"		"DE13542919F2082F5FE3C0F80B423B3F"
+				}
+				"external"
+				{
+					"encrypted_gid_2"		"F711E8DD931C11CD7DEC7623DF5E7CA3"
+					"encrypted_size_2"		"1F89C1733FDE189B1C08EE0A59F9815F"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"77CAECEF10BC39E3E94B3CCA25F26BCF"
+					"encrypted_size_2"		"19763FC8C429074861BD81B959BE1628"
+				}
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"818322C95A6FDA7005DF5BCF08C7BE87"
+					"encrypted_size_2"		"DDAAD3C0163B378D97C2B205F733B287"
+				}
+				"pressdemoa"
+				{
+					"encrypted_gid_2"		"ACFF815E307174E3E3AFA9AD564BA021"
+					"encrypted_size_2"		"2A74139B14599B666B2DA75BF753000E"
+				}
+				"prototype"
+				{
+					"encrypted_gid_2"		"644954BA9E132718DC9604FA804BEDA7"
+					"encrypted_size_2"		"DEDA2A6A82DF1F4B11EDC946BEDA0570"
+				}
+				"reviewbranch"
+				{
+					"encrypted_gid_2"		"85481EA22759FBFD48A69EC6A36AC221"
+					"encrypted_size_2"		"164FBFCEB0F7F08286CBFB68AAEBF24E"
+				}
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"F2F073A55AA96636CD76B9F7902491B1"
+					"encrypted_size_2"		"371AC14523B760DF02BC82CC34DDAABC"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"EDB2CDDEC4407275FB6800C15677E824"
+					"encrypted_size_2"		"C28AD3D1F82CAFC3896C903224D46156"
+				}
+			}
+		}
+		"977663"
+		{
+			"name"		"DiRT Rally 2.0 Location 14 (France Rally DLC)"
+			"manifests"
+			{
+				"public"		"4933803522465645403"
+			}
+			"maxsize"		"7638493442"
+			"encryptedmanifests"
+			{
+				"inputtestbranch"
+				{
+					"encrypted_gid_2"		"726A5064E3C84849D36FC615FABD09FC"
+					"encrypted_size_2"		"3E8D90EA03D9389CF5E00279391BB106"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"6ABA2F6AFD970560AAC08963F72EC872"
+					"encrypted_size_2"		"2239817BC1B67DE94BBB240110EA76B7"
+				}
+			}
+		}
+		"977664"
+		{
+			"name"		"DiRT Rally 2.0 Location 15 (Sweden Rally DLC)"
+			"manifests"
+			{
+				"public"		"4346122280047190183"
+			}
+			"maxsize"		"4717109378"
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"74D2BC1B74F28033E29C694699DB0662"
+					"encrypted_size_2"		"462825CB4DF676C7B6AD1F23FDFFC98C"
+				}
+			}
+		}
+		"977665"
+		{
+			"name"		"DiRT Rally 2.0 Location 16 (Germany Rally DLC)"
+			"manifests"
+			{
+				"public"		"5805022767122943285"
+			}
+			"maxsize"		"4823775346"
+			"encryptedmanifests"
+			{
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"B81944E34A25EA2630D5AA6CEFD2F84B"
+					"encrypted_size_2"		"6C67697E52F75FFE212FBB118A752697"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"AA7BA154CD7B4064E5B88F0F978004ED"
+					"encrypted_size_2"		"064C81C661D6513FB8103470E129A031"
+				}
+			}
+		}
+		"977666"
+		{
+			"name"		"DiRT Rally 2.0 Location 17 (Latvia RallyX DLC)"
+			"manifests"
+			{
+				"public"		"7421727578757735809"
+			}
+			"maxsize"		"1222398417"
+			"encryptedmanifests"
+			{
+				"rollbacktest"
+				{
+					"encrypted_gid_2"		"6DAABE1F5B3CC0BD54A0E6C146DECC30"
+					"encrypted_size_2"		"7C7D511EE0B0269F9C9BF76C1950CC90"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"BD55033112F39552791B388F9877A7DD"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"977667"
+		{
+			"name"		"DiRT Rally 2.0 Location 18 (UK Rally DLC)"
+			"manifests"
+			{
+				"public"		"8094159985011189473"
+			}
+			"maxsize"		"6578713666"
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"83978B26D15D1242D5DB70ED92299E23"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"977668"
+		{
+			"name"		"DiRT Rally 2.0 Location 19 (Germany RallyX DLC)"
+			"manifests"
+			{
+				"public"		"208238115072787668"
+			}
+			"maxsize"		"1256169745"
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"1A556DDD9B831EB92D2F09C80CF50CE0"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"977669"
+		{
+			"name"		"DiRT Rally 2.0 Location 20 (USA Test)"
+			"manifests"
+			{
+				"public"		"1305813921932269257"
+			}
+			"maxsize"		"2994703473"
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"E78522DB881282FAC17DDE2A21D1AD38"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988663"
+		{
+			"name"		"DiRT Rally 2.0 Location 21 (Greece Rally DLC)"
+			"manifests"
+			{
+				"public"		"7032019868235220176"
+			}
+			"maxsize"		"5115964738"
+			"encryptedmanifests"
+			{
+				"devtest"
+				{
+					"encrypted_gid_2"		"3DE0E94A63E80E57DF3E29F0D25211AC"
+					"encrypted_size_2"		"738D31C1A260E0EEE66822685F660C60"
+				}
+				"devtest3"
+				{
+					"encrypted_gid_2"		"5D5FB27873FC7F6014FAB4E67B08FF1A"
+					"encrypted_size_2"		"5AFE7A605385C0344766EA1BABA3DE24"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"ECC69547F1136100F3EFD7C17408E584"
+					"encrypted_size_2"		"CDA1F1EA6A977B2D39F185C87D45D759"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"5399C914029F80875404663B4A2E4201"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988664"
+		{
+			"name"		"DiRT Rally 2.0 Location 22 (Abu Dhabi RallyX DLC)"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"devtest"
+				{
+					"encrypted_gid_2"		"4976A32DBD74AED43CDDD1D127602F17"
+					"encrypted_size_2"		"FD286BA070CA24AB1077871281474D94"
+				}
+				"qatestbranch"
+				{
+					"encrypted_gid_2"		"D484043F975BB29D3D5B59A3135784FB"
+					"encrypted_size_2"		"B0A5B7A97A4D9F989151B3F70135C43C"
+				}
+				"spexternal"
+				{
+					"encrypted_gid_2"		"384FA67E9358F1A65C51A737602C29E2"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988665"
+		{
+			"name"		"DiRT Rally 2.0 Location 23 (Finland Rally DLC)"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"906D860E94C07A1254E8CB4D72AE0E5D"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988666"
+		{
+			"name"		"DiRT Rally 2.0 Location 24 (South Africa RallyX DLC)"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"1548A2F5A0B231863D72D342704253FB"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988667"
+		{
+			"name"		"DiRT Rally 2.0 Location 25 (UK RallyX DLC)"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"spexternal"
+				{
+					"encrypted_gid_2"		"81B09837B0769A74328CB124FEFDF0F6"
+					"encrypted_size_2"		"3060370E4C22143CC10A7E73AA840F43"
+				}
+			}
+		}
+		"988668"
+		{
+			"name"		"DiRT Rally 2.0 (1.13 DLC)"
+		}
+		"988669"
+		{
+			"name"		"DiRT Rally 2.0 (1.13 DLC)"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4172832"
+				"timeupdated"		"1568023238"
+			}
+			"a_internal"
+			{
+				"buildid"		"3381846"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544442000"
+			}
+			"a_stable"
+			{
+				"buildid"		"3145326"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1537782894"
+			}
+			"age_ratings"
+			{
+				"buildid"		"3243937"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540462581"
+			}
+			"baseline"
+			{
+				"buildid"		"3460557"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548151808"
+			}
+			"devtest"
+			{
+				"buildid"		"4179468"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568038491"
+			}
+			"devtest3"
+			{
+				"buildid"		"4096370"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565706941"
+			}
+			"external"
+			{
+				"buildid"		"3524340"
+				"description"		"For External Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549295234"
+			}
+			"external2"
+			{
+				"buildid"		"3712750"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554475121"
+			}
+			"goldmaster"
+			{
+				"buildid"		"3460557"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547632879"
+			}
+			"inputtestbranch"
+			{
+				"buildid"		"3635999"
+				"description"		"Input Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553262701"
+			}
+			"internal"
+			{
+				"buildid"		"3022246"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1533904252"
+			}
+			"internal_box"
+			{
+				"buildid"		"3150118"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538992772"
+			}
+			"loc_test"
+			{
+				"buildid"		"3315089"
+				"description"		"For Localisation Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542620785"
+			}
+			"pressdemoa"
+			{
+				"buildid"		"3472303"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548062940"
+			}
+			"prototype"
+			{
+				"buildid"		"3509656"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548856952"
+			}
+			"qatestbranch"
+			{
+				"buildid"		"4179468"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568038965"
+			}
+			"qatestbranch2"
+			{
+				"buildid"		"4172832"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567779650"
+			}
+			"ratings"
+			{
+				"buildid"		"3243937"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540453254"
+			}
+			"reviewbranch"
+			{
+				"buildid"		"3541332"
+				"description"		"Review Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549965304"
+			}
+			"rollbacktest"
+			{
+				"buildid"		"3907913"
+				"description"		"Patch Check"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560257896"
+			}
+			"spexternal"
+			{
+				"buildid"		"3777821"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556543580"
+			}
+			"testbranchv1.99"
+			{
+				"buildid"		"4178602"
+				"description"		"Test branch for 1.99"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568019491"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

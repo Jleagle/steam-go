@@ -1,0 +1,623 @@
+"appinfo"
+{
+	"appid"		"686810"
+	"common"
+	{
+		"name"		"Hell Let Loose"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"ebb983a53b9a5ecbd6c0b9fe700df7dc635baa17"
+		"clienttga"		"e5cd538a173edf0d7ee16858c89c5cafb6c6787a"
+		"icon"		"d58a1608541697758241fcf0953848d77ebbbb1f"
+		"logo"		"da1a34ca8923a4a64b5ee281bdfc9e043c5d8b19"
+		"logo_small"		"da1a34ca8923a4a64b5ee281bdfc9e043c5d8b19_thumb"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"686810_eula_0"
+				"name"		"Hell Let Loose EULA"
+				"url"		"https://store.steampowered.com//eula/686810_eula_0"
+			}
+		}
+		"metacritic_name"		"Hell Let Loose"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567761885"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Black Matter Pty Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team17 Digital Ltd"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Team17 Digital"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1559815136"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"686810"
+		"store_tags"
+		{
+			"0"		"4150"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"4175"
+			"4"		"19"
+			"5"		"599"
+			"6"		"493"
+			"7"		"9"
+			"8"		"4667"
+			"9"		"4345"
+			"10"		"1774"
+			"11"		"492"
+			"12"		"13276"
+			"13"		"4182"
+			"14"		"4168"
+			"15"		"128"
+			"16"		"3987"
+			"17"		"1678"
+			"18"		"4305"
+			"19"		"176981"
+		}
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=686810"
+		"developer"		"Black Matter Pty Ltd"
+		"publisher"		"Team17 Digital Ltd"
+		"homepage"		"https://www.hellletloose.com/"
+		"listofdlc"		"822500,1091850,1091851"
+	}
+	"config"
+	{
+		"installdir"		"Hell Let Loose"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch_HLL.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL.exe"
+				"arguments"		"-noEAC"
+				"description"		"Development (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"experimental"
+				}
+			}
+			"2"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"experimental"
+				}
+			}
+			"3"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL.exe"
+				"arguments"		"-noEAC"
+				"description"		"Development (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"development"
+				}
+			}
+			"4"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"development"
+				}
+			}
+			"5"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL.exe"
+				"arguments"		"-noEAC"
+				"description"		"Development (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stable"
+				}
+			}
+			"6"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stable"
+				}
+			}
+			"8"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"playtest"
+				}
+			}
+			"10"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"playtest_qa"
+				}
+			}
+			"11"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL.exe"
+				"arguments"		"-noEAC"
+				"description"		"Development (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"zeuz_test"
+				}
+			}
+			"12"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"arguments"		"-noEAC"
+				"description"		"Shipping (no EAC)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"zeuz_test"
+				}
+			}
+			"13"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL.exe"
+				"description"		"Development (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testing"
+				}
+			}
+			"14"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"description"		"Shipping (no EAC)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testing"
+				}
+			}
+			"15"
+			{
+				"executable"		"HLL\\Binaries\\Win64\\HLL-Win64-Shipping.exe"
+				"description"		"Shipping (no EAC)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"earlyaccess"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"686811"
+		{
+			"name"		"HLL Client Windows"
+			"manifests"
+			{
+				"public"		"3150072254454370266"
+			}
+			"maxsize"		"16019123032"
+			"encryptedmanifests"
+			{
+				"alpha-dev"
+				{
+					"encrypted_gid_2"		"58444B8DB601A4CC02A0C70D71365E94"
+					"encrypted_size_2"		"F5835960E99DF29E510D9A4C5B97516D"
+				}
+				"community_server_test"
+				{
+					"encrypted_gid_2"		"CF23AE7B3FB8F311FBDE0B0C8FF02121"
+					"encrypted_size_2"		"30CA8DEDF8742919296A3E5903AA03EC"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"998593D88A55A7AD6FF092902F517DB7"
+					"encrypted_size_2"		"254E0631B7D08DDB523C0614BA8D3B04"
+				}
+				"earlyaccess"
+				{
+					"encrypted_gid_2"		"1C40D3D2C46D1081F7B73ED2BE9D90DE"
+					"encrypted_size_2"		"B24C244400B378C156EBE0782C9E4C96"
+				}
+				"earlyaccess_patch"
+				{
+					"encrypted_gid_2"		"8B25F3BE4498E87BA110B1A880FF8010"
+					"encrypted_size_2"		"D1C940533513EE6BCA21EACD5D1993F0"
+				}
+				"earlyaccess_qa"
+				{
+					"encrypted_gid_2"		"B22A339CD61FF41D4DC538B0D73C039E"
+					"encrypted_size_2"		"B7ED9BFF7778B55EF5A0A58EF896416B"
+				}
+				"earlyaccess_update1"
+				{
+					"encrypted_gid_2"		"9D3F15939FD3E708669A24F1FE6CB85C"
+					"encrypted_size_2"		"B43E380084657FE04819DE463C45E167"
+				}
+				"earlyaccess_update1_patch"
+				{
+					"encrypted_gid_2"		"192487837FBE60450DF4FC24DF56E329"
+					"encrypted_size_2"		"B0C4D70DB674D214F55BD61F2E025237"
+				}
+				"earlyaccess_update2"
+				{
+					"encrypted_gid_2"		"30E1649423F68F54261E4D33D732BC15"
+					"encrypted_size_2"		"980D2C1B3C6A543CC7467E3A82685FEB"
+				}
+				"earlyaccess_update2_patch"
+				{
+					"encrypted_gid_2"		"E201FA2B0153FC1F317A4A3022EA80D0"
+					"encrypted_size_2"		"C393516D7218FFCDF03B0760F0EE41C9"
+				}
+				"enzyme"
+				{
+					"encrypted_gid_2"		"97CB85A9318926CAEC5ECADD912354EE"
+					"encrypted_size_2"		"0195846B5A7E51841D323826E321E0B9"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"B46C20AAEC552C9FA7B6EDC1B8957BF4"
+					"encrypted_size_2"		"0301F1EC9F60D17E6FD6C807CD271662"
+				}
+				"pending_live_build"
+				{
+					"encrypted_gid_2"		"9E5AAFA71454702940EA1C4E323F4226"
+					"encrypted_size_2"		"8183C97F25BD4AED3AEB46FDE27B433E"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"FF37F9F96E2C65A43A8A23CBC23A41D7"
+					"encrypted_size_2"		"5EAFE2CA51F27674C5042FA82DD622BA"
+				}
+				"playtest_qa"
+				{
+					"encrypted_gid_2"		"DE02D439551B7FA0C6D4E11F0AD1F2C9"
+					"encrypted_size_2"		"733E66B70B47958E58080ECE919FE34A"
+				}
+				"previous_live_build"
+				{
+					"encrypted_gid_2"		"BFE3A942B9000E591E0A97B9D6ABB09E"
+					"encrypted_size_2"		"A12EF4491DD18F5BD3D56B3F23836D56"
+				}
+				"qa_testing"
+				{
+					"encrypted_gid_2"		"A4D5417CFFD7EA3B38326AA26F2B1848"
+					"encrypted_size_2"		"1AA4DF088E4A6B9E2BBDF2718D37D8C4"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"7ECA8CF8FFFFEE59E2F89C064346BCF8"
+					"encrypted_size_2"		"E131092F9EC1DDF7C9B38D08D90194F0"
+				}
+				"zeuz_test"
+				{
+					"encrypted_gid_2"		"B554A908B511FCEB621D166CCFCBC8EB"
+					"encrypted_size_2"		"4123962D2BBE7FE63D7AC77AE371B772"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,spanish,schinese,tchinese,russian,polish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4168475"
+				"timeupdated"		"1567676985"
+			}
+			"alpha-dev"
+			{
+				"buildid"		"2812120"
+				"description"		"Dev build of our latest Alpha (v0.5.2683)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1527504358"
+			}
+			"community_server_test"
+			{
+				"buildid"		"3781883"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556719257"
+			}
+			"development"
+			{
+				"buildid"		"4171436"
+				"description"		"teamcity Development builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567731635"
+			}
+			"earlyaccess"
+			{
+				"buildid"		"3974050"
+				"description"		"teamcity Release_EarlyAccess builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562068749"
+			}
+			"earlyaccess_patch"
+			{
+				"buildid"		"3932267"
+				"description"		"teamcity Release_EarlyAccess_Patch builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560933848"
+			}
+			"earlyaccess_qa"
+			{
+				"buildid"		"3885939"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559652595"
+			}
+			"earlyaccess_update1"
+			{
+				"buildid"		"4056661"
+				"description"		"teamcity Release_EarlyAccess_Update1 builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564464521"
+			}
+			"earlyaccess_update1_patch"
+			{
+				"buildid"		"4128254"
+				"description"		"teamcity Release_EarlyAccess_Update1_Patch builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566450244"
+			}
+			"earlyaccess_update2"
+			{
+				"buildid"		"4172946"
+				"description"		"teamcity Release_EarlyAccess_Update2 builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567770956"
+			}
+			"earlyaccess_update2_patch"
+			{
+				"buildid"		"4179862"
+				"description"		"Built from the 'Release_EarlyAccess_Patch7' stream in Perforce"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568047537"
+			}
+			"enzyme"
+			{
+				"buildid"		"3728852"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557243646"
+			}
+			"experimental"
+			{
+				"buildid"		"4075011"
+				"description"		"teamcity Experimental builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565254694"
+			}
+			"pending_live_build"
+			{
+				"buildid"		"3931746"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561022899"
+			}
+			"playtest"
+			{
+				"buildid"		"3868342"
+				"description"		"teamcity Playtest builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559136602"
+			}
+			"playtest_qa"
+			{
+				"buildid"		"3911212"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560419304"
+			}
+			"previous_live_build"
+			{
+				"buildid"		"3911212"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561022868"
+			}
+			"qa_testing"
+			{
+				"buildid"		"4172349"
+				"description"		"Allow QA to have access to specific builds at their request"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042957"
+			}
+			"stable"
+			{
+				"buildid"		"4103127"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565776003"
+			}
+			"zeuz_test"
+			{
+				"buildid"		"3868342"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559136622"
+			}
+		}
+	}
+}
+ 

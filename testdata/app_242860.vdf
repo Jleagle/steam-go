@@ -1,0 +1,641 @@
+"appinfo"
+{
+	"appid"		"242860"
+	"common"
+	{
+		"name"		"Verdun"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"4a403addb122704189ac4ac7a20af0c9c5ab650d"
+		"logo_small"		"4a403addb122704189ac4ac7a20af0c9c5ab650d_thumb"
+		"icon"		"0acaeb0005c3fb10a4dbf6bbb32a109104ebd528"
+		"clienttga"		"fa2a09ef054dfa9a7014ab00cc4ef6244c5c546f"
+		"clienticon"		"53f4a6797b841b5583423eff461c5d9be48a3f86"
+		"linuxclienticon"		"f55a2b2b3ae570bbe7b42d1c8e1c8812146c6618"
+		"clienticns"		"2a3e59b3c8a08925f910bfe5e1dae75869300466"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"242860_eula_0"
+				"name"		"Verdun EULA"
+				"url"		"https://store.steampowered.com//eula/242860_eula_0"
+			}
+		}
+		"metacritic_name"		"Verdun"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561121808"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"M2H"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Blackmill Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"M2H"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"WW1 Game Series"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1430204400"
+		"steam_release_date"		"1430218080"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/verdun?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"242860"
+		"store_tags"
+		{
+			"0"		"5382"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"1678"
+			"4"		"3987"
+			"5"		"4175"
+			"6"		"19"
+			"7"		"1774"
+			"8"		"3839"
+			"9"		"4168"
+			"10"		"1708"
+			"11"		"599"
+			"12"		"5711"
+			"13"		"9"
+			"14"		"1685"
+			"15"		"4166"
+			"16"		"492"
+			"17"		"4182"
+			"18"		"4345"
+			"19"		"21"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"M2H"
+		"gamedir"		"ValveTestApp242860"
+		"homepage"		"http://www.VerdunGame.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"M2H"
+		"listofdlc"		"439480,763450,987070"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WW1GameSeries"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WW1 Game Series.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"WW1 Game Series.app/Contents/MacOS/WW1 Game Series"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"WW1 Game Series"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Verdun.exe"
+				"description"		"Legacy Verdun.exe launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"legacy"
+				}
+			}
+			"5"
+			{
+				"executable"		"Verdun.app/Contents/MacOS/Verdun"
+				"description"		"Legacy Verdun.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"legacy"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"439481"
+		{
+			"name"		"WW1Series_WindowsBundles"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8001627764799408237"
+			}
+			"maxsize"		"2730"
+			"encryptedmanifests"
+			{
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"17C5E75B4289656E98C5DFA9673D1699"
+					"encrypted_size_2"		"C8D56A4D4AEC93AD2BBCC9957F6B7EBD"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"8895EBC43D14E37303C47BBA1126BC6B"
+					"encrypted_size_2"		"84A8020ECA051B008CD9AE90B756B5C4"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"4426BE03E04D635F695D8EFF38E449B9"
+					"encrypted_size_2"		"A4DA7738E5EE8DB0D0C786C15B68AA82"
+				}
+			}
+		}
+		"242861"
+		{
+			"name"		"Verdun_WindowsBundles"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1497824150087702276"
+			}
+			"encryptedmanifests"
+			{
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"C6F2009BF2B594AA89FCAEEC4538F6A4"
+					"encrypted_size_2"		"D8F4E61706AA183307D734AA89565AA0"
+				}
+			}
+		}
+		"242865"
+		{
+			"name"		"WW1Series_Win32Player"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"588712549473027307"
+			}
+			"maxsize"		"1962487207"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"1D7BA24CFB3B017C8FA9BC5CF3B812C5"
+					"encrypted_size_2"		"97F3309D03C7C716822F3DED5BD5629E"
+				}
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"42D8EE0C54F81DFA027881D48A896D61"
+					"encrypted_size_2"		"0A06DEB93607765CBC0B95577305582E"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"679013058CF8FC12DA7F265460192C3B"
+					"encrypted_size_2"		"71CAC2C788CF46C3FDC82997AAC440BD"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"AACBB75F7F3AF0B99BD4509F31937214"
+					"encrypted_size_2"		"2301EA8EEDEF4EED3150B9A6F4E4CF22"
+				}
+			}
+		}
+		"242864"
+		{
+			"name"		"WW1Series_Win64Player"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"304429302373294635"
+			}
+			"maxsize"		"1999752503"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"0BF7B987BD215073289F2A1621B65F25"
+					"encrypted_size_2"		"97F3309D03C7C716822F3DED5BD5629E"
+				}
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"580B48A0FF3B8A6541857FB9BB48F0D0"
+					"encrypted_size_2"		"9E7F25C3EDE3F948E1705D8AE6ACA405"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"3F08C80501A0A63165AA62FF885B5996"
+					"encrypted_size_2"		"9BCDF2E6E45CFC33ADEEB4477B7EA2E7"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"01D6B5D66ECA1EB02A4B264265BBC02A"
+					"encrypted_size_2"		"8F28B8DCB92AD90C388D778CC159DE01"
+				}
+			}
+		}
+		"439482"
+		{
+			"name"		"WW1Series_MacBundles"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1777992458212959769"
+			}
+		}
+		"242866"
+		{
+			"name"		"Verdun_MacBundles"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"430916750418905127"
+			}
+		}
+		"242862"
+		{
+			"name"		"WW1Series_MacPlayer"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3651729307576806049"
+			}
+			"maxsize"		"2004227389"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"D278336C14E43C49C72B50DB320E7984"
+					"encrypted_size_2"		"6BEB15C4CD75EE7CAAEF3C7AC9B7E7B3"
+				}
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"376506D0B4B2866909C6B7F7BA9617B8"
+					"encrypted_size_2"		"F8BDA299D3E43E136676F0729D561124"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"442D13FDFC355BEC5B959E77872B6C29"
+					"encrypted_size_2"		"DB7B18E01D7E2E23574F9BFF79D33900"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"1BD370ECD1216D3449C40CAA04609396"
+					"encrypted_size_2"		"7B53820378316F6F26C9882AD69C2A7A"
+				}
+			}
+		}
+		"439483"
+		{
+			"name"		"WW1Series_LinuxBundles"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1733293992532078578"
+			}
+		}
+		"242867"
+		{
+			"name"		"Verdun_LinuxBundles"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"83094766437611509"
+			}
+		}
+		"242863"
+		{
+			"name"		"WW1Series_LinuxPlayer"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3943260731605278013"
+			}
+			"maxsize"		"1998225289"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"2F6F0747BC4BA87D0EBEA0D307E6913D"
+					"encrypted_size_2"		"AB8B6F7D4676C42F1186C98E02F066B3"
+				}
+				"nostalgia"
+				{
+					"encrypted_gid_2"		"2F5D2800BF10463347CEB70CCC71BF97"
+					"encrypted_size_2"		"708F23D87187AA30A7213C1419E25370"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"16EF6923A533D2D1AF8BFC9701AC682A"
+					"encrypted_size_2"		"08CCAC27260B270DBA580790CBD1A6F9"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"B08FF506510314277A39A1111DA38E43"
+					"encrypted_size_2"		"72EBDEE4EAEBCA58E4A5A95D639D9E0B"
+				}
+			}
+		}
+		"987070"
+		{
+			"name"		"Verdun - Supporter Edition Upgrade (987070) Depot"
+			"manifests"
+			{
+				"public"		"1188155552458309360"
+			}
+			"maxsize"		"258056383"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"AE5D42735EBC89B6744D79B054021F19"
+					"encrypted_size_2"		"DEB39DDAA0BFF8E0E8931CCC7567876B"
+				}
+			}
+			"dlcappid"		"987070"
+		}
+		"242869"
+		{
+			"name"		"Verdun_AllPlatforms"
+			"manifests"
+			{
+				"public"		"7690357031552359748"
+			}
+			"maxsize"		"2640205084"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"2B50BC405050F0B3E2E59EAB0973898F"
+					"encrypted_size_2"		"8A5EE8FB4B925A7F3C55E17DAEFFE69F"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"0B9FD838E7453A9399B1737F9C987EBD"
+					"encrypted_size_2"		"8F728CE55D38734C9BB76B96FE96D12A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"8CDAE5006429D2F294351032E279F2EE"
+					"encrypted_size_2"		"80864D24D340D076DF6FAD50D031F0B9"
+				}
+			}
+		}
+		"439489"
+		{
+			"name"		"WW1Series_AllPlatforms"
+			"manifests"
+			{
+				"public"		"8940789920371513922"
+			}
+			"maxsize"		"3842788239"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"03E1AEEF0C121E7999CEED0E27AAE0CD"
+					"encrypted_size_2"		"C6E77B12DBB43DC2CA20A9EF5143F3BB"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"1095F86D6DDBC27275802F7AA10D5ABC"
+					"encrypted_size_2"		"1A15BF868DA22AEA1EF5F8CC6ECF70C5"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"B75C93CBC821CF171F7E0955CBA4DF42"
+					"encrypted_size_2"		"8E9219B53C26F09F5078BBB6541B2AFD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4139545"
+				"timeupdated"		"1566892706"
+			}
+			"latest"
+			{
+				"buildid"		"4179573"
+				"description"		"Internal Development only, do not share with NON developers!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568041040"
+			}
+			"nostalgia"
+			{
+				"buildid"		"2185730"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1525423256"
+			}
+			"opentesting"
+			{
+				"buildid"		"4139545"
+				"description"		""
+				"timeupdated"		"1566892702"
+			}
+			"profiler"
+			{
+				"buildid"		"2758631"
+				"description"		"Unity profiler"
+				"pwdrequired"		"1"
+				"timeupdated"		"1525875842"
+			}
+			"staging"
+			{
+				"buildid"		"4169990"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567696775"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"900"
+	}
+}
+ 

@@ -1,0 +1,1134 @@
+"appinfo"
+{
+	"appid"		"530070"
+	"common"
+	{
+		"name"		"Train Sim World® 2020"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"b3a62019de050d62d8326723a564d7cd6a324a90"
+		"clienttga"		"14e176ae2cce85f38a19ae1217d575e8baae4e19"
+		"icon"		"c715c36c904a0728a1ef612761a3b74f292527b4"
+		"logo"		"6b299a010b43d8424e7faee3b93142297f597ef0"
+		"logo_small"		"6b299a010b43d8424e7faee3b93142297f597ef0_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"530070_eula_0"
+				"name"		"Train Sim World® EULA"
+				"url"		"https://store.steampowered.com//eula/530070_eula_0"
+			}
+		}
+		"metacritic_name"		"Train Sim World® 2020"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"30.254053864165257"
+				"height_pct"		"45.027222222222264"
+			}
+		}
+		"store_asset_mtime"		"1566904838"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dovetail Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dovetail Games - TSW"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Train Sim World"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1532415600"
+		"steam_release_date"		"1489683600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"530070"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1616"
+			"2"		"4175"
+			"3"		"1644"
+			"4"		"1695"
+			"5"		"4182"
+			"6"		"1654"
+			"7"		"597"
+			"8"		"19"
+			"9"		"1643"
+			"10"		"4166"
+			"11"		"3839"
+			"12"		"3859"
+			"13"		"13190"
+			"14"		"21"
+			"15"		"5900"
+			"16"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Dovetail Games"
+		"publisher"		"Dovetail Games - TSW"
+		"homepage"		"https://live.dovetailgames.com/live/train-sim-world"
+		"gamemanualurl"		"https://store.steampowered.com/manual/530070/"
+		"listofdlc"		"577350,577351,577352,577353,577354,577355,577356,577357,577358,577359,1010130,1010131,1010132,1010133,1010134,1010135,1010136,1010137,1010138,1010139,1113820,1113821,1113822,1113823,1113824"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Train Sim World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsNoEditor\\TS2Prototype.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,polish"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"530071"
+		{
+			"name"		"Train Sim World Content"
+			"manifests"
+			{
+				"public"		"2390581081601752516"
+			}
+			"maxsize"		"15702330969"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"08CE9C01D0EE1849592D7777E53D53EA"
+					"encrypted_size_2"		"1707D8CC50C47FB6E0BEA6EA71D0678C"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"4FAD7135EF664CE269395368BB6CABC4"
+					"encrypted_size_2"		"3C09197FD7244A92E80425B0E4BEB10C"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"C2288B79DA72B03D897F22418EAE9911"
+					"encrypted_size_2"		"8310356886718E675CAC93C7CF211151"
+				}
+				"dlctest"
+				{
+					"encrypted_gid_2"		"3CE662E5D772DFE2C1D3B4F794D4B463"
+					"encrypted_size_2"		"44D4E1E8F1C17C62904E94C848FEC337"
+				}
+				"drmtest"
+				{
+					"encrypted_gid_2"		"C68B9701887D459F8BCA948B10618C11"
+					"encrypted_size_2"		"C3AE7BBB9D87217D8B136276F539900E"
+				}
+				"loctest"
+				{
+					"encrypted_gid_2"		"37352ACF15D047D833796B6DF5A75D63"
+					"encrypted_size_2"		"46122DDB81FBBBE7D9233D9565B18D1D"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"B65FF12ECDF507B4949CE7255ECBD27E"
+					"encrypted_size_2"		"A7938A7BD040367399A13350C979674C"
+				}
+				"qa_dev_ext"
+				{
+					"encrypted_gid_2"		"24092A5067115F2153B0F19C951435DF"
+					"encrypted_size_2"		"D326B4F2E078768A69E389545705B622"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"F1F77C03410CE23E5687290F4F1D8DBA"
+					"encrypted_size_2"		"3C3509AF0D52840BB70AD4EAA5899EBF"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"7375CA8D19F8E752C016DA0AF1387CCC"
+					"encrypted_size_2"		"8C3E96E54161F5AB97ED542300F5207D"
+				}
+				"rc_internal"
+				{
+					"encrypted_gid_2"		"3CFEB86C20117B4E83188356A480031F"
+					"encrypted_size_2"		"3473243643C9C477B23D92FE08FF5B41"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"71F427290980D7EEC90C0B603B1B3EE3"
+					"encrypted_size_2"		"F276552C0C919DC4C3C7C0D9FBD62F05"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"B5033482128E7EEC03222E85BB4FF0E9"
+					"encrypted_size_2"		"C33CB6466A6D0F07B1792384B621045A"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"839A2AEAFEC467DAD40B460800CAA964"
+					"encrypted_size_2"		"1850A0161F6B0B0CF9B9B7EDAA7D758A"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"D0519FE59DF646FB7E5FF55628EE4485"
+					"encrypted_size_2"		"33C89AF6EA04091ABD3B64AB857B026C"
+				}
+			}
+		}
+		"577359"
+		{
+			"name"		"Train Sim World - DLC 10 (577359) Depot"
+			"dlcappid"		"577359"
+			"manifests"
+			{
+				"public"		"6123828823998462226"
+			}
+			"maxsize"		"781678857"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"A65704AB83F54E898380FB76C668EE80"
+					"encrypted_size_2"		"C10900EDAF4E2838FCEB08DD3BAD4AA7"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"17305524FBAF47A1AB8137073360D44C"
+					"encrypted_size_2"		"54BA0EDD2260AF76A0B7ADB4CF54D528"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"59E25316CD163ADA811FB0E5224DCCB6"
+					"encrypted_size_2"		"A128398C958A4CE893306CAA3931C3EC"
+				}
+				"dlctest"
+				{
+					"encrypted_gid_2"		"3734B357907555B94C5DF330E009488D"
+					"encrypted_size_2"		"EE4F478F4F0BB917B9C67226335EF194"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"F34E84E38B5A89265F9293C44E021EC1"
+					"encrypted_size_2"		"8AD4003D0C57B05045234D94EF17E564"
+				}
+				"qa_dev_ext"
+				{
+					"encrypted_gid_2"		"DEF161D8B0C4CC0249D447B9A3B9A42D"
+					"encrypted_size_2"		"BFB420E4936B9D72619A89EBADDF38BA"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"22CBD97092F82D62848A9B74D8072C61"
+					"encrypted_size_2"		"A6966726255CB44EC741E013A8F349C0"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"A1380B92E6A93EB80E3FACEBD50AED92"
+					"encrypted_size_2"		"5F8938BBFC0D06FBBF4AE15F6B3B42B3"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"9BCE885B7AFD1EF2004D8BFCAFF693D5"
+					"encrypted_size_2"		"F5C663C30C961E84051E69A37ABC822E"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"3BF069F4870D652F1AAF73B2B499D190"
+					"encrypted_size_2"		"8421BC195C0E0D4CCAE99331F3F5F085"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"19042E06F1FA7A39B23D7ED66F743D3C"
+					"encrypted_size_2"		"5B7B764DADA0A6227404776324644382"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"5E0D5D5799DE1FB7F56439664CE9D9C1"
+					"encrypted_size_2"		"3BB06242F5F3F3A461140AAB8F5553A4"
+				}
+			}
+		}
+		"577350"
+		{
+			"name"		"Train Sim World®: Great Western Express (577350) Depot"
+			"dlcappid"		"577350"
+			"manifests"
+			{
+				"public"		"6693885944841087980"
+			}
+			"maxsize"		"13372451833"
+			"encryptedmanifests"
+			{
+				"default_backup"
+				{
+					"encrypted_gid_2"		"C203D2FABB331931A98BFC92186BF106"
+					"encrypted_size_2"		"255FC70382B22A5CA2F4B0D119161E3E"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"780DF9478C5BEEFDDEE055B856B01E47"
+					"encrypted_size_2"		"D26C26F801003E9D0A812181F185E2FC"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"75EA4F76E3309A4D29FD86967069CA98"
+					"encrypted_size_2"		"155032EB7FB5F1999630F31C1919BD02"
+				}
+				"qa_dev_ext"
+				{
+					"encrypted_gid_2"		"D4D125810607FDD08085ABF4725B73B8"
+					"encrypted_size_2"		"4AE5FFCA0E0BF0B00B7F3B21E4C951EC"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"84F0CB756675CF4AA91660658F1C2E68"
+					"encrypted_size_2"		"5C8CDDC8EE2EAF1A5D10A8DBA9D61CA3"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"0C1D981F342A5A0D405C039FA0F1FF88"
+					"encrypted_size_2"		"7EF2B2B8D98296E741D383E013E4043E"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"5283A807201CF912A55692EEFF18BBE3"
+					"encrypted_size_2"		"6EA9657E3EB6540EBD17693AA270280E"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"5D5628C2E5B4302F6D9477613649FE1C"
+					"encrypted_size_2"		"5332F1B01A3594C4F0DC2E9BF87A7A8B"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"D9FFFCC6E4BF613A12CA59036F4305B3"
+					"encrypted_size_2"		"8016E291803C1F052F8B58392F5582A4"
+				}
+			}
+		}
+		"577358"
+		{
+			"name"		"Train Sim World - DLC 9 (577358) Depot"
+			"dlcappid"		"577358"
+			"manifests"
+			{
+				"public"		"5486372883899215906"
+			}
+			"maxsize"		"12454343504"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"E0D13C45DC90EB584E941C7296914C2F"
+					"encrypted_size_2"		"FF4A5D4E2CCAA4FF733438E4257ED4D7"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"72EFD89F2932171DEEED76B452057A38"
+					"encrypted_size_2"		"77EA5A7152725DFE5C84BD5FD9C7A35A"
+				}
+				"dlctest"
+				{
+					"encrypted_gid_2"		"899537133B780A99903657D167C5F2B4"
+					"encrypted_size_2"		"9B125BF0A0C01BB56661509F73CC7F9F"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"481BA53C9F9B4FE3CDC9AADB84F4FB58"
+					"encrypted_size_2"		"D1A7DA99CC1D8634D347AFE1C75FF579"
+				}
+				"qa_dev_ext"
+				{
+					"encrypted_gid_2"		"20AAC892720C7E7DE8217E1DF58BBF1C"
+					"encrypted_size_2"		"45F60E1F17A5CE51D547322B57C85C85"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"EFBDF5F193ED12743D914F1742FD4C88"
+					"encrypted_size_2"		"7C00327C2975E11DBAC7DE91ED4855D5"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"ABE57DCDEA93BED2F2A89DC9A6B4F9C0"
+					"encrypted_size_2"		"D5EF7B4F00C9B6193D4916E5F3DA4685"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"D9A12CC9DCBE2224AADF3ADF14816859"
+					"encrypted_size_2"		"06F159AC54CAD19CF4BD96C65F4370CC"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"49345FCDB5E235C2046FF36277F84B69"
+					"encrypted_size_2"		"55696D6DAB9AC6BC309FE3B776FC3E32"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"A95AA0B4816E4ABD353851BEDAA577F5"
+					"encrypted_size_2"		"BD97556437983E0B65E3B4EC09CA8238"
+				}
+			}
+		}
+		"577357"
+		{
+			"name"		"Train Sim World - DLC 8 (577357) Depot"
+			"dlcappid"		"577357"
+			"manifests"
+			{
+				"public"		"6266780653533515655"
+			}
+			"maxsize"		"10367795062"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"22B27AB09C9231A0BDD64253C631B24B"
+					"encrypted_size_2"		"9494F193EABF5FDE4DD77D9B5FEE0B8E"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"87036BCEC6E42FC995506554D2440E4A"
+					"encrypted_size_2"		"43BA952C607D9D5F1877C7C8E194A595"
+				}
+				"qa_dev_ext"
+				{
+					"encrypted_gid_2"		"85B2FEF0C000F37129E9611C1BECBCAA"
+					"encrypted_size_2"		"B24E84D7BCE1AAD9DBBA1D1FFEE13CE2"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"2833288A21AE4CFE83A33DC5CE17EDA6"
+					"encrypted_size_2"		"95F104E2145EE783109D59FAC2448B41"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"27A896FE13A867AC046A1CB6DF1BEA3E"
+					"encrypted_size_2"		"8AB99936D651F9B142F29DA6E820BF4C"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"BF86749E8A931EAF7E56E4BDA7E83F03"
+					"encrypted_size_2"		"98A03B959D8CECE8F82FFF36BE597651"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"53FC82434D28BDEA30B7EB914AD18E4F"
+					"encrypted_size_2"		"F19532AD6F1FDAB88D1DB4411EBA9A6C"
+				}
+			}
+		}
+		"577356"
+		{
+			"name"		"Train Sim World - DLC 7 (577356) Depot"
+			"dlcappid"		"577356"
+			"manifests"
+			{
+				"public"		"1100631292567328267"
+			}
+			"maxsize"		"5174492228"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"356DA985060CBABFF592F3C2ABCF3843"
+					"encrypted_size_2"		"FE66A72FBD1E3C780F9C931899A9E69F"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"E5BE3D1914508B86B304B0CA3EFF8D7F"
+					"encrypted_size_2"		"0924EAD9494087F07DAD22E7125746DB"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"467017120C751FB113DA4809748BBE37"
+					"encrypted_size_2"		"A95720DC9E57B0354C8EF402F04BFC36"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"E90EA78B4E5BF7237F58433D18E7FB2C"
+					"encrypted_size_2"		"DF2C28A182EC732E49DBD2C5CEF893B6"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"0E8E105A6365FA638FD332EBE7EF0BA1"
+					"encrypted_size_2"		"3175987280C810B4080442D052482226"
+				}
+				"rc_retail"
+				{
+					"encrypted_gid_2"		"F1ABAC3C598FB26C34DFBA710FD8986F"
+					"encrypted_size_2"		"40AF09E826ADDF4A4CE8F06BC5D787F0"
+				}
+			}
+		}
+		"577355"
+		{
+			"name"		"Train Sim World - DLC 6 (577355) Depot"
+			"dlcappid"		"577355"
+			"manifests"
+			{
+				"public"		"5490098858324216012"
+			}
+			"maxsize"		"13146714907"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"8FE0CB3EA3D0905257BC067A7F59232F"
+					"encrypted_size_2"		"750E627A80A6AE473DF5EEDEC1E52F07"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"735CC2C73CDF8B04DCC47D0E981677C0"
+					"encrypted_size_2"		"462EB65581B43868CFC4E8CAF70CDA8C"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"3A12C9898017EEA4C15D6C930AE873F3"
+					"encrypted_size_2"		"16B588C6F4CA9E4AA3678266A79F7E57"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"1A066696A6537327E926E3F4EC4562DB"
+					"encrypted_size_2"		"00F7FCD04FB1D7EDA28A130DC214EB11"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"2B6D557451D596882F47FE0A7A30F76C"
+					"encrypted_size_2"		"4CE795EC4E9F3C3B0CCEC131745539C6"
+				}
+			}
+		}
+		"577354"
+		{
+			"name"		"Train Sim World - DLC 5 (577354) Depot"
+			"dlcappid"		"577354"
+			"manifests"
+			{
+				"public"		"6115893242476853742"
+			}
+			"maxsize"		"13226870940"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"7050788A80524D3D91D5D72A06A45982"
+					"encrypted_size_2"		"997F1C3103988EDDBE31C75B1F28FE73"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"DE490C22A29F589BC1D093186323379A"
+					"encrypted_size_2"		"5155AD6C7415442F4B7712F8FD7733F2"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"C12574B79BDF46FFD84D221882A0757C"
+					"encrypted_size_2"		"C808C4F1F22C6B45D4FD616509714C20"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"DB0760941727774455E0186078EF164C"
+					"encrypted_size_2"		"8E018EE7C3122391E06AEF8ECDF7D019"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"2BE52FC1E7BC02B87E6D3B6A03E5BADF"
+					"encrypted_size_2"		"3CC8E1695FEB58CE9DAC9464BB821E14"
+				}
+			}
+		}
+		"577353"
+		{
+			"name"		"Train Sim World - DLC 4 (577353) Depot"
+			"dlcappid"		"577353"
+			"manifests"
+			{
+				"public"		"7370966609216937474"
+			}
+			"maxsize"		"15774133976"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"92A4852B3488B1270D3C5B5423ED0602"
+					"encrypted_size_2"		"FB8C9ACE52C3C7AEA0B107A508379B2A"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"88460CE016B76FE174F04606D3CEBB75"
+					"encrypted_size_2"		"B86A6CB16A56CFD64164BB0EEB7BBDDD"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"75499E01E3D012FEB13B4AB201211599"
+					"encrypted_size_2"		"CA6D29B92E0E6AA7B69BAFDED47A38E4"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"9E4D7554A7F93953C1C7E123398C56FB"
+					"encrypted_size_2"		"E3E19D1AB6BEC1E4927B5546893E50AC"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"2EE56AB24E1008D67A7F8E541FFC192C"
+					"encrypted_size_2"		"7B3238395B6149BFC6E67D565D629801"
+				}
+			}
+		}
+		"577352"
+		{
+			"name"		"Train Sim World - DLC 3 (577352) Depot"
+			"dlcappid"		"577352"
+			"manifests"
+			{
+				"public"		"8950292769037165848"
+			}
+			"maxsize"		"216349598"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"A5FF23401817C04726FDFB9BE30D1A16"
+					"encrypted_size_2"		"D9C1CCD2B61594F734515F24E8B6F0D0"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"BBB974FF9F8AE56078E54717CAEB4444"
+					"encrypted_size_2"		"C18DF476D22334C355A08B3A53B8D8C5"
+				}
+			}
+		}
+		"577351"
+		{
+			"name"		"Train Sim World - DLC 2 (577351) Depot"
+			"dlcappid"		"577351"
+			"manifests"
+			{
+				"public"		"2746873808269518674"
+			}
+			"maxsize"		"9719619166"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"5C4A2BAE29E9D68C2D154C1C0DD3E114"
+					"encrypted_size_2"		"67CFCA4A2F029FEA4E85518D3EB1A810"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"0BBFADBC5A562FE9CD914C36DC0A8CA0"
+					"encrypted_size_2"		"B594103184042B36D06B21159E134C24"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"1AF90CEAB18BCF96355CD1DD6618CFF7"
+					"encrypted_size_2"		"A1B620373C197916A5ACDC5A633F0234"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"7A94D3BE54227F085ACCEFD16D762602"
+					"encrypted_size_2"		"4B032E352D663460DB8D15BD6A274E94"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"4DFFA9F93A176A982D6C1FB032692712"
+					"encrypted_size_2"		"E6EFDE35E6D36C4DBEDEE3093E51CA51"
+				}
+			}
+		}
+		"1010132"
+		{
+			"name"		"Train Sim World DLC 13 (1010132) Depot"
+			"dlcappid"		"1010132"
+			"manifests"
+			{
+				"public"		"344883809436378606"
+			}
+			"maxsize"		"231645122"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"C060AC255785491D3921422C82D03EBD"
+					"encrypted_size_2"		"CE902C1B769ABBD6C926C44D21905D38"
+				}
+				"qa_dev"
+				{
+					"encrypted_gid_2"		"2453A71E9A4B2FBA80B3373416DCF1EB"
+					"encrypted_size_2"		"326BB6736C5E4BFBE44386F661A54AE6"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"1FA17D96AC2AE4B4C74721F8939DE6DE"
+					"encrypted_size_2"		"844DEE1A83A5F179584B5BFB219128AA"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"A33ADE06F65F1E0D4F05971FDC0FEE82"
+					"encrypted_size_2"		"DF050E9694DEBE6C4BBC8552A5B1716A"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"9E25204EC0410DA23A3E6B44A05B5C84"
+					"encrypted_size_2"		"503D00269A3A4C266233F5F97BA46A49"
+				}
+			}
+		}
+		"1010130"
+		{
+			"name"		"Train Sim World DLC 11 (1010130) Depot"
+			"dlcappid"		"1010130"
+			"manifests"
+			{
+				"public"		"6025679097442543697"
+			}
+			"maxsize"		"669865280"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"A9076C642F929CB94A527FF27B343946"
+					"encrypted_size_2"		"C6A9A5A6672F6CF3A2CBEC300BAAB2B3"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"CA7CF6E12475CFDD2DE127DC4CE9E360"
+					"encrypted_size_2"		"104E821809A2749416AFF52D06300578"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"DD402E6CA32D88AB1C0231E6F252B596"
+					"encrypted_size_2"		"97F26A7D3CF4D257AF82D849D9DF8C5B"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"DC7DB024A3ABB16EBC95CF0D8CEB12ED"
+					"encrypted_size_2"		"73CB412F7A305BF0973BD6043A62AE8C"
+				}
+			}
+		}
+		"1010131"
+		{
+			"name"		"Train Sim World DLC 12 (1010131) Depot"
+			"dlcappid"		"1010131"
+			"manifests"
+			{
+				"public"		"1407863532231534133"
+			}
+			"maxsize"		"370199637"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"75527660664FE7A00205EA1E4BA5254B"
+					"encrypted_size_2"		"234079898691E349AFF90BCA3A6E6E36"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"EE784FA6E1F0FE0E73ED84ABC9611BD4"
+					"encrypted_size_2"		"0BF065497224FB9A1BF105D4973699BC"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"9BAB95BD6C0441777528E39B231461BC"
+					"encrypted_size_2"		"909FDBB7EC62B4FB76D34E2283DD244F"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"ADF361B4EFA53360C68301C6DF204450"
+					"encrypted_size_2"		"48041651A5FD96C9C52A4844974C502C"
+				}
+			}
+		}
+		"1010133"
+		{
+			"name"		"Train Sim World DLC 14 (1010133) Depot"
+			"dlcappid"		"1010133"
+			"manifests"
+			{
+				"public"		"6582464873101033327"
+			}
+			"maxsize"		"727186267"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"4F2342D1D66C05C957C1F57303E7BD03"
+					"encrypted_size_2"		"EE8E7E60EA1274CF27613D574A1E6D4C"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"C16566D859295E0638EF40279B2FD8CB"
+					"encrypted_size_2"		"13BDB695583C969B36C75D95CB618E47"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"B9BB010840660CEF4392B411517061E5"
+					"encrypted_size_2"		"62A1E863AF9C7BC3AA0D98C7B9E13EF0"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"B95297F56B6FC2D0ED93CA6C666EC53D"
+					"encrypted_size_2"		"CF91E4CAFF322BD18FE68E9F755579C8"
+				}
+			}
+		}
+		"1010134"
+		{
+			"name"		"Train Sim World DLC 15 (1010134) Depot"
+			"dlcappid"		"1010134"
+			"manifests"
+			{
+				"public"		"7594571799135254653"
+			}
+			"maxsize"		"13525306829"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"32BD977393E30D1C2312F4E4476B1D66"
+					"encrypted_size_2"		"2CD45698D16D59938CDFC54BAA8FACFA"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"47F710E8556F502903839363BBD1E502"
+					"encrypted_size_2"		"112BAFBCF4DD05BC1CC7A7A0C88694B7"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"A5885D4A1DE663CDD0BCA79A31DFAF20"
+					"encrypted_size_2"		"4734A308DDD1ACD8E74EEF884D647091"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"F9BFC43D99E1311DC99883D811371896"
+					"encrypted_size_2"		"B94DB23EC972FA7D346F1AACE11A118E"
+				}
+			}
+		}
+		"1010135"
+		{
+			"name"		"Train Sim World DLC 16 (1010135) Depot"
+			"dlcappid"		"1010135"
+			"manifests"
+			{
+				"public"		"4443021133837883578"
+			}
+			"maxsize"		"489945554"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"3F3F5EF14B9D7F7A4E999F39138AA17B"
+					"encrypted_size_2"		"7D8D1346774E216857623CFB430AE0F1"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"6090AB883791D8E128BEEB1A7C574AF5"
+					"encrypted_size_2"		"A935CB2E50C9A83439F2A65775CB2508"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"D436B6D27F61F0CA08D0891283011C70"
+					"encrypted_size_2"		"A364C69DCF1F44A514659E24C2668ACC"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"FA383C060A00BE67588AC6AEE59F0BE2"
+					"encrypted_size_2"		"86AB45B6D658E74C611A88B659C576E4"
+				}
+			}
+		}
+		"1010136"
+		{
+			"name"		"Train Sim World DLC 17 (1010136) Depot"
+			"dlcappid"		"1010136"
+			"manifests"
+			{
+				"public"		"4580339467998892494"
+			}
+			"maxsize"		"11091679209"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"2CA51169DF6CDDDCE3243CB0C7F87D8E"
+					"encrypted_size_2"		"8C647F2AB8DD3D4AD2385694890BDF24"
+				}
+				"rc_freeze_test"
+				{
+					"encrypted_gid_2"		"EB61C7161823D533E80150D7D67F371D"
+					"encrypted_size_2"		"974B65C758FAAE8B3303E1F975339A30"
+				}
+				"rc_internal"
+				{
+					"encrypted_gid_2"		"1E646903620DB00C72D874F19D9AD622"
+					"encrypted_size_2"		"05B8C96A1AE4CBCC7B618838D1BB4A8D"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"22783580EE8085ACDC714D8C7738153F"
+					"encrypted_size_2"		"CE31BB6A8C88B45F18D6817403049006"
+				}
+				"rc_preview"
+				{
+					"encrypted_gid_2"		"01981E3AB2CE83FF9E2F47A81C78084D"
+					"encrypted_size_2"		"AA5044EE3E03AB807DE05F540A300529"
+				}
+			}
+		}
+		"1010137"
+		{
+			"name"		"Train Sim World DLC 18 (1010137) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"F1E534D40D89CAF94257A205F232EC67"
+					"encrypted_size_2"		"6BFCE99E969BA21B54B52463666D28D2"
+				}
+				"rc_internal_test"
+				{
+					"encrypted_gid_2"		"C1A3D5E03DA5152DEF756F6C9BDC9389"
+					"encrypted_size_2"		"8E81D6CAA7B010DE24D0F16E6AB517DF"
+				}
+			}
+			"dlcappid"		"1010137"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4128766"
+				"timeupdated"		"1566550282"
+			}
+			"compat"
+			{
+				"buildid"		"2066646"
+				"description"		"Compatibility Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1503692563"
+			}
+			"default_backup"
+			{
+				"buildid"		"2311257"
+				"description"		"backup of live build as of 14-Dec-17"
+				"pwdrequired"		"1"
+				"timeupdated"		"1513261322"
+			}
+			"development"
+			{
+				"buildid"		"4178356"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568013516"
+			}
+			"dlctest"
+			{
+				"buildid"		"2064643"
+				"description"		"Jonas testbranch for DLC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1503571208"
+			}
+			"drmtest"
+			{
+				"buildid"		"2016818"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1502449709"
+			}
+			"loctest"
+			{
+				"buildid"		"1671301"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1489075861"
+			}
+			"qa_dev"
+			{
+				"buildid"		"3549809"
+				"description"		"For promoting development branch builds for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549900929"
+			}
+			"qa_dev_ext"
+			{
+				"buildid"		"2573707"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520107388"
+			}
+			"qa_test"
+			{
+				"buildid"		"2101681"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1504832854"
+			}
+			"rc_freeze_test"
+			{
+				"buildid"		"4031214"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563740458"
+			}
+			"rc_internal"
+			{
+				"buildid"		"4154266"
+				"description"		"Internal release candidate"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567186558"
+			}
+			"rc_internal_test"
+			{
+				"buildid"		"4177301"
+				"description"		"Internal Test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567959099"
+			}
+			"rc_preview"
+			{
+				"buildid"		"3978280"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562176225"
+			}
+			"rc_retail"
+			{
+				"buildid"		"2849635"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1529309229"
+			}
+			"release_candidate"
+			{
+				"buildid"		"2115905"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1505320074"
+			}
+		}
+	}
+}
+ 

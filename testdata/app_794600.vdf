@@ -1,0 +1,492 @@
+"appinfo"
+{
+	"appid"		"794600"
+	"common"
+	{
+		"name"		"LET IT DIE"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"10595ff342b8c9ff7609a8953c971fc845ee4c75"
+		"clienttga"		"02df6a368d2e1b9718d2b04a0c294ef4ea89ace7"
+		"icon"		"b03083339ec8ac21f6f4b45e676b9d825af8b51d"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"3e9226c01ab2dc593f3925336a37bcd25338e61d"
+		"logo_small"		"3e9226c01ab2dc593f3925336a37bcd25338e61d_thumb"
+		"metacritic_name"		"LET IT DIE"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1562009604"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GRASSHOPPER MANUFACTURE INC."
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"SUPERTRICK  GAMES,Inc."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"GungHo Online Entertainment America"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_33"		"1"
+			"category_22"		"1"
+			"category_35"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1537945601"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"794600"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"4345"
+			"2"		"19"
+			"3"		"3859"
+			"4"		"1716"
+			"5"		"12095"
+			"6"		"4667"
+			"7"		"4182"
+			"8"		"6650"
+			"9"		"29482"
+			"10"		"1646"
+			"11"		"1697"
+			"12"		"4026"
+			"13"		"1756"
+			"14"		"19995"
+			"15"		"4115"
+			"16"		"4136"
+			"17"		"5228"
+			"18"		"1710"
+			"19"		"17770"
+		}
+	}
+	"extended"
+	{
+		"developer"		"GRASSHOPPER MANUFACTURE INC."
+		"publisher"		"GungHo Online Entertainment America"
+		"homepage"		"https://www.letitdiethegame.com/"
+		"isfreeapp"		"1"
+		"listofdlc"		"907880,907881,967220,968830,968840,977520,977530,984040,988140,988150,994110,994120,994130,1013210,1013211,1013212,1013213,1034290,1034291,1034292,1048930,1048931,1063780,1063781,1082660,1082661,1082662,1102320,1102321,1102322,1102323,1120710,1120711,1120720,1135720,1135721,1157160,1157161,1157162,1157163"
+	}
+	"config"
+	{
+		"installdir"		"LET IT DIE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\Binaries\\Win64\\BrgGame-Steam.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"794601"
+		{
+			"name"		"LID Test Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6992548288654815873"
+			}
+			"maxsize"		"41722649146"
+			"encryptedmanifests"
+			{
+				"dvs1-test-current"
+				{
+					"encrypted_gid_2"		"B2DB55F682C70D75ABD73C99FBF7991C"
+					"encrypted_size_2"		"1B2B435502994AF78EA87FEF969DBFE7"
+				}
+				"dvs2-test-current"
+				{
+					"encrypted_gid_2"		"287EECB9C1DF06ADEADF8D1568701060"
+					"encrypted_size_2"		"E60E6344A5E298AA182AB6A289779224"
+				}
+				"dvs3-test-current"
+				{
+					"encrypted_gid_2"		"0E80E14CBF1947145AC9A4C430C4793B"
+					"encrypted_size_2"		"E8C8D040F508EE16A039070006A63398"
+				}
+				"qas1-check"
+				{
+					"encrypted_gid_2"		"8DCDA86CD4F2A4754ED77D4FD4E79FB9"
+					"encrypted_size_2"		"312C25E8354F652F19BF594B190FE092"
+				}
+				"qas1-msgcheck"
+				{
+					"encrypted_gid_2"		"8E8EA59AB460A3E3CB1CBA683CE584DA"
+					"encrypted_size_2"		"9C88541486CCE504FCE5530EDD794A6A"
+				}
+				"qas1-shipping-current"
+				{
+					"encrypted_gid_2"		"556D17AC329CC7B881303EF6D158FC40"
+					"encrypted_size_2"		"41CAF5F83958BD5F28DB87DA3A257C79"
+				}
+				"qas1-shipping-prev"
+				{
+					"encrypted_gid_2"		"07BB0B16AD856A3B061E50D034EE7035"
+					"encrypted_size_2"		"92CCD32E862444E725BF5D58CA71B1C1"
+				}
+				"qas1-test-current"
+				{
+					"encrypted_gid_2"		"BBAC66D1E31FD5122FD18C315A02113A"
+					"encrypted_size_2"		"75B18030E3BCA9AAD70EBA37CB6F7400"
+				}
+				"qas1-test-prev"
+				{
+					"encrypted_gid_2"		"FF1EB98043A63CDF35BB5FA14BAC8CA5"
+					"encrypted_size_2"		"C076BEA5C0FACC70E4232BF072991B1A"
+				}
+				"qas2-check"
+				{
+					"encrypted_gid_2"		"1F416F33C9C91FFC8716DD00E5E2C539"
+					"encrypted_size_2"		"94B69F9FC5A16EA5D687FFCB2A6CBEF9"
+				}
+				"qas2-pax"
+				{
+					"encrypted_gid_2"		"27686AFE88FBD9AFC722A3CFEB13C31C"
+					"encrypted_size_2"		"9258158BEBBC95273B1D9E707213B385"
+				}
+				"qas2-test-current"
+				{
+					"encrypted_gid_2"		"563EFD9BC415DE1F461BAC08C8123D9D"
+					"encrypted_size_2"		"623BF47DC35F025317DD60D23F661DB7"
+				}
+				"qas2-test-prev"
+				{
+					"encrypted_gid_2"		"CAC6EA16FC18E68DFABC4739D20D7284"
+					"encrypted_size_2"		"BFF04B97EEEB9FEC6ABE40FFB9E176ED"
+				}
+				"qas2-test-strm"
+				{
+					"encrypted_gid_2"		"85C8B48997D0E9C7C17C62A51C8D8266"
+					"encrypted_size_2"		"8AF100C65E1038B2F3BAB3F4224607F5"
+				}
+				"qas3-check"
+				{
+					"encrypted_gid_2"		"205402352DAB5081C47C3C2EF1E31410"
+					"encrypted_size_2"		"DBEFC90084EFC98E8B23B3D73985D705"
+				}
+				"qas3-shipping-current"
+				{
+					"encrypted_gid_2"		"452B94D70BF0A04180D6F0AB61C95484"
+					"encrypted_size_2"		"93636E61ED136794DA986B32474A9BE5"
+				}
+				"qas3-shipping-prev"
+				{
+					"encrypted_gid_2"		"A0501C088D76133D3E0DE8E10ADB42EB"
+					"encrypted_size_2"		"C6F4ED2EB6493A8435A77D170FF5B6BF"
+				}
+				"qas3-test-current"
+				{
+					"encrypted_gid_2"		"41E45B521518093C647C1A7EE572A1AF"
+					"encrypted_size_2"		"B27118925EEDD79597A4D1A036EA0AE2"
+				}
+				"qas3-test-prev"
+				{
+					"encrypted_gid_2"		"4D921E3E1B20500095947927DC492AE4"
+					"encrypted_size_2"		"E51554B1CFE62E11DBF7A6592307DEA9"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,japanese,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4117375"
+				"timeupdated"		"1567044639"
+			}
+			"dvs1-test-current"
+			{
+				"buildid"		"4078329"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565072050"
+			}
+			"dvs2-test-current"
+			{
+				"buildid"		"4104480"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565782763"
+			}
+			"dvs3-test-current"
+			{
+				"buildid"		"4005261"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562915526"
+			}
+			"qas1-check"
+			{
+				"buildid"		"3500447"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548388765"
+			}
+			"qas1-msgcheck"
+			{
+				"buildid"		"3375248"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544173415"
+			}
+			"qas1-shipping-current"
+			{
+				"buildid"		"4078354"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566177660"
+			}
+			"qas1-shipping-prev"
+			{
+				"buildid"		"3997721"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566177645"
+			}
+			"qas1-test-current"
+			{
+				"buildid"		"4078329"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565073014"
+			}
+			"qas1-test-prev"
+			{
+				"buildid"		"3997613"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565072111"
+			}
+			"qas2-check"
+			{
+				"buildid"		"3479757"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547777629"
+			}
+			"qas2-pax"
+			{
+				"buildid"		"3047270"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534760873"
+			}
+			"qas2-shipping-current"
+			{
+				"buildid"		"4117375"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566178546"
+			}
+			"qas2-shipping-prev"
+			{
+				"buildid"		"4117375"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566178978"
+			}
+			"qas2-test-current"
+			{
+				"buildid"		"4104480"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565783082"
+			}
+			"qas2-test-prev"
+			{
+				"buildid"		"4104480"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565783104"
+			}
+			"qas2-test-strm"
+			{
+				"buildid"		"3580905"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551841510"
+			}
+			"qas3-check"
+			{
+				"buildid"		"3342487"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543304865"
+			}
+			"qas3-shipping-current"
+			{
+				"buildid"		"4005398"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562918689"
+			}
+			"qas3-shipping-prev"
+			{
+				"buildid"		"4005398"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562918753"
+			}
+			"qas3-test-current"
+			{
+				"buildid"		"4005261"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562918072"
+			}
+			"qas3-test-prev"
+			{
+				"buildid"		"4005261"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562918093"
+			}
+			"stgs-check"
+			{
+				"buildid"		"4117375"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566876486"
+			}
+		}
+	}
+}
+ 

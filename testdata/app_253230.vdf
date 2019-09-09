@@ -1,0 +1,521 @@
+"appinfo"
+{
+	"appid"		"253230"
+	"common"
+	{
+		"name"		"A Hat in Time"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"icon"		"7b934282eeb45507669ed7c08378c51bb902721f"
+		"logo"		"fbee3e771aa0550b847da48392dcb2845d1f7639"
+		"logo_small"		"fbee3e771aa0550b847da48392dcb2845d1f7639_thumb"
+		"clienttga"		"7e5aa695f83ad4eb04aec0cfb27dfb34c7f29cdf"
+		"clienticon"		"1cdb7018f94d79042111da9ec26c47946e5518ee"
+		"clienticns"		"dc47ebbbe17e4b8ab4d364fb5743c0b65025f61e"
+		"languages"
+		{
+			"english"		"1"
+			"koreana"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+		}
+		"osarch"		"64"
+		"metacritic_name"		"A Hat in Time"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"54.93066467705231"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561572722"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gears for Breakfast"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gears for Breakfast"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_13"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_17"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507237219"
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/a-hat-in-time?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"253230"
+		"store_tags"
+		{
+			"0"		"4726"
+			"1"		"5395"
+			"2"		"1756"
+			"3"		"7208"
+			"4"		"21"
+			"5"		"492"
+			"6"		"1625"
+			"7"		"4136"
+			"8"		"3834"
+			"9"		"4305"
+			"10"		"1697"
+			"11"		"4182"
+			"12"		"1695"
+			"13"		"1719"
+			"14"		"1669"
+			"15"		"5350"
+			"16"		"1685"
+			"17"		"19"
+			"18"		"5153"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gears for Breakfast"
+		"publisher"		"Gears for Breakfast"
+		"homepage"		"http://hatintime.com/"
+		"listofdlc"		"356830,356831,691880,693170,734880,787340,924490,940220,1072430"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HatinTime"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win64/HatinTimeGame.exe"
+				"workingdir"		"Binaries/Win64/"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HatinTimeGame.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./hatintime.run"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamcontrollerconfigfileids"		"535943302"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"workshopdepot"		"253230"
+		"baselanguages"		"english,german,koreana"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"name"		".NET 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"50450161"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"253233"
+		{
+			"name"		"A Hat in Time - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"846300665266143972"
+				"version1.0"		"5556417789854833649"
+			}
+			"maxsize"		"4168470546"
+			"encryptedmanifests"
+			{
+				"2017speedrunevent"
+				{
+					"encrypted_gid_2"		"A5EC28CB548955F1B51193065C7AFEDF"
+					"encrypted_size_2"		"A3558C7F7E996FCA0AD10529142F18A1"
+				}
+				"alphalegacybuild"
+				{
+					"encrypted_gid_2"		"391A165A61E69CD797C3C3DE3D99DAB0"
+					"encrypted_size_2"		"178E58BF78973CA457347BEB088724C1"
+				}
+			}
+		}
+		"253232"
+		{
+			"name"		"A Hat in Time - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1461070801209821290"
+				"pre_dlc1"		"2996573833536660306"
+				"pre_dlc2"		"2136910427512194539"
+				"version1.0"		"4435011916194978256"
+			}
+			"maxsize"		"7848183930"
+			"encryptedmanifests"
+			{
+				"2017speedrunevent"
+				{
+					"encrypted_gid_2"		"8A8F2A624AB94DEEE373A14DA9FEA838"
+					"encrypted_size_2"		"D846BF20DA410179A2029DF620F0A23E"
+				}
+				"alphalegacybuild"
+				{
+					"encrypted_gid_2"		"417251EBADBD618FA9658ABE9DE56BEA"
+					"encrypted_size_2"		"D5B5168B9D58C02584CB2215E17332D0"
+				}
+				"backup"
+				{
+					"encrypted_gid_2"		"9DA795B8FC02E9317A0AA90FAAC5D00A"
+					"encrypted_size_2"		"E7A735E2C5FFFE221F62FE658F31F1D2"
+				}
+				"japanese_branch"
+				{
+					"encrypted_gid_2"		"AF1BDB6222BCD5476303DA4D09DC33F7"
+					"encrypted_size_2"		"36C4CB3FE4A201E74CD0C42523D2CF53"
+				}
+				"melon"
+				{
+					"encrypted_gid_2"		"FBA75A9E036665B15CFCB2AC04CA168E"
+					"encrypted_size_2"		"137C5C91C1E59D17790DBD7E22569F92"
+				}
+			}
+		}
+		"253234"
+		{
+			"name"		"A Hat in Time - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"melon"
+				{
+					"encrypted_gid_2"		"F02D901E09356E4B7F5C2B8BEDA052C7"
+					"encrypted_size_2"		"DC68772D1E118670170C8FAC592FDC90"
+				}
+			}
+		}
+		"356830"
+		{
+			"name"		"A Hat in Time - Kickstarter Hat (356830) Depot"
+			"dlcappid"		"356830"
+		}
+		"356831"
+		{
+			"name"		"A Hat in Time - Soundtrack (356831) Depot"
+			"dlcappid"		"356831"
+			"manifests"
+			{
+				"public"		"2994912792388841477"
+				"pre_dlc1"		"7272058599232190322"
+				"pre_dlc2"		"7272058599232190322"
+				"version1.0"		"7606606025982684291"
+			}
+			"maxsize"		"801369205"
+			"encryptedmanifests"
+			{
+				"melon"
+				{
+					"encrypted_gid_2"		"23FCF8447B03CC8E4ED902671155E0AD"
+					"encrypted_size_2"		"BFD8C878B2E009D4025E9D81A2B29B7A"
+				}
+			}
+		}
+		"693170"
+		{
+			"name"		"A Hat in Time - Soundtrack B-Side (693170)"
+			"dlcappid"		"693170"
+			"manifests"
+			{
+				"public"		"556965011746583676"
+				"pre_dlc1"		"4543441846683521280"
+				"pre_dlc2"		"310415727146259792"
+			}
+			"maxsize"		"876956172"
+			"encryptedmanifests"
+			{
+				"melon"
+				{
+					"encrypted_gid_2"		"6E84744BC16029CE5AC84CEE3F25EA4D"
+					"encrypted_size_2"		"23FB47479A1ED0D029DB894658B39A05"
+				}
+			}
+		}
+		"1072430"
+		{
+			"name"		"A Hat in Time - DLC 2 Preorder Bonus (1072430) Depot"
+			"manifests"
+			{
+				"public"		"7643483086214635929"
+			}
+			"maxsize"		"15953920"
+			"dlcappid"		"1072430"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4177595"
+				"timeupdated"		"1567978814"
+			}
+			"2017speedrunevent"
+			{
+				"buildid"		"2145028"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1506805216"
+			}
+			"alphalegacybuild"
+			{
+				"buildid"		"210112"
+				"description"		"Legacy Build of Alpha"
+				"pwdrequired"		"1"
+				"timeupdated"		"1461357533"
+			}
+			"backup"
+			{
+				"buildid"		"4166262"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567978798"
+			}
+			"durian"
+			{
+				"buildid"		"4177595"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567975716"
+			}
+			"experimental"
+			{
+				"buildid"		"4177595"
+				"description"		"Updates frequently, and might be unstable."
+				"timeupdated"		"1567975743"
+			}
+			"japanese_branch"
+			{
+				"buildid"		"4118594"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566217403"
+			}
+			"melon"
+			{
+				"buildid"		"3768789"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556205753"
+			}
+			"pre_dlc1"
+			{
+				"buildid"		"2812618"
+				"description"		"RUINS SAVEDATA! SPEEDRUN ONLY!"
+				"timeupdated"		"1538403796"
+			}
+			"pre_dlc2"
+			{
+				"buildid"		"3363550"
+				"description"		"RUINS SAVEDATA! SPEEDRUN ONLY!"
+				"timeupdated"		"1557485903"
+			}
+			"version1.0"
+			{
+				"buildid"		"2176292"
+				"description"		"RUINS SAVEDATA! SPEEDRUN ONLY!"
+				"timeupdated"		"1508643141"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"HatinTimeGame/SaveData"
+				"pattern"		"*.hat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"vpltd/hatintime/AppData/SaveData"
+				"pattern"		"*.hat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#statuslocation"		"%gamelocation%"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,456 @@
+"appinfo"
+{
+	"appid"		"601510"
+	"common"
+	{
+		"name"		"Yu-Gi-Oh! Duel Links"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"d640a70c893970095da499759768e4375d872147"
+		"clienttga"		"d93c8be08ac15d593b9d03a698dc569750b90171"
+		"icon"		"7518fd822c88236adbcf49b3a08b193a479677d2"
+		"logo"		"8edb1385f8678e8c104900fdb21f02b7db1fccb3"
+		"logo_small"		"8edb1385f8678e8c104900fdb21f02b7db1fccb3_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"601510_eula_0"
+				"name"		"Yu-Gi-Oh! Duel Links EULA"
+				"url"		"http://store.steampowered.com//eula/601510_eula_0"
+			}
+		}
+		"metacritic_name"		"Yu-Gi-Oh! Duel Links"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35"
+				"height_pct"		"53"
+			}
+		}
+		"store_asset_mtime"		"1537848474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Konami Digital Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Konami Digital Entertainment"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1510894145"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"601510"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1666"
+			"2"		"4085"
+			"3"		"3859"
+			"4"		"9"
+			"5"		"9271"
+			"6"		"4182"
+			"7"		"597"
+			"8"		"3878"
+			"9"		"122"
+			"10"		"1677"
+			"11"		"19"
+			"12"		"1756"
+			"13"		"3843"
+			"14"		"21"
+			"15"		"10397"
+			"16"		"599"
+			"17"		"1662"
+			"18"		"1695"
+			"19"		"1754"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Konami Digital Entertainment"
+		"publisher"		"Konami Digital Entertainment"
+		"homepage"		"https://www.konami.com/yugioh/duel_links/"
+		"isfreeapp"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Yu-Gi-Oh! Duel Links"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dlpc.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"601511"
+		{
+			"name"		"Yu-Gi-Oh! Duel Links Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4190254419321551351"
+			}
+			"maxsize"		"217302940"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"C7D86329855772D8B3D1E1552DFE21D1"
+					"encrypted_size_2"		"4E4311B79396FBFB14854888B57B6681"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"D5B4A26DEDAB19180D3685C8248B5839"
+					"encrypted_size_2"		"E9142A41C35B0DCDCCE019BAD1DDD01B"
+				}
+				"takeover"
+				{
+					"encrypted_gid_2"		"748842A424E752DAD432EF3A5DF8357B"
+					"encrypted_size_2"		"698776AFBA948F106CC29080360AEB65"
+				}
+				"ver3100"
+				{
+					"encrypted_gid_2"		"7A519CE06037895DF8B1A055704601AA"
+					"encrypted_size_2"		"A74AB12A842330663DB87B4B877C4229"
+				}
+				"ver380"
+				{
+					"encrypted_gid_2"		"9E43E7693BEF6143F32297F00DCD3C88"
+					"encrypted_size_2"		"C1FFD1C93AB14BC40E387476056531BD"
+				}
+				"ver390"
+				{
+					"encrypted_gid_2"		"5915F0DED31E305004DB7AC474A2CF34"
+					"encrypted_size_2"		"203617F7F5F45BE3AB0752A838BC5076"
+				}
+			}
+		}
+		"601512"
+		{
+			"name"		"Yu-Gi-Oh! Duel Links - debug - selenv"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3978130370856259096"
+				"local"		"7393370643594267954"
+			}
+			"maxsize"		"221352080"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"664C541F7FD957C2A2F423110AF8117E"
+					"encrypted_size_2"		"CD55BD3448569EC94C02124312E973BB"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"1D5B86084DA430950769C8D3FDAFF0BB"
+					"encrypted_size_2"		"CBC460211CDDB0F4AE70AF0DDE3E3858"
+				}
+				"exam"
+				{
+					"encrypted_gid_2"		"3D8BA166050DDDB4682F5B2BD1C1A38B"
+					"encrypted_size_2"		"98212B2E6799256E8F294501B53B8F5C"
+				}
+				"takeover"
+				{
+					"encrypted_gid_2"		"481746CA3E56BDA0B93F32F8C1735E1B"
+					"encrypted_size_2"		"2CE94D5167A2415B40115022FD554BBA"
+				}
+				"ver3100"
+				{
+					"encrypted_gid_2"		"DB61744C9C4D84AC8D7F7A6FA7BC01F7"
+					"encrypted_size_2"		"A65E59DCAF8718544A3FFEDAB401E151"
+				}
+				"ver380"
+				{
+					"encrypted_gid_2"		"6272DB04DFC8177533EF4C149B07A023"
+					"encrypted_size_2"		"0BADA6131A16676685013A67A58B4E66"
+				}
+				"ver390"
+				{
+					"encrypted_gid_2"		"D9C4CA5B0BA72FBF529E624D0B45145F"
+					"encrypted_size_2"		"B09A5674467C6A8E9FBB4012A5736FB5"
+				}
+			}
+		}
+		"601513"
+		{
+			"name"		"Yu-Gi-Oh! Duel Links - debug - QC"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4706614521073739175"
+				"local"		"5360464831998832377"
+			}
+			"maxsize"		"222971872"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"1FAE0F50784069B50F4549DE07E8E7F3"
+					"encrypted_size_2"		"CD55BD3448569EC94C02124312E973BB"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"88CECABE458C5ED39F299C3F43800D0A"
+					"encrypted_size_2"		"EF1FFE06B5FB0CBCDE785FC86359D010"
+				}
+				"exam"
+				{
+					"encrypted_gid_2"		"6CB0E7106AD9454D622EFEFAB5A20634"
+					"encrypted_size_2"		"93904876D24F117402897C497BB96B53"
+				}
+				"takeover"
+				{
+					"encrypted_gid_2"		"55FD1B79E5262E8BE9DBAD607137F18F"
+					"encrypted_size_2"		"2CE94D5167A2415B40115022FD554BBA"
+				}
+				"ver3100"
+				{
+					"encrypted_gid_2"		"73E2D31BCB4D7E22233E6AB61663DF4F"
+					"encrypted_size_2"		"A65E59DCAF8718544A3FFEDAB401E151"
+				}
+				"ver380"
+				{
+					"encrypted_gid_2"		"46E7970FD33D9AAB7ACCF75952CBED3B"
+					"encrypted_size_2"		"0BADA6131A16676685013A67A58B4E66"
+				}
+				"ver390"
+				{
+					"encrypted_gid_2"		"2F899184EC737AF78664F04A93211B51"
+					"encrypted_size_2"		"B09A5674467C6A8E9FBB4012A5736FB5"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4127669"
+				"timeupdated"		"1566451690"
+			}
+			"beta"
+			{
+				"buildid"		"4177490"
+				"description"		"QC Check Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567968711"
+			}
+			"develop"
+			{
+				"buildid"		"4172243"
+				"description"		"Developer Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567757387"
+			}
+			"exam"
+			{
+				"buildid"		"2328236"
+				"description"		"PEGI Examination Binary"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512032858"
+			}
+			"future"
+			{
+				"buildid"		"4127669"
+				"description"		"Next Version Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566432218"
+			}
+			"local"
+			{
+				"buildid"		"2414271"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1515126638"
+			}
+			"takeover"
+			{
+				"buildid"		"3121077"
+				"description"		"QC NoDebug Check Binary"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536909419"
+			}
+			"ver3100"
+			{
+				"buildid"		"4121370"
+				"description"		"Ver.3.10.0 Debug Binary"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566280129"
+			}
+			"ver380"
+			{
+				"buildid"		"3927980"
+				"description"		"Ver.3.8.0 Debug Binary"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560837365"
+			}
+			"ver390"
+			{
+				"buildid"		"4032242"
+				"description"		"Ver.3.9.0 Debug Binary"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563781487"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
+ 

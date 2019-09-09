@@ -1,0 +1,486 @@
+"appinfo"
+{
+	"appid"		"330020"
+	"common"
+	{
+		"name"		"Children of Morta"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"f5f9f815fb8d2c447ed86cdfb6edadfa064c0343"
+		"clienttga"		"393fb29424b48c4d20c1e9617842084e31f9ffc1"
+		"icon"		"29e179c5c7ac3aa6d3fb15ca5b19fd1124af4e7b"
+		"oslist"		"windows,macos"
+		"logo"		"48042591b504bc4d3eaa258407431243d3953ec4"
+		"logo_small"		"48042591b504bc4d3eaa258407431243d3953ec4_thumb"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"osextended"		""
+		"clienticns"		"c0982832cd87c3ae93eea285b29c329a4b0ce8ec"
+		"metacritic_name"		"Children of Morta"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.73045507584598"
+				"height_pct"		"75.8370933270007"
+			}
+		}
+		"store_asset_mtime"		"1568035790"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dead Mage"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"11 bit studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1567515722"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/children-of-morta?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"330020"
+		"store_tags"
+		{
+			"0"		"3959"
+			"1"		"3964"
+			"2"		"492"
+			"3"		"19"
+			"4"		"122"
+			"5"		"21"
+			"6"		"1720"
+			"7"		"1742"
+			"8"		"1646"
+			"9"		"4667"
+			"10"		"4026"
+			"11"		"4231"
+			"12"		"1685"
+			"13"		"4885"
+			"14"		"3841"
+			"15"		"3859"
+			"16"		"4166"
+			"17"		"597"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Dead Mage"
+		"publisher"		"11 bit studios"
+		"homepage"		"http://www.childrenofmorta.com/"
+		"listofdlc"		"1106270,1153480"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ChildrenOfMorta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ChildrenOfMorta.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ChildrenOfMorta.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,polish,turkish,brazilian"
+		"hasdepotsindlc"		"0"
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"330021"
+		{
+			"name"		"Children of Morta Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2999609391481440040"
+				"june_demo_release"		"1028731761934883249"
+			}
+			"maxsize"		"1955449456"
+			"encryptedmanifests"
+			{
+				"11_bit_dirty_qa"
+				{
+					"encrypted_gid_2"		"AFDFDE7E73477A227A87A2DE7C566781"
+					"encrypted_size_2"		"4747C46D70FE19251CD5A6C07A80E739"
+				}
+				"deadmage_test"
+				{
+					"encrypted_gid_2"		"B7F46D2DCA263AAE32BC1D35B5202762"
+					"encrypted_size_2"		"F18793BB35F80F28181DDC4CF0D88581"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"90759F613FA7F5711C9E223D29F41DD0"
+					"encrypted_size_2"		"9AC6C140975028F00932FA81A8D53793"
+				}
+				"filiptesting"
+				{
+					"encrypted_gid_2"		"0CBF8812E3BF69FE6B2D704E858FD96F"
+					"encrypted_size_2"		"E635B8DA794FF847EE215D6874D8153F"
+				}
+				"focus_testing"
+				{
+					"encrypted_gid_2"		"ABD717D52496D6280AEF214EA3626966"
+					"encrypted_size_2"		"5396EAF2E10F41FB6EE5D04B2B75E87E"
+				}
+				"focus_testing_new"
+				{
+					"encrypted_gid_2"		"5D4E0C8592EE0FA48AC9DF1062F43DF3"
+					"encrypted_size_2"		"33910B049FFF4F61778BF6A52650957E"
+				}
+				"marketing_movie_recording_outside"
+				{
+					"encrypted_gid_2"		"38B14137A33374459286517E24CAAC60"
+					"encrypted_size_2"		"BE17F704CB29EE54B8419F0698709516"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"4B0E50F3EEE2359DC6BFEC1BF6F28B35"
+					"encrypted_size_2"		"6B9AEF9B9B35F6F974B9B3994B9EA369"
+				}
+				"suns_of_valencia"
+				{
+					"encrypted_gid_2"		"B95638D5A1FD1E3980045ABCCA14B082"
+					"encrypted_size_2"		"8790D47F9279B6CCB9D02A6EAA9F39EB"
+				}
+				"translations_testing"
+				{
+					"encrypted_gid_2"		"C50B8445B77EC94AB290E09634AAC3C5"
+					"encrypted_size_2"		"367DB8FB84B51BDC97BCA22381B2BF0E"
+				}
+			}
+		}
+		"330022"
+		{
+			"name"		"Children of Morta Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2138254920882235019"
+				"june_demo_release"		"1696723020281668043"
+			}
+			"maxsize"		"3452601204"
+			"encryptedmanifests"
+			{
+				"11_bit_dirty_qa"
+				{
+					"encrypted_gid_2"		"1A373A489857793273F6F42B5A55033A"
+					"encrypted_size_2"		"3C3CEA5BAF2BEC87F83A676355374FA9"
+				}
+				"deadmage_test"
+				{
+					"encrypted_gid_2"		"250967A07D3D0243BFEDE84761BA0180"
+					"encrypted_size_2"		"DF6AB5938DFED3A7AE17BB6AAF13811B"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"F3A768B8608600CF8A88B088D8A49979"
+					"encrypted_size_2"		"BDADA99648085D40C04F0262ABD97746"
+				}
+				"filiptesting"
+				{
+					"encrypted_gid_2"		"E51AB40963E4490E8BCF6891B1236E4A"
+					"encrypted_size_2"		"57863DC80AAE7E83045FBD7607CF296F"
+				}
+				"focus_testing"
+				{
+					"encrypted_gid_2"		"10732316231BE41DB722DA9922048E48"
+					"encrypted_size_2"		"81F06F5D9BB8F45788E16935DFC12475"
+				}
+				"focus_testing_new"
+				{
+					"encrypted_gid_2"		"B0973464B7DEC30EA44D3BE887AF3CA2"
+					"encrypted_size_2"		"8A5CEADDF3BC94D349BFFB8178475358"
+				}
+				"marketing_movie_recording_outside"
+				{
+					"encrypted_gid_2"		"50C0D6BC1A9E5166A3D854BD94145C0D"
+					"encrypted_size_2"		"277B319262732993EEA3859521BCD412"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"AC00F17E2C0AA3BB51504F3EC8C60E06"
+					"encrypted_size_2"		"00148C5C84A4DBB566D094F1CC8FCAC5"
+				}
+				"suns_of_valencia"
+				{
+					"encrypted_gid_2"		"3A7704957DE2AA38A22E056F5FD5DCF9"
+					"encrypted_size_2"		"7E4B60BC8BC6CA8776464E553968EA8B"
+				}
+				"translations_testing"
+				{
+					"encrypted_gid_2"		"B426F279B4DB21D07AD3FD1C8689886E"
+					"encrypted_size_2"		"2535F34398E62BEC9FFCF8969B36F259"
+				}
+			}
+		}
+		"330023"
+		{
+			"name"		"Children of Morta Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"330024"
+		{
+			"name"		"Children of Morta - Tools - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6975427759498161928"
+			}
+			"maxsize"		"8192"
+			"encryptedmanifests"
+			{
+				"11_bit_dirty_qa"
+				{
+					"encrypted_gid_2"		"BDA5A5739B981EDD9D0B733176856CEB"
+					"encrypted_size_2"		"CA0EBCB44B44E7079812A38E865EA3A2"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4178475"
+				"timeupdated"		"1568037671"
+			}
+			"11_bit_dirty_qa"
+			{
+				"buildid"		"4178491"
+				"description"		"11 bit non-stable QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568016952"
+			}
+			"deadmage_test"
+			{
+				"buildid"		"4073665"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564918038"
+			}
+			"development"
+			{
+				"buildid"		"4177122"
+				"description"		"DM non-stable QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567947059"
+			}
+			"filiptesting"
+			{
+				"buildid"		"4177134"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567947857"
+			}
+			"focus_testing"
+			{
+				"buildid"		"4162447"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567504365"
+			}
+			"focus_testing_new"
+			{
+				"buildid"		"4116192"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566116176"
+			}
+			"june_demo_release"
+			{
+				"buildid"		"3932110"
+				"description"		""
+				"timeupdated"		"1560949260"
+			}
+			"marketing_movie_recording_outside"
+			{
+				"buildid"		"3817609"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557835019"
+			}
+			"qa_test"
+			{
+				"buildid"		"4178475"
+				"description"		"DM stable QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568016665"
+			}
+			"ratings"
+			{
+				"buildid"		"3929868"
+				"description"		"Build for ratings"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560874757"
+			}
+			"suns_of_valencia"
+			{
+				"buildid"		"4087179"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565275552"
+			}
+			"translations_testing"
+			{
+				"buildid"		"3929868"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560949359"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"256000000"
+		"maxnumfiles"		"10"
+	}
+}
+ 

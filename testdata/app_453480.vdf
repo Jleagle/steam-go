@@ -1,0 +1,495 @@
+"appinfo"
+{
+	"appid"		"453480"
+	"common"
+	{
+		"name"		"Shadowverse"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"clienticon"		"0c6852ac74455a0aa6ae29df55d47e6b1e098dba"
+		"clienttga"		"ee3091784370bc74d8d61ed169e7f58b79256d3f"
+		"icon"		"65663ec45ad1ea015a242fb7738ff06f38d114fe"
+		"logo"		"6fe9a7a34cafb6d3c2b68374e2cff1e8b2713a7b"
+		"logo_small"		"6fe9a7a34cafb6d3c2b68374e2cff1e8b2713a7b_thumb"
+		"clienticns"		"791e331cc38c74ffb41feb4b58c889a36713acc4"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"453480_eula_1"
+				"name"		"Shadowverse EULA 1"
+				"url"		"http://store.steampowered.com//eula/453480_eula_1"
+			}
+		}
+		"releasestate"		"released"
+		"metacritic_name"		"Shadowverse"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+			"french"		"header_french.jpg"
+			"german"		"header_german.jpg"
+			"italian"		"header_italian.jpg"
+			"spanish"		"header_spanish.jpg"
+		}
+		"store_asset_mtime"		"1561563561"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cygames, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cygames, Inc."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Cygames Korea Inc."
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_35"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1477634166"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"453480"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1666"
+			"2"		"4085"
+			"3"		"9"
+			"4"		"9271"
+			"5"		"3859"
+			"6"		"1684"
+			"7"		"1677"
+			"8"		"12095"
+			"9"		"6650"
+			"10"		"3878"
+			"11"		"4182"
+			"12"		"597"
+			"13"		"4434"
+			"14"		"21"
+			"15"		"1775"
+			"16"		"1754"
+			"17"		"19"
+			"18"		"4726"
+			"19"		"1721"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Cygames, Inc."
+		"publisher"		"Cygames, Inc."
+		"homepage"		"https://shadowverse.com/"
+		"isfreeapp"		"1"
+		"listofdlc"		"526620"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Shadowverse"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shadowverse.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Shadowverse.app\\Contents\\MacOS\\Shadowverse"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,japanese"
+		"453483"
+		{
+			"name"		"Shadowverse Windows Eng"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2390829236465808606"
+			}
+			"maxsize"		"144757361"
+			"encryptedmanifests"
+			{
+				"check"
+				{
+					"encrypted_gid_2"		"84A5CA3CBE63B64D83E22AA11A8E0E02"
+					"encrypted_size_2"		"F0BA8323ED5D0DC9D1086DA854D56915"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"682EC58E343CD60495F9CFAA3563FA4E"
+					"encrypted_size_2"		"DFD8364A94298A3E5EEED15E93276484"
+				}
+				"debug02"
+				{
+					"encrypted_gid_2"		"6B77F2D0A1E9EE89F8B5E8C6E41D9481"
+					"encrypted_size_2"		"176818E97A8746B288BE15054D3C15F7"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"8CE56F347503CDAC884F268E65BF1086"
+					"encrypted_size_2"		"3178C9FEDDB26BD6532D0BB0F7825DEC"
+				}
+				"maintenance"
+				{
+					"encrypted_gid_2"		"A0AF3FE753C1C3CE1BFC5038CF1384CF"
+					"encrypted_size_2"		"ACB403B2C86E55852B7F69BE40C3F7C4"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"AB3092BD06C9C1C1AE64D8E5B0978AC1"
+					"encrypted_size_2"		"A65CAD3E1E0FEB58426227CC976E9038"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"7C2841A18151969197403AE42A0842F2"
+					"encrypted_size_2"		"936F56887A7FDC21EBE86C8885B8CA23"
+				}
+				"staging2"
+				{
+					"encrypted_gid_2"		"CE5566238E975B11F78C1581033C1091"
+					"encrypted_size_2"		"00C8310A31FA252114076AFF7C8525B2"
+				}
+			}
+		}
+		"453484"
+		{
+			"name"		"Shadowverse Mac Eng"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7274492291611243961"
+			}
+			"maxsize"		"166993957"
+			"encryptedmanifests"
+			{
+				"check"
+				{
+					"encrypted_gid_2"		"E55624B84ACC55D6266F91830C13AA3A"
+					"encrypted_size_2"		"24F713FBE886D7A070ADD29DB0F169A4"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"60E09CE225D715204CF9A130D4438137"
+					"encrypted_size_2"		"93C61AE2D7FF4C68B06AB4CC7B791873"
+				}
+				"debug02"
+				{
+					"encrypted_gid_2"		"E2E7EEAF13D957CC1074D9EC91AD0513"
+					"encrypted_size_2"		"4BCBB23BA575E2FBD54A780C04B9B301"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"B178511BE6FA911D6C9BA29004261C88"
+					"encrypted_size_2"		"4F67CAEF1E36498201BDF8A0FFC56866"
+				}
+				"maintenance"
+				{
+					"encrypted_gid_2"		"77352A0FC1D2ACCE632CC8053A587791"
+					"encrypted_size_2"		"138BD42F311AD68EC3E625E485CFC8B5"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"93F8F6959A7584010183930C56FC1A34"
+					"encrypted_size_2"		"F9146D8CD686CF6100274BEEFD012706"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"6A15997527939CD26E001810F7D4D871"
+					"encrypted_size_2"		"F627DE05026FEDDBB7E319A8830E4781"
+				}
+				"staging2"
+				{
+					"encrypted_gid_2"		"E3B87BBDE7C1C8184110018B38031075"
+					"encrypted_size_2"		"EFFF71747D97289AAF95776CAC36BEC8"
+				}
+			}
+		}
+		"453481"
+		{
+			"name"		"Shadowverse Windows JP"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"8003922055697204328"
+			}
+			"maxsize"		"144754937"
+			"encryptedmanifests"
+			{
+				"check"
+				{
+					"encrypted_gid_2"		"685DBE7CA5B11D353068AC4647903298"
+					"encrypted_size_2"		"8511C003F9B2206AB8BBBF86EEA35997"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"64FA364D7F7346C5AB638CC137DFEE4E"
+					"encrypted_size_2"		"AD3BDA61A560DFEF1B400E22AFFC37AC"
+				}
+				"debug02"
+				{
+					"encrypted_gid_2"		"44D9E6BB6976C3E11502DE21BD5271EA"
+					"encrypted_size_2"		"0A38170C2F545FD953F4FDDDE527BA21"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"A2F6DB7386F5C1337DB1F82D4EEA3A5B"
+					"encrypted_size_2"		"E303673ED6FC11F8E349AE7CE8B57120"
+				}
+				"maintenance"
+				{
+					"encrypted_gid_2"		"2EA2CB0C1F4CCAE8BE6B770C1ABAC1C3"
+					"encrypted_size_2"		"B0E682DCF2D5321F3BD212BCE3D5BA37"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"1155A6087A2FD79F31AA2E5A71E53465"
+					"encrypted_size_2"		"CE20523B3E44D129C6E56D8315DD7A9C"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"6F7AE4FABEB73670EE17731002088C65"
+					"encrypted_size_2"		"95474F885AF4C02D8940FF97E7DEB900"
+				}
+				"staging2"
+				{
+					"encrypted_gid_2"		"6D9D55E2F3B9D49420587B28A5B10C1F"
+					"encrypted_size_2"		"F9F441E0B11A95BAFA9C4332B79D63D1"
+				}
+			}
+		}
+		"453482"
+		{
+			"name"		"Shadowverse Mac JP"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"8887485226658786015"
+			}
+			"maxsize"		"166991533"
+			"encryptedmanifests"
+			{
+				"check"
+				{
+					"encrypted_gid_2"		"9780AE87177E92EB14346E544BC0383F"
+					"encrypted_size_2"		"A603D3D5A9E621B6F3BC39252A0D8B5E"
+				}
+				"debug"
+				{
+					"encrypted_gid_2"		"D817BB0514BDE559D884CB15915012DA"
+					"encrypted_size_2"		"A49694E5FABAED3E86AEAFAE89DC7A1F"
+				}
+				"debug02"
+				{
+					"encrypted_gid_2"		"E7749A288868B4393F3EDFF6C238E3DB"
+					"encrypted_size_2"		"15E116E681FF50A15526FA75286C3D9A"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"5A57690141BBA22FAE6F35BA3128771B"
+					"encrypted_size_2"		"1742D704EECCC6242B0ED34341AD44E3"
+				}
+				"maintenance"
+				{
+					"encrypted_gid_2"		"C956F256ACA9C65FF11C224400A376CE"
+					"encrypted_size_2"		"F3B448F90956574D18475E15B11C231A"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"6EFB6626C913CA73060EFBE945DEAFC9"
+					"encrypted_size_2"		"21AA6DF02EA494D8AB00AD11424073D4"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"3907B01C35E6F79794A60FAF357E073C"
+					"encrypted_size_2"		"B15EE184BE9E9F3CB71FA24871330B80"
+				}
+				"staging2"
+				{
+					"encrypted_gid_2"		"07D986C59AD8C4E9F081C4065B5CE713"
+					"encrypted_size_2"		"44EB70F7C4E409FF4C6F1E1528E6AEAF"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4141570"
+				"timeupdated"		"1567058911"
+			}
+			"application"
+			{
+				"buildid"		"4141570"
+				"description"		"申請用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566885794"
+			}
+			"check"
+			{
+				"buildid"		"4177889"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567992113"
+			}
+			"debug"
+			{
+				"buildid"		"4141554"
+				"description"		"Debug for debugger"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566884895"
+			}
+			"debug02"
+			{
+				"buildid"		"4138368"
+				"description"		"Debug for debugger"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566801105"
+			}
+			"develop"
+			{
+				"buildid"		"4178043"
+				"description"		"Engineer only"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568001124"
+			}
+			"maintenance"
+			{
+				"buildid"		"4177882"
+				"description"		"for maintenance debug"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567991890"
+			}
+			"rating"
+			{
+				"buildid"		"1951572"
+				"description"		"韓国レーティング審査用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1499756321"
+			}
+			"staging"
+			{
+				"buildid"		"4171490"
+				"description"		"staging for debugger"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567733367"
+			}
+			"staging2"
+			{
+				"buildid"		"4171512"
+				"description"		"staging for debugger"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567733871"
+			}
+		}
+	}
+}
+ 

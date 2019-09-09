@@ -1,0 +1,575 @@
+"appinfo"
+{
+	"appid"		"221040"
+	"common"
+	{
+		"name"		"Resident Evil 6 / Biohazard 6"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"0a0832a59b6c0a4ffa995b0343892729fe61ec1b"
+		"logo"		"2398457399f20b979f0e5d0641262560a72408d5"
+		"logo_small"		"2398457399f20b979f0e5d0641262560a72408d5_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"42d4f0f11a6c03019b42ebbf5e1515fda91419f9"
+		"clienttga"		"8f553990aa0890905d90c096bede4dfa5e1deeae"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/221040_eula"
+				"id"		"221040_eula"
+				"name"		"221040_eula"
+			}
+		}
+		"metacritic_name"		"Resident Evil 6"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"30"
+				"height_pct"		"66"
+			}
+		}
+		"store_asset_mtime"		"1530079675"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Capcom"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Capcom"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Resident Evil"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_8"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1363935600"
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/resident-evil-6?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"221040"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1659"
+			"2"		"1685"
+			"3"		"3814"
+			"4"		"1667"
+			"5"		"21"
+			"6"		"4508"
+			"7"		"3843"
+			"8"		"1697"
+			"9"		"1774"
+			"10"		"4559"
+			"11"		"3859"
+			"12"		"3978"
+			"13"		"3841"
+			"14"		"1662"
+			"15"		"4182"
+			"16"		"10816"
+			"17"		"4166"
+			"18"		"7208"
+			"19"		"5144"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Capcom"
+		"gamedir"		"ValveTestApp221040"
+		"homepage"		"http://www.residentevil.com/6/"
+		"icon"		""
+		"languages"		"english,french,german,italian,spanish,polish,russian,japanese,brazilian"
+		"launcheula"		"http://store.steampowered.com/eula/221040_eula"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Capcom"
+		"listofdlc"		"228580,232490,232491,232510,232530,232550,232570,232590,232610,235560,236080"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Resident Evil 6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BH6.exe"
+				"description"		"Default"
+			}
+		}
+		"installscriptsignature"		"3b5e6fe7038474d337d011a8dcdcc3ca04f15b464dd302e2d78fc8f4dc5ff091275fec9afb2e76663c79411e49b58d67285a7649d42b08972fee564fa1b77fcd83535db685a16fddd2ce53090fae64ffc3edefc632cbc5369f09eacff6a8a6b31e4f52e5174d75341ed964b4939f64093facabb8be86046c068174571250f448"
+		"installscriptoverride"		"1"
+		"usemms"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\221040"
+				"process 1"		"%INSTALLDIR%\\support\\directx_Jun2010_redist\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\221040"
+				"process 1"		"%INSTALLDIR%\\support\\vcredist_x86\\vcredist_x86.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+				"ignoreexitcode"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"markdlcdepots"		"1"
+		"hasdepotsindlc"		"0"
+		"221041"
+		{
+			"name"		"Resident Evil 6 Content"
+			"manifests"
+			{
+				"public"		"91344656510953107"
+			}
+			"maxsize"		"17403958654"
+			"encryptedmanifests"
+			{
+				"disk_j"
+				{
+					"encrypted_gid_2"		"6F6FACBF729ABA12C98313D4EE5CFA4C"
+					"encrypted_size_2"		"97B3AB018B8AECF81F21AB9EFBAF7041"
+				}
+				"test_german"
+				{
+					"encrypted_gid_2"		"4961646941E8D859BF9AE4D19642AC7C"
+					"encrypted_size_2"		"222EF7013E2DED63411E43EC04201397"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"5F3B1D1274AD8CD282E43D382A7BBEEF"
+					"encrypted_size_2"		"352ED9B1C3B7805F03E24AAE55BA9518"
+				}
+			}
+		}
+		"221042"
+		{
+			"name"		"Resident Evil 6 LV German"
+			"config"
+			{
+				"lowviolence"		"1"
+			}
+			"manifests"
+			{
+				"public"		"1508376640863714876"
+			}
+			"maxsize"		"17403959166"
+			"encryptedmanifests"
+			{
+				"disk_j"
+				{
+					"encrypted_gid_2"		"99DAB07CC6D917DA095E19A89A2C0315"
+					"encrypted_size_2"		"97B3AB018B8AECF81F21AB9EFBAF7041"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"5D16A4539650A03FDC4965C000FCC709"
+					"encrypted_size_2"		"1E00B34D1942557DD06FEC0CA98B3612"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"55A5149F6A0D20425B32C9DEB92ABB84"
+					"encrypted_size_2"		"352ED9B1C3B7805F03E24AAE55BA9518"
+				}
+			}
+		}
+		"221043"
+		{
+			"name"		"Resident Evil 6 LV Japan"
+			"manifests"
+			{
+				"public"		"3711287240693545962"
+			}
+			"maxsize"		"14105862031"
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid_2"		"1BE754623CEC5E1E131C95B2D801A0AA"
+					"encrypted_size_2"		"1E00B34D1942557DD06FEC0CA98B3612"
+				}
+				"test_german"
+				{
+					"encrypted_gid_2"		"BADFFF55A5CA8B8F37E0100F8F90FBA1"
+					"encrypted_size_2"		"222EF7013E2DED63411E43EC04201397"
+				}
+			}
+		}
+		"228580"
+		{
+			"name"		"Resident Evil 6 LV German Hyper Mercenaries"
+			"dlcappid"		"228580"
+			"manifests"
+			{
+				"public"		"8273703995269190886"
+			}
+			"maxsize"		"2176861"
+		}
+		"232490"
+		{
+			"name"		"Resident Evil 6: Art Book"
+			"dlcappid"		"232490"
+			"manifests"
+			{
+				"public"		"4766891803519297317"
+			}
+			"maxsize"		"135456177"
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid_2"		"8E79FE798DF5785350205C0B05227924"
+					"encrypted_size_2"		"E1D0634C3EFF60DC2EFDE294A3EF5764"
+				}
+				"test_german"
+				{
+					"encrypted_gid_2"		"F9922587CF178EA452BD96B040D21399"
+					"encrypted_size_2"		"753FFEF306C93FF84FC426460140824D"
+				}
+			}
+		}
+		"232491"
+		{
+			"name"		"Resident Evil 6: Art Book Japanese"
+			"dlcappid"		"232491"
+			"manifests"
+			{
+				"public"		"1501175007995626401"
+			}
+			"maxsize"		"454669692"
+			"encryptedmanifests"
+			{
+				"disk_j"
+				{
+					"encrypted_gid_2"		"3C98229C7517A3D094C03137E83C608E"
+					"encrypted_size_2"		"91E85B57CEF2E3D37E3AD7FD7A8C286D"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"2059DD3AAEAEA72ED4AF6831DE7D59E7"
+					"encrypted_size_2"		"F6E023C9261803E62567C912D8A4A719"
+				}
+			}
+		}
+		"232510"
+		{
+			"name"		"Resident Evil 6: Soundtrack"
+			"dlcappid"		"232510"
+			"manifests"
+			{
+				"public"		"3325491477400887902"
+			}
+			"maxsize"		"72500557"
+			"encryptedmanifests"
+			{
+				"disk_j"
+				{
+					"encrypted_gid_2"		"063E89A8D85D1D7D52AE7A814A95BE9E"
+					"encrypted_size_2"		"937543E7DAD3D92C47CEF808DE5CF19B"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"9BCF28889B84809364A21EB71AB3E4BF"
+					"encrypted_size_2"		"96400809400B7265E91A086F65A80918"
+				}
+				"test_german"
+				{
+					"encrypted_gid_2"		"525AF5FB3FBF675BDAEE7331D8599F06"
+					"encrypted_size_2"		"BED7FB9E09A237347F73B4725200815F"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"B948559D7703B163CA079614C3B68B96"
+					"encrypted_size_2"		"BA3EBE4DEDC967B7A5A781C9B26A99E4"
+				}
+			}
+		}
+		"232530"
+		{
+			"name"		"Resident Evil 6: Onslaught Mode"
+			"dlcappid"		"232530"
+			"manifests"
+			{
+				"public"		"4578502731029880419"
+			}
+			"maxsize"		"97484783"
+		}
+		"232550"
+		{
+			"name"		"Resident Evil 6: Predator Mode"
+			"dlcappid"		"232550"
+			"manifests"
+			{
+				"public"		"6419035047511949838"
+			}
+			"maxsize"		"133155885"
+		}
+		"232570"
+		{
+			"name"		"Resident Evil 6: Siege Mode"
+			"dlcappid"		"232570"
+			"manifests"
+			{
+				"public"		"4380680925184539415"
+			}
+			"maxsize"		"115873075"
+		}
+		"232590"
+		{
+			"name"		"Resident Evil 6: Survivors Mode"
+			"dlcappid"		"232590"
+			"manifests"
+			{
+				"public"		"5373308995109810588"
+			}
+			"maxsize"		"86884148"
+		}
+		"232610"
+		{
+			"name"		"Resident Evil 6: Left 4 Dead Content"
+			"dlcappid"		"232610"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"disk_j"
+				{
+					"encrypted_gid_2"		"351C4BCA7BD710BF064BD6E518A1A59D"
+					"encrypted_size_2"		"67141CFF450865DC3229D0A4401F8A78"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"2ADBC85D37A1AB33FB0A1B3BCBA0719F"
+					"encrypted_size_2"		"21A9079C233014B77B2403EB190C9278"
+				}
+				"test_german"
+				{
+					"encrypted_gid_2"		"49E4B1D1691054CDD3ED8075C2782671"
+					"encrypted_size_2"		"EAFAE77A65A3AEA4C83860B0A9335B16"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"F0DDFB574280A6D63ABE061702847526"
+					"encrypted_size_2"		"757C80337C6F512E66E9CFF86B0C3392"
+				}
+			}
+		}
+		"236080"
+		{
+			"name"		"Resident Evil 6: Wallpaper"
+			"dlcappid"		"236080"
+			"manifests"
+			{
+				"public"		"7387874972474539378"
+			}
+			"maxsize"		"522551680"
+		}
+		"221044"
+		{
+			"name"		"resident evil 6 / biohazard 6 Test Depot   "
+			"manifests"
+			{
+				"public"		"7783255463673610611"
+			}
+			"maxsize"		"123325300"
+			"encryptedmanifests"
+			{
+				"exc_db"
+				{
+					"encrypted_gid_2"		"E9A49E90C2A5E4551728D56FCADCCE3D"
+					"encrypted_size_2"		"CB5DAA4B63579C2F5312F86E4CB083C3"
+				}
+				"exc_t"
+				{
+					"encrypted_gid_2"		"FB4C9100B74D1EF3E4E3E131219C71AB"
+					"encrypted_size_2"		"799A34B829CD5A7B4565E0ECB10A4870"
+				}
+				"test_japan"
+				{
+					"encrypted_gid_2"		"AC0F18FE199DFBB58B9D0673231B1C48"
+					"encrypted_size_2"		"88A00ECF05804CD062F59596074241CC"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2431801"
+				"timeupdated"		"1519693607"
+			}
+			"disk_j"
+			{
+				"buildid"		"92015"
+				"description"		"Japan LV disk"
+				"pwdrequired"		"1"
+			}
+			"exc_db"
+			{
+				"buildid"		"2431800"
+				"description"		"EXC_DB"
+				"pwdrequired"		"1"
+				"timeupdated"		"1515747818"
+			}
+			"exc_ndb"
+			{
+				"buildid"		"2431801"
+				"description"		"EXC_NDB"
+				"pwdrequired"		"1"
+				"timeupdated"		"1515747829"
+			}
+			"exc_t"
+			{
+				"buildid"		"2456463"
+				"description"		"EXC_T"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516584188"
+			}
+			"test"
+			{
+				"buildid"		"69103"
+				"description"		"WW filter"
+				"pwdrequired"		"1"
+			}
+			"test_german"
+			{
+				"buildid"		"69437"
+				"description"		"GLV"
+				"pwdrequired"		"1"
+			}
+			"test_japan"
+			{
+				"buildid"		"2347928"
+				"description"		"JLV"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512646800"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"2"
+	}
+}
+ 

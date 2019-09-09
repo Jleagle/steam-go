@@ -1,0 +1,513 @@
+"appinfo"
+{
+	"appid"		"271590"
+	"common"
+	{
+		"name"		"Grand Theft Auto V"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"1e72f87eb927fa1485e68aefaff23c7fd7178251"
+		"clienticon"		"06b52e09e284542dd99eea45f9f85f68440dbcaf"
+		"clienttga"		"7f9833583db3f1f6486d0b24a35266117e48d7d9"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"e447e82f8b0c67f9e001498503c62f2a187bc609"
+		"logo_small"		"e447e82f8b0c67f9e001498503c62f2a187bc609_thumb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"has_adult_content"		"1"
+		"metacritic_name"		"Grand Theft Auto V"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34"
+				"height_pct"		"58"
+			}
+		}
+		"store_asset_mtime"		"1532441412"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rockstar North"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rockstar Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1428994800"
+		"steam_release_date"		"1428966000"
+		"metacritic_score"		"96"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/grand-theft-auto-v?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"271590"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"19"
+			"2"		"3859"
+			"3"		"1697"
+			"4"		"3839"
+			"5"		"6378"
+			"6"		"1774"
+			"7"		"21"
+			"8"		"4182"
+			"9"		"3814"
+			"10"		"5611"
+			"11"		"699"
+			"12"		"4166"
+			"13"		"1685"
+			"14"		"3810"
+			"15"		"4136"
+			"16"		"1756"
+			"17"		"1719"
+			"18"		"5144"
+			"19"		"1669"
+		}
+	}
+	"extended"
+	{
+		"supportscdkeycopytoclipboard"		"1"
+		"showcdkeyonlaunch"		"0"
+		"showcdkeyinmenu"		"1"
+		"developer"		"Rockstar North"
+		"publisher"		"Rockstar Games"
+		"homepage"		"http://www.rockstargames.com/V/"
+		"aliases"		"gta5, gtav"
+		"listofdlc"		"362000,362001,362002,362003,376850,376851,376852,376853,376854,376855,378920,413180,771300,772620,772621,772622"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Grand Theft Auto V"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GTAVLauncher.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"GTAVLauncher.exe"
+				"arguments"		"-StraightIntoFreemode"
+				"description"		"GTA Online"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"PlayGTAV.exe"
+				"description"		"Test"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qabeta3"
+				}
+			}
+		}
+		"steamcontrollerconfigfileids"		"551240539"
+		"steamcontrollertemplateindex"		"1"
+	}
+	"depots"
+	{
+		"depotdeltapatches"		"1"
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"271591"
+		{
+			"name"		"Shetland Pony Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1141469711879415870"
+			}
+			"maxsize"		"107631021"
+			"encryptedmanifests"
+			{
+				"externalbuilds"
+				{
+					"encrypted_gid_2"		"500D9151D04FF194F1A9A7CDC3687FBE"
+					"encrypted_size_2"		"30636D398F0A4EDFB46F4A5394880B35"
+				}
+				"gtavrelease"
+				{
+					"encrypted_gid_2"		"DB32B7F2D7EA3D50BFE139572A90E30E"
+					"encrypted_size_2"		"A8EB765CFBC44C014879CD4CC963C72A"
+				}
+				"nicktestbranch"
+				{
+					"encrypted_gid_2"		"FF7846007D5C470CCB6EBDBA0C75EFF9"
+					"encrypted_size_2"		"53A4819C45A6E37DDEAEB93AC325DC9C"
+				}
+				"preload"
+				{
+					"encrypted_gid_2"		"7A94DEE68011F81D047B177F4017348D"
+					"encrypted_size_2"		"609AA2122061FC81F6A1E7F8135DDAB7"
+				}
+				"qabeta"
+				{
+					"encrypted_gid_2"		"6295872E7D0BDB438EF318747E0378E4"
+					"encrypted_size_2"		"3EA5E3BBDDEF84E898966659787E8A09"
+				}
+				"qabeta3"
+				{
+					"encrypted_gid_2"		"F78F00F11A8B2844F9259573F8E2798C"
+					"encrypted_size_2"		"45EF039C73AA093203F3E4A0D71535F1"
+				}
+				"thirdparty"
+				{
+					"encrypted_gid_2"		"9C70EA0CBF469287B4DC94F0175C2808"
+					"encrypted_size_2"		"87BDE7D7EE83C88303C60E7BD691C4A4"
+				}
+			}
+		}
+		"271592"
+		{
+			"name"		"Shetland Pony Depot"
+			"manifests"
+			{
+				"public"		"1792844114624342547"
+			}
+			"maxsize"		"85063288"
+			"encryptedmanifests"
+			{
+				"externalbuilds"
+				{
+					"encrypted_gid_2"		"E719E7E693D0E564CA45CD2EEDE1E4D0"
+					"encrypted_size_2"		"F06590433F90EF2BF415CFEC0ED21847"
+				}
+				"gtavrelease"
+				{
+					"encrypted_gid_2"		"6C343D4603C01AB3AD3CD9804BBB6CD6"
+					"encrypted_size_2"		"C857A09466E8456BA8438B6B1B3BE9CF"
+				}
+				"nicktestbranch"
+				{
+					"encrypted_gid_2"		"597630299CD6BE026741CA9A68C24433"
+					"encrypted_size_2"		"FFEAF7DB718293612945CCAC5B34FA57"
+				}
+				"preload"
+				{
+					"encrypted_gid_2"		"8522B8EB9A46E859732C9D2087CAF0E8"
+					"encrypted_size_2"		"C42F529295BE3EB16469DBFBC1F342BC"
+				}
+				"qabeta"
+				{
+					"encrypted_gid_2"		"8476962061A6047CAAE70758ACB3DEE7"
+					"encrypted_size_2"		"1626872429875908EFB77FBAF27944A9"
+				}
+				"qabeta3"
+				{
+					"encrypted_gid_2"		"95661B27595A9D28D720DD6FDBFBE860"
+					"encrypted_size_2"		"A8433FB927E7D564BC95F75DD64E1454"
+				}
+				"thirdparty"
+				{
+					"encrypted_gid_2"		"6508D59C8F48D43A406594D269219E52"
+					"encrypted_size_2"		"FABF1FAB3B246217E6C59C9E65E0E384"
+				}
+			}
+		}
+		"271593"
+		{
+			"name"		"Shetland Pony Depot"
+			"manifests"
+			{
+				"public"		"884947165531941009"
+			}
+			"maxsize"		"17888008192"
+			"encryptedmanifests"
+			{
+				"preload"
+				{
+					"encrypted_gid_2"		"CD852E0AF6F43B22609643D436A73D81"
+					"encrypted_size_2"		"87F63010B0A46639B57B705CA97E866F"
+				}
+			}
+		}
+		"271594"
+		{
+			"name"		"Shetland Pony Depot"
+			"manifests"
+			{
+				"public"		"4146727316827507482"
+			}
+			"maxsize"		"34783148471"
+			"encryptedmanifests"
+			{
+				"externalbuilds"
+				{
+					"encrypted_gid_2"		"D4F553812A257729B71089119048EDC2"
+					"encrypted_size_2"		"FB86D5E4030D22C85E4506017F4D9930"
+				}
+				"gtavrelease"
+				{
+					"encrypted_gid_2"		"1F2353837A1328FAC59C1DF4EA858D15"
+					"encrypted_size_2"		"7A0559A3A7409499141C8C90A5DDE5F8"
+				}
+				"nicktestbranch"
+				{
+					"encrypted_gid_2"		"B0B27C7B41454F1CD73BBBC7746CD6AD"
+					"encrypted_size_2"		"7C3E1DEBEF4DAC9B484D3A30BD1A4192"
+				}
+				"preload"
+				{
+					"encrypted_gid_2"		"7DEB2E8D7F354E30BC2BAE361B5D9075"
+					"encrypted_size_2"		"F6FF505CA1664F37B4FDC65EA0C0FE12"
+				}
+				"qabeta"
+				{
+					"encrypted_gid_2"		"D26D72407ADAEC337180CF7AFDEF8DF2"
+					"encrypted_size_2"		"A2F5FD388A0ECD7B87CB257504372EE4"
+				}
+				"qabeta3"
+				{
+					"encrypted_gid_2"		"334D9701CAA31A152C812C41CD71D7C1"
+					"encrypted_size_2"		"38D997380DD3DAB4B8209918F65E4EF8"
+				}
+				"thirdparty"
+				{
+					"encrypted_gid_2"		"5FE835BE8AEE992DACA2C36887ED21EA"
+					"encrypted_size_2"		"11FDB4B16BD813BAF63AA7A3D38DF5C2"
+				}
+			}
+		}
+		"271595"
+		{
+			"name"		"Shetland Pony Depot"
+			"manifests"
+			{
+				"public"		"4898511214642125194"
+			}
+			"maxsize"		"39435642880"
+			"encryptedmanifests"
+			{
+				"gtavrelease"
+				{
+					"encrypted_gid_2"		"E969C8E7D2F6891021F78CE9ACB09179"
+					"encrypted_size_2"		"3D2252679E471DE11A1AEC092BE4A1D1"
+				}
+				"preload"
+				{
+					"encrypted_gid_2"		"DA74385E260B13E20358FCB544F2E196"
+					"encrypted_size_2"		"01AA3F49DC9969C03A47EE314860C8F1"
+				}
+				"thirdparty"
+				{
+					"encrypted_gid_2"		"BEA47C3C7B09FCCF500795889A2EB0BE"
+					"encrypted_size_2"		"D1B3CC512542C5633ED6559557E9C40A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4039798"
+				"timeupdated"		"1564046560"
+			}
+			"externalbuilds"
+			{
+				"buildid"		"952508"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"gtavrelease"
+			{
+				"buildid"		"585902"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"nicktestbranch"
+			{
+				"buildid"		"1461869"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1479310952"
+			}
+			"preload"
+			{
+				"buildid"		"579469"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"qabeta"
+			{
+				"buildid"		"3554899"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549997574"
+			}
+			"qabeta2"
+			{
+				"buildid"		"4039798"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563961259"
+			}
+			"qabeta3"
+			{
+				"buildid"		"4179500"
+				"description"		"qabeta3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568039110"
+			}
+			"thirdparty"
+			{
+				"buildid"		"695734"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
+ 

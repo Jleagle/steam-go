@@ -1,0 +1,519 @@
+"appinfo"
+{
+	"appid"		"264710"
+	"common"
+	{
+		"name"		"Subnautica"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"33576b78a79e5ffa345253b190b03fe90dd47612"
+		"clienttga"		"780507cc30e12631b5be11f8a704f962a7651c4e"
+		"icon"		"8a14ceef6e230330a916d7a6324b8c52d464d569"
+		"logo"		"d6bfaafed7b41466cc99b70972a944ac7e4d6edf"
+		"logo_small"		"d6bfaafed7b41466cc99b70972a944ac7e4d6edf_thumb"
+		"clienticns"		"de5e329945e31ccc5703ea6d665f5400ce0d2b88"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"osarch"		"64"
+		"openvrsupport"		"1"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"dutch"		"1"
+			"finnish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+			"bulgarian"		"1"
+			"ukrainian"		"1"
+		}
+		"metacritic_name"		"Subnautica"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"70"
+				"height_pct"		"19"
+			}
+		}
+		"store_asset_mtime"		"1559948191"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unknown Worlds Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Unknown Worlds Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_31"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"bulgarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1516694400"
+		"steam_release_date"		"1516762200"
+		"metacritic_score"		"87"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/subnautica?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"264710"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1695"
+			"2"		"3834"
+			"3"		"9157"
+			"4"		"1702"
+			"5"		"7332"
+			"6"		"4182"
+			"7"		"3839"
+			"8"		"21"
+			"9"		"1667"
+			"10"		"3942"
+			"11"		"3810"
+			"12"		"1673"
+			"13"		"4166"
+			"14"		"493"
+			"15"		"19"
+			"16"		"492"
+			"17"		"3978"
+			"18"		"3859"
+			"19"		"21978"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Unknown Worlds Entertainment"
+		"publisher"		"Unknown Worlds Entertainment"
+		"homepage"		"http://unknownworlds.com/subnautica"
+		"listofdlc"		"394300"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Subnautica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Subnautica.exe"
+				"arguments"		"-silent-crashes -vrmode none"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Subnautica.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Subnautica32.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"Subnautica.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"vrsupport"		"openvr"
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"264711"
+		{
+			"name"		"Subnautica Content"
+			"systemdefined"		"1"
+		}
+		"264712"
+		{
+			"name"		"Subnautica (Win32 Specific)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5196577974721678848"
+				"experimental"		"4256510674019976935"
+			}
+			"maxsize"		"14156670887"
+			"encryptedmanifests"
+			{
+				"32bit_no_longer_updated"
+				{
+					"encrypted_gid_2"		"A4C9792FE16CA3AAC44A2EDE59DBF48D"
+					"encrypted_size_2"		"CF675951A0BE2D1F588C7676BCEED3F9"
+				}
+				"earliest_access"
+				{
+					"encrypted_gid_2"		"9F885CFE9B50665196A611D45951A704"
+					"encrypted_size_2"		"29928AD11C1529696BECF18C8D0E3A42"
+				}
+				"early_access"
+				{
+					"encrypted_gid_2"		"B6F18148DF6BC41FA977776F095B22B1"
+					"encrypted_size_2"		"827282A7E06458DFCF6E0DC04266DF00"
+				}
+				"flayra"
+				{
+					"encrypted_gid_2"		"F5FD4BA9517D9A539AD01150CECDF5E6"
+					"encrypted_size_2"		"A33F58322914CC074A15D4B58BB673CE"
+				}
+				"hotfix"
+				{
+					"encrypted_gid_2"		"0220A9A417A37C9137C9949485D77859"
+					"encrypted_size_2"		"E30B21ADB11D5858E51D914986CDB032"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"54F702BEED061E141A537CE36AF93D72"
+					"encrypted_size_2"		"DC29ECD12926CECAA5AFA663CFE16F45"
+				}
+				"pax2014"
+				{
+					"encrypted_gid_2"		"2AC8FE4D472E088BEB0EBF50A5F08860"
+					"encrypted_size_2"		"8395128BD872970880CF7D5131704C25"
+				}
+				"prerelease"
+				{
+					"encrypted_gid_2"		"DC57D126278E3D69331D885692D2CE7A"
+					"encrypted_size_2"		"E0B11D296D127C21625818A890D60BCE"
+				}
+				"rocket"
+				{
+					"encrypted_gid_2"		"BECF532E38937BB1EE00FDCEF4F82499"
+					"encrypted_size_2"		"007FE45422F3200D959792B4A28F1606"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"361E86CDF9D30B42C2E9EAFBA0CBB1C9"
+					"encrypted_size_2"		"C15BBE803A8D7AEFC04FAA9DABD598E0"
+				}
+			}
+		}
+		"264713"
+		{
+			"name"		"Subnautica (OSX Specific)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"248560111645159048"
+				"experimental"		"7415604992144810839"
+			}
+			"maxsize"		"14173795078"
+			"encryptedmanifests"
+			{
+				"earliest_access"
+				{
+					"encrypted_gid_2"		"28DB0F09E694B3F35AE7813FCD4B5C68"
+					"encrypted_size_2"		"9FE660446A70F5025B74E5C381236F10"
+				}
+				"early_access"
+				{
+					"encrypted_gid_2"		"C6991FE968AFF80BC6E4342D92C411D4"
+					"encrypted_size_2"		"286CC60F993E3E8CF35D293C3968674E"
+				}
+				"flayra"
+				{
+					"encrypted_gid_2"		"B7413DE338CACB88F39C125B4A12246B"
+					"encrypted_size_2"		"6BF372D0273335E79ADAECB266D74C79"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"D3C419EC6C25C146C78AA8B7C52CEE49"
+					"encrypted_size_2"		"C1750721691ED8647F04C157E54F1A02"
+				}
+				"pax2014"
+				{
+					"encrypted_gid_2"		"B05A9242FD90A893540C719A39749DD0"
+					"encrypted_size_2"		"7D111A976BBC4464C98FB25D1CA8EBBD"
+				}
+				"prerelease"
+				{
+					"encrypted_gid_2"		"8F398D45E3F433A8D9D962D1C14B5401"
+					"encrypted_size_2"		"7D8DCBA2B83046F5BF1866B2573CBB8C"
+				}
+				"rocket"
+				{
+					"encrypted_gid_2"		"02180E95125AF7FD7C051BEA9EA9F944"
+					"encrypted_size_2"		"40F59A8B149CE0F690DF6F3DB2861D7D"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"C42B0E575AEE364A30FB16D7FD8447A1"
+					"encrypted_size_2"		"E5E7442CB8D8FD89B066C94CDD9835B6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3169139"
+				"timeupdated"		"1538289574"
+			}
+			"32bit_no_longer_updated"
+			{
+				"buildid"		"584293"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"earliest_access"
+			{
+				"buildid"		"427302"
+				"description"		"Earliest Access 2014 version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533632295"
+			}
+			"early_access"
+			{
+				"buildid"		"474722"
+				"description"		"Early Access 2014 version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533632164"
+			}
+			"experimental"
+			{
+				"buildid"		"4179125"
+				"description"		"Automatic daily updates. Lots of bugs!"
+				"timeupdated"		"1568031944"
+			}
+			"flayra"
+			{
+				"buildid"		"2442265"
+				"description"		"Flayra's very own branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516165670"
+			}
+			"hotfix"
+			{
+				"buildid"		"626722"
+				"description"		"Hotfix testing branch"
+				"pwdrequired"		"1"
+			}
+			"legacy"
+			{
+				"buildid"		"1213726"
+				"description"		"AMD B67 branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472174855"
+			}
+			"pax2014"
+			{
+				"buildid"		"233266"
+				"description"		"PAX 2014 version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533622199"
+			}
+			"prerelease"
+			{
+				"buildid"		"2459105"
+				"description"		"v1.0 Preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516736730"
+			}
+			"release"
+			{
+				"buildid"		"3169139"
+				"description"		"Release testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538266361"
+			}
+			"rocket"
+			{
+				"buildid"		"2459105"
+				"description"		"Rocket testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516653955"
+			}
+			"testing"
+			{
+				"buildid"		"4139873"
+				"description"		"Feature testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566841711"
+			}
+		}
+	}
+}
+ 

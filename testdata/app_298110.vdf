@@ -1,0 +1,466 @@
+"appinfo"
+{
+	"appid"		"298110"
+	"common"
+	{
+		"name"		"Far Cry 4"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"icon"		"be1366a047a515ed2275aa500a36a50de587b7a7"
+		"logo"		"eff3e45aca29c0242f663a48db0883e6da5d1d6d"
+		"logo_small"		"eff3e45aca29c0242f663a48db0883e6da5d1d6d_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"dutch"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"298110_eula_0"
+				"name"		"Far Cry 4 EULA"
+				"url"		"http://store.steampowered.com//eula/298110_eula_0"
+			}
+		}
+		"clienticon"		"76e7caadac900eefe62e7288ca139819e157cd3b"
+		"clienttga"		"5229d28c7304ea4b583bf91ca59a0b42ab7383c3"
+		"exfgls"		"1"
+		"metacritic_name"		"Far Cry 4"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"37"
+				"height_pct"		"39"
+			}
+		}
+		"store_asset_mtime"		"1516905412"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Montreal, Red Storm, Shanghai, Toronto, Kiev"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Far Cry"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1416297600"
+		"metacritic_score"		"80"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/far-cry-4?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"298110"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"19"
+			"2"		"1663"
+			"3"		"21"
+			"4"		"1774"
+			"5"		"1685"
+			"6"		"3839"
+			"7"		"3859"
+			"8"		"4182"
+			"9"		"9564"
+			"10"		"1687"
+			"11"		"4166"
+			"12"		"1662"
+			"13"		"3843"
+			"14"		"1742"
+			"15"		"3834"
+			"16"		"5144"
+			"17"		"1702"
+			"18"		"3810"
+			"19"		"122"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"hadthirdpartycdkey"		"1"
+		"developer"		"Ubisoft Montreal, Red Storm, Shanghai, Toronto, Kiev"
+		"publisher"		"Ubisoft"
+		"homepage"		"http://farcrygame.com"
+		"listofdlc"		"324340,324341,324342,324343,324344,332220,332221,332222,332223,332224,332225,332226,332227,332228,332229,332230,332231,332232,338620,343700,345910,348080,353870"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Far Cry 4"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"bin/FarCry4.exe"
+				"arguments"		"-uplay_steam_mode"
+				"description"		"Final"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"298111"
+		{
+			"name"		"Far Cry 4 Content"
+			"manifests"
+			{
+				"public"		"8102166757232787903"
+			}
+			"maxsize"		"28788848071"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"2E7FE7F121DD68EE811B3F2764058281"
+					"encrypted_size_2"		"F9522F0905063D9A4E06CF838B894723"
+				}
+				"rus"
+				{
+					"encrypted_gid_2"		"F1D1D2B34FD736B81D99D2E1E298A248"
+					"encrypted_size_2"		"56F504F4D63EB726083538CA8F76F528"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"6F8F259E850E2F7E8850DEF6F3030FCD"
+					"encrypted_size_2"		"131EF971606F5149817837E55B6F4130"
+				}
+			}
+		}
+		"298112"
+		{
+			"name"		"Far Cry4 RUS"
+			"manifests"
+			{
+				"public"		"2034351499510006303"
+			}
+			"maxsize"		"802070858"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"070A77A23049213C2A8E84CCF2C0FCD4"
+					"encrypted_size_2"		"D9450625237A2BF343F28344CF5C2307"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"E58F5A52A1453BB1424468033C02D8D6"
+					"encrypted_size_2"		"60D7E6BCC3394C3415E17F4BBC8E8B0F"
+				}
+			}
+		}
+		"298113"
+		{
+			"name"		"Far Cry4 WW"
+			"manifests"
+			{
+				"public"		"211435857008234481"
+			}
+			"maxsize"		"6666032712"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"2E78BB25F133288E0226417E3D44A5F8"
+					"encrypted_size_2"		"D9450625237A2BF343F28344CF5C2307"
+				}
+				"rus"
+				{
+					"encrypted_gid_2"		"2D10A514AD23E91D7281481952868554"
+					"encrypted_size_2"		"3D110B8D26E4B97B001A00FECF7B10F4"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"2BFFC1A2F8F1BB5458C7E789288C7843"
+					"encrypted_size_2"		"77A80DDCA5CDD46C47E734C3C3B21F45"
+				}
+			}
+		}
+		"298114"
+		{
+			"name"		"Far Cry 4 JPN"
+			"manifests"
+			{
+				"public"		"4461153344445055010"
+			}
+			"maxsize"		"32746992207"
+			"encryptedmanifests"
+			{
+				"rus"
+				{
+					"encrypted_gid_2"		"5D3E222F7FBCBD8D4144BDC150A6867D"
+					"encrypted_size_2"		"3D110B8D26E4B97B001A00FECF7B10F4"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"A9A7954C299EB94907D67125E6D16CC8"
+					"encrypted_size_2"		"60D7E6BCC3394C3415E17F4BBC8E8B0F"
+				}
+			}
+		}
+		"324341"
+		{
+			"name"		"Survivor Stories (324341) Depot"
+			"manifests"
+			{
+				"public"		"6040865040358712041"
+			}
+			"maxsize"		"2257196076"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"C03C595C0387DB77D6D891D92D8D4AE2"
+					"encrypted_size_2"		"6672C5B85562CB350E0E738AD55FBC01"
+				}
+			}
+			"dlcappid"		"324341"
+		}
+		"324343"
+		{
+			"name"		"PVP & Mode Pack (324343) Depot"
+			"manifests"
+			{
+				"public"		"5890638265243104677"
+			}
+			"maxsize"		"1162057331"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"B9158583ED731D2DFC0D81346D22EE13"
+					"encrypted_size_2"		"6672C5B85562CB350E0E738AD55FBC01"
+				}
+			}
+			"dlcappid"		"324343"
+		}
+		"324344"
+		{
+			"name"		"Far Cry 4 - Valley of the Yetis  (324344) Depot"
+			"manifests"
+			{
+				"public"		"7095774529085202596"
+			}
+			"maxsize"		"2480174047"
+			"encryptedmanifests"
+			{
+				"jpn"
+				{
+					"encrypted_gid_2"		"74C98F4DD43A9E82BD7135A13D84676F"
+					"encrypted_size_2"		"6672C5B85562CB350E0E738AD55FBC01"
+				}
+			}
+			"dlcappid"		"324344"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3550163"
+				"timeupdated"		"1553778086"
+			}
+			"jpn"
+			{
+				"buildid"		"582934"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"rus"
+			{
+				"buildid"		"582742"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"test"
+			{
+				"buildid"		"582734"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"test_chn"
+			{
+				"buildid"		"3550163"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549884708"
+			}
+		}
+	}
+}
+ 

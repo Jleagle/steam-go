@@ -1,0 +1,536 @@
+"appinfo"
+{
+	"appid"		"921590"
+	"common"
+	{
+		"name"		"DISSIDIA FINAL FANTASY NT Free Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"clienttga"		"a85d950ce3e3f18f58dc71146d2fbced97195f47"
+		"clienticon"		"15cab6b7e3e559a318996471ec81f3f25e019910"
+		"icon"		"a9285ceaab385610ba8bce260c0aa2f6771ea12b"
+		"logo"		"5c4e342b5b4d54332535f2da60a92793e3f6ad41"
+		"logo_small"		"5c4e342b5b4d54332535f2da60a92793e3f6ad41_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"921590_eula_0"
+				"name"		"DISSIDIA FINAL FANTASY NT Free Edition EULA"
+				"url"		"https://store.steampowered.com//eula/921590_eula_0"
+			}
+		}
+		"metacritic_name"		"DISSIDIA FINAL FANTASY NT"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1562188760"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Square Enix"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"KOEI TECMO GAMES CO., LTD."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"FINAL FANTASY"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1552411680"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"921590"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"1743"
+			"3"		"3859"
+			"4"		"1684"
+			"5"		"4085"
+			"6"		"3843"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Square Enix"
+		"publisher"		"Square Enix"
+		"homepage"		"https://dissidiafinalfantasynt.square-enix-games.com/"
+		"isfreeapp"		"1"
+		"listofdlc"		"1013720,1022330,1022340,1022341,1022342,1022343,1022344,1022345,1022346,1022347,1022360,1022361,1022362,1022363,1022364,1022365,1022366,1022367,1022368,1022390,1022391,1022392,1022393,1022394,1022395,1022396,1022397,1022400,1022401,1022402,1022410,1022411,1022412,1022413,1022414,1022415,1022416,1022417,1022418,1022419,1022420,1022421,1022422,1022423,1022424,1022425,1022426,1022427,1022428,1022429,1022430,1022431,1022432,1022433,1022434,1022435,1022436,1022437,1022438,1022439,1022440,1022441,1022442,1022443"
+	}
+	"config"
+	{
+		"installdir"		"DISSIDIA FINAL FANTASY NT Free Edition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dffnt.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1626934979"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default"
+			}
+			"1626967212"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default"
+			}
+			"1626968463"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default"
+			}
+			"1626969651"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default"
+			}
+			"1626971048"
+			{
+				"controller_type"		"controller_generic"
+				"enabled_branches"		""
+			}
+		}
+		"steamconfigurator3rdpartynative"		"15"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,tchinese,japanese"
+		"hasdepotsindlc"		"1"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"921591"
+		{
+			"name"		"DISSIDIA FINAL FANTASY NT Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3107837717404836998"
+			}
+			"maxsize"		"20498202373"
+			"encryptedmanifests"
+			{
+				"bugcheck_release"
+				{
+					"encrypted_gid_2"		"48BF3862B7614BBF2B40D562B9FE710E"
+					"encrypted_size_2"		"FAA0081890E90328DE4946B6116886CD"
+				}
+				"bugcheck_releasedebug"
+				{
+					"encrypted_gid_2"		"6B22665BBA3C000CFB4D915B0068EF72"
+					"encrypted_size_2"		"968874B2077A96BB7F1CFF5C56E1E34B"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"BB203993CF54EF29F09AD78AE4F30C6B"
+					"encrypted_size_2"		"979273CB21E507F7603AB7598A1F23C5"
+				}
+				"develop"
+				{
+					"encrypted_gid_2"		"F1BDC8C6204A10F176ECB13489463FDB"
+					"encrypted_size_2"		"5E66B0401AEE27DD2C2CA1D78C4DF287"
+				}
+				"develop_autoplay"
+				{
+					"encrypted_gid_2"		"B904096975F480C682783640C2A325C1"
+					"encrypted_size_2"		"71B9370CAE72F10D259C8B09D35C6675"
+				}
+				"develop_release_f2p"
+				{
+					"encrypted_gid_2"		"CB3A2E3AA90E10536361204A07313ED0"
+					"encrypted_size_2"		"B7630BC6AB1D044648E920A09A142846"
+				}
+				"develop_releasedebug_f2p"
+				{
+					"encrypted_gid_2"		"B9E5544C1BC154BFA03AFB3A4191DC07"
+					"encrypted_size_2"		"94CB0DE95FA9C177328DA2891800881A"
+				}
+				"mastercheck_release"
+				{
+					"encrypted_gid_2"		"D1EB60BD55A8BA2893EC9D363453B681"
+					"encrypted_size_2"		"B0038A906415CF6F0A4C8E79BE346A7A"
+				}
+				"mastercheck_releasedebug"
+				{
+					"encrypted_gid_2"		"A9EEA9703F0D07B4B8AFA7ABF682C7B3"
+					"encrypted_size_2"		"A011F89916BD140323966530DD5A8D96"
+				}
+				"mediareview_release"
+				{
+					"encrypted_gid_2"		"DEE7C776F8387B583267B0AD19FE1ED5"
+					"encrypted_size_2"		"5ED9A929EAB7009760BFD1C374873687"
+				}
+				"mediareview_releasedebug"
+				{
+					"encrypted_gid_2"		"9051150DC27E41C392447F4626717643"
+					"encrypted_size_2"		"9E7805F112A33AE775924AEFADD6B84B"
+				}
+				"paradox_1.26_17.6th_patch_release"
+				{
+					"encrypted_gid_2"		"719A8BF5E96E6FDDECAE6FBD272B634C"
+					"encrypted_size_2"		"1D1BEB83D0F2788BCE68917942FB6342"
+				}
+				"paradox_1.26_17.6th_patch_releasedebug"
+				{
+					"encrypted_gid_2"		"DD784E538FF19ACE8464DFAF2435547E"
+					"encrypted_size_2"		"4F4D689D8AA8AA6B56897EAE041DE57E"
+				}
+				"paradox_1.28_18.6th_patch_release"
+				{
+					"encrypted_gid_2"		"0F7F03C0BBF5CA0BB954560BCC8167BD"
+					"encrypted_size_2"		"FF31AD266FB4807DE41EDA25D8E99242"
+				}
+				"paradox_1.28_18.6th_patch_releasedebug"
+				{
+					"encrypted_gid_2"		"B3AB3AA691DFA299C77D5649F1174D3C"
+					"encrypted_size_2"		"052D36E8A193496C3005AE609BB41FA8"
+				}
+				"paradox_1.30_patch_release"
+				{
+					"encrypted_gid_2"		"600D4D502D520B0A3C61CCA126928C43"
+					"encrypted_size_2"		"B37224DA09F238352B21C6D820CC31A4"
+				}
+				"paradox_1.30_patch_releasedebug"
+				{
+					"encrypted_gid_2"		"0738ADB0A9C8F388A921444799CAC4C6"
+					"encrypted_size_2"		"AD3A7758F525039B1DCEBFF1E724BFF1"
+				}
+				"paradox_1.31_patch_release"
+				{
+					"encrypted_gid_2"		"DCFACF8CBF1DE79F9C13D8A7AD1D6368"
+					"encrypted_size_2"		"18318A25F05F28969830A676A3AAF611"
+				}
+				"paradox_1.31_patch_releasedebug"
+				{
+					"encrypted_gid_2"		"5A5664C41E9F9D7AC88B0B2AB4537753"
+					"encrypted_size_2"		"A5FBE42E1E7B57B650497B5FE9C3D46D"
+				}
+				"paradox_1.32_patch_release"
+				{
+					"encrypted_gid_2"		"6EF19DCDBE105E6D4C0C1CEB858FDE9D"
+					"encrypted_size_2"		"825597B7F2AFC57976346E6C2CEE7839"
+				}
+				"paradox_1.32_patch_releasedebug"
+				{
+					"encrypted_gid_2"		"DCF6A0763F447E5E4CF37D3D0351FEC1"
+					"encrypted_size_2"		"76AB833E522374A9A004923DF114BF50"
+				}
+				"paradox_steam_master_version_2nd_release"
+				{
+					"encrypted_gid_2"		"8322D12546E637508AAE4E5313A0464B"
+					"encrypted_size_2"		"C5DACB7F02E674938FB39A8F80E5AFDA"
+				}
+				"paradox_steam_master_version_2nd_releasedebug"
+				{
+					"encrypted_gid_2"		"9F13D46DCADEAC82D751C0AAD507AEC2"
+					"encrypted_size_2"		"B12BC5BE1C51290D79F9F6EAAB2465A8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4086414"
+				"timeupdated"		"1565683827"
+			}
+			"bugcheck_release"
+			{
+				"buildid"		"4152181"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567144220"
+			}
+			"bugcheck_releasedebug"
+			{
+				"buildid"		"4141872"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566904993"
+			}
+			"compatibility"
+			{
+				"buildid"		"3594833"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551167955"
+			}
+			"develop"
+			{
+				"buildid"		"3620886"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551871974"
+			}
+			"develop_autoplay"
+			{
+				"buildid"		"4178468"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568016517"
+			}
+			"develop_release_f2p"
+			{
+				"buildid"		"4152181"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567142618"
+			}
+			"develop_releasedebug_f2p"
+			{
+				"buildid"		"4141872"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566893716"
+			}
+			"mastercheck_release"
+			{
+				"buildid"		"4152181"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567144233"
+			}
+			"mastercheck_releasedebug"
+			{
+				"buildid"		"4141872"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566905008"
+			}
+			"mediareview_release"
+			{
+				"buildid"		"3594833"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551167757"
+			}
+			"mediareview_releasedebug"
+			{
+				"buildid"		"3594776"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551167842"
+			}
+			"paradox_1.26_17.6th_patch_release"
+			{
+				"buildid"		"3676948"
+				"description"		"SVN rev.67175"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553760000"
+			}
+			"paradox_1.26_17.6th_patch_releasedebug"
+			{
+				"buildid"		"3662833"
+				"description"		"SVN rev.67175"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553757890"
+			}
+			"paradox_1.28_18.6th_patch_release"
+			{
+				"buildid"		"3738333"
+				"description"		"SVN rev.67800"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556248627"
+			}
+			"paradox_1.28_18.6th_patch_releasedebug"
+			{
+				"buildid"		"3724962"
+				"description"		"SVN rev.67800"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556248932"
+			}
+			"paradox_1.30_patch_release"
+			{
+				"buildid"		"3770534"
+				"description"		"SVN rev.68145"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557732698"
+			}
+			"paradox_1.30_patch_releasedebug"
+			{
+				"buildid"		"3763758"
+				"description"		"SVN rev.68145"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557732773"
+			}
+			"paradox_1.31_patch_release"
+			{
+				"buildid"		"3853440"
+				"description"		"SVN rev.68835"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559270776"
+			}
+			"paradox_1.31_patch_releasedebug"
+			{
+				"buildid"		"3846837"
+				"description"		"SVN rev.68835"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559270808"
+			}
+			"paradox_1.32_patch_release"
+			{
+				"buildid"		"3947985"
+				"description"		"SVN rev.70194"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561429462"
+			}
+			"paradox_1.32_patch_releasedebug"
+			{
+				"buildid"		"3936535"
+				"description"		"SVN rev.70194"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561429437"
+			}
+			"paradox_steam_master_version_2nd_release"
+			{
+				"buildid"		"3634036"
+				"description"		"SVN rev.66578"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552533326"
+			}
+			"paradox_steam_master_version_2nd_releasedebug"
+			{
+				"buildid"		"3633814"
+				"description"		"SVN rev.66578"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552534222"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"10"
+	}
+}
+ 

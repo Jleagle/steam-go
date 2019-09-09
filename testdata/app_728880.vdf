@@ -1,0 +1,730 @@
+"appinfo"
+{
+	"appid"		"728880"
+	"common"
+	{
+		"name"		"Overcooked! 2"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"589930a652d56d6da7241339f62fd4ac1fc10a97"
+		"clienttga"		"d7d85edb028257bb5e5f2b6ff935d4ee57e5dd06"
+		"icon"		"bac36f471109038ae0b40619de4109d475f86a54"
+		"clienticns"		"13aac47637125a4ebc1f8dcddc5695d0a1a21b0c"
+		"linuxclienticon"		"01125b6903b6959bec4508235f48d72446d2c7ef"
+		"logo"		"9babb21950fe263bdd990e481cfa3704374e689f"
+		"logo_small"		"9babb21950fe263bdd990e481cfa3704374e689f_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"osextended"		""
+		"metacritic_name"		"Overcooked! 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"39.46690165275385"
+				"height_pct"		"74.0607409308123"
+			}
+		}
+		"store_asset_mtime"		"1563529869"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ghost Town Games Ltd."
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Team17 Digital Ltd"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Team17 Digital Ltd"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Team17 Digital"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_41"		"1"
+			"category_42"		"1"
+			"category_43"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1533657660"
+		"metacritic_score"		"80"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/overcooked!-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"728880"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"3843"
+			"2"		"3841"
+			"3"		"1685"
+			"4"		"4136"
+			"5"		"597"
+			"6"		"492"
+			"7"		"4840"
+			"8"		"19"
+			"9"		"5350"
+			"10"		"7481"
+			"11"		"7368"
+			"12"		"1719"
+			"13"		"4726"
+			"14"		"599"
+			"15"		"4182"
+			"16"		"4026"
+			"17"		"9"
+			"18"		"4305"
+			"19"		"1756"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ghost Town Games Ltd."
+		"publisher"		"Team17 Digital Ltd"
+		"homepage"		"http://www.ghosttowngames.com/overcooked-2/"
+		"listofdlc"		"858240,909720,1013300,1017510,1067770,1138400"
+	}
+	"config"
+	{
+		"installdir"		"Overcooked! 2"
+		"enable_duration_control"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Overcooked2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Overcooked2.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Overcooked2.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Overcooked2.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamcontrollertouchconfigdetails"
+		{
+			"1849750990"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"728881"
+		{
+			"name"		"Balloon Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6507170106025694565"
+			}
+			"maxsize"		"6525173115"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"C00A2F5A4811F153F5F2C9E43638EBB4"
+					"encrypted_size_2"		"6DFC91DDFE37258AA65EC1441C4C8426"
+				}
+				"beta_test"
+				{
+					"encrypted_gid_2"		"D92CBE5544C8A1C4BC7F1D3B16206C29"
+					"encrypted_size_2"		"A0B09C56824708678B8D485141308DD3"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"5D74B165AC876CC00B62447B83A58AA8"
+					"encrypted_size_2"		"81E1CBE40AB64C0AB564A266D9D77ECB"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"9734E1132FEBBCE9D58916354C9D5CEE"
+					"encrypted_size_2"		"7301D4FC32FBC37C2989F7AA84740BEE"
+				}
+				"dlcpreview"
+				{
+					"encrypted_gid_2"		"4F10C7103E015CD34CBDC104C5A7C0FB"
+					"encrypted_size_2"		"B2D0D0AE8435F2C78A0C79D4A2C2D974"
+				}
+				"gtg_builds"
+				{
+					"encrypted_gid_2"		"4428BC6BA6B94E3B4691B52278EA72CA"
+					"encrypted_size_2"		"AE984FC1FA2B426A32AB91AE606E785C"
+				}
+				"influencers_testing"
+				{
+					"encrypted_gid_2"		"689378E610CD1179448C44AD22B85FEA"
+					"encrypted_size_2"		"B69A33B2DE1BA44F391840BF7EC574EF"
+				}
+				"lqa_testing"
+				{
+					"encrypted_gid_2"		"5875587C062D1B87540534FB38CBF831"
+					"encrypted_size_2"		"A6946775E33D1C4B78C35A821C748EE9"
+				}
+				"pc_release"
+				{
+					"encrypted_gid_2"		"CCE53DDB2FEC83DC13188DBC45BA05AF"
+					"encrypted_size_2"		"1C630956B83286A04E7F7AA5CF3B5FE3"
+				}
+				"pc_release_final"
+				{
+					"encrypted_gid_2"		"39F8F52A2705ADC16B6C8BC1C7E432BC"
+					"encrypted_size_2"		"EFC3172D6E1FBEC44B64A79E155A4026"
+				}
+				"previouslivebuild"
+				{
+					"encrypted_gid_2"		"4CA61CAC8D4CB4C9AE5253832D059AA9"
+					"encrypted_size_2"		"9F6761C0DE083431C21BB34B89D0D373"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"EA31222F6B49EADE39B7A2191B3A28BC"
+					"encrypted_size_2"		"435BBA14BAFE4EB23D38939AE8828ACF"
+				}
+				"streambuild"
+				{
+					"encrypted_gid_2"		"6326FA5CC541A2F05EBDD06FC29BF5C6"
+					"encrypted_size_2"		"2E7EDE0BE9B2E2FCBA07A7914C8174A4"
+				}
+				"unity"
+				{
+					"encrypted_gid_2"		"289E6C07C0D61AD83FA468BD56014A49"
+					"encrypted_size_2"		"F7BFFC569FCC395F1868003AD8FC34AB"
+				}
+				"updatepreview"
+				{
+					"encrypted_gid_2"		"19625505DC7675172FCD2021D17B23B3"
+					"encrypted_size_2"		"39DB152A5504B9323F4D56106BD1171C"
+				}
+				"usability_testing"
+				{
+					"encrypted_gid_2"		"FB7AC179F0A9F8FD5918BAB8F0F7A778"
+					"encrypted_size_2"		"204E00C8FB0BDB2B2777B11D844EF8CC"
+				}
+			}
+		}
+		"728882"
+		{
+			"name"		"Balloon Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6757010571802236873"
+			}
+			"maxsize"		"6660992990"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"C70EDDCF6A7B9E36850B38DAD7C51427"
+					"encrypted_size_2"		"505FEEA7C50288151632ABD7DFA017B2"
+				}
+				"beta_test"
+				{
+					"encrypted_gid_2"		"7FC5C9619BAB987961384C0FA6617455"
+					"encrypted_size_2"		"8137BEE213D84305E493E3B5BAE87902"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"A74C58FA178AB7E709331F950E590A6C"
+					"encrypted_size_2"		"25845A86065F79EDB56B88883EA2D128"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"5FB8559A9F137CFF6176CAAF814C38E7"
+					"encrypted_size_2"		"83A940653FB8BE4E2573E048FB731D19"
+				}
+				"dlcpreview"
+				{
+					"encrypted_gid_2"		"5AB1C3AD42D9F674E59BADAC0AA6AA3C"
+					"encrypted_size_2"		"2A58F28F76805C00B03B9E1834C75AD5"
+				}
+				"gtg_builds"
+				{
+					"encrypted_gid_2"		"E480E26288EF7C088EB5813AB994EF37"
+					"encrypted_size_2"		"B6B45A04394DE7284CC2D3209A044EED"
+				}
+				"influencers_testing"
+				{
+					"encrypted_gid_2"		"D890B981C2E938E222C0F4A97E2C2B94"
+					"encrypted_size_2"		"4DA66EB224D6CD0D38DAB4E88B666CBC"
+				}
+				"lqa_testing"
+				{
+					"encrypted_gid_2"		"3D3620731B7F80758280BC3C34A5003F"
+					"encrypted_size_2"		"A563C5F0A6D75FB8D9B6278719F79908"
+				}
+				"pc_release"
+				{
+					"encrypted_gid_2"		"15331B83A667E0234C94735489638B99"
+					"encrypted_size_2"		"1FCB2E7327F1A951E4C492842CBE979F"
+				}
+				"pc_release_final"
+				{
+					"encrypted_gid_2"		"9BC631CB0C6D3AC163F276515226E36B"
+					"encrypted_size_2"		"8C7C227A593CBE58A78479CB0AF1D49A"
+				}
+				"previouslivebuild"
+				{
+					"encrypted_gid_2"		"BD4A36AB6AFBE4703A0A2C6FB5C6671B"
+					"encrypted_size_2"		"0B6BE10F1D93BBB2DA8C3A70DB0717AE"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"1ADD0B814D16D4249B76A0FCF0C724AF"
+					"encrypted_size_2"		"FB3D3FBE5DDC4DEEED3BF644FCE81A07"
+				}
+				"streambuild"
+				{
+					"encrypted_gid_2"		"DEC45CD24B9A18D52868D477E6C5429F"
+					"encrypted_size_2"		"F232BAAF219FE2761F5AABF88178F1AC"
+				}
+				"unity"
+				{
+					"encrypted_gid_2"		"D9300CDC9AFF11A10FDC69F00D1CDBAA"
+					"encrypted_size_2"		"C2BCFD931FC115FC06D6ED6B8D460CA1"
+				}
+				"updatepreview"
+				{
+					"encrypted_gid_2"		"033DB4B23D78DD6CCDB91EA93D0FD6DD"
+					"encrypted_size_2"		"56DB2518F20D962E8B417FEFF8A3012E"
+				}
+				"usability_testing"
+				{
+					"encrypted_gid_2"		"F9D9EB292E99EC9E5BCA56DEBE19F702"
+					"encrypted_size_2"		"A30BE6DD3D879BBBE9D1DC84250729F0"
+				}
+			}
+		}
+		"728883"
+		{
+			"name"		"Balloon OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9177215574804237536"
+			}
+			"maxsize"		"6573180741"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"00D2C18B6DA6CCC1CF69BB5D48AC4D22"
+					"encrypted_size_2"		"914047A4653F334A25480B536E0839F6"
+				}
+				"beta_test"
+				{
+					"encrypted_gid_2"		"8A75593E583C3E37D164F5423D4F8081"
+					"encrypted_size_2"		"8137BEE213D84305E493E3B5BAE87902"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"35AED9C2AB55D99CB3B0D2AC05939B03"
+					"encrypted_size_2"		"29A770489FAD7C63E4E22F90BF2EC2D6"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"0D90E9B8E56EC3516F44582E12426B78"
+					"encrypted_size_2"		"AE65FDF4DA5ED1007761BE3CF734D9C9"
+				}
+				"dlcpreview"
+				{
+					"encrypted_gid_2"		"3350DEFC835316B319AEDEE7FA5FA196"
+					"encrypted_size_2"		"82027952DCC1E7B2D1A7D7FC817D5049"
+				}
+				"gtg_builds"
+				{
+					"encrypted_gid_2"		"7A4D438212B8E59A0176813580000125"
+					"encrypted_size_2"		"913370F548AE57A18C877FC88CB62453"
+				}
+				"influencers_testing"
+				{
+					"encrypted_gid_2"		"8F0F6DD7F5F1510F3E6E5AF1011E6B45"
+					"encrypted_size_2"		"AEA9934E8D397E215C647B422595C976"
+				}
+				"lqa_testing"
+				{
+					"encrypted_gid_2"		"B728A16B18BAF866A0CADE7E9CCE5A2F"
+					"encrypted_size_2"		"A9C0A10569BDDD7B7C9C82D502AB89D1"
+				}
+				"pc_release"
+				{
+					"encrypted_gid_2"		"16875B26BB33049BD11773E6106FEFDB"
+					"encrypted_size_2"		"5F27338B4E30DAECF259C9586BA61332"
+				}
+				"pc_release_final"
+				{
+					"encrypted_gid_2"		"FE908B66C541AEC3FF1E0C14F91FC8C0"
+					"encrypted_size_2"		"B53CEAEB10802A7823609FE1C17BDE54"
+				}
+				"previouslivebuild"
+				{
+					"encrypted_gid_2"		"6D2FC41AE6E22DB42A4609D9414F2D54"
+					"encrypted_size_2"		"42855DE6B2BE3D7DCA69BB051DFCE45F"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"0B88967C5BA41E2B2DEB915F32E5D08D"
+					"encrypted_size_2"		"0CE9E281C739658486D17AC073F86242"
+				}
+				"streambuild"
+				{
+					"encrypted_gid_2"		"B053E7E12B8559E6D6B22D4970465A22"
+					"encrypted_size_2"		"58FB682BE42DD44D26E59C967B90D4B3"
+				}
+				"unity"
+				{
+					"encrypted_gid_2"		"FC4BB52DE438F581D0DC9B678F391213"
+					"encrypted_size_2"		"1CE3D214E2B464F9A97D881384ECEBF9"
+				}
+				"updatepreview"
+				{
+					"encrypted_gid_2"		"028175740CEF914BA21053AF0A3A2256"
+					"encrypted_size_2"		"BA606BE3C5079B2A3FAA945595ADEBE8"
+				}
+				"usability_testing"
+				{
+					"encrypted_gid_2"		"B8765843CDD9953AB2BB5B559BFE6593"
+					"encrypted_size_2"		"9E743FCAE716254E19ADBD8FD2B0F015"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3829229"
+				"timeupdated"		"1560448503"
+			}
+			"baseline"
+			{
+				"buildid"		"4133471"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566574015"
+			}
+			"beta_test"
+			{
+				"buildid"		"2903581"
+				"description"		"Build for Beta/Network stress test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530216421"
+			}
+			"compat_testing"
+			{
+				"buildid"		"3829229"
+				"description"		"Branch used for compatibility testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566387098"
+			}
+			"demo"
+			{
+				"buildid"		"2953818"
+				"description"		"Press Preview build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531987993"
+			}
+			"development"
+			{
+				"buildid"		"4179379"
+				"description"		"Current development build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568036906"
+			}
+			"dlcpreview"
+			{
+				"buildid"		"3722996"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555517734"
+			}
+			"gtg_builds"
+			{
+				"buildid"		"4167598"
+				"description"		"Builds for Ghost Town"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567680885"
+			}
+			"influencers_testing"
+			{
+				"buildid"		"2953818"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1531866969"
+			}
+			"lqa_testing"
+			{
+				"buildid"		"3090377"
+				"description"		"Build for LQA testers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567593735"
+			}
+			"pc_release"
+			{
+				"buildid"		"4133464"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566573764"
+			}
+			"pc_release_final"
+			{
+				"buildid"		"3461868"
+				"description"		"Release Safety Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547470151"
+			}
+			"previouslivebuild"
+			{
+				"buildid"		"3128347"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538570415"
+			}
+			"qatesting"
+			{
+				"buildid"		"3461847"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547470130"
+			}
+			"streambuild"
+			{
+				"buildid"		"2846687"
+				"description"		"Build for PR Stream"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528479868"
+			}
+			"unity"
+			{
+				"buildid"		"2915577"
+				"description"		"Build for Unity"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530636966"
+			}
+			"updatepreview"
+			{
+				"buildid"		"3461868"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549358024"
+			}
+			"usability_testing"
+			{
+				"buildid"		"3745810"
+				"description"		"Build for Usability testers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555507932"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Team17/Overcooked2/{64BitSteamID}"
+				"pattern"		"*.save"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Team17/Overcooked2/{64BitSteamID}"
+						"replace"		"unity.Team17.Overcooked/{64BitSteamID}"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Team17/Overcooked2/{64BitSteamID}"
+						"replace"		".config/unity3d/Team17/Overcooked/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
+ 

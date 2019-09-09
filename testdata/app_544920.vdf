@@ -1,0 +1,504 @@
+"appinfo"
+{
+	"appid"		"544920"
+	"common"
+	{
+		"name"		"Darwin Project"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"3665945cd2ca469e5031529c71caef3cd5d56c67"
+		"logo_small"		"3665945cd2ca469e5031529c71caef3cd5d56c67_thumb"
+		"icon"		"ec8efa43138b3dd7c26d07c0e2527252fbdeeed5"
+		"clienticon"		"90da2f50133511613d67fa23c9f0d6645b0fabc2"
+		"clienttga"		"2117078820d8fb63b85f740fe22b1a363312285c"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"544920_eula_0"
+				"name"		"Darwin Project - Open Beta EULA"
+				"url"		"http://store.steampowered.com//eula/544920_eula_0"
+			}
+		}
+		"metacritic_name"		"Darwin Project"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"39.528118939883655"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1560454512"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Scavengers Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Scavengers Studio"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_35"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1520624640"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"544920"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"176981"
+			"1"		"3859"
+			"2"		"1662"
+			"3"		"19"
+			"4"		"1775"
+			"5"		"493"
+			"6"		"1695"
+			"7"		"128"
+			"8"		"492"
+			"9"		"1774"
+			"10"		"21"
+			"11"		"1685"
+			"12"		"1702"
+			"13"		"9"
+			"14"		"1697"
+			"15"		"1663"
+			"16"		"597"
+			"17"		"3814"
+			"18"		"4166"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"Darwin"
+		"serverbrowsername"		"The Darwin Project"
+		"developer"		"Scavengers Studio"
+		"publisher"		"Scavengers Studio"
+		"homepage"		"http://www.scavengers.ca/"
+		"isfreeapp"		"1"
+		"listofdlc"		"857670,1093010,1093050"
+	}
+	"config"
+	{
+		"installdir"		"Darwin Project"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Darwin.exe"
+				"description"		"Darwin Project"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Darwin.sh"
+				"description"		"Darwin Project"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,french"
+		"544921"
+		{
+			"name"		"Darwin Project Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1634501145270253571"
+			}
+			"maxsize"		"3850696017"
+			"encryptedmanifests"
+			{
+				"develdebug"
+				{
+					"encrypted_gid_2"		"D2616FD4F262A23A5B6E139F3AC0282C"
+					"encrypted_size_2"		"69BB5734ECC075E1AD988661A3977823"
+				}
+				"devellinuxdebug"
+				{
+					"encrypted_gid_2"		"D046349EE57A6DDF079DED64CBC8CC58"
+					"encrypted_size_2"		"72B761D20A59F8CB2AA2661AC3B7BD74"
+				}
+				"devellinuxshipping"
+				{
+					"encrypted_gid_2"		"5DF0E9FD5EEB222A9883DE8EFBAF2087"
+					"encrypted_size_2"		"E706957A750F27F3D3FC4D096D98CCBA"
+				}
+				"develshipping"
+				{
+					"encrypted_gid_2"		"24551F715CC6E7660159BEB89CCDFF45"
+					"encrypted_size_2"		"A5CB2D86258B97B2492C86CF4C08FC3E"
+				}
+				"event"
+				{
+					"encrypted_gid_2"		"FECE46A6D31D80AB7870A651B1F5E1E0"
+					"encrypted_size_2"		"1FB7041524BD68189D6889F23A0D3A90"
+				}
+				"integdebug"
+				{
+					"encrypted_gid_2"		"B00F3F158661FD7178D34C1504B41FDC"
+					"encrypted_size_2"		"9F42864A30336CAF9EA1E34259E13552"
+				}
+				"integshipping"
+				{
+					"encrypted_gid_2"		"B229334DE7901367DCD7D3A4730F4661"
+					"encrypted_size_2"		"0CFE74B6007E8324F634804816093E8A"
+				}
+				"integtest"
+				{
+					"encrypted_gid_2"		"426BE948FA485B979EB0272950F9AFD5"
+					"encrypted_size_2"		"A209330A0158E7BB46CA5B4DEDE320E8"
+				}
+				"linux"
+				{
+					"encrypted_gid_2"		"F5285CF7EA99857E2F2D2A15E5A8E476"
+					"encrypted_size_2"		"8CC5DDFED942F18423C5E3236C67C15B"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"3DAE4BBB0DCBB19B54CC936AF6B72FC5"
+					"encrypted_size_2"		"469FC0AE326430CD7E3AB2D8D97AF5B8"
+				}
+				"qadebug"
+				{
+					"encrypted_gid_2"		"2F69314752821A2D7E9BF5C14EE5A290"
+					"encrypted_size_2"		"B116806FDE4FFFB49A5429878412B84C"
+				}
+				"qaexternal"
+				{
+					"encrypted_gid_2"		"C825361FD330B7380485A2C4062C201A"
+					"encrypted_size_2"		"502D8D3C538A4089935BB774F1A4DD1F"
+				}
+				"qalive"
+				{
+					"encrypted_gid_2"		"796CBE1B77C661FF26361DF73511FD01"
+					"encrypted_size_2"		"8562B3AE152B7A4AF156BFA3C3EEDBD1"
+				}
+				"qatest"
+				{
+					"encrypted_gid_2"		"088A8BE27CA8A06445BE69DE2AC833E6"
+					"encrypted_size_2"		"365FD47D8B2D217D7931884C920BC555"
+				}
+				"stabdebug"
+				{
+					"encrypted_gid_2"		"9F21E3D4EF93DFD0362000D53F928D8B"
+					"encrypted_size_2"		"5B6821B2BDC075549CB04461DE992888"
+				}
+				"stabshipping"
+				{
+					"encrypted_gid_2"		"48B8EE6584D1691B01BDC0B475F4F521"
+					"encrypted_size_2"		"143BE43933F8101D64CB1F0A3A48C3A1"
+				}
+			}
+		}
+		"544922"
+		{
+			"name"		"Darwin Project Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"develdebug"
+				{
+					"encrypted_gid_2"		"80CE5EAB484DEDC5FA0E2DE5E157D389"
+					"encrypted_size_2"		"129C1BA9B6C5B9541202C655662C98FD"
+				}
+				"devellinuxdebug"
+				{
+					"encrypted_gid_2"		"898ECADFF05CA2D32A6CC4A44830C4EC"
+					"encrypted_size_2"		"92B3C269E9AE362CC622873823C09F9F"
+				}
+				"devellinuxshipping"
+				{
+					"encrypted_gid_2"		"8470AAD00B42D174B1D123FAAD1749DE"
+					"encrypted_size_2"		"AB9C20E28717471779874878FE281DA1"
+				}
+				"linux"
+				{
+					"encrypted_gid_2"		"C1B8B9D9B347B2ADB8D932A6EA4DCAC5"
+					"encrypted_size_2"		"90284788008C077328597A7C528FD78F"
+				}
+				"qatest"
+				{
+					"encrypted_gid_2"		"E91C23E60453E4FAFC2D96FDB114E1BB"
+					"encrypted_size_2"		"5EA1A5D46BEB90502036B792CF699E90"
+				}
+				"toto"
+				{
+					"encrypted_gid_2"		"10EA4172A4D55993F283700C5FBC2146"
+					"encrypted_size_2"		"238F129834DC9BEE58A507658E090D62"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3885114"
+				"timeupdated"		"1559613589"
+			}
+			"develdebug"
+			{
+				"buildid"		"4176780"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567928535"
+			}
+			"devellinuxdebug"
+			{
+				"buildid"		"4108630"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565878800"
+			}
+			"devellinuxshipping"
+			{
+				"buildid"		"4107540"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565854071"
+			}
+			"develshipping"
+			{
+				"buildid"		"4178425"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568015407"
+			}
+			"event"
+			{
+				"buildid"		"3248232"
+				"description"		"Halloween Deathmatch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1540937887"
+			}
+			"integdebug"
+			{
+				"buildid"		"4106180"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565814952"
+			}
+			"integshipping"
+			{
+				"buildid"		"3348749"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543443184"
+			}
+			"integtest"
+			{
+				"buildid"		"3352409"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543529178"
+			}
+			"linux"
+			{
+				"buildid"		"2697961"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1524014472"
+			}
+			"liveshipping"
+			{
+				"buildid"		"3885114"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559610685"
+			}
+			"playtest"
+			{
+				"buildid"		"4088766"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565360570"
+			}
+			"qadebug"
+			{
+				"buildid"		"3371942"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544103869"
+			}
+			"qaexternal"
+			{
+				"buildid"		"3334902"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542999148"
+			}
+			"qalive"
+			{
+				"buildid"		"3748594"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555550941"
+			}
+			"qastab"
+			{
+				"buildid"		"3885114"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559610812"
+			}
+			"qatest"
+			{
+				"buildid"		"4178842"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568024870"
+			}
+			"stabdebug"
+			{
+				"buildid"		"3747077"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555535340"
+			}
+			"stabshipping"
+			{
+				"buildid"		"3818759"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557760446"
+			}
+			"toto"
+			{
+				"buildid"		"4107947"
+				"description"		"toto"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565864130"
+			}
+		}
+	}
+}
+ 

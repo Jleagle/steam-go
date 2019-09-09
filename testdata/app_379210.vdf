@@ -1,0 +1,636 @@
+"appinfo"
+{
+	"appid"		"379210"
+	"common"
+	{
+		"name"		"Wayward"
+		"type"		"Game"
+		"clienticon"		"670569eee13a4cefcf8857d76ca2d9a5dab5f351"
+		"clienttga"		"de9aaf4dcc4cf37616895a53918ba785c6182289"
+		"icon"		"3dbf6a2ac55a196ecfbb8ce2a8ccbce1db6fbb85"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"d10f152ee291a9ac01afc41c05d0221a615366af"
+		"linuxclienticon"		"4856166ae099f40feb8eed7b1c401e476a507b1b"
+		"logo"		"44e708258ec358195e3b78ee25699b587b7e398a"
+		"logo_small"		"44e708258ec358195e3b78ee25699b587b7e398a_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Wayward"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1545457557"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unlok"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Unlok"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"28"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1461355069"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"379210"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1702"
+			"2"		"1716"
+			"3"		"3964"
+			"4"		"122"
+			"5"		"21"
+			"6"		"492"
+			"7"		"1695"
+			"8"		"493"
+			"9"		"599"
+			"10"		"3810"
+			"11"		"1677"
+			"12"		"6276"
+			"13"		"3859"
+			"14"		"3871"
+			"15"		"1684"
+			"16"		"22602"
+			"17"		"4791"
+			"18"		"3834"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Unlok"
+		"publisher"		"Unlok"
+		"homepage"		"http://www.waywardgame.com/"
+		"listofdlc"		"988620,988621"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wayward"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wayward.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Wayward.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"wayward_launcher"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"WaywardLauncher.exe"
+				"description"		"with Steam Overlay Support"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"development"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"536447884"
+	}
+	"depots"
+	{
+		"workshopdepot"		"379210"
+		"hasdepotsindlc"		"1"
+		"379211"
+		{
+			"name"		"Wayward - Packed Content - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8029986829784841103"
+				"beta2.0.5"		"4743475348644262313"
+				"beta2.1.3"		"7391092788851737836"
+				"beta2.2.3"		"4342988346372596053"
+				"beta2.3.4"		"4965943300633247669"
+				"beta2.4.4"		"3681260573391609315"
+				"beta2.5.3"		"6848442529748473386"
+				"beta2.5.4"		"8965572278153807331"
+				"beta2.5.5"		"4698966186705267923"
+				"beta2.5.6"		"3391649507355869449"
+				"beta2.5.7"		"8498646957510308218"
+				"beta2.6.0"		"4561384646659778574"
+				"beta2.6.1"		"2561367155129295286"
+				"beta2.6.2"		"2239020695024569689"
+				"beta2.6.3"		"5701393928740579584"
+				"beta2.6.4"		"4057412124792004460"
+				"beta2.6.5"		"7662857677994573807"
+				"beta2.6.6"		"4424854677101010682"
+				"beta2.7.0"		"3578752182754999996"
+				"beta2.7.1"		"562749963951380523"
+				"beta2.7.2"		"3565382302840721280"
+				"beta2.7.3"		"7061155367383115915"
+				"development"		"8850393179108948340"
+			}
+			"maxsize"		"427098245"
+		}
+		"379217"
+		{
+			"name"		"Wayward - Packed Content - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2198687302467312879"
+				"beta2.0.5"		"5207610572318431489"
+				"beta2.1.3"		"7726862438521708076"
+				"beta2.2.3"		"3259725929665337793"
+				"beta2.3.4"		"2941190897998058235"
+				"beta2.4.4"		"8514709410907677724"
+				"beta2.5.3"		"2054881328459136490"
+				"beta2.5.4"		"1990293263209784783"
+				"beta2.5.5"		"8416206723949720117"
+				"beta2.5.6"		"5520457814776693102"
+				"beta2.5.7"		"9184048483546380148"
+				"beta2.6.0"		"868749041989900529"
+				"beta2.6.1"		"1604657114698330301"
+				"beta2.6.2"		"3291318366800799715"
+				"beta2.6.3"		"8517806655938517223"
+				"beta2.6.4"		"204852779077217605"
+				"beta2.6.5"		"6838606985642100551"
+				"beta2.6.6"		"70737138720859579"
+				"beta2.7.0"		"2161544671039602289"
+				"beta2.7.1"		"7473369839025867951"
+				"beta2.7.2"		"7977905903146341412"
+				"beta2.7.3"		"6992099688471157252"
+				"development"		"3855239362143031014"
+			}
+			"maxsize"		"427098245"
+		}
+		"379218"
+		{
+			"name"		"Wayward - Packed Content - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1366895245200374809"
+				"beta2.0.5"		"7223287421226563041"
+				"beta2.1.3"		"972904075955470800"
+				"beta2.2.3"		"3095444743729367164"
+				"beta2.3.4"		"2248254750960732034"
+				"beta2.4.4"		"8046374674964893930"
+				"beta2.5.3"		"9082621906508255799"
+				"beta2.5.4"		"3236432349187046265"
+				"beta2.5.5"		"2674503013631732632"
+				"beta2.5.6"		"2778914894331406113"
+				"beta2.5.7"		"4341845971691173085"
+				"beta2.6.0"		"1940040720524748487"
+				"beta2.6.1"		"2056519276550071998"
+				"beta2.6.2"		"3704333911087968480"
+				"beta2.6.3"		"1169173723864610631"
+				"beta2.6.4"		"5524777722577779963"
+				"beta2.6.5"		"5563294435214541334"
+				"beta2.6.6"		"2074352002551725292"
+				"beta2.7.0"		"9182108226393664327"
+				"beta2.7.1"		"4004169623829478026"
+				"beta2.7.2"		"6783466299909383167"
+				"beta2.7.3"		"2784202585185048159"
+				"development"		"3105328808244764692"
+			}
+			"maxsize"		"427098245"
+		}
+		"379212"
+		{
+			"name"		"Wayward - Windows x86"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4603502455079595904"
+				"beta2.0.5"		"7297903686861401041"
+				"beta2.1.3"		"8998532563364098141"
+				"beta2.2.3"		"8998532563364098141"
+				"beta2.3.4"		"2999351881428335405"
+				"beta2.4.4"		"4355972258680481772"
+				"beta2.5.3"		"3860021425689894323"
+				"beta2.5.4"		"3860021425689894323"
+				"beta2.5.5"		"3860021425689894323"
+				"beta2.5.6"		"3860021425689894323"
+				"beta2.5.7"		"6801973388552255938"
+				"beta2.6.0"		"4376315736423352119"
+				"beta2.6.1"		"4376315736423352119"
+				"beta2.6.2"		"4376315736423352119"
+				"beta2.6.3"		"8532033366452482107"
+				"beta2.6.4"		"4299147045037159091"
+				"beta2.6.5"		"1886771333172180073"
+				"beta2.6.6"		"1886771333172180073"
+				"beta2.7.0"		"3684721335715109085"
+				"beta2.7.1"		"3684721335715109085"
+				"beta2.7.2"		"6241625897677136042"
+				"compatibility"		"8228690749730684320"
+				"development"		"4277494609769067535"
+			}
+			"maxsize"		"126182889"
+		}
+		"379213"
+		{
+			"name"		"Wayward - Windows x64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4940546959699512691"
+				"beta2.0.5"		"5580788090091386816"
+				"beta2.1.3"		"7365975319272380901"
+				"beta2.2.3"		"7365975319272380901"
+				"beta2.3.4"		"2525844031576100911"
+				"beta2.4.4"		"6017659909008631353"
+				"beta2.5.3"		"8109815222513334174"
+				"beta2.5.4"		"8109815222513334174"
+				"beta2.5.5"		"8109815222513334174"
+				"beta2.5.6"		"8109815222513334174"
+				"beta2.5.7"		"6411180696190166085"
+				"beta2.6.0"		"3003782297433236235"
+				"beta2.6.1"		"3003782297433236235"
+				"beta2.6.2"		"3003782297433236235"
+				"beta2.6.3"		"8014477376604474488"
+				"beta2.6.4"		"4166833367979165609"
+				"beta2.6.5"		"1030242650793945666"
+				"beta2.6.6"		"1030242650793945666"
+				"beta2.7.0"		"5928411895106420184"
+				"beta2.7.1"		"5928411895106420184"
+				"beta2.7.2"		"1488033166853341582"
+				"compatibility"		"1698043703608099566"
+				"development"		"1829609997578393983"
+			}
+			"maxsize"		"142188961"
+		}
+		"379214"
+		{
+			"name"		"Wayward - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3659529924056164177"
+				"beta2.0.5"		"784823100018769985"
+				"beta2.1.3"		"3074652841805722613"
+				"beta2.2.3"		"3074652841805722613"
+				"beta2.3.4"		"4382968531714900694"
+				"beta2.4.4"		"8874624030181598996"
+				"beta2.5.3"		"4520834594532069073"
+				"beta2.5.4"		"4520834594532069073"
+				"beta2.5.5"		"4520834594532069073"
+				"beta2.5.6"		"4520834594532069073"
+				"beta2.5.7"		"4134381738018961490"
+				"beta2.6.0"		"5471370541430374379"
+				"beta2.6.1"		"5471370541430374379"
+				"beta2.6.2"		"5471370541430374379"
+				"beta2.6.3"		"2398196505267753729"
+				"beta2.6.4"		"1580314785491574738"
+				"beta2.6.5"		"2205116617589905949"
+				"beta2.6.6"		"2205116617589905949"
+				"beta2.7.0"		"3791319438164023730"
+				"beta2.7.1"		"3791319438164023730"
+				"beta2.7.2"		"3473555303215957781"
+				"compatibility"		"4989630359823897228"
+				"development"		"3390827622227088273"
+			}
+			"maxsize"		"399589684"
+		}
+		"379215"
+		{
+			"name"		"Wayward - Linux x86"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"7945891828838964989"
+				"beta2.0.5"		"3336562106063736647"
+				"beta2.1.3"		"8996287014326621373"
+				"beta2.2.3"		"8996287014326621373"
+				"beta2.3.4"		"6078493051753578211"
+				"beta2.4.4"		"8334475396728688599"
+				"beta2.5.3"		"8941384311772026314"
+				"beta2.5.4"		"8941384311772026314"
+				"beta2.5.5"		"8941384311772026314"
+				"beta2.5.6"		"8941384311772026314"
+				"beta2.5.7"		"5604146823120999106"
+				"beta2.6.0"		"7885384743824588879"
+				"beta2.6.1"		"7885384743824588879"
+				"beta2.6.2"		"7885384743824588879"
+				"beta2.6.3"		"714826029431002955"
+				"beta2.6.4"		"6994639765838541564"
+				"beta2.6.5"		"2388263959122182167"
+				"beta2.6.6"		"2388263959122182167"
+				"beta2.7.0"		"320433760312859603"
+				"beta2.7.1"		"320433760312859603"
+				"beta2.7.2"		"2346341980943793529"
+				"compatibility"		"5764977072239345567"
+				"development"		"1006325062060262759"
+			}
+			"maxsize"		"157390856"
+		}
+		"379216"
+		{
+			"name"		"Wayward - Linux x64"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6773165999374172622"
+				"beta2.0.5"		"5649795527911817029"
+				"beta2.1.3"		"5033899949715870645"
+				"beta2.2.3"		"5033899949715870645"
+				"beta2.3.4"		"5386574190989300807"
+				"beta2.4.4"		"2543948155488110574"
+				"beta2.5.3"		"1881819699978426499"
+				"beta2.5.4"		"1881819699978426499"
+				"beta2.5.5"		"1881819699978426499"
+				"beta2.5.6"		"1881819699978426499"
+				"beta2.5.7"		"6309859715341473945"
+				"beta2.6.0"		"8476699727037533273"
+				"beta2.6.1"		"8476699727037533273"
+				"beta2.6.2"		"8476699727037533273"
+				"beta2.6.3"		"5507904056284739778"
+				"beta2.6.4"		"2551315506473935915"
+				"beta2.6.5"		"5467730465881893546"
+				"beta2.6.6"		"5467730465881893546"
+				"beta2.7.0"		"7332446948568351093"
+				"beta2.7.1"		"7332446948568351093"
+				"beta2.7.2"		"6122956839350058288"
+				"compatibility"		"1234105263791013333"
+				"development"		"2435761600341018188"
+			}
+			"maxsize"		"158434673"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3653129"
+				"timeupdated"		"1552774308"
+			}
+			"beta2.0.5"
+			{
+				"buildid"		"1120674"
+				"description"		"Beta 2.0.5"
+				"timeupdated"		"1463009228"
+			}
+			"beta2.1.3"
+			{
+				"buildid"		"1275960"
+				"description"		"Beta 2.1.3"
+				"timeupdated"		"1471040207"
+			}
+			"beta2.2.3"
+			{
+				"buildid"		"1510713"
+				"description"		"Beta 2.2.3"
+				"timeupdated"		"1481371319"
+			}
+			"beta2.3.4"
+			{
+				"buildid"		"1788385"
+				"description"		"Beta 2.3.4"
+				"timeupdated"		"1493421403"
+			}
+			"beta2.4.4"
+			{
+				"buildid"		"2071436"
+				"description"		"Beta 2.4.4"
+				"timeupdated"		"1503853895"
+			}
+			"beta2.5.3"
+			{
+				"buildid"		"2418740"
+				"description"		"Beta 2.5.3"
+				"timeupdated"		"1515353937"
+			}
+			"beta2.5.4"
+			{
+				"buildid"		"2436564"
+				"description"		"Beta 2.5.4"
+				"timeupdated"		"1515963188"
+			}
+			"beta2.5.5"
+			{
+				"buildid"		"2455487"
+				"description"		"Beta 2.5.5"
+				"timeupdated"		"1516555549"
+			}
+			"beta2.5.6"
+			{
+				"buildid"		"2496021"
+				"description"		"Beta 2.5.6"
+				"timeupdated"		"1517773628"
+			}
+			"beta2.5.7"
+			{
+				"buildid"		"2539387"
+				"description"		"Beta 2.5.7"
+				"timeupdated"		"1519099809"
+			}
+			"beta2.6.0"
+			{
+				"buildid"		"2907584"
+				"description"		"Beta 2.6.0"
+				"timeupdated"		"1530321908"
+			}
+			"beta2.6.1"
+			{
+				"buildid"		"2909143"
+				"description"		"Beta 2.6.1"
+				"timeupdated"		"1530408211"
+			}
+			"beta2.6.2"
+			{
+				"buildid"		"2917062"
+				"description"		"Beta 2.6.2"
+				"timeupdated"		"1530678747"
+			}
+			"beta2.6.3"
+			{
+				"buildid"		"2964024"
+				"description"		"Beta 2.6.3"
+				"timeupdated"		"1532126027"
+			}
+			"beta2.6.4"
+			{
+				"buildid"		"3007972"
+				"description"		"Beta 2.6.4"
+				"timeupdated"		"1533523005"
+			}
+			"beta2.6.5"
+			{
+				"buildid"		"3083934"
+				"description"		"Beta 2.6.5"
+				"timeupdated"		"1535785267"
+			}
+			"beta2.6.6"
+			{
+				"buildid"		"3125940"
+				"description"		"Beta 2.6.6"
+				"timeupdated"		"1537075229"
+			}
+			"beta2.7.0"
+			{
+				"buildid"		"3423454"
+				"description"		"Beta 2.7.0"
+				"timeupdated"		"1545500743"
+			}
+			"beta2.7.1"
+			{
+				"buildid"		"3425412"
+				"description"		"Beta 2.7.1"
+				"timeupdated"		"1545616109"
+			}
+			"beta2.7.2"
+			{
+				"buildid"		"3432818"
+				"description"		"Beta 2.7.2"
+				"timeupdated"		"1546049071"
+			}
+			"beta2.7.3"
+			{
+				"buildid"		"3484499"
+				"description"		"Beta 2.7.3"
+				"timeupdated"		"1547944297"
+			}
+			"beta2.7.4"
+			{
+				"buildid"		"3653129"
+				"description"		"Beta 2.7.4"
+				"timeupdated"		"1552774274"
+			}
+			"compatibility"
+			{
+				"buildid"		"3653096"
+				"description"		"Compatibility Branch"
+				"timeupdated"		"1552773463"
+			}
+			"development"
+			{
+				"buildid"		"4178784"
+				"description"		"Development Branch"
+				"timeupdated"		"1568023436"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save/IndexedDB"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"save/Local Storage"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#status_without_reputation"		"{#Status_%gamestatus%}"
+					"#status_with_reputation"		"{#Status_%gamestatus%}. Reputation: %reputation%"
+					"#status_inmainmenu"		"In Main Menu"
+					"#status_singleplayer"		"Playing Singleplayer"
+					"#status_multiplayer"		"Playing Multiplayer"
+				}
+			}
+		}
+	}
+}
+ 

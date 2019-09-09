@@ -1,0 +1,468 @@
+"appinfo"
+{
+	"appid"		"1016920"
+	"common"
+	{
+		"name"		"Unrailed"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"f1327e9670b864edd71e0751b17db59a4062fd7c"
+		"logo_small"		"f1327e9670b864edd71e0751b17db59a4062fd7c_thumb"
+		"icon"		"d52e7b3ffc58010b2792160e07ce6834f8c3d80b"
+		"clienticon"		"c0bea07ce6a1b57d47100f32fd7faf0409fae4dc"
+		"clienttga"		"9aee34bce12425899096e9e285d323a043e1cc7e"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"osextended"		""
+		"metacritic_name"		"Unrailed!"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en"
+			"library_logo"		"en,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"75.74532517453042"
+				"height_pct"		"77.34383892161267"
+			}
+		}
+		"store_asset_mtime"		"1568038540"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Indoor Astronaut"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Daedalic Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"bilibili(China)"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Daedalic Entertainment"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"bilibili"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1568044780"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1016920"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"597"
+			"3"		"1685"
+			"4"		"3859"
+			"5"		"3841"
+			"6"		"3843"
+			"7"		"1616"
+			"8"		"493"
+			"9"		"4136"
+			"10"		"5350"
+			"11"		"7368"
+			"12"		"5851"
+			"13"		"1732"
+			"14"		"5125"
+			"15"		"1662"
+			"16"		"3878"
+			"17"		"4726"
+			"18"		"4840"
+			"19"		"3959"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Indoor Astronaut"
+		"publisher"		"Daedalic Entertainment"
+		"homepage"		"https://unrailed-game.com"
+		"listofdlc"		"1139150,1150930,1150940"
+	}
+	"config"
+	{
+		"installdir"		"Unrailed"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UnrailedGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"8"
+			{
+				"executable"		"UnrailedGame.exe"
+				"arguments"		"china"
+				"description"		"Unrailed! China"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"isbn"
+				}
+			}
+			"9"
+			{
+				"executable"		"open_bonus_win.bat"
+				"description"		"Bonus Content"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1150930,1150940"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"65533"
+	}
+	"depots"
+	{
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1016921"
+		{
+			"name"		"Unrailed win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8558023565946760816"
+			}
+			"maxsize"		"942906085"
+			"encryptedmanifests"
+			{
+				"biz-preview"
+				{
+					"encrypted_gid_2"		"0DD76B5311D5872526C444BF973D0529"
+					"encrypted_size_2"		"C02CBCC5EB8886036DC63BE850BDE378"
+				}
+				"closed-beta"
+				{
+					"encrypted_gid_2"		"636BBEEF8BBA61D64EE20D29D3625276"
+					"encrypted_size_2"		"6EB4F237947BCFE87A0B9C86416F8E60"
+				}
+				"events"
+				{
+					"encrypted_gid_2"		"B8E594B0E11454F0E848AA74208164D2"
+					"encrypted_size_2"		"D34857765AECB9F5A910C6EFE7482C38"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"7A6DA63979D9377453FBA9CCE49620B2"
+					"encrypted_size_2"		"855F7D61BD27487162B5023F959D98E1"
+				}
+				"indoor-testing"
+				{
+					"encrypted_gid_2"		"E705F07B4CA7AB979F67FA7D3EE32F72"
+					"encrypted_size_2"		"70D01F4B6D9F3BE498E2A5CC2E6DA1CD"
+				}
+				"isbn"
+				{
+					"encrypted_gid_2"		"4D7A81F16B7228398BC2981AB18B4024"
+					"encrypted_size_2"		"C5CBD230400EDF49527638DC83F0EC3A"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"70AE389EF074B244807748EB063141ED"
+					"encrypted_size_2"		"B48B164264D9AF01AC4D00CF952357E1"
+				}
+				"non_starting_bug_testing"
+				{
+					"encrypted_gid_2"		"F3AC3B1B43BE4D46992858FB4CEAC42C"
+					"encrypted_size_2"		"08A04BE082A49F6991F0B8160D5F6D9C"
+				}
+			}
+		}
+		"1016922"
+		{
+			"name"		"Unrailed osx"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2199569806418678956"
+			}
+		}
+		"1016923"
+		{
+			"name"		"Unrailed lin"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4168039246636077921"
+			}
+		}
+		"1150930"
+		{
+			"name"		"Unrailed - Soundtrack (1150930) Depot"
+			"manifests"
+			{
+				"public"		"7021064585491315615"
+			}
+			"maxsize"		"634691821"
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"561D10122AC7F591CC9C330055475D81"
+					"encrypted_size_2"		"2B399A075191A564BCA404BED2A739A6"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"5AA412DA166FD99C308E7A9097CE4A52"
+					"encrypted_size_2"		"BB5F50E2C27F1F0BE062DF824B60A219"
+				}
+			}
+			"dlcappid"		"1150930"
+		}
+		"1150940"
+		{
+			"name"		"Unrailed - Supporter Pack (1150940) Depot"
+			"manifests"
+			{
+				"public"		"4411647195868290331"
+			}
+			"maxsize"		"26000374"
+			"dlcappid"		"1150940"
+		}
+		"baselanguages"		"english,german,french,koreana,schinese,tchinese,russian,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4179826"
+				"timeupdated"		"1568047217"
+			}
+			"biz-preview"
+			{
+				"buildid"		"3839662"
+				"description"		"Business preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558372701"
+			}
+			"closed-beta"
+			{
+				"buildid"		"4166238"
+				"description"		"Closed beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567602481"
+			}
+			"events"
+			{
+				"buildid"		"3864320"
+				"description"		"Conventions and events"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563551480"
+			}
+			"experimental"
+			{
+				"buildid"		"4173013"
+				"description"		"Internal dev testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567772467"
+			}
+			"indoor-testing"
+			{
+				"buildid"		"4162993"
+				"description"		"Internal Indoor Astronaut"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567515871"
+			}
+			"isbn"
+			{
+				"buildid"		"4166238"
+				"description"		"Chinese Mainland Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567602633"
+			}
+			"localization"
+			{
+				"buildid"		"4173013"
+				"description"		" 	External Localization QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567772481"
+			}
+			"non_starting_bug_testing"
+			{
+				"buildid"		"4178722"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568022444"
+			}
+			"testing"
+			{
+				"buildid"		"4179826"
+				"description"		"Internal testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568046622"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".local/share/"
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Daedalic Entertainment GmbH/Unrailed/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#lobby"		"Lobby"
+					"#mode_endless"		"Endless %distsance%m (%seed%)"
+					"#mode_quick"		"Quick (%seed%)"
+					"#mode_versus"		"Versus (%seed%)"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#lobby"		"Lobby"
+					"#mode_endless"		"Endlos %distsance%m (%seed%)"
+					"#mode_quick"		"Schnell (%seed%)"
+					"#mode_versus"		"Versus (%seed%)"
+				}
+			}
+		}
+	}
+}
+ 

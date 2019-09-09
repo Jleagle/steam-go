@@ -1,0 +1,681 @@
+"appinfo"
+{
+	"appid"		"505230"
+	"common"
+	{
+		"name"		"Pathologic 2"
+		"type"		"Game"
+		"logo"		"0475d238c8f9c97bc0647beb45d753cf419fa1e0"
+		"logo_small"		"0475d238c8f9c97bc0647beb45d753cf419fa1e0_thumb"
+		"icon"		"d8ddf9856a1dc51cd5af3f40c093ebe816d61c38"
+		"clienticon"		"9143038ac53a0b99f24720f2dc77cbf919ed9db3"
+		"clienttga"		"c27020a8da5939e5a4c021fd3bc8796132f62cf3"
+		"oslist"		"windows"
+		"osarch"		""
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Pathologic"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"45.68266723664206"
+				"height_pct"		"60.99828837611763"
+			}
+		}
+		"store_asset_mtime"		"1560414925"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ice-Pick Lodge"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"tinyBuild"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"tinyBuild"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Pathologic"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1558594800"
+		"steam_release_date"		"1558630800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"505230"
+		"store_tags"
+		{
+			"0"		"4166"
+			"1"		"1742"
+			"2"		"1662"
+			"3"		"1721"
+			"4"		"4342"
+			"5"		"6426"
+			"6"		"4182"
+			"7"		"1667"
+			"8"		"1756"
+			"9"		"492"
+			"10"		"3839"
+			"11"		"1695"
+			"12"		"122"
+			"13"		"21"
+			"14"		"1710"
+			"15"		"3978"
+			"16"		"5144"
+			"17"		"5030"
+			"18"		"4667"
+			"19"		"4026"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ice-Pick Lodge"
+		"publisher"		"tinyBuild"
+		"homepage"		"http://pathologic-game.com/"
+		"listofdlc"		"607730,1078070,1080220,1080230,1141960"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pathologic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pathologic.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"505231"
+		{
+			"name"		"Pathologic Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"9106381092288173786"
+			}
+			"maxsize"		"6059102573"
+		}
+		"505232"
+		{
+			"name"		"Pathologic English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2248268203990368985"
+			}
+			"maxsize"		"45403519"
+		}
+		"505233"
+		{
+			"name"		"Pathologic Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4739222643650354043"
+			}
+			"maxsize"		"45403519"
+		}
+		"505234"
+		{
+			"name"		"Pathologic Content (Beta)"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"883844131663457778"
+			}
+			"maxsize"		"21256933468"
+			"encryptedmanifests"
+			{
+				"ayrat_test"
+				{
+					"encrypted_gid_2"		"A00A4DE9D4E3D77B81327D410B26EC47"
+					"encrypted_size_2"		"B84F296AC85EC8CABEC9FE7DA4D6C828"
+				}
+				"backer_alpha"
+				{
+					"encrypted_gid_2"		"76975C5D9A352266FAD70DEE1566DD6C"
+					"encrypted_size_2"		"CA9940841DC0FC2AA93561F09EE42CDC"
+				}
+				"backer_alpha_fix"
+				{
+					"encrypted_gid_2"		"45C4DC840DCC6A8365D25C54EAAE3386"
+					"encrypted_size_2"		"E77C23790043D12E35F512F8E05A8D79"
+				}
+				"backer_alpha_fix1"
+				{
+					"encrypted_gid_2"		"7A3D4FF542358B47C9E8F20A6484C104"
+					"encrypted_size_2"		"60948220F024DAC145D6C03565FF67C1"
+				}
+				"current_developer_build"
+				{
+					"encrypted_gid_2"		"7ABC68C88CE086B3DF640DE93A3C988C"
+					"encrypted_size_2"		"FF762BF1ADCBA706B4A08C6F79DE75F0"
+				}
+				"current_developer_release_build"
+				{
+					"encrypted_gid_2"		"3E023F61F3DF502E821CA47C5565544D"
+					"encrypted_size_2"		"88BD5C4EE0946458F754D85A377A1A4E"
+				}
+				"demo_developer"
+				{
+					"encrypted_gid_2"		"901D9205008D7921291F58F2F52E34F4"
+					"encrypted_size_2"		"1252338D90F8C3A0D7563986B428E3CD"
+				}
+				"demo_release"
+				{
+					"encrypted_gid_2"		"34507F899B03DB388EDA050A9E0B74A4"
+					"encrypted_size_2"		"610EFB8BAA9F7FBBFB80A6B862F92392"
+				}
+				"dev_1_1"
+				{
+					"encrypted_gid_2"		"349E1EF2649633C1ED42E9BCBAFABAC8"
+					"encrypted_size_2"		"0183AE7D325746DD9E959DA3C15F5AC4"
+				}
+				"dev_1_2"
+				{
+					"encrypted_gid_2"		"12E70CD7A0EAED436959A7F18C2D3182"
+					"encrypted_size_2"		"ADA146B6B416A202D50279AD254A5E36"
+				}
+				"dev_1_3"
+				{
+					"encrypted_gid_2"		"24BA4B13424601B97165E0DC0C78AB2D"
+					"encrypted_size_2"		"2F22708E7AD8BB2611CE7AA2E8B1C0AD"
+				}
+				"dev_1_4"
+				{
+					"encrypted_gid_2"		"8690B1FAF19C5B209BB9E1869B860294"
+					"encrypted_size_2"		"6CA105BF9B9D2F598C2A724991CFCEB2"
+				}
+				"dev_1_5"
+				{
+					"encrypted_gid_2"		"41DF86CE0B33C55533083AC9AAF186AD"
+					"encrypted_size_2"		"D9FA81D1172A7E5A306CCBB16E99BB59"
+				}
+				"marble_nest"
+				{
+					"encrypted_gid_2"		"94190EB54F3BBF56F7DD6E36DE395BE7"
+					"encrypted_size_2"		"A786EB3CDF13DA321D4FB880EDDBB633"
+				}
+				"marble_nest_developer"
+				{
+					"encrypted_gid_2"		"30ECBD8A8354BC49FEF33C95E6488FFF"
+					"encrypted_size_2"		"DAF8AC2022C006459AC0C99D96D6568E"
+				}
+				"pax_18_01_2019"
+				{
+					"encrypted_gid_2"		"BF51ECC85BA51797EF6973515365144A"
+					"encrypted_size_2"		"DF2E571C7DA52BE977C181C79D63F88D"
+				}
+				"test_1_0"
+				{
+					"encrypted_gid_2"		"7ABF99948D46324D8098716B347C6437"
+					"encrypted_size_2"		"608F35DBCFBACD1DE6DDE765E319BE3C"
+				}
+				"test_1_1"
+				{
+					"encrypted_gid_2"		"C1BA1243E57F45CC6A0B86906E04F1E1"
+					"encrypted_size_2"		"7DB8019D01007DE0A7CF274CF01802C8"
+				}
+				"test_1_2"
+				{
+					"encrypted_gid_2"		"D5E9DC4EFA839749DEA6FB13FE257E15"
+					"encrypted_size_2"		"D711821C998CCDEC8E88B2E5807709AC"
+				}
+				"test_1_3"
+				{
+					"encrypted_gid_2"		"675F644B591B345510C6B4F09499DBA3"
+					"encrypted_size_2"		"6710EE97057D08BABE5CDFC667B8CCF0"
+				}
+			}
+		}
+		"505235"
+		{
+			"name"		"Pathologic English (Beta)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4900659951696950895"
+			}
+			"maxsize"		"10"
+			"encryptedmanifests"
+			{
+				"backer_alpha"
+				{
+					"encrypted_gid_2"		"1620A624CDAA72C3DC77912758F9AF58"
+					"encrypted_size_2"		"2F8C244126A9E936A62716A8EAE18A8B"
+				}
+				"backer_alpha_fix"
+				{
+					"encrypted_gid_2"		"EDE64AD674CED02BFBD2F723D812ABE6"
+					"encrypted_size_2"		"5BAC3815178141584915FBDC449B32D8"
+				}
+				"backer_alpha_fix1"
+				{
+					"encrypted_gid_2"		"A88C036F0D72E3BE87CE61C1F99D9842"
+					"encrypted_size_2"		"3CDC526327EFB91BC25E06653A37A834"
+				}
+				"demo_developer"
+				{
+					"encrypted_gid_2"		"5C6CA5D9A4D182FF9E28BA7A53E5DA29"
+					"encrypted_size_2"		"DCB8B45E763294FDA0DDB68CF3CACA5E"
+				}
+				"demo_release"
+				{
+					"encrypted_gid_2"		"C58588DDF5DBBE229A927B751A736A7A"
+					"encrypted_size_2"		"46BD843A99EA8DB7512B4A707936FC03"
+				}
+				"marble_nest"
+				{
+					"encrypted_gid_2"		"5F3BEF136E19F2B3F2AF07DB74A77DD5"
+					"encrypted_size_2"		"11C8D24C30D4745DD23A2F62ECAD12E9"
+				}
+				"pax_18_01_2019"
+				{
+					"encrypted_gid_2"		"25106E0A5F7FF70BB1C6075CE999C97A"
+					"encrypted_size_2"		"E01377CEB33E31BEA03DECB50DFEDCE4"
+				}
+			}
+		}
+		"505236"
+		{
+			"name"		"Pathologic Russian (Beta)"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2604354658566183329"
+			}
+			"maxsize"		"10"
+			"encryptedmanifests"
+			{
+				"backer_alpha"
+				{
+					"encrypted_gid_2"		"8FA712ADD6CCBCD5D552652403A414F9"
+					"encrypted_size_2"		"2F8C244126A9E936A62716A8EAE18A8B"
+				}
+				"backer_alpha_fix"
+				{
+					"encrypted_gid_2"		"B6F4BAEA8F05534E0C6353087765884F"
+					"encrypted_size_2"		"5BAC3815178141584915FBDC449B32D8"
+				}
+				"backer_alpha_fix1"
+				{
+					"encrypted_gid_2"		"F1FC3405BAF23A860BA51C35CFFD642D"
+					"encrypted_size_2"		"3CDC526327EFB91BC25E06653A37A834"
+				}
+				"demo_developer"
+				{
+					"encrypted_gid_2"		"49D8BA7B649D0C0429E312EC19F08F62"
+					"encrypted_size_2"		"DCB8B45E763294FDA0DDB68CF3CACA5E"
+				}
+				"demo_release"
+				{
+					"encrypted_gid_2"		"CAE301CCF2ECBC6EB33B8A17F7858A87"
+					"encrypted_size_2"		"46BD843A99EA8DB7512B4A707936FC03"
+				}
+				"marble_nest"
+				{
+					"encrypted_gid_2"		"2B0D3E0DB5920BB2EA604A4483A1ADE5"
+					"encrypted_size_2"		"11C8D24C30D4745DD23A2F62ECAD12E9"
+				}
+				"pax_18_01_2019"
+				{
+					"encrypted_gid_2"		"211CA10E3EFD47624FC1EB516F693142"
+					"encrypted_size_2"		"E01377CEB33E31BEA03DECB50DFEDCE4"
+				}
+			}
+		}
+		"1080230"
+		{
+			"name"		"Хранилище Pathologic 2: Soundtrack (1080230)"
+			"dlcappid"		"1080230"
+			"manifests"
+			{
+				"public"		"3170805064624254611"
+			}
+			"maxsize"		"3387822153"
+			"encryptedmanifests"
+			{
+				"current_developer_build"
+				{
+					"encrypted_gid_2"		"A0CD54884E1BD344F013435B5C9DFCCF"
+					"encrypted_size_2"		"B059DCF803D13CB3A52F783B6F258DE1"
+				}
+				"current_developer_release_build"
+				{
+					"encrypted_gid_2"		"D0951262CB8FBD87808F357C37E3E997"
+					"encrypted_size_2"		"DED4EBE00B5D9B61F088EA3F3CC2765E"
+				}
+				"dev_1_1"
+				{
+					"encrypted_gid_2"		"99DB880321C2E7E59AFC9EDEB17B6BD4"
+					"encrypted_size_2"		"37AD532D871E5DE062E028BA9FE4D556"
+				}
+				"dev_1_2"
+				{
+					"encrypted_gid_2"		"A49C5DCC2B594B1A936D27770A4392CA"
+					"encrypted_size_2"		"233E6BEB57087B4C085F91D844A2845A"
+				}
+				"test_1_0"
+				{
+					"encrypted_gid_2"		"A016B3B3D0A389A35717A8D1CEFB7052"
+					"encrypted_size_2"		"7D63B4582164708FB50882FFD66E0546"
+				}
+			}
+		}
+		"1080220"
+		{
+			"name"		"Pathologic 2: Artbook (1080220) Depot"
+			"dlcappid"		"1080220"
+			"manifests"
+			{
+				"public"		"7440411019941681958"
+			}
+			"maxsize"		"674036158"
+			"encryptedmanifests"
+			{
+				"dev_1_2"
+				{
+					"encrypted_gid_2"		"7798EB9B6507544FFF1C59D93CFBFA33"
+					"encrypted_size_2"		"B5DBF83989AA11209B05048313666A6F"
+				}
+				"test_1_1"
+				{
+					"encrypted_gid_2"		"8518427BC18B122B8F1365C8EFCE329E"
+					"encrypted_size_2"		"6C83CDDA181275BDE75C7D51B81BB7B2"
+				}
+			}
+		}
+		"1141960"
+		{
+			"name"		"Pathologic 2: Marble Nest (1141960) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"ayrat_test"
+				{
+					"encrypted_gid_2"		"AD9FD2CE1D8F82793499003B1F35CC9B"
+					"encrypted_size_2"		"92D73DF3C09090FAD3DD67E6A2AF8E9D"
+				}
+				"marble_nest_developer"
+				{
+					"encrypted_gid_2"		"695C92B1B2091F1EE17AFF02C596D958"
+					"encrypted_size_2"		"E3E51A246BFB23F523932C1469260743"
+				}
+			}
+			"dlcappid"		"1141960"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3918896"
+				"timeupdated"		"1560848741"
+			}
+			"ayrat_test"
+			{
+				"buildid"		"4169919"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567695311"
+			}
+			"backer_alpha"
+			{
+				"buildid"		"3107158"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536593070"
+			}
+			"backer_alpha_fix"
+			{
+				"buildid"		"3107158"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536593106"
+			}
+			"backer_alpha_fix1"
+			{
+				"buildid"		"3111393"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536672366"
+			}
+			"current_developer_build"
+			{
+				"buildid"		"3817427"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557731919"
+			}
+			"current_developer_release_build"
+			{
+				"buildid"		"3814803"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557587259"
+			}
+			"demo_developer"
+			{
+				"buildid"		"3697524"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554108683"
+			}
+			"demo_release"
+			{
+				"buildid"		"3678227"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553535260"
+			}
+			"dev_1_1"
+			{
+				"buildid"		"3824982"
+				"description"		"branch in development before going to test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557907792"
+			}
+			"dev_1_2"
+			{
+				"buildid"		"3847200"
+				"description"		"branch in development before going to test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558531451"
+			}
+			"dev_1_3"
+			{
+				"buildid"		"3875320"
+				"description"		"branch in development before going to test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559273770"
+			}
+			"dev_1_4"
+			{
+				"buildid"		"3903852"
+				"description"		"branch in development before going to test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560157003"
+			}
+			"dev_1_5"
+			{
+				"buildid"		"3938599"
+				"description"		"branch in development before going to test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561047767"
+			}
+			"marble_nest"
+			{
+				"buildid"		"1692806"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1535644357"
+			}
+			"marble_nest_developer"
+			{
+				"buildid"		"4178560"
+				"description"		"marble nest dlc"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568018613"
+			}
+			"pax_18_01_2019"
+			{
+				"buildid"		"3470497"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547561166"
+			}
+			"pre-release-exclusive"
+			{
+				"buildid"		"3918896"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560848772"
+			}
+			"test_1_0"
+			{
+				"buildid"		"3825551"
+				"description"		"branch in testing before going to release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557921366"
+			}
+			"test_1_1"
+			{
+				"buildid"		"3858018"
+				"description"		"branch in testing before going to release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558791528"
+			}
+			"test_1_2"
+			{
+				"buildid"		"3872446"
+				"description"		"branch in testing before going to release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559205808"
+			}
+			"test_1_3"
+			{
+				"buildid"		"3897825"
+				"description"		"branch in testing before going to release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559909241"
+			}
+			"test_1_4"
+			{
+				"buildid"		"3918896"
+				"description"		"branch in testing before going to release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560516233"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Ice-Pick Lodge/Pathologic 2/Saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

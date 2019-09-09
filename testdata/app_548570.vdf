@@ -1,0 +1,576 @@
+"appinfo"
+{
+	"appid"		"548570"
+	"common"
+	{
+		"name"		"RAGE 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"36052f09e2e97dfeb84adcce5c8f4178a09f96c2"
+		"clienttga"		"6947e6487ff77edaf724df5d756275361b6dc5ef"
+		"icon"		"42046dcd77862072d679fc165a417e207d15b061"
+		"logo"		"46398067676852fd93172c2e000e12119e3e907d"
+		"logo_small"		"46398067676852fd93172c2e000e12119e3e907d_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"Rage 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"54.166666666666664"
+			}
+		}
+		"store_asset_mtime"		"1567311687"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"id Software"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Avalanche Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Bethesda Softworks"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1557817200"
+		"steam_release_date"		"1557792000"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/rage-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"548570"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"1695"
+			"3"		"3835"
+			"4"		"4345"
+			"5"		"4182"
+			"6"		"1774"
+			"7"		"4667"
+			"8"		"3839"
+			"9"		"5228"
+			"10"		"3859"
+			"11"		"4136"
+			"12"		"3834"
+			"13"		"3942"
+			"14"		"21"
+			"15"		"699"
+			"16"		"3810"
+			"17"		"4115"
+			"18"		"6650"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"id Software"
+		"publisher"		"Bethesda Softworks"
+		"homepage"		"https://bethesda.net/en/game/rage2"
+		"listofdlc"		"1054920,1054921,1067980"
+	}
+	"config"
+	{
+		"installdir"		"RAGE 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RAGE2.exe"
+				"description"		"Main build launcher"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"RAGE2.exe"
+				"description"		"Unstable RAGE2 "
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"unstable"
+				}
+			}
+			"2"
+			{
+				"executable"		"RAGE2_R.exe"
+				"description"		"Unstable RAGE2 Release"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"unstable"
+				}
+			}
+			"3"
+			{
+				"executable"		"RAGE2_P.exe"
+				"description"		"Unstable RAGE2 Profile"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"unstable"
+				}
+			}
+			"4"
+			{
+				"executable"		"RAGE2.exe"
+				"description"		"Patch Day 30 RAGE2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d30"
+				}
+			}
+			"5"
+			{
+				"executable"		"RAGE2_P.exe"
+				"description"		"Patch Day 30 RAGE2 Profile"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d30"
+				}
+			}
+			"6"
+			{
+				"executable"		"RAGE2_R.exe"
+				"description"		"Patch Day 30 RAGE2 Release"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d30"
+				}
+			}
+			"7"
+			{
+				"executable"		"RAGE2.exe"
+				"description"		"Patch Day 60 RAGE2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d60"
+				}
+			}
+			"8"
+			{
+				"executable"		"RAGE2_P.exe"
+				"description"		"Patch Day 60 RAGE2 Profile"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d60"
+				}
+			}
+			"9"
+			{
+				"executable"		"RAGE2_R.exe"
+				"description"		"Patch Day 60 RAGE2 Release"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_d60"
+				}
+			}
+			"10"
+			{
+				"executable"		"RAGE2.exe"
+				"description"		"Patch DLC RAGE2"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_dlc, patch_dlc_alpha, patch_dlc_beta, patch_dlc2, patch_dlc2_alpha, patch_dlc2_beta"
+				}
+			}
+			"11"
+			{
+				"executable"		"RAGE2_P.exe"
+				"description"		"Patch DLC RAGE2 Profile"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_dlc, patch_dlc_alpha, patch_dlc_beta, patch_dlc2, patch_dlc2_alpha, patch_dlc2_beta"
+				}
+			}
+			"12"
+			{
+				"executable"		"RAGE2_R.exe"
+				"description"		"Patch DLC RAGE2 Release"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"patch_dlc, patch_dlc_alpha, patch_dlc_beta, patch_dlc2, patch_dlc2_alpha, patch_dlc2_beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"548572"
+		{
+			"name"		"Heatwave"
+			"manifests"
+			{
+				"public"		"1560255075302815130"
+			}
+			"maxsize"		"40286077245"
+			"encryptedmanifests"
+			{
+				"patch_d30"
+				{
+					"encrypted_gid_2"		"AF79222E311A4A968040E6C544D45315"
+					"encrypted_size_2"		"9B6D52E7681AB0247C60033F374AE7A7"
+				}
+				"patch_d60"
+				{
+					"encrypted_gid_2"		"02AA378CFDAEB465626E5343983B59AD"
+					"encrypted_size_2"		"3A1DF19F31DCDD60348D4B86A733FAA8"
+				}
+				"patch_dlc"
+				{
+					"encrypted_gid_2"		"BA9D7C43D2D5A5402C22DDF857202C6F"
+					"encrypted_size_2"		"675CDB50C1C4964F43E5F664759D8F61"
+				}
+				"patch_dlc_alpha"
+				{
+					"encrypted_gid_2"		"BCC278090B1CD53943321D7D609E7D9B"
+					"encrypted_size_2"		"E88B9A036ABE1A3B2D316485652B03F4"
+				}
+				"patch_dlc_beta"
+				{
+					"encrypted_gid_2"		"497BCA07A1FD752D4C2AED0CF5B5CDD3"
+					"encrypted_size_2"		"FBC7CAE2F624444A3B21E114A886B48A"
+				}
+				"patch_dlc2"
+				{
+					"encrypted_gid_2"		"91C9093F71B6FC9A7F5EF2A262DE5C6D"
+					"encrypted_size_2"		"9F3BB875B44983D09B6FF6DFA5EE574C"
+				}
+				"press_review"
+				{
+					"encrypted_gid_2"		"4BFDBAC628A09471C8B6E3699EB64E81"
+					"encrypted_size_2"		"92E09ACFC76FA86D5F6737D74670357B"
+				}
+				"upload_test"
+				{
+					"encrypted_gid_2"		"0B0E93A27DA969BCE8F24BAE8F3304DD"
+					"encrypted_size_2"		"968E019E64CCA36035D543CA846E905C"
+				}
+			}
+		}
+		"548573"
+		{
+			"name"		"Heatwave Debug"
+			"manifests"
+			{
+				"public"		"366094127901396033"
+			}
+			"maxsize"		"1176306673"
+			"encryptedmanifests"
+			{
+				"patch_d30"
+				{
+					"encrypted_gid_2"		"D799949FA8B6EBC8EE80A040195EC22A"
+					"encrypted_size_2"		"CF8E4AC0DCE0167E2889AE8C23379A0E"
+				}
+				"patch_d60"
+				{
+					"encrypted_gid_2"		"AB160215F4BC04280A1416F54835BF30"
+					"encrypted_size_2"		"3B723196684642E246D4E21350FD48DB"
+				}
+				"patch_dlc"
+				{
+					"encrypted_gid_2"		"85F34C43F82DB4AAFD2C845CECD973C9"
+					"encrypted_size_2"		"1D50ED1A15D7BBF23162D25DA3D566A3"
+				}
+				"patch_dlc_alpha"
+				{
+					"encrypted_gid_2"		"7DB823B1593E8CD56D6FB0083D0A4960"
+					"encrypted_size_2"		"EA7148B3FDB57B45C82F7E84F0F9BB7A"
+				}
+				"patch_dlc_beta"
+				{
+					"encrypted_gid_2"		"F4325DEE713B38CE8A7194BB941988FF"
+					"encrypted_size_2"		"85B5D265C4DA2E809756F6B0A851F264"
+				}
+				"patch_dlc2"
+				{
+					"encrypted_gid_2"		"FC88CA947E87DEEABC2A8DB87D2247BC"
+					"encrypted_size_2"		"55F66B2BD00A89A16BAB4CB15BC9D168"
+				}
+				"press_review"
+				{
+					"encrypted_gid_2"		"38B734C8F9BBDF867E657D956A8EA8BD"
+					"encrypted_size_2"		"DEA9E4CE08AA5C05F1DB700CAF429948"
+				}
+				"upload_test"
+				{
+					"encrypted_gid_2"		"0DE7BB980746A6D0D651A4CFD7157E68"
+					"encrypted_size_2"		"013B5EEB213F1590457EC842327D6DFE"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4132250"
+				"timeupdated"		"1566828247"
+			}
+			"patch_d30"
+			{
+				"buildid"		"3952850"
+				"description"		"Patch Day 30"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561471556"
+			}
+			"patch_d60"
+			{
+				"buildid"		"4086360"
+				"description"		"Patch Day 60"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565260012"
+			}
+			"patch_dlc"
+			{
+				"buildid"		"4179248"
+				"description"		"Patch DLC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568034532"
+			}
+			"patch_dlc_alpha"
+			{
+				"buildid"		"3970495"
+				"description"		"Patch DLC ALPHA MS"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562580059"
+			}
+			"patch_dlc_beta"
+			{
+				"buildid"		"4122804"
+				"description"		"Patch DLC BETA MS"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566311880"
+			}
+			"patch_dlc2"
+			{
+				"buildid"		"4173382"
+				"description"		"Patch DLC 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567780343"
+			}
+			"press_review"
+			{
+				"buildid"		"3809623"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557497421"
+			}
+			"press_review_dlc"
+			{
+				"buildid"		"4132250"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567689635"
+			}
+			"unstable"
+			{
+				"buildid"		"4132250"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566550048"
+			}
+			"upload_test"
+			{
+				"buildid"		"3914480"
+				"description"		"test branch - do not use"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560416217"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"256000000"
+		"maxnumfiles"		"64"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"id Software/Rage 2/Saves"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
+ 

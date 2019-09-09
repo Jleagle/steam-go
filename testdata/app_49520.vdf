@@ -1,0 +1,8542 @@
+"appinfo"
+{
+	"appid"		"49520"
+	"common"
+	{
+		"name"		"Borderlands 2"
+		"clienticon"		"db87111cc1d7fd8fca26dea15ba2e91066b18465"
+		"clienttga"		"4e9933ecb4ab80450bf12442a182f2e2bf3bc92e"
+		"icon"		"a3f4945226e69b6196074df4c776e342d3e5a3be"
+		"logo"		"86b0fa5ddb41b4dfff7df194a017f3418130d668"
+		"logo_small"		"86b0fa5ddb41b4dfff7df194a017f3418130d668_thumb"
+		"metacritic_url"		"pc/borderlands"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"clienticns"		"573010ffc977b2cf6a56bf86aed6127a9c0f8cd6"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"190e3d1f99d93997a42d1508897fbc7656ca2de6"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"49520_eula_0"
+				"name"		"Borderlands 2 EULA"
+				"url"		"http://store.steampowered.com//eula/49520_eula_0"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"Borderlands 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33"
+				"height_pct"		"55"
+			}
+		}
+		"store_asset_mtime"		"1391710279"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gearbox Software"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Aspyr (Mac)"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Aspyr (Linux)"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"2K"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Aspyr (Mac)"
+			}
+			"5"
+			{
+				"type"		"publisher"
+				"name"		"Aspyr (Linux)"
+			}
+			"6"
+			{
+				"type"		"franchise"
+				"name"		"Borderlands"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/borderlands-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"49520"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"1685"
+			"2"		"4236"
+			"3"		"122"
+			"4"		"19"
+			"5"		"1774"
+			"6"		"1695"
+			"7"		"4136"
+			"8"		"3859"
+			"9"		"1719"
+			"10"		"3843"
+			"11"		"21"
+			"12"		"4231"
+			"13"		"5923"
+			"14"		"10397"
+			"15"		"3942"
+			"16"		"4182"
+			"17"		"4252"
+			"18"		"4295"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gearbox Software"
+		"gamedir"		"Borderlands 2"
+		"gamemanualurl"		"http://store.steampowered.com/manual/49520/"
+		"guideappid"		"101008"
+		"homepage"		"https://www.2k.com/en-US/game/borderlands-2/"
+		"icon"		""
+		"installscript_macos"		"Borderlands2.app/installscript_osx.vdf"
+		"noservers"		"0"
+		"overlaymanuallyclearscreen"		"1"
+		"primarycache_mac"		"221701"
+		"primarycache_macos"		"221701"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"2K"
+		"listofdlc"		"49536,49537,49538,207830,207850,207870,208690,208691,213210,213230,213231,213250,213780,213781,213782,218550,218560,221700,221710,224140,224141,224142,224143,224144,224145,224160,224161,224162,224163,224164,224165,224166,224167,224168,224180,224200,225820,225821,225822,225823,225824,225825,225826,225827,225828,225829,225830,225831,225832,225833,225834,225860,230090,238770,245750,245751,245752,245753,245754,245890,245910,245930,245950,245970"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Binaries\\Win32\\Launcher.exe"
+				"description"		"Launcher"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Borderlands2.app"
+				"description"		"Play the game"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"./Borderlands2"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Borderlands 2"
+		"installscriptsignature"		"3dc77fdcab311cdf321450e5277d9f0c39b9345a8ade3ca4aad2ab25166aca11105ef004c507edf34c96a8089d52819f09efd674722cfc76f9824d51151d9d3757a8e75e5818bd20f7d5f7ebb7aee1e8d2e93dccd10c51a3986227c5217dbc99e5547c0c5977db6f856fd3c81535f161b4370d84b4479ab8fa3a4e472fc35a01"
+		"installscriptoverride"		"1"
+		"steamcontrollertemplateindex"		"3"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100A691F45EEEFC2AE21D2C866F7F19665BF306BC8D740CE5C2B1E41176B976EBD3F9768075345E455BD13B5C17F49272F7EB2DA0F1B1297E1156E12DBD62D28707CBC0F217C4A84EA4D74CBB24B9D634CF2589254810D2D3B81D241B28AD5A0BB298782E7281E7D903A49D39553657CB6277C2AE8B130E9EF93932893758FE2237020111"
+		"checkguid"		"Borderlands2.exe"
+		"checkguids"		"borderlands2.exe"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist2005"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_2005_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC 2005 Redist Package"
+				"nocleanup"		"1"
+			}
+			"vcredist2005atl"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_2005_atl_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC 2005 ATL Redist Package"
+				"nocleanup"		"1"
+			}
+			"vcredist2008"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC 2008 Redist Package"
+				"nocleanup"		"1"
+			}
+			"vcredist2010"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86_vs2010sp1.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC 2010 Redist Package"
+				"nocleanup"		"1"
+			}
+			"directxredist"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\DXRedistCutdown\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"Microsoft DirectX Redist Package"
+				"nocleanup"		"1"
+			}
+			"net40redist"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\dotNetFx40_Client_x86_x64.exe"
+				"command 1"		"/q /norestart /log %tmp%\\dotnet_40_setup.log"
+				"description"		"Microsoft .NET Framework 4.0 Redist Package"
+				"nocleanup"		"1"
+				"ignoreexitcode"		"1"
+			}
+		}
+		"firewall"
+		{
+			"borderlands launcher"		"%INSTALLDIR%\\Binaries\\Win32\\Launcher.exe"
+			"borderlands game"		"%INSTALLDIR%\\Binaries\\Win32\\Borderlands2.exe"
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"49521"
+		{
+			"name"		"Borderlands 2 base content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1814281763320166407"
+				"local"		"7784633254681532891"
+			}
+			"maxsize"		"4797346039"
+		}
+		"49522"
+		{
+			"name"		"Borderlands 2 executables"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2926581323978225406"
+				"local"		"2277410716069748397"
+			}
+			"maxsize"		"132066786"
+		}
+		"49524"
+		{
+			"name"		"Borderlands 2 english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"666378371647569514"
+				"local"		"2996200669584608622"
+			}
+			"maxsize"		"520049431"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"CFB4D561C2651470660C9CCA022873FB"
+					"encrypted_size_2"		"F77B3851CCCA7A5A55870D6A8EB6568A"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"FA6E33B1220609964C81DAE59C9418C3"
+					"encrypted_size_2"		"71202AF101519342204651843AF05621"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"2E7FAFEC3719A013B28BC272F2387EF7"
+					"encrypted_size_2"		"0074BDFB03FF017218DA2CC39A35D580"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"321AB9A17614468CB135EFB43970F6A6"
+					"encrypted_size_2"		"8C4362B50ECECF429A0762F045FD37AE"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"7E93FAA30AB2FEB6E48E471F66BF6A1A"
+					"encrypted_size_2"		"7ABE2CF6E7BE42E468F9FFD30316682C"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"85151B3996D4CE044A0B90F3C505DF2D"
+					"encrypted_size_2"		"98543FC5EEA09858F5BF4372086F6C74"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"5F0F3B8CC0B9367F31C193442315FF7E"
+					"encrypted_size_2"		"10CA470E42B9286195EFFF0B69B499F1"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"659924B5AC8F8B15130CF4C0D6F67941"
+					"encrypted_size_2"		"E432FEDB0F9AF193CF010F5BD8065E23"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"3110F3D49B813E2554797DA6980AC76C"
+					"encrypted_size_2"		"9EE9F9AD3BCAE448309DA425AC5449E5"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"64A80047BC8222A4D1665456259336C5"
+					"encrypted_size_2"		"41A3ED6E1F251BF00F287CB13F835CC2"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"D9E15FDBEE45616E18BDEBD73EFF5003"
+					"encrypted_size_2"		"E84FA4B37CC9F5212E54B720672C20A0"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"34F073D6A5B7A488C75CCC294CD6277E"
+					"encrypted_size_2"		"81B87D9707C315E033E618F3981D5871"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"4DCDF546636A28A73FBB3B496582FDD6"
+					"encrypted_size_2"		"0018E547E0F9F0CBE983305B6C21CB09"
+				}
+			}
+		}
+		"49525"
+		{
+			"name"		"Borderlands 2 french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"252943733682866179"
+				"local"		"4531963478691700377"
+			}
+			"maxsize"		"576250303"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"0D2F664158B07081A6E7ADE60EC5C5E9"
+					"encrypted_size_2"		"4EA205A57D57867B4ABD1C9A59AC20C3"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"D06DCC27A7AB72ED7EBEC43742429A13"
+					"encrypted_size_2"		"369F8D870D627158E86C90C62A4BC039"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"5A91B756BE5660E9D27520199A605C08"
+					"encrypted_size_2"		"7F6BA266689FEEE01761959605D00A5E"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"49F4738856643362CCF5612FA6D0F48A"
+					"encrypted_size_2"		"F50B90675511D4A74C6DD9F52EEB059E"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"78FD0B33E14570D0BB91ED343C846306"
+					"encrypted_size_2"		"8D3D1F59DA1CA4945FC4236BB0126909"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"6A56DD11B0F5DAF3A15AC306ECD143F7"
+					"encrypted_size_2"		"5F10B156ECACF1CC6E26D9620D0E157B"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"FD87F4F528E52140CBAA7E98B5113A09"
+					"encrypted_size_2"		"E603E2F1CCD814E2E8BC42E6DED05711"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"D86EA8A40ACE7C435D26ED1615E7D664"
+					"encrypted_size_2"		"F709AEB66532F321DA313FE049AC6B65"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"2FF8FB9FA9527B4BD06E7855562983EB"
+					"encrypted_size_2"		"FC6B58EB66C9CD490399E923B1F857CA"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"10547CC91F1AF9A9373BDE5E37B8C485"
+					"encrypted_size_2"		"A47D9A1961A1E1B1A25DFC91D7B01DCB"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"7C49F07090D2B7A6D305B547C15107B0"
+					"encrypted_size_2"		"883573959D81972F7D818C5E08F47309"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"9CC3D7D6AF7AC4AF26ABAA3EFA77BDBA"
+					"encrypted_size_2"		"707EDF92A1A771C92EB7145B1A4C3CF1"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"7E7B680B09282A1640FFDD253EFD657C"
+					"encrypted_size_2"		"86C09CD5539D736FCED2269751EE8434"
+				}
+			}
+		}
+		"49526"
+		{
+			"name"		"Borderlands 2 italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4204836667900950512"
+				"local"		"8073616189893886908"
+			}
+			"maxsize"		"594583158"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"0CE9AC6325BFDBB5BCAB8E28F257C392"
+					"encrypted_size_2"		"77618CFBD8D15E14EC7218F874747AA1"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"B7FCFC7649DE0E8BC5787AB7D850F604"
+					"encrypted_size_2"		"FEC656BB3C2839963C53848F58A64C0B"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"916752D0B48A1E96A98D03F12673B05B"
+					"encrypted_size_2"		"D5ADBB1BA865F18921BDCD881C373B9F"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"6042F6EB238B2D0BC44515A20E57021C"
+					"encrypted_size_2"		"576051B029F21295E72D9B05BC7D6D77"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"DA7BC3B1F995E669A1C925FC86E8D506"
+					"encrypted_size_2"		"231C397A7330EDFCCE7EF8C4D065E40E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"85AEAB053EF2923577BAF64D2051BBF4"
+					"encrypted_size_2"		"2E1F86C4FE4F34EC8FF3DA73AC6F07C0"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"E6EDA9303AF09497FB1CF5D47A07EAE6"
+					"encrypted_size_2"		"4D9B0C52633AD4DE4B24EE87318AE3C3"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"7FCE9FDD51AA2DDE7F2E1944F6EEC166"
+					"encrypted_size_2"		"2FA915C29DDC68D43FA4E6CD2F7BC148"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"5A464091FEAEF2BE6879FB0CE210D6D9"
+					"encrypted_size_2"		"D51169E2C33C3420CB5FE90DA6E77470"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"255033C49468D875F69EDB6F3B7BB853"
+					"encrypted_size_2"		"C25C8908984A824521A1939005E10F0D"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"C5E1B051EE1AB6CAA684C9F06DE387DC"
+					"encrypted_size_2"		"BC81DA335133FC7B7001E068C8680C71"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"06E14185D9B4222EC8BD7064916F5B3F"
+					"encrypted_size_2"		"D510C62420A1E17AAB2C17D217969111"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"B61517E2DA0FC3EFA4CABA7B0D46EEDE"
+					"encrypted_size_2"		"09F84D50EDD4830EC3E885BFB389BE5C"
+				}
+			}
+		}
+		"49527"
+		{
+			"name"		"Borderlands 2 german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5633268127189891689"
+				"local"		"6695689804047641782"
+			}
+			"maxsize"		"590200072"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"7796472BB71676CCF6E479AC954EF053"
+					"encrypted_size_2"		"9DE146F7A5848E76BA5140276F9085A2"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"4CCE69CC31A97C3F613A3E9FC1532AAA"
+					"encrypted_size_2"		"56353F98F676ECE3B333239847E96C5C"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"3D62E90600D4EAD65FE63008292B7D25"
+					"encrypted_size_2"		"16B682AFF4B26F51952998578C53C74D"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"AA2CDC438F539A0B363C66C2235E1CF0"
+					"encrypted_size_2"		"801FA24B6CD74B70F3BF056063201706"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"C82CABEEB80877006BFE61264D0A0682"
+					"encrypted_size_2"		"BF27C7FA99E782126FAAF01B7F338B5C"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"1936589F389CA6AA8EA7886CE2F7B285"
+					"encrypted_size_2"		"DF460313CF4BA3084B2702299A9E86F4"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"69D9B52B297C88FD215B8BE3AA44A568"
+					"encrypted_size_2"		"173D3B525B7254FADC0A5566F99AAC9E"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"696A8FF3D2A69CC37D1C2C2B0967B974"
+					"encrypted_size_2"		"960AE394464BCF4394D785E63AA64B82"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"47E4F809FC58D99AD16F1F6515887C9F"
+					"encrypted_size_2"		"5B76F6AADD687C028D91C6CA558BF4F1"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"4DAA816DED3CE2BF195E7E0175F56141"
+					"encrypted_size_2"		"FF6C10581B28BF7FAD437B1B0C22EE93"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"5B3F9E59800AB16AD0B96715D58FA4F4"
+					"encrypted_size_2"		"EBBE07DBBBEBEADA7641EB9267F5405F"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"633C49E7F91222A5B5BF69BD0435616A"
+					"encrypted_size_2"		"A3E5D0950C35E56E2FF179EA81DA2615"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"D720A0C0AE1CF60FCCC4EC1FBD5C09D2"
+					"encrypted_size_2"		"E7BA1DEA229F8E7F693A858132C7FABA"
+				}
+			}
+		}
+		"49528"
+		{
+			"name"		"Borderlands 2 spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1600212112810900070"
+				"local"		"5037418266367451844"
+			}
+			"maxsize"		"565193152"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"8460AEF51922B2E62AD267C9EE853A2D"
+					"encrypted_size_2"		"86F7B7804A4DB722960A54D2A0517A96"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"143804CC2F619B18FA0988CCC11E8E48"
+					"encrypted_size_2"		"CE12D4B033DC576AAB20BEA206278538"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"3AD47473B57BCADFE1F4A14021350457"
+					"encrypted_size_2"		"AE86260B1520C135CFC27AED433FDB8E"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"98125EA1ED1EC830894EC49BC133E095"
+					"encrypted_size_2"		"B8086748F5BEB6579EB09E47A4DB3415"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"53C1D4C7BE6A71256F0FE6564C11E673"
+					"encrypted_size_2"		"E5608A8EE5F22878D5C509AA12CE0A8E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"1850A3FA844A299D9F8BD5F093AC3FA3"
+					"encrypted_size_2"		"3FA9618D6ADD263794C21CA2B722E093"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"DC0FDF54B4F136594CA5C7BE5D35D43B"
+					"encrypted_size_2"		"91EBDD00A053FF67531998CA4EB7A0CF"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"9606FD0D5327880504262E7D42B072E4"
+					"encrypted_size_2"		"B5B8FCDEA473E35DA8A9D80FB63AE354"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"F3B06281B6C9860C7E462A4F9110DB85"
+					"encrypted_size_2"		"06A99E0D43CD8525E0713BEC30A2CA23"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"CD808CC660279D67311D4894444EB2D3"
+					"encrypted_size_2"		"E87ECC62F92CACD4BAC1DCF426E0B4CA"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"76CBFBD907F37DA3B5E352F3A2A717A0"
+					"encrypted_size_2"		"FA379D66FF376F74D517CA3EEE04F5C4"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"0E8EFA707941C46AC055D13FCABC5C0B"
+					"encrypted_size_2"		"30CECDC37FAA42B2824DEC86FC4796E4"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"144BCDC78A6D3BA3F28965C86AC8A602"
+					"encrypted_size_2"		"A6C474228FEC8E209A22BFF00D3306EC"
+				}
+			}
+		}
+		"49530"
+		{
+			"name"		"Borderlands 2 japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6673831988560394479"
+				"local"		"7488103813520361156"
+			}
+			"maxsize"		"542292362"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"1166A2E689C9FEF3C586D06691996E34"
+					"encrypted_size_2"		"714364DED50B7BB69386D462B22F9AA7"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"6CCDD18116C9EE9B84AA5C837F60E5EC"
+					"encrypted_size_2"		"FE7B49D00D2543E106333A111E7D287B"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"F284E51BBE7A9AEE9F7AC011C8B16F10"
+					"encrypted_size_2"		"730CFACF4379CECF818D1B31AFC985A6"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"125A3BCDB2343DD0ACC0F0E076B7456C"
+					"encrypted_size_2"		"319B3160002E3E6AADA4053F2B9BF788"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"30E069D55B60259B5A574E82412AAB58"
+					"encrypted_size_2"		"A25AC4592D1E134A37256C6F22CC1CEA"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"CEB537A958AA1981AF2D62DBD36BCE16"
+					"encrypted_size_2"		"D22D0358B375092E47D4A3B5C61291C4"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"51F03F02DC774DA666E97E829ED0C1CC"
+					"encrypted_size_2"		"1C68884ADF9C66A8F7634A5568D099B5"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"8D2ED2BE429CCFDB386C3FABF4349814"
+					"encrypted_size_2"		"F42DBD8D2688233EA7C93A7B69D6512D"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"36D7D475878792F08141DD463C9F0CDF"
+					"encrypted_size_2"		"F2A094807A40F1DAE2BD7946EF31DF17"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"4BECEF2725564DD06F30E2D4A930F5E8"
+					"encrypted_size_2"		"C8639E56EAB1984E7AEBF756146DD1AD"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"CA2F9D14583209FC91108E72B3060A1D"
+					"encrypted_size_2"		"53282D929919CF164E0C543794590A06"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"91853DBEB46758275CE9C41BFDB5AEA1"
+					"encrypted_size_2"		"8C7DF66FD0EDAEB3B864EC878A4EC54B"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"2A9FD8306289F2C8FE73F109DB6876FB"
+					"encrypted_size_2"		"CA291A32E0B0307B9FB732FE68C70903"
+				}
+			}
+		}
+		"207871"
+		{
+			"name"		"Borderlands 2 Orchid Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"4720087696379918851"
+				"local"		"4321060871119848484"
+			}
+			"maxsize"		"2335396005"
+		}
+		"207872"
+		{
+			"name"		"Borderlands 2 Orchid English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"8504175511764325878"
+				"local"		"5154638309327436639"
+			}
+			"maxsize"		"239263519"
+		}
+		"207873"
+		{
+			"name"		"Borderlands 2 Orchid French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"1552457503116849544"
+				"local"		"3053648484911960036"
+			}
+			"maxsize"		"250322021"
+		}
+		"207874"
+		{
+			"name"		"Borderlands 2 Orchid German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"2724033832835394869"
+				"local"		"2741403264906283126"
+			}
+			"maxsize"		"258262354"
+		}
+		"207875"
+		{
+			"name"		"Borderlands 2 Orchid Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"873991231805407560"
+				"local"		"4569444046926295600"
+			}
+			"maxsize"		"261649265"
+		}
+		"207876"
+		{
+			"name"		"Borderlands 2 Orchid Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"8058584111371118371"
+				"local"		"6334321296271066000"
+			}
+			"maxsize"		"236717366"
+		}
+		"207877"
+		{
+			"name"		"Borderlands 2 Orchid Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"2838040280722710942"
+				"local"		"9098680925737661683"
+			}
+			"maxsize"		"249899590"
+		}
+		"207884"
+		{
+			"name"		"Borderlands 2 Orchid Korean content"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"436607148179160578"
+			}
+			"maxsize"		"162692051"
+		}
+		"207878"
+		{
+			"name"		"Orchid Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"5592250528431827909"
+				"local"		"1703307948002891455"
+			}
+			"maxsize"		"570534111"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"843C74E49C42078996179E291EE9F002"
+					"encrypted_size_2"		"235AD7E57007F9C1F7E6F8F1CA08AF1C"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"ACB84C2DA257922D9A2613FDA004AA4E"
+					"encrypted_size_2"		"3FB2F32DC2DB7AA7791012707956CE09"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"1D34400D90492E4B5DC5C037E4440C4D"
+					"encrypted_size_2"		"DC9A74649A1938F30F5E499DBDC7DDEC"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"921543558F129E070F127ABB632F1AF0"
+					"encrypted_size_2"		"15947D428AFEB83BE9A2B8973412558B"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"E2449295FC238E30514A119FFEFC6025"
+					"encrypted_size_2"		"2A6C4D6CF05397B7B88CE7C6ABD0B748"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"E50C120795322DCF42A430C7441B0F38"
+					"encrypted_size_2"		"1B8FE6D9520E8A78CC51D5AD7944177A"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"790EEFDBE06212B75DAD9BDD5F6ED29A"
+					"encrypted_size_2"		"54EED8320E1DB8DDC9E55EC0E48E7F65"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"7BB62CCB7C38C413EF036680280DE1A4"
+					"encrypted_size_2"		"F971CDEB8715CB545CDF6ED449E154ED"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"C52CCFA9B72EDCE5D94129987F4CB36C"
+					"encrypted_size_2"		"23442CF6C0946A58BED0F79F30E609E4"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"725FFADE375F31EEE7580E39D5D736BB"
+					"encrypted_size_2"		"50B8F4DF2EC74E62A6943E37EBDF30CC"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"F39D3A75426CC4D01A1E1D027E176EFC"
+					"encrypted_size_2"		"7131E30D9119EA7B81C8C6889F327F38"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"C6B744ED43DCE067E3235EC68C5A02EB"
+					"encrypted_size_2"		"FC7CF337822C7E8A97F07D3577733CAB"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"B662A4B92BC73DC4DFE6219BC7198886"
+					"encrypted_size_2"		"C5266FEC5C6D6322E4734B65C77AA75A"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"59168FE8278C727AD589187E6449285E"
+					"encrypted_size_2"		"5F934661995EC94E2A4100A766EB91AC"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"7BFE93C2584D3106EA551A93700B8CF2"
+					"encrypted_size_2"		"A7C75AACD48CB9CA1C51253DB15F3F6B"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"9FBE923CE6D185AE97A62FDB3AC419F5"
+					"encrypted_size_2"		"444169F71CBDA79ECFE1F14160CE6DA4"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"EF14AED3B9D9C933AEDDE8DF348CC645"
+					"encrypted_size_2"		"6CEBF6C184F0833848755F2B7D0052B8"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"0411EB17985A2A1B00B3AC061222BE5B"
+					"encrypted_size_2"		"1040A88DAABE6E4E12B2CB67F7FB483B"
+				}
+			}
+		}
+		"207879"
+		{
+			"name"		"Orchid English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"442531760753517649"
+			}
+			"maxsize"		"162692051"
+		}
+		"207880"
+		{
+			"name"		"Orchid French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"248204764880857380"
+			}
+			"maxsize"		"174791774"
+		}
+		"207881"
+		{
+			"name"		"Orchid German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"1150642500665127521"
+			}
+			"maxsize"		"181101905"
+		}
+		"207882"
+		{
+			"name"		"Orchid Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"2176156144177036615"
+			}
+			"maxsize"		"176865040"
+		}
+		"207883"
+		{
+			"name"		"Orchid Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"2589936001120611297"
+			}
+			"maxsize"		"172242104"
+		}
+		"208691"
+		{
+			"name"		"Borderlands 2 POGamestop"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"208691"
+			"manifests"
+			{
+				"public"		"2939872950691657820"
+			}
+			"maxsize"		"51"
+		}
+		"213231"
+		{
+			"name"		"Borderlands 2 Premier Club"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213231"
+			"manifests"
+			{
+				"public"		"4408201024981585615"
+			}
+			"maxsize"		"89"
+		}
+		"213232"
+		{
+			"name"		"Premiere Club OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213231"
+			"manifests"
+			{
+				"public"		"8064329448360764644"
+				"local"		"364233187090627423"
+			}
+			"maxsize"		"89"
+			"encryptedmanifests"
+			{
+				"epsilon"
+				{
+					"encrypted_gid_2"		"CAE173E5F38BE9D949CBB3611023C209"
+					"encrypted_size_2"		"A6902A9DC36BA9959C8AB94DA68917C8"
+				}
+			}
+		}
+		"213781"
+		{
+			"name"		"Borderlands 2 Collectors"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213781"
+			"manifests"
+			{
+				"public"		"7451648490842175878"
+			}
+			"maxsize"		"53"
+		}
+		"213782"
+		{
+			"name"		"Collectors Edition OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213782"
+			"manifests"
+			{
+				"public"		"4812614628647792041"
+				"local"		"1012251269450507624"
+			}
+			"maxsize"		"53"
+			"encryptedmanifests"
+			{
+				"epsilon"
+				{
+					"encrypted_gid_2"		"4E8151A20A99396985E25B29E7056FC8"
+					"encrypted_size_2"		"2E6335193B28125BBAA058E0CC241B0C"
+				}
+			}
+		}
+		"213211"
+		{
+			"name"		"Borderlands 2 Iris Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"1819713119155702913"
+			}
+			"maxsize"		"676843021"
+		}
+		"213212"
+		{
+			"name"		"Borderlands 2 Iris English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"7153055603949124659"
+			}
+			"maxsize"		"213220516"
+		}
+		"213213"
+		{
+			"name"		"Borderlands 2 Iris French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"556100268078836059"
+			}
+			"maxsize"		"233202908"
+		}
+		"213214"
+		{
+			"name"		"Borderlands 2 Iris German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"4193236224030823934"
+			}
+			"maxsize"		"239778114"
+		}
+		"213215"
+		{
+			"name"		"Borderlands 2 Iris Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"2523024861839919077"
+			}
+			"maxsize"		"237846396"
+		}
+		"213216"
+		{
+			"name"		"Borderlands 2 Iris Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"2074360391341706822"
+			}
+			"maxsize"		"212723677"
+		}
+		"213217"
+		{
+			"name"		"Borderlands 2 Iris Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"5383582908775616409"
+			}
+			"maxsize"		"228975757"
+		}
+		"213224"
+		{
+			"name"		"Borderlands 2 Iris Korean content"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"5953207012651209239"
+			}
+			"maxsize"		"213220516"
+		}
+		"213251"
+		{
+			"name"		"Borderlands 2 Sage Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"4230804209598581342"
+			}
+			"maxsize"		"522909103"
+		}
+		"213252"
+		{
+			"name"		"Borderlands 2 Sage English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"2786469522222481976"
+			}
+			"maxsize"		"124821843"
+		}
+		"213253"
+		{
+			"name"		"Borderlands 2 Sage French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"6711246511521987637"
+			}
+			"maxsize"		"136807773"
+		}
+		"213254"
+		{
+			"name"		"Borderlands 2 Sage German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"435288336387677627"
+			}
+			"maxsize"		"140102832"
+		}
+		"213255"
+		{
+			"name"		"Borderlands 2 Sage Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"5570448271482770755"
+			}
+			"maxsize"		"135797248"
+		}
+		"213256"
+		{
+			"name"		"Borderlands 2 Sage Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"2117027990779850802"
+			}
+			"maxsize"		"126476671"
+		}
+		"213257"
+		{
+			"name"		"Borderlands 2 Sage Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"4201909077054481477"
+			}
+			"maxsize"		"131760883"
+		}
+		"213264"
+		{
+			"name"		"Borderlands 2 Sage Korean content"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"6513490411053167888"
+			}
+			"maxsize"		"124821843"
+		}
+		"49523"
+		{
+			"name"		"Borderlands 2 Patch Data"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7898212805604886803"
+				"local"		"9142420710000249029"
+			}
+			"maxsize"		"2906419608"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"A2337BF436F9BA3C2AB7F3D9D3B729E7"
+					"encrypted_size_2"		"60766AD09212867F6B2E4C6B56E71D05"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"90F8EF975964BFE4512A8D259691EF76"
+					"encrypted_size_2"		"33B4CF9B1B4E805BFEEAB1A44C30FE5B"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"C86E33C7C3659AE7912A94A68D0E4A04"
+					"encrypted_size_2"		"45488ECA029037479AB0536FD77F2EAF"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"FCA38CBFC25447FC5C8301D40B462DE7"
+					"encrypted_size_2"		"321CE4FE4DBC28B538EB97C954C9207E"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"68BE014FCFAB040D83866B8F51DECE9F"
+					"encrypted_size_2"		"44B7D150B3976311D5CA8BF155D672EB"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"DF19FDC2E32AAAF70707D77EC854C186"
+					"encrypted_size_2"		"BFEB34A938B6AC33BBFEC18D76FABA03"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"72D883DDF349EE743AB262BD88E7FC37"
+					"encrypted_size_2"		"CF199CE1E18F685E3116385BFB32E3DE"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"13DFD18D8B2AE3CFD9541087E486B9F8"
+					"encrypted_size_2"		"1AC4382E43952DEE18FAA9E7E032F6F2"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"BB02CEFFD4CD354E036F409507CB6457"
+					"encrypted_size_2"		"B22D90C3C350CE1EFBE79B1ACD40D971"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"1603771FE56CBD72D6135D7514A97B28"
+					"encrypted_size_2"		"FA930442310796A1A3668EAE66B16281"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"DEB0FA07F8746E7A35D73227F8D4EAC6"
+					"encrypted_size_2"		"98FED3190906E25719FBF3B336B53674"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"02A696B83F180B679F01058C9EA6A10D"
+					"encrypted_size_2"		"B06631EF2AD3AA129452AB8BA4576C55"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"71669B4EE8222D36B18D6A467D1C4C69"
+					"encrypted_size_2"		"86B0C6513F725BE9D5D83AD317B897DD"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"B7A98F7FD4CBB727CC9FEBEF0318DF49"
+					"encrypted_size_2"		"81299C03EC1BF5D0DE7900E7A01FA94A"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"016F84A6F57C61B52F8DE6E6E058B476"
+					"encrypted_size_2"		"0110670B2A7B043804B4660BF9D5CD18"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"149F9DC53DC0D831F4D0441E4707F842"
+					"encrypted_size_2"		"3AE61B1D78AE40D62564524DAD391C97"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"61364DCC6B712A3B2A62C5B0C3AF2C2A"
+					"encrypted_size_2"		"DA57DBA5328FD2DA4C796FDB42497018"
+				}
+			}
+		}
+		"49529"
+		{
+			"name"		"Borderlands 2 korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8132311072649166548"
+			}
+			"maxsize"		"530462114"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"013911D7FD7FC3E0AE76690580C07467"
+					"encrypted_size_2"		"A62F37A65DDF9C5CD05F8D653332967F"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"45F5807854B6007679027654BBC86654"
+					"encrypted_size_2"		"9A7BAD90DE2A4629EFE91263B3D64BAC"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"F4BC076135D736372D01D892B5123204"
+					"encrypted_size_2"		"5D2B32A1801141AA40ED135A2F858251"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"A364E58F89789DEC7F5869E7B17A5F3A"
+					"encrypted_size_2"		"0CA855600E6C2353F5B8D1C8ADCCDE6B"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"DE16BD09421A34A932D0CBD0A19774D7"
+					"encrypted_size_2"		"F4F3F71B668D72396C3934A9AA1B5877"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"5EC452A4E01331EF4DB3E8C2C6BFE13B"
+					"encrypted_size_2"		"05A3E566B9D006EA13FC13BC15C0DB5A"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"284962EA058B06C929E5803B8CB72F5B"
+					"encrypted_size_2"		"DF02065E5903F8089B08BE3E90BB4880"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"373A2AA6763523996FE2E8702045402F"
+					"encrypted_size_2"		"0C21345A9810F032CFA5F2824725775D"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"C815F91AF5E54FF78BCD829363901CD7"
+					"encrypted_size_2"		"BF0D18CD97EF840687FF4E0F70053653"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"694CDCDF90650EE1DFF9EA8A355E74EA"
+					"encrypted_size_2"		"A5F09942E54A3BEC4C7779CF7B839742"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"0A37DA92BE978E4051DFB99FC155F965"
+					"encrypted_size_2"		"51303640A04325AD29E6531E01045971"
+				}
+				"sigma"
+				{
+					"encrypted_gid_2"		"6A7EA04837B0FC1E089727496B2E7584"
+					"encrypted_size_2"		"A739383491D167715902676591A1CA57"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"3F40D04B047B062C82793340E7C2A70E"
+					"encrypted_size_2"		"47FA4DEE81AF8A218E6D14F04164C35B"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"C3242B37A87E0FD624240092DF41E16B"
+					"encrypted_size_2"		"6885CD68FB611B671BFBEEE6D0D84B80"
+				}
+			}
+		}
+		"221701"
+		{
+			"name"		"base content OS X"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6422949341526953102"
+				"local"		"369894170661594428"
+			}
+			"maxsize"		"7587046389"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"94F8B65713494E015E704916D523CDF9"
+					"encrypted_size_2"		"5CE304F02ECFD93658C456DA285D7E79"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"89BC6145C7A2228283FDB2225FA16E3B"
+					"encrypted_size_2"		"A9C531A601174FE5294CF899D95BA0EA"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"FDCAB970E244D15AE327573FCBBFC647"
+					"encrypted_size_2"		"9E0C543CE478DFCDE5D8991C69CD9443"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"229F7FF1CABD9FDACB298240C64653EE"
+					"encrypted_size_2"		"B7E63CA8794DE8565EEE2B6C9D05F69A"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"9C7FAAE406F34A91D66C41EF940B7CB9"
+					"encrypted_size_2"		"48E69D7656DB0B69CF57BA383D3E0C33"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"9EE6DB9271BF584B1B856F8E0F851487"
+					"encrypted_size_2"		"0093569EB48E271D94BE1521CEF36C38"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"89247B8A923D486FD51E5158DD34328E"
+					"encrypted_size_2"		"C216C8CCD75AC0B8A07A1F39D641F92C"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"828A602FD64C3E9EE82D603805C0B9F1"
+					"encrypted_size_2"		"C0E6700C84DE3FF47CA7EA3644AFF93D"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"25888D4BA618C65700BF2C46F81F4466"
+					"encrypted_size_2"		"16F244911A486CB512DDF27941DEEBD1"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"2320E11A47F40ECE4C2FB90CBC4F3367"
+					"encrypted_size_2"		"E9F121C63E57549578AC7FD069203DFF"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"8C14F04C09DA404F28E1E4F6DFF67381"
+					"encrypted_size_2"		"027223A398893B6CDB08A67FA521A342"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"50F2D686AE4D432C49CD5B3648931BC0"
+					"encrypted_size_2"		"A3FBD461BEC71182B680CDE84A129968"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"B39EC02C168E8FF42A790F3CDB1B11FA"
+					"encrypted_size_2"		"A12B8E07A881216CFF9C793F752B0609"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"2221C8092F3E5F967C94ED19E1E95883"
+					"encrypted_size_2"		"A5633CE381354FCA50A6B412B91C833C"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"1AC0C754D5AEA7A0FCD2B77D13ACD7BD"
+					"encrypted_size_2"		"A1D224F6217727A2F20EF9EEB11D606A"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"DB0E7D4C4A36E92FB617930D91AF44AF"
+					"encrypted_size_2"		"22D43FD16FF7AD307A8B6914B940CA3C"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"AF05B6987DD7F60D16A27B76AFA4B0B3"
+					"encrypted_size_2"		"F82BA91AF8F41327E1149845B82DB73D"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"3CEB4584CCEE66BFCBA7BFF80884FF63"
+					"encrypted_size_2"		"272E4FC613F3343BD78604D740FBA89C"
+				}
+			}
+		}
+		"221702"
+		{
+			"name"		"executables OS X"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4551330883967031827"
+				"local"		"5607814064250736654"
+			}
+			"maxsize"		"151551452"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"4422B402A8A03AFB0D0C15690056C5D9"
+					"encrypted_size_2"		"A2371FB2C34F998387A1712F7E13D415"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"F0D8911A2BD7DB0A1CF662A7144A0102"
+					"encrypted_size_2"		"0D345E186EDAF5FB112A2D1B90CA2C94"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"8A6A68396D4A164C3F57A58DF269F08A"
+					"encrypted_size_2"		"1D5CA7A1F1DDA3204E7D4554E3ABB0DD"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"38CBF462AD41373521F5D4F19E4EBFC5"
+					"encrypted_size_2"		"30C9C96A8A561AE4621C070BCC75233C"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"4CC3D38EF127A21994BFFCFC8016951B"
+					"encrypted_size_2"		"1D45026032999F0D8503E9D0CC2A5FD5"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"C09AFA1A50667C4762143CD15D05C55E"
+					"encrypted_size_2"		"0B7AD0D34D31FFCEE728199D5CE6573A"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"6F39D1F141B4ED28F164FF13C4F43414"
+					"encrypted_size_2"		"F67AFC089A01307699D1E7E6FC619DCD"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"10FC4B60D5DE501CEBF92879421D692D"
+					"encrypted_size_2"		"402877A8762168526AA097E97421C1B5"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"21CC8765A684051FA39118F661E7E7D7"
+					"encrypted_size_2"		"6AC0C0626BA024CB693887AB058A8E67"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"1D5AB0538AEC8C38490500F3C12AF81E"
+					"encrypted_size_2"		"7A9CFB2ECF9A74BF8897A431319C24F1"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"8954287356651F0EB85ABDB6BDF11FEB"
+					"encrypted_size_2"		"ACF329246EFF3445AFC46618AFBAEAB9"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"98F0D7B393DEC17FA14B021F2ECBC763"
+					"encrypted_size_2"		"85298EC7FE13864B1E4F9B93354C107B"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"FCC88743D05AC4C3B2388DF8B15822D0"
+					"encrypted_size_2"		"D08C836D387B42386842CBAFC52F65CF"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"38BC9BE6B66D0E485FBEB357FEB22A20"
+					"encrypted_size_2"		"24629B83162ACF08DB7A6EF947A251D1"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"CBE3C15085E1987AA825767F18557076"
+					"encrypted_size_2"		"6210F14F96A8BB2A2C28D2BA8AF74666"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"FD470BA289C39C409C791DC2BF18BC48"
+					"encrypted_size_2"		"2442F48A5400DCEBB48F7E65E4639668"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"F9677602D5E973F6602C23D78FB11D66"
+					"encrypted_size_2"		"60BAFBDA464C5B1B41386666BD08752C"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"8DD083B83CA9FFBADF410356C328CB6F"
+					"encrypted_size_2"		"90160F91DE6FDB4735EA56452B36DD9A"
+				}
+			}
+		}
+		"221703"
+		{
+			"name"		"english OS X"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9192722727207182975"
+				"local"		"2353043720664860256"
+			}
+			"maxsize"		"554211904"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"9214761A0CD7D2E4ACE8F854B62E7A0F"
+					"encrypted_size_2"		"5B072A4D5D3AC9DEF86EDB6BB6331732"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"F7A411C66DBBE41FA48A336B3CE720E5"
+					"encrypted_size_2"		"D0A46D757A2AF27CB722AD4CF2D84C02"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"6BD294EC1F760FE05B35BDF81BA2BDC4"
+					"encrypted_size_2"		"70696E4E7CAB7CA817395BA5871AA593"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"0D1DCA7D9449A4491E1DE7105E005F81"
+					"encrypted_size_2"		"39AF7E0F1A4D6C2A9366AF379B6589AE"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"1E2DD5AC721FF40A956E6D6E3EBF47C1"
+					"encrypted_size_2"		"2973481441FD0792420EFF2A7755EF2B"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"BA4D995FF7B2CD0434BA0B72F1B8BACD"
+					"encrypted_size_2"		"CE111117459FD98ABD7A1B69E4F12A04"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"1176178839210FE13237E4AEC082B742"
+					"encrypted_size_2"		"9C5B943CCCE9E395E014D10DB21600AC"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"C644F284F5FBEBE280A446C76CCC51FB"
+					"encrypted_size_2"		"6CEC62B02B6A89E11D409AD1CBF853F8"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"E248D9D8E77657A8C16964A032C1D96A"
+					"encrypted_size_2"		"09BF63910D08EE1FE63FC5A77B481778"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"0333082E452E84CBD3C86291A66E1271"
+					"encrypted_size_2"		"0E35499951AE10DE3581685938BA2DB1"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"AB9EC57A01F961D4C9D4727780C17676"
+					"encrypted_size_2"		"0E9F349CA51832C9FC76121724D1D12B"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"99C1C43D7C37FF80546262C56EE6562B"
+					"encrypted_size_2"		"609D9A6F5E79BC444B5E9FF9D314291C"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"8B14A369715273AC9D4EBBB803E46FE1"
+					"encrypted_size_2"		"A95F8C6E1E0B60CF4D3E8AE673CF4C3B"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"816C2A275189DABF3B67B4A3D7C61B3E"
+					"encrypted_size_2"		"275241B550650E9B199AEFACF2A734E2"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"05003A8AE49F3B91E9937BC1E8CBA0FB"
+					"encrypted_size_2"		"FDB5899C22B91A8D3ACCA9E2F3B5C20A"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"A368F3B859134E0D7764AD55714D1078"
+					"encrypted_size_2"		"45E58027DC1BCE8DB01899CBC6FE6679"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"8051DA6552C73E78E9C68221E8BB726D"
+					"encrypted_size_2"		"95557EE77C0053CC84C7D32C869D6FF1"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"825FE32820D57BE6C117073949AE987E"
+					"encrypted_size_2"		"CCCE831C4CECCA5F36B0E1AB52BB1127"
+				}
+			}
+		}
+		"221704"
+		{
+			"name"		"french OS X"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1695595474601152653"
+				"local"		"6203290581280347571"
+			}
+			"maxsize"		"613487316"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"7CC84E969B59F38C015B27D992774AA8"
+					"encrypted_size_2"		"97550B10C205D53F9F918119F26034CB"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"5339FEEF7FF6E7EA7B73F8100C2665B2"
+					"encrypted_size_2"		"2C8EC6678606E24F1C872494F9B7B2B4"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"45D599BAC1C8E041CFEAFC1F589DE056"
+					"encrypted_size_2"		"214806B4E12ECF4738286E0CBE0900D5"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"D5C57751812A2C3646F55244DF8E3C6A"
+					"encrypted_size_2"		"5166451A41CDA34B6C29ACE7ED2D88DB"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"BAA55DF80E47788599E5E42EA933479D"
+					"encrypted_size_2"		"B98C05731450B181425FF459A62B7B3B"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"6C0FAF7409F32FA336755DA631747DB4"
+					"encrypted_size_2"		"FB4F6376EEA37E372D079F17B2DE8B25"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"A404BF89B0839051A4A3F953C733DEE7"
+					"encrypted_size_2"		"1EA8AC22FD1EEC2D01ABB4BBC9A96F71"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"58A15222ACCABF662E187F1282BBF085"
+					"encrypted_size_2"		"C4389A52EBB42FC45F32B2AA4B751B7C"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"63C670790A0DFD4AA85AC4E50C6D6615"
+					"encrypted_size_2"		"ED653F4BCA8F087C3D065143E082B9E3"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"51770FB272914365997FD7AF4DC3B3CC"
+					"encrypted_size_2"		"2D7DD2C294AE4ADB04C7FA6C9BAF4350"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"D9BF5E8D13806F24D24D6AB173921CD6"
+					"encrypted_size_2"		"63D876447CD3926BC06D6CC71EF21AF6"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"55DE196A7D6BB8A0F2143DBF12B88F0B"
+					"encrypted_size_2"		"48E74F3893F75B43B8A35F82DE640192"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"08CB88ED4EA58303598CD8946CCCFE02"
+					"encrypted_size_2"		"D9AFA8FABB606DE8906E983C9381D868"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"D503BEB6D7AC9AB11077DE7C004E3765"
+					"encrypted_size_2"		"A26F52CF867BD5CC4C1E20EEE38C0CB8"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"9F631D6908F50C36B42E2ACF72632F52"
+					"encrypted_size_2"		"99A4BE5C5B90C4E2B87737B4A5570901"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"3582F31724B39CA6ABD0921B0C1F66F7"
+					"encrypted_size_2"		"DCE8C9480E622BD822ED526F9781729C"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"AF62A03C790C20A30B093B1765017DEB"
+					"encrypted_size_2"		"4D9C21AC4C77E224CA6D43251D836927"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"D16DD186881BFF92A17718267B41CBB1"
+					"encrypted_size_2"		"322DD5269AC254D81CB2EC754A9B4B89"
+				}
+			}
+		}
+		"221705"
+		{
+			"name"		"italian OS X"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7094669290145705243"
+				"local"		"3514752007165253171"
+			}
+			"maxsize"		"632083315"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"65D8DE1D3ECAA03C14F177486EFC2AAC"
+					"encrypted_size_2"		"1D62C6CB3426A712BA384E6A750C9E5C"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"A2E7F21AB2A7455B99137E80DA0CC310"
+					"encrypted_size_2"		"DB17B650E8AE0290B366C0F12602C191"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"4D7C72FD2C44A04F5E72621D86977C8E"
+					"encrypted_size_2"		"3EBEA5D4DD59183486F7151D5F95F381"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"44414455935130602425F27CCA263B9F"
+					"encrypted_size_2"		"42EBEC0ED78A35DF3838383D033B07D9"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"F2353A28F4A11140D3EB4A3B21298D0A"
+					"encrypted_size_2"		"F39E38CD64C4FDF94988A97381855B6E"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"FE0B78D8FBD3D934AE6DDA1EB82BFBA4"
+					"encrypted_size_2"		"B00CD2D84587C3C8B0E2F9A295206E2B"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"58DC553496A0E1847C75F25F434E6151"
+					"encrypted_size_2"		"6B17D6A78ECFDA922E04205589221B0C"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"9127659963361F959B733FB1164260E9"
+					"encrypted_size_2"		"315FB190E5C6F365D387E270690CA203"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"F0F2A3FC57CEA291BB99107F84821DE0"
+					"encrypted_size_2"		"BAC84C6861CDDCA9D8146DDCA09DC89D"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"8E975136125EF9E4A985CD066BB269A8"
+					"encrypted_size_2"		"5AE708AE61DB857D18A9067912D78B67"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"0488CA53C7FF8B6CC49CAD9378279647"
+					"encrypted_size_2"		"7B5805359378B6E33897F7E21B8E1E2A"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"920C165B35454E496BFE41DBD42C28C4"
+					"encrypted_size_2"		"26D98A48FE8D7824A09621D76510DF38"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"EF1C86A19E8096F0FD605D707D039C40"
+					"encrypted_size_2"		"FA473E34646EA5F58972EBDAA5425D7D"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"0353BB8F3A5E122F850D80E675B40D2E"
+					"encrypted_size_2"		"2A91294BE406C26DCC72D4377AE0E98C"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"455E183A1FA022727A55CB7B39B7DAF2"
+					"encrypted_size_2"		"53BEC60DC5DD8C2A97F0C3E9A15D6E86"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"74FE78363269E0DD3B12CC9196D5DFE7"
+					"encrypted_size_2"		"A98A58254001546D119178D26471FE9A"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"C8EA5C013B8A9D3422E1169E19A4DCB0"
+					"encrypted_size_2"		"9F3D031DA23665D2D925B385ED633FCC"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"E5C91E0182AE087A423EED9368F2E092"
+					"encrypted_size_2"		"1ADC83C290E9B291D61A8691AE3C00B9"
+				}
+			}
+		}
+		"221706"
+		{
+			"name"		"german OS X"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2876284076771576106"
+				"local"		"8536827440581074313"
+			}
+			"maxsize"		"627008726"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"BC2EC51C0FB578C0F129BB76C3425E62"
+					"encrypted_size_2"		"C5E3611369A179593DCA1C1005BEC708"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"94D47C16F9AE8BE971C9D6BDD94D2346"
+					"encrypted_size_2"		"5A8E4ACA388B00E88E93FDB0C2900FB2"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"0725F21D0EEBB747D95256D94A976574"
+					"encrypted_size_2"		"95E63385F7FCADDA61E51C9CD3C6C169"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"B26F2DA1BF58753BBFB6412A292899E5"
+					"encrypted_size_2"		"562696AFC8F56DE3CC507A13424F6D59"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"454FC9CBAA4AF5D258D2AD08AEE7CC9E"
+					"encrypted_size_2"		"E5B7262CF48E15AA9DBD72A2BEF83E10"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"F65D92F787D7B82D96B27E11B56918C1"
+					"encrypted_size_2"		"171BFB2E90D7A4E9C5E6E8F6828AB5A2"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"AFF9F69044D951D762B7A03C03385005"
+					"encrypted_size_2"		"68D7D3987945B8236F58FB9E015CFDBC"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"EC5C85D70AA4DD2581BCF3A2ECE80BA3"
+					"encrypted_size_2"		"097597724D024425A8C579DA2C504335"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"E56B67A2EA3B06A00CA079DB9EB150A1"
+					"encrypted_size_2"		"881927B1B35DAF4B4541611AAFD815BD"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"A4CDD342E08E7FC4C1C65206289AA849"
+					"encrypted_size_2"		"992CFCE9155B84F033DBBECBD212901F"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"FF486A6E7C9BD0B1C4F2F5619682775F"
+					"encrypted_size_2"		"80EB69D43C6E04C4AA70EF2E8A1103D8"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"AAEA9B019251D370B3B37860B94067DE"
+					"encrypted_size_2"		"61A0749C4B1EA093AE60633FB81A1731"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"CC36C032E6B25943D19964063CAF095C"
+					"encrypted_size_2"		"084201BBCDA05D3A6FB73EB65CB4B8BF"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"4877A3A996E265BFCF2110E4907499E5"
+					"encrypted_size_2"		"0EDBAC30C19E76C1130C3F7D734A04E0"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"1499F3F8B328CC72E93CDAB111F438EF"
+					"encrypted_size_2"		"879EE0DD2D6A1F8688AB9F56D006ADE8"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"3456CC7BF842B1C698B73118C49624E4"
+					"encrypted_size_2"		"5469A7410E7F0B1DD8F70D173F598C40"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"48EB95D23358886061B0EBB2A9B032D2"
+					"encrypted_size_2"		"B2326F0BFBBE648A797885B873FA4330"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"59A098BD61A751023DB30350483B8711"
+					"encrypted_size_2"		"4CE1BE2590B023FAAB40D80924EE9FE7"
+				}
+			}
+		}
+		"221707"
+		{
+			"name"		"spanish OS X"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1814998925382636184"
+				"local"		"7449936333613821"
+			}
+			"maxsize"		"598956967"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"3DB47F81A1ABBAC5F27A1B1CBD59F837"
+					"encrypted_size_2"		"925C11FF27732A5FEB4C7425178009F7"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"4A63261766CAF102C6738452124F4A3E"
+					"encrypted_size_2"		"1195161470709F9DF876DFEB2EF2CD63"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"282CD8E383DAC294DF7E8F90485D6161"
+					"encrypted_size_2"		"0B2B8D291A274DBB60472A65DAC2EA67"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"E652502C960474EA20571DC8A4C95060"
+					"encrypted_size_2"		"710E2ECDB114950C47327E22C34A4A94"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"21F9209491180F91CCCFF8A2D95A48D1"
+					"encrypted_size_2"		"C6588BBD725DF7C7C2121360E5F3F985"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"F35A02D461E372FD7C5E2D461E983967"
+					"encrypted_size_2"		"C32E610CC12F070A92293B54A434AD34"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"802CA856BE86C7C139A2614588A7BC8B"
+					"encrypted_size_2"		"553C8D7F248C3C72F6898417C4D5434A"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"1D5F7F72C843FC6B9CB6170CFFF73A4F"
+					"encrypted_size_2"		"63451A0197842A1EF9E4CE234BECA2BF"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"E7CC70CC3DEDBCA018002F9AE8BB4B27"
+					"encrypted_size_2"		"9725C28A6215E7E5C23428F8088A1A1C"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"F540AB537C05BE1933917EA84B50CFC9"
+					"encrypted_size_2"		"0095A330FF55B70187E5B818EA542C00"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"74D7567632A9183D4308D772125EB3E0"
+					"encrypted_size_2"		"A72A538116AF832FDC442305CB44B181"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"B73C1BD526C5FAC56C9DAF3A54C5D68C"
+					"encrypted_size_2"		"CE6D1A346F9C457AA0173FA5AABE9975"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"279418DE210F329F4535F315E1FD6753"
+					"encrypted_size_2"		"92CDCB08FDA65E027176C6A68DAC8BC4"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"095507286A20C8E2EB2D0D3DE8A8599A"
+					"encrypted_size_2"		"497837B66C7855C9142819CF78574545"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"EDC2912B7D4D6402E4BE822DF788B16A"
+					"encrypted_size_2"		"854B460CE306895C154079D23D89FB3C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"08A0E13BD0F0D01DCA5E606CE40B756C"
+					"encrypted_size_2"		"BCFF13F5FD80D5B46DC796141CD2D742"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"AA9EEB21228A98152D8D8B5018B734D9"
+					"encrypted_size_2"		"6A340623D3E9208E5C40D63628966AD4"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"AD0D4D1C63B75370208935E943D73B78"
+					"encrypted_size_2"		"9D38D3893A8BCB2B0E4166FDCD2B2F2E"
+				}
+			}
+		}
+		"213218"
+		{
+			"name"		"Iris Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"4483963879154111531"
+				"local"		"601355533698376430"
+			}
+			"maxsize"		"890063517"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"0261B6561E524467D6523E64ACA6BE2D"
+					"encrypted_size_2"		"A6083B197329F70C5BF41DEDD5332042"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"6FE38F4C6B5A3082C9C344E67CF56B63"
+					"encrypted_size_2"		"459A4BCF9AB6B38BEFA1967FD952FE9E"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"2A06D1884D34D9038B5F10686903CEEE"
+					"encrypted_size_2"		"6A5C76EE698D94513BF88EA8388BB043"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"C28D240B5715C3842F223FCDCB225F27"
+					"encrypted_size_2"		"199FAD341D6B475F2DF771ECDC0F6D59"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"396A5064854E5A914BCBAC94B5D48404"
+					"encrypted_size_2"		"28641575143630801B33EEE450616169"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"B9D0520ADD070B890230BE95190143F3"
+					"encrypted_size_2"		"4D38F729B60F7724B699698D6BBDDA18"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"BE1A5D08C6A05BE0DBC00E3382EDCA5E"
+					"encrypted_size_2"		"B398122A1E6C21CF8D09C3AFE9641B27"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"935ECBB1918DE5C3A7DB244BB9283C84"
+					"encrypted_size_2"		"780055AEC71F8BF29331343297AD8E0E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"DB73B32A034E25684B07160FDCA5CC31"
+					"encrypted_size_2"		"0589944E3CC30F7290D34BB0D184520B"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"120D9DE1EC811C51188477A4647185C1"
+					"encrypted_size_2"		"961875B1D37D73D507931AFD1770F9FA"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"4A637E084024CE15615A65E13D851A78"
+					"encrypted_size_2"		"367F3624C1E6C200638377AA43ABFA24"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"51FAAF0B2C5E3890B4D8957B7DAD8D43"
+					"encrypted_size_2"		"0E0CDA5AFF4B1A6EBBD05EB39CEDD2B5"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"043E6DAD61183284A6DC58E3C953EE9E"
+					"encrypted_size_2"		"5C4FE7662E1500A932FCAF8650B1C7B7"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"DF09203356B41EF6602F304FAAE134F9"
+					"encrypted_size_2"		"AD414C376DAD40A7B8A15BF0DF5A20DE"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"B408DD190CA489C7ADCCA87C808228C2"
+					"encrypted_size_2"		"E95851B29DB0F274E57A1161FD49C0E7"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"136E3F541144012C79D6BED8F8CCCCC8"
+					"encrypted_size_2"		"98DAD6D785A8B8FCDFF98432BB5CA749"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"7CE5BBAD09FB044441C70F20F141AEC9"
+					"encrypted_size_2"		"DC022C71A53E777E3FFE0D98271D5C2C"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"329F799C453AF8A5E7F5B0658E632C70"
+					"encrypted_size_2"		"E21B7D5E0D5B0EB3C8F5CBC5497B8E06"
+				}
+			}
+		}
+		"213219"
+		{
+			"name"		"Iris English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"40572564778217545"
+			}
+			"maxsize"		"213220516"
+		}
+		"213220"
+		{
+			"name"		"Iris French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"132777356712919303"
+			}
+			"maxsize"		"233202908"
+		}
+		"213221"
+		{
+			"name"		"Iris German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"816686643533690991"
+			}
+			"maxsize"		"239778114"
+		}
+		"213222"
+		{
+			"name"		"Iris Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"192332395336309524"
+			}
+			"maxsize"		"237846396"
+		}
+		"213223"
+		{
+			"name"		"Iris Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"247691759781441724"
+			}
+			"maxsize"		"228975757"
+		}
+		"213258"
+		{
+			"name"		"Sage Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"6383658693773635287"
+				"local"		"891009295484659280"
+			}
+			"maxsize"		"647730934"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"F5CEA03A628319E595DE3027C618579E"
+					"encrypted_size_2"		"DCC3C91C23F7860FA43A43F462EEF1E8"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"0FD169A5E0262762FAADF45D26A6E377"
+					"encrypted_size_2"		"48845A845458C21CF43ED1564F91C01C"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"B50E7BAA6BCAB2A887989EE5068F2DBC"
+					"encrypted_size_2"		"4B7FFB4C8C43BBA6FDD59A02334DC01A"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"B495B6B69DFBF611E13E20AD3DD1E4F3"
+					"encrypted_size_2"		"04359F14E58E2490EEEA403F617C3E72"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"BB137647F4A68FB77A5640DF50664C91"
+					"encrypted_size_2"		"0FE2AF355EA39B2292B56FBB9CE1DCEE"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"EE94BDD0F31B86C21050B35AABBCAF2F"
+					"encrypted_size_2"		"6FAAFDC3B29D0ECC36D4196BF62FAA44"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"F7743587BA1BF2CD548B3697DD7C641F"
+					"encrypted_size_2"		"906838A7C51AD2B54FB6A7728EAE9F76"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"7CF9FDFA59AF669797D782D2AC35F8F1"
+					"encrypted_size_2"		"D5C4920C26DADECBF47AAAD84B166074"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"A6149AA16899610F3B9007429DEFDBD1"
+					"encrypted_size_2"		"437030CF21B5964EC870E6D11BEC6C3C"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"FEA5D17349C93717B30A3906000A6F6A"
+					"encrypted_size_2"		"68EC0C949F1050BDF5F8B7C47EC090D8"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"26679B375C89ACF60228C16BD7970F8A"
+					"encrypted_size_2"		"6BE6FEDFE4A4D7BF3A3B6F179F11188C"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"AC88F8E5DA432A58218FF4E785507EBF"
+					"encrypted_size_2"		"DA4DE5ACD8222604C1FBC9DD855CC72C"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"329122C72F7D31D3DA47A51729EA920A"
+					"encrypted_size_2"		"0E3C9CFDF0E853A583F3E87BC2AEB862"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"1518BA7C827C907F3350C70DBAE8E024"
+					"encrypted_size_2"		"AC8733E080804ADB2C04772D1D732C9D"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"A294AD295662668D2FD5F368BDFC7902"
+					"encrypted_size_2"		"CFF2F8E56D9C9AF7E7B9450D9EC4F67C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"78F2F6FE8C11D4EEFDBC1C1A0D187E80"
+					"encrypted_size_2"		"A97C500167628F00CE7E3B3319B5BC8F"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"79AD442609C536D53D9C1BC1DC3C3ADE"
+					"encrypted_size_2"		"928568D81B367B2D8FB51C208FD16531"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"CBEDE9AFEF58D710E16358D4E0AFDB26"
+					"encrypted_size_2"		"89B7A1DB8E9424965D08D6AD9290D216"
+				}
+			}
+		}
+		"213259"
+		{
+			"name"		"Sage English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"2441887876868324540"
+			}
+			"maxsize"		"124821843"
+		}
+		"213260"
+		{
+			"name"		"Sage French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"1076555357847865804"
+			}
+			"maxsize"		"136807773"
+		}
+		"213261"
+		{
+			"name"		"Sage German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"386798546889883230"
+			}
+			"maxsize"		"140102832"
+		}
+		"213262"
+		{
+			"name"		"Sage Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"101787965085805074"
+			}
+			"maxsize"		"135797248"
+		}
+		"213263"
+		{
+			"name"		"Sage Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"235477444645193468"
+			}
+			"maxsize"		"131760883"
+		}
+		"225820"
+		{
+			"name"		"Gardenia01 - Soldier Madness Pack (Zany)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225820"
+			"manifests"
+			{
+				"public"		"4509866760689259512"
+			}
+			"maxsize"		"8"
+		}
+		"225821"
+		{
+			"name"		"Gardenia01 - Soldier Supremacy Pack	(Power)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225821"
+			"manifests"
+			{
+				"public"		"6070726545453278067"
+			}
+			"maxsize"		"8"
+		}
+		"225822"
+		{
+			"name"		"Gardenia01 - Soldier Domination Pack (Cool)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225822"
+			"manifests"
+			{
+				"public"		"7394286873986363480"
+			}
+			"maxsize"		"8"
+		}
+		"225823"
+		{
+			"name"		"Gardenia01 - Siren Madness Pack (Zany)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225823"
+			"manifests"
+			{
+				"public"		"5036098323264207801"
+			}
+			"maxsize"		"8"
+		}
+		"225824"
+		{
+			"name"		"Gardenia01 - Siren Supremacy Pack (Power)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225824"
+			"manifests"
+			{
+				"public"		"6731553612754319067"
+			}
+			"maxsize"		"8"
+		}
+		"225825"
+		{
+			"name"		"Gardenia01 - Siren Domination Pack (Cool)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225825"
+			"manifests"
+			{
+				"public"		"6502704021079714788"
+			}
+			"maxsize"		"8"
+		}
+		"225826"
+		{
+			"name"		"Gardenia01 - Gunzerker Madness Pack (Zany)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225826"
+			"manifests"
+			{
+				"public"		"7469930989872052266"
+			}
+			"maxsize"		"8"
+		}
+		"225827"
+		{
+			"name"		"Gardenia01 - Gunzerker Supremacy Pack (Power)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225827"
+			"manifests"
+			{
+				"public"		"6814821154986121611"
+			}
+			"maxsize"		"8"
+		}
+		"225828"
+		{
+			"name"		"Gardenia01 - Gunzerker Domination Pack (Cool)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225828"
+			"manifests"
+			{
+				"public"		"1901021865349389720"
+			}
+			"maxsize"		"8"
+		}
+		"225829"
+		{
+			"name"		"Gardenia01 - Mechromancer Madness Pack (Zany)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225829"
+			"manifests"
+			{
+				"public"		"3509022508885649085"
+			}
+			"maxsize"		"8"
+		}
+		"225830"
+		{
+			"name"		"Gardenia01 - Mechromancer Supremacy Pack (Power)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225830"
+			"manifests"
+			{
+				"public"		"7411412237426451947"
+			}
+			"maxsize"		"8"
+		}
+		"225831"
+		{
+			"name"		"Gardenia01 - Mechromancer Domination Pack (Cool)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225831"
+			"manifests"
+			{
+				"public"		"2823369334606818526"
+			}
+			"maxsize"		"8"
+		}
+		"225832"
+		{
+			"name"		"Gardenia01 - Assassin Madness Pack (Zany)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225832"
+			"manifests"
+			{
+				"public"		"6589504303343476642"
+			}
+			"maxsize"		"8"
+		}
+		"225833"
+		{
+			"name"		"Gardenia01 - Assassin Supremacy Pack (Power)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225833"
+			"manifests"
+			{
+				"public"		"3348813867352031043"
+			}
+			"maxsize"		"8"
+		}
+		"225834"
+		{
+			"name"		"Gardenia01 - Assassin Domination Pack (Cool)"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"225834"
+			"manifests"
+			{
+				"public"		"8745115485754485594"
+			}
+			"maxsize"		"8"
+		}
+		"225835"
+		{
+			"name"		"Gardenia01 - OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"112215640167174212"
+			}
+			"maxsize"		"155"
+		}
+		"230091"
+		{
+			"name"		"Lilac license"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"230090"
+			"manifests"
+			{
+				"public"		"4150905156733498601"
+			}
+			"maxsize"		"38"
+		}
+		"230092"
+		{
+			"name"		"Lilac license OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"230090"
+			"manifests"
+			{
+				"public"		"2393877721138070110"
+			}
+			"maxsize"		"38"
+		}
+		"218551"
+		{
+			"name"		"Aster Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"2245198977491049860"
+			}
+			"maxsize"		"1297324988"
+		}
+		"218552"
+		{
+			"name"		"Aster English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"3391347423903179284"
+			}
+			"maxsize"		"183739795"
+		}
+		"218553"
+		{
+			"name"		"Aster French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"1418741582678039726"
+			}
+			"maxsize"		"201936084"
+		}
+		"218554"
+		{
+			"name"		"Aster German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"266649169969345165"
+			}
+			"maxsize"		"206817551"
+		}
+		"218555"
+		{
+			"name"		"Aster Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"1086562403967493620"
+			}
+			"maxsize"		"200710844"
+		}
+		"218556"
+		{
+			"name"		"Aster Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"2703281665658847228"
+			}
+			"maxsize"		"187847138"
+		}
+		"218557"
+		{
+			"name"		"Aster Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"581215082047184452"
+			}
+			"maxsize"		"191725836"
+		}
+		"218558"
+		{
+			"name"		"Aster Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"6048780771867987144"
+			}
+			"maxsize"		"183739795"
+		}
+		"224201"
+		{
+			"name"		"Gladiolus license"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6760016920634550816"
+			}
+			"maxsize"		"42"
+			"encryptedmanifests"
+			{
+				"sigma"
+				{
+					"encrypted_gid_2"		"6898E7AE2052A875CCB3D24918528534"
+					"encrypted_size_2"		"397315A27AF2EA110C02157584FF4E46"
+				}
+			}
+		}
+		"224202"
+		{
+			"name"		"Gladiolus license OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5355434174137770547"
+			}
+			"maxsize"		"42"
+		}
+		"224160"
+		{
+			"name"		"Gardenia04 - MechroHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224160"
+			"manifests"
+			{
+				"public"		"6930821910705872837"
+			}
+			"maxsize"		"8"
+		}
+		"224161"
+		{
+			"name"		"Gardenia04 - MercHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224161"
+			"manifests"
+			{
+				"public"		"8574775120254067052"
+			}
+			"maxsize"		"8"
+		}
+		"224162"
+		{
+			"name"		"Gardenia04 - PsychoHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224162"
+			"manifests"
+			{
+				"public"		"7214415502057582400"
+			}
+			"maxsize"		"8"
+		}
+		"224163"
+		{
+			"name"		"Gardenia04 - PsychoHP04B"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224163"
+			"manifests"
+			{
+				"public"		"9115428229623882773"
+			}
+			"maxsize"		"8"
+		}
+		"224164"
+		{
+			"name"		"Gardenia04 - PsychoHP04C"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224164"
+			"manifests"
+			{
+				"public"		"4124884966291985086"
+			}
+			"maxsize"		"8"
+		}
+		"224165"
+		{
+			"name"		"Gardenia04 - PsychoHP04D"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224165"
+			"manifests"
+			{
+				"public"		"50392498263079614"
+			}
+			"maxsize"		"8"
+		}
+		"224166"
+		{
+			"name"		"Gardenia04 - SirenHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224166"
+			"manifests"
+			{
+				"public"		"3583383138455035624"
+			}
+			"maxsize"		"8"
+		}
+		"224167"
+		{
+			"name"		"Gardenia04 - SoldierHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224167"
+			"manifests"
+			{
+				"public"		"2486729977605493963"
+			}
+			"maxsize"		"8"
+		}
+		"224168"
+		{
+			"name"		"Gardenia04 - ZeroHP04"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224168"
+			"manifests"
+			{
+				"public"		"5271109851097033481"
+			}
+			"maxsize"		"8"
+		}
+		"224169"
+		{
+			"name"		"Gardenia04 - OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"455291013621413666"
+			}
+			"maxsize"		"107"
+		}
+		"238771"
+		{
+			"name"		"Aster Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"4910915941554376501"
+				"local"		"8640171423991897619"
+			}
+			"maxsize"		"1481064737"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"B242D4E599ADF67F0E1013AF2BFC0041"
+					"encrypted_size_2"		"10B46FD53896BAE9D27864FBC0ED62DF"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"1273C5415D3950413022134DFF300F00"
+					"encrypted_size_2"		"97D99F69D8304E7D8876F159345D8C82"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"96032CCAD6B6F17A63CAB056B54CD629"
+					"encrypted_size_2"		"6D4738692B8F4C7001A492B08DA3011D"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"7CD533F16C2490B61F4CEB4361E3CB1D"
+					"encrypted_size_2"		"791715F00831FDD12B8F3EE9283982DA"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"535D244584B60A0456AF5A6E8E5287BD"
+					"encrypted_size_2"		"3FC4C6A78CA5267F3CC391DB9B1B5F91"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"D2FDF9A7EDD0A9582E63659BA43CC054"
+					"encrypted_size_2"		"517151A7551E1DFAD37324E7BB27EAFB"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"C1C47E8DE0D8621422A7512C44C39B2B"
+					"encrypted_size_2"		"0E71C871AAF1B77160C3E065B1D8FDD8"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"99BF3A333B9531E5DC9CA8C1147A5874"
+					"encrypted_size_2"		"00BBB6FC0FAB7DFA867FE47DF69A6FDF"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"624C0BBBF2D454066F2227ECB35E38B1"
+					"encrypted_size_2"		"EC3104F3B75E844DA6B68AE87BF0FE28"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"06F1D08075E765943001B416034950F0"
+					"encrypted_size_2"		"9C4CED7A3BF465693CFE0E50E7905668"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"5B84CD05C6A51BBC07D87F468FC0F4F9"
+					"encrypted_size_2"		"EC8BEF9FB7B190AEB14C09D60EED4AC2"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"66CA1F28045D10930C9EF300F351884C"
+					"encrypted_size_2"		"E734143B09D99CA025565A80B044FE3A"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"522832226D9FEC238B31E92364C49FEE"
+					"encrypted_size_2"		"C408E5FDB8A670BD39EF1FD062E34816"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"220DB723BF49B3458010B112EF370759"
+					"encrypted_size_2"		"432484AD99E9D3E5FD2959D4670EBAFC"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"08C1CDF1F661FA60DD830AE8D0C22470"
+					"encrypted_size_2"		"CD100B739ED49BF192AE0C13B9BF9280"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"E4027D365E7A753F6A238E690DFDD965"
+					"encrypted_size_2"		"EBC89C2E0FF51D53B39B1CCA8BCD449D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"771AEFCB57293ECB69AD5A653FC9B50C"
+					"encrypted_size_2"		"8318290E1E8813A4E55CBFC6D7430EEC"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"6169A7C7D5CD9FAEE674648BB3B2DAF9"
+					"encrypted_size_2"		"4554B7B7683DDCC7B3FBCFEDAB2FC8F0"
+				}
+			}
+		}
+		"238772"
+		{
+			"name"		"Aster English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"540956565100524623"
+			}
+			"maxsize"		"183739795"
+		}
+		"238773"
+		{
+			"name"		"Aster French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"233149439267086523"
+			}
+			"maxsize"		"201936084"
+		}
+		"238774"
+		{
+			"name"		"Aster German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"1208323322987563258"
+			}
+			"maxsize"		"206817551"
+		}
+		"238775"
+		{
+			"name"		"Aster Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"59046845871420527"
+			}
+			"maxsize"		"200710844"
+		}
+		"238776"
+		{
+			"name"		"Aster Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"66152229379978511"
+			}
+			"maxsize"		"191725836"
+		}
+		"224140"
+		{
+			"name"		"Gardenia05 - Mechro"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224140"
+			"manifests"
+			{
+				"public"		"7143810694287648355"
+			}
+			"maxsize"		"8"
+		}
+		"224141"
+		{
+			"name"		"Gardenia05 - Merc"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224141"
+			"manifests"
+			{
+				"public"		"3267018885977288452"
+			}
+			"maxsize"		"8"
+		}
+		"224142"
+		{
+			"name"		"Gardenia05 - Psycho"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224142"
+			"manifests"
+			{
+				"public"		"3964873934546600061"
+			}
+			"maxsize"		"8"
+		}
+		"224143"
+		{
+			"name"		"Gardenia05 - Siren"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224143"
+			"manifests"
+			{
+				"public"		"6203516146552504073"
+			}
+			"maxsize"		"8"
+		}
+		"224144"
+		{
+			"name"		"Gardenia05 - Soldier"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224144"
+			"manifests"
+			{
+				"public"		"2750779583507095142"
+			}
+			"maxsize"		"8"
+		}
+		"224145"
+		{
+			"name"		"Gardenia05 - Zero"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224145"
+			"manifests"
+			{
+				"public"		"6008543708015280854"
+			}
+			"maxsize"		"8"
+		}
+		"224146"
+		{
+			"name"		"Gardenia05 - OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"368894541134236125"
+			}
+			"maxsize"		"83"
+		}
+		"224181"
+		{
+			"name"		"Lobelia content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"713836548591223757"
+			}
+			"maxsize"		"87148522"
+		}
+		"224182"
+		{
+			"name"		"Lobelia English Audio"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"5640025581352496983"
+			}
+			"maxsize"		"109897573"
+		}
+		"224183"
+		{
+			"name"		"Lobelia French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"1580110931871578601"
+			}
+			"maxsize"		"120511740"
+		}
+		"224184"
+		{
+			"name"		"Lobelia German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"8635513351920439083"
+			}
+			"maxsize"		"124886592"
+		}
+		"224185"
+		{
+			"name"		"Lobelia Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"1220051806060104267"
+			}
+			"maxsize"		"119548279"
+		}
+		"224186"
+		{
+			"name"		"Lobelia Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"2180765881580996087"
+			}
+			"maxsize"		"113259583"
+		}
+		"224187"
+		{
+			"name"		"Lobelia Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"9082103082056847152"
+			}
+			"maxsize"		"119026533"
+		}
+		"224188"
+		{
+			"name"		"Lobelia Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"5532596975786220794"
+			}
+			"maxsize"		"109897573"
+		}
+		"224189"
+		{
+			"name"		"Lobelia Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"1089591800594699062"
+				"local"		"355647032952367894"
+			}
+			"maxsize"		"197046091"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"6373927965DF82EE201ABEBA0B11C141"
+					"encrypted_size_2"		"1CDC64F511E0E321E12B4CA3E51A092C"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"74ADA21B381E614E48BC308C6BD4D254"
+					"encrypted_size_2"		"AC82812508CFB434944A5949AF2D2496"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"73630872ACADC365157A900FE39D6C24"
+					"encrypted_size_2"		"0B8CF603493E31ADC943F227282C64D0"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"1695B8D076EAF61A8DBB7AA9543247EB"
+					"encrypted_size_2"		"B3754141E3A828DC47314E2F2E9C8A9F"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"D36B12DFAA5D8A4A92AE2F6B23B42999"
+					"encrypted_size_2"		"4AF4FD5788EBC9F13BD8C4A4300056BC"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"4ED88D7A5819F94C7596BAEF8F2BAD1B"
+					"encrypted_size_2"		"E939F22FBCFB36DC1C7D01A5FD975982"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"D9EC1B6D8E9C18D286BF8AB642D3077F"
+					"encrypted_size_2"		"A6FC0E933DF3631D60CA3AFF64F5E148"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"2313141232A94A5B71BCB3B7BB2B381C"
+					"encrypted_size_2"		"43A363032E342B7317F19F1784F7CB4F"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"59EA04F2F57ED9BF542910F170C6E81E"
+					"encrypted_size_2"		"03C5E61F7FC3C40218F9DB308134E63C"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"46CDE3AD0B804094C708A4843EF651A0"
+					"encrypted_size_2"		"271B2389B19ECDC9EB03812AD92914D1"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"AA731B91FE5BC91244F20D67C4DAA3A7"
+					"encrypted_size_2"		"52E16E59CA48CB677420FB7AEC05E601"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"3575F8CB91E35A6E63A1116B65F05D6C"
+					"encrypted_size_2"		"D9F42DD32A5FD295826E26F8A5707377"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"4706D0E82E2A116430168A9A8536179F"
+					"encrypted_size_2"		"08F85F70D207A6464745B1CE832848CF"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"96A9D22F7E0A854EB7EDFF287B7C9AD0"
+					"encrypted_size_2"		"E8D4A257E93BE4BEDECD1567AE3E3714"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"59D55677187E0B97117EDCF20D2B0689"
+					"encrypted_size_2"		"AE30624A69D03C98162AD27D990A0978"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"2CA13EA7D3B570ECC55198AEE9C44250"
+					"encrypted_size_2"		"5BADB85D9D60702963143FBFF08687B0"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"3305A9379B7C853574CE45EEBA217E11"
+					"encrypted_size_2"		"B5AF47AA7F29B95065529BEC2A5A2EE6"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"C1E36E43DC33C416922376EB2A2E3E5B"
+					"encrypted_size_2"		"EF8F201635739CD5CB71CBF7F7E04F28"
+				}
+			}
+		}
+		"224190"
+		{
+			"name"		"Lobelia English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"1198632973818948384"
+			}
+			"maxsize"		"109897573"
+		}
+		"224191"
+		{
+			"name"		"Lobelia French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"2071271832781575080"
+			}
+			"maxsize"		"120511740"
+		}
+		"224192"
+		{
+			"name"		"Lobelia German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"691560739453385696"
+			}
+			"maxsize"		"124886592"
+		}
+		"224193"
+		{
+			"name"		"Lobelia Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"639511234085206139"
+			}
+			"maxsize"		"119548279"
+		}
+		"224194"
+		{
+			"name"		"Lobelia Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"1461743875032720205"
+			}
+			"maxsize"		"119026533"
+		}
+		"245891"
+		{
+			"name"		"Flax content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"8815659757319900084"
+			}
+			"maxsize"		"142740387"
+		}
+		"245892"
+		{
+			"name"		"Flax English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"358460810140711551"
+			}
+			"maxsize"		"85482792"
+		}
+		"245893"
+		{
+			"name"		"Flax French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"8081940931846180054"
+			}
+			"maxsize"		"94913135"
+		}
+		"245894"
+		{
+			"name"		"Flax German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"6505567520491641499"
+			}
+			"maxsize"		"97047428"
+		}
+		"245895"
+		{
+			"name"		"Flax Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"5875283547314484466"
+			}
+			"maxsize"		"93454484"
+		}
+		"245896"
+		{
+			"name"		"Flax Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"7747646704538317848"
+			}
+			"maxsize"		"87171920"
+		}
+		"245897"
+		{
+			"name"		"Flax Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"6785716663867749886"
+			}
+			"maxsize"		"92534781"
+		}
+		"245898"
+		{
+			"name"		"Flax Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"2298846840103963673"
+			}
+			"maxsize"		"85482792"
+		}
+		"245899"
+		{
+			"name"		"Flax Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"7185498752812040718"
+				"local"		"17814349453373801"
+			}
+			"maxsize"		"228223177"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"B57A31B437A221E1F03B3532E4C9117B"
+					"encrypted_size_2"		"834BBD136A3BE061F7DFC76FA9C8196A"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"73EACD50E5AFF215F27CF2D2772CEB2B"
+					"encrypted_size_2"		"E205B2706E32434507AD4558F35735C5"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"D561A1917A97DBF7DBBFB01F31F9F36D"
+					"encrypted_size_2"		"FE5979BF032E4AC0276D993F1894748A"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"BE10B9192AA9D038B976672A76DC1EC0"
+					"encrypted_size_2"		"C8A08985304C7DECF37D28438AC2299C"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"312C248C7597CAF3444DE9B0DBFCA3C2"
+					"encrypted_size_2"		"162E64EB262C1E6F5DDE969F422C58BA"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"9CBF0EB35AF4D3CDB7C030B192DBC69C"
+					"encrypted_size_2"		"71D4B3DEA9DC05D17D146545B135F641"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"C5AE419EDDCAE75E6CBDD89129592846"
+					"encrypted_size_2"		"FA0CCC65B860223C555FD4DFC10CF1F1"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"C0ADC798E83534DDF05345EAD1BB2D80"
+					"encrypted_size_2"		"ADE6827EDF32A04C630531859C11F164"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"6A56A3618E933E59571575418553D93E"
+					"encrypted_size_2"		"F7F4B39D6DE51B3B7E8B6243B2229C12"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"39C99AD6365769143A29FC177ADAE44D"
+					"encrypted_size_2"		"DEC843051EEB02CE3996810A14300C04"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"4A9C13944B5EA23909574FFB82EBA4E5"
+					"encrypted_size_2"		"B4123213A33987E087E28A59639F8EE5"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"B138F26DC470814C53B7A8C2EDC0C4F8"
+					"encrypted_size_2"		"D50CBCC21E9CF71BBCE8706F1F697366"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"F899CBAF53894269F8848E1F1E1B4624"
+					"encrypted_size_2"		"5C6509A0F319ECB2479B01875B3CC57B"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"2B1FC4667DCA2D5EA4433665D9CA8412"
+					"encrypted_size_2"		"B2DBF72144546DEE7EF730C9D69B3DCA"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"4A3764EBA162AE14282EDDF2937DF4DA"
+					"encrypted_size_2"		"83549A658ED5730E3A5EE9430BCC1AB0"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"30F51625FEAFD95E0C578ED0547CF6EC"
+					"encrypted_size_2"		"910844B9098EBDF69EB44E6541E75886"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"AA97E832674800160F3F0CD7B0077298"
+					"encrypted_size_2"		"929BCCAF7909AE9BFFB8AE3777B182B4"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"50DE5027DEBC50090BA4ACA260EECF5C"
+					"encrypted_size_2"		"E85D817E0BF2B7E94F54FB1C7D45D31C"
+				}
+			}
+		}
+		"245900"
+		{
+			"name"		"Flax English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"371486247087876685"
+			}
+			"maxsize"		"85482792"
+		}
+		"245901"
+		{
+			"name"		"Flax French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"730761236942039263"
+			}
+			"maxsize"		"94913135"
+		}
+		"245902"
+		{
+			"name"		"Flax German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"38590354064849857"
+			}
+			"maxsize"		"97047428"
+		}
+		"245903"
+		{
+			"name"		"Flax Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"427116884716708597"
+			}
+			"maxsize"		"93454484"
+		}
+		"245904"
+		{
+			"name"		"Flax Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"390015859411924453"
+			}
+			"maxsize"		"92534781"
+		}
+		"245911"
+		{
+			"name"		"AlliumTG content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"685348919544118730"
+			}
+			"maxsize"		"298567141"
+		}
+		"245912"
+		{
+			"name"		"AlliumTG English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"2954203565467874489"
+			}
+			"maxsize"		"163088697"
+		}
+		"245913"
+		{
+			"name"		"AlliumTG French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"4549302860389342435"
+			}
+			"maxsize"		"176656264"
+		}
+		"245914"
+		{
+			"name"		"AlliumTG German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"7261494239192179471"
+			}
+			"maxsize"		"183544556"
+		}
+		"245915"
+		{
+			"name"		"AlliumTG Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"3156989884273103800"
+			}
+			"maxsize"		"176290769"
+		}
+		"245916"
+		{
+			"name"		"AlliumTG Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"1634553899729026614"
+			}
+			"maxsize"		"169632187"
+		}
+		"245917"
+		{
+			"name"		"AlliumTG Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"6953425967822790005"
+			}
+			"maxsize"		"172054837"
+		}
+		"245918"
+		{
+			"name"		"AlliumTG Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"7941316082107553106"
+			}
+			"maxsize"		"163088697"
+		}
+		"245919"
+		{
+			"name"		"AlliumTG Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"7977268773290974656"
+				"local"		"539726398538407022"
+			}
+			"maxsize"		"461655836"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"CB6340461B447851D31771218015CE64"
+					"encrypted_size_2"		"19410102C3A505CCF9DFFE7A399D47C5"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"69F9995E9EA1F910A7F859EACE4BECB4"
+					"encrypted_size_2"		"182B9FA5ED2307CA72EDD54204F1C65B"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"A309162C942515EB21D6A3121F9AC0BB"
+					"encrypted_size_2"		"E65A8C9D8A1B9F3AF73ADFC448956DC7"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"4CCFD194517D458092AFE4A3246C7A4B"
+					"encrypted_size_2"		"9E00F922F070778F3F1E2968FCE69E66"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"A8C86E6CF1626064F6DB4C51DE944B98"
+					"encrypted_size_2"		"AF4EBD039BEAAD98E59B4E2527655956"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"5D2BBB12B2F55BB06F2F36DE35761CE6"
+					"encrypted_size_2"		"5A0102DC95C62D80AD1AB2782DC6F6D0"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"83AC064B215C112CBB6A7308FAE3BD1C"
+					"encrypted_size_2"		"E8B511507DF3E4F9A59D535A5C0FA1A4"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"3AA13058DD429BF9B6298E1DFA935279"
+					"encrypted_size_2"		"71C8DFDB2829D890CF7EB5617FA2AD3E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"A62317EF1168F3DF64F0820870872FA1"
+					"encrypted_size_2"		"D607152283662B2F15B8F99EA4DB15FB"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"39AE617D4D1B58C140A9FE7D3E9AF64B"
+					"encrypted_size_2"		"DBDFB47D7E422D03D1D0E0E09A00B845"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"16612975AC212F8C263EA8ACF8841202"
+					"encrypted_size_2"		"91B6487518CA2743BF227D22ADD3D7DD"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"1DDF61FF7EEB25605E74AD74418AABDA"
+					"encrypted_size_2"		"57520C8275B0E97FB98A3E9D7724BE9A"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"4A50B4496463425996048F32FE8D7095"
+					"encrypted_size_2"		"07110A3E0D7FDA1D7CCE3F32ABCB9D44"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"E1E7C891F91BB4FB1F2D32418ACE34F5"
+					"encrypted_size_2"		"9B776EE3548B613725E9CB84C682C3D7"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"A9EC029329A20FFA52A8710EDD6DC55E"
+					"encrypted_size_2"		"8436DA62DCCEAB11CD3CC2D7CF821012"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"8B27EFACFA1F59FD838DE608EEFF8931"
+					"encrypted_size_2"		"D013B13CF51570304920352CC074C7D5"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"4FE2B5DE4B2737C54F7E10619D3DEDEA"
+					"encrypted_size_2"		"ADD0690C0AA60A566F15C1C9A1A59621"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"739D30CFF01F31CC20216A614C68C3A2"
+					"encrypted_size_2"		"F9B8EE11800830E8EA297216BE545AFC"
+				}
+			}
+		}
+		"245920"
+		{
+			"name"		"AlliumTG English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"784795682455518602"
+			}
+			"maxsize"		"163088697"
+		}
+		"245921"
+		{
+			"name"		"AlliumTG French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"615839231913024144"
+			}
+			"maxsize"		"176656264"
+		}
+		"245922"
+		{
+			"name"		"AlliumTG German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"667160497508297320"
+			}
+			"maxsize"		"183544556"
+		}
+		"245923"
+		{
+			"name"		"AlliumTG Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"756926211997327027"
+			}
+			"maxsize"		"176290769"
+		}
+		"245924"
+		{
+			"name"		"AlliumTG Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"868774989616290269"
+			}
+			"maxsize"		"172054837"
+		}
+		"245931"
+		{
+			"name"		"AlliumXmas content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"3405752120517974135"
+			}
+			"maxsize"		"298567141"
+		}
+		"245932"
+		{
+			"name"		"AlliumXmas English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"8775212710627628117"
+			}
+			"maxsize"		"163088697"
+		}
+		"245933"
+		{
+			"name"		"AlliumXmas French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"7223852440037731628"
+			}
+			"maxsize"		"176656264"
+		}
+		"245934"
+		{
+			"name"		"AlliumXmas German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"5343986266348125681"
+			}
+			"maxsize"		"183544556"
+		}
+		"245935"
+		{
+			"name"		"AlliumXmas Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"1722146431621202937"
+			}
+			"maxsize"		"176290769"
+		}
+		"245936"
+		{
+			"name"		"AlliumXmas Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"6587782303794941201"
+			}
+			"maxsize"		"169632187"
+		}
+		"245937"
+		{
+			"name"		"AlliumXmas Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"7381328743425820419"
+			}
+			"maxsize"		"172054837"
+		}
+		"245938"
+		{
+			"name"		"AlliumXmas Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"1585277479331997620"
+			}
+			"maxsize"		"163088697"
+		}
+		"245939"
+		{
+			"name"		"AlliumXmas Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"6130580679176484342"
+				"local"		"142849289627571748"
+			}
+			"maxsize"		"461655836"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"DDD1101376FA6793D0C77B3CEC8A6DCE"
+					"encrypted_size_2"		"19410102C3A505CCF9DFFE7A399D47C5"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"64F106D9E7D545F3BEFACE2A5167804A"
+					"encrypted_size_2"		"182B9FA5ED2307CA72EDD54204F1C65B"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"22D8E77522AB7088E9A4325BAB7DBC78"
+					"encrypted_size_2"		"E65A8C9D8A1B9F3AF73ADFC448956DC7"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"0D16DE6CB1ABF70F68DD638C4A824D3F"
+					"encrypted_size_2"		"9E00F922F070778F3F1E2968FCE69E66"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"8B5D2B3CEEDBC58A03B93A571317FAED"
+					"encrypted_size_2"		"AF4EBD039BEAAD98E59B4E2527655956"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"5C11D3803C67464EB7BD06205E2E24A0"
+					"encrypted_size_2"		"5A0102DC95C62D80AD1AB2782DC6F6D0"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"A6581794162760A7BBB6BA7B1190DC76"
+					"encrypted_size_2"		"E8B511507DF3E4F9A59D535A5C0FA1A4"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"0310372C9CA00496B773FDAF9B10F4A8"
+					"encrypted_size_2"		"71C8DFDB2829D890CF7EB5617FA2AD3E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"F8EFDB5866030B584D5BD872103160C4"
+					"encrypted_size_2"		"D607152283662B2F15B8F99EA4DB15FB"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"CB19A43EEBE07E5D84A066DD910A40DC"
+					"encrypted_size_2"		"DBDFB47D7E422D03D1D0E0E09A00B845"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"C9D6DA77F6BDDEF8C8D8F08A5470B545"
+					"encrypted_size_2"		"91B6487518CA2743BF227D22ADD3D7DD"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"1669FB6DB3B3893EC4BCB8C4FEA3267E"
+					"encrypted_size_2"		"57520C8275B0E97FB98A3E9D7724BE9A"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"5C4BC3DCEC305D0560E45E96CB1CACA0"
+					"encrypted_size_2"		"07110A3E0D7FDA1D7CCE3F32ABCB9D44"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"5722633619A4CA7B014ED5A28EED4C6E"
+					"encrypted_size_2"		"9B776EE3548B613725E9CB84C682C3D7"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"85B60E2476C411A6F1539F6FCDCA4283"
+					"encrypted_size_2"		"8436DA62DCCEAB11CD3CC2D7CF821012"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"403D88876996E39B44E9BB543576B479"
+					"encrypted_size_2"		"D013B13CF51570304920352CC074C7D5"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"CEEA3A0F7E15280E3B72685ECA650FC6"
+					"encrypted_size_2"		"ADD0690C0AA60A566F15C1C9A1A59621"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"95EA236643A87E780CAF9533D1A03F98"
+					"encrypted_size_2"		"F9B8EE11800830E8EA297216BE545AFC"
+				}
+			}
+		}
+		"245940"
+		{
+			"name"		"AlliumXmas English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"1804314352974773507"
+			}
+			"maxsize"		"163088697"
+		}
+		"245941"
+		{
+			"name"		"AlliumXmas French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"357922526198335257"
+			}
+			"maxsize"		"176656264"
+		}
+		"245942"
+		{
+			"name"		"AlliumXmas German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"285768752247328194"
+			}
+			"maxsize"		"183544556"
+		}
+		"245943"
+		{
+			"name"		"AlliumXmas Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"802773788936227865"
+			}
+			"maxsize"		"176290769"
+		}
+		"245944"
+		{
+			"name"		"AlliumXmas Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"90665569789084429"
+			}
+			"maxsize"		"172054837"
+		}
+		"245951"
+		{
+			"name"		"NasturtiumVday content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"8797395393664935768"
+			}
+			"maxsize"		"324999754"
+		}
+		"245952"
+		{
+			"name"		"NasturtiumVday English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"5401264141258035143"
+			}
+			"maxsize"		"155571111"
+		}
+		"245953"
+		{
+			"name"		"NasturtiumVday French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"2092971336170593344"
+			}
+			"maxsize"		"52382410"
+		}
+		"245954"
+		{
+			"name"		"NasturtiumVday German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"7070217202767533121"
+			}
+			"maxsize"		"51485790"
+		}
+		"245955"
+		{
+			"name"		"NasturtiumVday Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"8020935381114143962"
+			}
+			"maxsize"		"52957359"
+		}
+		"245956"
+		{
+			"name"		"NasturtiumVday Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"760537062727945934"
+			}
+			"maxsize"		"52467427"
+		}
+		"245957"
+		{
+			"name"		"NasturtiumVday Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"6301603009356981870"
+			}
+			"maxsize"		"49562607"
+		}
+		"245958"
+		{
+			"name"		"NasturtiumVday Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"2816250457324367629"
+			}
+			"maxsize"		"155571111"
+		}
+		"245959"
+		{
+			"name"		"NasturtiumVday Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"8929999187187208207"
+				"local"		"282493542694842778"
+			}
+			"maxsize"		"480570863"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"3FC3B037717E223253023C83EEBF7972"
+					"encrypted_size_2"		"36D756F575C512B3F0081B3A5621EAD9"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"7EEF454416EDD125B4CE674A48D0E139"
+					"encrypted_size_2"		"1295D512E2CE80225C0E700CF0F77B69"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"717E1856050DC06438E255F33ECA07F9"
+					"encrypted_size_2"		"7A22E77F9D775B46F1112745BBE74F18"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"A293C911BEE55CB2C982006F4C8DED0B"
+					"encrypted_size_2"		"C6D3669CE86A3DC0CC5586D6FECE9732"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"41C0A6FFBADEA688B55F1509EF698C6B"
+					"encrypted_size_2"		"7F9C62BCA5592C375B91A14087E79F27"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"C56D46E84DBAA46DD042C9E659CF8D9B"
+					"encrypted_size_2"		"045759C6AD3A36C7FA7C04FDC880481E"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"00CD06D7C96874EF821D0514713CC296"
+					"encrypted_size_2"		"F43A1765D243DFD630EDC2A7858EA754"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"018B5AD699E2A18160876D65712F8425"
+					"encrypted_size_2"		"A363E4797632E178CE8B5EA6F1E3F043"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"4AFE4730FB2B518183E585F90B06F6DA"
+					"encrypted_size_2"		"1D57F2A44C51F893F50587EC568975F3"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"7E38E34DBD62B8A98D699CDD8A7426DF"
+					"encrypted_size_2"		"05ADC196C8873E772F8BAFF1C42F6C06"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"47603D8EB95E1A1A6EE52068E18B4D7D"
+					"encrypted_size_2"		"90F1F9B930B3CE0FF4DE6BF939AA92A4"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"0BA1E1C90AA37626EB06233EFDF3B266"
+					"encrypted_size_2"		"DF75EE74D32C851C7E1A17D0D81FBB2E"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"AA636902794F4747D78666420398C207"
+					"encrypted_size_2"		"AEF35F971DFDB213C53AA207C00B83B0"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"51E0D3C6FE1EC9631DD62DA2B51D10A3"
+					"encrypted_size_2"		"A6ACAFCAD2F765F4D9C1A7700DDF1795"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"E4B85DC707DD1A20F8C63DC774765892"
+					"encrypted_size_2"		"2CC0CB96B45CEAA95DF00EE80F6C6448"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"BBE0C85B40192F0716D87CE437D86C49"
+					"encrypted_size_2"		"500C76222EBDAACE33B25AD69A5CDEE7"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"99801105BFF02219236927852644FBE7"
+					"encrypted_size_2"		"2F33E4B41744732C8DE6562E3C893A13"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"20E37A2F44BAF62B1FF6FC7E8D060699"
+					"encrypted_size_2"		"114A17AC55FE12D013219438DDA969D9"
+				}
+			}
+		}
+		"245960"
+		{
+			"name"		"NasturtiumVday English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"1196830192908601889"
+			}
+			"maxsize"		"155571111"
+		}
+		"245961"
+		{
+			"name"		"NasturtiumVday French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"697947221492063198"
+			}
+			"maxsize"		"52382410"
+		}
+		"245962"
+		{
+			"name"		"NasturtiumVday German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"390530248640600403"
+			}
+			"maxsize"		"51485790"
+		}
+		"245963"
+		{
+			"name"		"NasturtiumVday Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"1499677457495863852"
+			}
+			"maxsize"		"52957359"
+		}
+		"245964"
+		{
+			"name"		"NasturtiumVday Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"191339480436545736"
+			}
+			"maxsize"		"49562607"
+		}
+		"245971"
+		{
+			"name"		"NasturtiumEaster content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"2038865418232723102"
+			}
+			"maxsize"		"324999754"
+		}
+		"245972"
+		{
+			"name"		"NasturtiumEaster English Audio"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"212348193058135192"
+			}
+			"maxsize"		"155571111"
+		}
+		"245973"
+		{
+			"name"		"NasturtiumEaster French Audio"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"4928468541509176162"
+			}
+			"maxsize"		"52382410"
+		}
+		"245974"
+		{
+			"name"		"NasturtiumEaster German Audio"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"1407087102860079778"
+			}
+			"maxsize"		"51485790"
+		}
+		"245975"
+		{
+			"name"		"NasturtiumEaster Italian Audio"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"9213125153049969324"
+			}
+			"maxsize"		"52957359"
+		}
+		"245976"
+		{
+			"name"		"NasturtiumEaster Japanese Audio"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"3507606099834933502"
+			}
+			"maxsize"		"52467427"
+		}
+		"245977"
+		{
+			"name"		"NasturtiumEaster Spanish Audio"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"8411047624127452847"
+			}
+			"maxsize"		"49562607"
+		}
+		"245978"
+		{
+			"name"		"NasturtiumEaster Korean Audio"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"7099910009559486294"
+			}
+			"maxsize"		"155571111"
+		}
+		"245979"
+		{
+			"name"		"NasturtiumEaster Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"4403962270363511084"
+				"local"		"131825296962291210"
+			}
+			"maxsize"		"480570863"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"CA6E00EEAF03D2FDC82C844AE27474CB"
+					"encrypted_size_2"		"36D756F575C512B3F0081B3A5621EAD9"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"AB34603079083CBF6A817F6766272D3C"
+					"encrypted_size_2"		"1295D512E2CE80225C0E700CF0F77B69"
+				}
+				"delta"
+				{
+					"encrypted_gid_2"		"39C64EAA4F1A2A0818872C69BD668E6C"
+					"encrypted_size_2"		"7A22E77F9D775B46F1112745BBE74F18"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"0CB4F546C844FCCBB7F0341E32C26497"
+					"encrypted_size_2"		"C6D3669CE86A3DC0CC5586D6FECE9732"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"CE5820FD92294110FB787132CB4DCB36"
+					"encrypted_size_2"		"7F9C62BCA5592C375B91A14087E79F27"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"1E48AA4D0098052A891C6FD17CF1AE9A"
+					"encrypted_size_2"		"045759C6AD3A36C7FA7C04FDC880481E"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"3A55214C40E944B7B561ACD1C3391CFF"
+					"encrypted_size_2"		"F43A1765D243DFD630EDC2A7858EA754"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"7AB34AF2ADDF603F32C01090D4B73804"
+					"encrypted_size_2"		"A363E4797632E178CE8B5EA6F1E3F043"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"BBEB6999649E2911227CED4A4E8CD45F"
+					"encrypted_size_2"		"1D57F2A44C51F893F50587EC568975F3"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"B84BC7EB673E95EE649645745DEC08C1"
+					"encrypted_size_2"		"05ADC196C8873E772F8BAFF1C42F6C06"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"EB0533AD9A6E8021CBD20CFD3C0094F3"
+					"encrypted_size_2"		"90F1F9B930B3CE0FF4DE6BF939AA92A4"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"5ABCA87DC51F55F6EE00DFC381C5CFF4"
+					"encrypted_size_2"		"DF75EE74D32C851C7E1A17D0D81FBB2E"
+				}
+				"rho"
+				{
+					"encrypted_gid_2"		"BED7A793980BC2127468D5BEC758A573"
+					"encrypted_size_2"		"AEF35F971DFDB213C53AA207C00B83B0"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"6A775DEF609EC3945926B98E815564AE"
+					"encrypted_size_2"		"A6ACAFCAD2F765F4D9C1A7700DDF1795"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"81B4D253F49C54B017D3D4A8888C7B39"
+					"encrypted_size_2"		"2CC0CB96B45CEAA95DF00EE80F6C6448"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"794CF68DA6D74F0CE0B613CB6A0519EA"
+					"encrypted_size_2"		"500C76222EBDAACE33B25AD69A5CDEE7"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"82EAC23ADD96B621EAFA3435301ECE61"
+					"encrypted_size_2"		"2F33E4B41744732C8DE6562E3C893A13"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"3207AC7580C4FEFF6BF38C98FAE0E02B"
+					"encrypted_size_2"		"114A17AC55FE12D013219438DDA969D9"
+				}
+			}
+		}
+		"245980"
+		{
+			"name"		"NasturtiumEaster English Audio OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"162283970409859317"
+			}
+			"maxsize"		"155571111"
+		}
+		"245981"
+		{
+			"name"		"NasturtiumEaster French Audio OSX"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"70588849846076473"
+			}
+			"maxsize"		"52382410"
+		}
+		"245982"
+		{
+			"name"		"NasturtiumEaster German Audio OSX"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"1689485392579498583"
+			}
+			"maxsize"		"51485790"
+		}
+		"245983"
+		{
+			"name"		"NasturtiumEaster Italian Audio OSX"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"108383124367372481"
+			}
+			"maxsize"		"52957359"
+		}
+		"245984"
+		{
+			"name"		"NasturtiumEaster Spanish Audio OSX"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"596813681594266118"
+			}
+			"maxsize"		"49562607"
+		}
+		"49532"
+		{
+			"name"		"Borderlands 2 Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2980517407537433653"
+			}
+			"maxsize"		"528292116"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"CBB0F3A40439C128DA9FC1C18E9CE957"
+					"encrypted_size_2"		"911F0D89CAA786FE64509372AF2E566C"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"AEDB4DAA57310325CC4AB4F8AAC633D5"
+					"encrypted_size_2"		"743F5CCB484457D6E0E56C5C83A9CEB2"
+				}
+				"epsilon"
+				{
+					"encrypted_gid_2"		"946F8CB87C9754F734884BE3F13665D0"
+					"encrypted_size_2"		"3CEDEAF14CADF4D5B6384C687E0C5068"
+				}
+				"gamma"
+				{
+					"encrypted_gid_2"		"2B3ED8948C55DFB41C60EA38D62A7C3C"
+					"encrypted_size_2"		"E38E5266C27436283EA0EB6F7867F428"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"97EDF446F8E416AECD791F9FE2EBC4F6"
+					"encrypted_size_2"		"0B3BC3F3A2EDE7396B11A26E468CA021"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"2313BE1B8C08CE10A844F7C1F5B741B9"
+					"encrypted_size_2"		"8DF425AE9D97148EF4B0F622EEBE6406"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"F29777FCD0D7A71573D6CE3D4D0DA30A"
+					"encrypted_size_2"		"636F3F5C41D5684DA14A85219BC7802C"
+				}
+				"nu"
+				{
+					"encrypted_gid_2"		"C3710DF2433B7098D74CE17FC2EAF980"
+					"encrypted_size_2"		"F714DEDAE3F161457AA1275181D8C05F"
+				}
+				"omega"
+				{
+					"encrypted_gid_2"		"DA30A37E3126C6A73E856B7956D43EA7"
+					"encrypted_size_2"		"3F57205F04F19AF994B986A70F81195F"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"A26815E2F2936834028948F9633D4733"
+					"encrypted_size_2"		"D968EAA8129DA297704F6A11A6F563AC"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"D32B0C557D8C89E87A334271048A4499"
+					"encrypted_size_2"		"50850D952E4DC0460DE28DEC83F00425"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"42745CE240A569CCF783F5DAD096B264"
+					"encrypted_size_2"		"B327664EBC2788BC14EA7E35F6A139AF"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"3811303F95C95A28A6736ADA759CDB50"
+					"encrypted_size_2"		"976FD6071F8001524FEB6B0AD93137E9"
+				}
+			}
+		}
+		"207885"
+		{
+			"name"		"Orchid Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"143433637647794965"
+			}
+			"maxsize"		"162692051"
+		}
+		"213225"
+		{
+			"name"		"Iris Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"323693053003498950"
+			}
+			"maxsize"		"213220516"
+		}
+		"213265"
+		{
+			"name"		"Sage Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"121502615052212142"
+			}
+			"maxsize"		"124821843"
+		}
+		"218559"
+		{
+			"name"		"Aster Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"4468673414057416366"
+			}
+			"maxsize"		"183739795"
+		}
+		"224195"
+		{
+			"name"		"Lobelia Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"194161357110641742"
+			}
+			"maxsize"		"109897573"
+		}
+		"245905"
+		{
+			"name"		"Flax Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"658991635049466079"
+			}
+			"maxsize"		"85482792"
+		}
+		"245925"
+		{
+			"name"		"AlliumTG Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"1316579476709896495"
+			}
+			"maxsize"		"163088697"
+		}
+		"245945"
+		{
+			"name"		"AlliumXmas Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"1073542581840961324"
+			}
+			"maxsize"		"163088697"
+		}
+		"245965"
+		{
+			"name"		"NasturtiumVday Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"994329278682008370"
+			}
+			"maxsize"		"155571111"
+		}
+		"245985"
+		{
+			"name"		"NasturtiumEaster Traditional Chinese Audio"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"368303272592858038"
+			}
+			"maxsize"		"155571111"
+		}
+		"49531"
+		{
+			"name"		"Linux Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6481171509090769449"
+			}
+			"maxsize"		"6401199965"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"F128BDE86EA91229ABCF99A8531C6A51"
+					"encrypted_size_2"		"1CA9892B09877DAD3DC9AB9EF42A99DF"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"FE372ED5D002DADBB36AA3DC0977E790"
+					"encrypted_size_2"		"DE73FB8CB6F7CA853968D5DCE1750AAC"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"F41ED645A1F94268ADC45C3BDF1E9BAA"
+					"encrypted_size_2"		"A6060A87EE700E91877FDA0120472ADB"
+				}
+			}
+		}
+		"49533"
+		{
+			"name"		"Linux Executable"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6500387858843925764"
+			}
+			"maxsize"		"45990045"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"279950F5FFFBB815D52ED4E8E68C2F8D"
+					"encrypted_size_2"		"A349C7BE2524BF785DAEC836C7471ACC"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"2490356AA8C08D34968371874326D043"
+					"encrypted_size_2"		"07F2C8485E7789D8AC0D30E1E2216EE0"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"99798134C5FB76A9464C40A12A34E418"
+					"encrypted_size_2"		"45D9A3AD47925B6F61B68A2B90728FB1"
+				}
+			}
+		}
+		"49534"
+		{
+			"name"		"Linux English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3078093375635681567"
+			}
+			"maxsize"		"553810358"
+			"encryptedmanifests"
+			{
+				"boulder"
+				{
+					"encrypted_gid_2"		"40B0DF3975090BA687E6CD818461DCBB"
+					"encrypted_size_2"		"96F0A3C44559CD09805DB96C2F4642D8"
+				}
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"C81FA119E526649B71D12128A86C399E"
+					"encrypted_size_2"		"78CE217BBD2648CF617008A0D85C0B38"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"C5A6CA636A2201FA7F103D252D017B1F"
+					"encrypted_size_2"		"D645E4156E80E04FDE2920AB3882FEDF"
+				}
+			}
+		}
+		"49535"
+		{
+			"name"		"Linux French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2016241171784373166"
+			}
+			"maxsize"		"612313048"
+			"encryptedmanifests"
+			{
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"B4D61BA5B4B26C88368902CC46A1BA89"
+					"encrypted_size_2"		"2C8EC6678606E24F1C872494F9B7B2B4"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"0B8474CF6C82B6EB4B1EED0DB31143FB"
+					"encrypted_size_2"		"48E74F3893F75B43B8A35F82DE640192"
+				}
+			}
+		}
+		"49536"
+		{
+			"name"		"Linux Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4516434111460867953"
+			}
+			"maxsize"		"630937945"
+			"encryptedmanifests"
+			{
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"1552D78D7BB02CA28AA148A6EACA1E29"
+					"encrypted_size_2"		"DB17B650E8AE0290B366C0F12602C191"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"8B59AB3625EBF0A17A7C27DAEE7B32CC"
+					"encrypted_size_2"		"26D98A48FE8D7824A09621D76510DF38"
+				}
+			}
+		}
+		"49537"
+		{
+			"name"		"Linux German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1367427302476376168"
+			}
+			"maxsize"		"625840892"
+			"encryptedmanifests"
+			{
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"91BBAE3C7F081A20D7193985C662B89C"
+					"encrypted_size_2"		"5A8E4ACA388B00E88E93FDB0C2900FB2"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"56BB21634036E1E6A6099BECFB6307CA"
+					"encrypted_size_2"		"61A0749C4B1EA093AE60633FB81A1731"
+				}
+			}
+		}
+		"49538"
+		{
+			"name"		"Linux Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1485663203626297060"
+			}
+			"maxsize"		"597811473"
+			"encryptedmanifests"
+			{
+				"boulder_test"
+				{
+					"encrypted_gid_2"		"95A0A0F318FA0A7527BE1AC757D81D4C"
+					"encrypted_size_2"		"1195161470709F9DF876DFEB2EF2CD63"
+				}
+				"pi"
+				{
+					"encrypted_gid_2"		"F8404E25E119FE9EE27E60C7E83BEE6E"
+					"encrypted_size_2"		"CE6D1A346F9C457AA0173FA5AABE9975"
+				}
+			}
+		}
+		"49539"
+		{
+			"name"		"Linux Orchid Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"6944507181019005251"
+			}
+			"maxsize"		"407842060"
+		}
+		"207851"
+		{
+			"name"		"Linux Orchid English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"4083629802143382515"
+			}
+			"maxsize"		"162692051"
+		}
+		"207852"
+		{
+			"name"		"Linux Orchid French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"8353326020465820185"
+			}
+			"maxsize"		"174791774"
+		}
+		"207853"
+		{
+			"name"		"Linux Orchid German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"739680894840902256"
+			}
+			"maxsize"		"181101905"
+		}
+		"207854"
+		{
+			"name"		"Linux Orchid Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"8938346975152162580"
+			}
+			"maxsize"		"176865040"
+		}
+		"207855"
+		{
+			"name"		"Linux Orchid Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"207870"
+			"manifests"
+			{
+				"public"		"4120211284148251072"
+			}
+			"maxsize"		"172242104"
+		}
+		"207856"
+		{
+			"name"		"Linux Iris Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"4298781241774637095"
+			}
+			"maxsize"		"676843001"
+		}
+		"207857"
+		{
+			"name"		"Linux Iris English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"4097654954498470625"
+			}
+			"maxsize"		"213220516"
+		}
+		"207858"
+		{
+			"name"		"Linux Iris French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"6808082856961344654"
+			}
+			"maxsize"		"233202908"
+		}
+		"207859"
+		{
+			"name"		"Linux Iris German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"876339170077367152"
+			}
+			"maxsize"		"239778114"
+		}
+		"207860"
+		{
+			"name"		"Linux Iris Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"3225155154248422147"
+			}
+			"maxsize"		"237846396"
+		}
+		"207861"
+		{
+			"name"		"Linux Iris Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213210"
+			"manifests"
+			{
+				"public"		"2637347087446622345"
+			}
+			"maxsize"		"228975757"
+		}
+		"207862"
+		{
+			"name"		"Linux Premier Club"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213231"
+			"manifests"
+			{
+				"public"		"635765018431181367"
+			}
+			"maxsize"		"82"
+		}
+		"207863"
+		{
+			"name"		"Linux Sage Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"4200993981843119743"
+			}
+			"maxsize"		"522909091"
+		}
+		"207864"
+		{
+			"name"		"Linux Sage English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"8319948509126808297"
+			}
+			"maxsize"		"124821843"
+		}
+		"207865"
+		{
+			"name"		"Linux Sage French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"9165061595469226398"
+			}
+			"maxsize"		"136807773"
+		}
+		"207866"
+		{
+			"name"		"Linux Sage German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"8364809412999164305"
+			}
+			"maxsize"		"140102832"
+		}
+		"207867"
+		{
+			"name"		"Linux Sage Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"7657387881297709767"
+			}
+			"maxsize"		"135797248"
+		}
+		"207868"
+		{
+			"name"		"Linux Sage Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"213250"
+			"manifests"
+			{
+				"public"		"8896078727910844995"
+			}
+			"maxsize"		"131760883"
+		}
+		"207869"
+		{
+			"name"		"Linux Collectors Edition"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"377829080894435847"
+			}
+			"maxsize"		"51"
+		}
+		"207886"
+		{
+			"name"		"Linux Gardenia05"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7592481094888766510"
+			}
+			"maxsize"		"83"
+		}
+		"207887"
+		{
+			"name"		"Linux Gardenia04"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8651204426718490114"
+			}
+			"maxsize"		"107"
+		}
+		"207888"
+		{
+			"name"		"Linux Lobelia Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"87606106637027928"
+			}
+			"maxsize"		"87148518"
+		}
+		"207889"
+		{
+			"name"		"Linux Lobelia English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"2924840091861334282"
+			}
+			"maxsize"		"109897573"
+		}
+		"208692"
+		{
+			"name"		"Linux Lobelia French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"6593305547937502857"
+			}
+			"maxsize"		"120511740"
+		}
+		"208693"
+		{
+			"name"		"Linux Lobelia German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"6864208631196565740"
+			}
+			"maxsize"		"124886592"
+		}
+		"208694"
+		{
+			"name"		"Linux Lobelia Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"7557325578643767142"
+			}
+			"maxsize"		"119548279"
+		}
+		"208695"
+		{
+			"name"		"Linux Lobelia Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"224180"
+			"manifests"
+			{
+				"public"		"7424723029681346156"
+			}
+			"maxsize"		"119026533"
+		}
+		"208696"
+		{
+			"name"		"Linux Gladiolus"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"112647093475338283"
+			}
+			"maxsize"		"42"
+		}
+		"208697"
+		{
+			"name"		"Linux Gardenia01"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4406472801658604309"
+			}
+			"maxsize"		"155"
+		}
+		"208698"
+		{
+			"name"		"Linux Lilac"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"230090"
+			"manifests"
+			{
+				"public"		"989356765231415731"
+			}
+			"maxsize"		"38"
+		}
+		"208699"
+		{
+			"name"		"Linux Aster Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"7438275520973789468"
+			}
+			"maxsize"		"1297324942"
+		}
+		"208700"
+		{
+			"name"		"Linux Aster English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"2228540506631254916"
+			}
+			"maxsize"		"183739795"
+		}
+		"208701"
+		{
+			"name"		"Linux Aster French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"7232964166617626763"
+			}
+			"maxsize"		"201936084"
+		}
+		"208702"
+		{
+			"name"		"Linux Aster German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"7214063351631133410"
+			}
+			"maxsize"		"206817551"
+		}
+		"208703"
+		{
+			"name"		"Linux Aster Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"5007540632123718806"
+			}
+			"maxsize"		"200710844"
+		}
+		"208704"
+		{
+			"name"		"Linux Aster Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"218550"
+			"manifests"
+			{
+				"public"		"4741853849793742534"
+			}
+			"maxsize"		"191725836"
+		}
+		"208705"
+		{
+			"name"		"Linux Flax Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"1404218381002970216"
+			}
+			"maxsize"		"142740385"
+		}
+		"208706"
+		{
+			"name"		"Linux Flax English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"6563170449308406496"
+			}
+			"maxsize"		"85482792"
+		}
+		"208707"
+		{
+			"name"		"Linux Flax French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"6564250674871317370"
+			}
+			"maxsize"		"94913135"
+		}
+		"208708"
+		{
+			"name"		"Linux Flax German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"5341901238431133653"
+			}
+			"maxsize"		"97047428"
+		}
+		"208709"
+		{
+			"name"		"Linux Flax Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"5386696969351434513"
+			}
+			"maxsize"		"93454484"
+		}
+		"213226"
+		{
+			"name"		"Linux Flax Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245890"
+			"manifests"
+			{
+				"public"		"3785234635431972511"
+			}
+			"maxsize"		"92534781"
+		}
+		"213227"
+		{
+			"name"		"Linux AlliumTG Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"1982808373942949776"
+			}
+			"maxsize"		"298567139"
+		}
+		"213228"
+		{
+			"name"		"Linux AlliumTG English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"8978768790518077292"
+			}
+			"maxsize"		"163088697"
+		}
+		"213229"
+		{
+			"name"		"Linux AlliumTG French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"419829208672747324"
+			}
+			"maxsize"		"176656264"
+		}
+		"213233"
+		{
+			"name"		"Linux AlliumTG German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"1309211231173864197"
+			}
+			"maxsize"		"183544556"
+		}
+		"213234"
+		{
+			"name"		"Linux AlliumTG Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"7856819297358244716"
+			}
+			"maxsize"		"176290769"
+		}
+		"213235"
+		{
+			"name"		"Linux AlliumTG Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245910"
+			"manifests"
+			{
+				"public"		"6785053937962112657"
+			}
+			"maxsize"		"172054837"
+		}
+		"213236"
+		{
+			"name"		"Linux AlliumXmas Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"557677500251619871"
+			}
+			"maxsize"		"298567139"
+		}
+		"213237"
+		{
+			"name"		"Linux AlliumXmas English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"8346028747432988782"
+			}
+			"maxsize"		"163088697"
+		}
+		"213238"
+		{
+			"name"		"Linux AlliumXmas French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"4852166862400217261"
+			}
+			"maxsize"		"176656264"
+		}
+		"213239"
+		{
+			"name"		"Linux AlliumXmas German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"14181669346749536"
+			}
+			"maxsize"		"183544556"
+		}
+		"213240"
+		{
+			"name"		"Linux AlliumXmas Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"2428531341901339994"
+			}
+			"maxsize"		"176290769"
+		}
+		"213241"
+		{
+			"name"		"Linux AlliumXmas Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245930"
+			"manifests"
+			{
+				"public"		"4372712791325789556"
+			}
+			"maxsize"		"172054837"
+		}
+		"213242"
+		{
+			"name"		"Linux NasturtiumVDay Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"7099480689677355006"
+			}
+			"maxsize"		"324999752"
+		}
+		"213243"
+		{
+			"name"		"Linux NasturtiumVDay English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"3161996274979523076"
+			}
+			"maxsize"		"155571111"
+		}
+		"213244"
+		{
+			"name"		"Linux NasturtiumVDay French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"3773216131367821853"
+			}
+			"maxsize"		"52382410"
+		}
+		"213245"
+		{
+			"name"		"Linux NasturtiumVDay German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"3766550320387817631"
+			}
+			"maxsize"		"51485790"
+		}
+		"213246"
+		{
+			"name"		"Linux NasturtiumVDay Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"118064106179455999"
+			}
+			"maxsize"		"52957359"
+		}
+		"213247"
+		{
+			"name"		"Linux NasturtiumVDay Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245950"
+			"manifests"
+			{
+				"public"		"6037143513289109980"
+			}
+			"maxsize"		"49562607"
+		}
+		"213248"
+		{
+			"name"		"Linux NasturtiumEaster Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"4914813222506200715"
+			}
+			"maxsize"		"324999752"
+		}
+		"213249"
+		{
+			"name"		"Linux NasturtiumEaster English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"203717901548168956"
+			}
+			"maxsize"		"155571111"
+		}
+		"213266"
+		{
+			"name"		"Linux NasturtiumEaster French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"8571937741263274933"
+			}
+			"maxsize"		"52382410"
+		}
+		"213267"
+		{
+			"name"		"Linux NasturtiumEaster German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"838095251225813298"
+			}
+			"maxsize"		"51485790"
+		}
+		"213268"
+		{
+			"name"		"Linux NasturtiumEaster Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"3122404479367773966"
+			}
+			"maxsize"		"52957359"
+		}
+		"213269"
+		{
+			"name"		"Linux NasturtiumEaster Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"245970"
+			"manifests"
+			{
+				"public"		"7110930046452853489"
+			}
+			"maxsize"		"49562607"
+		}
+		"213791"
+		{
+			"name"		"MCarlson test 1"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6306400325686335292"
+			}
+			"maxsize"		"3149090733"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"A7EB879F67A964ADD76AEE325025F6E8"
+					"encrypted_size_2"		"CDD10102035E8E11D52A563C486DD795"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"85C042A5D0F98402BB4E9CF834BCB8A8"
+					"encrypted_size_2"		"331DB33423DE1F649DFB8F0B8EC0E682"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"ADB449D9212113E1F5A304CB894DFDD1"
+					"encrypted_size_2"		"B44C7DE944CE102129935FD039B3DD2F"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"1B4B884EE21C59C2282CF8F62444A653"
+					"encrypted_size_2"		"0F8F135A3F50DF60963AF07BC6D3D164"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"62FF05E574B4E27FD4C422A7905BEA1D"
+					"encrypted_size_2"		"BE9D1F8CEA64CDBF5B98CF2680FD7D43"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"FC901E14A1EE32A76B51B62BCD90387D"
+					"encrypted_size_2"		"73B4522BB588194576122023DBA1F0DE"
+				}
+			}
+		}
+		"213792"
+		{
+			"name"		"MCarlson test 2"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8272004762045271812"
+			}
+			"maxsize"		"307770186"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"64FF65DA6789CDCB7E9CA5F4FBF3F1C5"
+					"encrypted_size_2"		"30F30D5D4FFFBCA560B699355907B7F5"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"C57BA00A9965B90E303D14A99925A087"
+					"encrypted_size_2"		"DCDCD3F04D7BE72C89610A9C634258E9"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"F6842E08ED1CCDBEA89044052741A3D4"
+					"encrypted_size_2"		"B7C912222CCD43B7657F539FA5A8C09D"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"E87B9A8D387885CC5D4B4EBF44461DD5"
+					"encrypted_size_2"		"152B1CA4568D84703201A54671A1BEF0"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"986EB42A8EF4E770A8755FABF34C2A9A"
+					"encrypted_size_2"		"7F5C0E4F3D2F642111388722A7152846"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"6B2D4EF9FCEA57709F911CDA4718B6C5"
+					"encrypted_size_2"		"8A2C0C838FC5EC18F45CFF7DA57BA47F"
+				}
+			}
+		}
+		"213793"
+		{
+			"name"		"MCarlson test 3"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5121927488901116813"
+			}
+			"maxsize"		"163353026"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"A0C7EF0B206B6844F9A09A608E571532"
+					"encrypted_size_2"		"62CDDAE8C1E56FEDC83E1F63B469F721"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"72C58FA42D25BDEDB9B8F69EB2A4B51A"
+					"encrypted_size_2"		"B210A491E508C5DC38AD967D06845113"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"4D1A1FB1301A8BAEA1137816EE720135"
+					"encrypted_size_2"		"8541C1BC4D1B0D97FFF1A27454E2674D"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"5F346A89C83FA36CAA98922B98973F48"
+					"encrypted_size_2"		"3A41B546E4BFE4376F01C7A77C934BE3"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"E64185DB0BE713134D0369A3D1A21015"
+					"encrypted_size_2"		"2B65786EF78284310481E89840E02103"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"E6F3BE427788558E32109A3A9253A922"
+					"encrypted_size_2"		"2BC266A0627C1DB805ABE74337E17460"
+				}
+			}
+		}
+		"213794"
+		{
+			"name"		"MCarlson test 4"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4849813214895076044"
+			}
+			"maxsize"		"171601571"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"38BB3661ADFE2A3A277B500F6703733A"
+					"encrypted_size_2"		"76E34BB438EB1D8C9871F2C4A1872F77"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"03C295D3C804B5B9E8D53DE56BD6CA79"
+					"encrypted_size_2"		"8776644712C5A4D0E53824E1564AF915"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"91E82DBAE96AFE56282BF19B44260DE8"
+					"encrypted_size_2"		"4631879FE6D466BD684C377290DD3281"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"4F7E6930C5FB187ECFB1CA5E24B84EB6"
+					"encrypted_size_2"		"0DD289A4984886A78153682F24E9E6E8"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"A76E4AD57B59802890EAA1ABFDBAB5A6"
+					"encrypted_size_2"		"FB1A6921B8E970570161239B568F9F57"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"628ACA6583295D3EE0FB5884E384B60F"
+					"encrypted_size_2"		"0389349351BF45DEA5633731012AB443"
+				}
+			}
+		}
+		"213795"
+		{
+			"name"		"MCarlson test 5"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5928874017641629248"
+			}
+			"maxsize"		"167616108"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"04BC5E0C066280DF528CB933428CFE95"
+					"encrypted_size_2"		"07DA190BE1D78BEA72602BAD28F6F281"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"82F8F36EBF558D0C4C28A9F31E93B69D"
+					"encrypted_size_2"		"B9F90628FBE54991D3A53373807A0E3E"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"13DF00A26A5467753B74776FD2C515ED"
+					"encrypted_size_2"		"8447F513FB60A313E2342A2D7FB88692"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"F6BA38F4AAECAEC9B23366469EFD1091"
+					"encrypted_size_2"		"EDE209989BBBCC99F7DF3C106DA630F2"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"73091D27208A23BC5F6F11275ED999C8"
+					"encrypted_size_2"		"FB1A6921B8E970570161239B568F9F57"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"5ECE43A00CEE2C0085496CA0FEF74953"
+					"encrypted_size_2"		"6A4AE4A1D65931DD30D1966422414809"
+				}
+			}
+		}
+		"213796"
+		{
+			"name"		"MCarlson test 6"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4251205331174907514"
+			}
+			"maxsize"		"168206742"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"2B0CAB66EBC50FEBB4A0BD04F45F191A"
+					"encrypted_size_2"		"6C60CD38C9D95F0FE0AA5C2F2A0C6401"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"992DD5262136F2FC54940864F5BCE2AA"
+					"encrypted_size_2"		"A35A7DDCDF79FEFBA8C713937F38E300"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"CCBEAA6FEB0E79AF54524567D0E8BACA"
+					"encrypted_size_2"		"7487713F35F555A460F9C185A5D6877D"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"13D6E36AE4D47D13176E2F1E51426BBD"
+					"encrypted_size_2"		"AEE3294D141DA97B544B444248A583FC"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"8BF913279F0B06ABA03222C072B7BFF8"
+					"encrypted_size_2"		"369CA9BCC4ED3F6F3C90E648DE9CF205"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"05EE333E525A10AD8DE794395BB1C39F"
+					"encrypted_size_2"		"C26BD118DD9E6B7C57B5F5F51683C599"
+				}
+			}
+		}
+		"213797"
+		{
+			"name"		"MCarlson test 7"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4209048150577040172"
+			}
+			"maxsize"		"177934100"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"BF5FC02B13F65BD2557BBC20B3E3F9D7"
+					"encrypted_size_2"		"2FAC9EF7323D735F6346ECAB23D0C3DB"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"3946C267CEA9330C32C9B512182E6043"
+					"encrypted_size_2"		"10101455E40C66B6CDA2796F0EEB14BA"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"D7C21EED1D5214CCFC34100FB8E4BDBF"
+					"encrypted_size_2"		"56B243F9F5F7E49E557936D0187B1BFA"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"991657C43C3200AA02A0804757C15252"
+					"encrypted_size_2"		"ADE31C5CE0E9E38E52D008EA1B11D685"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"4AFDF67DAD05640B1F83D7223AC144FA"
+					"encrypted_size_2"		"2B65786EF78284310481E89840E02103"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"E80852D8518F0C012E3AAC528600E96F"
+					"encrypted_size_2"		"B2F7F6A2AF5085CC6D0F762E8E862991"
+				}
+			}
+		}
+		"213798"
+		{
+			"name"		"MCarlson test 8"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1953072088782354776"
+			}
+			"maxsize"		"307770186"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"CCE6723BC4C727610A7D647E6BE24327"
+					"encrypted_size_2"		"30F30D5D4FFFBCA560B699355907B7F5"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"64FAC2B609F991EC2ECB0A83C7179CC1"
+					"encrypted_size_2"		"DCDCD3F04D7BE72C89610A9C634258E9"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"A8F6C9EE9F5C67A204E85D26805378A3"
+					"encrypted_size_2"		"B7C912222CCD43B7657F539FA5A8C09D"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"DC81DB8083C4E9171122A62F11870E31"
+					"encrypted_size_2"		"152B1CA4568D84703201A54671A1BEF0"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"6BFF879CE4A25723A0461DAFC4FD4267"
+					"encrypted_size_2"		"7F5C0E4F3D2F642111388722A7152846"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"2DE456125B6C42AFE5DDF595A118CCC9"
+					"encrypted_size_2"		"8A2C0C838FC5EC18F45CFF7DA57BA47F"
+				}
+			}
+		}
+		"213799"
+		{
+			"name"		"MCarlson test 9"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4179303748497724494"
+			}
+			"maxsize"		"307770186"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"C74719F98DA8B19BB8A4A0C70BCBF5FA"
+					"encrypted_size_2"		"30F30D5D4FFFBCA560B699355907B7F5"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"909DF3421A33621508D7D2CFC486762C"
+					"encrypted_size_2"		"DCDCD3F04D7BE72C89610A9C634258E9"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"B8DF8372A7586C72DDF4A130BE2CD1AD"
+					"encrypted_size_2"		"B7C912222CCD43B7657F539FA5A8C09D"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"7D4A314522A0BF64C317104140D37C70"
+					"encrypted_size_2"		"152B1CA4568D84703201A54671A1BEF0"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"A646F9B0F840DFF0A24A4EE94B9DDDAA"
+					"encrypted_size_2"		"7F5C0E4F3D2F642111388722A7152846"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"C389F9A5F1B1FFFE8BAEA9340E0F48AC"
+					"encrypted_size_2"		"8A2C0C838FC5EC18F45CFF7DA57BA47F"
+				}
+			}
+		}
+		"941171"
+		{
+			"name"		"Mancana Content"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4365188237873498404"
+			}
+			"maxsize"		"10102695555"
+			"encryptedmanifests"
+			{
+				"gamma"
+				{
+					"encrypted_gid_2"		"746557244E433818000AA728255966EC"
+					"encrypted_size_2"		"855760D471B1889838119054820110AB"
+				}
+				"iota"
+				{
+					"encrypted_gid_2"		"B977FD8F7F7EA9B47470C587B3C13F94"
+					"encrypted_size_2"		"C1C291EB2E8D2DDAF61ECDE4EB2C23FA"
+				}
+				"kappa"
+				{
+					"encrypted_gid_2"		"0DE2AB637A7E1BD4A98F35D1B813C8AA"
+					"encrypted_size_2"		"908F489D2F29271FBC6388F5ED41A939"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"30AC4DD561DFA023B4CA2E5CD625983D"
+					"encrypted_size_2"		"03C66024D3B11586EBE0BDC6E14FCAED"
+				}
+				"mu"
+				{
+					"encrypted_gid_2"		"7C76D37D0DB9B30E026D0CEB1BD3010E"
+					"encrypted_size_2"		"C9AC303E6AD19E884AC65EB6137B6543"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"06EF31EFBF744AF0D64D10F7B99D0B3C"
+					"encrypted_size_2"		"5D20F60542BAA901282CF42D8EBD4F69"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"8DB4ED2F7C807EEA60F483C302B1A9F7"
+					"encrypted_size_2"		"47AF99B91A482D64FE4421E2DCBA6672"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"DA76D5F2B89B9C66A6A58A5608A7F5C9"
+					"encrypted_size_2"		"ECC17CB72716D77F09BD099738B173F3"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"6E0B60F56221F807AAE8D8A9F91D4ACE"
+					"encrypted_size_2"		"386F912B10EAFA942462622BC3E98533"
+				}
+			}
+		}
+		"941172"
+		{
+			"name"		"Mancana English"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+		}
+		"941173"
+		{
+			"name"		"Mancana French"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+		}
+		"941174"
+		{
+			"name"		"Mancana German"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+		}
+		"941175"
+		{
+			"name"		"Mancana Italian"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+		}
+		"941176"
+		{
+			"name"		"Mancana Japanese"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+		}
+		"941177"
+		{
+			"name"		"Mancana Spanish"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+		}
+		"941178"
+		{
+			"name"		"Mancana Korean"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+		}
+		"941179"
+		{
+			"name"		"Mancana Traditional Chinese"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+		}
+		"978061"
+		{
+			"name"		"Mancana Anemone Content"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3368069603781823044"
+			}
+			"maxsize"		"1505952294"
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"E98CF4E3C0E4960B42B2BDBBC13E85F0"
+					"encrypted_size_2"		"E7CD0792D30B89FF7C17D6C7C92A391E"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"FC34E67BA55834F2A1C47797E0EF1CBB"
+					"encrypted_size_2"		"755833DE5BEC14E5D1FAA7A94113E770"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"E89E0AD55BFB5E78591704AB7AC175D3"
+					"encrypted_size_2"		"C8FC321B5B7B933456822B0AB147DAA4"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"C4C821B294D9BE654990952DB97FB301"
+					"encrypted_size_2"		"1D804D9BBDECAAA9D354DA0735DE5BF0"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"EA8E77ED856332DB8EA6A81DDDBA815F"
+					"encrypted_size_2"		"22004DF73D7472965CC2AC05F381C1E4"
+				}
+			}
+		}
+		"978062"
+		{
+			"name"		"Mancana Anemone English"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2376033893134469006"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"892D04F5F04EEB308FE08DB13D8318A5"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"05847BDF808939AE1DA5AC0007F0F069"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"AEF874F7577ECE725B0988C395AA05D6"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"985BBB32C592059FA5B6B27B41394AFA"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"C80A7C1EF6DF4267F54DDC8B0840BAB2"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978063"
+		{
+			"name"		"Mancana Anemone French"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6414615086173453643"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"84BC44B1211A607C8D0C0EEBA6363D5C"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"0A470EE770CF4228D9A95412EC85A2B9"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"E08B1EB3EDD0FE5ED0C38A1CB788DC03"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"83DDA08513245D0071D65E7D06D7CAFC"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"A0B3D70DE4F6F487A22CB99D726611C4"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978064"
+		{
+			"name"		"Mancana Anemone German"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8708617800144234883"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"FB881B962FDC9CEC5924305EC7DDBED4"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"D550EE16562C5188093E194B66E149D0"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"375BDDEE3F7D22FBAA0F2EA1CE3492DA"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"5B34A33BEAAA04BF8A280D9C778E426A"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"98EA21F38FC77C1BEA59A6A346096CE4"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978065"
+		{
+			"name"		"Mancana Anemone Italian"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"289732908073265821"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"43BAC9D66022A45C5A3F82CCF74D8D20"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"6D376B2BBB3DEB3BB76D7A3D63D82D67"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"E8121B015D404C2BCD87C964AD906A66"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"DC4DF47A5B93EDA0060B130BF8DAB283"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"D53712A3BE015E486D021AEF0EEAE526"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978066"
+		{
+			"name"		"Mancana Anemone Japanese"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8381545930052926734"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"861D7577DF1A5F6D0D1B4E351D48117B"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"101BB667913262E4839EED57D582A54C"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"227901502C9270E24E5481E350E0A680"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"DA45C4A7C09245432BCFB83CEB3054DB"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"C03326A092CD96BB923C44A18144B04D"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978067"
+		{
+			"name"		"Mancana Anemone Spanish"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"398972067946022607"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"B9204395EB7D884ABC66FAE612F82428"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"DD6ED4D9F4564899349576603CA3DF78"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"BD9F6BF291A07A9DE9C7C6A775B7F886"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"CF62AE1713DC246BDB00363909DD6CE0"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"583C3B2799858B0B0C72FBF72C848A1B"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978068"
+		{
+			"name"		"Mancana Anemone Korean"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4508731052697243810"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"FB7CF889D1E1D68F2FA2FDC24514D928"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"3449301EF02855F220C80C5F134FC51A"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"3D3A52B29892D23076215D91C73C4220"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"AFA0DAA46061BC5FE335355D6DC64F00"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"400000EB6A722AF0E45EDDA165BB333C"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"978069"
+		{
+			"name"		"Mancana Anemone Traditional Chinese"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"9042087544196340526"
+			}
+			"encryptedmanifests"
+			{
+				"iota"
+				{
+					"encrypted_gid_2"		"AFCF1653AE9840C7EA07905DBCABD207"
+					"encrypted_size_2"		"E09F272770B638EE609766B181ED18FE"
+				}
+				"lambda"
+				{
+					"encrypted_gid_2"		"8BCC161B2D42AC3A2249BB2848F4A7D3"
+					"encrypted_size_2"		"A1311763FEC4A3D887A4CD4A4E79514C"
+				}
+				"tau"
+				{
+					"encrypted_gid_2"		"6C11653C4833E5598377377905E0A120"
+					"encrypted_size_2"		"33552635028BDD5AC9D839C7E3DE218D"
+				}
+				"xi"
+				{
+					"encrypted_gid_2"		"C30E3738667C3FA72A3C5B8693236BF1"
+					"encrypted_size_2"		"5B493B190C2074390BC9FA6FE742FB34"
+				}
+				"zeta"
+				{
+					"encrypted_gid_2"		"BACCA0F4FD1D605133119070304F0B13"
+					"encrypted_size_2"		"0AB4BC4D364E33B662C5EC5A9277E3D2"
+				}
+			}
+		}
+		"224147"
+		{
+			"name"		"OSX Orchid Japanese Audio"
+			"dlcappid"		"207870"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7869392458866530363"
+			}
+			"maxsize"		"167726079"
+		}
+		"224148"
+		{
+			"name"		"OSX Iris Japanese Audio"
+			"dlcappid"		"213210"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4010001414636834259"
+			}
+			"maxsize"		"212723677"
+		}
+		"224149"
+		{
+			"name"		" OSX Sage Japanese Audio"
+			"dlcappid"		"213250"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4916601746158975065"
+			}
+			"maxsize"		"126476671"
+		}
+		"224150"
+		{
+			"name"		"OSX Lobelia Japanese Audio"
+			"dlcappid"		"224180"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5963513543925044451"
+			}
+			"maxsize"		"113259583"
+		}
+		"224151"
+		{
+			"name"		"OSX Aster Japanese Audio"
+			"dlcappid"		"218550"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4118228495228416717"
+			}
+			"maxsize"		"187847138"
+		}
+		"224152"
+		{
+			"name"		"OSX Flax Japanese Audio"
+			"dlcappid"		"245890"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6201417092926961927"
+			}
+			"maxsize"		"87171920"
+		}
+		"224153"
+		{
+			"name"		"OSX AlliumTG Japanese Audio"
+			"dlcappid"		"245910"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9136714931126628469"
+			}
+			"maxsize"		"169632187"
+		}
+		"224154"
+		{
+			"name"		"OSX AlliumXmas Japanese Audio"
+			"dlcappid"		"245930"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7130175224222825211"
+			}
+			"maxsize"		"169632187"
+		}
+		"224155"
+		{
+			"name"		"OSX NasturtiumVday Japanese Audio"
+			"dlcappid"		"245950"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1987198000607722068"
+			}
+			"maxsize"		"52467427"
+		}
+		"224156"
+		{
+			"name"		"OSX NasturtiumEaster Japanese Audio"
+			"dlcappid"		"245970"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6253680659179226150"
+			}
+			"maxsize"		"52467427"
+		}
+		"224157"
+		{
+			"name"		"OSX Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"170531482058432203"
+			}
+			"maxsize"		"574336455"
+		}
+		"224178"
+		{
+			"name"		"OSX Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2439148584749385924"
+			}
+			"maxsize"		"558742662"
+		}
+		"224179"
+		{
+			"name"		"OSX Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3534881424996809594"
+			}
+			"maxsize"		"556655058"
+		}
+		"224158"
+		{
+			"name"		"OSX Mancana Content"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6000586705965887507"
+			}
+			"maxsize"		"9588338441"
+		}
+		"224198"
+		{
+			"name"		"OSX Mancana Anemone Content"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2304555106279322856"
+			}
+			"maxsize"		"1505952292"
+		}
+		"224159"
+		{
+			"name"		"OSX MCarlson Content"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5006454141002089920"
+			}
+			"maxsize"		"3456860822"
+		}
+		"224170"
+		{
+			"name"		"OSX MCarlson English"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6360575762517217850"
+			}
+			"maxsize"		"307770186"
+		}
+		"224171"
+		{
+			"name"		"OSX MCarlson French"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7181018686484437901"
+			}
+			"maxsize"		"163353026"
+		}
+		"224172"
+		{
+			"name"		"OSX MCarlson German"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2701302233016787896"
+			}
+			"maxsize"		"171601571"
+		}
+		"224173"
+		{
+			"name"		"OSX MCarlson Italian"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1896578269414670454"
+			}
+			"maxsize"		"167616108"
+		}
+		"224174"
+		{
+			"name"		"OSX MCarlson Japanese"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1061722918326645264"
+			}
+			"maxsize"		"168206742"
+		}
+		"224175"
+		{
+			"name"		"OSX MCarlson Spanish"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3459097871919002372"
+			}
+			"maxsize"		"177934100"
+		}
+		"224203"
+		{
+			"name"		"Linux Orchid Japanese Audio"
+			"dlcappid"		"207870"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224204"
+		{
+			"name"		"Linux Iris Japanese Audio"
+			"dlcappid"		"213210"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224205"
+		{
+			"name"		"Linux Sage Japanese Audio"
+			"dlcappid"		"213250"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224206"
+		{
+			"name"		"Linux Lobelia Japanese Audio"
+			"dlcappid"		"224180"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224207"
+		{
+			"name"		"Linux Aster Japanese Audio"
+			"dlcappid"		"218550"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224208"
+		{
+			"name"		"Linux Flax Japanese Audio"
+			"dlcappid"		"245890"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224209"
+		{
+			"name"		"Linux AlliumTG Japanese Audio"
+			"dlcappid"		"245910"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224210"
+		{
+			"name"		"Linux AlliumXmas Japanese Audio"
+			"dlcappid"		"245930"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224211"
+		{
+			"name"		"Linux NasturtiumVday Japanese Audio"
+			"dlcappid"		"245950"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224212"
+		{
+			"name"		"Linux NasturtiumEaster Japanese Audio"
+			"dlcappid"		"245970"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224213"
+		{
+			"name"		"Linux Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"224196"
+		{
+			"name"		"Linux Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+		}
+		"224197"
+		{
+			"name"		"Linux Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"linux"
+			}
+		}
+		"224214"
+		{
+			"name"		"Linux Mancana Content"
+			"dlcappid"		"941170"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"224199"
+		{
+			"name"		"Linux Mancana Anemone Content"
+			"dlcappid"		"978060"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"224215"
+		{
+			"name"		"Linux MCarlson Content"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"224216"
+		{
+			"name"		"Linux MCarlson English"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+		}
+		"224217"
+		{
+			"name"		"Linux MCarlson French"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+		}
+		"224218"
+		{
+			"name"		"Linux MCarlson German"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+		}
+		"224219"
+		{
+			"name"		"Linux MCarlson Italian"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+		}
+		"224176"
+		{
+			"name"		"Linux MCarlson Japanese"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+		}
+		"224177"
+		{
+			"name"		"Linux MCarlson Spanish"
+			"dlcappid"		"872280"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3902911"
+				"timeupdated"		"1560115703"
+			}
+			"boulder"
+			{
+				"buildid"		"3906478"
+				"description"		"Internal Linux Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560220475"
+			}
+			"boulder_test"
+			{
+				"buildid"		"397202"
+				"description"		"Linux Test Branch"
+				"pwdrequired"		"1"
+			}
+			"delta"
+			{
+				"buildid"		"3759989"
+				"description"		"Anemone : Last stable build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558645040"
+			}
+			"epsilon"
+			{
+				"buildid"		"294764"
+				"description"		"epsilon"
+				"pwdrequired"		"1"
+			}
+			"gamma"
+			{
+				"buildid"		"4177446"
+				"description"		"mancana nightly"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567966795"
+			}
+			"iota"
+			{
+				"buildid"		"3749005"
+				"description"		"Anemone : Portcullis"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555564467"
+			}
+			"kappa"
+			{
+				"buildid"		"3639142"
+				"description"		"mancana stable"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552480645"
+			}
+			"lambda"
+			{
+				"buildid"		"3746069"
+				"description"		"lambda"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555532027"
+			}
+			"local"
+			{
+				"buildid"		"221167"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"mu"
+			{
+				"buildid"		"3605272"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551448022"
+			}
+			"nu"
+			{
+				"buildid"		"325659"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"omega"
+			{
+				"buildid"		"1138525"
+				"description"		"omega"
+				"pwdrequired"		"1"
+				"timeupdated"		"1463770029"
+			}
+			"pi"
+			{
+				"buildid"		"662815"
+				"description"		"pi"
+				"pwdrequired"		"1"
+			}
+			"rho"
+			{
+				"buildid"		"3759989"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556023030"
+			}
+			"riel"
+			{
+				"buildid"		"3710926"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554426181"
+			}
+			"sigma"
+			{
+				"buildid"		"3894352"
+				"description"		"AspyrMac"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559826447"
+			}
+			"staging"
+			{
+				"buildid"		"834711"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"tau"
+			{
+				"buildid"		"4085174"
+				"description"		"Anemone : Merge With Mancana"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565228246"
+			}
+			"xi"
+			{
+				"buildid"		"4177907"
+				"description"		"Mancana Anemone 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567993394"
+			}
+			"zeta"
+			{
+				"buildid"		"3757456"
+				"description"		"Anemone : QA 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555971255"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My games/Borderlands 2/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"profile.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My games/Borderlands 2/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"Save*.sav*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Borderlands 2/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"profile.bin"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"4"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Borderlands 2/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"Save*.sav.bak"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"5"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Borderlands 2/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"Save*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"6"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"aspyr-media/borderlands 2/willowgame/savedata/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

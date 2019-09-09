@@ -1,0 +1,481 @@
+"appinfo"
+{
+	"appid"		"597220"
+	"common"
+	{
+		"name"		"West of Loathing"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"ed108cc3fcf84d00500704b90fa45c3b36bc8f27"
+		"logo_small"		"ed108cc3fcf84d00500704b90fa45c3b36bc8f27_thumb"
+		"clienticon"		"b2241e93b46bf3d60fb19ed4293bcf03c6353b56"
+		"clienttga"		"d83230d73b7efa20ba0ba70c661b77c779271966"
+		"icon"		"bed73c1badc810d57abc437c5dcab94717ae6584"
+		"clienticns"		"cbdeed95f08c8a17b1e480e01d20cd137c5e9de6"
+		"linuxclienticon"		"ad195ab153f192d7bd03ce3925888bd22d0b978c"
+		"metacritic_name"		"West of Loathing"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"44.99417927823052"
+				"height_pct"		"91.41534077416293"
+			}
+		}
+		"store_asset_mtime"		"1561417215"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Asymmetric"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Asymmetric"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1502377282"
+		"metacritic_score"		"87"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/west-of-loathing?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"597220"
+		"store_tags"
+		{
+			"0"		"1719"
+			"1"		"122"
+			"2"		"4136"
+			"3"		"21"
+			"4"		"1647"
+			"5"		"492"
+			"6"		"4182"
+			"7"		"1742"
+			"8"		"1695"
+			"9"		"4711"
+			"10"		"4325"
+			"11"		"3871"
+			"12"		"10397"
+			"13"		"1756"
+			"14"		"6426"
+			"15"		"4747"
+			"16"		"1677"
+			"17"		"1698"
+			"18"		"19"
+			"19"		"1721"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Asymmetric"
+		"publisher"		"Asymmetric"
+		"homepage"		"http://westofloathing.com"
+		"listofdlc"		"686420,696230,954060"
+	}
+	"config"
+	{
+		"installdir"		"West of Loathing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"West of Loathing.app\\Contents\\MacOS\\West of Loathing"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"West of Loathing.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"West of Loathing.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"West of Loathing.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"597222"
+		{
+			"name"		"West of Loathing Content Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"364691644638333687"
+			}
+			"maxsize"		"244356771"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"4BFAA2384CD8962017C1DFEF31508C2B"
+					"encrypted_size_2"		"7F2D601745F4AD4905F5104C3472D7F1"
+				}
+				"safety_branch"
+				{
+					"encrypted_gid_2"		"C2978916BEB39F3FA09B03E3ECFB9081"
+					"encrypted_size_2"		"410890792ECC13D09425CA5E59866128"
+				}
+			}
+		}
+		"597227"
+		{
+			"name"		"West of Loathing Content Windows 32-bit"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"5742897777166756450"
+			}
+			"maxsize"		"238594402"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"B71C42725F654F24747B01F6C9CF0F52"
+					"encrypted_size_2"		"86B396D8D0276A1850B2042D934D8799"
+				}
+				"safety_branch"
+				{
+					"encrypted_gid_2"		"45B88CAF876C5A294A64B61466C92652"
+					"encrypted_size_2"		"E85CFB6B5E6853D095DF5FA653286748"
+				}
+			}
+		}
+		"597221"
+		{
+			"name"		"West of Loathing Content OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6112371706025938018"
+			}
+			"maxsize"		"258185291"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"61E0BB452EB2C17064035448EB8C82AF"
+					"encrypted_size_2"		"BB6ED20E43E745196E6719D1BA1F37A6"
+				}
+			}
+		}
+		"597228"
+		{
+			"name"		"West of Loathing Content Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2393249773425661149"
+			}
+			"maxsize"		"290163163"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"5087BF4A2419D317039BEFB91126CD41"
+					"encrypted_size_2"		"AADAD947EFBF70717FAC496EBE029FF8"
+				}
+			}
+		}
+		"597223"
+		{
+			"name"		"West of Loathing beta Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"819786439536560923"
+			}
+			"maxsize"		"290998155"
+		}
+		"597226"
+		{
+			"name"		"West of Loathing beta Windows 32-bit"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"6859928952985109771"
+			}
+			"maxsize"		"285225867"
+		}
+		"597224"
+		{
+			"name"		"West of Loathing beta OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6607129469714701277"
+			}
+			"maxsize"		"312115350"
+		}
+		"597225"
+		{
+			"name"		"West of Loathing beta Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8290227361230100398"
+			}
+			"maxsize"		"337088300"
+		}
+		"686420"
+		{
+			"name"		"West of Loathing - Horse Armor (686420) Depot"
+			"dlcappid"		"686420"
+			"manifests"
+			{
+				"public"		"4545870147110956346"
+			}
+			"maxsize"		"4"
+		}
+		"696230"
+		{
+			"name"		"West of Loathing OST (696230) Depot"
+			"dlcappid"		"696230"
+			"manifests"
+			{
+				"public"		"1685582729822318733"
+			}
+			"maxsize"		"44601281"
+		}
+		"954060"
+		{
+			"name"		"West of Loathing - DLC 1 (954060) - macOS"
+			"dlcappid"		"954060"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4446886970870220254"
+			}
+			"maxsize"		"58510772"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"A5A9B854D6F3CA7244284E02BBBB7765"
+					"encrypted_size_2"		"B19778FBC8BA4FB2A5F54D42D6CEBA35"
+				}
+			}
+		}
+		"954061"
+		{
+			"name"		"West of Loathing - DLC 1 (954060) - Windows"
+			"dlcappid"		"954060"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8378613971865845990"
+			}
+			"maxsize"		"58510773"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"9677BA7BB10D540BF64B58810C5266A1"
+					"encrypted_size_2"		"DF1559960C4B050187FF6AEAAB26DB3F"
+				}
+			}
+		}
+		"954062"
+		{
+			"name"		"West of Loathing - DLC 1 (954060) - Linux"
+			"dlcappid"		"954060"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1321572064054800732"
+			}
+			"maxsize"		"58510773"
+			"encryptedmanifests"
+			{
+				"extra_safe_branch"
+				{
+					"encrypted_gid_2"		"134255EC3313D3EBB225924CB88132FC"
+					"encrypted_size_2"		"6EAA54FC3A075DD180F0EA63DAE100E7"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4016360"
+				"timeupdated"		"1563807218"
+			}
+			"extra_safe_branch"
+			{
+				"buildid"		"3562329"
+				"description"		"February 2019 branch, older than safety_branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565640924"
+			}
+			"patch_testing"
+			{
+				"buildid"		"4016360"
+				"description"		"Staging branch for testing future patches"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563291283"
+			}
+			"safety_branch"
+			{
+				"buildid"		"3719376"
+				"description"		"This is the previous published build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565654947"
+			}
+			"test_win"
+			{
+				"buildid"		"4016360"
+				"description"		"This branch may fix audio stutter for some Windows users."
+				"pwdrequired"		"1"
+				"timeupdated"		"1563308433"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Asymmetric Software/West of Loathing"
+				"pattern"		"*.jso*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Asymmetric Software/West of Loathing"
+						"replace"		"Asymmetric Software/West of Loathing"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Asymmetric Software/West of Loathing"
+						"replace"		".config/unity3d/Asymmetric Software/West of Loathing"
+					}
+				}
+			}
+		}
+	}
+}
+ 

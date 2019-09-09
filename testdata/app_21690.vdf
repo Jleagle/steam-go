@@ -1,0 +1,443 @@
+"appinfo"
+{
+	"appid"		"21690"
+	"common"
+	{
+		"name"		"Resident Evil 5 / Biohazard 5"
+		"logo"		"e277ab70fff98bb2300a39bf8e2371a746fe50b1"
+		"logo_small"		"e277ab70fff98bb2300a39bf8e2371a746fe50b1_thumb"
+		"clienticon"		"7a854cdf0c43c792e9640fd26e7f40d520031d75"
+		"clienttga"		"a7ce687a51363e7fd3e96fd352570488f1b0bbdd"
+		"icon"		"26108f5caff3638c9f522dd79ee84a12761f373a"
+		"metacritic_url"		"pc/residentevil5"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+		}
+		"type"		"Game"
+		"metacritic_name"		"Resident Evil 5"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+			"koreana"		"header_koreana.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39"
+				"height_pct"		"71"
+			}
+		}
+		"store_asset_mtime"		"1530079361"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Capcom"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Capcom"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Resident Evil"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_9"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1252998000"
+		"steam_release_date"		"1252998000"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/resident-evil-5?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"21690"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1659"
+			"2"		"1685"
+			"3"		"3814"
+			"4"		"1667"
+			"5"		"4508"
+			"6"		"3843"
+			"7"		"21"
+			"8"		"1697"
+			"9"		"3978"
+			"10"		"1774"
+			"11"		"4182"
+			"12"		"3859"
+			"13"		"7208"
+			"14"		"1662"
+			"15"		"4559"
+			"16"		"3841"
+			"17"		"4345"
+			"18"		"4166"
+			"19"		"29363"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Capcom"
+		"gamedir"		"Resident Evil 5"
+		"homepage"		"http://www.residentevil.com/5/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"21691"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"legacykeylinkedexternally"		"1"
+		"hadthirdpartycdkey"		"1"
+		"publisher"		"Capcom"
+		"gamemanualurl"		"https://store.steampowered.com/manual/21690/"
+		"listofdlc"		"352000,352001"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Resident Evil 5"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish,czech"
+		"228981"
+		{
+			"name"		"VC 2005 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"5884085"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"21692"
+		{
+			"name"		"Resident Evil 5 (non-GFWL)"
+			"manifests"
+			{
+				"public"		"1482984638441703084"
+			}
+			"maxsize"		"9040683582"
+			"encryptedmanifests"
+			{
+				"master_capcom"
+				{
+					"encrypted_gid_2"		"33F7C024B824FE8AC0FE359F406BDFDA"
+					"encrypted_size_2"		"CFC153B6F2278431FB0FC2EBDE95C56B"
+				}
+				"master_external"
+				{
+					"encrypted_gid_2"		"8C69F692E1FFD779B3A0C68D9A89BE3E"
+					"encrypted_size_2"		"C664154CF45B137FA71DB92994BB8F12"
+				}
+				"master_merc"
+				{
+					"encrypted_gid_2"		"BCEF4A3F211A43D36E1CC283AC2B09DC"
+					"encrypted_size_2"		"076A6B3D07CC66A5CD749B12F5583534"
+				}
+				"merc_qa_special"
+				{
+					"encrypted_gid_2"		"027BDDCE1EE9976E68016E1454906DCA"
+					"encrypted_size_2"		"75892BA0921CAD56106F4894D74592D6"
+				}
+				"original"
+				{
+					"encrypted_gid_2"		"2CD6AB6E147350EDD8EFB9DBC8C14A44"
+					"encrypted_size_2"		"1CD3EEA8F7C5AF4A19AAE21F360AA1A1"
+				}
+				"submission"
+				{
+					"encrypted_gid_2"		"EF8254F579E23E868BE4B7FA4E4C029E"
+					"encrypted_size_2"		"DE0048FF0BF0EA4AC505CBF30E5D7B69"
+				}
+			}
+		}
+		"352000"
+		{
+			"name"		"Resident Evil 5 - DLC Pack (352000) Depot"
+			"dlcappid"		"352000"
+			"manifests"
+			{
+				"public"		"455789278129163691"
+			}
+			"maxsize"		"5384"
+			"encryptedmanifests"
+			{
+				"original"
+				{
+					"encrypted_gid_2"		"7B86348CD4B2336DFE0D347D19220FEC"
+					"encrypted_size_2"		"1CD3EEA8F7C5AF4A19AAE21F360AA1A1"
+				}
+			}
+		}
+		"352001"
+		{
+			"name"		"Resident Evil 5 - Gold Pack (352001) Depot"
+			"dlcappid"		"352001"
+			"manifests"
+			{
+				"public"		"157854607758045553"
+			}
+			"maxsize"		"5384"
+			"encryptedmanifests"
+			{
+				"original"
+				{
+					"encrypted_gid_2"		"1C7D81E096F5E2B88A7CB2B7C286C9FD"
+					"encrypted_size_2"		"1CD3EEA8F7C5AF4A19AAE21F360AA1A1"
+				}
+			}
+		}
+		"21691"
+		{
+			"name"		"resident_evil_5_content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2911490666295175655"
+			}
+			"maxsize"		"5384"
+			"encryptedmanifests"
+			{
+				"original"
+				{
+					"encrypted_gid_2"		"0AB3B58EC9ECCC61FB4246BE2400FED7"
+					"encrypted_size_2"		"3241E45047438F02BFDD9F0B938F8A23"
+				}
+			}
+		}
+		"21693"
+		{
+			"name"		"resident evil 5 / biohazard 5 Test Depot   "
+			"manifests"
+			{
+				"public"		"2934380619517994476"
+			}
+			"maxsize"		"73104231"
+			"encryptedmanifests"
+			{
+				"exb_db"
+				{
+					"encrypted_gid_2"		"32D600B36DAD628A4EFCD12E005834CB"
+					"encrypted_size_2"		"B9A38DE0CB03594C5FBCF4A3BD284855"
+				}
+				"exb_t"
+				{
+					"encrypted_gid_2"		"9DE57ECCAD300E4BA00FB5A2347493F2"
+					"encrypted_size_2"		"A81A1CBD1FD4C336AA933525A0B806B5"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2471370"
+				"timeupdated"		"1519693569"
+			}
+			"exb_db"
+			{
+				"buildid"		"2463945"
+				"description"		"EXB_DB"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516960174"
+			}
+			"exb_ndb"
+			{
+				"buildid"		"2471370"
+				"description"		"EXB_NDB"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516960184"
+			}
+			"exb_t"
+			{
+				"buildid"		"2463945"
+				"description"		"EXB_T"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516779300"
+			}
+			"final"
+			{
+				"buildid"		"609306"
+				"description"		"ready to release"
+				"pwdrequired"		"1"
+			}
+			"final_backup"
+			{
+				"buildid"		"609306"
+				"description"		"backup of final"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516779739"
+			}
+			"master_capcom"
+			{
+				"buildid"		"598718"
+				"description"		"Master build for Capcom internal"
+				"pwdrequired"		"1"
+			}
+			"master_external"
+			{
+				"buildid"		"598718"
+				"description"		"Master build for Capcom external test"
+				"pwdrequired"		"1"
+			}
+			"master_merc"
+			{
+				"buildid"		"598718"
+				"description"		"Master build for Mercenary QA"
+				"pwdrequired"		"1"
+			}
+			"merc_qa_special"
+			{
+				"buildid"		"572275"
+				"description"		"MS approved"
+				"pwdrequired"		"1"
+			}
+			"original"
+			{
+				"buildid"		"577800"
+				"description"		"original GFWL version"
+				"pwdrequired"		"1"
+			}
+			"submission"
+			{
+				"buildid"		"598718"
+				"description"		"Microsoft submission"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"3"
+	}
+}
+ 

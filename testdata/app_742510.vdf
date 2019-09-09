@@ -1,0 +1,706 @@
+"appinfo"
+{
+	"appid"		"742510"
+	"common"
+	{
+		"name"		"Psikodelya"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"3f06bc3b1d17191a49596bed6f928e219c37fc25"
+		"logo"		"10989657c35fa199fb0ad5c429c22f91f7d82211"
+		"logo_small"		"10989657c35fa199fb0ad5c429c22f91f7d82211_thumb"
+		"icon"		"42ae6b025324876266b35328bf28420e21034b6d"
+		"clienticon"		"a931c63f27bfef5654608d48ef9454b33893ab00"
+		"has_adult_content"		"1"
+		"metacritic_name"		"Psikodelya"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"75.78763127187864"
+				"height_pct"		"79.25531779209507"
+			}
+		}
+		"store_asset_mtime"		"1567944516"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Infinity Green"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Virtual Dungeon"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1565194635"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"742510"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"3839"
+			"2"		"597"
+			"3"		"1664"
+			"4"		"1714"
+			"5"		"4182"
+			"6"		"1710"
+			"7"		"1756"
+			"8"		"4305"
+			"9"		"6650"
+			"10"		"13782"
+			"11"		"1654"
+			"12"		"5537"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Infinity Green"
+		"publisher"		"Virtual Dungeon"
+		"listofdlc"		"1060200,1147230"
+	}
+	"config"
+	{
+		"installdir"		"Psikodelya"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Psikodelya.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229002"
+		{
+			"name"		".NET 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"50450161"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"1"
+		"742511"
+		{
+			"name"		"Depot Psikodelya"
+			"manifests"
+			{
+				"public"		"6157616990583136790"
+			}
+			"maxsize"		"1528516074"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4103161"
+				"timeupdated"		"1565747782"
+			}
+			"alpha"
+			{
+				"buildid"		"4103161"
+				"description"		"Alpha default branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567941597"
+			}
+			"beta"
+			{
+				"buildid"		"4103161"
+				"description"		"Beta default branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567941610"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Psikodelya_Data/Data/SavedGame"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"arabic"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"bulgarian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"schinese"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"tchinese"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"czech"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"danish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"dutch"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"english"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"finnish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"greek"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"hungarian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"italian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"japanese"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"koreana"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"norwegian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"polish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"portuguese"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"brazilian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"romanian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"russian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"spanish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"latam"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"swedish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"thai"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"turkish"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"ukrainian"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+			"vietnamese"
+			{
+				"tokens"
+				{
+					"#generic"		"Going crazy..."
+					"#hub"		"HUB Island"
+					"#level01"		"Level 01 - Neon Forest"
+					"#level02"		"Level 02 - Magic Mountains"
+					"#level03"		"Level 03 - Silver Fields"
+					"#level04"		"Level 04 - Acid Blueprint"
+					"#level05"		"Level 05 - Purple Swamp"
+					"#level06"		"Level 06 - Pompeii Chaos"
+					"#level07"		"Level 07 - Planet C20H25N3O"
+					"#level08"		"Level 08 - Madness Maze"
+					"#level09"		"Level 09 - Neon Forest"
+					"#level10"		"Level 10 - Psikodelya"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,539 @@
+"appinfo"
+{
+	"appid"		"646910"
+	"common"
+	{
+		"name"		"The Crew 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"ac5c73ef02bd7187a39c2259b217a4ba4e10f02f"
+		"logo_small"		"ac5c73ef02bd7187a39c2259b217a4ba4e10f02f_thumb"
+		"icon"		"c627b2fa24d61b4042afbd2b183f49b9ca59bc45"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"57c722268a85e86306bd819549c1f8d4e008405b"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"646910_eula_0"
+				"name"		"The Crew 2 EULA"
+				"url"		"http://store.steampowered.com//eula/646910_eula_0"
+			}
+		}
+		"clienttga"		"c3a6671a48427c08942a7f6ea0a2bb515ff513eb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"The Crew™ 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45"
+				"height_pct"		"46"
+			}
+		}
+		"store_asset_mtime"		"1561386630"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ivory Tower"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_20"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1530244800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"646910"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"1695"
+			"2"		"1644"
+			"3"		"3859"
+			"4"		"19"
+			"5"		"128"
+			"6"		"15045"
+			"7"		"1685"
+			"8"		"4182"
+			"9"		"1773"
+			"10"		"599"
+			"11"		"3839"
+			"12"		"1697"
+			"13"		"3843"
+			"14"		"13190"
+			"15"		"4166"
+			"16"		"701"
+			"17"		"21"
+			"18"		"3810"
+			"19"		"4136"
+		}
+	}
+	"extended"
+	{
+		"onquitdemomsg"		"https://steamstore-a.akamaihd.net/message/7321197544164694031/"
+		"developer"		"Ivory Tower"
+		"publisher"		"Ubisoft"
+		"homepage"		"http://thecrew-game.com"
+		"listofdlc"		"702230,702240,702250,702440,702450,702460,889870,889871,889872,889880,889890,999420,999421,1075340"
+	}
+	"config"
+	{
+		"installdir"		"The Crew 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheCrew2.exe"
+				"arguments"		"-uplay_steam_mode"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"999420"
+				}
+			}
+			"1"
+			{
+				"executable"		"TheCrew2.exe"
+				"arguments"		"-upc_steam_free_package_id 14213 -uplay_steam_mode"
+				"description"		"Free Weekend"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"999421"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1381641743"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"local,patchday1,test,validation"
+				"use_action_block"		"false"
+			}
+			"1571709002"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"milestoneq,patchq2,patchq2m2"
+				"use_action_block"		"false"
+			}
+			"1707632674"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"functionality,milestone,patchq3,patchq3m2,patchq4"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,dutch,arabic,brazilian"
+		"646911"
+		{
+			"name"		"The Crew 2"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6238770505792809810"
+				"local"		"9103930098590162762"
+			}
+			"maxsize"		"40204291114"
+			"encryptedmanifests"
+			{
+				"freeweekend"
+				{
+					"encrypted_gid_2"		"BF62FE76BE2C433F8BCCAA8E5C31738B"
+					"encrypted_size_2"		"05B04B1569E0686E1512053CCEE1F87B"
+				}
+				"functionality"
+				{
+					"encrypted_gid_2"		"0DAB2328287594AECA9C06F59C1186A2"
+					"encrypted_size_2"		"8346048AB6B101B586F03EBA0A8ACFD0"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"415D1EA2CBD59F1B14BCE0F4B50439AE"
+					"encrypted_size_2"		"237C0A127F5A3F3C426CA60B9C57D22F"
+				}
+				"milestoneq"
+				{
+					"encrypted_gid_2"		"BB5AAF88C5DD99A80537798FEDC70BAE"
+					"encrypted_size_2"		"30DE66F124811BEE4827F6EBC670F345"
+				}
+				"milestoney"
+				{
+					"encrypted_gid_2"		"ABC3C5CB3EB7290A6B83427AD6F72D8E"
+					"encrypted_size_2"		"2907A5F052DED84D4A25AB71AE99F138"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"5D36A9A50123F1CED499F1C2531E29F4"
+					"encrypted_size_2"		"B1051925A60158BF7D7138DC7B518D9E"
+				}
+				"nvidia_gfn"
+				{
+					"encrypted_gid_2"		"E2ECA2B39995A9810966C6250804A33B"
+					"encrypted_size_2"		"151A89BF56E953BEC413DFC3D50433C6"
+				}
+				"patchday1"
+				{
+					"encrypted_gid_2"		"84C2B4AAFE810E75391CD0C5EE8F2DA7"
+					"encrypted_size_2"		"F2510B13D66267CE2FCEBB5D5CF35188"
+				}
+				"patchm1"
+				{
+					"encrypted_gid_2"		"3246CDEDB0BAC37B7EBABAB858C6AAED"
+					"encrypted_size_2"		"DD3DEA1EE99B80AEB8ED1F3313CB5757"
+				}
+				"patchq1"
+				{
+					"encrypted_gid_2"		"BA8C78E1273C01411B1EA8B47CD7BA2A"
+					"encrypted_size_2"		"792D78F8889DC0D9110E09239E384C0F"
+				}
+				"patchq1.1"
+				{
+					"encrypted_gid_2"		"C2C27CE1FA2097992278219607FE1779"
+					"encrypted_size_2"		"253D4A82F9A6C44482E9DB0A2582EE30"
+				}
+				"patchq2"
+				{
+					"encrypted_gid_2"		"3E02724229165E43708AD6D4B3586A47"
+					"encrypted_size_2"		"4055819F03AC26C75EF3DAFED7543538"
+				}
+				"patchq2m1"
+				{
+					"encrypted_gid_2"		"F99A19F4AF3D2060D73F850FCF9D985A"
+					"encrypted_size_2"		"5DFB5446229F4A3F582310A1CF9EFCDC"
+				}
+				"patchq2m2"
+				{
+					"encrypted_gid_2"		"33AF345EFD7161664B963B18692E9C2D"
+					"encrypted_size_2"		"4574B4CFE1649C9577316DA0EBCFEC75"
+				}
+				"patchq3"
+				{
+					"encrypted_gid_2"		"ED68D12A4A77BCB03B9CC025F45FBCD8"
+					"encrypted_size_2"		"09A3326587937C3568CCB9B91B1C4D1C"
+				}
+				"patchq3m2"
+				{
+					"encrypted_gid_2"		"73FB34EF1492FC21FD419F6D75467D0E"
+					"encrypted_size_2"		"37654256CE2374B3F2D43AF0C8517E89"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"BBD69BA8A3C9159EB9A8E39DC6212488"
+					"encrypted_size_2"		"AB76A03F54BC81FECA0E22E50878C9BF"
+				}
+				"validation"
+				{
+					"encrypted_gid_2"		"BEA32E7CFDBAB5056D7E44B2240A8A7F"
+					"encrypted_size_2"		"88E59A6E40E40BFEDDAE7FA5717513DF"
+				}
+			}
+		}
+		"646912"
+		{
+			"name"		"The Crew 2 Test Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid_2"		"D5A0778AB4B76DA32D8F34755756172D"
+					"encrypted_size_2"		"FAD467B5778D9703760263CEC75CB171"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3984263"
+				"timeupdated"		"1563352106"
+			}
+			"freeweekend"
+			{
+				"buildid"		"3262905"
+				"description"		"For FreeWeekend Test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541757987"
+			}
+			"functionality"
+			{
+				"buildid"		"3863882"
+				"description"		"For functionality team"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559108078"
+			}
+			"local"
+			{
+				"buildid"		"2195508"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1507885360"
+			}
+			"milestone"
+			{
+				"buildid"		"4177955"
+				"description"		"Milestone Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567998859"
+			}
+			"milestoneq"
+			{
+				"buildid"		"3487138"
+				"description"		"MilestoneQ Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548072288"
+			}
+			"milestoney"
+			{
+				"buildid"		"4164873"
+				"description"		"MilestoneY Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567566001"
+			}
+			"nvidia"
+			{
+				"buildid"		"2817234"
+				"description"		"For Gforce test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1527770598"
+			}
+			"nvidia_gfn"
+			{
+				"buildid"		"3486012"
+				"description"		"Nvidia GFN Patches"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555075873"
+			}
+			"patchday1"
+			{
+				"buildid"		"2817234"
+				"description"		"Patch Day 1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1527647433"
+			}
+			"patchm1"
+			{
+				"buildid"		"2950970"
+				"description"		"PatchM1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531793349"
+			}
+			"patchq1"
+			{
+				"buildid"		"3099650"
+				"description"		"Patch Q 1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536285883"
+			}
+			"patchq1.1"
+			{
+				"buildid"		"3143056"
+				"description"		"Patch Q1.1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537500114"
+			}
+			"patchq2"
+			{
+				"buildid"		"3329809"
+				"description"		"	Patch Q 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542854212"
+			}
+			"patchq2m1"
+			{
+				"buildid"		"3367916"
+				"description"		"PatchQ2M1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543999125"
+			}
+			"patchq2m2"
+			{
+				"buildid"		"3486012"
+				"description"		"PatchQ2M2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548038344"
+			}
+			"patchq3"
+			{
+				"buildid"		"3769045"
+				"description"		"patchQ3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556211243"
+			}
+			"patchq3m2"
+			{
+				"buildid"		"3863882"
+				"description"		"patchQ3M2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559031248"
+			}
+			"patchq4"
+			{
+				"buildid"		"3984263"
+				"description"		"PatchQ4"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562307237"
+			}
+			"test"
+			{
+				"buildid"		"2488189"
+				"description"		"LT"
+				"pwdrequired"		"1"
+				"timeupdated"		"1517481007"
+			}
+			"validation"
+			{
+				"buildid"		"2670872"
+				"description"		"Validation"
+				"pwdrequired"		"1"
+				"timeupdated"		"1523348062"
+			}
+		}
+	}
+}
+ 

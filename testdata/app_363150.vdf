@@ -1,0 +1,2717 @@
+"appinfo"
+{
+	"appid"		"363150"
+	"common"
+	{
+		"name"		"ROMANCE OF THE THREE KINGDOMS XIII"
+		"type"		"Game"
+		"clienticon"		"043737f6307e4c2968c9d5d9bc3ba8e0acae92a7"
+		"clienttga"		"5863f89c9197e8a89003363be19106f2756433bb"
+		"icon"		"3321b77644448420113869545d9a54b1c0fc63c4"
+		"logo"		"536e0393295ece69c78b8a7b3a0962af218c6d2d"
+		"logo_small"		"536e0393295ece69c78b8a7b3a0962af218c6d2d_thumb"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"363150_eula_0"
+				"name"		"Romance of the Three Kingdoms 13 / 三國志13 EULA"
+				"url"		"http://store.steampowered.com//eula/363150_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"name_localized"
+		{
+			"english"		"ROMANCE OF THE THREE KINGDOMS XIII"
+			"japanese"		"三國志13"
+		}
+		"metacritic_name"		"Romance of the Three Kingdoms 13"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"tchinese"		"header_tchinese.jpg"
+			"japanese"		"header_japanese.jpg"
+			"koreana"		"header_koreana.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"30"
+				"height_pct"		"49"
+			}
+		}
+		"store_asset_mtime"		"1468216410"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"KOEI TECMO GAMES CO., LTD."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KOEI TECMO GAMES CO., LTD."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1453881600"
+		"steam_release_date"		"1453942680"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"363150"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"3987"
+			"2"		"599"
+			"3"		"122"
+			"4"		"4182"
+			"5"		"4364"
+			"6"		"4747"
+			"7"		"4947"
+		}
+	}
+	"extended"
+	{
+		"developer"		"KOEI TECMO GAMES CO., LTD."
+		"publisher"		"KOEI TECMO GAMES CO., LTD."
+		"homepage"		"http://www.gamecity.ne.jp/sangokushi13/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/363150/"
+		"listofdlc"		"396430,396431,396432,396433,396434,396435,410300,410301,410302,410303,410310,410311,412350,412351,412352,420460,420461,420462,420463,428500,428501,430340,430341,430342,430343,430344,430345,430346,430347,430348,430349,430350,430351,430352,430353,430354,433420,439790,449010,449011,506800,506801,506802,506803,506804,544570,544571,556800,573570,573580,579530,579531,579532,579533,579534,579535,579536,579537,579538,579539,579540,579541,583630,583631"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Romance of the Three Kingdoms 13"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SAN13Launcher.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"363151"
+		{
+			"name"		"Romance of the Three Kingdoms 13 Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7265179905888010672"
+				"local"		"7616169751287349559"
+			}
+			"maxsize"		"96838715"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F00904E2FCCD3C9895750EC0B1544192"
+					"encrypted_size_2"		"A3E3DDB2D72ABAFCCB6CCEDF15C4D21D"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E872E324266F4C1E1A29589614239788"
+					"encrypted_size_2"		"CA099060161D1755068C7D42FED5566A"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"1AF56F6A2508950803674AFA46BF2AE9"
+					"encrypted_size_2"		"02C3908DD60A607EA8C03BA5AD2E83DB"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"445FBF1C8F4732DFA538C952EC4AC01E"
+					"encrypted_size_2"		"BF5EEB0D23D6D027EBD88E24E4E7F559"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"205FD64B7391D32CB17ED3F85CB674FF"
+					"encrypted_size_2"		"527D881DFC5B73C93767C9440771B2EB"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"2677740ED5608346B618AF4D50D0538E"
+					"encrypted_size_2"		"7265B76B4567E8269AA3EF7496F54E2A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"0923E9BA38B7FDA19B35436E180A0F40"
+					"encrypted_size_2"		"1FD5ED8EC9F08123FB714D0CD1A28237"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"C73311A85CB4727BAB5986418717AEDE"
+					"encrypted_size_2"		"416663EF773B137F3016222A09095119"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"93D98BD1EF8B656A492256C7504C6E08"
+					"encrypted_size_2"		"83A68F28F5E2B882B758A1745839A70B"
+				}
+			}
+		}
+		"363152"
+		{
+			"name"		"Romance of the Three Kingdoms 13 Data Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"830165366455676309"
+				"local"		"3954914762812861553"
+			}
+			"maxsize"		"4872499068"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A25E8E98880838041115A51F0146A4BD"
+					"encrypted_size_2"		"FFBC4725E6882CA74C31C61A84FCCF8E"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"1147B35B1F10F1390FC2F3DAE91A35DD"
+					"encrypted_size_2"		"AEF0862FE87800D19315C6D49D753CE6"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"FAD47EC43A7A6FF1EBD72DE581DB6238"
+					"encrypted_size_2"		"806EEF3F1CC0DDA4C71CFCDEA5ED5170"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"023C8583280F21E0DD1A204F252EA9B9"
+					"encrypted_size_2"		"A0D4140477A9A38A9A019428BE5B16EF"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"7E457069A2051747AB3336ECC7231E63"
+					"encrypted_size_2"		"E0DD39B16B384FB3D36E92FA5F65F718"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"3C1CAE7811A7B2A3247059A3E455E8EA"
+					"encrypted_size_2"		"BE9413C1ACD07533FCF1C239302A4761"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"01EA8D6A2A97B9B2BCC689740A98B531"
+					"encrypted_size_2"		"356ACC7F0ECD4E02610F8477FDD1716B"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"05F4A444D64ABDB41EBA817AEEA439F7"
+					"encrypted_size_2"		"600F5C6972E960CF9041B8EA4668A049"
+				}
+			}
+		}
+		"410300"
+		{
+			"name"		"\"Hyakuman nin no Sangokushi\" Item 1 (410300) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410300"
+			"manifests"
+			{
+				"public"		"102645760437736456"
+				"local"		"7699535186171942432"
+			}
+			"maxsize"		"72"
+		}
+		"363153"
+		{
+			"name"		"Romance of the Three Kingdoms 13 Movie Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7453627684157368538"
+			}
+			"maxsize"		"1746883634"
+		}
+		"396430"
+		{
+			"name"		"RTK13 - Liu Bei Face CG \"YOSHIKAWA RTK\" (396430) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396430"
+			"manifests"
+			{
+				"public"		"6165988261633429011"
+				"local"		"1137441390533156907"
+			}
+			"maxsize"		"691128"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"8B4F57B9DB09912BBF1A5FA664098502"
+					"encrypted_size_2"		"F5F7E16B99D54FDB3CDBBADB5C5EC2A9"
+				}
+			}
+		}
+		"396431"
+		{
+			"name"		"RTK13 - Zhang Fei Face CG \"YOSHIKAWA RTK\" (396431) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396431"
+			"manifests"
+			{
+				"public"		"175642404397020001"
+				"local"		"1773006508800638978"
+			}
+			"maxsize"		"693820"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"465637CDE128AE03D7DA62DBDA7EA5E1"
+					"encrypted_size_2"		"D264D583FF1C6838E10F2E9A01091DC5"
+				}
+			}
+		}
+		"396432"
+		{
+			"name"		"RTK13 - Guan Yu Face CG \"YOSHIKAWA RTK\" (396432) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396432"
+			"manifests"
+			{
+				"public"		"2194586891621538156"
+				"local"		"2786382271316179905"
+			}
+			"maxsize"		"700600"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"B0FD1B030F5094AD4889706906E9CC5D"
+					"encrypted_size_2"		"D3857EFE144038FC5AF297E268FC16E5"
+				}
+			}
+		}
+		"396433"
+		{
+			"name"		"RTK13 - Zhuge Liang Face CG \"YOSHIKAWA RTK\" (396433) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396433"
+			"manifests"
+			{
+				"public"		"1141532774056416913"
+			}
+			"maxsize"		"794188"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"2F8CDEAAF955CC7E6A45F8397EFDF3FA"
+					"encrypted_size_2"		"96A5943BC542010735331FB14D0BE6BF"
+				}
+			}
+		}
+		"396434"
+		{
+			"name"		"RTK13 - Cao Cao Face CG \"DRAMA RTK\" (396434) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396434"
+			"manifests"
+			{
+				"public"		"1537245537549167646"
+			}
+			"maxsize"		"741944"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"89FB9FF4495B7973573EDD581B706AAE"
+					"encrypted_size_2"		"EFE922E95EA2CDDB3482E5B1BF6CFA59"
+				}
+			}
+		}
+		"396435"
+		{
+			"name"		"RTK13 - Zhou Yu Face CG \"DRAMA RTK\" (396435) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"396435"
+			"manifests"
+			{
+				"public"		"6626232638107888381"
+			}
+			"maxsize"		"770744"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"F82533DEFD8FD4E70B1D6A87B4ABC073"
+					"encrypted_size_2"		"EF2389C083A1C0D61B35CB4B183B4666"
+				}
+			}
+		}
+		"410301"
+		{
+			"name"		"\"Hyakuman nin no Sangokushi\" Item 2 (410301) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410301"
+			"manifests"
+			{
+				"public"		"6094417734535758075"
+				"local"		"7545581309565969436"
+			}
+			"maxsize"		"72"
+		}
+		"410302"
+		{
+			"name"		"\"Hyakuman nin no Sangokushi\" Item 3 (410302) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410302"
+			"manifests"
+			{
+				"public"		"7010130568239541823"
+				"local"		"7757417632390211599"
+			}
+			"maxsize"		"72"
+		}
+		"410303"
+		{
+			"name"		"\"Hyakuman nin no Sangokushi\" Item 4 (410303) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410303"
+			"manifests"
+			{
+				"public"		"861335048580390556"
+			}
+			"maxsize"		"72"
+		}
+		"410310"
+		{
+			"name"		"“Hyakuman nin no Sangokushi” Item 5 (410310) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410310"
+			"manifests"
+			{
+				"public"		"2040109027796618626"
+				"local"		"8688336408291204490"
+			}
+			"maxsize"		"72"
+		}
+		"410311"
+		{
+			"name"		"“Hyakuman nin no Sangokushi” Item 6 (410311) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"410311"
+			"manifests"
+			{
+				"public"		"2979762190954335012"
+			}
+			"maxsize"		"72"
+		}
+		"412350"
+		{
+			"name"		"Famitsu Collaboration (412350) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"412350"
+			"manifests"
+			{
+				"public"		"4560394202730542378"
+			}
+			"maxsize"		"1546216"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"10F6918FD285C59B09A73A2B86FF6CBC"
+					"encrypted_size_2"		"6C58D35651065E103D971164D8036D1D"
+				}
+			}
+		}
+		"412351"
+		{
+			"name"		"Lawson Collaboration (412351) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"412351"
+			"manifests"
+			{
+				"public"		"3457578927019747092"
+			}
+			"maxsize"		"763864"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E495D977B18DF4CB29E906C235E60EFE"
+					"encrypted_size_2"		"2223C48A053AEE86F92D05E6C46D9938"
+				}
+			}
+		}
+		"420462"
+		{
+			"name"		"RTK13 – Koji Kikkawa Face CG (420462) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"420462"
+			"manifests"
+			{
+				"public"		"6252774456851475609"
+			}
+			"maxsize"		"733904"
+		}
+		"412352"
+		{
+			"name"		"Additional Scenario – Thirteen Heroes (412352) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"412352"
+			"manifests"
+			{
+				"public"		"5435788686669206022"
+			}
+			"maxsize"		"11282496"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8E2517A17575C2BC522576A7E25019E5"
+					"encrypted_size_2"		"EE60E42DF52B14CE594A1B13D1D7D22B"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"928F7809EA9D08EB17D457311F0896B2"
+					"encrypted_size_2"		"B08B59AF9B186EE16E45F3BBAECB81DF"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"C0182BAC4188FD46C061D9BC451E9EE3"
+					"encrypted_size_2"		"7DF5BED8063C7238CC157388E513BB75"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"B3ECA775CB3CA92787368E4057597421"
+					"encrypted_size_2"		"92049265FD54335D8099D8E55F56A0E9"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"8A8DADE791B08804A73DF8B45B0491EE"
+					"encrypted_size_2"		"B7508CA22C3830FC0E7A60CB2993F50D"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"8EB5E63CFEE1F492B761CE8B6246BEDC"
+					"encrypted_size_2"		"1ED047E9BBFE47F66B3B13C37EDF2A30"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"4A081612B1CE6CCC4342C473D9F151DB"
+					"encrypted_size_2"		"A3FAE157C72288C39ED3F1D27FFCEF4D"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"5557ECDC564543C408BF769B9A9EAB81"
+					"encrypted_size_2"		"B9BEC3F28E6C3ABD9867942025EDD8AB"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"9A49CFE227D39464712A336729AA3726"
+					"encrypted_size_2"		"C06A9845B7AE8263F041C767215F941C"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"07A078AEDC67BC04B15ED5C2F0A0B56A"
+					"encrypted_size_2"		"E49C1F1B2D69B82578FAC8F5448D98AC"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"CE6C6ED7440E22396BF31F37B7E06269"
+					"encrypted_size_2"		"2A5BE9F3CBFFFCB8B8C0B929BE5EC493"
+				}
+			}
+		}
+		"430340"
+		{
+			"name"		"RTK13 - Zhuge Liang Face CG \"YOKOYAMA Comic RTK\" (430340) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430340"
+			"manifests"
+			{
+				"public"		"2658549738116560944"
+			}
+			"maxsize"		"625124"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E135613519D34F46B4E2F55D2F7B31D5"
+					"encrypted_size_2"		"3970023B67E11ED7E7F2AAF0CEB56407"
+				}
+			}
+		}
+		"430345"
+		{
+			"name"		"RTK13 – Officer Data Set 1 (430345) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430345"
+			"manifests"
+			{
+				"public"		"8168157408062100415"
+			}
+			"maxsize"		"25648"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"11E428B8D42F7D1515DC93404F9F713C"
+					"encrypted_size_2"		"2F8A887FDC8850AEC16D97C04759B14B"
+				}
+			}
+		}
+		"430341"
+		{
+			"name"		"RTK13 – BGM Set 1 (430341) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430341"
+			"manifests"
+			{
+				"public"		"2793207314920773367"
+			}
+			"maxsize"		"17402931"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"36CECE8E59FF29A12517C40829EBC9E3"
+					"encrypted_size_2"		"DC9A67E27BCC75CDF4BA83097D76FD16"
+				}
+			}
+		}
+		"430344"
+		{
+			"name"		"RTK13 – BGM Set 4 (430344) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430344"
+			"manifests"
+			{
+				"public"		"7638772214238626160"
+			}
+			"maxsize"		"17269667"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"EA8682F67575E5DC1CFBBE0AF7F3F486"
+					"encrypted_size_2"		"A768CDB25CBED5F023F9E01AF94C85B7"
+				}
+			}
+		}
+		"430342"
+		{
+			"name"		"RTK13 – BGM Set 2 (430342) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430342"
+			"manifests"
+			{
+				"public"		"5282147542874066546"
+			}
+			"maxsize"		"18931761"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"7E5CBB6B0499B9E896A5C851D6646CF5"
+					"encrypted_size_2"		"BA1337DC4739667475CF521F5F6799F9"
+				}
+			}
+		}
+		"430343"
+		{
+			"name"		"RTK13 – BGM Set 3 (430343) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430343"
+			"manifests"
+			{
+				"public"		"7220498565690500820"
+			}
+			"maxsize"		"14727273"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"954DC8D7BA0046BBB0C182960F302F8D"
+					"encrypted_size_2"		"451E9C8E908A1A70B27AC70A8E2C0464"
+				}
+			}
+		}
+		"430347"
+		{
+			"name"		"RTK13 – Officer Data Set 3 (430347) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430347"
+			"manifests"
+			{
+				"public"		"6232886181551967189"
+			}
+			"maxsize"		"22316"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"9CEA1CD6F357CFFB6883900595F3AEEF"
+					"encrypted_size_2"		"A8D0BA792CE0495ACBE235FAC157695F"
+				}
+			}
+		}
+		"430346"
+		{
+			"name"		"RTK13 – Officer Data Set 2 (430346) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"430346"
+			"manifests"
+			{
+				"public"		"9099691520926336136"
+			}
+			"maxsize"		"24404"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"0AF48CF976969C7EF456155463FEEC97"
+					"encrypted_size_2"		"484859D63CCA2FE1CE3ED4BBE5B4236B"
+				}
+			}
+		}
+		"428500"
+		{
+			"name"		"RTK13 - Additional Scenario - Punitive Expedition to Lu Bu (428500) Depot"
+			"dlcappid"		"428500"
+			"manifests"
+			{
+				"public"		"1795378877484615897"
+			}
+			"maxsize"		"11277536"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"D29C6BDC3D4E0589416FFF36647E3B50"
+					"encrypted_size_2"		"401984C5CAB530FEDDA5D4C08A2B11F4"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"A8CD03CF8AED1CE1F2290E18CEB6A1D9"
+					"encrypted_size_2"		"E98D81277053CE9ECB313F521CAB49F4"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"B0AEA6E84AF165F42B000BC9F13A9CFE"
+					"encrypted_size_2"		"72063C2658DF9A33187615FA6B054B7F"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"CB2F0728463723BA2477D85314FB4DDB"
+					"encrypted_size_2"		"76D6C411FD474BB62745C48B17F3E59F"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"6FCA388DEFACDD2EAD14E76758EEFAF4"
+					"encrypted_size_2"		"CBD28009BD6B3C7F2FC81EB27B99D5D6"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"0C1A4D5F710DF18D32ED047B571E6EA5"
+					"encrypted_size_2"		"BF3A87886B2999C80E2F980F4A654582"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"CE81691CAF19BEB483B534CD983AC66C"
+					"encrypted_size_2"		"C320F6F454777548052FDBE40622D8AC"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"EC2A59D85F6EF313E19F0E61238F3AA4"
+					"encrypted_size_2"		"0579FA084E9CA54681FF772CF03199AB"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"DCFA53411D26ED6DC71459F0BC13697F"
+					"encrypted_size_2"		"CB57900A78C720DB6B86ABA0F34BC663"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"7820E49A6236B9756880F8CC0FB626E8"
+					"encrypted_size_2"		"2831DB279D8C8C5B4943711C0A0F8DF0"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"B932A1B0CE9770DDDE6CF03BBCC649E5"
+					"encrypted_size_2"		"E43BCC185B8CE25A467B828E0F7B6F2B"
+				}
+			}
+		}
+		"428501"
+		{
+			"name"		"RTK13 - Additional Scenario – Battle of Red Cliffs (428501) Depot"
+			"dlcappid"		"428501"
+			"manifests"
+			{
+				"public"		"2055256901769922210"
+			}
+			"maxsize"		"11281144"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F8E8A1AA0BE8E6C86F98167C92798AEF"
+					"encrypted_size_2"		"D11C580657FFF257F9E94E7D52552EC5"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E3C6F52DC92CDC84CC3C9D5DE5A168B2"
+					"encrypted_size_2"		"E1D3C74582D73B7E4E4BE1BC29BE1170"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"53296E366846DD21FB1AE561F93742C6"
+					"encrypted_size_2"		"1EFC37E2AEC2C816EAB139BF08235ED1"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"9E3770738958A0A1EBD007BEB71F9EA5"
+					"encrypted_size_2"		"8D7C6A6CEB37A38F4434495C93182DCA"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"65B74EFB609A9CBF07AFD9F1F3496A76"
+					"encrypted_size_2"		"BB7B834FCC55B56FF57E9DEF96953A41"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"674DE64FD0CF60167448A66833047A50"
+					"encrypted_size_2"		"78F1F0BA29E757B4CBA1D95035D01062"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"622FD230F3D30589F7757E24EAEF3286"
+					"encrypted_size_2"		"75A9095AF107E889BC05C8B5EEF1842B"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"ACA90841E59CAF6FE34E93FD2CBD61DC"
+					"encrypted_size_2"		"752368800B1DBB62FA6C5555241DB9AD"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"93FC2B2DB6CA5929A128EC3AA21752E9"
+					"encrypted_size_2"		"0335665CAD40CD6246A7ABCB550FA22F"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"FED7498620808DC07CBE88315F48BF34"
+					"encrypted_size_2"		"4FC8DEA39A46066B1E1BFCFE3CB802C1"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"6B2D8F38789190732298D33296A8FFBF"
+					"encrypted_size_2"		"2F6F6FB1375383C7A528C3748ED32DD0"
+				}
+			}
+		}
+		"430348"
+		{
+			"name"		"RTK13 – Hero Set 1 (430348) Depot"
+			"dlcappid"		"430348"
+			"manifests"
+			{
+				"public"		"5031990618006174350"
+			}
+			"maxsize"		"6716928"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F032C4196330C1529D3B2FA666EE8966"
+					"encrypted_size_2"		"25224D88AF95EFE06F928616CEB64369"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"3FFB62F8DC0FC29BD2AB919093A65ECD"
+					"encrypted_size_2"		"1D5EA600735EB83516BA32101D8394DB"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"8E624C9AAD4AF2107E1C73F5F1F48A29"
+					"encrypted_size_2"		"34C247A4614FF6C592A04F04D38CD104"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"7EAC8417833CD4C6F5CD63AA446FC158"
+					"encrypted_size_2"		"7C259E70558E822D40ECEC05F87C0759"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"C5E2A1E75BD39B9519940BA7132F2D33"
+					"encrypted_size_2"		"B54AB088968DDCDDF1E4248C1924C407"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"AFD315939D9425C0ACFB268E79329BD5"
+					"encrypted_size_2"		"AF9AFA53F7CCC502A3D6FE83CBE35629"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"40C40C0DC39ADE162AC7F5F4C7389FBA"
+					"encrypted_size_2"		"58BA508FB17DBDC13ED14B92CF86769E"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"9676465DBBB6F994FA15DEDC52432739"
+					"encrypted_size_2"		"425D63EE4BDD59DF2FB39FB0461CC42A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"769B1D98912B2DAE4EE9BDFEC3293330"
+					"encrypted_size_2"		"8EFA35BA641362733EE74BC7A7FF904E"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"779128244BB66592733AD6CB6CF0B2C4"
+					"encrypted_size_2"		"FC48E109AB6373AE9ABCED1070A64050"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"BC727507510791B551E2266D265DCC8C"
+					"encrypted_size_2"		"034A69B53443BCBCAE57D5D9418EF4D9"
+				}
+			}
+		}
+		"430352"
+		{
+			"name"		"RTK13 – Face CG Set 1 (430352) Depot"
+			"dlcappid"		"430352"
+			"manifests"
+			{
+				"public"		"5372036949699365397"
+			}
+			"maxsize"		"9088740"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E040DD67FDEE64A1F676C9E3D7EF8964"
+					"encrypted_size_2"		"9509A10329B9F12A8531C00FB451757A"
+				}
+			}
+		}
+		"430353"
+		{
+			"name"		"RTK13 – Face CG Set 2 (430353) Depot"
+			"dlcappid"		"430353"
+			"manifests"
+			{
+				"public"		"4603644282790005322"
+			}
+			"maxsize"		"7868456"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"A4D9696305230C87DC9FE0CD8286F408"
+					"encrypted_size_2"		"EC1E7400E1686AF6247272F3FBB190AC"
+				}
+			}
+		}
+		"430354"
+		{
+			"name"		"RTK13 – Face CG Set 3 (430354) Depot"
+			"dlcappid"		"430354"
+			"manifests"
+			{
+				"public"		"8954442400863867783"
+			}
+			"maxsize"		"9181644"
+			"encryptedmanifests"
+			{
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"FF18A35711F0F7291860ECB5E0D03195"
+					"encrypted_size_2"		"3AD2B7B8EECA602C2EC1FFB2A83CF80F"
+				}
+			}
+		}
+		"430349"
+		{
+			"name"		"RTK13 – Hero Set 2 (430349) Depot"
+			"dlcappid"		"430349"
+			"manifests"
+			{
+				"public"		"2665965550481737905"
+			}
+			"maxsize"		"214063819"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8F9BDE7F013F45FEF4944D57318B360B"
+					"encrypted_size_2"		"324DEEB60C297A50C092A2AF6B15B23C"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"E95C6CDF55B698668E557BE027EFF6AA"
+					"encrypted_size_2"		"A597DA696B3CCB5C579016B2FD6794F0"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"20A73866FD8C1F79997F002E4FAE418C"
+					"encrypted_size_2"		"83705A2447B1E7D4DE6E25429CF628BD"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"8DC7EC36CDCDECC8CCE4A4C510CCFC56"
+					"encrypted_size_2"		"6E43BE7E6404896E963EE03363654D4C"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"F50F0848B0B164690353891DF9A0FE04"
+					"encrypted_size_2"		"3789CDF5ADB9F42D0B455E84FAF487B4"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"7A01AA75BA09B60E649F5B6A15964CBD"
+					"encrypted_size_2"		"8B852FADB498A368BA6861BA97C3E66D"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"3BBC364FA609BAC4244FD4258642FD52"
+					"encrypted_size_2"		"910B21975A7DC8257F81E3C0FC43B9F3"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"F153D5EC330F8C2817EAA69D35FE78E7"
+					"encrypted_size_2"		"0638A2CB9E3BEB30DE8B42C2F1EA5F49"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"7D5B1C2FF23C40B9D30374B649E54E47"
+					"encrypted_size_2"		"980CBADC75F1BEA564E73886551C245B"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"B403BCAB54ED869C12410FEB618A5DB8"
+					"encrypted_size_2"		"EB42D9009C13AB9027E88D36734C2679"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"E28569ED911F4DFE6E9111DD7787FF58"
+					"encrypted_size_2"		"FDB3FEB9143B0C830EE277F7B6E04D42"
+				}
+			}
+		}
+		"430350"
+		{
+			"name"		"RTK13 - Hero Mode Additional Stage Set 3 英傑伝追加ステージセット③ (430350) Depot"
+			"dlcappid"		"430350"
+			"manifests"
+			{
+				"public"		"7736674920540967517"
+			}
+			"maxsize"		"300979205"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F210E0AB4A15D73487E37F024C6DA5AD"
+					"encrypted_size_2"		"A5A6682E25061B835A63CF7728BB0D0D"
+				}
+				"dlc_check"
+				{
+					"encrypted_gid_2"		"5DE5AA44EFFC29CF9A27C3CE7A6EC50E"
+					"encrypted_size_2"		"BDCE20AC19C017B1CFD96CA187B996FE"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"8D382B883C1757E6A739A4C17F93D222"
+					"encrypted_size_2"		"737460ABBBB1D7BF9C0C98AB5F4FA49C"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"CA90324B2FF23272D6FE5B3E6EA5C14E"
+					"encrypted_size_2"		"70072A8185C5F17DE38A3670F854CAA0"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"EC4012D27EB1E07C6970982570D0DA34"
+					"encrypted_size_2"		"BD599397EF66B06B798FC06D09050E82"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"66E04C8985E71B69D5F415A97F6A1E58"
+					"encrypted_size_2"		"135E1F3BF410E872E3D573526C0E76AC"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"2797AD5A0412C0B324176DD53C708968"
+					"encrypted_size_2"		"6886063D15A6584628D5D27E42188500"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"B6C78A79BF5B8FDB37036F1908F12F28"
+					"encrypted_size_2"		"00C47F538E3D3AB0B5CC71BD70B07237"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"0B71A5592B6CCABDB723286776A3D82C"
+					"encrypted_size_2"		"DCE7F459EB44713927437BE06FB374D3"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"318A7D1113B5781DD7537F30F83E3C93"
+					"encrypted_size_2"		"5BF0F8BFF219B51B67348980740AD3AB"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"0D53C3E68749085B9E44D62E3BFC2C6D"
+					"encrypted_size_2"		"8787AC969FC4C204ECBE4441053579C0"
+				}
+			}
+		}
+		"430351"
+		{
+			"name"		"RTK13 - Hero Mode Additional Stage Set 4 英傑伝追加ステージセット④ (430351) Depot"
+			"dlcappid"		"430351"
+			"manifests"
+			{
+				"public"		"2147503278552126081"
+			}
+			"maxsize"		"289100794"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F5EA5E9FDB2C4F2309F36B78E0C6A1A7"
+					"encrypted_size_2"		"2CC78B7889389D882E653780F82555E4"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"51EA33930DF02A50ECFC4FBD70004E93"
+					"encrypted_size_2"		"8A35F61DE1794F3B3C5DB486B85DAD55"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"B00B7B6CE0F4DACB4B5C5E1471C608E0"
+					"encrypted_size_2"		"C4F247EC0D15849767568367D8186056"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"77D02405BCE3B6CF2056E4FE215DA521"
+					"encrypted_size_2"		"C5741B57D57637FA1447BADDC9171C7D"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"46E19737022785C8A5FBF0A824AEB6CC"
+					"encrypted_size_2"		"EEFD271D54F1B21AE27639154CE57E23"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"55615BBCA8F8885EF76D421F822E561D"
+					"encrypted_size_2"		"5D102CE372E19157EA537792DFF58954"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"7C7575DD07DA1D884316060BDA8BCE51"
+					"encrypted_size_2"		"2032F197DE8738237D820CF4E7E2D39D"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"0B39BF5037E8D731F789F4867E286E77"
+					"encrypted_size_2"		"BFB7AA2B7E0CDFE10EC1FB9F5075A4BE"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"53D6875643601515208B2D68C4EBFCAE"
+					"encrypted_size_2"		"D315AA0A82BE00AAD75CE683907D8A76"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"26ACFAA05A9AA1386C7B51FF0AE0A744"
+					"encrypted_size_2"		"ABF4030FF2C26B4BD8F35D6B28B34094"
+				}
+			}
+		}
+		"449010"
+		{
+			"name"		"Zhuge Liang: YOSHIKAWA RTK #2 (449010) Depot"
+			"dlcappid"		"449010"
+			"manifests"
+			{
+				"public"		"8195823386955889522"
+			}
+			"maxsize"		"618596"
+		}
+		"449011"
+		{
+			"name"		"Hiromu Arakawa collaboration (449011) Depot"
+			"dlcappid"		"449011"
+			"manifests"
+			{
+				"public"		"6255705934429147184"
+			}
+			"maxsize"		"1194152"
+		}
+		"433420"
+		{
+			"name"		"RTK13 - Bonus Officer CG “Zhao Yun” 「趙雲」特典武将CG (433420) 個のデポ"
+			"dlcappid"		"433420"
+			"manifests"
+			{
+				"public"		"385133353750761949"
+			}
+			"maxsize"		"870584"
+		}
+		"506801"
+		{
+			"name"		"RTK13 - Officer CG Set 2 歴代武将CGセット１ (506801) 個のデポ"
+			"dlcappid"		"506801"
+			"manifests"
+			{
+				"public"		"2248978189273407310"
+			}
+			"maxsize"		"13369776"
+		}
+		"506802"
+		{
+			"name"		"RTK13 - Officer CG Set 3 (506802) 個のデポ"
+			"dlcappid"		"506802"
+			"manifests"
+			{
+				"public"		"7376520089631651982"
+			}
+			"maxsize"		"12639964"
+		}
+		"506803"
+		{
+			"name"		"RTK13 - Officer CG Set 4 (506803) 個のデポ"
+			"dlcappid"		"506803"
+			"manifests"
+			{
+				"public"		"5294274347556253816"
+			}
+			"maxsize"		"11285848"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"974819259DF8981ABC15512F1E3F372C"
+					"encrypted_size_2"		"EE7D3DFDB956CD3C682FC5EB17C95F9C"
+				}
+				"master_check"
+				{
+					"encrypted_gid_2"		"9ACF419C7068DFD6E191F1AA22983E7F"
+					"encrypted_size_2"		"337E7D4D160C11441B7B1E2B4BB9A014"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"93AB6630A58B3E727840D6729EF5B45A"
+					"encrypted_size_2"		"929A6F93570E2D9D123517A3D90DADFB"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"15D1D2894884964E3C967727B8B9793D"
+					"encrypted_size_2"		"4318320A4821877261F3EDD49099E2D3"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"0EE0219D358DE789EDB0A2B9255271E2"
+					"encrypted_size_2"		"7DDC41D83547D52F4AF31319B5B9505B"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"1DCAB5E95F4CB78CBA93A97D8C27E4AC"
+					"encrypted_size_2"		"770E40E022CF41D80F2CABA6D927DFA0"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"88AC61CFE78208851891857D8731F4BB"
+					"encrypted_size_2"		"5A5437318D86F4B135540115869F35F8"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"5F662D876CDE971C5EEF1062D80626AF"
+					"encrypted_size_2"		"0010DFBCAB505C44A7CEA7867A1F2828"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"287D48AF9F27E065B470E6B6923924A0"
+					"encrypted_size_2"		"E855EE2B39E71EAF8839472F8E2A9DFB"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"4FFDA2FED997DE099F74483B85C9AC2C"
+					"encrypted_size_2"		"483D0815C6835EBF3B71ECF2EDEA8378"
+				}
+			}
+		}
+		"506800"
+		{
+			"name"		"RTK13 - Partner (506800) Depot"
+			"dlcappid"		"506800"
+			"manifests"
+			{
+				"public"		"4098504964628542537"
+				"local"		"1197242003495803244"
+			}
+			"maxsize"		"7053260371"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"57495BE3AF142332E204F99AA8BDBE37"
+					"encrypted_size_2"		"8E0ED36272A0AB463093EB3D90B9E142"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"9782CBCCD766FFFC6C66CD9DF789C6E8"
+					"encrypted_size_2"		"FE8F23C92CA4DDE14BDB52FAB9C9ADA1"
+				}
+				"partner_check"
+				{
+					"encrypted_gid_2"		"CFEB2D362C820565F8F1034855F1E93A"
+					"encrypted_size_2"		"0399ECBBB4AA465B9C3385ED69CEE05F"
+				}
+				"partner_china_check"
+				{
+					"encrypted_gid_2"		"815DA5B4B3F6D5A093C0C68CD917783B"
+					"encrypted_size_2"		"553C47E0982F79B65B7FC11F90573571"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"270AA10D78352564B0509523BB91C2FD"
+					"encrypted_size_2"		"32F84FD9F8D4C4AB65F1CFCA623AEEEF"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"2596BDDDB281F8AD5261A0327994F6A8"
+					"encrypted_size_2"		"CCE9C20424D4A1C6D2D6F48B85774F15"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"C0C5F03FBD3B1B101ACF3839833D9958"
+					"encrypted_size_2"		"5E80EE65F1977B0FFFF73579714953C0"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"D18ECEBC9AB9F38D82BF7353F589DC49"
+					"encrypted_size_2"		"ED1629A2034DAD8EA4115EEC1C2802BC"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"2940CE96D87DC465BCDAAE34B417AA65"
+					"encrypted_size_2"		"867935E944389BDCBDE9A96F53E0C758"
+				}
+				"powerup_kit_check"
+				{
+					"encrypted_gid_2"		"38B8BB6562D384C0844C3DDFC9703E50"
+					"encrypted_size_2"		"71597B4D338F60F50FD0DA4671E6D45C"
+				}
+			}
+		}
+		"556800"
+		{
+			"name"		"RTK13 - Historical simulation game &quot;Romance of the Three Kingdoms&quot; Commemorative Contents 歴史シミュレーションゲーム『三國志』の日 記念コンテンツ (556800) 個のデポ"
+			"dlcappid"		"556800"
+			"manifests"
+			{
+				"public"		"4589241507356539755"
+			}
+			"maxsize"		"7652136"
+		}
+		"573570"
+		{
+			"name"		"RTK13 - Best scenario for \"RTK\" (Japan): \"The Tyrant Returns\" (573570) 個のデポ"
+			"dlcappid"		"573570"
+			"manifests"
+			{
+				"public"		"4821380539202263321"
+			}
+			"maxsize"		"11283576"
+			"encryptedmanifests"
+			{
+				"master_check"
+				{
+					"encrypted_gid_2"		"6146B8BEC22546BC03E76F3BC93B3AD4"
+					"encrypted_size_2"		"93C4050F7BA60A937CA7B589E8B3C639"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"A8A1C4ED42E53DB32C8A7DA12863FEEB"
+					"encrypted_size_2"		"5452580E8A75151078D0DD2F44235364"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"CFDCEA566BE23B8FD318AD9AF682DD35"
+					"encrypted_size_2"		"11B9F149263428616DA03FBDBF67B594"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"FDD1F554E8EAB3EBC49810444829E751"
+					"encrypted_size_2"		"395BDA01F294ABE702E483A5361A237E"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"C87FB4A256D3054102C9809321941092"
+					"encrypted_size_2"		"BFE50EFC2BA02DAA416DF83C081E660A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"76F7C827027AE04BF02C915BFA1DA5F0"
+					"encrypted_size_2"		"24B51B5B180BA916C75967168A02E8E0"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"BFDE790B73EA9150638D1651D8AE6D68"
+					"encrypted_size_2"		"3AAD43E9E368589A5C6A22ECAC1ABEE5"
+				}
+			}
+		}
+		"573580"
+		{
+			"name"		"RTK13 - Best scenario for \"RTK\" (Asia): \"Battle for the Han Court\" (573580) 個のデポ"
+			"dlcappid"		"573580"
+			"manifests"
+			{
+				"public"		"1110548386466106067"
+			}
+			"maxsize"		"11275744"
+			"encryptedmanifests"
+			{
+				"master_check"
+				{
+					"encrypted_gid_2"		"B60A402489BEC67CB9873877C96A7F3D"
+					"encrypted_size_2"		"19FE94E92F4A22095B932B21F695AE47"
+				}
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"29EBAB7FC91CC8EA0264D9F7540A8623"
+					"encrypted_size_2"		"9D40663F810BF580FF7A6140A8EC55A0"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"9D744A36F38373AD991BB98BBA3ECFAE"
+					"encrypted_size_2"		"9F20439CFE998BAA201BB6518B48937A"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"C0015DB013DCC5A0A260F804654695D7"
+					"encrypted_size_2"		"5881BEE390138D7F9656FF875765EFDF"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"1FECFDD0706BE6666D212956DB805A0E"
+					"encrypted_size_2"		"E368C48DA2245648AC94ED5604159E9A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"3285DD38B66E11796D3C56B226C9C6C3"
+					"encrypted_size_2"		"59480D20C4736D89CFAA9090E66AEADD"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"9390C8509A88D32790DFD8118CAA9CB2"
+					"encrypted_size_2"		"817639A77850F4FF70A2DB85107DE732"
+				}
+			}
+		}
+		"506804"
+		{
+			"name"		"RTK13 - Additional Scenario Gorosinko (506804) 個のデポ"
+			"dlcappid"		"506804"
+			"manifests"
+			{
+				"public"		"4654840175536769436"
+			}
+			"maxsize"		"11260928"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"E13E315CEC6C89101C3355018E02C39F"
+					"encrypted_size_2"		"B46B7CAE3CB59F7525EB585F34D9BD13"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"A840870AA4425A74A83F4F61EDF21F79"
+					"encrypted_size_2"		"ED61F20E467AE8F6FE988A3FC19F81EA"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"F351ACB88ECADB36FDDA39F29C9E0EBA"
+					"encrypted_size_2"		"644847545CCACA305BEE17307397664F"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"7FA92A5E456835E85A72B4DA4C407006"
+					"encrypted_size_2"		"4E6BA94075AECA77B91E68FD31E60D08"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"B7982839A87FE7F5B319520EF32F8933"
+					"encrypted_size_2"		"232555058935209504AE5D14857B9C1D"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"88ACF9F40CF25F4C3F8785EED63CF12F"
+					"encrypted_size_2"		"CBFAA695109A62052754C008058B7AB9"
+				}
+			}
+		}
+		"544570"
+		{
+			"name"		"RTK13 - Additional Scenario Kyoi Hokubatsu (544570) 個のデポ"
+			"dlcappid"		"544570"
+			"manifests"
+			{
+				"public"		"3651483594867874371"
+			}
+			"maxsize"		"11239360"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"7BD160CC22C6D8753FC7DAD9A29F0997"
+					"encrypted_size_2"		"69D7F3EB803C8ABE11671E489FCF67FF"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"04AA0D73F4CA7C6D985AD5B517DD9003"
+					"encrypted_size_2"		"B51E49EF97195A448DE9DF24E7869EF8"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"3829D5DE60C4537593650B0678CFE6C1"
+					"encrypted_size_2"		"8D0C1C30F3EE2A656B3C3F23F8BA7866"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"B1BCA561758E32B46D0FB80CB3F2B87B"
+					"encrypted_size_2"		"7C0EFF9FAA98267B455CBC236C6EA3EA"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"B710D2938975F6E715E0B38B11700258"
+					"encrypted_size_2"		"0C5EEEBB0C87F206ACA8718AA4BBC968"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"84AF6DA0794E3356DB8B782D380E4596"
+					"encrypted_size_2"		"44063B6CA8211250B1861895CDFB2D0D"
+				}
+			}
+		}
+		"544571"
+		{
+			"name"		"RTK13 - Additional Scenario Shirikkoku (544571) 個のデポ"
+			"dlcappid"		"544571"
+			"manifests"
+			{
+				"public"		"403541302332074946"
+			}
+			"maxsize"		"11252208"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"43AC5FFF42B48E29A4A7AD890426FEFE"
+					"encrypted_size_2"		"D862D9EB08E027AACCB0409DEB56A00C"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"2909C3949AE6E57A5A117C17BEB2FC9B"
+					"encrypted_size_2"		"A194D4EC28661A88A5CEE3DE563755DC"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"D4E27B0406734E23FBCB2267F9CD4042"
+					"encrypted_size_2"		"F76D759A8D8EF7E9801701EF640C2E8A"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"38E277A7BFF3D53ED0504EC44AADDA6B"
+					"encrypted_size_2"		"183ED4B06445B1CF8EFD928AF9637B94"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"F988EDA81441A0ED5D48609145ADF368"
+					"encrypted_size_2"		"20C369006D677A1D9E2EC8F58756CA4E"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"70BB625532BA1D01E8F251447C57F7E7"
+					"encrypted_size_2"		"66C0ABD23926D007A475CB25025CA086"
+				}
+			}
+		}
+		"579531"
+		{
+			"name"		"RTK13 - RTK Puppet Play Tie-up 1 (579531) 個のデポ"
+			"dlcappid"		"579531"
+			"manifests"
+			{
+				"public"		"5575960305752435563"
+			}
+			"maxsize"		"3002428"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"C41C6DB9C777C26A09D36595EFC3C4B9"
+					"encrypted_size_2"		"461D37AF6FC84A3B5DF9B8D198116675"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"7A80F73204CD2C2C4E7934061CF64B2C"
+					"encrypted_size_2"		"0F5C9A4F155ED4C5EDFE1F72F61D40D3"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"07BA1863FA9FC19F81DC4F1818F28F2E"
+					"encrypted_size_2"		"2CB7C84487E1BC826916954670FE4567"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"53D8CFDB3ABB7A6014A1231517563155"
+					"encrypted_size_2"		"46F5D9D3C4C213FCF2E0D25FF28ED2C1"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"89B65A6C2451A8BC96DCB2DE374971C8"
+					"encrypted_size_2"		"4D04165EC671A58E84B16141CB7BD01E"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"2F1E498670F0CA4385DC4302BB783BDC"
+					"encrypted_size_2"		"3979A372E4B28E26FFE861B28286E69E"
+				}
+			}
+		}
+		"579538"
+		{
+			"name"		"RTK13 - Election Officer 1 (579538) 個のデポ"
+			"dlcappid"		"579538"
+			"manifests"
+			{
+				"public"		"5810484726503072225"
+			}
+			"maxsize"		"1639636"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"9B209490ACC01547701F0F9F21A0C3C5"
+					"encrypted_size_2"		"6B89C19017F3A28DCD192E6034C0A68A"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"5962CC79C7978C48D3F31BA2F83906CE"
+					"encrypted_size_2"		"8137F81F0F6932D2D551E442D640DC27"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"F9F62D5906629A5242C1B3BE6C34B9EB"
+					"encrypted_size_2"		"EA756061B371FDDE0C37616BAC481D7D"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"687DCDEA274384B4BD9BDD34D3C81B75"
+					"encrypted_size_2"		"30747F659526D8D7A4ACB48228D34669"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"D993AF5AD193918C53585C8930503694"
+					"encrypted_size_2"		"177D264CCFF309712C6927FDDBDC1F57"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"D29A6D7EBA84BE3597E03CCFB35B71EB"
+					"encrypted_size_2"		"06D8C325B8939A34AC3D98532CF80244"
+				}
+			}
+		}
+		"579530"
+		{
+			"name"		"RTK13 - Famitsu Tie-up Officer CG (579530) 個のデポ"
+			"dlcappid"		"579530"
+			"manifests"
+			{
+				"public"		"3864986279972172078"
+			}
+			"maxsize"		"715376"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"F8C5B62162D80932F029042387346F58"
+					"encrypted_size_2"		"569E312EA1DDD4F3B03B076D1CBC2EB6"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"33639BA4DD9599797FA4729AA1C4C902"
+					"encrypted_size_2"		"2B0E09409EEDB90C368FC230FFAF8F3B"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"85F829D42CE7EFACE973E200F00544FA"
+					"encrypted_size_2"		"31CE6D6A88E1466C400F456A73892DCF"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"39C80E634AB32C2C9CD6B608801D7B68"
+					"encrypted_size_2"		"865FB6BC645F98AE270074FEDB78D8DA"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"134211E215FB85BDBDC9BE96825B61B8"
+					"encrypted_size_2"		"85A79A4AA002EBDE697DAEC6E64433B0"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"D32F06A34500F0058F42C4F3FC06893E"
+					"encrypted_size_2"		"30134BE4032177A5329611330096E350"
+				}
+			}
+		}
+		"583630"
+		{
+			"name"		"RTK13 - Additional Event 1 (583630) 個のデポ"
+			"dlcappid"		"583630"
+			"manifests"
+			{
+				"public"		"764549624899867160"
+			}
+			"maxsize"		"48604"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"850F7C01104B0BC9534B0865A0523BF9"
+					"encrypted_size_2"		"DD43E3809A232694654F6FC7C80A9D8D"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"4320E667821B819ACBB1D42FE3222B5A"
+					"encrypted_size_2"		"7E26CCEF0811990EA8F3D4339F5A2481"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"B484E01186FB2E46709F57F5BCE5194F"
+					"encrypted_size_2"		"28EABDBC81449889474126403A1EAFAF"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"B5927CC1C211F3D78ECD509BD32C5384"
+					"encrypted_size_2"		"FD52B33ECD13B41C207BEC974B6B13F8"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"24FBA9510636020C2AF7E9AC0D08940F"
+					"encrypted_size_2"		"396E2A539F043DBBEAEC04DB74B2D0DD"
+				}
+				"partner_release_check"
+				{
+					"encrypted_gid_2"		"E7FF9890326C860271FBB8C32A856D51"
+					"encrypted_size_2"		"F4EC5B51D1880217F22FD2E93F912486"
+				}
+			}
+		}
+		"583631"
+		{
+			"name"		"RTK13 - Additional Event 2 (583631) 個のデポ"
+			"dlcappid"		"583631"
+			"manifests"
+			{
+				"public"		"7771795577624137155"
+			}
+			"maxsize"		"47708"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"4BD316F2104FA65225242271004B1A17"
+					"encrypted_size_2"		"C2F22B211322F444635836F2488076A4"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"8FB1E0851156DCDA952697CAD6F6A5AA"
+					"encrypted_size_2"		"FF23D5D9FB078CE5BE355A1F7C89E952"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"43A1EF0695475829C0DA47EE175F5F25"
+					"encrypted_size_2"		"5AC5301C49852F9DB9332CA69676B07C"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"27148A8A1BB73D3F192C11DDA83EA43B"
+					"encrypted_size_2"		"C03759509308486D795A9FC0788E8210"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"46DF4C340B98D790AA7E9CF691946BA8"
+					"encrypted_size_2"		"EB396F99192FD09ED7AE4F8FC7150BAD"
+				}
+			}
+		}
+		"579532"
+		{
+			"name"		"RTK13 - RTK Puppet Play Tie-up 2 (579532) 個のデポ"
+			"dlcappid"		"579532"
+			"manifests"
+			{
+				"public"		"8296377890872032950"
+			}
+			"maxsize"		"3273556"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"DBA64957ECEA23D3DB75C28D67D8DA5E"
+					"encrypted_size_2"		"41DAAB73F21AFD8D2A9FD3DFFC012AA1"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"3398701FDAD26CC9E4558FB5FD855486"
+					"encrypted_size_2"		"486B1C6E7F8D5283C2517D86568C97E6"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"C7F4D6033675A444F3540987A67353AB"
+					"encrypted_size_2"		"A8BE6ABBCF36C1DF254480EEB38B68BE"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"F83C68E3EC50CF87014C6A65FF5C0F10"
+					"encrypted_size_2"		"4360C5A7E253CC6372D476533102D72A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"B6B6C5958BC4BF1E3217BC8BD8E537CB"
+					"encrypted_size_2"		"31904EDE33C1D886AD576A7C7D04E3EA"
+				}
+			}
+		}
+		"579539"
+		{
+			"name"		"RTK13 - Election Officer 2 (579539) 個のデポ"
+			"dlcappid"		"579539"
+			"manifests"
+			{
+				"public"		"6047741267903915220"
+			}
+			"maxsize"		"1595848"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"29A97318FED6E4055A1C50FEAA882401"
+					"encrypted_size_2"		"A0DE20B9BDD316C27018C1DCDD42F73F"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"67A7AC0A9BEE8F7DBF81BBCB03241C88"
+					"encrypted_size_2"		"86466D8D5DCA2AD321919795D6F27907"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"0848BE70FCCA2EC71E971C5D81F0A229"
+					"encrypted_size_2"		"32003765AA4E2BBD47909AC716951049"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"5AACFA7D62C122BF5609797C1C27F4AF"
+					"encrypted_size_2"		"9A9B5C8D66AC0A4075C04DDF019C15CD"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"99F67F83327DAAC2725D90708F51F7FA"
+					"encrypted_size_2"		"0E96C4F1B09855A7FDF4DFF3E68AE0C8"
+				}
+			}
+		}
+		"583632"
+		{
+			"name"		"RTK13 - Additional Event 3 (583632) 個のデポ"
+			"dlcappid"		"583632"
+			"manifests"
+			{
+				"public"		"3431730740240764085"
+			}
+			"maxsize"		"47324"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"7BAC3411E7D091A1AABC64A0AF8841C0"
+					"encrypted_size_2"		"F3F854A4454C878F4DAC39C0905D7B6B"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"A662B29F186C4FF2246B6FD917605972"
+					"encrypted_size_2"		"A926B413220FC3913F603D1AE07A2961"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"A60C5D82FB1D7D7D36398E08DD0AE0A1"
+					"encrypted_size_2"		"0A57B4166307E91FDC73F195FB010E43"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"0132F4DEF674C6FF8DD1A7C38E06C213"
+					"encrypted_size_2"		"8BB2F5D10800A1C4B666D6F173D6AA1B"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"A102F03EFF41E6561E5FAC235086CC84"
+					"encrypted_size_2"		"C783CB03A3C6BE2CD83145233DA607BB"
+				}
+			}
+		}
+		"579533"
+		{
+			"name"		"RTK13 - RTK Puppet Play Tie-up 3 (579533) 個のデポ"
+			"dlcappid"		"579533"
+			"manifests"
+			{
+				"public"		"4219039234465605057"
+			}
+			"maxsize"		"3319084"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"30B60BB4AA7B95906210D99B34D2212F"
+					"encrypted_size_2"		"7D4D9DAE9674DD67C6FFD7F9FBD279AF"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"0EB59550E1AD0FA22B4FED806FD59052"
+					"encrypted_size_2"		"89EB1F510FCBFD098490531836D05BDD"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"13CFF8E05B753E56A8D889667DCF9BAE"
+					"encrypted_size_2"		"BE38BF4B686CB99F484D9D0DE9F279ED"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"DA367B0628C621626378582F82D37322"
+					"encrypted_size_2"		"4C90AA9A98278F9B8CA5ECEB48E39674"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"F21920085EEC0BEAF6E7AA0CDB1E756E"
+					"encrypted_size_2"		"E738D238B41398BE446C49921119F89C"
+				}
+			}
+		}
+		"579540"
+		{
+			"name"		"RTK13 - Election Officer 3 (579540) 個のデポ"
+			"dlcappid"		"579540"
+			"manifests"
+			{
+				"public"		"8508773925684386562"
+			}
+			"maxsize"		"1639488"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"1BF355AB9F2EDC20DF1C6C4AE2060962"
+					"encrypted_size_2"		"C17E11277BA3234B173B4C1E6DA0E890"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"59014152CC551BC5948FD8959DCC7A5F"
+					"encrypted_size_2"		"FCE13818E3A102A039384FE21E454535"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"4D6CC9AE1845913C0C85FA89370A9C54"
+					"encrypted_size_2"		"017E170058E93AF59DB5B8CA119725A0"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"9EB8AB21E7EE0E4EBE1D935A9C0710B2"
+					"encrypted_size_2"		"C164CA2CD7DD5601CF9EFA901F90FB9A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"8579E0345474EE6C2DCE84D5944FAD63"
+					"encrypted_size_2"		"324CADE917F3F6859901A484ACF9EBB1"
+				}
+			}
+		}
+		"583633"
+		{
+			"name"		"RTK13 - Official added events④, Eiji Yoshikawa \"Lu Bu's Peace\", \"Hero or Coward\" and \"Death of Cao Cao\" 追加特典オリジナルイベント④吉川英治「平和主義者」「雷怯子」「曹操死す」 (583633) 個のデポ"
+			"dlcappid"		"583633"
+			"manifests"
+			{
+				"public"		"1500280013356991017"
+			}
+			"maxsize"		"80840"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"73A6B856B969E08FB4D101BBB4D82DF1"
+					"encrypted_size_2"		"29222CA8FC96ED7BE3FA372BE038B7ED"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"0BFF98672D43683B754D8B7C264083A7"
+					"encrypted_size_2"		"BDC6DBA3C4167453B5C7B26E5033C6B8"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"4A6467E59B4FA6794362F76C10713B2B"
+					"encrypted_size_2"		"CC8F725FC6FC066995C255B6ED135834"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"7CB78BD732895690EB1D9BC93678F0D7"
+					"encrypted_size_2"		"A47525E421C1E36B576661E2E5808D19"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"64837914E670AD91C3C5147C8F462E38"
+					"encrypted_size_2"		"DB1C012F4902FA8CA15DB757CAAB16CD"
+				}
+			}
+		}
+		"579534"
+		{
+			"name"		"RTK13 - Tie-up with Kihachiro Kawamoto's &quot;Sanguozhi&quot; Dolls Officer Graphic Set ④ 川本喜八郎 三国志人形タイアップ武将CGセット④ (579534) 個のデポ"
+			"dlcappid"		"579534"
+			"manifests"
+			{
+				"public"		"750242051845771544"
+			}
+			"maxsize"		"4938432"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"B475459BA1FF8650F7F609681E315218"
+					"encrypted_size_2"		"9B6594386828DBB7436A1825400028C0"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"7C53DEDE92B4CB5F725DAEDF79DD042B"
+					"encrypted_size_2"		"B262617CD6E9095213A85450D1F57F6C"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"039A73C2B5310EDA2111FDC0299682F2"
+					"encrypted_size_2"		"525DF42B6A49D4285FA2F166A96F35BA"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"EE6E4AADB52BBFEECA2993379A585119"
+					"encrypted_size_2"		"45643327537315290FAF9744982DC64B"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"92478B310B16775F44778BAE62F84886"
+					"encrypted_size_2"		"668FC6395965084E51F2220B1ABD3A4A"
+				}
+			}
+		}
+		"579541"
+		{
+			"name"		"RTK13 - Fan selected Re-Releases Officer Graphic Set ④ ファンが選ぶ復刻武将CGセット④ (579541) 個のデポ"
+			"dlcappid"		"579541"
+			"manifests"
+			{
+				"public"		"6026280794033177700"
+			}
+			"maxsize"		"1538368"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"401B4401A3645D2738A7A3EA0F96E1F4"
+					"encrypted_size_2"		"9511FCB720CB67119ECAEA56A6B4F7EF"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"8DC4A98629F98B54009F755744C30A1A"
+					"encrypted_size_2"		"3E62FEC452B082EEA96D2B7E71C45127"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"02BB0A206C8EFEC6A81FEA61A099FFB6"
+					"encrypted_size_2"		"D6CDD95AB888048DF2784F12B2FBC9AE"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"881AE9790A358899CC083F21F97427C2"
+					"encrypted_size_2"		"9DAE323B35A78B077100BC753E22CE50"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"8692E636934026881D1A21D1519AC8DF"
+					"encrypted_size_2"		"AB75F5BFBC2F5A3C6CC93834608DAA2D"
+				}
+			}
+		}
+		"589700"
+		{
+			"name"		"RTK13WPK - 100 mannin sangokushi (589700) 個のデポ"
+			"dlcappid"		"589700"
+			"manifests"
+			{
+				"public"		"3579746478710468394"
+			}
+			"maxsize"		"7047424"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"407D86050C11230C241F82C384F3A37D"
+					"encrypted_size_2"		"36B75F49DE1271CD9277E91F9A422F89"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"26A7BFEAD8C3AAD2F3DB7D397B7813FB"
+					"encrypted_size_2"		"8EA6D2DA7DE904C0663DE9E3CA480AEB"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"669FE939BD91D8B83C7647861AE0BFF1"
+					"encrypted_size_2"		"C44B61A6D6C4C8F9453C7DD7CEFF78DD"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"CBEA575F077FBF5DFA9D3B9F253AD281"
+					"encrypted_size_2"		"4176B86495A22454DC6C0C5B432918D4"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"68FE8190278E9DDDB52B83B6C521D304"
+					"encrypted_size_2"		"8B59DF389A2A27AE880F1F3A1F968CCE"
+				}
+			}
+		}
+		"583635"
+		{
+			"name"		"RTK13WPK - Old Officer Set (583635) 個のデポ"
+			"dlcappid"		"583635"
+			"manifests"
+			{
+				"public"		"674970801020269357"
+			}
+			"maxsize"		"3896236"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"0E469427F51A104EC6A3C0F6D746206D"
+					"encrypted_size_2"		"75DAE64B5A87AB8D10229AAC127A557B"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"544F6CAC9065B26D98F272C3BF773E3F"
+					"encrypted_size_2"		"5140129832AD70F86AE88302D89FCC10"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"21204D6F7A8EB1B3E0208F82ED53F201"
+					"encrypted_size_2"		"ED2B37E73E6E2F2EF26AF839382FB55B"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"9A6064513A2F271778C3EDD0750CD025"
+					"encrypted_size_2"		"CB155474075D540B0BEA6D582DF8CB65"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"2CE6054069C35A4BF8E684565622CA88"
+					"encrypted_size_2"		"9CF26E15649A19522D0DD972A1BD8530"
+				}
+			}
+		}
+		"579536"
+		{
+			"name"		"RTK13WPK - RTK Puppet Play Tie-up 6 (579536) 個のデポ"
+			"dlcappid"		"579536"
+			"manifests"
+			{
+				"public"		"2635893240729442766"
+			}
+			"maxsize"		"3200032"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"D128EA2FFFAF63AEAE29D5C95D646141"
+					"encrypted_size_2"		"D28731879191FC34D18D6C943ED82383"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"0FB70FF969D36039FDF38AD5A8647475"
+					"encrypted_size_2"		"9986FD68C36A7A2D0922EC22A34869E7"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"E4848D91B6D5334710EC26CF7C946520"
+					"encrypted_size_2"		"7F9553E6480AB4A9C6DF4FC79F95E040"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"27BC3DB8320E3CEB1BBE17BD40AD905E"
+					"encrypted_size_2"		"8B3F4EAFAD39EC22E8DA92B8F7ACB94F"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"BB5DD91A5CA701644D875B556EF776C5"
+					"encrypted_size_2"		"2934BE7EF23C9612BA3F7B38EC001E77"
+				}
+			}
+		}
+		"583634"
+		{
+			"name"		"RTK13WPK - Official added events, \"Trembling of the Tiger\", \"A Man's Dream\", \"The Rivalry of Yang and Lu\" and \"Wife of the Victor\" 追加特典オリジナルイベント⑤「虎の悪寒」「男の夢」「羊陸之交」「覇王の妻」 (583634) 個のデポ"
+			"dlcappid"		"583634"
+			"manifests"
+			{
+				"public"		"8498601283711038576"
+			}
+			"maxsize"		"91188"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"9D8E5C957FFA34DDBAE8DE152555001F"
+					"encrypted_size_2"		"B68BC719EE3C94C8B3CF348B3B0A7449"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"6D9C3D73A08FE80D4AF164FE8AA92292"
+					"encrypted_size_2"		"385ED47315BDB93E0993CC9490180A9A"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"31A8A59F1FC8A8C98FC06FECB8E1CA23"
+					"encrypted_size_2"		"C8AE319BCFFD7A475A5236F68B62B6D6"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"7DF109317DEB5E30140E40293F81E803"
+					"encrypted_size_2"		"C44DCEFD42511300F61C14DEBA45EE8A"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"9D00F9346A83032E57CFFBEEE3D46CA8"
+					"encrypted_size_2"		"53F0773470C2225B36D5DA8E8E9F56BB"
+				}
+			}
+		}
+		"579535"
+		{
+			"name"		"RTK13WPK - Tie-up with Kihachiro Kawamoto's \"Sanguozhi\" Dolls Officer Graphic Set ⑤ 川本喜八郎 三国志人形タイアップ武将CGセット⑤ (579535) 個のデポ"
+			"dlcappid"		"579535"
+			"manifests"
+			{
+				"public"		"3778889701034211166"
+			}
+			"maxsize"		"3235120"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"2C7720D31BAFB05EE8BA8174C8C36128"
+					"encrypted_size_2"		"7BF4EEDF7C3CA1D562215A5A747E9054"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"9AB7D652DFB27C13473DC8B8DB1AA742"
+					"encrypted_size_2"		"81018583E846FF0910C47EF2064A1543"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"0D31F9FB9077F428A4FA02303C68288D"
+					"encrypted_size_2"		"0F2DEA6E0A91DA8C891EF9E9B4FC10EF"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"09A5527A037BB5881F73997FBEBCD218"
+					"encrypted_size_2"		"03637B278D825756130AF06E9E564922"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"1263A01CD472C8D52A83ADEA8901ABC8"
+					"encrypted_size_2"		"4F49A78D927A621975085C70118A4DBE"
+				}
+			}
+		}
+		"579537"
+		{
+			"name"		"RTK13WPK - Tie-up with Kihachiro Kawamoto's \"Sanguozhi\" Dolls Officer Graphic Set ⑦ 川本喜八郎 三国志人形タイアップ武将CGセット⑦ (579537) 個のデポ"
+			"dlcappid"		"579537"
+			"manifests"
+			{
+				"public"		"1896786315975103082"
+			}
+			"maxsize"		"3271972"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"57E6007D53D75521D9F6D46AE9684806"
+					"encrypted_size_2"		"B0FD9A4BA2A3140B2559AEE9FDFF7711"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"2484CE02898E4E504FEE4CB1330A8D0A"
+					"encrypted_size_2"		"B5B347FC967A2C78AC70B50200AC7915"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"B0A4982D8B2E3DEFC3F65E3EEC272C56"
+					"encrypted_size_2"		"60F2B52B8C0D1E7A1C91A79B46A42154"
+				}
+				"partner_english_check"
+				{
+					"encrypted_gid_2"		"2A06AC61C84BFE3A9292A7AD6CB15B8E"
+					"encrypted_size_2"		"902A7657D0BAA3597AD7232A6469E52F"
+				}
+				"partner_patch_test"
+				{
+					"encrypted_gid_2"		"A5604B83B36CDBE45A4C71395CD61639"
+					"encrypted_size_2"		"61DB25BA73BDC99A84332B4B7592A331"
+				}
+			}
+		}
+		"612860"
+		{
+			"name"		"RTK13WPK - Collaborative set with Sangokushi Taisen (612860) 個のデポ"
+			"dlcappid"		"612860"
+			"manifests"
+			{
+				"public"		"8613375377866922182"
+			}
+			"maxsize"		"25089764"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"86413BF706D7504DB0ABE0F5460ECDF3"
+					"encrypted_size_2"		"5DB394FC363BD753B9584E16853A7699"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"9074A0F492ADDFD274B7709A4A821E11"
+					"encrypted_size_2"		"1F68AEF42380BF290CBEB4A313B9635E"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"BFFDF18F4B90A48B878712D886655E56"
+					"encrypted_size_2"		"8B7C658C1B3C7268962380D19D53CEF2"
+				}
+			}
+		}
+		"648113"
+		{
+			"name"		"RTK13WPK - Office CG Lu Bu (648113) 個のデポ"
+			"manifests"
+			{
+				"public"		"6134802669168152136"
+			}
+			"maxsize"		"1363764"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"FB3ED36358B57E5F50826DDE0C50AF2C"
+					"encrypted_size_2"		"73C168FBC990BD3881C35D2DCED2FC57"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"3765800AF9635282A70C069DAFFE8A90"
+					"encrypted_size_2"		"D855F918757005D5482EF585AA860AAE"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"FF6FCA86F52ECC217A110AC634634507"
+					"encrypted_size_2"		"4A77C088F53D367F001E723AF6FA27E6"
+				}
+			}
+			"dlcappid"		"648113"
+		}
+		"648110"
+		{
+			"name"		"RTK13WPK - Officer CG Set Wei (648110) 個のデポ"
+			"manifests"
+			{
+				"public"		"1182828348147169408"
+			}
+			"maxsize"		"4497368"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"4433C2E9FD010B724A29604E4E773C9B"
+					"encrypted_size_2"		"8DD6C2F206B7A3F1140610FAF39EADA8"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"D32CE30D1B736A426891C787CF8E2E4E"
+					"encrypted_size_2"		"12B0998D12F9A98D98C1E8AEB55E7AE1"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"2EEA5E4F8091081540E06A5F04DC98B3"
+					"encrypted_size_2"		"844E1260F17BEA9E7ED773EFD39A5379"
+				}
+			}
+			"dlcappid"		"648110"
+		}
+		"648111"
+		{
+			"name"		"RTK13WPK - Officer CG Set Shu (648111) 個のデポ"
+			"manifests"
+			{
+				"public"		"5066170884770371135"
+			}
+			"maxsize"		"4465204"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"BF4417ACF20B20EAC39CCD7BD7E8FCF4"
+					"encrypted_size_2"		"783955C53CF0CEBAB387F568E1E4A543"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"90E58D85DFBC16F64BB2EAE4B1A34A9E"
+					"encrypted_size_2"		"92BF91B60E113FDD4F60EA8AEB75CF7C"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"416DA29139EE6DAB9AA7B07A72EAF1B7"
+					"encrypted_size_2"		"6692F60D5BABD5C7B2DFF88D6F9B6384"
+				}
+			}
+			"dlcappid"		"648111"
+		}
+		"648112"
+		{
+			"name"		"RTK13WPK - Officer CG Set Wu (648112) 個のデポ"
+			"manifests"
+			{
+				"public"		"3571796305151379812"
+			}
+			"maxsize"		"4281244"
+			"encryptedmanifests"
+			{
+				"master_disc_jptw"
+				{
+					"encrypted_gid_2"		"D42F016D06DDC99E34671D0BE057F91E"
+					"encrypted_size_2"		"9E60D4E2D16EC584AF33963940DC6B93"
+				}
+				"partner_dh_check"
+				{
+					"encrypted_gid_2"		"B853FF0BBAF61AF00B40C77C0798E672"
+					"encrypted_size_2"		"AD4C992634ED9A617515812E07394F15"
+				}
+				"partner_dlc_check"
+				{
+					"encrypted_gid_2"		"9144FA02A14062EC52D833F09D92B2BE"
+					"encrypted_size_2"		"9EBBA82F53F32848CC96C8A23272DFF5"
+				}
+			}
+			"dlcappid"		"648112"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2081243"
+				"timeupdated"		"1506387723"
+			}
+			"baseline"
+			{
+				"buildid"		"2054902"
+				"description"		"pk build buranch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1503312231"
+			}
+			"dlc_check"
+			{
+				"buildid"		"1181338"
+				"description"		"for reporter"
+				"pwdrequired"		"1"
+				"timeupdated"		"1465965104"
+			}
+			"local"
+			{
+				"buildid"		"1445761"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1478591861"
+			}
+			"master_check"
+			{
+				"buildid"		"1578500"
+				"description"		"Master Check"
+				"pwdrequired"		"1"
+				"timeupdated"		"1484826822"
+			}
+			"master_disc_jptw"
+			{
+				"buildid"		"2020695"
+				"description"		"baseline for jptw master"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502184812"
+			}
+			"partner_check"
+			{
+				"buildid"		"1660389"
+				"description"		"PK master check"
+				"pwdrequired"		"1"
+				"timeupdated"		"1488259545"
+			}
+			"partner_china_check"
+			{
+				"buildid"		"4179175"
+				"description"		"Check for SC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568033028"
+			}
+			"partner_dh_check"
+			{
+				"buildid"		"1984761"
+				"description"		"Check For DH"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500963625"
+			}
+			"partner_dlc_check"
+			{
+				"buildid"		"1919072"
+				"description"		"PK DLC check"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498554168"
+			}
+			"partner_english_check"
+			{
+				"buildid"		"1919076"
+				"description"		"英語版チェック用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498554220"
+			}
+			"partner_korean_check"
+			{
+				"buildid"		"2081243"
+				"description"		"korean check"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504156948"
+			}
+			"partner_patch_test"
+			{
+				"buildid"		"1776744"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493026656"
+			}
+			"partner_release_check"
+			{
+				"buildid"		"1658461"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1488192412"
+			}
+			"powerup_kit_check"
+			{
+				"buildid"		"1578489"
+				"description"		"public beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1484826613"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"2000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"KoeiTecmo/San13"
+				"pattern"		"*.s13"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"KoeiTecmo/San13"
+				"pattern"		"*.s13pk"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

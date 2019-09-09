@@ -1,0 +1,552 @@
+"appinfo"
+{
+	"appid"		"477160"
+	"common"
+	{
+		"name"		"Human: Fall Flat"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"clienticon"		"f8b14ff5d22ba51dfc3a05b895d469f215a5e5aa"
+		"clienttga"		"5846759317f884abda64b33a87fa8dd96f42bcf2"
+		"icon"		"fbd4c6d6ac04408b9ea582f60dc1593e45ce69ab"
+		"logo"		"45f1ec8149d34a6e72c9c498a401b649e281cade"
+		"logo_small"		"45f1ec8149d34a6e72c9c498a401b649e281cade_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"thai"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+			"ukrainian"		"1"
+		}
+		"clienticns"		"5375372d526b1d303fba2c3d7175c6630acec61a"
+		"linuxclienticon"		"97eb29efa22e5afd3fbc3cf8b560e3393334b2e3"
+		"osarch"		""
+		"metacritic_name"		"Human: Fall Flat"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en"
+			"library_logo"		"zh-cn,en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"27.22313116227923"
+				"height_pct"		"85.41666666666667"
+			}
+		}
+		"store_asset_mtime"		"1566406828"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"No Brakes Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Curve Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Curve Digital"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_29"		"1"
+			"category_39"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1469206682"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/human-fall-flat?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"477160"
+		"store_tags"
+		{
+			"0"		"4136"
+			"1"		"3859"
+			"2"		"1685"
+			"3"		"1664"
+			"4"		"3968"
+			"5"		"3841"
+			"6"		"1719"
+			"7"		"21"
+			"8"		"492"
+			"9"		"4036"
+			"10"		"5537"
+			"11"		"7368"
+			"12"		"3810"
+			"13"		"597"
+			"14"		"1695"
+			"15"		"4182"
+			"16"		"5395"
+			"17"		"10816"
+			"18"		"599"
+			"19"		"1662"
+		}
+	}
+	"extended"
+	{
+		"developer"		"No Brakes Games"
+		"publisher"		"Curve Digital"
+		"homepage"		"http://www.nobrakesgames.com/human/"
+		"listofdlc"		"632870"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Human Fall Flat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Human.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Human.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Human.x86"
+				"description"		"Launch x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"Human.x86_64"
+				"description"		"Launch 64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,thai,japanese,portuguese,polish,turkish,brazilian,ukrainian"
+		"workshopdepot"		"477160"
+		"hasdepotsindlc"		"0"
+		"477161"
+		{
+			"name"		"Human: Fall Flat Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7348174767172209662"
+				"preview"		"8739445186833999470"
+				"speedrunner"		"5666279957825145234"
+			}
+			"maxsize"		"1629030388"
+			"encryptedmanifests"
+			{
+				"basho"
+				{
+					"encrypted_gid_2"		"18D2C858847EA0E23D394EE528DAB014"
+					"encrypted_size_2"		"B8B112D6D3DCAB94DB815B630547BBF0"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"BFB309504927D18A515A907EB8E0AB73"
+					"encrypted_size_2"		"6EFF43BE487A4B17F5DDF1E29EE42CE5"
+				}
+				"dohyo"
+				{
+					"encrypted_gid_2"		"D5E6D9D4A02C916E470BD7B4BB0CB1FF"
+					"encrypted_size_2"		"E93E0FF6B118A3B7127E6E4CD27F1210"
+				}
+				"ebenezer"
+				{
+					"encrypted_gid_2"		"6E1447FF814EE1DFBD9B01D306324622"
+					"encrypted_size_2"		"3E9A0F88E91E7E3CE3A7652A192B97E1"
+				}
+				"foundry"
+				{
+					"encrypted_gid_2"		"E0FBAC38CA257A48B4A7309988906AEA"
+					"encrypted_size_2"		"F504241C55E0DD71DBB6BE09CC3671C6"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"EA11464A9B503F4DF30D144285051BEF"
+					"encrypted_size_2"		"48DB99FF9328788A862B15F717AD356C"
+				}
+				"modder"
+				{
+					"encrypted_gid_2"		"3BEA863E510D5AC3BA6BB5CF4AEDF876"
+					"encrypted_size_2"		"862CAE568D0E777F8E30EB508962FC5E"
+				}
+				"nobrakes"
+				{
+					"encrypted_gid_2"		"991E4215285736D493E0716956384EE4"
+					"encrypted_size_2"		"50B18BD17F36DF0D664A573503031C0B"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"6B2B843000527F1EEA496829F870F301"
+					"encrypted_size_2"		"8887B9FF66C17AC67B090EE1FEE571CA"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"4189E2AEAB94B8CC971AAD482FC4B422"
+					"encrypted_size_2"		"10454BF47A2A083F7CD78B5081A2B835"
+				}
+			}
+		}
+		"477162"
+		{
+			"name"		"Human: Fall Flat Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1268142232499303853"
+				"preview"		"4525273237301003229"
+				"speedrunner"		"9084612003157320502"
+			}
+			"maxsize"		"1645950664"
+			"encryptedmanifests"
+			{
+				"basho"
+				{
+					"encrypted_gid_2"		"05A0D87CD1C692A78AAE1A7310C10B8C"
+					"encrypted_size_2"		"0A49695B8709A1F72A7CFF6CD1D1AFD2"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"007AA0F8EAAC176EBDF7FB8FBCF99D08"
+					"encrypted_size_2"		"464536FE6CC73B3AE98A6104F2C4E26F"
+				}
+				"dohyo"
+				{
+					"encrypted_gid_2"		"5128AB10822916B1551874F7C04DCD17"
+					"encrypted_size_2"		"3DA28F9A746D7EC512D03C86CB6F0C47"
+				}
+				"ebenezer"
+				{
+					"encrypted_gid_2"		"E1992AB7D014B398FDA52057AE934729"
+					"encrypted_size_2"		"C841791E8D6E482CAF1FBE99B98A756D"
+				}
+				"foundry"
+				{
+					"encrypted_gid_2"		"025AEA5C2522C17267390EA65C66FD04"
+					"encrypted_size_2"		"01F865A9B48760A10BB81E6D9C278E73"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"D61BD288EF82CB71D49EB584B9A5FCA9"
+					"encrypted_size_2"		"372D12CEA99A36B2FCD72426990FBD11"
+				}
+				"modder"
+				{
+					"encrypted_gid_2"		"863B96FFDA829A5172F46704B1009481"
+					"encrypted_size_2"		"DE46D3D9F12F5F20F7465FC5444393A2"
+				}
+				"nobrakes"
+				{
+					"encrypted_gid_2"		"466273441035B9EC034FE490988CD622"
+					"encrypted_size_2"		"35013A188B1BFC8580AD38D6A027ED20"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"5BD3B4445956E042FFF3924413DEC530"
+					"encrypted_size_2"		"60BDF13BD0248053BC36A49B2AB7324B"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"22CCC969977F569D06595C634C640237"
+					"encrypted_size_2"		"76F1BDC74AAEE8C9EDC939D33905CA72"
+				}
+			}
+		}
+		"477163"
+		{
+			"name"		"Human: Fall Flat Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"129240740414445083"
+				"preview"		"2806609452348544180"
+				"speedrunner"		"2844026332792424935"
+			}
+			"maxsize"		"1591541262"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"44B5E56B74CCEBF59849D7332517854F"
+					"encrypted_size_2"		"A29FFF8EA3F05A5D29B4C4C2D0E348FA"
+				}
+				"modder"
+				{
+					"encrypted_gid_2"		"986F50B522356C1FC51CF0418B86EC00"
+					"encrypted_size_2"		"570674D03882C46E13DAAD88CDE83450"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"78FF2CBD01CCAE6925EF656EACA8D38C"
+					"encrypted_size_2"		"C38015AEFDDD5BFF48386525E91D24FE"
+				}
+			}
+		}
+		"632870"
+		{
+			"name"		"Human: Fall Flat Official Soundtrack (632870) Depot"
+			"manifests"
+			{
+				"public"		"6110178810839816362"
+			}
+			"maxsize"		"77926307"
+			"dlcappid"		"632870"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4142228"
+				"timeupdated"		"1566913021"
+			}
+			"basho"
+			{
+				"buildid"		"3938204"
+				"description"		"for release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561041181"
+			}
+			"beta"
+			{
+				"buildid"		"2534754"
+				"description"		"Beta testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1520151554"
+			}
+			"dohyo"
+			{
+				"buildid"		"4153290"
+				"description"		"Beta testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567167123"
+			}
+			"ebenezer"
+			{
+				"buildid"		"3238928"
+				"description"		"for christmas"
+				"pwdrequired"		"1"
+				"timeupdated"		"1540295181"
+			}
+			"foundry"
+			{
+				"buildid"		"3985021"
+				"description"		"for workshop"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562323924"
+			}
+			"human"
+			{
+				"buildid"		"4142228"
+				"description"		"for humans"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566901194"
+			}
+			"legacy"
+			{
+				"buildid"		"2525535"
+				"description"		"for comparison"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539600696"
+			}
+			"modder"
+			{
+				"buildid"		"1455156"
+				"description"		"for modders"
+				"pwdrequired"		"1"
+				"timeupdated"		"1478966773"
+			}
+			"nobrakes"
+			{
+				"buildid"		"4179674"
+				"description"		"in house QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568043273"
+			}
+			"press"
+			{
+				"buildid"		"1776807"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493291429"
+			}
+			"preview"
+			{
+				"buildid"		"2419815"
+				"description"		"work in progress"
+				"timeupdated"		"1515406411"
+			}
+			"speedrunner"
+			{
+				"buildid"		"1240353"
+				"description"		"1.0 for speedrunners"
+				"timeupdated"		"1470068861"
+			}
+			"streamer"
+			{
+				"buildid"		"3376499"
+				"description"		"for streamers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1544197415"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

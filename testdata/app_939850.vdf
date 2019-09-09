@@ -1,0 +1,421 @@
+"appinfo"
+{
+	"appid"		"939850"
+	"common"
+	{
+		"name"		"The Dark Pictures Anthology: Man of Medan"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"22260ef6dd4ccb9fda4bed5c7abaa66d19c86051"
+		"logo_small"		"22260ef6dd4ccb9fda4bed5c7abaa66d19c86051_thumb"
+		"icon"		"a966122b09d4750ae046e14ce98142c7ac1ade7c"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"939850_eula_0"
+				"name"		"The Dark Pictures Anthology - Man of Medan EULA"
+				"url"		"https://store.steampowered.com//eula/939850_eula_0"
+			}
+		}
+		"clienticon"		"0fd77b2859202d15bcab41720b4f0da8d98f32eb"
+		"clienttga"		"653bb331cfb1635732bbf552ba6fb8800a3ca933"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"The Dark Pictures Anthology: Man of Medan"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1562935556"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Supermassive Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment Europe"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"The Dark Pictures"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1567115520"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"939850"
+		"store_tags"
+		{
+			"0"		"6426"
+			"1"		"1667"
+			"2"		"21"
+			"3"		"4345"
+			"4"		"1685"
+			"5"		"4667"
+			"6"		"3859"
+			"7"		"4182"
+			"8"		"3978"
+			"9"		"4145"
+			"10"		"4166"
+			"11"		"1742"
+			"12"		"19"
+			"13"		"1721"
+			"14"		"1697"
+			"15"		"6650"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Supermassive Games"
+		"publisher"		"BANDAI NAMCO Entertainment Europe"
+		"homepage"		"https://www.thedarkpictures.com/"
+		"listofdlc"		"1016230,1016240,1109760"
+	}
+	"config"
+	{
+		"installdir"		"The Dark Pictures Anthology - Man of Medan"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ManOfMedan.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1811991857"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,amdtest,compat,devdebug,devrelease,mktgpr,nvidia,press,qadebug,qarelease,rating,smgdevtest,smglocal"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"0"
+		"939851"
+		{
+			"name"		"The Dark Pictures Anthology - Man of Medan Content"
+			"manifests"
+			{
+				"public"		"2322233351632813151"
+			}
+			"maxsize"		"67375662730"
+			"encryptedmanifests"
+			{
+				"amdtest"
+				{
+					"encrypted_gid_2"		"6C67C90946DEE7761DFAEF643BAA7C9B"
+					"encrypted_size_2"		"2266472391671C1C185D8A3EF1934B30"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"5E5896AF3B72E1C93E94D9A0E896D411"
+					"encrypted_size_2"		"E2991DED75DC2E032CAB20D8639DBAA9"
+				}
+				"mktgpr"
+				{
+					"encrypted_gid_2"		"B9C5DDBEC66F6D8981267525CBA5F130"
+					"encrypted_size_2"		"322E03C03202459864F5C1F93E43210C"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"B33EE7B305A7DF06DF676FB2CDCAA6C2"
+					"encrypted_size_2"		"ED3E61DFBA74F018A5F60600911850BC"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"81DE9DC0B8F27F4DF32D2F94898EC68F"
+					"encrypted_size_2"		"EC050BD310AE88A431CC19C5CC9B0325"
+				}
+				"qadebug"
+				{
+					"encrypted_gid_2"		"8E9CD431F4A5E3BC3B8031C0D211C05B"
+					"encrypted_size_2"		"3275DDD61B5D9DBF823EEBD3FA64E7B8"
+				}
+				"qarelease"
+				{
+					"encrypted_gid_2"		"7583ECEFCA73350DE65C8A9746D77B58"
+					"encrypted_size_2"		"5C83E4A1B1651EFC35D27E23FA2C8902"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"4F06A569BF285B696E93FD4299AC964C"
+					"encrypted_size_2"		"AA8E44E808BD25DCB2C71DB424996D45"
+				}
+				"smgdevtest"
+				{
+					"encrypted_gid_2"		"1BF4B1A877D7353631C8301750FB65B4"
+					"encrypted_size_2"		"FB18ED2986A9CE643A5044787CF7828A"
+				}
+			}
+		}
+		"1016230"
+		{
+			"name"		"The Dark Pictures Anthology - Man of Medan - Curator's Cut (1016230) Depot"
+			"dlcappid"		"1016230"
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,arabic,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4154412"
+				"timeupdated"		"1567698797"
+			}
+			"amdtest"
+			{
+				"buildid"		"3773312"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556636415"
+			}
+			"compat"
+			{
+				"buildid"		"4069434"
+				"description"		"Compat testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564752774"
+			}
+			"mktgpr"
+			{
+				"buildid"		"3830932"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558095407"
+			}
+			"nvidia"
+			{
+				"buildid"		"4119918"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566301446"
+			}
+			"press"
+			{
+				"buildid"		"4107909"
+				"description"		"Preview/Review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565882719"
+			}
+			"qadebug"
+			{
+				"buildid"		"4174318"
+				"description"		"Debug Mode"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567802989"
+			}
+			"qarelease"
+			{
+				"buildid"		"4146192"
+				"description"		"NODEBUG"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567005333"
+			}
+			"rating"
+			{
+				"buildid"		"3836544"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558528784"
+			}
+			"smgdevtest"
+			{
+				"buildid"		"4178702"
+				"description"		"SMG Development Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568021752"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ManOfMedan/Saved/SaveGames"
+				"pattern"		"OptionSettings.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ManOfMedan/Saved/SaveGames"
+				"pattern"		"SP*.sav"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ManOfMedan/Saved/SaveGames"
+				"pattern"		"MP*.sav"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ManOfMedan/Saved/SaveGames"
+				"pattern"		"PP*.sav"
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ManOfMedan/Saved/SaveGames"
+				"pattern"		"ST*.sav"
+			}
+		}
+	}
+}
+ 

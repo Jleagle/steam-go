@@ -1,0 +1,1073 @@
+"appinfo"
+{
+	"appid"		"312660"
+	"common"
+	{
+		"name"		"Sniper Elite 4"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"f647c3bc17f965c796d5e187e63a38e0e4e9c0e1"
+		"clienticon"		"bfd89e2fba99ebffc7a36106cee766d0cf9e71b1"
+		"icon"		"3a1dbbf59326c0bb78113db7ac0d70b9988b3ce8"
+		"logo"		"d02007103e5b67b1c3fc017408e12348e15f5027"
+		"logo_small"		"d02007103e5b67b1c3fc017408e12348e15f5027_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"312660_eula_0"
+				"name"		"Sniper Elite 4 EULA"
+				"url"		"http://store.steampowered.com//eula/312660_eula_0"
+			}
+		}
+		"metacritic_name"		"Sniper Elite 4"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"56.13418903150525"
+				"height_pct"		"51.25884587983851"
+			}
+		}
+		"store_asset_mtime"		"1561126784"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rebellion"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rebellion"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1487030400"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sniper-elite-4?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"312660"
+		"store_tags"
+		{
+			"0"		"7423"
+			"1"		"1774"
+			"2"		"4150"
+			"3"		"1687"
+			"4"		"3859"
+			"5"		"19"
+			"6"		"1685"
+			"7"		"1678"
+			"8"		"1695"
+			"9"		"4182"
+			"10"		"3814"
+			"11"		"21"
+			"12"		"1697"
+			"13"		"1663"
+			"14"		"4345"
+			"15"		"1708"
+			"16"		"9"
+			"17"		"4667"
+			"18"		"4166"
+			"19"		"6650"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"sniperelite4"
+		"serverbrowsername"		"Sniper Elite 4"
+		"developer"		"Rebellion"
+		"publisher"		"Rebellion"
+		"homepage"		"http://www.sniperelite4.com"
+		"listofdlc"		"474740,474760,474761,474762,474763,474764,474765,474766,513030,513031,513032,513033,513034,568880"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sniper Elite 4"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Launcher\\SniperElite4.exe"
+				"description"		"Launcher"
+				"type"		"none"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"860288005"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default"
+			}
+			"860797571"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default"
+			}
+			"860798450"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default"
+			}
+		}
+		"systemprofile"		"1"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"312661"
+		{
+			"name"		"Sniper Elite 4 Base Files"
+			"manifests"
+			{
+				"public"		"4048799331839916338"
+			}
+			"maxsize"		"487881657"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"18FC8574371F5C998EEBED6E397962CC"
+					"encrypted_size_2"		"9D1861747533758F4C696DE8C261EFC4"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"8EECDB4C5E5D0D78F9EFCC42415A177C"
+					"encrypted_size_2"		"87E57028730C19EF213E33DF7CD30D38"
+				}
+			}
+		}
+		"312662"
+		{
+			"name"		"Sniper Elite 4 Client Files"
+			"manifests"
+			{
+				"public"		"7487199921793331392"
+			}
+			"maxsize"		"5735099845"
+		}
+		"312663"
+		{
+			"name"		"Sniper Elite 4 Executables"
+			"manifests"
+			{
+				"public"		"2264146200962002967"
+			}
+			"maxsize"		"123661816"
+			"encryptedmanifests"
+			{
+				"external_testing"
+				{
+					"encrypted_gid_2"		"AB228D649502F9D05CA606182AEF05FB"
+					"encrypted_size_2"		"F922AB780DB8ACEE4CEE7885519D452E"
+				}
+				"external_testing_2"
+				{
+					"encrypted_gid_2"		"E3A5ABDF36BDF7E2BAC890CFE4696173"
+					"encrypted_size_2"		"7BD43B440CBF64086E9FF4B1207AE379"
+				}
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"F179ED8C2EFB9885EA516BADD8191BA5"
+					"encrypted_size_2"		"228B37F2132F53A4862509954EE1B6B4"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"481082A09803353AE9BEF08D11374CFB"
+					"encrypted_size_2"		"135D412811180EE3BCD5A4A50249C564"
+				}
+			}
+		}
+		"312669"
+		{
+			"name"		"Sniper Elite 4 GUI"
+			"manifests"
+			{
+				"public"		"5969274732563019921"
+			}
+			"maxsize"		"32699707"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"C59D9B034E28AEE03292D9868D8D7348"
+					"encrypted_size_2"		"F7B2C103FC992C17F297F6A799DD29E3"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"6F50A82A02F0E94A982F3AD4E2AEE583"
+					"encrypted_size_2"		"A18F68BF6D8FAC7233259997A004372A"
+				}
+			}
+		}
+		"474742"
+		{
+			"name"		"Sniper Elite 4 Core Level Textures"
+			"manifests"
+			{
+				"public"		"3892601692290998256"
+			}
+			"maxsize"		"29037027672"
+		}
+		"312666"
+		{
+			"name"		"Sniper Elite 4 Shooting Range"
+			"manifests"
+			{
+				"public"		"7711633167199750385"
+			}
+			"maxsize"		"193598578"
+		}
+		"312667"
+		{
+			"name"		"Sniper Elite 4 Campaign"
+			"manifests"
+			{
+				"public"		"6221223566597367315"
+			}
+			"maxsize"		"5221196083"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"B66298C173A1B1621EC38857F91A305A"
+					"encrypted_size_2"		"38243F8D0E17FF392DC44CBFA227E361"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"38B4156D94BF6E7468023BE846711020"
+					"encrypted_size_2"		"0DBDAAAFE82C20802CEB11C79EE5A3CB"
+				}
+			}
+		}
+		"312664"
+		{
+			"name"		"Sniper Elite 4 SV"
+			"manifests"
+			{
+				"public"		"6091003266574404089"
+			}
+			"maxsize"		"1131819703"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"BA103916C0AF8BED8EAC6F6831E4AA40"
+					"encrypted_size_2"		"4E02DCB248A856B92A7D03F0BADA4389"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"0A4333E4DDD1753EB02FC563F015303B"
+					"encrypted_size_2"		"E3ED5457773E21FB3D7945E7A2B273E4"
+				}
+			}
+		}
+		"312665"
+		{
+			"name"		"Sniper Elite 4 OW"
+			"manifests"
+			{
+				"public"		"400614430372612488"
+			}
+			"maxsize"		"1002849265"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"FE89A5A044EEBAB73758CC81545C2FE3"
+					"encrypted_size_2"		"4EB4E0F88D29DFEFB66457D2095A1B8E"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"93FDD41528FE686207C0507980BAE925"
+					"encrypted_size_2"		"66B862E94C9E24381C7992E1F17F87DC"
+				}
+			}
+		}
+		"474747"
+		{
+			"name"		"Sniper Elite 4 MP"
+			"manifests"
+			{
+				"public"		"9172257210152631323"
+			}
+			"maxsize"		"3980081655"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"28E787ECF7D89412A515C9FF967FDA9C"
+					"encrypted_size_2"		"6B03A7E899B1DE1948FA03FBABE21E0F"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"BC32437BDFBC15AD1641A4E4B1CE887A"
+					"encrypted_size_2"		"51F479285EF1287B00E87BEA39195104"
+				}
+			}
+		}
+		"474741"
+		{
+			"name"		"Sniper Elite 4 Common DLC Data"
+			"manifests"
+			{
+				"public"		"367765852226510888"
+			}
+			"maxsize"		"1739446223"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"497FF148CD54CD620DC1790007922B9A"
+					"encrypted_size_2"		"7F90472FD404E1C46F9DB240802EC31C"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"238D565C74143EEFB6A203C82DF8C546"
+					"encrypted_size_2"		"3EDC058641A1B4A9D064D3BC79CA2244"
+				}
+			}
+		}
+		"513030"
+		{
+			"name"		"DLC 4 - Sutherland (513030) Depot"
+			"dlcappid"		"513030"
+			"manifests"
+			{
+				"public"		"86500979106860738"
+			}
+			"maxsize"		"156"
+		}
+		"513031"
+		{
+			"name"		"DLC 7 - Bronson (513031) Depot"
+			"dlcappid"		"513031"
+			"manifests"
+			{
+				"public"		"483777213813587289"
+			}
+			"maxsize"		"516"
+		}
+		"513032"
+		{
+			"name"		"DLC 9 - Cooper (513032) Depot"
+			"dlcappid"		"513032"
+			"manifests"
+			{
+				"public"		"231619628310767692"
+			}
+			"maxsize"		"516"
+		}
+		"513033"
+		{
+			"name"		"DLC 11 - Lopez (513033) Depot"
+			"dlcappid"		"513033"
+			"manifests"
+			{
+				"public"		"3525287541754875858"
+			}
+			"maxsize"		"516"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"096E6D75B946BBD7A318C3AF07537119"
+					"encrypted_size_2"		"E7C3F94DC9141BD1CBF37524A4241954"
+				}
+			}
+		}
+		"513034"
+		{
+			"name"		"DLC 12 - Savalas (513034) Depot"
+			"dlcappid"		"513034"
+			"manifests"
+			{
+				"public"		"4156768006199445"
+			}
+			"maxsize"		"156"
+		}
+		"474760"
+		{
+			"name"		"DLC 1 - Cassavetes (474760) Depot"
+			"dlcappid"		"474760"
+			"manifests"
+			{
+				"public"		"28829398357121428"
+			}
+			"maxsize"		"300"
+		}
+		"474761"
+		{
+			"name"		"DLC 3 - Brown (474761) Depot"
+			"dlcappid"		"474761"
+			"manifests"
+			{
+				"public"		"162644798985564415"
+			}
+			"maxsize"		"156"
+		}
+		"474762"
+		{
+			"name"		"DLC 5 - Carruthers (474762) Depot"
+			"dlcappid"		"474762"
+			"manifests"
+			{
+				"public"		"8440654624900042"
+			}
+			"maxsize"		"156"
+		}
+		"474763"
+		{
+			"name"		"DLC 2 - Busby (474763) Depot"
+			"dlcappid"		"474763"
+			"manifests"
+			{
+				"public"		"3741769615255257528"
+			}
+			"maxsize"		"3097757686"
+		}
+		"474764"
+		{
+			"name"		"DLC 6 - Walker (474764) Depot"
+			"dlcappid"		"474764"
+			"manifests"
+			{
+				"public"		"5808464973816608405"
+			}
+			"maxsize"		"3016011898"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"4D022B04D611356C813E407C40A154C5"
+					"encrypted_size_2"		"CB8387BDE39A2B49424C6DC155DB8F07"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"0A26208EE23695919A68B69E4F045D40"
+					"encrypted_size_2"		"65136D01F2B7EA4BE6C4C4188681F10B"
+				}
+			}
+		}
+		"474765"
+		{
+			"name"		"DLC 8 - Maitland (474765) Depot"
+			"dlcappid"		"474765"
+			"manifests"
+			{
+				"public"		"5450898976238845071"
+			}
+			"maxsize"		"3670931599"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"1036F0BD0C7DAAD6710EEF92B57AE0CD"
+					"encrypted_size_2"		"192B7A3F6707D8D2814E1C33018DD982"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"B64332754EB61E691DAC0E545A38C624"
+					"encrypted_size_2"		"E1C1AE0FCB8E237B4C25F47854421933"
+				}
+			}
+		}
+		"474766"
+		{
+			"name"		"DLC 10 - Mancini (474766) Depot"
+			"dlcappid"		"474766"
+			"manifests"
+			{
+				"public"		"1001483521269763185"
+			}
+			"maxsize"		"4299175553"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"263A93BB1C8DCF1B2AF50C098E1A11B8"
+					"encrypted_size_2"		"8922DE37A0494FF9F0BF5EB644DF548A"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"DB8B0ACE051375E42B36F1FDE2521503"
+					"encrypted_size_2"		"17BAC8F60E335C0D44BE1EBB964C511B"
+				}
+			}
+		}
+		"474748"
+		{
+			"name"		"Sniper Elite 4 Chinese (Traditional)"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"197688497288452651"
+			}
+			"maxsize"		"730758263"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"58767FC61F3EDEECD22C50FF237587FF"
+					"encrypted_size_2"		"CDB69F5E27A7D66DE2C4EC279B7A24A6"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"09C30460FFBA0290A427F2775746E443"
+					"encrypted_size_2"		"461C16D6AC225D47C2D362AF40472FB5"
+				}
+			}
+		}
+		"474749"
+		{
+			"name"		"Sniper Elite 4 Chinese (Simplified)"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"1093999626779585990"
+			}
+			"maxsize"		"730759437"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"60219A8DDC152FE3FCB17D74DDBEF784"
+					"encrypted_size_2"		"9F07E9AE173655291D9C6D309E59933B"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"BEAC1A666FD9BC8E0285682A93D4437C"
+					"encrypted_size_2"		"5CC00D0D700A362352D8CC60265FDDCE"
+				}
+			}
+		}
+		"474767"
+		{
+			"name"		"Sniper Elite 4 P03"
+			"manifests"
+			{
+				"public"		"474324539935811098"
+			}
+		}
+		"312668"
+		{
+			"name"		"Sniper Elite 4 English"
+			"manifests"
+			{
+				"public"		"875427410744468705"
+			}
+			"maxsize"		"640554629"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"8AB68E56207F804A38002485E1BFF45A"
+					"encrypted_size_2"		"6460B3404EEC312AD02ADA903F7620F9"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"0AF1F8C9BA136A30D017291B155A6AEE"
+					"encrypted_size_2"		"9D7AE04598905ED6345B4E14784F6D9B"
+				}
+			}
+		}
+		"474768"
+		{
+			"name"		"Sniper Elite 4 French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"6605632564166394266"
+			}
+			"maxsize"		"613230307"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"815D9B45EF6C65F90705DA60984CE54B"
+					"encrypted_size_2"		"11663DFAFB85D7A4AE3FCF8794E3E19B"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"527B0FB2076BB9F578F717882FC8442B"
+					"encrypted_size_2"		"4A88AB8AC104040F65FFE5E361F542FA"
+				}
+			}
+		}
+		"474769"
+		{
+			"name"		"Sniper Elite 4 Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"3916199146488733183"
+			}
+			"maxsize"		"614870619"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"EBEBBACFA333BE875A138CE7BCC782F0"
+					"encrypted_size_2"		"E64333159863D37BD2A81E6C0BD74358"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"B8048A7205BEF883D0152C2AB2874A1D"
+					"encrypted_size_2"		"76E543497351640345BAA0B0318ABC6E"
+				}
+			}
+		}
+		"513035"
+		{
+			"name"		"Sniper Elite 4 German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"655647499445790397"
+			}
+			"maxsize"		"617894079"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"422C184D190BB85E98864342E3C6D2F8"
+					"encrypted_size_2"		"B277CB3E34ED7A903E8269337CFFFA97"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"FCCF37C17258ECB04617C384003583F1"
+					"encrypted_size_2"		"E8FBEAF63D1CAA9FE8B86D03441943D0"
+				}
+			}
+		}
+		"513036"
+		{
+			"name"		"Sniper Elite 4 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"7769475571012969421"
+			}
+			"maxsize"		"618245713"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"E877BEBAF2BB9B7A02433A0EFCFC0EF8"
+					"encrypted_size_2"		"001F2ECC2BA0BAFCA9DC6D15549D6E18"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"837A22F58F6FD6C2E9A5DB56874054F5"
+					"encrypted_size_2"		"8F5B446DD7ED371475D157A36FE1BB94"
+				}
+			}
+		}
+		"513037"
+		{
+			"name"		"Sniper Elite 4 Portuguese (Brazilian)"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"5426484067779589310"
+			}
+			"maxsize"		"610410573"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"1817D9E1685079C90C82086089EF8820"
+					"encrypted_size_2"		"C47220FAAB98812553115AFA6092B521"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"D8CCD2AD57DDE69DDA727E9A5AB49BE5"
+					"encrypted_size_2"		"B87FB3AA97BEA590C4EBE67FBEFDB56D"
+				}
+			}
+		}
+		"513038"
+		{
+			"name"		"Sniper Elite 4 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"7269827781862112370"
+			}
+			"maxsize"		"614840583"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"99FDCC1A950CBC565859C1D2FB42715C"
+					"encrypted_size_2"		"4F6E2E619050C9C677A6D7F827974E74"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"69D9B5BAE4F685E0D1F42A30912B37B3"
+					"encrypted_size_2"		"9CE3FFA17C67FEE4603F8B786DA8B526"
+				}
+			}
+		}
+		"513039"
+		{
+			"name"		"Sniper Elite 4 Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"2740944131688792039"
+			}
+			"maxsize"		"640542493"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"1C8DF6C94D816DA68AB4CA297A5DC265"
+					"encrypted_size_2"		"A83F2506EC271014D39BDEC6AF87A3A7"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"51F80BACECBA7DC68A2160D56D596C69"
+					"encrypted_size_2"		"453F86EF8F9EA35288DACD4F57BE84B9"
+				}
+			}
+		}
+		"474743"
+		{
+			"name"		"Sniper Elite 4 Day 30"
+			"manifests"
+			{
+				"public"		"711719995978626888"
+			}
+			"maxsize"		"1993296587"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"78FF7A0BBB85CFE27544527935FFA117"
+					"encrypted_size_2"		"3BA9D37B6B8BF59195CFEE8D85110E0E"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"75747B8655190558D015B4ED44ABD3BF"
+					"encrypted_size_2"		"22FA867943952D972F071C4AC40A4E5C"
+				}
+			}
+		}
+		"474744"
+		{
+			"name"		"Sniper Elite 4 Day 60"
+			"manifests"
+			{
+				"public"		"8096421991192761435"
+			}
+			"maxsize"		"2658921683"
+			"encryptedmanifests"
+			{
+				"internal_testing"
+				{
+					"encrypted_gid_2"		"936A1ACFD3DA95A2DB4C37247A120A7B"
+					"encrypted_size_2"		"48790378310AD2A662CDBF105A8EB01D"
+				}
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"7EC2AD7BD35942858FD722C1A20C080D"
+					"encrypted_size_2"		"454E342833D68767E2329ED3ED1E0259"
+				}
+			}
+		}
+		"474745"
+		{
+			"name"		"Sniper Elite 4 Day 90"
+			"manifests"
+			{
+				"public"		"1606907339718391772"
+			}
+			"maxsize"		"2885026691"
+			"encryptedmanifests"
+			{
+				"internal_testing_2"
+				{
+					"encrypted_gid_2"		"96F5A7BA76C7C928CB20406CEF73F673"
+					"encrypted_size_2"		"28F37800264448C3CD377367874D83C4"
+				}
+			}
+		}
+		"474746"
+		{
+			"name"		"Sniper Elite 4 Day 120"
+			"manifests"
+			{
+				"public"		"8679890394768222636"
+			}
+			"maxsize"		"1257529472"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2024060"
+				"timeupdated"		"1502806874"
+			}
+			"alienfx"
+			{
+				"buildid"		"2024060"
+				"description"		"AlienFX testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502273549"
+			}
+			"external"
+			{
+				"buildid"		"2024060"
+				"description"		"Denuvo"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502806917"
+			}
+			"external_testing"
+			{
+				"buildid"		"1985344"
+				"description"		"Test builds for external QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500983439"
+			}
+			"external_testing_2"
+			{
+				"buildid"		"1982855"
+				"description"		"Test builds for external QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500906316"
+			}
+			"internal_testing"
+			{
+				"buildid"		"1827517"
+				"description"		"Test builds, or pre-release testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498557312"
+			}
+			"internal_testing_2"
+			{
+				"buildid"		"1955221"
+				"description"		"Test builds, or pre-release testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500377813"
+			}
+			"nightly"
+			{
+				"buildid"		"2024060"
+				"description"		"Latest nightly (unstable)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502806933"
+			}
+			"public_beta"
+			{
+				"buildid"		"2024060"
+				"description"		"Pre-release public builds"
+				"timeupdated"		"1502806891"
+			}
+			"se4devbeta"
+			{
+				"buildid"		"2024060"
+				"description"		"Stable build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502806906"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"134217728"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"SniperElite4/PC_ProfileSaves/{64BitSteamID}/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

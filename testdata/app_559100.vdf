@@ -1,0 +1,575 @@
+"appinfo"
+{
+	"appid"		"559100"
+	"common"
+	{
+		"name"		"Phantom Doctrine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"95b9ab782b66605cbc747741909718df6d60024d"
+		"clienttga"		"b850d4476b485424984440afba3d5113afb624e2"
+		"icon"		"042d9ec1fed7cfb3581d6e0a24c4c3738573130a"
+		"logo"		"8f1543dee9d83b3c87c9164b2a053fb125c36422"
+		"logo_small"		"8f1543dee9d83b3c87c9164b2a053fb125c36422_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+		}
+		"metacritic_name"		"Phantom Doctrine"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1551203069"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CreativeForge Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Good Shepherd Entertainment"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1534230000"
+		"steam_release_date"		"1534266120"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/phantom-doctrine?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"559100"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"9"
+			"2"		"5179"
+			"3"		"1687"
+			"4"		"122"
+			"5"		"1708"
+			"6"		"4667"
+			"7"		"4182"
+			"8"		"1741"
+			"9"		"1677"
+			"10"		"19"
+			"11"		"4747"
+			"12"		"3859"
+			"13"		"4711"
+			"14"		"1756"
+			"15"		"5851"
+			"16"		"4166"
+			"17"		"4598"
+		}
+	}
+	"extended"
+	{
+		"developer"		"CreativeForge Games"
+		"publisher"		"Good Shepherd Entertainment"
+		"homepage"		"http://www.creativeforge.pl/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/559100/"
+		"listofdlc"		"907540,907550,918640,918650,918660,969920"
+	}
+	"config"
+	{
+		"installdir"		"PhantomDoctrine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IWTB.exe"
+				"arguments"		"-Installed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"559100"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"559101"
+		{
+			"name"		"PD_Win64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6699528942804968442"
+				"local"		"821268820131048250"
+			}
+			"maxsize"		"30634675030"
+			"encryptedmanifests"
+			{
+				"cfg_tests2"
+				{
+					"encrypted_gid_2"		"0E1C7740B0F2FC45D6F18AB495FA8A72"
+					"encrypted_size_2"		"AF8F6DA7A986F7427D1F4EE67E664C9C"
+				}
+				"comptest"
+				{
+					"encrypted_gid_2"		"7C411EF2CE8CB9796FE52F207838DB87"
+					"encrypted_size_2"		"0643EE0385ABBA5BBACE39FA28174EC8"
+				}
+				"comptest2"
+				{
+					"encrypted_gid_2"		"700F09F911B0242855CAFA655D007FA6"
+					"encrypted_size_2"		"A3CF7B1675EF966BCAA51AC7069F9E46"
+				}
+				"creator"
+				{
+					"encrypted_gid_2"		"7E8C9F221ACEF87DEF46C16C13577989"
+					"encrypted_size_2"		"4BEE03365D5DB2351D1E7B5ABD251444"
+				}
+				"eris"
+				{
+					"encrypted_gid_2"		"6805F10A3431CA19DC9EB3D3A9D9AC60"
+					"encrypted_size_2"		"3A7941F587B7ECD609B44374E6B6D44D"
+				}
+				"experimental_build"
+				{
+					"encrypted_gid_2"		"0F7787EF7A858B05713B9DDD02EDE5FE"
+					"encrypted_size_2"		"1A0E5390B78C0ED2E42F9A460A6007DA"
+				}
+				"extqa"
+				{
+					"encrypted_gid_2"		"236CA9833EBE5145296B9033E9BD772F"
+					"encrypted_size_2"		"702BA7F7AB085725353575C44EBFA07D"
+				}
+				"extqa_testro"
+				{
+					"encrypted_gid_2"		"3299810FF27C9F2679921D9CB8D36520"
+					"encrypted_size_2"		"A228E8461B9E4410C5E05809A0BF46CE"
+				}
+				"goodshepherd"
+				{
+					"encrypted_gid_2"		"1D90853299C8BD71CD56CD5AABE6890D"
+					"encrypted_size_2"		"E700A72C308238EEBDFE8340D25B7F35"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"669BC1AFF8A0DBF0BEFD8747D3D16D1B"
+					"encrypted_size_2"		"61DFDA5DB65537360789BDE16A0485B0"
+				}
+				"phantom_demo"
+				{
+					"encrypted_gid_2"		"A875081A85F47EE1B3E652E52F32121A"
+					"encrypted_size_2"		"84FA4C3BC1976EAF46CBD6F15F27D5BF"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"C5EC02B9FCC2B7655892BFBD93D59E6F"
+					"encrypted_size_2"		"3A25863EC6E35FDBC2B594272200893F"
+				}
+				"stream"
+				{
+					"encrypted_gid_2"		"0636ED316D56F5F7064E59AE042E3049"
+					"encrypted_size_2"		"1A2478ADC80233D2127F9C0A85DBC4CC"
+				}
+				"xbox"
+				{
+					"encrypted_gid_2"		"150214DA74297D92B1D47C56405A93DE"
+					"encrypted_size_2"		"2E3BEB9529D523D3B24EF0EFD92EB057"
+				}
+			}
+		}
+		"559102"
+		{
+			"name"		"PD_Cinematics"
+			"manifests"
+			{
+				"public"		"296393788983969324"
+			}
+			"maxsize"		"1417741771"
+			"encryptedmanifests"
+			{
+				"comptest"
+				{
+					"encrypted_gid_2"		"39A85AD4495C77A537D3AB47E139E42D"
+					"encrypted_size_2"		"7539AA4C22077E27512DC0B933320548"
+				}
+				"comptest2"
+				{
+					"encrypted_gid_2"		"EB6F3083752C4E9AEF9CC79845283340"
+					"encrypted_size_2"		"63E22A9BD2CB46C479C7598F25B09B27"
+				}
+				"creator"
+				{
+					"encrypted_gid_2"		"5DAB01AA203FEC4314561ABC4193B96B"
+					"encrypted_size_2"		"DC88C28D1A87D6B4063C156E09098F3C"
+				}
+				"eris"
+				{
+					"encrypted_gid_2"		"C90702A5F7E3C3808A5043CD52148841"
+					"encrypted_size_2"		"FC7B5A92CD14C4238022D903884029F1"
+				}
+				"goodshepherd"
+				{
+					"encrypted_gid_2"		"09F25BDD1EF54AD6C24A5A9F29EEA8D4"
+					"encrypted_size_2"		"2FE3BA35BD0415B00EE1136EE9DF37E2"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"668DC764785E95186CC6504C8F5E0118"
+					"encrypted_size_2"		"76898B5D741610B8F8F9061CA17333A0"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"D362370256412E07821CF9F80C542FC1"
+					"encrypted_size_2"		"FC6D0B727921E4C7554A207474460187"
+				}
+			}
+		}
+		"559103"
+		{
+			"name"		"PD_Localization"
+			"manifests"
+			{
+				"public"		"8574787050439363382"
+			}
+			"maxsize"		"11509103"
+			"encryptedmanifests"
+			{
+				"cfg_tests2"
+				{
+					"encrypted_gid_2"		"5A132AE094C0957EB6CDC9ED5BCA2C57"
+					"encrypted_size_2"		"B394BC6B1F677714297A3B93F2D4BC18"
+				}
+				"stream"
+				{
+					"encrypted_gid_2"		"10521D61972F62054AC90974798EDA24"
+					"encrypted_size_2"		"D111CB9BC019DF335B164FDEDD96173B"
+				}
+			}
+		}
+		"918640"
+		{
+			"name"		"Phantom Doctrine - Alienware Jackets & Shirt DLC (918640) Depot"
+			"dlcappid"		"918640"
+			"manifests"
+			{
+				"public"		"6471785955632178717"
+			}
+			"maxsize"		"34256114"
+		}
+		"918650"
+		{
+			"name"		"Phantom Doctrine - Alienware Vintage Jacket DLC (918650) Depot"
+			"dlcappid"		"918650"
+			"manifests"
+			{
+				"public"		"5481927612664211018"
+			}
+			"maxsize"		"27649706"
+		}
+		"918660"
+		{
+			"name"		"Phantom Doctrine - Alienware Headwear DLC (918660) Depot"
+			"dlcappid"		"918660"
+			"manifests"
+			{
+				"public"		"441506879308395312"
+			}
+			"maxsize"		"29764407"
+		}
+		"907540"
+		{
+			"name"		"Phantom Doctrine - Original Digital Soundtrack (907540) Depot"
+			"dlcappid"		"907540"
+			"manifests"
+			{
+				"public"		"3506147552793118327"
+			}
+			"maxsize"		"582119408"
+			"encryptedmanifests"
+			{
+				"cfg_tests2"
+				{
+					"encrypted_gid_2"		"CA2B183770F4C1E177AD93A0BC2CA837"
+					"encrypted_size_2"		"E9FDA9E9AF81C5202EE7DF6A4AA1BC7C"
+				}
+			}
+		}
+		"907550"
+		{
+			"name"		"Phantom Doctrine - Digital Artbook (907550) Depot"
+			"dlcappid"		"907550"
+			"manifests"
+			{
+				"public"		"2019622847526570352"
+			}
+			"maxsize"		"101438619"
+			"encryptedmanifests"
+			{
+				"cfg_tests2"
+				{
+					"encrypted_gid_2"		"B7D2F7BF5E348E26231866BFD47D8525"
+					"encrypted_size_2"		"82F88104C2FE49DC0D2AEC26C38B21F6"
+				}
+			}
+		}
+		"969920"
+		{
+			"name"		"Phantom Doctrine - Halloween Scare Tactics DLC (969920) Depot"
+			"manifests"
+			{
+				"public"		"9001516553447333295"
+			}
+			"maxsize"		"42310025"
+			"dlcappid"		"969920"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3560585"
+				"timeupdated"		"1550160318"
+			}
+			"cfg_tests"
+			{
+				"buildid"		"3560585"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550137769"
+			}
+			"cfg_tests2"
+			{
+				"buildid"		"3563401"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550207359"
+			}
+			"comptest"
+			{
+				"buildid"		"2949177"
+				"description"		"AMD Compat"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531821649"
+			}
+			"comptest2"
+			{
+				"buildid"		"2960553"
+				"description"		"AMD Compat Dev"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532040008"
+			}
+			"creator"
+			{
+				"buildid"		"2976901"
+				"description"		"Content Creators"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533156968"
+			}
+			"eris"
+			{
+				"buildid"		"2968968"
+				"description"		"Discord"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532377069"
+			}
+			"experimental_build"
+			{
+				"buildid"		"3047691"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534770906"
+			}
+			"extqa"
+			{
+				"buildid"		"2733970"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1525427797"
+			}
+			"extqa_testro"
+			{
+				"buildid"		"2733970"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1525428516"
+			}
+			"goodshepherd"
+			{
+				"buildid"		"2949177"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1531821602"
+			}
+			"local"
+			{
+				"buildid"		"2603312"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1521036880"
+			}
+			"nvidia"
+			{
+				"buildid"		"3003412"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1533305158"
+			}
+			"phantom_demo"
+			{
+				"buildid"		"2813430"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527593118"
+			}
+			"review"
+			{
+				"buildid"		"2976901"
+				"description"		"Review Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532556824"
+			}
+			"stream"
+			{
+				"buildid"		"3256411"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540807750"
+			}
+			"xbox"
+			{
+				"buildid"		"2596630"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520862996"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"PhantomDoctrine/Saved/{64BitSteamID}/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"PhantomDoctrine/Saved/Config/"
+				"pattern"		"PD_*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

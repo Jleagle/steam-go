@@ -1,0 +1,615 @@
+"appinfo"
+{
+	"appid"		"378860"
+	"common"
+	{
+		"name"		"Project CARS 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"504ee82b93a5d613ac1e64861cfd6b0b1582ec00"
+		"logo_small"		"504ee82b93a5d613ac1e64861cfd6b0b1582ec00_thumb"
+		"icon"		"cd55d51de2df3a45757aca93b84112576f5b0db3"
+		"clienttga"		"b7ab1a4bb1e3031cecad852f62a72aaf75039f40"
+		"clienticon"		"22db1c301fac91cc7e1a4d01b53e1a89277ba5df"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Project Cars 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32"
+				"height_pct"		"46"
+			}
+		}
+		"store_asset_mtime"		"1513870183"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Slightly Mad Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1506031200"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/project-cars-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"378860"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"1644"
+			"2"		"599"
+			"3"		"3859"
+			"4"		"21978"
+			"5"		"4175"
+			"6"		"701"
+			"7"		"4182"
+			"8"		"1695"
+			"9"		"1773"
+			"10"		"4166"
+			"11"		"19"
+			"12"		"7481"
+			"13"		"4026"
+			"14"		"3839"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"ProjectCARS2"
+		"vrheadsetstreaming"		"0"
+		"developer"		"Slightly Mad Studios"
+		"publisher"		"BANDAI NAMCO Entertainment"
+		"homepage"		"http://www.slightlymadstudios.com/"
+		"listofdlc"		"381980,381981,381982,381983,381984,387940,607790,648290,648291,648292,648293,648300,648301,648310,675740,737770"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Project CARS 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"pCARS2.exe"
+				"arguments"		"-novr"
+				"description"		"Project CARS 2 (64-bit)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"pCARS2Gld.exe"
+				"description"		"Project CARS 2 Gold Build"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"backup"
+				}
+			}
+			"2"
+			{
+				"executable"		"pCARS2QA.exe"
+				"description"		"Project CARS 2 QA Build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"backup"
+				}
+			}
+			"3"
+			{
+				"executable"		"pCARS2.exe"
+				"description"		"Project CARS 2"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"pCARS2.exe"
+				"description"		"Project CARS 2"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"pCARS2Gld.exe"
+				"description"		"Project CARS 2 Gold Build"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stagingtest"
+				}
+			}
+			"6"
+			{
+				"executable"		"pCARS2QA.exe"
+				"description"		"Project CARS 2 QA Build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stagingtest"
+				}
+			}
+			"7"
+			{
+				"executable"		"pCARS2QA.exe"
+				"description"		"Project CARS 2 QA Build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"wmdtesting"
+				}
+			}
+			"8"
+			{
+				"executable"		"pCARS2Gld.exe"
+				"description"		"Project CARS 2 Gold Build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"wmdtesting"
+				}
+			}
+			"9"
+			{
+				"executable"		"pCARS2Gld.exe"
+				"description"		"Project CARS 2 Gold build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"testingnew"
+				}
+			}
+			"10"
+			{
+				"executable"		"pCARS2QA.exe"
+				"description"		"Project CARS 2 QA build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"testingnew"
+				}
+			}
+			"11"
+			{
+				"executable"		"pCARS2QA.exe"
+				"description"		"Project CARS 2 QA build"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"tobii"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"workshopdepot"		"378860"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"378861"
+		{
+			"name"		"pCARS 2 Content"
+			"manifests"
+			{
+				"public"		"8596098817941007439"
+			}
+			"maxsize"		"54160546915"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"DC701F436D4F4F6545477B760F2238CC"
+					"encrypted_size_2"		"754F33B76890DC2DC7E48BF11DF8D572"
+				}
+				"mastercandidate"
+				{
+					"encrypted_gid_2"		"4B795FF68D616C061E0DF03E9AAF0C60"
+					"encrypted_size_2"		"EBD9AC7E65C7C5BD093590EBE835B68B"
+				}
+				"mediapreview"
+				{
+					"encrypted_gid_2"		"2AA8723059BBE136B34201EF6C1B2302"
+					"encrypted_size_2"		"64B8E3F9C140084913E6AB611CFBBBA6"
+				}
+				"milestones"
+				{
+					"encrypted_gid_2"		"914739AD8B5E93A15EA75088D51E99E9"
+					"encrypted_size_2"		"B49903B08516E81BF8466C148BFACB82"
+				}
+				"namcodemo"
+				{
+					"encrypted_gid_2"		"A35A952AA672B79F2DDFF25F72FB8418"
+					"encrypted_size_2"		"031F3EB20B2D1928C38DAE45ADB6A8DC"
+				}
+				"stagingtest"
+				{
+					"encrypted_gid_2"		"79F3803909DB48E8951A7C1A84675A1A"
+					"encrypted_size_2"		"9FBCBC4656F9040CB3EE2456A89533D1"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"58CDDBE87154656EE1D2D8EDC2C887B8"
+					"encrypted_size_2"		"B148FB80CD7A532E10396E37DFF2DFD1"
+				}
+				"testingnew"
+				{
+					"encrypted_gid_2"		"B9EF923F05A4496AE91751732CDA32AC"
+					"encrypted_size_2"		"AFB729B05DF1C8C53B75BCFAFB016CA7"
+				}
+				"testingold"
+				{
+					"encrypted_gid_2"		"EB000DDF34B720DCD36BEBB65C54399C"
+					"encrypted_size_2"		"51369DA89A7F25C5E08E2508FAA7733C"
+				}
+				"tmptest"
+				{
+					"encrypted_gid_2"		"7E6B86D7F15FC843DE1C7286B44D0A9A"
+					"encrypted_size_2"		"571E05BF5C62C51901E86775186F846C"
+				}
+				"tobii"
+				{
+					"encrypted_gid_2"		"CEDF5AC94FCF532A872291D3D5EB3179"
+					"encrypted_size_2"		"62320CD501F95D9DFC32CA139770F1E7"
+				}
+				"vesaro"
+				{
+					"encrypted_gid_2"		"C5301FBB08AE43A1679FDF7828264DA5"
+					"encrypted_size_2"		"509EEE0326F7E2C5F72BDBD4E061A085"
+				}
+				"winterlu"
+				{
+					"encrypted_gid_2"		"012E47527A15CD0EB7CCEB69EC2BC852"
+					"encrypted_size_2"		"EC69DD955CB4ED93ACE763A00381455B"
+				}
+				"wmdtesting"
+				{
+					"encrypted_gid_2"		"3E05F3A6F64EC91417A959162201283C"
+					"encrypted_size_2"		"377D09DA41A4421C05CD7233B0A67725"
+				}
+			}
+		}
+		"378862"
+		{
+			"name"		"pCARS2 EAC"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"tmptest"
+				{
+					"encrypted_gid_2"		"30A039FF1A32C6A566D7A768A63D5F0A"
+					"encrypted_size_2"		"D737E3670859C82253916A5408B0D9DF"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3350449"
+				"timeupdated"		"1543917719"
+			}
+			"baseline"
+			{
+				"buildid"		"3350449"
+				"description"		"Base branch (for steam patching)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543917691"
+			}
+			"compat"
+			{
+				"buildid"		"1963353"
+				"description"		"compat"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500296932"
+			}
+			"mastercandidate"
+			{
+				"buildid"		"2014537"
+				"description"		"Where the master candidate will be"
+				"pwdrequired"		"1"
+				"timeupdated"		"1501924284"
+			}
+			"mediapreview"
+			{
+				"buildid"		"1958550"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1499966765"
+			}
+			"milestones"
+			{
+				"buildid"		"1787504"
+				"description"		"Full contentbuilds incl unlicensed assets"
+				"pwdrequired"		"1"
+				"timeupdated"		"1493397560"
+			}
+			"namcodemo"
+			{
+				"buildid"		"1584270"
+				"description"		"This is for the Namco marketing demo"
+				"pwdrequired"		"1"
+				"timeupdated"		"1485426655"
+			}
+			"stagingtest"
+			{
+				"buildid"		"3185770"
+				"description"		"Staging Branch Builds With Full Exes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538734667"
+			}
+			"testing"
+			{
+				"buildid"		"4083870"
+				"description"		"SMS build testing, publish here first."
+				"pwdrequired"		"1"
+				"timeupdated"		"1565196959"
+			}
+			"testingnew"
+			{
+				"buildid"		"2666461"
+				"description"		"testing new/experimental unofficial"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536838645"
+			}
+			"testingold"
+			{
+				"buildid"		"2322680"
+				"description"		"Testing older builds for back to back comparison"
+				"pwdrequired"		"1"
+				"timeupdated"		"1518543712"
+			}
+			"tmptest"
+			{
+				"buildid"		"2112776"
+				"description"		"Testing EAC integration"
+				"pwdrequired"		"1"
+				"timeupdated"		"1505231904"
+			}
+			"tobii"
+			{
+				"buildid"		"3185770"
+				"description"		"Testing of Tobii ET"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538745211"
+			}
+			"vesaro"
+			{
+				"buildid"		"1623095"
+				"description"		"Vesaro testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1486742986"
+			}
+			"winterlu"
+			{
+				"buildid"		"1995052"
+				"description"		"Sweden Event Demo Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1501261858"
+			}
+			"wmdtesting"
+			{
+				"buildid"		"2999556"
+				"description"		"Builds For Our Super WMD Test Team"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533220041"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Project CARS 2/savegame/{Steam3AccountID}"
+				"pattern"		"default.sav"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Project CARS 2/savegame/{Steam3AccountID}"
+				"pattern"		"career*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

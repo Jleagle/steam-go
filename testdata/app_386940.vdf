@@ -1,0 +1,1159 @@
+"appinfo"
+{
+	"appid"		"386940"
+	"common"
+	{
+		"name"		"Ultimate Chicken Horse"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"cbf5f8788f86f3462f8642caffde490040f4117e"
+		"logo_small"		"cbf5f8788f86f3462f8642caffde490040f4117e_thumb"
+		"icon"		"07e45651fd2e37fde1d512c4cb77238ff5ce97c0"
+		"clienticns"		"5496b9121dc3c1239136bbd4567831b29739ce18"
+		"clienticon"		"8e29306492e3b3e841a49e27bce93bffb02182c3"
+		"clienttga"		"d6a527630308f63ed81812d1954734ae1fe77cc4"
+		"linuxclienticon"		"2a696e0b980fead4599ba7b6b60297cc639f3d9a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"swedish"		"1"
+			"czech"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Ultimate Chicken Horse"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"26.09293680297398"
+				"height_pct"		"48.563675822581075"
+			}
+		}
+		"store_asset_mtime"		"1560372354"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Clever Endeavour Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Clever Endeavour Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_29"		"1"
+			"category_27"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1457110807"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"386940"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"4136"
+			"2"		"7368"
+			"3"		"1625"
+			"4"		"8122"
+			"5"		"4840"
+			"6"		"3878"
+			"7"		"3871"
+			"8"		"19"
+			"9"		"4036"
+			"10"		"597"
+			"11"		"492"
+			"12"		"4026"
+			"13"		"21"
+			"14"		"9"
+			"15"		"4726"
+			"16"		"1756"
+			"17"		"7481"
+			"18"		"1664"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Clever Endeavour Games"
+		"publisher"		"Clever Endeavour Games"
+		"homepage"		"http://www.UltimateChickenHorse.com"
+		"listofdlc"		"493070"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ultimate Chicken Horse"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UltimateChickenHorse.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"UltimateChickenHorse.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"UltimateChickenHorse.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"386941"
+		{
+			"name"		"Ultimate Chicken Horse Shared"
+			"manifests"
+			{
+				"public"		"8019609873581647686"
+			}
+			"maxsize"		"18"
+			"encryptedmanifests"
+			{
+				"audio"
+				{
+					"encrypted_gid_2"		"599D8106D39D1DBE94D54D27A5031E77"
+					"encrypted_size_2"		"CBE769F7DAF4B37933C7C398EC403362"
+				}
+				"autobuild"
+				{
+					"encrypted_gid_2"		"31DA3372EF595B10114CD75BD1534AE1"
+					"encrypted_size_2"		"AA7E53B43BDB0528301C5579EEACCAE2"
+				}
+				"betatest4"
+				{
+					"encrypted_gid_2"		"2381E866040824E771F7A372002AA421"
+					"encrypted_size_2"		"A8A1C4275C84DB58BFE6696BF027B006"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"81F0161A31E6B7F8E6A228126AC9830D"
+					"encrypted_size_2"		"3B8825C1B3B9C640C68D070CA60DFEC1"
+				}
+				"fortranslator"
+				{
+					"encrypted_gid_2"		"5F2B3388208979CA87725BEBE61018A2"
+					"encrypted_size_2"		"ABB2E2F8F0F7EA16A1A5F6AF4E68C3A5"
+				}
+				"previousversion"
+				{
+					"encrypted_gid_2"		"84EF07609E2F9B1ABB59B4838A2C5385"
+					"encrypted_size_2"		"085A00059648E50D30CDE2578DFBF513"
+				}
+				"privatebetawithdebug"
+				{
+					"encrypted_gid_2"		"54176F839BF9073AA8562483BB068A77"
+					"encrypted_size_2"		"8717A364628F5AE85F3145B2515AE3A4"
+				}
+			}
+		}
+		"386942"
+		{
+			"name"		"Ultimate Chicken Horse Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2957451627584055776"
+			}
+			"maxsize"		"1598249952"
+			"encryptedmanifests"
+			{
+				"audio"
+				{
+					"encrypted_gid_2"		"51138D4B0434E53BEC0F2250A92B452C"
+					"encrypted_size_2"		"E470F635B25B07D3CE8E72A7C9BEF6D5"
+				}
+				"autobuild"
+				{
+					"encrypted_gid_2"		"148AC0672325B5BB121A19CFB575BD17"
+					"encrypted_size_2"		"C70311A3CAA3CBA859426559C91159F7"
+				}
+				"betatest4"
+				{
+					"encrypted_gid_2"		"D209B1E5168FD8CA388FEA09754B2F99"
+					"encrypted_size_2"		"64F14C02F543C0EE0E683B218FF71FF3"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"B96C518ACBFFF4C753D3F91DCF0B624F"
+					"encrypted_size_2"		"C80BFB19C7256FD1AD102A16DB8ED6CB"
+				}
+				"fortranslator"
+				{
+					"encrypted_gid_2"		"DA9102AA917C14B0F5D94C074F107C07"
+					"encrypted_size_2"		"8D07AFE89E1DBD1A2A30CE6181C43F12"
+				}
+				"previousversion"
+				{
+					"encrypted_gid_2"		"ABBA9BD9C4B5A66567645E3D2E688939"
+					"encrypted_size_2"		"EFB7943386C694C18865BB04A82B6230"
+				}
+				"privatebetawithdebug"
+				{
+					"encrypted_gid_2"		"CF68476004F9B455485DBBCCFA28B907"
+					"encrypted_size_2"		"6392869CFF85898A32B3C23838C784D7"
+				}
+			}
+		}
+		"386943"
+		{
+			"name"		"Ultimate Chicken Horse OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"749766097327186468"
+			}
+			"maxsize"		"1610431194"
+			"encryptedmanifests"
+			{
+				"audio"
+				{
+					"encrypted_gid_2"		"034C2C2A1CB82A8C92DEE643786199AA"
+					"encrypted_size_2"		"E79B7AFDCF9BEB7E41585F426860E57A"
+				}
+				"autobuild"
+				{
+					"encrypted_gid_2"		"DECE3D3CBB06E1A0A8E91B14AFF97F12"
+					"encrypted_size_2"		"C57EBF2E5B460694CA6D6A6F44DA46B7"
+				}
+				"betatest4"
+				{
+					"encrypted_gid_2"		"09AE7B5AEC1824BC6371C2F6F11C1746"
+					"encrypted_size_2"		"91AC6FAC72112664733EBB8DC0C5F407"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"AE957D894F0174905284CD139F6196EB"
+					"encrypted_size_2"		"7DE33367A60FA4D321EFF7FBCF04DFE9"
+				}
+				"fortranslator"
+				{
+					"encrypted_gid_2"		"6A6AE15B6F02669237EB6D4F71269821"
+					"encrypted_size_2"		"9E7535CFFCEE5F670D3F1F85D1625910"
+				}
+				"previousversion"
+				{
+					"encrypted_gid_2"		"A9A1AAC99010E2CDE1996CC6BFEB651D"
+					"encrypted_size_2"		"F9F734B80D09D8A9E1F518BD52209054"
+				}
+				"privatebetawithdebug"
+				{
+					"encrypted_gid_2"		"6BF61A31544BB2C98D2A41F24EE912E5"
+					"encrypted_size_2"		"7F403604181BA9A75ADB062D42323C17"
+				}
+			}
+		}
+		"386944"
+		{
+			"name"		"Ultimate Chicken Horse SteamOS"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3230008934289292721"
+			}
+			"maxsize"		"1606255416"
+			"encryptedmanifests"
+			{
+				"audio"
+				{
+					"encrypted_gid_2"		"40F22B2481EBAF7EA63563B02CAA9408"
+					"encrypted_size_2"		"0AD09FD51E9200505305B20C95B7E422"
+				}
+				"autobuild"
+				{
+					"encrypted_gid_2"		"797F018697EB62AE824FDFFA4428D937"
+					"encrypted_size_2"		"D17E2841DF1BB3DFA6368C262462BD0E"
+				}
+				"betatest4"
+				{
+					"encrypted_gid_2"		"F27C8760F1249EF6DD4CFEC6CF5ADA3A"
+					"encrypted_size_2"		"A4E642A964DA019529A166A006A5A2BC"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"427019CE6AAFE7E2F2E3AC5A6D0D3441"
+					"encrypted_size_2"		"B74EB62FE58E4CAE284F6600D5449DD3"
+				}
+				"fortranslator"
+				{
+					"encrypted_gid_2"		"F31C221A850311A586CA7F5B3908F216"
+					"encrypted_size_2"		"32A94A52CA59E536ED18A1481A5BA651"
+				}
+				"previousversion"
+				{
+					"encrypted_gid_2"		"3722EFA057D381A8D4EFFBC989225C0C"
+					"encrypted_size_2"		"4F6588585999CD930673C12B75651223"
+				}
+				"privatebetawithdebug"
+				{
+					"encrypted_gid_2"		"3B1D30993C5C7DF8BA50020A090C28B6"
+					"encrypted_size_2"		"F937C5A8B48AB8ED667E8B18EB6CE454"
+				}
+			}
+		}
+		"386945"
+		{
+			"name"		"Ultimate Chicken Horse Win32"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1702713908135970322"
+			}
+			"maxsize"		"1591818720"
+			"encryptedmanifests"
+			{
+				"audio"
+				{
+					"encrypted_gid_2"		"E046EEC68697E36CAA1F103B9AA47D72"
+					"encrypted_size_2"		"E5F6802E561F1C1C2327911A63E00BEE"
+				}
+				"autobuild"
+				{
+					"encrypted_gid_2"		"69C7C1A045886BD9EA3BCA5B26ECD5EC"
+					"encrypted_size_2"		"9C3BE5A3FF67F850F506B1E0FFA9111C"
+				}
+				"betatest4"
+				{
+					"encrypted_gid_2"		"A1623A58527B54305504F3E8F64CD031"
+					"encrypted_size_2"		"715607FCBE27AADB19DDE332C12A0EFC"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"79D02DED95AD3971330ADC65BF768B39"
+					"encrypted_size_2"		"87A50050772C1830D8977C0DDCB43FE0"
+				}
+				"fortranslator"
+				{
+					"encrypted_gid_2"		"9B2768E06E9B7C53F5718EE5E0E5EB44"
+					"encrypted_size_2"		"3F5976B43A742E8FBF4EB328A67BAD87"
+				}
+				"previousversion"
+				{
+					"encrypted_gid_2"		"8AB2BD317BC1083D01A4A2E48F27120F"
+					"encrypted_size_2"		"F1E478F6B320DAAB777D7FF6C60C08E9"
+				}
+				"privatebetawithdebug"
+				{
+					"encrypted_gid_2"		"9036FAB663790C77FCD5CDC1E3B998B4"
+					"encrypted_size_2"		"1B22922F2A6F8DFB990E0D6BF219D5FD"
+				}
+			}
+		}
+		"493070"
+		{
+			"name"		"Ultimate Chicken Horse Soundtrack (493070) Depot"
+			"manifests"
+			{
+				"public"		"6468816713560903960"
+			}
+			"maxsize"		"182160533"
+			"encryptedmanifests"
+			{
+				"previousversion"
+				{
+					"encrypted_gid_2"		"4CEFC9E4AEBBA19862A4ECE88F800CE2"
+					"encrypted_size_2"		"E062BEDD0F18481525E5930211009CB1"
+				}
+			}
+			"dlcappid"		"493070"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3933840"
+				"timeupdated"		"1561046847"
+			}
+			"audio"
+			{
+				"buildid"		"3520298"
+				"description"		"For Audio team"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548957545"
+			}
+			"autobuild"
+			{
+				"buildid"		"4179922"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568048571"
+			}
+			"betatest4"
+			{
+				"buildid"		"3891461"
+				"description"		"Farmhands Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559758114"
+			}
+			"experimental"
+			{
+				"buildid"		"3294282"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541802200"
+			}
+			"fortranslator"
+			{
+				"buildid"		"3520298"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548957748"
+			}
+			"previousversion"
+			{
+				"buildid"		"1762921"
+				"description"		"For testing older versions"
+				"pwdrequired"		"1"
+				"timeupdated"		"1513178932"
+			}
+			"privatebeta"
+			{
+				"buildid"		"3933840"
+				"description"		"Internal Testing beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560961679"
+			}
+			"privatebetawithdebug"
+			{
+				"buildid"		"3554603"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549990888"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"UltimateChickenHorse_Data"
+				"pattern"		"*.uch"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Clever Endeavour Games/Ultimate Chicken Horse"
+				"pattern"		"*.snapshot"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Clever Endeavour Games/Ultimate Chicken Horse"
+				"pattern"		"*.uch"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Clever Endeavour Games/Ultimate Chicken Horse"
+				"pattern"		"*.ruleset"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"UltimateChickenHorse_Data"
+						"replace"		"UltimateChickenHorse.app/Contents"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Clever Endeavour Games/Ultimate Chicken Horse"
+						"replace"		"/Library/Application Support/Clever Endeavour Games/Ultimate Chicken Horse"
+					}
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Clever Endeavour Games/Ultimate Chicken Horse"
+						"replace"		".config/unity3d/Clever Endeavour Games/Ultimate Chicken Horse"
+					}
+				}
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#default"		"Playing Ultimate Chicken Horse"
+					"#inlocallobby"		"Starting a game in {#mode_%mode%} mode"
+					"#inonlinelobby"		"Starting an online game in {#mode_%mode%} mode"
+					"#playinglocalcode"		"Playing a game with code %code% in {#mode_%mode%}"
+					"#playinglocalgame"		"Playing a game on {#level_%level%} in {#mode_%mode%}"
+					"#playingonlinecode"		"Playing online with code %code% in {#mode_%mode%}"
+					"#playingonlinegame"		"Playing a game online on {#level_%level%} in {#mode_%mode%}"
+					"#mode_party"		"Party"
+					"#mode_creative"		"Creative"
+					"#mode_freeplay"		"Free Play"
+					"#mode_challenge"		"Challenge"
+					"#level_blanklevel"		"Blank Level"
+					"#level_danceparty"		"Dance Party"
+					"#level_pyramid"		"Pyramid"
+					"#level_iceberg"		"Iceberg"
+					"#level_jungletemple"		"Jungle Temple"
+					"#level_metalplant"		"Metal Plant"
+					"#level_oldmansion"		"Old Mansion"
+					"#level_rooftops"		"Rooftops"
+					"#level_farm"		"The Farm"
+					"#level_pier"		"The Pier"
+					"#level_waterfall"		"Waterfall"
+					"#level_windmill"		"Windmill"
+					"#level_volcano"		"Volcano"
+					"#level_crumblingbridge"		"Crumbling Bridge"
+					"#level_nuclearplant"		"Nuclear Plant"
+					"#level_tronlevel"		"Mainframe"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#default"		"Joue à Ultimate Chicken Horse"
+					"#inlocallobby"		"Commence une partie en mode {#mode_%mode%}"
+					"#inonlinelobby"		"Commence une partie en ligne en mode {#mode_%mode%}"
+					"#playinglocalcode"		"Fait une partie avec le code %code% en mode {#mode_%mode%}"
+					"#playinglocalgame"		"Fait une partie sur {#level_%level%} en mode {#mode_%mode%}"
+					"#playingonlinecode"		"Joue en ligne avec le code %code% en mode {#mode_%mode%}"
+					"#playingonlinegame"		"Fait une partie en ligne sur {#level_%level%} en mode {#mode_%mode%}"
+					"#mode_party"		"Mode Party"
+					"#mode_creative"		"Mode Créatif"
+					"#mode_freeplay"		"Partie libre"
+					"#mode_challenge"		"Défi"
+					"#level_blanklevel"		"Niveau Vide"
+					"#level_danceparty"		"Soirée dansante"
+					"#level_pyramid"		"Pyramide"
+					"#level_iceberg"		"Iceberg"
+					"#level_jungletemple"		"Temple de la jungle"
+					"#level_metalplant"		"Usine à métaux"
+					"#level_oldmansion"		"Vieux manoir"
+					"#level_rooftops"		"Sur les toits"
+					"#level_farm"		"La ferme"
+					"#level_pier"		"La jetée"
+					"#level_waterfall"		"Cascade"
+					"#level_windmill"		"Moulin"
+					"#level_volcano"		"Volcan"
+					"#level_crumblingbridge"		"Pont en ruines"
+					"#level_nuclearplant"		"Usine nucléaire"
+					"#level_tronlevel"		"Ordinateur central"
+				}
+			}
+			"italian"
+			{
+				"tokens"
+				{
+					"#default"		"Gioca a Ultimate Chicken Horse"
+					"#inlocallobby"		"Inizia una partita nella modalità {#mode_%mode%}"
+					"#inonlinelobby"		"Inizia una partita online nella modalità {#mode_%mode%}"
+					"#playinglocalcode"		"Gioca una partita con il codice %code% nella modalità {#mode_%mode%}"
+					"#playinglocalgame"		"Gioca una partita su {#level_%level%} nella modalità {#mode_%mode%}"
+					"#playingonlinecode"		"Gioca online con il codice %code% nella modalità {#mode_%mode%}"
+					"#playingonlinegame"		"Gioca online su {#level_%level%} nella modalità {#mode_%mode%}"
+					"#mode_party"		"Party"
+					"#mode_creative"		"Creativa"
+					"#mode_freeplay"		"Partita libera"
+					"#mode_challenge"		"Sfida"
+					"#level_blanklevel"		"Livello vuoto"
+					"#level_danceparty"		"Ballo"
+					"#level_pyramid"		"Piramide"
+					"#level_iceberg"		"Iceberg"
+					"#level_jungletemple"		"Tempio della giungla"
+					"#level_metalplant"		"Fabbrica metallurgica"
+					"#level_oldmansion"		"Vecchio maniero"
+					"#level_rooftops"		"Tetti"
+					"#level_farm"		"La fattoria"
+					"#level_pier"		"Il molo"
+					"#level_waterfall"		"Cascata"
+					"#level_windmill"		"Mulino"
+					"#level_volcano"		"Vulcano"
+					"#level_crumblingbridge"		"Ponte in rovina"
+					"#level_nuclearplant"		"Centrale nucleare"
+					"#level_tronlevel"		"Elaboratore centrale"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#default"		"Spiele Ultimate Chicken Horse …"
+					"#inlocallobby"		"Starte ein Spiel im {#mode_%mode%}-Modus …"
+					"#inonlinelobby"		"Starte ein Online-Spiel im {#mode_%mode%}-Modus …"
+					"#playinglocalcode"		"Spiele ein Spiel mit Code %code% im {#mode_%mode%}-Modus …"
+					"#playinglocalgame"		"Spiele ein Online-Spiel auf {#level_%level%} im {#mode_%mode%}-Modus …"
+					"#playingonlinecode"		"Spiele online mit Code %code% im {#mode_%mode%}-Modus …"
+					"#playingonlinegame"		"Spiele ein Spiel online auf {#level_%level%} im {#mode_%mode%}-Modus …"
+					"#mode_party"		"Party"
+					"#mode_creative"		"Kreativ-Modus"
+					"#mode_freeplay"		"Freies Spiel"
+					"#mode_challenge"		"Herausforderung"
+					"#level_blanklevel"		"Leeres Level"
+					"#level_danceparty"		"Tanzparty"
+					"#level_pyramid"		"Pyramide"
+					"#level_iceberg"		"Eisberg"
+					"#level_jungletemple"		"Urwald"
+					"#level_metalplant"		"Metallfabrik"
+					"#level_oldmansion"		"Alte Villa"
+					"#level_rooftops"		"Hausdächer"
+					"#level_farm"		"Die Farm"
+					"#level_pier"		"Der Pier"
+					"#level_waterfall"		"Wasserfall"
+					"#level_windmill"		"Windmühle"
+					"#level_volcano"		"Vulkan"
+					"#level_crumblingbridge"		"Bröckelnde Brücke"
+					"#level_nuclearplant"		"Kernkraftwerk"
+					"#level_tronlevel"		"Mainframe"
+				}
+			}
+			"spanish"
+			{
+				"tokens"
+				{
+					"#default"		"Jugar a Ultimate Chicken Horse"
+					"#inlocallobby"		"Empezar una partida en modo {#mode_%mode%}"
+					"#inonlinelobby"		"Empezar una partida online en modo {#mode_%mode%}"
+					"#playinglocalcode"		"Empezar una partida con el código %code% en modo {#mode_%mode%}"
+					"#playinglocalgame"		"Jugar una partida en {#level_%level%} en modo {#mode_%mode%}"
+					"#playingonlinecode"		"Jugar una partida online con el código %code% en modo {#mode_%mode%}"
+					"#playingonlinegame"		"Jugar una partida online en {#level_%level%} en modo {#mode_%mode%}"
+					"#mode_party"		"Fiesta"
+					"#mode_creative"		"Modo creativo"
+					"#mode_freeplay"		"A lo loco"
+					"#mode_challenge"		"Desafío"
+					"#level_blanklevel"		"Nivel vacío"
+					"#level_danceparty"		"Fiesta de baile"
+					"#level_pyramid"		"Pirámide"
+					"#level_iceberg"		"Iceberg"
+					"#level_jungletemple"		"Templo de la jungla"
+					"#level_metalplant"		"Fábrica"
+					"#level_oldmansion"		"Vieja mansión"
+					"#level_rooftops"		"Azoteas"
+					"#level_farm"		"La granja"
+					"#level_pier"		"El embarcadero"
+					"#level_waterfall"		"Cascada"
+					"#level_windmill"		"Molino"
+					"#level_volcano"		"Volcán"
+					"#level_crumblingbridge"		"Puente ruinoso"
+					"#level_nuclearplant"		"Planta nuclear"
+					"#level_tronlevel"		"Ordenador central"
+				}
+			}
+			"brazilian"
+			{
+				"tokens"
+				{
+					"#default"		"Jogando Ultimate Chicken Horse"
+					"#inlocallobby"		"Começando jogo no modo {#mode_%mode%}"
+					"#inonlinelobby"		"Começando jogo online no modo {#mode_%mode%}"
+					"#playinglocalcode"		"Jogando com código %code%, no modo {#mode_%mode%}"
+					"#playinglocalgame"		"Jogando em {#level_%level%}, no modo {#mode_%mode%}"
+					"#playingonlinecode"		"Jogando online com código %code%, no modo {#mode_%mode%}"
+					"#playingonlinegame"		"Jogando online em {#level_%level%}, no modo {#mode_%mode%}"
+					"#mode_party"		"Festa"
+					"#mode_creative"		"Criativo"
+					"#mode_freeplay"		"Jogo livre"
+					"#mode_challenge"		"Desafio"
+					"#level_blanklevel"		"Fase em branco"
+					"#level_danceparty"		"Balada"
+					"#level_pyramid"		"Pirâmide"
+					"#level_iceberg"		"Iceberg"
+					"#level_jungletemple"		"Templo da Floresta"
+					"#level_metalplant"		"Fabrica de Metal"
+					"#level_oldmansion"		"Mansão Antiga"
+					"#level_rooftops"		"Telhados"
+					"#level_farm"		"A Fazenda"
+					"#level_pier"		"O Píer"
+					"#level_waterfall"		"Cachoeira"
+					"#level_windmill"		"Moinho de Vento"
+					"#level_volcano"		"Vulcão"
+					"#level_crumblingbridge"		"Ponte Desmoronando"
+					"#level_nuclearplant"		"Usina Nuclear"
+					"#level_tronlevel"		"O Mainframe"
+				}
+			}
+			"russian"
+			{
+				"tokens"
+				{
+					"#default"		"Играет в Ultimate Chicken Horse"
+					"#inlocallobby"		"Начинает игру: {#mode_%mode%}"
+					"#inonlinelobby"		"Начинает игру онлайн: {#mode_%mode%}"
+					"#playinglocalcode"		"Играет с кодом %code%: {#mode_%mode%}"
+					"#playinglocalgame"		"Играет на уровне {#level_%level%}: {#mode_%mode%}"
+					"#playingonlinecode"		"Играет онлайн с кодом %code%: {#mode_%mode%}"
+					"#playingonlinegame"		"Играет онлайн на уровне {#level_%level%}: {#mode_%mode%}"
+					"#mode_party"		"Командный"
+					"#mode_creative"		"Креативный режим"
+					"#mode_freeplay"		"Свободная игра"
+					"#mode_challenge"		"Состязание"
+					"#level_blanklevel"		"Пустота"
+					"#level_danceparty"		"Вечеринка"
+					"#level_pyramid"		"Пирамида"
+					"#level_iceberg"		"Айсберг"
+					"#level_jungletemple"		"Храм в джунглях"
+					"#level_metalplant"		"Фабрика"
+					"#level_oldmansion"		"Старый особняк"
+					"#level_rooftops"		"По крышам"
+					"#level_farm"		"Ферма"
+					"#level_pier"		"Причал"
+					"#level_waterfall"		"Водопад"
+					"#level_windmill"		"Мельница"
+					"#level_volcano"		"Вулкан"
+					"#level_crumblingbridge"		"Осыпающийся мост"
+					"#level_nuclearplant"		"Атомная станция"
+					"#level_tronlevel"		"Главный компьютер"
+				}
+			}
+			"tchinese"
+			{
+				"tokens"
+				{
+					"#default"		"開始玩超級雞馬"
+					"#inlocallobby"		"在{#mode_%mode%}模式下開始遊戲"
+					"#inonlinelobby"		"在{#mode_%mode%}模式下開始聯機遊戲"
+					"#playinglocalcode"		"在{#mode_%mode%}模式下開始代碼為%code%的遊戲"
+					"#playinglocalgame"		"在{#mode_%mode%}模式下開始{#level_%level%}遊戲"
+					"#playingonlinecode"		"在{#mode_%mode%}模式下開始代碼為%code%的聯機遊戲"
+					"#playingonlinegame"		"在{#mode_%mode%}模式下開始{#level_%level%}聯機遊戲"
+					"#mode_party"		"派對"
+					"#mode_creative"		"創意模式"
+					"#mode_freeplay"		"自由模式"
+					"#mode_challenge"		"挑戰"
+					"#level_blanklevel"		"空白關卡"
+					"#level_danceparty"		"舞會"
+					"#level_pyramid"		"金字塔"
+					"#level_iceberg"		"冰山"
+					"#level_jungletemple"		"叢林神廟"
+					"#level_metalplant"		"冶煉廠"
+					"#level_oldmansion"		"舊房子"
+					"#level_rooftops"		"房頂"
+					"#level_farm"		"農場"
+					"#level_pier"		"碼頭"
+					"#level_waterfall"		"瀑布"
+					"#level_windmill"		"風車"
+					"#level_volcano"		"火山"
+					"#level_crumblingbridge"		"碎碎橋"
+					"#level_nuclearplant"		"核工廠"
+					"#level_tronlevel"		"主機架"
+				}
+			}
+			"schinese"
+			{
+				"tokens"
+				{
+					"#default"		"开始玩超级鸡马"
+					"#inlocallobby"		"在{#mode_%mode%}模式下开始游戏"
+					"#inonlinelobby"		"在{#mode_%mode%}模式下开始联机游戏"
+					"#playinglocalcode"		"在{#mode_%mode%}模式下开始代码为%code%的游戏"
+					"#playinglocalgame"		"在{#mode_%mode%}模式下开始{#level_%level%}游戏"
+					"#playingonlinecode"		"在{#mode_%mode%}模式下开始代码为%code%的联机游戏"
+					"#playingonlinegame"		"在{#mode_%mode%}模式下开始{#level_%level%}联机游戏"
+					"#mode_party"		"派对"
+					"#mode_creative"		"创意模式"
+					"#mode_freeplay"		"自由模式"
+					"#mode_challenge"		"挑战"
+					"#level_blanklevel"		"空白关卡"
+					"#level_danceparty"		"舞会"
+					"#level_pyramid"		"金字塔"
+					"#level_iceberg"		"冰山"
+					"#level_jungletemple"		"丛林神庙"
+					"#level_metalplant"		"冶炼厂"
+					"#level_oldmansion"		"旧房子"
+					"#level_rooftops"		"房顶"
+					"#level_farm"		"农场"
+					"#level_pier"		"码头"
+					"#level_waterfall"		"瀑布"
+					"#level_windmill"		"风车"
+					"#level_volcano"		"火山"
+					"#level_crumblingbridge"		"碎碎桥"
+					"#level_nuclearplant"		"核工厂"
+					"#level_tronlevel"		"主机架"
+				}
+			}
+			"japanese"
+			{
+				"tokens"
+				{
+					"#default"		"Ultimate Chicken Horse をプレイ中"
+					"#inlocallobby"		"{#mode_%mode%} モードでゲームをスタート中"
+					"#inonlinelobby"		"{#mode_%mode%} モードでオンラインゲームをスタート中"
+					"#playinglocalcode"		"コード %code% を使い {#mode_%mode%} モードでゲームをプレイ中"
+					"#playinglocalgame"		"{#level_%level%}レベル、{#mode_%mode%} モードでゲームをプレイ中"
+					"#playingonlinecode"		"コード %code% を使い {#mode_%mode%} モードでオンラインプレイ中"
+					"#playingonlinegame"		"{#level_%level%} レベル、{#mode_%mode%} モードでオンラインゲームプレイ中"
+					"#mode_party"		"パーティー"
+					"#mode_creative"		"クリエイティブモード"
+					"#mode_freeplay"		"フリープレイ"
+					"#mode_challenge"		"チャレンジ"
+					"#level_blanklevel"		"からっぽ"
+					"#level_danceparty"		"パーティ"
+					"#level_pyramid"		"砂漠"
+					"#level_iceberg"		"氷山"
+					"#level_jungletemple"		"密林"
+					"#level_metalplant"		"金属工場"
+					"#level_oldmansion"		"古い邸宅"
+					"#level_rooftops"		"屋上"
+					"#level_farm"		"農場"
+					"#level_pier"		"桟橋"
+					"#level_waterfall"		"滝"
+					"#level_windmill"		"風車"
+					"#level_volcano"		"火山"
+					"#level_crumblingbridge"		"崩れかかった橋"
+					"#level_nuclearplant"		"原子力発電所"
+					"#level_tronlevel"		"メーンフレーム"
+				}
+			}
+			"koreana"
+			{
+				"tokens"
+				{
+					"#default"		"Ultimate Chicken Horse 플레이 중"
+					"#inlocallobby"		"{#mode_%mode%} 모드로 게임 시작하는 중"
+					"#inonlinelobby"		"{#mode_%mode%} 모드로 온라인 게임 시작하는 중"
+					"#playinglocalcode"		"{#mode_%mode%} 모드에서 %code% 코드로 게임하는 중"
+					"#playinglocalgame"		"{#mode_%mode%} 모드에서 {#level_%level%} 게임하는 중"
+					"#playingonlinecode"		"{#mode_%mode%} 모드에서 %code% 코드로 온라인 게임하는 중"
+					"#playingonlinegame"		"{#mode_%mode%} 모드에서 온라인으로 {#level_%level%} 게임하는 중"
+					"#mode_party"		"파티"
+					"#mode_creative"		"창의"
+					"#mode_freeplay"		"프리 플레이"
+					"#mode_challenge"		"챌린지"
+					"#level_blanklevel"		"공백 레벨"
+					"#level_danceparty"		"댄스 파티"
+					"#level_pyramid"		"피라미드"
+					"#level_iceberg"		"빙산"
+					"#level_jungletemple"		"밀림 사원"
+					"#level_metalplant"		"금속 공장"
+					"#level_oldmansion"		"옛 저택"
+					"#level_rooftops"		"지붕"
+					"#level_farm"		"농장"
+					"#level_pier"		"부두"
+					"#level_waterfall"		"폭포"
+					"#level_windmill"		"풍차"
+					"#level_volcano"		"화산"
+					"#level_crumblingbridge"		"무너지는 다리"
+					"#level_nuclearplant"		"원자력 발전소"
+					"#level_tronlevel"		"메인프레임"
+				}
+			}
+			"polish"
+			{
+				"tokens"
+				{
+					"#default"		"Gra w Ultimate Chicken Horse"
+					"#inlocallobby"		"Rozpoczyna grę w trybie {#mode_%mode%}"
+					"#inonlinelobby"		"Rozpoczyna grę online w trybie {#mode_%mode%}"
+					"#playinglocalcode"		"Gra w grę z kodem %code% w trybie {#mode_%mode%}"
+					"#playinglocalgame"		"Gra na poziomie {#level_%level%} w trybie {#mode_%mode%}"
+					"#playingonlinecode"		"Gra online z kodem %code% w trybie {#mode_%mode%}"
+					"#playingonlinegame"		"Gra online na poziomie {#level_%level%} w trybie {#mode_%mode%}"
+					"#mode_party"		"Impreza"
+					"#mode_creative"		"Kreatywny"
+					"#mode_freeplay"		"Gra dowolna"
+					"#mode_challenge"		"Wyzwanie"
+					"#level_blanklevel"		"Pusty poziom"
+					"#level_danceparty"		"Potańcówka"
+					"#level_pyramid"		"Piramida"
+					"#level_iceberg"		"Góra Lodowa"
+					"#level_jungletemple"		"Leśna świątynia"
+					"#level_metalplant"		"Fabryka stali"
+					"#level_oldmansion"		"Stary dworek"
+					"#level_rooftops"		"Dach"
+					"#level_farm"		"Farma"
+					"#level_pier"		"Molo"
+					"#level_waterfall"		"Wodospad"
+					"#level_windmill"		"Wiatrak"
+					"#level_volcano"		"Wulkan"
+					"#level_crumblingbridge"		"Niszczejący most"
+					"#level_nuclearplant"		"Reaktor jądrowy"
+					"#level_tronlevel"		"Matryca"
+				}
+			}
+			"turkish"
+			{
+				"tokens"
+				{
+					"#default"		"Ultimate Chicken Horse oynuyor"
+					"#inlocallobby"		"{#mode_%mode%} modunda oyun başlatılıyor"
+					"#inonlinelobby"		"{#mode_%mode%} modunda çevrimiçi oyun başlatıyor"
+					"#playinglocalcode"		"{#mode_%mode%} modunda %code% kodlu oyunu oynuyor"
+					"#playinglocalgame"		"{#mode_%mode%} modunda {#level_%level%} oyunu oynuyor"
+					"#playingonlinecode"		"{#mode_%mode%} modunda %code% kodlu çevrimiçi oyunu oynuyor"
+					"#playingonlinegame"		"{#mode_%mode%} modunda {#level_%level%} seviyesinde çevrimiçi oynuyor"
+					"#mode_party"		"Parti"
+					"#mode_creative"		"Yaratıcı Mod"
+					"#mode_freeplay"		"Serbest Oyun"
+					"#mode_challenge"		"Mücadele"
+					"#level_blanklevel"		"Boş Seviye"
+					"#level_danceparty"		"Dans partisi"
+					"#level_pyramid"		"Piramit"
+					"#level_iceberg"		"Buzdağı"
+					"#level_jungletemple"		"Orman Tapınağı"
+					"#level_metalplant"		"Metal Fabrikası"
+					"#level_oldmansion"		"Eski Konak"
+					"#level_rooftops"		"Çatılar"
+					"#level_farm"		"Çiftlik"
+					"#level_pier"		"İskele"
+					"#level_waterfall"		"Şelale"
+					"#level_windmill"		"Rüzgâr Gülü"
+					"#level_volcano"		"Volkan"
+					"#level_crumblingbridge"		"Yıkılan Köprü"
+					"#level_nuclearplant"		"Nükleer Tesis"
+					"#level_tronlevel"		"Ana Sistem"
+				}
+			}
+			"swedish"
+			{
+				"tokens"
+				{
+					"#default"		"Spelar Ultimate Chicken Horse"
+					"#inlocallobby"		"Startar ett spel i {#mode_%mode%}-läget"
+					"#inonlinelobby"		"Startar ett onlinespel i {#mode_%mode%}-läget"
+					"#playinglocalcode"		"Spelar ett spel med koden %code% i {#mode_%mode%}-läget"
+					"#playinglocalgame"		"Spelar ett spel på {0 } i {#mode_%mode%}-läget"
+					"#playingonlinecode"		"Spelar online med koden %code% i {#mode_%mode%}-läget"
+					"#playingonlinegame"		"Spelar ett spel online på {#level_%level%} i {#mode_%mode%}-läget"
+					"#mode_party"		"Party"
+					"#mode_creative"		"Kreativt läge"
+					"#mode_freeplay"		"Fritt spel"
+					"#mode_challenge"		"Utmaning"
+					"#level_blanklevel"		"Tom bana"
+					"#level_danceparty"		"Dansparty"
+					"#level_pyramid"		"Pyramid"
+					"#level_iceberg"		"Isberg"
+					"#level_jungletemple"		"Djungeltempel"
+					"#level_metalplant"		"Metallfabrik"
+					"#level_oldmansion"		"Gammal herrgård"
+					"#level_rooftops"		"Hustak"
+					"#level_farm"		"Gården"
+					"#level_pier"		"Piren"
+					"#level_waterfall"		"Vattenfall"
+					"#level_windmill"		"Väderkvarn"
+					"#level_volcano"		"Vulkan"
+					"#level_crumblingbridge"		"Rasande bro"
+					"#level_nuclearplant"		"Kärnkraftverk"
+					"#level_tronlevel"		"Huvuddatorn"
+				}
+			}
+		}
+	}
+}
+ 

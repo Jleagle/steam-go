@@ -1,0 +1,1094 @@
+"appinfo"
+{
+	"appid"		"219740"
+	"common"
+	{
+		"name"		"Don't Starve"
+		"type"		"Game"
+		"clienttga"		"cc8b181b138d7de9c61c19f55a41a1971e9496c6"
+		"icon"		"03fe647df40dccc4d19bf42a0185cd3e6b9f2953"
+		"clienticon"		"b35e63bb78482e2d48dda45fe7c75fc6f1a80238"
+		"logo"		"46cbbc2fcb14eb0bbbbaebbdf0b1e0eaf6f4c646"
+		"logo_small"		"46cbbc2fcb14eb0bbbbaebbdf0b1e0eaf6f4c646_thumb"
+		"linuxclienticon"		"3f3fd7b9b4c0f5823c731098b170da347d5eb6eb"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"f4d06cf79d667e4c836a660fbc2865ad67bd176f"
+		"eulas"
+		{
+		}
+		"metacritic_name"		"Don't Starve"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33"
+				"height_pct"		"44"
+			}
+		}
+		"store_asset_mtime"		"1557853864"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Klei Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Klei Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Klei Entertainment"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dont-starve?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"219740"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1702"
+			"2"		"492"
+			"3"		"21"
+			"4"		"3810"
+			"5"		"4182"
+			"6"		"1759"
+			"7"		"1695"
+			"8"		"3834"
+			"9"		"1716"
+			"10"		"3859"
+			"11"		"4711"
+			"12"		"1669"
+			"13"		"4026"
+			"14"		"599"
+			"15"		"3871"
+			"16"		"4791"
+			"17"		"3978"
+			"18"		"1667"
+			"19"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Klei Entertainment"
+		"gamedir"		"ValveTestApp219740"
+		"homepage"		"http://www.dontstarvegame.com"
+		"icon"		""
+		"installscript"		"installscript_new.vdf"
+		"noservers"		"0"
+		"showcdkeyinmenu"		"1"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"validoslist"		"windows,macos,linux"
+		"visibleonlywhensubscribed"		"1"
+		"legacykeylinkedexternally"		"1"
+		"hadthirdpartycdkey"		"1"
+		"publisher"		"Klei Entertainment"
+		"listofdlc"		"219750,239590,245850,282470,393010,414630,712640"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"dont_starve"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/dontstarve_steam.exe"
+				"description"		"Don't Starve for Windows"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dontstarve_steam.app"
+				"description"		"Don't Starve for OSX"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/dontstarve_steam"
+				"description"		"Don't Starve for Linux"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"823665419"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"219741"
+		{
+			"name"		"Don't Starve Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7454907054263795037"
+				"local"		"7305583718274329627"
+			}
+			"maxsize"		"977700499"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"4EEB2653A89DDDF7205BB3392B21BAE3"
+					"encrypted_size_2"		"33B12711601B73C620CF57C0A0EFC5BD"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"4E1429D60DF7E537C7F08D889E8FE9B6"
+					"encrypted_size_2"		"D291A3EFAE972061F2A277EE70371145"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"9286006BCD5A3775127C5BCC14338E64"
+					"encrypted_size_2"		"CA273828E6EAC9E0F915CB3CCCA91279"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"959C78F2D4A48DB486701DAB7E135115"
+					"encrypted_size_2"		"B06FA99EACD9297B62651D73BAC5AF6B"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"4842F800B502ACC35E12E80BCFED84C3"
+					"encrypted_size_2"		"66E6B6610B8C0B37DE8BF3BF350454D7"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"CA829D2C4CD531916CB76A24A5CBEABE"
+					"encrypted_size_2"		"0DBA51B2470C7454C150CB01EE9A0964"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"755DB7AB7774766B31325B9ABA955C3A"
+					"encrypted_size_2"		"271B4E40FD9EC865BC29FE88B4D252EF"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"A1B6B4A4FDCA1460324DDA52DD82F6AD"
+					"encrypted_size_2"		"BE9D792FD660D8B0DAC3ADDC048642BF"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"45B894D5B25E50235F2FD454FB06359A"
+					"encrypted_size_2"		"550CC12E038FEB94B462BF7F5AB79FC7"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"4F7F966C481E4DD7D7BA84B35356C056"
+					"encrypted_size_2"		"11984F5C0AD18A79C1500B09619D1E0B"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"844441C85041034270C092F9B48E54F3"
+					"encrypted_size_2"		"175B4603175886E3ECEEE8B13C19374B"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"6F57E99499065287B4542290406505DE"
+					"encrypted_size_2"		"96DE2079F6829B9A6D5211689CC2126D"
+				}
+			}
+		}
+		"219750"
+		{
+			"name"		"Don't Starve Soundtrack"
+			"dlcappid"		"219750"
+			"manifests"
+			{
+				"public"		"6558818855031758829"
+			}
+			"maxsize"		"576879467"
+			"encryptedmanifests"
+			{
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"4B1CCB356CF477D8BF4442175ED9BB0F"
+					"encrypted_size_2"		"ED16E1DB8CEE3123D9F4ED0E074DBA51"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"80D748F4E0153147C19DF3243ECE2080"
+					"encrypted_size_2"		"C43A52FA56D10B8BA6900382CCBC3EEF"
+				}
+			}
+		}
+		"219742"
+		{
+			"name"		"Linux Build"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5440320494451972022"
+			}
+			"maxsize"		"851106220"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"1E24FD17E0C684C2B2CC1D01F72AE7D6"
+					"encrypted_size_2"		"8A18AD9E22836E1AC23350D2F41A6F34"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"8E0107447E9300F510FBFF07F6947330"
+					"encrypted_size_2"		"30CD389A86C0091E39D040297E227F4F"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"F19575E4EAAB6FBFD2E16067D0BF3A49"
+					"encrypted_size_2"		"45FAF5DC11794341117CA3F5EF8A57B4"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"659174E307E9054B77211B93B19A2693"
+					"encrypted_size_2"		"3FA0E8E65D7D4EBB02318B2BDA3343A2"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"5672DEA4D2C5E5B1958182A30E98FFEB"
+					"encrypted_size_2"		"BCD33B932A3AEEF5CB21B621286B21B4"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"3DBAE8ACC3B7419EF4F099145329BD42"
+					"encrypted_size_2"		"8BBD6B025562F618738A6D7D2C489DE2"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"133417FC790FB3840C35039E7D59B6C3"
+					"encrypted_size_2"		"C043B58D3B62433FF3DF9E47F58275B7"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"69FD6AF14E1C365586623CB906FE1987"
+					"encrypted_size_2"		"38F96905678000B3E1819A32FB0E63ED"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"35C916B6EF02FC53246FAD39EB067C4E"
+					"encrypted_size_2"		"73D79C24DD552D4C9E601FFD176099F1"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"F9C00E82C20EEDE8437E1121801AA7B0"
+					"encrypted_size_2"		"5CEFA6B34D1736872B8C8957200DFA6B"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"5645A42276DBCC71CAE793A9383190AF"
+					"encrypted_size_2"		"43ED49BDE559F2178B7929DEA1EDEF4B"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"47B11E70884817DE84C9A0643B17C30E"
+					"encrypted_size_2"		"4E429A679B8E19B51368A58D2B011FC5"
+				}
+			}
+		}
+		"219743"
+		{
+			"name"		"OSX Build"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5640184262355832208"
+			}
+			"maxsize"		"769975793"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"BB52E34B04D4D92C7C72A94015DB8D37"
+					"encrypted_size_2"		"7C2E499B3FB198E20B94844524BD4551"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"2C3B09A78842C82203CA4C2A57B90368"
+					"encrypted_size_2"		"83539627E4A66057E7D8A12501488B28"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"9170AAF29A7584F84A30640B7C9F4315"
+					"encrypted_size_2"		"2B9A73455676612D60C498D8FFD05E16"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"8270A313032FDF6BBBD95CC18A2F8EBE"
+					"encrypted_size_2"		"F17B16939BF5FF2943F3449B4CF2A216"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"4D97E793EEC099A2AAAD0D3462A25B74"
+					"encrypted_size_2"		"4EFED9A738A5282EC3FE3116DAD2467F"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"824631BD6EF37419DF0FD38D5E491D84"
+					"encrypted_size_2"		"AD7629F9AB12F46CB0FC72C3FFFD9100"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"6D4A0119B1CFD53EC2A6E7923EFB849A"
+					"encrypted_size_2"		"13A2A98951DF785A0C143E3B4DC06DF9"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"132E6478F3C3AE594FB54BA4561E8CD3"
+					"encrypted_size_2"		"12DDC622DA715E63795B050111CD5988"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"4CC526085CD2BF5B0BB11D3DB7DEC58A"
+					"encrypted_size_2"		"9ED91DB1EE76600E20B94A3C0F4151C0"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"51A3D12DFBE82B25A6AAD928D43C076C"
+					"encrypted_size_2"		"05FADD3C2F81500173E21F9945C8243A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"D706FAF4E305076AF6601C4F3479F54C"
+					"encrypted_size_2"		"FA03F390D3DAA3000451BCD13D833982"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"1396C7DF1CCA7D931F56DDC64F41F7DC"
+					"encrypted_size_2"		"EF453E144EAC97DF0733A883E356DB0C"
+				}
+			}
+		}
+		"282470"
+		{
+			"name"		"Don't Starve DLC1 (282470) Depot"
+			"dlcappid"		"282470"
+		}
+		"282471"
+		{
+			"name"		"Don't Starve DLC1 Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8868832673150895947"
+			}
+			"maxsize"		"561941554"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"D5988A294AACC85FB1E2769825401E19"
+					"encrypted_size_2"		"2BC7B4013B01145C3FE89DC3D366DDB9"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"18AB2CF3480A316F34281B713D047C73"
+					"encrypted_size_2"		"64526F1A3A675A40F7C5152B20967438"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"4031CB20449843A39276930109BBCB5F"
+					"encrypted_size_2"		"FCAEBB44C6F7FDA4D0DEE5EBC23F172B"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"66C97094E564EF423A7B8AB019704807"
+					"encrypted_size_2"		"59273008552D0AD6E57CC62B5E768CEB"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"12DA1F9AF2CF75DBFF420B66CB1EE0B5"
+					"encrypted_size_2"		"FCA9FCD3E3C74A1BA3B0CDDF86B70F12"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"56B32CCD8F8C371387A3232DF94D4F4F"
+					"encrypted_size_2"		"6065AB658DBFDAE8E5E69BBBE9D79203"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"B9A24D2FB8F6A040C4A29CE59252B7CB"
+					"encrypted_size_2"		"16CF63A3F01049F1FADD52F5388BB610"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"27C8D49A9D84B87B59F8E1626C28CC92"
+					"encrypted_size_2"		"3A45913E41E29FE19519162130E5CB0E"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"CD3BD7A6F9B19D29A93746AA894D31D3"
+					"encrypted_size_2"		"9B2D875CF90DAB4BA87A9CE5C64DEDF3"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"1F3A7744A9B5B8D1D866040B575272C3"
+					"encrypted_size_2"		"43B45DCC101B7989595DC54C4097E34F"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"76CFF511F7ADE66FF5DB757CD2C87296"
+					"encrypted_size_2"		"E31B2CF07CF63F351E421D51EB68E634"
+				}
+			}
+		}
+		"282472"
+		{
+			"name"		"Don't Starve DLC1 OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6198070053801084130"
+			}
+			"maxsize"		"561928425"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"F002DA6B0F263758ECC68EAEBBA4C1A3"
+					"encrypted_size_2"		"C2B714E3B2FD8F6A137462C6EFB638A4"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"18BA5E79E8E0E618E09D4235D2E3549B"
+					"encrypted_size_2"		"1594C9B71955B9CDFB394653D7BFA938"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"9E81CBD4515DC373EEBAD8BA44A4D45E"
+					"encrypted_size_2"		"D5E77842B6D4B4F5FD176C3C9544FE29"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"3B5D74209F99927319EAE832B9AAD49B"
+					"encrypted_size_2"		"C64EE38D5BF9A57F7494B1CBCFA97E55"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"610098AE55EE3BAA084A248ED9F3C4D6"
+					"encrypted_size_2"		"D354A3AF2CA044A1A93FC53614DC0059"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"08BA9F87754C727E7B91674568091F73"
+					"encrypted_size_2"		"D007FD3EFAD9B79E2FFB98614C14A579"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"44CB3F416B324C73E6CF89C694E92859"
+					"encrypted_size_2"		"C6F348DD3E5A87AE134822CD7A385E6E"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"C96E476D1479F30E8AF90C852C398802"
+					"encrypted_size_2"		"3AE5D01FB0FE2431AD7AB8A55E95FFCB"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"BE62259544575869A1F7E19D420841C2"
+					"encrypted_size_2"		"48D1E2A6AFE2FCE23B4F02CD184ED055"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"507C77C0515638755C2E0D47EEA7391B"
+					"encrypted_size_2"		"0333A179F38C924417608BA9DAEA6A96"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"5B5C26678E89404170BCED4251504A90"
+					"encrypted_size_2"		"CA29310313CFE504F1D812C6B3C5D9C0"
+				}
+			}
+		}
+		"282473"
+		{
+			"name"		"Don't Starve DLC1 Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3116134580620720207"
+			}
+			"maxsize"		"561928425"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"086F386EA148D3827749F63416249601"
+					"encrypted_size_2"		"C2B714E3B2FD8F6A137462C6EFB638A4"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"24E1DC3336E9E98DB398B684A46A117B"
+					"encrypted_size_2"		"1594C9B71955B9CDFB394653D7BFA938"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"308ADC8E89430A6A91ADFEEE17C0C174"
+					"encrypted_size_2"		"D5E77842B6D4B4F5FD176C3C9544FE29"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"6E306DBA1B05CBB626E224189222F55F"
+					"encrypted_size_2"		"C64EE38D5BF9A57F7494B1CBCFA97E55"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"88AF1BB337EB9E5E05A78777AECE0C20"
+					"encrypted_size_2"		"D354A3AF2CA044A1A93FC53614DC0059"
+				}
+				"ovrtest"
+				{
+					"encrypted_gid_2"		"8716F9C35058E9F22C7AB264988E1C31"
+					"encrypted_size_2"		"D007FD3EFAD9B79E2FFB98614C14A579"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"FA541AA5D238EB39BB6A188706E648CD"
+					"encrypted_size_2"		"C6F348DD3E5A87AE134822CD7A385E6E"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"A5A4D60519BB3A27576003270C47F1C6"
+					"encrypted_size_2"		"3AE5D01FB0FE2431AD7AB8A55E95FFCB"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"0227660EC3D2471088FAADE976BD9F7D"
+					"encrypted_size_2"		"48D1E2A6AFE2FCE23B4F02CD184ED055"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"02CE69C2072C0C8314ABF278988A961A"
+					"encrypted_size_2"		"0333A179F38C924417608BA9DAEA6A96"
+				}
+				"vrtest"
+				{
+					"encrypted_gid_2"		"6A08AC7302FD587FC4C3075A6D6027E6"
+					"encrypted_size_2"		"CA29310313CFE504F1D812C6B3C5D9C0"
+				}
+			}
+		}
+		"393010"
+		{
+			"name"		"Don't Starve DLC 2 (393010) Depot"
+			"dlcappid"		"393010"
+		}
+		"393011"
+		{
+			"name"		"Don't Starve DLC 2 Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"393010"
+			"manifests"
+			{
+				"public"		"7246986785772634289"
+			}
+			"maxsize"		"671865934"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"3E4F45F46183F961E67837FD134D25B4"
+					"encrypted_size_2"		"BF1BEC9BE75D313814966164D256B149"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"B00F0C74B01A81B06D83736F52199280"
+					"encrypted_size_2"		"F73F85F69164923F37D946A799B41DB1"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"46E3B99235E8F87896972EF3E4B2E039"
+					"encrypted_size_2"		"457BB022EBD93E6FE2D79442D9B9792A"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"C8E9440D05F3CD90A27BEDF25B705907"
+					"encrypted_size_2"		"4E0C252B98BCF09633846057BD006466"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"6C50FBA1D524ABD3C71162A78B7469B1"
+					"encrypted_size_2"		"7DC50E52069CB026ACA31A32F0A78180"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"317CD45419A1702F1A87C8169A5BEC7E"
+					"encrypted_size_2"		"6B8D5DFC51D39EDAAB6CAE2040E64A6A"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"489723823DC0125A3C283EAED921C01D"
+					"encrypted_size_2"		"8B3264D2566FF4140745E75EA92BEB70"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"45DFC5412AA5AF038BC6EA7595E2F745"
+					"encrypted_size_2"		"E3E1B71C3821891DEDCEEBEDB2BF542C"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"7A987C3FD1F930A58AF9F92FE6A2DED2"
+					"encrypted_size_2"		"93371B3CC50A08330CDD28F37E13A9E5"
+				}
+			}
+		}
+		"393012"
+		{
+			"name"		"Don't Starve DLC 2 OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"393010"
+			"manifests"
+			{
+				"public"		"3885036287862731382"
+			}
+			"maxsize"		"671844156"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"E12B263EFE399638479CCF451AC1BA4B"
+					"encrypted_size_2"		"FB4822A48BD8184F364ECB5C4477CDA4"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"8A17D86AE72682C89AEF3483B5E9BBD4"
+					"encrypted_size_2"		"5C5783AA7A8789BEBD9B3DBA6A64BC90"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"2EE8956B7DFC6B2262A3D5E4808142D7"
+					"encrypted_size_2"		"D2D134224385E5DEB4572F02B4217665"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"D50CA2CD188936F4B1B0F5401FAFB33D"
+					"encrypted_size_2"		"71A93B36FF8D4061690158828DC81C3C"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"1BDD734F12D2B4D2FC26CF36C2C0B85D"
+					"encrypted_size_2"		"24571D72356498B9AD2217791AA022F9"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"BE1CD21E231C2236F7265B2EC4F83D8D"
+					"encrypted_size_2"		"F24E4E7826F33988AB30D3375936C63E"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"9F6815759DA84FCA5985D2B435F6FF29"
+					"encrypted_size_2"		"47693637DCC6F795C32E2E37CB1D8D71"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"4C9EDBCC823EE4D21B8D48E62A50997F"
+					"encrypted_size_2"		"0326CCE66180AC1BB179DDAAB871A219"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"402CEC9F66784A9C0A455301EA7AB5CE"
+					"encrypted_size_2"		"D3FF01BE49DF75E122A9315F6AA519EC"
+				}
+			}
+		}
+		"393013"
+		{
+			"name"		"Don't Starve DLC 2 Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"393010"
+			"manifests"
+			{
+				"public"		"8499878583713299763"
+			}
+			"maxsize"		"671844156"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"B22F2C000FE1CDA7378D2B7C0CF3329E"
+					"encrypted_size_2"		"FB4822A48BD8184F364ECB5C4477CDA4"
+				}
+				"default_backup"
+				{
+					"encrypted_gid_2"		"BB7A34B4426467FDBE2941D023D71787"
+					"encrypted_size_2"		"5C5783AA7A8789BEBD9B3DBA6A64BC90"
+				}
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"027C922280DEEFD2F613FF03BB52EE2F"
+					"encrypted_size_2"		"D2D134224385E5DEB4572F02B4217665"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"D91DE9631CE4039D64BDA19C4F55F470"
+					"encrypted_size_2"		"71A93B36FF8D4061690158828DC81C3C"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"44A79F186AC87E5A1CD5CA3E316BD86B"
+					"encrypted_size_2"		"24571D72356498B9AD2217791AA022F9"
+				}
+				"prev_default"
+				{
+					"encrypted_gid_2"		"89E5AA6CD2614DE411134EEB540BAC95"
+					"encrypted_size_2"		"F24E4E7826F33988AB30D3375936C63E"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"B755E2880D53C4FA279F0EE22942C4A0"
+					"encrypted_size_2"		"47693637DCC6F795C32E2E37CB1D8D71"
+				}
+				"shipwreckedtest"
+				{
+					"encrypted_gid_2"		"54919A570B60A75D9B2F95CEC3EE7C35"
+					"encrypted_size_2"		"0326CCE66180AC1BB179DDAAB871A219"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"AF9E447CC1276D852D8DFC8BBA2849A9"
+					"encrypted_size_2"		"D3FF01BE49DF75E122A9315F6AA519EC"
+				}
+			}
+		}
+		"712640"
+		{
+			"name"		"Don't Starve DLC 3 (712640) Depot"
+			"dlcappid"		"712640"
+		}
+		"219744"
+		{
+			"name"		"Don't Starve DLC 3 Windows"
+			"dlcappid"		"712640"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4721064525276652478"
+			}
+			"maxsize"		"1034807132"
+			"encryptedmanifests"
+			{
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"8B6A961B7BB003BE6030450D8A77D6FF"
+					"encrypted_size_2"		"2C65D02A3766ABC4EF54C1DD9042E599"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"544DF0F2954477D21D871FCF6948C56C"
+					"encrypted_size_2"		"9259F2AD414984C7902D4CDD12D8C59A"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"F2E038DCB3407DD250EAABD993EC085F"
+					"encrypted_size_2"		"128B88982253E0D89B21BD9543E4D4E2"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"213DFE4674FD712A811B475E93986EC5"
+					"encrypted_size_2"		"CD91BE10FE8A9C81F7CDB56AD05D0821"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"51E540B2ABE5420E96F4B601677120AD"
+					"encrypted_size_2"		"9A5B4D8F085C3096E297909705B3D41C"
+				}
+			}
+		}
+		"219745"
+		{
+			"name"		"Don't Starve DLC 3 OSX"
+			"dlcappid"		"712640"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1781978166640685415"
+			}
+			"maxsize"		"1034784735"
+			"encryptedmanifests"
+			{
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"851F6D39AEE9924F97433E6AD11410CE"
+					"encrypted_size_2"		"67AAEE324D836969A21CA12AFEE3650D"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"7B5146864C9F1850C153B470C7B85B65"
+					"encrypted_size_2"		"F3449487FF7BC9867127F6C07BC55414"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"E7894AC71183D425870538198B078581"
+					"encrypted_size_2"		"FCC4BA9C1D681BB92F566F98667DE31F"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"0CE514CA2C0876FA54AC4C1118E70C22"
+					"encrypted_size_2"		"7E0A2D4B85368A4B536A6222E8CAC98B"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"35D9DC927584DE6D2500D08C254F9EA8"
+					"encrypted_size_2"		"E9C7E43CC8F117719E4101093EF7D072"
+				}
+			}
+		}
+		"219746"
+		{
+			"name"		"Don't Starve DLC 3 Linux"
+			"dlcappid"		"712640"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1710959578459025367"
+			}
+			"maxsize"		"1034784735"
+			"encryptedmanifests"
+			{
+				"hamlet_interiors"
+				{
+					"encrypted_gid_2"		"7A7788348DD037CC1F3ADC6142DA53EB"
+					"encrypted_size_2"		"67AAEE324D836969A21CA12AFEE3650D"
+				}
+				"hamlet_interiors_staging"
+				{
+					"encrypted_gid_2"		"C30E97B2A4F1FC73843303FE61D15E6F"
+					"encrypted_size_2"		"F3449487FF7BC9867127F6C07BC55414"
+				}
+				"hamlettest"
+				{
+					"encrypted_gid_2"		"99B58ADC7559345A9B47FC9691AD4EC3"
+					"encrypted_size_2"		"FCC4BA9C1D681BB92F566F98667DE31F"
+				}
+				"qabranch"
+				{
+					"encrypted_gid_2"		"F0297EF245E873A72B2928EF28F8106C"
+					"encrypted_size_2"		"7E0A2D4B85368A4B536A6222E8CAC98B"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"A3A98F8A7C5FF15975819B730173983F"
+					"encrypted_size_2"		"E9C7E43CC8F117719E4101093EF7D072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4113823"
+				"timeupdated"		"1565995434"
+			}
+			"beta"
+			{
+				"buildid"		"2230335"
+				"description"		"new update for Shipwrecked"
+				"pwdrequired"		"1"
+				"timeupdated"		"1508972973"
+			}
+			"default_backup"
+			{
+				"buildid"		"1481833"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1486516282"
+			}
+			"dev"
+			{
+				"buildid"		"4178974"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568028241"
+			}
+			"hamlet_interiors"
+			{
+				"buildid"		"3809225"
+				"description"		"Hamlet interior upgrade beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557436075"
+			}
+			"hamlet_interiors_staging"
+			{
+				"buildid"		"3819444"
+				"description"		"Hamlet interior upgrade beta staging"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557774123"
+			}
+			"hamlettest"
+			{
+				"buildid"		"3557953"
+				"description"		"test hamlet"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550071439"
+			}
+			"local"
+			{
+				"buildid"		"774513"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"ovrtest"
+			{
+				"buildid"		"905732"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"prev_default"
+			{
+				"buildid"		"1481833"
+				"description"		"For previous builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1490208809"
+			}
+			"qabranch"
+			{
+				"buildid"		"3128730"
+				"description"		"For Plastic Fern"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537232284"
+			}
+			"release"
+			{
+				"buildid"		"4113823"
+				"description"		"Smoke testing before 'default'"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565995143"
+			}
+			"shipwreckedtest"
+			{
+				"buildid"		"1183070"
+				"description"		"test shipwrecked"
+				"pwdrequired"		"1"
+				"timeupdated"		"1466036239"
+			}
+			"staging"
+			{
+				"buildid"		"2801464"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527123891"
+			}
+			"vrtest"
+			{
+				"buildid"		"905732"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"209715200"
+		"maxnumfiles"		"400"
+	}
+}
+ 
