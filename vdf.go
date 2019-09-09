@@ -3,24 +3,29 @@ package vdf
 import (
 	"bytes"
 	"encoding/binary"
-	"errors"
-	"fmt"
 	"io"
-	"os"
-	"strconv"
+	"io/ioutil"
 )
 
 func ReadBinaryFile(path string) (kv KeyValue, err error) {
 
-	r, err := os.Open(path)
+	b, err := ioutil.ReadFile(path)
 	if err != nil {
 		return kv, err
 	}
 
-	return ReadBinaryReader(r)
+	return ReadBinaryBytes(b)
 }
 
-func ReadBinaryReader(r io.Reader) (kv KeyValue, err error) {
+func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
+	if IsBinary(b) {
+		return readBinaryReader(bytes.NewReader(b))
+	} else {
+		return readText(b)
+	}
+}
+
+func readBinaryReader(r io.Reader) (kv KeyValue, err error) {
 
 	var d float32
 	err = binary.Read(r, binary.LittleEndian, &d)
@@ -28,10 +33,6 @@ func ReadBinaryReader(r io.Reader) (kv KeyValue, err error) {
 	root := KeyValue{}
 	err = readBinary(r, &root, nil)
 	return root, err
-}
-
-func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
-	return ReadBinaryReader(bytes.NewReader(b))
 }
 
 func IsBinary(b []byte) bool {
