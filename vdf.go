@@ -69,8 +69,6 @@ func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
 // Thanks to https://github.com/SteamRE/SteamKit
 func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 
-	current.Children = []*KeyValue{}
-
 	for {
 
 		var b byte
