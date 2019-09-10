@@ -7,17 +7,17 @@ import (
 	"io/ioutil"
 )
 
-func ReadBinaryFile(path string) (kv KeyValue, err error) {
+func ReadFile(path string) (kv KeyValue, err error) {
 
 	b, err := ioutil.ReadFile(path)
 	if err != nil {
 		return kv, err
 	}
 
-	return ReadBinaryBytes(b)
+	return ReadBytes(b)
 }
 
-func ReadBinaryBytes(b []byte) (kv KeyValue, err error) {
+func ReadBytes(b []byte) (kv KeyValue, err error) {
 	if IsBinary(b) {
 		return readBinaryReader(bytes.NewReader(b))
 	} else {

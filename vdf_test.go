@@ -20,7 +20,7 @@ func TestReadBinary(t *testing.T) {
 		id := ints.FindString(file)
 		isApp := strings.Contains(file, "app")
 
-		kv, err := ReadBinaryFile(file)
+		kv, err := ReadFile(file)
 		if err != nil {
 			t.Error(err)
 		}
