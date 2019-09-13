@@ -43,10 +43,10 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, packageid.Value == id)
 		}
 
-		switch id {
-		case "10":
+		switch file {
+		case "testdata/app_10.vdf":
 
-			fmt.Println("Testing " + id)
+			fmt.Println("Testing " + file)
 
 			assert.Assert(t, len(kv.Children) == 6)
 
@@ -59,9 +59,21 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, associations.Children[0].Children[1].Value == "Valve", id)
 			assert.Assert(t, associations.Children[1].Children[1].Value == "Valve", id)
 
-		case "55058":
+		case "testdata/app_917720.vdf":
 
-			fmt.Println("Testing " + id)
+			fmt.Println("Testing " + file)
+
+			common, ok := kv.GetChild("common")
+			assert.Assert(t, ok)
+			assert.Assert(t, len(common.Children) == 25, id)
+
+			assets, ok := common.GetChild("library_assets")
+			assert.Assert(t, ok)
+			assert.Assert(t, len(assets.Children) == 4, id)
+
+		case "testdata/package_55058.bin":
+
+			fmt.Println("Testing " + file)
 
 			child, ok := kv.GetChild("billingtype")
 			assert.Assert(t, ok)
@@ -79,9 +91,9 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, ok)
 			assert.Assert(t, child.Value == "false", id)
 
-		case "228891":
+		case "testdata/package_228891.bin":
 
-			fmt.Println("Testing " + id)
+			fmt.Println("Testing " + file)
 
 			child, ok := kv.GetChild("billingtype")
 			assert.Assert(t, ok)
@@ -117,9 +129,9 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, ok)
 			assert.Assert(t, child.Value == "1155030", id)
 
-		case "394363":
+		case "testdata/package_394363.bin":
 
-			fmt.Println("Testing " + id)
+			fmt.Println("Testing " + file)
 
 			extended, ok := kv.GetChild("extended")
 			assert.Assert(t, ok)
