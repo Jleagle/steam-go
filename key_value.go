@@ -25,16 +25,24 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 	kv.Children = append(kv.Children, value)
 }
 
-func (kv KeyValue) ChildrenAsMap() (m map[string]interface{}) {
+func (kv KeyValue) Map() (m map[string]interface{}) {
+
+	return toMap(KeyValue{
+		Key:      "",
+		Children: []KeyValue{kv},
+	})
+}
+
+func toMap(kv KeyValue) (m map[string]interface{}) {
 
 	m = map[string]interface{}{}
 
-	for _, v := range kv.Children {
+	for _, child := range kv.Children {
 
-		if v.Value == "" {
-			m[v.Key] = v.ChildrenAsMap()
+		if child.Value == "" {
+			m[child.Key] = toMap(child)
 		} else {
-			m[v.Key] = v.Value
+			m[child.Key] = child.Value
 		}
 	}
 
