@@ -59,6 +59,14 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, associations.Children[0].Children[1].Value == "Valve", id)
 			assert.Assert(t, associations.Children[1].Children[1].Value == "Valve", id)
 
+			m := kv.Map()
+
+			appinfo := m["appinfo"].(map[string]interface{})
+			assert.Assert(t, appinfo["appid"] == "10", id)
+
+			commonM := appinfo["common"].(map[string]interface{})
+			assert.Assert(t, len(commonM) == 28, id)
+
 		case "testdata/app_917720.vdf":
 
 			fmt.Println("Testing " + file)
