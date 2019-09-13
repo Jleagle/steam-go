@@ -59,13 +59,18 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, associations.Children[0].Children[1].Value == "Valve", id)
 			assert.Assert(t, associations.Children[1].Children[1].Value == "Valve", id)
 
-			m := kv.Map()
+			kvMap := kv.ToMap()
 
-			appinfo := m["appinfo"].(map[string]interface{})
+			appinfo := kvMap["appinfo"].(map[string]interface{})
 			assert.Assert(t, appinfo["appid"] == "10", id)
 
 			commonM := appinfo["common"].(map[string]interface{})
 			assert.Assert(t, len(commonM) == 28, id)
+
+			kvStruct := FromMap(kvMap)
+			kv.sort()
+			kvStruct.sort()
+			assert.DeepEqual(t, kv, kvStruct)
 
 		case "testdata/app_917720.vdf":
 

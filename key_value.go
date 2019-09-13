@@ -1,9 +1,24 @@
 package vdf
 
+import (
+	"sort"
+)
+
 type KeyValue struct {
 	Key      string     `json:"key"`
 	Value    string     `json:"value"`
 	Children []KeyValue `json:"children"`
+}
+
+func (kv *KeyValue) sort() {
+
+	sort.Slice(kv.Children, func(i, j int) bool {
+		return kv.Children[i].Key < kv.Children[j].Key
+	})
+
+	for _, v := range kv.Children {
+		v.sort()
+	}
 }
 
 func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
@@ -25,7 +40,7 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 	kv.Children = append(kv.Children, value)
 }
 
-func (kv KeyValue) Map() (m map[string]interface{}) {
+func (kv KeyValue) ToMap() (m map[string]interface{}) {
 
 	return toMap(KeyValue{
 		Key:      "",
@@ -33,9 +48,9 @@ func (kv KeyValue) Map() (m map[string]interface{}) {
 	})
 }
 
-func toMap(kv KeyValue) (m map[string]interface{}) {
+func toMap(kv KeyValue) map[string]interface{} {
 
-	m = map[string]interface{}{}
+	m := map[string]interface{}{}
 
 	for _, child := range kv.Children {
 
@@ -47,4 +62,25 @@ func toMap(kv KeyValue) (m map[string]interface{}) {
 	}
 
 	return m
+}
+
+func FromMap(m map[string]interface{}) KeyValue {
+	return fromMap("", m).Children[0]
+}
+
+func fromMap(key string, m interface{}) (out KeyValue) {
+
+	out.Key = key
+
+	switch m := m.(type) {
+	case map[string]interface{}:
+		for k, v := range m {
+			out.Children = append(out.Children, fromMap(k, v))
+		}
+		out.Value = ""
+	case string:
+		out.Value = m
+	}
+
+	return out
 }
