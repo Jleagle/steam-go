@@ -4,6 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"image/color"
 	"io"
 	"strconv"
 )
@@ -57,7 +58,12 @@ func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 
 			current.Value, err = readString(r)
 
-		case TypeInt32, TypeColor, TypePointer:
+		case TypeColor:
+
+			var d color.NRGBA
+			err = binary.Read(r, binary.LittleEndian, &d)
+
+		case TypeInt32, TypePointer:
 
 			var d int32
 			err := binary.Read(r, binary.LittleEndian, &d)
