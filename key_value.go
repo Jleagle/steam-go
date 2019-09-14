@@ -24,7 +24,10 @@ func (kv *KeyValue) SortChildren() {
 
 func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
 	for _, v := range kv.Children {
-		ret = append(ret, v.Value)
+		s, err := v.String()
+		if err == nil {
+			ret = append(ret, s)
+		}
 	}
 	return ret
 }
@@ -32,7 +35,10 @@ func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
 func (kv KeyValue) GetChildrenAsMap() (ret map[string]string) {
 	ret = map[string]string{}
 	for _, v := range kv.Children {
-		ret[v.Key] = v.Value
+		s, err := v.String()
+		if err == nil {
+			ret[v.Key] = s
+		}
 	}
 	return ret
 }
