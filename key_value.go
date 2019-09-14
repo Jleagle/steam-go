@@ -10,14 +10,14 @@ type KeyValue struct {
 	Children []KeyValue `json:"children"`
 }
 
-func (kv *KeyValue) sort() {
+func (kv *KeyValue) SortChildren() {
 
 	sort.Slice(kv.Children, func(i, j int) bool {
 		return kv.Children[i].Key < kv.Children[j].Key
 	})
 
 	for _, v := range kv.Children {
-		v.sort()
+		v.SortChildren()
 	}
 }
 

@@ -68,8 +68,8 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, len(commonM) == 28, id)
 
 			kvStruct := FromMap(kvMap)
-			kv.sort()
-			kvStruct.sort()
+			kv.SortChildren()
+			kvStruct.SortChildren()
 			assert.DeepEqual(t, kv, kvStruct)
 
 		case "testdata/app_917720.vdf":
