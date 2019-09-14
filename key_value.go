@@ -57,13 +57,15 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 }
 
 // Returns kv.Value or the children in json form
-func (kv KeyValue) String() (b []byte, err error) {
+func (kv KeyValue) String() (string, error) {
 
 	if kv.Value != "" {
-		return []byte(kv.Value), nil
+		return kv.Value, nil
 	}
 
-	return json.Marshal(toMap(kv))
+	b, err := json.Marshal(toMap(kv))
+
+	return string(b), err
 }
 
 // Includes top level
