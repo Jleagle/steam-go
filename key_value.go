@@ -1,6 +1,7 @@
 package vdf
 
 import (
+	"encoding/json"
 	"sort"
 )
 
@@ -55,6 +56,17 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 	kv.Children = append(kv.Children, value)
 }
 
+// Returns kv.Value or the children in json form
+func (kv KeyValue) String() (b []byte, err error) {
+
+	if kv.Value != "" {
+		return []byte(kv.Value), nil
+	}
+
+	return json.Marshal(toMap(kv))
+}
+
+// Includes top level
 func (kv KeyValue) ToMap() (m map[string]interface{}) {
 
 	return toMap(KeyValue{
@@ -63,6 +75,7 @@ func (kv KeyValue) ToMap() (m map[string]interface{}) {
 	})
 }
 
+// Does not include top level
 func toMap(kv KeyValue) map[string]interface{} {
 
 	m := map[string]interface{}{}
