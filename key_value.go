@@ -21,6 +21,21 @@ func (kv *KeyValue) SortChildren() {
 	}
 }
 
+func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
+	for _, v := range kv.Children {
+		ret = append(ret, v.Value)
+	}
+	return ret
+}
+
+func (kv KeyValue) GetChildrenAsMap() (ret map[string]string) {
+	ret = map[string]string{}
+	for _, v := range kv.Children {
+		ret[v.Key] = v.Value
+	}
+	return ret
+}
+
 func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
 	for _, child := range kv.Children {
 		if child.Key == key {
