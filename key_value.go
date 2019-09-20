@@ -101,7 +101,12 @@ func toMap(kv KeyValue) map[string]interface{} {
 }
 
 func FromMap(m map[string]interface{}) KeyValue {
-	return fromMap("", m).Children[0]
+
+	kv := fromMap("", m)
+	if len(kv.Children) > 0 {
+		return kv.Children[0]
+	}
+	return kv
 }
 
 func fromMap(key string, m interface{}) (out KeyValue) {
