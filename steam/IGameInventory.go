@@ -39,29 +39,29 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 }
 
 type ItemDefArchive struct {
-	AppID            ctypes.CInt   `json:"appid"`
-	Bundle           string        `json:"bundle"`
-	Commodity        ctypes.CBool  `json:"commodity"`
-	DateCreated      string        `json:"date_created"` // Can't be time.Time, - "20161010T080316Z"
-	Description      string        `json:"description"`
-	DisplayType      string        `json:"display_type"`
-	DropInterval     ctypes.CInt   `json:"drop_interval"`
-	DropMaxPerWindow ctypes.CInt   `json:"drop_max_per_window"`
-	Exchange         string        `json:"exchange"`
-	Hash             string        `json:"hash"`
-	IconURL          string        `json:"icon_url"`
-	IconURLLarge     string        `json:"icon_url_large"`
-	ItemDefID        ctypes.CInt   `json:"itemdefid"`
-	ItemQuality      string        `json:"item_quality"`
-	Marketable       ctypes.CBool  `json:"marketable"`
-	Modified         string        `json:"modified"` // Can't be time.Time, - "20161010T080316Z"
-	Name             string        `json:"name"`
-	Price            string        `json:"price"`
-	Promo            string        `json:"promo"`
-	Quantity         ctypes.CInt   `json:"quantity"` // Can be 0 or "0"
-	Tags             string        `json:"tags"`
-	Timestamp        string        `json:"Timestamp"` // Can't be time.Time, - ""
-	Tradable         ctypes.CBool  `json:"tradable"`  // Can be false or "false"
-	Type             string        `json:"type"`
-	WorkshopID       ctypes.CInt64 `json:"workshopid"`
+	AppID            ctypes.CInt    `json:"appid"`
+	Bundle           string         `json:"bundle"`
+	Commodity        ctypes.CBool   `json:"commodity"`
+	DateCreated      string         `json:"date_created"` // Can't be time.Time, - "20161010T080316Z"
+	Description      string         `json:"description"`
+	DisplayType      string         `json:"display_type"`
+	DropInterval     ctypes.CInt    `json:"drop_interval"`
+	DropMaxPerWindow ctypes.CInt    `json:"drop_max_per_window"`
+	Exchange         string         `json:"exchange"`
+	Hash             string         `json:"hash"`
+	IconURL          string         `json:"icon_url"`
+	IconURLLarge     string         `json:"icon_url_large"`
+	ItemDefID        ctypes.CInt    `json:"itemdefid"`
+	ItemQuality      ctypes.CString `json:"item_quality"` // Can be bool
+	Marketable       ctypes.CBool   `json:"marketable"`
+	Modified         string         `json:"modified"` // Can't be time.Time, - "20161010T080316Z"
+	Name             string         `json:"name"`
+	Price            string         `json:"price"`
+	Promo            string         `json:"promo"`
+	Quantity         ctypes.CInt    `json:"quantity"` // Can be 0 or "0"
+	Tags             string         `json:"tags"`
+	Timestamp        string         `json:"Timestamp"` // Can't be time.Time, - ""
+	Tradable         ctypes.CBool   `json:"tradable"`  // Can be false or "false"
+	Type             string         `json:"type"`
+	WorkshopID       ctypes.CInt64  `json:"workshopid"`
 }
