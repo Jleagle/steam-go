@@ -70,6 +70,9 @@ func (kv KeyValue) String() (string, error) {
 	}
 
 	b, err := json.Marshal(toMap(kv))
+	if string(b) == "{}" {
+		return "", nil
+	}
 
 	return string(b), err
 }
