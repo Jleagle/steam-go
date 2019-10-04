@@ -425,7 +425,7 @@ type WishlistFail struct {
 }
 
 type Wishlist struct {
-	Items map[string]WishlistItem
+	Items map[ctypes.CInt]WishlistItem
 }
 
 type WishlistItem struct {
