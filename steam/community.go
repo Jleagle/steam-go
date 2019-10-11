@@ -284,3 +284,31 @@ type GroupInfo struct {
 		SteamID64 []ctypes.CInt64 `xml:"steamID64"`
 	} `xml:"members"`
 }
+
+func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments, bytes []byte, err error) {
+
+	vals := url.Values{}
+	vals.Set("start", strconv.Itoa(offset))
+	vals.Set("count", strconv.Itoa(limit))
+
+	bytes, err = s.getFromStore("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	if err != nil {
+		return resp, bytes, err
+	}
+
+	//
+	err = json.Unmarshal(bytes, &resp)
+	return resp, bytes, err
+}
+
+type Comments struct {
+	Success      bool        `json:"success"`
+	Name         string      `json:"name"`
+	Start        int         `json:"start"`
+	PageSize     ctypes.CInt `json:"pagesize"`
+	TotalCount   int         `json:"total_count"`
+	Upvotes      int         `json:"upvotes"`
+	HasUpvoted   int         `json:"has_upvoted"`
+	CommentsHTML string      `json:"comments_html"`
+	TimeLastPost int64       `json:"timelastpost"`
+}
