@@ -288,10 +288,20 @@ type GroupInfo struct {
 func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments, bytes []byte, err error) {
 
 	vals := url.Values{}
-	vals.Set("start", strconv.Itoa(offset))
 	vals.Set("count", strconv.Itoa(limit))
+	if offset > 0 {
+		vals.Set("start", strconv.Itoa(offset))
+	}
 
-	bytes, err = s.getFromStore("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	r, err := s.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	if err != nil {
+		return resp, bytes, err
+	}
+
+	//noinspection GoUnhandledErrorResult
+	defer r.Body.Close()
+
+	bytes, err = ioutil.ReadAll(r.Body)
 	if err != nil {
 		return resp, bytes, err
 	}
