@@ -1,6 +1,7 @@
 package steam
 
 import (
+	"bytes"
 	"encoding/json"
 	"encoding/xml"
 	"errors"
@@ -12,16 +13,16 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
-func (s Steam) GetInventory(playerID int64, appID int) (resp CommunityInventory, bytes []byte, err error) {
+func (s Steam) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
 
-	bytes, err = s.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
+	b, err = s.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
 	//
-	err = json.Unmarshal(bytes, &resp)
-	return resp, bytes, err
+	err = json.Unmarshal(b, &resp)
+	return resp, b, err
 }
 
 type CommunityInventory struct {
@@ -92,7 +93,7 @@ type MarketSearchPayload struct {
 	Offset               int
 }
 
-func (s Steam) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, bytes []byte, err error) {
+func (s Steam) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
 
 	vals := url.Values{}
 	if payload.FriendlyDescriptions {
@@ -117,14 +118,14 @@ func (s Steam) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, 
 	vals.Set("start", strconv.Itoa(payload.Offset))
 	vals.Set("norender", "1")
 
-	bytes, err = s.getFromStore("market/search/render", vals)
+	b, err = s.getFromStore("market/search/render", vals)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
 	//
-	err = json.Unmarshal(bytes, &resp)
-	return resp, bytes, err
+	err = json.Unmarshal(b, &resp)
+	return resp, b, err
 }
 
 type MarketSearch struct {
@@ -170,11 +171,11 @@ type MarketSearch struct {
 	} `json:"results"`
 }
 
-func GetPriceOverview() (resp PriceOverview, bytes []byte, err error) {
+func GetPriceOverview() (resp PriceOverview, b []byte, err error) {
 
 	// http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=StatTrak%E2%84%A2 M4A1-S | Hyper Beast (Minimal Wear)
 
-	return resp, bytes, err
+	return resp, b, err
 
 }
 
@@ -187,7 +188,7 @@ type PriceOverview struct {
 
 var ErrRateLimited = errors.New("rate limited")
 
-func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error) {
+func (s Steam) GetGroupByID(id string) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
 	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
@@ -195,22 +196,22 @@ func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error)
 
 	r, err := s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
 	//noinspection GoUnhandledErrorResult
 	defer r.Body.Close()
 
-	bytes, err = ioutil.ReadAll(r.Body)
+	b, err = ioutil.ReadAll(r.Body)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
-	if strings.TrimSpace(string(bytes)) == "null" {
-		return resp, bytes, ErrRateLimited
+	if strings.TrimSpace(string(b)) == "null" {
+		return resp, b, ErrRateLimited
 	}
 
-	err = xml.Unmarshal(bytes, &resp)
+	err = xml.Unmarshal(b, &resp)
 
 	if strings.Contains(r.Request.URL.Path, "/games/") {
 		resp.Type = "game"
@@ -218,10 +219,10 @@ func (s Steam) GetGroupByID(id string) (resp GroupInfo, bytes []byte, err error)
 		resp.Type = "group"
 	}
 
-	return resp, bytes, err
+	return resp, b, err
 }
 
-func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err error) {
+func (s Steam) GetGroupByName(name string) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
 	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
@@ -229,22 +230,22 @@ func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err er
 
 	r, err := s.getFromCommunity("groups/"+name+"/memberslistxml", vals)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
 	//noinspection GoUnhandledErrorResult
 	defer r.Body.Close()
 
-	bytes, err = ioutil.ReadAll(r.Body)
+	b, err = ioutil.ReadAll(r.Body)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
-	if strings.TrimSpace(string(bytes)) == "null" {
-		return resp, bytes, ErrRateLimited
+	if strings.TrimSpace(string(b)) == "null" {
+		return resp, b, ErrRateLimited
 	}
 
-	err = xml.Unmarshal(bytes, &resp)
+	err = xml.Unmarshal(b, &resp)
 
 	if strings.Contains(r.Request.URL.Path, "/games/") {
 		resp.Type = "game"
@@ -252,7 +253,7 @@ func (s Steam) GetGroupByName(name string) (resp GroupInfo, bytes []byte, err er
 		resp.Type = "group"
 	}
 
-	return resp, bytes, err
+	return resp, b, err
 }
 
 type GroupInfo struct {
