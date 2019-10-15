@@ -286,7 +286,7 @@ type GroupInfo struct {
 	} `xml:"members"`
 }
 
-func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments, bytes []byte, err error) {
+func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("count", strconv.Itoa(limit))
@@ -296,20 +296,24 @@ func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments
 
 	r, err := s.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
 	//noinspection GoUnhandledErrorResult
 	defer r.Body.Close()
 
-	bytes, err = ioutil.ReadAll(r.Body)
+	b, err = ioutil.ReadAll(r.Body)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
+	}
+
+	if len(bytes.TrimSpace(b)) == 0 {
+		return resp, b, nil
 	}
 
 	//
-	err = json.Unmarshal(bytes, &resp)
-	return resp, bytes, err
+	err = json.Unmarshal(b, &resp)
+	return resp, b, err
 }
 
 type Comments struct {
