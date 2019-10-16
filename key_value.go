@@ -24,10 +24,7 @@ func (kv *KeyValue) SortChildren() {
 
 func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
 	for _, v := range kv.Children {
-		s, err := v.String()
-		if err == nil {
-			ret = append(ret, s)
-		}
+		ret = append(ret, v.String())
 	}
 	return ret
 }
@@ -35,10 +32,7 @@ func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
 func (kv KeyValue) GetChildrenAsMap() (ret map[string]string) {
 	ret = map[string]string{}
 	for _, v := range kv.Children {
-		s, err := v.String()
-		if err == nil {
-			ret[v.Key] = s
-		}
+		ret[v.Key] = v.String()
 	}
 	return ret
 }
@@ -63,18 +57,18 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 }
 
 // Returns kv.Value or the children in json form
-func (kv KeyValue) String() (string, error) {
+func (kv KeyValue) String() string {
 
 	if kv.Value != "" {
-		return kv.Value, nil
+		return kv.Value
 	}
 
 	b, err := json.Marshal(toMap(kv))
-	if string(b) == "{}" {
-		return "", nil
+	if err != nil || string(b) == "{}" {
+		return ""
 	}
 
-	return string(b), err
+	return string(b)
 }
 
 // Includes top level
