@@ -24,7 +24,7 @@ var (
 		404: "the api requested does not exists.",
 		405: "this api has been called with a the wrong http method like get or push.",
 		429: "you are being rate limited.",
-		500: "an unrecoverable error has occurred, please try again. if this continues to persist then please post to the steamworks developer discussion with additional details of your request.",
+		500: "an unrecoverable error has occurred, please try again.",
 		503: "server is temporarily unavailable, or too busy to respond. please wait and try again later.",
 	}
 )
