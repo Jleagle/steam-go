@@ -135,8 +135,8 @@ type PlayerSummary struct {
 	PrimaryClanID            string        `json:"primaryclanid"`
 	TimeCreated              int64         `json:"timecreated"`
 	PersonaStateFlags        int           `json:"personastateflags"`
-	LOCCountryCode           string        `json:"loccountrycode"`
-	LOCStateCode             string        `json:"locstatecode"`
+	CountryCode              string        `json:"loccountrycode"`
+	StateCode                string        `json:"locstatecode"`
 }
 
 func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes []byte, err error) {
