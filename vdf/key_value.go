@@ -71,6 +71,7 @@ func (kv KeyValue) String() string {
 	return string(b)
 }
 
+// Transforms to nested maps
 // Includes top level
 func (kv KeyValue) ToMap() (m map[string]interface{}) {
 
