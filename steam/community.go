@@ -188,6 +188,7 @@ type PriceOverview struct {
 
 var ErrRateLimited = errors.New("rate limited")
 
+// Rate limited to once per minute
 func (s Steam) GetGroupByID(id string) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
