@@ -450,7 +450,7 @@ type WishlistItem struct {
 	Priority    int          `json:"priority"`
 	Added       int          `json:"added"`
 	Background  string       `json:"background"`
-	Rank        string       `json:"rank"`
+	Rank        ctypes.CInt  `json:"rank"`
 	Tags        []string     `json:"tags"`
 	EarlyAccess int          `json:"early_access"`
 	IsFreeGame  bool         `json:"is_free_game"`
