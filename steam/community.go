@@ -328,3 +328,27 @@ type Comments struct {
 	CommentsHTML string      `json:"comments_html"`
 	TimeLastPost int64       `json:"timelastpost"`
 }
+
+func (s Steam) GetAliases(playerURL string) (resp []Alias, b []byte, err error) {
+
+	r, err := s.getFromCommunity("id/"+playerURL+"/ajaxaliases", nil)
+	if err != nil {
+		return resp, b, err
+	}
+
+	//noinspection GoUnhandledErrorResult
+	defer r.Body.Close()
+
+	b, err = ioutil.ReadAll(r.Body)
+	if err != nil {
+		return resp, b, err
+	}
+
+	err = json.Unmarshal(b, &resp)
+	return resp, b, err
+}
+
+type Alias []struct {
+	Alias string `json:"newname"`
+	Time  string `json:"timechanged"`
+}
