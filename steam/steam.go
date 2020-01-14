@@ -119,8 +119,12 @@ func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Respo
 		s.communityBucket.Wait(1)
 	}
 
+	if query != nil {
+		path += "?" + query.Encode()
+	}
+
 	// Response body gets closed in caller function
-	return s.get("https://steamcommunity.com/" + path + "?" + query.Encode())
+	return s.get("https://steamcommunity.com/" + path)
 }
 
 func (s Steam) get(path string) (response *http.Response, err error) {
