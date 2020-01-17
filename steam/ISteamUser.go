@@ -43,9 +43,9 @@ type FriendsList struct {
 }
 
 type Friend struct {
-	SteamID      ctypes.CInt64 `json:"steamid"`
-	Relationship string        `json:"relationship"`
-	FriendSince  int64         `json:"friend_since"`
+	SteamID      ctypes.Int64 `json:"steamid"`
+	Relationship string       `json:"relationship"`
+	FriendSince  int64        `json:"friend_since"`
 }
 
 const (
@@ -84,9 +84,9 @@ type VanityURLRepsonse struct {
 }
 
 type VanityURL struct {
-	SteamID ctypes.CInt64 `json:"steamid"`
-	Success int8          `json:"success"`
-	Message string        `json:"message"`
+	SteamID ctypes.Int64 `json:"steamid"`
+	Success int8         `json:"success"`
+	Message string       `json:"message"`
 }
 
 func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, err error) {
@@ -120,23 +120,23 @@ type PlayerResponse struct {
 }
 
 type PlayerSummary struct {
-	SteamID                  ctypes.CInt64 `json:"steamid"`
-	CommunityVisibilityState int           `json:"communityvisibilitystate"`
-	ProfileState             int           `json:"profilestate"`
-	PersonaName              string        `json:"personaname"`
-	LastLogOff               int64         `json:"lastlogoff"`
-	CommentPermission        int           `json:"commentpermission"`
-	ProfileURL               string        `json:"profileurl"`
-	Avatar                   string        `json:"avatar"`
-	AvatarMedium             string        `json:"avatarmedium"`
-	AvatarFull               string        `json:"avatarfull"`
-	PersonaState             int           `json:"personastate"`
-	RealName                 string        `json:"realname"`
-	PrimaryClanID            string        `json:"primaryclanid"`
-	TimeCreated              int64         `json:"timecreated"`
-	PersonaStateFlags        int           `json:"personastateflags"`
-	CountryCode              string        `json:"loccountrycode"`
-	StateCode                string        `json:"locstatecode"`
+	SteamID                  ctypes.Int64 `json:"steamid"`
+	CommunityVisibilityState int          `json:"communityvisibilitystate"`
+	ProfileState             int          `json:"profilestate"`
+	PersonaName              string       `json:"personaname"`
+	LastLogOff               int64        `json:"lastlogoff"`
+	CommentPermission        int          `json:"commentpermission"`
+	ProfileURL               string       `json:"profileurl"`
+	Avatar                   string       `json:"avatar"`
+	AvatarMedium             string       `json:"avatarmedium"`
+	AvatarFull               string       `json:"avatarfull"`
+	PersonaState             int          `json:"personastate"`
+	RealName                 string       `json:"realname"`
+	PrimaryClanID            string       `json:"primaryclanid"`
+	TimeCreated              int64        `json:"timecreated"`
+	PersonaStateFlags        int          `json:"personastateflags"`
+	CountryCode              string       `json:"loccountrycode"`
+	StateCode                string       `json:"locstatecode"`
 }
 
 func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes []byte, err error) {
@@ -168,13 +168,13 @@ type GetPlayerBansResponse struct {
 }
 
 type GetPlayerBanResponse struct {
-	SteamID          ctypes.CInt64 `json:"SteamId"`
-	CommunityBanned  bool          `json:"CommunityBanned"`
-	VACBanned        bool          `json:"VACBanned"`
-	NumberOfVACBans  int           `json:"NumberOfVACBans"`
-	DaysSinceLastBan int           `json:"DaysSinceLastBan"`
-	NumberOfGameBans int           `json:"NumberOfGameBans"`
-	EconomyBan       string        `json:"EconomyBan"`
+	SteamID          ctypes.Int64 `json:"SteamId"`
+	CommunityBanned  bool         `json:"CommunityBanned"`
+	VACBanned        bool         `json:"VACBanned"`
+	NumberOfVACBans  int          `json:"NumberOfVACBans"`
+	DaysSinceLastBan int          `json:"DaysSinceLastBan"`
+	NumberOfGameBans int          `json:"NumberOfGameBans"`
+	EconomyBan       string       `json:"EconomyBan"`
 }
 
 func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []byte, err error) {

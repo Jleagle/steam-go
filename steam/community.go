@@ -263,27 +263,27 @@ type GroupInfo struct {
 	Text    string   `xml:",chardata"`
 	ID64    string   `xml:"groupID64"` // Too big for int64
 	Details struct {
-		Text          string      `xml:",chardata"`
-		Name          string      `xml:"groupName"`
-		URL           string      `xml:"groupURL"`
-		Headline      string      `xml:"headline"`
-		Summary       string      `xml:"summary"`
-		AvatarIcon    string      `xml:"avatarIcon"`
-		AvatarMedium  string      `xml:"avatarMedium"`
-		AvatarFull    string      `xml:"avatarFull"`
-		MemberCount   ctypes.CInt `xml:"memberCount"`
-		MembersInChat ctypes.CInt `xml:"membersInChat"`
-		MembersInGame ctypes.CInt `xml:"membersInGame"`
-		MembersOnline ctypes.CInt `xml:"membersOnline"`
+		Text          string     `xml:",chardata"`
+		Name          string     `xml:"groupName"`
+		URL           string     `xml:"groupURL"`
+		Headline      string     `xml:"headline"`
+		Summary       string     `xml:"summary"`
+		AvatarIcon    string     `xml:"avatarIcon"`
+		AvatarMedium  string     `xml:"avatarMedium"`
+		AvatarFull    string     `xml:"avatarFull"`
+		MemberCount   ctypes.Int `xml:"memberCount"`
+		MembersInChat ctypes.Int `xml:"membersInChat"`
+		MembersInGame ctypes.Int `xml:"membersInGame"`
+		MembersOnline ctypes.Int `xml:"membersOnline"`
 	} `xml:"groupDetails"`
-	MemberCount    ctypes.CInt `xml:"memberCount"`
-	TotalPages     ctypes.CInt `xml:"totalPages"`
-	CurrentPage    ctypes.CInt `xml:"currentPage"`
-	StartingMember ctypes.CInt `xml:"startingMember"`
-	NextPageLink   string      `xml:"nextPageLink"`
+	MemberCount    ctypes.Int `xml:"memberCount"`
+	TotalPages     ctypes.Int `xml:"totalPages"`
+	CurrentPage    ctypes.Int `xml:"currentPage"`
+	StartingMember ctypes.Int `xml:"startingMember"`
+	NextPageLink   string     `xml:"nextPageLink"`
 	Members        struct {
-		Text      string          `xml:",chardata"`
-		SteamID64 []ctypes.CInt64 `xml:"steamID64"`
+		Text      string         `xml:",chardata"`
+		SteamID64 []ctypes.Int64 `xml:"steamID64"`
 	} `xml:"members"`
 }
 
@@ -318,15 +318,15 @@ func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments
 }
 
 type Comments struct {
-	Success      bool        `json:"success"`
-	Name         string      `json:"name"`
-	Start        int         `json:"start"`
-	PageSize     ctypes.CInt `json:"pagesize"`
-	TotalCount   int         `json:"total_count"`
-	Upvotes      int         `json:"upvotes"`
-	HasUpvoted   int         `json:"has_upvoted"`
-	CommentsHTML string      `json:"comments_html"`
-	TimeLastPost int64       `json:"timelastpost"`
+	Success      bool       `json:"success"`
+	Name         string     `json:"name"`
+	Start        int        `json:"start"`
+	PageSize     ctypes.Int `json:"pagesize"`
+	TotalCount   int        `json:"total_count"`
+	Upvotes      int        `json:"upvotes"`
+	HasUpvoted   int        `json:"has_upvoted"`
+	CommentsHTML string     `json:"comments_html"`
+	TimeLastPost int64      `json:"timelastpost"`
 }
 
 func (s Steam) GetAliases(playerURL string) (resp []Alias, b []byte, err error) {
