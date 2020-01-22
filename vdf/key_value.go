@@ -63,7 +63,7 @@ func (kv KeyValue) String() string {
 		return kv.Value
 	}
 
-	b, err := json.Marshal(toMap(kv))
+	b, err := json.Marshal(ToMapInner(kv))
 	if err != nil || string(b) == "{}" {
 		return ""
 	}
@@ -75,21 +75,21 @@ func (kv KeyValue) String() string {
 // Includes top level
 func (kv KeyValue) ToMap() (m map[string]interface{}) {
 
-	return toMap(KeyValue{
+	return ToMapInner(KeyValue{
 		Key:      "",
 		Children: []KeyValue{kv},
 	})
 }
 
 // Does not include top level
-func toMap(kv KeyValue) map[string]interface{} {
+func ToMapInner(kv KeyValue) map[string]interface{} {
 
 	m := map[string]interface{}{}
 
 	for _, child := range kv.Children {
 
 		if child.Value == "" {
-			m[child.Key] = toMap(child)
+			m[child.Key] = ToMapInner(child)
 		} else {
 			m[child.Key] = child.Value
 		}
