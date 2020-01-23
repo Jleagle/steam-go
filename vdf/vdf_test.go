@@ -59,7 +59,7 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, associations.Children[0].Children[1].Value == "Valve", id)
 			assert.Assert(t, associations.Children[1].Children[1].Value == "Valve", id)
 
-			kvMap := kv.ToMap()
+			kvMap := kv.ToMapOuter()
 
 			appinfo := kvMap["appinfo"].(map[string]interface{})
 			assert.Assert(t, appinfo["appid"] == "10", id)
