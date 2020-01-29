@@ -9,9 +9,7 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
-var (
-	ErrNoUserFound = errors.New("no user found")
-)
+var ErrNoUserFound = errors.New("no user found")
 
 func (s Steam) GetFriendList(playerID int64) (friends []Friend, bytes []byte, err error) {
 

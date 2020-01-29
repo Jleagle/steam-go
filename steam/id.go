@@ -8,6 +8,8 @@ import (
 	"strings"
 )
 
+var InvalidID = errors.New("invalid id")
+
 func (s Steam) GetID(id string) (id64 int64, err error) {
 
 	if regexp.MustCompile(`^STEAM_([01]):([01]):[0-9][0-9]{0,8}$`).MatchString(id) { // STEAM_0:0:4180232
@@ -32,7 +34,7 @@ func (s Steam) GetID(id string) (id64 int64, err error) {
 
 	}
 
-	return 0, errors.New("invalid id")
+	return 0, InvalidID
 }
 
 func convert3to64(in string) (out int64) {
