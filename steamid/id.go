@@ -118,58 +118,56 @@ func ParsePlayerID(id string) (out PlayerID, err error) {
 		parts := regexpID3I.FindStringSubmatch(id)
 
 		// Account Type
-		var typex AccountType
-		var ok bool
-		if typex, ok = CharacterToAccountType[parts[1]]; !ok {
-			return out, ErrInvalidPlayerID
+		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
+
+			// Universe ID
+			part2, err := strconv.ParseUint(parts[2], 10, 8)
+			if err != nil {
+				return out, err
+			}
+
+			// Account ID
+			part3, err := strconv.ParseUint(parts[3], 10, 32)
+			if err != nil {
+				return out, err
+			}
+
+			// Instance ID
+			part4, err := strconv.ParseUint(parts[4], 10, 32)
+			if err != nil {
+				return out, err
+			}
+
+			//
+			return NewPlayerID(UniverseID(part2), accountType, InstanceID(part4), AccountID(part3)), nil
 		}
 
-		// Universe ID
-		part2, err := strconv.ParseUint(parts[2], 10, 8)
-		if err != nil {
-			return out, err
-		}
-
-		// Account ID
-		part3, err := strconv.ParseUint(parts[3], 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		// Instance ID
-		part4, err := strconv.ParseUint(parts[4], 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		//
-		return NewPlayerID(UniverseID(part2), typex, InstanceID(part4), AccountID(part3)), nil
+		return out, ErrInvalidPlayerID
 
 	case regexpID3.MatchString(id):
 
 		parts := regexpID3.FindStringSubmatch(id)
 
 		// Account Type
-		var typex AccountType
-		var ok bool
-		if typex, ok = CharacterToAccountType[parts[1]]; !ok {
-			return out, ErrInvalidPlayerID
+		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
+
+			// Universe ID
+			part2, err := strconv.ParseUint(parts[2], 10, 8)
+			if err != nil {
+				return out, err
+			}
+
+			// Account ID
+			part3, err := strconv.ParseUint(parts[3], 10, 32)
+			if err != nil {
+				return out, err
+			}
+
+			//
+			return NewPlayerID(UniverseID(part2), accountType, 1, AccountID(part3)), nil
 		}
 
-		// Universe ID
-		part2, err := strconv.ParseUint(parts[2], 10, 8)
-		if err != nil {
-			return out, err
-		}
-
-		// Account ID
-		part3, err := strconv.ParseUint(parts[3], 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		//
-		return NewPlayerID(UniverseID(part2), typex, 1, AccountID(part3)), nil
+		return out, ErrInvalidPlayerID
 
 	case regexpID32.MatchString(id):
 
