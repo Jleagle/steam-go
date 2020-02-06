@@ -222,8 +222,8 @@ func (id *PlayerID) SetAccountID(accountID AccountID) {
 }
 
 // Instance ID
-func (id PlayerID) GetInstanceID() uint32 {
-	return uint32(id.get(32, 0xFFFFF))
+func (id PlayerID) GetInstanceID() InstanceID {
+	return InstanceID(id.get(32, 0xFFFFF))
 }
 
 func (id *PlayerID) SetInstanceID(instanceID InstanceID) {
