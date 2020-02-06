@@ -68,7 +68,7 @@ type PlayerID uint64
 
 //noinspection RegExpRedundantEscape
 var (
-	regexpID1  = regexp.MustCompile(`^STEAM_([0-5]):([01]):([0-9]{1,8})$`)       // Universe ID, Lowest bit, Highest bit
+	regexpID1  = regexp.MustCompile(`^STEAM_([0-5]):([01]):(\d+)$`)              // Universe ID, Lowest bit, Highest bit
 	regexpID3  = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\]?$`)        // Account type character, Universe ID, Account ID
 	regexpID3I = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\:(\d+)\]?$`) // Account type character, Universe ID, Account ID, Instance ID
 	regexpID32 = regexp.MustCompile(`^\d{1,16}$`)                                // Account ID
