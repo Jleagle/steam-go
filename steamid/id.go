@@ -4,6 +4,7 @@ import (
 	"errors"
 	"regexp"
 	"strconv"
+	"strings"
 )
 
 type AccountID uint32
@@ -82,6 +83,8 @@ var (
 )
 
 func ParsePlayerID(id string) (out ID, err error) {
+
+	id = strings.TrimSpace(id)
 
 	switch {
 	case regexpID1.MatchString(id):
