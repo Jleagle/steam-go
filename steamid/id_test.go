@@ -6,7 +6,7 @@ import (
 
 func TestGettersSetters(t *testing.T) {
 
-	id := NewPlayerID(UniversePublic, AccountTypeIndividual, 1, 8360464)
+	id := NewID(UniversePublic, AccountTypeIndividual, 1, 8360464)
 
 	if id != 76561197968626192 {
 		t.Error(id, 76561197968626192)

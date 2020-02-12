@@ -111,7 +111,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 		account := (uint32(part3) << 1) | uint32(part2)
 
 		//
-		return NewPlayerID(UniverseID(i), AccountTypeIndividual, 1, AccountID(account)), nil
+		return NewID(UniverseID(i), AccountTypeIndividual, 1, AccountID(account)), nil
 
 	case regexpID3I.MatchString(id):
 
@@ -139,7 +139,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 			}
 
 			//
-			return NewPlayerID(UniverseID(part2), accountType, InstanceID(part4), AccountID(part3)), nil
+			return NewID(UniverseID(part2), accountType, InstanceID(part4), AccountID(part3)), nil
 		}
 
 		return out, ErrInvalidPlayerID
@@ -164,7 +164,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 			}
 
 			//
-			return NewPlayerID(UniverseID(part2), accountType, 1, AccountID(part3)), nil
+			return NewID(UniverseID(part2), accountType, 1, AccountID(part3)), nil
 		}
 
 		return out, ErrInvalidPlayerID
@@ -176,7 +176,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 			return out, err
 		}
 
-		return NewPlayerID(UniversePublic, AccountTypeIndividual, 1, AccountID(i)), nil
+		return NewID(UniversePublic, AccountTypeIndividual, 1, AccountID(i)), nil
 
 	case regexpID64.MatchString(id):
 
@@ -193,7 +193,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 	}
 }
 
-func NewPlayerID(universe UniverseID, accountType AccountType, instance InstanceID, accountId AccountID) (id ID) {
+func NewID(universe UniverseID, accountType AccountType, instance InstanceID, accountId AccountID) (id ID) {
 	id.SetAccountID(accountId)
 	id.SetInstanceID(instance)
 	id.SetUniverseID(universe)
