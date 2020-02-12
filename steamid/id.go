@@ -198,8 +198,8 @@ func ParsePlayerID(id string) (out ID, err error) {
 }
 
 var (
-	groupRegexpID64 = regexp.MustCompile(`^\d{18}$`)
-	groupRegexpID   = regexp.MustCompile(`^\d{1,17}$`)
+	groupRegexpID64 = regexp.MustCompile(`^\d{18}$`)   // ID
+	groupRegexpID   = regexp.MustCompile(`^\d{1,17}$`) // Account ID
 )
 
 func ParseGroupID(id string) (out ID, err error) {
