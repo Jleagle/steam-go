@@ -210,6 +210,10 @@ func (id *ID) set(offset uint, mask, value uint64) {
 	*id = ID((uint64(*id) & ^(mask << offset)) | (value&mask)<<offset)
 }
 
+func (id ID) String() string {
+	return strconv.FormatUint(uint64(id), 10)
+}
+
 // Account ID
 func (id ID) GetAccountID() AccountID {
 	return AccountID(id.get(0, 0xFFFFFFFF))
