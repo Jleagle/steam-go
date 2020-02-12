@@ -67,19 +67,20 @@ var CharacterToAccountType = map[string]AccountType{
 
 type ID uint64
 
-//noinspection RegExpRedundantEscape
-var (
-	regexpID1  = regexp.MustCompile(`^STEAM_([0-5]):([01]):(\d+)$`)              // Universe ID, Lowest bit, Highest bit
-	regexpID3  = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\]?$`)        // Account type character, Universe ID, Account ID
-	regexpID3I = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\:(\d+)\]?$`) // Account type character, Universe ID, Account ID, Instance ID
-	regexpID32 = regexp.MustCompile(`^\d{1,16}$`)                                // Account ID
-	regexpID64 = regexp.MustCompile(`^\d{17}$`)                                  // ID
-)
-
 var (
 	ErrInvalidPlayerID = errors.New("invalid player id")
 	ErrInvalidClanID   = errors.New("invalid clan id")
 	ErrInvalidChatID   = errors.New("invalid chat id")
+	ErrInvalidGroupID  = errors.New("invalid group id")
+)
+
+//noinspection RegExpRedundantEscape
+var (
+	playerRegexpID1  = regexp.MustCompile(`^STEAM_([0-5]):([01]):(\d+)$`)              // Universe ID, Lowest bit, Highest bit
+	playerRegexpID3  = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\]?$`)        // Account type character, Universe ID, Account ID
+	playerRegexpID3I = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\:(\d+)\]?$`) // Account type character, Universe ID, Account ID, Instance ID
+	playerRegexpID32 = regexp.MustCompile(`^\d{1,16}$`)                                // Account ID
+	playerRegexpID64 = regexp.MustCompile(`^\d{17}$`)                                  // ID
 )
 
 func ParsePlayerID(id string) (out ID, err error) {
@@ -87,10 +88,10 @@ func ParsePlayerID(id string) (out ID, err error) {
 	id = strings.TrimSpace(id)
 
 	switch {
-	case regexpID1.MatchString(id):
+	case playerRegexpID1.MatchString(id):
 
 		// Get universe
-		parts := regexpID1.FindStringSubmatch(id)
+		parts := playerRegexpID1.FindStringSubmatch(id)
 		i, err := strconv.ParseInt(parts[1], 10, 8)
 		if err != nil {
 			return out, err
@@ -116,9 +117,9 @@ func ParsePlayerID(id string) (out ID, err error) {
 		//
 		return NewID(UniverseID(i), AccountTypeIndividual, 1, AccountID(account)), nil
 
-	case regexpID3I.MatchString(id):
+	case playerRegexpID3I.MatchString(id):
 
-		parts := regexpID3I.FindStringSubmatch(id)
+		parts := playerRegexpID3I.FindStringSubmatch(id)
 
 		// Account Type
 		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
@@ -147,9 +148,9 @@ func ParsePlayerID(id string) (out ID, err error) {
 
 		return out, ErrInvalidPlayerID
 
-	case regexpID3.MatchString(id):
+	case playerRegexpID3.MatchString(id):
 
-		parts := regexpID3.FindStringSubmatch(id)
+		parts := playerRegexpID3.FindStringSubmatch(id)
 
 		// Account Type
 		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
@@ -172,7 +173,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 
 		return out, ErrInvalidPlayerID
 
-	case regexpID32.MatchString(id):
+	case playerRegexpID32.MatchString(id):
 
 		i, err := strconv.ParseUint(id, 10, 32)
 		if err != nil {
@@ -181,7 +182,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 
 		return NewID(UniversePublic, AccountTypeIndividual, 1, AccountID(i)), nil
 
-	case regexpID64.MatchString(id):
+	case playerRegexpID64.MatchString(id):
 
 		i, err := strconv.ParseUint(id, 10, 64)
 		if err != nil {
