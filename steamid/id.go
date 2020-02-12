@@ -197,6 +197,41 @@ func ParsePlayerID(id string) (out ID, err error) {
 	}
 }
 
+var (
+	groupRegexpID64 = regexp.MustCompile(`^\d{18}$`)
+	groupRegexpID   = regexp.MustCompile(`^\d{1,17}$`)
+)
+
+func ParseGroupID(id string) (out ID, err error) {
+
+	id = strings.TrimSpace(id)
+
+	switch {
+	case groupRegexpID64.MatchString(id):
+
+		i, err := strconv.ParseUint(id, 10, 64)
+		if err != nil {
+			return out, err
+		}
+
+		return ID(i), nil
+
+	case groupRegexpID.MatchString(id):
+
+		// Account ID
+		i, err := strconv.ParseUint(id, 10, 32)
+		if err != nil {
+			return out, err
+		}
+
+		return NewID(UniversePublic, AccountTypeClan, 0, AccountID(i)), nil
+
+	default:
+
+		return out, ErrInvalidGroupID
+	}
+}
+
 func NewID(universe UniverseID, accountType AccountType, instance InstanceID, accountId AccountID) (id ID) {
 	id.SetAccountID(accountId)
 	id.SetInstanceID(instance)
