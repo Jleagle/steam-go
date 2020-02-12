@@ -52,3 +52,23 @@ func TestIDTypes(t *testing.T) {
 		}
 	}
 }
+
+func TestGroups(t *testing.T) {
+
+	m := map[string]ID{
+		"275018":             103582791429796426, // Reddit
+		"3381077":            103582791432902485, // Counter-Strike: Global Offensive
+		"103582791432902485": 103582791432902485, // Counter-Strike: Global Offensive
+	}
+
+	for k, v := range m {
+
+		id, err := ParseGroupID(k)
+		if err != nil {
+			t.Error(err, k)
+		}
+		if id != v {
+			t.Error("wrong id", k, v, id)
+		}
+	}
+}
