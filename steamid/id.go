@@ -64,7 +64,7 @@ var CharacterToAccountType = map[string]AccountType{
 	"a": AccountTypeAnonUser,
 }
 
-type PlayerID uint64
+type ID uint64
 
 //noinspection RegExpRedundantEscape
 var (
@@ -81,7 +81,7 @@ var (
 	ErrInvalidChatID   = errors.New("invalid chat id")
 )
 
-func ParsePlayerID(id string) (out PlayerID, err error) {
+func ParsePlayerID(id string) (out ID, err error) {
 
 	switch {
 	case regexpID1.MatchString(id):
@@ -185,7 +185,7 @@ func ParsePlayerID(id string) (out PlayerID, err error) {
 			return out, err
 		}
 
-		return PlayerID(i), nil
+		return ID(i), nil
 
 	default:
 
@@ -193,7 +193,7 @@ func ParsePlayerID(id string) (out PlayerID, err error) {
 	}
 }
 
-func NewPlayerID(universe UniverseID, accountType AccountType, instance InstanceID, accountId AccountID) (id PlayerID) {
+func NewPlayerID(universe UniverseID, accountType AccountType, instance InstanceID, accountId AccountID) (id ID) {
 	id.SetAccountID(accountId)
 	id.SetInstanceID(instance)
 	id.SetUniverseID(universe)
@@ -202,52 +202,52 @@ func NewPlayerID(universe UniverseID, accountType AccountType, instance Instance
 }
 
 // Helpers
-func (id PlayerID) get(offset uint, mask uint64) uint64 {
+func (id ID) get(offset uint, mask uint64) uint64 {
 	return (uint64(id) >> offset) & mask
 }
 
-func (id *PlayerID) set(offset uint, mask, value uint64) {
-	*id = PlayerID((uint64(*id) & ^(mask << offset)) | (value&mask)<<offset)
+func (id *ID) set(offset uint, mask, value uint64) {
+	*id = ID((uint64(*id) & ^(mask << offset)) | (value&mask)<<offset)
 }
 
 // Account ID
-func (id PlayerID) GetAccountID() AccountID {
+func (id ID) GetAccountID() AccountID {
 	return AccountID(id.get(0, 0xFFFFFFFF))
 }
 
-func (id *PlayerID) SetAccountID(accountID AccountID) {
+func (id *ID) SetAccountID(accountID AccountID) {
 	id.set(0, 0xFFFFFFFF, uint64(accountID))
 }
 
 // Instance ID
-func (id PlayerID) GetInstanceID() InstanceID {
+func (id ID) GetInstanceID() InstanceID {
 	return InstanceID(id.get(32, 0xFFFFF))
 }
 
-func (id *PlayerID) SetInstanceID(instanceID InstanceID) {
+func (id *ID) SetInstanceID(instanceID InstanceID) {
 	id.set(32, 0xFFFFF, uint64(instanceID))
 }
 
 // Account Type
-func (id PlayerID) GetAccountType() AccountType {
+func (id ID) GetAccountType() AccountType {
 	return AccountType(id.get(52, 0xF))
 }
 
-func (id *PlayerID) SetAccountType(accountType AccountType) {
+func (id *ID) SetAccountType(accountType AccountType) {
 	id.set(52, 0xF, uint64(accountType))
 }
 
 // Universe ID
-func (id PlayerID) GetUniverseID() UniverseID {
+func (id ID) GetUniverseID() UniverseID {
 	return UniverseID(id.get(56, 0xF))
 }
 
-func (id *PlayerID) SetUniverseID(universeID UniverseID) {
+func (id *ID) SetUniverseID(universeID UniverseID) {
 	id.set(56, 0xF, uint64(universeID))
 }
 
 // Clan / Chat
-func (id PlayerID) ClanToChat() error {
+func (id ID) ClanToChat() error {
 
 	if id.GetAccountType() != AccountTypeClan {
 		return ErrInvalidClanID
@@ -259,7 +259,7 @@ func (id PlayerID) ClanToChat() error {
 	return nil
 }
 
-func (id PlayerID) ChatToClan() error {
+func (id ID) ChatToClan() error {
 
 	if id.GetAccountType() != AccountTypeChat {
 		return ErrInvalidChatID
