@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"net/url"
 	"strconv"
+
+	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
 // Retrieves the global achievement percentages for the specified app.
@@ -107,13 +109,13 @@ type SchemaForGame struct {
 			DisplayName  string `json:"displayName"`
 		} `json:"stats"`
 		Achievements []struct {
-			Name         string `json:"name"`
-			DefaultValue int    `json:"defaultvalue"`
-			DisplayName  string `json:"displayName"`
-			Hidden       int8   `json:"hidden"`
-			Description  string `json:"description"`
-			Icon         string `json:"icon"`
-			IconGray     string `json:"icongray"`
+			Name         string      `json:"name"`
+			DefaultValue int         `json:"defaultvalue"`
+			DisplayName  string      `json:"displayName"`
+			Hidden       ctypes.Bool `json:"hidden"`
+			Description  string      `json:"description"`
+			Icon         string      `json:"icon"`
+			IconGray     string      `json:"icongray"`
 		} `json:"achievements"`
 	} `json:"availableGameStats"`
 }
