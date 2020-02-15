@@ -33,10 +33,7 @@ type GlobalAchievementPercentagesResponse struct {
 }
 
 type GlobalAchievementPercentages struct {
-	GlobalAchievementPercentage []struct {
-		Name    string  `json:"name"`
-		Percent float64 `json:"percent"`
-	} `json:"achievements"`
+	GlobalAchievementPercentage []GlobalAchievementAchievement `json:"achievements"`
 }
 
 func (a GlobalAchievementPercentages) GetMap() map[string]float64 {
@@ -45,6 +42,11 @@ func (a GlobalAchievementPercentages) GetMap() map[string]float64 {
 		m[v.Name] = v.Percent
 	}
 	return m
+}
+
+type GlobalAchievementAchievement struct {
+	Name    string  `json:"name"`
+	Percent float64 `json:"percent"`
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
@@ -103,19 +105,23 @@ type SchemaForGame struct {
 	Name               string `json:"gameName"`
 	Version            string `json:"gameVersion"`
 	AvailableGameStats struct {
-		Stats []struct {
-			Name         string `json:"name"`
-			DefaultValue int    `json:"defaultvalue"`
-			DisplayName  string `json:"displayName"`
-		} `json:"stats"`
-		Achievements []struct {
-			Name         string      `json:"name"`
-			DefaultValue int         `json:"defaultvalue"`
-			DisplayName  string      `json:"displayName"`
-			Hidden       ctypes.Bool `json:"hidden"`
-			Description  string      `json:"description"`
-			Icon         string      `json:"icon"`
-			IconGray     string      `json:"icongray"`
-		} `json:"achievements"`
+		Stats        []SchemaForGameStat        `json:"stats"`
+		Achievements []SchemaForGameAchievement `json:"achievements"`
 	} `json:"availableGameStats"`
+}
+
+type SchemaForGameAchievement struct {
+	Name         string      `json:"name"`
+	DefaultValue int         `json:"defaultvalue"`
+	DisplayName  string      `json:"displayName"`
+	Hidden       ctypes.Bool `json:"hidden"`
+	Description  string      `json:"description"`
+	Icon         string      `json:"icon"`
+	IconGray     string      `json:"icongray"`
+}
+
+type SchemaForGameStat struct {
+	Name         string `json:"name"`
+	DefaultValue int    `json:"defaultvalue"`
+	DisplayName  string `json:"displayName"`
 }
