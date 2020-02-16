@@ -56,6 +56,15 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 	kv.Children = append(kv.Children, value)
 }
 
+func (kv *KeyValue) HasChild(key string) bool {
+	for _, child := range kv.Children {
+		if child.Key == key {
+			return true
+		}
+	}
+	return false
+}
+
 // Returns kv.Value or the children in json form
 func (kv KeyValue) String() string {
 
