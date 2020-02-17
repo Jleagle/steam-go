@@ -1,4 +1,4 @@
-package vdf
+package steamvdf
 
 import (
 	"errors"
