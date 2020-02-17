@@ -1,5 +1,0 @@
-https://store.steampowered.com/broadcast/ajaxgetappinfoforcap?appid=813780
-https://store.steampowered.com/events/ajaxgetpartnerevent?clan_accountid=5377070&announcement_gid=1603766940169762196&lang_list=0&last_modified_time=1567954814
-
-https://steamcommunity.com/comment/Profile/render/76561198112466198?count=1000000&start=2
-https://steamcommunity.com/games/DeepRockGalactic/ajaxgetpartnereventpermissions/
