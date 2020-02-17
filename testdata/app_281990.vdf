@@ -1,0 +1,1510 @@
+"appinfo"
+{
+	"appid"		"281990"
+	"common"
+	{
+		"name"		"Stellaris"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"63233adde1e8e89b9b2bbbb9bdf8787c1e8b4e56"
+		"logo_small"		"63233adde1e8e89b9b2bbbb9bdf8787c1e8b4e56_thumb"
+		"icon"		"3e4dfdf4b304b1f4552c279ea716238876ac02c8"
+		"clienttga"		"431bd86aa557b133aa68c1c27332523ddf17f5f4"
+		"clienticon"		"bdd12fd12fb9b08bd6b27f37a88dad919de726b4"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"281990_eula_0"
+				"name"		"Stellaris EULA"
+				"url"		"http://store.steampowered.com//eula/281990_eula_0"
+			}
+		}
+		"linuxclienticon"		"628f32c42d5f9c18e7784b2869a4faf6ac57c6be"
+		"clienticns"		"10fa6fe72f399be6e77087ba53d59b4102999ecc"
+		"metacritic_name"		"Stellaris"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"82.71428470323428"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561474985"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Paradox Development Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Stellaris"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1462809420"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/stellaris?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"281990"
+		"store_tags"
+		{
+			"0"		"1755"
+			"1"		"9"
+			"2"		"4364"
+			"3"		"3942"
+			"4"		"1670"
+			"5"		"7107"
+			"6"		"3834"
+			"7"		"3859"
+			"8"		"1676"
+			"9"		"4182"
+			"10"		"4711"
+			"11"		"1756"
+			"12"		"599"
+			"13"		"1669"
+			"14"		"3810"
+			"15"		"4166"
+			"16"		"1695"
+			"17"		"1742"
+			"18"		"1643"
+			"19"		"21"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"augustus"
+		"developer"		"Paradox Development Studio"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"447680,447681,447682,447683,447684,447685,447686,447687,447688,447750,461070,461071,461072,461073,461460,461461,462720,483050,483060,483070,483080,483090,483100,483110,483130,483140,483150,483160,483170,483180,483190,483200,483210,483220,483230,483240,483250,483270,483310,483320,492740,497660,498870,508700,516690,518910,539210,545080,553280,554350,604620,616190,616191,618910,618911,619830,619840,626720,633310,642750,716670,722000,722001,756010"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stellaris"
+		"launch"
+		{
+			"4"
+			{
+				"executable"		"stellaris.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"stellaris.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"stellaris"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"dowser.exe"
+				"description"		"Launcher v2"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"stellaris_launcher"
+				}
+			}
+			"8"
+			{
+				"executable"		"dowser"
+				"description"		"Launcher v2"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"stellaris_launcher"
+				}
+			}
+			"9"
+			{
+				"executable"		"dowser"
+				"description"		"Launcher v2"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"stellaris_launcher"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"workshopdepot"		"281990"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"name"		".NET 4.0 Client Profile Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"43001447"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"281991"
+		{
+			"name"		"Main"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"33165230113535645"
+				"2.1.3"		"7199685934781703535"
+				"2.2.7"		"7942032723505084387"
+				"2.3.0"		"930023661937784098"
+				"2.3.1"		"6569027922707640905"
+				"2.3.2"		"8831536084864016205"
+				"stellaris_test"		"1899700425990760073"
+			}
+			"maxsize"		"7926096643"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"E9BDED0D1A280343F1F7070AFDBFBF66"
+					"encrypted_size_2"		"23764A8CC14C5E87975AA1346D745FEF"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"D9F7084689BA06BC74A6810A13B289F8"
+					"encrypted_size_2"		"C9B05ACD1D6A3591A45F4D88DB582354"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"0FFE23C63561C0001BA29C7DF83BE494"
+					"encrypted_size_2"		"728C7D4C9FAD6DC47ACD3FE8CFAE0DE5"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"09BC5FD9E9BAC49ADED76037D764DBB3"
+					"encrypted_size_2"		"BE5BE235B016A6443D6B34EBC344F6FE"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"B6FA806ACE3FDF3C15FCF77647D9A23C"
+					"encrypted_size_2"		"5BCDB221CD7E18BCF9767D25E03CF310"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"1FC3A5241B2860EAFB35AA9BDE638190"
+					"encrypted_size_2"		"34FE4C329A4A43E65A9BC6F048174F3F"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"B0825F02C07AAE88B8D929AF9DB9C346"
+					"encrypted_size_2"		"E9496D5A486D8F6E6C72551B69C300D6"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"2F85DDD87533F10FC9B08BEC1B802DD2"
+					"encrypted_size_2"		"B2B7E145751C424770DAD5E9D800682A"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"029C9677BCCC8199807E082190F21673"
+					"encrypted_size_2"		"C6FB3BCD5B2EF289CAA126F9F726E12C"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"D78E90DCC9592B37FEA90AF2C513392F"
+					"encrypted_size_2"		"C7BA86E37B666C8B7227E73E4258C004"
+				}
+				"ar_press"
+				{
+					"encrypted_gid_2"		"CDD0900F8F6C6665C046AC5DD675F583"
+					"encrypted_size_2"		"C69D96A011790C0937050B77C7ED596A"
+				}
+				"atlantis_rising_ij"
+				{
+					"encrypted_gid_2"		"3A5D94EFC04F64F98015389EE8C0A7FF"
+					"encrypted_size_2"		"F07C2E0FCC8145AC00C91DD1210A029F"
+				}
+				"mp_test"
+				{
+					"encrypted_gid_2"		"A81202D6F665E3441E5B45ECAB26C192"
+					"encrypted_size_2"		"A16C3765CDD7ABC757F863763DEB1E9F"
+				}
+				"perf_test"
+				{
+					"encrypted_gid_2"		"3A1CE8715C4302246AFB6B3F1B0FA923"
+					"encrypted_size_2"		"37669EB6AC1ADC5A8D4CB0AE9100302B"
+				}
+				"stellaris_launcher"
+				{
+					"encrypted_gid_2"		"D1215CE45C3B3881F10DE71E5AA28665"
+					"encrypted_size_2"		"E191A97D933298CC6674B6F97326FDD3"
+				}
+			}
+		}
+		"281992"
+		{
+			"name"		"Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5361564315992496295"
+				"2.1.3"		"4387942634887852973"
+				"2.2.7"		"6897406301878792695"
+				"2.3.0"		"4160310891469618296"
+				"2.3.1"		"3971271003564065262"
+				"2.3.2"		"2741245543135551320"
+				"stellaris_test"		"37353919820847313"
+			}
+			"maxsize"		"449366481"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"2E1A0A02E65733B6F8C5F60A4E18003D"
+					"encrypted_size_2"		"E7C35E39CB203F9CC0266C0144C1F35D"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"9157B0239D015DFA66E0125001123D54"
+					"encrypted_size_2"		"EDF020D3D922510E3A524F649B01A51F"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"D7B377BBA304F46F5AE3DFAF60D54952"
+					"encrypted_size_2"		"7D775A334E6529F8C95BA799B49A3022"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"5FB5189FD70C6BBDF33FA208178A43DB"
+					"encrypted_size_2"		"B801212C2791115F47573EB64D433ECD"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"40D299D0BDCC6BE00DA5F7135C18BF7F"
+					"encrypted_size_2"		"F66D5A673C52ADE4EEB50DFA9FEB5D6E"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"08CDCDADD4D41D73803E52B3253F4E76"
+					"encrypted_size_2"		"6A11009B2E9D437F9A4EE79A90C563F6"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"1CB4F7F367367B813071154AD1561DFF"
+					"encrypted_size_2"		"E97143F24EF0FC06011E35C34B7660B1"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"CA9031CD6113C2ED0F9C8991FF266EF8"
+					"encrypted_size_2"		"BF27BC2C5F5472BDB144C66A639BE47D"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"AFC471AE581F951F6876B0EB305A0639"
+					"encrypted_size_2"		"5B9CD1A1BABDB29DEB14C65845491ACF"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"D0218DFB2EB064178A3D01C73216B7DF"
+					"encrypted_size_2"		"F86F64D60530CF02CD256FE536A7E58C"
+				}
+				"ar_press"
+				{
+					"encrypted_gid_2"		"3533F009B99D6985AC3C44598BC589F0"
+					"encrypted_size_2"		"651B6D403A80149D195DDFFFBECEB995"
+				}
+				"atlantis_rising"
+				{
+					"encrypted_gid_2"		"474F234810CECA81A51B79D94FBD5A9D"
+					"encrypted_size_2"		"926813DC2B26A05D1A9C4648246562AD"
+				}
+				"atlantis_rising_ij"
+				{
+					"encrypted_gid_2"		"9EC15ED71EEA786D1A3AE7B994352F84"
+					"encrypted_size_2"		"32DB52E735DD5C1B3FDE0B08CB114E1E"
+				}
+				"gwen_test"
+				{
+					"encrypted_gid_2"		"F819995D9CA5D5A111A35EF57FA8E5CB"
+					"encrypted_size_2"		"99A52130E3902E428270BB420E04D8AA"
+				}
+				"mp_test"
+				{
+					"encrypted_gid_2"		"F3745AA1E840C697776A2B5442089FD1"
+					"encrypted_size_2"		"D14193D17FE41E9843A4D3527E79CECD"
+				}
+				"perf_test"
+				{
+					"encrypted_gid_2"		"31E9D59E610728BC8E7DF372441F4BEC"
+					"encrypted_size_2"		"CB868797ABCBAE0E582AEB185BE9D186"
+				}
+				"stellaris_launcher"
+				{
+					"encrypted_gid_2"		"B6F1FF89C45761902F92FB3BD8FEE317"
+					"encrypted_size_2"		"3F3E7C4FEB8C783494C5E42F63E00EB8"
+				}
+			}
+		}
+		"281993"
+		{
+			"name"		"OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3044173522653410374"
+				"2.1.3"		"7353170876040067498"
+				"2.2.7"		"3007506897599643609"
+				"2.3.0"		"6513931070638109839"
+				"2.3.1"		"4213862040904032809"
+				"2.3.2"		"2403809939750097578"
+				"stellaris_test"		"1383915685968079273"
+			}
+			"maxsize"		"216462347"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"0494D7FB5B6059B2A2C6C6BB47E0C59F"
+					"encrypted_size_2"		"B2F20609F11D6DCF4C535BE8B6D97104"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"0B3003B22D9071B105B00D9A34A1DFF1"
+					"encrypted_size_2"		"84981D09B1C5210A4BEF820449B08FDD"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"3052C87C4DC90B4045C5CE92B7B4E7AA"
+					"encrypted_size_2"		"D8A587F461099EE83D991145AC65A493"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"CA6583C7ECFC36991B51A1197CEA773D"
+					"encrypted_size_2"		"94912B7712C3AE4CA9521F74FC57153B"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"EAF8DFA0D03DA5636F67309667579A51"
+					"encrypted_size_2"		"4B1C22F9AD7203833CD2B330038D240F"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"0D3B9DA0CE92049F84A71F69FB00C919"
+					"encrypted_size_2"		"0578C062D4D06EEED1730085BBE9553D"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"9B511D81C0173C25F4812278CD5E0FE3"
+					"encrypted_size_2"		"CD4377ED56C43538A0C0693AEBDC6DAD"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"A04C312969E2E12362CC54883B915417"
+					"encrypted_size_2"		"A9D990102A4960897F949A014A8D8878"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"E7BB71308EA224E3AC950BA8A8615D1E"
+					"encrypted_size_2"		"9456947E07019FBAB29224C4CA22D0EC"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"396F00DDDE8E82098B70A37CF0DAADC7"
+					"encrypted_size_2"		"12F3B99DFA4E8076F92C73825D2A1DBD"
+				}
+				"ar_press"
+				{
+					"encrypted_gid_2"		"A5B9BEAF018B596052E3F6838D632E9F"
+					"encrypted_size_2"		"49F0D04BB50F74717516299407D8A664"
+				}
+				"atlantis_rising"
+				{
+					"encrypted_gid_2"		"DC82BFE255ABEC4D9BC7902EFC90A131"
+					"encrypted_size_2"		"B00A6C2861914A3D1DAC6635E064F5F9"
+				}
+				"atlantis_rising_ij"
+				{
+					"encrypted_gid_2"		"D6D72A9795663E6AC028C39AB2D7FC28"
+					"encrypted_size_2"		"B83BBD034CD4EFAFB79C762465E6715C"
+				}
+				"gwen_test"
+				{
+					"encrypted_gid_2"		"6CE51139440F756F8860128DC4B599C5"
+					"encrypted_size_2"		"5212AA3B4CDF49BDFBEFC3A6A71910DA"
+				}
+				"mp_test"
+				{
+					"encrypted_gid_2"		"292F4692D40BD9AD32C7D81E5247D2E4"
+					"encrypted_size_2"		"D29DE20724BC31F1054D943B46953755"
+				}
+				"perf_test"
+				{
+					"encrypted_gid_2"		"B000D04C5846766C23B56C421E565787"
+					"encrypted_size_2"		"4B03583DC2D13F003D6CA1149CFFF836"
+				}
+				"stellaris_launcher"
+				{
+					"encrypted_gid_2"		"4576155D4EE438817D3985B013DD27E8"
+					"encrypted_size_2"		"466CF2E069C03DF5110134BCEE58DE7B"
+				}
+			}
+		}
+		"281994"
+		{
+			"name"		"Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6914806196651228271"
+				"2.1.3"		"1015019556438873557"
+				"2.2.7"		"3358807762313682500"
+				"2.3.0"		"6334396077888210257"
+				"2.3.1"		"4184318511395389074"
+				"2.3.2"		"5900081266709177281"
+				"stellaris_test"		"7777997167436920518"
+			}
+			"maxsize"		"296097199"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"E1A5B65D4F499B0B968F6309394519A9"
+					"encrypted_size_2"		"FB6F46A7A3ECECF4183F742B98A43DD7"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"024E10E808E9807FD8E236417B593C8D"
+					"encrypted_size_2"		"9BD364E0BA555D6322945DDEDE43DFAD"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"C7E2F4CDD720D4109F7F87256D8A6CE9"
+					"encrypted_size_2"		"8F7E2580F88AA562DB444399CADB1E92"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"8AAEFA0172767C9DBC12A7D66625DE26"
+					"encrypted_size_2"		"140188AD65CEB3AE71C2AC57BB5047F7"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"E426481BB42A959CEE30C99ED1CF7552"
+					"encrypted_size_2"		"EFDBA9864F238FD2340A2EB41CFB210C"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"C329141F0F0B7DEFA82750716E5CB654"
+					"encrypted_size_2"		"149E862101B4E35BA77C9052F071D01E"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"FF14516618D594B1F337D7298574A983"
+					"encrypted_size_2"		"3369AB04AA0C1F891A5DAA87BDD43807"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"F342C8E9EA3177481C25EF7B28BC71C4"
+					"encrypted_size_2"		"E2EB025DA8A90FE5A01A5603E2DDC6F5"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"CEA026F5577F47B65E9215D19EA64028"
+					"encrypted_size_2"		"C77FAC71CA6648E7CBE7C92A9D530536"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"17A61D0F4B0DA986C9E0C32001BE119C"
+					"encrypted_size_2"		"2F138E1F168CC6102F36D1F419966F3C"
+				}
+				"ar_press"
+				{
+					"encrypted_gid_2"		"962208C27E230B69AAFEA36A12AC31E1"
+					"encrypted_size_2"		"85649549840724D62DAE11B9DFE96D94"
+				}
+				"atlantis_rising"
+				{
+					"encrypted_gid_2"		"EC09FAC96DFFE8F12942B7C0E491E7A8"
+					"encrypted_size_2"		"CFF4AA973612381721BB54DDE6166355"
+				}
+				"atlantis_rising_ij"
+				{
+					"encrypted_gid_2"		"C682798B66122855EA9BACB82CB3A3A0"
+					"encrypted_size_2"		"E9EB83944BE77F9B2A924DF8B22617E8"
+				}
+				"gwen_test"
+				{
+					"encrypted_gid_2"		"D3B567D03B5E7F8F75904FA7E4EA6A9F"
+					"encrypted_size_2"		"D8A99848729C14F8D60044E1992DA120"
+				}
+				"mp_test"
+				{
+					"encrypted_gid_2"		"547611A4F247432E022EE358B2DBE49B"
+					"encrypted_size_2"		"5E086306433D8D3D988B7B01662758CC"
+				}
+				"perf_test"
+				{
+					"encrypted_gid_2"		"A72EACA04D47F5587B43BE4DADB332F0"
+					"encrypted_size_2"		"45AF3A35310E45C505A2F2EC53C241A0"
+				}
+				"stellaris_launcher"
+				{
+					"encrypted_gid_2"		"8E7D700D3383D851FAA16B9AB2D1A208"
+					"encrypted_size_2"		"1FABCC623BAC131F1C4EE7CBCA3B2CAA"
+				}
+			}
+		}
+		"447680"
+		{
+			"name"		"Stellaris: USS Enterprise (447680) Depot"
+			"dlcappid"		"447680"
+			"manifests"
+			{
+				"public"		"553680592461784116"
+			}
+			"maxsize"		"377"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"61EBA6A512B4183B8483712BFE1B0832"
+					"encrypted_size_2"		"5878278EF1231FAC16B0E1C6A9F4DBF9"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"6DF0A27FE172D1FA3659290FCEB9B22A"
+					"encrypted_size_2"		"6561F79CA3730E4BFA96A6CAE05B338B"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"15981CAB08AD3F4240B0EEA5552E4B8D"
+					"encrypted_size_2"		"47A2870CE1A321A490CE1BBF6F899CDD"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"79D6F6F1FBB7C9CE4D1DC6410601F7C2"
+					"encrypted_size_2"		"CBD8C4BA2F0C02E835672A2B5E54AF89"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"2CEF66B63FE19AFEF9EEEA65E522B39B"
+					"encrypted_size_2"		"BACF1710AFF1A08E46E1CB636D2F7328"
+				}
+			}
+		}
+		"447681"
+		{
+			"name"		"Stellaris: USS Voyager (447681) Depot"
+			"dlcappid"		"447681"
+			"manifests"
+			{
+				"public"		"501697126646834101"
+			}
+			"maxsize"		"402"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"F9C6F9545ABD4DDD66990FDAB3395A5F"
+					"encrypted_size_2"		"66FDE6A6B4ACCCA7BAA941CCAF6770C9"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"130F627179BF07684E74C8D75A3D2B58"
+					"encrypted_size_2"		"C9602C29E912D038071A5B16BEEF1368"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"EC7ADE45E1A5A5368A465C271249146A"
+					"encrypted_size_2"		"7865703E059CA433079FAA57B0E27C4B"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"306CA8A2124CF2DFF85CFDBFFADB9416"
+					"encrypted_size_2"		"982FBE25DB7B741960064C21E9B184CA"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"976FD1F7E7BA0611A87112CEEBFB4447"
+					"encrypted_size_2"		"49B502F095A0DB60B17813D03D157EBF"
+				}
+			}
+		}
+		"447682"
+		{
+			"name"		"Stellaris: SSV Normandy (447682) Depot"
+			"dlcappid"		"447682"
+			"manifests"
+			{
+				"public"		"438449332732097482"
+			}
+			"maxsize"		"119282647"
+		}
+		"447683"
+		{
+			"name"		"Stellaris: Normandy SR-2 (447683) Depot"
+			"dlcappid"		"447683"
+			"manifests"
+			{
+				"public"		"4650804928880492319"
+			}
+			"maxsize"		"389"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"8193590357FDC4DE0FBF2E4991A1F899"
+					"encrypted_size_2"		"0616622B7F5B7042C475EAC7E72AA051"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"28854A056ECF1F936BB19B9F725E2552"
+					"encrypted_size_2"		"65E2593940D41CC40875765E7C9FE336"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"A2128FF9D74BE56D7B03281E5789B565"
+					"encrypted_size_2"		"5720D0EA635869FB30880ABA7A0F11EB"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"74DD6A0D4035EC80010C60CD971F54AA"
+					"encrypted_size_2"		"7D6B353752523B228D95CA9D3B15FA32"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"0A95C02064893AB6EB5203736F2A79FE"
+					"encrypted_size_2"		"EEB25192F766BB8D6CE6DBC8632C02F6"
+				}
+			}
+		}
+		"447684"
+		{
+			"name"		"Stellaris: Destiny Ascension (447684) Depot"
+			"dlcappid"		"447684"
+			"manifests"
+			{
+				"public"		"4869787863226063667"
+			}
+			"maxsize"		"1161208882"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"66FF5E863DC697F98FF4550173F9131C"
+					"encrypted_size_2"		"1E8B84F0332C9A6B77C9AC3458CB3518"
+				}
+			}
+		}
+		"447685"
+		{
+			"name"		"Stellaris: DS9 (447685) Depot"
+			"dlcappid"		"447685"
+			"manifests"
+			{
+				"public"		"85755819763691437"
+			}
+			"maxsize"		"5007833"
+		}
+		"447686"
+		{
+			"name"		"Stellaris: Babylon 5 (447686) Depot"
+			"dlcappid"		"447686"
+			"manifests"
+			{
+				"public"		"855086576449670194"
+			}
+			"maxsize"		"2321437"
+		}
+		"447687"
+		{
+			"name"		"Stellaris: Coriolis (447687) Depot"
+			"dlcappid"		"447687"
+			"manifests"
+			{
+				"public"		"179237507416643257"
+			}
+			"maxsize"		"1226283"
+		}
+		"447688"
+		{
+			"name"		"Corrupt Depot - Do not use (447688) Depot"
+			"dlcappid"		"447688"
+		}
+		"447750"
+		{
+			"name"		"Stellaris: UAP Serenity (447750) Depot"
+			"dlcappid"		"447750"
+			"manifests"
+			{
+				"public"		"5298150507268136665"
+			}
+		}
+		"462720"
+		{
+			"name"		"Stellaris: Space Station V (462720) Depot"
+			"dlcappid"		"462720"
+			"manifests"
+			{
+				"public"		"7353081745363194431"
+			}
+			"maxsize"		"391"
+			"encryptedmanifests"
+			{
+				"1.0.3"
+				{
+					"encrypted_gid_2"		"26D5CD44BDBBB3A2484581ED12A58D70"
+					"encrypted_size_2"		"A54B7A7FC00C19F6DF40BE1E9784D826"
+				}
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"E47A76C911C8F295193F29138D661CA1"
+					"encrypted_size_2"		"4F43DC7318F3F5FC52AE012A820D95D5"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"F2750BF9F610DE7D2B139E8CAB4E6555"
+					"encrypted_size_2"		"BD9025D0948309A3BE025B4569315BAC"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"F3F67E05037505AF3F755DC76A4DC3A4"
+					"encrypted_size_2"		"2CD219CEC609569D7F18E08F2F6E87CC"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"2ADF77EAA6CD2FADBA991200B97CC02E"
+					"encrypted_size_2"		"917A743BBCEF06A9716B21743659929D"
+				}
+			}
+		}
+		"492740"
+		{
+			"name"		"Stellaris: Original Game Soundtrack (492740) Depot"
+			"dlcappid"		"492740"
+			"manifests"
+			{
+				"public"		"7000623969984242881"
+				"2.1.3"		"2364468429316596749"
+				"2.2.7"		"2419329691421076743"
+			}
+			"maxsize"		"2335404037"
+			"encryptedmanifests"
+			{
+				"1.1.0"
+				{
+					"encrypted_gid_2"		"8A821315B09A9019F76CB5EA08EF478A"
+					"encrypted_size_2"		"2E305E80C62BE193A560D00FF1844B1F"
+				}
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"CFD0C650CDD1AEE66B2729F07C7B9D32"
+					"encrypted_size_2"		"F03F483A33DE028A6A709838FB55AA6B"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"F821EF2312C821F734238E2C7CA57A7C"
+					"encrypted_size_2"		"0A425DF65555A2D73E73E3B914916D17"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"FB3453DEC179A7CB69701BB8B64EE70F"
+					"encrypted_size_2"		"F2E4360BFF2C5ED1B9667B683795CE71"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"22B47768D670AD9528C148C541FEF084"
+					"encrypted_size_2"		"D0D51F02FCB5D077C420093D9C25A5D8"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"AF05182F32E8857A4B8385D2F687DCC0"
+					"encrypted_size_2"		"03562F2BF64E95E5B4702DE2695396A3"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"64EE309CE1B1387827A3C426DB5E07F9"
+					"encrypted_size_2"		"49C78193C8CB613877FD3165AB007AE8"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"7307BE7C6434F9DA35E0ED8651954B66"
+					"encrypted_size_2"		"0E0D04B1EB1A3A2BEE5658F3315AAF6E"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"741B7869632E222BD5A32183CA2F4C37"
+					"encrypted_size_2"		"8AE40EEBE953B1B96B2A17A4A4140EBB"
+				}
+				"mp_test"
+				{
+					"encrypted_gid_2"		"C53FDE1A3DB50B8E7CC5DEFC8761B46B"
+					"encrypted_size_2"		"6759CEE63916DF2A9395B3808D9EC97A"
+				}
+				"stellaris_launcher"
+				{
+					"encrypted_gid_2"		"E173DA4BFE9D7AA5AD115B7D020A8E31"
+					"encrypted_size_2"		"D29DCE0D5B63E3539FC7E87D93BDEB84"
+				}
+			}
+		}
+		"497660"
+		{
+			"name"		"Stellaris: Infinite Frontiers eBook (497660) Depot"
+			"dlcappid"		"497660"
+			"manifests"
+			{
+				"public"		"8675625826638210993"
+			}
+			"maxsize"		"2321437"
+		}
+		"498870"
+		{
+			"name"		"Stellaris: Plantoids (498870) Depot"
+			"dlcappid"		"498870"
+			"manifests"
+			{
+				"public"		"8196290158063253739"
+			}
+			"maxsize"		"326"
+			"encryptedmanifests"
+			{
+				"1.2.5"
+				{
+					"encrypted_gid_2"		"1127062E6BCBA6BF30BEB961B8FE221B"
+					"encrypted_size_2"		"65D0CDECCE9205AD1CD947F2769B96A1"
+				}
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"099A7285303A65B91C6EF60A4E9BBE01"
+					"encrypted_size_2"		"58EEA6897226518E2E19E4A129208C41"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"6BECB68A1DC6A0D8265D17E446A98FD9"
+					"encrypted_size_2"		"9265B128B60224A2BF450011E57B5F72"
+				}
+			}
+		}
+		"518910"
+		{
+			"name"		"Stellaris: Leviathans Story Pack (518910) Depot"
+			"dlcappid"		"518910"
+			"manifests"
+			{
+				"public"		"7554167737736193849"
+			}
+			"maxsize"		"58984718"
+			"encryptedmanifests"
+			{
+				"1.3.2"
+				{
+					"encrypted_gid_2"		"07235AFFF7B9D9E76B9937066038AF57"
+					"encrypted_size_2"		"4FF0F41110B0CD50475EBD4723E52C1B"
+				}
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"CE2AF8397DB172857C19BB4AF54555DF"
+					"encrypted_size_2"		"3702D54E767A17B0496836F76C4EA184"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"E1790D9750B316DA0D058280389DDB2A"
+					"encrypted_size_2"		"57803BFA6DAA39C2A1AFCBABAA8289FC"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"A238A0D4474AEC8762E0B7049E60055A"
+					"encrypted_size_2"		"21B789984930BB509E361C41FA02FF14"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"C320936DF6B983AB3480DE02C14372BA"
+					"encrypted_size_2"		"7FB47AB68AE5BD13D6828B860E62438B"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"2E551E4D6CC4B694519087E686D3EBD4"
+					"encrypted_size_2"		"546F20B19BEC071015C4DB133A98333F"
+				}
+			}
+		}
+		"553280"
+		{
+			"name"		"Stellaris: Alien Cooking Simulator (553280) Depot"
+			"dlcappid"		"553280"
+			"manifests"
+			{
+				"public"		"6624733360494496937"
+				"2.1.3"		"2405684829604910662"
+			}
+			"maxsize"		"75958826"
+			"encryptedmanifests"
+			{
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"1388299BDBF433EE182DC249DD88CD93"
+					"encrypted_size_2"		"7C57C873B05D03A25E875CF47DABF2C5"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"0790291FA8E97B6607F2BAB1E79BB70F"
+					"encrypted_size_2"		"4CF6ACF6A291ECBD85FD554853A8C10D"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"CF6257C36DE6315A48BEC7D8807D1B09"
+					"encrypted_size_2"		"90F0725D1F8241A9AAA2FE4D7647B7D1"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"115196017BF9FB3FA5ACBB12005CF877"
+					"encrypted_size_2"		"22EDA0C14CD8CA5ADBEAFF7C7D834F8C"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"8B059FF0127A3A4343444791DC11F913"
+					"encrypted_size_2"		"006765D1F172C88A5FFD895DE148FDB3"
+				}
+			}
+		}
+		"554350"
+		{
+			"name"		"Stellaris: Horizon Signal (554350) Depot"
+			"dlcappid"		"554350"
+			"manifests"
+			{
+				"public"		"5706793881098773765"
+				"2.1.3"		"8534898144371400675"
+			}
+			"maxsize"		"352"
+			"encryptedmanifests"
+			{
+				"1.4.1"
+				{
+					"encrypted_gid_2"		"91D4AF39F9582A0BE4A6170EF49DF8C9"
+					"encrypted_size_2"		"FADB99CAE4F9749070D14FA85C5159DA"
+				}
+				"1.5.1"
+				{
+					"encrypted_gid_2"		"4AE589724A8FE5662A91C00C5D894C85"
+					"encrypted_size_2"		"1F1D6455CE2F4FB9BA2B1763AFB28C47"
+				}
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"24A914F46AC4FDC4FCE85E665D6F8823"
+					"encrypted_size_2"		"F1F611AD424012E9D751C53B19FB70A5"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"8721DBC9561D22C2292517B2F3F5F65C"
+					"encrypted_size_2"		"A82D9165A79686833E43F5E240159D7A"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"5A3311294138992EB0F5D11ED90A2343"
+					"encrypted_size_2"		"8E276EE55B9F7817BD8CD3947F8C4B01"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"FDA9BC7B7140B9DC92E265BFA5C4C3F7"
+					"encrypted_size_2"		"A8DA1FBF740BED14B0231749CDEAACE7"
+				}
+			}
+		}
+		"633310"
+		{
+			"name"		"Stellaris: Blorg Birthday Party Bash (633310) Depot"
+			"dlcappid"		"633310"
+			"manifests"
+			{
+				"public"		"9090619102228651740"
+				"2.1.3"		"8690760161398088057"
+			}
+			"maxsize"		"358"
+			"encryptedmanifests"
+			{
+				"1.6.2"
+				{
+					"encrypted_gid_2"		"339C9E121F0F5AA684F9CA7DC8EC94F7"
+					"encrypted_size_2"		"1DDDE6A55EBFADCD89F2E835FA57B591"
+				}
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"9255ABD94EC24C13CE07AF998C51FBE8"
+					"encrypted_size_2"		"032B6B8378D23308F196F4BFB3E882AB"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"B145E7334961B6B9E66AB1869334DA42"
+					"encrypted_size_2"		"DF1519849578A83413E01DCD94F28692"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"07A8D2ECB4207AB234CB71F969555675"
+					"encrypted_size_2"		"57AEE411DBE8673DC84D397610A83543"
+				}
+			}
+		}
+		"642750"
+		{
+			"name"		"Stellaris: Synthetic Dawn (642750) Depot"
+			"dlcappid"		"642750"
+			"manifests"
+			{
+				"public"		"7255428256169321347"
+				"2.1.3"		"3823640038309688486"
+			}
+			"maxsize"		"48542737"
+			"encryptedmanifests"
+			{
+				"1.8.3"
+				{
+					"encrypted_gid_2"		"6CF94D31A6B764A82345146C6867C959"
+					"encrypted_size_2"		"E744851BD4AA1186790B3F5DF44362BF"
+				}
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"4AD02956D7F4D5BF0E5A0012ACCE2E06"
+					"encrypted_size_2"		"B9308644AB544A7A057578AE8A57853E"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"D2D1A087CFF4A7D665B6608C7B6BCDF2"
+					"encrypted_size_2"		"F013E25A8C44C9A3AE49CF273477C048"
+				}
+			}
+		}
+		"716670"
+		{
+			"name"		"Pew Pew Peacemaker Pack (716670) Depot"
+			"dlcappid"		"716670"
+			"manifests"
+			{
+				"public"		"2428676895906174864"
+				"2.1.3"		"665358895282578238"
+			}
+			"maxsize"		"37927851"
+			"encryptedmanifests"
+			{
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"694643DF457389B96D388A806143545B"
+					"encrypted_size_2"		"934D21CBD87FBD0EA82EE3D99E336E01"
+				}
+			}
+		}
+		"756010"
+		{
+			"name"		"Stellaris: Humanoids Species Pack (756010) Depot"
+			"dlcappid"		"756010"
+			"manifests"
+			{
+				"public"		"2313883359568661415"
+				"2.1.3"		"6909303358571911807"
+			}
+			"maxsize"		"118400744"
+			"encryptedmanifests"
+			{
+				"1.9.1"
+				{
+					"encrypted_gid_2"		"FA108A51652022506A9DF17DBD60F52D"
+					"encrypted_size_2"		"E29BCF70831046D2537CF02C98B1F5AE"
+				}
+				"2.0.5"
+				{
+					"encrypted_gid_2"		"5A1537EAB96FDAD99751D67BC5C81D95"
+					"encrypted_size_2"		"800A46E263942DA18C31D9C4B053404D"
+				}
+			}
+		}
+		"844810"
+		{
+			"name"		"Stellaris: On the Road Again Pack (844810) Depot"
+			"dlcappid"		"844810"
+			"manifests"
+			{
+				"public"		"3431215347110477819"
+				"2.1.3"		"5131313230188752585"
+			}
+			"maxsize"		"20515578"
+		}
+		"944290"
+		{
+			"name"		"Stellaris: More Platypi (944290) Depot"
+			"dlcappid"		"944290"
+			"manifests"
+			{
+				"public"		"146758482670775643"
+			}
+			"maxsize"		"132903396"
+		}
+		"1045980"
+		{
+			"name"		"Space Unicorn Pack (1045980) Depot"
+			"dlcappid"		"1045980"
+			"manifests"
+			{
+				"public"		"3102128087266023154"
+				"2.3.0"		"6304491786638117755"
+			}
+			"maxsize"		"32698737"
+			"encryptedmanifests"
+			{
+				"ar_press"
+				{
+					"encrypted_gid_2"		"3B1EE70CC4202605F6184C1250F57801"
+					"encrypted_size_2"		"761EEC6CD51DA2B1DC8C84714BFFB506"
+				}
+			}
+		}
+		"281995"
+		{
+			"name"		"Rockstarz Pack"
+		}
+		"281996"
+		{
+			"name"		"Hugbox Pack"
+		}
+		"1140000"
+		{
+			"name"		"Rockstarz Pack (1140000) Depot"
+			"dlcappid"		"1140000"
+		}
+		"1140001"
+		{
+			"name"		"Hugbox Pack (1140001) Depot"
+			"dlcappid"		"1140001"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3996163"
+				"timeupdated"		"1562846573"
+			}
+			"1.0.3"
+			{
+				"buildid"		"1133367"
+				"description"		"Launch Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1463558691"
+			}
+			"1.1.0"
+			{
+				"buildid"		"1190303"
+				"description"		"Clarke Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1467029876"
+			}
+			"1.2.5"
+			{
+				"buildid"		"1280180"
+				"description"		"Asimov Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476944874"
+			}
+			"1.3.2"
+			{
+				"buildid"		"1445754"
+				"description"		"Heinlein Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1480321637"
+			}
+			"1.4.1"
+			{
+				"buildid"		"1508878"
+				"description"		"Kennedy Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1491382993"
+			}
+			"1.5.1"
+			{
+				"buildid"		"1751250"
+				"description"		"Banks Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1491986485"
+			}
+			"1.6.2"
+			{
+				"buildid"		"1889150"
+				"description"		"Adams Version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1497524765"
+			}
+			"1.8.3"
+			{
+				"buildid"		"2251715"
+				"description"		"Capek version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512654634"
+			}
+			"1.9.1"
+			{
+				"buildid"		"2368519"
+				"description"		"Boulle version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1519293319"
+			}
+			"2.0.5"
+			{
+				"buildid"		"2745800"
+				"description"		"Cherryh version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526993290"
+			}
+			"2.1.3"
+			{
+				"buildid"		"3117422"
+				"description"		"Niven version"
+				"timeupdated"		"1544115279"
+			}
+			"2.2.7"
+			{
+				"buildid"		"3702453"
+				"description"		"Le Guin Version"
+				"timeupdated"		"1559663212"
+			}
+			"2.3.0"
+			{
+				"buildid"		"3883137"
+				"description"		"Wolfe version"
+				"timeupdated"		"1560173368"
+			}
+			"2.3.1"
+			{
+				"buildid"		"3904561"
+				"description"		"Wolfe version"
+				"timeupdated"		"1560864055"
+			}
+			"2.3.2"
+			{
+				"buildid"		"3917788"
+				"description"		"Wolfe version"
+				"timeupdated"		"1562846529"
+			}
+			"ar_press"
+			{
+				"buildid"		"3864801"
+				"description"		"promo copies"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559118249"
+			}
+			"atlantis_rising"
+			{
+				"buildid"		"4008915"
+				"description"		"Tested for release"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564992908"
+			}
+			"atlantis_rising_ij"
+			{
+				"buildid"		"3996166"
+				"description"		"prerelease pdxmp version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562694094"
+			}
+			"gwen_test"
+			{
+				"buildid"		"4008915"
+				"description"		"personal test branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563016395"
+			}
+			"mp_test"
+			{
+				"buildid"		"3787545"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556795420"
+			}
+			"perf_test"
+			{
+				"buildid"		"4107541"
+				"description"		"testing performance enhanacements"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565854093"
+			}
+			"stellaris_launcher"
+			{
+				"buildid"		"4177399"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567963931"
+			}
+			"stellaris_test"
+			{
+				"buildid"		"3996166"
+				"description"		"testing and crossplay branch"
+				"timeupdated"		"1562846599"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#inmainmenu"		"In the Main Menu, pondering what to play"
+					"#inmplobby"		"In the Multiplayer Lobby, scheming against their friends"
+					"#playingas"		"Playing %Empire% (%Ethics1% %Ethics2%) in %Year%"
+					"#playingasnew"		"Playing %Empire% (%Ethics%) in %Year%"
+					"#playingasnoethics"		"Playing %Empire% in %Year%"
+					"#observinggalaxy"		"Observing the development of the Galaxy in %Year%"
+					"#observingas"		"Observing %Empire% (%Ethics1% %Ethics2%) in %Year%"
+					"#observingasnew"		"Observing %Empire% (%Ethics%) in %Year%"
+					"#observingasnoethics"		"Observing %Empire% in %Year%"
+				}
+			}
+		}
+	}
+}
+ 

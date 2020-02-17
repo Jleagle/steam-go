@@ -1,0 +1,413 @@
+"appinfo"
+{
+	"appid"		"688420"
+	"common"
+	{
+		"name"		"Bad North"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"761db0f1bdaa3f940b391b9accc4e04e4a88c6ec"
+		"clienttga"		"316374c6a98ffb75eb9359460d6eca1deb80f217"
+		"icon"		"038a9c080d91b1963b51498541a718f844a0f162"
+		"logo"		"169c7af88dcb45d4f875e87596ecbdebda205636"
+		"logo_small"		"169c7af88dcb45d4f875e87596ecbdebda205636_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"turkish"		"1"
+		}
+		"clienticns"		"c9581aa6aff420e020db3cdd539c455352608cab"
+		"metacritic_name"		"Bad North"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"26.367617797892024"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1563971013"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Plausible Concept"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Raw Fury"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1542384018"
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/bad-north?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"688420"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"9"
+			"2"		"19"
+			"3"		"1676"
+			"4"		"599"
+			"5"		"3959"
+			"6"		"1716"
+			"7"		"1645"
+			"8"		"25085"
+			"9"		"3813"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Plausible Concept"
+		"publisher"		"Raw Fury"
+		"homepage"		"http://badnorth.com"
+		"listofdlc"		"970060,970920,1138840"
+	}
+	"config"
+	{
+		"installdir"		"BadNorth"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"BadNorth.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"BadNorth.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"BadNorth.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Launch to Resolution Dialog"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"BadNorth.app"
+				"arguments"		"-show-screen-selector"
+				"description"		"Launch to Resolution Dialog"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"688421"
+		{
+			"name"		"Bad North Windows x86"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7042660409074417026"
+			}
+			"maxsize"		"229832930"
+			"encryptedmanifests"
+			{
+				"alienware"
+				{
+					"encrypted_gid_2"		"4FF748BA71814754028B34D41CE07783"
+					"encrypted_size_2"		"67AAA59355F1413CEF40493FCAA95D5F"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"128907272973535DB152AA632B0ED7ED"
+					"encrypted_size_2"		"4B82DC073D73A76E0DEBA3BBA689478C"
+				}
+				"development_release"
+				{
+					"encrypted_gid_2"		"E92C614F3BCA732DD4B97B9E1CCBB84C"
+					"encrypted_size_2"		"F1EFA184D201A8DBA6B33D4788CB289E"
+				}
+				"development_release_dbg"
+				{
+					"encrypted_gid_2"		"2DA40044E6B9E0278AF79D3034A9E3D4"
+					"encrypted_size_2"		"E78E962C5E62736CE4FC6EFAAA37832A"
+				}
+				"gamebreakers"
+				{
+					"encrypted_gid_2"		"33B95909889748FDE42B08B5355580AE"
+					"encrypted_size_2"		"B30ACA78C0C2423D905C663B83413742"
+				}
+				"public_beta_dev"
+				{
+					"encrypted_gid_2"		"D43D31B38FA5F3196D377B9A0F33007B"
+					"encrypted_size_2"		"DA82C9B52084FC9D0167B18551318E93"
+				}
+				"secret"
+				{
+					"encrypted_gid_2"		"87DDCFA96D9C07A2F0137A9EB1D646B6"
+					"encrypted_size_2"		"A759966E93F182115B3BB01FF0A4D58A"
+				}
+				"steamworks_test"
+				{
+					"encrypted_gid_2"		"ADDB157F52DE35EC305445F20433AA7A"
+					"encrypted_size_2"		"9CA229B7FAC69DEB454475B70D71E7E8"
+				}
+			}
+		}
+		"688423"
+		{
+			"name"		"Bad North OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"327209938988704451"
+			}
+			"maxsize"		"298094381"
+			"encryptedmanifests"
+			{
+				"alienware"
+				{
+					"encrypted_gid_2"		"84F246701199BA6F99DB084DC7343B53"
+					"encrypted_size_2"		"624BB5E7DE32C6E3DC65B688B6B8B874"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"DB71784817D79173D8BC722BA867B0F4"
+					"encrypted_size_2"		"5C0B731044871C04538051D46AD8E1D4"
+				}
+				"development_release"
+				{
+					"encrypted_gid_2"		"674F17D83B87BBC10804F2635BF54089"
+					"encrypted_size_2"		"E807AF8FEEEFDA5D90FCD44DB11729EA"
+				}
+				"development_release_dbg"
+				{
+					"encrypted_gid_2"		"4DC36AB5D7A4D28AFD91A887BEECE8D6"
+					"encrypted_size_2"		"B98EF417743A082E5EB776999A226D4F"
+				}
+				"public_beta_dev"
+				{
+					"encrypted_gid_2"		"409E01EE19FB0A2F67D61C0C7FDB6F2C"
+					"encrypted_size_2"		"7629CE21468CA4F324E5F40E30B43CC2"
+				}
+				"secret"
+				{
+					"encrypted_gid_2"		"DB0F8B97D2269E06C04FDC047369FA3C"
+					"encrypted_size_2"		"4270E0FE397F3E7A2B2A0ACDDBB2BD2C"
+				}
+				"steamworks_test"
+				{
+					"encrypted_gid_2"		"960D9CDE32D1489AD8E1F8CC4DAC9F55"
+					"encrypted_size_2"		"3B9DCB0FB109EEC56E652B05A95B0405"
+				}
+			}
+		}
+		"970060"
+		{
+			"name"		"Bad North - Deluxe Edition Content (970060) Depot"
+			"manifests"
+			{
+				"public"		"624267266801462637"
+			}
+			"maxsize"		"62351297"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"0D25BD7DAA94894B16DEA37808205B1A"
+					"encrypted_size_2"		"BFEC8D35CD6DEB66A50A5F76F19189C8"
+				}
+				"development_release_dbg"
+				{
+					"encrypted_gid_2"		"9E86512D99DE88110A3E41EAEA64B836"
+					"encrypted_size_2"		"01AB00568C76ACA55B41E3F48D0C3E3D"
+				}
+			}
+			"dlcappid"		"970060"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4066203"
+				"timeupdated"		"1564744739"
+			}
+			"alienware"
+			{
+				"buildid"		"3486833"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548065366"
+			}
+			"development"
+			{
+				"buildid"		"4149874"
+				"description"		"Internal builds with debug enabled"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567085504"
+			}
+			"development_release"
+			{
+				"buildid"		"4149867"
+				"description"		"Internal builds, with no debug"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567085384"
+			}
+			"development_release_dbg"
+			{
+				"buildid"		"4149880"
+				"description"		"Release build with debug menu / console)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567085623"
+			}
+			"gamebreakers"
+			{
+				"buildid"		"2843822"
+				"description"		"For GT (Gamebreakers Testing)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528460625"
+			}
+			"public_beta_dev"
+			{
+				"buildid"		"3952509"
+				"description"		"QA for public_beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561466048"
+			}
+			"secret"
+			{
+				"buildid"		"3278694"
+				"description"		"For External partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541589742"
+			}
+			"steamworks_test"
+			{
+				"buildid"		"4111876"
+				"description"		"Branch for testing steamworks settings etc. without tripping up QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565954964"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"31457280"
+		"maxnumfiles"		"32"
+	}
+}
+ 

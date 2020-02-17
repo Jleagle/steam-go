@@ -1,0 +1,475 @@
+"appinfo"
+{
+	"appid"		"815370"
+	"common"
+	{
+		"name"		"Green Hell"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"44eb291160a32099bb51a22847ffd18a009df0eb"
+		"logo_small"		"44eb291160a32099bb51a22847ffd18a009df0eb_thumb"
+		"icon"		"d118d766ef0107189e71b1410bebe13831b70d7b"
+		"clienticon"		"e50aa533b96df94eb279dcb5eec2040c845dd7e6"
+		"clienttga"		"ac686a2dda995d717e0181f84b4e425812fb8d43"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"815370_eula_0"
+				"name"		"Green Hell EULA"
+				"url"		"https://store.steampowered.com//eula/815370_eula_0"
+			}
+		}
+		"metacritic_name"		"Green Hell"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"48"
+				"height_pct"		"48"
+			}
+		}
+		"store_asset_mtime"		"1567689032"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Creepy Jar"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Creepy Jar"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"vietnamese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1567688014"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"815370"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1695"
+			"2"		"1702"
+			"3"		"4182"
+			"4"		"3859"
+			"5"		"599"
+			"6"		"3839"
+			"7"		"493"
+			"8"		"4175"
+			"9"		"21"
+			"10"		"3978"
+			"11"		"492"
+			"12"		"1667"
+			"13"		"3834"
+			"14"		"1721"
+			"15"		"7332"
+			"16"		"3810"
+			"17"		"6650"
+			"18"		"19"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Creepy Jar"
+		"publisher"		"Creepy Jar"
+		"homepage"		"http://www.greenhell-game.com"
+	}
+	"config"
+	{
+		"installdir"		"Green Hell"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GH.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"koch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"815371"
+		{
+			"name"		"Green Hell Content"
+			"manifests"
+			{
+				"public"		"3852943441682861472"
+				"beta"		"1201480872561790785"
+			}
+			"maxsize"		"831872"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid_2"		"9D1CAEAFAE233AB1AA77F28E18222562"
+					"encrypted_size_2"		"4C76B4EDC1DD31556F49BB48B4985E4E"
+				}
+				"evolve"
+				{
+					"encrypted_gid_2"		"E02874F876803E087E4EFCD04C238129"
+					"encrypted_size_2"		"8CF69C30D317D552BAD79B12700CEFA5"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"17BC361F1D0F1B20BE28F2E141256F10"
+					"encrypted_size_2"		"7EBBA99BD909DCAA74C096F8406783C1"
+				}
+				"net_develop"
+				{
+					"encrypted_gid_2"		"F19A183A0886EE591376B2D09DCE5E48"
+					"encrypted_size_2"		"ECC1645CE1E542FD690F81E5D269E63B"
+				}
+				"ptrbranch"
+				{
+					"encrypted_gid_2"		"F8297365B3EDECB48855FBFA6F0AE9A8"
+					"encrypted_size_2"		"B6CBF48537CE138B09A958523A01CFC6"
+				}
+				"releasecandidate"
+				{
+					"encrypted_gid_2"		"FB4CCB7B6B013DD28B43E5B98C526867"
+					"encrypted_size_2"		"CFF814E440DB4B0FADE3B42A77237657"
+				}
+				"synthesis"
+				{
+					"encrypted_gid_2"		"2B3809B285B307D53D2C888C0FA174FA"
+					"encrypted_size_2"		"6699C00CE21ED3AEF37C7900CB75E564"
+				}
+				"trailer"
+				{
+					"encrypted_gid_2"		"E154699431A5F601DC685FB059D63F7F"
+					"encrypted_size_2"		"84B222F8844B9EE5840083233521C831"
+				}
+				"water_update"
+				{
+					"encrypted_gid_2"		"AB7D17B26E84A0B114BB289F49E28FED"
+					"encrypted_size_2"		"1DCFEC03C34678BAF7B78263FD850B07"
+				}
+			}
+		}
+		"815372"
+		{
+			"name"		"Green Hell - DATA"
+			"manifests"
+			{
+				"public"		"1940341823887903708"
+				"beta"		"2733364038053405518"
+			}
+			"maxsize"		"12664070577"
+			"encryptedmanifests"
+			{
+				"debug"
+				{
+					"encrypted_gid_2"		"3F9010F2FC3A17E9B1E693229E146A93"
+					"encrypted_size_2"		"21157C0B51B91E42947811FCBBE3547D"
+				}
+				"earlyaccess"
+				{
+					"encrypted_gid_2"		"F5BC90BA8A0ADC1BE96B2757D51959C9"
+					"encrypted_size_2"		"03DAB9B9379122D3D5BF3EE11B6966C6"
+				}
+				"evolve"
+				{
+					"encrypted_gid_2"		"DFC1CF85F6D88BC3E4ABB684346A4F18"
+					"encrypted_size_2"		"F4646D4E9BEBB39C2E97E8FBA5BACBF5"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"C267AA4B0D9F339E2E50EEC6C83A2EBD"
+					"encrypted_size_2"		"FB5783EC9238CE4837427DFC5BE05AD2"
+				}
+				"local_qa_non_static"
+				{
+					"encrypted_gid_2"		"73AF8EA10514D4FA3410788288955623"
+					"encrypted_size_2"		"9F63EE8E6C880B4EC826A46DF444B567"
+				}
+				"local_qa2"
+				{
+					"encrypted_gid_2"		"55C7D59A405DD5A859EA9822D66D0945"
+					"encrypted_size_2"		"CC888E8207AC23E2F046F70538E9383F"
+				}
+				"net_develop"
+				{
+					"encrypted_gid_2"		"FB267F88D6F2D1FFFB91D0C4E3AEC219"
+					"encrypted_size_2"		"83AE1B90F204D75955FA7A033982AC8C"
+				}
+				"ptrbranch"
+				{
+					"encrypted_gid_2"		"789C43C52B6368BE38A9B47C21B259CC"
+					"encrypted_size_2"		"DA25D1B7A20FE635A5C1208F2B1E3A45"
+				}
+				"releasecandidate"
+				{
+					"encrypted_gid_2"		"9345ED092D91DEA1EABA96B70A92C075"
+					"encrypted_size_2"		"39B218BC0D79A8404AE6D29BA1CA8D9F"
+				}
+				"synthesis"
+				{
+					"encrypted_gid_2"		"9255FB7F9628B09C9C144F4A5C44097C"
+					"encrypted_size_2"		"5DD9869AC0EB93B68747364DFCF01CEE"
+				}
+				"trailer"
+				{
+					"encrypted_gid_2"		"D6EC7337E69F6F01D8CEAB72E0CB5CA2"
+					"encrypted_size_2"		"F20B103C9A547EE9FE6F45DEBFB6FBB1"
+				}
+				"water_update"
+				{
+					"encrypted_gid_2"		"B62085BD04191994589CF0455342825F"
+					"encrypted_size_2"		"373B7C50C99724552C37AE095D7F9977"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4173681"
+				"timeupdated"		"1567795746"
+			}
+			"beta"
+			{
+				"buildid"		"3732395"
+				"description"		""
+				"timeupdated"		"1566814272"
+			}
+			"debug"
+			{
+				"buildid"		"4179326"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568035952"
+			}
+			"earlyaccess"
+			{
+				"buildid"		"3544202"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549635805"
+			}
+			"evolve"
+			{
+				"buildid"		"3066838"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1535385130"
+			}
+			"gamescom"
+			{
+				"buildid"		"4118167"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566206425"
+			}
+			"launch_test"
+			{
+				"buildid"		"4173681"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567785662"
+			}
+			"local_qa"
+			{
+				"buildid"		"4173681"
+				"description"		"2019-01-16_12-13_CL16490_dev_Update"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567785632"
+			}
+			"local_qa_non_static"
+			{
+				"buildid"		"4159566"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567423606"
+			}
+			"local_qa2"
+			{
+				"buildid"		"4166570"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567609128"
+			}
+			"media"
+			{
+				"buildid"		"4173681"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567795843"
+			}
+			"net_develop"
+			{
+				"buildid"		"4177407"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567964655"
+			}
+			"ptrbranch"
+			{
+				"buildid"		"3694539"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553959429"
+			}
+			"releasecandidate"
+			{
+				"buildid"		"4108498"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565876222"
+			}
+			"synthesis"
+			{
+				"buildid"		"3000372"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534251364"
+			}
+			"trailer"
+			{
+				"buildid"		"3753369"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555681165"
+			}
+			"water_update"
+			{
+				"buildid"		"3371902"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544363364"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

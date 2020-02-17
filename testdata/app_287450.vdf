@@ -1,0 +1,466 @@
+"appinfo"
+{
+	"appid"		"287450"
+	"common"
+	{
+		"name"		"Rise of Nations: Extended Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"2fde83563239a51e056de7de29b598e712e2a907"
+		"logo_small"		"2fde83563239a51e056de7de29b598e712e2a907_thumb"
+		"clienticon"		"0f7640b482c436efe704a4479ebc732b850d68c4"
+		"clienttga"		"01b1f1340be16d86ed623d6673f2c32bd3aa3a1c"
+		"icon"		"0e142a02add319e32447f957a30fd1d360e62d3e"
+		"metacritic_name"		"Rise of Nations"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"49"
+				"height_pct"		"66"
+			}
+		}
+		"store_asset_mtime"		"1402597807"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SkyBox Labs"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Big Huge Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Xbox Game Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_9"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1402599600"
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/rise-of-nations?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"287450"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"1693"
+			"3"		"5144"
+			"4"		"3987"
+			"5"		"3859"
+			"6"		"599"
+			"7"		"1678"
+			"8"		"1756"
+			"9"		"3965"
+			"10"		"4182"
+			"11"		"1685"
+			"12"		"4161"
+			"13"		"7332"
+			"14"		"4328"
+			"15"		"5708"
+			"16"		"1643"
+			"17"		"4166"
+			"18"		"19"
+			"19"		"5851"
+		}
+	}
+	"extended"
+	{
+		"developer"		"SkyBox Labs"
+		"publisher"		"Xbox Game Studios"
+		"homepage"		"http://www.riseofnations.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/287450/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rise of Nations"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"patriots.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish"
+		"287451"
+		{
+			"name"		"Phoenix Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5892286765276690995"
+				"v1_10_old"		"455596754576845421"
+				"v1_20_beta"		"2113890596231625091"
+			}
+			"maxsize"		"2474658185"
+			"encryptedmanifests"
+			{
+				"brie"
+				{
+					"encrypted_gid_2"		"5547362F4578F196B67FD416D25C64B6"
+					"encrypted_size_2"		"04A0897F46A238A0CF99878E2CB3CDAB"
+				}
+				"cheddar"
+				{
+					"encrypted_gid_2"		"72C4F9B68A73AF241BE47A988C2995FF"
+					"encrypted_size_2"		"ABCC56B792CCFD71A2E4AC57807791A9"
+				}
+				"chimney"
+				{
+					"encrypted_gid_2"		"1252B78E2229A8344319B0EBFD38D08D"
+					"encrypted_size_2"		"20213F74D4AE186559763A46FDAA4BCA"
+				}
+				"feta"
+				{
+					"encrypted_gid_2"		"082D5AED860E76633E810AA9B0B030F7"
+					"encrypted_size_2"		"D4892488471466BFDF626E0104734330"
+				}
+				"gruyere"
+				{
+					"encrypted_gid_2"		"B4EB3D272192EC431D11B8E8D0561CC9"
+					"encrypted_size_2"		"BB7CA8A0910F2365AEE71D4907FB6FF1"
+				}
+				"mackerel"
+				{
+					"encrypted_gid_2"		"CC29BAB526BFE17D9EC850FA1AFF2369"
+					"encrypted_size_2"		"55B631B0F3FE17A13F8C16AF2EF5FCC6"
+				}
+				"pakora"
+				{
+					"encrypted_gid_2"		"6EDEF75C13F6EB1BDBBC247243F6050D"
+					"encrypted_size_2"		"55B2EFE4C64E09708C2741BE1EEBB828"
+				}
+				"samosa"
+				{
+					"encrypted_gid_2"		"3A22BC341F10B8F6BEB4614841010FD6"
+					"encrypted_size_2"		"384B93DE188D94C75FE88EBC65FF3B4B"
+				}
+				"stilton"
+				{
+					"encrypted_gid_2"		"5EA57684BD7DAB04CCEF1D70824B0EB0"
+					"encrypted_size_2"		"24A960308A84D09A0F1F444DD9248FC4"
+				}
+			}
+		}
+		"287452"
+		{
+			"name"		"Phoenix Root Debug"
+			"manifests"
+			{
+				"public"		"1069485320645298188"
+			}
+			"maxsize"		"18555128"
+			"encryptedmanifests"
+			{
+				"gruyere"
+				{
+					"encrypted_gid_2"		"0F9481C67D0C620569EB51E989464DB6"
+					"encrypted_size_2"		"EAD050DBDF20E68415D85B6B6BAE45DD"
+				}
+			}
+		}
+		"287453"
+		{
+			"name"		"Phoenix Root Release"
+			"manifests"
+			{
+				"public"		"7292267659089258049"
+				"v1_10_old"		"7861974549697933092"
+				"v1_20_beta"		"8371163428379241958"
+			}
+			"maxsize"		"488508963"
+			"encryptedmanifests"
+			{
+				"brie"
+				{
+					"encrypted_gid_2"		"3991356BABAF6DCAF214214A77366606"
+					"encrypted_size_2"		"A65697725EC8E6A2AE43ECE1FDFD313D"
+				}
+				"cheddar"
+				{
+					"encrypted_gid_2"		"4DEA826DCD4B369D33C9A0DBAF878FCA"
+					"encrypted_size_2"		"EE3573F38FB48EBDCBEB5304E76A0263"
+				}
+				"chimney"
+				{
+					"encrypted_gid_2"		"E5A3DD7092DFFFFF57B80D39E6BA6CA6"
+					"encrypted_size_2"		"05E991C9D215CD8C200A8C419BC49FFE"
+				}
+				"feta"
+				{
+					"encrypted_gid_2"		"106BEB714A9DD065ACA91E9C4D15F386"
+					"encrypted_size_2"		"20EA80CFFC0F57959335CEF55D462B48"
+				}
+				"gruyere"
+				{
+					"encrypted_gid_2"		"22E0D81D913329F4E108BBDF36D6CFB0"
+					"encrypted_size_2"		"7F8CB21391A63D71AA43E51A6AC91D70"
+				}
+				"mackerel"
+				{
+					"encrypted_gid_2"		"A813187FFF63409B29C96BB33FE09843"
+					"encrypted_size_2"		"62B447CEAFA12A8CCF9F106F22692C16"
+				}
+				"pakora"
+				{
+					"encrypted_gid_2"		"CA1F7DC4AB80D4DFA955B1B2690E7DD7"
+					"encrypted_size_2"		"A8C2E021D1AD355C9C384FDB3C6C2AF9"
+				}
+				"samosa"
+				{
+					"encrypted_gid_2"		"36F2D3336EBB451B9D33E668F707C749"
+					"encrypted_size_2"		"9CC3F00D0D7CFB03045326EDB4368646"
+				}
+				"stilton"
+				{
+					"encrypted_gid_2"		"0FB2501290EDAF5A084947C4A7583F34"
+					"encrypted_size_2"		"6D320D3258A58B3B904DA3756395513C"
+				}
+			}
+		}
+		"workshopdepot"		"287450"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2326894"
+				"timeupdated"		"1512079592"
+			}
+			"brie"
+			{
+				"buildid"		"2131256"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1505850215"
+			}
+			"cheddar"
+			{
+				"buildid"		"1611646"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1486579539"
+			}
+			"chimney"
+			{
+				"buildid"		"2137351"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1506013317"
+			}
+			"feta"
+			{
+				"buildid"		"1740050"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1491506671"
+			}
+			"gruyere"
+			{
+				"buildid"		"2203515"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1508190802"
+			}
+			"mackerel"
+			{
+				"buildid"		"2000647"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1501526135"
+			}
+			"nightly-release"
+			{
+				"buildid"		"2326894"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1511996537"
+			}
+			"pakora"
+			{
+				"buildid"		"1888886"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1497475120"
+			}
+			"samosa"
+			{
+				"buildid"		"2141528"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1506124472"
+			}
+			"stilton"
+			{
+				"buildid"		"1793281"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493684511"
+			}
+			"v1_10_old"
+			{
+				"buildid"		"403412"
+				"description"		"2014 version"
+				"timeupdated"		"1499966266"
+			}
+			"v1_20_beta"
+			{
+				"buildid"		"2056595"
+				"description"		"2017 version"
+				"timeupdated"		"1503427884"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/Rise of Nations/Saves/"
+				"pattern"		"*.svx"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/Rise of Nations/Recorded Games/"
+				"pattern"		"*.rcx"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"/Microsoft Games/Rise of Nations/PlayerProfile/"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

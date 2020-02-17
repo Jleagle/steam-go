@@ -1,0 +1,644 @@
+"appinfo"
+{
+	"appid"		"638970"
+	"common"
+	{
+		"name"		"Yakuza 0"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"icon"		"3c19e2140eb09113fddd33b796a3f12185163cb7"
+		"logo"		"cb705224e3343b084f81cb3905cc476ef5544258"
+		"logo_small"		"cb705224e3343b084f81cb3905cc476ef5544258_thumb"
+		"clienticon"		"2ac86a987ecd5c2e4f135af298c473e04528503a"
+		"clienttga"		"445dee35f0d4b8f606834efc32baab619f32391b"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"638970_eula_0"
+				"name"		"Yakuza 0 EULA"
+				"url"		"https://store.steampowered.com//eula/638970_eula_0"
+			}
+		}
+		"metacritic_name"		"Yakuza 0"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33"
+				"height_pct"		"72"
+			}
+		}
+		"store_asset_mtime"		"1546618655"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SEGA"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SEGA"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"full_audio"		"true"
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1533132000"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/yakuza-0?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"638970"
+		"store_tags"
+		{
+			"0"		"1742"
+			"1"		"19"
+			"2"		"4158"
+			"3"		"1756"
+			"4"		"1695"
+			"5"		"6378"
+			"6"		"122"
+			"7"		"4667"
+			"8"		"8093"
+			"9"		"5611"
+			"10"		"4136"
+			"11"		"4182"
+			"12"		"21"
+			"13"		"12095"
+			"14"		"1719"
+			"15"		"5984"
+			"16"		"1697"
+			"17"		"4166"
+			"18"		"9551"
+			"19"		"4085"
+		}
+	}
+	"extended"
+	{
+		"developer"		"SEGA"
+		"publisher"		"SEGA"
+	}
+	"config"
+	{
+		"installdir"		"Yakuza 0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"media\\Yakuza0.exe"
+				"workingdir"		"media"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1430259572"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,alpha,amd_branch,compat,development,development_dnv1,development_dnv2_hotfix,dnv1,extra_content_test,intel,lab42dev,lab42devb,menutest,nvidia,press,version_one_point_zero"
+			}
+			"1430261283"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,alpha,amd_branch,compat,development,development_dnv1,development_dnv2_hotfix,dnv1,extra_content_test,intel,lab42dev,lab42devb,menutest,nvidia,press,version_one_point_zero"
+			}
+			"1430262235"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,alpha,amd_branch,compat,development,development_dnv1,development_dnv2_hotfix,dnv1,extra_content_test,intel,lab42dev,lab42devb,menutest,nvidia,press,version_one_point_zero"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"638971"
+		{
+			"name"		"Dragon Fruit Content"
+			"manifests"
+			{
+				"public"		"1004322381902797484"
+			}
+			"maxsize"		"23954947987"
+			"encryptedmanifests"
+			{
+				"alpha"
+				{
+					"encrypted_gid_2"		"0E46BFAD4B407AB33F688A075EE25900"
+					"encrypted_size_2"		"1B403F4B8BF35B5154107CDCA03ED973"
+				}
+				"amd_branch"
+				{
+					"encrypted_gid_2"		"A7B2BAC2FD7CBA9D005F23B2DE2785C6"
+					"encrypted_size_2"		"EDF87E920CD574E099DEA41FEC732E2D"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"C22CDC4B4CB120A0AE02A42F66AF1861"
+					"encrypted_size_2"		"11F50B8EE2533F5CB9400B9F3109E106"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"BB5EC0C563839B2ED62D30934F1865B0"
+					"encrypted_size_2"		"378C0A466640DD3BD0C620FCB1A35411"
+				}
+				"development_dnv1"
+				{
+					"encrypted_gid_2"		"0AB2AB0E1FA0422F4B994905394655F8"
+					"encrypted_size_2"		"5C7FDD2C1F2505447A602D902448823C"
+				}
+				"development_dnv2_hotfix"
+				{
+					"encrypted_gid_2"		"627E44BC2E8F73D0E9ED7B790F6E2490"
+					"encrypted_size_2"		"F7BB07B345363AFBFD093CD714687AE2"
+				}
+				"dnv1"
+				{
+					"encrypted_gid_2"		"B4CBC05D7E0DCE7A15B9CC369880A1BB"
+					"encrypted_size_2"		"C62A710D6AF087F37DEC47974DFF3769"
+				}
+				"extra_content_test"
+				{
+					"encrypted_gid_2"		"F4E9C028C8ED57FEA0BA8984E5E7DDF0"
+					"encrypted_size_2"		"974FDB610E989410738902D55D9E8D72"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"65EBDE7C89149FB5164BCB4C0FC09187"
+					"encrypted_size_2"		"5F3D040C4F0E31176FE5EAEEB2F65446"
+				}
+				"lab42devb"
+				{
+					"encrypted_gid_2"		"0FEC325D557D1F6381A5B19C83D7FEEE"
+					"encrypted_size_2"		"E2B2E41903EF710BC2AB63A38EF1FB98"
+				}
+				"lab42devc"
+				{
+					"encrypted_gid_2"		"D61FB7C252B01DA7428F39DF0EB3CC2B"
+					"encrypted_size_2"		"180573CFAB65D0096D12DF184DC74789"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"39FB87D404F1266C8280365707398414"
+					"encrypted_size_2"		"33CB9107919AE3E6F785E5B9F06D54A1"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"E4BE352B85108E23746ABF71299D7F4E"
+					"encrypted_size_2"		"F73CD59FD24B8A435859D2ACE7B09852"
+				}
+				"version_one_point_zero"
+				{
+					"encrypted_gid_2"		"D0D64057F7785EE591379E5CC597BDEC"
+					"encrypted_size_2"		"398AD6B14E299D6830C715746EAB047D"
+				}
+			}
+		}
+		"638972"
+		{
+			"name"		"Dragon Fruit English Content"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5662079231198794978"
+			}
+			"maxsize"		"2328419544"
+			"encryptedmanifests"
+			{
+				"alpha"
+				{
+					"encrypted_gid_2"		"857B8C81CF26608D82C007EA9C95C27D"
+					"encrypted_size_2"		"108B9B6FFC0E7C51BEB6097633ED1597"
+				}
+				"amd_branch"
+				{
+					"encrypted_gid_2"		"B5E02B83253207F5630F77E4CF6200B0"
+					"encrypted_size_2"		"89829596D996E4BF8E975F9DA2010C2E"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"DD89E91922F605EECF7009B20D7D7F2E"
+					"encrypted_size_2"		"4393A06EF74ED8995F69D704A37C7572"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"44CB70BD15D24B1D83A6F517C8DDA545"
+					"encrypted_size_2"		"97979C32EF3DEDF31DF75CFA45EEB8E9"
+				}
+				"development_dnv1"
+				{
+					"encrypted_gid_2"		"BF8945CFEFEE0BC3D9C045A2761AEB11"
+					"encrypted_size_2"		"9D2D59B985F77A250424698334B9C1A2"
+				}
+				"development_dnv2_hotfix"
+				{
+					"encrypted_gid_2"		"A47AE2F07A984ED335E707EB35CF2ACD"
+					"encrypted_size_2"		"2F0D323793D97FD99A10FFC334DB1C9A"
+				}
+				"dnv1"
+				{
+					"encrypted_gid_2"		"E192BAC3BAF3B12B523DA38731281B3E"
+					"encrypted_size_2"		"D97A3A9A9D783C28303B9CDFA247B857"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"21DFFB325D534ECB13DA6D2C9C089D97"
+					"encrypted_size_2"		"B9A7F8DF1D13B5E82DDF18050D7E5B8D"
+				}
+				"lab42devb"
+				{
+					"encrypted_gid_2"		"53D4825EB865EFC73D4BAB6EFA7BDD8C"
+					"encrypted_size_2"		"176954D865641A283D09F5B7F9471425"
+				}
+				"lab42devc"
+				{
+					"encrypted_gid_2"		"397FF93306D78B1C9D73FE85985473EF"
+					"encrypted_size_2"		"333D7F778617D38CE52E04F219D2218A"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"43277C19002FE95DDA91A9400118345A"
+					"encrypted_size_2"		"1452B2AFFA26ED8661A5F6747E66D20B"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"489184C9335DCD7F34CC4E7C5CC683BF"
+					"encrypted_size_2"		"9D95159F78DB064AAB0C5B8A3BBE4C8E"
+				}
+				"version_one_point_zero"
+				{
+					"encrypted_gid_2"		"FA177D69A9B7ED34D993B1A875A2BC31"
+					"encrypted_size_2"		"8B2C5B40A064A95E9E4912A126A69A88"
+				}
+			}
+		}
+		"638973"
+		{
+			"name"		"Dragon Fruit Japanese Content"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"5399542270646326264"
+			}
+			"maxsize"		"2327909428"
+			"encryptedmanifests"
+			{
+				"alpha"
+				{
+					"encrypted_gid_2"		"5ECBCEB151BFD7227A1F08A5A03105F9"
+					"encrypted_size_2"		"62B6CF0066FD464AD6172B597FDE28EB"
+				}
+				"amd_branch"
+				{
+					"encrypted_gid_2"		"06FCA1433A24D8EC251E7B608C674C23"
+					"encrypted_size_2"		"CDE96F97EBFAC44C8C2AD3D6A35DF643"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"A379BBF5CC3A620FE4B97E1F4DAC3DB5"
+					"encrypted_size_2"		"61CE4A0CB4B847AD68A2337CD98E11B3"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"7A3C5C5681F340A2943CD130BB3A3893"
+					"encrypted_size_2"		"86EEB4BEB414969E9AF05D27FD3581A8"
+				}
+				"development_dnv1"
+				{
+					"encrypted_gid_2"		"11D6558A1EC3F5AA0DF10260AD8CF5AA"
+					"encrypted_size_2"		"0245A036CCC948398B90A7C62EC9A307"
+				}
+				"development_dnv2_hotfix"
+				{
+					"encrypted_gid_2"		"CA4803BAB5324201A11236B7D0CA44FF"
+					"encrypted_size_2"		"EA4F4A3B37F1DE125045681734B7006A"
+				}
+				"dnv1"
+				{
+					"encrypted_gid_2"		"FFD3C4AB2A9C7957ED4170F182B3EF48"
+					"encrypted_size_2"		"006ECC0C30DD436D7A440F69C7AAB2A3"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"C9432ABBF5C77DB40E8CFFE60965F74C"
+					"encrypted_size_2"		"856147B0A448EB51A13F30C3407CAE0D"
+				}
+				"lab42devb"
+				{
+					"encrypted_gid_2"		"94D0F45FEBDEBAE2CCCC5F59EDABA551"
+					"encrypted_size_2"		"5303CB03E9DB538112323A32046EF7E5"
+				}
+				"lab42devc"
+				{
+					"encrypted_gid_2"		"9FE2D07A320F9BB40B2440F446582384"
+					"encrypted_size_2"		"AB7D1091EA441E719A9AFADF59ABD0A6"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"A3340AC481A06E5D1124CDE953CC88FA"
+					"encrypted_size_2"		"60543C0C4AFCCCCB66791AEF8F89E335"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"4C79211242CAB8B03B69745F8942AADD"
+					"encrypted_size_2"		"6EFB78517341388E41756282F0B94718"
+				}
+				"version_one_point_zero"
+				{
+					"encrypted_gid_2"		"30D6031FF61253809245307FFE60A2B0"
+					"encrypted_size_2"		"997B76A22E3EA3D2A70C2B2469A8CD64"
+				}
+			}
+		}
+		"638974"
+		{
+			"name"		"Dragon Fruit Debug NOT FOR RELEASE"
+			"manifests"
+			{
+				"public"		"9807815271788584"
+			}
+			"encryptedmanifests"
+			{
+				"amd_branch"
+				{
+					"encrypted_gid_2"		"D1ADC37DE04926512EC346DE094DE4AF"
+					"encrypted_size_2"		"9E3B14C1098AD8B0E8AF3F1B74867D88"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"AED128827D8EC0496F123E576B7A3A32"
+					"encrypted_size_2"		"20532B29EF612A534A5BD57161734EE3"
+				}
+				"development_dnv1"
+				{
+					"encrypted_gid_2"		"A4AAB8E9D7AA824EAF54A9E6179A6431"
+					"encrypted_size_2"		"C8231E16DA5F1EE22A519A4D9742FF7A"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"90DF89A04D1CA090875D8F31DF3EE6A6"
+					"encrypted_size_2"		"17A6092CD65D1A078E230868A4D76740"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"91E7598FD2A81F4C5DC4E35D9EE458C1"
+					"encrypted_size_2"		"26E2FFDBF83274BC9828E26AFACBAEFD"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"C2AB3A87990DDD6D478203E6BADB8FAD"
+					"encrypted_size_2"		"B8A466AA879A7CD62EA5597B9376FC5E"
+				}
+				"version_one_point_zero"
+				{
+					"encrypted_gid_2"		"B7D55E4AA98E57A6A4E877685C64079F"
+					"encrypted_size_2"		"AB930238B3237CBD66A5140E8B4A6D0E"
+				}
+			}
+		}
+		"638975"
+		{
+			"name"		"Dragon Fruit Digital Deluxe Extra Content"
+			"manifests"
+			{
+				"public"		"8911271001191046687"
+			}
+			"maxsize"		"59229844"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3642285"
+				"timeupdated"		"1553615127"
+			}
+			"alpha"
+			{
+				"buildid"		"2566948"
+				"description"		"Alpha Milestone Deliverable"
+				"pwdrequired"		"1"
+				"timeupdated"		"1519982087"
+			}
+			"amd_branch"
+			{
+				"buildid"		"2834603"
+				"description"		"AMD branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528275158"
+			}
+			"community_test_branch"
+			{
+				"buildid"		"3642285"
+				"description"		"Public Testing - Password is Public"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552914182"
+			}
+			"compat"
+			{
+				"buildid"		"2742623"
+				"description"		"CompatTest-StaticBuild"
+				"pwdrequired"		"1"
+				"timeupdated"		"1525439668"
+			}
+			"development"
+			{
+				"buildid"		"3016272"
+				"description"		"Development branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533745658"
+			}
+			"development_dnv1"
+			{
+				"buildid"		"2983645"
+				"description"		"Temp dev branch with old denuvo"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532708758"
+			}
+			"development_dnv2_hotfix"
+			{
+				"buildid"		"2989738"
+				"description"		"temp dev branch for testing a dnv hotfix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533023636"
+			}
+			"dnv1"
+			{
+				"buildid"		"3003440"
+				"description"		"Denuvo"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533637918"
+			}
+			"extra_content_test"
+			{
+				"buildid"		"2975765"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1532523234"
+			}
+			"intel"
+			{
+				"buildid"		"2949199"
+				"description"		"Intel branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532021716"
+			}
+			"lab42dev"
+			{
+				"buildid"		"3642285"
+				"description"		"Internal development branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552550580"
+			}
+			"lab42devb"
+			{
+				"buildid"		"3022118"
+				"description"		"Internal development branch (B)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533896650"
+			}
+			"lab42devc"
+			{
+				"buildid"		"3051674"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534868866"
+			}
+			"nvidia"
+			{
+				"buildid"		"2834603"
+				"description"		"NVidia branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528275182"
+			}
+			"press"
+			{
+				"buildid"		"2943354"
+				"description"		"PR Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531751016"
+			}
+			"version_one_point_zero"
+			{
+				"buildid"		"2983231"
+				"description"		"Launch build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533564880"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"250000000"
+		"maxnumfiles"		"2000"
+	}
+}
+ 

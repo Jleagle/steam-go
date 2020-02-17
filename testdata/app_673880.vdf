@@ -1,0 +1,607 @@
+"appinfo"
+{
+	"appid"		"673880"
+	"common"
+	{
+		"name"		"Warhammer 40,000: Mechanicus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienticon"		"440212a26f214632dd0d870155195a1a1181d561"
+		"clienttga"		"6b2898e493858caeaa2993aef75b4287f3ebdf56"
+		"icon"		"47dfa2f06c3c27db8cb3a42813ebe4d12f291df5"
+		"clienticns"		"31f5c666c5af15d317c3bff9b8b6da636452c746"
+		"logo"		"266bb06a4e6e1e1798c164106de1b71f2ef9424d"
+		"logo_small"		"266bb06a4e6e1e1798c164106de1b71f2ef9424d_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Warhammer 40,000: Mechanicus"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1560343950"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bulwark Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kasedo Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Warhammer"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1542304793"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warhammer-40000-mechanicus?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"673880"
+		"store_tags"
+		{
+			"0"		"12286"
+			"1"		"9"
+			"2"		"14139"
+			"3"		"1677"
+			"4"		"4325"
+			"5"		"5310"
+			"6"		"3942"
+			"7"		"492"
+			"8"		"1756"
+			"9"		"1708"
+			"10"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Bulwark Studios"
+		"publisher"		"Kasedo Games"
+		"homepage"		"https://mechanicus40k.com"
+		"listofdlc"		"916250,1049290,1104970"
+	}
+	"config"
+	{
+		"installdir"		"Mechanicus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mechanicus.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mechanicus.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Mechanicus.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian"
+		"673881"
+		{
+			"name"		"Mechanicus Windows x64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"995859690782417562"
+				"mechanicus-classic"		"6531565914471886537"
+				"pre-balance"		"6402199908885248904"
+			}
+			"maxsize"		"10869043035"
+			"encryptedmanifests"
+			{
+				"agrolekh_arena"
+				{
+					"encrypted_gid_2"		"37F578600A149F6E1E8D1D979950C49A"
+					"encrypted_size_2"		"E0186A382B99B965F5CE88779F985F45"
+				}
+				"all_necrons"
+				{
+					"encrypted_gid_2"		"05A45E8664A5B61A9AFA2A0C4D1003AE"
+					"encrypted_size_2"		"F61365235CE0596B9FABAE7DB84EB198"
+				}
+				"arena-content"
+				{
+					"encrypted_gid_2"		"3024F233F47C773D1FEF14E982C71060"
+					"encrypted_size_2"		"8DCDC776090043E7A4FE106078B77C0A"
+				}
+				"audio-test"
+				{
+					"encrypted_gid_2"		"0ECE7A334314CA3209577F4C84629CD2"
+					"encrypted_size_2"		"C6FDB996977B77827F005314A4C32500"
+				}
+				"audio-test-2"
+				{
+					"encrypted_gid_2"		"12180CCF2AF868E05BAD45C49296D056"
+					"encrypted_size_2"		"9E23AA5196372A47426975008D7B03AF"
+				}
+				"audio-test-3"
+				{
+					"encrypted_gid_2"		"431D039178EE62B7BADD7EFC4E33EDDC"
+					"encrypted_size_2"		"5D58EBD307C4540B308C1E812AED426A"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"28FBF89FB74661ED29B9806491D94F54"
+					"encrypted_size_2"		"47B65C2955FD01BCEF9EEAEFE0698EC9"
+				}
+				"dlc_heretek"
+				{
+					"encrypted_gid_2"		"AEC33B8C9FE872C4660E75FD5A88FE40"
+					"encrypted_size_2"		"4C82C4FD8C156AE4742EFA0F546DB6F0"
+				}
+				"gamepad-preview"
+				{
+					"encrypted_gid_2"		"B6696326509F52B4F9F9E97EF37656E1"
+					"encrypted_size_2"		"219EAED4FC865620EAFE9A05199CB7BA"
+				}
+				"gamescom18"
+				{
+					"encrypted_gid_2"		"CB91741EDFA1C2A97AF5D60A4F25EF0E"
+					"encrypted_size_2"		"91426C9C3D061F473EB2134499801F4D"
+				}
+				"kasedotimemachine"
+				{
+					"encrypted_gid_2"		"363E126740C269250E1C1EE735144B3D"
+					"encrypted_size_2"		"CF295CE7068E88A76C56AFC4AA6832A4"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"088DB426309B7BD486C554B57C51D5C7"
+					"encrypted_size_2"		"5A01088CA1C6A39B3F1DEDAC0AEBF951"
+				}
+				"press_cheat"
+				{
+					"encrypted_gid_2"		"6F9CC5F20B546DD66D2CDDE88B6FAEB2"
+					"encrypted_size_2"		"E5338B15FCA974FD62DB103B1E1FFF59"
+				}
+				"qa_external"
+				{
+					"encrypted_gid_2"		"D1628F71D71EF1F27A7AB7792552649C"
+					"encrypted_size_2"		"51086E4A52E4A451B37AE113FD966DF6"
+				}
+			}
+		}
+		"673882"
+		{
+			"name"		"Mechanicus OSX x64"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4254221662622939364"
+				"mechanicus-classic"		"1236562325644023331"
+			}
+			"maxsize"		"10979409522"
+			"encryptedmanifests"
+			{
+				"agrolekh_arena"
+				{
+					"encrypted_gid_2"		"B5C0DB394BB7D3E1757611B54AFBEFFE"
+					"encrypted_size_2"		"2E792418F1DBDBC4EEF03F6A9F0BFEB4"
+				}
+				"audio-test"
+				{
+					"encrypted_gid_2"		"DF4FB8333B70B18D61A0BD408489FCBE"
+					"encrypted_size_2"		"2B9B3877086105FDB3AEEAEE5A9037C0"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"4E9BDD1EE522E343D51B5A923760FEFF"
+					"encrypted_size_2"		"B616C9C330A5AAC0AAF38C74853201E6"
+				}
+				"dlc_heretek"
+				{
+					"encrypted_gid_2"		"7A6314D9D4E9FC0588837EF66BC5F5D8"
+					"encrypted_size_2"		"4886FA7C8A152C5D4C0C96C29E795544"
+				}
+				"gamepad-preview"
+				{
+					"encrypted_gid_2"		"2D82E482716B73B5810114B15609D3D8"
+					"encrypted_size_2"		"64EDAC2CF222FE4177B831ED8926F215"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"A011251191647C2AAA213A062C2B2EA0"
+					"encrypted_size_2"		"630379DB5E5712DF42CD7093AB3B0BE4"
+				}
+				"press_cheat"
+				{
+					"encrypted_gid_2"		"882C64B6B7AED3844DE48710E331E58D"
+					"encrypted_size_2"		"51BCE35243C10187881E0216CC765451"
+				}
+			}
+		}
+		"673883"
+		{
+			"name"		"Mechanicus Linux x64"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8943536586546969373"
+				"mechanicus-classic"		"3959059929989013650"
+			}
+			"maxsize"		"10981612078"
+			"encryptedmanifests"
+			{
+				"agrolekh_arena"
+				{
+					"encrypted_gid_2"		"FC6A4678484145B14083CA8A60853943"
+					"encrypted_size_2"		"D0576B55F663209C2AE44AA6A13883A6"
+				}
+				"audio-test"
+				{
+					"encrypted_gid_2"		"1CAAF1916ABC1AA1E25007151F309CB3"
+					"encrypted_size_2"		"B221FE09A04252DAD02E720E8887EB77"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"6429255535ACA9AF1D03F323DA2A048D"
+					"encrypted_size_2"		"5C2EFE51D5147AB42ED973E79BEF62AE"
+				}
+				"dlc_heretek"
+				{
+					"encrypted_gid_2"		"DFA8B0112FCB5D72E55ACF08DADA610D"
+					"encrypted_size_2"		"26DC5D008C173470A04D5A3F7B2D598D"
+				}
+				"gamepad-preview"
+				{
+					"encrypted_gid_2"		"50C89BE32945C4D18808EDE885D54251"
+					"encrypted_size_2"		"1E88A6674EF2694E3E1608427A745BB5"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"19CE12B55E42EEE8542C85703F0E6754"
+					"encrypted_size_2"		"0E4AF13736C1C1A08809DAD01D4E2239"
+				}
+				"press_cheat"
+				{
+					"encrypted_gid_2"		"DF3C1E0AA3AAD0AB6CB29B78AEC098CC"
+					"encrypted_size_2"		"BD56578F0BBB19FBE04AF504AF88669B"
+				}
+			}
+		}
+		"916250"
+		{
+			"name"		"Warhammer 40,000: Mechanicus - Upgrade to Omnissiah Edition (916250) Depot"
+			"dlcappid"		"916250"
+			"manifests"
+			{
+				"public"		"6155245903707401311"
+			}
+			"maxsize"		"206608321"
+			"encryptedmanifests"
+			{
+				"all_necrons"
+				{
+					"encrypted_gid_2"		"9045E12F8BB31224189CACA8408C17AC"
+					"encrypted_size_2"		"4D8C1E5BAF8DD408DEC98FDAB8286BBF"
+				}
+				"kasedotimemachine"
+				{
+					"encrypted_gid_2"		"D464DA58BE9CF5E8BF850271918B65E5"
+					"encrypted_size_2"		"2783645D07CF3B94613822CF16689C33"
+				}
+				"qa_external"
+				{
+					"encrypted_gid_2"		"B66B8F6A55F4FFB106E79D2000B64FDB"
+					"encrypted_size_2"		"77CF7DAB242218C5A1AD02215EB439CE"
+				}
+			}
+		}
+		"1104970"
+		{
+			"name"		"Warhammer 40,000: Mechanicus - Heretek + (1104970) Depot"
+			"manifests"
+			{
+				"public"		"3967893197499835219"
+			}
+			"maxsize"		"64443111"
+			"encryptedmanifests"
+			{
+				"agrolekh_arena"
+				{
+					"encrypted_gid_2"		"76D95D7F11F5B30B485BE233D2C8607B"
+					"encrypted_size_2"		"932CE9D56892E3D4C48F37EFA3A0C9FF"
+				}
+				"audio-test"
+				{
+					"encrypted_gid_2"		"DCADD46CD23B9D46D5BDE63D9869A322"
+					"encrypted_size_2"		"1A944B9525CA8076F494A17D17CFE5E8"
+				}
+				"dlc_heretek"
+				{
+					"encrypted_gid_2"		"40BFC5E3F017E3F5F49B7FD2826B2E8B"
+					"encrypted_size_2"		"205E7C235F7C52F50EDABB2D5CF8BAD9"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"B134DEF3BD8171929AEBB427E5956021"
+					"encrypted_size_2"		"6F402F4DAFA42B0E5F36F96FD0A3CF31"
+				}
+				"press_cheat"
+				{
+					"encrypted_gid_2"		"F0F23377D2C5653AE3A40158366EEF39"
+					"encrypted_size_2"		"2AEDA5023C496D9E5A47925CE50239FC"
+				}
+			}
+			"dlcappid"		"1104970"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4046861"
+				"timeupdated"		"1564158061"
+			}
+			"agrolekh_arena"
+			{
+				"buildid"		"3996088"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562692003"
+			}
+			"all_necrons"
+			{
+				"buildid"		"3268901"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541107936"
+			}
+			"arena-content"
+			{
+				"buildid"		"3107831"
+				"description"		"View arenas and VFX"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536592883"
+			}
+			"audio-test"
+			{
+				"buildid"		"3937163"
+				"description"		"Use to test audio things"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561018920"
+			}
+			"audio-test-2"
+			{
+				"buildid"		"2989754"
+				"description"		"Use to test audio things"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532970224"
+			}
+			"audio-test-3"
+			{
+				"buildid"		"3395405"
+				"description"		"Use to test audio things"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563202248"
+			}
+			"development"
+			{
+				"buildid"		"4068528"
+				"description"		"lastest build [do not share]"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564733274"
+			}
+			"dlc_heretek"
+			{
+				"buildid"		"3981903"
+				"description"		"Preview DLC Heretek features"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562237518"
+			}
+			"gamepad-preview"
+			{
+				"buildid"		"4082208"
+				"description"		"Test gamepad"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565165555"
+			}
+			"gamescom18"
+			{
+				"buildid"		"3043886"
+				"description"		"GamesCom 2018"
+				"pwdrequired"		"1"
+				"timeupdated"		"1534600861"
+			}
+			"kasedotimemachine"
+			{
+				"buildid"		"3288372"
+				"description"		"Create videos"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542044609"
+			}
+			"mechanicus-classic"
+			{
+				"buildid"		"3633936"
+				"description"		"1.1.4 - pre-Augment Update"
+				"timeupdated"		"1556288140"
+			}
+			"pre-balance"
+			{
+				"buildid"		"3351759"
+				"description"		"build 1.0.7 (out of date)"
+				"timeupdated"		"1545134701"
+			}
+			"press"
+			{
+				"buildid"		"3995354"
+				"description"		"Preview Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562675407"
+			}
+			"press_cheat"
+			{
+				"buildid"		"3993253"
+				"description"		"Preview Build Cheat"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562621703"
+			}
+			"qa_external"
+			{
+				"buildid"		"3310824"
+				"description"		"Quality Assurance"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542302154"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BulwarkStudios/Mechanicus/Saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BulwarkStudios/Mechanicus/Saves"
+						"replace"		"BulwarkStudios/Mechanicus/Saves"
+					}
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BulwarkStudios/Mechanicus/Saves"
+						"replace"		".config/unity3d/BulwarkStudios/Mechanicus/Saves"
+					}
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,466 @@
+"appinfo"
+{
+	"appid"		"798510"
+	"common"
+	{
+		"name"		"SUPER DRAGON BALL HEROES WORLD MISSION"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"3e9a4ff7f0a14e2867064aa6c30ad4c6dc94580c"
+		"clienttga"		"c66a9816b7fe935555f1219b47574d2c4d2e0346"
+		"icon"		"41c3c652386b7cab34017f8bc39c4ed17e0456ec"
+		"logo"		"e71b7ba7cb94fc8a0afc16864dd7785402058179"
+		"logo_small"		"e71b7ba7cb94fc8a0afc16864dd7785402058179_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"798510_eula_0"
+				"name"		"SUPER DRAGON BALL HEROES WORLD MISSION EULA"
+				"url"		"https://store.steampowered.com//eula/798510_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"metacritic_name"		"SUPER DRAGON BALL HEROES WORLD MISSION"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"63.95024393130544"
+				"height_pct"		"55.68361247041376"
+			}
+		}
+		"store_asset_mtime"		"1561480069"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dimps Corporation"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"SAFARI GAMES Co., Ltd."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1554415200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"798510"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1666"
+			"2"		"4085"
+			"3"		"3859"
+			"4"		"1743"
+		}
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"developer"		"Dimps Corporation"
+		"publisher"		"BANDAI NAMCO Entertainment"
+		"listofdlc"		"996250,1011180,1018150,1018151,1018152,1047260,1047261,1047262,1047263,1047264,1047265,1047266,1047267,1047268,1047269,1047270,1047271,1047272,1047273,1047274,1047275,1047276,1047277,1047278,1047279,1047280,1047281,1047282,1047290"
+	}
+	"config"
+	{
+		"installdir"		"SUPER DRAGON BALL HEROES WORLD MISSION"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch_Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SDBHeroes_WorldMission.exe"
+				"description"		"NO EAC Launch (EAC無しの起動)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"eac-release, eac-debug, qa-debug, qa-release, dev-debug, dev-release, dev_debug_p1, dev_release_p1"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game_ReleaseSteam.exe"
+				"description"		"Game_ReleaseSteam.exeから起動（昔のブランチ用）"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"safari-nocpk-dev"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"798511"
+		{
+			"name"		"FULLMOON Content"
+			"manifests"
+			{
+				"public"		"1611342257390149395"
+			}
+			"maxsize"		"3297550112"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"C3DE17F618081E188CC5DA4442D4A927"
+					"encrypted_size_2"		"C1ADFB534BC396B9C58ADCE69C4EED55"
+				}
+				"dev-debug"
+				{
+					"encrypted_gid_2"		"288A38C8AA428F9585298C057F49D8DA"
+					"encrypted_size_2"		"CF7079B5F91376DAC21A6E53C51C05B5"
+				}
+				"dev-release"
+				{
+					"encrypted_gid_2"		"C8886F1047D2903A2B6AAC8E9C7ABF65"
+					"encrypted_size_2"		"D18A277FD88553AB32036D8BD37262C6"
+				}
+				"eac-debug"
+				{
+					"encrypted_gid_2"		"1593EA19F42EC4A19DD191DC52D4DA42"
+					"encrypted_size_2"		"4A330D3F5106851A149CFAF563935EA6"
+				}
+				"eac-release"
+				{
+					"encrypted_gid_2"		"E0A51E9FF23E5BB9B868CF7D3E2A93ED"
+					"encrypted_size_2"		"92F482D7409B2322608B084EAC5D747C"
+				}
+				"mc_production"
+				{
+					"encrypted_gid_2"		"0CD7D54E3E01DA0662ACF92ACFB626F6"
+					"encrypted_size_2"		"2DC18E2E3CBF4AF9C419342767A12266"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"731457B8D850F7159B45B43D15F24E50"
+					"encrypted_size_2"		"41090069E76F80FC61212A29237D2275"
+				}
+				"qa-debug"
+				{
+					"encrypted_gid_2"		"FD7C7F3564B9CC98C49DE85C3B72CF23"
+					"encrypted_size_2"		"D778C049BC679B16B3FE22031C89D368"
+				}
+				"qa-release"
+				{
+					"encrypted_gid_2"		"000C42AFA9BA935339FF9042CCBF267C"
+					"encrypted_size_2"		"A38011C17C432B1057C2DB56C6BCABF2"
+				}
+				"safari-nocpk-dev"
+				{
+					"encrypted_gid_2"		"FAC0E4C830C1B0F36CF0236E8E503F08"
+					"encrypted_size_2"		"2A343F389998EE250A4532622AA20D84"
+				}
+			}
+		}
+		"798512"
+		{
+			"name"		"FULLMOON exe"
+			"manifests"
+			{
+				"public"		"6817646395977562906"
+			}
+			"maxsize"		"32624420"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"795E7A8227CB22A04D6834EE67C7A578"
+					"encrypted_size_2"		"59E3287C8A561DF2569034A4334BDD58"
+				}
+				"dev-debug"
+				{
+					"encrypted_gid_2"		"CCCA1A2A31658255BF509EC238807296"
+					"encrypted_size_2"		"9709A05177DC78C01CC4A248DFBC7317"
+				}
+				"dev-release"
+				{
+					"encrypted_gid_2"		"DEC08DF29978519CC8DA845C6CF92B86"
+					"encrypted_size_2"		"B845F6774524AEB59F9F841422DA597B"
+				}
+				"eac-debug"
+				{
+					"encrypted_gid_2"		"D6B5CAF8BDED1B1007C7BAEDCE99D910"
+					"encrypted_size_2"		"5D254CA429B41647BB2D6628797E62D1"
+				}
+				"eac-release"
+				{
+					"encrypted_gid_2"		"D2B99624F5F75980806ED4FE0FCA29CB"
+					"encrypted_size_2"		"377D167DD42C26958FBDE3D8C7C0E76C"
+				}
+				"mc_debug"
+				{
+					"encrypted_gid_2"		"5F4071F017C8FA08162A4EFB01E3D06D"
+					"encrypted_size_2"		"8A31B83BD11BA8052302E02F75F729D9"
+				}
+				"mc_production"
+				{
+					"encrypted_gid_2"		"90AB837273F9D646EF30250D9121FC10"
+					"encrypted_size_2"		"2356DA5A134D621DDEA1AE75ECD982F9"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"6E740F0356515E52BBBCC292F9E3F22C"
+					"encrypted_size_2"		"49C9E8636BFD278507958CEB482B31D7"
+				}
+				"qa-debug"
+				{
+					"encrypted_gid_2"		"53FCC1E15603927D8F3DBF9B1B7E9ED2"
+					"encrypted_size_2"		"40FD3A132CC5165E55D1BF1A2A373E3D"
+				}
+				"qa-release"
+				{
+					"encrypted_gid_2"		"343364C535B9A87B1DC4A7FEA0ECC3F6"
+					"encrypted_size_2"		"B65612CD8773AA67931326C5BFDF1D4D"
+				}
+				"safari-nocpk-dev"
+				{
+					"encrypted_gid_2"		"B5E604DD2F1F6E54D07772FAA97D8E5C"
+					"encrypted_size_2"		"BB5341DBE5408DB5704EF68C63DD6338"
+				}
+			}
+		}
+		"1018150"
+		{
+			"name"		"FULLMOON DLC1 (1018150) デポ"
+			"manifests"
+			{
+				"public"		"2325386072930785147"
+			}
+			"maxsize"		"17596576"
+			"dlcappid"		"1018150"
+		}
+		"1018151"
+		{
+			"name"		"FULLMOON DLC2 (1018151) デポ"
+			"manifests"
+			{
+				"public"		"5112559561575317915"
+			}
+			"maxsize"		"14256288"
+			"dlcappid"		"1018151"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4086069"
+				"timeupdated"		"1565307307"
+			}
+			"compat"
+			{
+				"buildid"		"3543828"
+				"description"		"compat testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549628597"
+			}
+			"dev-debug"
+			{
+				"buildid"		"4177919"
+				"description"		"Debug for dev"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567994522"
+			}
+			"dev-release"
+			{
+				"buildid"		"4177922"
+				"description"		"Release for Dev"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567994818"
+			}
+			"eac-debug"
+			{
+				"buildid"		"3589513"
+				"description"		"Debug for EAC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1551077026"
+			}
+			"eac-release"
+			{
+				"buildid"		"3589538"
+				"description"		"Release for EAC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550993160"
+			}
+			"mc_debug"
+			{
+				"buildid"		"4086082"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565254977"
+			}
+			"mc_production"
+			{
+				"buildid"		"3744543"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556095578"
+			}
+			"mc_release"
+			{
+				"buildid"		"4086069"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565254780"
+			}
+			"press"
+			{
+				"buildid"		"3660414"
+				"description"		"Press preview review builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554304741"
+			}
+			"qa-debug"
+			{
+				"buildid"		"4177919"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567996795"
+			}
+			"qa-release"
+			{
+				"buildid"		"4177922"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567996805"
+			}
+			"safari-nocpk-dev"
+			{
+				"buildid"		"3518576"
+				"description"		"safari nocpk application"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548926397"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"3000000"
+		"maxnumfiles"		"30"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"BANDAI NAMCO Entertainment/SUPER DRAGON BALL HEROES WORLD MISSION/Saved/SaveGames/{Steam3AccountID}/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

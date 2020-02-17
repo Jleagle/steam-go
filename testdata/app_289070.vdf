@@ -1,0 +1,3483 @@
+"appinfo"
+{
+	"appid"		"289070"
+	"common"
+	{
+		"name"		"Sid Meier's Civilization VI"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"356443a094f8e20ce21293039d7226eac3d3b4d9"
+		"logo_small"		"356443a094f8e20ce21293039d7226eac3d3b4d9_thumb"
+		"icon"		"9dc914132fec244adcede62fb8e7524a72a7398c"
+		"clienticon"		"c142bb71440effac911eb3c18e4ba775c9c8e7ef"
+		"clienttga"		"184febd3fc1163f7a12dce770fb9da65775feb7f"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"289070_eula_0"
+				"name"		"Sid Meier's Civilization VI EULA"
+				"url"		"http://store.steampowered.com//eula/289070_eula_0"
+			}
+		}
+		"clienticns"		"3366ec8498fdc0dfc2058fff019d366d3f1244da"
+		"osarch"		"64"
+		"linuxclienticon"		"f8d41bcb584d207f5f8f5f340d33696a90b8020b"
+		"metacritic_name"		"Sid Meier's Civilization VI"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1550120291"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Firaxis Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Aspyr (Mac)"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Aspyr (Linux)"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"2K"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Aspyr (Mac)"
+			}
+			"5"
+			{
+				"type"		"publisher"
+				"name"		"Aspyr (Linux)"
+			}
+			"6"
+			{
+				"type"		"franchise"
+				"name"		"Sid Meier's Civilization"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_33"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1477022400"
+		"metacritic_score"		"88"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sid-meiers-civilization-vi?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"289070"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1741"
+			"2"		"3987"
+			"3"		"3859"
+			"4"		"4182"
+			"5"		"1677"
+			"6"		"1670"
+			"7"		"4364"
+			"8"		"599"
+			"9"		"1678"
+			"10"		"1708"
+			"11"		"1756"
+			"12"		"1669"
+			"13"		"4328"
+			"14"		"3843"
+			"15"		"1685"
+			"16"		"12472"
+			"17"		"1643"
+			"18"		"1717"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Firaxis Games"
+		"publisher"		"2K"
+		"homepage"		"http://www.civilization.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/289070/"
+		"listofdlc"		"404350,512030,512031,512032,512033,512034,512035,521770,537570,597260,645400,645401,645402,947510"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sid Meier's Civilization VI"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Base/Binaries/Win64Steam/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI - Legacy"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"legacy"
+				}
+			}
+			"2"
+			{
+				"executable"		"Civ6.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Frankenstein"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"frankenstein"
+				}
+			}
+			"9"
+			{
+				"executable"		"LaunchPad/LaunchPad.exe"
+				"workingdir"		"LaunchPad"
+				"description"		"Sid Meier's Civilization VI - Launcher"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"10"
+			{
+				"executable"		"./Civ6"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"13"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"capture"
+				}
+			}
+			"17"
+			{
+				"executable"		"Base/Binaries/Win64Steam/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI (DX12) - Win10 v1607+"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"legacy"
+				}
+			}
+			"18"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"smoke"
+				}
+			}
+			"19"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"smoke"
+				}
+			}
+			"20"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"Marketing"
+				}
+			}
+			"21"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"Marketing"
+				}
+			}
+			"22"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"capture"
+				}
+			}
+			"23"
+			{
+				"executable"		"LaunchPad/LaunchPad.exe"
+				"arguments"		"--launchConfig Config/Civ6/config.bin"
+				"workingdir"		"LaunchPad"
+				"description"		"LaunchConfig"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ltest"
+				}
+			}
+			"24"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"preview"
+				}
+			}
+			"25"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"preview"
+				}
+			}
+			"26"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"agerating3"
+				}
+			}
+			"27"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"agerating3"
+				}
+			}
+			"28"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"streamer"
+				}
+			}
+			"29"
+			{
+				"executable"		"Base/Binaries/Win64Portcullis/CivilizationVI_DX12.exe"
+				"description"		"Sid Meier's Civilization VI Portcullis (DX12)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"streamer"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"770509247"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"workshopdepot"		"289070"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"289071"
+		{
+			"name"		"Madrid Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7879403184115543762"
+			}
+			"maxsize"		"8953076876"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"B4C15C37E9468FC8C947D04115E174B6"
+					"encrypted_size_2"		"4833973D4BCE40A2BE22AE89E4AC6F4C"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"42E58A36B9EA8F5D44CDA236460D8F76"
+					"encrypted_size_2"		"3A3BEB525E35B55FC2EED4802D0CC1F9"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"7DF34FE3E05EE7C9F3AD6E24ABD34AEE"
+					"encrypted_size_2"		"A8AE7B9DE28E366146C27D1848F8CF97"
+				}
+				"agerating2"
+				{
+					"encrypted_gid_2"		"A4273C7A57CFA84B7A49FB5BD4D58DE0"
+					"encrypted_size_2"		"D0EDD7E29F25CB5F07EA2D6AE03A6325"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"561968F8FFEE822A63EA96048AF095AC"
+					"encrypted_size_2"		"43BA55D9BA3FFB57B0E5CF5AA48E0230"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"AAA3A2A8F85F1C8B3A6A1D2E46557413"
+					"encrypted_size_2"		"B91CA3F5C642C6472F988C389E91ACD1"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"7407E7E6C5C53E35A76845AC280CD451"
+					"encrypted_size_2"		"BCB7747B12CBFDCEACC90C5D70C47979"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"1AA6B9C7DFF9ADC8E1363609EDEC700E"
+					"encrypted_size_2"		"82556BDAB74DECEDADCD1A56A82FA778"
+				}
+				"day0_donotmove"
+				{
+					"encrypted_gid_2"		"E4196E7E43007CDE9689B0717F094BC8"
+					"encrypted_size_2"		"894585C1CC04C0F0A51AF5FD9CF52664"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"3F3ABDDD4196F7A15DC8B358747B09C4"
+					"encrypted_size_2"		"646CD40AEF1A487DF901397919E6B17F"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"A359D1446CBF99F85C0D67E106189BE1"
+					"encrypted_size_2"		"B57CBF4FB2802FF4F4BA7357122F8623"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"E372DF74E907E101382DEF2B5F38F357"
+					"encrypted_size_2"		"D24F99DC337B436A86F56089A7251B60"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"58015BD9224A885562A6E50720B47230"
+					"encrypted_size_2"		"32EF278D256EE3EEF0BC787A2A3712E3"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"B939E4A2ABB1A41E5F2B0341A5100E61"
+					"encrypted_size_2"		"046755095CCEFB4B8FBD23E2C54BB363"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"082C5B2A7F1960AE57D9E1EAEE904010"
+					"encrypted_size_2"		"CBCE1A1B21346479B8AD7A8F4CC814F8"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"6234B661B30C1B7A6077F8074CEC0826"
+					"encrypted_size_2"		"201CBADDE5E3782E79C70980FB115195"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"44E0989944A871EE54E0C04C23C760CD"
+					"encrypted_size_2"		"5F8863DCE0738B13FC0AD66324265042"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"49DCB52898F8015BB4679EAAA2DDC037"
+					"encrypted_size_2"		"F8572DCC0E62C6FB70399CD5F53D9030"
+				}
+				"pdreview"
+				{
+					"encrypted_gid_2"		"0F1182F7195D50A02EF1BFB3938DC7F8"
+					"encrypted_size_2"		"D04DC33C50EF094881BD1C76E5F7A255"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"E3A35A746BD8190D6B28BF8B04A68D0D"
+					"encrypted_size_2"		"535DD41F09C541317F457F60D6D64B26"
+				}
+				"rtm_donotmove"
+				{
+					"encrypted_gid_2"		"87D48046172378806268395449E95169"
+					"encrypted_size_2"		"BBA22F1480B9A4E4B1DA077AEEAC13B0"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"9938EC24AAA9DC1FDDD99A4199C2684F"
+					"encrypted_size_2"		"0E3AC4F4EF456DC7ECFA0C93689FBED7"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"DCCA2D5E76056BE8069A8486B2597DB9"
+					"encrypted_size_2"		"4D85AFB40C22B460A342A174EE5157D5"
+				}
+			}
+		}
+		"289072"
+		{
+			"name"		"Madrid EXE"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"9032501351929347910"
+			}
+			"maxsize"		"77356063"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"1622AF51264C1C712C61A40CB64F4994"
+					"encrypted_size_2"		"020520D192327061D50E03AEA1B27A04"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"09E200510BBDFCE0762FA9348DEDFD9A"
+					"encrypted_size_2"		"FE9401A54E42F698749482CC00FD4748"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"ABAFD4C7C063C29357D48AB448244B16"
+					"encrypted_size_2"		"7D7B21899144CA0AC1BBD447FCC2A2F4"
+				}
+				"agerating2"
+				{
+					"encrypted_gid_2"		"B632CF98A3C8AF2232E8806D85548FF0"
+					"encrypted_size_2"		"AD5A3C1CF0704099CD481393EB64079B"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"7873F7901AD4DBDCFC2A2548E94FA86D"
+					"encrypted_size_2"		"05885AC245AF7D8D73A2ADD2924E37AA"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"C5E282748BAC036599C6E5D1B162800C"
+					"encrypted_size_2"		"8A5538CF5302C1486E298866D9AAECF4"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"E9A50BD6299725C3202518875D5351FF"
+					"encrypted_size_2"		"648EEB8C11F6BFAE6F74E0F77AC99E6F"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"BD8F56018D4F1F1C3B48450FA7EBD0A3"
+					"encrypted_size_2"		"1883D05EFDE260413989D326C50DEACB"
+				}
+				"day0_donotmove"
+				{
+					"encrypted_gid_2"		"2372CC69B9A6B6235ACACB4C9F16BD5E"
+					"encrypted_size_2"		"4A90112A41AE0F3FD642212D1D0CF612"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"985BF09F029F85079247A7D005059AA6"
+					"encrypted_size_2"		"F148DD8DEEA0B3730E38C8350E7F74BE"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"1AB1C0485A2255F60A70EB0462F0D1FC"
+					"encrypted_size_2"		"12CB7D5B6C16B7C83F022B74D8671DD5"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"D74F9092F97C6C33FEEFF80AA0C37E24"
+					"encrypted_size_2"		"F79864860D64A8D95967681E6F242F34"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"9A5071F5DB4A2B1E60C5FC46DFD79DC2"
+					"encrypted_size_2"		"D86CBE69F20A253CE258963799CA438F"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"55DFE8C3EB309F52D06FF13FF557AE1B"
+					"encrypted_size_2"		"2EFAB4F39F43C8FD6DA5E70AEF49D3E1"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"2BA5457D13CADB9B3B00858BB582444F"
+					"encrypted_size_2"		"9BE9D8E8DB33F57C55531C21BA00770A"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"ADE99D5BEAC9C29F4865280FC10929CE"
+					"encrypted_size_2"		"17BD944D1A7DE644629F49D1F02EFACA"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"08295A658182CB8F7790EA3845B7AF89"
+					"encrypted_size_2"		"28A78D167929965B79DF69289395DE19"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"395913E70AF6EAC5B2E815A8BF966D3A"
+					"encrypted_size_2"		"0E6B296D17497681CBA894F56B811CB1"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"55004B3F552A11383D7A1C3532F1D4CD"
+					"encrypted_size_2"		"7CFA634A13EDED72083F4CE1C90028E4"
+				}
+				"rtm_donotmove"
+				{
+					"encrypted_gid_2"		"F17B01DF10FA4D530DE0FE2C6F18A6F2"
+					"encrypted_size_2"		"4903C5B0E0B1BED9939B662177AEC56D"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"3BCC44CB80E2F38A7E86E3DF4098E583"
+					"encrypted_size_2"		"903B3E9D1CBA1AEFF0B240F76E0FDA86"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"CFA720DA1AFC7D1C8C1AE781CC483CDF"
+					"encrypted_size_2"		"5F2269CB54EE446E4DAC57A3CB78E0F4"
+				}
+			}
+		}
+		"289073"
+		{
+			"name"		"Madrid Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289074"
+		{
+			"name"		"Madrid German"
+			"config"
+			{
+				"language"		"german"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289075"
+		{
+			"name"		"Madrid French"
+			"config"
+			{
+				"language"		"french"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289076"
+		{
+			"name"		"Madrid Italian"
+			"config"
+			{
+				"language"		"italian"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289077"
+		{
+			"name"		"Madrid Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289078"
+		{
+			"name"		"Madrid Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289079"
+		{
+			"name"		"Madrid Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289080"
+		{
+			"name"		"Madrid Russian"
+			"config"
+			{
+				"language"		"russian"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289081"
+		{
+			"name"		"Madrid Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289082"
+		{
+			"name"		"Madrid Portuguese"
+			"config"
+			{
+				"language"		"brazilian"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"289083"
+		{
+			"name"		"Madrid Polish"
+			"config"
+			{
+				"language"		"polish"
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+		}
+		"512030"
+		{
+			"name"		"Aztec Pre-Order (512030) Depot"
+			"dlcappid"		"512030"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2354480822106252979"
+			}
+			"maxsize"		"27388"
+			"encryptedmanifests"
+			{
+				"agerating1"
+				{
+					"encrypted_gid_2"		"B57488D29AA3A00A0C460D7C43FEF2B4"
+					"encrypted_size_2"		"7D2FFF9CC9FCE010D450B7DB61950012"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"EFECE38C4EDEA4FED58C4D333EA2C152"
+					"encrypted_size_2"		"FE51EBDCA020F5EF73C8425325E2CB8E"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"8CEB4F54C1EF47C4958008EEC4BB7FBE"
+					"encrypted_size_2"		"D84FCE92A9147AA5EF615E84D11F6865"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"3CAA6E6C8912DF0C9B0820B8E479C69A"
+					"encrypted_size_2"		"28E45B10A5C713541C80F1672EEC4DC1"
+				}
+				"day0_donotmove"
+				{
+					"encrypted_gid_2"		"C70D02FC715AB5A422B1F0D78D95D6A9"
+					"encrypted_size_2"		"EAAD690283640F7A153DD845225AE3F2"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"B705603FB2026A984538A0EF93C6405F"
+					"encrypted_size_2"		"4CAA79BEF4FE32DE825975C74089F70D"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"55661494B9484563E944BB2F910C5BFE"
+					"encrypted_size_2"		"267BD4F62B2092C6E7A22BFC8586077B"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"3A18EBA152CFFF8556D956C893CE8FC0"
+					"encrypted_size_2"		"2F9BB8D53FA2C91CC46021F14B20FEAD"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"02CA97AE9331519697D15DB23F275604"
+					"encrypted_size_2"		"271E048B1B28BC6F56F64BC3BC4D5A10"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"7624FF581F19C04CCD918832EEE6E96A"
+					"encrypted_size_2"		"2A3E5C6C91C6F5F8DFB4169DE5A0FE6C"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"64529037EB842A75B8D89A2327D67A83"
+					"encrypted_size_2"		"5E941E60736C68F2C8B24D287061C278"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"B6716829F8998DB67FC6CD049B52348D"
+					"encrypted_size_2"		"593A8EA1842BFA28F4E5E5C19D66569D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"23D154C9147795073173D321E34F8E63"
+					"encrypted_size_2"		"F839D60723D06B8ACE78E17D99872ADF"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"AE5B9CC23EDF0DB916155C716418433B"
+					"encrypted_size_2"		"A98CA3C89B36E765FD07EFCB0B0AA722"
+				}
+				"rtm_donotmove"
+				{
+					"encrypted_gid_2"		"9C68F6F8F9C40C526275931D5208F9AD"
+					"encrypted_size_2"		"A1E00902EF53B675DBF5DBE1A61C3CBC"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"09547548F94525E371D626D4BC3C8280"
+					"encrypted_size_2"		"BC7294EF1527773D10759166C7709CB5"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"B9396C877366FB11A12327A0C1F864E9"
+					"encrypted_size_2"		"37A2FB0A81FCA05A69572751C69CE419"
+				}
+			}
+		}
+		"512032"
+		{
+			"name"		"Madrid DLC01 (512032) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"512032"
+			"manifests"
+			{
+				"public"		"7381156096788837434"
+			}
+			"maxsize"		"78555322"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"4311D36B009BE7E63986BA8FF1843151"
+					"encrypted_size_2"		"C949FEC4C7CEB8DFBD5EFA7B66F7349D"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"AC78E4F6BE659BBE45F070E6699C8EC4"
+					"encrypted_size_2"		"6052B2FA0A4C6F0CCE710F0240A3DA0A"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"A2252FB9ADE89ADBFE6F31B8C0875130"
+					"encrypted_size_2"		"D91B12D0EB7F414E2C6DAA40E9B03F6D"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"B015D21ECC3309D584804CA844EBD4DA"
+					"encrypted_size_2"		"3CCDB31CCA2CF5230C900A5383789A78"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"3D73C0CFD049AF296C5D53AE296D56E1"
+					"encrypted_size_2"		"03E607215581F858FC711F724ECBCB76"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"42DEFCF79D808561A3E412328C9EF5A6"
+					"encrypted_size_2"		"8F096774236F3EEC7F0A3C69CB61165D"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"F51703B910FC4C445F0DCBF0FF18ADC5"
+					"encrypted_size_2"		"C80572B9D7D00B12B23A1985E1A45AB0"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"F13BCEF9E8901C0606ACFE79C28F90C0"
+					"encrypted_size_2"		"1D82227C11F19540B960333FA1357B85"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"7F30C242C354FAFCA969EFFD55D22FE1"
+					"encrypted_size_2"		"0CD8A6C935AD0FD3FC682841BFBDEDB1"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"2E421D00569FCB33BCB160C754A6DE02"
+					"encrypted_size_2"		"DC46986098431A4F6FEE14988421DE28"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"95D92FD0672072DD2CCF7AFA9CD7BE6E"
+					"encrypted_size_2"		"6EAC02C04FFE784977FDE6CB05D3F3E4"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"A324C740287F8CD1F4CD6BA292D68D17"
+					"encrypted_size_2"		"3D978751255941A1231C4E2DB566FE63"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"F3C287CFC08BF2E23508D14D2B7E083C"
+					"encrypted_size_2"		"28F01018A5F584C3B71AAB0DCFB777D8"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"D411312C1D0D60E35DF737762B4B315A"
+					"encrypted_size_2"		"894B7E31E2AAFB4FF705E347878544EB"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"63FDB2603E023BCD04E3FBA8230E4D79"
+					"encrypted_size_2"		"1637F720111476A8DED2814E4DA0DD3E"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"C24C90DD96793E4B5C63DE7EE63FA91E"
+					"encrypted_size_2"		"371A8D00CDF550FF31D4B27B2971F8E6"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"EA17EF4BA91E50D7562C5CC6E457E50A"
+					"encrypted_size_2"		"6D3FA0669DD7D6DEF6889B44B2CB4984"
+				}
+			}
+		}
+		"512033"
+		{
+			"name"		"Madrid DLC02 (512033) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"512033"
+			"manifests"
+			{
+				"public"		"5014248595070724905"
+			}
+			"maxsize"		"45934438"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"582D37F42E955AF114693EEA89BC1546"
+					"encrypted_size_2"		"BA918E1BE84F317DEE47550837FBD5E5"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"CCB2B552FEBD5CA0AD7B4607AE6E6A39"
+					"encrypted_size_2"		"26ABFBA835E3C21A958928754C7FD90E"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"93FD827BA51E2CE18967D1867D0E0FD0"
+					"encrypted_size_2"		"728CC23E3D265D32CFB964079310DFB9"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"89F1BC6F9BF16F186C7E55E8FF7FFE83"
+					"encrypted_size_2"		"54A06F1ED11F4339B8B3436E693BD4B8"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"E8BD6DE8B139E4B89BBD5E2D9505A0A4"
+					"encrypted_size_2"		"BC222A772C16AB845B5A0CB8DC1EBE14"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"15CCDDD0FB605F2FF4FDB3611AE303BB"
+					"encrypted_size_2"		"A88D66F40D9F3EAC76B3A2B0857B476E"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"66CF1190F85E36A1AD52E31C6973E4C4"
+					"encrypted_size_2"		"C5CF6086B2574ECCBFCF16ABDDEF0576"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"BFE820CDC62EDD8E4E1D8A6857CBD6BC"
+					"encrypted_size_2"		"15CDDBB7A01C3F12B293DAB69ECA2CDD"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"A983608ACF3F97AEE853112BEFBE70D3"
+					"encrypted_size_2"		"370C1367F90E785C995F272CF6C685B5"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"0A2EEBAAF92F4F510F620ED35CF6BE7D"
+					"encrypted_size_2"		"A52A1B69A27D4208F0395D82E3107130"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"6EE054EA4BC7BE9C11EB9E6AF6F1205E"
+					"encrypted_size_2"		"12E820EC5752E06952D55A602672E2C1"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"4AD02893D18531615EB474FEEAD4FEBE"
+					"encrypted_size_2"		"E68D1204CCCB33B2C7370AEE9A4BC4FC"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"DB1D21A634E3655C5A9E2ADED2951619"
+					"encrypted_size_2"		"D6E74136D875EE185594169D1C2ABC07"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"381183B8128D77A8DB645CDAF06EE8AE"
+					"encrypted_size_2"		"BCDF91B7DC9776750D187A48076F8170"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"65EE437F58FF4206A691E1E1D8C108F0"
+					"encrypted_size_2"		"ED9C3A1B151EEFF82873D5D28C56BBD0"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"E2A8667AF6A80E3AB383CE98D1F67ECD"
+					"encrypted_size_2"		"FC04D6A64D75977112F59F07686D5494"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"08A3725AF40598251A74CA5FCD87E14C"
+					"encrypted_size_2"		"230C8647578E899F5176516D749EC2D1"
+				}
+			}
+		}
+		"512034"
+		{
+			"name"		"Madrid DLC03 (512034) Depot"
+			"dlcappid"		"512034"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7852530074844006359"
+			}
+			"maxsize"		"44227577"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"14296320F87F21EDFA9B4F8E75DA7481"
+					"encrypted_size_2"		"89B6DBE1A0A21543E94BEEBC0A4A0A8A"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"84C3F5AA40DDD5BFBCAA21AFA4E91794"
+					"encrypted_size_2"		"757FE9CC99897CEF45B0BECE351494F3"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"269AA437BF4E1CFAD5913163513F06A7"
+					"encrypted_size_2"		"A41ADC48EBC64214CE36F95E72A5411C"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"5D8A018BC4D1B194A030EC9A459EEF17"
+					"encrypted_size_2"		"87141922AFA5667F2F75F90413B59CCE"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"28D7A4BB905368D40D0A308465C4EB24"
+					"encrypted_size_2"		"74B87425030982C21E83C00F91CC3B6E"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"5F96A9BE8C9DB2B921430CBF5BBE5D30"
+					"encrypted_size_2"		"35D26A4E5BF0A10F0B819BEE4E6012B2"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"C211FD7505D3D6FCC4687170E412CF2C"
+					"encrypted_size_2"		"AAAF6386FC97E2F577352F90AFDC4EBF"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"97DC0A82A70A9F0E91287F4E29AD2501"
+					"encrypted_size_2"		"CD3897BE0B87F2DF790956068D78E70C"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"AEBA0F05F77E9C5150D606B86A900007"
+					"encrypted_size_2"		"0228F41FF589BBFCADCBF97819AA7F55"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"597C75E96D59E2D62673E0E12250308A"
+					"encrypted_size_2"		"DE26C71FC2ACC39081061C74F3CF1C21"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"E9B7D9967818FF6E8C9B307DAE044677"
+					"encrypted_size_2"		"EEE1FF7DD2BE6053C17642AA19C2ABB8"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"4BA36D6222F78AFF51E7175F1CC2DA98"
+					"encrypted_size_2"		"4AE8CC5E625D9C3695DB2D4F11ED4040"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"A062F20ABB005CAF6008B2785F7D3D1D"
+					"encrypted_size_2"		"4BB3A756A06112AACCAAF5AB7BDA4FAF"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"A3CC5091507C4B0484767E7071956830"
+					"encrypted_size_2"		"E0F3097412F064D64A8B3AB0E3E24744"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"3E52F098C2F874855B1DD8B6EFBA5760"
+					"encrypted_size_2"		"0A07BAADCDD927CB5B29158871D49E79"
+				}
+			}
+		}
+		"512035"
+		{
+			"name"		"Madrid DLC04 (512035) Depot"
+			"dlcappid"		"512035"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4238058998129989262"
+			}
+			"maxsize"		"3072700"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"B94450EF6BA6CAFD0B5F60FC865F3F3E"
+					"encrypted_size_2"		"EF8BBE5270BBF9EB1F74B1A5FB25AFB6"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"E997401D8931107C3F973AE776D042D4"
+					"encrypted_size_2"		"70C4DA179848CB1377D601A033E9D669"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"C89E3FD1E3EDEF2E2D67B28EB8D6B87B"
+					"encrypted_size_2"		"C482955BC84F81F9312D84C7026855CE"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"89E276C74F37D2FEAE13E6F85D510E34"
+					"encrypted_size_2"		"CBC0A96DE681F2B727F471A8372A04DE"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"877C0F1095ADBB43E6DAFE13A2608883"
+					"encrypted_size_2"		"37433DFF6C286898B2C8011A03A29896"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"363EE5A59C8D60391D25480E94717B39"
+					"encrypted_size_2"		"CD9E9F358FCC3C0B24870B36F63C77D6"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"974826046C9050029FE1BFFDF80B6918"
+					"encrypted_size_2"		"591DB61710876BBBCFF47CF1031E1D19"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"B03C75CD441D7DA1CFD2276EED7A0FE6"
+					"encrypted_size_2"		"0ABCC787A9712E393A26FE129E486B54"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"F6DBACA80DDB2D2FDE46D9DB429CF831"
+					"encrypted_size_2"		"9E3DFF6B40176882D63E06DB11B7FE80"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"CBC21CE6DA365AAAD94A5A68E68968CE"
+					"encrypted_size_2"		"CD69A42F735547025E5C79F22D2119DE"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"B3B5963834314AF3EE53A9244162670A"
+					"encrypted_size_2"		"E0E8B29DF46CA9D30DC40C38B750A42A"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"B470B9E12C366A88ABDF634150712BEA"
+					"encrypted_size_2"		"64CA2FB1C100A3BB65EBC943761F1BD0"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"E5B22455ECFF402BA940AD5F98BE6310"
+					"encrypted_size_2"		"8740473770738F0776130E3639394D68"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"29DF2290F7BB73F9D7ADEA8A692B049E"
+					"encrypted_size_2"		"06641044BE3287EDE5C6FE9C701985B9"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"E4076C6F910EE6269C4FC60DBAAD470E"
+					"encrypted_size_2"		"F3A6FAB8AFC3DBCC38A99B3FCD418144"
+				}
+			}
+		}
+		"645400"
+		{
+			"name"		"Madrid DLC05 (645400) Depot"
+			"dlcappid"		"645400"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2198285603680202691"
+			}
+			"maxsize"		"58385724"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"4AB390885B330F303F35413356028F51"
+					"encrypted_size_2"		"0AA52EED0810BAB0239150261CB6391D"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"1EE7A667135E17310AE6D06D567F9675"
+					"encrypted_size_2"		"F27DB6C9BF1F8D5693AEEE46DC43F0DF"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"E999C1D0FDD7418EB317B423B36F1C5B"
+					"encrypted_size_2"		"2A2677DDD1300D7B6F4E8EEBA7BBCA3B"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"166FA955713D3472CCEEFD5468DB15DB"
+					"encrypted_size_2"		"B5ACCF66F6734751BA5D14CA7D05B79A"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"4ABE4CC818E729B0CDA03B21EC0D1003"
+					"encrypted_size_2"		"66DBC85318121A21E0C5E691A1AE7FCE"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"CF03D1C65F82AE1EE6270D7E9B42E250"
+					"encrypted_size_2"		"AD8E2D43267E78F9B60F535E5BF96F25"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"AD2127B4621662DFEA600E1CCACB0D8F"
+					"encrypted_size_2"		"FEC9F7399B8EE5A79012929BCEE85792"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"29CF191B07A99D440A55EA3218823C3B"
+					"encrypted_size_2"		"99510C3D4C2A26FC383CF5AD907331D8"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"45742130146761D29442DE16DEEA649A"
+					"encrypted_size_2"		"C318861BECAFC8900A2399E24F4C9A44"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"302D57EB57E989A6E82EBF155CA84F76"
+					"encrypted_size_2"		"7077026525C669F23711C10719234133"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"6AB23825D6F03F03206EB2588C4C920A"
+					"encrypted_size_2"		"3022380BD47CFF5F4EB3E0D8AA7386C7"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"8D7F6508B93FBCA2743483B82F84AA13"
+					"encrypted_size_2"		"DE15595F18C64079D8BAA78E019BD6F6"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"D3F84B68820C4BC23AAA7117533110F9"
+					"encrypted_size_2"		"C7F866B81FFADC109F243A5CE2C281E3"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"E13D707A4AFDF31812A3A7D8E180C837"
+					"encrypted_size_2"		"0380F6A764338EC34A84B75795C72401"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"5A6312B8067F9F90047E5D3AA870D061"
+					"encrypted_size_2"		"17E9B21607AC5981077A92A546DC55A0"
+				}
+			}
+		}
+		"645401"
+		{
+			"name"		"Madrid DLC06 (645401) Depot"
+			"dlcappid"		"645401"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2615905522911956232"
+			}
+			"maxsize"		"174902898"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"796C532B7E48812E0F15B8A18D196A3E"
+					"encrypted_size_2"		"E07123963CBF39ED9E3EE9F7EF63A709"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"24E7C4EF7AC957AE6921C98D91840E2A"
+					"encrypted_size_2"		"000608BC8E94709FE55A718E04BA3A7D"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"4C42F978ECBEB5AB1FF2470ED1B64347"
+					"encrypted_size_2"		"CBF5E8CDF4A2823A62C5FAB4AD01EF8D"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"B355473748494F8A90207BE97B1630D4"
+					"encrypted_size_2"		"5B85CFCBB62CED4A1FADC88EDBF17801"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"A656CBB613A6AFE19614118D3223E571"
+					"encrypted_size_2"		"D73592EC5D6164E22A54A7FF7149A404"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"3489B27A82A8CAD9909316173E0C482C"
+					"encrypted_size_2"		"302879634284114FAA5E938EF0DB8B32"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"D68719D396719ADEBBC3891BB2219F22"
+					"encrypted_size_2"		"5C3861840615B27562B266D71B5BF0C4"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"86DFC6A862A76265D7513CD7CC4321FF"
+					"encrypted_size_2"		"DB42FF6258D41ADF7E4D68BEA5CCE69B"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"AE03DF66D8F641BA7705B3D5375DC79D"
+					"encrypted_size_2"		"B8FC9A76BAF4EBFA892EA5498BDBD6B7"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"E9C3A3799FA3267F87018048904C2159"
+					"encrypted_size_2"		"96EB37A5B70BAB7607540D010203B356"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"8732E7BDAB9DC2E163044C8028A86F12"
+					"encrypted_size_2"		"5196E7A4847E9934B2AB7B098C8B35B2"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"2AF0051BD43EEF79A7A45049C687CA14"
+					"encrypted_size_2"		"2BF89A75B50FAA84C76BDE644987B3BF"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"CFBE1AAFDC06049029C7A42695246D8B"
+					"encrypted_size_2"		"C459053FB682A05DB66A80A6E10974C1"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"0E8DAD08BE03913495D7D38941C8536A"
+					"encrypted_size_2"		"2A2D015CE5381C5962F7A18B50ED7E15"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"938E601989D5FF799030AB703C323A61"
+					"encrypted_size_2"		"BE823470B26C9BA81DBDAF39E89ED1AC"
+				}
+			}
+		}
+		"645402"
+		{
+			"name"		"Civ GH (645402) Depot"
+			"dlcappid"		"645402"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3143199226407481313"
+			}
+			"maxsize"		"2977334353"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"100726ED82FA27C90E851291C24D63C6"
+					"encrypted_size_2"		"97F42E12CD67AE19913A14F3581C3C15"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"3F94A166F90C37DBAA7342C54DA50F70"
+					"encrypted_size_2"		"86371EEE5D382EB328694CEED161E4A3"
+				}
+				"agerating1"
+				{
+					"encrypted_gid_2"		"5395D875AE5CA3F9203E4303C1FAA02C"
+					"encrypted_size_2"		"9C5F4D48880D09A11959DB2399594DBD"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"ACE22C9BCFAB68720D6C3780F93E8487"
+					"encrypted_size_2"		"E88282EE2F092519F785075D3B90848E"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"D320282580009F98025D58461FA49D18"
+					"encrypted_size_2"		"9E105821D2856B40704D594E47395278"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"620B324FA18A96B9A09786E9CC1D72F6"
+					"encrypted_size_2"		"83CF510272178973B0B085D8C346A447"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"790D2E2641C083BC33BCAD304CE5A37F"
+					"encrypted_size_2"		"B07C2512806020E8A933DEE2F19142CE"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"A9B6569B8A63F4A77913029910146788"
+					"encrypted_size_2"		"907F4D5E546B69F0B583A8BF91D9B801"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"A04E5B70A2EAC49C884D0B7DF11D0551"
+					"encrypted_size_2"		"A7E305E92FE961CB03A8DC6E164CCD96"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"7DD8FCFD66E7C1D337A30C1A4E4F3AE6"
+					"encrypted_size_2"		"948889D38F0FD4A83399D2204A03600F"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"8A1AF134578DB7112F2ED9548F6820B2"
+					"encrypted_size_2"		"73D4F872F5ECCCED1FB20713902A1597"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"57DB472AAD5AF9C5CAA21FC9243E4D23"
+					"encrypted_size_2"		"6F2E4E0AC3D121A2DB259CD855B11CC7"
+				}
+				"pdreview"
+				{
+					"encrypted_gid_2"		"97FA368C02341718EDE90475FCF218F3"
+					"encrypted_size_2"		"C32C7BA6C8C2803C22FA553C63DCB2FF"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"BF24C3F14D1A361D6F448CAA40087B2D"
+					"encrypted_size_2"		"F48053F6E37DD17728EED43A115FE7FB"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"4296A60E52DD01E1646D29AF19506202"
+					"encrypted_size_2"		"9B8280E666CC288855959884A5E5C34D"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"2F5B1C0D425E0FB751448D15A5C95E66"
+					"encrypted_size_2"		"69B198215E978125576AFED7F8BB1185"
+				}
+			}
+		}
+		"947510"
+		{
+			"name"		"DepotTest (947510) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"947510"
+			"manifests"
+			{
+				"public"		"1759304393920821739"
+			}
+			"maxsize"		"3739805187"
+			"encryptedmanifests"
+			{
+				"2kqa_a"
+				{
+					"encrypted_gid_2"		"C7FE04F023063D2A4A17AAC98B89EE70"
+					"encrypted_size_2"		"6AA489394FC8C8713AB5F247A9F4797F"
+				}
+				"2kqa_b"
+				{
+					"encrypted_gid_2"		"30AB4487B77361B251702A314E057EBE"
+					"encrypted_size_2"		"73024C62C9CADCD4A5D51228912F6B68"
+				}
+				"agerating3"
+				{
+					"encrypted_gid_2"		"8CAB63385DB9C9F7924BB5E9DA4E04E3"
+					"encrypted_size_2"		"3940C9C4467D14B5B6A362FC96F4581A"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"D93460532A37C2504652F17C85E5DF4C"
+					"encrypted_size_2"		"1FFAE7D2FBC2CAE2439B59B8CE9B0AE4"
+				}
+				"capture"
+				{
+					"encrypted_gid_2"		"B1C66DC8A92540C493F04B270EF6D7C6"
+					"encrypted_size_2"		"3A2D653CC38AA85F656A21953F225786"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"4E86A8FA7539A5B73D5D26B9EA971AEC"
+					"encrypted_size_2"		"048D1829CF1E2CD85CBDA0F246FFA979"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"1C6700ED3A2F2FB9DBDE75115B13AD80"
+					"encrypted_size_2"		"962B56F9D8471EB33B8A5BA6FF422E2F"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"8EDCA5ABA4A92BF0B774696D922B57FD"
+					"encrypted_size_2"		"3BF28007DA54FBD0F2D0FDE93236443C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"BFFC42CB589EFB18694B7DC7AFD98A08"
+					"encrypted_size_2"		"84E5E004C90C716AE1220CE6BECCCC81"
+				}
+				"pdreview"
+				{
+					"encrypted_gid_2"		"DE72E86FFB45BA2E0993CE1F22CEBCA9"
+					"encrypted_size_2"		"595D305AD1D9546BCF04629870970A72"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"C8A4DFF38B17384F6D96C86353F6F3F2"
+					"encrypted_size_2"		"197409C7CA85C2ACDA13F5507475D91F"
+				}
+				"smoke"
+				{
+					"encrypted_gid_2"		"556E3880C0AF37DBEE0FAA1F0FAFC0F9"
+					"encrypted_size_2"		"C533042C0195077FBC5287820C53CC5E"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"5200E1B7065D31F881E80EEF3C127E2D"
+					"encrypted_size_2"		"2637518D90C876A1A07183CC006C9368"
+				}
+			}
+		}
+		"512031"
+		{
+			"name"		"Madrid Soundtrack (512031) Depot"
+			"dlcappid"		"512031"
+			"manifests"
+			{
+				"public"		"935919882264911440"
+			}
+			"maxsize"		"1086447819"
+			"encryptedmanifests"
+			{
+				"day0_donotmove"
+				{
+					"encrypted_gid_2"		"81BB61C08D686D7B51A07428E829AE6B"
+					"encrypted_size_2"		"489164B631AB4F9934E2A6FE0B82EECE"
+				}
+				"rtm_donotmove"
+				{
+					"encrypted_gid_2"		"36B2679AF9CDEA42E45D20D7A0F4CBC1"
+					"encrypted_size_2"		"D0C21F6D5BF5ABCE7CC338F42A4813F0"
+				}
+			}
+		}
+		"533500"
+		{
+			"name"		"Mac Madrid Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2884396632735401863"
+			}
+			"maxsize"		"159070781"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"E54BB2D6A88F191CA9937DF779460E0D"
+					"encrypted_size_2"		"4F30815B5C091D8E012CD53493013F71"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"285E289CBA30904BCF9F59F01E0720B8"
+					"encrypted_size_2"		"6AE586A5D393767B2497ED4766309DA7"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"AEDE3EF6CA0D14559526E0E338C7E32E"
+					"encrypted_size_2"		"2C3A2F2AA3CDCDFD4EAEA0CF9B2003CE"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"91262505324C561EA7119703CC32D501"
+					"encrypted_size_2"		"370C1E661B77EB6DD18FF02B448797C6"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"9CD2F61CEF104AA476CADD3E78C569E3"
+					"encrypted_size_2"		"E70DE979ECBCEAA4455AC2DEA211503D"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"ABEC8D3156EBD02097A54424944C18B2"
+					"encrypted_size_2"		"CC60FABCA546C243D6BEE86C1BFE7E30"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"6F1BFAE33065820DC9D785E7FCC2308F"
+					"encrypted_size_2"		"97EFE385A294187ADF3D7A3F96743B9F"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"B1C934FEA6BD47D5D9E66D7062E74E15"
+					"encrypted_size_2"		"06E09B219840BEBB60D41228C26F5309"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"BA92D4A675B4FE3F7EC5F42E58B21AB2"
+					"encrypted_size_2"		"F2566440DA54F1029A9D638552664851"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"127D1F11E52E117D99C762DDF0822F6D"
+					"encrypted_size_2"		"5B36A0AABD7C645162764FFBCBA867C3"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"26DB98A57CBA8D5480E8BD3179D198B3"
+					"encrypted_size_2"		"36EFA35A2CF4C5E7143530EB52464685"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"948F7A2E317D14F3DBC255364EAD5F7E"
+					"encrypted_size_2"		"9397716D6E3309C2BC8FA07B30FF957E"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"8586CF6190CA31BC8005D88D0A94E94F"
+					"encrypted_size_2"		"FF0B7EA4691F8FCDA854A203B0316F7D"
+				}
+			}
+		}
+		"533501"
+		{
+			"name"		"Mac Madrid EXE"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3778136895684794477"
+			}
+			"maxsize"		"9225828253"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"76A69BD52E89C21E848BABCF8CC934E3"
+					"encrypted_size_2"		"4FD6594DB0EDF63A44D64941EFF6BBCC"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"A98E1942F64EC9C120EB672229E27FA0"
+					"encrypted_size_2"		"D8E96D17BB54648047538DBEE442BAF4"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"3118A3156CE2E2BCBD94BDF393650056"
+					"encrypted_size_2"		"D611C9C37C57E7BA466525F21A9E0BE8"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"DAB5520AC19E180B61C8EE9D8454EAE3"
+					"encrypted_size_2"		"057753FB1338C0E723E7E54B550C1175"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"ED7828896A3D1BDC897D47DA585EFD7C"
+					"encrypted_size_2"		"EA2E42AC1952953E1D922580E959B390"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"3EB07ACAF502D0F4ACD7298CC22AC636"
+					"encrypted_size_2"		"7CF6F6515AE839E0B2A336EBB7189567"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"A1BA7046D3977871FD623CD75FA74B85"
+					"encrypted_size_2"		"1514914A0377A59D17E5F2D34C1221E8"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"FCDA82C3F375EB8EC015D6E18596EE89"
+					"encrypted_size_2"		"19218A1209DE4DC165C6E6B86689A1C3"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"7AF1F34F972DEA5FF3548168FF13E069"
+					"encrypted_size_2"		"54EF762742BE4E75D5CB252C6D55162D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"0F1E277E6772720B1C8DADFE4604B49D"
+					"encrypted_size_2"		"AC89C7729F8EBBCD997095BF8F570876"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"1928E3F443D33B8BE4C20162ED5E0577"
+					"encrypted_size_2"		"3E639B90ED1293CE819138E995493843"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"EEB525352B3DC16640B3D9B08004E657"
+					"encrypted_size_2"		"D12A04D5E361DA060F8D25AF3F459506"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"09D113CFF05D981E6F7F378827F71750"
+					"encrypted_size_2"		"A2550CA99683E24536A5DAAD5FD9C205"
+				}
+			}
+		}
+		"533513"
+		{
+			"name"		"Mac Pre-Order DLC Aztec Civ Pack"
+			"dlcappid"		"512030"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5719812537943575405"
+			}
+			"maxsize"		"29554"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"80A0CC27B5EE824732CBDAA497B61EF9"
+					"encrypted_size_2"		"FB9188B9FA6F6965A9B32C8BA46A68DB"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"B7E19ADCBE5F7DBED299E3D6191CFF4E"
+					"encrypted_size_2"		"64116DF4B770EA782E5B4DD2B91853E2"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"F77408E51130BD84482FD4CF9590D911"
+					"encrypted_size_2"		"832B786ED157F9E4E4F04C03192C3614"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"CD5C0265CD6D1C761AD12C9091AAB858"
+					"encrypted_size_2"		"3BCB8F2D3863AC12F0E298F2F286EEDC"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"0DBD570F1F9D32B8AB580A31849BA91C"
+					"encrypted_size_2"		"6BB1383D6C55E5C832C7CFBEB6ED4935"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"AC87E3BF07FB7526A2582524BB593ED0"
+					"encrypted_size_2"		"65F18FC802831265F0C5BD1460EAEA88"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"F2EB4245AAE0AB4E5212F49ECD5C2A5D"
+					"encrypted_size_2"		"B5839844D35A0EDFBD87C066BEC0112D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"0B34296CB7C7FD1A73D01230DEABAE92"
+					"encrypted_size_2"		"8C133581C2889376ADF31F30CDA71B8D"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"43815D958BCBBBBD8DD39DD19497847A"
+					"encrypted_size_2"		"322D0353BF65EA588ED64723CF0CEF2A"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"569DEF83B05588F4EB11482F8173B7FA"
+					"encrypted_size_2"		"AA97EDA2B5700D7719808DDE3686C583"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"3CD29A0A7C9DD383617B9515357B6E4C"
+					"encrypted_size_2"		"062A40B7C9F6D864681F41A010E3ED7D"
+				}
+			}
+		}
+		"533514"
+		{
+			"name"		"Mac Madrid DLC01"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"512032"
+			"manifests"
+			{
+				"public"		"5210526430865005127"
+			}
+			"maxsize"		"78528137"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"0F8A1EC6F48F8E6254246C10F00306B1"
+					"encrypted_size_2"		"3EA19F5F964E816C2053431093FED5AF"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"50D475C4D8EEE74393F41E39EE148556"
+					"encrypted_size_2"		"2E527E2E2CAD2356F3A63B2A8586C5F1"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"DB5FCF94382A106134239BA3B993A078"
+					"encrypted_size_2"		"79711A6F19B571BCF2950D391C445690"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"70B6DDF4E5046F356A548D62109A7A7A"
+					"encrypted_size_2"		"A784AC5F70F49524EF98B7CD25E94E31"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"5985DB40E6432A6C645442F05AF52430"
+					"encrypted_size_2"		"E69BC7513B4EE932A0416617E03CBCDB"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"98BBE8DC19D2E5AE8C65F264B9CBEFF2"
+					"encrypted_size_2"		"B1E7A8CE0E3BE5BC72F6C6EBBE26EEF6"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"E6F75AFFA7648DDDCA3F00ABC4E4C907"
+					"encrypted_size_2"		"D5EDF3D028E3DA4C7C4ECF6E841EF901"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"3BBE760155AFDE90A840585C3D0E53A6"
+					"encrypted_size_2"		"BAC37FE6081D4866608507A672E6A33D"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"7A61A9A8D2660D784F214D4CCEAEF1CF"
+					"encrypted_size_2"		"E52612649B363821BAC6E78713E0CD8C"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"1CE91702DC2E50831BDBAFED1632FBAF"
+					"encrypted_size_2"		"777563D0CAE9BA8E4828FA7603822E1E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"2C8881EC94AC5752DBA165CCA1B2C4DD"
+					"encrypted_size_2"		"96C4192BD70783D307D13FC486EEA16D"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"EC5995102FE212A11144931038FE4A43"
+					"encrypted_size_2"		"0187D02A7072CA12A4ABB8F95B8E60F3"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"9870F512CC1295B58246C9A77C2E767C"
+					"encrypted_size_2"		"82BBC80D55AB5476952EA18106596C2A"
+				}
+			}
+		}
+		"533515"
+		{
+			"name"		"Mac Madrid DLC02"
+			"dlcappid"		"512033"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5131790438784711629"
+			}
+			"maxsize"		"45915710"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"6590A1789378F1E99CEB8F577BE54F0B"
+					"encrypted_size_2"		"3C5816858268CA1006D8FC3CF7463015"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"AB2443D3525325E91AB3F62DF4A3BA34"
+					"encrypted_size_2"		"24ED43F6AB0B4499C811155855913C18"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"C0E0B8FA8B1031A08A0C8E19DD9B5492"
+					"encrypted_size_2"		"CE1D21F9951EBB73C60083BDAD1A5D46"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"BFF5AF50FBFAFD15B78075A0CD7A5347"
+					"encrypted_size_2"		"3E5DD904ADFEDA48AFEBEB9E2793747F"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"5CB119258C4506489FAE522BDDD7BDA4"
+					"encrypted_size_2"		"8CBA74FFAFAB53B9AC68D6C3AB71499C"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"3EA947AD7656D08300BC85C23707114A"
+					"encrypted_size_2"		"13F39EC27AC987BCFAFCC667CA86747A"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"59DA906943E8A9012E797C40747FB6FA"
+					"encrypted_size_2"		"49D808B4875E89C1000ACDD0D9684F4A"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"94EC2ADCF30589E6ED62EF8D07DB2CE1"
+					"encrypted_size_2"		"AD7932F4CDAAB74B8175C44E51768E68"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"644F1BF832A44A9EE326C2F8119B4E4A"
+					"encrypted_size_2"		"142E5804BFEE72F4A4CF8A33DE03A87E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"8837CAF23AFE17ABE4869268F10BE5BD"
+					"encrypted_size_2"		"E299E2661CE9666FA498C599AFEDD295"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"E5B335F92FF294B2F7332CEC66943E4F"
+					"encrypted_size_2"		"5D3B9197E4DE3F2CD5E6617624BFC3ED"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"69E8402773E13D468968A7ED5660E501"
+					"encrypted_size_2"		"CEB2FFFBC979115A83B35B23CFF284DA"
+				}
+			}
+		}
+		"533516"
+		{
+			"name"		"Mac Madrid DLC03"
+			"dlcappid"		"512034"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3912745375856139403"
+			}
+			"maxsize"		"44198379"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"E7AB59D4BA6AAB7D44FE08DFC1A02E10"
+					"encrypted_size_2"		"983A1C4A11CEF67CE51F9CBB4B5CFE49"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"CA23F5B841C6678B4165AE16358AAE6C"
+					"encrypted_size_2"		"305895FC77142BB9DDD7D0A15C45517C"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"861B9CE0252E7AAC011216B169AC82DE"
+					"encrypted_size_2"		"24014A3F93922B9B88235A0361B18DA1"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"E5478E0BBD908003CC073DE49F5625E2"
+					"encrypted_size_2"		"F4EB3594F2338B6DF2BD0F0C18EA9C61"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"EF453BC2FA0B9B8614B5E9F319C12479"
+					"encrypted_size_2"		"9A1DD976BE13B73145EA90DC1FDD7A46"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"27A9DA5A1DD615E20ACEDBA05E8BDD9F"
+					"encrypted_size_2"		"8BDF0C54398150F513EE1FAEBB4676E5"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"FC0BD044B4189381B7F7429E0A43E487"
+					"encrypted_size_2"		"53F1FCD26BB08EAAD3449E9C2789877C"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"0CB21C86196ABA2E6B83709A2761A1CE"
+					"encrypted_size_2"		"41541FB8BFDF22063D547AF56D460307"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"085E740D78867B30089C29600BE99AF5"
+					"encrypted_size_2"		"84C4A6AE396BD135C6F61CB57B074A3F"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"F0DBAB7CAE7CB7D4AFFC225FB70749CF"
+					"encrypted_size_2"		"16098C14B7EE8E5B9399077A40F47890"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"EB6D72E108976FFC99787A46638B12E5"
+					"encrypted_size_2"		"4CF31CD4EFDABD08A078FB9A2186D64E"
+				}
+			}
+		}
+		"533517"
+		{
+			"name"		"Mac Madrid DLC04"
+			"dlcappid"		"512035"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6807597028993690619"
+			}
+			"maxsize"		"3062050"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"9EEDDF562F4CF8B9F3110B6BDCCBA355"
+					"encrypted_size_2"		"929BE85A444ECA63F4067A7D838111DF"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"712649B68F41A8BFE35574603F6D5245"
+					"encrypted_size_2"		"D8B387F33470B2E05A7FBD7552ACE52A"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"0FF97ED4B876B7D6FE4243B0FB3D5F3E"
+					"encrypted_size_2"		"B0C8B3C9FD16BB249F4C67694FE02BFB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"DE9D55F83922EA0FEDD0F3BE59715F69"
+					"encrypted_size_2"		"099430F0A18679CA12D9195BF0E000E1"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"19D4F00E0333857D0DC135220F92D87A"
+					"encrypted_size_2"		"32CC4E1D7574733D548DE55149AE5A5E"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"7C06B6F266715F6A95BE579A8D2700A2"
+					"encrypted_size_2"		"82C9A111CC5F6B6F59072365C6891F21"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"1A6234D5D42603811E52639DF5A75579"
+					"encrypted_size_2"		"0C860964F7DE91D727C2DAF2F98A3406"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"DB78AC0B6B1E45F61EFA165F4810FC8F"
+					"encrypted_size_2"		"95C4365746AC1C5B20330EEC0190EE3C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"01A8F023F59DF9B9CF330C81F027A5F7"
+					"encrypted_size_2"		"76A52D24463D79E14F80D18C6A96FB01"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"406A56C9D8D7C401CFBAD437570C74EA"
+					"encrypted_size_2"		"D1E4959F5C7CFBAE20B15535B69924D1"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"5ACFBC6F66B587B35A6B3A002204AF3D"
+					"encrypted_size_2"		"E9E19CF9CBD8A984B90F937B43F4DECB"
+				}
+			}
+		}
+		"533518"
+		{
+			"name"		"Mac Madrid DLC05"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"645400"
+			"manifests"
+			{
+				"public"		"4464670231542885560"
+			}
+			"maxsize"		"58360674"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"5C41E47071E247333BF932CD81F9618A"
+					"encrypted_size_2"		"09E98C3663EFDC60A2A68ECFF0160AB0"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"91F9063E5ADF4B81B7F64E321FAD31C2"
+					"encrypted_size_2"		"A42771EE10237CD37845B50A6DA842D2"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"023299DAF9073DEA1FF227B518C5AD41"
+					"encrypted_size_2"		"7EFA30A3D975497621A2ED0F4611728C"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"A739E3A8D810B06398CD0C34F391E763"
+					"encrypted_size_2"		"8FCECD97EEE8C6FBF1500956DDD595CB"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"60752A25799B2FCD9B87ADC8B36E66D3"
+					"encrypted_size_2"		"4EFF6F78FE53557E12A65BF6EA32ADB6"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"BD8EADDBC4533CF2480D2E5FB3070DFA"
+					"encrypted_size_2"		"7DFBEBE8B094B02BF85A86D4F3C7F719"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"D2A2BA4948F132F2A070C9622984B34E"
+					"encrypted_size_2"		"1A94F3718BD5DE13EF0CC79185E9FE75"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"E44A304FF85E29CB2CDC37D509E77068"
+					"encrypted_size_2"		"6D5F1F1A3FEBD4CB64E99E5E92F5CEC1"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"B7F67B4D451E4F9D70DB1C6FC841A298"
+					"encrypted_size_2"		"04789446DC7198E698B8CED63F8D5296"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"09940D749069B8012DC53A5ED4736D6D"
+					"encrypted_size_2"		"1353C7A855ED3FD1CAF8E7A0D7E32620"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"ADCB2B89113C0ABF0BC4ABD905AF0D0F"
+					"encrypted_size_2"		"E9EEBD99C6120BE9E939FD3C9B28A27D"
+				}
+			}
+		}
+		"533519"
+		{
+			"name"		"Mac Madrid DLC06"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"645401"
+			"manifests"
+			{
+				"public"		"7294869988435053829"
+			}
+			"maxsize"		"174875414"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"FC7144C1C6F1BC03EDC7E3F98438C9FD"
+					"encrypted_size_2"		"347F3D8D8602F3B945297E71334AA6A1"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"8CE8151622B71467062CD8106FD11A2C"
+					"encrypted_size_2"		"ACB61ECB79A715AF80098845568BAF3D"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"C222EEBE1C3C6EC01DEA9D6C6BDBD61D"
+					"encrypted_size_2"		"47C15C74C7932D40E54BB2E4D66001D8"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"BDCB5696DA3C0C4E5DE64EF70AE97F3A"
+					"encrypted_size_2"		"CCBF409AB8F8564D3A21BE6D29036401"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"3696D12B2DBEB2FCD891A5FAABC4F046"
+					"encrypted_size_2"		"4081B957818CD89129220CE00448DC01"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"C9D175788AB1724E0CE00D098A132A69"
+					"encrypted_size_2"		"177C5105F0401E39DF357523B2BC61A9"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"F09C6D5151962F3130DD512B1EEF792B"
+					"encrypted_size_2"		"303AF4E60191A0D882FF9416E6EABA7D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"C513070F6AF1B7A2F4638DFC2A9CB438"
+					"encrypted_size_2"		"42884196F94F12BCCEEDF99A20467F23"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"600AE1881D2CDEDCB3FC72C7C14C2D88"
+					"encrypted_size_2"		"74A5199AED4497E6013B29A7719C9D93"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"6FEFF787FC48E106C4CD4CD1DE20C499"
+					"encrypted_size_2"		"02FC491E197E1711AD7311C9BE636360"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"727F1790147F0CEAF9ECE477B3CCA7A2"
+					"encrypted_size_2"		"780F90C0239B6BC38E24AD33446BCCF3"
+				}
+			}
+		}
+		"533512"
+		{
+			"name"		"Mac Madrid Expansion1"
+			"dlcappid"		"645402"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3408446681348381266"
+			}
+			"maxsize"		"2977128638"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"33794B1DBDDDB0B846835B90454BC038"
+					"encrypted_size_2"		"65EF02451619B4FBE13E3CF0DDD97B85"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"3F48E1057A7BF6FBD586AFB0C4BD810D"
+					"encrypted_size_2"		"7543AC343AE311ED4D4B9AF8109C7594"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"A65CD99D5FE2910360B69EBEDAA2662B"
+					"encrypted_size_2"		"94A5ECA6F2C32E5AB0AE0A0D3FBD21CB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"EA601BFDA8D9A9B27A5CD9610C02D39A"
+					"encrypted_size_2"		"918CB3E0E84407E91BFFE41BD4F8C4F7"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"47E292D5FE86FE9425A02664E2BB5C82"
+					"encrypted_size_2"		"B53D24F5494CFEEB301BB048B6A669A3"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"CE56B0E377560C339C490ADB96C8DB3E"
+					"encrypted_size_2"		"FA74BE18FF95F5230FB9841936CE8432"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"96282397AAD1B88D80CF03706F856B33"
+					"encrypted_size_2"		"C3C8DEE60377BBD316C3E82CE87EE34F"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"444749CEE42EC6D4DF8ADD1794F09D6B"
+					"encrypted_size_2"		"7363F4C9DC4C9A23FA00A81753C37E51"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"E2F17BEBB89D5169B88E55F2A1046B4A"
+					"encrypted_size_2"		"2B3A38F1D206A7EA5C5316A46B312E26"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"D4968CC594E222D565640938B8B89FE1"
+					"encrypted_size_2"		"5CDD09B986C8D7B3F937C669525192FD"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"BACE12BC73B602A812651AD867D74D46"
+					"encrypted_size_2"		"78FAE63C998E8D9A047568A442AC65BC"
+				}
+			}
+		}
+		"947518"
+		{
+			"name"		"Mac Madrid Expansion2"
+			"dlcappid"		"947510"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1716687834640649362"
+			}
+			"maxsize"		"3630271281"
+			"encryptedmanifests"
+			{
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"56A1322FEE62C29FF2C6AFCBCB7A66A5"
+					"encrypted_size_2"		"F5F09A7E67AB79CC56D4810A4F8B539A"
+				}
+				"macbranch"
+				{
+					"encrypted_gid_2"		"63F88760E4F33583CE5E59CA885FD24B"
+					"encrypted_size_2"		"3D5B1925F831DF6F3FC986C044A8536C"
+				}
+				"macinternalqa"
+				{
+					"encrypted_gid_2"		"03E48FB5EBD7588A5CED71E0635B44D0"
+					"encrypted_size_2"		"3C0E58762155E83A4D30FF0F06EE0B35"
+				}
+			}
+		}
+		"533502"
+		{
+			"name"		"Linux Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6892915741953169142"
+			}
+			"maxsize"		"2483407822"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"E56686A363B973A4C6F7EECB5FFCFBC4"
+					"encrypted_size_2"		"2FA5AD344B9E1397234E629905E9D0DC"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"0A28EBB4A2C72AFFB33E1CA7400698AF"
+					"encrypted_size_2"		"CF603FBE79715DE4EBF1EF6D69F4FF1B"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"D428AF7322345A67841D244349D1599D"
+					"encrypted_size_2"		"B25030ABF2039A55964888988DCEA5B8"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"3032DACD44782A9A975B126A66C6A25A"
+					"encrypted_size_2"		"6669ABC5D1FD6DB1FB921900761B5B90"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"92C29C287E6BDA3041D02D621711793B"
+					"encrypted_size_2"		"8EAF618EC83B5237EB7AFE95BDA4C382"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"4060EA9FE86A1B83BB1AB61A47D46E7D"
+					"encrypted_size_2"		"3F38806CC4D2AB7E512F390F1B1B5ACB"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"0B5A31804B182F159E32BBA4150C5714"
+					"encrypted_size_2"		"28C462D758E30F5E11A238F88FFAF4BD"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"84AA0E424C4514FF4640EBE4A4B2BCCB"
+					"encrypted_size_2"		"512813488F8622E0D12F5AFFB3142E9E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"DD9F81AA936B1E39F4ED83459A71D80B"
+					"encrypted_size_2"		"70E8D28EE134F08A6FDE93ECB7339516"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"CBBDFDF810292F1BB588EA71A657E7A8"
+					"encrypted_size_2"		"C14E23DD670FF23CD77E0F4652A5AFCB"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"F2F2883DB1AD4C7A127E980D24F4C2A2"
+					"encrypted_size_2"		"91FCD7ACDEE3057D92D14EBBD6E4AB38"
+				}
+			}
+		}
+		"533503"
+		{
+			"name"		"Linux Exe"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6810412740092806845"
+			}
+			"maxsize"		"13148599691"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"9F21A9F85AC257EA002BD8DFDF2D89D1"
+					"encrypted_size_2"		"15B5A67A90FE45B7DF3BF5A236FB783E"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"C0D3995943146DA22CA8BF44F6BD0DC2"
+					"encrypted_size_2"		"8E0520D3E5EBBFA636F62E2619AC514E"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"03C4F01A8874C455B4B926B6B041F44B"
+					"encrypted_size_2"		"A3A3ECD6A4FE3BFB4141798F16B47420"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"19EC7B8E7A595FCBFA9EA872619D010A"
+					"encrypted_size_2"		"E4459FDB947EF1C760129B956E8D60EC"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"297D8EF2856AAB81DE838AA6CF782650"
+					"encrypted_size_2"		"0D95785B96B5E0D7545E7F97217BBDBB"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"93BDC75A2CA03675746FC2F1681B62AC"
+					"encrypted_size_2"		"3F613158111CD62CE1A61C065F827B4F"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"13B2B220C8DE86646CAF90C13BC4E61B"
+					"encrypted_size_2"		"0ACE4D54F3045F80EDB1A9A22F7AD34D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"CC94E8BB6EA9388E5AB72E9BA98D6437"
+					"encrypted_size_2"		"82389E7B271E529B1C8AEB39F4D53FC1"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"E215DC30D294D658FFD43B85169DBF33"
+					"encrypted_size_2"		"DD6F17434AD8DD316BECE34DC20596E1"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"680E3F3779B031EE59EFDF1017F4D4AB"
+					"encrypted_size_2"		"DBCF418F958FD583936DC6EEB9074FA0"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"619E1550B927B867AC6F85E1D7B36222"
+					"encrypted_size_2"		"F97234CB508230600B4D7DC9AA53E67B"
+				}
+			}
+		}
+		"533504"
+		{
+			"name"		"Linux DLC Aztec Civ Pack"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"512030"
+			"manifests"
+			{
+				"public"		"8062506105760526124"
+			}
+			"maxsize"		"29554"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"303036ECD92278D2DE27E44037E3FFC6"
+					"encrypted_size_2"		"FB9188B9FA6F6965A9B32C8BA46A68DB"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"F8D87A88C0CB58410EB42EB57E25F9DD"
+					"encrypted_size_2"		"64116DF4B770EA782E5B4DD2B91853E2"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"BBAA45A2B21475684BE26CFB2A4B08AD"
+					"encrypted_size_2"		"832B786ED157F9E4E4F04C03192C3614"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"7C06A99A8ED50DD6DF8CB90FF542B425"
+					"encrypted_size_2"		"BEA686DA25FCB3CFB7274149B58CBE3E"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"5B46F255E25C50E38921E98AC89D22C5"
+					"encrypted_size_2"		"41D8813D2ABA8BD3E2437C3383099793"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"1ADE9313060F08AB8DF23B140FE2AC25"
+					"encrypted_size_2"		"8C133581C2889376ADF31F30CDA71B8D"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"E1A522647B40D226BC5100F1F563C1E3"
+					"encrypted_size_2"		"89E5E130A2A93E52F308B689FA815FBD"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"63CD9789DFF49091634B385EC3F96461"
+					"encrypted_size_2"		"AA97EDA2B5700D7719808DDE3686C583"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"CC3D9BB50F53B6717B16B7B57E6E4DB4"
+					"encrypted_size_2"		"062A40B7C9F6D864681F41A010E3ED7D"
+				}
+			}
+		}
+		"533505"
+		{
+			"name"		"Linux DLC 01"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"512032"
+			"manifests"
+			{
+				"public"		"8844856567426115929"
+			}
+			"maxsize"		"78528137"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"4ABDBA832B387484B4F1049015179E14"
+					"encrypted_size_2"		"3EA19F5F964E816C2053431093FED5AF"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"88534627837E7711AA81DD2B842E1735"
+					"encrypted_size_2"		"2E527E2E2CAD2356F3A63B2A8586C5F1"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"5E4659A25E81EB243B2927EE5FAAA736"
+					"encrypted_size_2"		"79711A6F19B571BCF2950D391C445690"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"57FC70451C0948F3B9212BBAB175960C"
+					"encrypted_size_2"		"694D65558C231F767B47BE1779FD35D0"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"8E8EC709F01D89D15B9659160F05A317"
+					"encrypted_size_2"		"C25A112F92949E15F1F230C68A78682E"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"186F0E3AD31A13C19826F73F01932224"
+					"encrypted_size_2"		"6915DF341FCF35725E9B4B92B889975B"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"0734424882697191842F00ECD7541A7D"
+					"encrypted_size_2"		"4E2BD11401577A1E7DC13FF221589212"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"5DA212AA599B7804D9ABE160F46C34ED"
+					"encrypted_size_2"		"777563D0CAE9BA8E4828FA7603822E1E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"162064163F0D78B79893371BFC984DDF"
+					"encrypted_size_2"		"3E17C8A95B417853E585780C39E492D0"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"C39DC47393DB7600F935E04029B652F7"
+					"encrypted_size_2"		"0187D02A7072CA12A4ABB8F95B8E60F3"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"9FF31AF16678183421871041B70F31CC"
+					"encrypted_size_2"		"82BBC80D55AB5476952EA18106596C2A"
+				}
+			}
+		}
+		"533506"
+		{
+			"name"		"Linux DLC 02"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"512033"
+			"manifests"
+			{
+				"public"		"83083199673994767"
+			}
+			"maxsize"		"45915710"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"F30A366150F58C2F12703D79CF8F19AE"
+					"encrypted_size_2"		"3C5816858268CA1006D8FC3CF7463015"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"ACDBD99081C41671256000D3FB19BAF9"
+					"encrypted_size_2"		"24ED43F6AB0B4499C811155855913C18"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"E7404427388B1493421BBF432C45584E"
+					"encrypted_size_2"		"CE1D21F9951EBB73C60083BDAD1A5D46"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"E6A9851F1EB0E98DBBF4EC6CB494358D"
+					"encrypted_size_2"		"6307B1E62B157D158B1EFD9A76FDB4A9"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"0D5470D28AF83724F5B50C129CED9B8D"
+					"encrypted_size_2"		"B448EFDDAB7F987CD8989232E81C0BC2"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"DFDF0D4856CDA009193617C8D94824B6"
+					"encrypted_size_2"		"E0B89085EAEE0E353C4D28AC37D38B97"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"2BE4A67BCACA8F3F2A5F29BF50485502"
+					"encrypted_size_2"		"5591D4223165FCF379C5BEB489C7295D"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"8F41C76D370E93CEEB8F4F7D0B859C4D"
+					"encrypted_size_2"		"142E5804BFEE72F4A4CF8A33DE03A87E"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"BB0BAF6EF1AB5AA51ED3E491BEDE2446"
+					"encrypted_size_2"		"7B804210335D5BE145F73A5A25ED6AF0"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"3DD864056F96B43CFE8DAD061EA8C98B"
+					"encrypted_size_2"		"5D3B9197E4DE3F2CD5E6617624BFC3ED"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"A7CB6C6C53E280464C737C5C8956DFA2"
+					"encrypted_size_2"		"CEB2FFFBC979115A83B35B23CFF284DA"
+				}
+			}
+		}
+		"533507"
+		{
+			"name"		"Linux DLC 03"
+			"dlcappid"		"512034"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7791194683015411554"
+			}
+			"maxsize"		"44198379"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"8EE3099DBEEFBA266D0FC7DDC4D06579"
+					"encrypted_size_2"		"983A1C4A11CEF67CE51F9CBB4B5CFE49"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"796C0006C9E8D6959317D286DE63D20B"
+					"encrypted_size_2"		"305895FC77142BB9DDD7D0A15C45517C"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"2E9F123FDECAD4A34BDA07DB79CD34F7"
+					"encrypted_size_2"		"24014A3F93922B9B88235A0361B18DA1"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"C2B16774CBECE323643ADCAB734D40C3"
+					"encrypted_size_2"		"57DD200857B1261144EFD384F87BDFDB"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"364B7487A01FC2316BA4182387B171FE"
+					"encrypted_size_2"		"6925C50A015BA5F3AE5EF9041CDE8781"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"3528786D17D992A95506AEB48A775D8E"
+					"encrypted_size_2"		"1577777647890A3B0B016863F7F67141"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"E70E5D5DB94A8BD0C33EEB3DBEB300B2"
+					"encrypted_size_2"		"33233F6B0B1CAA81DDBBAE7B5C4E91AE"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"DA5071E81F82427E22FD214DAA3D63D3"
+					"encrypted_size_2"		"41541FB8BFDF22063D547AF56D460307"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"86DFED29AEEBD87094A532FD61BBABAA"
+					"encrypted_size_2"		"49BF1FF507E04ED5B3AAEA4CE3E4E7E3"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"001D7BAAE2E5A69E57616C86A8CDF663"
+					"encrypted_size_2"		"16098C14B7EE8E5B9399077A40F47890"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"04095BF2B266F56B1EB51B176142D253"
+					"encrypted_size_2"		"4CF31CD4EFDABD08A078FB9A2186D64E"
+				}
+			}
+		}
+		"533508"
+		{
+			"name"		"Linux DLC 04"
+			"dlcappid"		"512035"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8697152350683954257"
+			}
+			"maxsize"		"3062050"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"766BA9A4C53BAA3513A42EF309A2402B"
+					"encrypted_size_2"		"929BE85A444ECA63F4067A7D838111DF"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"06812C8B3674D02A83BB51AE1301554D"
+					"encrypted_size_2"		"D8B387F33470B2E05A7FBD7552ACE52A"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"E8C4530F2CA9E2FCFB7F03A899C2056A"
+					"encrypted_size_2"		"B0C8B3C9FD16BB249F4C67694FE02BFB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"BE20BEC2812905B482DC7B0AA3D36D73"
+					"encrypted_size_2"		"AB5020E7E7FDCC65457AB7CF8953B518"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"6A4CA4B0F34803C23AE6CC24B1C89BA7"
+					"encrypted_size_2"		"6C9FB307742A96DA084F23377D87D682"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"BA192A9C26AF86E56C5B31C4AAFC89E5"
+					"encrypted_size_2"		"74347CA901E53E72341C0F78D15EFFB7"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"45B12CE99647B979EF87A899E9F5F77D"
+					"encrypted_size_2"		"D4DA01E93EB6544DC5AEE6AD64CAD7DE"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"4506FDDB6A6EF219E557BE9EC7CF9EA1"
+					"encrypted_size_2"		"95C4365746AC1C5B20330EEC0190EE3C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"A00F9BE834BA62E02B7876782688C5D9"
+					"encrypted_size_2"		"3E9D4A31E77A8AC494F8C07B3A8292BE"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"18C8BBD50B05DE06FA007D47AFCC81BF"
+					"encrypted_size_2"		"D1E4959F5C7CFBAE20B15535B69924D1"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"6735CE7560DB879ADB015945F1D72A62"
+					"encrypted_size_2"		"E9E19CF9CBD8A984B90F937B43F4DECB"
+				}
+			}
+		}
+		"533509"
+		{
+			"name"		"Linux DLC 05"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"645400"
+			"manifests"
+			{
+				"public"		"2872040742689112868"
+			}
+			"maxsize"		"58360674"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"D0ED6C52ED73F2AEBD55DB00617AA9CA"
+					"encrypted_size_2"		"09E98C3663EFDC60A2A68ECFF0160AB0"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"11AD1DF569A44B326B904AF0895FDB2A"
+					"encrypted_size_2"		"A42771EE10237CD37845B50A6DA842D2"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"570D5145E14F341ADA341D556FF52A5E"
+					"encrypted_size_2"		"7EFA30A3D975497621A2ED0F4611728C"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"B9EAE6FE033F654FBFC8EAF6AE394FD6"
+					"encrypted_size_2"		"0124089F5E3D3EE30D7784F33014ED85"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"62FD51AC91B86A9F49C87D086A221F68"
+					"encrypted_size_2"		"E5B5B588A90A8DE4EA182E76315B7A6A"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"95721820242D416B0822A949893ABF02"
+					"encrypted_size_2"		"AD3C8BC1AE430D93B68D6B177A01E441"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"6D7B962E133CC8069B04E30D4977CB4D"
+					"encrypted_size_2"		"DAE8E73725CEAABD332CC2AFF11CB0FA"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"937FDBC232D473A6FFF56BD75D34CF82"
+					"encrypted_size_2"		"6D5F1F1A3FEBD4CB64E99E5E92F5CEC1"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"F2A89FCB7A4EFEADF9858D653E31F9EA"
+					"encrypted_size_2"		"D2EBDFE977B800ED46130276733168D3"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"803DB7C30666DDC993F4D8B981F6137F"
+					"encrypted_size_2"		"1353C7A855ED3FD1CAF8E7A0D7E32620"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"89898BE6E28F55DBB28F5D974C31B6F4"
+					"encrypted_size_2"		"E9EEBD99C6120BE9E939FD3C9B28A27D"
+				}
+			}
+		}
+		"533510"
+		{
+			"name"		"Linux DLC 06"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"645401"
+			"manifests"
+			{
+				"public"		"7611866949556244426"
+			}
+			"maxsize"		"174875414"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"1811FB2E14CDE32F98D5B0D1AC789055"
+					"encrypted_size_2"		"347F3D8D8602F3B945297E71334AA6A1"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"378E208D539E2BF4036538C9A4AA110B"
+					"encrypted_size_2"		"ACB61ECB79A715AF80098845568BAF3D"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"AAF09E0E188F0563DC023EB9BF07A045"
+					"encrypted_size_2"		"47C15C74C7932D40E54BB2E4D66001D8"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"2038625E2CB28ED013BC25A0D0264801"
+					"encrypted_size_2"		"94582239A3ED20631AB855BCCCFBF8DC"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"0F0D5C33CF51DAE51600D7BC44D39AE5"
+					"encrypted_size_2"		"3DCDE4D3A82D9C32DD2E3932C56935E5"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"3FE9098DDFA9D19FBBE96D37F879790A"
+					"encrypted_size_2"		"BF27F6F9F1DA9FA3B3F78E12384F6CE2"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"181779B645108303C5F2C66071F2139C"
+					"encrypted_size_2"		"1C1DE95EA58215A388CA678E240CB3AA"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"E8EF45786888766B1C1DFC778775930B"
+					"encrypted_size_2"		"42884196F94F12BCCEEDF99A20467F23"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"4A039DEF062362FCC22CFD5C23BCBC59"
+					"encrypted_size_2"		"D123718993C67746254289355324A2EA"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"FEF6C96762632014197464EEE14D410E"
+					"encrypted_size_2"		"02FC491E197E1711AD7311C9BE636360"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"77CFAAC7CEC21349D942BCC5FB1F2853"
+					"encrypted_size_2"		"780F90C0239B6BC38E24AD33446BCCF3"
+				}
+			}
+		}
+		"533511"
+		{
+			"name"		"Linux Expansion1"
+			"dlcappid"		"645402"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2771235151156606952"
+			}
+			"maxsize"		"3499222331"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"EB886A1AB45EBF76A5C6A56C0071632C"
+					"encrypted_size_2"		"4949F13EAE91F9B0212A637FEE15C15E"
+				}
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"9917AB7CC79E864C520AAA114EA16D98"
+					"encrypted_size_2"		"AEDA4080C4D02E0241DF05020BAD994F"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"515EC8A22B8DEECB5525E0ADE7EA97F8"
+					"encrypted_size_2"		"7DA914A29EC21AF1ADC44DA2AED14EE3"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"9A04CB2637AA795250379001AA846914"
+					"encrypted_size_2"		"441B233E183BC05DFF2251D95EFCB529"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"6806128B74AFC0760547A428AA06B5E1"
+					"encrypted_size_2"		"D6F2DC8452B8F224F0D6B640A6616F96"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"087482BAF843972F3DAB96AA1054A078"
+					"encrypted_size_2"		"5538B618C5441DD4F01998BF4DE8B7A5"
+				}
+				"ltest"
+				{
+					"encrypted_gid_2"		"F98EC3E94744F3E46B56C5F9A41143F1"
+					"encrypted_size_2"		"1572C313E08615A82288BEB16CB8842B"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"9B66610A42482BF1F0B1D2DC771A0B88"
+					"encrypted_size_2"		"EAB466F9399007366355AA22CF028E75"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"06A2FD3CC78CF984EF67A3FF05B31C88"
+					"encrypted_size_2"		"4011E6B7D355440B03F5723245921241"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"6D3B0B28B6A53A029D487CC4ABBBE88F"
+					"encrypted_size_2"		"44D70CA1CF35DF9A85276F1DA2BC5C20"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"597F2CC0DC902B64FE982B4598C8C46B"
+					"encrypted_size_2"		"A484FEBB98E8BB63303C21A9DFED0DE6"
+				}
+			}
+		}
+		"947519"
+		{
+			"name"		"Linux Expansion2"
+			"dlcappid"		"947510"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7424677259685370982"
+			}
+			"maxsize"		"4725568208"
+			"encryptedmanifests"
+			{
+				"aspyrlegacy"
+				{
+					"encrypted_gid_2"		"0F946AC046EA9F332ED945C0D852C451"
+					"encrypted_size_2"		"F6436A683A9C7E9899D752A258627E4C"
+				}
+				"linuxbranch"
+				{
+					"encrypted_gid_2"		"A2471E0A5F05140C47300382EFCD92BE"
+					"encrypted_size_2"		"B1A20C99CF397D0EACBAC69CE3DDB74F"
+				}
+				"linuxinternalqa"
+				{
+					"encrypted_gid_2"		"9CA5E7A00849C086D1B88FF2F8A16B8E"
+					"encrypted_size_2"		"BB2117617301BF7B10992F3FECF6E3C7"
+				}
+			}
+		}
+		"289084"
+		{
+			"name"		"Sid Meier's Civilization VI Depot"
+		}
+		"289089"
+		{
+			"name"		"Launcher Test"
+			"manifests"
+			{
+				"public"		"7067974688522840031"
+			}
+			"maxsize"		"175716186"
+			"encryptedmanifests"
+			{
+				"agerating3"
+				{
+					"encrypted_gid_2"		"9206F4F6DC61AA2C507C8C9FE9E683A6"
+					"encrypted_size_2"		"FAE2D69678FE0674B8069664E0A349FA"
+				}
+				"gs_rtm_donotmove"
+				{
+					"encrypted_gid_2"		"833C87742738433B113D4CA1D0856CFB"
+					"encrypted_size_2"		"C2394BC3B1FFA75B36D2963BD83C9741"
+				}
+				"maclegacy"
+				{
+					"encrypted_gid_2"		"739FEB7F461F3BAB8FB37D0ADD70BD80"
+					"encrypted_size_2"		"36BE60AA311BB3E6F93DB5AF732E6649"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"1F507927285B5E0BDF2C11EA45174FDA"
+					"encrypted_size_2"		"08FF9E977C7B3E906649F1D8273DC360"
+				}
+				"streamer"
+				{
+					"encrypted_gid_2"		"6EE3FBEEF3316A217A956FD51A38E6E7"
+					"encrypted_size_2"		"AC95A442FD925DC4E69DD1E8333777ED"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3930037"
+				"timeupdated"		"1560877404"
+			}
+			"2kqa_a"
+			{
+				"buildid"		"4105924"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565810168"
+			}
+			"2kqa_b"
+			{
+				"buildid"		"4067386"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564700913"
+			}
+			"agerating1"
+			{
+				"buildid"		"2368975"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1513276163"
+			}
+			"agerating2"
+			{
+				"buildid"		"1260481"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1470253407"
+			}
+			"agerating3"
+			{
+				"buildid"		"3441319"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546548739"
+			}
+			"aspyrlegacy"
+			{
+				"buildid"		"3965687"
+				"description"		"ASPYR REQUIRED: Internal testing for legacy checks"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561752314"
+			}
+			"capture"
+			{
+				"buildid"		"3366322"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543957288"
+			}
+			"compat"
+			{
+				"buildid"		"3286296"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541620920"
+			}
+			"day0_donotmove"
+			{
+				"buildid"		"1390931"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1476728578"
+			}
+			"gs_rtm_donotmove"
+			{
+				"buildid"		"3457964"
+				"description"		"Gathering Storm ZBR RTM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547135424"
+			}
+			"legacy"
+			{
+				"buildid"		"2960780"
+				"description"		"the last live build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542740350"
+			}
+			"linuxbranch"
+			{
+				"buildid"		"4122525"
+				"description"		"ASPYR REQUIRED: Linux Test Branch to send builds to 2KQA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566305875"
+			}
+			"linuxinternalqa"
+			{
+				"buildid"		"4119927"
+				"description"		"ASPYR REQUIRED: Linux Test Branch for Internal Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566243222"
+			}
+			"ltest"
+			{
+				"buildid"		"3492615"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548203064"
+			}
+			"macbranch"
+			{
+				"buildid"		"4112790"
+				"description"		"ASPYR REQUIRED: Mac Test Branch to send builds to 2KQA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566305852"
+			}
+			"macinternalqa"
+			{
+				"buildid"		"4112790"
+				"description"		"ASPYR REQUIRED: Mac Test Branch for Internal Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565971902"
+			}
+			"maclegacy"
+			{
+				"buildid"		"3458130"
+				"description"		"ASPYR REQUIRED: Internal testing for legacy PC comparisons"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547138667"
+			}
+			"marketing"
+			{
+				"buildid"		"3467198"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547478134"
+			}
+			"pdreview"
+			{
+				"buildid"		"4174279"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567798792"
+			}
+			"preview"
+			{
+				"buildid"		"4129631"
+				"description"		"Press Preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566484864"
+			}
+			"rtm_donotmove"
+			{
+				"buildid"		"1320898"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1473442069"
+			}
+			"smoke"
+			{
+				"buildid"		"3478373"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547743321"
+			}
+			"streamer"
+			{
+				"buildid"		"3541092"
+				"description"		"Streamer - Portcullis Required"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549563182"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		""
+		"maxnumfiles"		""
+	}
+}
+ 

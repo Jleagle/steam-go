@@ -1,0 +1,487 @@
+"appinfo"
+{
+	"appid"		"48700"
+	"common"
+	{
+		"name"		"Mount & Blade: Warband"
+		"logo"		"09b24ebdad4b8c24851ad1714e49e47a40ed25d2"
+		"logo_small"		"09b24ebdad4b8c24851ad1714e49e47a40ed25d2_thumb"
+		"clienticon"		"a81b690bae77b05abd78cafc36b2394c5914e9ad"
+		"clienttga"		"ac72bb2d2c5a12b1dc605f4d3654da9e27bad70d"
+		"icon"		"0773e90a6991a5427df4ee516687d832d92b050e"
+		"metacritic_url"		"pc/mountandbladewarband"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"type"		"game"
+		"metacritic_name"		"Mount &amp; Blade: Warband"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"30"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1416964433"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TaleWorlds Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TaleWorlds Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1270051200"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/mount-blade-warband?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"48700"
+		"store_tags"
+		{
+			"0"		"4172"
+			"1"		"122"
+			"2"		"1695"
+			"3"		"9"
+			"4"		"3810"
+			"5"		"19"
+			"6"		"3859"
+			"7"		"1669"
+			"8"		"4168"
+			"9"		"21"
+			"10"		"6041"
+			"11"		"4175"
+			"12"		"4182"
+			"13"		"3839"
+			"14"		"3987"
+			"15"		"1697"
+			"16"		"1646"
+			"17"		"599"
+			"18"		"1684"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"TaleWorlds Entertainment"
+		"gamedir"		"Warband"
+		"homepage"		"http://www.taleworlds.com/en/Games/Warband"
+		"icon"		""
+		"installscript"		"48700_install.vdf"
+		"languages"		"english,german,french,spanish,czech,hungarian,polish"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"48701"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\MountAndBladeWarbandKeys\\serial_key"
+		"legacykeyregistrationmethod"		"registry"
+		"supportscdkeycopytoclipboard"		"1"
+		"showcdkeyonlaunch"		"1"
+		"publisher"		"TaleWorlds Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/48700/"
+		"listofdlc"		"48705,48710,321300,481400,481410,481430,481440,481450,481460,481470,481480,481500,481590,481650,570330"
+	}
+	"config"
+	{
+		"installscriptsignature"		"a058898b10330ff188ed684c3b49989bff7b02a2b9cae7f33ce5421f88eb9db38168e1d467883308cbce08dad4ba0527d45491a8b8485786e59200d7ddf778c846811bdf0dca927532f99effdf964a89ebc3194775eb9c1ddfd4248132fa8bfb3f1e0c06638d05667ddf69589d2ddf99e718aebe38d931041d6e79537812a495"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"MountBlade Warband"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"mb_warband.exe"
+				"description"		"Launch Mount&Blade: Warband"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mount and Blade.app"
+				"description"		"Launch Mount&Blade: Warband"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"mb_warband_linux"
+				"description"		"Launch Mount&Blade: Warband"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"mbw_config.sh"
+				"description"		"Configure Mount&Blade: Warband (choose module)"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"MBWLauncher.app"
+				"description"		"Configure Mount&Blade: Warband (choose module)"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\\software\\mount&blade warband"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"version"		"1153"
+				}
+			}
+			"hkey_current_user\\software\\mountandbladewarbandkeys"
+			{
+				"string"
+				{
+					"english"
+					{
+						"language"		"en"
+					}
+					"czech"
+					{
+						"language"		"cz"
+					}
+					"french"
+					{
+						"language"		"fr"
+					}
+					"german"
+					{
+						"language"		"de"
+					}
+					"hungarian"
+					{
+						"language"		"hu"
+					}
+					"japanese"
+					{
+						"language"		"jp"
+					}
+					"polish"
+					{
+						"language"		"pl"
+					}
+					"russian"
+					{
+						"language"		"ru"
+					}
+					"schinese"
+					{
+						"language"		"cns"
+					}
+					"spanish"
+					{
+						"language"		"es"
+					}
+					"tchinese"
+					{
+						"language"		"cnt"
+					}
+					"turkish"
+					{
+						"language"		"tr"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\MountAndBladeWarbandKeys\\DXinstalled2"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"48700"
+		"baselanguages"		"english,german,french,spanish,schinese,tchinese,polish,hungarian,czech"
+		"48701"
+		{
+			"name"		"Mount Blade Warband"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6798402207518250693"
+			}
+			"maxsize"		"1290371872"
+		}
+		"48702"
+		{
+			"name"		"Mount Blade Warband Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"955981833923587415"
+			}
+			"maxsize"		"55956219"
+			"encryptedmanifests"
+			{
+				"chinesebeta"
+				{
+					"encrypted_gid_2"		"1C6A4CA0C6AD8DE5D6F8B924BEB930DD"
+					"encrypted_size_2"		"648C004ADAF1A506F0962E9964C99375"
+				}
+				"twpublictesting"
+				{
+					"encrypted_gid_2"		"90492EE41CD9846D436F933A00D2EABC"
+					"encrypted_size_2"		"CF046000A73B7A2A37B350288D4DAAF6"
+				}
+			}
+		}
+		"48703"
+		{
+			"name"		"Mount Blade Warband Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3759292232020211898"
+			}
+			"maxsize"		"37527324"
+			"encryptedmanifests"
+			{
+				"chinesebeta"
+				{
+					"encrypted_gid_2"		"A12D898DE14B5875E3C48058CBF81381"
+					"encrypted_size_2"		"C2E59FD4073C01B38F362A99E8FC4A68"
+				}
+				"twpublictesting"
+				{
+					"encrypted_gid_2"		"9991C880A158FD1E4ED2AE4386FA2E5E"
+					"encrypted_size_2"		"7A2767E1523112B3591AEAA85A7A888D"
+				}
+			}
+		}
+		"48704"
+		{
+			"name"		"Mount Blade Warband Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6672793413405812033"
+			}
+			"maxsize"		"35234204"
+			"encryptedmanifests"
+			{
+				"twtesting"
+				{
+					"encrypted_gid_2"		"6AD0046DE7D2090231097891EA909E43"
+					"encrypted_size_2"		"AE3699383C408C121FB4A7894782457C"
+				}
+			}
+		}
+		"48705"
+		{
+			"name"		"Napoleonic Wars"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"dlcappid"		"48705"
+			"manifests"
+			{
+				"public"		"4716110400195818096"
+			}
+			"maxsize"		"1557301679"
+		}
+		"48706"
+		{
+			"name"		"Mount Blade Warband Japanese"
+			"manifests"
+			{
+				"public"		"1552991085830895904"
+			}
+			"maxsize"		"26139827"
+		}
+		"321300"
+		{
+			"name"		"Viking Conquest"
+			"dlcappid"		"321300"
+			"manifests"
+			{
+				"public"		"9161757670798939188"
+			}
+			"maxsize"		"2064499862"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"7B4058173D9C4A1566C4B68EA0BCE41C"
+					"encrypted_size_2"		"B93B0175F3FB37A413145E407FADF7F7"
+				}
+				"chinesebeta"
+				{
+					"encrypted_gid_2"		"045C0097C77FEE36EDABFAD52C6FCE71"
+					"encrypted_size_2"		"7CABBEFA2BF2EE10646289FCD2CC5611"
+				}
+				"twpublictesting"
+				{
+					"encrypted_gid_2"		"1450EF6A5774A37251D5DB6201ADA105"
+					"encrypted_size_2"		"23D16BA85194594502D1B460231B6135"
+				}
+				"twtesting"
+				{
+					"encrypted_gid_2"		"44F891D3156908C7A76E1D5BFD0415C4"
+					"encrypted_size_2"		"DCCD2F51C8027A57677A3D6C69A95944"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3752804"
+				"timeupdated"		"1555672057"
+			}
+			"beta"
+			{
+				"buildid"		"4165794"
+				"description"		"password is betapassword"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568039760"
+			}
+			"chinesebeta"
+			{
+				"buildid"		"3183507"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538672149"
+			}
+			"twpublictesting"
+			{
+				"buildid"		"3183507"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538672170"
+			}
+			"twtesting"
+			{
+				"buildid"		"4166660"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567611118"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

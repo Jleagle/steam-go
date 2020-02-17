@@ -1,0 +1,4495 @@
+"appinfo"
+{
+	"appid"		"261640"
+	"common"
+	{
+		"name"		"Borderlands: The Pre-Sequel"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"icon"		"af5ef05eac8b1eb618e4f57354ac7b3e918ab1bd"
+		"clienticon"		"00f01f0a8e4a50c22b27bef5bb7e1a9af4fb6c1a"
+		"clienttga"		"be38873cbb8161d5a6d880a6118e38c51ffa49d1"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"logo"		"df64c72fd335a03dbcc0a19b1f81acc8db1b94ba"
+		"logo_small"		"df64c72fd335a03dbcc0a19b1f81acc8db1b94ba_thumb"
+		"clienticns"		"2ba0828f8e21ad5af98eaa4528bd7b3f5d3e1f7e"
+		"linuxclienticon"		"efb1b5e7cd9d9970ba277729acd26e0c9e0f2b04"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"261640_eula_0"
+				"name"		"Borderlands: The Pre-Sequel EULA"
+				"url"		"http://store.steampowered.com//eula/261640_eula_0"
+			}
+		}
+		"osarch"		""
+		"metacritic_name"		"Borderlands: The Pre-Sequel"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47"
+				"height_pct"		"70"
+			}
+		}
+		"store_asset_mtime"		"1412974475"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2K Australia"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Gearbox Software"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Aspyr (Linux)"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"2K"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Aspyr (Linux)"
+			}
+			"5"
+			{
+				"type"		"franchise"
+				"name"		"Borderlands"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1413270000"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/borderlands-the-pre-sequel?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"261640"
+		"store_tags"
+		{
+			"0"		"1685"
+			"1"		"1663"
+			"2"		"19"
+			"3"		"1719"
+			"4"		"4236"
+			"5"		"122"
+			"6"		"1695"
+			"7"		"3859"
+			"8"		"1774"
+			"9"		"4136"
+			"10"		"3843"
+			"11"		"3839"
+			"12"		"1755"
+			"13"		"21"
+			"14"		"3942"
+			"15"		"4231"
+			"16"		"4182"
+			"17"		"10397"
+			"18"		"4166"
+			"19"		"5144"
+		}
+	}
+	"extended"
+	{
+		"developer"		"2K Australia"
+		"publisher"		"2K"
+		"homepage"		"http://borderlandsthegame.com/"
+		"listofdlc"		"275690,289880,289881,316410,319090,321430,941180"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BorderlandsPreSequel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\Launcher.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"borderlandspresequel.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./BorderlandsPreSequel"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100ED2B26858FEFA9C48F6DF51B5D139A7406F20D67D55D2D91C25F8A4F60CE51B84BB4A3D7F532CA067AAD49AED3B47831B7A8104CA85843DC0B61CA5F52AB3875D9A30DEFBDC1601C15920BC9B8CC00AB4C4BE476DAB3F5AC63A5B0AB2280B889A3D50A7DA25C4B7A84996C958C04BCB11B3F1C9C73A640BB34A231B015C6D8DD020111"
+		"checkguid"		"BorderlandsPreSequel.exe"
+		"checkguids"		"borderlandspresequel.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,russian,japanese"
+		"228981"
+		{
+			"name"		"VC 2005 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"5884085"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"261641"
+		{
+			"name"		"Cork base content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2201358879199290919"
+				"local"		"7819258695231334671"
+			}
+			"maxsize"		"5531949025"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"36C16824DE6C8D5F9F991E1FEF87B8A1"
+					"encrypted_size_2"		"CAFCA4B815F29E1277BA7A4755EF09B6"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"ECE968C79FF19DB892C2AF3C4B041264"
+					"encrypted_size_2"		"DD75840598D1767596E296EC6E40CC9A"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"34A06AB473C9BD1CDA30D5A19DEB84A1"
+					"encrypted_size_2"		"0F409389F4F33FC6944CD22F474A89A3"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"B44A4400DF907F379FD1B84F7C01E685"
+					"encrypted_size_2"		"5C054F2EE4846DD98548D9289C058EF9"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"CB822467FF56FF93BE0B62D97672D254"
+					"encrypted_size_2"		"1E71F348AD31C2E468C4AB017CEDADBF"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"7033DB977450B324C8616562DA6F6FF3"
+					"encrypted_size_2"		"09DFEEFB742E83ED920526ECF17DC71E"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"81CCE377F2EDC2A1D2CFE289F9522671"
+					"encrypted_size_2"		"AEF556CD4AF084293D7FEA80553C4549"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"1B4235CC071943225211BA104113B3BE"
+					"encrypted_size_2"		"38EA30E4739FFC2E16DEE7685220CC2D"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"1543BDB623DC3D6DC7F452B4E0B01E99"
+					"encrypted_size_2"		"1B0812D5BA96BB3BFB85A0D681F2508A"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"A89E80A819E693E0AC671F592FA5BD0B"
+					"encrypted_size_2"		"30FB0ACE905768487B4FAD554B05499D"
+				}
+			}
+		}
+		"261642"
+		{
+			"name"		"Cork executables"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"253076557631760871"
+				"local"		"1620152663433083394"
+			}
+			"maxsize"		"637365079"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"EE04DB5DC6B0C805A914187B0AA534AB"
+					"encrypted_size_2"		"C35656E98CAF3B9F4FDD11F5AF49DD74"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"6512240944B492CC698EB8FBC7CD62B9"
+					"encrypted_size_2"		"0692B0E1EC65049CFD6C7AB7BB050091"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"796C7F76F8F598D49B7A8F566A5BD72C"
+					"encrypted_size_2"		"624882ABB294B39296F4DBFAF6C80E08"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"9F66D6D00A7F1E22478946D4034711C5"
+					"encrypted_size_2"		"86078B933F7D85BC49B2E9C9AB5E7BD0"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"E4EE894648539A731D1C34186A21F7D9"
+					"encrypted_size_2"		"D10851C63C253631842C4ED711A837AD"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"48DBC58055157D51F8567B3F457D82F8"
+					"encrypted_size_2"		"AB787436C7619C59DE7D3F0DD6CEA0AC"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"9895783BE835180EF976C48B4AF013C4"
+					"encrypted_size_2"		"D8CBEC005E3DAEF943175CD32AB36411"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"3A244A4F77FD9D8C0228B0DCFD8276F0"
+					"encrypted_size_2"		"DC39FE3E92D4FB410702F4633D458CFE"
+				}
+			}
+		}
+		"261644"
+		{
+			"name"		"Cork english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8157549553617111286"
+				"local"		"8646653452460628187"
+			}
+			"maxsize"		"548512103"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"B8B11A71B62F54B3BCDBB192B600BEF8"
+					"encrypted_size_2"		"4095DFE04C4F165A45456036FD0721A5"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"EE74C52927C8119EBA3985FC2C28AFD6"
+					"encrypted_size_2"		"D52148DE6C86EFE353AE4E95B8DB0928"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"DD278862F72350EA4763475384B274A0"
+					"encrypted_size_2"		"09C6CE496CFFE0CF42CD846913FE32C5"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"4368836714965C43F7DCC3D7E886A052"
+					"encrypted_size_2"		"8678FCFF6FD0B0821108320345F0403B"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"198C03A045A9E3D2F94AEDDA7011FF74"
+					"encrypted_size_2"		"ACE785E064E1503B20DE18314C24DB71"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"4B22483D4E342B17FC879246ED2F45FB"
+					"encrypted_size_2"		"3C74E2774AEDDD18AB5D3EBCAC548C50"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"1F4782976E1D019F061C0EC706904A34"
+					"encrypted_size_2"		"B3E2D48899546B33EDE36811734E9BF3"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"011EEBBDA8CA3E826BF58CD47E25A1D3"
+					"encrypted_size_2"		"36878C4C0432163AAD564D9B01E0AFDF"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"9A587808479F96CFABEDCCB838D008A3"
+					"encrypted_size_2"		"169844B0787C4BA953E42B4EF29A8CE4"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"3C1EB4FECDC54F197D5896D933315873"
+					"encrypted_size_2"		"B916015099B9678ED08B9E5EDC493E7C"
+				}
+			}
+		}
+		"261645"
+		{
+			"name"		"Cork french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1262017626462294961"
+				"local"		"1384496207030710524"
+			}
+			"maxsize"		"547642182"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"5F17AC42E35CC33153D92F739138ABF3"
+					"encrypted_size_2"		"692EEC8E46314A016D31489B28030A74"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"A8A987FBB9ADC795C704BF4497CD6349"
+					"encrypted_size_2"		"27719929A57F19FD98376ADCA6196A8C"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"C08E380EA6518D3C7DA303B8C7EB9044"
+					"encrypted_size_2"		"1D874279E737C4AEB6409B464226D5A2"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"62953148545B1F7BF4484CC7F11CC128"
+					"encrypted_size_2"		"B658069E10BD841B759F23B3577C5644"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"ECBEE1E6D3276E23BA4377AAD514D56D"
+					"encrypted_size_2"		"7D12765A20481A653BFDEF0ECABC02D2"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"76B0498F619A1E2EF4F96B90B23B2DE9"
+					"encrypted_size_2"		"7BE2E43C5CC21DF7FCF45013274AF4A8"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"058930D7ED37437A2D487577FD8A7B81"
+					"encrypted_size_2"		"3523519D3CE8722C2CB8C5B72F2CA6EA"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"0B7EC8008E86DD952EED313EC4496BC3"
+					"encrypted_size_2"		"30FA15A4A14291A2C45AEDFAF48987B4"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"D69B300A2D0FF763EFD650106364F0D3"
+					"encrypted_size_2"		"6D9C42D267206B0406BB6A0BC51F3443"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"459CB8EA1416FF517D28C48CCA61CDBF"
+					"encrypted_size_2"		"4C65D10EE8028FACB59FE2F712165FAA"
+				}
+			}
+		}
+		"261646"
+		{
+			"name"		"Cork italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8167352664119181508"
+				"local"		"466482445753108279"
+			}
+			"maxsize"		"576810558"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"4065A3E017F7FCF441FE5B12E3A1D911"
+					"encrypted_size_2"		"C3698D53302A1E497B0EB571B281FFE0"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"FC17C0FD1504D8F504763847E6B8D57D"
+					"encrypted_size_2"		"92DA546341E871DE8DC6AF79AEFC4BFB"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"C776137BE573280E842AB451837D1201"
+					"encrypted_size_2"		"C250E644C754543F7AA6A232FA4BB497"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"65CD1F98D6CDAB63F1EDF59032158E2D"
+					"encrypted_size_2"		"7285E083B88A1B2F40E29CCAD2A0EB70"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"2AC3E8359229B783CEF0AC440CF1222D"
+					"encrypted_size_2"		"7D2B503A013430114D3DC88DD6048CD3"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"1791C66F2013AC8446E1B837F1D77394"
+					"encrypted_size_2"		"78DCFFA9C2E5923BF83AC0BC74717486"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"0CF102D095EDFA849EC8BE8C5BC55776"
+					"encrypted_size_2"		"25FE71C4FD5A5ECD2F07FC7EFC3F9650"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"3F57C299233B3DCD6083DBE14FF1133E"
+					"encrypted_size_2"		"B6F9F012AC700CE38B2F355A804622AB"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"8D6CA8BBE7461F1C7C4033104659BE25"
+					"encrypted_size_2"		"30366651EB160249418E6719955818CB"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"A6DA2DBED2DEE15E1B02B918BB233753"
+					"encrypted_size_2"		"958DE7B1477109E5E8A4E1A8E8794C0F"
+				}
+			}
+		}
+		"261647"
+		{
+			"name"		"Cork german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"796286996405062309"
+				"local"		"8923638190621777946"
+			}
+			"maxsize"		"558947285"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"4296C660722AA01D2D3840664F295B06"
+					"encrypted_size_2"		"E9B4707F561F9C35F647D2EC05120A9F"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"5BE26D604A67B43B5FD7C72F422EE683"
+					"encrypted_size_2"		"EB78196B97870C18F0879AA08778AB8E"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"178BC9DFBEFC5EEED0B212D8BB8B254A"
+					"encrypted_size_2"		"3BC91663192B8397B7D966A9FAE37366"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"903C672EBF2BFE34E84FE7E14BFEA3D2"
+					"encrypted_size_2"		"807AD091FC362E5AF0DD2D6E15F160F4"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"217B9C240EA9AE93D8F9922B02EF58E3"
+					"encrypted_size_2"		"37746505C9B574B320B48F9805D6761E"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"8BCF75FE23AB584A8A34DE9268B391EB"
+					"encrypted_size_2"		"B49418BBAAB4F59B611F24681D5178FB"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"0EBA8EA68E28C3F5015D90C075D8744A"
+					"encrypted_size_2"		"BA3DF45A822C84362B3B3468D985EB10"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"D2C41CCB4B51C7742E2BD531E721DEC9"
+					"encrypted_size_2"		"D53EA8E2FABBF5659EA26F0486C5B192"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"0D0E0D1105027286DC7885096CE34DA4"
+					"encrypted_size_2"		"B680F0974D5F072E52A73067560D20EB"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"D35205DC8403EA8A049140667AD6ECDB"
+					"encrypted_size_2"		"4125EE5A71CD607383A499EB6E92298F"
+				}
+			}
+		}
+		"261648"
+		{
+			"name"		"Cork spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1934108392353012247"
+				"local"		"7574747029675042867"
+			}
+			"maxsize"		"548465431"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"240C4FD2F3D18652CA4690E7FB0BC220"
+					"encrypted_size_2"		"7E82808A1463BF4F7AC66FF4CF05C0D6"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"EDF1BCF3F6CD6AA769B410D4E71B41AC"
+					"encrypted_size_2"		"DBBD69724C03070D93D24D45575A8C43"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"860505B77F5BE2E20278846D07FE0B6F"
+					"encrypted_size_2"		"FC674C4E11F17FE60B41F7949DA63729"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"A278B5B35D9E4631194AAE81BD9014C5"
+					"encrypted_size_2"		"7C89C015E31C0F0FA0B22B399E378A71"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"31483F354D8F0F76A00FD3D30EBBDF4B"
+					"encrypted_size_2"		"3FD37AF43A866551A414BCF4C6EC32EF"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"08779DEFEA6A7B8F06644EC1E0E843C2"
+					"encrypted_size_2"		"CD709786BFC26C3A7F26D799355E0C43"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"9C35C2F5C70B738ADA99350310ACD271"
+					"encrypted_size_2"		"BF60418F9D77391BAC7DACDFAA6B8465"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"23941111405C1712C6F628C0DAA28FAB"
+					"encrypted_size_2"		"6FE342EE834CC563C9C7231BB01DE6F3"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"C180DD9E3DF841B9F9A853169250763F"
+					"encrypted_size_2"		"8908D12D82C2379E67BCBB89844913AE"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"3DE33DDF980519953F89E484FD60D073"
+					"encrypted_size_2"		"658272D69164C7555C86768E363E6296"
+				}
+			}
+		}
+		"261649"
+		{
+			"name"		"Cork russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3876898218315757314"
+				"local"		"1303344187417602833"
+			}
+			"maxsize"		"548529037"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"34A540627B8C293B2BD04FDB0207B638"
+					"encrypted_size_2"		"BA071726418B3A5815365DE4425DC46F"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"F18CCFC63B188470E2B084095DBA6ECD"
+					"encrypted_size_2"		"3E9B2C55CB574CE192AD49098A48C8C4"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"B5D20C73C5DE0BA2ED6A507E8F5DCA88"
+					"encrypted_size_2"		"0FD494DBDD14698E519ADFBB5A7788F2"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"6914299647AB14EF3861C1F3B50F83B9"
+					"encrypted_size_2"		"2C7CA1080CE3FA03FE050D142F1B15C8"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"6513E54B4F0A0B233C9A22C5FE261685"
+					"encrypted_size_2"		"6C022A5649F8D2E0A2638C198563CD6B"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"DF7573BEBFC012544282D3F5D5392445"
+					"encrypted_size_2"		"3E5D0F6BB7C12E11AF0814BB49C4FBFD"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"94005AB2F3A6A1B783C934B162178C54"
+					"encrypted_size_2"		"E726E9873FFFD57C3CF1F6FDCCFB0E94"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"090A71B0111732F70132BDE55EC6007C"
+					"encrypted_size_2"		"B407EB6517BC1A00D46B07B0975D82DA"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"531F821F8CCA471DED797E0CC19F4CCE"
+					"encrypted_size_2"		"3A3F3E043BF0C7A4C85FE9A729358425"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"A24A9C7A883B766B7FC54338D12019FF"
+					"encrypted_size_2"		"C9B8F502F03F78C89C3AC7BC14A673FA"
+				}
+			}
+		}
+		"261650"
+		{
+			"name"		"Cork japanese"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"2240985234001171813"
+				"local"		"5282935890897648799"
+			}
+			"maxsize"		"547034083"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"DED0E1A1B61FC5EFC8A5D6605A1017ED"
+					"encrypted_size_2"		"AA5ACA5D79247A693DF7ED26CDA0265A"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"86000536B4573BABF2BCC1D0527E80A6"
+					"encrypted_size_2"		"8A8A6864B7D6465F5F59F84F813AE6EF"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"C410D82AE76592C064F5996AE1EDB162"
+					"encrypted_size_2"		"E5A5DC56B8C072DC0E1C8B5CEC82EAAF"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"E5557FCAA0E9216C2177FF305EE68CCE"
+					"encrypted_size_2"		"43FFE7372D77852139EE141CE0B661D6"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"8E160F021FB692BE8F68EFE25AF1BD8F"
+					"encrypted_size_2"		"8BFBC304CBCF77672319484841964EFB"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"E5284A181F9C59B188BFC4937D59CA68"
+					"encrypted_size_2"		"30FE60084277C8DF68958AE02F02B37C"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"AD3E897AF396DB739F25B4EE05339ABE"
+					"encrypted_size_2"		"9BFAFE54BBB7AFF3A8130EF55B3D3FC0"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"566813D93402CD0644EBEB9FF7925AE6"
+					"encrypted_size_2"		"013E77ECB7C5427B9084DC6C81FD935B"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"FC955A7B8BA8B6DE6BF3E2765A3E36F8"
+					"encrypted_size_2"		"916E19992BD29A7106DF7AB75C06F7A9"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"F27C826725247E9A374F8B7E549A48E2"
+					"encrypted_size_2"		"E1ECE471102CEA7BE624B087FE62F7E3"
+				}
+			}
+		}
+		"261651"
+		{
+			"name"		"Cork korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"660860124155434609"
+			}
+			"maxsize"		"551540033"
+		}
+		"261643"
+		{
+			"name"		"Cork Patch Data"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7190212040507212216"
+				"local"		"4691606509848813571"
+			}
+			"maxsize"		"3450256727"
+			"encryptedmanifests"
+			{
+				"carcosa"
+				{
+					"encrypted_gid_2"		"1D0DC5ACAC5608DF2E00C0ED3E06C94B"
+					"encrypted_size_2"		"F84F4EBFD586C2DAD61A2511AC9DB3DE"
+				}
+				"cleveland"
+				{
+					"encrypted_gid_2"		"62E8F3D1189392FAD1B8A12943FFF395"
+					"encrypted_size_2"		"B7D6451396E0EE65563871AD4B0692F4"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"6EDBAC88CEED7B3EED924B3ED582369A"
+					"encrypted_size_2"		"F8A6DE44B924BE44E1E2BD26008869DD"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"7880212DC999665E1ABE6292028EFC2E"
+					"encrypted_size_2"		"FADF5D69C0D737D00CCAF13A8235B791"
+				}
+				"merge"
+				{
+					"encrypted_gid_2"		"9B40BD823A5491FDFF8063B0930FD2F2"
+					"encrypted_size_2"		"FBB19B52CD0D9758A8B9B56AE948CF5A"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"145A5E1CBAA334A93A6FBF7856774A94"
+					"encrypted_size_2"		"6E46EEFCF682564587CD2989FC0DD9D5"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"E9B434C7319B59B4B38DCE101BD9C698"
+					"encrypted_size_2"		"D86B553CED09ECD3058E5AE4AD1693E9"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"062F92167BF96A722A45051D7D63C36A"
+					"encrypted_size_2"		"ADC6AF5B95DEE736A6CE7BC26E9B64BD"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"8176F68B08CE9E0020037DB1B63BB99B"
+					"encrypted_size_2"		"3886628433D0C66AEFEED2CD037A828B"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"56608F8E3A407CFC9727A40E25AC8252"
+					"encrypted_size_2"		"734B556C9BF1F8090196A5DB62CD1F2F"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"8D412A5E19D32A0A33D2DD2A96ABA1E9"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"8667DF787454EF8C69AFBB95F0F956F8"
+					"encrypted_size_2"		"501274BAFEBF36B3CDAD0E7C2C23E64A"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"D941AB8E64CCC04767D3F171409339EB"
+					"encrypted_size_2"		"1BA3657FE93F3940A9D97DA5E19C4540"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"81EB05AE479661D870465F7F1425318C"
+					"encrypted_size_2"		"871C2C490EC3826E5ED3EF88FF3D57E5"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"ED8C23965BDC1956E8BE5DB20843E129"
+					"encrypted_size_2"		"51A55A1C98CD7EE041C9C63236EB9838"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"5EAFD76B233B2A85687981EF57F30E69"
+					"encrypted_size_2"		"AFF5E26E046B5083D3458CB1993A62C5"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"6D83DD9BB609736551AA2D00C3D1F1F8"
+					"encrypted_size_2"		"761BAC06E03504235E5D7EECE88D2141"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"E83E44ECEC754739138717A6E30721F6"
+					"encrypted_size_2"		"71BD04F3DFFB9281BFB2B7341B30F094"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"416587593AB31C1DAA62AB3E7750A90F"
+					"encrypted_size_2"		"6B0829681A04DB518CC238F0ED1C8DF5"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"D83EEC6CB3DB358AD032051443A409D9"
+					"encrypted_size_2"		"6059860EE4F0A657482214A4C88B257C"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"D05007D5C68F491125697E305ED91670"
+					"encrypted_size_2"		"7929D396EDB54A1D648A749C5F2436BE"
+				}
+				"riel"
+				{
+					"encrypted_gid_2"		"53514B405508EAC4EDE8838F605A01C6"
+					"encrypted_size_2"		"EC9F7987FCB6D74D43DEC31E14207F5B"
+				}
+			}
+		}
+		"289880"
+		{
+			"name"		"Freesia (289880) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289880"
+			"manifests"
+			{
+				"public"		"4913404189492313035"
+			}
+			"maxsize"		"48"
+		}
+		"289882"
+		{
+			"name"		"Cork Freesia Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289880"
+			"manifests"
+			{
+				"public"		"179016851827078781"
+			}
+			"maxsize"		"48"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"371332879328AFCAC0CDD4BB10BFED8D"
+					"encrypted_size_2"		"889A5A9D99AD1377D32F35F0CF4B2D3D"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"691959406D675F243492AF5BF4E6606A"
+					"encrypted_size_2"		"321D1D532C1370012B71C5969F2B3275"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"462966D539C3488884268AA2072D6923"
+					"encrypted_size_2"		"DDA0F09BB00A8230EDCF6D279B4C4820"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"56BBDF76E1E50EA82B5CEE41D0F6905D"
+					"encrypted_size_2"		"F4DBBE7C19D6C75F0B13E102187D7FBB"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"AA6C2E8283B25680BA5F257BA7DB7902"
+					"encrypted_size_2"		"63B7F2B5E6180916681B47766D791094"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"2E50CB870C42F8811D89932438FB3445"
+					"encrypted_size_2"		"8FFA48B62927E47DDF3A67BA51F0D5A7"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"560135ED93E3B662451810D3C524FDD8"
+					"encrypted_size_2"		"D8A2A94837BC162E6413DE3C532AA362"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"D5FE336BD17522BF675C06BF2EBBA5AF"
+					"encrypted_size_2"		"F6957CD45F1A71FB4BBD673CD585A3E4"
+				}
+			}
+		}
+		"275690"
+		{
+			"name"		"Cork Quince (275690) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"275690"
+		}
+		"275691"
+		{
+			"name"		"Cork Quince Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"275690"
+			"manifests"
+			{
+				"public"		"932268653227872807"
+				"local"		"3385269147999208900"
+			}
+			"maxsize"		"171797300"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"68C5D060FB6BEEB29104E61F3CE3B3A9"
+					"encrypted_size_2"		"87677736F5AD8B9DEA0022FC6B306AEC"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"09D7ECF15A2083BD4A935D3F31D73246"
+					"encrypted_size_2"		"06D3630967ABE5085066593C77F58222"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"0476774B9DAC55A14B4E8D6F8D1F4E35"
+					"encrypted_size_2"		"6DD4EEB1AF6108C14393C914F058A7D9"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"63F878D1AF899B4D75EF7FE7866F95FC"
+					"encrypted_size_2"		"C1A2806E118B64461050B61D550C364B"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"9D3C13B3386B4B610EB86AB4266AB8DD"
+					"encrypted_size_2"		"5EC5F5E5CCF0890B79BF02FFF432B866"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"6B58774110278A025EB352514FE67B16"
+					"encrypted_size_2"		"D9F50C2F148EC62E86FA01E7E3F7F429"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"CF21C832312E8FEA92262A7FECBD7BF2"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"BA46A18B88D24BAB0DFEA8DA4268CED9"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"96B7FACC855B05DF6969D0EC1B216CBA"
+					"encrypted_size_2"		"D4E89E8FAEA56EFB944D557375FD9A5F"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"EE32967C62695ED70D625A88BD75D1DB"
+					"encrypted_size_2"		"6059860EE4F0A657482214A4C88B257C"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"7CDE3ED2E950459640CB7143F908EE7D"
+					"encrypted_size_2"		"7929D396EDB54A1D648A749C5F2436BE"
+				}
+			}
+		}
+		"289881"
+		{
+			"name"		"Cork Petunia (289881) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+		}
+		"289883"
+		{
+			"name"		"Cork Petunia Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"5575282719852758303"
+				"local"		"615325264727367063"
+			}
+			"maxsize"		"505510688"
+			"encryptedmanifests"
+			{
+				"cleveland"
+				{
+					"encrypted_gid_2"		"4263929AFA41843859257632F7D555DB"
+					"encrypted_size_2"		"58DD04FE7D244C5DE8B4E8BA1318B9E4"
+				}
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"CA1242EAB8E0F2D1DEF5C28BC9174D0B"
+					"encrypted_size_2"		"27D9A41A145FCBC54183577E87896F21"
+				}
+				"compatibility"
+				{
+					"encrypted_gid_2"		"6FB88EB0CE24E74BAA7BB2CEEAF65051"
+					"encrypted_size_2"		"671FBBBDE71DDC609CDCD0446E03A2B8"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"392EF7530AA30986BD9B0DEC4D3EF045"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"omaha"
+				{
+					"encrypted_gid_2"		"8F91D89ECE795803CAB72F8D1FFB1BCB"
+					"encrypted_size_2"		"56850BE4E22432E1791630B29CB51E0A"
+				}
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"45C5DE4A9A9BF67E101D8AC13683F43C"
+					"encrypted_size_2"		"E13E3CADB85974939F01BD01A990E0A0"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"D5AAC54F5A0E6794A1D15E2318F5BDF1"
+					"encrypted_size_2"		"0DAC3EB3368B5BA492C61A31E15B1527"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"7D78E50C3A8E9FEE54049FCFF51F62FD"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"A0FA4A0B00D7E6EBA880777D91122396"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"C0DBEEC937C6A494B5BDAD7B598A206F"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"D145B92540CD8C984301D2206BFFC2C1"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"F17C6E46AE33E591ED780F81D1C36727"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"083A1F7AD05F3F0F6D55C3D2E4086DA1"
+					"encrypted_size_2"		"6059860EE4F0A657482214A4C88B257C"
+				}
+				"ratings-noportcullis"
+				{
+					"encrypted_gid_2"		"4D0DF78E329E9E52A5EE7B43E767DA2C"
+					"encrypted_size_2"		"7929D396EDB54A1D648A749C5F2436BE"
+				}
+			}
+		}
+		"289884"
+		{
+			"name"		"Cork Petunia English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"457111691739306184"
+			}
+			"maxsize"		"62685750"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"DFF3F4E92A7D62F01D4C5F47AFEEB601"
+					"encrypted_size_2"		"45F527E8B2B1F86595EC363F2156FACA"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"FDF9EEEE767BA35F948DB62F898FB3A5"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"D045DE25E8AE184BD0ED2F54A0333836"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"F0D056B708CBE9CA5BC347DD79191FF0"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"AA71FF7EF2E1AA7699A61FBBC0E32CD3"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"FEE63D979A060CF6B1D2EA6E789513A9"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"B535495881CB65A5E312258A09B29D7D"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"289885"
+		{
+			"name"		"Cork Petunia French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4125701774394873714"
+			}
+			"maxsize"		"51551749"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"E2DDBBBE2D4E974C16A135685137672B"
+					"encrypted_size_2"		"E0F9E56313F76583E4B27F3FD57D5C57"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"0EC12EA552984000843BF3E632E47815"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"6C8209D96FEEAC494F2B279FEB2D2E3C"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"61893AFE784C4E832E9424A7D29E766C"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"7972D188253A9A427D7C542CBB318B18"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"C4697B49E158960A740DD02ACA6A771C"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"E19949423376D7B23896A5221D9E2A3C"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"289886"
+		{
+			"name"		"Cork Petunia Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4006411532794082708"
+			}
+			"maxsize"		"54048038"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"09A1CCCA5585646B54162F861F11564D"
+					"encrypted_size_2"		"501655252915698664908C249EC2213A"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"34AA45FA9032C57F5F2827A4CFD090BA"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"7740C1DCB676598396D484E5980C4714"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"DAD35ADF47A674439DAF10EF9FC21E37"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"9E0D71DE3C677E48F3128E410A5E83C7"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"66E85D7D935F7F4A9ED3731BBCD3EDE7"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"6586EB638F1410F4395E5C44D166895C"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"289887"
+		{
+			"name"		"Cork Petunia German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4929564132559191344"
+			}
+			"maxsize"		"51897823"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"B57183A46A2D0F8EA417503DB2180240"
+					"encrypted_size_2"		"67737F0177C88FADD77F496C0C41C7F7"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"5702329FA345D2649BEA3C1077B1BDD1"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"C015DC96453D647E4C9E7FA045B635D9"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"6259BA07D1E156F5FEE9A706B7BA35DF"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"FA5ADB7B236AE4C41BABE3A71F867914"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"BC063016B35FB80B4641D41CE8AADB5A"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"3CDF064951DB24131CD686C7F81B2318"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"289888"
+		{
+			"name"		"Cork Petunia Japenese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"9178175411333189947"
+				"local"		"3697448985298899698"
+			}
+			"maxsize"		"69650469"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"650434E5190223CADB7C94AA63871661"
+					"encrypted_size_2"		"745165432B267F83BF89D770E4223798"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"2E96ADD70026BA21B8A0BBD5DC69208A"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"7B53900F0B008D0133FC005EB4D30C64"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"28B33D5CDD05604C6455B123EDCDC380"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"2E20540CFA858F8EDFC70B3739A4E9D1"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"F447D7460592B24FADBC0416A554204B"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"655912E563783A2A9CC09D444C7F5CBD"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"289889"
+		{
+			"name"		"Cork Petunia Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"2804230181704548688"
+			}
+			"maxsize"		"50731116"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"E7AD2B680A0A58B056673157DD98CF76"
+					"encrypted_size_2"		"7CEBC85C79B08864D9618CF0C9F55F65"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"A03EDECFAC46775FD2D062CBBF8670A6"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"patch"
+				{
+					"encrypted_gid_2"		"1D8B75E0AC1080588527D6FFAB5C556C"
+					"encrypted_size_2"		"73937E319A8F2CF96F94D3E5BED6BFD1"
+				}
+				"pcship"
+				{
+					"encrypted_gid_2"		"F964112BD5D5997439E179C382D812A8"
+					"encrypted_size_2"		"DC80B7239DFFD208ABAC663494CAA7A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"2AB5399B616F86BF21A5A1DD469B7134"
+					"encrypted_size_2"		"F0A4BEBBA44239C857AEF132A30916D1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"4A6482DAF318C63AEC1B61FFE430A1F8"
+					"encrypted_size_2"		"E5AE47028CDC0F390C36B7FFC9872CE7"
+				}
+				"pcship-quince"
+				{
+					"encrypted_gid_2"		"CD76BFE988F6394355CCA6D0BD392D35"
+					"encrypted_size_2"		"985AEA797C3D6B872678AC72782F4E8E"
+				}
+			}
+		}
+		"261658"
+		{
+			"name"		"Cork Petunia Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"364513269183016388"
+			}
+			"maxsize"		"62685750"
+		}
+		"261659"
+		{
+			"name"		"Cork Petunia Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"886517267566333417"
+			}
+			"maxsize"		"62685750"
+		}
+		"314870"
+		{
+			"name"		"Mac Cork Base Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1246103540668831586"
+			}
+			"maxsize"		"6837465626"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"67C68F5C0C8DD98C713E92DCDC6CB304"
+					"encrypted_size_2"		"642F93F57171B7C5F31B8352BF143CF8"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"1327D1059337114BA04A14B93C8223A9"
+					"encrypted_size_2"		"946DF375F5014638B9FD23298806C1B5"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"C194C331E6CCCA5DA1B1D56332D3AD83"
+					"encrypted_size_2"		"44C0B0F9B3217AA5001DE9F5A75C1909"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"57CBEFD9F0A4086A579275DC4208D205"
+					"encrypted_size_2"		"EFE3BAF0F2C07ABBAC130BDB7A5949CC"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"28A24D761C126D159C7A9EAEE9D81E5D"
+					"encrypted_size_2"		"02359FA371CC3B20B8F288E8A49CD820"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"EAEFE6B0F1F8C8A3152DB33297C155A0"
+					"encrypted_size_2"		"92F4A97A05018DE4461A3BDEA2B36E19"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"9F0EA52CA11E9E3FC57A8E9F6DC0DB1D"
+					"encrypted_size_2"		"EF5D9E94B36CDA5923223CBDD02205EE"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"F8066F67094D93F69D24A3FB70E7163C"
+					"encrypted_size_2"		"A5814C22D987819EDD269BA336E959D1"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"05163742D5ADDD67F5E9D95E93FB5B0D"
+					"encrypted_size_2"		"23A577E36CF6045B77A0B08287A00973"
+				}
+			}
+		}
+		"314871"
+		{
+			"name"		"Mac Cork Executable"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3053519747637319060"
+			}
+			"maxsize"		"86585396"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"FA7101AC7922105828E4B2FF101455CB"
+					"encrypted_size_2"		"77ED1281431685B7C8F4D156509C52BA"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"DADF5548E77830C5698F6F726F704F2C"
+					"encrypted_size_2"		"91291D2D248E179E62E58E90A464A125"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"E927B832E430146D32AE958FE6F72C5F"
+					"encrypted_size_2"		"C63487C34DEFA15F32214A13D0D0C26E"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"AB78EA9D899A4E7110BC69A8961FFA4B"
+					"encrypted_size_2"		"065FAC28160A31CF629DA1E0A445563D"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"D689F32C27C0ED1D936AF7799DB99860"
+					"encrypted_size_2"		"A8CE323C1367198BD10F8E7947DE1D9E"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"5208FA51C5101C2EADD42E050BDAAF2F"
+					"encrypted_size_2"		"0791B3D8D30E3C048D8423BE2C0863EE"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"E695A6DFF0CCDBEAD0B1F25CE4F2AABC"
+					"encrypted_size_2"		"4FADAB0E27F49B4D834D56C2B885A134"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C7D3C2E0A7622B4729054F0A6606FC4C"
+					"encrypted_size_2"		"E355D3C1528CA943E8A467FC22352A87"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"31AEBB453A77F91246124762DBEC70DB"
+					"encrypted_size_2"		"4FB04B7192D1423CAD08E0347C573C4D"
+				}
+			}
+		}
+		"314872"
+		{
+			"name"		"Mac Cork Patch Data"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"314873"
+		{
+			"name"		"Mac Cork English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1618608229474831162"
+			}
+			"maxsize"		"606027122"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"9EB5D236C65022E3FDAF2B95F9DEF7A4"
+					"encrypted_size_2"		"D0C4F126CEC2CE68B6A04E52D7D9506B"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"6DE5DD30FD1E137E0202B6A6047E464F"
+					"encrypted_size_2"		"B4FF724A66B3EFFD21543D5B90DF11DE"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"F7A52A3C33BC1CCAA064913EBD9EB11A"
+					"encrypted_size_2"		"64566BB673DE1216F87B1EE0C1D262A1"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"E172B34CB39E045CB076E86093C1F1BE"
+					"encrypted_size_2"		"39F3069D6382F6AF36C2A736AAF169E8"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"066EF0875BB4CC5AEF1152BD7F14EF75"
+					"encrypted_size_2"		"3A7D12FB2D671B67AA00AEF75197EB7C"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"F57D99745E2C7B3133681129A553023B"
+					"encrypted_size_2"		"F42BBA01F9CB4D0A1C400A98411D25D3"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"247E991C906DB7BE6A4A6ABDC81CE3E3"
+					"encrypted_size_2"		"2AA868FA604B227C0722C42D27F3B86D"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"E7E22C1B58113ACB4C9248DA93B6D41A"
+					"encrypted_size_2"		"22756CAEF14B9F7E5B8A12B07DC53E9B"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"5CD11584FBB350DDA4DCE5CDD2CB1927"
+					"encrypted_size_2"		"61D2BE6A546E4A9F1FD95E159FB454B3"
+				}
+			}
+		}
+		"314874"
+		{
+			"name"		"Mac Cork French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4131354972739059818"
+			}
+			"maxsize"		"613876735"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"E85DB6C82E62EF5226B1324F5B17D827"
+					"encrypted_size_2"		"ABBB0A39EB7A649E16F8686405B9C130"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"666CDFAFB5F5351F0099BD842AD3D02E"
+					"encrypted_size_2"		"C44C608EFDDD4423A2910F9B7DF74BBE"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"DF8A855955FBC8BBA1CDF2E44E029411"
+					"encrypted_size_2"		"C2E0C1E1399E67BD56F717F7BFEBBF0C"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"7D1840B4C51620A306C3445DC3567B29"
+					"encrypted_size_2"		"1B1254ED6EFD05900AD8C6F125B07FEC"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"FEE1093EDBAFDB137991454731775DDC"
+					"encrypted_size_2"		"E01E6E6F4C009E5B5F17D17658A06874"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"BCB93BAD3EACD7831B3B22E72E6F1E40"
+					"encrypted_size_2"		"23362D9C916BA48AB4160CB2EEC313EF"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"67F3F6F97B26A48E54E07E5DFFAA86A3"
+					"encrypted_size_2"		"6622465B8D7173BFDCAE852B2327DD57"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"E38D8C00ED498B8FB1147A02DF53C389"
+					"encrypted_size_2"		"37A1B75732A1C2B6F5BDD58F50907AC7"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"1956EBD9A2D86338BBC3D2A510ED8F50"
+					"encrypted_size_2"		"72DA1642F3AF63B4CBFDB9A7B0F20717"
+				}
+			}
+		}
+		"314875"
+		{
+			"name"		"Mac Cork German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5933502300825506223"
+			}
+			"maxsize"		"627981661"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"FBDD28DAEF947F64550DAE3A208009CC"
+					"encrypted_size_2"		"F1E07D15078BFE25B70FDE9FB0DF6417"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"BAF710BDC0829D78043C5A6BB2E73A8B"
+					"encrypted_size_2"		"EF95AD1AF2CD31D02B1365CAB66807B5"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"A970743948382E0C9E9590863BF8413C"
+					"encrypted_size_2"		"E1530E10B58E0E626007A03A48A7F844"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"F317183524D8D6FD4A2EA9513B27488C"
+					"encrypted_size_2"		"80C5387C018BDC01CB5A931CA019520D"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"2A12718818E462F97BCC7E770205982D"
+					"encrypted_size_2"		"74D47B509DEF712C2B11DE3E182AC77B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"82A284D4768F3C918E24795D1A5A5C24"
+					"encrypted_size_2"		"98FA015BB06B888429CDF3DA8302FA3A"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"F97509077D95DFFA9314ADCF9C8C677E"
+					"encrypted_size_2"		"FF0853DF547A2D21A9CC7B7C2EF4C793"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"14E2A60BB8524D032BD4F6BBD076DEAE"
+					"encrypted_size_2"		"1BCB5D27625142CC37D97ECF3EF12F51"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"DE79F22979D688A8A53CBAC1E2E24F46"
+					"encrypted_size_2"		"0954AB25DACDC4709B319B5B32B9E2AD"
+				}
+			}
+		}
+		"314876"
+		{
+			"name"		"Mac Cork Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5718297941383197715"
+			}
+			"maxsize"		"646286651"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"EF548645F24F0ED61B01F0C40AACC214"
+					"encrypted_size_2"		"EA7D0884D1FD322FA378832AEF2108EB"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"B03C66EF8B24761D258ADDCF2B2395EA"
+					"encrypted_size_2"		"E699315695C714F1FB790DDA9FF1800A"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"35C24C044EC1B8BFE7B5EFA2C62DE82A"
+					"encrypted_size_2"		"E75D3FA15A51A3649CA595DF6ECF2196"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"4CBA62E8A6FEE5794A0B05098413DFC0"
+					"encrypted_size_2"		"27EACEF855EC500C33FA79835BAC5EC8"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"4F8FC29EFB66A9A30399638DCD17D77B"
+					"encrypted_size_2"		"FD3A5DE55D52F87A8A759622BFB7DDDB"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"C79BA1DEF8F2BAAA0DE7C1CCA6A34039"
+					"encrypted_size_2"		"EBD7D498635C6372F66C5D512F8F3D3B"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"528B70A027F3CDDB4C238D0AA40A8F0B"
+					"encrypted_size_2"		"62770B2E51F7F56A5C4BE090F4D1F802"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"4C3508F38652FB9C2A8D458AB6A9EF4E"
+					"encrypted_size_2"		"EED4E5B170CEAC8ACA5A939FB268A3E3"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"B98B2B62F43C565850CCDB8913D7F3A4"
+					"encrypted_size_2"		"F9D25B96D7A53CAD74389F5FD7C7C0FC"
+				}
+			}
+		}
+		"314877"
+		{
+			"name"		"Mac Cork Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3974458939664345771"
+			}
+			"maxsize"		"611556507"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"378DF6DBF66B7246A2D1F9A5A9CC0EEC"
+					"encrypted_size_2"		"D5155FE5795622C29B90183E89271FEA"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"ED46B4C9C2FC6CAB7AB66270988064F9"
+					"encrypted_size_2"		"988EE2D43782FF8AC395EE55FADDF43F"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"917EA4FD0B331BC03C638CCE25E467CA"
+					"encrypted_size_2"		"AB5D22FEBF7B58278B17241383861F11"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"E4EDB0678ECF324C95B828171EAC669E"
+					"encrypted_size_2"		"5BDE6FB7B43C03E50312A791400ED5A1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"BEA0D84C8E574F6C3BB3C243758A6229"
+					"encrypted_size_2"		"0E22A5027D27EC67EF93AA29F0FBC99B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"5EECBB603EE305BFFD2B4308D91A341C"
+					"encrypted_size_2"		"1C0E6FDF0E9A83602FB6E182168E9A57"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"A9B22272B20B12FF405030409F4AEB94"
+					"encrypted_size_2"		"3040251E20DEE16D26E311E19605F194"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"463458D9385D0F7DCD6F2C486B47D721"
+					"encrypted_size_2"		"6D84E7A6DA5D02C7B20B3BFF2D31CC8C"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"640C1F69CD3112A7BB01F0BDE2EDA783"
+					"encrypted_size_2"		"2E054D037F9B5957FE07B6931F7C62B8"
+				}
+			}
+		}
+		"314878"
+		{
+			"name"		"Mac Cork Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1902145686349629088"
+			}
+			"maxsize"		"610873908"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"D726BCFDBEE4D3205D477BD712E77FE7"
+					"encrypted_size_2"		"9BEDB118950B1D06EE129BA7F44962DD"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"BF181D55EE3751A1C8B85AA486F9DC7D"
+					"encrypted_size_2"		"7976C41D8D888CD74556F12AAD9AC60F"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"0C2E8A59F9655CD07145E7CF61D605F5"
+					"encrypted_size_2"		"C8B954756A73FC48290F7F4C3D30EEA0"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"20104A383C3E4E4A69482CD89D3D1228"
+					"encrypted_size_2"		"12DBB606A38F6985E5677AB626BC1EB6"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"659DA10061EDC0703CD20A0608774E8F"
+					"encrypted_size_2"		"1E0C6345D1014890E8D233C13424D44B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"F6BC80E460947B72C90E152222AE3C88"
+					"encrypted_size_2"		"53B7F6D3CF2F692B795303853E20B46D"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"38FEE45EF333079F4F1A08C53365A26C"
+					"encrypted_size_2"		"B43F53FFE0D8AAE4E25A1FE814C9D6E5"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C7F13FA596EA23B6D502B8141CDCF463"
+					"encrypted_size_2"		"BECC17D8740AD0FD8C59DAC9E88F34BA"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"58532D1B65504E8DA0DD15F507A34A6C"
+					"encrypted_size_2"		"896739BDB5C970343B418C93A839D37B"
+				}
+			}
+		}
+		"314879"
+		{
+			"name"		"Mac Cork Russian"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"158731156514379982"
+			}
+			"maxsize"		"610590234"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"5F227E081DD1F623484A89D45458AD19"
+					"encrypted_size_2"		"87E7E11FC84AB40A47C560A3A267A18E"
+				}
+				"omaha_verification"
+				{
+					"encrypted_gid_2"		"12FA85E04E07033CF1D531557C71CFC9"
+					"encrypted_size_2"		"18E19428374A2CAC9FF89C20EA93008B"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"65E757FBEC7AB3A8053505B9737EC398"
+					"encrypted_size_2"		"A1D39632A886472E4744B1AF2B5EAEBD"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"EBEFC8C079EF3307D41769EA34C3C4C6"
+					"encrypted_size_2"		"29AD8E9F358B7A1427515F451B9403BE"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"69A90D65B6EA11E35F3622EC3A11D9F0"
+					"encrypted_size_2"		"F5493BB8C48FDCB665DB823A46DF5860"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"CF6E6F1527464E29DB601859A58E35F9"
+					"encrypted_size_2"		"37B674460B412F0DBA776490DD9EC5C3"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"CB8C335CD20F90C49D87E4287053D0E8"
+					"encrypted_size_2"		"82E0759BD12969AAE38E85B31D4333D4"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"2A188381A7D0B4D57D4BF6554440E10C"
+					"encrypted_size_2"		"4137186D137AF1EA41F159DAFA444D45"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"F0FF58CAC37ACBB2F0899842F7726353"
+					"encrypted_size_2"		"5C4CADE549426CCDCE1FDFF86813282F"
+				}
+			}
+		}
+		"314880"
+		{
+			"name"		"Mac Cork Quince Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"275690"
+			"manifests"
+			{
+				"public"		"4609984822988071195"
+			}
+			"maxsize"		"39"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"622F65E1F56981852667932DBBE1B914"
+					"encrypted_size_2"		"3479A47FC8007504E19A9131F5C4388B"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"1B09A60865C860667A7715D836942E6C"
+					"encrypted_size_2"		"1A373BCC668A9409ACC27479282576A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"81742BE8EB6977509C648491555154B8"
+					"encrypted_size_2"		"7193EC75D05CDCFF046EC0A148E0228F"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"8B87AE8A9DBFBE52214B06C05624BA78"
+					"encrypted_size_2"		"984CCBBFBF565E4C1E4250F0F813A602"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"C5ABFD062ADB29C201600A476361289D"
+					"encrypted_size_2"		"698AA54EC8FBB5DFA7B431B77EAF7324"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"B7E9168FFD448F0A035238D02998FAE8"
+					"encrypted_size_2"		"67804DC60EC1A10E6DACB9915E333EE7"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"1B8FA03D3B88CAB5383B93B43C0E5AA3"
+					"encrypted_size_2"		"C47859942EBEAD3C1D7735B5E0B99537"
+				}
+			}
+		}
+		"314881"
+		{
+			"name"		"Mac Cork Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1808624040742125904"
+			}
+			"maxsize"		"610264810"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"4B9BAA2C7FC1569A79EF7853E2936984"
+					"encrypted_size_2"		"2F02635E124B20966C4C658329608587"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"9C8A7DEE344C2103E90DE52D6578A7F0"
+					"encrypted_size_2"		"64566BB673DE1216F87B1EE0C1D262A1"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"7C3496500ABF6997E70BB897FD208781"
+					"encrypted_size_2"		"39F3069D6382F6AF36C2A736AAF169E8"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"B3B990D59012AFFDE7956B589CFD8936"
+					"encrypted_size_2"		"3A7D12FB2D671B67AA00AEF75197EB7C"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"EBD52F0F17BAC60089823DD6E393898D"
+					"encrypted_size_2"		"F42BBA01F9CB4D0A1C400A98411D25D3"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"E6380BBDAC983F6DCB3AA9B60504C49D"
+					"encrypted_size_2"		"2AA868FA604B227C0722C42D27F3B86D"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"B52B16C0699DF641D4DB6899EEC3ABB3"
+					"encrypted_size_2"		"22756CAEF14B9F7E5B8A12B07DC53E9B"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"221090DC9C1348500FA4733B7E670BB8"
+					"encrypted_size_2"		"4BB3FEDBC4292863BA2A5B019C5B4168"
+				}
+			}
+		}
+		"314890"
+		{
+			"name"		"Mac Cork Petunia Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"3181652486979811205"
+			}
+			"maxsize"		"60521640"
+		}
+		"314891"
+		{
+			"name"		"Mac Cork Petunia English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"1808564520277610667"
+			}
+			"maxsize"		"62685750"
+		}
+		"314892"
+		{
+			"name"		"Mac Cork Petunia French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"690804858578505914"
+			}
+			"maxsize"		"51551749"
+		}
+		"314893"
+		{
+			"name"		"Mac Cork Petunia German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4432220276664890801"
+			}
+			"maxsize"		"51897823"
+		}
+		"314894"
+		{
+			"name"		"Mac Cork Petunia Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"3027109272868467801"
+			}
+			"maxsize"		"54048038"
+		}
+		"314895"
+		{
+			"name"		"Mac Cork Petunia Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"3789833835039175156"
+			}
+			"maxsize"		"50731116"
+		}
+		"314896"
+		{
+			"name"		"Mac Cork Petunia Japanese"
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"japanese"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"7242020025912139485"
+			}
+			"maxsize"		"57948475"
+		}
+		"314897"
+		{
+			"name"		"Mac Cork Petunia Russian"
+			"dlcappid"		"289881"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7652601424493515429"
+			}
+			"maxsize"		"62685750"
+		}
+		"314898"
+		{
+			"name"		"Mac Cork Petunia Korean"
+			"dlcappid"		"289881"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3704909337653871828"
+			}
+			"maxsize"		"62685750"
+		}
+		"314900"
+		{
+			"name"		"Mac Cork Freesia Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"289880"
+			"manifests"
+			{
+				"public"		"7689641711241287826"
+			}
+			"maxsize"		"47"
+		}
+		"314901"
+		{
+			"name"		"Mac Cork Crocus Content"
+			"dlcappid"		"321430"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6708274449606147938"
+			}
+			"maxsize"		"39"
+		}
+		"314910"
+		{
+			"name"		"Linux Cork Base Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3038423491993258925"
+			}
+			"maxsize"		"6839208271"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"EF4B385EE8B3E977967CDF2E0E08C64A"
+					"encrypted_size_2"		"1017F3AAAD051849E4FEB912273C8BD7"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"05E5D9A417D207994880965C2ADF36A9"
+					"encrypted_size_2"		"2B5DC65FB56E89874F1FFAFF2066374C"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"7C2A495D7E2A025241F161E1F8F60BE3"
+					"encrypted_size_2"		"8B21F588537951A6E82BAF5DAA0C630A"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"8F120D505FEB9E8915E6E8A5DA05F9C9"
+					"encrypted_size_2"		"9E57EB92E8681AAACBB1455F29710751"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"F20D5C31BE251604BF9DB92596DA5F97"
+					"encrypted_size_2"		"CFF2752C78D844DFDEBA110C65DAE4EE"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"6238C2E277852F0A61F7E2A919E9D53D"
+					"encrypted_size_2"		"A97C50726DFAA149DF36E2EF59EB43D5"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"B91D84F16A183EF8D3FF2A869744A97F"
+					"encrypted_size_2"		"841DD054D9E30AA5FDA2780A4D85DF32"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"C9B8729F62073E02C6F230A6B25AAB86"
+					"encrypted_size_2"		"39A3558145858A5BB601AEFEB5C36CB6"
+				}
+			}
+		}
+		"314911"
+		{
+			"name"		"Linux Cork Executable"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6785213334612691205"
+			}
+			"maxsize"		"45422100"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"83F018FE293FFCF7E7A86DB852659797"
+					"encrypted_size_2"		"0BAC29B73E324E155239ACF806068EE4"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"2CE7EA1F1F337E802ED1B1E28D8DB05D"
+					"encrypted_size_2"		"D4526886467A76EA2E1DE65CFE0D9203"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"0588A8C26246303DF0F39C40D901B152"
+					"encrypted_size_2"		"C907B981E59D8F16A7B8429D3AD51E5C"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"02B46A759633C6F38A9DD3F5D2A0022A"
+					"encrypted_size_2"		"FEAD3222F8CBBD87C8A3A222D521EC04"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"3698EDF96198604320F32F6238406260"
+					"encrypted_size_2"		"488A26E3E4915B71A2C8AFBBE08AF9DE"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"C5904E958ECA699BA9EBAD3EFF977674"
+					"encrypted_size_2"		"F594EE1419A48F756B343C5B41B44711"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"E233E232BDB506CF56C678F0C518B168"
+					"encrypted_size_2"		"32049C97059B6B17915B2994AB665FD4"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"8EE3ED000793D371AC7915E93F1D578D"
+					"encrypted_size_2"		"B5ADC146EF3CF769BF61634E9822223A"
+				}
+			}
+		}
+		"314912"
+		{
+			"name"		"Linux Cork Patch Data"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"314913"
+		{
+			"name"		"Linux Cork English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5134909927363604063"
+			}
+			"maxsize"		"606027132"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"2EAFF300584ACA5F406B755F030A4E04"
+					"encrypted_size_2"		"F2CA46532BE1EBF1D3600800F99AB470"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"EAC21287BBBBD78E3107F14EDF00E026"
+					"encrypted_size_2"		"A029A5993B71ED5D36B4A8B2499F44BB"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"C242AE1EF26EE55CFDBA244B1B01E8B4"
+					"encrypted_size_2"		"61B4FBD0FC1DBC9DCBA4282DD768AEA7"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"5B7F565BFE4E7AF846643C189B0040BC"
+					"encrypted_size_2"		"DA14AF5F2E0B05346448EA67A9E33C2D"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"81350A8D07EB325EFB3AF6832400A74C"
+					"encrypted_size_2"		"74B441A8F7791059FC87C52D2A1C8630"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"CF4FE1A3D7E3AA2F561477CA8F802C47"
+					"encrypted_size_2"		"0DBD2EB2DE9A4D22C899686E674DD903"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C3F31E3C6DE46F2A550CD3D95D0DDF68"
+					"encrypted_size_2"		"2BA5B2B605E57A082C9C3014D26B33CD"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"780B43079448FFB5BB169238E149B5EF"
+					"encrypted_size_2"		"38B0C60A08CAA07862F9427E3E824BAB"
+				}
+			}
+		}
+		"314914"
+		{
+			"name"		"Linux Cork French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8002428735033220064"
+			}
+			"maxsize"		"613876735"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"A7124AEF172A1FDF54B373651925A769"
+					"encrypted_size_2"		"B96EA5664B71781B978B6D559A1BCD02"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"D60FD8F3D10BF978C4F7CE3188B880AF"
+					"encrypted_size_2"		"C2E0C1E1399E67BD56F717F7BFEBBF0C"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"4A9A23019363779202449875E4A17FA8"
+					"encrypted_size_2"		"1B1254ED6EFD05900AD8C6F125B07FEC"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"F418AB4C0EB38DB731E6F84DA4E5FA07"
+					"encrypted_size_2"		"E01E6E6F4C009E5B5F17D17658A06874"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"811563C934EEE1CFF0B6D7A2C892FED5"
+					"encrypted_size_2"		"23362D9C916BA48AB4160CB2EEC313EF"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"46BE69AEE0AA0BA7571593D8B1AC125F"
+					"encrypted_size_2"		"6622465B8D7173BFDCAE852B2327DD57"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C9178096F1F8AE88494C143428881591"
+					"encrypted_size_2"		"37A1B75732A1C2B6F5BDD58F50907AC7"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"38622B32A06D3D040BE850C8E3920589"
+					"encrypted_size_2"		"72DA1642F3AF63B4CBFDB9A7B0F20717"
+				}
+			}
+		}
+		"314915"
+		{
+			"name"		"Linux Cork German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4879253977694590746"
+			}
+			"maxsize"		"627981659"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"0AB6D799E59AD7F349ACF9E8C2E34C54"
+					"encrypted_size_2"		"FD7001FED78B44274F1472612CC14D57"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"B456481F0A91E6FA9BBBEFC8D748C227"
+					"encrypted_size_2"		"E1530E10B58E0E626007A03A48A7F844"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"EACF9716214F86B459E696482D0A5997"
+					"encrypted_size_2"		"80C5387C018BDC01CB5A931CA019520D"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"FA8291A93D23EF46FE0F3FFC83D52C58"
+					"encrypted_size_2"		"74D47B509DEF712C2B11DE3E182AC77B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"9693BDA9690169C9CDBA6F426830BC08"
+					"encrypted_size_2"		"98FA015BB06B888429CDF3DA8302FA3A"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"F5E2B603F9B3A19C01DC801DAD3E10FE"
+					"encrypted_size_2"		"FF0853DF547A2D21A9CC7B7C2EF4C793"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"2218BDE0F4023E24533535EEA4F992F1"
+					"encrypted_size_2"		"1BCB5D27625142CC37D97ECF3EF12F51"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"5EB9912A44AE0F26F8B9EF884A685383"
+					"encrypted_size_2"		"0954AB25DACDC4709B319B5B32B9E2AD"
+				}
+			}
+		}
+		"314916"
+		{
+			"name"		"Linux Cork Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2574473048467095971"
+			}
+			"maxsize"		"646286651"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"3730163D2945716044B79C08AADC406F"
+					"encrypted_size_2"		"AE66A7E03A1FA2A0968731D484C48594"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"9C591E3AE292219279BE014974E7B3DE"
+					"encrypted_size_2"		"E75D3FA15A51A3649CA595DF6ECF2196"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"00F32FBDF04E81989344D607F8488ACF"
+					"encrypted_size_2"		"27EACEF855EC500C33FA79835BAC5EC8"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"CBDE5AB06FF112D08B9362962F7D4D43"
+					"encrypted_size_2"		"FD3A5DE55D52F87A8A759622BFB7DDDB"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"FA22DC6881827C3708B75C6D9E40EAF5"
+					"encrypted_size_2"		"EBD7D498635C6372F66C5D512F8F3D3B"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"C4CEC926664B6AA444D36AD8E84694F5"
+					"encrypted_size_2"		"62770B2E51F7F56A5C4BE090F4D1F802"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"6A7977F03EA841A95752B5F8A00B8EF2"
+					"encrypted_size_2"		"EED4E5B170CEAC8ACA5A939FB268A3E3"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"A830F34A5D17224F3AB4DA73B580F7BB"
+					"encrypted_size_2"		"F9D25B96D7A53CAD74389F5FD7C7C0FC"
+				}
+			}
+		}
+		"314917"
+		{
+			"name"		"Linux Cork Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5498570426608338156"
+			}
+			"maxsize"		"611556507"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"FC9F0FF043EFBBDEB456C57576D3C320"
+					"encrypted_size_2"		"CADBE938EAAAE6FC011E4D7847B0A249"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"F6B1CAAEB0D41187A123005DB867861C"
+					"encrypted_size_2"		"AB5D22FEBF7B58278B17241383861F11"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"A7C970CBEC18F2FCF57752EBF9C87778"
+					"encrypted_size_2"		"5BDE6FB7B43C03E50312A791400ED5A1"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"F96138FDA77E5C21F00DD13013BFC37C"
+					"encrypted_size_2"		"0E22A5027D27EC67EF93AA29F0FBC99B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"D382B0A9B02843D2C0E4C53F2C365B31"
+					"encrypted_size_2"		"1C0E6FDF0E9A83602FB6E182168E9A57"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"A922542A794022C7407075F1AC8BCC7C"
+					"encrypted_size_2"		"3040251E20DEE16D26E311E19605F194"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"3586456EFE77B4FDA648953C96F3A37C"
+					"encrypted_size_2"		"6D84E7A6DA5D02C7B20B3BFF2D31CC8C"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"0506DE413BEB384724F066DB54170B0D"
+					"encrypted_size_2"		"2E054D037F9B5957FE07B6931F7C62B8"
+				}
+			}
+		}
+		"314918"
+		{
+			"name"		"Linux Cork Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7984847206565412115"
+			}
+			"maxsize"		"610873906"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"E8BEA621F4275AFA72DE828A630DF17D"
+					"encrypted_size_2"		"25B603123F6EB577A3D09455A8B578F7"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"BE428888920512C81777EF8B3192AF71"
+					"encrypted_size_2"		"C8B954756A73FC48290F7F4C3D30EEA0"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"A45BD6DF33D1166B15FDDEBE57EFB85F"
+					"encrypted_size_2"		"12DBB606A38F6985E5677AB626BC1EB6"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"6DBAB9CF57445398A222D44445C2047A"
+					"encrypted_size_2"		"1E0C6345D1014890E8D233C13424D44B"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"42EF098D576C9464D0F172519A9762B4"
+					"encrypted_size_2"		"53B7F6D3CF2F692B795303853E20B46D"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"3F8F6F6F04DAC066D2C418E8C60696BD"
+					"encrypted_size_2"		"B43F53FFE0D8AAE4E25A1FE814C9D6E5"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"A4B06E914591B24B8B5415C2F3FAC47F"
+					"encrypted_size_2"		"BECC17D8740AD0FD8C59DAC9E88F34BA"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"91B46C3442AE52296CAD4805BAC08C71"
+					"encrypted_size_2"		"896739BDB5C970343B418C93A839D37B"
+				}
+			}
+		}
+		"314919"
+		{
+			"name"		"Linux Cork Russian"
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2085010804763755102"
+			}
+			"maxsize"		"610590234"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"3A58CF3DE3889A9552BFCBBCDE3C35DC"
+					"encrypted_size_2"		"E88A4150C4482BBAB9D2C0891BD5E86A"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"7EF146B95B0614DCB15C2C5BE95B9E2F"
+					"encrypted_size_2"		"A1D39632A886472E4744B1AF2B5EAEBD"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"BD766505E25B7017CEEC2F6DCF9A5252"
+					"encrypted_size_2"		"29AD8E9F358B7A1427515F451B9403BE"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"006AF1AC4ADA87914E6410884D203C06"
+					"encrypted_size_2"		"F5493BB8C48FDCB665DB823A46DF5860"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"BF5B174C5BA88BA2AC34BF6F4737DB52"
+					"encrypted_size_2"		"37B674460B412F0DBA776490DD9EC5C3"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"FCE25454013DDA7F3B575F88780B0DC1"
+					"encrypted_size_2"		"82E0759BD12969AAE38E85B31D4333D4"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"6EC1A3CA0A8C5D5C639FA059F0337E8F"
+					"encrypted_size_2"		"4137186D137AF1EA41F159DAFA444D45"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"5D215B70BF579C0DEAB5997ADFF9B4C4"
+					"encrypted_size_2"		"5C4CADE549426CCDCE1FDFF86813282F"
+				}
+			}
+		}
+		"314920"
+		{
+			"name"		"Linux Cork Quince Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"275690"
+			"manifests"
+			{
+				"public"		"1094851238301023397"
+			}
+			"maxsize"		"39"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"5A405466C196EC66F0F2FAAE6A9BEC0C"
+					"encrypted_size_2"		"F9F661D412F36C8300172BED322EA5FF"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"B2574F56B7232E55E58EB6F152CE7787"
+					"encrypted_size_2"		"1A373BCC668A9409ACC27479282576A4"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"F70DE972FD8F756D6BDD0036F843FC62"
+					"encrypted_size_2"		"7193EC75D05CDCFF046EC0A148E0228F"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"98269F446391B7F412F30C8DBB0F4F7A"
+					"encrypted_size_2"		"984CCBBFBF565E4C1E4250F0F813A602"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"6FEA78F06374EF6F68E715CC72E011B4"
+					"encrypted_size_2"		"698AA54EC8FBB5DFA7B431B77EAF7324"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"6ECFAC2776C68B0010BBB44D33C71975"
+					"encrypted_size_2"		"67804DC60EC1A10E6DACB9915E333EE7"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C50AB2E215F15652ACCF09510DD02807"
+					"encrypted_size_2"		"C47859942EBEAD3C1D7735B5E0B99537"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"36D803330A35182497BB5DA0B22E9EC5"
+					"encrypted_size_2"		"252614CA2A17C4767F170245415FC978"
+				}
+			}
+		}
+		"314921"
+		{
+			"name"		"Linux Cork Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7571303894732248345"
+			}
+			"maxsize"		"610264808"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"F9F14274B575C96DFE1F0E4EC2A50FCF"
+					"encrypted_size_2"		"2164A533EFC99CF4E59E93C237131C8F"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"00AA8470A754E52A7E28712C088AC972"
+					"encrypted_size_2"		"A029A5993B71ED5D36B4A8B2499F44BB"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"7E205B6D9835A8E581672C2F7AEB2779"
+					"encrypted_size_2"		"61B4FBD0FC1DBC9DCBA4282DD768AEA7"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"45B12853D906C32655A7E5F57C052196"
+					"encrypted_size_2"		"DA14AF5F2E0B05346448EA67A9E33C2D"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"FFC18BE9B6DF46A23CA048C7408BC148"
+					"encrypted_size_2"		"74B441A8F7791059FC87C52D2A1C8630"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"1E920DAF17BC4B0D9346279220350CDA"
+					"encrypted_size_2"		"0DBD2EB2DE9A4D22C899686E674DD903"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C2AC694D6027D19BD66597466D7F01B1"
+					"encrypted_size_2"		"2BA5B2B605E57A082C9C3014D26B33CD"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"CFB378366E13D06F69480302149EDB5F"
+					"encrypted_size_2"		"4BB3FEDBC4292863BA2A5B019C5B4168"
+				}
+			}
+		}
+		"314930"
+		{
+			"name"		"Linux Cork Petunia Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"7414607274118128849"
+			}
+			"maxsize"		"60521640"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"5FEBA3DAFEEC3192F3EFA21283138FB3"
+					"encrypted_size_2"		"37D2848B87CEF856432B07D79DD363A9"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"F320513A6E2DE970E38BAA5A04FD1EEC"
+					"encrypted_size_2"		"625EF47D987E995A2791861EFBF471A2"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"395F9698FE736C3C66489B9576205CB5"
+					"encrypted_size_2"		"847A1AF7651BED81A5F108464396EDDF"
+				}
+			}
+		}
+		"314931"
+		{
+			"name"		"Linux Cork Petunia English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"1908166978744764298"
+			}
+			"maxsize"		"62685750"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"A823A204DFA04C89E263D80BA9B5BDA5"
+					"encrypted_size_2"		"639DC12D41E86BCDDD9D02C2F7654011"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"F2D3F38EAFCDF6A8C2FAACD9B5956954"
+					"encrypted_size_2"		"2BBE357B73416930A2A4B31355998FEA"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"071C496FBD5EE78C91974A690A8CC006"
+					"encrypted_size_2"		"7B2B4662F93CB762FD01D4B16CED6ECB"
+				}
+			}
+		}
+		"314932"
+		{
+			"name"		"Linux Cork Petunia French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4511212805760519666"
+			}
+			"maxsize"		"51551749"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"EC2F991DE8E50A95E93F9ABA21080A9F"
+					"encrypted_size_2"		"A642276176D8222702E07A5C7FFCE0F4"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"4F01E7CAD14AE9D3769B4E8E8AD8F4FA"
+					"encrypted_size_2"		"92617EBB17090E77A21A5C1EED105F9D"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"C2539DF1CCD8486663F5D83816EDE268"
+					"encrypted_size_2"		"FD036C08A6D76D32FF8B2894ABA7CEF1"
+				}
+			}
+		}
+		"314933"
+		{
+			"name"		"Linux Cork Petunia German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"1536686618009923474"
+			}
+			"maxsize"		"51897823"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"70EA1E4069BDA305725B1A87F1A570C3"
+					"encrypted_size_2"		"8FAE08AA9C9DF3E3CCA03B096295C27C"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"493AF9FB569930A191EBA79D18381F2A"
+					"encrypted_size_2"		"DDCC444C9709387DC9A3B142A2294E0D"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"F2E439FB3C0393C20DC501B94B6AE850"
+					"encrypted_size_2"		"3367D5D9BD6F83E2C7D0B1708A415CD1"
+				}
+			}
+		}
+		"314934"
+		{
+			"name"		"Linux Cork Petunia Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"5697754238402871762"
+			}
+			"maxsize"		"54048038"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"470CEACDACBB93A3F76EF2851002C0D8"
+					"encrypted_size_2"		"568D2BA699BCF9D0726781885FC2A6CE"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"A85A59298AB574D7D052A16F3D1475FF"
+					"encrypted_size_2"		"25F22F195D5182B2D4F2E547A9BE5506"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"E7FC99DD3DEC3B0FE993C044B823946F"
+					"encrypted_size_2"		"DBA0092BD1ACD10F2D4874E1EA5ACF6A"
+				}
+			}
+		}
+		"314935"
+		{
+			"name"		"Linux Cork Petunia Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"4614346836897358098"
+			}
+			"maxsize"		"50731116"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"670DDF3F676AF50A0D34AA51DFBFBA7F"
+					"encrypted_size_2"		"D7079CBC17E33E0EF9388DB8F491760F"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"861D47DDCCDDFCD8477C7ACC2B5AF009"
+					"encrypted_size_2"		"2CCDD27D89A4334E9636E5D9A08942D7"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"B0B93658B3C6DDD017EAFFFC04AA9DFF"
+					"encrypted_size_2"		"6D07D5DFFAE3EFCE161920588B7E1B8D"
+				}
+			}
+		}
+		"314936"
+		{
+			"name"		"Linux Cork Petunia Japanese"
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		"japanese"
+			}
+			"dlcappid"		"289881"
+			"manifests"
+			{
+				"public"		"5058900962583632942"
+			}
+			"maxsize"		"57948475"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"2EADFF7B05A84C060B020E9A7F766355"
+					"encrypted_size_2"		"EABAF3F822605A2A0A4828D89F2A735E"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"670A34EF44486B18105EBE1ADA81DB05"
+					"encrypted_size_2"		"99DFAB99196313DBC30E1FB5D9B63BE0"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"3558EC59ABC101C40C2D2B2F20BABEF6"
+					"encrypted_size_2"		"067BB1D06E7271B7F84E7BC01AA2FC4A"
+				}
+			}
+		}
+		"314937"
+		{
+			"name"		"Linux Cork Petunia Russian"
+			"dlcappid"		"289881"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4321026303866251493"
+			}
+			"maxsize"		"62685750"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"7FE2108F8B102CA02AE8362C409C667F"
+					"encrypted_size_2"		"639DC12D41E86BCDDD9D02C2F7654011"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"5C58758E4A3AFDDA697F35568A6AF921"
+					"encrypted_size_2"		"2BBE357B73416930A2A4B31355998FEA"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"12655C5AAF13562900DB4BF000D0A796"
+					"encrypted_size_2"		"7B2B4662F93CB762FD01D4B16CED6ECB"
+				}
+			}
+		}
+		"314938"
+		{
+			"name"		"Linux Cork Petunia Korean"
+			"dlcappid"		"289881"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2235752192438890225"
+			}
+			"maxsize"		"62685750"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"49149069F4F07ECA23A25B713439B050"
+					"encrypted_size_2"		"639DC12D41E86BCDDD9D02C2F7654011"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C722AB3ACE40807FC9D9B5465FE32F0F"
+					"encrypted_size_2"		"2BBE357B73416930A2A4B31355998FEA"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"7361BF83B83226705C095E13B43C9932"
+					"encrypted_size_2"		"7B2B4662F93CB762FD01D4B16CED6ECB"
+				}
+			}
+		}
+		"314940"
+		{
+			"name"		"Linux Cork Freesia Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"289880"
+			"manifests"
+			{
+				"public"		"6722783656577499467"
+			}
+			"maxsize"		"47"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"6925E911857B957C37CD39330A6C1312"
+					"encrypted_size_2"		"B4780CFBEB26077FBBB654AA59DF160C"
+				}
+				"pcship-crocus"
+				{
+					"encrypted_gid_2"		"1ECD3B7B61F84F63DEAFFC5B302150B6"
+					"encrypted_size_2"		"4AA2D61130A21366654EE02500B31F87"
+				}
+				"pcship-korea"
+				{
+					"encrypted_gid_2"		"822B62DBAFBBC67924B7E010792EA372"
+					"encrypted_size_2"		"87940E1420EFDEA80587DC33F5D68260"
+				}
+				"pcship-korea-quince"
+				{
+					"encrypted_gid_2"		"E6168751E4D3509432F189846920E8CC"
+					"encrypted_size_2"		"85B1F6DA9E613969108A1334B9A46D37"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"81359363283150D7A1BE228E3AA04B66"
+					"encrypted_size_2"		"11FB73AAFD29BFC426B33F8CEC98BE86"
+				}
+				"pcship-petunia"
+				{
+					"encrypted_gid_2"		"90B716AC08C0CD1A0A7AC120024F9E95"
+					"encrypted_size_2"		"DFA0F325890D2C3C6113B27EC0CEA9A6"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"1F63A0A27541D821E2A399AB80033A4D"
+					"encrypted_size_2"		"2A1FA38B8E9943727AB94F70DE9E10D1"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"67B95BF78CF22AFD69EF9A8749581259"
+					"encrypted_size_2"		"36A45F2D82BDF341596D72A6D283C943"
+				}
+			}
+		}
+		"314941"
+		{
+			"name"		"Linux Cork Crocus Content"
+			"dlcappid"		"321430"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"995846248875983767"
+			}
+			"maxsize"		"39"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"DAA3E29B3701C6464B1FC7766C12690A"
+					"encrypted_size_2"		"F9F661D412F36C8300172BED322EA5FF"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"7DCD7D008C24B6F674FEEAF5883FC116"
+					"encrypted_size_2"		"C47859942EBEAD3C1D7735B5E0B99537"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"364F047A91B921E1F8C56BA26DFF62F0"
+					"encrypted_size_2"		"252614CA2A17C4767F170245415FC978"
+				}
+			}
+		}
+		"316410"
+		{
+			"name"		"Marigold (316410) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"316410"
+		}
+		"316411"
+		{
+			"name"		"Cork Marigold Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"8955631462567676677"
+				"local"		"3225900139697584408"
+			}
+			"maxsize"		"5142302507"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"AB6BA8DF4422D2DFE6F72914589DBDF1"
+					"encrypted_size_2"		"26DDF668B270234B2C83463B7FAD5FA6"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"DE2D4F098FDA1816C3331526920722FE"
+					"encrypted_size_2"		"213D3FE207E8D40D041069217748F278"
+				}
+			}
+		}
+		"316412"
+		{
+			"name"		"Cork Marigold English"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"529332537939506067"
+				"local"		"296600431092572980"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"C756EF5ECF759E281BF712A970E38014"
+					"encrypted_size_2"		"55762E31B6817D662E152A499AE19DCD"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"762E35CD9A5BC2A5AB58BC97B0B38ED7"
+					"encrypted_size_2"		"208169126FEEDDE45A1A361FEA513B2B"
+				}
+			}
+		}
+		"316413"
+		{
+			"name"		"Cork Marigold French"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"french"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"1477822816067477940"
+				"local"		"2664341193345107014"
+			}
+			"maxsize"		"299053663"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"0A3E1AD9DB9B73F05C9A95E61B4C60A5"
+					"encrypted_size_2"		"0477C7E4A1462EE3CBFFB182442607ED"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"D19897C2AEE25FB640C4A73073C3FA49"
+					"encrypted_size_2"		"31E7BD3E689CD57E342C58242442B0F4"
+				}
+			}
+		}
+		"316414"
+		{
+			"name"		"Cork Marigold Italian"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"italian"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"6185645263451524358"
+				"local"		"2914053159150430059"
+			}
+			"maxsize"		"308544225"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"A7189A19CE64E4427DEFA9ACEBA36A69"
+					"encrypted_size_2"		"4020A38F22A0C5314979BA66C9D157C4"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"88364B3CA5FADB910640E562EFE38FE8"
+					"encrypted_size_2"		"81D257EE86F1DC5CAFCC4DD7D8902FC2"
+				}
+			}
+		}
+		"316415"
+		{
+			"name"		"Cork Marigold German"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"german"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"8270486096336022710"
+				"local"		"7674559681347694745"
+			}
+			"maxsize"		"302981687"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"C4D37A8CB6BFC17203FD3B04E8678674"
+					"encrypted_size_2"		"2B6BC5FD3820E400DFEC9412A5EEC9E8"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"B5AD53A54152B0B7401C281F2EB9E1D4"
+					"encrypted_size_2"		"48D09E3F043D0302B9361734A7753FE5"
+				}
+			}
+		}
+		"316416"
+		{
+			"name"		"Cork Marigold Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"6419188069358186994"
+				"local"		"7509347369752435528"
+			}
+			"maxsize"		"291874697"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"35954A598F8172903BEC7A331539CA1A"
+					"encrypted_size_2"		"0F8ED75A4E101514F5890E9494CDA648"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"498B934F0293B63634DE8AD0F8BD749E"
+					"encrypted_size_2"		"9B9A35BD122879C8B36DC966E18E05A5"
+				}
+			}
+		}
+		"316417"
+		{
+			"name"		"Cork Marigold Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"316410"
+			"manifests"
+			{
+				"public"		"4793415018201746887"
+				"local"		"1716001115384742707"
+			}
+			"maxsize"		"295758541"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"7A3BE2A4D107CE769C53F8A7A7E75F99"
+					"encrypted_size_2"		"EE8E3787DA3682AD4958F27F470FE68B"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"C7EBF5E5D5A3D8655526DCAA406B8129"
+					"encrypted_size_2"		"D25BF76C452B1D9D18AE8790221F7EA8"
+				}
+			}
+		}
+		"316418"
+		{
+			"name"		"Cork Marigold Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2843668383635209604"
+				"local"		"3865630890641225024"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"ECB99D4CF826AF750344D63BB79EE09C"
+					"encrypted_size_2"		"55762E31B6817D662E152A499AE19DCD"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"9B04E6DD8F03DD665C49E078F3DA849A"
+					"encrypted_size_2"		"208169126FEEDDE45A1A361FEA513B2B"
+				}
+			}
+		}
+		"316419"
+		{
+			"name"		"Cork Marigold Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"881017711457845749"
+				"local"		"347157735182983616"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"A3A941CBC24D0D50387E28006532BCEB"
+					"encrypted_size_2"		"55762E31B6817D662E152A499AE19DCD"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"71A9F7898B6BD977DD52F5F8B6905FCD"
+					"encrypted_size_2"		"208169126FEEDDE45A1A361FEA513B2B"
+				}
+			}
+		}
+		"321430"
+		{
+			"name"		"Crocus (321430) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"321430"
+		}
+		"321431"
+		{
+			"name"		"Cork Crocus Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"321430"
+			"manifests"
+			{
+				"public"		"2585744181927137397"
+				"local"		"8176981407535790650"
+			}
+			"maxsize"		"39"
+			"encryptedmanifests"
+			{
+				"milestone"
+				{
+					"encrypted_gid_2"		"4603E53097EACD6774EC0554ED32DC63"
+					"encrypted_size_2"		"A2E84C0AF15189871B86CF9CF1EBA058"
+				}
+				"pcship-marigold"
+				{
+					"encrypted_gid_2"		"2115B6E5018798A4B0D35330086B6D9E"
+					"encrypted_size_2"		"698AA54EC8FBB5DFA7B431B77EAF7324"
+				}
+				"pcship-postmarigold"
+				{
+					"encrypted_gid_2"		"0022DBD62297F50117CC5D84DA76F377"
+					"encrypted_size_2"		"C47859942EBEAD3C1D7735B5E0B99537"
+				}
+			}
+		}
+		"314882"
+		{
+			"name"		"Mac Cork Marigold Content"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8969315512395391811"
+			}
+			"maxsize"		"698525110"
+			"encryptedmanifests"
+			{
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"20042BD88773CD5BE5E1DAF14A7122DB"
+					"encrypted_size_2"		"F43BA31685AD0A83781819E78C0ADCC7"
+				}
+			}
+		}
+		"314883"
+		{
+			"name"		"Mac Cork Marigold English"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"646740955716274197"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"B0DD68720EE26AA68A1A05DD01AAEC9F"
+					"encrypted_size_2"		"4CF857ADC43BBE6AE43A22B1FEFF1CA2"
+				}
+			}
+		}
+		"314884"
+		{
+			"name"		"Mac Cork Marigold French"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"565137660037545657"
+			}
+			"maxsize"		"299053663"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"9D7202427B445C90B923D318EEF6A0B5"
+					"encrypted_size_2"		"F5BE2EAA814C52D97D05622F66602301"
+				}
+			}
+		}
+		"314885"
+		{
+			"name"		"Mac Cork Marigold Italian"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"826352685874172387"
+			}
+			"maxsize"		"308544225"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"DF97E69442F606283151506F5C5EEBD6"
+					"encrypted_size_2"		"BF77D72ECB03CF1F26E5A352EE536164"
+				}
+			}
+		}
+		"314886"
+		{
+			"name"		"Mac Cork Marigold German"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1070469485060376059"
+			}
+			"maxsize"		"302981687"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"57607A444A64F2E1C6F8294A6146EFE4"
+					"encrypted_size_2"		"DA672B41C447F9D03ACA4DE06C6D17B7"
+				}
+			}
+		}
+		"314887"
+		{
+			"name"		"Mac Cork Marigold Japanese"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"223244232172160400"
+			}
+			"maxsize"		"291874697"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"3877A68B223FFCC4B3BFC4C63DA719BB"
+					"encrypted_size_2"		"4EFC0A27965877B769060B4665B60E00"
+				}
+			}
+		}
+		"314888"
+		{
+			"name"		"Mac Cork Marigold Spanish"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1323225028682533107"
+			}
+			"maxsize"		"295758541"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"F58A816A41B10C8DDB5695853A900F3A"
+					"encrypted_size_2"		"715CEA61FA0C29A8675BF9FD19C4B0CF"
+				}
+			}
+		}
+		"314889"
+		{
+			"name"		"Mac Cork Marigold Russian"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2114232612640605038"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"omaha_patch"
+				{
+					"encrypted_gid_2"		"9BE5B320E414AA1086A364669939EB42"
+					"encrypted_size_2"		"4CF857ADC43BBE6AE43A22B1FEFF1CA2"
+				}
+			}
+		}
+		"314899"
+		{
+			"name"		"Mac Cork Marigold Korean"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1524003004247380269"
+			}
+			"maxsize"		"301493024"
+		}
+		"314902"
+		{
+			"name"		"Linux Cork Marigold Content"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1341951550174044402"
+			}
+			"maxsize"		"698525110"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"856252D94A72F7AC14753B5E5FB4F522"
+					"encrypted_size_2"		"5FE2664D39121810FF224F7F811198E9"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"D50D1EBD0F760C647AA12D670C79A5B3"
+					"encrypted_size_2"		"F43BA31685AD0A83781819E78C0ADCC7"
+				}
+			}
+		}
+		"314903"
+		{
+			"name"		"Linux Cork Marigold English"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3316904224737751657"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"A3118206FD505E84265917B24736BB25"
+					"encrypted_size_2"		"56A86E12140D48E65F2B51EA42B0933A"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"92C099A07865EF60DD85A9D7FA9E813A"
+					"encrypted_size_2"		"6A4689F1628A0074549A666AA6B2389E"
+				}
+			}
+		}
+		"314904"
+		{
+			"name"		"Linux Cork Marigold French"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1655134317231313678"
+			}
+			"maxsize"		"299053663"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"46E28407D6F7D7C6F56BAB26D888F4B1"
+					"encrypted_size_2"		"3E9ED11E3CB80641C5ADDF2483AA8A95"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"56E74C784948D9DF69AAD923AEC8BD7F"
+					"encrypted_size_2"		"C514AE8929E93CA041BB9AEA151665A2"
+				}
+			}
+		}
+		"314905"
+		{
+			"name"		"Linux Cork Marigold Italian"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3775550946853312764"
+			}
+			"maxsize"		"308544225"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"88B5D91F2A4C6266D88EC33247FA2FC3"
+					"encrypted_size_2"		"716143EE0E689EACFA1EFFEE1D75A245"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"F67DC0EE6A97DC8CE4313A26BD00B5C3"
+					"encrypted_size_2"		"7297628B8CFCC377888BF9CD382FE745"
+				}
+			}
+		}
+		"314906"
+		{
+			"name"		"Linux Cork Marigold German"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6870626701530107165"
+			}
+			"maxsize"		"302981687"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"4BACEFA1087AB57F346692CB04E74008"
+					"encrypted_size_2"		"66E6F54DA455D0CE605C0319156B47CF"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"EA30C8B622744A15B14710ACC821F910"
+					"encrypted_size_2"		"1BC5C94C253C79C269F768B6C3C3E797"
+				}
+			}
+		}
+		"314907"
+		{
+			"name"		"Linux Cork Marigold Japanese"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4652936815575729481"
+			}
+			"maxsize"		"291874697"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"B915E1C2E286F60ED11785CE6B6182B1"
+					"encrypted_size_2"		"3081EBC079136B663C49A0535B45C456"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"CA6B24BF70965EBFB59A6B9B2E709BA8"
+					"encrypted_size_2"		"5406471B865AEDF5007BDE02A703B464"
+				}
+			}
+		}
+		"314908"
+		{
+			"name"		"Linux Cork Marigold Spanish"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3735020119521810026"
+			}
+			"maxsize"		"295758541"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"4B26142B5D589F4016E538D058A504EC"
+					"encrypted_size_2"		"87FC02B1F773E00B885A5A2A30640271"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"3672D1A49F0090687044A009AFB0AF8A"
+					"encrypted_size_2"		"44B6E458BED3927DF6AF882FAC8C093A"
+				}
+			}
+		}
+		"314909"
+		{
+			"name"		"Linux Cork Marigold Russian"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2060612769666378845"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"1C76246ED089C23713944A71703D0718"
+					"encrypted_size_2"		"56A86E12140D48E65F2B51EA42B0933A"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"7528B0D6D4C925535DB7B455A70711F7"
+					"encrypted_size_2"		"6A4689F1628A0074549A666AA6B2389E"
+				}
+			}
+		}
+		"314939"
+		{
+			"name"		"Linux Cork Marigold Korean"
+			"dlcappid"		"316410"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5065597058428533341"
+			}
+			"maxsize"		"301493024"
+			"encryptedmanifests"
+			{
+				"cleveland_patch"
+				{
+					"encrypted_gid_2"		"05C9CFA4FC7E4C375296798FDC624DCC"
+					"encrypted_size_2"		"56A86E12140D48E65F2B51EA42B0933A"
+				}
+				"pcship-postpm"
+				{
+					"encrypted_gid_2"		"802D8CF263AD6F3455CBEE258510FB63"
+					"encrypted_size_2"		"6A4689F1628A0074549A666AA6B2389E"
+				}
+			}
+		}
+		"941181"
+		{
+			"name"		"Ailanthus Content"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7797600047091311750"
+			}
+			"maxsize"		"9288237342"
+			"encryptedmanifests"
+			{
+				"carcosa"
+				{
+					"encrypted_gid_2"		"4421531705356D32CBFA9801BC5CD21B"
+					"encrypted_size_2"		"4161204EECDE01201EF6BB8174E95C21"
+				}
+			}
+		}
+		"941182"
+		{
+			"name"		"Ailanthus English"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+		}
+		"941183"
+		{
+			"name"		"Ailanthus French"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+		}
+		"941184"
+		{
+			"name"		"Ailanthus German"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+		}
+		"941185"
+		{
+			"name"		"Ailanthus Italian"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+		}
+		"941186"
+		{
+			"name"		"Ailanthus Japanese"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+		}
+		"941187"
+		{
+			"name"		"Ailanthus Spanish"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+		}
+		"941188"
+		{
+			"name"		"Ailanthus Korean"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+		}
+		"941189"
+		{
+			"name"		"Ailanthus Traditional Chinese"
+			"dlcappid"		"941180"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3641675"
+				"timeupdated"		"1554310853"
+			}
+			"carcosa"
+			{
+				"buildid"		"4177744"
+				"description"		"ailanthus nightly"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567984345"
+			}
+			"cleveland"
+			{
+				"buildid"		"770198"
+				"description"		"internal Linux branch"
+				"pwdrequired"		"1"
+			}
+			"cleveland_patch"
+			{
+				"buildid"		"522806"
+				"description"		"Linux patch"
+				"pwdrequired"		"1"
+			}
+			"compatibility"
+			{
+				"buildid"		"329205"
+				"description"		"Compatibility branch"
+				"pwdrequired"		"1"
+			}
+			"kadath"
+			{
+				"buildid"		"3641675"
+				"description"		"ailanthus stable"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552489088"
+			}
+			"local"
+			{
+				"buildid"		"453584"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"merge"
+			{
+				"buildid"		"835125"
+				"description"		"For pushing... hello Steam.db"
+				"pwdrequired"		"1"
+			}
+			"milestone"
+			{
+				"buildid"		"440874"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"omaha"
+			{
+				"buildid"		"770190"
+				"description"		"internal mac branch"
+				"pwdrequired"		"1"
+			}
+			"omaha_patch"
+			{
+				"buildid"		"534419"
+				"description"		"mac patch"
+				"pwdrequired"		"1"
+			}
+			"omaha_verification"
+			{
+				"buildid"		"385151"
+				"description"		"Mac temporary branch"
+				"pwdrequired"		"1"
+			}
+			"patch"
+			{
+				"buildid"		"407435"
+				"description"		"Patch branch"
+				"pwdrequired"		"1"
+			}
+			"pcship"
+			{
+				"buildid"		"367103"
+				"description"		"pc ship"
+				"pwdrequired"		"1"
+			}
+			"pcship-crocus"
+			{
+				"buildid"		"486835"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"pcship-korea"
+			{
+				"buildid"		"453961"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"pcship-korea-quince"
+			{
+				"buildid"		"455848"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"pcship-marigold"
+			{
+				"buildid"		"524410"
+				"description"		"pcship with quince, petuna, crocus and marigold"
+				"pwdrequired"		"1"
+			}
+			"pcship-petunia"
+			{
+				"buildid"		"463654"
+				"description"		"pcship with quince and petuna"
+				"pwdrequired"		"1"
+			}
+			"pcship-postmarigold"
+			{
+				"buildid"		"587189"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"pcship-postpm"
+			{
+				"buildid"		"762044"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"pcship-quince"
+			{
+				"buildid"		"411436"
+				"description"		"pcship with quince"
+				"pwdrequired"		"1"
+			}
+			"ratings"
+			{
+				"buildid"		"316613"
+				"description"		"Ratings build"
+				"pwdrequired"		"1"
+			}
+			"ratings-noportcullis"
+			{
+				"buildid"		"316631"
+				"description"		"Ratings build - No Portcullis"
+				"pwdrequired"		"1"
+			}
+			"riel"
+			{
+				"buildid"		"3723698"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554855026"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Borderlands The Pre-Sequel/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Borderlands The Pre-Sequel/WillowGame/SaveData/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"aspyr-media/borderlands the pre-sequel/willowgame/savedata/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

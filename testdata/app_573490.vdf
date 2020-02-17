@@ -1,0 +1,596 @@
+"appinfo"
+{
+	"appid"		"573490"
+	"common"
+	{
+		"name"		"Interstellar Transport Company"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"32af50a3f5d8ba5b1dbf3bd29de72972abb08f2e"
+		"logo_small"		"32af50a3f5d8ba5b1dbf3bd29de72972abb08f2e_thumb"
+		"icon"		"aa50a014aee82ce07e09827158bc04e5d1e25ab1"
+		"clienttga"		"4fc72f6449834fe1c49301095f9ea97ad1356045"
+		"clienticon"		"31d76b1cf2dfc32f06ec37e1084291b253d73ebf"
+		"metacritic_name"		"Interstellar Transport Company"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567963703"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MT Worlds"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MT Worlds"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1558702591"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"573490"
+		"store_tags"
+		{
+			"0"		"1755"
+			"1"		"599"
+			"2"		"12472"
+			"3"		"4202"
+			"4"		"9"
+			"5"		"3942"
+			"6"		"4695"
+			"7"		"3859"
+			"8"		"493"
+			"9"		"3810"
+			"10"		"4175"
+			"11"		"1756"
+			"12"		"7107"
+			"13"		"1654"
+			"14"		"4161"
+			"15"		"16598"
+			"16"		"492"
+			"17"		"3843"
+			"18"		"4026"
+			"19"		"5794"
+		}
+	}
+	"extended"
+	{
+		"developer"		"MT Worlds"
+		"publisher"		"MT Worlds"
+		"homepage"		"https://www.mtworlds.com/"
+	}
+	"config"
+	{
+		"installdir"		"Interstellar Transport Company"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Interstellar_Transport_Company_win64.exe"
+				"description"		"Launch Windows 64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Interstellar_Transport_Company_win32.exe"
+				"description"		"Launch Windows 32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Interstellar_Transport_Company_lin32.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Interstellar_Transport_Company_lin64.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Interstellar_Transport_Company_mac64.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"Interstellar_Transport_Company_mac32.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"573490"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,danish,dutch,finnish,norwegian,swedish,brazilian"
+		"573491"
+		{
+			"name"		"Interstellar Transport Company win64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4679475790334420833"
+				"no_crash_handler_test"		"3834045048994250213"
+				"pre-release"		"6585334897029954884"
+				"v0.2.3"		"7587122788669368778"
+				"v0.2.4"		"2484327786161487528"
+				"v0.2.5"		"8313175630872225687"
+				"v0.2.6"		"1253510483319896765"
+				"v0.2.7"		"5557038341250353904"
+				"v0.2.8"		"8506779050932655750"
+				"v0.2.9"		"8401405266178718862"
+				"v0.3.0"		"5123425745124123179"
+				"v0.3.1"		"8521421456851615415"
+				"v0.3.2"		"7048772782213127815"
+				"v0.3.3"		"5915131020254157360"
+				"v0.3.4"		"4194771632071586984"
+				"v0.3.5"		"6514007634384091712"
+				"v0.4.0"		"4429432384342372790"
+				"v0.4.1"		"6352388586346374246"
+				"v0.5.0"		"2507745291181085372"
+				"v1.0.0"		"636076674822281880"
+				"v1.0.1"		"6272402853498407515"
+				"v1.0.2"		"6323714088048958136"
+				"v1.0.3"		"499139669652453072"
+				"v1.1.0"		"6585334897029954884"
+			}
+			"maxsize"		"2060792853"
+		}
+		"573492"
+		{
+			"name"		"Interstellar Transport Company win32"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1940393047494989645"
+				"no_crash_handler_test"		"5438420980882591465"
+				"pre-release"		"5119047120289457080"
+				"v0.2.3"		"5935370861755483486"
+				"v0.2.4"		"7315157778982676175"
+				"v0.2.5"		"196990203106111166"
+				"v0.2.6"		"7568427645755888396"
+				"v0.2.7"		"3559775088768039813"
+				"v0.2.8"		"7940714351009945706"
+				"v0.2.9"		"1558722638569868940"
+				"v0.3.0"		"6430161003825180164"
+				"v0.3.1"		"8689187313968237021"
+				"v0.3.2"		"1514021593012911511"
+				"v0.3.3"		"8995911038495660297"
+				"v0.3.4"		"6658582423371700381"
+				"v0.3.5"		"8706749967778529609"
+				"v0.4.0"		"2423926069573115598"
+				"v0.4.1"		"2198529548469785268"
+				"v0.5.0"		"1630524629585795759"
+				"v1.0.0"		"6734306912584351847"
+				"v1.0.1"		"2154406479795115383"
+				"v1.0.2"		"1053118986295963429"
+				"v1.0.3"		"5367184130260915033"
+				"v1.1.0"		"5119047120289457080"
+			}
+			"maxsize"		"2005336597"
+		}
+		"573493"
+		{
+			"name"		"Interstellar Transport Company lin64"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1207570425551720788"
+				"no_crash_handler_test"		"1180088547380070343"
+				"pre-release"		"5349492647956467243"
+				"v0.2.3"		"9138392881298851882"
+				"v0.2.4"		"4968295348342184125"
+				"v0.2.5"		"3769227360527402501"
+				"v0.2.6"		"550467098425145347"
+				"v0.2.7"		"4736295014769084854"
+				"v0.2.8"		"4729638688495390094"
+				"v0.2.9"		"3047547448713409063"
+				"v0.3.0"		"1203277963688331968"
+				"v0.3.1"		"1683349437365135584"
+				"v0.3.2"		"3985156977435445659"
+				"v0.3.3"		"2177460681854683093"
+				"v0.3.4"		"9019749218796192418"
+				"v0.3.5"		"1467788889699415902"
+				"v0.4.0"		"2717927887251911644"
+				"v0.4.1"		"8392253182440002680"
+				"v0.5.0"		"7676611323886643839"
+				"v1.0.0"		"4737762622198311608"
+				"v1.0.1"		"507222693310062426"
+				"v1.0.2"		"1740619987011762333"
+				"v1.0.3"		"1595952921826650656"
+				"v1.1.0"		"5349492647956467243"
+			}
+			"maxsize"		"2021451935"
+		}
+		"573494"
+		{
+			"name"		"Interstellar Transport Company lin32"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1383384989771562741"
+				"no_crash_handler_test"		"7496052417493236486"
+				"pre-release"		"6167528831625421756"
+				"v0.2.3"		"1886778955743353717"
+				"v0.2.4"		"359082168088022878"
+				"v0.2.5"		"330109197733594229"
+				"v0.2.6"		"8296836428686841113"
+				"v0.2.7"		"6449374336641612056"
+				"v0.2.8"		"359365774084870207"
+				"v0.2.9"		"6610761164496294915"
+				"v0.3.0"		"6984211051468385123"
+				"v0.3.1"		"4142287056623562339"
+				"v0.3.2"		"3617054609554519233"
+				"v0.3.3"		"6176101192471736519"
+				"v0.3.4"		"4435143440801489018"
+				"v0.3.5"		"59611662007405262"
+				"v0.4.0"		"8252624021606892192"
+				"v0.4.1"		"8678695589067782433"
+				"v0.5.0"		"8386906332269397221"
+				"v1.0.0"		"8621223788192964796"
+				"v1.0.1"		"7966090806362615480"
+				"v1.0.2"		"490783637346057551"
+				"v1.0.3"		"3500197126577821129"
+				"v1.1.0"		"6167528831625421756"
+			}
+			"maxsize"		"2021229746"
+		}
+		"573495"
+		{
+			"name"		"Interstellar Transport Company mac64"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4514991842814316032"
+				"no_crash_handler_test"		"1393084176009220589"
+				"pre-release"		"1071803190928602231"
+				"v0.2.3"		"7684758536343791751"
+				"v0.2.4"		"5703836774054594338"
+				"v0.2.5"		"7704206991243260308"
+				"v0.2.6"		"3928023277670869530"
+				"v0.2.7"		"4465858524055479820"
+				"v0.2.8"		"3099566745692572382"
+				"v0.2.9"		"2425341687064192433"
+				"v0.3.0"		"4009603205709907043"
+				"v0.3.1"		"2630913008668439989"
+				"v0.3.2"		"6056044152432606734"
+				"v0.3.3"		"3192428227315904385"
+				"v0.3.4"		"5997670064940271016"
+				"v0.3.5"		"2972641159711877454"
+				"v0.4.0"		"7726428652751292764"
+				"v0.4.1"		"5045097923235357370"
+				"v0.5.0"		"5554058296572385722"
+				"v1.0.0"		"7113001597768120491"
+				"v1.0.1"		"3937539192242212720"
+				"v1.0.2"		"641597355468331139"
+				"v1.0.3"		"3921087346870505844"
+				"v1.1.0"		"1071803190928602231"
+			}
+			"maxsize"		"2021313780"
+		}
+		"573496"
+		{
+			"name"		"Interstellar Transport Company mac32"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"8880805294180671181"
+				"v0.2.3"		"5799734023548131643"
+				"v0.2.4"		"5259398251095536540"
+				"v0.2.5"		"7404292261075146331"
+				"v0.2.6"		"9000021548820101271"
+				"v0.2.7"		"4291236998086186207"
+			}
+			"maxsize"		"2014885175"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3971404"
+				"timeupdated"		"1562004347"
+			}
+			"no_crash_handler_test"
+			{
+				"buildid"		"3960733"
+				"description"		""
+				"timeupdated"		"1561643788"
+			}
+			"pre-release"
+			{
+				"buildid"		"4148766"
+				"description"		""
+				"timeupdated"		"1567064789"
+			}
+			"v0.2.3"
+			{
+				"buildid"		"2236971"
+				"description"		""
+				"timeupdated"		"1509129574"
+			}
+			"v0.2.4"
+			{
+				"buildid"		"2296591"
+				"description"		""
+				"timeupdated"		"1511018361"
+			}
+			"v0.2.5"
+			{
+				"buildid"		"2301381"
+				"description"		""
+				"timeupdated"		"1511224017"
+			}
+			"v0.2.6"
+			{
+				"buildid"		"2316245"
+				"description"		""
+				"timeupdated"		"1511645581"
+			}
+			"v0.2.7"
+			{
+				"buildid"		"2373739"
+				"description"		""
+				"timeupdated"		"1513385702"
+			}
+			"v0.2.8"
+			{
+				"buildid"		"2421631"
+				"description"		""
+				"timeupdated"		"1515455550"
+			}
+			"v0.2.9"
+			{
+				"buildid"		"2483199"
+				"description"		""
+				"timeupdated"		"1517352750"
+			}
+			"v0.3.0"
+			{
+				"buildid"		"2647977"
+				"description"		""
+				"timeupdated"		"1522415177"
+			}
+			"v0.3.1"
+			{
+				"buildid"		"2663586"
+				"description"		""
+				"timeupdated"		"1522952363"
+			}
+			"v0.3.2"
+			{
+				"buildid"		"2718368"
+				"description"		""
+				"timeupdated"		"1524610853"
+			}
+			"v0.3.3"
+			{
+				"buildid"		"2839762"
+				"description"		""
+				"timeupdated"		"1528317039"
+			}
+			"v0.3.4"
+			{
+				"buildid"		"3045413"
+				"description"		""
+				"timeupdated"		"1534688482"
+			}
+			"v0.3.5"
+			{
+				"buildid"		"3059409"
+				"description"		""
+				"timeupdated"		"1535063779"
+			}
+			"v0.4.0"
+			{
+				"buildid"		"3423321"
+				"description"		""
+				"timeupdated"		"1545495615"
+			}
+			"v0.4.1"
+			{
+				"buildid"		"3431033"
+				"description"		""
+				"timeupdated"		"1545953055"
+			}
+			"v0.5.0"
+			{
+				"buildid"		"3783815"
+				"description"		""
+				"timeupdated"		"1556694113"
+			}
+			"v1.0.0"
+			{
+				"buildid"		"3851882"
+				"description"		""
+				"timeupdated"		"1558634018"
+			}
+			"v1.0.1"
+			{
+				"buildid"		"3862835"
+				"description"		""
+				"timeupdated"		"1558992634"
+			}
+			"v1.0.2"
+			{
+				"buildid"		"3900912"
+				"description"		""
+				"timeupdated"		"1559998668"
+			}
+			"v1.0.3"
+			{
+				"buildid"		"3956668"
+				"description"		""
+				"timeupdated"		"1561554730"
+			}
+			"v1.0.4"
+			{
+				"buildid"		"3971404"
+				"description"		""
+				"timeupdated"		"1562003145"
+			}
+			"v1.1.0"
+			{
+				"buildid"		"4148766"
+				"description"		""
+				"timeupdated"		"1567064774"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

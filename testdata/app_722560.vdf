@@ -1,0 +1,522 @@
+"appinfo"
+{
+	"appid"		"722560"
+	"common"
+	{
+		"name"		"RAD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"logo"		"1bac5e4c6ce578fe57c157c8eeba8423b5f5acab"
+		"logo_small"		"1bac5e4c6ce578fe57c157c8eeba8423b5f5acab_thumb"
+		"icon"		"821c82a3bac3da453666934e68ef38c2960bbcc7"
+		"clienticon"		"bb16c44f3813d456d149e102a440e3c305169d3e"
+		"clienttga"		"0d662246f1cf2157b7695b6f30e8c6a183836a7e"
+		"metacritic_name"		"RAD"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"27.63373955459103"
+				"height_pct"		"66.6335303703918"
+			}
+		}
+		"store_asset_mtime"		"1565718650"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment America Inc."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1566252092"
+		"metacritic_score"		"72"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/rad?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"722560"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3959"
+			"2"		"3835"
+			"3"		"4182"
+			"4"		"1759"
+			"5"		"4026"
+			"6"		"1756"
+			"7"		"5125"
+			"8"		"4136"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Double Fine Productions"
+		"publisher"		"BANDAI NAMCO Entertainment America Inc."
+		"homepage"		"https://www.bandainamcoent.com/games/rad"
+		"listofdlc"		"1121790"
+	}
+	"config"
+	{
+		"installdir"		"RAD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mutant.exe"
+				"arguments"		"-NoScreenMessages -SaveToUserDir"
+				"type"		"none"
+			}
+			"1"
+			{
+				"executable"		"Mutant\\Binaries\\Win64\\RAD-Test.exe"
+				"arguments"		"-NoScreenMessages -SaveToUserDir"
+				"description"		"Test RAD with debug menu and console"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"experimental"
+				}
+			}
+			"2"
+			{
+				"executable"		"Mutant\\Binaries\\Win64\\RAD-Test.exe"
+				"arguments"		"-NoScreenMessages -SaveToUserDir"
+				"description"		"Test RAD with debug menu and console"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa-debug"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"722561"
+		{
+			"name"		"Ladyfingers Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7727656143708823118"
+			}
+			"maxsize"		"6419979799"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"6A3B8C0820512A5B730BF67914A91B21"
+					"encrypted_size_2"		"3436BDA5D1F08D17B8CC20E0EF89CBEF"
+				}
+				"bnea_meeting"
+				{
+					"encrypted_gid_2"		"FB94EF3645BC0C9BCEDBA06A5D54F880"
+					"encrypted_size_2"		"0AFF9024A0C90E6C7E7DC0D3B8F3A27C"
+				}
+				"bug_regression"
+				{
+					"encrypted_gid_2"		"7CCF2F589F458597CA1E654A58F8026D"
+					"encrypted_size_2"		"9A842B71B0291D6F4D99F4F8CBE376AF"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"A712BF77ED8361E9A3A8B831F30A5C24"
+					"encrypted_size_2"		"319BA727A80A74D807A02570C9A98B37"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"A58C68D5F0C9AE20D6B5AEE9B6ACB739"
+					"encrypted_size_2"		"A2E8230AC0B9657D7E3E5D2EEAF2363C"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"44154B54266637767F3B0709C5973555"
+					"encrypted_size_2"		"4824F4C27D1A8D91C5EBA92DE34D1BB3"
+				}
+				"firstbeta"
+				{
+					"encrypted_gid_2"		"9F9980942B09DEAC874E8DBBC0B3B63F"
+					"encrypted_size_2"		"E3313323297E40AB844F1B61F2C3BBE5"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"C7B79F2313B31579412B8FF4086BE571"
+					"encrypted_size_2"		"6A89E91D25A0EDB10E06F6D8B48DA3F3"
+				}
+				"lastgood"
+				{
+					"encrypted_gid_2"		"C14EFA7F4B6699E329179402E2C4B6F4"
+					"encrypted_size_2"		"0C33D485FD97AB9E83E34129146011E0"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"FD2F08F44BF76728DE1895F4E514EA16"
+					"encrypted_size_2"		"48EB4E95E6E844412AC94332F7C1CD07"
+				}
+				"partner_review"
+				{
+					"encrypted_gid_2"		"D565D777D6FF3A7082424EE605188921"
+					"encrypted_size_2"		"C90A218C75E42B2DE11DE57374E9F0DE"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"2268F7A50FC9779A83BA04D90311062E"
+					"encrypted_size_2"		"0E692D1A7AE9E8BF1F7D1E0E84A124FD"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"F301A7D55851AAD59592FEE38BAE2A67"
+					"encrypted_size_2"		"3E4CF866C39A29B0A70157E83CB7ABD5"
+				}
+				"press_review"
+				{
+					"encrypted_gid_2"		"BAFFA916CF9E16632C2ED095E8EBC4E9"
+					"encrypted_size_2"		"E1D81D80614820705C308118B086160E"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"A8CC8BF455088A365F59AA938FC096B9"
+					"encrypted_size_2"		"801C632DBD7B8CAF630963A2B1E38B73"
+				}
+				"qa-debug"
+				{
+					"encrypted_gid_2"		"C96907276E43AD3BC7CF562919EC6736"
+					"encrypted_size_2"		"AA7A8B4D4E0FCE6DA67F864A34F30C58"
+				}
+				"qa-lqa"
+				{
+					"encrypted_gid_2"		"E5CBBD160E3C53525981EF4F280EFD67"
+					"encrypted_size_2"		"B627EDCC5F2F8C4D9BEC0761F2E32F3E"
+				}
+				"qa-release"
+				{
+					"encrypted_gid_2"		"08C7802E8121C79DAD915ECE81F8A284"
+					"encrypted_size_2"		"E2AEC18894125FB7962F951F847140C5"
+				}
+				"rad_hof"
+				{
+					"encrypted_gid_2"		"EFE895EA18A4350B3F67006CAC665A7F"
+					"encrypted_size_2"		"824715D26F478AC16DFEB5E33B2A76A7"
+				}
+				"ratings"
+				{
+					"encrypted_gid_2"		"A59572A8C285C7943E75B05238F74059"
+					"encrypted_size_2"		"4082647E55ED14C5F49BD03779E1B1CD"
+				}
+				"silvio_personal"
+				{
+					"encrypted_gid_2"		"10FC4F7F4A0F1342AD1256727680BAB0"
+					"encrypted_size_2"		"83297DF8BAF338632ADE30F14874DD43"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,russian,polish,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4114541"
+				"timeupdated"		"1566234373"
+			}
+			"baseline"
+			{
+				"buildid"		"3444080"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1546641597"
+			}
+			"bnea_meeting"
+			{
+				"buildid"		"2719723"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1524670780"
+			}
+			"bug_regression"
+			{
+				"buildid"		"3817682"
+				"description"		"regression on bugs"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558545214"
+			}
+			"compat"
+			{
+				"buildid"		"3867859"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559149859"
+			}
+			"demo"
+			{
+				"buildid"		"3636718"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1552362359"
+			}
+			"experimental"
+			{
+				"buildid"		"4178695"
+				"description"		"Test data"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568021646"
+			}
+			"firstbeta"
+			{
+				"buildid"		"3719062"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555349994"
+			}
+			"intel"
+			{
+				"buildid"		"4080175"
+				"description"		"Intel performance testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565134647"
+			}
+			"lastgood"
+			{
+				"buildid"		"4096844"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565630861"
+			}
+			"milestone"
+			{
+				"buildid"		"3568901"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550524834"
+			}
+			"partner_review"
+			{
+				"buildid"		"3688085"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553780493"
+			}
+			"playtest"
+			{
+				"buildid"		"3263453"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541092132"
+			}
+			"press"
+			{
+				"buildid"		"4042804"
+				"description"		"reviews, creative assets"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564683206"
+			}
+			"press_review"
+			{
+				"buildid"		"4109658"
+				"description"		"Build for press to review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565914432"
+			}
+			"preview"
+			{
+				"buildid"		"3798078"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557349666"
+			}
+			"qa-debug"
+			{
+				"buildid"		"4138782"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566836928"
+			}
+			"qa-lqa"
+			{
+				"buildid"		"3753121"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555686014"
+			}
+			"qa-release"
+			{
+				"buildid"		"4151941"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567176913"
+			}
+			"rad_hof"
+			{
+				"buildid"		"3171869"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538507711"
+			}
+			"ratings"
+			{
+				"buildid"		"3691438"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554148881"
+			}
+			"silvio_personal"
+			{
+				"buildid"		"3015403"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534544120"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5242880"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"RAD/Saved/SaveGames"
+				"pattern"		"RadAuto*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"RAD/Saved/SaveGames"
+				"pattern"		"RadPersistent*.sav"
+			}
+		}
+	}
+}
+ 

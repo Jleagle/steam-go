@@ -1,0 +1,1812 @@
+"appinfo"
+{
+	"appid"		"270880"
+	"common"
+	{
+		"name"		"American Truck Simulator"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"bb3d5e390828e6acd0424566d77446b592d066b1"
+		"clienttga"		"92f14a9894ddccf5bc5b0986dd0af85ae6ac39f7"
+		"icon"		"2aec8af4b4b23cb6054d9aea06194621cdd66945"
+		"logo"		"1d93a00f121fc54c8889f6074092faf6a990c712"
+		"logo_small"		"1d93a00f121fc54c8889f6074092faf6a990c712_thumb"
+		"clienticns"		"655dbadccf696a362947c1aaa30a66623164c39c"
+		"linuxclienticon"		"0c20bcc840773d2babab9d2d42ba7812de220ba0"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"dutch"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"romanian"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+			"bulgarian"		"1"
+			"greek"		"1"
+			"ukrainian"		"1"
+		}
+		"metacritic_name"		"American Truck Simulator"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"25.266044340723454"
+				"height_pct"		"33.78081215863216"
+			}
+		}
+		"store_asset_mtime"		"1564498614"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SCS Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SCS Software"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SCS Software"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"bulgarian"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1454400000"
+		"steam_release_date"		"1454433600"
+		"metacritic_score"		"76"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/american-truck-simulator?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"270880"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1644"
+			"2"		"1695"
+			"3"		"13190"
+			"4"		"4175"
+			"5"		"3859"
+			"6"		"4182"
+			"7"		"1654"
+			"8"		"1669"
+			"9"		"3839"
+			"10"		"3834"
+			"11"		"4166"
+			"12"		"4695"
+			"13"		"21"
+			"14"		"597"
+			"15"		"5350"
+			"16"		"12472"
+			"17"		"492"
+			"18"		"1697"
+			"19"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"SCS Software"
+		"publisher"		"SCS Software"
+		"homepage"		"http://americantrucksimulator.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/270880/"
+		"listofdlc"		"300010,421070,421080,421081,421090,422310,432710,441960,450550,463740,520550,526940,541260,546260,561620,566890,588600,620610,684630,800370,951650,962750,1015160,1076080,1104880,1116310,1149810"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"American Truck Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"arguments"		"-rdevice dx9"
+				"description"		"Launch with DirectX9"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"arguments"		"-rdevice dx11"
+				"description"		"Launch with DirectX11 (experimental)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"arguments"		"-rdevice gl"
+				"description"		"Launch with OpenGL"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"arguments"		"-safe"
+				"type"		"safemode"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin/linux_x64/amtrucks"
+				"workingdir"		"bin/linux_x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"11"
+			{
+				"executable"		"bin/linux_x64/amtrucks"
+				"arguments"		"-safe"
+				"workingdir"		"bin/linux_x64"
+				"type"		"safemode"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"12"
+			{
+				"executable"		"American Truck Simulator.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"13"
+			{
+				"executable"		"bin/win_x64/amtrucks.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+					"betakey"		"unsupported_32bit"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"615116385"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"temporary_1_33,temporary_1_34"
+				"use_action_block"		"false"
+			}
+			"1696487555"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,experimental,experimental_beta,experimental2,oculus,public_beta,temporary_1_35,testing,testing_senior,unsupported_32bit"
+				"use_action_block"		"false"
+			}
+			"1696489581"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,experimental,experimental_beta,experimental2,oculus,public_beta,temporary_1_35,testing,testing_senior,unsupported_32bit"
+				"use_action_block"		"false"
+			}
+			"1696490917"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,experimental,experimental_beta,experimental2,oculus,public_beta,temporary_1_35,testing,testing_senior,unsupported_32bit"
+				"use_action_block"		"false"
+			}
+			"1696493250"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,experimental,experimental_beta,experimental2,oculus,public_beta,temporary_1_35,testing,testing_senior,unsupported_32bit"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"externaldlc"		"0"
+		"workshopdepot"		"270880"
+		"270881"
+		{
+			"name"		"American Truck Simulator - Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2111355490830039716"
+				"oculus"		"7032431156032489421"
+				"oculus_07"		"4129542016616285908"
+				"oculus_previous"		"3255185568588348487"
+				"temporary_1_0"		"5133972384146344944"
+				"temporary_1_28"		"3420404507856665392"
+				"temporary_1_29"		"3395883881099850693"
+				"temporary_1_3"		"3320002355752218020"
+				"temporary_1_30"		"2963491968926181907"
+				"temporary_1_31"		"1978042359953442139"
+				"temporary_1_32"		"8480095439031213965"
+				"temporary_1_33"		"879633683477346083"
+				"temporary_1_34"		"4181291669803240652"
+				"temporary_1_35"		"8105596613558773274"
+				"temporary_1_5"		"7578441577455083076"
+				"temporary_1_6"		"3815103914331536779"
+			}
+			"maxsize"		"2848349070"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"5B60534454F223710465A28E89CD5113"
+					"encrypted_size_2"		"D296AD621D8092832B2F0ECFCA256EDF"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"B954AFFBD610E6C8B38937B0125FFE82"
+					"encrypted_size_2"		"F4C404E839200F82E93941DDFEB044B6"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"BD061D75574A718463F1CD8A846F7B85"
+					"encrypted_size_2"		"283AFE3DFEA0585239FBD9A3FBD033E2"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"CD1E289CF0CDAE0F86F7491715786FA6"
+					"encrypted_size_2"		"337DB316013219D2BAD59C3221D118D3"
+				}
+			}
+		}
+		"270882"
+		{
+			"name"		"American Truck Simulator - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8925637356328005259"
+				"oculus"		"1151935827525291347"
+				"oculus_07"		"5054197252100364234"
+				"oculus_previous"		"7768398015019602316"
+				"temporary_1_0"		"4597928048177250920"
+				"temporary_1_28"		"2971979741891332440"
+				"temporary_1_29"		"3297649245913960206"
+				"temporary_1_3"		"158081739117193227"
+				"temporary_1_30"		"5769166288220380480"
+				"temporary_1_31"		"6445303682412543903"
+				"temporary_1_32"		"6640613748260434010"
+				"temporary_1_33"		"8905726861063380152"
+				"temporary_1_34"		"2402735770158435109"
+				"temporary_1_35"		"3414409962361429543"
+				"temporary_1_5"		"135103786901462817"
+				"temporary_1_6"		"6488924984603125906"
+				"unsupported_32bit"		"6890340004224318134"
+			}
+			"maxsize"		"46539286"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"21625295F0C06DC0DD7E3E47AD07239B"
+					"encrypted_size_2"		"A40B996D173CB99E3319A72CD7AC088C"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"D770A17496C5ED07A913D2E79F48B619"
+					"encrypted_size_2"		"DB5DBBEBFDF30615D66967D294CBA3EE"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"39E80CC04D23F089796DDF1503269BD1"
+					"encrypted_size_2"		"A42BAA54F9E638786B70E5E34D31467F"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"3D189B276FE65E72D37D1F14EB5BCCF2"
+					"encrypted_size_2"		"B994D89B4363047EE9455B8D364ACA28"
+				}
+			}
+		}
+		"270883"
+		{
+			"name"		"American Truck Simulator - GNU/Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1485291814522635815"
+				"oculus"		"9185408814231872919"
+				"oculus_07"		"9185408814231872919"
+				"oculus_previous"		"9185408814231872919"
+				"temporary_1_0"		"1681001360532138713"
+				"temporary_1_28"		"5767725217321563055"
+				"temporary_1_29"		"2101656756428822016"
+				"temporary_1_3"		"3138575490945911728"
+				"temporary_1_30"		"7253068054543584988"
+				"temporary_1_31"		"3624562271717494636"
+				"temporary_1_32"		"1289163421649471826"
+				"temporary_1_33"		"8616392909693430744"
+				"temporary_1_34"		"4830778128426782061"
+				"temporary_1_35"		"5212519299898331280"
+				"temporary_1_5"		"4103946647375492937"
+				"temporary_1_6"		"5781124628763227355"
+			}
+			"maxsize"		"28254450"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8E715C15E516A7A311A797277428B247"
+					"encrypted_size_2"		"7E3A6D51E585EDEBCFC66780EAF81D02"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"91FD8FE2F2B481BF5C330125DDB51C37"
+					"encrypted_size_2"		"EF4D801B1F2C0DC28807B56988FCEA0B"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"3648FBF0D11B0218C85D54BC0569F53C"
+					"encrypted_size_2"		"B9251AC7013D73AB11752BA20A9F3D15"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"B1AF064C754F2607E6B3F781224E35A3"
+					"encrypted_size_2"		"E89DB90245817EEDBC154C6098046269"
+				}
+			}
+		}
+		"270884"
+		{
+			"name"		"American Truck Simulator - macOS"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6751885674818549760"
+				"oculus"		"860916235421431538"
+				"oculus_07"		"860916235421431538"
+				"oculus_previous"		"860916235421431538"
+				"temporary_1_0"		"6682630516980614614"
+				"temporary_1_28"		"6122321099427337571"
+				"temporary_1_29"		"7897686975507315431"
+				"temporary_1_3"		"1171393589949049943"
+				"temporary_1_30"		"4938415001992533179"
+				"temporary_1_31"		"6910894912451383815"
+				"temporary_1_32"		"1972451761832730940"
+				"temporary_1_33"		"6675669850614378263"
+				"temporary_1_34"		"8761817536130959620"
+				"temporary_1_35"		"7124216962532087607"
+				"temporary_1_5"		"2455171463467475776"
+				"temporary_1_6"		"2618367473618392567"
+			}
+			"maxsize"		"22647786"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"70B19B12A7F757D0C3AF028C5D072076"
+					"encrypted_size_2"		"1FAA6F3EB92D03E04D0421DE2720ED3C"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"9B919761B08D20D901B1A7DC1ED7AC18"
+					"encrypted_size_2"		"7406555BE650A159A642CF3A8CD065A1"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"42BB03241D39582392EC04F1BB7DD347"
+					"encrypted_size_2"		"1900A52895153CE2C0EFDDB5F0E9BDE6"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"8510CABC03C9C534F620C8B4AFB25CD7"
+					"encrypted_size_2"		"8E590BBAB979F67AC979AFBDB8751694"
+				}
+			}
+		}
+		"421090"
+		{
+			"name"		"American Truck Simulator - Nevada (421090) Depot"
+			"dlcappid"		"421090"
+			"manifests"
+			{
+				"public"		"7855269443639683227"
+				"oculus"		"1106447327780582340"
+				"oculus_07"		"3175241971624266129"
+				"oculus_previous"		"9166641261386099605"
+				"temporary_1_0"		"6905010007559785903"
+				"temporary_1_28"		"8127647670201874808"
+				"temporary_1_29"		"8313975840843497706"
+				"temporary_1_3"		"2023492343573880601"
+				"temporary_1_30"		"221983676941217155"
+				"temporary_1_31"		"910250565191838419"
+				"temporary_1_32"		"7616229612036701897"
+				"temporary_1_33"		"2610252729152948876"
+				"temporary_1_34"		"1790916392454319668"
+				"temporary_1_35"		"7297710980746310300"
+				"temporary_1_5"		"3577678093501394255"
+				"temporary_1_6"		"1720835401205829549"
+			}
+			"maxsize"		"37893852"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"B7D76635A177448CCEB439DD3D7F01D7"
+					"encrypted_size_2"		"040E38BE4533DBB97F87E5296B5B26D8"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"73991DBE19B75B0478F42FD39CE4630C"
+					"encrypted_size_2"		"F19693A6B452EEF08C9FA3C7E717907B"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"2FEB98F44B04BC2904DB4BCB558C56BD"
+					"encrypted_size_2"		"168572B8E8F056B1DD243A346D68F0F4"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"393103619321DBCD75447A6C9FA5FFF2"
+					"encrypted_size_2"		"1BC989093C871971912EDEA2FF183822"
+				}
+			}
+		}
+		"421070"
+		{
+			"name"		"American Truck Simulator - Kenworth T680 (421070) Depot"
+			"dlcappid"		"421070"
+			"manifests"
+			{
+				"public"		"4333045397902110715"
+				"oculus"		"7092450671365549278"
+				"oculus_07"		"2797858876140539394"
+				"oculus_previous"		"6971785639194700358"
+				"temporary_1_0"		"5600678682694802329"
+				"temporary_1_28"		"3214989698638970940"
+				"temporary_1_29"		"8052867162446010336"
+				"temporary_1_3"		"4981400700908770548"
+				"temporary_1_30"		"5575247368389025584"
+				"temporary_1_31"		"8857244766764577820"
+				"temporary_1_32"		"1651050942553926967"
+				"temporary_1_33"		"3565436151686242932"
+				"temporary_1_34"		"1591177708156829712"
+				"temporary_1_35"		"1615835177528865515"
+				"temporary_1_5"		"403259314318548307"
+				"temporary_1_6"		"4162981646155612743"
+			}
+			"maxsize"		"34499564"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"112AB2EE47E3A72F268DAC972A0D06BF"
+					"encrypted_size_2"		"F6FB5B1CBF0BA43B4288D4C5FA6D8547"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"11519B3008CDD1171BE592235778E6B7"
+					"encrypted_size_2"		"0695E47CED7E788C19D30ADBF36F79B8"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"5D388B7A2A9F939F9DB0B012F3116B23"
+					"encrypted_size_2"		"7EFC7936A4377FDBF88B7360D5E351E2"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"6DD0125BB35138D480F29767BB7CA33B"
+					"encrypted_size_2"		"8021B2A4D53690D1D858A39194269514"
+				}
+			}
+		}
+		"421080"
+		{
+			"name"		"American Truck Simulator - Peterbilt 579 (421080) Depot"
+			"dlcappid"		"421080"
+			"manifests"
+			{
+				"public"		"3910246572376117772"
+				"oculus"		"2408587384897743599"
+				"oculus_07"		"2373924577560025838"
+				"oculus_previous"		"4160747859698029339"
+				"temporary_1_0"		"2000859402806852894"
+				"temporary_1_28"		"7633042065930647687"
+				"temporary_1_29"		"1473865718108973395"
+				"temporary_1_3"		"5334151810198368408"
+				"temporary_1_30"		"2557801737911640310"
+				"temporary_1_31"		"1524079429146929893"
+				"temporary_1_32"		"6402540635993132699"
+				"temporary_1_33"		"5143797399172183112"
+				"temporary_1_34"		"7218192466558612449"
+				"temporary_1_35"		"4989342561407084191"
+				"temporary_1_5"		"7402341802375263691"
+				"temporary_1_6"		"1919629402074426316"
+			}
+			"maxsize"		"24240169"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"9E5B30C2D040E6DFC6EC2AE715CABA49"
+					"encrypted_size_2"		"6D7700836CE5B63679BECDBE98BC3CC1"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"570502F022E49AFC5EAAB1CE967EC10F"
+					"encrypted_size_2"		"6645E8923D57DA03716996BD80B49464"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"D42990D4329857C888E3F3A8DAEDFFD8"
+					"encrypted_size_2"		"27C4D3AC34BCCB48C755F0143500A2D3"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"3790EB1B83B6FD49BC45AE78CE457E2A"
+					"encrypted_size_2"		"822DD2063901DB1A73E87790A2D6C1FC"
+				}
+			}
+		}
+		"421081"
+		{
+			"name"		"American Truck Simulator - Volvo VNL (421081) Depot"
+			"dlcappid"		"421081"
+			"manifests"
+			{
+				"public"		"7036250984861087557"
+				"oculus"		"2772867009238476999"
+				"oculus_07"		"3666669353337279040"
+				"oculus_previous"		"7302253589199861516"
+				"temporary_1_0"		"4634047090245491153"
+				"temporary_1_28"		"3684949309678595063"
+				"temporary_1_29"		"2088076542122949395"
+				"temporary_1_3"		"6088832293800951441"
+				"temporary_1_30"		"8698994075867542796"
+				"temporary_1_31"		"2603523926103905386"
+				"temporary_1_32"		"7163613836273304349"
+				"temporary_1_33"		"2626219533092458061"
+				"temporary_1_34"		"666196719854221972"
+				"temporary_1_35"		"4191307733709940668"
+				"temporary_1_5"		"8616801478149435840"
+				"temporary_1_6"		"4752067497842114416"
+			}
+			"maxsize"		"33112942"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"DF0CDDBFF213997B4918FE7E164BBC5A"
+					"encrypted_size_2"		"0C95BFCADDCB5F636EEA63E7E2941655"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"EAA42EB6877781B5B4C717F7F0D4DCBB"
+					"encrypted_size_2"		"F3617E2DB6F4B2A41DF82D742DBDFEA6"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"1BADA57E43A7CCC875682DAFF03454CF"
+					"encrypted_size_2"		"66D7348ABB5744EDF4C0618A93944F39"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"A8799860C8344AF5A01966ED821854F3"
+					"encrypted_size_2"		"6F02EA36BF121BDA7CE7177A4397F6C2"
+				}
+			}
+		}
+		"422310"
+		{
+			"name"		"American Truck Simulator - Kenworth W900 (422310) Depot"
+			"dlcappid"		"422310"
+			"manifests"
+			{
+				"public"		"4721688834029628924"
+				"oculus"		"5912880273182357897"
+				"oculus_07"		"7702683069322732362"
+				"oculus_previous"		"1150132668926724906"
+				"temporary_1_0"		"3976772714765580596"
+				"temporary_1_28"		"6481259695248575655"
+				"temporary_1_29"		"3206134997838421808"
+				"temporary_1_3"		"6785450628592739415"
+				"temporary_1_30"		"4121451130919122593"
+				"temporary_1_31"		"1335194865634228234"
+				"temporary_1_32"		"1851800535790242707"
+				"temporary_1_33"		"4507293987144386794"
+				"temporary_1_34"		"5773051972482666007"
+				"temporary_1_35"		"2848527666559551712"
+				"temporary_1_5"		"3560170857355869931"
+				"temporary_1_6"		"9195953854154595051"
+			}
+			"maxsize"		"33431102"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"98B973B6FDFC1450FD48D9AC593F2DA7"
+					"encrypted_size_2"		"F22CE5DFE6892381A95C606C31DE2E20"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"0611B9DE3136B9715D5567190557C9C1"
+					"encrypted_size_2"		"A1F63CFEFC4A859D64DA0ED78827DDFB"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"C90A1AB81AAB70B857899300D191AAA3"
+					"encrypted_size_2"		"780214FC37D8072D783DE9AFB828E21D"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"8DC9B605108CD367ACDCB89DC0D8D35F"
+					"encrypted_size_2"		"17482B7884BC2ED1E587F31612A6BE59"
+				}
+			}
+		}
+		"432710"
+		{
+			"name"		"American Truck Simulator - Steampunk Paint Jobs Pack (432710) Depot"
+			"dlcappid"		"432710"
+			"manifests"
+			{
+				"public"		"2833697443922131032"
+				"oculus"		"7647248569236070786"
+				"oculus_07"		"1958536404840039626"
+				"oculus_previous"		"8918062935061611795"
+				"temporary_1_0"		"6131602642491660006"
+				"temporary_1_28"		"2567125969256433042"
+				"temporary_1_29"		"497465693752684226"
+				"temporary_1_3"		"6020170432220700542"
+				"temporary_1_30"		"3423074858953932511"
+				"temporary_1_31"		"8576633605568617873"
+				"temporary_1_32"		"3180627794533626052"
+				"temporary_1_33"		"766182914362618235"
+				"temporary_1_34"		"7070009811280204784"
+				"temporary_1_35"		"3302846872211769301"
+				"temporary_1_5"		"3174002685738757938"
+				"temporary_1_6"		"7669791736246577701"
+			}
+			"maxsize"		"12626664"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A786DE05CDFFB42DB2932DB47E86D393"
+					"encrypted_size_2"		"3FD1279AB3C31F66FCDCD89153C62CCB"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"BDF3F54018DD44B2B7FA82A31952383A"
+					"encrypted_size_2"		"9702EBA794DBF5CC34F010548B4B594B"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"AA1C33647054225DB048C46290BE275A"
+					"encrypted_size_2"		"76BF9DADFCF0690ABBF02E5C5207BE4B"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"8BC71C0D8C2ED5DD7E9467675CEC5738"
+					"encrypted_size_2"		"1F130AF7A494F040C683F1F1AA65A153"
+				}
+			}
+		}
+		"450550"
+		{
+			"name"		"American Truck Simulator - Wheel Tuning Pack (450550) Depot"
+			"dlcappid"		"450550"
+			"manifests"
+			{
+				"public"		"6120301938097648410"
+				"oculus"		"4935897423924998557"
+				"oculus_previous"		"3986527861298089061"
+				"temporary_1_28"		"3195212601174801878"
+				"temporary_1_29"		"4029013506205880403"
+				"temporary_1_3"		"2199621707676204918"
+				"temporary_1_30"		"3502063625408677137"
+				"temporary_1_31"		"168424493281186040"
+				"temporary_1_32"		"314032365133733491"
+				"temporary_1_33"		"8735640849629816556"
+				"temporary_1_34"		"8984774220163364564"
+				"temporary_1_35"		"1767606885072802166"
+				"temporary_1_5"		"6033978244099961115"
+				"temporary_1_6"		"1617606633255221772"
+			}
+			"maxsize"		"7935250"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"2E2712555A2F1D4AE12FDABF6EEC2914"
+					"encrypted_size_2"		"C44B3C4A2D25C085B217A20B2A9234CA"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"9621CE795991855E36FD8EAFA58C78EE"
+					"encrypted_size_2"		"9401DC1CD023B31BA45745973ACFDAE0"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"25B1129C4888877E115ED63B5CF358D6"
+					"encrypted_size_2"		"FEB7B59928C169B5926904B68FBAF5A0"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"E87B4CE2C9AA736CC5316772A6350259"
+					"encrypted_size_2"		"55A46D231785B3D796EB8797F1315FBF"
+				}
+			}
+		}
+		"463740"
+		{
+			"name"		"American Truck Simulator - Arizona (463740) Depot"
+			"dlcappid"		"463740"
+			"manifests"
+			{
+				"public"		"6630768175379770553"
+				"oculus"		"5570003079172805738"
+				"oculus_07"		"3864093318890656130"
+				"oculus_previous"		"1156336083611869234"
+				"temporary_1_0"		"3864093318890656130"
+				"temporary_1_28"		"6553546266568302"
+				"temporary_1_29"		"8216628358064321549"
+				"temporary_1_3"		"291372294053913337"
+				"temporary_1_30"		"7980788393828309379"
+				"temporary_1_31"		"9016529018284522623"
+				"temporary_1_32"		"8315067809097992092"
+				"temporary_1_33"		"7107696717413212525"
+				"temporary_1_34"		"7405996455567112582"
+				"temporary_1_35"		"5462951984493186318"
+				"temporary_1_5"		"8725135923162000195"
+				"temporary_1_6"		"8413609186127223790"
+			}
+			"maxsize"		"24335805"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"1489AE4166D51E99FF3A07F3947860C4"
+					"encrypted_size_2"		"2161ECC73F8CA9EA7EFD9E5891197D09"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"EBF565A4CDAEF2E15C87EBFEB8BBF964"
+					"encrypted_size_2"		"CA2C3DF36E6F01AD578163B66F1E16D4"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"12D78C58B96E8C396894FF513B977EB7"
+					"encrypted_size_2"		"979AE3627BEE14E38679EE59260A4648"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"6458E029FF1C5C60E09211BF871493DB"
+					"encrypted_size_2"		"74C391F63EC431F0557B256A257D7489"
+				}
+			}
+		}
+		"520550"
+		{
+			"name"		"American Truck Simulator - Steering Creations Pack (520550) Depot"
+			"dlcappid"		"520550"
+			"manifests"
+			{
+				"public"		"9063995723262698972"
+				"oculus"		"1260152609210305936"
+				"oculus_previous"		"3166273513520952906"
+				"temporary_1_28"		"5573788953128377808"
+				"temporary_1_29"		"5235969094617080937"
+				"temporary_1_30"		"3827915874902474883"
+				"temporary_1_31"		"5636902610562940493"
+				"temporary_1_32"		"6736213340697455883"
+				"temporary_1_33"		"5276743487368655435"
+				"temporary_1_34"		"969088686424285066"
+				"temporary_1_35"		"8866579761656731822"
+				"temporary_1_5"		"6849037145208868275"
+				"temporary_1_6"		"6010611529881285884"
+			}
+			"maxsize"		"3582836"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"1A33DF00D19A566B9A9A07BB4FEBABDB"
+					"encrypted_size_2"		"8AF334AB1B689A018F5CB455DD7C2EE8"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"F26F31443ACA06F04174A3E70C780607"
+					"encrypted_size_2"		"4314A3E2F0A13CDB0C4E17F6C611D98D"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"8D36E153C30D4A4D3381A763D74AE462"
+					"encrypted_size_2"		"FCD7EB533BB0E85F3A15A6C44D04E937"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"B65534C04262EE83C20BDB2F98FD4D1A"
+					"encrypted_size_2"		"CC5DF63BEE28001818CF3C1580D8BFD3"
+				}
+			}
+		}
+		"526940"
+		{
+			"name"		"American Truck Simulator - S (526940) Depot"
+			"dlcappid"		"526940"
+			"manifests"
+			{
+				"public"		"5993424424118187947"
+				"oculus"		"8029236057915456981"
+				"oculus_previous"		"514629415703003821"
+				"temporary_1_28"		"3703932795278945904"
+				"temporary_1_29"		"953915634000227367"
+				"temporary_1_30"		"1473510207151267151"
+				"temporary_1_31"		"5950961798951577833"
+				"temporary_1_32"		"1884619228877966259"
+				"temporary_1_33"		"1598230392376215402"
+				"temporary_1_34"		"2270182834642943037"
+				"temporary_1_35"		"8632148947092487602"
+				"temporary_1_5"		"6165559142959645858"
+				"temporary_1_6"		"4150766398309599162"
+			}
+			"maxsize"		"1004447"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"E191D368E57A5019E4A009622A2D140C"
+					"encrypted_size_2"		"59F817F0C956617DDB7254EDAB293BCF"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"32AA79D35E8F9EABCC5D3CC9157A3E18"
+					"encrypted_size_2"		"9E8261DC37AF0C850964DBB030622586"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"F9F896976F9BED1F10B086B474B9C5D6"
+					"encrypted_size_2"		"01FA922BBF1D4767C9E02644A7753A85"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"874AC8A5BC852CDB8406E4B28BCEA19E"
+					"encrypted_size_2"		"2831BD1AB59EB1B94257D1F53724BCF6"
+				}
+			}
+		}
+		"541260"
+		{
+			"name"		"American Truck Simulator - Peterbilt 389 (541260) Depot"
+			"dlcappid"		"541260"
+			"manifests"
+			{
+				"public"		"5924620440459713012"
+				"oculus"		"5012839070503321281"
+				"oculus_previous"		"4014511717297578039"
+				"temporary_1_28"		"2825488209336862728"
+				"temporary_1_29"		"4189139887234932917"
+				"temporary_1_30"		"7361738978753353598"
+				"temporary_1_31"		"2313490087915178544"
+				"temporary_1_32"		"4938154859479188416"
+				"temporary_1_33"		"5858628014579364588"
+				"temporary_1_34"		"8698900375345973585"
+				"temporary_1_35"		"8111081255735610768"
+				"temporary_1_5"		"3033974372152443069"
+				"temporary_1_6"		"2304119110439754066"
+			}
+			"maxsize"		"44924247"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"FEA095D3DA66E5F3FA1D780B5278B0AF"
+					"encrypted_size_2"		"8DC1810E49EE10E21E73E351F0936C1D"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"743DAA0EA3A56DA2335540731D126138"
+					"encrypted_size_2"		"6A0A52B4C1189153AE834E6BFBE21CDE"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"379C4A4C0CA17CD68E04F8E9F44409D5"
+					"encrypted_size_2"		"734CDD57FFED5D2D40907AE260F2A0C8"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"D70B0B078D3B8B79963EB582B5184DA6"
+					"encrypted_size_2"		"A9B9525AA9C47D3F6F85F5AB72C15CEF"
+				}
+			}
+		}
+		"546260"
+		{
+			"name"		"American Truck Simulator - Halloween Paint Jobs Pack (546260) Depot"
+			"dlcappid"		"546260"
+			"manifests"
+			{
+				"public"		"4548605453458416649"
+				"oculus"		"9026718756413114775"
+				"oculus_previous"		"7623489826203656413"
+				"temporary_1_28"		"6628358488344053140"
+				"temporary_1_29"		"6800422872841764118"
+				"temporary_1_30"		"576113087079418265"
+				"temporary_1_31"		"8724837100206381231"
+				"temporary_1_32"		"8900716991023348204"
+				"temporary_1_33"		"6985063848955195742"
+				"temporary_1_34"		"3954103862177339361"
+				"temporary_1_35"		"8708377737212916733"
+				"temporary_1_5"		"8849912052428485857"
+				"temporary_1_6"		"6462475373845520753"
+			}
+			"maxsize"		"64045908"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"AFCC10FCC2A34F6C1D55FE078E4EEA98"
+					"encrypted_size_2"		"49259E8D1EE1490D1467E43AF455AEE8"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"37CA7BA8F3D3208C2FB4E7F671B7EA04"
+					"encrypted_size_2"		"C7146F86845780D832D212396F3A4DB2"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"E014FBAB2C34C842EFB2648B2CC0366D"
+					"encrypted_size_2"		"17303A7C7345028AEB03805DE89ED423"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"0213170C25796CF9805A1D975BDF9862"
+					"encrypted_size_2"		"CD3D34F459BBBB59042A5F05F213E608"
+				}
+			}
+		}
+		"561620"
+		{
+			"name"		"American Truck Simulator - Dragon Truck Design Pack (561620) Depot"
+			"dlcappid"		"561620"
+			"manifests"
+			{
+				"public"		"3184539783978621515"
+				"oculus"		"1480939040565382028"
+				"oculus_previous"		"427632388953391336"
+				"temporary_1_28"		"5066029143537050228"
+				"temporary_1_29"		"4264292893100663213"
+				"temporary_1_30"		"796846492420805117"
+				"temporary_1_31"		"2569151990440670712"
+				"temporary_1_32"		"2161240847628166907"
+				"temporary_1_33"		"8382491891954216278"
+				"temporary_1_34"		"2197247546281284060"
+				"temporary_1_35"		"5229587582835046525"
+				"temporary_1_5"		"8260808091419000200"
+				"temporary_1_6"		"3992255821575073637"
+			}
+			"maxsize"		"16088951"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"919E8DB18D28D167E2C417B07C3F36EF"
+					"encrypted_size_2"		"6DE622F3F0BC20759B3D035B709AC6ED"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"640C29F7A5F9137FD0C7DEAF732CA9E9"
+					"encrypted_size_2"		"867C0ABC44F240EA2598CF18295848FA"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"E87494A441A02374EE367ECD519BF553"
+					"encrypted_size_2"		"8E0C48F6507EC7A74766F7FF71EFC432"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"DC3022EDD696E1198A2EC4407B84C84A"
+					"encrypted_size_2"		"A7FAAC2A82BDDFD4F2A9D4AF027164C3"
+				}
+			}
+		}
+		"566890"
+		{
+			"name"		"American Truck Simulator - Christmas Paint Jobs Pack (566890) Depot"
+			"dlcappid"		"566890"
+			"manifests"
+			{
+				"public"		"3683683310462405779"
+				"oculus"		"1282351282621215986"
+				"oculus_previous"		"8917168008571764772"
+				"temporary_1_28"		"7529838801857707172"
+				"temporary_1_29"		"281040880988011471"
+				"temporary_1_30"		"3831514330988551157"
+				"temporary_1_31"		"8929402649567040566"
+				"temporary_1_32"		"1115685098814752908"
+				"temporary_1_33"		"3476136831381478572"
+				"temporary_1_34"		"169284438715997648"
+				"temporary_1_35"		"2434189754375688524"
+				"temporary_1_5"		"5563491474061766002"
+				"temporary_1_6"		"5159607621693636873"
+			}
+			"maxsize"		"38308913"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"08E4D4E66EA003B4A432D61A00B527DA"
+					"encrypted_size_2"		"AFA89D2EDA4753225E1F0E4745131BF7"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"098C996F6389E883C132E80E12100566"
+					"encrypted_size_2"		"48663B4014BB1E6C2A8E6FFC22332FE0"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"D0091CC41BCEE5E06097DB0828F22F8F"
+					"encrypted_size_2"		"8029E0D1853F94E24A2606577038F498"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"3C135967B11EAE13803F17BFC8D54416"
+					"encrypted_size_2"		"379285E802CFABA91E5A9E6B4F6F0952"
+				}
+			}
+		}
+		"588600"
+		{
+			"name"		"American Truck Simulator - Valentine's Paint Jobs Pack (588600) Depot"
+			"dlcappid"		"588600"
+			"manifests"
+			{
+				"public"		"6415211173661274941"
+				"oculus"		"8284940984756069457"
+				"oculus_previous"		"131191495092139284"
+				"temporary_1_28"		"2287786361863622082"
+				"temporary_1_29"		"2814561081711141654"
+				"temporary_1_30"		"6625973930372394954"
+				"temporary_1_31"		"9037954414370068244"
+				"temporary_1_32"		"6566485283531504742"
+				"temporary_1_33"		"1681261411638053959"
+				"temporary_1_34"		"5206197655771780038"
+				"temporary_1_35"		"2348414507533875703"
+				"temporary_1_5"		"1614817633117213799"
+				"temporary_1_6"		"6719742274575312886"
+			}
+			"maxsize"		"37012445"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"92F4683645C104B58CB3890A9C4843BC"
+					"encrypted_size_2"		"B207E130860A2BCDC4C8EB71E29B11FC"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"45E180F9CF88F4792664E7AF5E2A7244"
+					"encrypted_size_2"		"23B6DBCCD9BD2815CCC4480AE883553F"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"4AE4E72245C0AC66BC42E35B77DE0C54"
+					"encrypted_size_2"		"0E83F0560D730503EFF4333EC6FC24C7"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"4A1924FB03E5490087B8125A83B8CC95"
+					"encrypted_size_2"		"47A25ECBFF1382284C03315B4E6F9263"
+				}
+			}
+		}
+		"620610"
+		{
+			"name"		"American Truck Simulator - Heavy Cargo Pack (620610) Depot"
+			"dlcappid"		"620610"
+			"manifests"
+			{
+				"public"		"4331071243522868478"
+				"oculus"		"2832728153659975393"
+				"oculus_previous"		"2495081548782285476"
+				"temporary_1_28"		"1603101630113671318"
+				"temporary_1_29"		"7691275701048676827"
+				"temporary_1_30"		"5315331161014219402"
+				"temporary_1_31"		"2158031502790175676"
+				"temporary_1_32"		"8729307090705481272"
+				"temporary_1_33"		"8972251697877560194"
+				"temporary_1_34"		"3156888676206152178"
+				"temporary_1_35"		"7831465792175461175"
+				"temporary_1_6"		"7551569477361827364"
+			}
+			"maxsize"		"22202325"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"DEB41990395BDDD8A5FFC7CDA2277A4D"
+					"encrypted_size_2"		"11886E368F36204B06959AAF92A73FB6"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"B31E27FE9181CC5786861320C0226755"
+					"encrypted_size_2"		"DCD2085C1D3D9EC1FDC99A26660142F7"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"2443F643DB148683F0FDF30340524B79"
+					"encrypted_size_2"		"346BE7D9A39C0602E91309C7F1FFDAF9"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"7C375F6E175B024E6B3F00EB4EF24CD3"
+					"encrypted_size_2"		"E70161633886F4C06649BBF3E42CBC19"
+				}
+			}
+		}
+		"684630"
+		{
+			"name"		"American Truck Simulator - New Mexico (684630) Depot"
+			"dlcappid"		"684630"
+			"manifests"
+			{
+				"public"		"7317484639764911245"
+				"oculus"		"6232332588055745533"
+				"oculus_previous"		"6120560343210038112"
+				"temporary_1_28"		"1907542938170834112"
+				"temporary_1_29"		"1907542938170834112"
+				"temporary_1_30"		"6378243984634334470"
+				"temporary_1_31"		"3081001030023623596"
+				"temporary_1_32"		"6434512445036943390"
+				"temporary_1_33"		"1970321932759784879"
+				"temporary_1_34"		"3455187147592584755"
+				"temporary_1_35"		"4965199158092909690"
+			}
+			"maxsize"		"146193093"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"19DBD09EC610D4CBC6298EE6D3802FAA"
+					"encrypted_size_2"		"5A906825AC5C4D26CF0A9A9A63A4836E"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"2636A1D3DA9ADAC3D0D68B3B1B6127D1"
+					"encrypted_size_2"		"EBAFD16080DD897513D73F5F5EBB3BD5"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"8D16C8ABE6FDC834AF0770979859300A"
+					"encrypted_size_2"		"C118F989D3A3E75DAE2779DD08E634DE"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"89DD0B243C1919470036221FBCC19996"
+					"encrypted_size_2"		"152B8C1A152881077A3813D0982AB9E3"
+				}
+			}
+		}
+		"800370"
+		{
+			"name"		"American Truck Simulator - Oregon (800370) Depot"
+			"dlcappid"		"800370"
+			"manifests"
+			{
+				"public"		"4745742899498219539"
+				"oculus"		"842408127863201197"
+				"oculus_previous"		"4493667177538865373"
+				"temporary_1_32"		"8507671868108723227"
+				"temporary_1_33"		"7139884182042099607"
+				"temporary_1_34"		"1663136020100919771"
+				"temporary_1_35"		"6783520941454478136"
+			}
+			"maxsize"		"100675894"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"8D675262AA1DA6F40FFDE132B2E8DE95"
+					"encrypted_size_2"		"BBC3DC6BE90093C034353A6D9AC84A7F"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"06877CFF0739D712C46A47C094E54677"
+					"encrypted_size_2"		"71320BD2D70A400B5AF4BDC88D4E92AB"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"7F39D1EABA8154F423455D9C95B3F26A"
+					"encrypted_size_2"		"A3128F886E0BB2A7087DDFE4B885B460"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"1A504E0BBA0C317D2CF086EA1DEE36CF"
+					"encrypted_size_2"		"B817B1DC4C522F8FCBEDE890831C5DC9"
+				}
+			}
+		}
+		"951650"
+		{
+			"name"		"American Truck Simulator - Classic Stripes Paint Jobs Pack (951650) Depot"
+			"dlcappid"		"951650"
+			"manifests"
+			{
+				"public"		"6591043140562881125"
+				"oculus"		"1085559350144436458"
+				"oculus_previous"		"2729877632297183923"
+				"temporary_1_32"		"1443771528369796792"
+				"temporary_1_33"		"5468518140220698519"
+				"temporary_1_34"		"5863500528506962738"
+				"temporary_1_35"		"5778381827966272653"
+			}
+			"maxsize"		"10364217"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"2C939E45D647463BA6DA85E3994108C2"
+					"encrypted_size_2"		"6C72089C6962758CC4879CFEE0327CF9"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"51E22F47112A1176FD36DE0FF0E7426D"
+					"encrypted_size_2"		"D09FDE2A47709DD2292D07A45E1F20AD"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"DF422427765065DA2A46D2C9A2B1629F"
+					"encrypted_size_2"		"FA565E70BB2535D52B0B618D9FA1E90A"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"C11E3FCD147C692958C6C15CF68ED26F"
+					"encrypted_size_2"		"5A715975D78EF463094C5A22DE0B71BC"
+				}
+			}
+		}
+		"962750"
+		{
+			"name"		"American Truck Simulator - Special Transport Depot (962750)"
+			"dlcappid"		"962750"
+			"manifests"
+			{
+				"public"		"7506855327614065755"
+				"oculus"		"2455911427864174788"
+				"oculus_previous"		"1349111235181053097"
+				"temporary_1_32"		"2225645273318859945"
+				"temporary_1_33"		"4579606394419906132"
+				"temporary_1_34"		"993871896390106833"
+				"temporary_1_35"		"8083492078919580219"
+			}
+			"maxsize"		"22343252"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"101C0F71C248C6332C8727CC46041BA9"
+					"encrypted_size_2"		"D472E02A8EAE9CE34F530C95EFC88214"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"F145C9DF049E647423C0283E771E6440"
+					"encrypted_size_2"		"B7642DCF36CB7CE5CBEF31DF07731E86"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"AF14802B32DB3C840E0B9D9089264AA4"
+					"encrypted_size_2"		"62584FE6C05CB97474C127E61A78795D"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"394F2245DF28DC6F2B21B4D0977B69A5"
+					"encrypted_size_2"		"EA702DFDF8C500A40FE071FCC8D20799"
+				}
+			}
+		}
+		"1015160"
+		{
+			"name"		"American Truck Simulator - Washington (1015160) Depot"
+			"dlcappid"		"1015160"
+			"manifests"
+			{
+				"public"		"693817905811313742"
+				"oculus"		"7488644751008383074"
+				"temporary_1_35"		"2598242596938353918"
+			}
+			"maxsize"		"92008545"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"FB1045FB0F23FC7D71C52F2547B3E761"
+					"encrypted_size_2"		"50ED02EC64B534CA4988B7EA32EA5A3E"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"DAFF60DDEAFE5AC1CDA8922409243A06"
+					"encrypted_size_2"		"3AF33111CDAF4E20CDECAF287231021D"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"42E6AC71CA5873C160F5CD0EDE2E2B67"
+					"encrypted_size_2"		"18326844BC8F45344D188AC97CCCD813"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"DD0CC1B5A303FBDD6D7B1571EF64480A"
+					"encrypted_size_2"		"62753304339A1838AA45C514DFFF21E5"
+				}
+			}
+		}
+		"1076080"
+		{
+			"name"		"American Truck Simulator - Forest Machinery (1076080) Depot"
+			"dlcappid"		"1076080"
+			"manifests"
+			{
+				"public"		"1336839365660374649"
+				"oculus"		"1126631115234758505"
+				"temporary_1_35"		"4295456555058398946"
+			}
+			"maxsize"		"37171627"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"C1552DE145E51B89228D37FA14E3E0D8"
+					"encrypted_size_2"		"4BB1AEBA73E3CC4AC1DD5F6DBDEE5F71"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"CD027E22D499E8171E24F9ACCC35DDEE"
+					"encrypted_size_2"		"B40189D0FDF302016134A81ED51CFA99"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"B2C41FFA643FD25BEDD918994A57AC91"
+					"encrypted_size_2"		"AA603651372202A25FD35E70C437F061"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"6C7B88A47FEAF4EFBAA27748158E9195"
+					"encrypted_size_2"		"DF21432A0B175588A190D1A2B761C703"
+				}
+			}
+		}
+		"1104880"
+		{
+			"name"		"American Truck Simulator - Mrazíkovo (1104880) Depot"
+			"dlcappid"		"1104880"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"0EC11C30FF4E6645F80AA51A1F91FB59"
+					"encrypted_size_2"		"7699D48004F233F03935171CE4BC63E4"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"3551F52C881C4728A09C3145E473193C"
+					"encrypted_size_2"		"4A5CBE1EEE79D826634042D27BA82969"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"6D073E4EF09CA9054AB32DF6505097AA"
+					"encrypted_size_2"		"6212B8633FEEA31EF5BDB6E2091CF573"
+				}
+			}
+		}
+		"1116310"
+		{
+			"name"		"American Truck Simulator - Space Paint Jobs  Pack (1116310) Depot"
+			"dlcappid"		"1116310"
+			"manifests"
+			{
+				"public"		"7052055099732890669"
+				"oculus"		"2966877322180109269"
+			}
+			"maxsize"		"62893313"
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"75AD316CA2A474874C91CA06DCD54AE9"
+					"encrypted_size_2"		"C36B98AB973B500DD064AB4D12BEDF15"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"7168C2F391B801AFEC7E90D937C5E67A"
+					"encrypted_size_2"		"628B4F90757AC10ECC650A885BD717D2"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"B91B6F272C6020E1851F86ED05C52CF3"
+					"encrypted_size_2"		"54E6B674E3EA754619458F85B276E5E5"
+				}
+			}
+		}
+		"1149810"
+		{
+			"name"		"American Truck Simulator - Marula Vrm (1149810) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"F433D9D01116112F0309BDBDDCE598AE"
+					"encrypted_size_2"		"176931789F3589490CB076843ED1F0A7"
+				}
+				"experimental2"
+				{
+					"encrypted_gid_2"		"B92E968D04A95E68DAF67588C577AB76"
+					"encrypted_size_2"		"7422701A4B190923620CC6F2540FD2A2"
+				}
+				"testing_senior"
+				{
+					"encrypted_gid_2"		"DC5F2C84830B432BDDBD23F606563532"
+					"encrypted_size_2"		"00BFBF76634A7D78D808A269270BC948"
+				}
+			}
+			"dlcappid"		"1149810"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4077111"
+				"timeupdated"		"1565190244"
+			}
+			"baseline"
+			{
+				"buildid"		"3953592"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561637025"
+			}
+			"experimental"
+			{
+				"buildid"		"4166092"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567604908"
+			}
+			"experimental2"
+			{
+				"buildid"		"4159535"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567422907"
+			}
+			"oculus"
+			{
+				"buildid"		"4092630"
+				"description"		"Oculus/Vive - 1.35 - (SDK 1.4.0)"
+				"timeupdated"		"1565630090"
+			}
+			"oculus_07"
+			{
+				"buildid"		"1165786"
+				"description"		"Version using 0.7.0 SDK - 1.1"
+				"timeupdated"		"1465209982"
+			}
+			"oculus_previous"
+			{
+				"buildid"		"3548716"
+				"description"		"Oculus/Vive - 1.34 - (SDK 1.4.0)"
+				"timeupdated"		"1560243609"
+			}
+			"public_beta"
+			{
+				"buildid"		"4077111"
+				"description"		"1.35"
+				"timeupdated"		"1565190222"
+			}
+			"temporary_1_0"
+			{
+				"buildid"		"1165775"
+				"description"		"1.0.x for incompatible mods"
+				"timeupdated"		"1465209902"
+			}
+			"temporary_1_28"
+			{
+				"buildid"		"2271405"
+				"description"		"1.28.x for incompatible mods"
+				"timeupdated"		"1510249039"
+			}
+			"temporary_1_29"
+			{
+				"buildid"		"2270930"
+				"description"		"1.29.1.1 for incompatible mods"
+				"timeupdated"		"1512569684"
+			}
+			"temporary_1_3"
+			{
+				"buildid"		"1165712"
+				"description"		"1.3.x for incompatible mods"
+				"timeupdated"		"1465287892"
+			}
+			"temporary_1_30"
+			{
+				"buildid"		"2619770"
+				"description"		"1.30.x for incompatible mods"
+				"timeupdated"		"1524573712"
+			}
+			"temporary_1_31"
+			{
+				"buildid"		"2952368"
+				"description"		"1.31.x for incompatible mods"
+				"timeupdated"		"1536935610"
+			}
+			"temporary_1_32"
+			{
+				"buildid"		"3281294"
+				"description"		"1.32 for incompatible mods"
+				"timeupdated"		"1544517583"
+			}
+			"temporary_1_33"
+			{
+				"buildid"		"3405044"
+				"description"		"1.33.x for incompatible mods"
+				"timeupdated"		"1549621136"
+			}
+			"temporary_1_34"
+			{
+				"buildid"		"3554310"
+				"description"		"1.34.x for incompatible mods"
+				"timeupdated"		"1550655855"
+			}
+			"temporary_1_35"
+			{
+				"buildid"		"3953592"
+				"description"		"1.35.x for incompatible mods"
+				"timeupdated"		"1561636959"
+			}
+			"temporary_1_5"
+			{
+				"buildid"		"1622148"
+				"description"		"1.5.x for incompatible mods"
+				"timeupdated"		"1486719267"
+			}
+			"temporary_1_6"
+			{
+				"buildid"		"1902441"
+				"description"		"1.6.x for incompatible mods"
+				"timeupdated"		"1502988993"
+			}
+			"testing"
+			{
+				"buildid"		"4077111"
+				"description"		"Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565190200"
+			}
+			"testing_senior"
+			{
+				"buildid"		"4166092"
+				"description"		"Testing branch for senior testers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567609536"
+			}
+			"unsupported_32bit"
+			{
+				"buildid"		"4077115"
+				"description"		"Unsupported 32-bit version"
+				"timeupdated"		"1565190286"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#cargodelivery"		"{#JobType_%job_type%} | %cargo% | Near %closest_city% | %source_city% > %target_city% | %vehicle%"
+					"#jobtype_quick"		"Quick job"
+					"#jobtype_freight"		"Freight job"
+					"#jobtype_online"		"World of Trucks job"
+					"#freeroam"		"Free roam | Near %closest_city%"
+					"#notavailable"		"N/A"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,491 @@
+"appinfo"
+{
+	"appid"		"526160"
+	"common"
+	{
+		"name"		"The Wild Eight"
+		"type"		"Game"
+		"logo"		"2ac72f6acace023828bbdedb91f1795690ef2ba4"
+		"logo_small"		"2ac72f6acace023828bbdedb91f1795690ef2ba4_thumb"
+		"icon"		"83a154f8cd3a2763e6420e72760e95b1d55f6d21"
+		"clienttga"		"4969ba06048ba0203a9d88c6d92fe991d39c9556"
+		"clienticon"		"4c6c9c1d8029eaa1c21bbf1f73d1cdc89d75a06c"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"metacritic_name"		"The Wild Eight"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1560930424"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HypeTrain Digital"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HypeTrain Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"HypeTrain Digital"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"28"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_13"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1486584979"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"526160"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"3859"
+			"2"		"1695"
+			"3"		"21"
+			"4"		"1702"
+			"5"		"1685"
+			"6"		"3843"
+			"7"		"3810"
+			"8"		"4166"
+			"9"		"492"
+			"10"		"4182"
+			"11"		"19"
+			"12"		"3978"
+			"13"		"122"
+			"14"		"599"
+			"15"		"4026"
+			"16"		"493"
+			"17"		"9"
+			"18"		"1667"
+			"19"		"1716"
+		}
+	}
+	"extended"
+	{
+		"developer"		"HypeTrain Digital"
+		"publisher"		"HypeTrain Digital"
+		"homepage"		"http://thewildeight.com/"
+		"listofdlc"		"590360,590361,731380"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Wild Eight"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wildeight.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"wildeight.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"526161"
+		{
+			"name"		"The Wild Eight"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"789411570498353066"
+			}
+		}
+		"526162"
+		{
+			"name"		"The Wild Eight win32"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"4791731688986591032"
+			}
+			"encryptedmanifests"
+			{
+				"0.10_developer"
+				{
+					"encrypted_gid_2"		"9E6F2C87B8482854A4FB15BF4257877A"
+					"encrypted_size_2"		"B07163C2583DF6F2759DDEA074C94486"
+				}
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"E831716655667993C2669583CD9E0B3D"
+					"encrypted_size_2"		"DAF62C6D4DCD40A5B324E5A568B643A8"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"70E739682BE35FBA779354AB513F240B"
+					"encrypted_size_2"		"2294973D64AC1F83D9D93880BA11FC6A"
+				}
+				"2ndcontenttest"
+				{
+					"encrypted_gid_2"		"C4E922728EED622F5D4A57FC839A8C63"
+					"encrypted_size_2"		"E576350C3CBABB147AE00F481B1F8618"
+				}
+			}
+		}
+		"526165"
+		{
+			"name"		"The Wild Eight win32 signature.bin"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1052566186336864550"
+			}
+			"encryptedmanifests"
+			{
+				"0.10_developer"
+				{
+					"encrypted_gid_2"		"E848495B11BE60F632C082786A8D5D56"
+					"encrypted_size_2"		"EF78DFF404B5B0FBE51308A35B233321"
+				}
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"1FC1DAA5CBFB86F79D59A4DCBB9CE3BA"
+					"encrypted_size_2"		"582999FD987E810D90B3F592B8E1CEBB"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"B072DC8D845BB86900A935A3A7A2385A"
+					"encrypted_size_2"		"61DB3C75D11DA6D7F5F2819CA9ACA3C2"
+				}
+			}
+		}
+		"526163"
+		{
+			"name"		"The Wild Eight win64"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5835881230493557721"
+				"thewildeightbeta"		"3484881867521943691"
+			}
+			"maxsize"		"2039516650"
+			"encryptedmanifests"
+			{
+				"0.10_developer"
+				{
+					"encrypted_gid_2"		"A87D2CBC8212174AAAF99C236B4F34A3"
+					"encrypted_size_2"		"C4184AA24C6F95EEFFAAA061E3EDBBA4"
+				}
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"44B25918A95218D1DA550387A8506601"
+					"encrypted_size_2"		"282F5D91ECE25C2E2363E7BE4BFBF1C6"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"A9B46ADB956073B088D8FBB2A22DAFF7"
+					"encrypted_size_2"		"E8C427DA626FEDAE3C4B0632B5D7CD0D"
+				}
+				"2ndcontenttest"
+				{
+					"encrypted_gid_2"		"56C6EDD30AA4C456EE4B1EA8AEDB8F32"
+					"encrypted_size_2"		"E576350C3CBABB147AE00F481B1F8618"
+				}
+				"secondworldtest"
+				{
+					"encrypted_gid_2"		"7E4329F16D083058859BDB6E58FCFC4A"
+					"encrypted_size_2"		"B7B70081D03BBB5D1801C993D8968360"
+				}
+			}
+		}
+		"526166"
+		{
+			"name"		"The Wild Eight win64 signature.bin"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3152946002594815808"
+				"thewildeightbeta"		"7421349697904914692"
+			}
+			"maxsize"		"128"
+			"encryptedmanifests"
+			{
+				"0.10_developer"
+				{
+					"encrypted_gid_2"		"24EA3796D142BE19B7E76733ED58428C"
+					"encrypted_size_2"		"EF78DFF404B5B0FBE51308A35B233321"
+				}
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"BEAFCA11AA60DF2410E7854864D0F835"
+					"encrypted_size_2"		"582999FD987E810D90B3F592B8E1CEBB"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"D237727157374FE59E4002B82A3D7B37"
+					"encrypted_size_2"		"61DB3C75D11DA6D7F5F2819CA9ACA3C2"
+				}
+				"2ndcontenttest"
+				{
+					"encrypted_gid_2"		"D8A6B41F57E1E3E91566B466E35CB5E2"
+					"encrypted_size_2"		"AC54D0B88DC1DAF40CBFCF025C964B89"
+				}
+				"secondworldtest"
+				{
+					"encrypted_gid_2"		"E5BEB6D6EABEBDAD7E506D76F8377963"
+					"encrypted_size_2"		"EDE86CCC57BC6E18FC6966193EF7F7FA"
+				}
+			}
+		}
+		"526164"
+		{
+			"name"		"The Wild Eight osx"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6087780418401585776"
+			}
+			"encryptedmanifests"
+			{
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"723C01883C0D31CFAF2784C651E6C875"
+					"encrypted_size_2"		"BF52795E22F7354116CDA2C22C03FE1B"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"6D3327B6F842318C1F325C1B28A89D48"
+					"encrypted_size_2"		"2B94E7E3735AB088D73D7796643F70E2"
+				}
+				"2ndcontenttest"
+				{
+					"encrypted_gid_2"		"EC1D3D698118B79D5C7D5B27D3FEDBD9"
+					"encrypted_size_2"		"AC54D0B88DC1DAF40CBFCF025C964B89"
+				}
+			}
+		}
+		"526167"
+		{
+			"name"		"The Wild Eight linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5978098705997190681"
+			}
+			"encryptedmanifests"
+			{
+				"0.8_developer"
+				{
+					"encrypted_gid_2"		"6E4B8041906C9EC95330C8B14BB1E221"
+					"encrypted_size_2"		"75D9EBCF465BCFD613748BEC873C259B"
+				}
+				"0.9_developer"
+				{
+					"encrypted_gid_2"		"58C8104CE452B9060A06B13E8F87BE62"
+					"encrypted_size_2"		"2B94E7E3735AB088D73D7796643F70E2"
+				}
+				"2ndcontenttest"
+				{
+					"encrypted_gid_2"		"750F4648DCADE142AFEF808F80AE9622"
+					"encrypted_size_2"		"AC54D0B88DC1DAF40CBFCF025C964B89"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4054818"
+				"timeupdated"		"1564494609"
+			}
+			"0.10_developer"
+			{
+				"buildid"		"4179194"
+				"description"		"Network rework"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568033462"
+			}
+			"0.8_developer"
+			{
+				"buildid"		"2672945"
+				"description"		"Hitfixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1523348454"
+			}
+			"0.9_developer"
+			{
+				"buildid"		"2918407"
+				"description"		"Cosmonautics day update"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530710951"
+			}
+			"2ndcontenttest"
+			{
+				"buildid"		"2861283"
+				"description"		"2nd Chapter Content"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528977459"
+			}
+			"secondworldtest"
+			{
+				"buildid"		"4016041"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564416447"
+			}
+			"thewildeightbeta"
+			{
+				"buildid"		"3742931"
+				"description"		"The Wild Eight Beta"
+				"timeupdated"		"1555442633"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"TheWildEight"
+				"pattern"		"*.byte"
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

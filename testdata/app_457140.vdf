@@ -1,0 +1,654 @@
+"appinfo"
+{
+	"appid"		"457140"
+	"common"
+	{
+		"name"		"Oxygen Not Included"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"9bfcceba1cce2f64ecf14f3baa5d91676021f91e"
+		"logo_small"		"9bfcceba1cce2f64ecf14f3baa5d91676021f91e_thumb"
+		"icon"		"d37534163ebac8351e0bda0bf30f8f2174c921b6"
+		"clienticon"		"727e873b32e3b5f16e30c007a9758e4e5b480938"
+		"clienttga"		"e782ebba028d480d53dd2fa25bc90c2eb1fb4994"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"clienticns"		"ac507c4641e4768123eabf6189b5e23b8716a824"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"457140_eula_0"
+				"name"		"Oxygen Not Included EULA"
+				"url"		"http://store.steampowered.com//eula/457140_eula_0"
+			}
+		}
+		"metacritic_name"		"Oxygen Not Included"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"22"
+				"height_pct"		"44"
+			}
+		}
+		"store_asset_mtime"		"1564779651"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Klei Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Klei Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Klei Entertainment"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1564505452"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"457140"
+		"store_tags"
+		{
+			"0"		"7332"
+			"1"		"1662"
+			"2"		"8945"
+			"3"		"1643"
+			"4"		"4182"
+			"5"		"3871"
+			"6"		"599"
+			"7"		"12472"
+			"8"		"3810"
+			"9"		"9"
+			"10"		"1755"
+			"11"		"493"
+			"12"		"492"
+			"13"		"3942"
+			"14"		"3834"
+			"15"		"1695"
+			"16"		"4026"
+			"17"		"21"
+			"18"		"16598"
+			"19"		"3859"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Klei Entertainment"
+		"publisher"		"Klei Entertainment"
+		"homepage"		"https://www.kleientertainment.com/games/oxygen-not-included"
+		"listofdlc"		"636750"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"OxygenNotIncluded"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OxygenNotIncluded.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OxygenNotIncluded.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"OxygenNotIncluded"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"457141"
+		{
+			"name"		"NA Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4287438871402403576"
+				"audio_logging_enabled"		"7160754460181425187"
+			}
+			"maxsize"		"1965880133"
+			"encryptedmanifests"
+			{
+				"daily"
+				{
+					"encrypted_gid_2"		"532F13DE03F9933568AF8B16987F83DF"
+					"encrypted_size_2"		"7D4193F49BAD03BFF3E99B039CFA346B"
+				}
+				"development"
+				{
+					"encrypted_gid_2"		"11562B067CE57A88E8D2E8CA5B769986"
+					"encrypted_size_2"		"787BC2A3069CAB3BDA50C8748BA77C01"
+				}
+				"development_public"
+				{
+					"encrypted_gid_2"		"26DDCA72594DE337A0FFAA88D1FBE5F8"
+					"encrypted_size_2"		"1DBDBCF2C5571F6F52539031E7DFC0C3"
+				}
+				"occupational_upgrade"
+				{
+					"encrypted_gid_2"		"E5EE8D48DC32A69B484F3A4A74BDD0BA"
+					"encrypted_size_2"		"03CD7C1E3CA595A16102A0545DAF08B7"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"20D4884C6C161CC76A9813C42DCC9300"
+					"encrypted_size_2"		"5287F4A53B241730B9511BF897B097CB"
+				}
+				"qol_1_upgrade"
+				{
+					"encrypted_gid_2"		"5FF712CC22A3885873CAC93A62747912"
+					"encrypted_size_2"		"D270F98A70A0B7A83D50AFDE72520C57"
+				}
+				"qol_2_upgrade"
+				{
+					"encrypted_gid_2"		"E0A0BA1A4379DD8637E27C60AFD44B35"
+					"encrypted_size_2"		"1CC38017327D06CCACD909A7D6393C3E"
+				}
+				"qol_3_upgrade"
+				{
+					"encrypted_gid_2"		"03BEDEC670737D83FE50C2ED3510B9AE"
+					"encrypted_size_2"		"6AB073991396E35C06925873652EEBEF"
+				}
+				"ranching_1_upgrade"
+				{
+					"encrypted_gid_2"		"39EF0D2C6D82F8BAABB658AC7624117A"
+					"encrypted_size_2"		"1043ED894FE7680CEBA4C5094C42F5C1"
+				}
+				"ranching_2_upgrade"
+				{
+					"encrypted_gid_2"		"A6C2C63B64946014E031C1F8639AABF2"
+					"encrypted_size_2"		"3BCE32F70BD30D865EC91C2B4542D02A"
+				}
+				"rhymeswithplay"
+				{
+					"encrypted_gid_2"		"E8A795163F408827E36BA50AC3CF2021"
+					"encrypted_size_2"		"DB3F6960FEAAF9629D2038BAA3C17521"
+				}
+				"rocketry_upgrade"
+				{
+					"encrypted_gid_2"		"6A1CA631866FB223ECB9357E8752F3FB"
+					"encrypted_size_2"		"339F6FCAE1D020D030C8B6D424DE0EC2"
+				}
+				"space_industry_upgrade"
+				{
+					"encrypted_gid_2"		"D9E8FB1E50F34E814FD8281A1C53A635"
+					"encrypted_size_2"		"12C313CF36ADC135E27F0ADCF5237EA7"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"F9C88108760014A6C8378D50DDE2B113"
+					"encrypted_size_2"		"B6AC8BE26E9F35581283C0E98FDCB5DA"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"F569A7FAB396A8050ACCEA742D2C3D67"
+					"encrypted_size_2"		"D6863BCEA16DDB1AD1EF32F098923FC8"
+				}
+				"tubular_upgrade"
+				{
+					"encrypted_gid_2"		"9516160C2192FF98EA2937FE224EFFC4"
+					"encrypted_size_2"		"7B66F71CDF8837C3532E78BC024870D8"
+				}
+			}
+		}
+		"457142"
+		{
+			"name"		"NA Depot - OSX"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7134297614626936941"
+				"audio_logging_enabled"		"5368388992529369764"
+			}
+			"maxsize"		"1984454248"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"A9CF429FD58F98E045FB776AD4961D31"
+					"encrypted_size_2"		"0B092C9927275EB2610B6BAB0690E8C8"
+				}
+				"development_public"
+				{
+					"encrypted_gid_2"		"6289FECCA5F788A93E2AB3F4D49A2E28"
+					"encrypted_size_2"		"1D99034D81A57079E7FD7A808C693AAA"
+				}
+				"occupational_upgrade"
+				{
+					"encrypted_gid_2"		"F806D2057E978AAC6D0E9C361319B484"
+					"encrypted_size_2"		"422038E6DDFACE52373E77DFAE12A302"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"E130D0A9D70A66318F7EC9DD5CE15A24"
+					"encrypted_size_2"		"64397EEA54781187C55F6F56A9A93C20"
+				}
+				"qol_1_upgrade"
+				{
+					"encrypted_gid_2"		"8003E3D10FF79D8FB51613EA44DE5224"
+					"encrypted_size_2"		"195CCB38B825B74E34DE4C37D368827B"
+				}
+				"qol_2_upgrade"
+				{
+					"encrypted_gid_2"		"66B5DC42CF768730A2E7C52118E98865"
+					"encrypted_size_2"		"55F4DA2BC69B1A98F48362BE9373A5C8"
+				}
+				"qol_3_upgrade"
+				{
+					"encrypted_gid_2"		"9E2E9CD69B13F4CCAC43138ECDA16829"
+					"encrypted_size_2"		"BC26C5D3914B38620E7EF8A3CB3AAB3E"
+				}
+				"ranching_1_upgrade"
+				{
+					"encrypted_gid_2"		"B3C50B0056FAA03F356BF428C65C7BB2"
+					"encrypted_size_2"		"3D37DC49AA7A55C081279468FE41DEC1"
+				}
+				"ranching_2_upgrade"
+				{
+					"encrypted_gid_2"		"F035DDA49BD56566284F2625C01BC2D2"
+					"encrypted_size_2"		"2F6B4F51F2EB73A05A10BE999F6738CD"
+				}
+				"rhymeswithplay"
+				{
+					"encrypted_gid_2"		"C0C855BB63C9EB5779759E7623AA9F90"
+					"encrypted_size_2"		"09808F5A20CCE40B9A4E0AD3311D31C5"
+				}
+				"rocketry_upgrade"
+				{
+					"encrypted_gid_2"		"E8C27DA38685A17879207F8984C50CCA"
+					"encrypted_size_2"		"008195F86384C46F44AA16BFB7C3398C"
+				}
+				"space_industry_upgrade"
+				{
+					"encrypted_gid_2"		"F6C3C7F868C111F34AEB4273071D0B1E"
+					"encrypted_size_2"		"B6D52AA82DD9736DC9FC48507B35E567"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"EA52D35CC683F62B0B63CE3CDA11578C"
+					"encrypted_size_2"		"AAE0C43C60C9BB8BE0FE73960BD8941F"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"E4F6B8C287BC7FA6C40BA02A070633F3"
+					"encrypted_size_2"		"F923F81837345CE7D6F841E0D09E5841"
+				}
+				"tubular_upgrade"
+				{
+					"encrypted_gid_2"		"2FAE50B72ABD6293CA06E650836F05EF"
+					"encrypted_size_2"		"195696E5DF94033C0D0C966FB6ED9F65"
+				}
+			}
+		}
+		"457143"
+		{
+			"name"		"NA Depot - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3065250655719454383"
+				"audio_logging_enabled"		"234779368693509838"
+			}
+			"maxsize"		"1957461423"
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"encrypted_gid_2"		"2CEF911EEF454FC66F1D80D7F06C9D8F"
+					"encrypted_size_2"		"D35B7A0C616C2C80C18EF8BF5C6A25B2"
+				}
+				"development_public"
+				{
+					"encrypted_gid_2"		"AA9D64445760B629D48614AEE7885A8B"
+					"encrypted_size_2"		"323E06C252B8B2A25B803B17E56C2252"
+				}
+				"occupational_upgrade"
+				{
+					"encrypted_gid_2"		"B56C4C77DB341611C47565E5BAC5E128"
+					"encrypted_size_2"		"AE1544715C13B30D1E19B27F79CB7507"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"6121FD465B65590F58B2FA237C51A8E4"
+					"encrypted_size_2"		"0D42DDABC971D30143DC422D2E36C573"
+				}
+				"qol_1_upgrade"
+				{
+					"encrypted_gid_2"		"1C9F818B8FDF639042DA996530FF1A40"
+					"encrypted_size_2"		"DB8516E71583F06CA7EAAC4142A3604F"
+				}
+				"qol_2_upgrade"
+				{
+					"encrypted_gid_2"		"E76EC615DA377819875F650232486BC0"
+					"encrypted_size_2"		"F9CDF09E1FE19443EE448EDBC8984C0F"
+				}
+				"qol_3_upgrade"
+				{
+					"encrypted_gid_2"		"5518D790760C3CE2BE8FD3AA87E68749"
+					"encrypted_size_2"		"6B9FEA2D4FE478148D75BE3FB1B34167"
+				}
+				"ranching_1_upgrade"
+				{
+					"encrypted_gid_2"		"4DA7EA1E2F362B9C070DB7F8167EB203"
+					"encrypted_size_2"		"9F8FCC6A1A44829B205D61204E0E6A5A"
+				}
+				"ranching_2_upgrade"
+				{
+					"encrypted_gid_2"		"7FD80EC1A982B91283312079AD60BD92"
+					"encrypted_size_2"		"3D4530CF00CFEEFC4CD3C46034C4E3DB"
+				}
+				"rhymeswithplay"
+				{
+					"encrypted_gid_2"		"17075B727C15F8F57AB476DF5882097E"
+					"encrypted_size_2"		"BEC7AEF492D85554788E6595AB1F6A7C"
+				}
+				"rocketry_upgrade"
+				{
+					"encrypted_gid_2"		"7CDC97432A214342087FBA0768A31E2E"
+					"encrypted_size_2"		"AB652D90554504B5E50DEF2F4FF6DFC1"
+				}
+				"space_industry_upgrade"
+				{
+					"encrypted_gid_2"		"C1A36B873142C949ECD3E0623F34F29F"
+					"encrypted_size_2"		"75EC819C7F9A45B96E3330183FCD5452"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"E4D74B366CA0AA8A95189338D16172D4"
+					"encrypted_size_2"		"6D321C92ABFD080F6F8BA6A1BFFF44C2"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"491722D0C43E97787367B053AC71F5A7"
+					"encrypted_size_2"		"9EE8E87C8E227ACAAA8290FD0374A017"
+				}
+				"tubular_upgrade"
+				{
+					"encrypted_gid_2"		"0687AF081D9D200D996049379D7D0C5D"
+					"encrypted_size_2"		"478769C4C98C73C7A300891769C75B95"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4173751"
+				"timeupdated"		"1567792799"
+			}
+			"audio_logging_enabled"
+			{
+				"buildid"		"2950623"
+				"description"		""
+				"timeupdated"		"1531782683"
+			}
+			"daily"
+			{
+				"buildid"		"2192949"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1507816796"
+			}
+			"development"
+			{
+				"buildid"		"4179863"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568047567"
+			}
+			"development_public"
+			{
+				"buildid"		"2577817"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520280416"
+			}
+			"occupational_upgrade"
+			{
+				"buildid"		"2545706"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520528122"
+			}
+			"preview"
+			{
+				"buildid"		"4170648"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567711598"
+			}
+			"qol_1_upgrade"
+			{
+				"buildid"		"3472139"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549998648"
+			}
+			"qol_2_upgrade"
+			{
+				"buildid"		"3605864"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555110557"
+			}
+			"qol_3_upgrade"
+			{
+				"buildid"		"3852981"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562263135"
+			}
+			"ranching_1_upgrade"
+			{
+				"buildid"		"2653875"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1522787631"
+			}
+			"ranching_2_upgrade"
+			{
+				"buildid"		"2807884"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527281298"
+			}
+			"release"
+			{
+				"buildid"		"4173751"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567786989"
+			}
+			"rhymeswithplay"
+			{
+				"buildid"		"2513966"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1518225129"
+			}
+			"rocketry_upgrade"
+			{
+				"buildid"		"3119326"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539808652"
+			}
+			"space_industry_upgrade"
+			{
+				"buildid"		"3257874"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542908759"
+			}
+			"staging"
+			{
+				"buildid"		"4178829"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568024699"
+			}
+			"testing"
+			{
+				"buildid"		"2334286"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1512181349"
+			}
+			"tubular_upgrade"
+			{
+				"buildid"		"2383758"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1518049926"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"524288000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Klei/OxygenNotIncluded/cloud_save_files"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		"unity.Klei.Oxygen Not Included/cloud_save_files"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		".config/unity3d/Klei/Oxygen Not Included/cloud_save_files"
+					}
+				}
+			}
+		}
+	}
+}
+ 

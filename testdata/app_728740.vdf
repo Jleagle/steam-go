@@ -1,0 +1,438 @@
+"appinfo"
+{
+	"appid"		"728740"
+	"common"
+	{
+		"name"		"Sniper Elite V2 Remastered"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"logo"		"7e8c63b395e7f6ac032042168427abec0ed4b037"
+		"logo_small"		"7e8c63b395e7f6ac032042168427abec0ed4b037_thumb"
+		"icon"		"0f3ea49e9a6da5d5204764625c15d39a36005beb"
+		"clienticon"		"1aa7a1caf27a046f74cfc8581d43c9601a842862"
+		"clienttga"		"3dc9166bf0ba9c286331fea90a9bc8be192af77e"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"728740_eula_0"
+				"name"		"Sniper Elite V2 Remastered EULA"
+				"url"		"https://store.steampowered.com//eula/728740_eula_0"
+			}
+		}
+		"metacritic_name"		"Sniper Elite V2 Remastered"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"74.27071178529758"
+				"height_pct"		"59.11897411541204"
+			}
+		}
+		"store_asset_mtime"		"1560519965"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rebellion"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rebellion"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Sniper Elite"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1557788400"
+		"metacritic_score"		"61"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sniper-elite-v2-remastered?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"728740"
+		"store_tags"
+		{
+			"0"		"7423"
+			"1"		"4150"
+			"2"		"19"
+			"3"		"4667"
+			"4"		"4345"
+			"5"		"1687"
+			"6"		"1685"
+			"7"		"4182"
+			"8"		"3859"
+			"9"		"3814"
+			"10"		"1663"
+			"11"		"1774"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"sniperelitev2remastered"
+		"serverbrowsername"		"SEV2 Remastered Dedicated Server"
+		"developer"		"Rebellion"
+		"publisher"		"Rebellion"
+		"homepage"		"https://sniper.com/"
+		"listofdlc"		"756760"
+	}
+	"config"
+	{
+		"installdir"		"Sniper Elite V2 Remastered"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher\\SEV2RLauncher.exe"
+				"workingdir"		"Launcher\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1729635723"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		""
+				"use_action_block"		"false"
+			}
+			"1729636703"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		""
+				"use_action_block"		"false"
+			}
+			"1729637505"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		""
+				"use_action_block"		"false"
+			}
+			"1729643031"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"ttg-dev-rewind"
+				"use_action_block"		"false"
+			}
+			"1750192998"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"true"
+			}
+			"1750188124"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"true"
+			}
+			"1750190553"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"false"
+			}
+			"1750194500"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,videoteam"
+				"use_action_block"		"true"
+			}
+			"1750195552"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"false"
+			}
+			"1750199217"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"true"
+			}
+			"1750200485"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,compatibility,gog-tests,rebelion-public,rebellion-dev,review-code,ttg-dev,ttg-dev-rewind,videoteam"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish"
+		"728741"
+		{
+			"name"		"New_Project_05 Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3077997801639461083"
+			}
+			"maxsize"		"13851310737"
+			"encryptedmanifests"
+			{
+				"compatibility"
+				{
+					"encrypted_gid_2"		"F68A78EA8FAD05E6E9EC053E906ADBA5"
+					"encrypted_size_2"		"B2496855B20392C5A4199E0BCE0874D1"
+				}
+				"gog-tests"
+				{
+					"encrypted_gid_2"		"19E0B30BC06AD4A0134C6BC4BD6937E8"
+					"encrypted_size_2"		"EF0FCFEE74B1712ADDF011C45594EE64"
+				}
+				"review-code"
+				{
+					"encrypted_gid_2"		"1155DF4427D595FEEB0A7CE81A88C248"
+					"encrypted_size_2"		"D28732DB4FC1B5BCE51D6CED6188D237"
+				}
+				"ttg-dev-rewind"
+				{
+					"encrypted_gid_2"		"EA20940C62162E547FA3479904A78AD4"
+					"encrypted_size_2"		"D9B5F613C45BEE449E6DBE17CC6D7D60"
+				}
+				"ttg-hotfix"
+				{
+					"encrypted_gid_2"		"B34FB4C2EACBF9894D3CB58CC280779B"
+					"encrypted_size_2"		"F141AF642C186D25653A9DEA6866F160"
+				}
+				"videoteam"
+				{
+					"encrypted_gid_2"		"EB4B0E1FB79AD6B7B93BA714DD8DDA9B"
+					"encrypted_size_2"		"5F20AFEC950147F0F7DA8E220E3C2AB8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4159680"
+				"timeupdated"		"1568020004"
+			}
+			"compatibility"
+			{
+				"buildid"		"3788393"
+				"description"		"Compatibility testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557161181"
+			}
+			"gog-tests"
+			{
+				"buildid"		"3791201"
+				"description"		"Builds for GOG"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557161159"
+			}
+			"rebelion-public"
+			{
+				"buildid"		"4159680"
+				"description"		"Stable builds only"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568019982"
+			}
+			"rebellion-dev"
+			{
+				"buildid"		"4159680"
+				"description"		"Ready for Rebellion review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567426584"
+			}
+			"review-code"
+			{
+				"buildid"		"3807996"
+				"description"		"Builds suitable for reviewers & influencers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557495586"
+			}
+			"ttg-dev"
+			{
+				"buildid"		"4159680"
+				"description"		"Developer only"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567426594"
+			}
+			"ttg-dev-rewind"
+			{
+				"buildid"		"3834514"
+				"description"		"Developer only for rewinding builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561732685"
+			}
+			"ttg-hotfix"
+			{
+				"buildid"		"3964694"
+				"description"		"hot fix for missing audio file"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561733221"
+			}
+			"videoteam"
+			{
+				"buildid"		"3847050"
+				"description"		"Cheats On"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558533087"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"6"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sniper Elite V2 Remastered/PC_ProfileSaves/{64BitSteamID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

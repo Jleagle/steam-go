@@ -1,0 +1,523 @@
+"appinfo"
+{
+	"appid"		"389730"
+	"common"
+	{
+		"name"		"TEKKEN 7"
+		"type"		"Game"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"389730_eula_1"
+				"name"		"TEKKEN 7 EULA 1"
+				"url"		"http://store.steampowered.com//eula/389730_eula_1"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+		}
+		"osarch"		"64"
+		"logo"		"0e01efdc6757e43edf558b958c1b930498c084f2"
+		"logo_small"		"0e01efdc6757e43edf558b958c1b930498c084f2_thumb"
+		"icon"		"fe025a6f9a666b3839fe0a2591542dc98844643f"
+		"clienticon"		"2458a233ccd8a16fb9741e8cce62e2936c3d1e1e"
+		"clienttga"		"d8d55ab57f2f657836c218ae39250ed53664bbfe"
+		"metacritic_name"		"TEKKEN 7"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38"
+				"height_pct"		"21"
+			}
+		}
+		"store_asset_mtime"		"1537435673"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BANDAI NAMCO Studios Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"FRANCHISE"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1496354340"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tekken-7?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"389730"
+		"store_tags"
+		{
+			"0"		"1743"
+			"1"		"3859"
+			"2"		"19"
+			"3"		"3878"
+			"4"		"1773"
+			"5"		"7368"
+			"6"		"1756"
+			"7"		"4182"
+			"8"		"5055"
+			"9"		"7481"
+			"10"		"4026"
+			"11"		"4085"
+			"12"		"4747"
+			"13"		"1742"
+			"14"		"4158"
+			"15"		"701"
+			"16"		"6650"
+			"17"		"1697"
+			"18"		"12095"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BANDAI NAMCO Studios Inc."
+		"publisher"		"BANDAI NAMCO Entertainment"
+		"homepage"		"https://www.bandainamcostudios.com"
+		"listofdlc"		"580020,592370,592371,592372,592373,592374,651430,682560,878460,878461,878462,878463,878464,878465,878466,878467,1114550,1114560,1114561,1147580"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TEKKEN 7"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TEKKEN 7.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"926870667"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,baseline,compat,cpu-test,dev-debug,dev-release,development,graphic-test,press,qa-debug,qa-debug-bnee,qa-release,qa-release-bnee,rating,sec-test"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"389731"
+		{
+			"name"		"TEKKEN 7 Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7146704783976861567"
+			}
+			"maxsize"		"79600101221"
+			"encryptedmanifests"
+			{
+				"dev-debug"
+				{
+					"encrypted_gid_2"		"33F3FCCF2352B8599A5688BD9CD0FFE7"
+					"encrypted_size_2"		"C1872021263C54A4855663FB52048ED5"
+				}
+				"dev-latest-debug"
+				{
+					"encrypted_gid_2"		"FD84D4DCA3CA80EAC1DC4333CEC7A760"
+					"encrypted_size_2"		"8D262A51D896C7B554695AFED39979A0"
+				}
+				"dev-latest-debug_nd"
+				{
+					"encrypted_gid_2"		"AEF9B3A28DEB9860061B10E36697F9C5"
+					"encrypted_size_2"		"4E14E0D1B69686EEDA32146D66C28901"
+				}
+				"dev-latest-release"
+				{
+					"encrypted_gid_2"		"85EA2D9CC37E6DF73FB95A02A1B9C83B"
+					"encrypted_size_2"		"6F13F9E3FA87B4B97AB537DC41B805BB"
+				}
+				"dev-latest-release_nd"
+				{
+					"encrypted_gid_2"		"99C0C128133DA7167D1BF9DB8E563338"
+					"encrypted_size_2"		"2C75D1821510B87AF9037C55480670FB"
+				}
+				"dev-test2-debug"
+				{
+					"encrypted_gid_2"		"3389F53ECEB99114C84E130708FBC0EB"
+					"encrypted_size_2"		"43B29EF354166BC38A07A3FCC42E3C0A"
+				}
+				"dev-test2-release"
+				{
+					"encrypted_gid_2"		"6FAA9CCCF6E5BECA2024B5E46AF4F17D"
+					"encrypted_size_2"		"DD8809F4BBD26B82D08CEA11C698ECC6"
+				}
+				"graphic-test"
+				{
+					"encrypted_gid_2"		"FC33B425EACA266061874988560ACEF4"
+					"encrypted_size_2"		"C22E367CC10BB4F3658E16D4E2EA94C1"
+				}
+				"graphic-test2"
+				{
+					"encrypted_gid_2"		"8FBD5BDE890781749F7024C7B13FE4DB"
+					"encrypted_size_2"		"712F3BFEB713896315052E6A8BB79015"
+				}
+				"qa-debug"
+				{
+					"encrypted_gid_2"		"EF91C21CC37EE163B6B4AB4EB92DDAF7"
+					"encrypted_size_2"		"61397466A29CE910595045D511F98E9A"
+				}
+				"qa-debug2"
+				{
+					"encrypted_gid_2"		"EA21972F67C477FF59B27854CDCF7B54"
+					"encrypted_size_2"		"3682F0895383B7180681ED203E3342D1"
+				}
+				"qa-debug3"
+				{
+					"encrypted_gid_2"		"EBDFED6DCFA2C2E1C0F2CD480D623D49"
+					"encrypted_size_2"		"F212CB6AEC00CAD7C3F01E44BB324DFE"
+				}
+				"qa-debug4"
+				{
+					"encrypted_gid_2"		"21B647604982B381D7751021E7B4C08A"
+					"encrypted_size_2"		"7361CC63D95484AB48DE6C4D11B29D96"
+				}
+				"qa-release"
+				{
+					"encrypted_gid_2"		"0B78409354CF2BCF64EA1774EFBC00E1"
+					"encrypted_size_2"		"CD8158361FE58184BBA53A9F4253659F"
+				}
+				"qa-release2"
+				{
+					"encrypted_gid_2"		"4066656707C00D52AEE6D8291AB7DDCE"
+					"encrypted_size_2"		"170DEC7334E52003184B901D85570527"
+				}
+				"qa-release3"
+				{
+					"encrypted_gid_2"		"B341A80CDD4229DAD624E7B21123F1A9"
+					"encrypted_size_2"		"6098AA8038FB0AE3CBF791246078E2B9"
+				}
+				"sec-test"
+				{
+					"encrypted_gid_2"		"ACD95E3D473CBA25B22AF3A7B9B2527F"
+					"encrypted_size_2"		"2DED48ECF900FE6881F1E32FEE9ACA47"
+				}
+				"spec-test"
+				{
+					"encrypted_gid_2"		"33A68B7A1F32CD7DF5D811A08DE959E3"
+					"encrypted_size_2"		"0B7237ECEA7B1CED54EA1AB702C2882F"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,tchinese,russian,japanese,arabic,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4076392"
+				"timeupdated"		"1568016084"
+			}
+			"dev-debug"
+			{
+				"buildid"		"4076374"
+				"description"		"Build for DEV Team with debug mode"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565018792"
+			}
+			"dev-latest-debug"
+			{
+				"buildid"		"4169822"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567693304"
+			}
+			"dev-latest-debug_nd"
+			{
+				"buildid"		"2688528"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1523683603"
+			}
+			"dev-latest-release"
+			{
+				"buildid"		"4169850"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567693737"
+			}
+			"dev-latest-release_nd"
+			{
+				"buildid"		"2688532"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1523683587"
+			}
+			"dev-release"
+			{
+				"buildid"		"4076392"
+				"description"		"Build for DEV Team NO debug"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565019197"
+			}
+			"dev-test2-debug"
+			{
+				"buildid"		"2570464"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1519992151"
+			}
+			"dev-test2-release"
+			{
+				"buildid"		"2570498"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1519992882"
+			}
+			"graphic-test"
+			{
+				"buildid"		"2593135"
+				"description"		"Graphic test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1520824554"
+			}
+			"graphic-test2"
+			{
+				"buildid"		"2593149"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1520824568"
+			}
+			"qa-debug"
+			{
+				"buildid"		"3664974"
+				"description"		"Build QA with debug mode"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553261602"
+			}
+			"qa-debug2"
+			{
+				"buildid"		"4169822"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568001149"
+			}
+			"qa-debug3"
+			{
+				"buildid"		"3833851"
+				"description"		"hotfix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558338318"
+			}
+			"qa-debug4"
+			{
+				"buildid"		"4076374"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565072861"
+			}
+			"qa-release"
+			{
+				"buildid"		"3664985"
+				"description"		"Build QA NO debug"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553261583"
+			}
+			"qa-release2"
+			{
+				"buildid"		"4169850"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568001137"
+			}
+			"qa-release3"
+			{
+				"buildid"		"3833871"
+				"description"		"hotfix"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558338304"
+			}
+			"qa-release4"
+			{
+				"buildid"		"4076392"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565072841"
+			}
+			"sec-test"
+			{
+				"buildid"		"2188892"
+				"description"		"Security Test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1507729002"
+			}
+			"spec-test"
+			{
+				"buildid"		"3664974"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563780664"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TekkenGame/Saved/SaveGames/TEKKEN7/{Steam3AccountID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,495 @@
+"appinfo"
+{
+	"appid"		"511740"
+	"common"
+	{
+		"name"		"Gal*Gun: Double Peace"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"logo"		"95a0c02063950e459ffb7c8d4c5e3026e7b57823"
+		"logo_small"		"95a0c02063950e459ffb7c8d4c5e3026e7b57823_thumb"
+		"icon"		"d407b3af333720ecd07e0066cdb1dfd766fc224e"
+		"clienttga"		"7a0f050b0f0a1f4dca65ef3caba0b04da0dedf9c"
+		"clienticon"		"829c99b48d697f59cf4b384065f9b484b7c36c1f"
+		"releasestate"		"released"
+		"metacritic_name"		"Gal*Gun: Double Peace"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.58954547739402"
+				"height_pct"		"66.07692335997814"
+			}
+		}
+		"store_asset_mtime"		"1568040162"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"INTI CREATES CO., LTD."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PQube Limited"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Gal*Gun"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"full_audio"		"true"
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1474994160"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"511740"
+		"store_tags"
+		{
+			"0"		"12095"
+			"1"		"4085"
+			"2"		"6650"
+			"3"		"5611"
+			"4"		"4726"
+			"5"		"56690"
+			"6"		"9551"
+			"7"		"19"
+			"8"		"4182"
+			"9"		"3799"
+			"10"		"21"
+			"11"		"1663"
+			"12"		"1719"
+			"13"		"4947"
+			"14"		"10397"
+			"15"		"4136"
+			"16"		"1742"
+			"17"		"1756"
+			"18"		"3978"
+			"19"		"5350"
+		}
+	}
+	"extended"
+	{
+		"developer"		"INTI CREATES CO., LTD."
+		"publisher"		"PQube Limited"
+		"homepage"		"http://www.gal-gun.com"
+		"listofdlc"		"537120,537770,537780,537790,539780,539790,539800,539810,539820,539830,539840,539850,539860,539870,539880,539890,539900,539910,539920,539930,539940,539950,539960,539970"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"GalGun Double Peace"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win64\\GG2Game.exe"
+				"workingdir"		"Binaries\\Win64\\"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,japanese"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"511741"
+		{
+			"name"		"Gal*Gun: Double Peace Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5808431903874967034"
+			}
+			"maxsize"		"2697897090"
+			"encryptedmanifests"
+			{
+				"alpha"
+				{
+					"encrypted_gid_2"		"60EBCECD33EB07F56F57F62ACF84BA1E"
+					"encrypted_size_2"		"8165CCD5B3033632F06FC8D3FC8AA45E"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"546D5BA2BEA35095B33D853872BACAF7"
+					"encrypted_size_2"		"FD64D304F97B4975037BA23FC1A4CE22"
+				}
+				"check"
+				{
+					"encrypted_gid_2"		"D8FF19D9794D7ABA800C73531C46A05C"
+					"encrypted_size_2"		"F97D236B2A22BAD68BE666E81217C937"
+				}
+				"release_check"
+				{
+					"encrypted_gid_2"		"55BC29C02FC3E960AA8E8A60AA170972"
+					"encrypted_size_2"		"A91A4BD476B871489462FA6D05A5EE1E"
+				}
+			}
+		}
+		"539940"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Summer Vacation' Costume Set (539940) Depot"
+			"dlcappid"		"539940"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539950"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Hidden Desire' Costume Set (539950) Depot"
+			"dlcappid"		"539950"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539960"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Prisoner of Love' Costume Set (539960) Depot"
+			"dlcappid"		"539960"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539970"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Bear Kigurumi' Costume Set (539970) Depot"
+			"dlcappid"		"539970"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"537780"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Angel Cutting Board' Item (537780) Depot"
+			"dlcappid"		"537780"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"537790"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Demon Pork Buns' Item (537790) Depot"
+			"dlcappid"		"537790"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"537770"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Pheromone Z' Item (537770) Depot"
+			"dlcappid"		"537770"
+			"config"
+			{
+				"oslist"		"windows"
+				"optionaldlc"		"537770"
+			}
+		}
+		"539780"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Cunning Kunoichi' Costume Set (539780) Depot"
+			"dlcappid"		"539780"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539810"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Sakurazaki Squad 777' Costume Set (539810) Depot"
+			"dlcappid"		"539810"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"537120"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Ripped Uniform' Costume Set (537120) Depot"
+			"dlcappid"		"537120"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539800"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Sexy Ribbons' Costume Set (539800) Depot"
+			"dlcappid"		"539800"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539830"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Bunny Kigurumi' Costume Set (539830) Depot"
+			"dlcappid"		"539830"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539790"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Wedding Dress' Costume Set (539790) Depot"
+			"dlcappid"		"539790"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539820"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Festival Time' Costume Set (539820) Depot"
+			"dlcappid"		"539820"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539840"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Chinese Dress' Costume Set (539840) Depot"
+			"dlcappid"		"539840"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539850"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Maid Uniform' Costume Set (539850) Depot"
+			"dlcappid"		"539850"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539870"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Bewitching Sorceress' Costume Set (539870) Depot"
+			"dlcappid"		"539870"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539880"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Revitalizing Cleric' Costume Set (539880) Depot"
+			"dlcappid"		"539880"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539890"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Captivating Dancer' Costume Set (539890) Depot"
+			"dlcappid"		"539890"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539860"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Courageous Hero' Costume Set (539860) Depot"
+			"dlcappid"		"539860"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539920"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Blast From the Past' Costume Set (539920) Depot"
+			"dlcappid"		"539920"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539900"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Queen of Pain' Costume Set (539900) Depot"
+			"dlcappid"		"539900"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539930"
+		{
+			"name"		"Gal*Gun: Double Peace - 'You're A Squid Now' Costume Set (539930) Depot"
+			"dlcappid"		"539930"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"539910"
+		{
+			"name"		"Gal*Gun: Double Peace - 'Shrine Maiden' Costume Set (539910) Depot"
+			"dlcappid"		"539910"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1387194"
+				"timeupdated"		"1476986477"
+			}
+			"alpha"
+			{
+				"buildid"		"1307264"
+				"description"		"alpha ROM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472546598"
+			}
+			"beta"
+			{
+				"buildid"		"1330858"
+				"description"		"beta ROM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1473721648"
+			}
+			"check"
+			{
+				"buildid"		"1334611"
+				"description"		"check ROM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1473850431"
+			}
+			"release_check"
+			{
+				"buildid"		"1334677"
+				"description"		"release check ROM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1473850447"
+			}
+			"test"
+			{
+				"buildid"		"1387194"
+				"description"		"development test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476239935"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win64/save"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

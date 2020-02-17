@@ -1,0 +1,596 @@
+"appinfo"
+{
+	"appid"		"518790"
+	"common"
+	{
+		"name"		"theHunter™: Call of the Wild"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"4d2f8eac2a8329da9f4373fdd0e05a5670a38dfb"
+		"logo_small"		"4d2f8eac2a8329da9f4373fdd0e05a5670a38dfb_thumb"
+		"clienticon"		"51a04acfc1c5f4e01e149e186f4a998f631259ea"
+		"clienttga"		"d3332d4fa37b9c6338f6baae89a90fa441cd6fe9"
+		"icon"		"8cd121cb62c8f98019ed333716657449c8da2b81"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"thp"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"schinese"		"header_schinese.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59"
+				"height_pct"		"38"
+			}
+		}
+		"store_asset_mtime"		"1564650450"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Expansive Worlds"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Avalanche Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1487232000"
+		"steam_release_date"		"1487238000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"518790"
+		"store_tags"
+		{
+			"0"		"9564"
+			"1"		"1695"
+			"2"		"3859"
+			"3"		"599"
+			"4"		"21"
+			"5"		"4175"
+			"6"		"1663"
+			"7"		"3839"
+			"8"		"1662"
+			"9"		"4182"
+			"10"		"1685"
+			"11"		"1774"
+			"12"		"4166"
+			"13"		"5900"
+			"14"		"701"
+			"15"		"3843"
+			"16"		"19"
+			"17"		"9"
+			"18"		"4345"
+			"19"		"1687"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Expansive Worlds"
+		"publisher"		"Avalanche Studios"
+		"homepage"		"http://callofthewild.thehunter.com/en"
+		"listofdlc"		"528680,579670,579671,579672,602310,619790,622450,630940,640230,695680,706150,766870,767380,854070,894600,939840,986850,1011280,1028270,1052690,1070170,1076850,1093700,1108410,1146830"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"theHunterCotW"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"theHunterCotW_F.exe"
+				"arguments"		"--enable-crash-reporter"
+				"description"		"the Hunter: Call of the Wild"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_dev_branch"
+				}
+			}
+			"2"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release, thp_qa_live"
+				}
+			}
+			"10"
+			{
+				"executable"		"theHunterCotW_P.exe"
+				"description"		"Profile exe"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"thp_dev_branch"
+				}
+			}
+			"19"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"huntinglodge_streams"
+				}
+			}
+			"22"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release_2"
+				}
+			}
+			"23"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"arguments"		"--social-host localhost --social-port 8080 --social-disable-ssl"
+				"description"		"Release.exe (locally-running social server)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release"
+				}
+			}
+			"24"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"arguments"		"--social-host social-server-integration.kube.avalanchestudios.se"
+				"description"		"Release.exe (connecting to int social server)"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release"
+				}
+			}
+			"25"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"arguments"		"--social-host localhost --social-port 8080 --social-disable-ssl"
+				"description"		"Release.exe (locally-running social server)"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_dev_branch"
+				}
+			}
+			"26"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"arguments"		"--social-host social-server-integration.kube.avalanchestudios.se"
+				"description"		"Release.exe (connecting to int social server)"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_dev_branch"
+				}
+			}
+			"27"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release_3"
+				}
+			}
+			"28"
+			{
+				"executable"		"theHunterCotW_P.exe"
+				"description"		"Profile.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_release"
+				}
+			}
+			"29"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"Release.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_social_testing"
+				}
+			}
+			"33"
+			{
+				"executable"		"theHunterCotW_R.exe"
+				"description"		"the Hunter: CotW RELEASE (debug)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"thp_qa_external"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,japanese,polish,czech,brazilian"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"518791"
+		{
+			"name"		"Main Game"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2334128156199474227"
+			}
+			"maxsize"		"43946188011"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"FCB3A158F25CD3F6B84E46989A2022F8"
+					"encrypted_size_2"		"C0CB24F4CC1A25CAF0D502C9B7E91708"
+				}
+				"huntinglodge_streams"
+				{
+					"encrypted_gid_2"		"0A2BFD4F39FBB57262F8516C595E8FBB"
+					"encrypted_size_2"		"60ECC8235BD9498BE0A1C13D8D105467"
+				}
+				"thehunter_heroes"
+				{
+					"encrypted_gid_2"		"4422FA4A7FC3BA0233D75FA6414F9F22"
+					"encrypted_size_2"		"CD5E8074B661962B6D4313B509EC0781"
+				}
+				"thp_dev_branch"
+				{
+					"encrypted_gid_2"		"29485FCDF2F1C84196FAE80A8881F5B0"
+					"encrypted_size_2"		"2409324F7C8EFE7A6E4EE6CB477203F7"
+				}
+				"thp_qa_release"
+				{
+					"encrypted_gid_2"		"DE6A88F70CFC8897EC292183EE74BE7B"
+					"encrypted_size_2"		"A8FB5BC38EBA2F900320F274EC434247"
+				}
+				"thp_qa_release_2"
+				{
+					"encrypted_gid_2"		"C4D5C7093BF718820536770A9C6435D3"
+					"encrypted_size_2"		"D1DC46FD3B6EBDFB6F9086E47A4644BF"
+				}
+				"thp_qa_release_3"
+				{
+					"encrypted_gid_2"		"0EAE77AAF683F6CD073026517204BDCB"
+					"encrypted_size_2"		"441A83B60E683F479256E7FA1EE0EA66"
+				}
+			}
+		}
+		"528680"
+		{
+			"name"		"tHP - DLC1 (528680) Depot"
+			"dlcappid"		"528680"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2022411841941050441"
+			}
+			"maxsize"		"240"
+			"encryptedmanifests"
+			{
+				"thp_qa_release"
+				{
+					"encrypted_gid_2"		"6863B7F997311F465B1E1297D58E659C"
+					"encrypted_size_2"		"EC1161D8432537D84CF82E7798F47F5C"
+				}
+				"thp_qa_release_2"
+				{
+					"encrypted_gid_2"		"DA4601440A2D9A54B90B171F65EA902E"
+					"encrypted_size_2"		"C6514D58099C3AD501BC79649EAE6412"
+				}
+			}
+		}
+		"518792"
+		{
+			"name"		"Debug Files"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5225865945136546219"
+			}
+			"maxsize"		"1540351629"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"108AE3798E56D476B167567A690C254B"
+					"encrypted_size_2"		"1D75672754C93D386A1050159DE8612F"
+				}
+				"huntinglodge_streams"
+				{
+					"encrypted_gid_2"		"7526A95685B54EE0B11FC08307B47076"
+					"encrypted_size_2"		"7E717A1355B6E5A9FAC1777554ACDD26"
+				}
+				"thehunter_heroes"
+				{
+					"encrypted_gid_2"		"F34A9547C9B404A0E4F2521632A25D6E"
+					"encrypted_size_2"		"2941DAAEB94544F95161B43A5CB1B98A"
+				}
+				"thp_dev_branch"
+				{
+					"encrypted_gid_2"		"73C5F43F4DB35002D8826B6337ED8523"
+					"encrypted_size_2"		"99480C75534A6D4015846E957FEFCC8B"
+				}
+				"thp_qa_release"
+				{
+					"encrypted_gid_2"		"F5D3E4562A1B421D314F5AF19CC4BD74"
+					"encrypted_size_2"		"54978408FC94BFE7051A6CA705C41F8E"
+				}
+				"thp_qa_release_2"
+				{
+					"encrypted_gid_2"		"1E10E6EC5F8B245DF525BE91F0E112E8"
+					"encrypted_size_2"		"B9FE52F7D83A957F09B36F8BF8E1659B"
+				}
+				"thp_qa_release_3"
+				{
+					"encrypted_gid_2"		"A815B7CDB0839BF5D632D6F7DC70486C"
+					"encrypted_size_2"		"DCE54304AE54E93C4037996A82C718C8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4117237"
+				"timeupdated"		"1566292169"
+			}
+			"baseline"
+			{
+				"buildid"		"3092679"
+				"description"		"GOTY Master"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536595848"
+			}
+			"huntinglodge_streams"
+			{
+				"buildid"		"3931354"
+				"description"		"Branch for EW streams"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561059285"
+			}
+			"thehunter_heroes"
+			{
+				"buildid"		"4152828"
+				"description"		"Closed Beta branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567178801"
+			}
+			"thp_dev_branch"
+			{
+				"buildid"		"4167622"
+				"description"		"General purpose dev branch (most stable)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567770235"
+			}
+			"thp_qa_external"
+			{
+				"buildid"		"4104250"
+				"description"		"Branch for external QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565793283"
+			}
+			"thp_qa_live"
+			{
+				"buildid"		"4117237"
+				"description"		"Branch for testing the live build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566827903"
+			}
+			"thp_qa_release"
+			{
+				"buildid"		"4177550"
+				"description"		"Main QA testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568012738"
+			}
+			"thp_qa_release_2"
+			{
+				"buildid"		"4167477"
+				"description"		"Secondary QA branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567767992"
+			}
+			"thp_qa_release_3"
+			{
+				"buildid"		"4158132"
+				"description"		"Tertiary QA branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567439239"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Avalanche Studios/theHunter Call of the Wild/Saves/{64BitSteamID}"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Avalanche Studios/COTW/Saves/{64BitSteamID}"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Avalanche Studios/theHunter Call of the Wild/Saves/settings"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

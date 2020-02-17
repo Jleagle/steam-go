@@ -1,0 +1,897 @@
+"appinfo"
+{
+	"appid"		"863550"
+	"common"
+	{
+		"name"		"HITMAN™ 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"08149005e23daa744c29bf04a3929bbc372c9649"
+		"logo_small"		"08149005e23daa744c29bf04a3929bbc372c9649_thumb"
+		"icon"		"3f7c071da7a338e03f6243b73c02c072f1bacee9"
+		"clienticon"		"635743783810874a3a293d01b478280eaef3da18"
+		"clienttga"		"05d3faea1c70fb7f0571a14c695f1b551a96ea11"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"863550_eula_0"
+				"name"		"HITMAN™ 2 EULA"
+				"url"		"https://store.steampowered.com//eula/863550_eula_0"
+			}
+		}
+		"metacritic_name"		"Hitman 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"52.33964808415802"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567671011"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IO Interactive A/S"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Warner Bros Interactive Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Hitman"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1542096000"
+		"steam_release_date"		"1542132000"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/hitman-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"863550"
+		"store_tags"
+		{
+			"0"		"1687"
+			"1"		"4376"
+			"2"		"19"
+			"3"		"4182"
+			"4"		"1697"
+			"5"		"4667"
+			"6"		"3859"
+			"7"		"3810"
+			"8"		"1695"
+			"9"		"9"
+			"10"		"4345"
+			"11"		"4166"
+			"12"		"1664"
+			"13"		"1685"
+			"14"		"3814"
+			"15"		"4136"
+			"16"		"3843"
+			"17"		"1756"
+			"18"		"1774"
+			"19"		"6650"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IO Interactive A/S"
+		"publisher"		"Warner Bros Interactive Entertainment"
+		"homepage"		"http://www.hitman.com/"
+		"listofdlc"		"950540,950550,950551,950552,950553,950554,950555,950556,950557,950558,950559,950560,950561,950562,953090,953091,953092,953093,953094,953095,953096,957690,957691,957692,957693,957694,957695,957696,957697,957698,957730,957731,957732,957733,957734,957735,960830,960831,960832,972340,972341,972342,977940,977941,1083220,1131050,1134580"
+	}
+	"config"
+	{
+		"installdir"		"HITMAN2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"863552"
+		{
+			"name"		"HITMAN 2 Base Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5538643283912849950"
+			}
+			"maxsize"		"15404804829"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"03F165D344FB13F083A9768B8887C797"
+					"encrypted_size_2"		"EBFDC4E65876583780D8CFA20BBB7891"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"B8F02A133C74E9FA7D1059A0B2732B49"
+					"encrypted_size_2"		"3911814C65A772DDD960F2740856667B"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"CC6029A6EA024B24DA8697E10F6E07CA"
+					"encrypted_size_2"		"BED2B04BC886E5EC19B0E55B630316A1"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"73FB454AA0B30E9EF1786720B31394BB"
+					"encrypted_size_2"		"3A0607A196495BB3620C8D4DF292F12B"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"4F2BE3BB2304B4B361EB1401406D39AE"
+					"encrypted_size_2"		"1F1E1841E9462B6A638F603F9EFDD6B4"
+				}
+			}
+		}
+		"950540"
+		{
+			"name"		"HITMAN 2 DLC0 (950540) Depot"
+			"dlcappid"		"950540"
+			"manifests"
+			{
+				"public"		"797674174628330404"
+			}
+			"maxsize"		"5314813968"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"CBA4F3EC7AA34275A7353A0413255DF6"
+					"encrypted_size_2"		"6A53ABB9740B6EE7909C9E24655A9178"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"65B8F30E60623BC1C36698623690ED0A"
+					"encrypted_size_2"		"9F907387418EEE1861FCA73566C9319A"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"71AFE7078600E40A513924EA96BF9CC9"
+					"encrypted_size_2"		"527043CC3F0A32E1BAD3200A9BB1C315"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"BAC7DA958443081BD4825566D26E87B5"
+					"encrypted_size_2"		"B0E8F3912FCF6C47BEA5B39175B49A5D"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"DD8EF042B3BF892A1AD1D194FCA6E348"
+					"encrypted_size_2"		"FC22F37C1608E539B5222D1443A3B396"
+				}
+			}
+		}
+		"950550"
+		{
+			"name"		"HITMAN 2 DLC1 (950550) Depot"
+			"dlcappid"		"950550"
+			"manifests"
+			{
+				"public"		"6745430774722505015"
+			}
+			"maxsize"		"9824370942"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"5D53B2A2E027D67601A5851FC1AC653A"
+					"encrypted_size_2"		"ACEB1C82A3A35EA2B83745335D1E436E"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"B5A549270A07B1BF95511DBAA64278AF"
+					"encrypted_size_2"		"B62CA4AE536A3A525C6AC651DD8E7C77"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"5E190A83ECAFC88F5730AA1AE9CA469B"
+					"encrypted_size_2"		"69B1B38507B6BCB06C71E24FF73BB9D9"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"5A78322E3B61A74DE1E02EBE6CB7386E"
+					"encrypted_size_2"		"23D89FA226DA3F5792791C2F26E89A56"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"BC204513B497097FFA23EF23F9ABE9ED"
+					"encrypted_size_2"		"AF0088C5AA023D7D4D43D776EE33DBDB"
+				}
+			}
+		}
+		"950551"
+		{
+			"name"		"HITMAN 2 DLC2 (950551) Depot"
+			"dlcappid"		"950551"
+			"manifests"
+			{
+				"public"		"8562739615742954441"
+			}
+			"maxsize"		"6689609108"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"FACEF8B72E70E960A1E6B41070426C67"
+					"encrypted_size_2"		"1A1D822705C1F45E84FE5CF8021C4AA2"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"5C82DE4771A8099475CC36FF28EBD81E"
+					"encrypted_size_2"		"8EDCA1E8AAE88C6AF0A0A65DA3199901"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"58AF29E8AAD9FAC657E7C4D67AC764C0"
+					"encrypted_size_2"		"A4082D7887E421DE98CF6E7CB362F3CE"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"82F752F59B086AC06973B075E9958FC9"
+					"encrypted_size_2"		"485DCEFBF5251CE8607C2476E7B0EEFB"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"0968D9BAF4F774D7FA89C8BD4CB312F3"
+					"encrypted_size_2"		"C244135E632E14A1567ECFDD73729AD9"
+				}
+			}
+		}
+		"950552"
+		{
+			"name"		"HITMAN 2 DLC3 (950552) Depot"
+			"dlcappid"		"950552"
+			"manifests"
+			{
+				"public"		"8090174556926312501"
+			}
+			"maxsize"		"12038709422"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"6989F83E9EB64CC09A0F1541EA190366"
+					"encrypted_size_2"		"1A107AB693A916E888859531CFC56B07"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"01E7A6E6AEC8B1ACF615373F397F132D"
+					"encrypted_size_2"		"619F1F04B031FB837AC9F458601027B0"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"28C2E42464F48B36E00E5A8829104A2A"
+					"encrypted_size_2"		"110268F11FABE83B008DBFE538E58E8C"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"473464DEE7E12475808711D70893A1E7"
+					"encrypted_size_2"		"6BD3E122067850C4AA6049AC9E3100B6"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"7628B08FFD3763CD5EEA2243D9D8F456"
+					"encrypted_size_2"		"371BAB7817D34D7920418D9443CA21C0"
+				}
+			}
+		}
+		"950553"
+		{
+			"name"		"HITMAN 2 DLC4 (950553) Depot"
+			"dlcappid"		"950553"
+			"manifests"
+			{
+				"public"		"1665422321831243891"
+			}
+			"maxsize"		"7086084115"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"5410E244ED48DECEF1C50CB9CF603F06"
+					"encrypted_size_2"		"3D755357F143781BA75DC80AE15BEE04"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"26E107CD97A7963FD98FE10F6D9778B1"
+					"encrypted_size_2"		"5453409203B88E58BD6AA5AFCAF9F9F3"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"72C722D7BF5E700A8475FF8BE1D46EF7"
+					"encrypted_size_2"		"FB599CA698861B8B30E5410EC8DEA7ED"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"1C08D348FD8D02C51B773AE9CCC23453"
+					"encrypted_size_2"		"7C399648B8A8DE90D0BEE73AB3848229"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"198C004F91EC096C70A3A2630BFFDE5F"
+					"encrypted_size_2"		"EC752195301F4A2A6DBA8F0B8C284AE5"
+				}
+			}
+		}
+		"950554"
+		{
+			"name"		"HITMAN 2 DLC5 (950554) Depot"
+			"dlcappid"		"950554"
+			"manifests"
+			{
+				"public"		"6570729701607183000"
+			}
+			"maxsize"		"7029883785"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"E67AFFD88C750F6486133DCD250C807C"
+					"encrypted_size_2"		"0C666E060DCDBA80AB99D32DBAAFAFCB"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"8FF9589308A64872F0D739FB39069698"
+					"encrypted_size_2"		"84C919FC0DEB7C4F0030B87980BD6235"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"4C2D4C5471ED109B57675423246E6FE0"
+					"encrypted_size_2"		"BD2CCBD7A36B9619516C32444691B721"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"3DBB359185B8AEFAEDDB4D636290C183"
+					"encrypted_size_2"		"EA8B048979DA2D4924AE078E32A5E803"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"BAD0F0CA07A3D31129436389F1C5F8FE"
+					"encrypted_size_2"		"383D4FF670E52643D4199831F5AF6BE5"
+				}
+			}
+		}
+		"950555"
+		{
+			"name"		"HITMAN 2 DLC6 (950555) Depot"
+			"dlcappid"		"950555"
+			"manifests"
+			{
+				"public"		"764987444557866959"
+			}
+			"maxsize"		"6420632073"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"1C61689FABC97A55F79C7427ECA81C7A"
+					"encrypted_size_2"		"DF995C64CE96C4EC10D9E138CAFC7470"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"2CC3600D1264BDDE016BC7F612080B3E"
+					"encrypted_size_2"		"2B226A3FA08D4FFC73C8D8C10D9C7B04"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"A0C3EFCF1E79DA74E461A6A4C8742B70"
+					"encrypted_size_2"		"39E5CBAF8BB6D37E1E542C580FB033B5"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"F4E4A936A531852EA6AB6D565CE16E6E"
+					"encrypted_size_2"		"FF253A2762DB3616A1E2C8B089FFBAF6"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"32C67F1907FFB131AB20E0940B03E1A3"
+					"encrypted_size_2"		"81BDDB6CF8F04825F7A49503D7448838"
+				}
+			}
+		}
+		"950556"
+		{
+			"name"		"HITMAN 2 DLC7 (950556) Depot"
+			"dlcappid"		"950556"
+			"manifests"
+			{
+				"public"		"2485049231804846775"
+			}
+			"maxsize"		"16"
+		}
+		"950557"
+		{
+			"name"		"HITMAN 2 DLC8 (950557) Depot"
+			"dlcappid"		"950557"
+			"manifests"
+			{
+				"public"		"2021575365729203030"
+			}
+			"maxsize"		"9102699998"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"680477844AD799D8EF72AC363635DED7"
+					"encrypted_size_2"		"A78EC6E395F135787F4D9C33952391D1"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"9571D308E0BECAE51667ED5C5536B4CD"
+					"encrypted_size_2"		"7F1DE6A1DF4243CB1BC0D1735509D705"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"F0DD05C28A27F5C921A5A2695B82969D"
+					"encrypted_size_2"		"3A3242E0627635390C15C5A38B7073F8"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"417D4DFC1749A68A7869CD641BFFBEBA"
+					"encrypted_size_2"		"03C1352E1AB40B5C3A2F876865AAAB1B"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"1143452ED4EF803B9F474B455242228F"
+					"encrypted_size_2"		"7FE34ACDAF6FDD0C55BD123F229B3558"
+				}
+			}
+		}
+		"950558"
+		{
+			"name"		"HITMAN 2 DLC9 (950558) Depot"
+			"dlcappid"		"950558"
+			"manifests"
+			{
+				"public"		"2829808582689878342"
+			}
+			"maxsize"		"10062390142"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"756C156E9BB41BCFD190F1A1D795D235"
+					"encrypted_size_2"		"C9DA23B38A0DECA425CBE4F6D206A55A"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"66EB37BC22F082B773F757EE2ACFCF52"
+					"encrypted_size_2"		"60263DEB66F9C1C7F45666BE4790DB03"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"0C57C438E6B054621D40B8623A2B52CF"
+					"encrypted_size_2"		"3E25FB78D726CC215FF790402DF37696"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"522786DB5440D5DF4250DC3EC073A194"
+					"encrypted_size_2"		"226A9573C4F634B1E02B511092AE0961"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"5619076DAE5DB76FA54A6B4ACABF41AF"
+					"encrypted_size_2"		"EBAA36CDFCFD31BA87EB8B2F546F35D7"
+				}
+			}
+		}
+		"950559"
+		{
+			"name"		"HITMAN 2 DLC10 (950559) Depot"
+			"dlcappid"		"950559"
+			"manifests"
+			{
+				"public"		"442704963507889927"
+			}
+			"maxsize"		"8676691623"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"DD4D75E626B4B43D0AF32BFE83FE1DB6"
+					"encrypted_size_2"		"9EADA123CB526E3F795CDE3D6749CACF"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"E72069E980DA4BEDF91D9C79A6E3E8A3"
+					"encrypted_size_2"		"C7577735F276FBDEC434674A6A2A4B68"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"E11C33746C6D59AD6534FDD4EDB973C6"
+					"encrypted_size_2"		"7CBB59A698F280496EBCBD1883C56DA6"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"3981B4117300B10E19307D77F06787B9"
+					"encrypted_size_2"		"47FB24467AB353FEB402DE9B15C93168"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"D4E20474A845418E3EFA01E4A464B6F6"
+					"encrypted_size_2"		"4EE1C39C5D4E35E1E39A9870CEAF1D1A"
+				}
+			}
+		}
+		"950560"
+		{
+			"name"		"HITMAN 2 DLC11 (950560) Depot"
+			"dlcappid"		"950560"
+			"manifests"
+			{
+				"public"		"4551608031367044577"
+			}
+			"maxsize"		"8398243905"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"F2561EA5468081515F0F8938C9A3BF3F"
+					"encrypted_size_2"		"4F33DE66AF3B9BD8571B298D235F00B1"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"6AFA391F529E6BB9CA8C21C4BCAD7C56"
+					"encrypted_size_2"		"41CDE1CBED7EC3EB003C80D16992EFD5"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"007731D6F1280CD403A7A19013FCD38A"
+					"encrypted_size_2"		"FD4F12262AE3F92A2DF13DB490A6B475"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"864EDAC3001F0F31F24C160FE401D6A8"
+					"encrypted_size_2"		"B90B503C1E0B338ECABBCFB5E9844A62"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"CBD5BE97F1B44AEC5C691D7A6E0A16EE"
+					"encrypted_size_2"		"84E94E35741B1DE0049C9B0E3F89ABBE"
+				}
+			}
+		}
+		"950561"
+		{
+			"name"		"HITMAN 2 DLC12 (950561) Depot"
+			"dlcappid"		"950561"
+			"manifests"
+			{
+				"public"		"277897283777021377"
+			}
+			"maxsize"		"7691259519"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"79E20CE2B75ED7E06BFD94A9A221D54A"
+					"encrypted_size_2"		"9E058B3BF4A877D2BC07CD5D64E39288"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"A5E945CEB55EE47D6B4778E4E0FBCF95"
+					"encrypted_size_2"		"27536ECF3CBF3DAE7B4854A5079512EB"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"19811392CFA6F37A5D7585FA9F005743"
+					"encrypted_size_2"		"255FBC7AA82D631D949892B41FD0B46A"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"FACE14B29380DB086D14AAAF538D3F1B"
+					"encrypted_size_2"		"FB0171EFCCD338B7A9D1AC6CF18DA727"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"4AD8C53139578CA3F554EA46E9A4DCE1"
+					"encrypted_size_2"		"7AF162F274E14D5FD5316C50F1C6F80B"
+				}
+			}
+		}
+		"950562"
+		{
+			"name"		"HITMAN 2 DLC13 (950562) Depot"
+			"dlcappid"		"950562"
+			"manifests"
+			{
+				"public"		"2089427404811798300"
+			}
+			"maxsize"		"2430928606"
+			"encryptedmanifests"
+			{
+				"fsp-test"
+				{
+					"encrypted_gid_2"		"45829C3AEC3FCFC8E07CCAF7C0469300"
+					"encrypted_size_2"		"CDE1E653A6FA9953A87B2C9920C1027D"
+				}
+				"intel-2.13"
+				{
+					"encrypted_gid_2"		"83AFAEFB58927233361518E810C727AB"
+					"encrypted_size_2"		"AEED684B02608445BCBDCCD1A5F0F998"
+				}
+				"loc-2.13"
+				{
+					"encrypted_gid_2"		"63AFF970E7D6B9399B741DD4CAC7B089"
+					"encrypted_size_2"		"D2E7BED205EB5818B46343C4361E5F0E"
+				}
+				"pre-release"
+				{
+					"encrypted_gid_2"		"95E3ABE4699E93516E06B05E59C707C5"
+					"encrypted_size_2"		"7A7C1028F6AE1179526312BB910C2E26"
+				}
+				"test-branch"
+				{
+					"encrypted_gid_2"		"585D40959F052BA30479FE772B2F0EAB"
+					"encrypted_size_2"		"B2FE23725377972F25D56885862F7A5F"
+				}
+			}
+		}
+		"957733"
+		{
+			"name"		"HITMAN™ 2 - Sniper Map 3 (957733) Depot"
+			"dlcappid"		"957733"
+			"manifests"
+			{
+				"public"		"387744031701250631"
+			}
+			"maxsize"		"2278556203"
+			"encryptedmanifests"
+			{
+				"pre-release"
+				{
+					"encrypted_gid_2"		"BE16AE5A8174BD6AC5E757F8AA1DA550"
+					"encrypted_size_2"		"6B9FB87218CBA1FDADB24AD7F68D2003"
+				}
+			}
+		}
+		"957695"
+		{
+			"name"		"HITMAN™ 2 - Expansion Mission Pack 1 (957695) Depot"
+			"dlcappid"		"957695"
+			"manifests"
+			{
+				"public"		"3860466100850640499"
+			}
+			"maxsize"		"14404358408"
+			"encryptedmanifests"
+			{
+				"pre-release"
+				{
+					"encrypted_gid_2"		"2EEEA10ED8991B39A34F6FF880290C08"
+					"encrypted_size_2"		"95379878339315C77C33AF737510AF3D"
+				}
+			}
+		}
+		"957730"
+		{
+			"name"		"HITMAN™ 2 - Expansion Map 1 (957730) Depot"
+			"dlcappid"		"957730"
+			"manifests"
+			{
+				"public"		"2201701892124331314"
+			}
+			"maxsize"		"4750969835"
+			"encryptedmanifests"
+			{
+				"pre-release"
+				{
+					"encrypted_gid_2"		"AF789408A6F0D62692960510745AEB1A"
+					"encrypted_size_2"		"041388882054B3A14FB17FD62684D1FB"
+				}
+			}
+		}
+		"957735"
+		{
+			"name"		"HITMAN™ 2 - Sniper Map 5 (957735) Depot"
+			"dlcappid"		"957735"
+			"manifests"
+			{
+				"public"		"4290731416597118699"
+			}
+			"maxsize"		"2970603543"
+			"encryptedmanifests"
+			{
+				"pre-release"
+				{
+					"encrypted_gid_2"		"B5A47E88816025839DA3D9405905F927"
+					"encrypted_size_2"		"443D8D222905CD35092AA1936FED98AB"
+				}
+			}
+		}
+		"957696"
+		{
+			"name"		"HITMAN™ 2 - Expansion Mission Pack 2 (957696) Depot"
+			"dlcappid"		"957696"
+		}
+		"957731"
+		{
+			"name"		"HITMAN™ 2 - Expansion Map 2 (957731) Depot"
+			"dlcappid"		"957731"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4104858"
+				"timeupdated"		"1566907113"
+			}
+			"fsp-test"
+			{
+				"buildid"		"3543953"
+				"description"		"CL1256551-ID2935933"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549630751"
+			}
+			"intel-2.13"
+			{
+				"buildid"		"3480451"
+				"description"		"Intel: ID2902383"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547803786"
+			}
+			"loc-2.13"
+			{
+				"buildid"		"3409358"
+				"description"		"Loc: CL1242575"
+				"pwdrequired"		"1"
+				"timeupdated"		"1545206527"
+			}
+			"pre-release"
+			{
+				"buildid"		"4179563"
+				"description"		"2.70.0-RC1 CL1341082"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568041551"
+			}
+			"test-branch"
+			{
+				"buildid"		"3656592"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1552988128"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"256000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

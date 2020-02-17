@@ -1,0 +1,567 @@
+"appinfo"
+{
+	"appid"		"633460"
+	"common"
+	{
+		"name"		"Tannenberg"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"d5ae5bee291e72cd14d4e2b53fe1209e8444b733"
+		"logo"		"b069e49639b473c43d6077c7ca5bcc40222fe799"
+		"logo_small"		"b069e49639b473c43d6077c7ca5bcc40222fe799_thumb"
+		"clienticon"		"99d66f68458d61d6814260b4acf6fec16f7075d8"
+		"clienttga"		"59e89ffc01880fee1655ac5ea44f1f9aece4da9c"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"633460_eula_0"
+				"name"		"Tannenberg EULA"
+				"url"		"https://store.steampowered.com//eula/633460_eula_0"
+			}
+		}
+		"metacritic_name"		"Tannenberg"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1563977935"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"M2H"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Blackmill Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"M2H"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"WW1 Game Series"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1550044800"
+		"steam_release_date"		"1510825801"
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tannenberg?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"633460"
+		"store_tags"
+		{
+			"0"		"5382"
+			"1"		"3859"
+			"2"		"1663"
+			"3"		"19"
+			"4"		"4175"
+			"5"		"1678"
+			"6"		"3987"
+			"7"		"4667"
+			"8"		"9"
+			"9"		"1774"
+			"10"		"4168"
+			"11"		"492"
+			"12"		"4345"
+			"13"		"3839"
+			"14"		"4182"
+			"15"		"599"
+			"16"		"4166"
+			"17"		"493"
+			"18"		"1662"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"M2H"
+		"publisher"		"M2H"
+		"homepage"		"https://www.ww1gameseries.com/tannenberg/"
+		"listofdlc"		"746960"
+	}
+	"config"
+	{
+		"installdir"		"WW1GameSeries"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WW1 Game Series.exe"
+				"arguments"		"tannenberg"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"WW1 Game Series"
+				"arguments"		"tannenberg -show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"WW1 Game Series.app/Contents/MacOS/WW1 Game Series"
+				"arguments"		"tannenberg"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"633461"
+		{
+			"name"		"Tannenberg Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3234063622786760798"
+			}
+			"maxsize"		"1998225289"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"9C38D55FF9A730D8A82D71DA4F692631"
+					"encrypted_size_2"		"E5495DE963346FEA6434103292C13C1F"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"E771872194133E1561617361DB42C69A"
+					"encrypted_size_2"		"71516042EC5C92C9A3D9ACB8C20DBA83"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"0DB7C7BA20F3AF768E5049DD98638236"
+					"encrypted_size_2"		"CE95D80FF37857D886A846B6C1214F0A"
+				}
+			}
+		}
+		"439483"
+		{
+			"name"		"WW1Series_LinuxBundles"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"242863"
+		{
+			"name"		"WW1Series_LinuxPlayer"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"maxsize"		"1998225289"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"633465"
+		{
+			"name"		"Tannenberg Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"687292769383715980"
+			}
+			"maxsize"		"2004227389"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"3F6FDD89C122A78D395020CECBA2BABB"
+					"encrypted_size_2"		"A9B5D015A28E632D39A0460B885D69D8"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"3756D43E52A7CC6A0147E705BAB3B98B"
+					"encrypted_size_2"		"500005A77A782AB0E3D482AF78B0F027"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C89472AEBF9DC35538D3F769606A93C0"
+					"encrypted_size_2"		"6807527FE45A129195749C12791BF668"
+				}
+			}
+		}
+		"439482"
+		{
+			"name"		"WW1Series_MacBundles"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"242862"
+		{
+			"name"		"WW1Series_MacPlayer"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"maxsize"		"2004227389"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"633462"
+		{
+			"name"		"Tannenberg WinShared"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4574633972446757094"
+			}
+			"maxsize"		"2730"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"4FC7D95D2A932E90CDF701B6251BAB9F"
+					"encrypted_size_2"		"38F5F172F19374074AE0A5404210C86C"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"49C71EEE9F9724BF1BE25B6247CBCFB4"
+					"encrypted_size_2"		"7A96E9F1744E6CAE97061424442B7735"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"6DE2989D0866D951BFC9EDEA03652CC4"
+					"encrypted_size_2"		"D9A2CD5FF8A0C51788E5F383FECF8FC5"
+				}
+			}
+		}
+		"633463"
+		{
+			"name"		"Tannenberg Win32Only"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1465803552431903128"
+			}
+			"maxsize"		"1962487207"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"36FB57957C5FEB53EB17515A9C3AD845"
+					"encrypted_size_2"		"892A2831786FD0B7BF790BC87EF648A1"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"473E239CD3DDF8F545FB6E44E7B766B7"
+					"encrypted_size_2"		"44B25E07D3CB2FF5213A0E85C5E8CE33"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"5AA032EC59628956CDBBF309E50AF59C"
+					"encrypted_size_2"		"5431CCF3DE63E075D5492BDDDDF56BC5"
+				}
+			}
+		}
+		"633464"
+		{
+			"name"		"Tannenberg Win64Only"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5822458657140424457"
+			}
+			"maxsize"		"1999752503"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"47DA549724C909E25398D02C3F5609AD"
+					"encrypted_size_2"		"0414CC843B353B075BA568FBCEF264C3"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"E69DFBBE0E32111F5DE4F1C93BB0A991"
+					"encrypted_size_2"		"531563A894F29A870B98E2E744B8ECFB"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"4C369A1E3A52593FA629FB8EC56A61BD"
+					"encrypted_size_2"		"E69BD7A2E1C5F413E50CED53AA22E2DD"
+				}
+			}
+		}
+		"439481"
+		{
+			"name"		"WW1Series_WindowsBundles"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"2730"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"242865"
+		{
+			"name"		"WW1Series_Win32Player"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"maxsize"		"1962487207"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"242864"
+		{
+			"name"		"WW1Series_Win64Player"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"maxsize"		"1999752503"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"746960"
+		{
+			"name"		"Tannenberg - Supporters Edition Upgrade (746960) Depot"
+			"dlcappid"		"746960"
+			"manifests"
+			{
+				"public"		"8173332855362623025"
+			}
+			"maxsize"		"583041661"
+			"encryptedmanifests"
+			{
+				"profiler"
+				{
+					"encrypted_gid_2"		"A00A955F6B70EFD7832D75CEEF348244"
+					"encrypted_size_2"		"F811B84EF1924B35B9DDD43CDAE2B935"
+				}
+			}
+		}
+		"633469"
+		{
+			"name"		"Tannenberg_AllPlatforms"
+			"manifests"
+			{
+				"public"		"1552398482930384841"
+			}
+			"maxsize"		"6351295863"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid_2"		"3529E6608B0A94DC3FF9ED8731D3E561"
+					"encrypted_size_2"		"44F9A26F3FD8088CBB5A73332106F7C0"
+				}
+				"profiler"
+				{
+					"encrypted_gid_2"		"D22F0678D1AD03CDBA9628EE3DE0C14D"
+					"encrypted_size_2"		"0933470198E44FA2E497C1F85F054A4A"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"05F1D6CBBBEE08E5D869A70BD0289714"
+					"encrypted_size_2"		"2E0609AC0B19BCB41E08F644CE615395"
+				}
+			}
+		}
+		"439489"
+		{
+			"name"		"WW1Series_AllPlatforms"
+			"maxsize"		"3842788239"
+			"depotfromapp"		"242860"
+			"sharedinstall"		"2"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4139557"
+				"timeupdated"		"1566892713"
+			}
+			"latest"
+			{
+				"buildid"		"4179579"
+				"description"		"Latest dev builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568041153"
+			}
+			"opentesting"
+			{
+				"buildid"		"4139557"
+				"description"		""
+				"timeupdated"		"1566892710"
+			}
+			"profiler"
+			{
+				"buildid"		"2758634"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1525875853"
+			}
+			"staging"
+			{
+				"buildid"		"4170008"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567697028"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"900"
+	}
+}
+ 

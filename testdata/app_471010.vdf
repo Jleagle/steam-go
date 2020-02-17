@@ -1,0 +1,615 @@
+"appinfo"
+{
+	"appid"		"471010"
+	"common"
+	{
+		"name"		"Seven: Enhanced Edition"
+		"type"		"Game"
+		"clienttga"		"fbe9e6b124e13fe00e5e776720b6771c2032a291"
+		"clienticon"		"47e1076892eddff7540dfb93ffc0951a325bc89c"
+		"icon"		"72e8907fb8bd3cfcdbd1c8c062360b84b8759c09"
+		"logo"		"247b75bd98c0060828089e7251c130b7163ff0cf"
+		"logo_small"		"247b75bd98c0060828089e7251c130b7163ff0cf_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"czech"		"1"
+		}
+		"name_localized"
+		{
+			"schinese"		"七: 增强版"
+			"tchinese"		"七: 增强版"
+			"russian"		"Seven: улучшенное издание"
+		}
+		"metacritic_name"		"Seven: Enhanced Edition"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_asset_mtime"		"1557922074"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IMGN.PRO"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Fool's Theory"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"IMGN.PRO"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1512115200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"471010"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1687"
+			"2"		"19"
+			"3"		"21"
+			"4"		"4115"
+			"5"		"5851"
+			"6"		"1695"
+			"7"		"492"
+			"8"		"4182"
+			"9"		"1646"
+			"10"		"3835"
+			"11"		"4231"
+			"12"		"4036"
+			"13"		"4791"
+			"14"		"3942"
+			"15"		"4667"
+			"16"		"9"
+			"17"		"6650"
+			"18"		"7481"
+			"19"		"4376"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IMGN.PRO"
+		"publisher"		"IMGN.PRO"
+		"homepage"		"http://seven-game.com/"
+		"listofdlc"		"724560,744860,744870,744871,744872,784980"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Seven The Days Long Gone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Seven.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"471011"
+		{
+			"name"		"Seven: The Days Long Gone - Game"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5739090858401459102"
+			}
+			"maxsize"		"4112098004"
+			"encryptedmanifests"
+			{
+				"4_19"
+				{
+					"encrypted_gid_2"		"85962F80C9ABCC12874801CDBCC31688"
+					"encrypted_size_2"		"62C1EB49D549F278E85363402AE86C0F"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"01837ACE01B1C1412E10A7C63003A2D3"
+					"encrypted_size_2"		"7E352D2B51248AB5DC03D08AE9851643"
+				}
+				"latest_dev_build"
+				{
+					"encrypted_gid_2"		"F39D118FB6ED5C1B04A61384A8D93AEF"
+					"encrypted_size_2"		"A47EEC56AF4B37CC858EA8EA3EA0034B"
+				}
+				"partners_1c"
+				{
+					"encrypted_gid_2"		"DF2133B00525C5C39C52DE1BCA04ACE5"
+					"encrypted_size_2"		"4DC2AC7DA063CCF54C0A9CB19865962F"
+				}
+				"partners_cenega_comicon"
+				{
+					"encrypted_gid_2"		"3D225B1DB4749B0125976D78FE5377FF"
+					"encrypted_size_2"		"74B37C39B40B16CE55F8A6E54CB430E6"
+				}
+				"partners_china"
+				{
+					"encrypted_gid_2"		"1928674601934AE54EBF6B19087D3019"
+					"encrypted_size_2"		"D22DC1036EE3AA22405FB2739EA5CCE4"
+				}
+				"partners_communityvilla"
+				{
+					"encrypted_gid_2"		"FE38931233895C9FB816ACF115AEC10B"
+					"encrypted_size_2"		"10412300A150789920C07E8AFB485B17"
+				}
+				"partners_eurovideo"
+				{
+					"encrypted_gid_2"		"D02E7F5270EB1B00CFB0EDF894977914"
+					"encrypted_size_2"		"28D2F9DE80F3EBE6E214916E6A6988A9"
+				}
+				"partners_humble"
+				{
+					"encrypted_gid_2"		"FF59C26008F239AA0C123AABE89E184E"
+					"encrypted_size_2"		"5BBCA1B36B747C08F056F94244F25B70"
+				}
+				"partners_net"
+				{
+					"encrypted_gid_2"		"B3E7FCABCF798859E7037D6889D32E61"
+					"encrypted_size_2"		"4A8600F4856F1CA82AF9B79873830B75"
+				}
+				"partners_nvidia"
+				{
+					"encrypted_gid_2"		"81687D3AEE53041C27D0BF13B4390DFD"
+					"encrypted_size_2"		"8BFBE729101CC12DA36B9C0399B1458A"
+				}
+				"partners_pcc"
+				{
+					"encrypted_gid_2"		"4344CB2994042846BBCEAEEFD5F6C017"
+					"encrypted_size_2"		"B5D2ACD7119B40E39DC1712B4E90EA34"
+				}
+				"partners_pr"
+				{
+					"encrypted_gid_2"		"B03B4DF034505AEF0EEA15BFBFA989B2"
+					"encrypted_size_2"		"018AD9B42555E64D7BC37FDCD2CEC1FE"
+				}
+				"partners_quantic"
+				{
+					"encrypted_gid_2"		"91A40AB398135C9DA65B8F9B7E538FB4"
+					"encrypted_size_2"		"7820B43FE2A2A7A0F9F9261CAABBC999"
+				}
+				"partners_rating"
+				{
+					"encrypted_gid_2"		"6ADEE7EC6CF3A412C12C963C786B43DB"
+					"encrypted_size_2"		"4B32CBCB62D9FE1CB3839D90B16DA6CA"
+				}
+				"partners_razer"
+				{
+					"encrypted_gid_2"		"8CB970AC0DCBF72E094C32A92E0D5AD7"
+					"encrypted_size_2"		"2FD3859592DE978E46D53B6EB40E8FF5"
+				}
+				"partners_spain_exh"
+				{
+					"encrypted_gid_2"		"A449158D5148D011B43EA8B2666A0E88"
+					"encrypted_size_2"		"E5AF53E14A31221AF36253B8DDFD8A2F"
+				}
+				"partners_sreview"
+				{
+					"encrypted_gid_2"		"AD09984ACD52C95E259512DAB03DA0B8"
+					"encrypted_size_2"		"5B2B87B45BCDE52ECCA6032B1E47304E"
+				}
+				"partners_xsolla"
+				{
+					"encrypted_gid_2"		"057859A8A69613BB89C63638DEC47E67"
+					"encrypted_size_2"		"AB14CD25FFBAD4BB7DECEBA9B73B3F3B"
+				}
+				"test_tal"
+				{
+					"encrypted_gid_2"		"D9E9693196F903159B74A813ED2BF4E5"
+					"encrypted_size_2"		"03E6C035CCEAF1F7133298FD379BB57C"
+				}
+				"test_zajc"
+				{
+					"encrypted_gid_2"		"E3476C14B25FD8991C4C269886E465AE"
+					"encrypted_size_2"		"13E615C91332C46F0E667EE5E2D08210"
+				}
+			}
+		}
+		"471012"
+		{
+			"name"		"Seven: The Days Long Gone - Shadowhand Armor Set"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"744872"
+			"manifests"
+			{
+				"public"		"7367469256399864258"
+			}
+			"maxsize"		"1178"
+			"encryptedmanifests"
+			{
+				"4_19"
+				{
+					"encrypted_gid_2"		"8E0DE6C1FF1CB5A3016A745D7483C44B"
+					"encrypted_size_2"		"8359B7FA2AC7D0DE0E985FFC1E7C60FB"
+				}
+				"latest_dev_build"
+				{
+					"encrypted_gid_2"		"CB6A4A7920737F5A563803762001F897"
+					"encrypted_size_2"		"25EF22E4D7717AB0D52D255A3FD6FEA3"
+				}
+				"partners_net"
+				{
+					"encrypted_gid_2"		"86E89EFA5B7B31E9E095AB9F26052733"
+					"encrypted_size_2"		"F3A7A116041D84069718D872635FE949"
+				}
+				"partners_nvidia"
+				{
+					"encrypted_gid_2"		"564E684DA9F7C86D3DC91D606049EA2F"
+					"encrypted_size_2"		"0B5B6B60CD2A7DD22868AF2DE07185B6"
+				}
+				"partners_quantic"
+				{
+					"encrypted_gid_2"		"EE43B29CE3C6D0770D2835E69B1BBA6A"
+					"encrypted_size_2"		"6C07E63299D8B487AA467961F371A2A2"
+				}
+				"partners_razer"
+				{
+					"encrypted_gid_2"		"72E0620C64F69C2AB13FC7128A5CE689"
+					"encrypted_size_2"		"17C5EC6EEF2B7D8F7E5BC397A1530DD3"
+				}
+				"test_zajc"
+				{
+					"encrypted_gid_2"		"8A60E3C0F6EF9B578DBB5815D9035B95"
+					"encrypted_size_2"		"D740084621D66369270B00F79EA49B9F"
+				}
+			}
+		}
+		"471013"
+		{
+			"name"		"Seven: The Days Long Gone - Original Soundtrack"
+			"dlcappid"		"744870"
+			"manifests"
+			{
+				"public"		"751178627638679688"
+			}
+			"maxsize"		"1037826263"
+		}
+		"471014"
+		{
+			"name"		"Seven: The Days Long Gone - Artbook, Guidebook and Map - ENG"
+			"dlcappid"		"744871"
+			"manifests"
+			{
+				"public"		"5906045234379325189"
+			}
+			"maxsize"		"241155147"
+		}
+		"471015"
+		{
+			"name"		"Seven: The Days Long Gone - Artbook, Guidebook and Map - PL"
+			"dlcappid"		"744871"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"8036610317343774893"
+			}
+			"maxsize"		"225516634"
+		}
+		"baselanguages"		"english,polish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3729321"
+				"timeupdated"		"1555067343"
+			}
+			"4_19"
+			{
+				"buildid"		"3402566"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544962313"
+			}
+			"baseline"
+			{
+				"buildid"		"2264155"
+				"description"		"GoldMaster baseline"
+				"pwdrequired"		"1"
+				"timeupdated"		"1510060047"
+			}
+			"latest_dev_build"
+			{
+				"buildid"		"4069949"
+				"description"		"Latest build for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564759913"
+			}
+			"partners_1c"
+			{
+				"buildid"		"2009148"
+				"description"		"Build for 1c"
+				"pwdrequired"		"1"
+				"timeupdated"		"1501766876"
+			}
+			"partners_cenega_comicon"
+			{
+				"buildid"		"2316313"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1511655206"
+			}
+			"partners_china"
+			{
+				"buildid"		"2056735"
+				"description"		"for chinese partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504018296"
+			}
+			"partners_communityvilla"
+			{
+				"buildid"		"2327371"
+				"description"		"Build for Community Villa"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512009928"
+			}
+			"partners_eurovideo"
+			{
+				"buildid"		"2058980"
+				"description"		"Build for Eurovideo"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504018275"
+			}
+			"partners_humble"
+			{
+				"buildid"		"2316313"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1511655218"
+			}
+			"partners_net"
+			{
+				"buildid"		"3904697"
+				"description"		"china"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560176252"
+			}
+			"partners_nvidia"
+			{
+				"buildid"		"2933592"
+				"description"		"Nvidia"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531231568"
+			}
+			"partners_pcc"
+			{
+				"buildid"		"2316313"
+				"description"		"Build for PCC (Phillip)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1511732528"
+			}
+			"partners_pr"
+			{
+				"buildid"		"2113089"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1505303975"
+			}
+			"partners_quantic"
+			{
+				"buildid"		"3678053"
+				"description"		"Translations"
+				"pwdrequired"		"1"
+				"timeupdated"		"1554129788"
+			}
+			"partners_rating"
+			{
+				"buildid"		"2164986"
+				"description"		"branch for rating"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506944374"
+			}
+			"partners_razer"
+			{
+				"buildid"		"3040421"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534492358"
+			}
+			"partners_spain_exh"
+			{
+				"buildid"		"2213643"
+				"description"		"Spain show"
+				"pwdrequired"		"1"
+				"timeupdated"		"1508443516"
+			}
+			"partners_sreview"
+			{
+				"buildid"		"2329925"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1512069936"
+			}
+			"partners_xsolla"
+			{
+				"buildid"		"1978670"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1500663478"
+			}
+			"press_preview_global"
+			{
+				"buildid"		"3729321"
+				"description"		"Press"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555067373"
+			}
+			"press_preview_vip"
+			{
+				"buildid"		"3729321"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555067386"
+			}
+			"test_tal"
+			{
+				"buildid"		"4129575"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566483719"
+			}
+			"test_zajc"
+			{
+				"buildid"		"2806109"
+				"description"		"Branch for minidumps debug"
+				"pwdrequired"		"1"
+				"timeupdated"		"1527243046"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Seven"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Seven"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

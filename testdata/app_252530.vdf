@@ -1,0 +1,1241 @@
+"appinfo"
+{
+	"appid"		"252530"
+	"common"
+	{
+		"name"		"OMSI 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"252530_eula_0"
+				"name"		"OMSI 2: Steam Edition EULA"
+				"url"		"http://store.steampowered.com/eula/252530_eula_0"
+			}
+		}
+		"logo"		"658fe079f51632f81db4524c4b46974b5231d8ae"
+		"logo_small"		"658fe079f51632f81db4524c4b46974b5231d8ae_thumb"
+		"icon"		"6ec6845f8c182f3e72f41e039e387b6c29f16d6d"
+		"clienticon"		"ade406a935c9170d7b201a802f6c2c40811b13bb"
+		"clienttga"		"b50bcdd0e930e5923b3d11ac0d7073287c2a3e4f"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"metacritic_name"		"OMSI 2: Steam Edition"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.68030690537085"
+				"height_pct"		"53.47222222222222"
+			}
+		}
+		"store_asset_mtime"		"1567672148"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MR-Software GbR"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Aerosoft GmbH"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_17"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1386748800"
+		"steam_release_date"		"1386781500"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"252530"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1644"
+			"2"		"4175"
+			"3"		"4182"
+			"4"		"1669"
+			"5"		"3859"
+			"6"		"597"
+			"7"		"8075"
+			"8"		"3839"
+			"9"		"1654"
+			"10"		"1695"
+			"11"		"4711"
+			"12"		"21"
+			"13"		"5350"
+			"14"		"7782"
+			"15"		"4166"
+			"16"		"3968"
+			"17"		"19"
+			"18"		"12472"
+			"19"		"3834"
+		}
+	}
+	"extended"
+	{
+		"developer"		"MR-Software GbR"
+		"publisher"		"Aerosoft GmbH"
+		"homepage"		"http://www.omnibussimulator.de/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/252530/"
+		"listofdlc"		"271390,299350,311020,313420,313430,345680,345681,361290,405360,405430,434060,434061,434062,434063,434064,434065,434066,434067,434068,434069,604070,612960,629990,630010,636630,648650,663230,689870,708170,708171,708172,708173,730260,730261,730262,880280,880281,880282,880283,880284,935510,935511,935512,935513,935514,1058180,1066150,1077990,1139080"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"OMSI 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Omsi.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Busbetrieb-Simulator\\launcher.exe"
+				"workingdir"		"Busbetrieb-Simulator\\"
+				"description"		"Busbetrieb-Simulator"
+				"type"		"option1"
+				"config"
+				{
+					"ownsdlc"		"636630"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"name"		".NET 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"50450161"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"252531"
+		{
+			"name"		"OMSI 2"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2245887104219479388"
+			}
+			"maxsize"		"4400274239"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"2DA92493A04DA933FD26FE2810BB38EA"
+					"encrypted_size_2"		"0165C0D924B6E7AA439E428208F24B7D"
+				}
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"431F7B37DFB85159F81B953BF9456B56"
+					"encrypted_size_2"		"A304E8E643B3E5F41C70651E2587FF4D"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"D81738C74C514C03AF2023BB2AAC3BA8"
+					"encrypted_size_2"		"E1FD943B93A0D276773D9FAFA0F3F893"
+				}
+			}
+		}
+		"252532"
+		{
+			"name"		"OMSI 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3715506033262962679"
+			}
+			"maxsize"		"65776"
+		}
+		"252533"
+		{
+			"name"		"OMSI 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5528530750240842893"
+			}
+			"maxsize"		"10793"
+		}
+		"252534"
+		{
+			"name"		"OMSI 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5021313625694452706"
+			}
+			"maxsize"		"65776"
+		}
+		"252544"
+		{
+			"name"		"OMSI 2 Polnisch"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"396852027330533252"
+			}
+			"maxsize"		"12338"
+		}
+		"271392"
+		{
+			"name"		"OMSI 2 Hungarian"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3042977033117626499"
+			}
+			"maxsize"		"12338"
+		}
+		"252535"
+		{
+			"name"		"OMSI 2 Vienna German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"313420"
+			"manifests"
+			{
+				"public"		"2423605255384189836"
+			}
+			"maxsize"		"531199765"
+		}
+		"252536"
+		{
+			"name"		"OMSI 2 Vienna English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"313420"
+			"manifests"
+			{
+				"public"		"1670900914835416317"
+			}
+			"maxsize"		"532396518"
+		}
+		"252542"
+		{
+			"name"		"OMSI 2 Vienna French"
+			"dlcappid"		"313420"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2988470970901200192"
+			}
+			"maxsize"		"532396518"
+		}
+		"252545"
+		{
+			"name"		"OMSI 2 Vienna Polnisch"
+			"dlcappid"		"313420"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6504892318096790491"
+			}
+			"maxsize"		"532396518"
+		}
+		"252548"
+		{
+			"name"		"OMSI 2 Vienna Hungarian"
+			"dlcappid"		"313420"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1386774815951239265"
+			}
+			"maxsize"		"532396518"
+		}
+		"252537"
+		{
+			"name"		"OMSI 2 Hamburg German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"313430"
+			"manifests"
+			{
+				"public"		"2422002006625937858"
+			}
+			"maxsize"		"4459424352"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"0B44B8205FB424A18E669C2FDB3A3860"
+					"encrypted_size_2"		"A2705E48616C3B87848EE34D1D9610AC"
+				}
+			}
+		}
+		"252538"
+		{
+			"name"		"OMSI 2 Hamburg English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"dlcappid"		"313430"
+			"manifests"
+			{
+				"public"		"5775623502144516886"
+			}
+			"maxsize"		"4464877374"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"B7C0FC192DD7A18DA12D17D6F86AC7C0"
+					"encrypted_size_2"		"26F8737141CC9D4C48CB8A8C696862C1"
+				}
+			}
+		}
+		"252541"
+		{
+			"name"		"OMSI 2 Hamburg French"
+			"dlcappid"		"313430"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6140294430149534175"
+			}
+			"maxsize"		"4464877374"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"91B1958F2B33FBFFA56429AFFAAED7D8"
+					"encrypted_size_2"		"26F8737141CC9D4C48CB8A8C696862C1"
+				}
+			}
+		}
+		"252546"
+		{
+			"name"		"OMSI 2 Hamburg Polnisch"
+			"dlcappid"		"313430"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4474527459227540722"
+			}
+			"maxsize"		"4464877374"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"DE84B75D77E830E589104A323BC182BF"
+					"encrypted_size_2"		"26F8737141CC9D4C48CB8A8C696862C1"
+				}
+			}
+		}
+		"252549"
+		{
+			"name"		"OMSI 2 Hamburg Hungarian"
+			"dlcappid"		"313430"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3581684621189559951"
+			}
+			"maxsize"		"4464877374"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"3F9496C5B218F5EFAE02C7CD5B3B9F74"
+					"encrypted_size_2"		"26F8737141CC9D4C48CB8A8C696862C1"
+				}
+			}
+		}
+		"252539"
+		{
+			"name"		"OMSI 2 - AI-Articulated Bus for Vienna German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+				"optionaldlc"		"311020"
+			}
+			"dlcappid"		"311020"
+			"manifests"
+			{
+				"public"		"8054429000177895332"
+			}
+			"maxsize"		"72595194"
+		}
+		"252540"
+		{
+			"name"		"OMSI 2 - AI-Articulated Bus for Vienna English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"optionaldlc"		"311020"
+			}
+			"dlcappid"		"311020"
+			"manifests"
+			{
+				"public"		"1704324743355025285"
+			}
+			"maxsize"		"72594285"
+		}
+		"252543"
+		{
+			"name"		"OMSI 2 - AI-Articulate Bus for Vienna French"
+			"dlcappid"		"311020"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+				"optionaldlc"		"311020"
+			}
+			"manifests"
+			{
+				"public"		"6840085877745755189"
+			}
+			"maxsize"		"72594285"
+		}
+		"252547"
+		{
+			"name"		"OMSI 2 - AI-Articulated Bus for Vienna Polnisch"
+			"dlcappid"		"311020"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+				"optionaldlc"		"311020"
+			}
+			"manifests"
+			{
+				"public"		"6763312554347297742"
+			}
+			"maxsize"		"72594285"
+		}
+		"271391"
+		{
+			"name"		"OMSI 2 - AI-Articulated Bus for Vienna Hungarian"
+			"dlcappid"		"311020"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+				"optionaldlc"		"311020"
+			}
+			"manifests"
+			{
+				"public"		"2738461373373194799"
+			}
+			"maxsize"		"72594285"
+		}
+		"271390"
+		{
+			"name"		"OMSI 2 - City Bus O305 (271390) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"271390"
+			"manifests"
+			{
+				"public"		"4526225788772444578"
+			}
+			"maxsize"		"506416297"
+		}
+		"299350"
+		{
+			"name"		"OMSI 2 - Three Generations (299350) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"299350"
+			"manifests"
+			{
+				"public"		"9161045011738350467"
+			}
+			"maxsize"		"2027956154"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"950CC02DCA2B40973766172C0E1BB457"
+					"encrypted_size_2"		"B718D8FCAFB9E188C5856C0B01205615"
+				}
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"0D7C848E8BEE714761F638761B7CBA37"
+					"encrypted_size_2"		"490856334564379034ACD41A6B0D9A2A"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"2E54DE3AF3B44F37DF0BC961D4C4CB0C"
+					"encrypted_size_2"		"90015B4B9398AB3130BC427FA2792FE4"
+				}
+			}
+		}
+		"345680"
+		{
+			"name"		"Vienna 1 - Route 24A (345680) Depot"
+			"dlcappid"		"345680"
+			"manifests"
+			{
+				"public"		"1319690290410120249"
+			}
+			"maxsize"		"1262878113"
+		}
+		"345681"
+		{
+			"name"		"Vienna 2 - Route 23A (345681) Depot"
+			"dlcappid"		"345681"
+			"manifests"
+			{
+				"public"		"7488415033939225352"
+			}
+			"maxsize"		"1280466774"
+		}
+		"361290"
+		{
+			"name"		"OMSI 2 - Chicago (361290) Depot"
+			"dlcappid"		"361290"
+			"manifests"
+			{
+				"public"		"1423921479843560145"
+			}
+			"maxsize"		"2640807933"
+		}
+		"405360"
+		{
+			"name"		"Projekt Gladbeck (405360) Depot"
+			"dlcappid"		"405360"
+			"manifests"
+			{
+				"public"		"595708054250822447"
+			}
+			"maxsize"		"2884521611"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"4B01ADCCB7228629A7C3B34C222382E6"
+					"encrypted_size_2"		"074A5AB8B068FC93B39A46D9D2C15193"
+				}
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"7C01DD14B6753CBB5CA3BF6B145D0ABF"
+					"encrypted_size_2"		"F5CFC0DD81A871183FC662617C9FDB96"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"86781A2CBB67DACA491B3203D71AE268"
+					"encrypted_size_2"		"B84E0F482612930F79D4F77AE1F2BFCA"
+				}
+			}
+		}
+		"405430"
+		{
+			"name"		"OMSI 2 Add-on Berlin X10 (405430) Depot"
+			"dlcappid"		"405430"
+			"manifests"
+			{
+				"public"		"245725634995267101"
+			}
+			"maxsize"		"2616643102"
+		}
+		"434060"
+		{
+			"name"		"OMSI 2 Add-on Downloadpack Vol. 1 - AI-vehicles (434060) Depot"
+			"dlcappid"		"434060"
+			"manifests"
+			{
+				"public"		"7024890739578954483"
+			}
+			"maxsize"		"322688477"
+		}
+		"434061"
+		{
+			"name"		"OMSI 2 Add-On Ciytbus O405 (434061) Depot"
+			"dlcappid"		"434061"
+			"manifests"
+			{
+				"public"		"497473267813909109"
+			}
+			"maxsize"		"394198975"
+		}
+		"434062"
+		{
+			"name"		"OMSI 2 Add-On Citybus O305G (434062) Depot"
+			"dlcappid"		"434062"
+			"manifests"
+			{
+				"public"		"7529054539125823040"
+			}
+			"maxsize"		"637270782"
+		}
+		"434063"
+		{
+			"name"		"\"OMSI 2 Add-On London (434063)\"-Depot"
+			"dlcappid"		"434063"
+			"manifests"
+			{
+				"public"		"935708299046838142"
+			}
+			"maxsize"		"12588497610"
+		}
+		"434064"
+		{
+			"name"		"\"OMSI 2 Add-on Straßenbahn NF6D  (434064)\"-Depot"
+			"dlcappid"		"434064"
+			"manifests"
+			{
+				"public"		"548338608924603116"
+			}
+			"maxsize"		"1547647933"
+			"encryptedmanifests"
+			{
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"55C8A2E2B6BFAA5747B8B3C4DB423613"
+					"encrypted_size_2"		"FFAB963F5A2C13B88BE5FBD17BD7AA38"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"F07E1949ED2D50B8C01448D50FEB8651"
+					"encrypted_size_2"		"E87A4A114A0895A7717B5971353B8516"
+				}
+			}
+		}
+		"434066"
+		{
+			"name"		"\"OMSI 2 Add-On MAN Stadtbusfamilie (434066)\"-Depot"
+			"dlcappid"		"434066"
+			"manifests"
+			{
+				"public"		"673654338506538660"
+			}
+			"maxsize"		"2100298034"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"96A558ED6B15928316F58012F40E6143"
+					"encrypted_size_2"		"3EE243E0E94AD555E7A4486D39606149"
+				}
+				"betatest-programm"
+				{
+					"encrypted_gid_2"		"E1CD71DBEFEE4B20F3193C9E6C2533EF"
+					"encrypted_size_2"		"482E6901B6E399DAA680515303815B66"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"897A437F5A237B466E79C25719066E1F"
+					"encrypted_size_2"		"8DEA5DFA823E0BECF23F5990CA57D20F"
+				}
+			}
+		}
+		"434067"
+		{
+			"name"		"\"OMSI 2 Add-On Aachen (434067)\"-Depot"
+			"dlcappid"		"434067"
+			"manifests"
+			{
+				"public"		"4925461634432612489"
+			}
+			"maxsize"		"3027711195"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"A121EA6DD60A73658C8AC6727CC67B24"
+					"encrypted_size_2"		"3663E7B0FC75EE6A069E30DC0184216B"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"97A9FD9A369085AA91F1CDFB890BEA1B"
+					"encrypted_size_2"		"BB3D505BCECF2F516009DCCF492CAD51"
+				}
+			}
+		}
+		"434065"
+		{
+			"name"		"\"OMSI 2 Add-on Rheinhausen (434065)\"-Depot"
+			"dlcappid"		"434065"
+			"manifests"
+			{
+				"public"		"2830323154188879939"
+			}
+			"maxsize"		"1719751247"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"6D2DFB3C6F84D1A0C945A2FB24F846D2"
+					"encrypted_size_2"		"6D0A4743B09E196A34FBCBBCCF9A71AF"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"3832AEFE6A5169B6BB287A40F2C462AE"
+					"encrypted_size_2"		"8C594F97677D34935903C6B30B6D17B8"
+				}
+			}
+		}
+		"434068"
+		{
+			"name"		"\"OMSI 2 Add-On Doppelgelenkbus AGG 300 (434068)\"-Depot"
+			"dlcappid"		"434068"
+			"manifests"
+			{
+				"public"		"6755688495670805275"
+			}
+			"maxsize"		"2481169486"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"1A5471B3C7C3B4D11BEB7CE74A022F7E"
+					"encrypted_size_2"		"D40803CA46FE3D56F1AF29A2ADE09471"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"F9793AAD11ABB2ADF6BBAF97E814A051"
+					"encrypted_size_2"		"562CBC43632919C0C2F0ACD8D0E16367"
+				}
+			}
+		}
+		"434069"
+		{
+			"name"		"\"OMSI 2 Add-On Mallorca (434069)\"-Depot"
+			"dlcappid"		"434069"
+			"manifests"
+			{
+				"public"		"4551471991583475192"
+			}
+			"maxsize"		"2526061914"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"56C4A67780AC0F9857901813F8BA0A17"
+					"encrypted_size_2"		"CC89729034318818881C7F7C32F91D43"
+				}
+				"mallorca"
+				{
+					"encrypted_gid_2"		"1EE7D2ACD009F30F8FB84D03732AF199"
+					"encrypted_size_2"		"1C6F1C8EDAE7B11326FDA609E83A20D7"
+				}
+			}
+		}
+		"604070"
+		{
+			"name"		"\"OMSI 2 Add-On Luzern (604070)\"-Depot"
+			"dlcappid"		"604070"
+			"manifests"
+			{
+				"public"		"4000573301865912328"
+			}
+			"maxsize"		"1026445681"
+		}
+		"612960"
+		{
+			"name"		"\"OMSI 2 Add-On Metropole Ruhr (612960)\"-Depot"
+			"dlcappid"		"612960"
+			"manifests"
+			{
+				"public"		"3977380933484117425"
+			}
+			"maxsize"		"5559146499"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"F8093F34FEE1EC4E133D7E45D491036D"
+					"encrypted_size_2"		"BCFF801F4FB10E9E7F264704799E5FC9"
+				}
+			}
+		}
+		"629990"
+		{
+			"name"		"\"OMSI 2 Add-On Citybus i280 Series (629990)\"-Depot"
+			"dlcappid"		"629990"
+			"manifests"
+			{
+				"public"		"9100611895327529690"
+			}
+			"maxsize"		"6234798807"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"B6BF2F4EA006F8CDEEA767873C32F300"
+					"encrypted_size_2"		"D5917506E475B2529718B591A2C77325"
+				}
+			}
+		}
+		"630010"
+		{
+			"name"		"\"OMSI 2 Add-On HafenCity (630010)\"-Depot"
+			"dlcappid"		"630010"
+			"manifests"
+			{
+				"public"		"9116832739608403717"
+			}
+			"maxsize"		"6082229308"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"682AE737FDBB5F71D6A3BA21A30AE4D3"
+					"encrypted_size_2"		"23530597838416F0C4FE1858DE9741F0"
+				}
+			}
+		}
+		"636630"
+		{
+			"name"		"\"Busbetrieb-Simulator (636630)\"-Depot"
+			"dlcappid"		"636630"
+			"manifests"
+			{
+				"public"		"8156689927911804573"
+			}
+			"maxsize"		"4727465736"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"2E9BA3A7D0D5E5EEB62B1F55B0932959"
+					"encrypted_size_2"		"9AC5963CD6BE76FC588C7E892A310238"
+				}
+			}
+		}
+		"648650"
+		{
+			"name"		"\"OMSI 2 Add-On VanHool (648650)\"-Depot"
+			"dlcappid"		"648650"
+			"manifests"
+			{
+				"public"		"2084697671212102432"
+			}
+			"maxsize"		"2005998706"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"369A34A30B4964B23F291D66686D0975"
+					"encrypted_size_2"		"FDA6C535DC2C3E8A44E9FEA1F8E8A926"
+				}
+			}
+		}
+		"663230"
+		{
+			"name"		"\"OMSI 2 Add-on Downloadpack Vol. 2 - KI-Fahrzeuge (663230)\"-Depot"
+			"dlcappid"		"663230"
+			"manifests"
+			{
+				"public"		"2655194222393954063"
+			}
+			"maxsize"		"92960242"
+			"encryptedmanifests"
+			{
+				"aod-bus"
+				{
+					"encrypted_gid_2"		"89859354137B038C65597FE4C18D4EEE"
+					"encrypted_size_2"		"3A9152E7D51EEEFB398E0F55BF24A19E"
+				}
+			}
+		}
+		"689870"
+		{
+			"name"		"\"OMSI 2 Add-on Downloadpack Vol. 3 – KI-Menschen (689870)\"-Depot"
+			"dlcappid"		"689870"
+			"manifests"
+			{
+				"public"		"4725715572773684165"
+			}
+			"maxsize"		"882885015"
+		}
+		"708170"
+		{
+			"name"		"\"OMSI 2 Add-on Express 91.06 (708170)\"-Depot"
+			"dlcappid"		"708170"
+			"manifests"
+			{
+				"public"		"2779640361064780884"
+			}
+			"maxsize"		"2695927680"
+		}
+		"708171"
+		{
+			"name"		"\"OMSI 2 Add-on K-Bergbahn  (708171)\"-Depot"
+			"dlcappid"		"708171"
+			"manifests"
+			{
+				"public"		"6063151680226909022"
+			}
+			"maxsize"		"192922719"
+		}
+		"708172"
+		{
+			"name"		"\"OMSI 2 Add-on Downloadpack Vol. 5 – KI-Menschen (708172)\"-Depot"
+			"dlcappid"		"708172"
+			"manifests"
+			{
+				"public"		"1642460093937776911"
+			}
+			"maxsize"		"1679832640"
+		}
+		"708173"
+		{
+			"name"		"\"OMSI 2 Add-on Bremen-Nord (708173)\"-Depot"
+			"dlcappid"		"708173"
+			"manifests"
+			{
+				"public"		"1569481985028797979"
+			}
+			"maxsize"		"4387453799"
+		}
+		"730261"
+		{
+			"name"		"\"OMSI 2 Add-on München (730261)\"-Depot"
+			"dlcappid"		"730261"
+			"manifests"
+			{
+				"public"		"8003147241354063814"
+			}
+			"maxsize"		"3686063897"
+		}
+		"730260"
+		{
+			"name"		"\"OMSI 2 Add-on Hamburger Buspaket (730260)\"-Depot"
+			"dlcappid"		"730260"
+			"manifests"
+			{
+				"public"		"6492607804112900683"
+			}
+			"maxsize"		"7577683470"
+		}
+		"730262"
+		{
+			"name"		"\"OMSI 2 Add-on Wuppertal (730262)\"-Depot"
+			"dlcappid"		"730262"
+			"manifests"
+			{
+				"public"		"7793313199294730962"
+			}
+			"maxsize"		"5139354947"
+		}
+		"935512"
+		{
+			"name"		"\"OMSI 2 Add-On Coachbus 250 (935512)\"-Depot"
+			"dlcappid"		"935512"
+			"manifests"
+			{
+				"public"		"1422267859294533917"
+			}
+			"maxsize"		"987099192"
+		}
+		"935511"
+		{
+			"name"		"\"OMSI 2 Add-On Solaris Urbino II. Generation (935511)\"-Depot"
+			"dlcappid"		"935511"
+			"manifests"
+			{
+				"public"		"2770720925744970040"
+			}
+			"maxsize"		"696515122"
+		}
+		"935513"
+		{
+			"name"		"\"OMSI 2 Add-on - i260 (935513)\"-Depot"
+			"dlcappid"		"935513"
+			"manifests"
+			{
+				"public"		"5157211321321632418"
+			}
+			"maxsize"		"3688113489"
+		}
+		"935514"
+		{
+			"name"		"\"OMSI Downloadpack Vol. 4 – KI-Fahrzeuge (935514)\"-Depot"
+			"dlcappid"		"935514"
+			"manifests"
+			{
+				"public"		"7010331835825662197"
+			}
+			"maxsize"		"116310479"
+		}
+		"1058180"
+		{
+			"name"		"\"OMSI 2 Add-On Gemini 3 Pack (1058180)\"-Depot"
+			"dlcappid"		"1058180"
+			"manifests"
+			{
+				"public"		"7839129829392565325"
+			}
+			"maxsize"		"590463829"
+		}
+		"880283"
+		{
+			"name"		"\"OMSI 2 Add-on München City - Demo (880283)\"-Depot"
+			"dlcappid"		"880283"
+			"manifests"
+			{
+				"public"		"8531517618250039863"
+			}
+			"maxsize"		"2032796047"
+		}
+		"880282"
+		{
+			"name"		"\"OMSI 2 Add-on Downloadpack Vol.6 - KI-Menschen (880282)\"-Depot"
+			"dlcappid"		"880282"
+			"manifests"
+			{
+				"public"		"5986916082613608352"
+			}
+			"maxsize"		"1188786948"
+		}
+		"1066150"
+		{
+			"name"		"\"OMSI 2 Add-On Düsseldorf (1066150)\"-Depot"
+			"dlcappid"		"1066150"
+			"manifests"
+			{
+				"public"		"6360136215166339449"
+			}
+			"maxsize"		"1551463571"
+		}
+		"1077990"
+		{
+			"name"		"\"OMSI 2 Add-On Wuppertal Buslinie 639 (1077990)\"-Depot"
+			"dlcappid"		"1077990"
+			"manifests"
+			{
+				"public"		"6390308769861518977"
+			}
+			"maxsize"		"1820557221"
+		}
+		"1139080"
+		{
+			"name"		"\"OMSI 2 Add-on Masterlite Pack (1139080)\"-Depot"
+			"dlcappid"		"1139080"
+			"manifests"
+			{
+				"public"		"60410794045313073"
+			}
+			"maxsize"		"714123886"
+		}
+		"935510"
+		{
+			"name"		"\"OMSI 2 Add-On Köln (935510)\"-Depot"
+			"dlcappid"		"935510"
+			"manifests"
+			{
+				"public"		"5347885322056023497"
+			}
+			"maxsize"		"3173565634"
+		}
+		"880284"
+		{
+			"name"		"\"OMSI 2 Add-on Masterbus Gen 3 Pack - Demo (880284)\"-Depot"
+			"manifests"
+			{
+				"public"		"5279504273433880061"
+			}
+			"maxsize"		"292068015"
+			"dlcappid"		"880284"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4179130"
+				"timeupdated"		"1568032039"
+			}
+			"addon_test"
+			{
+				"buildid"		"4179130"
+				"description"		"AddOn Test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568032014"
+			}
+			"aerosoft_intern"
+			{
+				"buildid"		"4179130"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568032026"
+			}
+			"aod-bus"
+			{
+				"buildid"		"1936000"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1499177537"
+			}
+			"betatest-programm"
+			{
+				"buildid"		"1326282"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1473411161"
+			}
+			"mallorca"
+			{
+				"buildid"		"1665475"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1488444882"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+}
+ 

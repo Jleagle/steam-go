@@ -1,0 +1,496 @@
+"appinfo"
+{
+	"appid"		"4000"
+	"common"
+	{
+		"clienttga"		"3bf1b882f23a2b15b1a65eb1b9fc06b2a0603f2b"
+		"icon"		"4a6f25cfa2426445d0d9d6e233408de4d371ce8b"
+		"logo"		"70ef9d2ec9f0f4560c3cb9fee6cc3665c93c8d0c"
+		"logo_small"		"70ef9d2ec9f0f4560c3cb9fee6cc3665c93c8d0c_thumb"
+		"name"		"Garry's Mod"
+		"metacritic_url"		"pc/garrysmod"
+		"clienticon"		"01b545c997d68f6c4ac18ccef6c57d1d5d690e03"
+		"clienticns"		"484ca3cd6b74bdbfe5189825253d41a7d19e947a"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"955f5f7db5d5423ef8bc5875153d536843313316"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"4000_eula_0"
+				"name"		"Garry's Mod EULA"
+				"url"		"https://store.steampowered.com//eula/4000_eula_0"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"Garry's Mod"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1560508474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Facepunch Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Valve"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_17"		"1"
+			"category_2"		"1"
+			"category_12"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_8"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_23"		"1"
+			"category_13"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"bulgarian"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1164787200"
+		"steam_release_date"		"1164787200"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"4000"
+		"store_tags"
+		{
+			"0"		"3810"
+			"1"		"3859"
+			"2"		"4136"
+			"3"		"1669"
+			"4"		"1643"
+			"5"		"1719"
+			"6"		"1685"
+			"7"		"3839"
+			"8"		"5348"
+			"9"		"599"
+			"10"		"3968"
+			"11"		"3843"
+			"12"		"1663"
+			"13"		"4182"
+			"14"		"19"
+			"15"		"1774"
+			"16"		"872"
+			"17"		"492"
+			"18"		"128"
+			"19"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Facepunch Studios"
+		"gamedir"		"garrysmod"
+		"homepage"		"http://gmod.facepunch.com"
+		"icon"		"steam/games/icon_garrysmod"
+		"mustownapptopurchase"		"215"
+		"noservers"		"0"
+		"order"		"1"
+		"primarycache"		"4001"
+		"serverbrowsername"		"Garry's Mod"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"validoslist"		"macos,windows"
+		"developer_url"		"http://www.garry.tv/"
+		"publisher"		"Valve"
+		"listofdlc"		"4020"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hl2.exe"
+				"arguments"		"-steam -game garrysmod"
+				"description"		"Play Garry's Mod"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"hl2_osx"
+				"arguments"		"-steam -game garrysmod"
+				"description"		"Play Garry's Mod"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"hl2.sh"
+				"arguments"		"-steam -game garrysmod"
+				"description"		"Play Garry's Mod"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/gmod.exe"
+				"arguments"		"-steam -game garrysmod"
+				"description"		"Launch Garry's Mod (32-bit)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"x86-64"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin/win64/gmod.exe"
+				"arguments"		"-steam -game garrysmod"
+				"description"		"Launch Garry's Mod (64-bit)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"x86-64"
+				}
+			}
+		}
+		"installdir"		"GarrysMod"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"depotdeltapatches"		"1"
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"4001"
+		{
+			"name"		"GMOD Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4324222712354959433"
+				"chromium"		"8295614092660819938"
+				"dev"		"3055904385678703113"
+				"x86-64"		"5527598877963127177"
+			}
+			"maxsize"		"3728316518"
+			"encryptedmanifests"
+			{
+				"addonsystem"
+				{
+					"encrypted_gid_2"		"CC88A3D0E166E4BF46FC93CB182DF6B7"
+					"encrypted_size_2"		"215504345520F0EB5BAB0607ACC74594"
+				}
+			}
+		}
+		"4002"
+		{
+			"name"		"GMOD Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7428352714477675706"
+				"chromium"		"7307232663482868467"
+				"dev"		"4207100646732643344"
+				"x86-64"		"6206631915867448564"
+			}
+			"maxsize"		"432591339"
+			"encryptedmanifests"
+			{
+				"addonsystem"
+				{
+					"encrypted_gid_2"		"1F7B3C72247AA6F325BBE98A949CAD98"
+					"encrypted_size_2"		"23135AED394C9302324CC61B8A6D523D"
+				}
+			}
+		}
+		"4003"
+		{
+			"name"		"GMOD Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"693117457451424043"
+				"chromium"		"463460444314603756"
+				"dev"		"6988892072494240549"
+				"x86-64"		"342189277252901492"
+			}
+			"maxsize"		"439897200"
+			"encryptedmanifests"
+			{
+				"addonsystem"
+				{
+					"encrypted_gid_2"		"0E09CB9E4DC2614FA91FAA11AE6CCB78"
+					"encrypted_size_2"		"A4ABFDA08469D23E5EC3182DC700B83D"
+				}
+			}
+		}
+		"4004"
+		{
+			"name"		"GMOD OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1202648821822685328"
+				"chromium"		"6855928590160292759"
+				"dev"		"6848580218330516080"
+				"x86-64"		"9139502035797160450"
+			}
+			"maxsize"		"227733506"
+			"encryptedmanifests"
+			{
+				"addonsystem"
+				{
+					"encrypted_gid_2"		"9BED84EC9E8E0E85A2C4E12D00DCC893"
+					"encrypted_size_2"		"C7B943801C8E982CBB806AA06C669171"
+				}
+			}
+		}
+		"workshopdepot"		"4000"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4173487"
+				"timeupdated"		"1567783537"
+			}
+			"addonsystem"
+			{
+				"buildid"		"2516153"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1518346373"
+			}
+			"chromium"
+			{
+				"buildid"		"4169949"
+				"description"		""
+				"timeupdated"		"1567696014"
+			}
+			"dev"
+			{
+				"buildid"		"4179804"
+				"description"		"Development Branch"
+				"timeupdated"		"1568046118"
+			}
+			"prerelease"
+			{
+				"buildid"		"4173487"
+				"description"		"Pre-Release Branch"
+				"timeupdated"		"1567782417"
+			}
+			"x86-64"
+			{
+				"buildid"		"4167162"
+				"description"		"Testing 64-bit builds"
+				"timeupdated"		"1567622721"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"garrysmod/saves/"
+				"pattern"		"*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"garrysmod/dupes/"
+				"pattern"		"*"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"garrysmod/demos/"
+				"pattern"		"*"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#status_playing"		"Playing %multi%
+%map% - %gamemode%"
+					"#status_generic"		"%generic%"
+					"#status_inmenu"		"In Menus"
+				}
+			}
+		}
+	}
+}
+ 

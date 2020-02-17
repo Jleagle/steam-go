@@ -1,0 +1,656 @@
+"appinfo"
+{
+	"appid"		"25890"
+	"common"
+	{
+		"name"		"Hearts of Iron III"
+		"clienticon"		"25a1b4497f8285dbf92e4a0f9a52cba22af0d495"
+		"clienttga"		"eb3f0e93028d1b9d5c7f0074fa89bbabe89e804c"
+		"icon"		"a0e62d1a7b5f70a606100ff68ae351e1498804c1"
+		"logo"		"2725c44aac7f95f9f68c70b6225d3b53b25eeb3a"
+		"logo_small"		"2725c44aac7f95f9f68c70b6225d3b53b25eeb3a_thumb"
+		"metacritic_url"		"pc/heartsofiron3"
+		"oslist"		"macos,windows"
+		"type"		"Game"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"25890_eula_0"
+				"name"		"Hearts of Iron III EULA"
+				"url"		"http://store.steampowered.com/eula/25890_eula_0"
+			}
+		}
+		"metacritic_name"		"Hearts of Iron III"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"68.55309218203033"
+				"height_pct"		"62.158632153882735"
+			}
+		}
+		"store_asset_mtime"		"1568036994"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Paradox Development Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_2"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1249628400"
+		"steam_release_date"		"1249628400"
+		"metacritic_score"		"77"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/hearts-of-iron-iii?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"25890"
+		"store_tags"
+		{
+			"0"		"4364"
+			"1"		"4150"
+			"2"		"9"
+			"3"		"3987"
+			"4"		"599"
+			"5"		"7107"
+			"6"		"4168"
+			"7"		"1678"
+			"8"		"3810"
+			"9"		"3859"
+			"10"		"4026"
+			"11"		"4182"
+			"12"		"1676"
+			"13"		"4684"
+			"14"		"5144"
+			"15"		"1756"
+			"16"		"4598"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Paradox Development Studio"
+		"disableoverlay_macos"		"1"
+		"dlcavailableonstore"		"1"
+		"dlcpurchasefromingame"		"0"
+		"gamedir"		"Hearts of Iron 3"
+		"gamemanualurl"		"http://store.steampowered.com/manual/25890/"
+		"homepage"		"http://www.paradoxplaza.com/games/hearts-of-iron-iii"
+		"icon"		""
+		"installscript"		"25890_install.vdf"
+		"installscriptosx"		"Hearts of Iron 3.app/installscript_osx.vdf"
+		"installscript_macos"		"Hearts of Iron 3.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+		"developer_url"		"http://www.paradoxplaza.com"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"25892,25893,25896,25897,25898,25899,25960,25962,42900,42901,42902,42903,42904,42905,214980,214981,214982,214983,214984,214985,214986,214987,214988,214989,214990,214991,214992,214993,214994,423470,423480,424380,424390,477080,477090,477100,477110,477280,477300,477320,477330,477340,477350,477360,477370,477380,477390,477400,477410,477420,477430,477440,477450,477460,477470,477480,477490,477500,477510,477520,477530,477540,477550,477560"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hearts of Iron 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hoi3.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hearts of Iron 3.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"42905"
+		{
+			"name"		"Hearts of Iron III - Stars and Stripes"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5474615522294339540"
+			}
+			"maxsize"		"847554539"
+			"dlcappid"		"42905"
+		}
+		"42904"
+		{
+			"name"		"Mega German Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7509533740653211543"
+			}
+			"maxsize"		"31296939"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"9BC4E6874F95CE5F7E296002F8DDDCA2"
+					"encrypted_size_2"		"5C95540AEE380E5651ADE173214492F6"
+				}
+			}
+			"dlcappid"		"42904"
+		}
+		"25962"
+		{
+			"name"		"German II Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8527507761012169230"
+			}
+			"maxsize"		"5325663"
+			"dlcappid"		"25962"
+		}
+		"25961"
+		{
+			"name"		"hearts of iron 3 mac content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4562782950906089775"
+			}
+			"maxsize"		"1296363192"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"42C825920F988F7CBF81DA2C508D1887"
+					"encrypted_size_2"		"83EEF7EAB4902FDDE3FA2838141C5048"
+				}
+			}
+		}
+		"25960"
+		{
+			"name"		"hearts_of_iron_3_soviet_infantry_pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5551487700470795045"
+			}
+			"maxsize"		"8714083"
+			"dlcappid"		"25960"
+		}
+		"25899"
+		{
+			"name"		"Soviet Music Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7512165040282614865"
+			}
+			"maxsize"		"20228605"
+			"dlcappid"		"25899"
+		}
+		"25898"
+		{
+			"name"		"Soviet Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2547594168573985372"
+			}
+			"maxsize"		"5164657"
+			"dlcappid"		"25898"
+		}
+		"25897"
+		{
+			"name"		"Japanese Infantry Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7773909633232931608"
+			}
+			"maxsize"		"8498849"
+			"dlcappid"		"25897"
+		}
+		"25896"
+		{
+			"name"		"German Infantry Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7565397338628807783"
+			}
+			"maxsize"		"11173978"
+			"dlcappid"		"25896"
+		}
+		"25893"
+		{
+			"name"		"German Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4705755598926764945"
+			}
+			"maxsize"		"4960677"
+			"dlcappid"		"25893"
+		}
+		"25892"
+		{
+			"name"		"US Sprite Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"50406710641847165"
+			}
+			"maxsize"		"4962558"
+			"dlcappid"		"25892"
+		}
+		"25891"
+		{
+			"name"		"hearts_of_iron_3_content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2444452089050865842"
+			}
+			"maxsize"		"1363412524"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"1E0D77EA90E356BB1D34317FD0E17E7E"
+					"encrypted_size_2"		"2E660E498229A3B9425A4CC5A33E2594"
+				}
+			}
+		}
+		"42900"
+		{
+			"name"		"Semper Fi Expansion"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1052588279602067947"
+			}
+			"maxsize"		"434184483"
+			"dlcappid"		"42900"
+		}
+		"42901"
+		{
+			"name"		"Semper Fi Secret Weapons of WWII DLC"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1255865836393834372"
+			}
+			"maxsize"		"12389601"
+			"dlcappid"		"42901"
+		}
+		"42902"
+		{
+			"name"		"Hearts of Iron III Semper Fi: Dies Irae Gotterdammerung"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5426754798465974894"
+			}
+			"maxsize"		"581491300"
+			"dlcappid"		"42902"
+		}
+		"42903"
+		{
+			"name"		"Hearts of Iron III: For the Motherland"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6430736121255200418"
+			}
+			"maxsize"		"382833260"
+			"dlcappid"		"42903"
+		}
+		"25894"
+		{
+			"name"		"Hearts of Iron III French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"4623794100236350182"
+			}
+			"maxsize"		"676"
+		}
+		"25895"
+		{
+			"name"		"Hearts of Iron III German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"4545359711172689196"
+			}
+			"maxsize"		"676"
+		}
+		"214980"
+		{
+			"name"		"US Infantry Unit Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3706615496181770735"
+			}
+			"maxsize"		"9068414"
+			"dlcappid"		"214980"
+		}
+		"214981"
+		{
+			"name"		"Allies of the West"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"664090848878810105"
+			}
+			"maxsize"		"15853307"
+			"dlcappid"		"214981"
+		}
+		"214982"
+		{
+			"name"		"Changing Fronts"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5372283731607045757"
+			}
+			"maxsize"		"14846707"
+			"dlcappid"		"214982"
+		}
+		"214983"
+		{
+			"name"		"Peace in Our Time"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6896356259100596822"
+			}
+			"maxsize"		"18756976"
+			"dlcappid"		"214983"
+		}
+		"214984"
+		{
+			"name"		"The Good Fight"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3396567794791945067"
+			}
+			"maxsize"		"14022285"
+			"dlcappid"		"214984"
+		}
+		"214985"
+		{
+			"name"		"War to the End"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3007769912101639399"
+			}
+			"maxsize"		"17637591"
+			"dlcappid"		"214985"
+		}
+		"214986"
+		{
+			"name"		"Hearts of Iron III: Their Finest Hour"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"828655048627823019"
+			}
+			"maxsize"		"406582487"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"1CF2AC97608684230B12C100ECD7CCE1"
+					"encrypted_size_2"		"8EDE0BABCCC1F4B453FFC11CDA998B28"
+				}
+			}
+			"dlcappid"		"214986"
+		}
+		"214987"
+		{
+			"name"		"British Vehicles Unit Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4623528516467753912"
+			}
+			"maxsize"		"6328035"
+			"dlcappid"		"214987"
+		}
+		"214988"
+		{
+			"name"		"Japan Vehicles Unit Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7591875606172272104"
+			}
+			"maxsize"		"4367160"
+			"dlcappid"		"214988"
+		}
+		"214990"
+		{
+			"name"		"Italian Vehicles Unit Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3037174550594464475"
+			}
+			"maxsize"		"5123032"
+			"dlcappid"		"214990"
+		}
+		"214991"
+		{
+			"name"		"Axis Minors Vehicle Unit Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7029755342251150540"
+			}
+			"maxsize"		"6108415"
+			"dlcappid"		"214991"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"411935"
+			}
+			"beta"
+			{
+				"buildid"		"27105"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"patch-test"
+			{
+				"buildid"		"411935"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
+ 

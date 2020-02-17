@@ -1,0 +1,469 @@
+"appinfo"
+{
+	"appid"		"223350"
+	"common"
+	{
+		"name"		"DayZ Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"221100"
+		"oslist"		"windows"
+		"clienticon"		"f8c16699ed5ce1cc8aa9b15ed3fdd66553fce2bf"
+		"clienttga"		"e529b20af459d1307c2e885c68293ba137971ecc"
+		"icon"		"16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d"
+		"logo"		"6af07b51e817a029260910719d2a77439d00463b"
+		"logo_small"		"6af07b51e817a029260910719d2a77439d00463b_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"223350_eula_0"
+				"name"		"DayZ Server EULA"
+				"url"		"https://store.steampowered.com//eula/223350_eula_0"
+			}
+		}
+		"metacritic_name"		"DayZ Server"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1537366562"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bohemia Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+		}
+		"steam_release_date"		"1537365480"
+		"community_visible_stats"		"1"
+		"gameid"		"223350"
+		"exfgls"		"1"
+	}
+	"extended"
+	{
+		"developer"		"Bohemia Interactive"
+		"gamedir"		"ValveTestApp223350"
+		"homepage"		"http://dayz.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Bohemia Interactive"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DayZServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DayZServer_x64.exe"
+				"description"		"Launch Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"223351"
+		{
+			"name"		"DayZ Server Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6672834522518077926"
+				"experimental_public"		"6851238236280575555"
+			}
+			"maxsize"		"1932324853"
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"28DE0DDD634B5BF3466B2AD64C9BE272"
+					"encrypted_size_2"		"EB6EBE33F24C61827F5CB8C47188D6BB"
+				}
+				"internaldebug"
+				{
+					"encrypted_gid_2"		"CF367A84553DF4B42095F7F2040C8F82"
+					"encrypted_size_2"		"3B323D6FD7C45CEBD44D3E99D0B20A75"
+				}
+				"internalplaytest"
+				{
+					"encrypted_gid_2"		"5F6E3F78A04C17AF9B18CA97BB93E4B4"
+					"encrypted_size_2"		"D6EC75B7A1C2E4868C4D128C4142CBD7"
+				}
+				"pr_test"
+				{
+					"encrypted_gid_2"		"48B89E799D1C0D14781FC1E2ADF09AE2"
+					"encrypted_size_2"		"B387912113835BB7657F618CC5C431DD"
+				}
+				"ps4_internal"
+				{
+					"encrypted_gid_2"		"B66B6D60AD7FC98F2D4CC6003A8F91DB"
+					"encrypted_size_2"		"8760E3B1F8960FCBCE4229B14D86CACE"
+				}
+				"ps4_stable"
+				{
+					"encrypted_gid_2"		"A50106839360387613D01EE1941F8983"
+					"encrypted_size_2"		"DDE8E54DB828F08F54DDE5E4AFD9C640"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"9F250B01A7BB374C6B804B7517C9D912"
+					"encrypted_size_2"		"50A98A2A17803F173221E9B829AA4511"
+				}
+				"stableprep"
+				{
+					"encrypted_gid_2"		"BA1AB9A2527376CB0EB2372DEE6DA792"
+					"encrypted_size_2"		"137C82544F57F2AF0C157657DD71231E"
+				}
+				"survivor_gamez_int"
+				{
+					"encrypted_gid_2"		"53CFD640D9CB46DFD5951C0EB2384BEF"
+					"encrypted_size_2"		"136DBED7B8B4DB7637925014591BA4FE"
+				}
+				"survivor_gamez_test"
+				{
+					"encrypted_gid_2"		"E9CFD1D707B686F24E53B594D225A1ED"
+					"encrypted_size_2"		"8D66CB5212E8177B9B9B55E375BB300D"
+				}
+				"xb1_internal"
+				{
+					"encrypted_gid_2"		"F7BE2B66791A01096E1DA5D18EE202FD"
+					"encrypted_size_2"		"EFBF6B4F9680F1A39CEA91C1FF4913F8"
+				}
+				"xb1_stable"
+				{
+					"encrypted_gid_2"		"97BE9DA2A5364A7C8BA9EEDF7CB408A2"
+					"encrypted_size_2"		"A62EDDC4B797F60CD70DD0D4A4551AFE"
+				}
+				"xb1_test"
+				{
+					"encrypted_gid_2"		"0DC04219E556999C51D3B829CB2CE44D"
+					"encrypted_size_2"		"BDD746312117D99AE478F57DC23259A7"
+				}
+			}
+		}
+		"223352"
+		{
+			"name"		"DayZ Linux Server Depot"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"5F407704D9DFB31CFA440358A38D82BB"
+					"encrypted_size_2"		"9CFEBC4417DACF28C8E4D102CD59AD0A"
+				}
+				"internaldebug"
+				{
+					"encrypted_gid_2"		"140D249A35857083DBCBF9728A0EDAD2"
+					"encrypted_size_2"		"54AA6D6326D4644AA11B893CAF9C1FA8"
+				}
+				"internalplaytest"
+				{
+					"encrypted_gid_2"		"CDC78B241A7D0BF3E73F983D1A3F60A9"
+					"encrypted_size_2"		"F3850680E95DF0EF93DC7658928D675B"
+				}
+				"pr_test"
+				{
+					"encrypted_gid_2"		"098917A6FAB671799AB213BA6BF8A309"
+					"encrypted_size_2"		"E2C1B564F656A91450E31A98C73488DC"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"D95A2D2F88CBA0E6D2CD1D28B98F06F4"
+					"encrypted_size_2"		"619EFABB32067BFB5CF79628E62E3EBA"
+				}
+				"stableprep"
+				{
+					"encrypted_gid_2"		"340E1BDC2B4E3C5DB10AB0EB0D12DC6A"
+					"encrypted_size_2"		"137C82544F57F2AF0C157657DD71231E"
+				}
+				"survivor_gamez_test"
+				{
+					"encrypted_gid_2"		"BBA322914483CCC40FC8B51F29A43EDA"
+					"encrypted_size_2"		"BB6D7A335C4DEAA2987DAB7A260E3F9D"
+				}
+			}
+		}
+		"223353"
+		{
+			"name"		"DayZ Windows Server Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2759561962597224644"
+				"experimental_public"		"6169702869082609638"
+			}
+			"maxsize"		"33556984"
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"encrypted_gid_2"		"C2A7BF850EF4D095A7C90FA0F4D4DC42"
+					"encrypted_size_2"		"CD8B94A4C37625F8AC07397418D17F96"
+				}
+				"internaldebug"
+				{
+					"encrypted_gid_2"		"614D1E441450C7CBFE5731E7C1BD0532"
+					"encrypted_size_2"		"E1E4238000AA13CC4EA3B2D7B3892367"
+				}
+				"internalplaytest"
+				{
+					"encrypted_gid_2"		"F959BEF581DB916C76DE2867CCAB1CBA"
+					"encrypted_size_2"		"7C39C18705174619273C63CF51B819D3"
+				}
+				"pr_test"
+				{
+					"encrypted_gid_2"		"6A9C9800A9606A86E09C9E0551D91475"
+					"encrypted_size_2"		"2CBEFFACB4D2CC4F86310FF6D839AC6C"
+				}
+				"ps4_internal"
+				{
+					"encrypted_gid_2"		"3FBE50C60D2402098FB295B671184340"
+					"encrypted_size_2"		"A364DD94E744C4E031612566A0A29DBC"
+				}
+				"ps4_stable"
+				{
+					"encrypted_gid_2"		"67D486F858C44B3B925CEA721133AB91"
+					"encrypted_size_2"		"FBBD1E1F747864705114F7BC793B93E6"
+				}
+				"stable"
+				{
+					"encrypted_gid_2"		"BA560F5F7E3307AF36287DFCB52953DB"
+					"encrypted_size_2"		"AF431F5E46390253C4E19B2789D77122"
+				}
+				"stableprep"
+				{
+					"encrypted_gid_2"		"007FE9FF2E14147A630F2C5B14A44E11"
+					"encrypted_size_2"		"137C82544F57F2AF0C157657DD71231E"
+				}
+				"survivor_gamez_int"
+				{
+					"encrypted_gid_2"		"95DE4B052F8C00405F82F99457CD9413"
+					"encrypted_size_2"		"2FCC26C045903E83BC9D2CF5B056786B"
+				}
+				"survivor_gamez_test"
+				{
+					"encrypted_gid_2"		"2C0E384E47502ED8EC0C04B8157CD917"
+					"encrypted_size_2"		"14A410EAF70D86E5A6645E5F7A621F84"
+				}
+				"xb1_internal"
+				{
+					"encrypted_gid_2"		"5211539F73FC10A59B24DB6CA305A3E7"
+					"encrypted_size_2"		"778E78BD52DD5F6D59782EF0B476CE09"
+				}
+				"xb1_stable"
+				{
+					"encrypted_gid_2"		"F634EA5A80628567CE7C50598306E75A"
+					"encrypted_size_2"		"DD10F92A6624FAB6F552AFD0CA0FC5DB"
+				}
+				"xb1_test"
+				{
+					"encrypted_gid_2"		"05A1C0797FBB6EF3975A09D381A51704"
+					"encrypted_size_2"		"06AA51AED311FA54AD233D6F89053806"
+				}
+			}
+		}
+		"223354"
+		{
+			"name"		"SGZ Server Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"survivor_gamez_int"
+				{
+					"encrypted_gid_2"		"4F9655C58DDB1DA36EAF05DC0DAE80AE"
+					"encrypted_size_2"		"B8A142662B748AF9C07729E9B5DF4D69"
+				}
+				"survivor_gamez_test"
+				{
+					"encrypted_gid_2"		"5F55620E478009C1510DE8DE45E3969E"
+					"encrypted_size_2"		"2D1C86F5B72AFBF51E8B00AF288B2282"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4162896"
+				"timeupdated"		"1567518252"
+			}
+			"experimental"
+			{
+				"buildid"		"3889687"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559730551"
+			}
+			"experimental_public"
+			{
+				"buildid"		"3889697"
+				"description"		"Unstable testing version"
+				"timeupdated"		"1559730582"
+			}
+			"internaldebug"
+			{
+				"buildid"		"4178194"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568007541"
+			}
+			"internalplaytest"
+			{
+				"buildid"		"4162874"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567513744"
+			}
+			"pr_test"
+			{
+				"buildid"		"3022120"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1533900743"
+			}
+			"ps4_internal"
+			{
+				"buildid"		"4107887"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565862834"
+			}
+			"ps4_stable"
+			{
+				"buildid"		"4107887"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565868021"
+			}
+			"release_test"
+			{
+				"buildid"		"4162896"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567514079"
+			}
+			"stable"
+			{
+				"buildid"		"4162874"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567514348"
+			}
+			"stableprep"
+			{
+				"buildid"		"3851012"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558618901"
+			}
+			"survivor_gamez_int"
+			{
+				"buildid"		"4146251"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566998959"
+			}
+			"survivor_gamez_test"
+			{
+				"buildid"		"4163414"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567524375"
+			}
+			"xb1_internal"
+			{
+				"buildid"		"4107881"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565862632"
+			}
+			"xb1_stable"
+			{
+				"buildid"		"4107881"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565867832"
+			}
+			"xb1_test"
+			{
+				"buildid"		"3846800"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561713065"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

@@ -1,0 +1,523 @@
+"appinfo"
+{
+	"appid"		"250900"
+	"common"
+	{
+		"name"		"The Binding of Isaac: Rebirth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"16d46c8630499bfc54d20745ac90786a302cd643"
+		"clienttga"		"21cb0cfcf3038b212083c915778d3411645011ee"
+		"linuxclienticon"		"7dcedc7ee0f893d4c17b6b5c8b5aae725e6dc980"
+		"clienticon"		"3536f1077c4ff06a682541cfdffd81214168cead"
+		"logo"		"c7a76988c53e7f3a3aa1cf224aaf4dbd067ebbf9"
+		"logo_small"		"c7a76988c53e7f3a3aa1cf224aaf4dbd067ebbf9_thumb"
+		"clienticns"		"19432796bd4ec40f3817cfdbd30d547bc32c433a"
+		"metacritic_name"		"The Binding of Isaac Rebirth"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1442271004"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nicalis, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nicalis, Inc."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_24"		"1"
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1415126160"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"250900"
+		"store_tags"
+		{
+			"0"		"1716"
+			"1"		"492"
+			"2"		"4711"
+			"3"		"4026"
+			"4"		"3964"
+			"5"		"1720"
+			"6"		"1756"
+			"7"		"4182"
+			"8"		"4342"
+			"9"		"5708"
+			"10"		"3871"
+			"11"		"3841"
+			"12"		"4345"
+			"13"		"5125"
+			"14"		"3959"
+			"15"		"4166"
+			"16"		"19"
+			"17"		"1667"
+			"18"		"4758"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nicalis, Inc."
+		"publisher"		"Nicalis, Inc."
+		"homepage"		"http://www.bindingofisaac.com"
+		"listofdlc"		"322660,401920,570660"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Binding of Isaac Rebirth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"isaac-ng.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"run-x64.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"The Binding of Isaac Rebirth.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"run-i386.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"workshopdepot"		"250900"
+		"250902"
+		{
+			"name"		"Win32"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4994611894646808503"
+			}
+			"maxsize"		"326498528"
+		}
+		"250903"
+		{
+			"name"		"Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"367036646469636831"
+			}
+			"maxsize"		"329786149"
+		}
+		"250904"
+		{
+			"name"		"OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1942665726573884808"
+			}
+			"maxsize"		"326357115"
+		}
+		"322660"
+		{
+			"name"		"The Binding of Isaac: Rebirth - Soundtrack (322660) Depot"
+			"dlcappid"		"322660"
+			"manifests"
+			{
+				"public"		"5866369572058995274"
+			}
+			"maxsize"		"300265761"
+		}
+		"401920"
+		{
+			"name"		"The Binding of Isaac: Rebirth - Afterbirth (401920) Depot"
+			"dlcappid"		"401920"
+		}
+		"250905"
+		{
+			"name"		"Afterbirth Win32"
+			"dlcappid"		"401920"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1709017229885880564"
+			}
+			"maxsize"		"165283102"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"758FCD6AC82AA1936837FDEBBE799819"
+					"encrypted_size_2"		"F5FD5AF85BC3D893F7939D5496415B1A"
+				}
+				"submission-staging"
+				{
+					"encrypted_gid_2"		"D9E1318C3A8B68952B4659BADA90AEEA"
+					"encrypted_size_2"		"AA500680BB75904D3F87FF69CD97C81A"
+				}
+			}
+		}
+		"250906"
+		{
+			"name"		"Afterbirth Linux"
+			"dlcappid"		"401920"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"274330258716671855"
+			}
+			"maxsize"		"171738462"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"670E2F6BE18F2131E66EBB446F9297CC"
+					"encrypted_size_2"		"BCFEAFE8AE8567557C869E82800591F0"
+				}
+				"submission-staging"
+				{
+					"encrypted_gid_2"		"7D1A02F6BFA17575C77AE026C596F0D5"
+					"encrypted_size_2"		"E2EF8F18C2BAA113BE7260CB2C700323"
+				}
+			}
+		}
+		"250907"
+		{
+			"name"		"Afterbirth OSX"
+			"dlcappid"		"401920"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1258401244940465981"
+			}
+			"maxsize"		"184351160"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"70CF322728829A4FB2258F4FA2FAC0F6"
+					"encrypted_size_2"		"4648EC7A86410607A72D5A45376C0620"
+				}
+				"submission-staging"
+				{
+					"encrypted_gid_2"		"96AC91DF737960333F6FF74CC312BC62"
+					"encrypted_size_2"		"122D179F07164ED91FCA0A46A3C78A44"
+				}
+			}
+		}
+		"250908"
+		{
+			"name"		"Afterbirth Plus Win32"
+			"dlcappid"		"570660"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7333987924869605149"
+			}
+			"maxsize"		"147989670"
+			"encryptedmanifests"
+			{
+				"abp-beta-2"
+				{
+					"encrypted_gid_2"		"DAD3789D17EFEFB0683CF1130643FE1B"
+					"encrypted_size_2"		"CA5C438DB39FAEEED5048E98E9CE14B5"
+				}
+				"abp-booster-beta"
+				{
+					"encrypted_gid_2"		"7D76FC5D071103F4490CC24C7991E0E1"
+					"encrypted_size_2"		"A611C2CD2B5912CC7432F2734C905EFA"
+				}
+				"abp-booster-final-beta"
+				{
+					"encrypted_gid_2"		"F8EDB9AC77BEFFC5C65E71CD95B42A34"
+					"encrypted_size_2"		"A523D15A7F7FD6E67A3C2DC35A0CD8D4"
+				}
+				"abp-booster-final-submission-staging"
+				{
+					"encrypted_gid_2"		"45287E3511FA6641F0B04B845C148A4F"
+					"encrypted_size_2"		"0900FB49548307223AA966474F1FC9C5"
+				}
+				"abp-booster-submission-staging"
+				{
+					"encrypted_gid_2"		"2A5F7ED885571BCB8286A976145E233A"
+					"encrypted_size_2"		"91B841912995D781953E4197B26F7739"
+				}
+				"abp-submission-staging"
+				{
+					"encrypted_gid_2"		"BDCFC39973785ED420A93341245C44D8"
+					"encrypted_size_2"		"FB720FD0B489E60F68EB5450DA78E24D"
+				}
+			}
+		}
+		"250909"
+		{
+			"name"		"Afterbirth Plus Linux"
+			"dlcappid"		"570660"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5041024818858406088"
+			}
+			"maxsize"		"135160872"
+			"encryptedmanifests"
+			{
+				"abp-beta-2"
+				{
+					"encrypted_gid_2"		"0B9BF2DCE6AA2E4FEA983D44AF8F8F93"
+					"encrypted_size_2"		"DB591FEA7246C804BD2E20CE2D11A736"
+				}
+				"abp-booster-beta"
+				{
+					"encrypted_gid_2"		"7FC0A9E2461D2D2E64387D4F18AB70B5"
+					"encrypted_size_2"		"F85CF71A3D86611B4EB9B5D5AB2CC215"
+				}
+				"abp-booster-final-beta"
+				{
+					"encrypted_gid_2"		"BF5614A8305EB71E4A92C95110BBAD4D"
+					"encrypted_size_2"		"81FB6905241FECD189EF577755BEA2D6"
+				}
+				"abp-booster-final-submission-staging"
+				{
+					"encrypted_gid_2"		"BB12C70ACE583DF08A59424D4A4121B7"
+					"encrypted_size_2"		"6966740E64DFB2DFDD6937F790E0005B"
+				}
+				"abp-booster-submission-staging"
+				{
+					"encrypted_gid_2"		"C2B1E1FEC004C929B7E881A92B5D81C4"
+					"encrypted_size_2"		"A1948C83E732DED8CBAD188B961D631C"
+				}
+				"abp-submission-staging"
+				{
+					"encrypted_gid_2"		"BFE6A0B2A8AA4C40D598F412F908E51F"
+					"encrypted_size_2"		"6695952F64D6CB572916D6158D3D041D"
+				}
+			}
+		}
+		"250910"
+		{
+			"name"		"Afterbirth Plus OSX"
+			"dlcappid"		"570660"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1079085999450784617"
+			}
+			"maxsize"		"175342144"
+			"encryptedmanifests"
+			{
+				"abp-beta-2"
+				{
+					"encrypted_gid_2"		"888F0C4C81EF0F3ED8DC64F04AB3C042"
+					"encrypted_size_2"		"63D82DC823ADEE200F59587CA76D6B83"
+				}
+				"abp-booster-beta"
+				{
+					"encrypted_gid_2"		"4636D6BB03A3961582254A458CC4D2AF"
+					"encrypted_size_2"		"D76C4CA97DB28747324023C2AA8ECA97"
+				}
+				"abp-booster-final-beta"
+				{
+					"encrypted_gid_2"		"60E819D5E582EFD5A71A07EF4B8D92BC"
+					"encrypted_size_2"		"CCEF9FE2D2CA13A1589CF84123DB4FE4"
+				}
+				"abp-booster-final-submission-staging"
+				{
+					"encrypted_gid_2"		"0B3EAC85CEFB7AE70E59033AB9DE854F"
+					"encrypted_size_2"		"D4BB59E5F714A85B2D213ED57657B156"
+				}
+				"abp-booster-submission-staging"
+				{
+					"encrypted_gid_2"		"A3004181E4F9C16D4046C068331016BB"
+					"encrypted_size_2"		"01814ABE199D95104689BB25270F8A6B"
+				}
+				"abp-submission-staging"
+				{
+					"encrypted_gid_2"		"A54E74ED45A209CF8D667077CFE101DE"
+					"encrypted_size_2"		"8BC3B2D50FCD29D817C0AFACC496B36B"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2766775"
+				"timeupdated"		"1526081249"
+			}
+			"abp-beta-2"
+			{
+				"buildid"		"3539164"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549519982"
+			}
+			"abp-booster-beta"
+			{
+				"buildid"		"4178154"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568006125"
+			}
+			"abp-booster-final-beta"
+			{
+				"buildid"		"4178210"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568008468"
+			}
+			"abp-booster-final-submission-staging"
+			{
+				"buildid"		"4178214"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568008715"
+			}
+			"abp-booster-submission-staging"
+			{
+				"buildid"		"4178158"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568006355"
+			}
+			"abp-submission-staging"
+			{
+				"buildid"		"3539167"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549520128"
+			}
+			"beta"
+			{
+				"buildid"		"4178874"
+				"description"		"Beta testing branch - automatically updated"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568025759"
+			}
+			"submission-staging"
+			{
+				"buildid"		"4178881"
+				"description"		"Submission staging branch - automatically updated"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568025944"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

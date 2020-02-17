@@ -1,0 +1,1077 @@
+"appinfo"
+{
+	"appid"		"592580"
+	"common"
+	{
+		"name"		"PRO EVOLUTION SOCCER 2018"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"dutch"		"1"
+			"swedish"		"1"
+			"turkish"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+			"greek"		"1"
+		}
+		"logo"		"709424b73a62712b569276fc300b26f19938cf66"
+		"logo_small"		"709424b73a62712b569276fc300b26f19938cf66_thumb"
+		"clienttga"		"d6082479fe31260982fdaf0aaa84b91f3af5102e"
+		"clienticon"		"9bfc988a29612179f53497aea0af5d2c1f9cdfa0"
+		"icon"		"e3912b31d7e822fe34db4138117672a8ae67a345"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"metacritic_name"		"Pro Evolution Soccer 2018"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"32"
+				"height_pct"		"29"
+			}
+		}
+		"store_asset_mtime"		"1503537413"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Konami Digital Entertainment Co., Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Konami Digital Entertainment"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_35"		"1"
+			"category_37"		"1"
+			"category_39"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1505339975"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/pro-evolution-soccer-2018?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"592580"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"1679"
+			"2"		"7226"
+			"3"		"3859"
+			"4"		"599"
+			"5"		"4182"
+			"6"		"1685"
+			"7"		"1756"
+			"8"		"1695"
+			"9"		"113"
+			"10"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Konami Digital Entertainment Co., Ltd."
+		"publisher"		"Konami Digital Entertainment"
+		"homepage"		"https://www.konami.com/wepes/2018"
+		"listofdlc"		"592590,631040,631041,688230"
+	}
+	"config"
+	{
+		"installdir"		"PRO EVOLUTION SOCCER 2018"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PES2018.exe"
+				"description"		"Launch"
+				"type"		"none"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"952326783"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,denuvo,denuvotest,e3_intel,e3_nvidia,gc_nvidia,goldmaster,intel,keywords,master_nvidia,nvidia,qccheck,rating,uploadcheck"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"name"		".NET 4.6 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"62009092"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"592581"
+		{
+			"name"		"Pro Evolution Soccer 2018 Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6067171887795670072"
+			}
+			"maxsize"		"22043338795"
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"encrypted_gid_2"		"339C0CA6013A7712E47588DAEEE52149"
+					"encrypted_size_2"		"D1E9666A9B5F1F9F1BA68028FF227772"
+				}
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"9C499277518E74B545F9ABB71057420B"
+					"encrypted_size_2"		"ECB496312A885E209575521B949F791A"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"B79B7C8FC3EED40BA897C560BF6B0BE3"
+					"encrypted_size_2"		"5694D0DD2D7AC2898808A859BC29F0FF"
+				}
+				"goldmaster"
+				{
+					"encrypted_gid_2"		"CBD6B5D08651014C817B9BD8A4E9A3B1"
+					"encrypted_size_2"		"0A9CD82EC12B681533854C1F8B0A5FF2"
+				}
+				"intel"
+				{
+					"encrypted_gid_2"		"125FD8971734AC51698F5589CA4490B8"
+					"encrypted_size_2"		"CB84EEFFE3FABFC36F321791E71A13B7"
+				}
+				"keywords"
+				{
+					"encrypted_gid_2"		"C501CFADD5AB8D1A24AEB4F53AAFC72B"
+					"encrypted_size_2"		"94C6825B9F1DF057358CC33A675BF848"
+				}
+				"master_nvidia"
+				{
+					"encrypted_gid_2"		"495AE843065115722F79A40B1DB3B344"
+					"encrypted_size_2"		"7EFEFDA83967CA6124A03D440C8E644F"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"21C85C5E4D2F643590189822D6AA2D13"
+					"encrypted_size_2"		"70704EBF465CABACD3FB278F432F36FF"
+				}
+				"qccheck"
+				{
+					"encrypted_gid_2"		"631CCEE3B6D8D014184B62213CEC143E"
+					"encrypted_size_2"		"F81BD1880ACC13703849B0F490C9C1A8"
+				}
+				"qccheck_patch10200"
+				{
+					"encrypted_gid_2"		"97EFCCC9E74A0D88E8CF8106B700C64C"
+					"encrypted_size_2"		"42D9262E91B03EB9D9276AD0CB3DDC67"
+				}
+				"qccheck_patch10300"
+				{
+					"encrypted_gid_2"		"0C04148A6BE52210C648623D74788FAC"
+					"encrypted_size_2"		"B5381CB543A3D616B12EB3ED4F7FA17A"
+				}
+				"qccheck_patch10400"
+				{
+					"encrypted_gid_2"		"72F88434505FD5FB425A2FC1A7F5D22A"
+					"encrypted_size_2"		"B5256A64DC8B0A5281B0A65B85A82AC1"
+				}
+				"qccheck_patch10401"
+				{
+					"encrypted_gid_2"		"80C5BF7C56A914769D2A41E0D64377D1"
+					"encrypted_size_2"		"5E08EEB8411464B34843F5684B1D84DB"
+				}
+				"qccheck_patch10500"
+				{
+					"encrypted_gid_2"		"F1E6517066B792A2B451C69194AA5C12"
+					"encrypted_size_2"		"3179E942BA111DDD19A3AA5CE7478342"
+				}
+				"qccheck_patch10501"
+				{
+					"encrypted_gid_2"		"9737C310614B7561CC47F60820D1B132"
+					"encrypted_size_2"		"735EBFDFADE1F3974CDE1BA46189DA76"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"9A194E65D83460C849C0A34CA4DABBF7"
+					"encrypted_size_2"		"65B540EF1820653EF045923B9718EEF5"
+				}
+				"uploadcheck"
+				{
+					"encrypted_gid_2"		"FB4F71D638BF429AE85890F769F3A942"
+					"encrypted_size_2"		"3C46780F15127D6CE7D41650BDCA1BB0"
+				}
+			}
+		}
+		"592582"
+		{
+			"name"		"english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6506749648675319346"
+			}
+			"maxsize"		"1484045345"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"319FE4B524BDC1AE058A38EFF8E9E289"
+					"encrypted_size_2"		"86C85098AAE0FA903EEF29F033DA8893"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"989A0E8FC422DD6949341D80AB3DA484"
+					"encrypted_size_2"		"B33D91B2060CD23C4B166189F43B5FEA"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"00921F07E6F71C4CE591CD1E30BD2333"
+					"encrypted_size_2"		"43FE3E31B5B6F2770DB693972F537BFC"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"3339AAA9C804AC47AD351CA117020722"
+					"encrypted_size_2"		"8CAE8EA0B12949C2A237775E00A1F6DA"
+				}
+			}
+		}
+		"592583"
+		{
+			"name"		"swedish"
+			"config"
+			{
+				"language"		"swedish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5185496193367601888"
+			}
+			"maxsize"		"565241981"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"520651D063C80CC6154C42AD928CA86D"
+					"encrypted_size_2"		"6C658BEE351898946BF4DBB38A668262"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"54CE45F7C4561C29E0B1F93B74EF2CC0"
+					"encrypted_size_2"		"BB09A46BD8B76283A5E9528C5DD3FCFC"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"BE1FD55A267EF37982DC6ED1A1314138"
+					"encrypted_size_2"		"38BEC351F264FCDDD95FE8B042A392C9"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"FA89E2FC41A05F1F6EBF9C74B775CEA0"
+					"encrypted_size_2"		"509C8659DE64FAB56F0B933C163C9B6F"
+				}
+			}
+		}
+		"592584"
+		{
+			"name"		"french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6555476214693145802"
+			}
+			"maxsize"		"497300031"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"1AE2C3D9D04D676E01EAF2A2D06F56B8"
+					"encrypted_size_2"		"1930A335B3621C3CCAC1EA35D861E3BA"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"471FAFA6AC8D2F534EC8238653E7889C"
+					"encrypted_size_2"		"DBF07D9D18EF8764EE165EF68810D996"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"D7A45FD9D787BD593567B7D2B5AD85D2"
+					"encrypted_size_2"		"D9E9816C6E3F83EF1B7F20AD64B05C91"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"E651334DFF84D98219FD4F7C60F9474B"
+					"encrypted_size_2"		"4EECADACA7556B905CD795D46C7C4EC3"
+				}
+			}
+		}
+		"592585"
+		{
+			"name"		"german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6498937558138403889"
+			}
+			"maxsize"		"592408537"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"CE0E28974BAAAD928E3CCC9A4208CAC9"
+					"encrypted_size_2"		"5A631E482C9C9E04D21EBDF35B70DDC2"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"8EE5C31B80E19557B5CE679E1BA3BD71"
+					"encrypted_size_2"		"9B770AC6C195950C1F578798C8114660"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"33E8CFDFB2C447510BA89913ACC158FC"
+					"encrypted_size_2"		"551C3D7ACD24CFE94DE4C0C6ACE2A3E0"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"190B510E44AF7182FB8D872C9C8A67A6"
+					"encrypted_size_2"		"B3CD711E6D8D24F634868A0CEC812658"
+				}
+			}
+		}
+		"592586"
+		{
+			"name"		"italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6669605866416115703"
+			}
+			"maxsize"		"518464765"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"2691AF3D258D358E52351E4F00D0A3EE"
+					"encrypted_size_2"		"17E8FBCEC1BF34874508C164BB3C0660"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"CFF0DBC507044AE73BFD4D6460806DF7"
+					"encrypted_size_2"		"46866191EC409D926041E1C5FD995832"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"4EDFF93DAD9946E02EA5B182F23A63CD"
+					"encrypted_size_2"		"0D44805D70C349055B85C4834B47F6A5"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"526E10A0B0B2774F0CE17697870FA2B3"
+					"encrypted_size_2"		"A2E28406663E6853B84378C1330065BE"
+				}
+			}
+		}
+		"592587"
+		{
+			"name"		"dutch"
+			"config"
+			{
+				"language"		"dutch"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2207783177434996419"
+			}
+			"maxsize"		"565254269"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"2212B8D86CA1E577BAA460C56832E7BB"
+					"encrypted_size_2"		"311ED08BE4AB2216E70156552FF51A4F"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"4638FE7CAD395DA91942AA0021E5CDE6"
+					"encrypted_size_2"		"E0CDEAA6C17C1CEB486AF9218BD71B9F"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"0EE1A5B2985C60DE274252D60D645C50"
+					"encrypted_size_2"		"51F6BEC2DCA8BD6D27C2BC1B9965F5BF"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"A8F30D6FE0E36D7126BFBCF6BA12D3D2"
+					"encrypted_size_2"		"BEE159E4042A09AAB1AACC6D58735A26"
+				}
+			}
+		}
+		"592588"
+		{
+			"name"		"turkish"
+			"config"
+			{
+				"language"		"turkish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4290844113835195454"
+			}
+			"maxsize"		"565260413"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"7E6E4CCCC07E7FEC5721F259805D9D4C"
+					"encrypted_size_2"		"B1285A58594C52BD27A0F80EC7098CCD"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"85882C13FA257175638BA44069F68E77"
+					"encrypted_size_2"		"4D4030895526B79C110F7C55859E1BC0"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"A429EFACE1F5878F0F3165E161927C80"
+					"encrypted_size_2"		"86D089C04A0AAB0F1E8CCA06F93BF127"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"44CA463543BEE894DB9515E2EBACB3EA"
+					"encrypted_size_2"		"8799F4AEC385CB525AC5AD1FF776ED1F"
+				}
+			}
+		}
+		"592589"
+		{
+			"name"		"russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6836290666980838500"
+			}
+			"maxsize"		"565330045"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"44944B53DE392D0C8EBB2085D7FEA076"
+					"encrypted_size_2"		"FFACDB95E0EF3A39A12557AAA9D028EC"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"DB5D9477F5A2B350F830F3E2321402AE"
+					"encrypted_size_2"		"9E4F3BDECF376D65CFC4B96EA1812B40"
+				}
+				"nvidia"
+				{
+					"encrypted_gid_2"		"26FFB479AF85F3E864F841524056F872"
+					"encrypted_size_2"		"F5666473DE6E3E2D2F294C5EBABF7ACA"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"9FE2E34E0F7755BC95076EB53A50DE6C"
+					"encrypted_size_2"		"28D9B535BB2F8613520A738B7BB932D6"
+				}
+			}
+		}
+		"625520"
+		{
+			"name"		"spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1457760031055615530"
+			}
+			"maxsize"		"1940511133"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"CF425D51B554EE9F0A2373B9083F8305"
+					"encrypted_size_2"		"248FE7263ED636085C41733FE4C3DC60"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"61ECF7A7B3A3B79524D837081E9A743D"
+					"encrypted_size_2"		"E9DC5BF7595447AD34DC6E32AD625ED2"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"17ED6D4AFEC1B513F20F79668A53D4FC"
+					"encrypted_size_2"		"27B7C1F35BEAC4444C45916201DB0CC0"
+				}
+			}
+		}
+		"625521"
+		{
+			"name"		"portuguese"
+			"config"
+			{
+				"language"		"portuguese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4119133211423143686"
+			}
+			"maxsize"		"475139847"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"24DE280545D17ED0025A9F77C42D28EC"
+					"encrypted_size_2"		"6A5C161A1A5D570B65037F35DD14EACF"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"CFA37E5FC50B41ED7B9E3221B00A0531"
+					"encrypted_size_2"		"7489B20405CE4FA554C4FFB9474FAC46"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"430549C72B5AC0D0459332BCD6EB87D5"
+					"encrypted_size_2"		"B1F0883A677B476FAB183F4A258E28F2"
+				}
+			}
+		}
+		"625522"
+		{
+			"name"		"arabic"
+			"config"
+			{
+				"language"		"arabic"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6704258786488994531"
+			}
+			"maxsize"		"144354401"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"51121DF34EC93E09177A9F6DFDC99752"
+					"encrypted_size_2"		"696197DD8002F3D9E198E71993BC417E"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"0FD9785128F15D52084E5A039E5B30A7"
+					"encrypted_size_2"		"05E4BF63F7E76BD4468E1BFF578E158B"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"1D3679B8FE7BD9986634FCF3297D5DCD"
+					"encrypted_size_2"		"A0650033AC5B4AC7ED16F33A8635D9CC"
+				}
+			}
+		}
+		"625523"
+		{
+			"name"		"greek"
+			"config"
+			{
+				"language"		"greek"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"458955596857843271"
+			}
+			"maxsize"		"429220497"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"4CDC2C59B338F7533BFD1B136FD2FC58"
+					"encrypted_size_2"		"081A64B6BA34A4D65EC23B624AC85BC8"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"A43068B1B9B9B1798E965EBF2C971478"
+					"encrypted_size_2"		"B7E3B05D7BC649ED7FEE5082D04D42D3"
+				}
+				"keywords"
+				{
+					"encrypted_gid_2"		"CEA008ED16CBDE853D354CEE857D5504"
+					"encrypted_size_2"		"364259E999CE2696D974CE40158EBE8A"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"D00622E071DEB1CAEACD5871347BA561"
+					"encrypted_size_2"		"5C7E39F387EB6CC2F58F524E4EB5EE54"
+				}
+			}
+		}
+		"625524"
+		{
+			"name"		"brazil"
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8007341410879282636"
+			}
+			"maxsize"		"1348148611"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"277264789A02C32CC39E2D6CEB65088D"
+					"encrypted_size_2"		"9BAC29B982401FE46CEE2F14F6F6C119"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"EA9A154A0CAE17F40A637124571F503B"
+					"encrypted_size_2"		"BAF2D8BEE304E7BD314EE68898CFBFFF"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"E6B96A6C7A95D6E4AB7414F65C36637C"
+					"encrypted_size_2"		"C5F0BBBC4758A5863F4C5500DB7D35DF"
+				}
+			}
+		}
+		"625525"
+		{
+			"name"		"simplified chinese"
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2496668318632904529"
+			}
+			"maxsize"		"1563686331"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"7F2976E4B8F72AF30400F22CDA6812B4"
+					"encrypted_size_2"		"A4BD97CBCA870F68908F4297D88F0379"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"99719FBF831F02D9EDF4F1802B339803"
+					"encrypted_size_2"		"53901EB9297ED425BEAFC80B064CAA5F"
+				}
+				"keywords"
+				{
+					"encrypted_gid_2"		"643B587542058ECD59EDFF4AC2C81CB1"
+					"encrypted_size_2"		"5E5C5392021D88BD2FC6B7119A6CC8E5"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"D5914BD4CAED28CA3A5A4E3EB8C36703"
+					"encrypted_size_2"		"1233CC39F83C119F789B259AD13256E9"
+				}
+			}
+		}
+		"625526"
+		{
+			"name"		"traditional chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1472225991316999893"
+			}
+			"maxsize"		"1555656658"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"48DB2DCBA8F907A7BEB63398D0C5441A"
+					"encrypted_size_2"		"6C1CC8E64AAA82210C60F02DBDA14929"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"923D32FDBF5BE8123203C58AAB0279C7"
+					"encrypted_size_2"		"7B4B5BF7359C5DF2C6C2ED9D699B75DE"
+				}
+				"keywords"
+				{
+					"encrypted_gid_2"		"35AB592B5FA9DB1FC2C5CCDADD1702DC"
+					"encrypted_size_2"		"BE617A3A809D074D4204E7A86822A76B"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"9BAE77F338A6DD26963D3F11F63A42F4"
+					"encrypted_size_2"		"AF7CBF520C0EC2D090FF4B034DFCC37D"
+				}
+			}
+		}
+		"625527"
+		{
+			"name"		"korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3138125663853187871"
+			}
+			"maxsize"		"1617925502"
+			"encryptedmanifests"
+			{
+				"e3_intel"
+				{
+					"encrypted_gid_2"		"809B68E24709615F3AB72386AB193279"
+					"encrypted_size_2"		"3CB3490910184C9ED8E7C77AD4A09B22"
+				}
+				"e3_nvidia"
+				{
+					"encrypted_gid_2"		"F23991B1965F224AF8247E9897C60FB9"
+					"encrypted_size_2"		"4B0A1E2955D3439076C10A6BE066EDEC"
+				}
+				"rating"
+				{
+					"encrypted_gid_2"		"F9627D54EB73992C8F95BEB9C42122B4"
+					"encrypted_size_2"		"FA5E7E46303323E17BFF87DF781721DF"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2818249"
+				"timeupdated"		"1528942604"
+			}
+			"denuvo"
+			{
+				"buildid"		"2020792"
+				"description"		"Denuvo対応用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502188453"
+			}
+			"e3_intel"
+			{
+				"buildid"		"1894912"
+				"description"		"Intel(E3)提供用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498458960"
+			}
+			"e3_nvidia"
+			{
+				"buildid"		"1894912"
+				"description"		"nvidia(E3)提供用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1497610970"
+			}
+			"goldmaster"
+			{
+				"buildid"		"2005009"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1501646923"
+			}
+			"intel"
+			{
+				"buildid"		"2132825"
+				"description"		"Intel提供用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1505903426"
+			}
+			"keywords"
+			{
+				"buildid"		"1960355"
+				"description"		"keywordsチェック用パッケージ"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500022824"
+			}
+			"master_nvidia"
+			{
+				"buildid"		"2073098"
+				"description"		"nvidia製品版テスト用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1503972978"
+			}
+			"nvidia"
+			{
+				"buildid"		"1677228"
+				"description"		"nvidia提供用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1489147343"
+			}
+			"qccheck"
+			{
+				"buildid"		"2129274"
+				"description"		"QCチェック用ブランチ"
+				"pwdrequired"		"1"
+				"timeupdated"		"1505805665"
+			}
+			"qccheck_patch10200"
+			{
+				"buildid"		"2147684"
+				"description"		"QCチェック用ブランチ(Patch10200)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506412186"
+			}
+			"qccheck_patch10300"
+			{
+				"buildid"		"2265721"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1510100374"
+			}
+			"qccheck_patch10400"
+			{
+				"buildid"		"2446965"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1516327780"
+			}
+			"qccheck_patch10401"
+			{
+				"buildid"		"2531328"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1518773865"
+			}
+			"qccheck_patch10500"
+			{
+				"buildid"		"2617708"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1521524440"
+			}
+			"qccheck_patch10501"
+			{
+				"buildid"		"2698400"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1524027995"
+			}
+			"qccheck_patch10502"
+			{
+				"buildid"		"2818249"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527676184"
+			}
+			"rating"
+			{
+				"buildid"		"1824602"
+				"description"		"Rating提出用パッケージ"
+				"pwdrequired"		"1"
+				"timeupdated"		"1494928077"
+			}
+			"uploadcheck"
+			{
+				"buildid"		"2654744"
+				"description"		"アップロード時のチェック用"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522741005"
+			}
+		}
+	}
+}
+ 

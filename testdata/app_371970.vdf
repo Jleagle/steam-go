@@ -1,0 +1,454 @@
+"appinfo"
+{
+	"appid"		"371970"
+	"common"
+	{
+		"name"		"Barony"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"6f9eff196424d1cd3861d7a80b050d448444ef44"
+		"logo_small"		"6f9eff196424d1cd3861d7a80b050d448444ef44_thumb"
+		"icon"		"46322c036e185f62305183926785af8482d5381b"
+		"clienttga"		"fbf1b4ce325f7e95226043e18abb4b1914ae75bb"
+		"clienticns"		"6486f558593c823f870506f43f48fcdc4793a292"
+		"linuxclienticon"		"c2d24bde5cf9d02bf3e2881fdd0d66ae4db209ec"
+		"clienticon"		"7db7a7fb1f100fafabec17f021c3ead974886148"
+		"releasestate"		"released"
+		"metacritic_name"		"Barony"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.79796234396004"
+				"height_pct"		"97.91672317916724"
+			}
+		}
+		"store_asset_mtime"		"1563840796"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Turning Wheel LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Turning Wheel LLC"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_17"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_30"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1435075187"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"371970"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1716"
+			"2"		"1720"
+			"3"		"492"
+			"4"		"1685"
+			"5"		"3964"
+			"6"		"21"
+			"7"		"19"
+			"8"		"3839"
+			"9"		"3859"
+			"10"		"3959"
+			"11"		"1684"
+			"12"		"1732"
+			"13"		"4667"
+			"14"		"12095"
+			"15"		"4026"
+			"16"		"1663"
+			"17"		"4182"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"developer"		"Turning Wheel LLC"
+		"publisher"		"Turning Wheel LLC"
+		"listofdlc"		"470540,1010820,1010821,1010822,1010823,1010824,1010825,1010826,1010827"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Barony"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"barony.exe"
+				"description"		"Launch Barony"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"editor.exe"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"barony.app"
+				"description"		"Launch Barony"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"editor.app"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"barony.x86_64"
+				"description"		"Launch Barony"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"editor.x86_64"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"711469461"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"371972"
+		{
+			"name"		"Barony Depot (English) (Win32)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5837884436844787331"
+				"3.1.4"		"8140237659248301853"
+				"v1.0.6"		"3167431426239208774"
+				"v2.0.7"		"6819509052044938352"
+				"v3.1.7"		"5534459318369341013"
+				"v3.2.1"		"8252340614203289814"
+				"v3.2.3"		"5315735692054029893"
+			}
+			"maxsize"		"222318298"
+			"encryptedmanifests"
+			{
+				"devdep"
+				{
+					"encrypted_gid_2"		"A310E3FAFC9DED96BB12E016FA5CBA38"
+					"encrypted_size_2"		"90ABC8094F74EF348A0DA4BD7255122A"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"0BE353551C2432EFC9D84D150DC880DA"
+					"encrypted_size_2"		"158D438FA0EC7B392C9C20AB96B57460"
+				}
+				"privtest"
+				{
+					"encrypted_gid_2"		"4DBE037DCE390903FEA145C9E8B4B289"
+					"encrypted_size_2"		"6AEE7971AB6006439AABBB904EC251C4"
+				}
+				"v3.1.6"
+				{
+					"encrypted_gid_2"		"7AABA3C031402CB70C51E870D7972128"
+					"encrypted_size_2"		"49869CCC1AE54E780F7E2B76028BC848"
+				}
+				"v3.2.2"
+				{
+					"encrypted_gid_2"		"3FA212F81F478C061E9068F64B8B13BC"
+					"encrypted_size_2"		"FAD225D6E700174AA8D94AB26245AFE9"
+				}
+			}
+		}
+		"371971"
+		{
+			"name"		"Barony Depot (English) (OSX)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2308651511115717451"
+				"3.1.4"		"3489553271112751675"
+				"v1.0.6"		"5443918649625885872"
+				"v2.0.7"		"8044990658095093766"
+				"v3.1.7"		"3088340470461078916"
+				"v3.2.1"		"4152439576414108668"
+				"v3.2.3"		"6999548642199370343"
+			}
+			"maxsize"		"340414094"
+			"encryptedmanifests"
+			{
+				"devdep"
+				{
+					"encrypted_gid_2"		"C6059C8F9106734D046B53E5FA4546F3"
+					"encrypted_size_2"		"73D821E8173CDD48F528CDCE23A3CE8E"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"31681082B2AE9572048C1EE630F2111A"
+					"encrypted_size_2"		"6AEC6782ADE9974581B709733AF776D4"
+				}
+				"privtest"
+				{
+					"encrypted_gid_2"		"7153E1F4A226A083BE4A7E7E2643551D"
+					"encrypted_size_2"		"0F06E86B337064F60FECC361D9D52F0D"
+				}
+				"v3.1.6"
+				{
+					"encrypted_gid_2"		"562723CFC6323715F6CC6FA1368F8638"
+					"encrypted_size_2"		"6252144F70958F0C3293276C556B2688"
+				}
+				"v3.2.2"
+				{
+					"encrypted_gid_2"		"F14E4D6C38F4CFB68CDA352D3A2F62CA"
+					"encrypted_size_2"		"124E0BE004F6AF1E32AE10B3F793EEE3"
+				}
+			}
+		}
+		"371973"
+		{
+			"name"		"Barony Depot (English) (Linux)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"285972391939007109"
+				"3.1.4"		"7278871143971978809"
+				"v1.0.6"		"3738129554063607323"
+				"v2.0.7"		"8829841496374001360"
+				"v3.1.7"		"4798899058295793925"
+				"v3.2.1"		"7638334838431510556"
+				"v3.2.3"		"3989912021092471974"
+			}
+			"maxsize"		"226942593"
+			"encryptedmanifests"
+			{
+				"devdep"
+				{
+					"encrypted_gid_2"		"44DC94DBF26F8B9D41F0EA2859A0C6DE"
+					"encrypted_size_2"		"4B8781979E3322F059F8D8EC22013E0D"
+				}
+				"devtest"
+				{
+					"encrypted_gid_2"		"B3E35821F7B0C140E07611AF94CA035A"
+					"encrypted_size_2"		"DAB46579D5A4003A66F1971E99D99147"
+				}
+				"privtest"
+				{
+					"encrypted_gid_2"		"6AE027B15AC5BA503D8B9F2F5E80A5A3"
+					"encrypted_size_2"		"6899ED6B30C795043DBF19429E8D6AF5"
+				}
+				"v3.1.6"
+				{
+					"encrypted_gid_2"		"B37DE2F8C3610E215AD8736EACC89211"
+					"encrypted_size_2"		"E910E91D31DE6BEF68ACF04971FC2A3C"
+				}
+				"v3.2.2"
+				{
+					"encrypted_gid_2"		"E6CD6A2BBB485BA5FB8DF6D119DA9298"
+					"encrypted_size_2"		"116F409E042FDB0102B8BAFADE27907B"
+				}
+			}
+		}
+		"470540"
+		{
+			"name"		"Barony Extended Soundtrack by Chris Kukla (470540) Depot"
+			"manifests"
+			{
+				"public"		"4410444526815502305"
+			}
+			"maxsize"		"309179047"
+			"dlcappid"		"470540"
+		}
+		"workshopdepot"		"371970"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3945550"
+				"timeupdated"		"1561262765"
+			}
+			"3.1.4"
+			{
+				"buildid"		"2694652"
+				"description"		"public drm-free version"
+				"timeupdated"		"1534650642"
+			}
+			"devdep"
+			{
+				"buildid"		"3357026"
+				"description"		"Private testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543641053"
+			}
+			"devtest"
+			{
+				"buildid"		"4177318"
+				"description"		"Private testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567960059"
+			}
+			"privtest"
+			{
+				"buildid"		"2231076"
+				"description"		"Private testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522021379"
+			}
+			"v1.0.6"
+			{
+				"buildid"		"3902394"
+				"description"		""
+				"timeupdated"		"1560086081"
+			}
+			"v2.0.7"
+			{
+				"buildid"		"2632500"
+				"description"		""
+				"timeupdated"		"1522021893"
+			}
+			"v3.1.6"
+			{
+				"buildid"		"2761396"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1530989634"
+			}
+			"v3.1.7"
+			{
+				"buildid"		"2895415"
+				"description"		"V3.1.7 Branch"
+				"timeupdated"		"1534775881"
+			}
+			"v3.2.1"
+			{
+				"buildid"		"3064591"
+				"description"		""
+				"timeupdated"		"1536721560"
+			}
+			"v3.2.2"
+			{
+				"buildid"		"3416049"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549813346"
+			}
+			"v3.2.3"
+			{
+				"buildid"		"3745978"
+				"description"		"V3.2.3 April Patch"
+				"timeupdated"		"1560293398"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

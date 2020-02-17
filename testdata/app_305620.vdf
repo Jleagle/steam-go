@@ -1,0 +1,653 @@
+"appinfo"
+{
+	"appid"		"305620"
+	"common"
+	{
+		"name"		"The Long Dark"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"0c8eff00cce79bf9a2b19a6be1b495fc6229573e"
+		"logo_small"		"0c8eff00cce79bf9a2b19a6be1b495fc6229573e_thumb"
+		"icon"		"e26b78087b75d5e002e92f2bdd73ce6fc4861e56"
+		"clienttga"		"e40281234d05c293d4b6176933e27f30b97f3edb"
+		"clienticon"		"ba0009039ea7fa407bb98276dc2798af7c757ee8"
+		"clienticns"		"e8926965d993714391aa74bc0f31b287a69cb163"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"dutch"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"UntitledApp"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"32.627867120709254"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1562881293"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hinterland Studio Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hinterland Studio Inc."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1501599420"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"305620"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1695"
+			"2"		"3834"
+			"3"		"4166"
+			"4"		"3839"
+			"5"		"4182"
+			"6"		"21"
+			"7"		"1702"
+			"8"		"3810"
+			"9"		"599"
+			"10"		"3835"
+			"11"		"492"
+			"12"		"5900"
+			"13"		"3978"
+			"14"		"493"
+			"15"		"9"
+			"16"		"19"
+			"17"		"4026"
+			"18"		"1667"
+			"19"		"7208"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Hinterland Studio Inc."
+		"publisher"		"Hinterland Studio Inc."
+		"homepage"		"http://www.thelongdark.com"
+		"listofdlc"		"690180"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TheLongDark"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tld.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"tld.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"tld.x86_64"
+				"description"		"Launch 64-bit"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"tld.x86"
+				"description"		"Launch 32-bit"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1415680962"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,4don,build_sept22_2014,reviews,test_alpha,test_build,test_daily,test_first,test_hint,test_internal,test_lang,test_nightly,test_rc,test_user"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"305620"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"305621"
+		{
+			"name"		"The Long Dark Depot (Windows)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8350414681168775351"
+			}
+			"maxsize"		"7724132124"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"2729F159825E9D451C6B14173A4A73FF"
+					"encrypted_size_2"		"1BE4D7437F3EFB4B56F6DBD46B03E1F0"
+				}
+				"test_4don"
+				{
+					"encrypted_gid_2"		"ECD164AAC231BC4B119EA146BC26949A"
+					"encrypted_size_2"		"CCAF677E1D4C8F0D8B62FCB136F3944D"
+				}
+				"test_alpha"
+				{
+					"encrypted_gid_2"		"9DDECD0A681D3C4904BCE549E24172D8"
+					"encrypted_size_2"		"CA5CE4C6170E6674B6D8BFEDA7B7C813"
+				}
+				"test_daily"
+				{
+					"encrypted_gid_2"		"4BE2E191A01325D8726B881103DF056C"
+					"encrypted_size_2"		"76430787C1BCC2D8137599322CB153DD"
+				}
+				"test_first"
+				{
+					"encrypted_gid_2"		"A2651116E20592B0F514BD60CAFE79CF"
+					"encrypted_size_2"		"11505B0B0A2C0CE1420855F2E710EEC2"
+				}
+				"test_hint"
+				{
+					"encrypted_gid_2"		"EA2D1B600AAAB9712AE91D0CA32BD7DA"
+					"encrypted_size_2"		"0FDFB909E7A0FD1B17C97FA649E06F00"
+				}
+				"test_internal"
+				{
+					"encrypted_gid_2"		"1A12F8EF7D860EC2A634DBE71848DCF0"
+					"encrypted_size_2"		"840E4384DF2CC08D8B957398D92CBEE5"
+				}
+				"test_lang"
+				{
+					"encrypted_gid_2"		"279094BC9A3969258371AB17D386DF48"
+					"encrypted_size_2"		"5DC6C1A4915FCB2E32FA1BB6151CD69E"
+				}
+				"test_nightly"
+				{
+					"encrypted_gid_2"		"EB245D167A6525F8069C6CDD95D02739"
+					"encrypted_size_2"		"C6F29BF0EFD62D3782AA46C772D9A773"
+				}
+				"test_rc"
+				{
+					"encrypted_gid_2"		"56BC1CA0E672B74E6230CB42EA6CB258"
+					"encrypted_size_2"		"7B6849932C909099515C9978B87EE989"
+				}
+				"test_weekly"
+				{
+					"encrypted_gid_2"		"80B538309FF3C26CA48C059807B35D06"
+					"encrypted_size_2"		"30C4AB9A5CA45FB75ECBE2BA932A9D23"
+				}
+			}
+		}
+		"305623"
+		{
+			"name"		"The Long Dark Depot (OSX)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2050666785725349576"
+			}
+			"maxsize"		"7788513221"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"D98DB8658684427E97A1293DE995B454"
+					"encrypted_size_2"		"63A3C66276D4659B01F54CEA071B3755"
+				}
+				"test_4don"
+				{
+					"encrypted_gid_2"		"F7963F705540FCA42F28FDAFC54FD173"
+					"encrypted_size_2"		"1113C547D3BF0EC83E0D009C6211802E"
+				}
+				"test_alpha"
+				{
+					"encrypted_gid_2"		"6CF9FFF474056C7D6BB12538D716B63D"
+					"encrypted_size_2"		"03010D354CD2A31AD6AED2079E619555"
+				}
+				"test_daily"
+				{
+					"encrypted_gid_2"		"9D47C6077CBCAEF62D76CD1C86D87926"
+					"encrypted_size_2"		"F3A290CA16C2E5625BF2ED4B322E1750"
+				}
+				"test_first"
+				{
+					"encrypted_gid_2"		"A3B3784DDD49651728B3A46A30126FA2"
+					"encrypted_size_2"		"991E2DAADCD9F57C48AC69AFD121E946"
+				}
+				"test_hint"
+				{
+					"encrypted_gid_2"		"8E2ED5776587FB9F46EC41511647137A"
+					"encrypted_size_2"		"AF668C1BE2E868D61AE8AAE748AFABA1"
+				}
+				"test_internal"
+				{
+					"encrypted_gid_2"		"07CFFBE026E01692A855E77D11DFD8E3"
+					"encrypted_size_2"		"A233ABF24E611454DE7614F548B8C015"
+				}
+				"test_lang"
+				{
+					"encrypted_gid_2"		"71F041F523859030D0A2D0CD7221D0C5"
+					"encrypted_size_2"		"E2E775E6272D83DAA880B8DA88E6EF79"
+				}
+				"test_nightly"
+				{
+					"encrypted_gid_2"		"271A12BF3A2EDBB4D2143A9C0D224D65"
+					"encrypted_size_2"		"E45693E243584EF8172E2AA09806F22C"
+				}
+				"test_rc"
+				{
+					"encrypted_gid_2"		"D3545549BF96456EBF81F494DB24074A"
+					"encrypted_size_2"		"2B56CE2AEF3DD1D6182CEBDF7DBFBE63"
+				}
+				"test_weekly"
+				{
+					"encrypted_gid_2"		"B239B3B654BABFA4343DA11E097EA5A1"
+					"encrypted_size_2"		"5BCAEEAA395DD0C8CDDE2D06C1441190"
+				}
+			}
+		}
+		"305622"
+		{
+			"name"		"The Long Dark Depot (Linux)"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8112019734824202642"
+			}
+			"maxsize"		"7717998323"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"6070D9B33092623A45B6586CA570D6A2"
+					"encrypted_size_2"		"79743F89EDD808A9208DB47DA66CAC4E"
+				}
+				"test_4don"
+				{
+					"encrypted_gid_2"		"1EB2BA76944490E537CC928D4DBA9D92"
+					"encrypted_size_2"		"BABA4513BAE7A59AD0D64781103970DC"
+				}
+				"test_alpha"
+				{
+					"encrypted_gid_2"		"F97EBC3132409EBC073C501E456A4550"
+					"encrypted_size_2"		"4BF8BDA2DD0BE246B009C4E3A2FE927A"
+				}
+				"test_daily"
+				{
+					"encrypted_gid_2"		"E909173C26A134481A9D319ADED67720"
+					"encrypted_size_2"		"8B228F2BC1F94B936B4A8BFEBA666A38"
+				}
+				"test_first"
+				{
+					"encrypted_gid_2"		"96B66BB0B993DCC16A42BDC2F48D1B75"
+					"encrypted_size_2"		"324FE9A3BC368BF166CF7E3445F6B58B"
+				}
+				"test_hint"
+				{
+					"encrypted_gid_2"		"2BC7BA615AC7490EC41623E07366D57C"
+					"encrypted_size_2"		"9E0CB85E9C829491A3732E81CD6A3207"
+				}
+				"test_internal"
+				{
+					"encrypted_gid_2"		"69F3004660888F398ED2779A66FACCA6"
+					"encrypted_size_2"		"14EBD0CC0F2BD89AD74C0BCB2BD7940A"
+				}
+				"test_lang"
+				{
+					"encrypted_gid_2"		"1E9F5A3F52E2503BA3B6DC5B8276FEC6"
+					"encrypted_size_2"		"F8C2E28A6EE9DB2C984BA6C03481F89B"
+				}
+				"test_nightly"
+				{
+					"encrypted_gid_2"		"81170457DEB7ADDC21EF27E89BA31132"
+					"encrypted_size_2"		"569B180A99C07A3B163788515B9225C8"
+				}
+				"test_weekly"
+				{
+					"encrypted_gid_2"		"D63357ABBD377678D1FE34F4534280DC"
+					"encrypted_size_2"		"6B5524C13ED2A1BD29125F13DD123FF5"
+				}
+			}
+		}
+		"690180"
+		{
+			"name"		"Music for The Long Dark -- Volume One (690180) Depot"
+			"manifests"
+			{
+				"public"		"6367208396850774599"
+			}
+			"maxsize"		"239585394"
+			"dlcappid"		"690180"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4013468"
+				"timeupdated"		"1563220684"
+			}
+			"archive"
+			{
+				"buildid"		"4154947"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567204123"
+			}
+			"test_4don"
+			{
+				"buildid"		"3261714"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540931858"
+			}
+			"test_alpha"
+			{
+				"buildid"		"1305038"
+				"description"		"pre-release alpha test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472445784"
+			}
+			"test_daily"
+			{
+				"buildid"		"4107169"
+				"description"		"Test Ep1Ep2 builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565842652"
+			}
+			"test_first"
+			{
+				"buildid"		"1351594"
+				"description"		"First Steam Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1474569186"
+			}
+			"test_hint"
+			{
+				"buildid"		"4144044"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566939858"
+			}
+			"test_internal"
+			{
+				"buildid"		"4143698"
+				"description"		"For internal use only"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566931248"
+			}
+			"test_lang"
+			{
+				"buildid"		"3943196"
+				"description"		"localization test branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562101828"
+			}
+			"test_nightly"
+			{
+				"buildid"		"4178853"
+				"description"		"Nightly Mainline Builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568025139"
+			}
+			"test_rc"
+			{
+				"buildid"		"4045474"
+				"description"		"release candidate branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564090461"
+			}
+			"test_weekly"
+			{
+				"buildid"		"4130153"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566495454"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Hinterland/TheLongDark/"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		".local/share"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".local/share"
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,606 @@
+"appinfo"
+{
+	"appid"		"582010"
+	"common"
+	{
+		"name"		"MONSTER HUNTER: WORLD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"2ac9a892c6a17fe17867bf7161fb933d72320cda"
+		"clienttga"		"e25736b5c92ff557326e089ee82c50788748ef2d"
+		"icon"		"6ec147f2d423f435e15eb79b3d82f771913de634"
+		"logo"		"8ef10e37b602f50adce31f06d90396e76dbdbd74"
+		"logo_small"		"8ef10e37b602f50adce31f06d90396e76dbdbd74_thumb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"582010_eula_0"
+				"name"		"MONSTER HUNTER: WORLD EULA"
+				"url"		"https://store.steampowered.com//eula/582010_eula_0"
+			}
+		}
+		"metacritic_name"		"Monster Hunter: World"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50.8542199488491"
+				"height_pct"		"73.05353800609527"
+			}
+		}
+		"store_asset_mtime"		"1564585443"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CAPCOM Co., Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CAPCOM Co., Ltd."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Monster Hunter"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_33"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1533830220"
+		"metacritic_score"		"88"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/monster-hunter-world?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"582010"
+		"store_tags"
+		{
+			"0"		"9564"
+			"1"		"1685"
+			"2"		"3859"
+			"3"		"19"
+			"4"		"1695"
+			"5"		"122"
+			"6"		"1697"
+			"7"		"21"
+			"8"		"1684"
+			"9"		"4747"
+			"10"		"4026"
+			"11"		"4182"
+			"12"		"4231"
+			"13"		"3834"
+			"14"		"1756"
+			"15"		"4711"
+			"16"		"4166"
+			"17"		"1646"
+			"18"		"4434"
+			"19"		"29482"
+		}
+	}
+	"extended"
+	{
+		"developer"		"CAPCOM Co., Ltd."
+		"publisher"		"CAPCOM Co., Ltd."
+		"homepage"		"http://www.monsterhunterworld.com/"
+		"aliases"		"mhw"
+		"listofdlc"		"601100,706630,743980,759450,759451,759452,759453,759454,759455,761590,761591,761592,761593,761594,761595,761596,761597,761598,761599,762170,762171,762172,762173,762174,762175,762176,762177,762178,762179,762910,762911,762912,762913,762914,762915,762916,762917,762918,762919,763690,763691,763692,763693,763694,763695,763696,763697,763698,763699,770970,770971,770972,770973,770974,770975,770976,770977,770978,770979,790640,790641,790642,790643,790644"
+	}
+	"config"
+	{
+		"installdir"		"Monster Hunter World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MonsterHunterWorld.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamconfigurator3rdpartynative"		"7"
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"depotdeltapatches"		"1"
+		"workshopdepot"		"582010"
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,tchinese,russian,japanese,portuguese,polish,arabic,brazilian"
+		"582011"
+		{
+			"name"		"MONSTER HUNTER: WORLD Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"617081389319451078"
+			}
+			"maxsize"		"25775985720"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"419A1CC1A17E5BC77D7BEAE2E0E0E198"
+					"encrypted_size_2"		"8152D7699AB9062185E6358E62268971"
+				}
+				"dipqa-tu6"
+				{
+					"encrypted_gid_2"		"329EA7DC09C83C2E481C8B755F133D63"
+					"encrypted_size_2"		"5673322E7BC6774A056F1A3E84C4BD36"
+				}
+				"dipqa-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"BA85C7A78F82A8A19500165E90D45A09"
+					"encrypted_size_2"		"CCF2171F9E77D84C9C08482255A7B6B4"
+				}
+				"dipqa-tu6.1"
+				{
+					"encrypted_gid_2"		"143C7C5CA39AACE0ADCA7F9EA56B24D9"
+					"encrypted_size_2"		"B8C3BA8846BDC0B0940E93218BCDDA6D"
+				}
+				"networktest"
+				{
+					"encrypted_gid_2"		"FBCC676FC6ABB8E89AD09049F8BE6650"
+					"encrypted_size_2"		"296BA900C91BB28B760DD665D3E7A13C"
+				}
+				"networktest-dipsr"
+				{
+					"encrypted_gid_2"		"D80AB9CD271DEF8D30F6C2E029DA6365"
+					"encrypted_size_2"		"03FF132FDFA658E8CE6294B0F6FF1D7D"
+				}
+				"networktest-sr"
+				{
+					"encrypted_gid_2"		"6411A4C2B5F5DF4DD7A13F8FAF8E03FA"
+					"encrypted_size_2"		"4CDABA51A451CAE35DF8FC06DE8BCD29"
+				}
+				"networktest-sr2"
+				{
+					"encrypted_gid_2"		"EAED826ED8C3933ADFA1B8C98DCA9C88"
+					"encrypted_size_2"		"FEFA11FBCEEE56C048C26988047E064D"
+				}
+				"networktest-sr3"
+				{
+					"encrypted_gid_2"		"CC51A6185DEFC6B97FCB2CD27542B9B6"
+					"encrypted_size_2"		"0E798D49297666E6E21938AA9214D315"
+				}
+				"networktest-srg"
+				{
+					"encrypted_gid_2"		"79499074871AA2BA80FD41E58D942877"
+					"encrypted_size_2"		"7CCC37F31B0DC5AC4A39DAD1655197BF"
+				}
+				"networktest-srk"
+				{
+					"encrypted_gid_2"		"B92E2E0A7022ACDFF6A8AFF3AF3E8253"
+					"encrypted_size_2"		"D8B4413E010D20FF8EE609D63166DFF3"
+				}
+				"networktest_pro"
+				{
+					"encrypted_gid_2"		"B2DF354B996B6E99B373028E36F06F6C"
+					"encrypted_size_2"		"D86559C097ABDEE40A4A086E49615031"
+				}
+				"rc-1-tu6"
+				{
+					"encrypted_gid_2"		"1BB0AC05201E7B4837B0F0D157C65B4B"
+					"encrypted_size_2"		"F470A4CCD1ED36A7805FAA9002342E2B"
+				}
+				"rc-1-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"98CE71C62D35A738D97586CEE03FB04C"
+					"encrypted_size_2"		"56CDD39D6402659D6B3B220AF62D2B39"
+				}
+				"rc-serial-tu6"
+				{
+					"encrypted_gid_2"		"212442CE9FC7BD409922D4F594E6D482"
+					"encrypted_size_2"		"286A8DEC1E13414CC23E3188908A8543"
+				}
+				"rc-serial-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"EE1F0D2BE3ADDC0955EAA79562DA047B"
+					"encrypted_size_2"		"17773CD0AEDBB4A4CEF321A4A931CD53"
+				}
+				"rc-serial-tu6.1"
+				{
+					"encrypted_gid_2"		"67661BB007BD897F17DE19963F7AC6DB"
+					"encrypted_size_2"		"46448983BEA9DCA1E1BA99FE611FE1F5"
+				}
+				"testbox"
+				{
+					"encrypted_gid_2"		"1661682E907A4BF69B9D63C2B21765DC"
+					"encrypted_size_2"		"5D51C2D6108FD9637A0094A5390F0179"
+				}
+				"vendor1"
+				{
+					"encrypted_gid_2"		"8EA2167E61626C0EB494DB9116AA12C3"
+					"encrypted_size_2"		"5C310DF872CCE5D752EE1D1FE2D5349E"
+				}
+				"vendor2"
+				{
+					"encrypted_gid_2"		"CEDEA4778257E1E26EA5BEC715B1A635"
+					"encrypted_size_2"		"8D0528434A995FC7ED3F0B6E20A42D8F"
+				}
+				"vendor3"
+				{
+					"encrypted_gid_2"		"6705BA7DAA862C000A2A35379299D8A3"
+					"encrypted_size_2"		"1915B8A7E3EB92E541336F8E5AE762BF"
+				}
+				"vendor4"
+				{
+					"encrypted_gid_2"		"C63CB84FE454834F5A4783353F6DD25F"
+					"encrypted_size_2"		"6383E1E892D67590A5B59A793CB86C11"
+				}
+			}
+		}
+		"582012"
+		{
+			"name"		"MONSTER HUNTER: WORLD Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"960781"
+			"manifests"
+			{
+				"public"		"5912121970445941937"
+			}
+			"maxsize"		"35129651260"
+			"encryptedmanifests"
+			{
+				"dipqa-tu6"
+				{
+					"encrypted_gid_2"		"9CB68B5D9CD5F03F8025FFCDCDA210E6"
+					"encrypted_size_2"		"071DD9E4935A078CDD7F5A1D50D4A490"
+				}
+				"dipqa-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"B74BCC641ED12EC6D586C0CC58ECB236"
+					"encrypted_size_2"		"A6B7F190A6D9F64B325D2D30166BBFA3"
+				}
+				"networktest"
+				{
+					"encrypted_gid_2"		"72C267762DC61B220D45ECF149270532"
+					"encrypted_size_2"		"52D127DFE5DE4A38760C81F5584DB502"
+				}
+				"networktest-dipsr"
+				{
+					"encrypted_gid_2"		"FF55DFBCD0A17E77C6EA19D2C00F2E43"
+					"encrypted_size_2"		"A7C19F817258DD3407E45127C716EE48"
+				}
+				"networktest-sr2"
+				{
+					"encrypted_gid_2"		"538F244E4DA5547B563A8F85653C02D5"
+					"encrypted_size_2"		"9FD1D14454E7F5307DA40837EC546E9B"
+				}
+				"networktest_pro"
+				{
+					"encrypted_gid_2"		"FEB98C4ECCB78F43837AD6BF25482E35"
+					"encrypted_size_2"		"DA3EE026672FD04E2495C898B2CD3D85"
+				}
+				"rc-1-tu6"
+				{
+					"encrypted_gid_2"		"810A7119B5BDE035A179DC9E19E66C4D"
+					"encrypted_size_2"		"1537704ED176E3D8B073CF094D065B2E"
+				}
+				"rc-1-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"D315B56796C549183D46B0904F17D7F8"
+					"encrypted_size_2"		"8D4516557C0B20AA495C5E5FB7CC7F05"
+				}
+				"rc-serial-tu6"
+				{
+					"encrypted_gid_2"		"3E280D1754087FFE6B8C8ADADD391CE8"
+					"encrypted_size_2"		"44014EB3932B340F0BD62F2EB36AD230"
+				}
+				"rc-serial-tu6-fixpatch"
+				{
+					"encrypted_gid_2"		"41874051F49B03D6DD5FF8E4AE0F1952"
+					"encrypted_size_2"		"15951A0F2FD60735698079E4513A4A50"
+				}
+				"vendor4"
+				{
+					"encrypted_gid_2"		"533E692B25C33267A2E9EFEA07332B4F"
+					"encrypted_size_2"		"C5B069022ACF5E54B7CC265A30FECAA0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4015211"
+				"timeupdated"		"1563407632"
+			}
+			"baseline"
+			{
+				"buildid"		"2949518"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1531790919"
+			}
+			"dipqa-tu6"
+			{
+				"buildid"		"3763915"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318440"
+			}
+			"dipqa-tu6-fixpatch"
+			{
+				"buildid"		"3838548"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318313"
+			}
+			"dipqa-tu6.1"
+			{
+				"buildid"		"4015204"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563267186"
+			}
+			"networktest"
+			{
+				"buildid"		"4148977"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567068955"
+			}
+			"networktest-dipsr"
+			{
+				"buildid"		"4168869"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567673711"
+			}
+			"networktest-sr"
+			{
+				"buildid"		"4168355"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567657674"
+			}
+			"networktest-sr2"
+			{
+				"buildid"		"4171814"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567743882"
+			}
+			"networktest-sr3"
+			{
+				"buildid"		"4168461"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567661441"
+			}
+			"networktest-srg"
+			{
+				"buildid"		"4158602"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567400275"
+			}
+			"networktest-srk"
+			{
+				"buildid"		"4158686"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567403814"
+			}
+			"networktest_pro"
+			{
+				"buildid"		"4178340"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568013148"
+			}
+			"rc-1-tu6"
+			{
+				"buildid"		"3763921"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318401"
+			}
+			"rc-1-tu6-fixpatch"
+			{
+				"buildid"		"3838550"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318355"
+			}
+			"rc-1-tu6.1"
+			{
+				"buildid"		"4015211"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563267232"
+			}
+			"rc-serial-tu6"
+			{
+				"buildid"		"3763919"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318421"
+			}
+			"rc-serial-tu6-fixpatch"
+			{
+				"buildid"		"3838549"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558318331"
+			}
+			"rc-serial-tu6.1"
+			{
+				"buildid"		"4015209"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563267219"
+			}
+			"testbox"
+			{
+				"buildid"		"4124861"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566367927"
+			}
+			"vendor1"
+			{
+				"buildid"		"3220631"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539857033"
+			}
+			"vendor2"
+			{
+				"buildid"		"4001489"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562827193"
+			}
+			"vendor3"
+			{
+				"buildid"		"2985087"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1532778948"
+			}
+			"vendor4"
+			{
+				"buildid"		"3927489"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560821590"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20971520"
+		"maxnumfiles"		"8"
+	}
+}
+ 

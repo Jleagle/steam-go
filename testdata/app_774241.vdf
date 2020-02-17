@@ -1,0 +1,434 @@
+"appinfo"
+{
+	"appid"		"774241"
+	"common"
+	{
+		"name"		"Warhammer: Chaosbane"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"5e508adcb765ff9e8b1aa7f88d24a98eb7f3c175"
+		"logo_small"		"5e508adcb765ff9e8b1aa7f88d24a98eb7f3c175_thumb"
+		"icon"		"6c4a006cd8b42eaccba0712e3189ff11777bd289"
+		"clienticon"		"df34ca7c0de86923abcb39a40c6e790a448b016e"
+		"clienttga"		"af3a6c3c49cfe854e69d445b34cb8dae688a0bde"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"Warhammer: Chaosbane"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"78.23803967327888"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1563194884"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eko Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bigben Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Bigben Interactive"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Warhammer"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_22"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1559293891"
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warhammer-chaosbane?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"774241"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1646"
+			"2"		"21"
+			"3"		"19"
+			"4"		"4231"
+			"5"		"5310"
+			"6"		"1684"
+			"7"		"1685"
+			"8"		"4667"
+			"9"		"5851"
+			"10"		"1678"
+			"11"		"4604"
+			"12"		"4305"
+			"13"		"1720"
+			"14"		"4236"
+			"15"		"3987"
+			"16"		"12286"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Eko Software"
+		"publisher"		"Bigben Interactive"
+		"homepage"		"https://warhammer-chaosbane.com/"
+		"listofdlc"		"1004910,1004911,1004912,1004913,1004914,1004915,1004916,1004917,1004918,1004919,1081970,1157540"
+	}
+	"config"
+	{
+		"installdir"		"Warhammer Chaosbane"
+		"steamcontrollertemplateindex"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Exe/Chaosbane.exe"
+				"workingdir"		"Exe"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"Exe/ResolutionsOptions.exe"
+				"workingdir"		"Exe"
+				"type"		"config"
+			}
+		}
+		"steamcontrollerconfigdetails"		""
+		"steamconfigurator3rdpartynative"		"3"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian,latam"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"774242"
+		{
+			"name"		"Warhammer: Chaosbane Content"
+			"manifests"
+			{
+				"public"		"6620482927509080582"
+			}
+			"maxsize"		"16696635656"
+			"encryptedmanifests"
+			{
+				"ekodev"
+				{
+					"encrypted_gid_2"		"1DB03F6D58518F8E8942533DB102F9F6"
+					"encrypted_size_2"		"D8B713843DA2E7D108CB514CA6F22D7F"
+				}
+				"gamescom"
+				{
+					"encrypted_gid_2"		"5E70EBD372D74CF6F5727F97C1EF2BF1"
+					"encrypted_size_2"		"5B9DA30274EE72D3B3BFF03D2BF0ADF5"
+				}
+				"gw_gateprocess"
+				{
+					"encrypted_gid_2"		"E62B83E3685728995A0DA940654E1BE4"
+					"encrypted_size_2"		"1418F5564F60C0BD4F08DF6952748784"
+				}
+				"marketing_tools"
+				{
+					"encrypted_gid_2"		"A5A156D5503A5C1706DC59BE02F22AC0"
+					"encrypted_size_2"		"EDE4C44113BD43F1B1D246B84B2C2E04"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"C15A1144503D0BF74F52771382F61FA6"
+					"encrypted_size_2"		"2A58B025EDA4F9317DC83424FBB3F5F7"
+				}
+				"milestone10"
+				{
+					"encrypted_gid_2"		"C44F14B8DD5A372E6037616A7FA8114D"
+					"encrypted_size_2"		"40A5016CCD2AB6BBE7F218E55756443E"
+				}
+				"milestone11"
+				{
+					"encrypted_gid_2"		"A4A5411EEBDB6C40452F9AF271FA0D8F"
+					"encrypted_size_2"		"6EDCECB7948DB233F77BDD6018788CDA"
+				}
+				"milestone12"
+				{
+					"encrypted_gid_2"		"F51BC044A14CB9C61FC915016BDE388B"
+					"encrypted_size_2"		"0CE61FB20FCB6998CE1F468BF631F8C6"
+				}
+				"public_demo"
+				{
+					"encrypted_gid_2"		"E0C578B8B6D6F5163CECC2E1176C189A"
+					"encrypted_size_2"		"149F022CD02F477E1E353C5CB9F65223"
+				}
+				"siee_approved_v1"
+				{
+					"encrypted_gid_2"		"86C359E13BD90A11392DD49FA36DFC06"
+					"encrypted_size_2"		"AF920596A222F0DF635218F846FF69A8"
+				}
+				"test_qa"
+				{
+					"encrypted_gid_2"		"BA49FEB31CBFD6FA4A39FF655F62F402"
+					"encrypted_size_2"		"5443C8B7F31B2645B1946B3244EA54FB"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4105106"
+				"timeupdated"		"1565945113"
+			}
+			"bbi.publishing"
+			{
+				"buildid"		"4105106"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565942520"
+			}
+			"ekodev"
+			{
+				"buildid"		"4173752"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567787020"
+			}
+			"gamescom"
+			{
+				"buildid"		"3019751"
+				"description"		"Gamescom !"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533832523"
+			}
+			"gw_gateprocess"
+			{
+				"buildid"		"3817552"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557736284"
+			}
+			"marketing_tools"
+			{
+				"buildid"		"3780702"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557766294"
+			}
+			"milestone"
+			{
+				"buildid"		"2821801"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527770367"
+			}
+			"milestone10"
+			{
+				"buildid"		"2975791"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1532533748"
+			}
+			"milestone11"
+			{
+				"buildid"		"3160983"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538040295"
+			}
+			"milestone12"
+			{
+				"buildid"		"3346605"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543410444"
+			}
+			"public_demo"
+			{
+				"buildid"		"3480735"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549358060"
+			}
+			"siee_approved_v1"
+			{
+				"buildid"		"3671787"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553877477"
+			}
+			"test_qa"
+			{
+				"buildid"		"4173752"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567787372"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Data/save"
+				"pattern"		"*"
+			}
+		}
+	}
+}
+ 

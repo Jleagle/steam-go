@@ -1,0 +1,709 @@
+"appinfo"
+{
+	"appid"		"820630"
+	"common"
+	{
+		"name"		"Metal Wolf Chaos XD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"702c7976b5353c9939a5ff67f1923a8ed4327b3e"
+		"clienttga"		"64a06f72a723d9eb5c2235c6485877210dc67f7e"
+		"icon"		"55cccbe822e86fac81b5f9746f7a3521ee655962"
+		"logo"		"e843c2e7827eb68e31b45101ebec619f87ce27c7"
+		"logo_small"		"e843c2e7827eb68e31b45101ebec619f87ce27c7_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Metal Wolf Chaos XD"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1564687578"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"General Arcade"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"FromSoftware, Inc"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Devolver Digital"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1565106618"
+		"metacritic_score"		"63"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/metal-wolf-chaos-xd?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"820630"
+		"store_tags"
+		{
+			"0"		"13190"
+			"1"		"19"
+			"2"		"4821"
+			"3"		"7782"
+			"4"		"3814"
+			"5"		"1693"
+			"6"		"4182"
+			"7"		"4136"
+			"8"		"5708"
+			"9"		"1719"
+			"10"		"3942"
+			"11"		"4085"
+		}
+	}
+	"extended"
+	{
+		"developer"		"General Arcade"
+		"publisher"		"Devolver Digital"
+		"homepage"		"http://www.metalwolfchaos.com"
+		"listofdlc"		"1111140,1128580"
+	}
+	"config"
+	{
+		"installdir"		"Metal Wolf Chaos XD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wilson.exe"
+				"arguments"		"-boostFx -instagram default"
+				"description"		"Run"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"run_menu.bat"
+				"description"		"Demo menu"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_menu_dev.bat"
+				"description"		"Demo menu (developer console)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"3"
+			{
+				"executable"		"run_wh.bat"
+				"description"		"White House"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"4"
+			{
+				"executable"		"run_wh_dev.bat"
+				"description"		"White House (developer console)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"5"
+			{
+				"executable"		"run_wh_escape.bat"
+				"description"		"White House escape cut scene"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"6"
+			{
+				"executable"		"run_wh_escape_dev.bat"
+				"description"		"White House escape cut scene (developer console)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"7"
+			{
+				"executable"		"run_gc.bat"
+				"description"		"Grand Canyon"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"8"
+			{
+				"executable"		"run_gc_dev.bat"
+				"description"		"Grand Canyon (developer console)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_demo"
+				}
+			}
+			"10"
+			{
+				"executable"		"run_kiosk.bat"
+				"description"		"pax_aus_en"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_aus"
+				}
+			}
+			"11"
+			{
+				"executable"		"run_kiosk_jp.bat"
+				"arguments"		"pax_aus_jp"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_aus"
+				}
+			}
+			"12"
+			{
+				"executable"		"run_dev_en.bat"
+				"description"		"play English"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"november"
+				}
+			}
+			"13"
+			{
+				"executable"		"run_dev_jp.bat"
+				"description"		"play Japanese"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"november"
+				}
+			}
+			"14"
+			{
+				"executable"		"run_dev_en.bat"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"december"
+				}
+			}
+			"15"
+			{
+				"executable"		"wilson.exe"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"beta"
+				}
+			}
+			"17"
+			{
+				"executable"		"run_kiosk.bat"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pax_south"
+				}
+			}
+			"18"
+			{
+				"executable"		"wilson.exe"
+				"arguments"		"-language english"
+				"description"		"Play English"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"weekly_build"
+				}
+			}
+			"19"
+			{
+				"executable"		"wilson.exe"
+				"arguments"		" -language japanese"
+				"description"		"Play Japanese"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"weekly_build"
+				}
+			}
+			"20"
+			{
+				"executable"		"wilson.exe"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"ga_test"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,brazilian"
+		"hasdepotsindlc"		"0"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"820631"
+		{
+			"name"		"Metal Wolf Chaos XD Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"299861802414250305"
+			}
+			"maxsize"		"9882999466"
+			"encryptedmanifests"
+			{
+				"1.02b"
+				{
+					"encrypted_gid_2"		"F2A68E21E76DB4CA16277EA061756958"
+					"encrypted_size_2"		"C26EECC42189EFC9F0EAF1A233270C91"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"FBBBEB448A739C24A944B8CB2E770D44"
+					"encrypted_size_2"		"11626E401ED72464BEFEE5D30D72932D"
+				}
+				"december"
+				{
+					"encrypted_gid_2"		"286463464064316B6AC1785FB955B499"
+					"encrypted_size_2"		"E9250A36A25E38B48C296346D3EE57DB"
+				}
+				"devolver_beta_testing"
+				{
+					"encrypted_gid_2"		"97FC0A22536B3943F29A7ADFF8B2C319"
+					"encrypted_size_2"		"3D111B56DAD153E9351D1BE3E6D8F4C7"
+				}
+				"e3_beta"
+				{
+					"encrypted_gid_2"		"7CB5F72C01CF25216ADC39295966DFD4"
+					"encrypted_size_2"		"476A56408C530EEA987BA92E5CB0E34E"
+				}
+				"fs_beta_console"
+				{
+					"encrypted_gid_2"		"D69565F7EF9CCF4EF96EE3F7D8F2C4AA"
+					"encrypted_size_2"		"775DCFF8490633AF2D3B40DC73813896"
+				}
+				"fs_beta_noconsole"
+				{
+					"encrypted_gid_2"		"C26E943F94F038BAA76980DEE4B29786"
+					"encrypted_size_2"		"C05C57C208CE15A78D690E1CBE24AB19"
+				}
+				"fs_branch"
+				{
+					"encrypted_gid_2"		"F89C02E61E6F43FE0B642354F4E20BEF"
+					"encrypted_size_2"		"6D04FD828C33FC3D512C7EEF81878EB0"
+				}
+				"ga_eugene_tests"
+				{
+					"encrypted_gid_2"		"98D4B70FC3298E92698AE46665049F8E"
+					"encrypted_size_2"		"8B1EA3A26520E208CBBB4631704F50B2"
+				}
+				"ga_test"
+				{
+					"encrypted_gid_2"		"CF72408F0127E35B1A597352ADD5E1B9"
+					"encrypted_size_2"		"C0F92A1F61FD4E8CF0FD6981924A9A78"
+				}
+				"ga_test_dlc_skins"
+				{
+					"encrypted_gid_2"		"851B04AAD2E437F367ACE230DA5ADEEF"
+					"encrypted_size_2"		"DE15AB993FEFCDE27D0039E72BF23A02"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"B7C5297D4FA9882159BEBADE4EA12FE1"
+					"encrypted_size_2"		"625400DF18AC31E2C3E512289D2C82C4"
+				}
+				"november"
+				{
+					"encrypted_gid_2"		"21C654C382E3CF7DBC4CB78C69454F57"
+					"encrypted_size_2"		"0A1E91400CC4A950F9253AC21CD6AD8F"
+				}
+				"pax_aus"
+				{
+					"encrypted_gid_2"		"01FA68111A89E39D1E4BC753F3A49F5D"
+					"encrypted_size_2"		"8C5E9A4C4DD570B36A77D7C5FC1B3CEB"
+				}
+				"pax_demo"
+				{
+					"encrypted_gid_2"		"93D9409920AFB0B723A86F6C2E2F3A23"
+					"encrypted_size_2"		"0229BC95CC83F3C1A7EE8D275D683EB1"
+				}
+				"pax_south"
+				{
+					"encrypted_gid_2"		"AA012CEFE8B98C2872DCE7DA6833DB04"
+					"encrypted_size_2"		"2AEFC432CA9BBB0D05782512BDD6D1B4"
+				}
+				"skinworks"
+				{
+					"encrypted_gid_2"		"2772AA0B2A7DC8B5B9C96E2A59A85983"
+					"encrypted_size_2"		"785D28F00B8F8C116DE3E36FF398F9AE"
+				}
+				"test_builds"
+				{
+					"encrypted_gid_2"		"08814AFC1FDAE2CCACF37B77437E63F6"
+					"encrypted_size_2"		"35CB47A26E93C8DD90E2E9B919682B20"
+				}
+				"weekly_build"
+				{
+					"encrypted_gid_2"		"055288E9823C134D1806A147AFF74A8D"
+					"encrypted_size_2"		"B2BA3918D7BE308FF9BFCD925731686C"
+				}
+			}
+		}
+		"820632"
+		{
+			"name"		"Preorder Suit DLC"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"1111140"
+			"manifests"
+			{
+				"public"		"3835390384513479923"
+			}
+			"maxsize"		"40073990"
+			"encryptedmanifests"
+			{
+				"1.02b"
+				{
+					"encrypted_gid_2"		"15A099390392BE97AF5211F95D3C9976"
+					"encrypted_size_2"		"C5E3DC817D67B758DD187014D34DFD48"
+				}
+				"fs_beta_console"
+				{
+					"encrypted_gid_2"		"64B6C8FD1FE5098803381B4028BD4882"
+					"encrypted_size_2"		"A325A5116199F4695248B82AA9E305C5"
+				}
+				"fs_beta_noconsole"
+				{
+					"encrypted_gid_2"		"C21C5EBFD62055C9EBBCE6710A3C440D"
+					"encrypted_size_2"		"BC272CE9969D264D9B394B257CA52088"
+				}
+				"ga_test_dlc_skins"
+				{
+					"encrypted_gid_2"		"074F85C6DDDDFEE9385D8361819F8E20"
+					"encrypted_size_2"		"2806784BC82D438B0CCD25920A78FBD2"
+				}
+			}
+		}
+		"1128580"
+		{
+			"name"		"Metal Wolf Chaos XD: Soundtrack (1128580) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"1128580"
+			"manifests"
+			{
+				"public"		"7524652505941865018"
+			}
+			"maxsize"		"1347786747"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4123148"
+				"timeupdated"		"1566320313"
+			}
+			"1.02b"
+			{
+				"buildid"		"4072711"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564859448"
+			}
+			"beta"
+			{
+				"buildid"		"3882357"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559548046"
+			}
+			"december"
+			{
+				"buildid"		"3359983"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1543795451"
+			}
+			"devolver_beta_testing"
+			{
+				"buildid"		"3882357"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559548036"
+			}
+			"e3_beta"
+			{
+				"buildid"		"2855639"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1528823992"
+			}
+			"fs_beta_console"
+			{
+				"buildid"		"4054257"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564407686"
+			}
+			"fs_beta_noconsole"
+			{
+				"buildid"		"4054384"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1564412946"
+			}
+			"fs_branch"
+			{
+				"buildid"		"3888218"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559681929"
+			}
+			"ga_eugene_tests"
+			{
+				"buildid"		"4143043"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566918204"
+			}
+			"ga_test"
+			{
+				"buildid"		"4178748"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568022812"
+			}
+			"ga_test_dlc_skins"
+			{
+				"buildid"		"3988381"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562432150"
+			}
+			"gamescom_demo"
+			{
+				"buildid"		"3048522"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534787297"
+			}
+			"november"
+			{
+				"buildid"		"3319463"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542617051"
+			}
+			"pax_aus"
+			{
+				"buildid"		"3231744"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540043149"
+			}
+			"pax_demo"
+			{
+				"buildid"		"3075721"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1535577187"
+			}
+			"pax_south"
+			{
+				"buildid"		"3466477"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547460006"
+			}
+			"skinworks"
+			{
+				"buildid"		"2959516"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1532011256"
+			}
+			"test_builds"
+			{
+				"buildid"		"3196346"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539105389"
+			}
+			"weekly_build"
+			{
+				"buildid"		"3882357"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559548087"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save/{64BitSteamID}"
+				"pattern"		"*.xbx"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"save/{64BitSteamID}"
+				"pattern"		"*.xsv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

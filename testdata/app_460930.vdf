@@ -1,0 +1,3377 @@
+"appinfo"
+{
+	"appid"		"460930"
+	"common"
+	{
+		"name"		"Tom Clancy's Ghost Recon® Wildlands"
+		"type"		"Game"
+		"logo"		"4f062784229bf1b3228c5ac295f995508e83c856"
+		"logo_small"		"4f062784229bf1b3228c5ac295f995508e83c856_thumb"
+		"icon"		"ddd459159befc6a8cd6c4cb0e2a13c2fd2f8b065"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"460930_eula_0"
+				"name"		"Tom Clancy's Ghost Recon Wildlands EULA"
+				"url"		"http://store.steampowered.com//eula/460930_eula_0"
+			}
+		}
+		"clienticon"		"21022841aa237176b06733a3967619df1f3c1f72"
+		"clienttga"		"fc172048ce2911dda223459fd0d6eb33cc7919bd"
+		"exfgls"		"1"
+		"metacritic_name"		"Tom Clancy's Ghost Recon® Wildlands"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53"
+				"height_pct"		"56"
+			}
+		}
+		"store_asset_mtime"		"1556805189"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Paris"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Annecy"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Bucharest"
+			}
+			"3"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Montpellier"
+			}
+			"4"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Milan"
+			}
+			"5"
+			{
+				"type"		"developer"
+				"name"		"Reflections"
+			}
+			"6"
+			{
+				"type"		"developer"
+				"name"		"Ubisoft Belgrade"
+			}
+			"7"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1488862800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"460930"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"1774"
+			"2"		"19"
+			"3"		"1685"
+			"4"		"3859"
+			"5"		"1708"
+			"6"		"1687"
+			"7"		"3814"
+			"8"		"4168"
+			"9"		"4182"
+			"10"		"1663"
+			"11"		"1697"
+			"12"		"21"
+			"13"		"3843"
+			"14"		"9"
+			"15"		"1662"
+			"16"		"3810"
+			"17"		"3839"
+			"18"		"4166"
+			"19"		"1775"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ubisoft Paris"
+		"publisher"		"Ubisoft"
+		"homepage"		"http://ghostrecon.com"
+		"listofdlc"		"573830,573831,573832,594560,594561,597000,597001,601290,601291,601292,601293,601294,601295,601296,601297,601298,601300,601301,601302,601303,601310,623780,623781,729730,733960,733970,750230,751960,832700,832701,931190,931191,931192,931193"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wildlands"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GRW.exe"
+				"arguments"		"-uplay_steam_mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"733970"
+				}
+			}
+			"1"
+			{
+				"executable"		"GRW.exe"
+				"arguments"		"-upc_steam_free_package_id 14255 -uplay_steam_mode"
+				"description"		"Free Weekend WW"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"729730"
+				}
+			}
+			"2"
+			{
+				"executable"		"GRW.exe"
+				"arguments"		"-upc_steam_free_package_id 14256 -uplay_steam_mode"
+				"description"		"Free Weekend RU/CN"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"733960"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"865043660"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		""
+			}
+			"927438053"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,dlctest,internalqc,internalqc-tu1.5,internalqc-tu2,internalqc-tu3-narco,internalqc-tu3.5,internalqc-tu4-fallen,local"
+			}
+			"927495341"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,dlctest,internalqc,internalqc-tu1.5,internalqc-tu2,internalqc-tu3-narco,internalqc-tu3.5,internalqc-tu4-fallen,local"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"460932"
+		{
+			"name"		"Retail Core"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8958488718629738030"
+			}
+			"maxsize"		"7512627803"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"FC0D852727A5393FFE8BEC013D07FAF0"
+					"encrypted_size_2"		"6DD30F91D25E0B3219DEE32225EB6F7B"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"F229D202A1DB503CEDBF22649BAB38C5"
+					"encrypted_size_2"		"5AD4352A957C57DEE799C59EFC061678"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"4139419FE4A0D86F3048C89391D6E182"
+					"encrypted_size_2"		"A0C629D6456E8A7C004C20B795C87BFE"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"7ECC21A0F67798EDC1B29B36E29B33C1"
+					"encrypted_size_2"		"E4EAEE70A0287A43A33071C40A128AB2"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"6FFD7F962EAB407D48C2FA9ECF3B0299"
+					"encrypted_size_2"		"49DBAE13ADD5911908E2139E69B861D9"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"3C1B5F36DF9A6910922ACEA81F4AEA3D"
+					"encrypted_size_2"		"17C2FF6043BA49343FA25621CEF6C054"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"108B0BC0DF093FA22FD025DEAF44E2D2"
+					"encrypted_size_2"		"620651B1D9DAE7948F581BE0EF407097"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"218E55DA208D83CDA926628EDF190C8A"
+					"encrypted_size_2"		"1A038D513135A2EBE7C83D939C66440C"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"7BB078605846F7E3DBCB32AADA53BCC0"
+					"encrypted_size_2"		"AB2BC474AFBD2279E58D46D07D5AFD4F"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"E9127B3098D50880AD47B8BB09AE344D"
+					"encrypted_size_2"		"3E8D0EEB4D1A8047429B90DDFB43122B"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"7E1569B5AAFDB674AEB31F9AF3C1B9B5"
+					"encrypted_size_2"		"16F8D2AE83A84172F3A172729650A216"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"2E06F83914F36E0305BCC64B10F87E9C"
+					"encrypted_size_2"		"2CA51D1FBAC509E015F4FA0B5309434E"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"BBD98826586B72559CFBCAC1C3B7B683"
+					"encrypted_size_2"		"FCF47530889B597F5CBB2DD9B07F95BD"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"150B2AB92FD343748D5BA78145AE243A"
+					"encrypted_size_2"		"CBCE58958C1F1FB32FF4CD203DF2871B"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"8EFDD0C3BB159B3CF8520D4465D95B32"
+					"encrypted_size_2"		"8D3D8799209C7B97FD1003E179338184"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"B4B1E92585C0723C8F363AFBF923B803"
+					"encrypted_size_2"		"B2C35B798B8274B3BB3D65077900D757"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"BF78F4B4B69F856ABAA28D719F56500C"
+					"encrypted_size_2"		"953E7832CB6CADEDFE01C8A793CD04C4"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"43CEC0193B934DAB34D71177BE32C4DB"
+					"encrypted_size_2"		"B55FFC337812646314ABF0B474BE8F34"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"CDF37FC7EA74F4E3A2E4614CF7DA3619"
+					"encrypted_size_2"		"96123A2C25E50F8C6023C25CDB680814"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"876F899AF26D574DEF383E2BF30FEA28"
+					"encrypted_size_2"		"05063457EB8B48DDC5AB227164562DF9"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"006197C3C4BBC29DBBAC317AAFBFA20E"
+					"encrypted_size_2"		"4A795161645BFB4B35054C0229896842"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"976967C63766C5B250FD79898B5AB597"
+					"encrypted_size_2"		"F42E4728DB1E46291C7A69A23EC057A0"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"E9F24A0FA7C8E0AAEE8A53E47B7C5695"
+					"encrypted_size_2"		"BAEBC45E146005B1858FB870EE6E7BA8"
+				}
+			}
+		}
+		"460933"
+		{
+			"name"		"Non-Retail Core"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"460934"
+		{
+			"name"		"Maps - Common"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3565008786763647215"
+			}
+			"maxsize"		"16259710976"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"19537E99A2FC15BD064B03AB79CE94C9"
+					"encrypted_size_2"		"877250A0E18EEE564085261BE34962F0"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"00C0D97A0F874E4234CA0FB3557D3BFC"
+					"encrypted_size_2"		"C860EC6EDF50BA5A85D73549F4F7A573"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"7F3484973A7F27776D4996D0D6C292F3"
+					"encrypted_size_2"		"16FEA9BBBF444F9FA72B88BF8A1FCAB5"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"BF6FBD7B271860B3E2E7A3DFFE869C66"
+					"encrypted_size_2"		"164F07876AFAAD37A5DD3BD305473EC0"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"738506EC6B83E8BADDB16B10D8E89CFA"
+					"encrypted_size_2"		"2D674C873BAC40E07970D421883E986F"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"45AAEA870EF22C2850756C3E2CAB75BD"
+					"encrypted_size_2"		"1E65A89E9DF1096C59F893C7C058FD74"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"9F63395D7256A42F253D044520D49F47"
+					"encrypted_size_2"		"966D8AABA334A83E8493F9B0B8F7789C"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"84E4EB1D76BF3E07BA824D9CD22C8714"
+					"encrypted_size_2"		"700586FEC18FFDCBAA2A16E12D72DE41"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"23BFBC3852A29DECC7D1A98988798513"
+					"encrypted_size_2"		"169C9AF4F2E7EA0A3477974A190BEB72"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"D3F908F0735B4CEE18B1F3B37299BFF6"
+					"encrypted_size_2"		"CA5A33D5B73F219E09B4D6E2FBD91A1D"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"344D14DFCEBF717E73315860816578F9"
+					"encrypted_size_2"		"E984D6EB92175D113954FA647E5914E1"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"7429A92BA9984A7ABFA6805E6C0572ED"
+					"encrypted_size_2"		"4323D066CA6DF26F7A955C2281B34FE4"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"9D6AD37AA2DE24F773A54478FDD97633"
+					"encrypted_size_2"		"5E5CDAB42BA010BA7E0078AC7B1A4826"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"B5DB81F585456EE0925DDA3721BCBB69"
+					"encrypted_size_2"		"1976CD3BC129E5F9DC3A3AEC95571B19"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"43CF659324DB3C3BA142ACB48F714584"
+					"encrypted_size_2"		"5E23BB0D4AC4A0A48149B9B575145CD9"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"80A87760EBA6C242D06B1880D5112AB4"
+					"encrypted_size_2"		"242D3EDB45F88C54B716FF14D1DA6203"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"CDD1D56619995FB535D06718E1174CFC"
+					"encrypted_size_2"		"D8CA38714D636CC9E9CA55D22ABDE044"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"FA1FC1C50E0E537A477B65636A5F3791"
+					"encrypted_size_2"		"148E520E7A53DA5D83709FACEA9875F4"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"6FC580A07E3F949FA94BA7B560A4C151"
+					"encrypted_size_2"		"6D6F29E57A5FA0D37CF61D7E1F78FA8C"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"3813BA526F4E379B657A1A7574E060C6"
+					"encrypted_size_2"		"D9430A9B40849D2D5CE81F4358773146"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"9570468AE6022363AFD2D844BF4C8326"
+					"encrypted_size_2"		"AF778D640041B9C9349D22E9296FC375"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"CB236C80C20F8176D169BC32B133616C"
+					"encrypted_size_2"		"3CDC472003686367BC9448DC052B1FED"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"6E2581DF3E3F65EB46C552C1E1C02D01"
+					"encrypted_size_2"		"DC618E10012C8507D567438E78609F16"
+				}
+			}
+		}
+		"460935"
+		{
+			"name"		"Maps - WorldMap"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4900340660423971788"
+			}
+			"maxsize"		"35353264128"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"1BF682DFD59AAF590F29744A0D893BD5"
+					"encrypted_size_2"		"09B242239AA0E8E68510AAB75157026F"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"FABE47BAEFABF870143D2F51E8C4ABE8"
+					"encrypted_size_2"		"0BE1128E0B9E929C056258DCEB4C7C4F"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"124501F71607219E18FF7FA6AECC65E1"
+					"encrypted_size_2"		"3C9F018EDFCDFA965E409681E093DA64"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"AAA96EEB8E9BD1C33E7684C909490E21"
+					"encrypted_size_2"		"2EC253713E78AC81F0B3F3C71FBDA924"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"C814F4CB5FEC300C226A3BE4C9B54B69"
+					"encrypted_size_2"		"F3B2078D2DF2CA4077DBAE3D61A215E7"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"7F84CFEC68229DE8605D391475D4CEC7"
+					"encrypted_size_2"		"F90D55ED0499C6E93B652EC4B0774105"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"B78FA9D764ABBFD2D65B52CC7192D0E0"
+					"encrypted_size_2"		"F69D40E841D8C79EE5AE0AAE66A67D15"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"392C419B046D45A5DFC15BA86F52BFD3"
+					"encrypted_size_2"		"31ED62902E5F9CDC605504017405411F"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"C05A8CA7736D887BD275D12698F8F519"
+					"encrypted_size_2"		"969ED3D965B258CA52AD5829C8A20DC1"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"BE4618B0CE18E4FCFD24FBC3FF2F3F61"
+					"encrypted_size_2"		"69B7E49A1C8CA1B85C9088C1E9C0142F"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"E5AF700B1DC9EF63FF4A96F0F7261FF3"
+					"encrypted_size_2"		"F8A98532AA13A0EF9F0367D8E66D727E"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"2C2FED5E5B430A900FDDA3E77F864831"
+					"encrypted_size_2"		"F5E096FE0B76A2FD937621D5742386BA"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"ADEA284A7E68A12C390FB90F2BA162B0"
+					"encrypted_size_2"		"BF051793235667E8FE6FB7942E1095BE"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"324514C0915066B51C1CAE623E52955B"
+					"encrypted_size_2"		"694398B091AF283AA12A1AB1B94BFC21"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"1B07F44E81584A52956CDBC089D8CB3A"
+					"encrypted_size_2"		"68C39A2E98F165DB3FEBF3C80F561117"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"799BA74E112CA2E674767A5F34EFDDCE"
+					"encrypted_size_2"		"A04FE3B99D51F60C44F599A8A642553B"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"328D4354401FE57295D6031840CA59D2"
+					"encrypted_size_2"		"E6EC2251E1F376271B5C38B3544B7D6A"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"0EB59FB94CBC703B6CCDFAB6FB644ED0"
+					"encrypted_size_2"		"EDA3E9CFF4B6BB951E659CA0334DE78A"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"F87CBEB5F585D454292704F35D503B6E"
+					"encrypted_size_2"		"6CB051675E3E356646E1F5A194114BA0"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"C2CE6760463890B6D14927C41CA5CCBA"
+					"encrypted_size_2"		"7CC4E3EA6CBE45C681F778B996EC5E9C"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"3A96ED7BD311BCC143F09F7A59495DFD"
+					"encrypted_size_2"		"95081D2AC6138407A7CB06911DA34201"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"6B36C6068FE8D794C224E3ED11910A96"
+					"encrypted_size_2"		"EDC7907208EF0F3AFE7EB5295A4782F4"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"845E59743572EDB726CD43F14DB92E0D"
+					"encrypted_size_2"		"21EAD31E4CAF04F88338DBD2F96FC85B"
+				}
+			}
+		}
+		"460936"
+		{
+			"name"		"Maps - Others"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4561587204421919496"
+			}
+			"maxsize"		"5128028160"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"3803036D0D8858B93ED7E1AB127119E6"
+					"encrypted_size_2"		"F1D7C26E3B0294DDB0F8C554DA37C3A2"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"82C41DBA341DF2305F14F77A29014930"
+					"encrypted_size_2"		"55FF3A94E5F7888DF72C412F24CAD25E"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"D8B3298C270E75F99F25A15B1957ED63"
+					"encrypted_size_2"		"7B190650B5E81AFA6983B708B810D5F3"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"07749D26A74FB4288FF6BD9167F6DC2C"
+					"encrypted_size_2"		"62C0DF82CA25714CB76BB0F570414BA7"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"FEB03CF4450F11274A3FEBB11F57B333"
+					"encrypted_size_2"		"245AC1841C94A3B5024F941068D5BA12"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"49E80F441CD199AAECE647646920C694"
+					"encrypted_size_2"		"ADFCEF7AC60F028F3BB884615C4716CB"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"737A6D0C9E7A872A892F969AD6269B4D"
+					"encrypted_size_2"		"D3E3D58AEA843777CEC981A01BD739E5"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"95937CF6AFEDAD01748B32A838C795C3"
+					"encrypted_size_2"		"F51EAA1A93CC960073FE94C1CB293C15"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"38D5B839808491983835057B50680821"
+					"encrypted_size_2"		"33B2D51C752CCC4789259597AAC3877E"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"16E40C5366DDA9F9B8072CD2157720C3"
+					"encrypted_size_2"		"C6045650E316A68F48AAC101AED05034"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"0EB4DC3120A9222B5103455AE35D8ABD"
+					"encrypted_size_2"		"AD6F520C288898158272451486F8F38D"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"9C8286407A9954F37AA2F7EE570848BE"
+					"encrypted_size_2"		"12143E2E53892B9CE260CD999867EBD5"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"E694E02AFAB95BA187A4C400A9B093CB"
+					"encrypted_size_2"		"A8DEA86FC25DA82A7827A82C935C5BB4"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"0CA716353BF8E52871EA710DB1B23C71"
+					"encrypted_size_2"		"9B79CD1E6E3E370988B62C8E30473F77"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"008E5EEBEC54DE5B252143A7EA517DCC"
+					"encrypted_size_2"		"6F754616694EFC76B518314B602FD4F6"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"176EE2EBF59B36049DB9D9DF55E9DE3B"
+					"encrypted_size_2"		"8DD4D1D6611C1033BFB12AFB9190F171"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"A3DA50E9A89CE3BF81CA5B206F83AFAE"
+					"encrypted_size_2"		"2321805699BE4336B9AF2FB7B24909BA"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"E48A49C805FB160B62DFBFA2A5AD364A"
+					"encrypted_size_2"		"7EAED00D8A39EB9E63002026BF1E61F8"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"BC26B100413228C31D2B948AF2AE3DD3"
+					"encrypted_size_2"		"8CCF512D754510193AB15DBDB698A548"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"8B8FF10978B9A02652DD1527AA6C546B"
+					"encrypted_size_2"		"17763A8AD15E55CCBCC05BB18544C0C1"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"961B356E194C818E7B102E87A5F42C83"
+					"encrypted_size_2"		"671152B305CD032CC3F672A3923FA6D9"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"F3B998D9C37F4353CF935146780C7EE1"
+					"encrypted_size_2"		"23652E008C92EB53DA7BBA6C99DE5AAD"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"3C776CAE1959DCC377600D72B397BE90"
+					"encrypted_size_2"		"09A86F57A97F1D8E5BB2CB5E7B9ED608"
+				}
+			}
+		}
+		"460937"
+		{
+			"name"		"Video"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1905479328869316905"
+			}
+			"maxsize"		"6181701928"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"C451A23A85687E8F627437D982FE8A82"
+					"encrypted_size_2"		"1A66028B7313D50877FB2962087489DE"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"55B502613305ABEBCDBD616402FC153D"
+					"encrypted_size_2"		"3C104CD853057BCD5002BE9D5A3ECDAD"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"F76794464C9F1B8E3E9D630F70ED3A50"
+					"encrypted_size_2"		"B9EBDCC08923ADF8E6883FAC2AADFDD1"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"25FD77AABA76F061B664C58F240E9AF5"
+					"encrypted_size_2"		"29C3A95A8DE4D5B5503FECA9516445CD"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"6FEFC823418784B62ECD3BE0AC9252AE"
+					"encrypted_size_2"		"EA4C51DEC0221AB480EAD6D942383BA3"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"53319B21F23612C32F7F923FF281237D"
+					"encrypted_size_2"		"5F33020B1687042C00FC709B219D6C3E"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"EE17E2450F5275FD9FA1DCE34FBDACDD"
+					"encrypted_size_2"		"E1A71F8F9E1A61E80A713C8EA6DAE6DC"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"F14D7174FB54E18C1B1B8C2373212348"
+					"encrypted_size_2"		"A75434765190971F16F04180F0C52F4D"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"3EB31644D0F9922638258D7EC53F410D"
+					"encrypted_size_2"		"51B27F86B79C306C0691D835ED2D9833"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"67026A0FC48508A127B8A92A9581CE24"
+					"encrypted_size_2"		"0FC1C4B522B28881335431EB1E055572"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"755258DD143919EBC81128B5E65926DE"
+					"encrypted_size_2"		"6FDDDE2100748BD25A9530F7ADAC879D"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"2DC068A19FB99C180DC8018603B1764D"
+					"encrypted_size_2"		"CCA8F8653D7F064315E9198C1361F4AA"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"C51CB70336EA7FF86319E1ECDDDBFAD9"
+					"encrypted_size_2"		"8F0605BB7B95E34709DFEC9CAA2FD926"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"07772FF5295364E15D87937C5DC23E5A"
+					"encrypted_size_2"		"9CDDC55C94BEC497F71D83E916380A1A"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"3C5CC451136771E0704693A731C06F98"
+					"encrypted_size_2"		"06477FBB6D2ED9EDCBCE2A2F4A875C86"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"9B45C95B913975883C21F34FC70E6435"
+					"encrypted_size_2"		"E81FB80F30B5B6F94A79FF9F9D0EC364"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"33317AB0B0D6E73C7604DF600E499EB5"
+					"encrypted_size_2"		"D33C04B12B1680780091D4A62DB049C4"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"CEF2F3BFDC47D172BB72EC1D0912CCDB"
+					"encrypted_size_2"		"6C2659758D58B38E23BB65D7565F0D4F"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"C4DC87D6BD9357FE530F9DB929800DD9"
+					"encrypted_size_2"		"434448E4812AD5BB8EDE415D3D6A1B29"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"B31447F02903F654C96D16833C4A3664"
+					"encrypted_size_2"		"201EE2E574F820A1D23DA82900DBD127"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"AF240E202272084D30F62BD0B3DD13F2"
+					"encrypted_size_2"		"8657831942E8D1788EBF0BBEB17B9689"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"BD0ABAF3BC8D7815B8CCD25FF39EA15B"
+					"encrypted_size_2"		"FDEBA18DBAFECAEAA8955C7625984E64"
+				}
+			}
+		}
+		"460938"
+		{
+			"name"		"Sound - Common"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7350012685477509208"
+			}
+			"maxsize"		"4637052315"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"73FD91091B81AEACC555E5EAF9732D51"
+					"encrypted_size_2"		"E1E31A41CF8389CF42021446020C7F59"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"BC9AA6521ACC86B2561E6C3D042D68C2"
+					"encrypted_size_2"		"7362899855CFD5DC1FEE9B7749A921C3"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"5809D791FB17DECB4FA00ECCF6094D32"
+					"encrypted_size_2"		"F97DDE7572913CAC492C458D08E9A9DA"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"620799C40D0F0397BBF3536F21A63BDC"
+					"encrypted_size_2"		"86B05573966BECD8E428A35552A6E85E"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"5D0CBBCC372181B5EB829506498C0840"
+					"encrypted_size_2"		"134FF6F7110991698A8B236A4081110E"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"DB72AABBD627B1141AA94F259BE0C4B7"
+					"encrypted_size_2"		"FDDBCEA098F4E650748417E02EEFBD5C"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"CD6A7C430FA94A4DF179783DF1D01C5C"
+					"encrypted_size_2"		"69B553219A0EBBE584653886AE505272"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"FFF055BC042F45393603EA41A67940D2"
+					"encrypted_size_2"		"B9B71A0C1126BA4C042A340FA43E9503"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"2589FF1298AD02A72CA035950D17D754"
+					"encrypted_size_2"		"B538B9DF0CAEF70B669FB22C841D7C8B"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"B2FB7552A175B96D726181A0D7374E3C"
+					"encrypted_size_2"		"96BEAD0E1B71002FA858EE5DC2B6BF1C"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"5762FCCCCDB791D786F6E4A2E70C13DB"
+					"encrypted_size_2"		"4611FD51F224C5A9FC48253EA1CD57A6"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"ECFC15A81571EA5AE988F7ACD9631FCF"
+					"encrypted_size_2"		"B5E9EB12DEC93243FFA6D1F14E4E548D"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"99BBD5CEB979E2FB7AC4CE0831F70C4E"
+					"encrypted_size_2"		"DFF03099201537DB75F81A7C3127613B"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"71367EABAF6A36EEEF82FA65DEF5D313"
+					"encrypted_size_2"		"E9BE5E3EA0458311E1FCD198778FEA32"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"45569376485B72A73FFECF46BF1D1C70"
+					"encrypted_size_2"		"855457E7A260F523B4966EAB1890C63A"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"36D6A43FA1F0320C321208B1B1EDA5B1"
+					"encrypted_size_2"		"5B441CE6ECA9FAA112A7C27569ACC9F4"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"460B739CAB09B3B2938417B8F5F870DD"
+					"encrypted_size_2"		"C8890FEA7B64EC94DA0F524C59BA160F"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"149DA0D1EC1BB993BEC7BEF357876D95"
+					"encrypted_size_2"		"7514A728D200F00526453D037408574E"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"7C307FDE5D4F574167D208ED5DD77436"
+					"encrypted_size_2"		"20BB4A1447C95BC71F7E9B86DB6FFCC6"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"5802F57D468DDACA967E540A7F9F1886"
+					"encrypted_size_2"		"46AA679267304ABC879BC6A7EB3F328F"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"15E528C5257B9F140FB6F67518BB2802"
+					"encrypted_size_2"		"A7F01AC2FC5DF3065F67F306D0EA50F9"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"05BE58CD7DE6E37DB697D5D72A462BF8"
+					"encrypted_size_2"		"9AC057CA64149D92EA65249161C1534D"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"49F0A612B9B732104E68346B737745B9"
+					"encrypted_size_2"		"E1F7763C7DA1658E3EAF4785AE242005"
+				}
+			}
+		}
+		"460939"
+		{
+			"name"		"Support"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1020598077400150475"
+			}
+			"maxsize"		"63283721"
+			"encryptedmanifests"
+			{
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"7A62BB95B99240672F5AC08BB3A935A6"
+					"encrypted_size_2"		"E3D7CE4FDABBC8A1DF055ADD7959B196"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"CAB4CFB0EB362FD72D170FD78899E851"
+					"encrypted_size_2"		"311A01DE9A544718E70982BBA8BCC77A"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"53676A86EDECA6D4C1790E2A76D5CE8B"
+					"encrypted_size_2"		"9DF3BF94634B090AEEF1E0ACD0E97592"
+				}
+			}
+		}
+		"527063"
+		{
+			"name"		"Language - English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1024644910572884773"
+			}
+			"maxsize"		"7230"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"D466FBB93A856604B2FBAEFAB222EA36"
+					"encrypted_size_2"		"9FC7532418179729CE0B79BCFCB63AC4"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"FCCB720D84C0AC4C8D265983513D9F76"
+					"encrypted_size_2"		"342E1CB8C1E769183173BD9E264FBA02"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"6D50C8ACDB6D5EF0600A5A9619D0D9B7"
+					"encrypted_size_2"		"B7651AC6A67F1DBAFB14431F02C72CC4"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"C4FBE96CE799C226761BF90F6FBB3DFC"
+					"encrypted_size_2"		"9CA0CA6B29F28F9F918D3320E453F6E4"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"11AA17269C9D4E522187CF8ECDD943D7"
+					"encrypted_size_2"		"53FB6D4AB83BD8C641F87977F5EE46B3"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"B99CBF62A0D7855999AB0080FB9D0DC6"
+					"encrypted_size_2"		"6F3C8BCF4F68A72CA87A15367276D2C5"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"19AED158ECE627E788CED0CCB91C75C0"
+					"encrypted_size_2"		"ABFC32CD0A026E62B6FF513AC64CDC65"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"C85E2527228FAC79F9CB542FC89CBD92"
+					"encrypted_size_2"		"751AB8A1C050648133EC59734A19F7DA"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"8CB90D2D479088957E6FA175F1994075"
+					"encrypted_size_2"		"C41C4AA1FE7A29501F4878BC8DA56A89"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"11F2324F1A6A17144B0C6C683F71FCB7"
+					"encrypted_size_2"		"E03A76C909A810FD070E07D716F618CE"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"6B62F2748C87C0312A567AC87A799E16"
+					"encrypted_size_2"		"3AA6B4DEF9BE4D5EB5CD8D1617BCFF11"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"8968FA1BEB53F1BD4D851DF6197F4EC1"
+					"encrypted_size_2"		"A48BFDF3BE0230AFE416146B27FD163B"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"56C28491F98CA52D594ABA8DA05D8857"
+					"encrypted_size_2"		"47365CA07E237374BAE4A4600946DDAA"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"A54F2A13E3A9FD5E06DA2ED307A1AA1B"
+					"encrypted_size_2"		"46B726F3F887C609F19962420E0A0CED"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"C4A07FCB282B77B87AE9E6D7699B9818"
+					"encrypted_size_2"		"3F83C07364BBC5AC4D4207563822B295"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"B74611F2257E93D90B0623ECA7B29163"
+					"encrypted_size_2"		"85974D6981ACD5D3B9BC4D439A363725"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"DADCC3D1CDB02090D0A2AA0512D9A0FC"
+					"encrypted_size_2"		"9035AD4BDB386BB6A2A8D0DA173F4761"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"F016043BCC13464E9449491ED49ADEC7"
+					"encrypted_size_2"		"FBA8607A92DE83C536F2D0D640C5B9BE"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"60F276E9E0E1EAF01B73BE33D84B56EB"
+					"encrypted_size_2"		"CDD5677D3BC86D3AFB3D7D73108D87B9"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"6B62B906962B16A3BAE4950DEBA95429"
+					"encrypted_size_2"		"519694CC1B507CE8B637F54D579AD6D0"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"F7DF88F695F3EA26DCDB94ACFF513F29"
+					"encrypted_size_2"		"52A2D862E7B010BED2441CCFC11EF72D"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"372C6ED036D52E9A860CFCCC513C332F"
+					"encrypted_size_2"		"06581FC73BFCBB42E95B7AF905A88A8A"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"ABEC1AB9614A12AC6ABCBEA6D5B2217D"
+					"encrypted_size_2"		"9DA49816439AEFF4BFEB159313A75606"
+				}
+			}
+		}
+		"527050"
+		{
+			"name"		"Language - French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2644236184387157876"
+			}
+			"maxsize"		"595523250"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"DF285543F8DF5AC7C3423CADF9D07C9E"
+					"encrypted_size_2"		"CD3E958E0FAA4B8B9EFBE588F79C66FB"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"AC03D3D97C7745EBD1BFC476AA37562B"
+					"encrypted_size_2"		"763C0262FFD35AD5D2DD171DB2AAAA2B"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"8D8DA83A7A2749B8DFF49BCDE5F8866F"
+					"encrypted_size_2"		"BFCDA36786A54623C64B6A2FBD8AA97B"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"D93F21E8F1A874622DA5CDE3696DE078"
+					"encrypted_size_2"		"7E4AD99C6F1C7466A0019398F78E32FF"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"B6A4D5C7306ED291A9EAE46BC9EC9270"
+					"encrypted_size_2"		"C2117B9FA3DFAB519C6CA35D58CD2695"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"53A1F6BDD81D120954AB541807FEEB31"
+					"encrypted_size_2"		"E5897803072D4038F19E498A7FE141A6"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"35EF54C07C14D7C33DD67C2660F2368F"
+					"encrypted_size_2"		"0D5FDE22D7F55E961F717A9E2E222F26"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"FA59D98A9AD5CA9ADF4D871108D4E58B"
+					"encrypted_size_2"		"E43770A73A8FDAB411A3F34249843DA4"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"918BCA1930D9FA5F51BDBC96317A0803"
+					"encrypted_size_2"		"59243E0830FBB667DA69E8C995DFB3E3"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"65A4E3FACD73B5D988A8E2D8827947F9"
+					"encrypted_size_2"		"9720A5ED3CEA833AD868A8B9201B818D"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"71F79E0C3C13C3F37241B6DC7D3B6A70"
+					"encrypted_size_2"		"A38606315F9B2466C144541ACE9D5AE7"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"227CAACCD6CEA3C5E863051528411F17"
+					"encrypted_size_2"		"1EC0BCF141352749A94C68EF360DB4F0"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"5283A651D22DF8535191846CD9A5A6F6"
+					"encrypted_size_2"		"4FADF731CD9D6A28950559837D3A21BF"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"B5835DC1DC58BACD7D98C8EB35BACD85"
+					"encrypted_size_2"		"6C0463E2D83E49017F96744677740670"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"6640DE6675DC29AA2FF1A49FB39C93D0"
+					"encrypted_size_2"		"9CD1DB98E5159913CE411E522573F0A1"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"7D1B111C03934FD38F74EF22278EA5AB"
+					"encrypted_size_2"		"E5F7AA48595D6314EA122973AC1E6726"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"ACEDE6C9F108485E491E7369A9D0B6D2"
+					"encrypted_size_2"		"BECDF316056995A148E5559553DC7519"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"3E76B54BA590E80FE5B6A1465EBD78B4"
+					"encrypted_size_2"		"766D913194651C8FB25FA0CEE0A61633"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"D021B828EDFA83F61DC71F19531F8FCA"
+					"encrypted_size_2"		"23B458EFA27CDAF6BB5BE38A843894B9"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"C250BB6AC1E77D30DA7023E5D014724C"
+					"encrypted_size_2"		"5A45E6B7EA5DA629988DFAE0ACB8E834"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"0EB59805F859FBF6DCF5961C5E6303F4"
+					"encrypted_size_2"		"80324887C4D659E9303441D9E6E76D69"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"D291BA010BD3D20922E8330ED5A34E65"
+					"encrypted_size_2"		"6F25153D193012980C07582ABF2E279E"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"04D3AD46CCD9539F9C48653B80173B9F"
+					"encrypted_size_2"		"2F4F3E6D9A48061EC73A378D6573ABA1"
+				}
+			}
+		}
+		"527051"
+		{
+			"name"		"Language - Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8393852933155602717"
+			}
+			"maxsize"		"509311856"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"6BCB66A8B4CA727D796506177F99FD4C"
+					"encrypted_size_2"		"0C9FE243CE5E472B70996CDAA2687A9A"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"A1E3941CE13C58CDDCA78752CC22A970"
+					"encrypted_size_2"		"33CE8F4DA80B3B4B21F45F013508A0D8"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"7A04EC74618BB76353323E180D6AA844"
+					"encrypted_size_2"		"FF39F35BB8B99045995EF5644D388620"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"82F8A45548EEE58F211E80CB1AC8C615"
+					"encrypted_size_2"		"37A18EE20DD7F339249B20F0D853947F"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"CEE30FDA6A2C17A5458878F3B4DDA308"
+					"encrypted_size_2"		"13BD7E49CF610E62D1546966E2DF8036"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"82F0DFB9BC8551E0FB3CE05597F78842"
+					"encrypted_size_2"		"06E11076AEDC68325C8B39A4C869D7BE"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"A7A015F680D6FD8F75EBB7ACF09A5129"
+					"encrypted_size_2"		"4A0B956BC575FF987F0199EF46D7E6DB"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"0FB38A9FC7EFD379FD2692C86115E092"
+					"encrypted_size_2"		"3382A28EE058BAEBF93ADA75AECD9D94"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"719F1BD581762E920DD4FC7714C333A8"
+					"encrypted_size_2"		"E1659385039B813BABE18B42EDECE43E"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"9E52A7025C3034D45D943F855078F153"
+					"encrypted_size_2"		"FCC907E24BC4A50CAA018D7C98D2FEA8"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"F3B0ECD070F51713E2A23F7EB5725E99"
+					"encrypted_size_2"		"F7676BA0B4B7F50DE7F92981D59EE4B8"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"8F92DB7CDD8EF181E88FE9331A449DB9"
+					"encrypted_size_2"		"0FB6DBFF2629C50B21E48A7C07A76D10"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"1F5D8949E791AE255486584C159516F5"
+					"encrypted_size_2"		"8EF041280D6C7B45FA3B0DE8132C4E5D"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"0B36AAB862968CD196DEFD038819322F"
+					"encrypted_size_2"		"6C06B4B7AC2BCDF0288447C9E03D9F38"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"F92089E2001C6309084768B914D7873B"
+					"encrypted_size_2"		"5AB46C0794558BDF402E8DF6757AFBC0"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"6FFC4B3A7D8627F02053EB1C706F1CCA"
+					"encrypted_size_2"		"2C0FF31C33EC71EB4C8DFC1227EC54F9"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"033C44E1BEE8CAEC16352A4A42731F05"
+					"encrypted_size_2"		"9566562304398C261BF6E2D03BCAD376"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"C7BC12FB1F25944E3951AED0815A0116"
+					"encrypted_size_2"		"203E655C782173023F98090757070BBA"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"A7D589976D8B9D82DF53DA9FE9DC2308"
+					"encrypted_size_2"		"5579A7EB2E59A077DE544F635026DA02"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"89E72F2257927371EB1CD09C97DBE9BA"
+					"encrypted_size_2"		"0E443A5434F98D6591D9BFE5B8F04452"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"D6A67B52BD615EC9CA1336D7827AA415"
+					"encrypted_size_2"		"7CA9A6381CA4671B83DBBCAE64AB29B2"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"09A6D9A0FD7EF571D1AE179D02B63339"
+					"encrypted_size_2"		"902A931CB5765E613B87970A9661F15D"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7A7E466259FF3C80708767A081F5E918"
+					"encrypted_size_2"		"BFB6A81F3609F6C8AF74A06FE995C129"
+				}
+			}
+		}
+		"527052"
+		{
+			"name"		"Language - German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"680293244398664808"
+			}
+			"maxsize"		"498448079"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"C16802AC9ABC90ED6EB1DFF153A7BEB5"
+					"encrypted_size_2"		"CF642A6643F703162C8D4F01DF14EBCB"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"2AD9A292D8BC97A46213E334E84FF6B4"
+					"encrypted_size_2"		"B85B35B8EF53DA421AA425289854429A"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"9906EC38528BE8EE372B94D2F7951C16"
+					"encrypted_size_2"		"BFE2D3C52FB62C65110A4802B2E60306"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"8CED6F5A0C35AD4B19569A4A5F0DC3D9"
+					"encrypted_size_2"		"93C0839B229C1C15726D312CD2283520"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"27EF7A0DD0DEBDFF6CCFA6C4C8FD5410"
+					"encrypted_size_2"		"F467C3F4657A04E4392FE9F770D841C9"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"492879CE6D8016210091F213A7D008F3"
+					"encrypted_size_2"		"13076E21E3EB4482DE1B69DA29C93F1A"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"CE1779C4BA538B533FA51686FB65D132"
+					"encrypted_size_2"		"BBDD1CADAD0F2BB6E514AAC54EF0FD5E"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"6EDA15E152A98B0BF14E13B5B3F7320A"
+					"encrypted_size_2"		"560493EF70C2A128EB977CE9EEE8DEE4"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"5CD2F272B8AB8A521C7F533CC8D84824"
+					"encrypted_size_2"		"59976720936D4A739FAD02358D7ACE0A"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"7600A3B29BB4E1612A35A0B9EF37DE52"
+					"encrypted_size_2"		"AB2D3246A6FA760201A5A4B6914FE884"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"2B662452B9667B014FA6AE10854F6473"
+					"encrypted_size_2"		"7B01F274FD5E2A07B462E3BFFBE1E4D9"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"2C8BA755934496CEED40325D8E9F262D"
+					"encrypted_size_2"		"B5F73AD03886A383F193F4AD6A1EE01D"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"65CC28AE48FC6E9810FEF55B274FD6A3"
+					"encrypted_size_2"		"D2065E969484AC8945B21C449EA3BDD4"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"429A6138273F95654DBBC7B2A6DA1333"
+					"encrypted_size_2"		"D38A101B11271576D9F38187AAA49EB2"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"721FB985EC3E46C2C932579774118F63"
+					"encrypted_size_2"		"BCF171C563361FF8D4DB0CC44FB77BD1"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"EF158BC167884D1418CB1CE6D66BA7C7"
+					"encrypted_size_2"		"63AE79B356558E2BFD293E08D7DD8707"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"7095E9EE172E197C14420843D879FEF4"
+					"encrypted_size_2"		"8458A43841BB2C069A1E69B9A03EB42D"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"5F0152EED04F3564A728972DAB0D6BD9"
+					"encrypted_size_2"		"11902EB350C641773C68794DE55026A8"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"5DC2EEE639C3581841F0FE8F1AA8C33A"
+					"encrypted_size_2"		"723D4E642D4FFDFE4F46389861626956"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"8C3C80E544B7209820163074C4BB8830"
+					"encrypted_size_2"		"279593A45E122C18EB34514A25AB85BF"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"CE39D230270B7680B32C98A7E8E5AAB8"
+					"encrypted_size_2"		"D0782BC16FFCEED96527E98977E8221B"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"4A24444F390EA47BD2CB0A4536582132"
+					"encrypted_size_2"		"092862E649B10E2A60AA7F6BC0340161"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"490BFBD085E1BAE9319AB6EF3C179D3A"
+					"encrypted_size_2"		"278DBBCD10A2A1C0B274CD3107582EB2"
+				}
+			}
+		}
+		"527053"
+		{
+			"name"		"Language - Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"368786944184328330"
+			}
+			"maxsize"		"979420469"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"A96D030D034429F635841924515CBDC6"
+					"encrypted_size_2"		"8AE6B185ECF43536B02609A855627320"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"AEE44BC3365F3AC9C3462D10DFD90B34"
+					"encrypted_size_2"		"6A042E45965B682CF5CCC150272C53D1"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"21D66FEF5672D5B909F35416CB1F4FFF"
+					"encrypted_size_2"		"F200E32D7CE124E136355FEAB57C969D"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"787003D1023A6ACAF519388208784A50"
+					"encrypted_size_2"		"2EF513614A74B160D90C778711FCF370"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"0A28B66AB64D9EBAA8858CF594701E45"
+					"encrypted_size_2"		"FD2E9397DBF2917BFD3A4AF272A3F867"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"EA091E051B6A29F3ADD8FA16A3F6DA8A"
+					"encrypted_size_2"		"2A71B8ACCF22E4061C78C28E63FC3284"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"72192A18BBD80807E454676F8BFD7E89"
+					"encrypted_size_2"		"101247C9C91878A1BC398E587B2F204C"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"7BFBA4AC3D1F5191B715D8A2883BFCC5"
+					"encrypted_size_2"		"C390C2059F6A8198ACA8D76238005106"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"63C6B9225EBBEC0249D09B8BB11229C3"
+					"encrypted_size_2"		"5CC3F7D47BC526433B4DBF1708923DE4"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"28EE9067E03BBE9F148C4192230369F5"
+					"encrypted_size_2"		"90B0EBE13293A332057E323D5F34B4E7"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"36FAF29BB5CD8B94A5A0D99EFA6843CA"
+					"encrypted_size_2"		"93E60D4FC40FD0A92EFE891E9C7C91BC"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"F78623BCC891F3CACF0B7F4F216F1994"
+					"encrypted_size_2"		"71C2CD7961F4F60456450356C0EDA90F"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"619C547CD6C7572D74CAB3BB972916C2"
+					"encrypted_size_2"		"B7B6D058651B12386E2F76DBDF01CDF8"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"FA0216D47A7EF8A814DB4415412101F0"
+					"encrypted_size_2"		"587BC91186AEA28E4640DF1AE4C05DBD"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"EC118C188BC616122A5411E321638B53"
+					"encrypted_size_2"		"D5D0989CC05A4BC62AF189C950D649C8"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"B796C34C6EC25A34A7006D41D6691E26"
+					"encrypted_size_2"		"D70E0E2D20C7D08466AEBC45B47FC936"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"4B0DF978DF6A6C49DE4CA4F77B116E7A"
+					"encrypted_size_2"		"DDC00294C6C4595191AB85393E9B5713"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"AB07EF5670410E1EBA344C683957827E"
+					"encrypted_size_2"		"3905C8ECDD86D5F2ED89381FCD051298"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"1C2C25838113006E65010A1368F5EA80"
+					"encrypted_size_2"		"65735A665A8ACD3BB805A850BEF218FC"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"086AA9E4DB42C59EBE1A4D35A24E5AC1"
+					"encrypted_size_2"		"DC273D8DFF9049A67EEFB2BA4C129F09"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"58D8D7A2574A88A68A653FD51E9C58E5"
+					"encrypted_size_2"		"D8EBB78D79BCA147CB955DD8FA0E860F"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"0497289194431DF971C5EE77B86CF25B"
+					"encrypted_size_2"		"9516673EE8A796CC2A252D01B3F59B7E"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"C6F0C8990636C835E6B74CD5A0E1191B"
+					"encrypted_size_2"		"724382844F4A3212AFDF09F564B3399A"
+				}
+			}
+		}
+		"527054"
+		{
+			"name"		"Language - Brazilian"
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"4593061020428803670"
+			}
+			"maxsize"		"496600423"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"68FEA9D51CE9A8580E4B32F396281D3E"
+					"encrypted_size_2"		"C58DBDA47682FC0134037549EEB29752"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"71B64EB596A7A2F37625AB70A4CFE1EF"
+					"encrypted_size_2"		"B335D6995B823A67A83C67029EE889AA"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"88933107A66BFFAD2E0ED509A90231D7"
+					"encrypted_size_2"		"180EA702B6BC3CB21F9B94E5E1D220E2"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"EFE93CED9C9E8A9C7838FBC1D0A52907"
+					"encrypted_size_2"		"DA6C26B3DD8BC4C5473791D83B64F9EE"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"AD03E4599CF4A0BBF3BD5FB9A30B8689"
+					"encrypted_size_2"		"90D4ABA7BBC64F381FAA97F1D4794E7F"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"30618866897BB4EACEBD887267ECBB2D"
+					"encrypted_size_2"		"7495B6E915A8864C5C24CB3D698467A2"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"585829DF53B221D63350EB42D594969A"
+					"encrypted_size_2"		"5A5F8C5FAF8C1216CDA8C2B97F9A84BE"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"E84F138815880E81AE0217D08E537B17"
+					"encrypted_size_2"		"1C8992266FD062233701B3B289B7AD75"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"A74D6406EAF924ADE6443DE933C157BD"
+					"encrypted_size_2"		"39DBBD75B23897C1584740FFB7BD972E"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"77BD064289931119862827A176F45D33"
+					"encrypted_size_2"		"4B5CCE32FB9246E051484D7923A5E998"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"838575E85F0F8818BF910EBCD9982516"
+					"encrypted_size_2"		"A0C824540D6C352D1843E5C0AEBF6771"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"74229A620018CC93828E995FE6DA816C"
+					"encrypted_size_2"		"99B4BC8829D753F43F679BA8D5658B7D"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"FBEC295878CE76CD04A3EA9FEAE0626D"
+					"encrypted_size_2"		"FFDAF4F0FE7A3D0A2C47287FF8439683"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"E3219E60B0A010BB6C1A51D4F511CC30"
+					"encrypted_size_2"		"A1E47E53A85558B3651B1562FC6FC238"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"BB0FC3D4B97E4FC0D7932BB43D959541"
+					"encrypted_size_2"		"7B07ABED257040D7B2B70E1B7AB10917"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"AD2AE20EB6079BFCC9A700F6B7E5DA72"
+					"encrypted_size_2"		"DAE925A5BE7C7667463DF0A33495EC7C"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"25853EA05186D6CD826E2175CFB4C0D6"
+					"encrypted_size_2"		"C5D2C3D3B70ED87CE5B0C57531856E7E"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"D092A1E4A236242449F53CA9186F2644"
+					"encrypted_size_2"		"3BA1C88E62057FCAEAB1A3208A2EB9C8"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"D29E5FF50103FCD9701E0EB7807C00CE"
+					"encrypted_size_2"		"BACE8BA07900229D9C23802BE1607F6A"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"9891254056B06C6635F5B3C5767C30FE"
+					"encrypted_size_2"		"275F6B220AED6D10E3E1A937028CC0F5"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"E28E20E6B24FCB19FA7D5D6278253161"
+					"encrypted_size_2"		"A852DA2E737AE3DD7B01416DD8A919A7"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"6DD653BB91E326722DA884E2B755AD2B"
+					"encrypted_size_2"		"4C09B7483D205AA10514EA2B07074F58"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"C093DFEEB688BF6DA2418F99FE692CC1"
+					"encrypted_size_2"		"857145352C7FCF5F975EC3A47AC35566"
+				}
+			}
+		}
+		"527055"
+		{
+			"name"		"Language - Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8154848130664555884"
+			}
+			"maxsize"		"654582308"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"332BAE1A09B4725EA29299B42B2B7D13"
+					"encrypted_size_2"		"B4706F16DC99A300ACB1DE66F3489CBA"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"176DA22ECC93B8E47AC72E71565C4A7D"
+					"encrypted_size_2"		"5A5BAAF13E72431EC47DAC3A95C4E510"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"A1772D438AAC17D20B2D3B4ECE7BDFF9"
+					"encrypted_size_2"		"AFBD43DDD87735BE97E7C29382DB98DD"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"6F2C2531A979D6329D908CE5CF9314EC"
+					"encrypted_size_2"		"8B69C22877B3D26F824F2B9A49A3537C"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"33A51FF1A76517D132BE405D36AA4761"
+					"encrypted_size_2"		"6A2766B82723AFD595096294E431AFB9"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"8C504078F3F69A813480DD2597FB4264"
+					"encrypted_size_2"		"A82B46BB6A5A6D53D4C6043400D71D05"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"F008891A5CF3C52543EB80A38D7DAB7F"
+					"encrypted_size_2"		"321912477C3A52E54D996178A2C8D2DF"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"F153726B7AD363389C4A6CAA91575658"
+					"encrypted_size_2"		"ADEF582EA53FD8F1063D25D878A155FF"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"69542E4B068AC77393D9D276BF4AA858"
+					"encrypted_size_2"		"9F24C8F6D860CBBDF0ACBD3243A92D81"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"A0B5A0497215BE2C35D2B0EBF1011C56"
+					"encrypted_size_2"		"2217417F255E1F14104EDC6A9E069A25"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"2274AC7125F7FFC230C9C02F8DE606BA"
+					"encrypted_size_2"		"0143DA362294E87A3F63887901DB5E65"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"173F0E3C696091A1A4528D530E718FFB"
+					"encrypted_size_2"		"63569E1598B3114DD37DA87EF0D03D04"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"75418D569D7FB74847ABEFCA90DA54FE"
+					"encrypted_size_2"		"C7C43E4AEA9D967E4CFFFBAD8E20DD07"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"AC8BC622BE48E263B8424B461334F9A0"
+					"encrypted_size_2"		"BB324BC17F73E0F5E7F7516785FA9334"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"32A8C1999100D611622AE0957870537E"
+					"encrypted_size_2"		"5182B2732AC9F2A85D41060F550B897F"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"2B3242B41BE0FD53D1792FC34E46F7B4"
+					"encrypted_size_2"		"2C148960A1D5444F6C4F9DE983613083"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"54FAF435FEB52A452D6CC7F07A15E496"
+					"encrypted_size_2"		"B54F38E9D32BD6DCE583F0D9F9182F23"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"8C94CEEC088494CE82175CA7BBD7692C"
+					"encrypted_size_2"		"BBFD3E8A019E9D1850EF7A182C31C699"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"E8A35373D6756ECFF741E44F285FC49B"
+					"encrypted_size_2"		"EB4292E9BA46F96A9203060D59292453"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"58B14A91724EF3EF3E9AC12D3AB66791"
+					"encrypted_size_2"		"C179DE9867B174233D18F3694F6A5D46"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"54D5856D43394266964E20F826A6AD3D"
+					"encrypted_size_2"		"7F23B37F631D514A0DB88402A4C8A8AB"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"636A86254C3A16458CDDD71C4E6942BD"
+					"encrypted_size_2"		"DE2216B44969252F104C47F26385841F"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"9383EF3C1B15F1C80A08596C909B089B"
+					"encrypted_size_2"		"13F6533B21F7244D0707A32DAF9959C4"
+				}
+			}
+		}
+		"527056"
+		{
+			"name"		"Language - Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3549622112303249408"
+			}
+			"maxsize"		"660753809"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"320B247AC0444228B16486F1F2FF1146"
+					"encrypted_size_2"		"5C28542153E8D8E47AF8589C40832569"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"F4F1EFC3D1B5D590E267A0AB3FA8ACA2"
+					"encrypted_size_2"		"9F6D1D281E4BE18EDC23E4155B0839C2"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"80D2741F30216962CF4DFE57E6A26C24"
+					"encrypted_size_2"		"9A8A01438168B0004D52B754278FC575"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"2107AEEA8B12D892FBFDFF1105051D14"
+					"encrypted_size_2"		"770B2C163D36AED5DB8EB4137D9D19A6"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"5F940B53A484BF0448FB9D7CB1C2B236"
+					"encrypted_size_2"		"2C8EA79987745F2F2ECEB6391E43E0CD"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"3ABD3091693528CCEC27BCD645FF9FE3"
+					"encrypted_size_2"		"D3091FEAA00DD8E81EA00FFC01CEB2EE"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"DEAA8CD574AADF16FCA2D6573C78CF39"
+					"encrypted_size_2"		"A37A6FFB3EABC2EFC3B8B08469E189B3"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"D0B2D488998FA4D7792F20678733A2D9"
+					"encrypted_size_2"		"761D5D4635D2EE3150E431345BD72B22"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"BD3EA5B94F9877FAC5F77D590894E28C"
+					"encrypted_size_2"		"22ED6A6DB1E9393EBF11BE5DDAB7FF04"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"56BAC0D102E48B4BFD3C702DB6E5BCE7"
+					"encrypted_size_2"		"6AC8A10ECAAFA1FC441B16C74ABAFF77"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"83D5E6497A17B3C9C6D5B5D62016646A"
+					"encrypted_size_2"		"2A0E644A4A4FB59F6B474AB42C36D51A"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"71E11AD23FA7C7B29C61F5EE65CA954B"
+					"encrypted_size_2"		"A72932BB892C70CD83C0468CE6E5E591"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"304B34C276BEB9940C9685F11DDF56C5"
+					"encrypted_size_2"		"B0FF92269EFEB77D83C6D7BEE588B49D"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"4065F58EC36700ABAEC8C568ADADF95E"
+					"encrypted_size_2"		"C0FB06AD8ECC99ED6817A476CCE62979"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"929F5E22D058B42A507F2FF0B8AE967D"
+					"encrypted_size_2"		"DF7EF6C8828011227C75319B066ACFB1"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"D7D72C6C8D95094EA524FC3F8C670A51"
+					"encrypted_size_2"		"0C7F1FEDD974EC7B60F0BD82624EA75F"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"EC64C935BFB7DF1B171C90E2E34D91DB"
+					"encrypted_size_2"		"D88A4474B4F0A1B932ED8E2E85CCA660"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"25458AC641D6AD309F59B85B982C6F08"
+					"encrypted_size_2"		"96DFE6EA6AFB752E2703ADAC5FC382BD"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"2181209F08575DB3EDDABBF08FF574C4"
+					"encrypted_size_2"		"3425ED072D47275853291A606F051642"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"C168D0A69BEEFC48DC61F2B00B76FBA8"
+					"encrypted_size_2"		"17D4CD75839DDA2E9BC0D6EA7C5E160E"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"2AC7365E88724D6DC08302F4DBE10547"
+					"encrypted_size_2"		"C59B056953AA030D171B6B5158EF079F"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"C1BF3781595E7E79841213912538DA5F"
+					"encrypted_size_2"		"046CAE7B3BEB328E0C8BB651D155DF05"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"96DB08466B3F7D2284804D49E3A4E629"
+					"encrypted_size_2"		"7AC8438489D92EB632DEE5178A64AA38"
+				}
+			}
+		}
+		"527057"
+		{
+			"name"		"Language - Dutch"
+			"config"
+			{
+				"language"		"dutch"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6124957372517002477"
+			}
+			"maxsize"		"7859"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"A62E6A3A34AE7B72554B513616F621F2"
+					"encrypted_size_2"		"930FB8EDA91932AD0B7686DC377E7C5E"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"A08C1F2FC0838E69E8B189AF0959DFCE"
+					"encrypted_size_2"		"88FF53E07ACB9223E31EE33A7ADEEC94"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"0C045589AAB2A16E4B9667CE4A1343D1"
+					"encrypted_size_2"		"0FC1D6BE28119D35675C896A6262EAB1"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"8524C4D8738EA684F09BD465C67B8FDB"
+					"encrypted_size_2"		"B1797596092C1B5DC236F97164033785"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"40380F7A6C761E1339FFE3861901B35F"
+					"encrypted_size_2"		"4F8475A7BD7C995C179F9EE53F7B1B5D"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"797353248DFA955A901BA162B45B679E"
+					"encrypted_size_2"		"C5B46228B7BBE02BFA41E36C947079E9"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"A2D48EC470786284F3A7540E8F7A7D97"
+					"encrypted_size_2"		"7A8CBF92A41FBF8D337C6E9B8A94D6D0"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"FED5175E9BDA0D19DBBBEA44FE6DC07F"
+					"encrypted_size_2"		"FA61F63D74251B0177621EA01F5D9719"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"F7BD61DB2C5702925F80680C8D6C2686"
+					"encrypted_size_2"		"A3CFEB7A2CF799CA4E01C80C4754A099"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"A74DA82CDBD1220D7C520772B8268BF0"
+					"encrypted_size_2"		"474DEC5E671768AEEA5CFCFA54AB06BA"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"28EE75E849D25138CAA6E2DA69CD65C1"
+					"encrypted_size_2"		"6C908F207342BBC067796E45B1C825F9"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"287B49C7591FBF9EF4C9DD2BE9BA65D3"
+					"encrypted_size_2"		"15F7B2EFA7FEECE91C423CAD6F9FA64E"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"60F949DA9A38EBBDF0C73A1353D41082"
+					"encrypted_size_2"		"A4A83C7F3C3E0813DD753EC0476349CC"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"BCBFC68EEA9FB4D5094911E70125A2A0"
+					"encrypted_size_2"		"596739D89B099AD99672DD7043D31F6C"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"4207AC0F191E11369D882EFFAF20C283"
+					"encrypted_size_2"		"8CDA37DAD00CD782F0A12AB01954A61B"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"4ED6812237A48E3F2B2889E6A8E6B94C"
+					"encrypted_size_2"		"535E28FF611E48B3DA824ED84D0A85E2"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"20C7A25425276E0A2CFAFD87774A6126"
+					"encrypted_size_2"		"027A8F7FACE5CA04BD5CB8F00CEDBB05"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"37C4DF3532357A2B93FB07CFF44B95B3"
+					"encrypted_size_2"		"E2F224E71FA9C9B5EB872B47EEB67312"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"6B4AFC5EDE15D5C81B5EF36CB047F743"
+					"encrypted_size_2"		"91ABDA47B0136A3537A72F6DE78BBA38"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"6A1A07109FEFA65EDB66D176CB3C191E"
+					"encrypted_size_2"		"51E70C9C605EBBFA101FB78570C42944"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"3B314D37D0F9908CD4367308A35301F6"
+					"encrypted_size_2"		"CF36E294FEC0FDC57927F137D8F24FBD"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"C5B82957067B1EC978D25EA0E51F5545"
+					"encrypted_size_2"		"AEC4724B15AE319B130F3F9B571E8445"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7D43EDE22F047A82B68D8119EF395612"
+					"encrypted_size_2"		"4B6D5DCB0C7A332ACB1CD533338FE86D"
+				}
+			}
+		}
+		"527058"
+		{
+			"name"		"Language - Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"9098753460070852982"
+			}
+			"maxsize"		"7903"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"67AC06816B7D8DFC4BCBD6EBBED6A727"
+					"encrypted_size_2"		"CFD774732AB2B8AE1DD8EE0F599953F2"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"6DCB07C2241B3206DA1C806F2185BD03"
+					"encrypted_size_2"		"A382C90248A15721D6286A7683DA3147"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"BB90DD8618110F3541BBE5221CAF24A2"
+					"encrypted_size_2"		"42A33D463CE4AA1BEA25A6B20C14078C"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"E027A4FEF680920DF69FABA3C86CB988"
+					"encrypted_size_2"		"236E022854E2FF95BF89D95E59E56E47"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"78C643B0D6714DCB329FC4FC9C4C6699"
+					"encrypted_size_2"		"C33383AE934D8279CD3BF576D14AC648"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"F8FB1E2ABE9F7097F2095C7EE023205D"
+					"encrypted_size_2"		"1106CCFE4915553597C13A2E62263FDF"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"2A08CC2A17FC6046ECB6929CA7A16703"
+					"encrypted_size_2"		"375E8A26E8AF3682CB0B096254013F1E"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"9C16E349012D14A4A9457EB683E22D89"
+					"encrypted_size_2"		"0E80AAB73C212EA4CEAED6149DDB6B68"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"0AEF824A4E55AC6718B363CC4C5DFC06"
+					"encrypted_size_2"		"CA291B4B1D22F646BB12D6111C4C9AD3"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"D42763CFB76955CC660C5354CECA71FF"
+					"encrypted_size_2"		"75FB8CB50D745221808A0763FCC81EB1"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"7F729237F1B70158B50F4107A79A0848"
+					"encrypted_size_2"		"D76C082B49C8969373AA1356D763CE5E"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"B37D182D5BF969E2B0155E0ADE2FF4BD"
+					"encrypted_size_2"		"B737232B37049E719C1A4A21DBFA6AD1"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"5F88DFE116DE22D54E3E0C4ACD8450E8"
+					"encrypted_size_2"		"19E2D7C2D0D5A86C45F51C5CA591A01E"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"D4E34237C956F23468795F34333539E7"
+					"encrypted_size_2"		"D61B64379DBF6DFAFE7AAE8DAB99559F"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"EAB8869962BC936BB8277B32DC9DBA32"
+					"encrypted_size_2"		"5EDDCE7A00A616F9A6DBF3ACBFA3EA66"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"234ADE25407DC25DF8F571F0A543C213"
+					"encrypted_size_2"		"520B874E98C2AB150B42B137976FDFD8"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"E43D4A93B9A03280711AA6FBD2699330"
+					"encrypted_size_2"		"6FFFBF69F807C3533C6084828DDA3673"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"11EFE644C878EED4F9BF146344A70A80"
+					"encrypted_size_2"		"BFD541DF91EAFAADFEADE2C918A85047"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"F36EDF001FDE164B4D7EA4F316521081"
+					"encrypted_size_2"		"0B62741F07A58822AA7F0DAA1FCDFB30"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"DF40BE0C47D75AA4786CD26B6C1A2687"
+					"encrypted_size_2"		"14BCD6D479691EB3082AB15930FD8080"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"4533773A4FAAE568AD0FD7358E61FD9A"
+					"encrypted_size_2"		"74E382425AE86DC847EF22F3A6CC2971"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"9D8843E72F9E27D82B9DED7870F4FC06"
+					"encrypted_size_2"		"87BC7AEF733421F49FBAFC3A6CAEBC33"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7A3C4B4E7D062D8A5B5CFCA98BB60117"
+					"encrypted_size_2"		"865515B4D3EE640F56D652BFE108DE41"
+				}
+			}
+		}
+		"527059"
+		{
+			"name"		"Language - Czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"3242481988643357420"
+			}
+			"maxsize"		"7717"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"3254BA66361087E30F6BB9B585C4637E"
+					"encrypted_size_2"		"3332D1F4DBEFA2B8CFC3C9E3B00EC53C"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"C9FA2097EDE7E6ED886122C5F9A5F72C"
+					"encrypted_size_2"		"4A1FA75034B743FED2A376B360BA488B"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"55D76008A9EFA5B152113920C12FBBD8"
+					"encrypted_size_2"		"D3FE291DD62459B2FF4A31CE6E42D264"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"DC933BF53867FBAF496214438912FB5B"
+					"encrypted_size_2"		"4182FAA1ED168B2A31A2E3D15AA22B8F"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"00ED7A452D55C4B621C18D34E752F963"
+					"encrypted_size_2"		"8597819A131936DAD86ADB4DF0871756"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"0774381A26468A729233A6CB0B1F81EE"
+					"encrypted_size_2"		"355D0A43103708BCBBE85CB062879B35"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"DFD19398FD3560C55151C43E9DD1B803"
+					"encrypted_size_2"		"5694732181BE7183B8E0D3E32603C396"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"2C818F13A6065E56B11EB1FF8EC155AB"
+					"encrypted_size_2"		"D7EB438235B6FE303EED07FE15B247E7"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"28A81AC90E864F2C7B415A9F35A5FA6B"
+					"encrypted_size_2"		"A38590215C1A6A53150F88E9D9022080"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"F94065DC685A90111B2BD2B9CC8ED656"
+					"encrypted_size_2"		"D0910A5B7BB9725A7FE2B6282F194DA0"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"FCB12D2EB180DC759A5C8343B01C241C"
+					"encrypted_size_2"		"9008C0D7975F255DCE32CFC65B90D586"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"65BED63D377DA58FA03D3AF88EAF45CC"
+					"encrypted_size_2"		"FA5837C82F4D9997221913E527FE730E"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"D1336A9EDFEFF60B9D6566E092755F0B"
+					"encrypted_size_2"		"B135F00A192873B86DB7E5C213C4C48C"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"D9DB896D3F6306EDDA1D4B61DF275FC7"
+					"encrypted_size_2"		"D5E094E64B22C715DC7C84E1E76EBEBD"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"89C62EEE468FA7EF920881B92C5C35A8"
+					"encrypted_size_2"		"EA2A74D8BD4356BB8FD1039598FCF001"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"86EE8AF27308926567D621CC452CBDF1"
+					"encrypted_size_2"		"17BA57C551632B7D1C32D5E8A3138FEF"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"7F03DA19B0312757E19B8D35FE9399DA"
+					"encrypted_size_2"		"7B8702FBFA1F29D18A070E6F391C331C"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"5B0D91423280593A1B71AD1EBE68647E"
+					"encrypted_size_2"		"97E4584BB0251D323C694487A7D426FB"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"F5B0122A3FF97667BA1D6F9B2CA2BFC7"
+					"encrypted_size_2"		"68B1DD3817EE680240E7816B654C1B89"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"0A8FB944F9D3C89A338637049BC83E55"
+					"encrypted_size_2"		"A6DE52EB1913D37F6E509442553927CF"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"314E1FEAEDFD5A23B8D6FEAED0BBC457"
+					"encrypted_size_2"		"1770D72778EA9141D1A66008BEDC36AC"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"5EEDE56466DA4D70DC3B580617D26F6A"
+					"encrypted_size_2"		"8AFA4CFF2482A5A23F86A6DCAB5445D6"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7A789E6848A8262206E80743B72CC71D"
+					"encrypted_size_2"		"EDCFEB70A4D2F1E7AFA3B88A8C2B518C"
+				}
+			}
+		}
+		"527060"
+		{
+			"name"		"Language - Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8860985152467661623"
+			}
+			"maxsize"		"8117"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"BFBA5D548D0C52151DB291CF3E5BF1A7"
+					"encrypted_size_2"		"DE8321B907A82FA835C77937F5287793"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"0AC3973CE30ED93B7B86F86AB9E53019"
+					"encrypted_size_2"		"88FA51D2AE9695128F183EF6BB39E788"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"A29CE2E9974DD3DF1EF19932F51100EA"
+					"encrypted_size_2"		"A674240265460AFDCA47810D592A230E"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"83092EF0334FE9C7F31FC9ED33F13DDA"
+					"encrypted_size_2"		"13D92382E937828A2671D48F2C12E016"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"1D62E6030AF8A4C9C1113424AF15D033"
+					"encrypted_size_2"		"D4B21448B34888C01DE06EC8A5624EE2"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"841D2A54A09449C666627CA98F456EA5"
+					"encrypted_size_2"		"0CF82D8F4951A623E347E181F3AC602E"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"FE5D2C12E1B361399E5382398A230383"
+					"encrypted_size_2"		"C9AE0A9DB2BDFB765B5D95A34C8EDEBE"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"6041EF05459202E5E8F823F52AF74B55"
+					"encrypted_size_2"		"8BF1CA5D55247563547D84941DB42A37"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"63799FF382C94CC009D488E3EE6C66A2"
+					"encrypted_size_2"		"DDAE564CE797AB61A18B00008477A8B3"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"ED960A8C34A693F9C5759405F5C130DA"
+					"encrypted_size_2"		"B86B6FA86F4B97A51CC6FE701E8BB9F5"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"454EC0351C1669C89CC89EBE6438F15B"
+					"encrypted_size_2"		"ED28870FC690E88C6EAEEE592D49CDE1"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"7487D3A117E82A45961A3C173527A34B"
+					"encrypted_size_2"		"5EB70EC6640BD81F6999166BC271EC93"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"3DACA97561F723A71EE1A9EA5E3FADA1"
+					"encrypted_size_2"		"F0EE9317DC0870A819215E58219BA77F"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"6D7170785DF0C2EAB94FF8559A4A1DC2"
+					"encrypted_size_2"		"C3D6BF1FED0598739BCE77B6DE84B951"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"E63506FCDEFCCE6AA51771CC91C21E26"
+					"encrypted_size_2"		"38EC92C463CC3A23D74EC431AE836CF2"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"06D6BDE31586FC3FA699CAAFBD658F68"
+					"encrypted_size_2"		"0FB8A3F69849D908E2C07F1A7BD32DFA"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"E7E26F792EFF1A438DABA4109328E88B"
+					"encrypted_size_2"		"2FF7C3552BDF9AA5D78561FB4789973F"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"488309D66CB89580E1E338FB819A3FA8"
+					"encrypted_size_2"		"7958FC7ACF8DDED8A8D0C433CFCF18AA"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"05D78F63D18D92B15112802649232C21"
+					"encrypted_size_2"		"549ECD5C81676A7C1A318053380DDC17"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"13F9A27BBB10EFB4002934DAD190867E"
+					"encrypted_size_2"		"C8BD569EEA13C218AB5DD8436381AFAB"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"8B318461440689C44637BC3BA11A181F"
+					"encrypted_size_2"		"520545D83E9942C3FC44A7BF1D113121"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"C485D49F2FE4DE068CBCA5C5DEC1B183"
+					"encrypted_size_2"		"1759A584C49210E18A83FA2B453EBED0"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"9EDD98AEC8804867E9C15EE8400A7FF6"
+					"encrypted_size_2"		"40A5F500DE019ABB6B4BF38427874F79"
+				}
+			}
+		}
+		"527061"
+		{
+			"name"		"Language - Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8176097857841750898"
+			}
+			"maxsize"		"6037"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"3BFF1CB8715CC9137B48564CBCD95D69"
+					"encrypted_size_2"		"3A9F3F9D7068D4202D52BCF661B1FDF9"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"7E5F7A6EA9E9EED2BD9B77920F0C15FA"
+					"encrypted_size_2"		"937CDFA55139AE4298B7088235A7EB8D"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"727C30C7E0F5C1362FFD86936127172F"
+					"encrypted_size_2"		"CC4131472C7AE26B61214599766EAD97"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"C747FF82AE8FC63F9B134F6D5E4017BF"
+					"encrypted_size_2"		"A8BC8D5359653934054856FB24DDBD49"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"702BA1038092236B28AB9889E7CAA718"
+					"encrypted_size_2"		"53221DDEA78EF5ADB111B06BD518E05A"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"3305DB64666A251613FBBB3EF297BDE7"
+					"encrypted_size_2"		"730EC88F176D979EEB97F10ED2E5828E"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"C0A44E470AA5900370D8CD2C122FE7F6"
+					"encrypted_size_2"		"8959CA28B7A1AF29270CB64ACB3D45DC"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"BC54CE55C73E6A45F58A808C888DB958"
+					"encrypted_size_2"		"A75EBAF0890F303A339B4934154BFE7A"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"C7508518033E424AC45AEAC89CE81DD2"
+					"encrypted_size_2"		"A7B536437A7E3C5362E4A3E6AED46F33"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"1CA2085545B16D76129CABCEE8E552B2"
+					"encrypted_size_2"		"6114B6E3BF917E1B8434E671E33CA3BF"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"EB8316903EDEC3AEC19EFFAFE5049C8B"
+					"encrypted_size_2"		"01058EC78A1AAA2EA3E706287718CE7A"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"547AA7D2B69CF5DF1CC6D110B3372C37"
+					"encrypted_size_2"		"8C7C218FAC27B73D3126E669CDBE74D4"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"B2D67A288A5F4FB2F600CA58391298A4"
+					"encrypted_size_2"		"4BFB54BA509DA8CFC82FF1072D39B2B0"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"7C918D24F9B76A323A3E96F42D2FE0DD"
+					"encrypted_size_2"		"38FD6D1A598A62836B0D28D80417E0AE"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"05970977DCD266C066B1D94584289260"
+					"encrypted_size_2"		"3BDDFEFA950F3AD6B01C2C7F67FA7135"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"40B6931627E4696AA88B3976AD34EB41"
+					"encrypted_size_2"		"AF7D5E264A623F213940FDC940110A97"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"F8BE0E9CF82BE27F124568FCCD9CEEFF"
+					"encrypted_size_2"		"89CFDB068294C532B18EA81E874F4FEE"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"80CAF86708BB38F406892BFB8A9FBB5A"
+					"encrypted_size_2"		"D2F315B01BFAB38DE5CD95804C15933A"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"95993EFE6FCD689CBA1C9EE5D92E3418"
+					"encrypted_size_2"		"D62363FB82BB30A6C9A0582BBB5B9EBD"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"CDF5D991DF177E02B6C783F1F9442612"
+					"encrypted_size_2"		"048FCEF7E63A42D847FFD9B9A894FA7B"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"383C154AD5756FAD34FBB716E1A93491"
+					"encrypted_size_2"		"C249104DB0CB13B7B4D5FCFA5324D200"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"F7496EA7C0B28C46CDE5F57E0765E8CC"
+					"encrypted_size_2"		"9C0E24D460139F4A8611BDFFC261DCE3"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"0DDF6E8A8650713D45EBACCCA136BDC6"
+					"encrypted_size_2"		"45F85DDBDB6A4D835FB4C3BCB35EB807"
+				}
+			}
+		}
+		"527062"
+		{
+			"name"		"Language - Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"5492473683860444294"
+			}
+			"maxsize"		"6116"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"080B18690DF8E2C5031F201925258F45"
+					"encrypted_size_2"		"65E621859A163AF6BFB6AA3D8ED42204"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"3AC62BBB1EA41389C63FBF992673FD76"
+					"encrypted_size_2"		"2118690D86127A35FDBBEEFEB77316EA"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"9C0AAFEAD873D255D8568F02F032B077"
+					"encrypted_size_2"		"BA5ED591F21F10DFDFC0AA219993D09E"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"E0F2DB5241AF8D46E1C840330CEEAABC"
+					"encrypted_size_2"		"4F493876979CA995B54211F11E46BC81"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"4B13ED88ACC08A4646FDCE28A31ABB8D"
+					"encrypted_size_2"		"A48937D4D141F2643F4C37134018253A"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"8923CBBE25E68DAC7AC558EA58CFDAD4"
+					"encrypted_size_2"		"4E1743B3AF3F512855FC01A6076ABE1F"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"B2BC55133D2EC636FBABA1AC94656D9E"
+					"encrypted_size_2"		"543397D0845A91C0A558432F1FB56FEB"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"E34F5CF3D51AAD123B04B5F7356374A7"
+					"encrypted_size_2"		"EE1251009739AB00A6BA8E6B090DB385"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"7D5913F0D26D798F9E83405D86853068"
+					"encrypted_size_2"		"E70E655A067CF982DADF74443DBBC5D0"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"40D11F071B934B509C3BA7FE9BD9CC0F"
+					"encrypted_size_2"		"C3FD980F4AF29BBFAAE2BF67353AEFD8"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"078896D69BA0B30ABF2051D2A15CACA2"
+					"encrypted_size_2"		"725B9A5A407F1B54FD6608276D3D6C29"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"35C6EA4F7D04CDEC434A726FBAA0B1D8"
+					"encrypted_size_2"		"BA6C03632C1A337AAA924C7260FA5E79"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"CC70425E245ADF3BC4C7BB701690FF1D"
+					"encrypted_size_2"		"D32B7375FFE7FAEC00CD1BA5BAB3820A"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"7C8BADB0CE47554354D2F00B9C0D81AF"
+					"encrypted_size_2"		"BCE0044B62172FC0ECC79CAD7FAFF3BF"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"D3151A4E7C76D9221FCA2B0207B78BC2"
+					"encrypted_size_2"		"A4C482C34B4652235C78D0B3F8523F40"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"2B0334D75A9C451118B142A88E67AA87"
+					"encrypted_size_2"		"6910F82A4302F82517C490F37B21F50B"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"01B5B7D85A1D455E67B31ABD97A09057"
+					"encrypted_size_2"		"EAE880A72D3C395E776FB5E3D3FC5979"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"71F079B7C1B5EF04E51B85B657643EBE"
+					"encrypted_size_2"		"F4D5832D8EFD371993160F2AB75AFF27"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"95A9A849AB4B31FD8C9353CE279CAC56"
+					"encrypted_size_2"		"050EDFC22446356E19A873DDE8E78891"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"08121B1E130FDE0F42F0FF4C22757EDD"
+					"encrypted_size_2"		"2847B1AFDFC49BF26D687317C847C3E0"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"96F3DA89FA8CA7917B0C4411EA8CA875"
+					"encrypted_size_2"		"4F65A594839F57E63D406E89F77A0082"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"58815F50F14BB51F37F2EE8C19C70ABD"
+					"encrypted_size_2"		"3DE01B518081CA9C2BD29E21F8E3FDB6"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"7E894676013916ADB215AD18E949F652"
+					"encrypted_size_2"		"1CA6A4E2C7196ECA761F9837C5FDA8E4"
+				}
+			}
+		}
+		"527064"
+		{
+			"name"		"Languge - Arabic"
+			"config"
+			{
+				"language"		"arabic"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2643219001381659792"
+			}
+			"maxsize"		"9806"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"86749ADD2CF9D1B946A7DBD35FCD2EA9"
+					"encrypted_size_2"		"A1A5042B7D0E43160A0DDD963B80975F"
+				}
+				"internalqc"
+				{
+					"encrypted_gid_2"		"96ABE447FAAE836A4EB3D47D136257FF"
+					"encrypted_size_2"		"8943A8537DC928084CB926ECD270BE51"
+				}
+				"internalqc-pvp-beta"
+				{
+					"encrypted_gid_2"		"88F413A0A831BC2E295A0161EBB66613"
+					"encrypted_size_2"		"85B09731353321638A8226E350E29D35"
+				}
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"7D4A38B5C0FB6A097AFD215A429329C4"
+					"encrypted_size_2"		"3E5D566A430F9640845B30ABB0B7F0D4"
+				}
+				"internalqc-tu10"
+				{
+					"encrypted_gid_2"		"D58CDD3CCC82FA35D9BA5FA1FAEFD01E"
+					"encrypted_size_2"		"4601781AF114BD940ABDDD1B4269A80F"
+				}
+				"internalqc-tu10.1"
+				{
+					"encrypted_gid_2"		"5761E09C88E9794692A54BC377D52130"
+					"encrypted_size_2"		"C305986844569B2FE2D9A7729C6D56EC"
+				}
+				"internalqc-tu11"
+				{
+					"encrypted_gid_2"		"3744FB159DFAAE7BE3515E5374F536C1"
+					"encrypted_size_2"		"A16E2B801CE849950B2A314A7AF8E5C6"
+				}
+				"internalqc-tu12"
+				{
+					"encrypted_gid_2"		"C9C5C25A8ED95DF5DE26EA3149C9F512"
+					"encrypted_size_2"		"1B1C609E20FFE895579A49AC3A927937"
+				}
+				"internalqc-tu13"
+				{
+					"encrypted_gid_2"		"D4EEFF36353781F3EE16224F91C8451E"
+					"encrypted_size_2"		"BEA67CDF4DD593FB1E5193170238D409"
+				}
+				"internalqc-tu14"
+				{
+					"encrypted_gid_2"		"136B35E614617FE81300F8B747001B86"
+					"encrypted_size_2"		"5AAB9450712D887DA414CCB2A3A66350"
+				}
+				"internalqc-tu15"
+				{
+					"encrypted_gid_2"		"D8293916D775A3040E03DE19325DAC0D"
+					"encrypted_size_2"		"6E30DB3C013F579DAF9CB0275210313A"
+				}
+				"internalqc-tu16"
+				{
+					"encrypted_gid_2"		"A24531FACA0467072B1ACDB1F458B59B"
+					"encrypted_size_2"		"A38AFD3B5A46D5827FEE114A2E7D9691"
+				}
+				"internalqc-tu17"
+				{
+					"encrypted_gid_2"		"4129F8F5144BE6EBA5DE45C4769D9A7E"
+					"encrypted_size_2"		"844197F0C6D65ACE54F3CFE3C1FB3C2B"
+				}
+				"internalqc-tu2"
+				{
+					"encrypted_gid_2"		"2D4ACFE285FD943BA8E8BBCA051C6EDA"
+					"encrypted_size_2"		"1DD724620C6D06CA3ECC2CDC1D71C715"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"EF1B444DC954313640E09B13E50D4376"
+					"encrypted_size_2"		"FC6D0B944A552BA5F58FFA6BCBFE7CFA"
+				}
+				"internalqc-tu3.5"
+				{
+					"encrypted_gid_2"		"72DEC9E39F363999FF1350B7E5482788"
+					"encrypted_size_2"		"81C06155D848C9AA557730F9190E8AEE"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"DBA1C0F05E63EB2490142774DF3E8740"
+					"encrypted_size_2"		"37C69A631B97A596B15E31AB31F6A572"
+				}
+				"internalqc-tu5"
+				{
+					"encrypted_gid_2"		"DCB0C809750417C0A876BB1A98B86A79"
+					"encrypted_size_2"		"2527231916C19334C1F4D04EA2894AB4"
+				}
+				"internalqc-tu6"
+				{
+					"encrypted_gid_2"		"9FE37BF60451733514FAE4A765AB8F30"
+					"encrypted_size_2"		"97D0F8853BF63FAA117DAEC5B0E7F815"
+				}
+				"internalqc-tu7"
+				{
+					"encrypted_gid_2"		"C1ED863863DAA9632E5E28D0D12EBEFE"
+					"encrypted_size_2"		"8D444B423F2B60BF200FFAF52103366F"
+				}
+				"internalqc-tu8"
+				{
+					"encrypted_gid_2"		"46F58DE2C5E3F96A89CF0F5946ADB0CF"
+					"encrypted_size_2"		"50700D6BF6DB2321F71AA743DFF1282A"
+				}
+				"internalqc-tu9"
+				{
+					"encrypted_gid_2"		"75374B05DA64091C3DFE79EB29905199"
+					"encrypted_size_2"		"6CF3BC092B8878EB371CE5501DEF0D44"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"C764ABA0088F57B0C6AAED3A3B9001BF"
+					"encrypted_size_2"		"DADF25785C2CC54D4B4BCA18DFA699C6"
+				}
+			}
+		}
+		"573831"
+		{
+			"name"		"Tom Clancy's Ghost Recon Wildlands - Narco Road (573831) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"573831"
+			"manifests"
+			{
+				"public"		"504287665923200055"
+			}
+			"maxsize"		"7405725764"
+			"encryptedmanifests"
+			{
+				"internalqc-tu1.5"
+				{
+					"encrypted_gid_2"		"461C208EA27D70312F9FBC540F7020C7"
+					"encrypted_size_2"		"E633078C97BA6061A8BB183690CA717C"
+				}
+				"internalqc-tu3-narco"
+				{
+					"encrypted_gid_2"		"84ADF048B2D6CD012D3CEBEAEC0347DB"
+					"encrypted_size_2"		"0A4BDEE06F72001FBF3EDC17EFE9A297"
+				}
+			}
+		}
+		"573832"
+		{
+			"name"		"Tom Clancy's Ghost Recon Wildlands - Fallen Ghosts (573832) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"1388355723944228642"
+			}
+			"maxsize"		"6759136163"
+			"encryptedmanifests"
+			{
+				"dlctest"
+				{
+					"encrypted_gid_2"		"4077742754EE0AB786ADA7F79B100D01"
+					"encrypted_size_2"		"265F10DD4A0E6F8A69CFC12512E6CDDF"
+				}
+				"internalqc-tu4-fallen"
+				{
+					"encrypted_gid_2"		"5B07EB59DAA29FDEFA635637C5AC55C9"
+					"encrypted_size_2"		"8AF08FC082AC0A6B56BA48A6C636A1C6"
+				}
+			}
+			"dlcappid"		"573832"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4006530"
+				"timeupdated"		"1563436916"
+			}
+			"dlctest"
+			{
+				"buildid"		"1777180"
+				"description"		"DLC Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1493040075"
+			}
+			"internalqc"
+			{
+				"buildid"		"3513467"
+				"description"		"Internal QC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558729846"
+			}
+			"internalqc-pvp-beta"
+			{
+				"buildid"		"1953222"
+				"description"		"Internal QC PvP Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1499802044"
+			}
+			"internalqc-tu1.5"
+			{
+				"buildid"		"1772781"
+				"description"		"Internal QC TU1.5"
+				"pwdrequired"		"1"
+				"timeupdated"		"1492779773"
+			}
+			"internalqc-tu10"
+			{
+				"buildid"		"2243549"
+				"description"		"Internal QC TU10"
+				"pwdrequired"		"1"
+				"timeupdated"		"1509406152"
+			}
+			"internalqc-tu10.1"
+			{
+				"buildid"		"2276138"
+				"description"		"Internal QC TU10.1"
+				"pwdrequired"		"1"
+				"timeupdated"		"1510370444"
+			}
+			"internalqc-tu11"
+			{
+				"buildid"		"2353212"
+				"description"		"Internal QC TU11"
+				"pwdrequired"		"1"
+				"timeupdated"		"1512775590"
+			}
+			"internalqc-tu12"
+			{
+				"buildid"		"2452141"
+				"description"		"Internal QC TU12"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516378529"
+			}
+			"internalqc-tu13"
+			{
+				"buildid"		"2608059"
+				"description"		"Internal QC TU13"
+				"pwdrequired"		"1"
+				"timeupdated"		"1521154746"
+			}
+			"internalqc-tu14"
+			{
+				"buildid"		"3154642"
+				"description"		"Internal QC TU14"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542896212"
+			}
+			"internalqc-tu15"
+			{
+				"buildid"		"2988407"
+				"description"		"Internal QC TU15"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532941746"
+			}
+			"internalqc-tu16"
+			{
+				"buildid"		"3188968"
+				"description"		"Internal QC TU16"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538848014"
+			}
+			"internalqc-tu17"
+			{
+				"buildid"		"3347332"
+				"description"		"Internal QC TU17"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543422004"
+			}
+			"internalqc-tu2"
+			{
+				"buildid"		"1702656"
+				"description"		"Internal QC TU2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1490021249"
+			}
+			"internalqc-tu3-narco"
+			{
+				"buildid"		"1754738"
+				"description"		"Internal QC TU3 + Narco DLC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1492076902"
+			}
+			"internalqc-tu3.5"
+			{
+				"buildid"		"1777363"
+				"description"		"Internal QC TU3.5"
+				"pwdrequired"		"1"
+				"timeupdated"		"1493044637"
+			}
+			"internalqc-tu4-fallen"
+			{
+				"buildid"		"1806674"
+				"description"		"Internal QC TU4 + Fallen DLC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1494242364"
+			}
+			"internalqc-tu5"
+			{
+				"buildid"		"1896299"
+				"description"		"Internal QC TU5"
+				"pwdrequired"		"1"
+				"timeupdated"		"1497651731"
+			}
+			"internalqc-tu6"
+			{
+				"buildid"		"1968709"
+				"description"		"Internal QC TU6"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500371189"
+			}
+			"internalqc-tu7"
+			{
+				"buildid"		"2043722"
+				"description"		"Internal QC TU7"
+				"pwdrequired"		"1"
+				"timeupdated"		"1502951660"
+			}
+			"internalqc-tu8"
+			{
+				"buildid"		"2208232"
+				"description"		"Internal QC TU8"
+				"pwdrequired"		"1"
+				"timeupdated"		"1508317545"
+			}
+			"internalqc-tu9"
+			{
+				"buildid"		"2229265"
+				"description"		"Internal QC TU9"
+				"pwdrequired"		"1"
+				"timeupdated"		"1508951371"
+			}
+			"testing"
+			{
+				"buildid"		"4179478"
+				"description"		"Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568044935"
+			}
+		}
+	}
+}
+ 

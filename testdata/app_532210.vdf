@@ -1,0 +1,1128 @@
+"appinfo"
+{
+	"appid"		"532210"
+	"common"
+	{
+		"name"		"Life is Strange 2"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"logo"		"6b601fb13471b4f73793b250ef97f33a322214e8"
+		"logo_small"		"6b601fb13471b4f73793b250ef97f33a322214e8_thumb"
+		"clienticon"		"b9612ccb56eca608eadaee2c9ee872211c011b88"
+		"clienttga"		"ebb6d5537a612313fd93a7fa15e67efd4f585fe6"
+		"icon"		"4bc11557267819da12bb45488ffd3f1fb3945279"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"532210_eula_0"
+				"name"		"Life is Strange 2 EULA"
+				"url"		"https://store.steampowered.com//eula/532210_eula_0"
+			}
+		}
+		"metacritic_name"		"Promenade"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"44"
+				"height_pct"		"43"
+			}
+		}
+		"store_asset_mtime"		"1566926571"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DONTNOD Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Life is Strange"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1537977840"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"532210"
+		"store_tags"
+		{
+			"0"		"1742"
+			"1"		"6426"
+			"2"		"21"
+			"3"		"1756"
+			"4"		"4182"
+			"5"		"4166"
+			"6"		"4242"
+			"7"		"5984"
+			"8"		"1698"
+			"9"		"12095"
+			"10"		"1697"
+			"11"		"4486"
+			"12"		"5900"
+			"13"		"5716"
+			"14"		"5144"
+			"15"		"1664"
+			"16"		"6650"
+			"17"		"1693"
+			"18"		"1719"
+			"19"		"4136"
+		}
+	}
+	"extended"
+	{
+		"developer"		"DONTNOD Entertainment"
+		"publisher"		"Square Enix"
+		"homepage"		"https://www.lifeisstrange.com"
+		"aliases"		"lis2, life is strange 2"
+		"listofdlc"		"872070,872080,874660,874661,875580,895490,895491,895492,895493,957240,1153740"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Life is Strange 2"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"LIS2\\Binaries\\Win64\\LIS2-Win64-Shipping.exe"
+				"description"		"Life Is Strange 2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"LIS2\\Binaries\\Win64\\LIS2-Win64-Test.exe"
+				"arguments"		"-ExecCmds=\"toggleAllScreenMessages;Quit\""
+				"description"		"Promenade (test exe)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dne_qa,denuvo,age_ratings,gamescom_demo,loc_trans,marketing,milestone,playtest,pr_branch,qa_amd,qa_compat,qa_integration,qa_integration2,qa_intel,qa_loc,qa_nvidia,review,tape,writtersroom,se_ext"
+				}
+			}
+			"4"
+			{
+				"executable"		"LIS2\\Binaries\\Win64\\LIS2.exe"
+				"arguments"		"-noVerifyGC"
+				"description"		"Promenade (dev exe) - for dev log output"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dne_qa,denuvo,age_ratings,gamescom_demo,loc_trans,marketing,milestone,playtest,pr_branch,qa_amd,qa_compat,qa_integration,qa_integration2,qa_intel,qa_loc,qa_nvidia,review,tape,writtersroom"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamconfigurator3rdpartynative"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,brazilian"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"name"		".NET 4.6 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"62009092"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"532211"
+		{
+			"name"		"Life is Strange 2 - Episode 1 (532211) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2949914894402095799"
+			}
+			"maxsize"		"11314493228"
+			"encryptedmanifests"
+			{
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"4B333363E6A7DA9C9CFE6CEB3C430C7F"
+					"encrypted_size_2"		"DFEDABCBFD2C53B580E1FB339B77E3BB"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"AC7D3E8624F891E6A48809A156CB1A90"
+					"encrypted_size_2"		"25632043D4F3E3D05AD8D23DCDB44C58"
+				}
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"D174378959E8EB07D8250A586A8B1835"
+					"encrypted_size_2"		"3A80A237B577CF76F8FA0D3C783C472F"
+				}
+				"external-test"
+				{
+					"encrypted_gid_2"		"656AD347FE25DA9FC9DFAF5E05543F3A"
+					"encrypted_size_2"		"5E744F8111034A86FBE27FECD2961B4F"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"4CCD74FAC854091021BB59244A21F88A"
+					"encrypted_size_2"		"52D046D555E9DE3AAB7E34E2CEFED4A0"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"CBE1536C855E4308456D24F29F167495"
+					"encrypted_size_2"		"24096D0E5857DCD828B224951520E537"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"066A6507893E085450DD87011922DA65"
+					"encrypted_size_2"		"D59E3EEF43FAFE68454DF06993B1FB15"
+				}
+				"nvidia_ansel"
+				{
+					"encrypted_gid_2"		"83AAACA31784DD5F32EB5851A177535F"
+					"encrypted_size_2"		"224D618052FD9055136F59A58E2EB998"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"FD21BB222106641545B5643943C8FE31"
+					"encrypted_size_2"		"1057E547F772FE25F318AD91E1C1E4DF"
+				}
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"70ECF2B8FF7C56E67023FA038D42C8EB"
+					"encrypted_size_2"		"717912CE41F613870AF9E5333DB248D9"
+				}
+				"qa_compat"
+				{
+					"encrypted_gid_2"		"60AAC3080CF584E6C7A2058FC8173EE3"
+					"encrypted_size_2"		"C69DF046EB9323AD79F02F23979EC5AF"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"9827A30CF004834E4B7A9D90CA1DBED5"
+					"encrypted_size_2"		"0FF9967B4DCBE387325C23F7317C6123"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"ADCC3ED0171ED325E8C0CCB7E1209527"
+					"encrypted_size_2"		"6D1A55C0E13D83B518EAD5948F16200D"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"5A9786CC11166F34DEE17C717A9E4174"
+					"encrypted_size_2"		"29A43F9E0F45DA4626527AF32C794F62"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"95A20FA765751F697A461099574887FB"
+					"encrypted_size_2"		"57EFBFF7E24C4DBE42091AACF041BB4E"
+				}
+				"qa_nvidia"
+				{
+					"encrypted_gid_2"		"61A041A3058D3C502152999607FDC3FB"
+					"encrypted_size_2"		"458DE115E8C7B926A1EFEFA7D78F95ED"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"9019DC96F0D8F9907A865D07D4C5489F"
+					"encrypted_size_2"		"67F31285A005471A87641F6AF93AE39C"
+				}
+				"se_ext"
+				{
+					"encrypted_gid_2"		"B01682B907A2E4D7E3FD3BF4C745458B"
+					"encrypted_size_2"		"E4D1A224E41938CBDB072AD0BE13F489"
+				}
+				"tape"
+				{
+					"encrypted_gid_2"		"FA27548F3510BD09663ECD041C7788C8"
+					"encrypted_size_2"		"F34F4519D3CDCA87A211BFA14DD9164F"
+				}
+				"territory_builds"
+				{
+					"encrypted_gid_2"		"F675067D6896C1DA0FD0B65036F66932"
+					"encrypted_size_2"		"047332A2582A3FFD733CD76EB074B479"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"AD7AD1F52476C38CB11EE05CF16FACD2"
+					"encrypted_size_2"		"516D81389BC1FF53AF540CD65CDCFD54"
+				}
+			}
+		}
+		"532212"
+		{
+			"name"		"Life is Strange 2 - Debug (532212) Depot"
+			"manifests"
+			{
+				"public"		"2315661554513423213"
+			}
+			"encryptedmanifests"
+			{
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"CE309FFD7C8064E933F91A655D8FEC88"
+					"encrypted_size_2"		"C54B805C6A46DE8571295B5DECF483E4"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"3088C0D19406497EBEE695EC1DCDA9CD"
+					"encrypted_size_2"		"369FB0D36797AF378C7ED16BCB5C1559"
+				}
+			}
+		}
+		"895490"
+		{
+			"name"		"Life is Strange 2 - Episode 2 (895490) Depot"
+			"dlcappid"		"895490"
+			"manifests"
+			{
+				"public"		"189474650401751678"
+			}
+			"maxsize"		"5702273082"
+			"encryptedmanifests"
+			{
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"D878DE8832A7EB35F463EBF0BD003B9E"
+					"encrypted_size_2"		"A8934FE272534E6D880CC8F418DD58D0"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"6AE4A00286FFC98DF23BCAC5AD24403E"
+					"encrypted_size_2"		"711E0E806C3980880704176223D590FF"
+				}
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"B3CAA63B25086D7D2F462246150BB93A"
+					"encrypted_size_2"		"C475C497C5C9B94E0992E22BF3C0EAD8"
+				}
+				"external-test"
+				{
+					"encrypted_gid_2"		"BB80AE90EF7CEE3E2687A02CE53364D5"
+					"encrypted_size_2"		"03E9F32F36F211E70C6AFD0DE5577944"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"DF5B1AC7D7DA5B5C3B964F4E388015E3"
+					"encrypted_size_2"		"70508175BF8E9C1976D9EF73EB591983"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"5198DC4C547B90F2CCF0073747C85F14"
+					"encrypted_size_2"		"3E18AA14FB2A2D3C3ECA46915096E2BD"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"B2BDC224FA30C494057D0B6D49B591A6"
+					"encrypted_size_2"		"ACDB31046CCA9E4A993338B0F627241B"
+				}
+				"nvidia_ansel"
+				{
+					"encrypted_gid_2"		"9D3E96B0F3C317CDCF6048451E95EB77"
+					"encrypted_size_2"		"5E7E169316FEE668BF559C0F25553243"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"B075FB60B64FE98A9DFA49D3B24FE927"
+					"encrypted_size_2"		"180430D40A2054AB028FA8755B8EAE0B"
+				}
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"CE3C43F847003F72DA603A77E11BA7FA"
+					"encrypted_size_2"		"85814E2BF3239CF1A01C273B2EB919A0"
+				}
+				"qa_compat"
+				{
+					"encrypted_gid_2"		"58B518AF2B5B412495ACCF0D92D6D30C"
+					"encrypted_size_2"		"40792629F37124B0D9A33CF8C08057D7"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"9834C9C9DC45A7440948A0AA9C387B67"
+					"encrypted_size_2"		"A499778755931EE511930BF8A20F57FE"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"53C5AEDC24CB2E1BD0BCB209BEC1C326"
+					"encrypted_size_2"		"92E637FB0821B8B25BD3053744765347"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"E04620D112E718517AB2423C36563ECB"
+					"encrypted_size_2"		"23876CDF8EBF3D6D8538B85597AAAD74"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"B5A3CF3A9DB9B6A7DF82F9DD00E8183F"
+					"encrypted_size_2"		"ECDF65BBEC08BE4E9457B3F0ECB89167"
+				}
+				"qa_nvidia"
+				{
+					"encrypted_gid_2"		"C5BB3E661F7542E0BFF8C19D65A85AC0"
+					"encrypted_size_2"		"29677F5FB7D9D2FAA5922365E73110BE"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"F1E8CFC68CB70E26F451A085C92BF459"
+					"encrypted_size_2"		"27885FBEDF451053B4DFDC5E3C81A4C2"
+				}
+				"se_ext"
+				{
+					"encrypted_gid_2"		"058BE50927D86462459C9601E916A84B"
+					"encrypted_size_2"		"383BD16BACC5BC64D3CA51EFF1E8B33A"
+				}
+				"tape"
+				{
+					"encrypted_gid_2"		"F099AF074EC2A52EFB31DD31F6BCE5E4"
+					"encrypted_size_2"		"D5D25AEE0D38CDCB56885B45BC9E5ECF"
+				}
+				"territory_builds"
+				{
+					"encrypted_gid_2"		"710C4472622678FE4782CE9FF89AF86F"
+					"encrypted_size_2"		"3CA2B83F252B83654FE06F87F935EA98"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"7FD42FE844564CACE2CD347A42045788"
+					"encrypted_size_2"		"329D8F234E449B77C5B9CEC3C5A31176"
+				}
+			}
+		}
+		"895491"
+		{
+			"name"		"Life is Strange 2 - Episode 3 (895491) Depot"
+			"dlcappid"		"895491"
+			"manifests"
+			{
+				"public"		"5589215082056498407"
+			}
+			"maxsize"		"7431937648"
+			"encryptedmanifests"
+			{
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"908F505319FB38F52877552853EA0E50"
+					"encrypted_size_2"		"CB8430144803DAA0315D414D70244884"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"57CEA7845FA4996DCD931EF0939C59A5"
+					"encrypted_size_2"		"77F4A8CB9BDD520C58DD65AC8283F050"
+				}
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"28A066611CA640D6C4D47C10DD992F70"
+					"encrypted_size_2"		"92E384A0C41B9544628AF8E1F6C2F6FA"
+				}
+				"external-test"
+				{
+					"encrypted_gid_2"		"22FD8100F06AC300FBE14F5B3B3A253C"
+					"encrypted_size_2"		"DBD706F1C97A5D9235F8180FFB7975EE"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"9F60944B3B6C1482F09BBF949F4363FC"
+					"encrypted_size_2"		"70508175BF8E9C1976D9EF73EB591983"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"E2FD7177993C3772B1F47C94DAC549F6"
+					"encrypted_size_2"		"8E204A6884F2D5133A0872122C92055B"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"BA2DBE962F3C26046E7BC62B5BC579D7"
+					"encrypted_size_2"		"94CEA3EE9C520634E143067B2492363D"
+				}
+				"nvidia_ansel"
+				{
+					"encrypted_gid_2"		"5393B61ABDDF11A9D90CB95FC56D786B"
+					"encrypted_size_2"		"33B4A99601D8C0DEF9D07806BF9C62F5"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"07C619F75F4FFDB993B3C491DC8E7D7B"
+					"encrypted_size_2"		"180430D40A2054AB028FA8755B8EAE0B"
+				}
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"6736F8D609778F96B5B4D0BBADA573CB"
+					"encrypted_size_2"		"A261CE189F1F2C987245749FF7B4BD93"
+				}
+				"qa_compat"
+				{
+					"encrypted_gid_2"		"A70FB682C94746858387F9525C371853"
+					"encrypted_size_2"		"633D59AD1083CB472FDD0C42FF4578B6"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"6166A003993FBE74278FB10C73916505"
+					"encrypted_size_2"		"5D53156BB8E9D212866DAEFC5D9DAC9C"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"B058C0EEF1B1164CCFBCF7120DD0AAA1"
+					"encrypted_size_2"		"D9FEB714E9C7A979B0555BB40834F570"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"651B288F7A439399AFBB18F42AB89D7E"
+					"encrypted_size_2"		"7F036C7E86858F330F00496F41D9A1D7"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"0E308AB986C8C44E09FD5500F6B62036"
+					"encrypted_size_2"		"87B3F23FFBAB46454907D79EC034C000"
+				}
+				"qa_nvidia"
+				{
+					"encrypted_gid_2"		"A3E88E65AD0413E8F533F54E989C1ABB"
+					"encrypted_size_2"		"52C7EDACBD572B7395509D94367B0EDA"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"25747938F9B1100A3F6F9DE8A2CDB7D3"
+					"encrypted_size_2"		"7C0617CE1E1BD6DBFF238769E0F8494E"
+				}
+				"se_ext"
+				{
+					"encrypted_gid_2"		"87FCEC6134AEB880B1779F280A103A3C"
+					"encrypted_size_2"		"383BD16BACC5BC64D3CA51EFF1E8B33A"
+				}
+				"tape"
+				{
+					"encrypted_gid_2"		"1E9EC1C13E0B994EE9FCFE268D5F6FDB"
+					"encrypted_size_2"		"032F4A7E70B03BB6C417AB2DD07AE375"
+				}
+				"territory_builds"
+				{
+					"encrypted_gid_2"		"83C371E0848D36D65B820221AFAB2385"
+					"encrypted_size_2"		"1532E27E38622CE9E6FD6FBDC21F6A76"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"84453940FD04E5507D6D3986D89FE464"
+					"encrypted_size_2"		"25E89E70F67517A2D8E59D2E610DC230"
+				}
+			}
+		}
+		"895492"
+		{
+			"name"		"Life is Strange 2 - Episode 4 (895492) Depot"
+			"dlcappid"		"895492"
+			"manifests"
+			{
+				"public"		"8264152743991287621"
+			}
+			"maxsize"		"8025948825"
+			"encryptedmanifests"
+			{
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"64CFB1C88E780582126AC255F124F57B"
+					"encrypted_size_2"		"C6D49119FBA130870D62FCF65F3A3334"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"D1C51058C493FC8BB2C5ECAE3B98989C"
+					"encrypted_size_2"		"374553655076187CF0D892F0830431A8"
+				}
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"B5A77C0E37AE4B5460D017912B7D149D"
+					"encrypted_size_2"		"3AB5A90EBB815D0A839DF9CCBF180CC1"
+				}
+				"external-test"
+				{
+					"encrypted_gid_2"		"5D4848D8FECCB1DF4BB8BCA8AEF7031B"
+					"encrypted_size_2"		"50C397AADE45656FD46CDF4A17DB9F31"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"F07DF1ED7EEC0B222F327B42F5CEDF7D"
+					"encrypted_size_2"		"70508175BF8E9C1976D9EF73EB591983"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"D9CB24A1DA7A7C5942BE834818B68579"
+					"encrypted_size_2"		"E5CB0624A313D06F0439E869CB621B4C"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"110BEC911060ECCC60A8B9C35FE1F486"
+					"encrypted_size_2"		"688E44C2FA8279CB25F4D31B3A67AA91"
+				}
+				"nvidia_ansel"
+				{
+					"encrypted_gid_2"		"C7FA4D4D97B9DD2C5A483EAAD29BD91D"
+					"encrypted_size_2"		"619BF0375D483E1E63FC20CD3E15BF0D"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"020D76E37F888E3CBC45DC68AB3DAB80"
+					"encrypted_size_2"		"180430D40A2054AB028FA8755B8EAE0B"
+				}
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"1C8D0F69171AA19C50B7AE43E7B4811A"
+					"encrypted_size_2"		"A261CE189F1F2C987245749FF7B4BD93"
+				}
+				"qa_compat"
+				{
+					"encrypted_gid_2"		"F51833A06231936D8FA26CC3751895E1"
+					"encrypted_size_2"		"8D0EA4FB2E0E486AC9C97B155B438D1E"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"1C04FA66F149A02AF2B1721263D0BB1B"
+					"encrypted_size_2"		"6B0877620D4BAF2A5143E946232504A6"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"6E9EB35216B424C51E64066420BFE0DF"
+					"encrypted_size_2"		"37C51DFD564AE8F07B9F6627325178E9"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"4D8DC1C54FDB95CC28E1726365FEF338"
+					"encrypted_size_2"		"7F036C7E86858F330F00496F41D9A1D7"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"1BA5ED193A08BF50AD2BC2CD484C0659"
+					"encrypted_size_2"		"6B8AF843B2F5B8CBA723A954BE5E9B4E"
+				}
+				"qa_nvidia"
+				{
+					"encrypted_gid_2"		"45852335C3619344685600EA3AAE556D"
+					"encrypted_size_2"		"7745C7EBA3D8601A97561B149A8549CB"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"1C0A101F7EFDD0A76D3DECD2A566699D"
+					"encrypted_size_2"		"786C11E85DD9B68B6BB71933323B9D9A"
+				}
+				"se_ext"
+				{
+					"encrypted_gid_2"		"D94016DDD189BBEBDF7E799BEB3A8906"
+					"encrypted_size_2"		"383BD16BACC5BC64D3CA51EFF1E8B33A"
+				}
+				"tape"
+				{
+					"encrypted_gid_2"		"9F321F147593345E08B62E7E24CBCE19"
+					"encrypted_size_2"		"D504476E8F39F598ACC8CCE80470A859"
+				}
+				"territory_builds"
+				{
+					"encrypted_gid_2"		"90967CD9517D1D6B68934F25724ABD0D"
+					"encrypted_size_2"		"489DD14D6FE353F8C5D660B8BBC2FBDF"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"CE36052AE25883419AF45234EF6A3928"
+					"encrypted_size_2"		"29ABCAF39E2CBCD1B926FC03D183A45C"
+				}
+			}
+		}
+		"895493"
+		{
+			"name"		"Life is Strange 2 - Episode 5 (895493) Depot"
+			"dlcappid"		"895493"
+			"manifests"
+			{
+				"public"		"2418819885898455948"
+			}
+			"encryptedmanifests"
+			{
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"C0541D4000191CCDF34A2BDBC36C73BE"
+					"encrypted_size_2"		"760FBC0187E1DE9776B4AAAB55E107B0"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"F7F5AAA7D369925554F3958FB15E59BA"
+					"encrypted_size_2"		"8BE6AF877982324F183DA1B6C7D13A8A"
+				}
+				"qa_amd"
+				{
+					"encrypted_gid_2"		"0DA3D949B09C186852EE8C5CB08A091F"
+					"encrypted_size_2"		"A261CE189F1F2C987245749FF7B4BD93"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"36FD234050B2053563E81CE6253F2391"
+					"encrypted_size_2"		"CE44F4233C9B33C0278E1361191614DD"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"D91B0C2AB96F78F4D7A72403C1944E4A"
+					"encrypted_size_2"		"2A20C8B99869124CB77711B2F31FB69F"
+				}
+				"qa_intel"
+				{
+					"encrypted_gid_2"		"CFBE0473E2BC9EC236FB609867CB83B2"
+					"encrypted_size_2"		"7F036C7E86858F330F00496F41D9A1D7"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"44616BCEC110331BBFFB634F47A419D5"
+					"encrypted_size_2"		"FEF879BC51E2A6B87F240748825E3249"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"E06CBCDEEBCDD76FCC355AF57C74205C"
+					"encrypted_size_2"		"738FD7DBE13836BAE082C84D11F7CE0A"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"5CD949BDFD4084FAF4AF4A8CA35F7084"
+					"encrypted_size_2"		"10740DAB6D0B4884E7403285297C091F"
+				}
+			}
+		}
+		"957240"
+		{
+			"name"		"Life is Strange 2 - Debug *not for retail - ever* (957240) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"957240"
+			"manifests"
+			{
+				"public"		"6209241315449136452"
+			}
+			"maxsize"		"1020888244"
+			"encryptedmanifests"
+			{
+				"age_ratings"
+				{
+					"encrypted_gid_2"		"AE37D8E43C64F9D23169176DF214A02F"
+					"encrypted_size_2"		"F4680F7A0E8272F9747D58D286839B77"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"CF21EEC5B21EE3A9C79C047891752E7C"
+					"encrypted_size_2"		"4B43EB4DA506F462B49835865A4083D2"
+				}
+				"dne_qa"
+				{
+					"encrypted_gid_2"		"1088D8F210DE7377BC42FD2437A21797"
+					"encrypted_size_2"		"8E4B9F779A7648557CA84756296B0CF1"
+				}
+				"external-test"
+				{
+					"encrypted_gid_2"		"A4E0A60F4FE52237E225CC63214609BA"
+					"encrypted_size_2"		"F60B1A01A5A689DB2E3E99E9496C5C2D"
+				}
+				"gamescom_demo"
+				{
+					"encrypted_gid_2"		"BCCD6125BF75B2662765719614EF38DE"
+					"encrypted_size_2"		"17CAB17A5D8D6B04439EEC7B9958A14B"
+				}
+				"loc_trans"
+				{
+					"encrypted_gid_2"		"FE1F9FC100FF7BE654DBDE0F9E724E74"
+					"encrypted_size_2"		"863D47B59C789A3B04A8208BE0D17795"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"A298510E5C877F0BDC59EBDE71A5AE8D"
+					"encrypted_size_2"		"50D6E1426157FC60EA7867285D8EA40C"
+				}
+				"nvidia_ansel"
+				{
+					"encrypted_gid_2"		"817F55BDBBEF805A6B3D1C4BE81FDB10"
+					"encrypted_size_2"		"6E60A5F275D5E460F9ABB009235D3853"
+				}
+				"playtest"
+				{
+					"encrypted_gid_2"		"0F82CBFC14D731A07B0F795291B9E6BD"
+					"encrypted_size_2"		"1C18B1C4C2B09810324DFC1BADF02ED6"
+				}
+				"qa_compat"
+				{
+					"encrypted_gid_2"		"7143B17B125DAF4EE30974D98273DE0D"
+					"encrypted_size_2"		"E28D04CC34E811799BA0D271A9042CC7"
+				}
+				"qa_integration"
+				{
+					"encrypted_gid_2"		"081655F9126D11FC4F5E406B712C7A96"
+					"encrypted_size_2"		"8B11A03D0AC6E3A5EDB579CB1B64D359"
+				}
+				"qa_integration2"
+				{
+					"encrypted_gid_2"		"4171DC9B87AE7193039D0F38D34E3F44"
+					"encrypted_size_2"		"9AB47EEB020CB43EBFE1B07B963735D3"
+				}
+				"qa_loc"
+				{
+					"encrypted_gid_2"		"6B60C624C788B28947199192A728E6D9"
+					"encrypted_size_2"		"9250D1F3117A2E461EF7DDB5F0C46923"
+				}
+				"qa_nvidia"
+				{
+					"encrypted_gid_2"		"72F79BECEA2292A8B838D17F5D043465"
+					"encrypted_size_2"		"2D376A130C57E1AE56A852D4F0440488"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"E8667381E98C4AE791C74294FDA4085B"
+					"encrypted_size_2"		"F244F658CD27B21A6865E2C092FE8EAC"
+				}
+				"se_ext"
+				{
+					"encrypted_gid_2"		"856036F4B5CECB25F6C1354CC005C066"
+					"encrypted_size_2"		"28EF8E86C0113934851F11C424D3B6C0"
+				}
+				"tape"
+				{
+					"encrypted_gid_2"		"8398D9A219585F9065CEC4AD49C04C81"
+					"encrypted_size_2"		"28EA43074135EED8EE72C5E7B21D9BC6"
+				}
+				"territory_builds"
+				{
+					"encrypted_gid_2"		"246450AF0FDC7885BA603C5E1C1965B6"
+					"encrypted_size_2"		"5F34F98E7AD5F20C569E427403243B28"
+				}
+				"writersroom"
+				{
+					"encrypted_gid_2"		"A9C25D3C012D3C5360B071CC7A94C09A"
+					"encrypted_size_2"		"B88B834557A30E712F6620449F18A825"
+				}
+			}
+		}
+		"1153740"
+		{
+			"name"		"Life is Strange 2 - test DLC (1153740) Depot"
+			"dlcappid"		"1153740"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4092066"
+				"timeupdated"		"1566557758"
+			}
+			"age_ratings"
+			{
+				"buildid"		"4048385"
+				"description"		"Age ratings branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564471165"
+			}
+			"denuvo"
+			{
+				"buildid"		"4054476"
+				"description"		"Denuvo builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564412104"
+			}
+			"dne_qa"
+			{
+				"buildid"		"4132882"
+				"description"		"DNE QA testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566562119"
+			}
+			"external-test"
+			{
+				"buildid"		"3641762"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1552486431"
+			}
+			"gamescom_demo"
+			{
+				"buildid"		"3225414"
+				"description"		"gamescom demo branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548865033"
+			}
+			"loc_trans"
+			{
+				"buildid"		"4179644"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042602"
+			}
+			"marketing"
+			{
+				"buildid"		"3733485"
+				"description"		"Marketing Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555326431"
+			}
+			"milestone"
+			{
+				"buildid"		"4092066"
+				"description"		"SEL Milestone Review"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565381280"
+			}
+			"nvidia_ansel"
+			{
+				"buildid"		"3886800"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559656928"
+			}
+			"playtest"
+			{
+				"buildid"		"4058675"
+				"description"		"external playtests"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564990481"
+			}
+			"pr_review"
+			{
+				"buildid"		"4092066"
+				"description"		"Review Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565781043"
+			}
+			"qa_amd"
+			{
+				"buildid"		"3122706"
+				"description"		"amd compat QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537196881"
+			}
+			"qa_compat"
+			{
+				"buildid"		"4048385"
+				"description"		"QA Compat"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564572838"
+			}
+			"qa_integration"
+			{
+				"buildid"		"4179644"
+				"description"		"external QA builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042571"
+			}
+			"qa_integration2"
+			{
+				"buildid"		"4170342"
+				"description"		"external QA builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567754959"
+			}
+			"qa_intel"
+			{
+				"buildid"		"3122706"
+				"description"		"intel compat QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537196838"
+			}
+			"qa_loc"
+			{
+				"buildid"		"4179644"
+				"description"		"Localization QA builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042616"
+			}
+			"qa_nvidia"
+			{
+				"buildid"		"4026637"
+				"description"		"nvidia compat QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563537651"
+			}
+			"review"
+			{
+				"buildid"		"4179644"
+				"description"		"SEL non ms review builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568042585"
+			}
+			"se_ext"
+			{
+				"buildid"		"4143372"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566982811"
+			}
+			"tape"
+			{
+				"buildid"		"4048385"
+				"description"		"builds for Tape"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564162854"
+			}
+			"territory_builds"
+			{
+				"buildid"		"3733485"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555326445"
+			}
+			"writersroom"
+			{
+				"buildid"		"4170342"
+				"description"		"Writers Room"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568030928"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"18"
+		"savefiles"
+		{
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"/lis2/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Dontnod/{64BitSteamID}/LIS2/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

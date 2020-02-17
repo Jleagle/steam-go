@@ -1,0 +1,530 @@
+"appinfo"
+{
+	"appid"		"572410"
+	"common"
+	{
+		"name"		"Steel Division: Normandy 44"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"ffbca8b02e8bd484198fe787b820f667754b14ae"
+		"logo_small"		"ffbca8b02e8bd484198fe787b820f667754b14ae_thumb"
+		"icon"		"5a2fdf6942436e69b5f52649507244da0ce03c82"
+		"clienttga"		"c262f56637e8d0dcd63b61eb3ca550d36793f4f3"
+		"clienticon"		"744c0b67e061183b09ffe1cb12f5b1a7d82bee9b"
+		"clienticns"		"744c0b67e061183b09ffe1cb12f5b1a7d82bee9b"
+		"linuxclienticon"		"744c0b67e061183b09ffe1cb12f5b1a7d82bee9b"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"572410_eula_0"
+				"name"		"Steel Division: Normandy '44 EULA"
+				"url"		"http://store.steampowered.com//eula/572410_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Steel Division: Normandy 44"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"52.647128338454266"
+			}
+		}
+		"store_asset_mtime"		"1561555134"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eugen Systems"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1495558725"
+		"metacritic_score"		"83"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/steel-division-normandy-44?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"572410"
+		"store_tags"
+		{
+			"0"		"4150"
+			"1"		"9"
+			"2"		"1676"
+			"3"		"4168"
+			"4"		"599"
+			"5"		"3859"
+			"6"		"19"
+			"7"		"1708"
+			"8"		"1678"
+			"9"		"4684"
+			"10"		"4182"
+			"11"		"3813"
+			"12"		"3987"
+			"13"		"1695"
+			"14"		"1662"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Eugen Systems"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"617050,617051,617780,621890,621891,621900,621901,621910,621911,628250,639060,639061,639062,639063,639064,639065,639066,639067,640180,640960,648170,648171,648172,648173,670680,710800,718600,718630,718870,718880,720420,720430,780340,798530,802430"
+	}
+	"config"
+	{
+		"installdir"		"Steel Division"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SteelDivision.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"572410"
+		"baselanguages"		"english,german,french,spanish,schinese,russian"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"572411"
+		{
+			"name"		"SD44 Content"
+			"config"
+			{
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6238125307798714956"
+				"beta_replay_viewer"		"3207833738725085057"
+			}
+			"maxsize"		"40677230250"
+			"encryptedmanifests"
+			{
+				"age_rating_do-not-update"
+				{
+					"encrypted_gid_2"		"FDC8D47C100C38C835F3CA18F6D532FE"
+					"encrypted_size_2"		"760075C3D579556A3BF65D1CF911178E"
+				}
+				"age_rating_usk_v2"
+				{
+					"encrypted_gid_2"		"3782F3B14F89A544966C28B878A082F9"
+					"encrypted_size_2"		"BCF412E91C309AAE4B5440168130E6AB"
+				}
+				"beta_back_to_hell"
+				{
+					"encrypted_gid_2"		"9314B439EFDBE790C4FD27721CDD7F8C"
+					"encrypted_size_2"		"613A5387E7EB9CE112204FC23C1E4D20"
+				}
+				"gold_master"
+				{
+					"encrypted_gid_2"		"28E9E09AC403B4E2612E545D4E4872FA"
+					"encrypted_size_2"		"8934024A64163FD571AB9429EAAD0D75"
+				}
+				"paradox_test"
+				{
+					"encrypted_gid_2"		"93E424F8919FF38144675831CE7E07F1"
+					"encrypted_size_2"		"0523AC7D49695B62570AA2D85E5DC479"
+				}
+				"physical_dist"
+				{
+					"encrypted_gid_2"		"1DB33D7947F42B41431A8C430ECDF57D"
+					"encrypted_size_2"		"0ED1A48308D9A21F57AF2EC374103D0A"
+				}
+				"preview_test"
+				{
+					"encrypted_gid_2"		"5670E87202D75822FDC63F3B74E70592"
+					"encrypted_size_2"		"6894929710882D740E64DC35A360A37B"
+				}
+				"shooting"
+				{
+					"encrypted_gid_2"		"E0AF0818819ACBD776D7127EFD3960D9"
+					"encrypted_size_2"		"B0CDF5529D74A18C32F26D2A3785A61A"
+				}
+			}
+		}
+		"617780"
+		{
+			"name"		"SD44 German Historical Content Pack (617780) Depot"
+			"dlcappid"		"617780"
+		}
+		"572412"
+		{
+			"name"		"Mod tools"
+			"manifests"
+			{
+				"public"		"2813808379779976427"
+			}
+			"maxsize"		"189668842"
+			"encryptedmanifests"
+			{
+				"beta_back_to_hell"
+				{
+					"encrypted_gid_2"		"4F0299CDE2C56DF6477C117881004372"
+					"encrypted_size_2"		"1CB40611EBBC68E9A72A717A659BF8D3"
+				}
+				"gold_master"
+				{
+					"encrypted_gid_2"		"E83A083602E6FDB5469B27A844E12D79"
+					"encrypted_size_2"		"20C9E84222A0EDEE7A36C10EB14DC0BB"
+				}
+				"paradox_test"
+				{
+					"encrypted_gid_2"		"511CE84FD7BF31EC8BC57F66760A625B"
+					"encrypted_size_2"		"36748ECE0522ED0FD602ECA0DFCAD858"
+				}
+				"preview_test"
+				{
+					"encrypted_gid_2"		"B5790E2CE83049FC927B0759FA510291"
+					"encrypted_size_2"		"7E9BFA04EFAAC3949CD642AF6C812B84"
+				}
+				"shooting"
+				{
+					"encrypted_gid_2"		"92A6834603C1536FE5E0A703A5904119"
+					"encrypted_size_2"		"A6BBA27EC086780A43B799E8374815A1"
+				}
+			}
+		}
+		"639063"
+		{
+			"name"		"SD44 Tactical Guide (639063) Depot"
+			"dlcappid"		"639063"
+			"manifests"
+			{
+				"public"		"743001817461947429"
+				"beta_replay_viewer"		"5100237013846345592"
+			}
+			"maxsize"		"11877250"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"5A9482CB57BCC14B4D45A899A2C11146"
+					"encrypted_size_2"		"1D187D11C7182F9FF748183609682F50"
+				}
+			}
+		}
+		"639060"
+		{
+			"name"		"SD44 Sign up bonus content (639060) Depot"
+			"dlcappid"		"639060"
+		}
+		"639061"
+		{
+			"name"		"SD44 Pre-order Aces (639061) Depot"
+			"dlcappid"		"639061"
+		}
+		"639062"
+		{
+			"name"		"SD44 DDE Aces (639062) Depot"
+			"dlcappid"		"639062"
+		}
+		"639064"
+		{
+			"name"		"SD44 Wallpaper (639064) Depot"
+			"dlcappid"		"639064"
+			"manifests"
+			{
+				"public"		"112078593396788523"
+			}
+			"maxsize"		"4237122"
+		}
+		"639065"
+		{
+			"name"		"SD44 Art Book (639065) Depot"
+			"dlcappid"		"639065"
+			"manifests"
+			{
+				"public"		"323705675795332649"
+				"beta_replay_viewer"		"8494175830690163559"
+			}
+			"maxsize"		"84017070"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"DC6039F39360A9A8CBB2FCA2F2C16EFE"
+					"encrypted_size_2"		"FB953E05DC851B4AFEC05C9074BAD324"
+				}
+			}
+		}
+		"639066"
+		{
+			"name"		"SD44 Streaming Overlays (639066) Depot"
+			"dlcappid"		"639066"
+			"manifests"
+			{
+				"public"		"3290323321575558983"
+				"beta_replay_viewer"		"8163613258383347869"
+			}
+			"maxsize"		"4625946"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"89BDF045FB8D4FD8D3B7CD965E7B2E1A"
+					"encrypted_size_2"		"3F525953BB2BB9D1D225DD2183684FB0"
+				}
+			}
+		}
+		"639067"
+		{
+			"name"		"SD44 Ring tones (639067) Depot"
+			"dlcappid"		"639067"
+			"manifests"
+			{
+				"public"		"3294916466977777347"
+				"beta_replay_viewer"		"5708248581013492733"
+			}
+			"maxsize"		"4019844"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"BA1625A2E1632361D715AF4B06EECF20"
+					"encrypted_size_2"		"CC9A004AF80E985F28CE9076FAAA916A"
+				}
+			}
+		}
+		"640180"
+		{
+			"name"		"SD44 Tactical Guide German version (640180) Depot"
+			"dlcappid"		"640180"
+			"manifests"
+			{
+				"public"		"3554741927164217534"
+				"beta_replay_viewer"		"4873156307568827330"
+			}
+			"maxsize"		"11834848"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"49718CC0936AFC68DCCF747E7FD1D60A"
+					"encrypted_size_2"		"6E818A4B1329FE7B7351F9192AABD983"
+				}
+			}
+		}
+		"640960"
+		{
+			"name"		"SD44 Battle Log (640960) Depot"
+			"dlcappid"		"640960"
+			"manifests"
+			{
+				"public"		"689894759408734362"
+				"beta_replay_viewer"		"1398048275646065668"
+			}
+			"maxsize"		"4304571"
+			"encryptedmanifests"
+			{
+				"gold_master"
+				{
+					"encrypted_gid_2"		"F63FD301E3F14D4FC0D93CFD2C75DD6E"
+					"encrypted_size_2"		"35F8C76919958168A7BFEABC75E72A9C"
+				}
+			}
+		}
+		"710800"
+		{
+			"name"		"Steel Division: Normandy 44 - Second Wave (710800) Depot"
+			"dlcappid"		"710800"
+		}
+		"572413"
+		{
+			"sharedinstall"		""
+			"name"		"Steel Division: Normandy 44 - Back to Hell Depot"
+			"dlcappid"		"780340"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3998600"
+				"timeupdated"		"1562769054"
+			}
+			"age_rating_do-not-update"
+			{
+				"buildid"		"1752602"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1493021300"
+			}
+			"age_rating_usk_v2"
+			{
+				"buildid"		"1808801"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1494316159"
+			}
+			"beta_back_to_hell"
+			{
+				"buildid"		"2498291"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1517906821"
+			}
+			"beta_replay_viewer"
+			{
+				"buildid"		"1839650"
+				"description"		"Last version of the open beta"
+				"timeupdated"		"1495530360"
+			}
+			"gold_master"
+			{
+				"buildid"		"1840009"
+				"description"		"Frozen build, for release. DO NOT UPDATE!"
+				"pwdrequired"		"1"
+				"timeupdated"		"1495558958"
+			}
+			"paradox_test"
+			{
+				"buildid"		"3306110"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542205202"
+			}
+			"physical_dist"
+			{
+				"buildid"		"1784255"
+				"description"		"For physical distribution. Based on MS05 pdx_beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1493738928"
+			}
+			"preview_test"
+			{
+				"buildid"		"2274406"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1510333463"
+			}
+			"qa_test"
+			{
+				"buildid"		"3998600"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562755569"
+			}
+			"shooting"
+			{
+				"buildid"		"2468244"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1516880316"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+	}
+}
+ 

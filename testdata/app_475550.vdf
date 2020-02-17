@@ -1,0 +1,500 @@
+"appinfo"
+{
+	"appid"		"475550"
+	"common"
+	{
+		"name"		"Beholder"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"icon"		"1025e7d1606b1e7a7f17048532039d78241e9f5d"
+		"logo"		"d0cb7d93e0bcb745182c5f5b91c5967eacae4d52"
+		"logo_small"		"d0cb7d93e0bcb745182c5f5b91c5967eacae4d52_thumb"
+		"clienttga"		"e71076c6f233f78bc5c8ba1adcb17b7304d36930"
+		"clienticon"		"2a04ec0f8a942eeb7d0584a44dbe33f99c325d36"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"brazilian"		"1"
+		}
+		"osarch"		""
+		"metacritic_name"		"Beholder"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+			"dutch"		"capsule_231x87_dutch.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"russian"		"header_russian.jpg"
+			"french"		"header_french.jpg"
+			"german"		"header_german.jpg"
+			"schinese"		"header_schinese.jpg"
+			"japanese"		"header_japanese.jpg"
+			"dutch"		"header_dutch.jpg"
+			"polish"		"header_polish.jpg"
+			"portuguese"		"header_portuguese.jpg"
+			"spanish"		"header_spanish.jpg"
+			"italian"		"header_italian.jpg"
+			"tchinese"		"header_tchinese.jpg"
+			"brazilian"		"header_brazilian.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"61.764705882352985"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561974469"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Warm Lamp Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Alawar Premium"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1478678400"
+		"steam_release_date"		"1478710508"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/beholder?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"475550"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"5030"
+			"2"		"6426"
+			"3"		"9"
+			"4"		"4166"
+			"5"		"4182"
+			"6"		"1742"
+			"7"		"599"
+			"8"		"21"
+			"9"		"4342"
+			"10"		"6971"
+			"11"		"3871"
+			"12"		"122"
+			"13"		"4853"
+			"14"		"1756"
+			"15"		"4667"
+			"16"		"1687"
+			"17"		"1698"
+			"18"		"4026"
+			"19"		"1667"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Warm Lamp Games"
+		"publisher"		"Alawar Premium"
+		"homepage"		"https://beholder-game.com/promo"
+		"listofdlc"		"535610,553670,616950"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Beholder"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Beholder.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Beholder.app\\Contents\\MacOS\\Beholder"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Beholder.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Beholder.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"475551"
+		{
+			"name"		"BeholderWin Press"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5806089177253397847"
+			}
+			"maxsize"		"1407911909"
+		}
+		"475553"
+		{
+			"name"		"BeholderMac Press"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2636785505355606947"
+			}
+			"maxsize"		"1455580148"
+		}
+		"475552"
+		{
+			"name"		"BeholderWin Release"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6876079799247854412"
+			}
+			"maxsize"		"1671538720"
+		}
+		"475554"
+		{
+			"name"		"BeholderMac Release"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4838592278601285834"
+			}
+			"maxsize"		"1725777234"
+		}
+		"475555"
+		{
+			"name"		"BeholderLinux Release"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2832759764327030657"
+			}
+			"maxsize"		"1702916471"
+		}
+		"553670"
+		{
+			"name"		"Хранилище Beholder - Original Soundtrack (553670)"
+			"dlcappid"		"553670"
+			"manifests"
+			{
+				"public"		"8337999405548836767"
+			}
+			"maxsize"		"9501999"
+		}
+		"616951"
+		{
+			"name"		"BlissfulSleepWin"
+			"dlcappid"		"616950"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5595779018546614577"
+			}
+			"maxsize"		"444187894"
+			"encryptedmanifests"
+			{
+				"pre-beta"
+				{
+					"encrypted_gid_2"		"63B4AB16392CBA5E4074B4C57891D847"
+					"encrypted_size_2"		"A0DCA69E63AC0603EDCCA77702E2D21E"
+				}
+			}
+		}
+		"616952"
+		{
+			"name"		"BlissfulSleepMac"
+			"dlcappid"		"616950"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6972216560399980221"
+			}
+			"maxsize"		"444604569"
+			"encryptedmanifests"
+			{
+				"pre-beta"
+				{
+					"encrypted_gid_2"		"4AD6AB238E0FD356D94DAEDC3FBB58B2"
+					"encrypted_size_2"		"B52377D841B5A61AED56ED4D03B198AD"
+				}
+			}
+		}
+		"616953"
+		{
+			"name"		"BlissfulSleepLinux"
+			"dlcappid"		"616950"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3302604178314358366"
+			}
+			"maxsize"		"445170366"
+			"encryptedmanifests"
+			{
+				"pre-beta"
+				{
+					"encrypted_gid_2"		"7C8FDBD8E82C48A76E43472BD67CFCD8"
+					"encrypted_size_2"		"A748A6017FBD671CB648AE839FFEFC3A"
+				}
+			}
+		}
+		"616954"
+		{
+			"name"		"BlissfulSleepWin DLC Press"
+			"dlcappid"		"616950"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5708196521189375428"
+			}
+			"maxsize"		"422515205"
+		}
+		"616955"
+		{
+			"name"		"BlissfulSleepMac DLC Press"
+			"dlcappid"		"616950"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6564989856308654065"
+			}
+			"maxsize"		"423989781"
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4164994"
+				"timeupdated"		"1567757237"
+			}
+			"pre-beta"
+			{
+				"buildid"		"4179180"
+				"description"		"Pre-beta for testers"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568033125"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"300"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Warm Lamp Games/Beholder/Saves"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		""
+			}
+		}
+	}
+}
+ 

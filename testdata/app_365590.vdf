@@ -1,0 +1,727 @@
+"appinfo"
+{
+	"appid"		"365590"
+	"common"
+	{
+		"name"		"Tom Clancy's The Division"
+		"type"		"Game"
+		"logo"		"1fcb383a3dc433690068a7d49373f81a4bbe5ade"
+		"logo_small"		"1fcb383a3dc433690068a7d49373f81a4bbe5ade_thumb"
+		"icon"		"93be9eec9ea09ee3cbc0f04de58f1c87a24b18f5"
+		"clienticon"		"cb8765d21215334d283bb8c2b60d11a76bb69458"
+		"clienttga"		"944dd89d12d2cd50e6e07a9457d1b532c88f8fa0"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"365590_eula_0"
+				"name"		"Tom Clancy's The Division EULA"
+				"url"		"http://store.steampowered.com//eula/365590_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"exfgls"		"1"
+		"metacritic_name"		"Division"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40"
+				"height_pct"		"49"
+			}
+		}
+		"store_asset_mtime"		"1542192256"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Massive Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"norwegian"
+			{
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"swedish"
+			{
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"danish"
+			{
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"365590"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"3859"
+			"2"		"3814"
+			"3"		"19"
+			"4"		"1774"
+			"5"		"1685"
+			"6"		"122"
+			"7"		"3843"
+			"8"		"3835"
+			"9"		"1662"
+			"10"		"128"
+			"11"		"1708"
+			"12"		"1697"
+			"13"		"1754"
+			"14"		"4182"
+			"15"		"21"
+			"16"		"4166"
+			"17"		"1663"
+			"18"		"1687"
+			"19"		"3810"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Massive Entertainment"
+		"publisher"		"Ubisoft"
+		"homepage"		"http://thedivisiongame.com"
+		"listofdlc"		"437700,437701,437702,451530,451531,451532,451533,451534,451535,451536,451537,451538,451539,451550,456280,456281,459500,459501,468460,468461,494630,506200,556470,568990,569000,571030,571031,577820,588220,596190,599980"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tom Clancy's The Division"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheDivision.exe"
+				"arguments"		"-uplay_steam_mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"571030"
+				}
+			}
+			"1"
+			{
+				"executable"		"TheDivision.exe"
+				"arguments"		"-upc_steam_free_package_id 12439 -uplay_steam_mode"
+				"description"		"Free Weekend"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"571031"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"365591"
+		{
+			"name"		"Division Content"
+			"manifests"
+			{
+				"public"		"3868385604730555007"
+			}
+			"maxsize"		"46209687715"
+			"encryptedmanifests"
+			{
+				"kraken-cert"
+				{
+					"encrypted_gid_2"		"8EDD0BB500DD4D2EB35E84CDCC63B428"
+					"encrypted_size_2"		"C47D5C823909B8E18A87C69329BC1D75"
+				}
+				"qc-pc"
+				{
+					"encrypted_gid_2"		"9A1314AE58C7AE6DAD01FCED2AA91E82"
+					"encrypted_size_2"		"EF54A635D0401345B78ACF73CB3A731F"
+				}
+				"sp-cert"
+				{
+					"encrypted_gid_2"		"D21CFD1ED86210BA124F9C400B393993"
+					"encrypted_size_2"		"6D49C6E51B9760FA3F094E934AE0E397"
+				}
+				"testing_branch"
+				{
+					"encrypted_gid_2"		"90A07E190CF51DD7795F914764045BCA"
+					"encrypted_size_2"		"CE47506C60FC4D170A7642BA71B67E11"
+				}
+				"tu11-cert"
+				{
+					"encrypted_gid_2"		"D2FF6291B9162E7C57094B7511A96E60"
+					"encrypted_size_2"		"F32DF80AE32E0C9870E1CFD476A1DEBB"
+				}
+				"tu6-cert"
+				{
+					"encrypted_gid_2"		"18642CAB512FE6ADBFA5F9FAC2D6EA9A"
+					"encrypted_size_2"		"526F0D06EDDC3FC36E4151BC1ED54525"
+				}
+				"tu6.1-cert"
+				{
+					"encrypted_gid_2"		"798FB880602D912956AF34B112F2816E"
+					"encrypted_size_2"		"CEC38BD013FA0AB23FA0D5D09DF43A52"
+				}
+				"tu7-cert"
+				{
+					"encrypted_gid_2"		"4CC44764FFFE351508149FB70622A093"
+					"encrypted_size_2"		"9C6636293691B1345B3E209DDF6C579F"
+				}
+				"tu8-cert"
+				{
+					"encrypted_gid_2"		"981FC22FB9A9F661AF3BACDC6DA75FF4"
+					"encrypted_size_2"		"D76A0419FB397705E2E774EA00D4ACFA"
+				}
+				"tu9-cert"
+				{
+					"encrypted_gid_2"		"116A594A14F48767B8176F6581E40CA4"
+					"encrypted_size_2"		"D4910B1F56DC91B38A6A8B075C096055"
+				}
+				"unicorn-cert"
+				{
+					"encrypted_gid_2"		"34C8CC9C79DBA64BAE08ACBC7400831C"
+					"encrypted_size_2"		"2160F4DDEFA3F110C83691CD7871F170"
+				}
+			}
+		}
+		"365592"
+		{
+			"name"		"Division English"
+			"manifests"
+			{
+				"public"		"1819117757562302837"
+			}
+			"maxsize"		"718709005"
+			"encryptedmanifests"
+			{
+				"kraken-cert"
+				{
+					"encrypted_gid_2"		"D5E29885E36DB0890C62DF9F86F0FE30"
+					"encrypted_size_2"		"65EC612820AEF036827CEAB7FD460862"
+				}
+				"qc-pc"
+				{
+					"encrypted_gid_2"		"F0223C76AFC1BF6003B57F51D420879D"
+					"encrypted_size_2"		"853D9F18AF23578E7425DF920C372854"
+				}
+				"sp-cert"
+				{
+					"encrypted_gid_2"		"273EBAF74786EFD48F38FD7AC49BFB3E"
+					"encrypted_size_2"		"16DC75A32819A84BEE055FA4A75A0298"
+				}
+				"testing_branch"
+				{
+					"encrypted_gid_2"		"3B47A429DD5C85C9328E906C3DA9CCF9"
+					"encrypted_size_2"		"9E574F0A7D8107C1F9C85E50B9E027F0"
+				}
+				"tu11-cert"
+				{
+					"encrypted_gid_2"		"20189434F14385E255BF64451934E836"
+					"encrypted_size_2"		"A34E540BE4E402CC1B2AA79AC45E5C2E"
+				}
+				"tu6-cert"
+				{
+					"encrypted_gid_2"		"8CC452E38B95BCA6E72F939CEAD40AF9"
+					"encrypted_size_2"		"B464A912E6DED361FA67350EB0551303"
+				}
+				"tu6.1-cert"
+				{
+					"encrypted_gid_2"		"91B49F2AD5AC4446335660274318E6FB"
+					"encrypted_size_2"		"2266E38425B5FAEC2EF4EE9E88FB2257"
+				}
+				"tu7-cert"
+				{
+					"encrypted_gid_2"		"651D6B5F9606E625EA97D38B82291F6F"
+					"encrypted_size_2"		"EA6C191BFB585F71B966466C0CCE380A"
+				}
+				"tu8-cert"
+				{
+					"encrypted_gid_2"		"B9E6BF56F4037F6E093204D427943FD2"
+					"encrypted_size_2"		"74B8F2B5496C7C399BEE2FEC3F8D7D6E"
+				}
+				"tu9-cert"
+				{
+					"encrypted_gid_2"		"F54A4CD7401910B25C86FE7BB05508FC"
+					"encrypted_size_2"		"393CCD4A23755D5C510DF8CF687E31A8"
+				}
+				"unicorn-cert"
+				{
+					"encrypted_gid_2"		"AD11AED2A60FD71E864F6DBC23552EDA"
+					"encrypted_size_2"		"F5144B25CDE9F399B592A41B4DE3672B"
+				}
+			}
+		}
+		"365593"
+		{
+			"name"		"Division Figs+Span(Mex)+Portuguese"
+			"manifests"
+			{
+				"public"		"992674267804407918"
+			}
+			"maxsize"		"4538780590"
+			"encryptedmanifests"
+			{
+				"kraken-cert"
+				{
+					"encrypted_gid_2"		"B9F2824CDA932FB79ECB7C189A0ED252"
+					"encrypted_size_2"		"5712CF2666C6F1C3BFE0A8DCAD94F7FF"
+				}
+				"qc-pc"
+				{
+					"encrypted_gid_2"		"7A040A33B2754F1C892370E4E4BD1D7A"
+					"encrypted_size_2"		"13D3C866F02ACBDD8B53F82867130986"
+				}
+				"sp-cert"
+				{
+					"encrypted_gid_2"		"C0ECE617A87E03AFB0F6E3DC84858C38"
+					"encrypted_size_2"		"504895313D9E214C37325D081DAAA262"
+				}
+				"testing_branch"
+				{
+					"encrypted_gid_2"		"C533D03E2E80E3C1806AFCC7149B4702"
+					"encrypted_size_2"		"FBE20684C2A2F188A68AC82507BA52B0"
+				}
+				"tu11-cert"
+				{
+					"encrypted_gid_2"		"C4D0C567A5D459962718ED4450531747"
+					"encrypted_size_2"		"D86839884A85CE7B200A1528A90BF197"
+				}
+				"tu6-cert"
+				{
+					"encrypted_gid_2"		"9405A9FA9119EA9C37C31F7FC62320E2"
+					"encrypted_size_2"		"FEE87F980963BFE5389AF29BB155283E"
+				}
+				"tu6.1-cert"
+				{
+					"encrypted_gid_2"		"52D55F94E49553235B0A02AD0A8372F8"
+					"encrypted_size_2"		"11F19404FFD0645125D7A59C2667A729"
+				}
+				"tu7-cert"
+				{
+					"encrypted_gid_2"		"E961106BFBB9E996DC6E142410335357"
+					"encrypted_size_2"		"C7325EE4744AA5C46208B2ADEF110105"
+				}
+				"tu8-cert"
+				{
+					"encrypted_gid_2"		"832FCB65AA91C29D6DAA6574326E00A5"
+					"encrypted_size_2"		"8C6B26EEB732F049DD7B153579547C63"
+				}
+				"tu9-cert"
+				{
+					"encrypted_gid_2"		"6DE120F70F2E5A2BD33F1C55D05DD4F3"
+					"encrypted_size_2"		"020EF211363A6C35BD3355567131E31C"
+				}
+				"unicorn-cert"
+				{
+					"encrypted_gid_2"		"436FBD6DAA105779FA5945DFC79EE614"
+					"encrypted_size_2"		"7A8454CA1B584279565912CD339EDB85"
+				}
+			}
+		}
+		"365594"
+		{
+			"name"		"Division Russian"
+			"manifests"
+			{
+				"public"		"4330104248805325811"
+			}
+			"maxsize"		"752710364"
+			"encryptedmanifests"
+			{
+				"kraken-cert"
+				{
+					"encrypted_gid_2"		"E3CC6B0F50DC3870CE48AFEB9186C032"
+					"encrypted_size_2"		"0FF2B7C918FD77FF74638EF6D5A0B9EC"
+				}
+				"qc-pc"
+				{
+					"encrypted_gid_2"		"932357C4EC19C983E824DF948A7B41A4"
+					"encrypted_size_2"		"EF04218345B4F6B60997E66443729FE2"
+				}
+				"sp-cert"
+				{
+					"encrypted_gid_2"		"0109A1A953143F3AC3EA93FE3BC25456"
+					"encrypted_size_2"		"5D16526B2FBA509954106DD438213AB3"
+				}
+				"testing_branch"
+				{
+					"encrypted_gid_2"		"DE982E08043E0D74829F9ADCC8C1972B"
+					"encrypted_size_2"		"8447CC6053CF7B711A74127BBDF58BEB"
+				}
+				"tu11-cert"
+				{
+					"encrypted_gid_2"		"D8C07F63AD295F678E7E22CE25D70CAE"
+					"encrypted_size_2"		"B83186CF1C08E16C979008CDD6CA18C2"
+				}
+				"tu6-cert"
+				{
+					"encrypted_gid_2"		"3C9D609167216CFFFCB658BD51251AB7"
+					"encrypted_size_2"		"013376AA2744E4F63DD9E07FE301B6D8"
+				}
+				"tu6.1-cert"
+				{
+					"encrypted_gid_2"		"07C2B2DCC58FF9D15ABFD1E7D3ED3454"
+					"encrypted_size_2"		"B2422978DE050D34703342103CE4E1FA"
+				}
+				"tu7-cert"
+				{
+					"encrypted_gid_2"		"171ACB11F9DAF4457E721BF118A094BE"
+					"encrypted_size_2"		"371042A83A618B22E7A17F8A51B1CC8B"
+				}
+				"tu8-cert"
+				{
+					"encrypted_gid_2"		"18CA2FDE0FE2FD4F0364CA02EC4A9722"
+					"encrypted_size_2"		"A39EAE29D708E77162F2348162B4738E"
+				}
+				"tu9-cert"
+				{
+					"encrypted_gid_2"		"D33E1F3DC2AEF74B899EB741F1F58CAA"
+					"encrypted_size_2"		"C114BF0D44FF9B28BAB4B8E5A8A194D8"
+				}
+				"unicorn-cert"
+				{
+					"encrypted_gid_2"		"D19220E9D688E3819794ED9F2B050A0A"
+					"encrypted_size_2"		"3BF09F8F4B8CE6C1F670A150BE6097E2"
+				}
+			}
+		}
+		"365595"
+		{
+			"name"		"Division Japanese"
+			"manifests"
+			{
+				"public"		"2718287761614813845"
+			}
+			"maxsize"		"734499059"
+			"encryptedmanifests"
+			{
+				"kraken-cert"
+				{
+					"encrypted_gid_2"		"24B97FA59C20A2B10F019D6FA1D8E43F"
+					"encrypted_size_2"		"D73DEA246C1703D7A58D88D9C7CA8887"
+				}
+				"qc-pc"
+				{
+					"encrypted_gid_2"		"0BF7DC1F716496A9CF371F22EF59FB5F"
+					"encrypted_size_2"		"4ED023F7CEAB15B52B32819A7A18EAD5"
+				}
+				"sp-cert"
+				{
+					"encrypted_gid_2"		"C33580A8B8A67D51589D083DED91AEC5"
+					"encrypted_size_2"		"07283D71840EAC49DF580F6FD78D581B"
+				}
+				"testing_branch"
+				{
+					"encrypted_gid_2"		"64195BDEE2C2420B6CB5AF03E9095AB7"
+					"encrypted_size_2"		"2DE44F85DFCC102777DB68ABC15159DB"
+				}
+				"tu11-cert"
+				{
+					"encrypted_gid_2"		"CA92F63361EFDCCBDD949D7D3F649D84"
+					"encrypted_size_2"		"E2F2AAB0338CBD4B7007BC9ED4B7A289"
+				}
+				"tu6-cert"
+				{
+					"encrypted_gid_2"		"83928C4440108B7391672DF99AD79900"
+					"encrypted_size_2"		"1E147C601F291E3C463B657966E25DC7"
+				}
+				"tu6.1-cert"
+				{
+					"encrypted_gid_2"		"C6AA8A679AB4900A2C005309276A1572"
+					"encrypted_size_2"		"5C5BEDEB1234BD9AA3373EA3F747C296"
+				}
+				"tu7-cert"
+				{
+					"encrypted_gid_2"		"E3F3CD4F418262EADB3DB666C78784D4"
+					"encrypted_size_2"		"37FEDB1676D80C9D5E6DA6A1BF508C85"
+				}
+				"tu8-cert"
+				{
+					"encrypted_gid_2"		"6AF2D261ACF116E90CDE4AB8596DF854"
+					"encrypted_size_2"		"EC8D8BE6023F05CEE842C7CA581BEFCF"
+				}
+				"tu9-cert"
+				{
+					"encrypted_gid_2"		"A91E6284F36148F1DEDE7E2E0128321C"
+					"encrypted_size_2"		"84D759E6185D149C6C83D45E0CC901BD"
+				}
+				"unicorn-cert"
+				{
+					"encrypted_gid_2"		"5559D608C5EC9534CDDBE08A0ADC5D46"
+					"encrypted_size_2"		"685967A631E603E5ED8808817CB221D6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3034346"
+				"timeupdated"		"1535010767"
+			}
+			"kraken-cert"
+			{
+				"buildid"		"2855716"
+				"description"		"Kraken Cert"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528832084"
+			}
+			"prod"
+			{
+				"buildid"		"3034346"
+				"description"		"latest prod build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1534331414"
+			}
+			"qc-pc"
+			{
+				"buildid"		"1605841"
+				"description"		"latest uat build upload"
+				"pwdrequired"		"1"
+				"timeupdated"		"1486042985"
+			}
+			"sanity4-cert"
+			{
+				"buildid"		"3034346"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1534357038"
+			}
+			"sp-cert"
+			{
+				"buildid"		"1391782"
+				"description"		"SP cert-retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476438469"
+			}
+			"testing_branch"
+			{
+				"buildid"		"1594580"
+				"description"		"...something"
+				"pwdrequired"		"1"
+				"timeupdated"		"1485525197"
+			}
+			"tu11-cert"
+			{
+				"buildid"		"2606763"
+				"description"		"tu11 cert"
+				"pwdrequired"		"1"
+				"timeupdated"		"1521133357"
+			}
+			"tu6-cert"
+			{
+				"buildid"		"1478651"
+				"description"		"TU6 Cert-Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1479990905"
+			}
+			"tu6.1-cert"
+			{
+				"buildid"		"1513872"
+				"description"		"TU6.1 Cert-Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1481575110"
+			}
+			"tu7-cert"
+			{
+				"buildid"		"1900203"
+				"description"		"TU7 CERT-Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498484801"
+			}
+			"tu8-cert"
+			{
+				"buildid"		"1900203"
+				"description"		"TU8 CERT-Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1497916489"
+			}
+			"tu9-cert"
+			{
+				"buildid"		"2104440"
+				"description"		"TU CERT-Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504922592"
+			}
+			"unicorn-cert"
+			{
+				"buildid"		"2469637"
+				"description"		"1.8 Cert Retail"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516918510"
+			}
+		}
+	}
+}
+ 

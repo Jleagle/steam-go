@@ -1,0 +1,393 @@
+"appinfo"
+{
+	"appid"		"322330"
+	"common"
+	{
+		"name"		"Don't Starve Together"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"5176d189ff929acc8d29a2e5f0466e18798db436"
+		"clienttga"		"a6b716e1809b13db2fb96d455b78ebab0246c8eb"
+		"icon"		"a80aa6cff8eebc1cbc18c367d9ab063e1553b0ee"
+		"clienticns"		"513ad959ff55369deac458d6c60020f4d54174cf"
+		"linuxclienticon"		"23b3e8bf7f5a6862d4699456117c4fdbfe11969a"
+		"logo"		"fab2e3b2ec6d14c6fc3ccd1671e85f85d0bbd91e"
+		"logo_small"		"fab2e3b2ec6d14c6fc3ccd1671e85f85d0bbd91e_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"322330_eula_0"
+				"name"		"Don't Starve Together Beta EULA"
+				"url"		"http://store.steampowered.com//eula/322330_eula_0"
+			}
+		}
+		"oslist"		"windows,macos,linux"
+		"metacritic_name"		"Don't Starve Together"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"49"
+				"height_pct"		"36"
+			}
+		}
+		"store_asset_mtime"		"1565918294"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Klei Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Klei Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Klei Entertainment"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_30"		"1"
+			"category_33"		"1"
+			"category_27"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1461257880"
+		"metacritic_score"		"83"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dont-starve-together?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"322330"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"3859"
+			"2"		"1685"
+			"3"		"1695"
+			"4"		"21"
+			"5"		"1702"
+			"6"		"3843"
+			"7"		"3810"
+			"8"		"4026"
+			"9"		"492"
+			"10"		"3871"
+			"11"		"4136"
+			"12"		"4166"
+			"13"		"3978"
+			"14"		"9"
+			"15"		"4182"
+			"16"		"1667"
+			"17"		"19"
+			"18"		"1716"
+			"19"		"599"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"DoNotStarveTogether"
+		"serverbrowsername"		"Don't Starve Together"
+		"developer"		"Klei Entertainment"
+		"publisher"		"Klei Entertainment"
+		"homepage"		"http://www.dontstarvegame.com"
+		"listofdlc"		"363880,647800,798740,798750,840750,840760,840770,962960,974740,981700,981701,981702,987340,998700,1051700,1084430"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Don't Starve Together"
+		"sdr-groups"		"cloud-test"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/dontstarve_steam.exe"
+				"description"		"Don't Starve for Windows"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dontstarve_steam.app"
+				"description"		"Don't Starve Together for OSX"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/dontstarve_steam"
+				"description"		"Don't Starve Together for Linux"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"nativesteamcontroller"		"1"
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"558316845"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"322331"
+		{
+			"name"		"Don't Starve Together - Windows"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1553075153424050162"
+			}
+			"maxsize"		"1629669220"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"928168B6AEA16993D34DDF5A12BBF845"
+					"encrypted_size_2"		"CE935A75E7FC10A0DB4BF9E33532FD9A"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"A9F376B20F3AEDCFB330A6FC2D297099"
+					"encrypted_size_2"		"FF8AD720809D2D5EF442594A482CDAB5"
+				}
+				"fmod"
+				{
+					"encrypted_gid_2"		"58FABC85B8FF8CE4E69D5D99686C3368"
+					"encrypted_size_2"		"F9AD926478EA2060DA9FFC63C721CB8B"
+				}
+				"prev_build_test"
+				{
+					"encrypted_gid_2"		"2C00562EFDCD3F9338095FFA68D287EB"
+					"encrypted_size_2"		"7023D21D22C9A7DB94658ECFC9962C0D"
+				}
+				"release"
+				{
+					"encrypted_gid_2"		"E75A0D0B7564F857F11F73E51903156D"
+					"encrypted_size_2"		"6A2EE34440E11BBEFF57C57DA8C49FA0"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"567618523D6336AA6270B37EF209DA08"
+					"encrypted_size_2"		"426B7DDC31C94FE0CDC0DC1AB36EBB70"
+				}
+			}
+		}
+		"322332"
+		{
+			"name"		"Don't Starve Together - Linux"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1820585085458386400"
+			}
+			"maxsize"		"1509490466"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"53CF6E6D22D3E27545A9D91829897B12"
+					"encrypted_size_2"		"1863F1946627D2271634F8C4D432D79E"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"CB46C7A76645588ED45981346977E571"
+					"encrypted_size_2"		"235386EA517DBBB5ACD8F5B8B0BB2C9E"
+				}
+				"fmod"
+				{
+					"encrypted_gid_2"		"19BB14F919BC93D9FDFF555ACC3E18E3"
+					"encrypted_size_2"		"4942411A3644573E9D14206EF715F9E6"
+				}
+				"prev_build_test"
+				{
+					"encrypted_gid_2"		"0AAC9EB2BD754489651C565F70BE1692"
+					"encrypted_size_2"		"4014B94DAED31F32B0DC86BA2C945D8E"
+				}
+				"release"
+				{
+					"encrypted_gid_2"		"68A631FA10C8E6D32DF4F07D3F0DBDF2"
+					"encrypted_size_2"		"3B1C5E9BE223F3E6AD7B94F3285EC012"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"C9E9A93FD897820232F996CDCDF61BC5"
+					"encrypted_size_2"		"E40A80C5A92A75569F27239C70BC4F83"
+				}
+			}
+		}
+		"322333"
+		{
+			"name"		"Don't Starve Together - OSX"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3996005567315455551"
+			}
+			"maxsize"		"1523808733"
+			"encryptedmanifests"
+			{
+				"archive"
+				{
+					"encrypted_gid_2"		"0F41B7A4C48F8103CA6254CE301D7FBD"
+					"encrypted_size_2"		"B137512991CCBE81C852F33BF443D72A"
+				}
+				"dev"
+				{
+					"encrypted_gid_2"		"90C2083D99003A4AF03616C91DFD5406"
+					"encrypted_size_2"		"2EC811CB09D5475AFE9ABE15A3E3FF7C"
+				}
+				"fmod"
+				{
+					"encrypted_gid_2"		"66AEF47976B8E35827092C136413B06D"
+					"encrypted_size_2"		"CF49233D0AF87A2B3D10CF709651972B"
+				}
+				"prev_build_test"
+				{
+					"encrypted_gid_2"		"EC5BD87940E20A92B17E2E9A70B208B1"
+					"encrypted_size_2"		"DEFC17AF90133374AF4973B63276628D"
+				}
+				"release"
+				{
+					"encrypted_gid_2"		"25A86BB220340E1EA35FA6A6D8D0AE59"
+					"encrypted_size_2"		"9F7FD0B5DEF249D5BA09ADDC219DB093"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"39BD4F515B24369C1F5A0943BC0333D7"
+					"encrypted_size_2"		"9B75543CF054200418BE7E8872C57332"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4147816"
+				"timeupdated"		"1567035661"
+			}
+			"archive"
+			{
+				"buildid"		"1399065"
+				"description"		"A New Reign archive"
+				"pwdrequired"		"1"
+				"timeupdated"		"1476815097"
+			}
+			"dev"
+			{
+				"buildid"		"4178836"
+				"description"		"Nightly build for testing at home"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568024817"
+			}
+			"fmod"
+			{
+				"buildid"		"3645969"
+				"description"		"FMOD testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552590140"
+			}
+			"prev_build_test"
+			{
+				"buildid"		"3363353"
+				"description"		"Used for grabbing a previous build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1544123371"
+			}
+			"release"
+			{
+				"buildid"		"4175031"
+				"description"		"Release branch test before default"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567819209"
+			}
+			"staging"
+			{
+				"buildid"		"4127016"
+				"description"		"Staging branch test before preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566416487"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

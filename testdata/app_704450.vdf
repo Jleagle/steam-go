@@ -1,0 +1,523 @@
+"appinfo"
+{
+	"appid"		"704450"
+	"common"
+	{
+		"name"		"Neverwinter Nights: Enhanced Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"704450_eula_0"
+				"name"		"Neverwinter Nights: Enhanced Edition EULA"
+				"url"		"http://store.steampowered.com//eula/704450_eula_0"
+			}
+		}
+		"logo"		"8b5cc6c144c07e85a02daebbfb5c0cd7c136f0e2"
+		"logo_small"		"8b5cc6c144c07e85a02daebbfb5c0cd7c136f0e2_thumb"
+		"icon"		"13ce6235f38dd06b28097892d6550760f8cc2150"
+		"clienticon"		"eb02f4ecf33f23d2870b0ec9005587425b3587e9"
+		"clienttga"		"85ccc0b12afa4f227184c51cb443fecea316e7b9"
+		"metacritic_name"		"Neverwinter Nights: Enhanced Edition"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33"
+				"height_pct"		"44"
+			}
+		}
+		"store_asset_mtime"		"1531516331"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Beamdog"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Beamdog"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_17"		"1"
+			"category_30"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1522173822"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"704450"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"14153"
+			"2"		"1684"
+			"3"		"1693"
+			"4"		"4474"
+			"5"		"3859"
+			"6"		"4182"
+			"7"		"4747"
+			"8"		"1742"
+			"9"		"1685"
+			"10"		"7107"
+			"11"		"21"
+			"12"		"1669"
+			"13"		"7782"
+			"14"		"7208"
+			"15"		"4166"
+			"16"		"1756"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Beamdog"
+		"publisher"		"Beamdog"
+		"homepage"		"http://nwn.beamdog.com"
+		"listofdlc"		"737000,737001,737002,738710,738711,744680,746550,813060,854960,854961,965660,1143400,1143410"
+	}
+	"config"
+	{
+		"installdir"		"Neverwinter Nights"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/win32/nwmain.exe"
+				"workingdir"		"bin/win32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/macos/nwmain.app/Contents/MacOS/nwmain"
+				"workingdir"		"bin/macos/nwmain.app/Contents/MacOS"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/linux-x86/nwmain-linux"
+				"workingdir"		"bin/linux-x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"bin/win32/nwmain.exe"
+				"arguments"		"-dmc"
+				"workingdir"		"bin/win32"
+				"description"		"Dungeon Master Client - Multiplayer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"bin/win32/nwtoolset.exe"
+				"workingdir"		"bin/win32"
+				"description"		"Aurora Toolset"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"matchmaking_uptodate"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,polish"
+		"workshopdepot"		"704450"
+		"229020"
+		{
+			"name"		"OpenAL 2.0.7.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"810085"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"704451"
+		{
+			"name"		"Neverwinter Nights Content"
+			"manifests"
+			{
+				"public"		"5530306117568362467"
+				"build8184"		"3670685188530251926"
+				"build8187"		"7707963870337908330"
+				"build8188"		"579456380134997720"
+				"build8189"		"1400857608693297017"
+				"development"		"1400857608693297017"
+				"oldstable"		"6442811045477521824"
+			}
+			"maxsize"		"7937102611"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"F7EA39EFF38A0AB485B93DD79EDDDF32"
+					"encrypted_size_2"		"5639275F91660FCB54C0300162CC6357"
+				}
+			}
+		}
+		"704452"
+		{
+			"name"		"Neverwinter Nights Binaries - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4370088424930538920"
+				"build8184"		"3597979965083744631"
+				"build8187"		"6450239397561329688"
+				"build8188"		"4617901645341585031"
+				"build8189"		"5018331575243542520"
+				"development"		"5018331575243542520"
+				"oldstable"		"7416303595879483748"
+			}
+			"maxsize"		"179865097"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"8884BC8A2F1B146134628DC1A8D32DBB"
+					"encrypted_size_2"		"BDE96C1F71D8CCC96397A559523EBC38"
+				}
+			}
+		}
+		"704453"
+		{
+			"name"		"Neverwinter Nights Binaries - MacOS"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9047413247739180102"
+				"build8184"		"4800420701414737360"
+				"build8187"		"4677508650707033427"
+				"build8188"		"4291721316542408729"
+				"build8189"		"5794616168212789497"
+				"development"		"5794616168212789497"
+				"oldstable"		"4702746516637184077"
+			}
+			"maxsize"		"180466361"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"4A0098C318F8832EBB13F7C5F8D8B503"
+					"encrypted_size_2"		"4010D74B55FFF69BBED139574DA5822C"
+				}
+			}
+		}
+		"704454"
+		{
+			"name"		"Neverwinter Nights Binaries - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8058634552865359729"
+				"build8184"		"3059431610971507065"
+				"build8187"		"6856126403609971864"
+				"build8188"		"6932210308754809796"
+				"build8189"		"2034715200044361911"
+				"development"		"2034715200044361911"
+				"oldstable"		"7712167579156091054"
+			}
+			"maxsize"		"180590463"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"796D08BF4D5862A7D2D51B8947A98F3F"
+					"encrypted_size_2"		"0E65AE843B5AFEE182D76E1F9729C57D"
+				}
+			}
+		}
+		"738710"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition - Official Soundtrack (738710) Depot"
+			"dlcappid"		"738710"
+			"manifests"
+			{
+				"public"		"8766435700300219793"
+			}
+			"maxsize"		"956383988"
+		}
+		"738711"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition - Premium Adventures Official Soundtrack (738711) Depot"
+			"dlcappid"		"738711"
+			"manifests"
+			{
+				"public"		"2028928542682603301"
+			}
+			"maxsize"		"26015786"
+		}
+		"737000"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition - Infinite Dungeons Premium Module (737000) Depot"
+			"dlcappid"		"737000"
+			"manifests"
+			{
+				"public"		"5671781693317233097"
+			}
+			"maxsize"		"360573861"
+		}
+		"737001"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition - Wyvern Crown of Cormyr Premium Module (737001) Depot"
+			"dlcappid"		"737001"
+			"manifests"
+			{
+				"public"		"9019167083621454020"
+			}
+			"maxsize"		"836715870"
+		}
+		"737002"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition - Pirates of the Sword Coast Premium Module (737002) Depot"
+			"dlcappid"		"737002"
+			"manifests"
+			{
+				"public"		"3430717705875386479"
+			}
+			"maxsize"		"140715614"
+		}
+		"744680"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition Heroes of Neverwinter Portrait Pack (744680) Depot"
+			"dlcappid"		"744680"
+			"manifests"
+			{
+				"public"		"2519098667874915626"
+			}
+			"maxsize"		"6985880"
+		}
+		"854960"
+		{
+			"name"		"Neverwinter Nights: Darkness Over Daggerford (854960) Depot"
+			"dlcappid"		"854960"
+			"manifests"
+			{
+				"public"		"8704982376329088869"
+				"build8188"		"6547740216886672880"
+				"build8189"		"6547740216886672880"
+				"development"		"6547740216886672880"
+			}
+			"maxsize"		"343679419"
+		}
+		"854961"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition Darkness Over Daggerford Official Soundtrack (854961) Depot"
+			"dlcappid"		"854961"
+			"manifests"
+			{
+				"public"		"7058033584419722453"
+			}
+			"maxsize"		"180112889"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"402179C5FE24A3A5B9BBDD8DDFE29EDD"
+					"encrypted_size_2"		"674B4FAD267445F4C837C0C29EEE7CD0"
+				}
+			}
+		}
+		"1143400"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition Tyrants of the Moonsea (1143400) Depot"
+			"manifests"
+			{
+				"public"		"4124610028614141421"
+			}
+			"maxsize"		"1761090759"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"C9E98BE3ACA40CD43B00019975B8D434"
+					"encrypted_size_2"		"6DFDC09ED5FFF75F76D53F5491A7FE0B"
+				}
+			}
+			"dlcappid"		"1143400"
+		}
+		"1143410"
+		{
+			"name"		"Neverwinter Nights: Enhanced Edition Tyrants of the Moonsea Official Soundtrack (1143410) Depot"
+			"manifests"
+			{
+				"public"		"7624414258821096418"
+			}
+			"maxsize"		"256332737"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid_2"		"75D5527CE15B3E3270434EE04779ABC8"
+					"encrypted_size_2"		"6DFDC09ED5FFF75F76D53F5491A7FE0B"
+				}
+			}
+			"dlcappid"		"1143410"
+		}
+		"hasdepotsindlc"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4126752"
+				"timeupdated"		"1566409822"
+			}
+			"build8184"
+			{
+				"buildid"		"3272174"
+				"description"		""
+				"timeupdated"		"1542227718"
+			}
+			"build8186"
+			{
+				"buildid"		"3311057"
+				"description"		""
+				"timeupdated"		"1566408842"
+			}
+			"build8187"
+			{
+				"buildid"		"3421596"
+				"description"		""
+				"timeupdated"		"1565119737"
+			}
+			"build8188"
+			{
+				"buildid"		"4080385"
+				"description"		""
+				"timeupdated"		"1565801401"
+			}
+			"build8189"
+			{
+				"buildid"		"4102659"
+				"description"		""
+				"timeupdated"		"1565802538"
+			}
+			"development"
+			{
+				"buildid"		"4126754"
+				"description"		""
+				"timeupdated"		"1566409868"
+			}
+			"oldstable"
+			{
+				"buildid"		"3161925"
+				"description"		""
+				"timeupdated"		"1542748359"
+			}
+			"testing"
+			{
+				"buildid"		"4124290"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1566347372"
+			}
+			"tyrants"
+			{
+				"buildid"		"4126448"
+				"description"		"For testing TotM"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566402900"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

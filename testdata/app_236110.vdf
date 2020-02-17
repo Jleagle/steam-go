@@ -1,0 +1,461 @@
+"appinfo"
+{
+	"appid"		"236110"
+	"common"
+	{
+		"name"		"Dungeon Defenders II"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"icon"		"0ce07c2568f978a01c8ae5f4d9402c3253963641"
+		"clienticon"		"4cad9cb6ac93501c2c990dd2482f440eb5c9ae30"
+		"clienttga"		"2dc7f70e334ab9f7ffdd943e8df94d6d047a92fb"
+		"logo"		"fe628ba79f4b23a5aee079d1c71f7c1ef24065f4"
+		"logo_small"		"fe628ba79f4b23a5aee079d1c71f7c1ef24065f4_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"236110_eula_0"
+				"name"		"Dungeon Defenders II EULA"
+				"url"		"http://store.steampowered.com//eula/236110_eula_0"
+			}
+		}
+		"metacritic_name"		"Dungeon Defenders II"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59"
+				"height_pct"		"61"
+			}
+		}
+		"store_asset_mtime"		"1545150007"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Trendy Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Trendy Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"23"
+			"3"		"3"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1497942000"
+		"steam_release_date"		"1497964004"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"236110"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"1645"
+			"1"		"113"
+			"2"		"3859"
+			"3"		"1685"
+			"4"		"9"
+			"5"		"122"
+			"6"		"19"
+			"7"		"3843"
+			"8"		"1684"
+			"9"		"21"
+			"10"		"1697"
+			"11"		"4136"
+			"12"		"493"
+			"13"		"492"
+			"14"		"4182"
+			"15"		"128"
+			"16"		"597"
+			"17"		"1646"
+			"18"		"1754"
+			"19"		"1718"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Trendy Entertainment"
+		"gamedir"		"ValveTestApp236110"
+		"homepage"		"https://www.dungeondefenders.com/2/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Trendy Entertainment"
+		"isfreeapp"		"1"
+		"listofdlc"		"336310,363010,364490,368110,399050,408950,408970,417740,427560,427561,493420,544830,544831,544832,556350,556351,556352,568120,651130,651131,651132,651140,726190,747600,806370,874710,874730,874740,874750,945400,945401,945402,945403,945404,961140,976660,976661,976662,976663,976664,999780,1004590,1016300,1150030,1150031,1150032,1150033"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dungeon Defenders 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DunDefLauncher.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DunDefLauncher.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"LinuxDownloadLauncher"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"name"		"VC 2008 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"9688647"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"236111"
+		{
+			"name"		"Dungeon Defenders II (Pre-Alpha) Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5660508411857401610"
+			}
+			"maxsize"		"12805897768"
+			"encryptedmanifests"
+			{
+				"daily"
+				{
+					"encrypted_gid_2"		"FB2CBFA80920F0AAD7345AF34E590CF3"
+					"encrypted_size_2"		"C7E26EA7E535F910A57AB7871B64784F"
+				}
+				"dundefkart"
+				{
+					"encrypted_gid_2"		"256D2E3D05AE384C94F80338D5482672"
+					"encrypted_size_2"		"89B9441AF91FE32E250FEAB1F08FE402"
+				}
+				"generic"
+				{
+					"encrypted_gid_2"		"91A10F3FB2952429637FEA815FECF509"
+					"encrypted_size_2"		"2DEDCC6B49708C02DEE902714F384C19"
+				}
+				"hf3confirmed"
+				{
+					"encrypted_gid_2"		"C26AC319F463BBAF7481C04936F44FAC"
+					"encrypted_size_2"		"97A11188E6349118399714DE346449C9"
+				}
+				"internaltesting"
+				{
+					"encrypted_gid_2"		"AE0A7E4F11AD75E359E8AE8823AA9750"
+					"encrypted_size_2"		"0E146B871729000EB90E52BA0E022DEE"
+				}
+				"mothball"
+				{
+					"encrypted_gid_2"		"D44C826114F1EBB8B61F320D19DFB2F8"
+					"encrypted_size_2"		"C6DB9663D2FEC04A144CB6A6948781B9"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"4F6AE06105F07CDD775ACFDA16F09A25"
+					"encrypted_size_2"		"C477BAC9A35BBE7DDB01ACE1761215FB"
+				}
+				"orecktestbranch"
+				{
+					"encrypted_gid_2"		"9C198E01E25AAD5F56B55B9EC229D349"
+					"encrypted_size_2"		"477E8D6A32EAE83A29D3AA711C3C0BA7"
+				}
+				"pressbranch"
+				{
+					"encrypted_gid_2"		"C37FF1ACBB7A205D56873381E88D9893"
+					"encrypted_size_2"		"83747A2801ED7844965F1286FCBA4D31"
+				}
+				"previouslive"
+				{
+					"encrypted_gid_2"		"F3E592CC96805C33E47D05E7C5BBADBB"
+					"encrypted_size_2"		"FD0E50CAA50109B2B85E7F89CD353C90"
+				}
+				"releasetest"
+				{
+					"encrypted_gid_2"		"738753BFA7AA8B120E14F508AB24E6B0"
+					"encrypted_size_2"		"CE7DD6AFA84392AB28033C93A99ACD6E"
+				}
+				"remoteplaytest"
+				{
+					"encrypted_gid_2"		"816E07A96E0E7E13412270411A7A8B21"
+					"encrypted_size_2"		"C9DFA4BF9527CA1CB3CA942C0ADBE9DC"
+				}
+				"secretdundefhorrorgame"
+				{
+					"encrypted_gid_2"		"AEE65A8E721E764C6CA5923ACBFA6AF1"
+					"encrypted_size_2"		"A0DF54A22236F284E196607A16539DAA"
+				}
+				"staging"
+				{
+					"encrypted_gid_2"		"9431D78E50A6821BC2E32E23E8D5F261"
+					"encrypted_size_2"		"AF8BFBF7A079A2CEA2745067FD151747"
+				}
+				"updatealpha"
+				{
+					"encrypted_gid_2"		"A66FF358C7305443D45720F07517AADD"
+					"encrypted_size_2"		"2F792127E064D177E84CE2AC460C177A"
+				}
+				"updatebeta"
+				{
+					"encrypted_gid_2"		"F19E9449C594AC156EBDDED73AA71A1F"
+					"encrypted_size_2"		"81B5D2218F582E013F6B56C2A983C386"
+				}
+				"updategamma"
+				{
+					"encrypted_gid_2"		"A93442062E7D7566E8D29C90CFAF4DF6"
+					"encrypted_size_2"		"BE37BEFEF5BE596FB733AF683B440927"
+				}
+				"updatesigma"
+				{
+					"encrypted_gid_2"		"AD9FDE65BFB54A4F12458373F5F83F47"
+					"encrypted_size_2"		"3ABAE68ACC38732D40B846469AD75A33"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4151210"
+				"timeupdated"		"1567176186"
+			}
+			"daily"
+			{
+				"buildid"		"4178408"
+				"description"		"Morning Linux Server"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568014973"
+			}
+			"dundefkart"
+			{
+				"buildid"		"3311326"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1542311223"
+			}
+			"generic"
+			{
+				"buildid"		"3307644"
+				"description"		"Used for any kind of build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542222774"
+			}
+			"hf3confirmed"
+			{
+				"buildid"		"3186920"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538759475"
+			}
+			"internaltesting"
+			{
+				"buildid"		"3200438"
+				"description"		"Branch for any Studio local tests"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539190811"
+			}
+			"livetest"
+			{
+				"buildid"		"4151210"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567112417"
+			}
+			"mothball"
+			{
+				"buildid"		"1577478"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1532548887"
+			}
+			"nightly"
+			{
+				"buildid"		"4177558"
+				"description"		"Evening Linux Server"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567973265"
+			}
+			"orecktestbranch"
+			{
+				"buildid"		"3226489"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539956409"
+			}
+			"pressbranch"
+			{
+				"buildid"		"3042983"
+				"description"		"Out of Early Access"
+				"pwdrequired"		"1"
+				"timeupdated"		"1534553392"
+			}
+			"previouslive"
+			{
+				"buildid"		"3751253"
+				"description"		"Copy of old live for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556745751"
+			}
+			"releasetest"
+			{
+				"buildid"		"1913118"
+				"description"		"Release build W/ Logs"
+				"pwdrequired"		"1"
+				"timeupdated"		"1498252192"
+			}
+			"remoteplaytest"
+			{
+				"buildid"		"4028327"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563572222"
+			}
+			"secretdundefhorrorgame"
+			{
+				"buildid"		"3278768"
+				"description"		"The Scary Prototype"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541462199"
+			}
+			"staging"
+			{
+				"buildid"		"3751295"
+				"description"		"PV Staging Linux"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555616334"
+			}
+			"updatealpha"
+			{
+				"buildid"		"4178424"
+				"description"		"Updates,Hotfixes and General Fixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568015383"
+			}
+			"updatebeta"
+			{
+				"buildid"		"4177560"
+				"description"		"Updates,Hotfixes and General Fixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567973338"
+			}
+			"updategamma"
+			{
+				"buildid"		"3503611"
+				"description"		"Updates,Hotfixes and General Fixes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548782738"
+			}
+			"updatesigma"
+			{
+				"buildid"		"4134500"
+				"description"		"Updates,Hotfixes and Comments for Eric"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566596225"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"500"
+	}
+}
+ 

@@ -1,0 +1,499 @@
+"appinfo"
+{
+	"appid"		"10"
+	"common"
+	{
+		"clienticon"		"f16b5951eed02e3c3516389031374e95268d9ce7"
+		"clienttga"		"44df3dcc3e8bbdc66a819c94e7bff95a3bf39e08"
+		"icon"		"6b0312cda02f5f777efa2f3318c307ff9acafbb5"
+		"logo"		"af890f848dd606ac2fd4415de3c3f5e7a66fcb9f"
+		"logo_small"		"dc97d7c8ae3a417cbb09fed1dcfb3204b7a2766b"
+		"metacritic_url"		"pc/halflifecounterstrike"
+		"name"		"Counter-Strike"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"fc45c2591d95f081ff1268ad856297430fbcf686"
+		"clienticns"		"ef2d37a6d159f600fc5e4f80e1e2637403833856"
+		"type"		"game"
+		"metacritic_name"		"Counter-Strike"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1416965889"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Valve"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Valve"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_8"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"973065600"
+		"metacritic_score"		"88"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/counter-strike?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"10"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"1774"
+			"4"		"1693"
+			"5"		"5711"
+			"6"		"3839"
+			"7"		"3878"
+			"8"		"1708"
+			"9"		"6691"
+			"10"		"5055"
+			"11"		"1775"
+			"12"		"3916"
+			"13"		"4168"
+			"14"		"9"
+			"15"		"5144"
+			"16"		"1662"
+			"17"		"5154"
+			"18"		"7743"
+			"19"		"4376"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"dependantonapp"		"70"
+		"developer"		"Valve"
+		"gamedir"		"cstrike"
+		"homepage"		"http://www.counter-strike.net/"
+		"icon"		"steam/games/icon_cs"
+		"icon2"		"steam/games/icon_cs_dull"
+		"minclientversion"		"1000000"
+		"order"		"12"
+		"primarycache"		"11"
+		"serverbrowsername"		"Counter-Strike"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"developer_url"		"http://www.valvesoftware.com/"
+		"publisher"		"Valve"
+	}
+	"config"
+	{
+		"installdir"		"Half-Life"
+		"systemprofile"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hl.exe"
+				"arguments"		"-steam -game cstrike"
+				"vacmodulefilename"		"resource\\sourceinit.dat"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"hl.sh"
+				"arguments"		"-steam -game cstrike"
+				"vacmodulefilename"		"resource\\sourceinit_macos.dat"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"hl.sh"
+				"arguments"		"-steam -game cstrike"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"convertgcfs"		"1"
+	}
+	"depots"
+	{
+		"1"
+		{
+			"name"		"Base Goldsrc Shared Content"
+			"systemdefined"		"1"
+			"maxsize"		"429833683"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"11"
+		{
+			"name"		"Counter-Strike Base Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8098553533444340691"
+				"beta"		"4081799308063571740"
+			}
+			"maxsize"		"292611285"
+		}
+		"95"
+		{
+			"name"		"Condition Zero Models"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7685864384078520360"
+			}
+			"maxsize"		"26459518"
+		}
+		"3"
+		{
+			"name"		"Base Goldsrc Shared Platform"
+			"systemdefined"		"1"
+			"maxsize"		"895434"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"8"
+		{
+			"name"		"Base Goldsrc Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"maxsize"		"101274495"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"2"
+		{
+			"name"		"Base Goldsrc Shared Binaries"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"maxsize"		"43395417"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"9"
+		{
+			"name"		"Base Goldsrc OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"maxsize"		"52997173"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"6"
+		{
+			"name"		"Base Goldsrc LV"
+			"config"
+			{
+				"lowviolence"		"1"
+			}
+			"maxsize"		"52196726"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"72"
+		{
+			"name"		"Half-Life French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"maxsize"		"39371535"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"73"
+		{
+			"name"		"Half-Life Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"maxsize"		"54732725"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"74"
+		{
+			"name"		"Half-Life German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"maxsize"		"52452190"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"75"
+		{
+			"name"		"Half-Life Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"maxsize"		"48056244"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"77"
+		{
+			"name"		"Half-Life sChinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"maxsize"		"45740712"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"78"
+		{
+			"name"		"Half-Life Koreana"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"maxsize"		"45548818"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"79"
+		{
+			"name"		"Half-Life tChinese"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"maxsize"		"45741130"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"141"
+		{
+			"name"		"Half-Life Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"maxsize"		"79628"
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"12"
+		{
+			"name"		"Counter-Strike French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"4249506477070150661"
+			}
+			"maxsize"		"2578716"
+		}
+		"13"
+		{
+			"name"		"Counter-Strike Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"8121279989947809180"
+			}
+			"maxsize"		"6340918"
+		}
+		"14"
+		{
+			"name"		"Counter-Strike German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"797471157445930276"
+			}
+			"maxsize"		"2142668"
+		}
+		"15"
+		{
+			"name"		"Counter-Strike Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"4221924280990802776"
+				"beta"		"347793025475409008"
+			}
+			"maxsize"		"2093459"
+		}
+		"17"
+		{
+			"name"		"Counter-Strike sChinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"3300893578491173381"
+			}
+			"maxsize"		"10868592"
+		}
+		"18"
+		{
+			"name"		"Counter-Strike Koreana"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"2731601746579743404"
+			}
+			"maxsize"		"2958713"
+		}
+		"19"
+		{
+			"name"		"Counter-Strike tChinese"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"4715338954315985237"
+			}
+			"maxsize"		"2654864"
+		}
+		"142"
+		{
+			"name"		"Counter-Strike Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"8052183366346984139"
+			}
+			"maxsize"		"365340"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3710234"
+				"timeupdated"		"1555016424"
+			}
+			"beta"
+			{
+				"buildid"		"4063559"
+				"description"		"Beta"
+				"timeupdated"		"1564696263"
+			}
+		}
+	}
+	"ufs"
+	{
+		"testonly"		"1"
+		"quota"		"1048576"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"cstrike"
+				"pattern"		"*.cfg"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
+ 

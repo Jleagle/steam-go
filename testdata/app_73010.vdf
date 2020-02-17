@@ -1,0 +1,819 @@
+"appinfo"
+{
+	"appid"		"73010"
+	"common"
+	{
+		"name"		"Cities in Motion"
+		"clienticon"		"ebbeb266972acee36006acfbf14ca08097bd339e"
+		"clienttga"		"6f4c1e07962c8a9bd082a3ae21dd5381903eba8c"
+		"icon"		"4defa63294e621de496fa37a993a75f8d09ec30d"
+		"logo"		"d768b8afb0b4bd3f5408c6354efce98b917b2e0e"
+		"logo_small"		"d768b8afb0b4bd3f5408c6354efce98b917b2e0e_thumb"
+		"clienticns"		"0b0f05af730b744ec74b94dce8aaa1eece0bbdc5"
+		"oslist"		"windows,macos,linux"
+		"type"		"game"
+		"metacritic_name"		"Cities in Motion"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50.23212626682832"
+				"height_pct"		"54.919583727530735"
+			}
+		}
+		"store_asset_mtime"		"1568015890"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Colossal Order Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1298398140"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/cities-in-motion?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"73010"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"12472"
+			"2"		"9"
+			"3"		"4182"
+			"4"		"4328"
+			"5"		"1616"
+			"6"		"4695"
+			"7"		"10383"
+			"8"		"3810"
+			"9"		"1643"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Colossal Order Ltd."
+		"dlcavailableonstore"		"1"
+		"dlcpurchasefromingame"		"0"
+		"gamedir"		"Cities In Motion"
+		"homepage"		"http://www.citiesinmotion.com"
+		"icon"		""
+		"installscript_macos"		"Cities In Motion.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"73011"
+		"primarycache_macos"		"73015"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Paradox Interactive"
+		"gamemanualurl"		"https://store.steampowered.com/manual/73010/"
+		"listofdlc"		"73012,73013,73014,73016,73017,73018,73180,73181,73182,73183,73184,73185,73186,73187,73188,206710,206711,206712,206713,206714,206715,206716,206717,206718,206720,206721,271380,271381,271382,271383,271384,271385,271386,271387,271388,271389,310040,422410,422450,422460,468870,468950,468960,468970,468980,468990,469210,469220,469230,469240,469250,469260,469270,469280,469290,469300,469310,469320,469330,469340,469350,469360,469370,469380"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cities In Motion"
+		"launch"
+		{
+			"0"
+			{
+				"description"		"Cities In Motion"
+				"executable"		"Cities In Motion.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"description"		"Cities In Motion"
+				"executable"		"Cities In Motion.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cities In Motion.bin"
+				"description"		"Cities In Motion"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"206717"
+		{
+			"name"		"Cities in Motion: St Petersburg Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"778164646146333447"
+			}
+			"maxsize"		"21783084"
+			"dlcappid"		"206717"
+		}
+		"206716"
+		{
+			"name"		"Cities in Motion: St Petersburg Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7722204469637706163"
+			}
+			"maxsize"		"21783084"
+			"dlcappid"		"206716"
+		}
+		"206723"
+		{
+			"name"		"Cities in Motion: St Petersburg Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7710417032441938888"
+			}
+			"maxsize"		"21783084"
+		}
+		"206715"
+		{
+			"name"		"Cities in Motion: Paris Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8757338683197818275"
+			}
+			"maxsize"		"30963088"
+			"dlcappid"		"206715"
+		}
+		"206714"
+		{
+			"name"		"Cities in Motion: Paris Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3180257487136568062"
+			}
+			"maxsize"		"30963088"
+			"dlcappid"		"206714"
+		}
+		"271389"
+		{
+			"name"		"Cities in Motion: Paris Linux (271389) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1385023748767786811"
+			}
+			"maxsize"		"30963088"
+			"dlcappid"		"271389"
+		}
+		"206713"
+		{
+			"name"		"Cities in Motion: Ulm City Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1128883142458724122"
+			}
+			"maxsize"		"3635216"
+			"dlcappid"		"206713"
+		}
+		"206712"
+		{
+			"name"		"Cities in Motion: Ulm City Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3593348923100467626"
+			}
+			"maxsize"		"3635216"
+			"dlcappid"		"206712"
+		}
+		"271388"
+		{
+			"name"		"Cities in Motion: Ulm City Linux (271388) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6387560413029865225"
+			}
+			"maxsize"		"3635216"
+			"dlcappid"		"271388"
+		}
+		"206711"
+		{
+			"name"		"Cities in Motion - Design Dreams DLC Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4219348791796418754"
+			}
+			"maxsize"		"1069688"
+			"dlcappid"		"206711"
+		}
+		"206710"
+		{
+			"name"		"Cities in Motion - Design Dreams DLC Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2524927685141486515"
+			}
+			"maxsize"		"1069688"
+			"dlcappid"		"206710"
+		}
+		"271387"
+		{
+			"name"		"Cities in Motion - Design Dreams DLC Linux (271387) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7749933219793792469"
+			}
+			"maxsize"		"1069688"
+			"dlcappid"		"271387"
+		}
+		"73188"
+		{
+			"name"		"Cities In Motion: US Cities Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5502331354169263711"
+			}
+			"maxsize"		"187652880"
+			"dlcappid"		"73188"
+		}
+		"73187"
+		{
+			"name"		"Cities In Motion: US Cities Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"446992129252200871"
+			}
+			"maxsize"		"187652880"
+			"dlcappid"		"73187"
+		}
+		"271386"
+		{
+			"name"		"Cities In Motion: US Cities Linux (271386) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7449401512519694871"
+			}
+			"maxsize"		"187652880"
+			"dlcappid"		"271386"
+		}
+		"73186"
+		{
+			"name"		"Cities In Motion: German Cities Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4151931844517972016"
+			}
+			"maxsize"		"13482868"
+			"dlcappid"		"73186"
+		}
+		"73185"
+		{
+			"name"		"Cities In Motion: German Cities Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4114108724420731152"
+			}
+			"maxsize"		"13482868"
+			"dlcappid"		"73185"
+		}
+		"271385"
+		{
+			"name"		"Cities In Motion: German Cities Linux (271385) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"698767586205072627"
+			}
+			"maxsize"		"13482868"
+			"dlcappid"		"271385"
+		}
+		"73184"
+		{
+			"name"		"Cities In Motion: Metro Station Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6651487688617956210"
+			}
+			"maxsize"		"1565592"
+			"dlcappid"		"73184"
+		}
+		"73183"
+		{
+			"name"		"Cities in Motion: Metro Station Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6367074564990149813"
+			}
+			"maxsize"		"1565592"
+			"dlcappid"		"73183"
+		}
+		"271384"
+		{
+			"name"		"Cities in Motion: Metro Station Linux (271384) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8331778112428594766"
+			}
+			"maxsize"		"1565592"
+			"dlcappid"		"271384"
+		}
+		"73182"
+		{
+			"name"		"Cities in Motion: Tokyo DLC Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"236941984819536504"
+				"local"		"3222970685823466097"
+			}
+			"maxsize"		"150292484"
+			"dlcappid"		"73182"
+		}
+		"73181"
+		{
+			"name"		"Cities in Motion: Tokyo DLC Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3057028841951411466"
+			}
+			"maxsize"		"150292484"
+			"dlcappid"		"73181"
+		}
+		"271383"
+		{
+			"name"		"Cities in Motion: Tokyo DLC Linux (271383) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3205484302333766595"
+			}
+			"maxsize"		"150292484"
+			"dlcappid"		"271383"
+		}
+		"73180"
+		{
+			"name"		"Cities in Motion: Design Now Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3688798056830722754"
+			}
+			"maxsize"		"1126728"
+			"dlcappid"		"73180"
+		}
+		"73014"
+		{
+			"name"		"Cities in Motion: Design Now Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8775868645390462777"
+			}
+			"maxsize"		"1126728"
+			"dlcappid"		"73014"
+		}
+		"271382"
+		{
+			"name"		"Cities in Motion: Design Now Linux (271382) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7582085104723970672"
+			}
+			"maxsize"		"1126728"
+			"dlcappid"		"271382"
+		}
+		"73017"
+		{
+			"name"		"Cities in Motion: Design Marvels DLC Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8104612058283465"
+				"local"		"7660342528197577550"
+			}
+			"maxsize"		"858900"
+			"dlcappid"		"73017"
+		}
+		"73013"
+		{
+			"name"		"Cities in Motion: Design Marvels DLC Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3796524072293559504"
+			}
+			"maxsize"		"858900"
+			"dlcappid"		"73013"
+		}
+		"271381"
+		{
+			"name"		"Cities in Motion: Design Marvels Linux (271381) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8895615827794177926"
+			}
+			"maxsize"		"858900"
+			"dlcappid"		"271381"
+		}
+		"73016"
+		{
+			"name"		"Cities In Motion - Design Classics DLC Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3638168454760431231"
+				"local"		"7691651328390568785"
+			}
+			"maxsize"		"861740"
+			"dlcappid"		"73016"
+		}
+		"73012"
+		{
+			"name"		"Cities In Motion - Design Classics DLC Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1372928940646937570"
+			}
+			"maxsize"		"861740"
+			"dlcappid"		"73012"
+		}
+		"271380"
+		{
+			"name"		"Cities In Motion - Design Classics DLC Linux (271380) Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5636312535275183048"
+			}
+			"maxsize"		"861740"
+			"dlcappid"		"271380"
+		}
+		"73015"
+		{
+			"name"		"Cities In Motion Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1415998079980271077"
+			}
+			"maxsize"		"401452832"
+		}
+		"73011"
+		{
+			"name"		"Cities In Motion Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1190631623011834473"
+			}
+			"maxsize"		"444383304"
+		}
+		"206722"
+		{
+			"name"		"Cities in Motion Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2296686012613549994"
+			}
+			"maxsize"		"447115847"
+		}
+		"206721"
+		{
+			"name"		"Cities in Motion - London Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1910299136124231519"
+			}
+			"maxsize"		"72833988"
+			"dlcappid"		"206721"
+		}
+		"206720"
+		{
+			"name"		"Cities In Motion - London Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8069146021632009769"
+			}
+			"maxsize"		"72833988"
+			"dlcappid"		"206720"
+		}
+		"206725"
+		{
+			"name"		"Cities In Motion - London Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6448271289985378869"
+			}
+			"maxsize"		"72833988"
+		}
+		"206719"
+		{
+			"name"		"Cities in Motion: Design Quirkies Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1020929035695985306"
+			}
+			"maxsize"		"767388"
+		}
+		"206718"
+		{
+			"name"		"Cities in Motion: Design Quirkies Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2318353860757309054"
+			}
+			"maxsize"		"767388"
+			"dlcappid"		"206718"
+		}
+		"206724"
+		{
+			"name"		"Cities in Motion: Design Quirkies Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7224533486112842604"
+			}
+			"maxsize"		"767388"
+		}
+		"310040"
+		{
+			"name"		"Cities in Motion: Soundtrack (310040) Depot"
+			"manifests"
+			{
+				"public"		"593271085083007707"
+			}
+			"maxsize"		"109934930"
+			"dlcappid"		"310040"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"302439"
+			}
+			"local"
+			{
+				"buildid"		"44260"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"test"
+			{
+				"buildid"		"302439"
+				"description"		"Test Branch"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
+ 

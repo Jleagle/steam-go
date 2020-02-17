@@ -1,0 +1,2865 @@
+"appinfo"
+{
+	"appid"		"493900"
+	"common"
+	{
+		"name"		"Dungeons 3"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"czech"		"1"
+		}
+		"logo"		"4f9fdbd01fcc6fae3f6b1290ff336bddc385d3fe"
+		"logo_small"		"4f9fdbd01fcc6fae3f6b1290ff336bddc385d3fe_thumb"
+		"icon"		"bae87fcbf25bab5bcd214f8b96ac14b781e3b4e9"
+		"clienticon"		"648b58f657b8aee9c9c6cdb339401e52d788380e"
+		"clienttga"		"ad2fc9fda34ab44fa99f8c48ac9344bf42205387"
+		"linuxclienticon"		"33f9115720fc5db3b565e63ff2086ccbdb17fb3c"
+		"clienticns"		"02e0c348cb918c86221a7d4efcfabff778224dc4"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"493900_eula_0"
+				"name"		"Dungeons 3 EULA"
+				"url"		"http://store.steampowered.com//eula/493900_eula_0"
+			}
+		}
+		"metacritic_name"		"Dungeons 3"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561628724"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Realmforge Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kalypso Media Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Dungeons"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_9"		"1"
+			"category_27"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507914068"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dungeons-3?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"493900"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"11333"
+			"3"		"599"
+			"4"		"1684"
+			"5"		"12472"
+			"6"		"1719"
+			"7"		"7332"
+			"8"		"4695"
+			"9"		"3859"
+			"10"		"122"
+			"11"		"1685"
+			"12"		"4136"
+			"13"		"1720"
+			"14"		"7208"
+			"15"		"5300"
+			"16"		"5923"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Realmforge Studios"
+		"publisher"		"Kalypso Media Digital"
+		"homepage"		"http://www.kalypsomedia.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/493900/"
+		"listofdlc"		"630090,630091,630092,711170,711171,711172,711680,711681,824610,975330,975360,1023950,1049940"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dungeons 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dungeons3.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Dungeons3.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dungeons3"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"hasdepotsindlc"		"1"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"493901"
+		{
+			"name"		"Dungeons 3 common content"
+			"manifests"
+			{
+				"public"		"8949723070156760314"
+			}
+			"maxsize"		"1035495182"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"069F1D0DD4720476EF92A0103F5DD76F"
+					"encrypted_size_2"		"2D67652B4BE25251FDE6E6441CCD7418"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"FC7CB8940B71F1C12F3BBD70BBEDCF55"
+					"encrypted_size_2"		"4B0FA9C535903956BBE4DAC13DF28144"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"F4396177CF2B73ADAC22396F5B599E67"
+					"encrypted_size_2"		"C0C5F494ECA5B9AACA597A74AB06F3F0"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"DE8642E1502BCCF453A6ADE40B5C5153"
+					"encrypted_size_2"		"CFB499E4C2303AB73318B8015F747976"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"A0B07E44AF34F32DACBD49A29D67C497"
+					"encrypted_size_2"		"39475947DB1A38D51C1E9C469AF9CC52"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"489C28C81BBA0911AA4E4F17263D817A"
+					"encrypted_size_2"		"9779E39FB73CBCB18C1A84E63FC591DC"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"25AC86E01DE203616B119C493442FD8E"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"913ED513EE36FDDAD19410DF12FA3B10"
+					"encrypted_size_2"		"29D5FEB392B9C82663D2B8F4ED3FE744"
+				}
+				"some_build--probably_broken"
+				{
+					"encrypted_gid_2"		"CC4F411AB88ECB542B42C96C23E321CB"
+					"encrypted_size_2"		"E7DDC67E72E6B9C8F3849ACFE15D73D6"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"7F07FAB3D6C62C886BACE5389561288B"
+					"encrypted_size_2"		"3728A19EAF5E311D485E4B659C361A40"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"6B6AED539B6F4F15A16A47C7E13A0C26"
+					"encrypted_size_2"		"3EC11E8F102E380560847E6FD03A9A82"
+				}
+			}
+		}
+		"493902"
+		{
+			"name"		"Dungeons 3 windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5889105208781420617"
+			}
+			"maxsize"		"5318140654"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A9F4AFDDBF6001AC7765811257281374"
+					"encrypted_size_2"		"70837635577481E391424B921B54FD9F"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"AF83CE15F1E443BE8C51A728D7839227"
+					"encrypted_size_2"		"BEF53E415DCE524F0C87DFCE7436F0E6"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"9B9B4D855F9E79E210C2E43FB0D15888"
+					"encrypted_size_2"		"8EF14AB1B5933CC0714B49149A4CF00F"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"E6EA24EADAD0128F54DEC653CDBC556B"
+					"encrypted_size_2"		"CF668ED43281E986684AB7921BD50C17"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"71B778C55FCFEBA0103BDE1624EA192B"
+					"encrypted_size_2"		"BDA2C02F675466D89A2A9C7827CCE3B6"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"145D629FDB31E39B174C27FFA0BC0DB7"
+					"encrypted_size_2"		"158E4386CBCD09EC0FCED584C7D8E5CC"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"7251D82A4A8DBD7E03D08D1A588C5D58"
+					"encrypted_size_2"		"09ED17283FC5C6957CBDEB8837FC1943"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"8005665E6D8E73BBD96F8B2FD191632E"
+					"encrypted_size_2"		"C33D8177728CA7441B55B107C343335F"
+				}
+				"some_build--probably_broken"
+				{
+					"encrypted_gid_2"		"C1AD2E9B2B8DF7FC0AD5F8CFAF4C7A83"
+					"encrypted_size_2"		"B0CC3E30BF6F2954297C15C2CBAF984D"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"11763F8E131D4A557F266C7B721E8EAA"
+					"encrypted_size_2"		"B5AB37F49DC35F3D292748DB27A6E0C5"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"4F019E52D47D2F17040FD838FB80C3F7"
+					"encrypted_size_2"		"C79A1B684C709423F832BC6B2C25B09E"
+				}
+			}
+		}
+		"493903"
+		{
+			"name"		"Dungeons 3 osx"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9113021770570263854"
+			}
+			"maxsize"		"5163311520"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"39EA76A3DD9D347335B54F043803AFD0"
+					"encrypted_size_2"		"CEFDBB5140AF0BAD73451313DA0B38A8"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"E776D582EA4EB8C6BF17FAA1CA601D19"
+					"encrypted_size_2"		"0952EF9C29C1BCAB59FD1FB5D5825DE7"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"FDFA95ECC05A0D1D612B4CD1F00A06D9"
+					"encrypted_size_2"		"9BFCCF50943F1A1B1789C372C3050757"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"20A197B8C38D04CA2DE92DB666EFA5E2"
+					"encrypted_size_2"		"1210893CC078845BDFB07A0C5B5CAC06"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"C48C3640002D24ADD4387CDB9DDDFC46"
+					"encrypted_size_2"		"90C6E998DE33F1DE97DD191BB1D7F6BF"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"2ED376F50DBE2E1A149AF58AA7B34638"
+					"encrypted_size_2"		"F44BAA980697F41379DBD2FC54B74638"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"6D8E627D57FD019F9DE5B3C70A7F560D"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"8B66B75268B227F576EC3F8C5B098519"
+					"encrypted_size_2"		"CFA28E1B17964168909ABBD89CF324FF"
+				}
+				"some_build--probably_broken"
+				{
+					"encrypted_gid_2"		"FC98DA908492429118661D233C3CF09D"
+					"encrypted_size_2"		"4818A0347C3D99B90D90F23843DA7C19"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"370D88C4B9A7542B52A75FD89416041C"
+					"encrypted_size_2"		"B725105CAECEC3322BE2E24DE0834DF0"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"5AFF16A94A49B53B9CF3DA1032FB2C38"
+					"encrypted_size_2"		"FEB9BA8CA2D9D96F12E4C6782597FB27"
+				}
+			}
+		}
+		"493904"
+		{
+			"name"		"Dungeons 3 linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4867006921666199614"
+			}
+			"maxsize"		"5165585658"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F1CDF7CA400DECFAD6313C6B1798CFDE"
+					"encrypted_size_2"		"24028D21895FBECE0ADB0D96099EA7DD"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"B215BF1585F45B5BCFB9D711959C1C18"
+					"encrypted_size_2"		"09C38EFCF097309D534E9FE224BFE377"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"2CE2C9D3D59BF88470C49B6043CAA739"
+					"encrypted_size_2"		"AE5C4FA675FA3A7103796E730BB11776"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"AC36315DEF6622078D3B5F6A7C9994C5"
+					"encrypted_size_2"		"DB7975553E701EF10CC82036042B1119"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"BE7458A799D76DF4339346360D419B89"
+					"encrypted_size_2"		"E963EB636F7E3F4A393AFEED6467042E"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"656F5061FD16DDB923B36952F8E2044F"
+					"encrypted_size_2"		"9D661968A7D2B601E4F7D56B6542680F"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"D1EE747504FFD0A47C43B7DFB9F3692E"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"13CA4EC91F549B5F76CF3F86AB853106"
+					"encrypted_size_2"		"41BD53B279159B0A6A01C22D3B8A21B8"
+				}
+				"some_build--probably_broken"
+				{
+					"encrypted_gid_2"		"26454177D8A2B46A1EABA0B6C42D0CA5"
+					"encrypted_size_2"		"4F9ED23573312FF16097A63E5A9DCF4F"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"BE78D88B95E589B91B896AF91CA574F5"
+					"encrypted_size_2"		"4E6BBB6BE89D989F4CEE517EA3E6A096"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"7461CE9E0E3C8A500EE7BA2507F5DF51"
+					"encrypted_size_2"		"7963D620685713775FBB27C82547CC18"
+				}
+			}
+		}
+		"493905"
+		{
+			"name"		"Dungeons 3 Soundtrack"
+			"manifests"
+			{
+				"public"		"69194741727597605"
+			}
+			"maxsize"		"57971463"
+		}
+		"630099"
+		{
+			"name"		"Dungeons 3 loca English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"3690394369674850998"
+			}
+			"maxsize"		"346723059"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"BFBFCE96AF1C954835DECC430326DBB4"
+					"encrypted_size_2"		"FA596F6E825D6DCCE7B556ED983114B4"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"6675AED429D0E111B935355CACC9F3B7"
+					"encrypted_size_2"		"6754A7BB99B58F1DFF8F596DC9EB42A1"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"843A8FDFA35077B8B5FFB26677AFC1E6"
+					"encrypted_size_2"		"7E22BEFE46613CD98B96491CB79C3AA4"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"D62244F4671719F25E145B781A277D84"
+					"encrypted_size_2"		"894B103C498145BCC97D02EF9EFD6644"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"FFBD210689BC930EB85F17D6A07689B0"
+					"encrypted_size_2"		"AF5576B638B1F13EF1E6CBD3325BEEE0"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"E006DCC77E261C3807273368EE91C2FB"
+					"encrypted_size_2"		"E4917C0CCF41DB6023396DF029CB4E3E"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"A23BCE1C4BCE4273397EDFDA89D19E78"
+					"encrypted_size_2"		"EC860611CA9E1EC1CCC1221FAA98370A"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"6EB3D6B65236D2BC9BC3DB300DE7F433"
+					"encrypted_size_2"		"08E45CBCE20904CFBB795C070FF5820D"
+				}
+			}
+		}
+		"630098"
+		{
+			"name"		"Dungeons 3 loca German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"3605876484005678973"
+			}
+			"maxsize"		"450266067"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"D610FBFF93CF7C151AF55BAE023B5696"
+					"encrypted_size_2"		"F835BDE5DD6B4F8C843756AF4594A5BB"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"428B8F14D1008BCEBF5CB4F8DFEA6F02"
+					"encrypted_size_2"		"2913C168F1273B1CE12FF94A42503CBC"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"23997578EBC90098693E98EBB93937F0"
+					"encrypted_size_2"		"D5C810CC630E6A609E114C05750D6BCB"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"5F9DF01DC9D31F38B4DC1DE1B688F5AA"
+					"encrypted_size_2"		"3BAA385CAAC11D199603A56BE8A6044F"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"E1BE392BDC299F307F4F50E27A258D8F"
+					"encrypted_size_2"		"68E11BA97C14031903B4B239F87D7F7C"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"446889BE6FDC5F685929E87B9EEE8354"
+					"encrypted_size_2"		"7EB438566D31F1F22966A067A6477D43"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"BFD3E709478182224F21D72EE2996A30"
+					"encrypted_size_2"		"E31F4D19C3BEF4D561AC0807F7E68451"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"BDE07E0BF0CE3061F3946E4EC989BDAE"
+					"encrypted_size_2"		"BB1386DC5C6A7DDD82197EAEAF7032BD"
+				}
+				"some_build--probably_broken"
+				{
+					"encrypted_gid_2"		"EDAD1EDA6B0E5C319E3F1719CB7DB78F"
+					"encrypted_size_2"		"034787E1198007B06E0F10629BD32319"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"1108935746DA02038E5D66E12600CF24"
+					"encrypted_size_2"		"DA4AAD1488416868DCB02233CAE52E93"
+				}
+			}
+		}
+		"630097"
+		{
+			"name"		"Dungeons 3 loca French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"8390041269548985522"
+			}
+			"maxsize"		"366876627"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"BCF7BD7C0B865061F1DBB87EC34B3142"
+					"encrypted_size_2"		"7035D5A5FFBBD3F53AA35BFD0486F130"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"C31EFCD89406DC1C452CC342EE56A149"
+					"encrypted_size_2"		"9D82CC63FB4D6A5704AB90F453BA4AE4"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"0CF489AFD5E9950C4E9F34E3E0395B67"
+					"encrypted_size_2"		"3D8C9A6B7099200C18F15BF5E202CC57"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"79F2CE387E501764EE714ECB5689E45E"
+					"encrypted_size_2"		"6A12E318E69FE40AE537558D91720F13"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"410DC50AE5AE6BD0314E7973AC6D2424"
+					"encrypted_size_2"		"49D6EF87E95C09F762473413D7DA4FE6"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"05CF7DEAE3293B79A54CA00535F0FFEC"
+					"encrypted_size_2"		"C9642C3787527DC8144BA345BE91870D"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"2ACC9D2481B2428020674682B9CCB6B3"
+					"encrypted_size_2"		"8085B8129D5CAC392A75B7E21A1C6A06"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"5A50F1901ED325C7203AB3612CB4037C"
+					"encrypted_size_2"		"D948405173E3A1556E5A543DE2305C97"
+				}
+			}
+		}
+		"630095"
+		{
+			"name"		"Dungeons 3 loca Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"7459436562049014365"
+			}
+			"maxsize"		"416732947"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"635F9D844C3CACB57467A5FC57B3E1B5"
+					"encrypted_size_2"		"9B45EBFEF155FBC8E8CD3F82E7EF94FB"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"EAD0568DEFE66A282F612C9210BBE888"
+					"encrypted_size_2"		"C85BDE7473FAC13921E4DCFA7D1693AF"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"BED7D931D455AB23A9EF1442E3FCC359"
+					"encrypted_size_2"		"2267612ED15DEB05D1F82B7AFA408C73"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"C4D54015E06544461C419E3D6CBB5E5F"
+					"encrypted_size_2"		"44E9492BAE1074488898D7432CED1E82"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"23AB5C69F98F16FFE647E8E202498A7C"
+					"encrypted_size_2"		"F681DC8E0BEF1E3C9A60B9DA548AADFA"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"003E289E9B28F02285D49199EAF92E90"
+					"encrypted_size_2"		"C8BBA1A1105FD29335F334821830F5CD"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"35CB7D3DCD13A5FB5C7D85F50A6AB685"
+					"encrypted_size_2"		"BCB527B59299561544C386DD9B6A7E9B"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"93B1AC65DB8A4B9947F22109D2455C84"
+					"encrypted_size_2"		"4062A2F96C4FFDA947D8D6A3C0328A16"
+				}
+			}
+		}
+		"630096"
+		{
+			"name"		"Dungeons 3 loca Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"6287092698053129195"
+			}
+			"maxsize"		"390981663"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"46E0A8B6A9DEEBDDA3715F5461B60B7F"
+					"encrypted_size_2"		"DF37C732621ADCB95AFC1DBD92C6132D"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"50C7580A7FA60F235BE9582494D18E6B"
+					"encrypted_size_2"		"300339686E69CD9C3674C15E5A11E687"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"5C16B0DAED3C5F3C950AD459B8161B5B"
+					"encrypted_size_2"		"06D9BF38EAA164798D7342D7332893FE"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"50A1D6DB252187F6A9BBA8682D378D1C"
+					"encrypted_size_2"		"53A3D924A2E72D855072AB9B6E2CA581"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"A2A7A844CB0AD71E33DCE4FA52E85001"
+					"encrypted_size_2"		"9968D83E3B908A633E435F81B86BC658"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"780414570DE47FD5021703A22EA459AE"
+					"encrypted_size_2"		"5352A53201B8BBE59FC21386EB43958B"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"339687531EBA249065F3F043A161A89D"
+					"encrypted_size_2"		"447FD980383DF1BD40DBDAE42C5EF62E"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"F30FEFEB73992CB7D51E6D6E7854EB1F"
+					"encrypted_size_2"		"CB342D070C9AE29041B6E7AAEE6C8FC4"
+				}
+			}
+		}
+		"630094"
+		{
+			"name"		"Dungeons 3 loca Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"221399598804028335"
+			}
+			"maxsize"		"386374847"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"73CC54FCB2BF8C24E9FA10A911C1ED9B"
+					"encrypted_size_2"		"CE6A6BFF1D9C1B5AB1B2B8E32FD49414"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"0728071D5AD451D3A482970E0CB7377A"
+					"encrypted_size_2"		"A156E9041CA53C6F20F913C1B8B4CC75"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"A99822EAA0F744F04A9AEB9A8F6E80D3"
+					"encrypted_size_2"		"A92D5A0F0E05C1579DCDBAA864EE2C4D"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"92CA9FE254EDF989DFC04748D47208EB"
+					"encrypted_size_2"		"25CB676A927BA6769101889DDCFF5ED6"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"5B87829D29F16D76A6B1CB896D9D3FB1"
+					"encrypted_size_2"		"39826B9D538CB1CC5E756B08CC433E52"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"064BE1CF23A171658DDDEEAE310D5589"
+					"encrypted_size_2"		"6455062159B0BC5F1AE13E05F58674D0"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"F273109022C8FC82100BFA127813EC0D"
+					"encrypted_size_2"		"36E2A51CB2C766CE73B85A7EC245756B"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"D31A8BB8B2AF48040D76D8CD7F64D207"
+					"encrypted_size_2"		"81F89DF8861C05FE2896DA1BD74BB07A"
+				}
+			}
+		}
+		"630093"
+		{
+			"name"		"Dungeons 3 loca SChinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"2245094416632408877"
+			}
+			"maxsize"		"346575067"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"178F2B40D1FAFE280FC53767A64A8C14"
+					"encrypted_size_2"		"168CF1E302C8C558DAEFEDC3D840822E"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"C43F7E543A8B5F8C98147BE2A6FD3195"
+					"encrypted_size_2"		"4BBDCE6AC72978D04D2154DEE258F4C0"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"D1FB89338F0D9D4AC69BEC5FB280A406"
+					"encrypted_size_2"		"51D305AE1A14717C567FDAF892C35A14"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"9F1EBC9FD359EC9125FEAC4916B9980D"
+					"encrypted_size_2"		"358AD88374D15A606A70CEB96355CA89"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"754BBA0D2A4B628D3251D9FED0C113A8"
+					"encrypted_size_2"		"6078196BAD1AEBAC5AC3061A56AF82E7"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"9B3A7C84354C01C99BAD9BD2AF330787"
+					"encrypted_size_2"		"BEA6E2630724F0156431AB26F2977D74"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"C46779410205592ABBA8F40551DAAF27"
+					"encrypted_size_2"		"F409D3F2ED549C1B003BB75A835F16A1"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"06440B438307E59E195BFF1C2042CE35"
+					"encrypted_size_2"		"8CFD6B33E8ECB45B55721EE495E2C444"
+				}
+			}
+		}
+		"711173"
+		{
+			"name"		"Dungeons 3 loca Korean"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"3802511014272477473"
+			}
+			"maxsize"		"346882655"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"2E58AC78FEB56ABB6BDFF056C750444B"
+					"encrypted_size_2"		"DA84C9763B730DF953711D08CFDB8A59"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"A12FF37733C377AD1C56ABA17402AA37"
+					"encrypted_size_2"		"AFB24D998CBFBB3E5D3C9E02E6D42627"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"367A8EF6AAC2133CEF273B2C52896448"
+					"encrypted_size_2"		"D03C2665CE894C66B659634464D11504"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"5B77288FC185C7806F58032568C673C4"
+					"encrypted_size_2"		"D9F7FA77B99DBF8A7F47D46F9F449A8F"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"1165EF6DEA70D53F17614B9C22EB91B7"
+					"encrypted_size_2"		"626C23121AE7790C62D26AD37BC79B97"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"6CCCE023DDA2946F3B6BF542B29BCC0B"
+					"encrypted_size_2"		"E2F643BFB0F22691A40663B15E6E8531"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"629C895AAEAB15028775CA2783733D10"
+					"encrypted_size_2"		"3FEFDE37E48AF86C408F0A7CECC47632"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"4542155B1CC71921188B5D89381FA34C"
+					"encrypted_size_2"		"0352D80874C770A961BDF0D4E92EC0DF"
+				}
+			}
+		}
+		"493906"
+		{
+			"name"		"Dungeons 3 loca Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"7484705264477608171"
+			}
+			"maxsize"		"346718899"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"E5D04E6198CB41D93A1AF4795712E2B4"
+					"encrypted_size_2"		"8BE6053012D6B5BE34C696FA744AB391"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"C5861BA642FA91EFFE6B50CFACEA7C22"
+					"encrypted_size_2"		"378E43219ECB5265EF9869A9B6017C67"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"171245600D601621A2C0269ADA02550F"
+					"encrypted_size_2"		"57799557813736D40CE87F6521994E21"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"6C1C105661CCEBD28B136AF5347815E6"
+					"encrypted_size_2"		"64B17655E037B7F74BEFF98AD33B263D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"749D7DCB2EFFAB2C82358A56A44EDE9D"
+					"encrypted_size_2"		"50D31C09D2A3A5B87EC4E6D4D53B7F16"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"97B5612BC33928E4D51C44F7BAB885D2"
+					"encrypted_size_2"		"A69E5A175C69883DCE819E04226EFFB4"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"16A211E13571D9699BD310F01B67A4F2"
+					"encrypted_size_2"		"4D6D99A60B007DDAF8179DB9E727C150"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"987A6F9EF9AEF217EDE9B03432674E94"
+					"encrypted_size_2"		"F3C0955A6DDE0452C9C5FDF2B8CCED21"
+				}
+			}
+		}
+		"493907"
+		{
+			"name"		"Dungeons 3 loca Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"6816820958711565159"
+			}
+			"maxsize"		"346922343"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"555436D69550C18424B25EF5B89A671B"
+					"encrypted_size_2"		"5D040A0B6FE54A1BD0E893DF0F8B7EEF"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"55BBB23DC34F6D478E92DDEA9E9630EE"
+					"encrypted_size_2"		"82FA416F8B91DA311EEDC1E3BAD7F758"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"0B986B36D03857CDA563E6D9B7CF0F93"
+					"encrypted_size_2"		"AAE6E7EB53BAA5DF4FAEC2D2F4E4B6BD"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"9AA98EDEED5FEE8B4300CBDC38627B66"
+					"encrypted_size_2"		"42B5C6C3B9FAF5F730F395D54B01E791"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"C1C603182FB720464902B0AF04EC79D9"
+					"encrypted_size_2"		"E32323D79F992E0A27989B5F31D59F76"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"FCCA76936B8AD3CE1D36DBD0F3F0F217"
+					"encrypted_size_2"		"BA976D03FDF721D8BF1DA4C8CC87CBE3"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"029FB2A2D6D77C4AA4800B4FD00732A2"
+					"encrypted_size_2"		"2030F2945A8216403BD0C0883AAAF049"
+				}
+			}
+		}
+		"711174"
+		{
+			"name"		"Dungeons 3 - Seasonal - Halloween (win)"
+			"dlcappid"		"711170"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3686714116542251354"
+			}
+			"maxsize"		"1034474"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"C65218ADE6C1FFC11A2581091EBBEB18"
+					"encrypted_size_2"		"46692E7201AB12395340AAC35E8C33BB"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"C502E1B58F64D8040888516B535669C5"
+					"encrypted_size_2"		"17B7710E75572A374F033182882009AB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"7F68080A533F98655F212408E67A09DC"
+					"encrypted_size_2"		"11EF01AD74CCFB0C3C61711208741824"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"D9675BE54FAA66433817AB3CA44D31DE"
+					"encrypted_size_2"		"647BA3CA023A4308269E7CC588279D1B"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"5514F4EB2EFE3D2FED30A08D07328DA1"
+					"encrypted_size_2"		"23257A5639654DDEAC760C4502D7E123"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"F51B2746785BC5910A1DE1DB0CAF2AF3"
+					"encrypted_size_2"		"8654525A8386D32A6A1FDC69F51E44A5"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"E849089D9C3BD80655332B2B41B8C595"
+					"encrypted_size_2"		"E01AA4666FC7317CFAAF924DA9E2B585"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"DE28C53CD49DEA33F877B124B663F087"
+					"encrypted_size_2"		"D5A0A3A274AE6BE5F243CE779F86479E"
+				}
+			}
+		}
+		"711175"
+		{
+			"name"		"Dungeons 3 - Seasonal - Halloween (osx)"
+			"dlcappid"		"711170"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2986133818393563255"
+			}
+			"maxsize"		"1034474"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"E66ED198453C5C41481537A45FA3C9DE"
+					"encrypted_size_2"		"46692E7201AB12395340AAC35E8C33BB"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"8E0F2550023BEB68AF1884762A43567A"
+					"encrypted_size_2"		"17B7710E75572A374F033182882009AB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"006DFB6CD056536C9B15D9A3378C1A8F"
+					"encrypted_size_2"		"11EF01AD74CCFB0C3C61711208741824"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"DFBBE89E869487110527F1FC38F661D7"
+					"encrypted_size_2"		"647BA3CA023A4308269E7CC588279D1B"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"F3ED1AA61D08B1ECC8003A63104111DA"
+					"encrypted_size_2"		"23257A5639654DDEAC760C4502D7E123"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"D28D3312066AE96DFADF1BA7A63B237A"
+					"encrypted_size_2"		"8654525A8386D32A6A1FDC69F51E44A5"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"7452BF91A3F95C9E1E1BC872B522C362"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"63CC4B5E66AC86842412DAEF9782A588"
+					"encrypted_size_2"		"E01AA4666FC7317CFAAF924DA9E2B585"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"A8A10EA8D3DA8671ED148ACF112BCB81"
+					"encrypted_size_2"		"D5A0A3A274AE6BE5F243CE779F86479E"
+				}
+			}
+		}
+		"711176"
+		{
+			"name"		"Dungeons 3 - Seasonal - Halloween (linux)"
+			"dlcappid"		"711170"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2031519583114757607"
+			}
+			"maxsize"		"1034474"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"F3267612B38FCAC97FBA195893F95769"
+					"encrypted_size_2"		"46692E7201AB12395340AAC35E8C33BB"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"FB932EA7855671D8E5DEB338C4F47C5E"
+					"encrypted_size_2"		"17B7710E75572A374F033182882009AB"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"B09737D1517092E0261590E757E5AD5B"
+					"encrypted_size_2"		"11EF01AD74CCFB0C3C61711208741824"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"A52F7E31CB82F6268D6CA8EA17F41603"
+					"encrypted_size_2"		"647BA3CA023A4308269E7CC588279D1B"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"551CF1B77EE69AE720C7262F32568048"
+					"encrypted_size_2"		"23257A5639654DDEAC760C4502D7E123"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"7EB2089B3CE1E61AC2358631288E6D65"
+					"encrypted_size_2"		"8654525A8386D32A6A1FDC69F51E44A5"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"8EFBA92C60DE8B8402AF37A4A81AB202"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"31D675706B0B0862B82771B37674F74E"
+					"encrypted_size_2"		"E01AA4666FC7317CFAAF924DA9E2B585"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"8855BFCB083BB2FA834018CF0A8EA0AD"
+					"encrypted_size_2"		"D5A0A3A274AE6BE5F243CE779F86479E"
+				}
+			}
+		}
+		"711177"
+		{
+			"name"		"Dungeons 3 - Seasonal - Christmas (win)"
+			"dlcappid"		"711171"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5263877921641484859"
+			}
+			"maxsize"		"1320462"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"9AF1D82DD3354E3E38ED601D0C8FE7D3"
+					"encrypted_size_2"		"2238ED42184BFEC410CEF4B3CB103D0C"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"8F3591363C11DD3BE51FDB1136F6BB81"
+					"encrypted_size_2"		"AA89BF5FC080B8B22CF30FAC5E30C45D"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"9D1BB13182D0632133934E0642F47637"
+					"encrypted_size_2"		"CE95E1645145AEFE95DA1046890732C7"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"AD2CC9722510F5E2E97C7AD73A2CEB47"
+					"encrypted_size_2"		"FD4EAA99D1D4144D4606CE4F27681D4D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"F5991C756C8B80F0B53056A72506C073"
+					"encrypted_size_2"		"2157AA1932DC9028E941383EC0D5BE2D"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"62A57F3E1EFE1FB4DF9F240340F7572B"
+					"encrypted_size_2"		"227A97AE0988716267DFE88919935396"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"144C29EDCCDB3170990DAD7462575A49"
+					"encrypted_size_2"		"4C117025ACE8D7C53DB28C9B13B3C32C"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"81DC27805760BE4F363060EFC2FC281A"
+					"encrypted_size_2"		"C0D67174319392E2A9BC47DD52D36C6E"
+				}
+			}
+		}
+		"711178"
+		{
+			"name"		"Dungeons 3 - Seasonal - Christmas (osx)"
+			"dlcappid"		"711171"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1612756430270138192"
+			}
+			"maxsize"		"1320462"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"A54DCCD1F6EB73C0A8CB60B57BFDF956"
+					"encrypted_size_2"		"2238ED42184BFEC410CEF4B3CB103D0C"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"4CEEB52CF649359BB816C661F5AF3734"
+					"encrypted_size_2"		"AA89BF5FC080B8B22CF30FAC5E30C45D"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"4104C7DEDE0CA6372118FB2E5F0350FA"
+					"encrypted_size_2"		"CE95E1645145AEFE95DA1046890732C7"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"FF2AE6E91A6DF150E1A7E57980250A61"
+					"encrypted_size_2"		"FD4EAA99D1D4144D4606CE4F27681D4D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"58F9E5D53A913B44FD75D9EC5CB38DB2"
+					"encrypted_size_2"		"2157AA1932DC9028E941383EC0D5BE2D"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"F91047FF430304C37ADA9C1AF4F5579D"
+					"encrypted_size_2"		"227A97AE0988716267DFE88919935396"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"D3B79A69CCBB4762B7FBDBDD7E490FD4"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"112AB577FC5B02E9271BC63BB6E1100D"
+					"encrypted_size_2"		"4C117025ACE8D7C53DB28C9B13B3C32C"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"F51E1B1D97C9FC208E04C1FA3036DB6A"
+					"encrypted_size_2"		"C0D67174319392E2A9BC47DD52D36C6E"
+				}
+			}
+		}
+		"711179"
+		{
+			"name"		"Dungeons 3 - Seasonal - Christmas (linux)"
+			"dlcappid"		"711171"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"9035635500337381003"
+			}
+			"maxsize"		"1320462"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"20747EA9722B613458397F6427103134"
+					"encrypted_size_2"		"2238ED42184BFEC410CEF4B3CB103D0C"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"51F223E00E903B77C45430E26EC0262A"
+					"encrypted_size_2"		"AA89BF5FC080B8B22CF30FAC5E30C45D"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"7A1A739AD38540A6EF4381E076CEF414"
+					"encrypted_size_2"		"CE95E1645145AEFE95DA1046890732C7"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"442D6BB323262901137DCDAC0311842F"
+					"encrypted_size_2"		"FD4EAA99D1D4144D4606CE4F27681D4D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"A51CE4F9226A6AE65F157B5FA2A6CB9C"
+					"encrypted_size_2"		"2157AA1932DC9028E941383EC0D5BE2D"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"A2B7F9A00BAF04BF293FEB9820237C65"
+					"encrypted_size_2"		"227A97AE0988716267DFE88919935396"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"F9D7378D84E840A2DD224919F0F72861"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"D4B4AD9528ED77E338D398494466FD59"
+					"encrypted_size_2"		"4C117025ACE8D7C53DB28C9B13B3C32C"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"2E886934248098F5000348FAF29FCB17"
+					"encrypted_size_2"		"C0D67174319392E2A9BC47DD52D36C6E"
+				}
+			}
+		}
+		"711682"
+		{
+			"name"		"Dungeons 3 - Theme - Horde (win)"
+			"dlcappid"		"630090"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2628224398641545415"
+			}
+			"maxsize"		"1532685"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"7799A578CD128D5A54BE6000AA78DF82"
+					"encrypted_size_2"		"15B90D5A1CABCC904CF8BC7D0F8D0029"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"C51B3E9464A02B04DBD9BFFBADFF3A60"
+					"encrypted_size_2"		"78458DD27CEE9F106B205252933D738B"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"7E80B64EF08F62E7EFA0F48C4A00CA87"
+					"encrypted_size_2"		"5B9E153CF2375B0464B2850226767804"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"87D756FF9CEA01757E163FCBABCCEC1E"
+					"encrypted_size_2"		"3A61D90BEF41E2BB96EA580E3DBE493D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"41EECA7E8EA64BF855D4FCCF0C35EDB3"
+					"encrypted_size_2"		"7B6F4FFC2EE70F586A10B20325AB2656"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"D1712EE8E5CDEE2640BE202E65318E05"
+					"encrypted_size_2"		"A102C863B0F1B6952B2554DA8DD45C44"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"9DC70B61121D2E3DA5B790D546E3FC01"
+					"encrypted_size_2"		"00101D383DE12BFA58932FF8C4ADCF34"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"48700F6CF7432CF6B6DA4EBA3CC1927D"
+					"encrypted_size_2"		"3C800467379CB93FBC1BCB86D8E64A9F"
+				}
+			}
+		}
+		"711683"
+		{
+			"name"		"Dungeons 3 - Theme - Horde (osx)"
+			"dlcappid"		"630090"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2958371365771613556"
+			}
+			"maxsize"		"1532685"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"D47FC990EAAEC41C4578308EA002F65A"
+					"encrypted_size_2"		"15B90D5A1CABCC904CF8BC7D0F8D0029"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"ED7EBFE0176A5CF6BDB072BADF498A3F"
+					"encrypted_size_2"		"78458DD27CEE9F106B205252933D738B"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"EE25DCF7B01DA47A6F4B7BADBFDADA56"
+					"encrypted_size_2"		"5B9E153CF2375B0464B2850226767804"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"D08E10BC4FB8525FD1E8A5E9E5652B9B"
+					"encrypted_size_2"		"3A61D90BEF41E2BB96EA580E3DBE493D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"0F0DEA2827F30328C7C4346283523ECE"
+					"encrypted_size_2"		"7B6F4FFC2EE70F586A10B20325AB2656"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"B0E8653DACA04683D09E16F3F7C56B42"
+					"encrypted_size_2"		"A102C863B0F1B6952B2554DA8DD45C44"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"34315F3B3D018264B72A1FAABD4A7F5D"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"C5CD35BF60EE5757CBEB069C7151E412"
+					"encrypted_size_2"		"00101D383DE12BFA58932FF8C4ADCF34"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"114304C85387C07B8CCC49E7E3B1D722"
+					"encrypted_size_2"		"3C800467379CB93FBC1BCB86D8E64A9F"
+				}
+			}
+		}
+		"711684"
+		{
+			"name"		"Dungeons 3 - Theme - Horde (linux)"
+			"dlcappid"		"630090"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"273505465986143010"
+			}
+			"maxsize"		"1532685"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"B6213A9A3A30BB0299D6965B705DF2E5"
+					"encrypted_size_2"		"15B90D5A1CABCC904CF8BC7D0F8D0029"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"D3EFDBE92D2D1342FD8510436CB3EC92"
+					"encrypted_size_2"		"78458DD27CEE9F106B205252933D738B"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"280CA8ABCF19B98C01F0E436549A1C35"
+					"encrypted_size_2"		"5B9E153CF2375B0464B2850226767804"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"2E827C26C18AC4C33171E12CBAC02A2D"
+					"encrypted_size_2"		"3A61D90BEF41E2BB96EA580E3DBE493D"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"A5F5D7BD086DD4858CC3BDA52F1101AF"
+					"encrypted_size_2"		"7B6F4FFC2EE70F586A10B20325AB2656"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"00D25AD4D2811D609C04986C1447F784"
+					"encrypted_size_2"		"A102C863B0F1B6952B2554DA8DD45C44"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"4AEC01C948B21A40B5EB66F85E87BE8A"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"74C201390594234C50DD824667E58D75"
+					"encrypted_size_2"		"00101D383DE12BFA58932FF8C4ADCF34"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"19DF92278760BDF70B3872AE0F59E4E4"
+					"encrypted_size_2"		"3C800467379CB93FBC1BCB86D8E64A9F"
+				}
+			}
+		}
+		"711685"
+		{
+			"name"		"Dungeons 3 - Theme - Demon (win)"
+			"dlcappid"		"630091"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2787507296496992850"
+			}
+			"maxsize"		"1649822"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"2BDC63A89A0E3D7AECC05923AD492268"
+					"encrypted_size_2"		"E4BBA9D5CB3E0CF3AB42B1FBB0CD0382"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"9B16A1765AEBC63142C25F186C200B3C"
+					"encrypted_size_2"		"4698744CC88862A8952C4235658023F5"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"BA8E6E58469DE6B6018C5CB3AD7D7572"
+					"encrypted_size_2"		"54B4ACEEE17183AFBDE6D3105DA03C82"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"1B95F8483916B0DD3D33757CCF4FB251"
+					"encrypted_size_2"		"13D74A6986991272DBEE2BD6832A03EC"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"58D50319D85576422412FE3B52F8BC63"
+					"encrypted_size_2"		"D89D3F5FC3A749526DF8DFEF4F36FF3A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"3FE5689A3677771B590A5D6CEF9BE14A"
+					"encrypted_size_2"		"5432FAE7666C1D015F6185BDCB980F6B"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"A395AD849DCF27A02976CEA6BB1EDA7B"
+					"encrypted_size_2"		"F8993EDC77356E541B14D256EF1D7AF1"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"83170CADE8292CA47F7CC4B26901EB0D"
+					"encrypted_size_2"		"309EF541FE4ED55E130142F38892D288"
+				}
+			}
+		}
+		"711686"
+		{
+			"name"		"Dungeons 3 - Theme - Demon (osx)"
+			"dlcappid"		"630091"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2360678097131715445"
+			}
+			"maxsize"		"1649822"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"911B60EAE9FD509C600D56C68A9031B2"
+					"encrypted_size_2"		"E4BBA9D5CB3E0CF3AB42B1FBB0CD0382"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"0F0B0764574AADF7C246FD98FD43D148"
+					"encrypted_size_2"		"4698744CC88862A8952C4235658023F5"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"D894C82661E9C367ED5570456E792433"
+					"encrypted_size_2"		"54B4ACEEE17183AFBDE6D3105DA03C82"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"925A57557563487BB1DE49BF9CB7E1F7"
+					"encrypted_size_2"		"13D74A6986991272DBEE2BD6832A03EC"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"772759E98AA123F6139F716B3B9CD07B"
+					"encrypted_size_2"		"D89D3F5FC3A749526DF8DFEF4F36FF3A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"6049B3ABDF8B2E7D957BD0C8A11F27D7"
+					"encrypted_size_2"		"5432FAE7666C1D015F6185BDCB980F6B"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"3ADD5DD2550DB87217AFB1DC59FE63B4"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"8BB348C8ADABE2929607CF6023851895"
+					"encrypted_size_2"		"F8993EDC77356E541B14D256EF1D7AF1"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"8CE3B3E63D61D25B374DA680D42F9850"
+					"encrypted_size_2"		"309EF541FE4ED55E130142F38892D288"
+				}
+			}
+		}
+		"711687"
+		{
+			"name"		"Dungeons 3 - Theme - Demon (linux)"
+			"dlcappid"		"630091"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2755956003915605669"
+			}
+			"maxsize"		"1649822"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"FB0471FF719F8B1E53CC603F802C73FE"
+					"encrypted_size_2"		"E4BBA9D5CB3E0CF3AB42B1FBB0CD0382"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"6AA2418EF893986A9125F1421FBB88DD"
+					"encrypted_size_2"		"4698744CC88862A8952C4235658023F5"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"266146989A5AB95FE4C51CCCEA2ADC7C"
+					"encrypted_size_2"		"54B4ACEEE17183AFBDE6D3105DA03C82"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"D8B00F06164B78617B9CE72D111FE4ED"
+					"encrypted_size_2"		"13D74A6986991272DBEE2BD6832A03EC"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"B3629B37D4556570BD749AE43DFE69D5"
+					"encrypted_size_2"		"D89D3F5FC3A749526DF8DFEF4F36FF3A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"AE1B601D9DC4D371DAE73014B7F41681"
+					"encrypted_size_2"		"5432FAE7666C1D015F6185BDCB980F6B"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"C442ACF9219DD41665BF177D12609913"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"EE2AD246DFC41554D5A1F69F97F395CF"
+					"encrypted_size_2"		"F8993EDC77356E541B14D256EF1D7AF1"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"3B55E7E9582BFE650CB2563B7D15BD69"
+					"encrypted_size_2"		"309EF541FE4ED55E130142F38892D288"
+				}
+			}
+		}
+		"711688"
+		{
+			"name"		"Dungeons 3 - Theme - Undead (win)"
+			"dlcappid"		"630092"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2484540889294863335"
+			}
+			"maxsize"		"1948138"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"9B934C21A255DF25805AE5FB3B2F01E8"
+					"encrypted_size_2"		"6827F5EABA2BF9C6BFD22F8662D0B723"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"22DE61CA0AE39C953C4A58E11FFB9CA0"
+					"encrypted_size_2"		"9D17838C1EBFA994DEB166C1BC42C8F9"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"9F67C8B5F80B2B59A9E1CD37641577E2"
+					"encrypted_size_2"		"79E16DC6424D67DA09C1E72EB008C9F8"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"B335A271AC016B6659B08B0137FF959C"
+					"encrypted_size_2"		"796321BB91DBED00630B1B65DFB6DBCB"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"1A3FAF42D1F9228ABDE8DF157EB70E31"
+					"encrypted_size_2"		"B2996BBEBE298057DB624E8182C418BC"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"80D38E39CBDE86B8091CC9BDA0B1ED7C"
+					"encrypted_size_2"		"0157BB873B75B3F1C665C4AB58AA0506"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"25CAFD7DF02766705A967BE2923963F9"
+					"encrypted_size_2"		"BDFEC9712E8B8E898560C733B65AEBA6"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"9B39D633AD2C0B94BF0073DA1FB7C53F"
+					"encrypted_size_2"		"8C2F679726C6307CD05A701425F0433F"
+				}
+			}
+		}
+		"711689"
+		{
+			"name"		"Dungeons 3 - Theme - Undead (osx)"
+			"dlcappid"		"630092"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4864357582055830714"
+			}
+			"maxsize"		"1948138"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"14872935ADDF8FDBBE91A0A215A08DC7"
+					"encrypted_size_2"		"6827F5EABA2BF9C6BFD22F8662D0B723"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"B85FAF5F9C4005BE2BCF0BB98F480E71"
+					"encrypted_size_2"		"9D17838C1EBFA994DEB166C1BC42C8F9"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"3D5686A198B0BBCE991444F2231A8EBB"
+					"encrypted_size_2"		"79E16DC6424D67DA09C1E72EB008C9F8"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"87D60E40CE68C55666EACF86C9D3E326"
+					"encrypted_size_2"		"796321BB91DBED00630B1B65DFB6DBCB"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"F0548C36A5834589EF8199ADC9B80450"
+					"encrypted_size_2"		"B2996BBEBE298057DB624E8182C418BC"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"4E1F0340FD494DFFCFFC8192F6DFFA61"
+					"encrypted_size_2"		"0157BB873B75B3F1C665C4AB58AA0506"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"2DE33685DEF7670A1B1742D8E31097AD"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"75DD3FC8F245FF47EC01901E9BAB90A4"
+					"encrypted_size_2"		"BDFEC9712E8B8E898560C733B65AEBA6"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"B7D6BA6673FF1E69BC92BB1C9D3EC374"
+					"encrypted_size_2"		"8C2F679726C6307CD05A701425F0433F"
+				}
+			}
+		}
+		"724160"
+		{
+			"name"		"Dungeons 3 - Theme - Undead (linux)"
+			"dlcappid"		"630092"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4881407499682352046"
+			}
+			"maxsize"		"1948138"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"26806FFB7632D0BA6C16D7C9E8617062"
+					"encrypted_size_2"		"6827F5EABA2BF9C6BFD22F8662D0B723"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"AD0AAC242F4AC161FE5F7020C4E031E8"
+					"encrypted_size_2"		"9D17838C1EBFA994DEB166C1BC42C8F9"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"E6219A1CBE7D4E9567D63CE7A71C77EE"
+					"encrypted_size_2"		"79E16DC6424D67DA09C1E72EB008C9F8"
+				}
+				"partner"
+				{
+					"encrypted_gid_2"		"3DE9B55A341B66E7EF037AAB343BB726"
+					"encrypted_size_2"		"796321BB91DBED00630B1B65DFB6DBCB"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"4DF5B5BD77B8DA2B8461642C97FC3019"
+					"encrypted_size_2"		"B2996BBEBE298057DB624E8182C418BC"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"36BF1BFDB8C2EF78D7AB2A43B2C5A7A5"
+					"encrypted_size_2"		"0157BB873B75B3F1C665C4AB58AA0506"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"CDF2C144DF2952B07975743E942D4D40"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"sales"
+				{
+					"encrypted_gid_2"		"46AA4BFD02FA33CB46D573FCFDDDF58B"
+					"encrypted_size_2"		"BDFEC9712E8B8E898560C733B65AEBA6"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"514B240D242CB04CD38E793C63387BC7"
+					"encrypted_size_2"		"8C2F679726C6307CD05A701425F0433F"
+				}
+			}
+		}
+		"724161"
+		{
+			"name"		"Dungeons 3 - Campaign - Once Upon A Time (win)"
+			"dlcappid"		"711172"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3678833174644234453"
+			}
+			"maxsize"		"2138336"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"990FFB8E8E7272B7DD11CFA2266E3689"
+					"encrypted_size_2"		"2B1AB799A7D592CFDF10D999EA860370"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"5E1210C9DF3C57719EE77A0C7FD961FC"
+					"encrypted_size_2"		"7BDC98FD9C22A60BD8E7D91497CFE0F7"
+				}
+			}
+		}
+		"724162"
+		{
+			"name"		"Dungeons 3 - Campaign - Once Upon A Time (osx)"
+			"dlcappid"		"711172"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7187363388675523114"
+			}
+			"maxsize"		"2138336"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"70FEA12963AF615FF991BCE8C3BF5758"
+					"encrypted_size_2"		"2B1AB799A7D592CFDF10D999EA860370"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"8F916BEA5F61175D1E06C1BF52926CD4"
+					"encrypted_size_2"		"7BDC98FD9C22A60BD8E7D91497CFE0F7"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"B40ED10DAFA75C7CC50DAB90F52342CF"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"724163"
+		{
+			"name"		"Dungeons 3 - Campaign - Once Upon A Time (linux)"
+			"dlcappid"		"711172"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5351587958090427787"
+			}
+			"maxsize"		"2138336"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"803A392F47C985E36F098242EDD4930A"
+					"encrypted_size_2"		"2B1AB799A7D592CFDF10D999EA860370"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"61916D1945D847473CAE099E64EBFEBE"
+					"encrypted_size_2"		"7BDC98FD9C22A60BD8E7D91497CFE0F7"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"12A34F5CB23ABE24DD1399828973E1DA"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"724164"
+		{
+			"name"		"Dungeons 3 - Campaign - Evil of the Caribbean (win)"
+			"dlcappid"		"711680"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"9145586336952054638"
+			}
+			"maxsize"		"1566179"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"BA7280556B49065795B7358C7F45F22B"
+					"encrypted_size_2"		"6CE80A6C1F36C5B124F2787878B889B0"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"0ED56E67401103702200DB1F8868ABF5"
+					"encrypted_size_2"		"14B1D2B0C23ECE6D4B3DFB57BD7C293E"
+				}
+			}
+		}
+		"724165"
+		{
+			"name"		"Dungeons 3 - Campaign - Evil of the Caribbean (osx)"
+			"dlcappid"		"711680"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4519720030200692681"
+			}
+			"maxsize"		"1566179"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"C9F7B3E2C224A6128FE1ECDD8515AA85"
+					"encrypted_size_2"		"6CE80A6C1F36C5B124F2787878B889B0"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"4463311B483647A163816AD4EBDDED75"
+					"encrypted_size_2"		"14B1D2B0C23ECE6D4B3DFB57BD7C293E"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"47CB5ACBC104CCB15ACB47FB2F786B32"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"724166"
+		{
+			"name"		"Dungeons 3 - Campaign - Evil of the Caribbean (linux)"
+			"dlcappid"		"711680"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2341825319447214587"
+			}
+			"maxsize"		"1566179"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"D842A4E42DE7F01394F84A77105846DA"
+					"encrypted_size_2"		"6CE80A6C1F36C5B124F2787878B889B0"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"AD68FD889775476F3AAB7ADAD811A5DB"
+					"encrypted_size_2"		"14B1D2B0C23ECE6D4B3DFB57BD7C293E"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"633A993AB8F918398B0BD4A5C3CCEB5E"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"724167"
+		{
+			"name"		"Dungeons 3 - Campaign - Lord of the Kings (win)"
+			"dlcappid"		"711681"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4601001480219346549"
+			}
+			"maxsize"		"2229569"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"7CF86F5EE3D440CB46ED18147B28826E"
+					"encrypted_size_2"		"1BC83700B76947BE88070443E55A054A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"1E534CC7DD44C24157F5395A81FCB90A"
+					"encrypted_size_2"		"ED1462DEC1CB658B4F65BAE3AF6B5D07"
+				}
+			}
+		}
+		"724168"
+		{
+			"name"		"Dungeons 3 - Campaign - Lord of the Kings (osx)"
+			"dlcappid"		"711681"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1440741728372950411"
+			}
+			"maxsize"		"2229569"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"B9C44DB4203D003BDB7CBE3F248E70B5"
+					"encrypted_size_2"		"1BC83700B76947BE88070443E55A054A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"5D5E1F2BFF21CE272DC7CABE4DB439E6"
+					"encrypted_size_2"		"ED1462DEC1CB658B4F65BAE3AF6B5D07"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"528ACE75547597E97DE5B79DB76F8E21"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"724169"
+		{
+			"name"		"Dungeons 3 - Campaign - Lord of the Kings (linux)"
+			"dlcappid"		"711681"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2409509269956414170"
+			}
+			"maxsize"		"2229569"
+			"encryptedmanifests"
+			{
+				"partner"
+				{
+					"encrypted_gid_2"		"AD78713FA0DD400C2AA4614D0A73796C"
+					"encrypted_size_2"		"1BC83700B76947BE88070443E55A054A"
+				}
+				"prod_test"
+				{
+					"encrypted_gid_2"		"DB86D90756DE229A7011E6F747073212"
+					"encrypted_size_2"		"ED1462DEC1CB658B4F65BAE3AF6B5D07"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"EE70CFA981DB9CDE0DB3F5FE09541088"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"824611"
+		{
+			"name"		"Dungeons 3 - Campaign - Clash of Gods (win)"
+			"dlcappid"		"824610"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7815349823550083216"
+			}
+			"maxsize"		"5599067"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"AF29115AB229794F2C17B6265CC742E9"
+					"encrypted_size_2"		"C703554F9B5A9D4F8B38A131580EA646"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"E7F3110D4224608FDB9A4B1707C60801"
+					"encrypted_size_2"		"B56E8A6850FA92182265FF1204859636"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"DC0EA1E746701751E60284F8AE3D7D78"
+					"encrypted_size_2"		"38026F3050FF1ED9182C28B183E16AAE"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"980537DFC00339004279C3A78154CA3C"
+					"encrypted_size_2"		"FDAAC6885989B635E72A577BD884BAF3"
+				}
+			}
+		}
+		"824612"
+		{
+			"name"		"Dungeons 3 - Campaign - Clash of Gods (osx)"
+			"dlcappid"		"824610"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6840427282119688656"
+			}
+			"maxsize"		"5599067"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"89FCCAE627A3F4E5D182DCBFF9A6FD45"
+					"encrypted_size_2"		"C703554F9B5A9D4F8B38A131580EA646"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"BC5D4B9E27B7E8575CBE740B06A63F0B"
+					"encrypted_size_2"		"B56E8A6850FA92182265FF1204859636"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"4DF97DCC88C859F3C6FD14C5933D6BDD"
+					"encrypted_size_2"		"38026F3050FF1ED9182C28B183E16AAE"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"A25A7C5EC0B8FF36CD2B550079D0F51A"
+					"encrypted_size_2"		"FDAAC6885989B635E72A577BD884BAF3"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"CD9089F6691135C4BA47290D9C71BEBF"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"824613"
+		{
+			"name"		"Dungeons 3 - Campaign - Clash of Gods (linux)"
+			"dlcappid"		"824610"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5960947599195789187"
+			}
+			"maxsize"		"5599067"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"277F46D486344D26823C85688272261B"
+					"encrypted_size_2"		"C703554F9B5A9D4F8B38A131580EA646"
+				}
+				"dungeonlove"
+				{
+					"encrypted_gid_2"		"40DA055149555D11A918B53760B6C735"
+					"encrypted_size_2"		"B56E8A6850FA92182265FF1204859636"
+				}
+				"legacy"
+				{
+					"encrypted_gid_2"		"883B8DF052C1D449EAEC3F0CE0B47DFB"
+					"encrypted_size_2"		"38026F3050FF1ED9182C28B183E16AAE"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"62F68BD0B069D3F36D83E112915182AF"
+					"encrypted_size_2"		"FDAAC6885989B635E72A577BD884BAF3"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"07EEB1E51358E7D1E158B7C1FCC0C9F8"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"824614"
+		{
+			"name"		"Dungeons 3 - Seasonal - Chinese New Year (win)"
+			"dlcappid"		"975330"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"739035295753326509"
+			}
+			"maxsize"		"965901"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"499187C2DF328591082B063ED1144F03"
+					"encrypted_size_2"		"3223FEB775C182A5227DB9749E59E9EF"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"0450B36307A08F5D3EF3E70CF581BB2D"
+					"encrypted_size_2"		"6F3E2D2C050475E636627C669E3E539D"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"171DC2AFD79B04F18FB9054A6376BD44"
+					"encrypted_size_2"		"9CBFCCB2B3CF06BA4B27DDF8B3253C57"
+				}
+			}
+		}
+		"824615"
+		{
+			"name"		"Dungeons 3 - Seasonal - Chinese New Year (osx)"
+			"dlcappid"		"975330"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7378210634129324315"
+			}
+			"maxsize"		"965901"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"E1E4FA14672C52E6CA02C8E0D620EC89"
+					"encrypted_size_2"		"3223FEB775C182A5227DB9749E59E9EF"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"4135FA841AED362B88AE64FEB42510D5"
+					"encrypted_size_2"		"6F3E2D2C050475E636627C669E3E539D"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"9F977071F5F54701E240E810549373A1"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"2E7FEC3B70343ACCCB9D944F7FF39F97"
+					"encrypted_size_2"		"9CBFCCB2B3CF06BA4B27DDF8B3253C57"
+				}
+			}
+		}
+		"824616"
+		{
+			"name"		"Dungeons 3 - Seasonal - Chinese New Year (linux)"
+			"dlcappid"		"975330"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1821421527529349430"
+			}
+			"maxsize"		"965901"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"C5CEE12488A8591427332817DC0E4D65"
+					"encrypted_size_2"		"3223FEB775C182A5227DB9749E59E9EF"
+				}
+				"presse"
+				{
+					"encrypted_gid_2"		"74F4BD8EE7B1A255AD67CAED65FD6EA7"
+					"encrypted_size_2"		"6F3E2D2C050475E636627C669E3E539D"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"9A1F1C58D2408EEED7B5823FB3E1C6E6"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"1116A5E34B4E688372D7E4A33A2DF47C"
+					"encrypted_size_2"		"9CBFCCB2B3CF06BA4B27DDF8B3253C57"
+				}
+			}
+		}
+		"824617"
+		{
+			"name"		"Dungeons 3 - Campaign - An unexpected DLC (win)"
+			"dlcappid"		"975360"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7713150565719865021"
+			}
+			"maxsize"		"2071733"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"CBD90C628321EF51F77BDAFA85431C60"
+					"encrypted_size_2"		"A6A15C97F8217CD878D2952FBDCC4C97"
+				}
+			}
+		}
+		"824618"
+		{
+			"name"		"Dungeons 3 - Campaign - An unexpected DLC (osx)"
+			"dlcappid"		"975360"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7377545132797474729"
+			}
+			"maxsize"		"2071733"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"CF89AC075483C9AD52127726E318FBD8"
+					"encrypted_size_2"		"A6A15C97F8217CD878D2952FBDCC4C97"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"A63FE0FEBA6CCF05C662EB86594931C8"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"824619"
+		{
+			"name"		"Dungeons 3 - Campaign - An unexpected DLC (linux)"
+			"dlcappid"		"975360"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"445341766642944383"
+			}
+			"maxsize"		"2071733"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid_2"		"29C3300D26C1D19E526243AA93195E5E"
+					"encrypted_size_2"		"A6A15C97F8217CD878D2952FBDCC4C97"
+				}
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"7430500EE195FC76F58BBF5DCD7E3CC9"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+			}
+		}
+		"975331"
+		{
+			"name"		"Dungeons 3 - Seasonal - Easter (win)"
+			"dlcappid"		"1023950"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"9070083442038330880"
+			}
+			"maxsize"		"722445"
+			"encryptedmanifests"
+			{
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"76BA092E762AE050C9226480AB16A96B"
+					"encrypted_size_2"		"4F114DD021EA2913AB96F1DC291F2124"
+				}
+			}
+		}
+		"975332"
+		{
+			"name"		"Dungeons 3 - Seasonal - Easter (osx)"
+			"dlcappid"		"1023950"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4653605460546469540"
+			}
+			"maxsize"		"722445"
+			"encryptedmanifests"
+			{
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"CD833D8E619BEF50B54F5081A6DA8B6A"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"6F4DAB98B7CFA0662435DE1808AED77C"
+					"encrypted_size_2"		"4F114DD021EA2913AB96F1DC291F2124"
+				}
+			}
+		}
+		"975333"
+		{
+			"name"		"Dungeons 3 - Seasonal - Easter (linux)"
+			"dlcappid"		"1023950"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2594678564301714931"
+			}
+			"maxsize"		"722445"
+			"encryptedmanifests"
+			{
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"DDA80D51444DCA42C5F771DC0802C1E4"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.5.7"
+				{
+					"encrypted_gid_2"		"BD9F9C5EECE39FF9A5308781A100E5A5"
+					"encrypted_size_2"		"4F114DD021EA2913AB96F1DC291F2124"
+				}
+			}
+		}
+		"975334"
+		{
+			"name"		"Dungeons 3 - Campaign - Famous Last Words (win)"
+			"dlcappid"		"1049940"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"727480190278895948"
+			}
+			"maxsize"		"2261668"
+			"encryptedmanifests"
+			{
+				"v1.6"
+				{
+					"encrypted_gid_2"		"5467F2E5A48496CF39BF832B5DED451E"
+					"encrypted_size_2"		"7C9FCD7A709B632D7D0C9EA46CD4E80B"
+				}
+			}
+		}
+		"975335"
+		{
+			"name"		"Dungeons 3 - Campaign - Famous Last Words (osx)"
+			"dlcappid"		"1049940"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"457652418997633435"
+			}
+			"maxsize"		"2261668"
+			"encryptedmanifests"
+			{
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"F646CED034E17834C0E2C2C19D586DDB"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"2C8EDCD1A45D4015FE6F24EF85673D50"
+					"encrypted_size_2"		"7C9FCD7A709B632D7D0C9EA46CD4E80B"
+				}
+			}
+		}
+		"975336"
+		{
+			"name"		"Dungeons 3 - Campaign - Famous Last Words (linux)"
+			"dlcappid"		"1049940"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1773249835665003367"
+			}
+			"maxsize"		"2261668"
+			"encryptedmanifests"
+			{
+				"rf.dev"
+				{
+					"encrypted_gid_2"		"C23AAE2EB56E5AF4EA074ACCA7495084"
+					"encrypted_size_2"		"209219F26ABE2EC0BEF3ADE92CD3520A"
+				}
+				"v1.6"
+				{
+					"encrypted_gid_2"		"68E74E86CA684A26A24FCA42D2E2CF05"
+					"encrypted_size_2"		"7C9FCD7A709B632D7D0C9EA46CD4E80B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3862695"
+				"timeupdated"		"1559729103"
+			}
+			"baseline"
+			{
+				"buildid"		"3145178"
+				"description"		"master creation"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537876697"
+			}
+			"dungeonlove"
+			{
+				"buildid"		"3145178"
+				"description"		"Clash of Gods PR"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537868353"
+			}
+			"legacy"
+			{
+				"buildid"		"3280725"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541774252"
+			}
+			"partner"
+			{
+				"buildid"		"2451269"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1516372110"
+			}
+			"presse"
+			{
+				"buildid"		"3417209"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548429080"
+			}
+			"prod_test"
+			{
+				"buildid"		"2485604"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1517412724"
+			}
+			"rf.dev"
+			{
+				"buildid"		"3862725"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558989464"
+			}
+			"sales"
+			{
+				"buildid"		"2202434"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1508236208"
+			}
+			"some_build--probably_broken"
+			{
+				"buildid"		"3863645"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559023467"
+			}
+			"v1.5.7"
+			{
+				"buildid"		"3620973"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551873810"
+			}
+			"v1.6"
+			{
+				"buildid"		"3770921"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556261445"
+			}
+			"v1.6.1"
+			{
+				"buildid"		"3862695"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558988570"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"200"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/"
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Kalypso Media/Dungeons 3/savegames"
+				"pattern"		"*.d3z"
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Kalypso Media/Dungeons 3"
+				"pattern"		"config-cloud.cfg"
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Kalypso Media/Dungeons 3"
+				"pattern"		"keybindings-*.txt"
+			}
+		}
+	}
+}
+ 

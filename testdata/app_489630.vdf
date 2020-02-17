@@ -1,0 +1,489 @@
+"appinfo"
+{
+	"appid"		"489630"
+	"common"
+	{
+		"name"		"Warhammer 40,000: Gladius - Relics of War"
+		"type"		"Game"
+		"clienticon"		"4e0cf24cea0666ea03fbcc6eb7b2a4dacb3b09da"
+		"clienttga"		"1f446e6a365fe879f4c948a99a2968153c55f6ee"
+		"icon"		"ba6ea4fbeec62073763e103450e8aa7c5373d010"
+		"logo"		"c54b6f7420d5305dd693f1bcdc1846d152074f25"
+		"logo_small"		"c54b6f7420d5305dd693f1bcdc1846d152074f25_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"489630_eula_0"
+				"name"		"Warhammer 40,000: Gladius - Relics of War EULA"
+				"url"		"http://store.steampowered.com//eula/489630_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Warhammer 40,000: Gladius - Relics of War"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"70.62277758229561"
+				"height_pct"		"72.0000003873385"
+			}
+		}
+		"store_asset_mtime"		"1563522479"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Proxy Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Slitherine Ltd."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Warhammer"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_37"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1531407000"
+		"metacritic_score"		"71"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warhammer-40000-gladius---relics-of-war?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"489630"
+		"store_tags"
+		{
+			"0"		"12286"
+			"1"		"9"
+			"2"		"1741"
+			"3"		"1670"
+			"4"		"3942"
+			"5"		"1677"
+			"6"		"1717"
+			"7"		"4684"
+			"8"		"14139"
+			"9"		"3859"
+			"10"		"1678"
+			"11"		"1708"
+			"12"		"4182"
+			"13"		"4325"
+			"14"		"1685"
+			"15"		"1756"
+			"16"		"4364"
+			"17"		"4711"
+			"18"		"7926"
+			"19"		"4168"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Proxy Studios"
+		"publisher"		"Slitherine Ltd."
+		"homepage"		"http://www.slitherine.com/gladius"
+		"gamemanualurl"		"https://store.steampowered.com/manual/489630/"
+		"listofdlc"		"870530,870540,870550,961840,995860,1084820"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Warhammer 40000 Gladius - Relics of War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"autorun.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries\\Gladius"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"legacy2"
+				}
+			}
+			"2"
+			{
+				"executable"		"Binaries\\Linux-x86_64\\Gladius"
+				"arguments"		"--steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian"
+		"489633"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Shared"
+			"manifests"
+			{
+				"public"		"3919007319635535741"
+				"legacy3"		"4543372430323367737"
+				"openbeta"		"8311306560110956359"
+			}
+			"maxsize"		"1953429610"
+			"encryptedmanifests"
+			{
+				"devtest"
+				{
+					"encrypted_gid_2"		"6FAE1DC37302CA45E96DEB51DA9DF4D3"
+					"encrypted_size_2"		"58A3A9B2173F658800A9E08FFAEFB9C0"
+				}
+			}
+		}
+		"489631"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2348781500517653538"
+				"legacy3"		"2521721157281895146"
+				"openbeta"		"1411967210097629476"
+			}
+			"maxsize"		"75119402"
+			"encryptedmanifests"
+			{
+				"devtest"
+				{
+					"encrypted_gid_2"		"A5516800C6B4E71FED207F1AAF992B66"
+					"encrypted_size_2"		"C796E2752BE7E941C886C45E08ED57D7"
+				}
+			}
+		}
+		"489632"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1670959734744986123"
+				"legacy3"		"2765204752644816729"
+				"openbeta"		"1999528148885768496"
+			}
+			"maxsize"		"92050434"
+			"encryptedmanifests"
+			{
+				"devtest"
+				{
+					"encrypted_gid_2"		"F178A07FCB2AC16917F7176FF44186B0"
+					"encrypted_size_2"		"0B145CCB9BE73A2C3E4A1AC0B0CBFF6A"
+				}
+			}
+		}
+		"870530"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Soundtrack (870530) Depot"
+			"dlcappid"		"870530"
+			"manifests"
+			{
+				"public"		"7274289543907696310"
+			}
+			"maxsize"		"414058092"
+		}
+		"870550"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Wallpapers (870550) Depot"
+			"dlcappid"		"870550"
+			"manifests"
+			{
+				"public"		"357042419640598289"
+			}
+			"maxsize"		"27484424"
+		}
+		"870540"
+		{
+			"name"		"Warhammer 40,000: Gladius - Relics of War - Lord of Skulls exclusive unit (870540) Depot"
+			"dlcappid"		"870540"
+			"manifests"
+			{
+				"public"		"442301573797662394"
+			}
+			"maxsize"		"12"
+		}
+		"961840"
+		{
+			"name"		"Warhammer 40,000: Gladius - Reinforcement Pack (961840) Depot"
+			"dlcappid"		"961840"
+			"manifests"
+			{
+				"public"		"7296323810134405176"
+			}
+			"maxsize"		"11"
+		}
+		"995860"
+		{
+			"name"		"Warhammer 40,000: Gladius - Tyranids (995860) Depot"
+			"dlcappid"		"995860"
+			"manifests"
+			{
+				"public"		"4144015961261623394"
+			}
+			"maxsize"		"11"
+		}
+		"1084820"
+		{
+			"name"		"Warhammer 40,000: Gladius - Chaos Space Marines (1084820) Depot"
+			"dlcappid"		"1084820"
+			"manifests"
+			{
+				"public"		"1359616362294346870"
+			}
+			"maxsize"		"11"
+		}
+		"workshopdepot"		"489630"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4162259"
+				"timeupdated"		"1567603681"
+			}
+			"devtest"
+			{
+				"buildid"		"4179709"
+				"description"		"Internal Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568044008"
+			}
+			"legacy3"
+			{
+				"buildid"		"4179709"
+				"description"		"1.2.6 Tyranids (OpenGL 4.0)"
+				"timeupdated"		"1568044785"
+			}
+			"openbeta"
+			{
+				"buildid"		"4174642"
+				"description"		"Open Beta"
+				"timeupdated"		"1567808301"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Proxy Studios/Gladius/SavedGames"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Proxy Studios/Gladius Beta/SavedGames"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Proxy Studios/Gladius Development/SavedGames"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"addpath"		""
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"Astra Militarum"
+					"#faction:necrons"		"Necrons"
+					"#faction:orks"		"Orks"
+					"#faction:spacemarines"		"Space Marines"
+					"#faction:tyranids"		"Tyranids"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · Turn %turn%"
+					"#ingamelobby"		"In game lobby"
+					"#inmenus"		"In menus"
+				}
+			}
+			"spanish"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"Astra Militarum"
+					"#faction:necrons"		"Necrones"
+					"#faction:orks"		"Orkos"
+					"#faction:spacemarines"		"Marines Espaciales"
+					"#faction:tyranids"		"Tiránidos"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · Turn %turn%"
+					"#ingamelobby"		"Lobby"
+					"#inmenus"		"Menús"
+				}
+			}
+			"russian"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"Астра Милитарум"
+					"#faction:necrons"		"Некроны"
+					"#faction:orks"		"Орки"
+					"#faction:spacemarines"		"Космодесант"
+					"#faction:tyranids"		"Тираниды"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · Ход %turn%"
+					"#ingamelobby"		"В лоби игры"
+					"#inmenus"		"В меню"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"Astra Militarum"
+					"#faction:necrons"		"Necrons"
+					"#faction:orks"		"Orks"
+					"#faction:spacemarines"		"Space Marines"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · Runde %turn%"
+					"#ingamelobby"		"In Spiel-Lobby"
+					"#inmenus"		"Im Menü"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"Astra Militarum"
+					"#faction:necrons"		"Nécrons"
+					"#faction:orks"		"Orks"
+					"#faction:spacemarines"		"Space Marines"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · Tour %turn%"
+					"#ingamelobby"		"Salon du jeu"
+					"#inmenus"		"Menus"
+				}
+			}
+			"schinese"
+			{
+				"tokens"
+				{
+					"#faction:astramilitarum"		"帝国卫队"
+					"#faction:necrons"		"太空死灵"
+					"#faction:orks"		"欧克兽人"
+					"#faction:spacemarines"		"星际战士"
+					"#faction:tyranids"		"泰伦虫族"
+					"#ingame"		"{#Faction:%factionName%} · %playerName% · 回合 %turn%"
+					"#ingamelobby"		"位于游戏大厅"
+					"#inmenus"		"位于菜单页面"
+				}
+			}
+		}
+	}
+}
+ 

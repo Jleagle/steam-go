@@ -1,0 +1,426 @@
+"appinfo"
+{
+	"appid"		"612390"
+	"common"
+	{
+		"name"		"Dandara"
+		"type"		"Game"
+		"logo"		"9ad8a50a3867ad8bcddbc242386adeab5fc2e109"
+		"logo_small"		"9ad8a50a3867ad8bcddbc242386adeab5fc2e109_thumb"
+		"clienttga"		"f0f437e46734ecb7ee568144f7f0505b62a0f93b"
+		"clienticon"		"f4b7b5de19dbf580220309118c9d7b042f8a0bbd"
+		"icon"		"43656b56ca4b046977ac4779b5f67603e06738c4"
+		"clienticns"		"d08e5c07d76bb362e722a8c6258b5880d6c015b0"
+		"linuxclienticon"		"5f591b9c9351b2ec40cfc33a4df5a353f929a67f"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Dandara"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"55.25087514585764"
+				"height_pct"		"70.1377345048682"
+			}
+		}
+		"store_asset_mtime"		"1561445530"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Long Hat House"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Raw Fury"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1517940060"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dandara?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"612390"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1628"
+			"2"		"19"
+			"3"		"3964"
+			"4"		"7208"
+			"5"		"1625"
+			"6"		"1756"
+			"7"		"3871"
+			"8"		"4026"
+			"9"		"4106"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Long Hat House"
+		"publisher"		"Raw Fury"
+		"homepage"		"http://www.longhathouse.com/games/dandara/"
+		"listofdlc"		"744990"
+	}
+	"config"
+	{
+		"installdir"		"Dandara"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Dandara.exe"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Dandara.app"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"Dandara.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"612391"
+		{
+			"name"		"Dandara Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8597471619168345185"
+			}
+			"maxsize"		"727414198"
+			"encryptedmanifests"
+			{
+				"alienware"
+				{
+					"encrypted_gid_2"		"5DBF59B4B0C1136A1EC19E7377A4F33B"
+					"encrypted_size_2"		"CF9CB9E4F9D66C1194ACFA723019AA00"
+				}
+				"beta"
+				{
+					"encrypted_gid_2"		"D39F4A6E1B8B0771812BA6B554EB4A2E"
+					"encrypted_size_2"		"B253AAEF7261A0B2AD4F5D66D05BDAC1"
+				}
+				"classic115"
+				{
+					"encrypted_gid_2"		"CA33FA01946345255ACBE11F27658ED4"
+					"encrypted_size_2"		"0E8451B8CE1B0EC85F22D0CB28006848"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"DD2DE180B00F6D72A0F57D22419581F8"
+					"encrypted_size_2"		"8E522807A85733F9AC77D9753DADF260"
+				}
+				"friends"
+				{
+					"encrypted_gid_2"		"AD3A18C968FEE33E74C92110E66B5E23"
+					"encrypted_size_2"		"3B03A63CFC610D6A8A35C9358A98A751"
+				}
+				"igf_branch"
+				{
+					"encrypted_gid_2"		"C6A33186F29BE40660AA88F632E443A1"
+					"encrypted_size_2"		"0387BDB276382A6D4FD519A1C0CC4530"
+				}
+				"private-testing"
+				{
+					"encrypted_gid_2"		"0A344DBF00C67AEE6E01FA2511448768"
+					"encrypted_size_2"		"8ECA0EC95361967069AF05A208A40D58"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"1DC19C92310F22FEC0A83AF4133918E2"
+					"encrypted_size_2"		"FBDC448D2DB130FBCDED71F4021A88D3"
+				}
+				"writing"
+				{
+					"encrypted_gid_2"		"3BE14943FAFE94B808A1633DB2F4DDAC"
+					"encrypted_size_2"		"F4DEE61E82FBC7CD62FF8D98CA54290B"
+				}
+			}
+		}
+		"612392"
+		{
+			"name"		"Dandara Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4735721567532034916"
+			}
+			"maxsize"		"739060025"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"53B776023788BFE1F3B43B031D8F6792"
+					"encrypted_size_2"		"E73F17D99DE8F4E1A09388035B6C1E5E"
+				}
+				"classic115"
+				{
+					"encrypted_gid_2"		"5D0887BD003C42F97A57CD353B3F54C3"
+					"encrypted_size_2"		"F0E905E0CF8B68F3EB8E93AD23264801"
+				}
+				"demo"
+				{
+					"encrypted_gid_2"		"0BC94A2AE66CA3F941EB4376D0262D28"
+					"encrypted_size_2"		"3EA8F9F1DD629C206040566B0358DDDB"
+				}
+				"friends"
+				{
+					"encrypted_gid_2"		"68F72752AE87FC02CB7097283ABD69A0"
+					"encrypted_size_2"		"4E276DFF8F4153055825130CC9D03BC5"
+				}
+			}
+		}
+		"612393"
+		{
+			"name"		"Dandara Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7957639113405489351"
+			}
+			"maxsize"		"735382612"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"2D8569A53A064A2C5CCB88416D33C1E4"
+					"encrypted_size_2"		"61ED8A3196D65E5A534265EC05EBAC97"
+				}
+				"classic115"
+				{
+					"encrypted_gid_2"		"C9DBF137003475BD4CC6FB457A6D2E17"
+					"encrypted_size_2"		"43CE0E49C85B2964693D50EAC4784E57"
+				}
+				"writing"
+				{
+					"encrypted_gid_2"		"03372F4CD6D2FCA925AEF8E2A47B3922"
+					"encrypted_size_2"		"3FCEA97C73BE775CD6AC768F66170AF8"
+				}
+			}
+		}
+		"744990"
+		{
+			"name"		"Dandara OST (744990) Depot"
+			"manifests"
+			{
+				"public"		"587390412454572260"
+			}
+			"maxsize"		"2723879259"
+			"dlcappid"		"744990"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3920626"
+				"timeupdated"		"1560555474"
+			}
+			"alienware"
+			{
+				"buildid"		"2050576"
+				"description"		"Build for Alienware"
+				"pwdrequired"		"1"
+				"timeupdated"		"1503076945"
+			}
+			"beta"
+			{
+				"buildid"		"2992901"
+				"description"		"Beta Tests for Dandara"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533049428"
+			}
+			"classic115"
+			{
+				"buildid"		"2992901"
+				"description"		"Classic 1.1.5 version, for speedrunners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557952215"
+			}
+			"demo"
+			{
+				"buildid"		"2435420"
+				"description"		"Demo build."
+				"pwdrequired"		"1"
+				"timeupdated"		"1515878742"
+			}
+			"friends"
+			{
+				"buildid"		"2258563"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1514483946"
+			}
+			"igf_branch"
+			{
+				"buildid"		"2050582"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1506672018"
+			}
+			"private-testing"
+			{
+				"buildid"		"4078851"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565083119"
+			}
+			"testing"
+			{
+				"buildid"		"4177917"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567994387"
+			}
+			"writing"
+			{
+				"buildid"		"3894564"
+				"description"		"Writing tests feat. friends"
+				"pwdrequired"		"1"
+				"timeupdated"		"1559830955"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

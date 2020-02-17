@@ -1,0 +1,730 @@
+"appinfo"
+{
+	"appid"		"108600"
+	"common"
+	{
+		"name"		"Project Zomboid"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"391ddf7e88fb4517d3d11bb11373af3a8cc3bd3b"
+		"logo_small"		"391ddf7e88fb4517d3d11bb11373af3a8cc3bd3b_thumb"
+		"clienttga"		"6ae5286457ca5dfb0be124376edf0d4164c2c67a"
+		"icon"		"9d50c8fa8103d35f0485270215e37d37af5a1778"
+		"clienticns"		"16d32dd6f2f86e87bebb2058801f982d41ac5f33"
+		"clienticon"		"16d32dd6f2f86e87bebb2058801f982d41ac5f33"
+		"releasestate"		"released"
+		"metacritic_name"		"Project Zomboid"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"24.377932670637634"
+				"height_pct"		"67.01388888888891"
+			}
+		}
+		"store_asset_mtime"		"1560525554"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Indie Stone"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Indie Stone"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_24"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1383897600"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"108600"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"1659"
+			"2"		"1695"
+			"3"		"3810"
+			"4"		"3859"
+			"5"		"492"
+			"6"		"3835"
+			"7"		"599"
+			"8"		"1702"
+			"9"		"122"
+			"10"		"1685"
+			"11"		"1643"
+			"12"		"3978"
+			"13"		"493"
+			"14"		"5851"
+			"15"		"4175"
+			"16"		"4182"
+			"17"		"3871"
+			"18"		"21"
+			"19"		"7107"
+		}
+	}
+	"extended"
+	{
+		"developer"		"The Indie Stone"
+		"gamedir"		"zomboid"
+		"homepage"		"http://www.projectzomboid.com"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"108601"
+		"state"		"eStateAvailable"
+		"serverbrowsername"		"Project Zomboid"
+		"publisher"		"The Indie Stone"
+		"listofdlc"		"264910"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ProjectZomboid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectZomboid32.exe"
+				"description"		"32 Bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Project Zomboid.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"projectzomboid.sh"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"projectzomboid.sh"
+				"arguments"		"-safemode"
+				"description"		"Compatibility Mode"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"Project Zomboid.app"
+				"arguments"		"-safemode"
+				"description"		"Compatibility Mode"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"7"
+			{
+				"executable"		"ProjectZomboid32.exe"
+				"arguments"		"-safemode"
+				"description"		"Compatibility Mode"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"8"
+			{
+				"executable"		"ProjectZomboid64.exe"
+				"description"		"64 Bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"9"
+			{
+				"executable"		"ProjectZomboid64.exe"
+				"arguments"		"-safemode"
+				"description"		"Compatibility Mode"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"108602"
+		{
+			"name"		"Project Zomboid Mac Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6161845285216739528"
+				"38.30(pre-vehicles)"		"2110518077863012336"
+				"build-39-vehicles"		"231208379938381225"
+				"lastpublic"		"8744625797224469667"
+			}
+			"maxsize"		"3220198660"
+			"encryptedmanifests"
+			{
+				"controllertest"
+				{
+					"encrypted_gid_2"		"D21BFE504373EC6394B4BE0205F27004"
+					"encrypted_size_2"		"65D1F0A767458EE2B50A78E47C77EEB4"
+				}
+				"creative"
+				{
+					"encrypted_gid_2"		"121AA032091C22A70F828788FB7ED355"
+					"encrypted_size_2"		"EE4D7A0573870166923C95CB69265478"
+				}
+				"getoutofhereyoufilthyspy"
+				{
+					"encrypted_gid_2"		"1253FFC2E3AAFB7473CD6B245E0454AC"
+					"encrypted_size_2"		"EB60371CD6D97243CC6C4675C949E17B"
+				}
+				"iwbums-master-upload"
+				{
+					"encrypted_gid_2"		"93B23157426094CE55904FAA48D86192"
+					"encrypted_size_2"		"57B07060E73B494CE229A464B4272B04"
+				}
+				"master-upload"
+				{
+					"encrypted_gid_2"		"1AC63272E59317655481DA9073E4B349"
+					"encrypted_size_2"		"5BBBAB1C5C12988B2CCF5953BC914DEC"
+				}
+				"mptesting"
+				{
+					"encrypted_gid_2"		"BEE3835C4AEC2A230BA2F1EF15452C23"
+					"encrypted_size_2"		"E542B816E96B7040FD90768DBCA86F10"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"9B3CC66858EA91EB6E9E93CC5896E9AE"
+					"encrypted_size_2"		"A7873D854C9E084F36BD9F5E292E108A"
+				}
+				"savetest"
+				{
+					"encrypted_gid_2"		"D3562ED34C6DE4A8B00F47C53892E05B"
+					"encrypted_size_2"		"C1052ADD224F9E2FA502070C28081C29"
+				}
+				"si"
+				{
+					"encrypted_gid_2"		"F276D20A89C4E7A0E1B2CF60B6206E50"
+					"encrypted_size_2"		"F1A94FE2EDB70D1F256E3B9F5F2699CB"
+				}
+				"stopspyingonme"
+				{
+					"encrypted_gid_2"		"E8627E501EE85FA3D30737F42DCCA9F0"
+					"encrypted_size_2"		"FF6EC010AA2358485E4B7929CC31B69B"
+				}
+				"tanglewood"
+				{
+					"encrypted_gid_2"		"81E7E6E25B41C172C7EEAD1F1A3EDE39"
+					"encrypted_size_2"		"7E65A9DAF40A3B8F995AB0CEF87CA0EE"
+				}
+				"turbotv"
+				{
+					"encrypted_gid_2"		"6D4C65BE0425287E0FC5AAFF8FF25D8F"
+					"encrypted_size_2"		"DE3753CA249C12B1AF3BB64750CCBB7C"
+				}
+				"weather"
+				{
+					"encrypted_gid_2"		"7F2317048D54C0E97BD0A0F5653AE373"
+					"encrypted_size_2"		"48F4F263BADB4EDE21F195644B7C592E"
+				}
+				"yuritesting"
+				{
+					"encrypted_gid_2"		"90612D3AEEAE88549EFA156916A33CC8"
+					"encrypted_size_2"		"5484B7B5856DEA7839E39F85F930FA35"
+				}
+			}
+		}
+		"108603"
+		{
+			"name"		"Project Zomboid Linux Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2901627108538846647"
+				"38.30(pre-vehicles)"		"2025289189699877611"
+				"build-39-vehicles"		"4616772916413634926"
+				"lastpublic"		"7055973451065528121"
+			}
+			"maxsize"		"3484671471"
+			"encryptedmanifests"
+			{
+				"controllertest"
+				{
+					"encrypted_gid_2"		"B56F61463E2BE1D3C4690B255DE65F9B"
+					"encrypted_size_2"		"DF97573C89D1C582F15C0E50D0BA4623"
+				}
+				"creative"
+				{
+					"encrypted_gid_2"		"DB5AB23B677BAFC1EE03F2DCDB2E927E"
+					"encrypted_size_2"		"C144DA1D9333B129EC3C277F85D54927"
+				}
+				"getoutofhereyoufilthyspy"
+				{
+					"encrypted_gid_2"		"80B51C40DF6FC313DE6337AB4D9C2D02"
+					"encrypted_size_2"		"281EE2AC592A27B6824581B00226A2A4"
+				}
+				"iwbums-master-upload"
+				{
+					"encrypted_gid_2"		"F7C67DB80AEB37592E58C90C3A3DD539"
+					"encrypted_size_2"		"5C836663C0E8F9A91DC7BAB9AC515196"
+				}
+				"master-upload"
+				{
+					"encrypted_gid_2"		"425ABD623FAB22895778F30EA0BC16FB"
+					"encrypted_size_2"		"ABA8B5BF5FD62F2E00AF00C072671D6A"
+				}
+				"mptesting"
+				{
+					"encrypted_gid_2"		"54259B34CB29FD888006256DCC901CF8"
+					"encrypted_size_2"		"A4045CA8294354068D65F04B0DEC8613"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"B405749F9CC8F5DF31B5C0A226BF22EA"
+					"encrypted_size_2"		"4F1079BD453E1EC733FB19520DB033F5"
+				}
+				"savetest"
+				{
+					"encrypted_gid_2"		"DF677CC94E15111200A4F81E1583C9B2"
+					"encrypted_size_2"		"D35FF19157D683BC3B4CD930ADBB7A0F"
+				}
+				"si"
+				{
+					"encrypted_gid_2"		"01674C96CA75722C7AFFBB607EBC0425"
+					"encrypted_size_2"		"EF6D1A7D26930CE386490E71E93798CC"
+				}
+				"stopspyingonme"
+				{
+					"encrypted_gid_2"		"EF04CF8270D5B7E47ECDADA970951659"
+					"encrypted_size_2"		"BC739D61784E259D6BBAE6BD45C22F30"
+				}
+				"tanglewood"
+				{
+					"encrypted_gid_2"		"9636CFDCB06AFA058B0ED298E7DE1821"
+					"encrypted_size_2"		"457DB34372FF55CADBEB916355271A55"
+				}
+				"turbotv"
+				{
+					"encrypted_gid_2"		"3CA838A177D6A126772D63CE7F2FA1F1"
+					"encrypted_size_2"		"D11A3B3D6E7D9E8DF9742C23AF357EE2"
+				}
+				"weather"
+				{
+					"encrypted_gid_2"		"4EC297572BBA0FEFED1C8ABFDFA0C91D"
+					"encrypted_size_2"		"3AD5D5AF5E71E5FEE34A11E5E24F5FF0"
+				}
+				"yuritesting"
+				{
+					"encrypted_gid_2"		"37C215F16F2C25ED587BF2214BC4423A"
+					"encrypted_size_2"		"AD0B68C9D52A904A074CFD4D823CDDEE"
+				}
+			}
+		}
+		"108604"
+		{
+			"name"		"Project Zomboid Windows Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7314538702962021307"
+				"38.30(pre-vehicles)"		"3304842459355341651"
+				"build-39-vehicles"		"8598263918377230418"
+				"lastpublic"		"9119993849934551578"
+			}
+			"maxsize"		"3436718730"
+			"encryptedmanifests"
+			{
+				"controllertest"
+				{
+					"encrypted_gid_2"		"6518E7AB8A02D079BA443D84DF6FFE67"
+					"encrypted_size_2"		"1359C14C9D73526394279F06FD74B2B7"
+				}
+				"creative"
+				{
+					"encrypted_gid_2"		"5C4E7EF7400DDC8EE1CFF41B31655E13"
+					"encrypted_size_2"		"6064A2559602A4944CA65204A1143F43"
+				}
+				"getoutofhereyoufilthyspy"
+				{
+					"encrypted_gid_2"		"41AE9B70DB5CF3BBE184DC5BFE596809"
+					"encrypted_size_2"		"C11AFECB662913A73182AFCE61E24A0E"
+				}
+				"iwbums-master-upload"
+				{
+					"encrypted_gid_2"		"69E172A2855FFEA2DED5EF0063D7910B"
+					"encrypted_size_2"		"5B69708B71D489F344B131EE0C1F1157"
+				}
+				"master-upload"
+				{
+					"encrypted_gid_2"		"B469420AA76E49FFDA2DCFCF973AE3F4"
+					"encrypted_size_2"		"DC3F6E26EA9F509EBC494B3245A75900"
+				}
+				"mptesting"
+				{
+					"encrypted_gid_2"		"C9E05423CDBB9B1E8E0FB1E7C1161925"
+					"encrypted_size_2"		"8834DB40C920F06C8206399CCB73932C"
+				}
+				"nightly"
+				{
+					"encrypted_gid_2"		"ABDFDB0B0F1EC6ACFF78903EB1247CA5"
+					"encrypted_size_2"		"069F7FFB7EBF20ACAAF488586A67DEBA"
+				}
+				"savetest"
+				{
+					"encrypted_gid_2"		"1A3C500E3E2F6CF4DA92323DE404398D"
+					"encrypted_size_2"		"7DB99D1729F07342B09535B868256315"
+				}
+				"si"
+				{
+					"encrypted_gid_2"		"06A863A55B0986589371B2AAFF95ADE4"
+					"encrypted_size_2"		"9FDBE95C627AA8EAE9B6DED2AAFB56BB"
+				}
+				"stopspyingonme"
+				{
+					"encrypted_gid_2"		"F07BCCC8446C40689B1178FF38FD17C8"
+					"encrypted_size_2"		"55866607B598C913CA227ED507E3CDCD"
+				}
+				"tanglewood"
+				{
+					"encrypted_gid_2"		"B4E71062850A1EADC3FD2D33B6F5BF7E"
+					"encrypted_size_2"		"18FF8604A4BDBE1DBE799045DF865E19"
+				}
+				"turbotv"
+				{
+					"encrypted_gid_2"		"6C93D0DCF74162C87A056999B495494C"
+					"encrypted_size_2"		"4D618E6E5852AE1838CEAD48CC319B10"
+				}
+				"weather"
+				{
+					"encrypted_gid_2"		"38AFC7C1E9A75353984C31A7A0AE3427"
+					"encrypted_size_2"		"D04E38F166318E3C97905578E6222F94"
+				}
+				"yuritesting"
+				{
+					"encrypted_gid_2"		"9CE2583CC97AC4B62FC7DFAD8F50040C"
+					"encrypted_size_2"		"721704689DE5C41541A78D442D32B74E"
+				}
+			}
+		}
+		"108601"
+		{
+			"name"		"Project Zomboid Shared Depot"
+			"systemdefined"		"1"
+		}
+		"workshopdepot"		"108600"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3417012"
+				"timeupdated"		"1545327090"
+			}
+			"38.30(pre-vehicles)"
+			{
+				"buildid"		"2309123"
+				"description"		"Build 38.30 (Final pre-vehicles version)"
+				"timeupdated"		"1524048033"
+			}
+			"build-39-vehicles"
+			{
+				"buildid"		"2857997"
+				"description"		""
+				"timeupdated"		"1540896904"
+			}
+			"controllertest"
+			{
+				"buildid"		"3539804"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549537826"
+			}
+			"creative"
+			{
+				"buildid"		"742511"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"getoutofhereyoufilthyspy"
+			{
+				"buildid"		"3941229"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1561111499"
+			}
+			"iwbums-master-upload"
+			{
+				"buildid"		"3257765"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1540835503"
+			}
+			"iwillbackupmysave"
+			{
+				"buildid"		"3417012"
+				"description"		"Public test version, may be highly unstable. Beware."
+				"timeupdated"		"1545327069"
+			}
+			"lastpublic"
+			{
+				"buildid"		"3264980"
+				"description"		""
+				"timeupdated"		"1542899017"
+			}
+			"master-upload"
+			{
+				"buildid"		"3229412"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539965007"
+			}
+			"mptesting"
+			{
+				"buildid"		"1407676"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1477143171"
+			}
+			"nightly"
+			{
+				"buildid"		"4177950"
+				"description"		"Nightly Builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567996742"
+			}
+			"savetest"
+			{
+				"buildid"		"1905127"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1498030757"
+			}
+			"si"
+			{
+				"buildid"		"4179541"
+				"description"		"Closed testing build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568040253"
+			}
+			"stopspyingonme"
+			{
+				"buildid"		"3285508"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1541605034"
+			}
+			"tanglewood"
+			{
+				"buildid"		"1909495"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1498143880"
+			}
+			"turbotv"
+			{
+				"buildid"		"3121550"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536919724"
+			}
+			"weather"
+			{
+				"buildid"		"3058285"
+				"description"		"weather"
+				"pwdrequired"		"1"
+				"timeupdated"		"1535038852"
+			}
+			"yuritesting"
+			{
+				"buildid"		"4055211"
+				"description"		"Yuri's Test Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564425770"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

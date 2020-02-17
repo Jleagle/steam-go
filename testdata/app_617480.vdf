@@ -1,0 +1,649 @@
+"appinfo"
+{
+	"appid"		"617480"
+	"common"
+	{
+		"name"		"Tower of Time"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"c3061f9c9266f1a4d14e65e624eba388629b6732"
+		"logo_small"		"c3061f9c9266f1a4d14e65e624eba388629b6732_thumb"
+		"icon"		"50ed47b9186d5b932b00edffaf5cf7573948153c"
+		"clienticon"		"74508bfbe846d2c05805d69069dff53806fd3e40"
+		"clienttga"		"774ec62871b9a8f180c93dc08de002aa5d9fc713"
+		"linuxclienticon"		"ba5a132d89779121dff75228cf813e66cc75f094"
+		"clienticns"		"72fa2dd90716d73111371f965cdd8129f2d3944a"
+		"languages"
+		{
+			"english"		"1"
+		}
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"metacritic_name"		"Tower of Time"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.90010637476074"
+				"height_pct"		"57.985777212067816"
+			}
+		}
+		"store_asset_mtime"		"1567805649"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Event Horizon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Event Horizon"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_29"		"1"
+			"category_13"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1523533098"
+		"metacritic_score"		"77"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tower-of-time?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"617480"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"492"
+			"3"		"3813"
+			"4"		"7107"
+			"5"		"21"
+			"6"		"1720"
+			"7"		"1742"
+			"8"		"4474"
+			"9"		"10695"
+			"10"		"3854"
+			"11"		"4161"
+			"12"		"4166"
+			"13"		"5851"
+			"14"		"1756"
+			"15"		"4175"
+			"16"		"1677"
+			"17"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Event Horizon"
+		"publisher"		"Event Horizon"
+		"homepage"		"https://www.evehor.com/"
+		"listofdlc"		"713280,854000"
+	}
+	"config"
+	{
+		"installdir"		"Tower of Time"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TowerOfTime.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TowerOfTime.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"TowerOfTime.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"617481"
+		{
+			"name"		"Tower of Time Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4079697229307570456"
+				"beta_pre_patch"		"7345996271747058813"
+				"public_beta"		"4364469118305894961"
+				"public_french_beta"		"2329687033952093109"
+			}
+			"maxsize"		"18406965712"
+			"encryptedmanifests"
+			{
+				"balance_tweaking"
+				{
+					"encrypted_gid_2"		"AD8D5072F31214C100A3096147D4D589"
+					"encrypted_size_2"		"518147FFD6AF2CB81E1B3A13E0518219"
+				}
+				"console_gamepad_testing"
+				{
+					"encrypted_gid_2"		"A95E2D85E4BAE16166A7B0A076C68254"
+					"encrypted_size_2"		"CB9709BB386D4F72E07BA09F311DB989"
+				}
+				"epic_testing"
+				{
+					"encrypted_gid_2"		"93B5A3C79D253119168D2248CE708722"
+					"encrypted_size_2"		"62AD6CF89908F4486818771F6544B909"
+				}
+				"experimental_testing"
+				{
+					"encrypted_gid_2"		"2C8FA18642E0DDB25671016236C6AF36"
+					"encrypted_size_2"		"B79C5FC3ECC8E66CDBB38B0EA37C46C0"
+				}
+				"heavy_debugging"
+				{
+					"encrypted_gid_2"		"D70BB7BCE920FE415A2EA5C1AB93F9AD"
+					"encrypted_size_2"		"91726DDEC0919AA261ED25489FCC03CE"
+				}
+				"patch_regression"
+				{
+					"encrypted_gid_2"		"4CC86B9BA92832BC394F9788AF1F1145"
+					"encrypted_size_2"		"15E331D9B12A83D96B4D70359F5EB9FD"
+				}
+				"performance_testing"
+				{
+					"encrypted_gid_2"		"7E37D6CD9A413BBFE3F718C036C1E658"
+					"encrypted_size_2"		"19AAFD1B2EA7B16D29ED699968E7A33A"
+				}
+				"performance_testing_2"
+				{
+					"encrypted_gid_2"		"106FF7B316695B568C01FAACAA4D7041"
+					"encrypted_size_2"		"076B34542E197D4D36342B9B35B542F9"
+				}
+				"potential_crash_fixes"
+				{
+					"encrypted_gid_2"		"BAAAAEF36020A8C78264AF90C80392CB"
+					"encrypted_size_2"		"207E78885583FA5E7EAACC2FD85FB968"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"FAA80D4EE7F98FAA8634EDB666D2D223"
+					"encrypted_size_2"		"72A0E06491E4F5A45DEFE0FDB798EADC"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"BD2E0F32CC0F12F2F0FAA4CD06EFB794"
+					"encrypted_size_2"		"0B7024BE04B46989C4FB40EF174700E6"
+				}
+				"russian_release_candidate"
+				{
+					"encrypted_gid_2"		"4CE9302F6B33CE298297798C2D21993A"
+					"encrypted_size_2"		"6F3E84FC66A574A02A2188ADB39C8DE3"
+				}
+				"test_build_patch_size"
+				{
+					"encrypted_gid_2"		"8B52109699508CBFC3EA06A61895D2C1"
+					"encrypted_size_2"		"CCA8291F500AC5562EBD1CA10A6BC3BF"
+				}
+				"test_light_build"
+				{
+					"encrypted_gid_2"		"558D204472B0392EF92D175D0A99C3E1"
+					"encrypted_size_2"		"943999CDB3021A7BB12ECC0465A142B2"
+				}
+				"translation_testing"
+				{
+					"encrypted_gid_2"		"83E2B7A1F5C9D25A1EBDC53A4EC7B509"
+					"encrypted_size_2"		"C4ADE5FE0C2264CA6A2128FB980C811D"
+				}
+				"translations_import"
+				{
+					"encrypted_gid_2"		"19C2DF1B60CF111F01DC5DA3A45B9176"
+					"encrypted_size_2"		"898171C02F14FABC7087DD08486E3F7E"
+				}
+				"unity_2018_testing"
+				{
+					"encrypted_gid_2"		"41316CC9669091633FBB2DC1DD15F318"
+					"encrypted_size_2"		"D44E8D2B296EE13086AB9F6D5007FC3C"
+				}
+				"video_player"
+				{
+					"encrypted_gid_2"		"2D46CC25CFA357A7327ADD62279CE16F"
+					"encrypted_size_2"		"AFCBC24310CE01F7180AEAFC89F698E1"
+				}
+				"vulkantesting"
+				{
+					"encrypted_gid_2"		"8BB892D4BA95B33A6D572A1A60ED961F"
+					"encrypted_size_2"		"F994BB1FAE37C3F35C7C4C474551F3BF"
+				}
+			}
+		}
+		"617482"
+		{
+			"name"		"Tower of Time Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2609769511523614651"
+				"beta_pre_patch"		"3250794942377337134"
+				"public_beta"		"8764809280723479046"
+				"public_french_beta"		"3053339861672998324"
+			}
+			"maxsize"		"18111633080"
+			"encryptedmanifests"
+			{
+				"balance_tweaking"
+				{
+					"encrypted_gid_2"		"084D0F31B0CC1B1679E49FC69235D05D"
+					"encrypted_size_2"		"B51EB02F503F81A0DEBEF2D766C60CC5"
+				}
+				"console_gamepad_testing"
+				{
+					"encrypted_gid_2"		"3B75FEDB6DA581270D698F97C84D9A17"
+					"encrypted_size_2"		"F79F5A2F7EA8722F703D9C25325462BE"
+				}
+				"epic_testing"
+				{
+					"encrypted_gid_2"		"CAE27BF444CE64C2A6EAAD96D5B839A1"
+					"encrypted_size_2"		"93C03755397E0B722ED4F4F697D4E1BE"
+				}
+				"experimental_testing"
+				{
+					"encrypted_gid_2"		"E39695EBEA1220721356E801E3D8FD61"
+					"encrypted_size_2"		"7552F8F976CDF93608365B5ED34CEFB9"
+				}
+				"heavy_debugging"
+				{
+					"encrypted_gid_2"		"02EC151BD1D2FB104E5CBCFF18E7F329"
+					"encrypted_size_2"		"C753324B97C6F3B6FA234044288732EB"
+				}
+				"patch_regression"
+				{
+					"encrypted_gid_2"		"30BB9A8CDA6F1AC02FC8F5099D915C1F"
+					"encrypted_size_2"		"F3D2963D7B3F74821E92E19FDB74AEA0"
+				}
+				"performance_testing"
+				{
+					"encrypted_gid_2"		"458C328145D93F77942E1E103E4C77CE"
+					"encrypted_size_2"		"F69CFBC8B743FCF3FA6AA549A5FBC7C7"
+				}
+				"performance_testing_2"
+				{
+					"encrypted_gid_2"		"9C0302D42547100205F13C388825CDE1"
+					"encrypted_size_2"		"AB1BB09D27C8B290EB6074E068C6DEB9"
+				}
+				"potential_crash_fixes"
+				{
+					"encrypted_gid_2"		"C541199C4D3F2E4BB778A4BF8868BCA4"
+					"encrypted_size_2"		"0B395F3572365D75ABC6BF7832CF3C59"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"4ED7A54AACD2EEFBE4A0E9D6E42885A6"
+					"encrypted_size_2"		"7B3FD1CE7D052B2B0D059C9756D3920B"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid_2"		"DC7F40A2F280FF19871E6F3C95F7A56B"
+					"encrypted_size_2"		"38BEF17EFD8944A012B016F2172B784C"
+				}
+				"russian_release_candidate"
+				{
+					"encrypted_gid_2"		"43B50F53FCDC1C8F2E70ACC9262269F6"
+					"encrypted_size_2"		"BF3063171BCD49E8EBF3CF576023D534"
+				}
+				"test_build_patch_size"
+				{
+					"encrypted_gid_2"		"FCBBD1B03AB753CBA908978BED32707B"
+					"encrypted_size_2"		"8A13A68D1A26CD81AA6B5B3638753056"
+				}
+				"test_light_build"
+				{
+					"encrypted_gid_2"		"B1DD0AFD5CBE2E80AB0093C4EBBE05E5"
+					"encrypted_size_2"		"F432F759E9FBFBB29BACF0B483544DC9"
+				}
+				"translation_testing"
+				{
+					"encrypted_gid_2"		"E32832ADBCD15244DB4FCC983206200B"
+					"encrypted_size_2"		"B0B9E65B547894DD7ADFB5D347F891DB"
+				}
+				"translations_import"
+				{
+					"encrypted_gid_2"		"E030BDA70A9D88593D71A7A5DD2F2B42"
+					"encrypted_size_2"		"1AAF56F81F27F0B1A67E584E0AA3C4F7"
+				}
+				"unity_2018_testing"
+				{
+					"encrypted_gid_2"		"CBEE21E37D87772C03EDC822542AC1F6"
+					"encrypted_size_2"		"2D9569B1F9245AAB482EAF7ADDF85CF5"
+				}
+				"video_player"
+				{
+					"encrypted_gid_2"		"A4C0C758CB6F60C8ADD8B925D740F996"
+					"encrypted_size_2"		"5D664D833356E7513810A756335FE019"
+				}
+				"vulkantesting"
+				{
+					"encrypted_gid_2"		"DFD83D740EFC1853E94EEBFCCB88FEAE"
+					"encrypted_size_2"		"9D583EE9FB5DEBBBB3574FD0C21DA52B"
+				}
+			}
+		}
+		"617483"
+		{
+			"name"		"Tower of Time OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3781516"
+				"timeupdated"		"1556651900"
+			}
+			"balance_tweaking"
+			{
+				"buildid"		"2804150"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1527189584"
+			}
+			"beta"
+			{
+				"buildid"		"3781516"
+				"description"		"Beta build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556632897"
+			}
+			"beta_pre_patch"
+			{
+				"buildid"		"3405359"
+				"description"		"beta_pre_patch"
+				"timeupdated"		"1548780226"
+			}
+			"console_gamepad_testing"
+			{
+				"buildid"		"2999389"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1533209154"
+			}
+			"epic_testing"
+			{
+				"buildid"		"2650691"
+				"description"		"Special combat testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522539350"
+			}
+			"experimental_testing"
+			{
+				"buildid"		"2678803"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1523459212"
+			}
+			"heavy_debugging"
+			{
+				"buildid"		"2851628"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1528715855"
+			}
+			"innercompany"
+			{
+				"buildid"		"3781516"
+				"description"		"Inner Company Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1556632916"
+			}
+			"patch_regression"
+			{
+				"buildid"		"2786110"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1538741344"
+			}
+			"performance_testing"
+			{
+				"buildid"		"3489928"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548433914"
+			}
+			"performance_testing_2"
+			{
+				"buildid"		"3225840"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539882197"
+			}
+			"potential_crash_fixes"
+			{
+				"buildid"		"3530296"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549296198"
+			}
+			"press"
+			{
+				"buildid"		"2668810"
+				"description"		"Press release branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1523126173"
+			}
+			"public_beta"
+			{
+				"buildid"		"2825472"
+				"description"		"Public beta build"
+				"timeupdated"		"1527851851"
+			}
+			"public_french_beta"
+			{
+				"buildid"		"3143857"
+				"description"		"Public beta of French translation"
+				"timeupdated"		"1537518307"
+			}
+			"release_candidate"
+			{
+				"buildid"		"3634698"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1552313214"
+			}
+			"russian_release_candidate"
+			{
+				"buildid"		"2870851"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1529323335"
+			}
+			"test_build_patch_size"
+			{
+				"buildid"		"2939445"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1531388605"
+			}
+			"test_light_build"
+			{
+				"buildid"		"2665981"
+				"description"		"Ligh build test ( lower res textures )"
+				"pwdrequired"		"1"
+				"timeupdated"		"1523017914"
+			}
+			"translation_testing"
+			{
+				"buildid"		"2775359"
+				"description"		"Branch used for testing game translations"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526386488"
+			}
+			"translations_import"
+			{
+				"buildid"		"3822504"
+				"description"		"Build with debug option to import translations from .xls"
+				"pwdrequired"		"1"
+				"timeupdated"		"1557846626"
+			}
+			"unity_2018_testing"
+			{
+				"buildid"		"2864449"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1529058647"
+			}
+			"video_player"
+			{
+				"buildid"		"2905281"
+				"description"		"Testing video player"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530263458"
+			}
+			"vulkantesting"
+			{
+				"buildid"		"2442124"
+				"description"		"Branch used for testing Linux builds using Vulkan"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516129505"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Event horizon/Tower Of Time"
+				"pattern"		"save_*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Event horizon/Tower Of Time"
+						"replace"		"unity.Event horizon.Tower of Time"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Event horizon/Tower Of Time"
+						"replace"		".config/unity3d/Event horizon/Tower of Time"
+					}
+				}
+			}
+		}
+	}
+}
+ 

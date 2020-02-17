@@ -1,0 +1,1629 @@
+"appinfo"
+{
+	"appid"		"234140"
+	"common"
+	{
+		"name"		"Mad Max"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"f114c3cf063da97aac613bf408b465e50f43a644"
+		"logo_small"		"f114c3cf063da97aac613bf408b465e50f43a644_thumb"
+		"clienticon"		"e40bec3abe80f11ff457827a824ff9b454bf8a76"
+		"clienttga"		"72268be6e54b3dca99481e349c62c1652f671a81"
+		"icon"		"71a4dd52273b749f96913a48dd6f439fb5ddc23e"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"234140_eula_0"
+				"name"		"Mad Max EULA"
+				"url"		"http://store.steampowered.com//eula/234140_eula_0"
+			}
+		}
+		"clienticns"		"81c0316e0ead60202a6a840995d176635e51ebd0"
+		"linuxclienticon"		"3e6f5519d84240e82809103dc5f3f91cd9884e57"
+		"osarch"		""
+		"metacritic_name"		"Mad Max"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"48"
+				"height_pct"		"36"
+			}
+		}
+		"store_asset_mtime"		"1476984179"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Avalanche Studios"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Feral Interactive (Mac)"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Feral Interactive (Linux)"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Warner Bros. Interactive Entertainment"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Feral Interactive (Mac)"
+			}
+			"5"
+			{
+				"type"		"publisher"
+				"name"		"Feral Interactive (Linux)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1443758400"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/mad-max?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"234140"
+		"store_tags"
+		{
+			"0"		"1695"
+			"1"		"19"
+			"2"		"3835"
+			"3"		"1644"
+			"4"		"4182"
+			"5"		"1662"
+			"6"		"1697"
+			"7"		"21"
+			"8"		"3834"
+			"9"		"699"
+			"10"		"4166"
+			"11"		"1742"
+			"12"		"3810"
+			"13"		"122"
+			"14"		"3814"
+			"15"		"1774"
+			"16"		"3859"
+			"17"		"1678"
+			"18"		"3942"
+			"19"		"3839"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Avalanche Studios"
+		"gamedir"		"ValveTestApp234140"
+		"homepage"		"http://madmaxgame.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Warner Bros. Interactive Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/234140/"
+		"listofdlc"		"373550,373551,374352,374353,374354,374355"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mad Max"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MadMax.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mad Max.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"MadMax.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,japanese,polish,brazilian"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"234141"
+		{
+			"name"		"MM - Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6004018614475068250"
+			}
+			"maxsize"		"34128991872"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"34DE5055BFB33A76EA34F0DBBB6098B5"
+					"encrypted_size_2"		"5781CB5D7ACC56CBAF9CA19A0C077B21"
+				}
+				"master_day0_patch"
+				{
+					"encrypted_gid_2"		"B71D0216926D20BE1CDE876FC8161C4B"
+					"encrypted_size_2"		"F2FBA5648901E53CD29B311A971A39AE"
+				}
+				"master_day20_patch"
+				{
+					"encrypted_gid_2"		"0B45C159ACA039AEB634CC4296D449C3"
+					"encrypted_size_2"		"8252A387BEB947584F0895371C1E40FF"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"8AC10D0C0ABFECAAED766A6A582EB216"
+					"encrypted_size_2"		"71F6C06495FEFB6607875028C18393A4"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"8FF59B98E93A0FBCA33564393ED74E68"
+					"encrypted_size_2"		"C74F533F19E7E8FCEBFB994103247265"
+				}
+				"master_jpn_day0"
+				{
+					"encrypted_gid_2"		"AD8DA42E5DC605EDAC3F5B533FD075A8"
+					"encrypted_size_2"		"95B294E885D82E0261726885B1CA7611"
+				}
+				"patch-1008044"
+				{
+					"encrypted_gid_2"		"228C7CD8FD32F2ADD527338BA6477A18"
+					"encrypted_size_2"		"B56BB14BA6B82D0D1BE0EC523B1F72B7"
+				}
+				"patch-1014282"
+				{
+					"encrypted_gid_2"		"980375B88ED9755833F663A837426721"
+					"encrypted_size_2"		"5181E08099F01C406428A5A5C96CFC4E"
+				}
+				"patch-1015900"
+				{
+					"encrypted_gid_2"		"255825A485828DD985ABB6F14B2DD1F0"
+					"encrypted_size_2"		"A1783816170676610685AFE39DF09B1B"
+				}
+				"patch-1020702"
+				{
+					"encrypted_gid_2"		"F21132CD9CE38BD2752EBEEDA8013719"
+					"encrypted_size_2"		"D45165B5FDB2E3961318D9ACF9CAF0FF"
+				}
+				"patch-1021088"
+				{
+					"encrypted_gid_2"		"67045A44B6507B8E93FA98AB924668DE"
+					"encrypted_size_2"		"BAF615CAB5F6C5CCA52834257C49CDA5"
+				}
+				"patch-1021582"
+				{
+					"encrypted_gid_2"		"7D2BF169A3999382EE75D4ADA7DAAF4D"
+					"encrypted_size_2"		"E09C8DCF7830613F3FC518BA0340EDCD"
+				}
+				"patch-jpn-1013498"
+				{
+					"encrypted_gid_2"		"A54670B197325FF66B2E26489A64AB7E"
+					"encrypted_size_2"		"BCD0AAAB4862EF4EC5A25AE99824F72C"
+				}
+				"patch-jpn-1014643"
+				{
+					"encrypted_gid_2"		"53C31EAD9BA93244FC5A4E17973DE9A5"
+					"encrypted_size_2"		"23643D120546D9A23E254C61F74FF950"
+				}
+				"patch-jpn-1018343"
+				{
+					"encrypted_gid_2"		"0D9A979F8CBD89457DFE0A9238F01448"
+					"encrypted_size_2"		"E7EBD57EC98272A09B31114FA59BA5FD"
+				}
+				"patch-jpn-1020497"
+				{
+					"encrypted_gid_2"		"530C3D5A9513CBBA32F33191F12C3A33"
+					"encrypted_size_2"		"2C65B9FB28D4DCCE1D738D305C74039D"
+				}
+			}
+		}
+		"234142"
+		{
+			"name"		"MM - Code"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7604024359222969141"
+			}
+			"maxsize"		"88920994"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"41C63005DFD0420B0E6FC37FC2752C17"
+					"encrypted_size_2"		"7EC1B5ADA2FAEDE1BD5AFAE7750BBC22"
+				}
+				"master_day0_patch"
+				{
+					"encrypted_gid_2"		"B78CC6DBB799DEBDFD738EE4AA129816"
+					"encrypted_size_2"		"3DC8CA96F20A560E2B0EAA7DEC4CDBE7"
+				}
+				"master_day20_patch"
+				{
+					"encrypted_gid_2"		"B28C6695F594579908905BC293A33FC6"
+					"encrypted_size_2"		"585DB1693F85704CE9C30F57A8513D67"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"6C780807EE080B67C73BAC97E60BAE6F"
+					"encrypted_size_2"		"6BAE8FABB1761D41CDCA5EF2E72D692D"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"5FADF62DD93C940163D5FB6E03028D7D"
+					"encrypted_size_2"		"AE345FFF4C95A648D65D18840A834A85"
+				}
+				"master_jpn_day0"
+				{
+					"encrypted_gid_2"		"B59BF8C64022A34B113E040C6575C6B9"
+					"encrypted_size_2"		"D06332A38BD087597564C980AABE5832"
+				}
+				"patch-1008044"
+				{
+					"encrypted_gid_2"		"49DDAB10458D38BAEE60CE3591234224"
+					"encrypted_size_2"		"5FAFBBEE4865729C222743A77E5CDCED"
+				}
+				"patch-1014282"
+				{
+					"encrypted_gid_2"		"760E61B51D9B55A0D1C02055A73877B0"
+					"encrypted_size_2"		"133594DA1B5A335CCEA56667FF711ED3"
+				}
+				"patch-1015900"
+				{
+					"encrypted_gid_2"		"BCC4DC010A1A1C6AABBB794529912168"
+					"encrypted_size_2"		"2E0259A8EA8B0ECB4D804082C9F94D45"
+				}
+				"patch-1020702"
+				{
+					"encrypted_gid_2"		"E37D9AE1CE1F749ED0A2C646F2966D93"
+					"encrypted_size_2"		"5384D2AAFB41EF11B69524C92018D954"
+				}
+				"patch-1021088"
+				{
+					"encrypted_gid_2"		"07F63A5C954F07F0E03FEB540FE8E30C"
+					"encrypted_size_2"		"35108427E1D0C3C231DD7A69DEA5842C"
+				}
+				"patch-1021582"
+				{
+					"encrypted_gid_2"		"687776342761822DDE36FE890AB3669D"
+					"encrypted_size_2"		"EFCC0B2D3F6CAC82B43C5D6ADE948873"
+				}
+				"patch-1022363"
+				{
+					"encrypted_gid_2"		"0209BADA11133F77C48B4FBFDA684353"
+					"encrypted_size_2"		"96EDD0EF2AD64C0886E184904DA65829"
+				}
+				"patch-jpn-1013498"
+				{
+					"encrypted_gid_2"		"ABC6987627BFAB319AC01841504F115F"
+					"encrypted_size_2"		"8642EBBD1C1150E732153A6311106436"
+				}
+				"patch-jpn-1014643"
+				{
+					"encrypted_gid_2"		"7F3290BCC05F111C317A65454131D3C4"
+					"encrypted_size_2"		"85CFE85FB5276A8E22276F5B5B68BBE8"
+				}
+				"patch-jpn-1018343"
+				{
+					"encrypted_gid_2"		"AF76FCA04760560745B1AAD351462272"
+					"encrypted_size_2"		"3BABEE99DCF72B7E49647713DBA8EEB9"
+				}
+				"patch-jpn-1020497"
+				{
+					"encrypted_gid_2"		"DBABA2892E0449CA075100D1AB106E58"
+					"encrypted_size_2"		"1DFE8501CCA78A650335FA8C3646E44E"
+				}
+			}
+		}
+		"234143"
+		{
+			"name"		"MM - Content - Low Violence SKU"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"273984200055107202"
+			}
+			"maxsize"		"34016680336"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"DDF5D97F7A87B7A63DF3B5F86CD86B4F"
+					"encrypted_size_2"		"FE060AE989081729AE9B93D33D0AB6E3"
+				}
+				"master_day0_patch"
+				{
+					"encrypted_gid_2"		"3862830050FD762F844858F75A726048"
+					"encrypted_size_2"		"C85D4D26146DC75145FB91388186BBCF"
+				}
+				"master_day20_patch"
+				{
+					"encrypted_gid_2"		"08E4556B968CF7A7030629956AFC878A"
+					"encrypted_size_2"		"034FB70D116B4E9EFAAD630BB6FF082A"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"84A3933AF334A0C68EA608A152B46773"
+					"encrypted_size_2"		"DEAF6E407E108DB7BC7835A8573A2DF7"
+				}
+				"master_jpn_day0"
+				{
+					"encrypted_gid_2"		"1DE9A2F7ED5FF510830E1B877383B412"
+					"encrypted_size_2"		"28E7443BC9AFAC18781E20D8A793BF74"
+				}
+				"patch-1008044"
+				{
+					"encrypted_gid_2"		"ACDEB6A1EB1BB84809EFE61C9ACA5507"
+					"encrypted_size_2"		"42CD720B4172DD48291C7D4E967EB84B"
+				}
+				"patch-1014282"
+				{
+					"encrypted_gid_2"		"EEBB471830D972725083F2E1D3ED92AE"
+					"encrypted_size_2"		"5BD4819626F96943739973A52FFEC9B1"
+				}
+				"patch-1015900"
+				{
+					"encrypted_gid_2"		"5FA7476C6A129E9995FBA7E631364430"
+					"encrypted_size_2"		"05294DCD9C90A542C7136A1F82438865"
+				}
+				"patch-1020702"
+				{
+					"encrypted_gid_2"		"352A107D0F2319D0F65C884968ABDD76"
+					"encrypted_size_2"		"DBE9B7715C9A0CFD038B9F65A5B5679B"
+				}
+				"patch-1021088"
+				{
+					"encrypted_gid_2"		"191C7D220AA9AE5F237263FE81D09125"
+					"encrypted_size_2"		"8063AEB48F690DC181F000BE6BC43896"
+				}
+				"patch-1021582"
+				{
+					"encrypted_gid_2"		"61AF1E4D2B217F187F6B2825D92FF13E"
+					"encrypted_size_2"		"28269B1346A9BBFAA78F4FAC1AAEE779"
+				}
+				"patch-jpn-1013498"
+				{
+					"encrypted_gid_2"		"7547C90AC57346F0DC51E4E95E2A9B17"
+					"encrypted_size_2"		"E410EFFF06D071B7FF7A51C244E66CBC"
+				}
+				"patch-jpn-1014643"
+				{
+					"encrypted_gid_2"		"CFB67ABD0F4D93455B092C57F6B9AA48"
+					"encrypted_size_2"		"BB05DAE80A5982ECDF08F36EAD6834DD"
+				}
+				"patch-jpn-1018343"
+				{
+					"encrypted_gid_2"		"D04172DB3B38AEF68AE6F53DD4A369B7"
+					"encrypted_size_2"		"CDCB146CD7CD0B1BDC878DBF92F89891"
+				}
+				"patch-jpn-1020497"
+				{
+					"encrypted_gid_2"		"825FB9B2958C1356AA378DE8FD18D869"
+					"encrypted_size_2"		"AC22C39FDC8176227101125EDEAE2C77"
+				}
+			}
+		}
+		"234144"
+		{
+			"name"		"MM - Code - Low Violence SKU"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7800851279563387786"
+			}
+			"maxsize"		"88724386"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"217F79374EBE903FECD60B1AB320E1B4"
+					"encrypted_size_2"		"1A29F04AA156D45B434A7B703CA868C7"
+				}
+				"master_day0_patch"
+				{
+					"encrypted_gid_2"		"B1D5111A698166E7430DED633C00E8FC"
+					"encrypted_size_2"		"A454ADB6CF49B601B043DE99FA51A7A6"
+				}
+				"master_day20_patch"
+				{
+					"encrypted_gid_2"		"39917BDB13DFFA6A6D45E827721CB49D"
+					"encrypted_size_2"		"15BB95F6A29BB688E5BF75A10AD1A132"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"6229367CAD9D6AF8953E9885547A9C06"
+					"encrypted_size_2"		"1FBCE76504D1444EE2B6163311EB60C3"
+				}
+				"master_jpn_day0"
+				{
+					"encrypted_gid_2"		"06ABB0FD77F63CBC72AE85E21C30EB4D"
+					"encrypted_size_2"		"47E9AB29DF92A120EF5D1FFAF9A64D6F"
+				}
+				"patch-1008044"
+				{
+					"encrypted_gid_2"		"DA300C175175210612B004D42CED1C67"
+					"encrypted_size_2"		"D1E84E722E0CE5231B644A6BB929C9F3"
+				}
+				"patch-1014282"
+				{
+					"encrypted_gid_2"		"637950C916B5AAAA5B12A4BA1BF468C6"
+					"encrypted_size_2"		"788F0C628F38597228367239461FDB1D"
+				}
+				"patch-1015900"
+				{
+					"encrypted_gid_2"		"C6FB43F92E86B5B2740CD63E500EE5B4"
+					"encrypted_size_2"		"80B8BC272C64F1E123CF9138E2F58CF8"
+				}
+				"patch-1020702"
+				{
+					"encrypted_gid_2"		"DF329AA8BFF100E3AFE24B9BCD4EC622"
+					"encrypted_size_2"		"89FA530B1E4F1F0EEBC962D10BE8C4AA"
+				}
+				"patch-1021088"
+				{
+					"encrypted_gid_2"		"E2057544ADD164DF0CA500A9D4E846B7"
+					"encrypted_size_2"		"DB757A2B8A10C83E8958DAB9D1A5525B"
+				}
+				"patch-1021582"
+				{
+					"encrypted_gid_2"		"7BBC83B4E30B2BB8840D4C380EA3E0A2"
+					"encrypted_size_2"		"02BFB9AC06F6487B43C0223E6C3FD874"
+				}
+				"patch-1022363"
+				{
+					"encrypted_gid_2"		"87EDFBB108B603024D20688983C3C3F7"
+					"encrypted_size_2"		"C2E489C8637AB61D58EB898378EA2FE6"
+				}
+				"patch-jpn-1013498"
+				{
+					"encrypted_gid_2"		"5247B406C5DA670E3A9AEA854F57558B"
+					"encrypted_size_2"		"E7143FFF50DFC9808FA0C0B4DD0A98FF"
+				}
+				"patch-jpn-1014643"
+				{
+					"encrypted_gid_2"		"4FBBA963BED9A219FAB16C4D3FC10C55"
+					"encrypted_size_2"		"7E390F3929077A1A82045D9889361328"
+				}
+				"patch-jpn-1018343"
+				{
+					"encrypted_gid_2"		"EE249DC20D27EAD7F7BDC28049CDEEC4"
+					"encrypted_size_2"		"A4BA2E37206BD7A91DD3CE5D182A4A38"
+				}
+				"patch-jpn-1020497"
+				{
+					"encrypted_gid_2"		"3A7836B6FC87182ACB544B1844D5B337"
+					"encrypted_size_2"		"F18ED32D6B927B0971E6E3FA39966912"
+				}
+			}
+		}
+		"373551"
+		{
+			"name"		"Max Max - Rockstar Car (373551) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"820079142899659198"
+			}
+			"maxsize"		"37724312"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"54788FD266AE1C1CB59EDE134702E282"
+					"encrypted_size_2"		"563C3ECBA404EBF9834DCE96D7966292"
+				}
+				"master_day0_patch"
+				{
+					"encrypted_gid_2"		"240B50A249D315903C493B526BA583F6"
+					"encrypted_size_2"		"22EB7CDDEB13A8872237FB425067740B"
+				}
+				"master_day20_patch"
+				{
+					"encrypted_gid_2"		"72D3D0DB6BD221BAD0938AF431C1EEBF"
+					"encrypted_size_2"		"2C4B68FDBEFAEE1C581ED787C8B89ECD"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"4B61E1CE1536472B7C810FB0C6B28A79"
+					"encrypted_size_2"		"6037580720F3F37E1284E4B44243B43D"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"E1723BEB283CC8F127F9F46B0AABD276"
+					"encrypted_size_2"		"041CF57CE112B6CB7669A2595EB80C93"
+				}
+				"master_jpn_day0"
+				{
+					"encrypted_gid_2"		"DBD5E215F0B5B981CD64E4F9A0E50307"
+					"encrypted_size_2"		"A94FD7DD7F7BCA547578D369A975C931"
+				}
+				"patch-1008044"
+				{
+					"encrypted_gid_2"		"14E902BA4656482464497A2AA68FC34D"
+					"encrypted_size_2"		"80FCEB10D08B0FE91A28D8383D72E650"
+				}
+				"patch-1014282"
+				{
+					"encrypted_gid_2"		"108AD7C52038EA532060D62ABCA6A4BB"
+					"encrypted_size_2"		"49F986BC1A95E37C495BBC5933153740"
+				}
+				"patch-1015900"
+				{
+					"encrypted_gid_2"		"CC54FE27E498CCD7888665A505DE413F"
+					"encrypted_size_2"		"8C62A80FFEE35246369605D4A715F421"
+				}
+				"patch-1020702"
+				{
+					"encrypted_gid_2"		"8C28F1A78D07AF8BF9841201382B9BA0"
+					"encrypted_size_2"		"3A5FAF69F2F2DF0C44D648D8A1E78121"
+				}
+				"patch-jpn-1013498"
+				{
+					"encrypted_gid_2"		"6AE249163B985CE33D270744AE1BDA91"
+					"encrypted_size_2"		"E273BD0DBEEA7F75BFF23299192D7016"
+				}
+				"patch-jpn-1014643"
+				{
+					"encrypted_gid_2"		"C1989CD23C85C8537B56CB267AD8884E"
+					"encrypted_size_2"		"FAFB9571C5C0473DC6AE5F0A68F9EF2D"
+				}
+				"patch-jpn-1018343"
+				{
+					"encrypted_gid_2"		"3EC22D13737E5266A734A18BFAD65B25"
+					"encrypted_size_2"		"E3FA421A36EAFD1B909DF091BF51645B"
+				}
+				"patch-jpn-1020497"
+				{
+					"encrypted_gid_2"		"CBE45C4A8EB049A616F5D7524EC44589"
+					"encrypted_size_2"		"DD2AE1A5C52E0303B60FE36A91BC761F"
+				}
+			}
+			"dlcappid"		"373551"
+		}
+		"373550"
+		{
+			"name"		"Max Max - The Ripper (373550) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4932364438208165087"
+			}
+			"maxsize"		"183379728"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"59A49A85D9034C765344C75F78AF6965"
+					"encrypted_size_2"		"372289C22BACF0CB5DA6F4A7FF706E94"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"B0256AEFDB243D5540331B1D777BB54C"
+					"encrypted_size_2"		"D73860414BFB7268A463BF66A10AC1A0"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"3F4CD7F31D9EB0621D94F911FD6CB273"
+					"encrypted_size_2"		"3028503025DA03C4AA8A2AC32609B8E8"
+				}
+			}
+			"dlcappid"		"373550"
+		}
+		"374352"
+		{
+			"name"		"Mad Max - Retail Hood Ornament 2 (374352) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"989318466771708296"
+			}
+			"maxsize"		"1060992"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"290BCA65E5C67FC934FC53AEEC68509D"
+					"encrypted_size_2"		"24F5041F4EC8C1B5709FBF6B33C9E7AC"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"F59F46E97D0FF3F95DB810C436F93D8F"
+					"encrypted_size_2"		"C78576F531AE18125F287A1E2D2DBEBA"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"E6A8D8C227510B52E3C679ADFC5D7AB7"
+					"encrypted_size_2"		"03CBD054FD56454A4E577CC1BFB9425C"
+				}
+			}
+			"dlcappid"		"374352"
+		}
+		"374353"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 1 (374353) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"726284545439160442"
+			}
+			"maxsize"		"1097856"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"A066352030AFB467D94D4B4907B80F1F"
+					"encrypted_size_2"		"577B965B08522D3C48F850CA9359B3FA"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"AB4714B137B9406380244DA5D05C39D9"
+					"encrypted_size_2"		"3DD013F6BB2D3FCFEA3623687E77761D"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"7FCDDC3AC8A4F7046D0D55D2D44ED584"
+					"encrypted_size_2"		"8484FFA89A38BDFA55A64F3CFA36E96A"
+				}
+			}
+			"dlcappid"		"374353"
+		}
+		"374354"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 2 (374354) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"177057563991069594"
+			}
+			"maxsize"		"1116288"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"31F68DB4B7D71A9D636BF7DF23E1FBBF"
+					"encrypted_size_2"		"9E7D1CF58BD7F037ED82179544861A83"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"E709D30935077F227B919D6CBC1DAE81"
+					"encrypted_size_2"		"EC2ACAF95A0B2EA5510B609C2CA10CC6"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"6D56944ABB5CC496E9EF8CE4CC3B9062"
+					"encrypted_size_2"		"9B9E7C61D782511A21C7FC7F7FAA6E9D"
+				}
+			}
+			"dlcappid"		"374354"
+		}
+		"374355"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 3 (374355) Depot"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"700117122979318819"
+			}
+			"maxsize"		"960640"
+			"encryptedmanifests"
+			{
+				"ihv_world"
+				{
+					"encrypted_gid_2"		"B329F19FBCAA634EFA580C9C570CFDFC"
+					"encrypted_size_2"		"7B72B7B362F3FEDBAE62A5C7F78A7864"
+				}
+				"master_disc"
+				{
+					"encrypted_gid_2"		"72672CBA48C9C2F97B844683EB2E9635"
+					"encrypted_size_2"		"F46664778FF62E26FA3C32B3DEBD3195"
+				}
+				"master_jpn_base"
+				{
+					"encrypted_gid_2"		"B7B515C2DBA09D695D979A5B3C74A3CD"
+					"encrypted_size_2"		"D8AD3795A8411F76E2B9775EE813D526"
+				}
+			}
+			"dlcappid"		"374355"
+		}
+		"234145"
+		{
+			"name"		"MM - Content: Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6871763131342962475"
+				"local"		"4805684216507492954"
+			}
+			"maxsize"		"34244343851"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"990F1AD01AFBB6E5121ED451D0372039"
+					"encrypted_size_2"		"EB28768960E55107996862F4A0D8DA71"
+				}
+			}
+		}
+		"234146"
+		{
+			"name"		"MM - Content: Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1437160614351829967"
+				"local"		"8834124170218194768"
+				"vulkan_beta"		"5400569535504258405"
+			}
+			"maxsize"		"300052410"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"50E824D8D01ECD98EDEEEDE4D1FE1BE6"
+					"encrypted_size_2"		"C476EB1279FC2604D369987084F1146B"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"03FC1623AF2F4C9EEAAB25374DA1AB12"
+					"encrypted_size_2"		"FD79EB5D1C10B402AA5EA4E1B4E1051C"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"691EB538B257D982A4F736DB27E9F9A3"
+					"encrypted_size_2"		"70A0E674C500EBCA92B5E40C3827511C"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"75A9A2556A747BEBDB56B0B1C08BBDA4"
+					"encrypted_size_2"		"9FB46A451BB4F666304529AB15441DEC"
+				}
+			}
+		}
+		"234147"
+		{
+			"name"		"MM - Code: Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4452918123786175018"
+				"local"		"755052348620430780"
+			}
+			"maxsize"		"125308780"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"ADF93A1E17B02009FDCADE2DFC2DBC91"
+					"encrypted_size_2"		"9F263208A580D5DFF81656AEC6043F22"
+				}
+			}
+		}
+		"234148"
+		{
+			"name"		"MM - Code: Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4911387789381725297"
+				"local"		"128458967428436103"
+				"vulkan_beta"		"128458967428436103"
+			}
+			"maxsize"		"34244343851"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"7896D9927E2744173FBCA0D9E78BB01F"
+					"encrypted_size_2"		"0FF3C3F2210864DC2C4FCEBCD10D44DF"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"248678DADE88EADB38FE88DDC080F16A"
+					"encrypted_size_2"		"A3D4EF260E370BBF128CF6670ACF5FE1"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"B3186B2E6A3B3DB81994AA94B57521B5"
+					"encrypted_size_2"		"490D42CFD90D8A9E317316810D258F91"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"E1B4BF8F83E8D599856059DC6FE01846"
+					"encrypted_size_2"		"EB28768960E55107996862F4A0D8DA71"
+				}
+			}
+		}
+		"234149"
+		{
+			"name"		"MM - Content - Low Violence SKU: Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1494182794899431977"
+				"local"		"189096715133549725"
+			}
+			"maxsize"		"34132032315"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"FCE0DE869EE7AA1D46007F6AC0972EA2"
+					"encrypted_size_2"		"C1E4140D1316A1315FA3C5C66CE4AB36"
+				}
+			}
+		}
+		"234150"
+		{
+			"name"		"MM - Content - Low Violence SKU: Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6730309304453428738"
+				"local"		"251806874830127053"
+			}
+			"maxsize"		"34132032315"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"C538BD45E95B2FCE6005727EACC29797"
+					"encrypted_size_2"		"C1E4140D1316A1315FA3C5C66CE4AB36"
+				}
+			}
+		}
+		"234151"
+		{
+			"name"		"MM - Code - Low Violence SKU: Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6503282405136282466"
+				"local"		"3002244746234378502"
+			}
+			"maxsize"		"85736284"
+		}
+		"234152"
+		{
+			"name"		"MM - Code - Low Violence SKU: Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"113121977366949196"
+				"local"		"2037351635636971880"
+			}
+			"maxsize"		"300323923"
+		}
+		"234153"
+		{
+			"name"		"Mad Max - Rockstar Car Depot: Mac"
+			"dlcappid"		"373551"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5851192728361296415"
+				"local"		"22362268789753319"
+			}
+			"maxsize"		"37724312"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"8C7364C982D94050195949BD00BF1895"
+					"encrypted_size_2"		"EC185E5A0EB6FB46AC801E892BB54EC5"
+				}
+			}
+		}
+		"234154"
+		{
+			"name"		"Mad Max - Rockstar Car Depot: Linux"
+			"dlcappid"		"373551"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"110331523549270106"
+			}
+			"maxsize"		"37724312"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"9C1D3D834127AB85D9ADDB634FDC7CFC"
+					"encrypted_size_2"		"EC185E5A0EB6FB46AC801E892BB54EC5"
+				}
+			}
+		}
+		"234155"
+		{
+			"name"		"Mad Max - The Ripper Depot: Mac"
+			"dlcappid"		"373550"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6821441133654417075"
+				"local"		"284832138729971475"
+			}
+			"maxsize"		"183379728"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"FD2B741810488D9CF2D45DE0097F219F"
+					"encrypted_size_2"		"BB43B88F91375C4ACF65383F8B07F401"
+				}
+			}
+		}
+		"234156"
+		{
+			"name"		"Mad Max - The Ripper Depot: Linux"
+			"dlcappid"		"373550"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3595695641508003121"
+				"local"		"98108825100258606"
+				"vulkan_beta"		"98108825100258606"
+			}
+			"maxsize"		"183379728"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"647DB018D91A5F886D6CB2F0F0A76FB0"
+					"encrypted_size_2"		"0FE982138F4628D93E4EE2AAEA408FC2"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"9E0C0D05145C4485C9E68BAA1B0B1381"
+					"encrypted_size_2"		"A5553221F1D3483257267D408D5C6FDA"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"2AB967CB7D1EAC1C641B328DBCCEA865"
+					"encrypted_size_2"		"9614BCF9A7B5275B657C426440749981"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"973B39A26D3916C1AF185FB36F0FB89B"
+					"encrypted_size_2"		"BB43B88F91375C4ACF65383F8B07F401"
+				}
+			}
+		}
+		"234157"
+		{
+			"name"		"Mad Max - Retail Hood Ornament 2 Depot: Mac"
+			"dlcappid"		"374352"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4297529729663917397"
+				"local"		"16981328593629160"
+			}
+			"maxsize"		"1060992"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"CA189B657877F3CDCBF30A3E9BAA4388"
+					"encrypted_size_2"		"B2606C0A3043F05B593BA5D46EC2A5D2"
+				}
+			}
+		}
+		"234158"
+		{
+			"name"		"Mad Max - Retail Hood Ornament 2 Depot: Linux"
+			"dlcappid"		"374352"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8628164927010861969"
+				"local"		"347856540917567869"
+				"vulkan_beta"		"347856540917567869"
+			}
+			"maxsize"		"1060992"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"0AC107A446BE29372A8560D313B1AC7C"
+					"encrypted_size_2"		"60369C631DE8B1CC66044E8A20A3D7CD"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"F08DE54ED8D5811B2310C7D317A3CB91"
+					"encrypted_size_2"		"06176A4EC7FDE8FA2C87B7BDDC9BF4BB"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"FD438BD67D4A088AE6BC24C6E2135FA0"
+					"encrypted_size_2"		"DDD0C656D0FF8D39A2EF83762381E236"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"74E86AB3280B5B5B61A61BB8EA6696E4"
+					"encrypted_size_2"		"B2606C0A3043F05B593BA5D46EC2A5D2"
+				}
+			}
+		}
+		"234159"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 1 Depot: Mac"
+			"dlcappid"		"374353"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8469086995851582363"
+				"local"		"47258134476728760"
+			}
+			"maxsize"		"1097856"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"B9D73F6FF6038695E72894CA1CF14465"
+					"encrypted_size_2"		"8D3A604FB29C1E59A8A43F6964F9215F"
+				}
+			}
+		}
+		"373552"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 1 Depot: Linux"
+			"dlcappid"		"374353"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1857001457470141853"
+				"local"		"123331325485737315"
+				"vulkan_beta"		"123331325485737315"
+			}
+			"maxsize"		"1097856"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"28F0F75DE394C6EFCF80EC94EE7EC2EF"
+					"encrypted_size_2"		"B844A8995CFAB393DC94BC02692AD9BB"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"98E96150CAADC1B0078E695DCF5A13D3"
+					"encrypted_size_2"		"A17ABFA244B18393C19285179DC9A449"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"EDA932448132E2AF5287A7828A1CB766"
+					"encrypted_size_2"		"6BD68B399F19D81C08AF752ED3A238CB"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"A0218CA71006AADC07AD02ED99398C70"
+					"encrypted_size_2"		"8D3A604FB29C1E59A8A43F6964F9215F"
+				}
+			}
+		}
+		"373553"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 2 Depot: Mac"
+			"dlcappid"		"374354"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5140022686851769258"
+				"local"		"14949277848910117"
+			}
+			"maxsize"		"1116288"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"AC94F9A571EF19275D10825D1F770896"
+					"encrypted_size_2"		"A2F200EB9E65BF62416AEB7BF6D2D3E9"
+				}
+			}
+		}
+		"373554"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 2 Depot: Linux"
+			"dlcappid"		"374354"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1798513877711301960"
+				"local"		"39621013377778661"
+				"vulkan_beta"		"39621013377778661"
+			}
+			"maxsize"		"1116288"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"0370BFCBD42AC1BF1D049449C428A7F9"
+					"encrypted_size_2"		"50ABE3781F5ECD2DCC51EBE38086C8A3"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"A998B9F9A75091B2D6F8AB49B7F83BE6"
+					"encrypted_size_2"		"78E6AC2D5C3B5DE860FE5BF466EAE4AC"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"481C7CDBB654AB96EB03B499001E8DF9"
+					"encrypted_size_2"		"0BDE5341BF4B86222C61850CA00BFB71"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"CF43862E8D4E7F4125B4AF77139F7571"
+					"encrypted_size_2"		"A2F200EB9E65BF62416AEB7BF6D2D3E9"
+				}
+			}
+		}
+		"373555"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 3 Depot: Mac"
+			"dlcappid"		"374355"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1483598444702058493"
+				"local"		"23693863909871722"
+			}
+			"maxsize"		"960640"
+			"encryptedmanifests"
+			{
+				"master_patch"
+				{
+					"encrypted_gid_2"		"2A0B122A3C4641ADE49E1F17D2A80774"
+					"encrypted_size_2"		"94AEC959086B47EABDC41B8DCA850FEB"
+				}
+			}
+		}
+		"373556"
+		{
+			"name"		"Mad Max - Rockstar Hood Ornament 3 Depot: Linux"
+			"dlcappid"		"374355"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7674523985208991656"
+				"local"		"48393311324277055"
+				"vulkan_beta"		"48393311324277055"
+			}
+			"maxsize"		"960640"
+			"encryptedmanifests"
+			{
+				"domesticated_private_beta"
+				{
+					"encrypted_gid_2"		"C1A371B7374E563AB663EEE92BE566E7"
+					"encrypted_size_2"		"DAF470AB637FFDF7ABF767FCB21A8A94"
+				}
+				"domesticated_qa_branch_a"
+				{
+					"encrypted_gid_2"		"142C23BE9B4448059ABA3B4EDE99775F"
+					"encrypted_size_2"		"A1BAB185EADE29783F8ED79694AB8DE1"
+				}
+				"domesticated_qa_branch_b"
+				{
+					"encrypted_gid_2"		"17D2697C30DCFCBECD30B0D2FA3C5ABB"
+					"encrypted_size_2"		"7293D623224362F2799C85B7DD03E577"
+				}
+				"master_patch"
+				{
+					"encrypted_gid_2"		"C6E569B52EAACA0D7AADC5EAF91BD5F7"
+					"encrypted_size_2"		"94AEC959086B47EABDC41B8DCA850FEB"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1398848"
+				"timeupdated"		"1476952590"
+			}
+			"domesticated_private_beta"
+			{
+				"buildid"		"2865024"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1529070163"
+			}
+			"domesticated_qa_branch_a"
+			{
+				"buildid"		"3458021"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547136480"
+			}
+			"domesticated_qa_branch_b"
+			{
+				"buildid"		"2864561"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1529060938"
+			}
+			"ihv_world"
+			{
+				"buildid"		"748096"
+				"description"		"IHV (world)"
+				"pwdrequired"		"1"
+			}
+			"local"
+			{
+				"buildid"		"1717921"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1490636040"
+			}
+			"master_day0_patch"
+			{
+				"buildid"		"752527"
+				"description"		"Master PC Day0 Patch Build"
+				"pwdrequired"		"1"
+			}
+			"master_day20_patch"
+			{
+				"buildid"		"783136"
+				"description"		"Master Day20 Patch Build"
+				"pwdrequired"		"1"
+			}
+			"master_disc"
+			{
+				"buildid"		"706149"
+				"description"		"Master PC Disc (RC2-706149)"
+				"pwdrequired"		"1"
+			}
+			"master_jpn_base"
+			{
+				"buildid"		"715927"
+				"description"		"Master PC JPN Low Vio SKU Base Game"
+				"pwdrequired"		"1"
+			}
+			"master_jpn_day0"
+			{
+				"buildid"		"777012"
+				"description"		"Master PC Day0 JPN Low Vio Patch"
+				"pwdrequired"		"1"
+			}
+			"master_patch"
+			{
+				"buildid"		"1282146"
+				"description"		"WIP Rolling Patch Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1471346171"
+			}
+			"patch-1008044"
+			{
+				"buildid"		"752527"
+				"description"		"Day0 Preload Patch Build (DND)"
+				"pwdrequired"		"1"
+			}
+			"patch-1014282"
+			{
+				"buildid"		"777012"
+				"description"		"Day20 Console Delivery (Final)"
+				"pwdrequired"		"1"
+			}
+			"patch-1015900"
+			{
+				"buildid"		"783136"
+				"description"		"Day20 Steam Final"
+				"pwdrequired"		"1"
+			}
+			"patch-1020702"
+			{
+				"buildid"		"806455"
+				"description"		"Day40 Interim 5/Day20 JPN Interim 5"
+				"pwdrequired"		"1"
+			}
+			"patch-1021088"
+			{
+				"buildid"		"808491"
+				"description"		"Day40 Final/Day20 JPN Final"
+				"pwdrequired"		"1"
+			}
+			"patch-1021582"
+			{
+				"buildid"		"812634"
+				"description"		"Day40/Day20 JPN Updated Final"
+				"pwdrequired"		"1"
+			}
+			"patch-1022363"
+			{
+				"buildid"		"816844"
+				"description"		"Day40/Day20 JPN RC4 Build"
+				"pwdrequired"		"1"
+			}
+			"patch-1024069"
+			{
+				"buildid"		"826330"
+				"description"		"Day40/Day20 JPN Updated Denuvo"
+				"pwdrequired"		"1"
+			}
+			"patch-jpn-1013498"
+			{
+				"buildid"		"771302"
+				"description"		"JPN Day0 Final"
+				"pwdrequired"		"1"
+			}
+			"patch-jpn-1014643"
+			{
+				"buildid"		"777012"
+				"description"		"JPN Day0 RC1"
+				"pwdrequired"		"1"
+			}
+			"patch-jpn-1018343"
+			{
+				"buildid"		"796906"
+				"description"		"JPN Day20 Interim 1"
+				"pwdrequired"		"1"
+			}
+			"patch-jpn-1020497"
+			{
+				"buildid"		"805028"
+				"description"		"Day20 JPN Interim 4"
+				"pwdrequired"		"1"
+			}
+			"vulkan_beta"
+			{
+				"buildid"		"1776864"
+				"description"		"Experimental Update"
+				"timeupdated"		"1493030983"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"41943040"
+		"maxnumfiles"		"50"
+	}
+}
+ 

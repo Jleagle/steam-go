@@ -1,0 +1,508 @@
+"appinfo"
+{
+	"appid"		"332570"
+	"common"
+	{
+		"name"		"Amazing Frog?"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"icon"		"884453378622673476f5ad72cb129590a2502318"
+		"logo"		"d762acf054dfdc3734141d536066c643bf072bec"
+		"logo_small"		"d762acf054dfdc3734141d536066c643bf072bec_thumb"
+		"clienticon"		"eacf2674142e346b070d9cdb76456edae1d37a03"
+		"clienttga"		"63828526786a8a7dd638ad81d004c7b7ffe08ab2"
+		"clienticns"		"1e4c8de8485af13e42bf81837d9d1c984347e011"
+		"releasestate"		"released"
+		"metacritic_name"		"Amazing Frog?"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"31"
+				"height_pct"		"39"
+			}
+		}
+		"store_asset_mtime"		"1552000951"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fayju"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fayju"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Amazing Frog?"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_39"		"1"
+			"category_9"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1416470400"
+		"steam_release_date"		"1416591146"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"332570"
+		"store_tags"
+		{
+			"0"		"4136"
+			"1"		"1695"
+			"2"		"3859"
+			"3"		"3810"
+			"4"		"21"
+			"5"		"493"
+			"6"		"1719"
+			"7"		"492"
+			"8"		"3968"
+			"9"		"1685"
+			"10"		"3841"
+			"11"		"1697"
+			"12"		"4036"
+			"13"		"5350"
+			"14"		"10397"
+			"15"		"4182"
+			"16"		"599"
+			"17"		"1774"
+			"18"		"3839"
+			"19"		"21978"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"Amazing Frog"
+		"serverbrowsername"		"Amazing Frog?"
+		"developer"		"Fayju"
+		"publisher"		"Fayju"
+		"homepage"		"http://www.amazingfrog.com"
+		"listofdlc"		"690020"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Amazing Frog"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AmazingFrog.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AmazingFrog.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"AmazingFrog.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"AmazingFrog.x86_64"
+				"description"		"64 bit version"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamvrsupport"		"1"
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"332571"
+		{
+			"name"		"Amazing Frog? Content"
+			"manifests"
+			{
+				"public"		"7236845074675418945"
+				"beta"		"4060409535933515151"
+			}
+			"maxsize"		"14340"
+			"encryptedmanifests"
+			{
+				"secretbeta2016"
+				{
+					"encrypted_gid_2"		"18DC8E91E0F215E32AE59D3C522D0E2A"
+					"encrypted_size_2"		"7390405CD70E8C5FAEE4BFCDE4C2F2AD"
+				}
+				"secretxmasbeta"
+				{
+					"encrypted_gid_2"		"499DE00099BED616F4924FF27BDC03CE"
+					"encrypted_size_2"		"3460250D4E32D6E992E32EA585956E1B"
+				}
+			}
+		}
+		"332572"
+		{
+			"name"		"Amazing Frog? Depot windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7285667325180526283"
+				"beta"		"8926214211288876538"
+				"f0.2.8c_32_bit_version"		"1245411536075249956"
+			}
+			"maxsize"		"2213450575"
+			"encryptedmanifests"
+			{
+				"firebeta"
+				{
+					"encrypted_gid_2"		"BBEB102BFF5C7D369001B91D307B7FE7"
+					"encrypted_size_2"		"92FD41D4D36AFE763AE84AA4206EBBA5"
+				}
+				"leftfield"
+				{
+					"encrypted_gid_2"		"60212C043DD3E6974FCE5AF91D199084"
+					"encrypted_size_2"		"D56117F1477B9390EF7B9A15AC5AAD04"
+				}
+				"santasgrotto_beta_2018"
+				{
+					"encrypted_gid_2"		"21D7F4F778CD87FA6A623D537568F6D1"
+					"encrypted_size_2"		"429D374F10F8500DA8FBC01B96F56099"
+				}
+				"sataninnarnia"
+				{
+					"encrypted_gid_2"		"849F935F9ACB148C8CBC2F72A6C9054F"
+					"encrypted_size_2"		"7BE9C1579E92498A616E989FD9D48512"
+				}
+				"secretbeta2016"
+				{
+					"encrypted_gid_2"		"04159EF3D47A67FEE0377E2CB1A4F819"
+					"encrypted_size_2"		"D23DFC5CC46E9BECBD6F019E79922E0C"
+				}
+				"secretxmasbeta"
+				{
+					"encrypted_gid_2"		"0D07C586EEDE7619423654F9E39BE479"
+					"encrypted_size_2"		"7093A09FE8CB1D179A9F88A714D5839B"
+				}
+				"the_mystery_halloween_box"
+				{
+					"encrypted_gid_2"		"895F30D4B539C3AF2ED80621E3D7C3A6"
+					"encrypted_size_2"		"9D74B24F8A22B84EEBB75A3809FFE902"
+				}
+				"v2_xmas_beta_2017"
+				{
+					"encrypted_gid_2"		"74BD613F95BC0B540170F1EE5770CB9D"
+					"encrypted_size_2"		"6E54D9539C8EB0C7DA6D975B79D0F387"
+				}
+			}
+		}
+		"332573"
+		{
+			"name"		"Amazing Frog? Depot osx"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3622934085313601677"
+				"beta"		"2973282012253092801"
+				"f0.2.8c_32_bit_version"		"4702621621398919517"
+			}
+			"maxsize"		"2194389352"
+			"encryptedmanifests"
+			{
+				"firebeta"
+				{
+					"encrypted_gid_2"		"53D0D057BF2EA1D6EC817AF6F739625D"
+					"encrypted_size_2"		"CEBD910311A511EEB9188B844E1785F7"
+				}
+				"leftfield"
+				{
+					"encrypted_gid_2"		"3AAEF98849F33249C552FCE4D06F9A0F"
+					"encrypted_size_2"		"42AB574A1EABA404DFC132EAF60DB974"
+				}
+				"santasgrotto_beta_2018"
+				{
+					"encrypted_gid_2"		"648681AA5D2A4F35D2626B4CFCEB7B6C"
+					"encrypted_size_2"		"1062E13CC2EA780BCF9F8F90D8A6A766"
+				}
+				"sataninnarnia"
+				{
+					"encrypted_gid_2"		"C0DE5405CD9DA5722F8769378314655E"
+					"encrypted_size_2"		"8B2EE154E258D5F322E8846503849160"
+				}
+				"secretbeta2016"
+				{
+					"encrypted_gid_2"		"2084937C0E47B67CC982C04062609222"
+					"encrypted_size_2"		"38EC114D0422279C97BF4543E0204D85"
+				}
+				"secretxmasbeta"
+				{
+					"encrypted_gid_2"		"3E5DDB6606D06A9E7CF95B9E7EB9854E"
+					"encrypted_size_2"		"7889C703095BCE9D4DB3C97D03C5FE6D"
+				}
+				"the_mystery_halloween_box"
+				{
+					"encrypted_gid_2"		"69FFA5FEEAF2DBCB285B5DE23F23B899"
+					"encrypted_size_2"		"7AEA75F4737AEB68D36CB6729958F5C5"
+				}
+				"v2_xmas_beta_2017"
+				{
+					"encrypted_gid_2"		"426FD848956E37821B7C0565E9508DE5"
+					"encrypted_size_2"		"BD3CE2FC600202411E807514175D0B6A"
+				}
+			}
+		}
+		"332574"
+		{
+			"name"		"Amazing Frog? Depot Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6963662002311681278"
+				"beta"		"1016391929389566316"
+				"f0.2.8c_32_bit_version"		"5995677021163931864"
+			}
+			"maxsize"		"2216077713"
+			"encryptedmanifests"
+			{
+				"firebeta"
+				{
+					"encrypted_gid_2"		"F9229C485CA873E71EB8F96211A1FB35"
+					"encrypted_size_2"		"65877BE4D7CB0D709660B45A0E442558"
+				}
+				"leftfield"
+				{
+					"encrypted_gid_2"		"23F8A5A72432C997935014684DF85027"
+					"encrypted_size_2"		"2DE529F3EAB81FFFE1B7B24AB624194B"
+				}
+				"santasgrotto_beta_2018"
+				{
+					"encrypted_gid_2"		"2109429DF01CD81131437BF855FF6563"
+					"encrypted_size_2"		"3408D5EDC9DCD0F8975CA398D156972D"
+				}
+				"sataninnarnia"
+				{
+					"encrypted_gid_2"		"AADF0558FBE412E6BEF25BD873AFAB1B"
+					"encrypted_size_2"		"DBFB62D83D9311835B0698DC7459952B"
+				}
+				"secretbeta2016"
+				{
+					"encrypted_gid_2"		"8F7B5EDE6DA4359BB9AF4DF9320C98D5"
+					"encrypted_size_2"		"1B10D1927DD381AD6DACB4F6C3978F86"
+				}
+				"secretxmasbeta"
+				{
+					"encrypted_gid_2"		"ABCDC01AE548D8F58EE4703AA19896A2"
+					"encrypted_size_2"		"4FC387D26E7170477E5E6A5AF6A70AD8"
+				}
+				"the_mystery_halloween_box"
+				{
+					"encrypted_gid_2"		"1840BB267E7B661FEF4F22004096B9D1"
+					"encrypted_size_2"		"3EE64E787945EC3A9D368C46810D1DB6"
+				}
+				"v2_xmas_beta_2017"
+				{
+					"encrypted_gid_2"		"C0E8337C3CF1DFAA9974A52041B0D1AF"
+					"encrypted_size_2"		"8A90A9B66808773E79423DB9E1F27976"
+				}
+			}
+		}
+		"332575"
+		{
+			"name"		"Amazing Frog? Depot Windows 32 bit"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"		"1108899917136111391"
+				"f0.2.8c_32_bit_version"		"1863551851349687643"
+			}
+			"maxsize"		"2209473871"
+			"encryptedmanifests"
+			{
+				"firebeta"
+				{
+					"encrypted_gid_2"		"5ABE3C88787802F80928FAA29D95C6DC"
+					"encrypted_size_2"		"AFE0A9B0DD701B73BAB6D23A0A559F6A"
+				}
+				"leftfield"
+				{
+					"encrypted_gid_2"		"8DECE908146E48EDAD1CBA43B3A90CBD"
+					"encrypted_size_2"		"F977E0BF8916DE24B7BAF9F0771020FF"
+				}
+				"santasgrotto_beta_2018"
+				{
+					"encrypted_gid_2"		"F706F80A51475B6636469F59BB5ECC8F"
+					"encrypted_size_2"		"BA2D41EDA6F18783AEADFE6B6978D120"
+				}
+				"sataninnarnia"
+				{
+					"encrypted_gid_2"		"92D1CD773C4F8BE6E0D29AFED046155A"
+					"encrypted_size_2"		"B146A575B37FC11630662BBDC1760146"
+				}
+				"the_mystery_halloween_box"
+				{
+					"encrypted_gid_2"		"8D4E26282FB7F95CA8D973A20BB20988"
+					"encrypted_size_2"		"D7AFCEFEF00DDEAE2E0F3704871F8636"
+				}
+				"v2_xmas_beta_2017"
+				{
+					"encrypted_gid_2"		"302CBAC075690E9C6CFF4EA5C8103642"
+					"encrypted_size_2"		"6ADF783C598713B58AED3838114F4B63"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3652557"
+				"timeupdated"		"1552759120"
+			}
+			"beta"
+			{
+				"buildid"		"1539846"
+				"description"		"Preview"
+				"timeupdated"		"1482694228"
+			}
+			"f0.2.8c_32_bit_version"
+			{
+				"buildid"		"1848092"
+				"description"		"f0.2.8e 32 bit version"
+				"timeupdated"		"1495973462"
+			}
+			"firebeta"
+			{
+				"buildid"		"1848092"
+				"description"		"f0.2.8e"
+				"pwdrequired"		"1"
+				"timeupdated"		"1495810795"
+			}
+			"gazhalprivate"
+			{
+				"buildid"		"3652557"
+				"description"		"Gaz and Hal Private Betas"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552744958"
+			}
+			"leftfield"
+			{
+				"buildid"		"3194374"
+				"description"		"Leftfield Edition"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539052377"
+			}
+			"santasgrotto_beta_2018"
+			{
+				"buildid"		"3424852"
+				"description"		"Xmas Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1545587690"
+			}
+			"sataninnarnia"
+			{
+				"buildid"		"3418925"
+				"description"		"For BitGamer"
+				"pwdrequired"		"1"
+				"timeupdated"		"1545528364"
+			}
+			"secretbeta2016"
+			{
+				"buildid"		"1530694"
+				"description"		"Secret"
+				"pwdrequired"		"1"
+				"timeupdated"		"1482230819"
+			}
+			"secretxmasbeta"
+			{
+				"buildid"		"1540078"
+				"description"		"f0.2.8d"
+				"pwdrequired"		"1"
+				"timeupdated"		"1482623613"
+			}
+			"the_mystery_halloween_box"
+			{
+				"buildid"		"3282208"
+				"description"		"Its the Halloween update builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541543998"
+			}
+			"v2_xmas_beta_2017"
+			{
+				"buildid"		"2405652"
+				"description"		"f0.2.9a"
+				"pwdrequired"		"1"
+				"timeupdated"		"1514740584"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"50"
+	}
+}
+ 

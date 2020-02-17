@@ -1,0 +1,2508 @@
+"appinfo"
+{
+	"appid"		"200510"
+	"common"
+	{
+		"name"		"XCOM: Enemy Unknown"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"clienticon"		"a14ea28d6f4cb5764b174e085514726b81ca6d65"
+		"clienttga"		"e47a628d674385620fb33ac03820bffda5257abc"
+		"icon"		"48be2fee1d0d511b5c7313e1359beafd36ea92ed"
+		"logo"		"eaa298d2b0d908b2c4f5370d2c8c59a8eff887c6"
+		"logo_small"		"eaa298d2b0d908b2c4f5370d2c8c59a8eff887c6_thumb"
+		"oslist"		"windows,linux"
+		"clienticns"		"aaf9230572e45aa09b4ea14dace668cebf7446ef"
+		"linuxclienticon"		"9e258a2da9d1e5ffe0e2c823791ea7c4a1515d61"
+		"sortas"		"XCOM 1: Enemy Unknown"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"200510_eula_0"
+				"name"		"XCOM: Enemy Unknown EULA"
+				"url"		"https://store.steampowered.com//eula/200510_eula_0"
+			}
+		}
+		"osarch"		""
+		"metacritic_name"		"XCOM: Enemy Unknown"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"35"
+				"height_pct"		"34"
+			}
+		}
+		"store_asset_mtime"		"1537400570"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Firaxis Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Feral Interactive (Linux)"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"2K"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Feral Interactive (Linux)"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"XCOM"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_27"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"1"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"1"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"1"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1349755200"
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/xcom-enemy-unknown?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"200510"
+		"store_tags"
+		{
+			"0"		"1741"
+			"1"		"1708"
+			"2"		"9"
+			"3"		"3942"
+			"4"		"1677"
+			"5"		"1673"
+			"6"		"4182"
+			"7"		"7332"
+			"8"		"14139"
+			"9"		"1733"
+			"10"		"4711"
+			"11"		"4190"
+			"12"		"3859"
+			"13"		"1759"
+			"14"		"122"
+			"15"		"19"
+			"16"		"4747"
+			"17"		"4026"
+			"18"		"5144"
+			"19"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Firaxis Games"
+		"gamedir"		"XCom-Enemy-Unknown"
+		"gamemanualurl"		"http://store.steampowered.com/manual/200510/"
+		"homepage"		"http://www.xcom.com/enemyunknown/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"launcheula"		"http://store.steampowered.com/eula/eula_200510"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"200512"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"installscriptosx"		"XCOM Enemy Unknown.app/installscript_osx.vdf"
+		"installscript_macos"		"XCOM Enemy Unknown.app/installscript_osx.vdf"
+		"validoslist"		"windows,macos"
+		"publisher"		"2K"
+		"listofdlc"		"200519,209810,209811,209812,209813,209814,209815,209816,209817,209819,216690,225340"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\XComGame.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"XCOM Enemy Unknown.app"
+				"description"		"Mac Edition"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"xcom.sh"
+				"arguments"		"-arch=x86_64"
+				"description"		"XCOM Enemy Unknown"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"XCom-Enemy-Unknown"
+		"steamcontrollertemplateindex"		"2"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B00308187028181009A69D3726EEFCE7C92E2843DDF378FD5317739810158660DB7123A5C13387DC474CC0BDD23E17E897C1D21E0A879B62DCCE7CEF664F6D0E6A0286A3F995E13B1DCC37DFBD34A2D66752F063E26BC09AB0D8426CE62830DCB04CFD1656388524F8038FCBE2DB7039A4638B9F362CEB157EB4A690115FC375338C713FFC33CF539020111"
+		"checkguid"		"XComEW.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,russian,japanese,polish"
+		"200511"
+		{
+			"name"		"XCOMEUBaseContent"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5977328163283230731"
+			}
+			"maxsize"		"10642456335"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"0BD3F0EA0F1083AD52703DA9D0867C83"
+					"encrypted_size_2"		"8737961CBA5C3A242D862B1399A10EA3"
+				}
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"F8AF282D3692A56409D03E40D491D208"
+					"encrypted_size_2"		"20BD53B099F78511DF2A6AE4C1247D77"
+				}
+				"ageratings"
+				{
+					"encrypted_gid_2"		"7FB5CDAAE6B051EE4555C72EBF749755"
+					"encrypted_size_2"		"E894E76FCF74C58A0D40EE24FC9A3FA2"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"B6D735E98495CEB7688619848EF2A148"
+					"encrypted_size_2"		"05AA4E71266BE1AC0A29F3E8436FEA23"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"352E5C4F7236829D59F2F3E3173100EE"
+					"encrypted_size_2"		"297743C93AE3B16DF2E415E82EDD15AD"
+				}
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"8E1E1B0A62B0D55EEA79588B347D7002"
+					"encrypted_size_2"		"1C32E47D034B909729876221B2BBA57D"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"B0E5E43A02F171A860A089C7923CEFF4"
+					"encrypted_size_2"		"F953542CB9FE0F82258490FE978B6590"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"897635B072BE7968517FBA6D772529BB"
+					"encrypted_size_2"		"4B8A2145C9C306AB683CCDE2EBFC8912"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"CFCD819B566367C9BCD3C99BF01CC49D"
+					"encrypted_size_2"		"F21B63E19204451C9A6CAAE9817BD4BB"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"7628E0B4C285B4675F7BB30F48B5D48E"
+					"encrypted_size_2"		"3975150B5132CB984EE78BD67F01ECCB"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"68EA2A5346ACD89D227CD7AF83098673"
+					"encrypted_size_2"		"30731B988BB09CBB1782BC3DAA545E78"
+				}
+			}
+		}
+		"200512"
+		{
+			"name"		"XCOMEUExecutables"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4267564546177814784"
+			}
+			"maxsize"		"28425275"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"D712DDB068DDEA4931B4035BCEE1A7FE"
+					"encrypted_size_2"		"8CE1747522CBF45DDA06F57D7B8E0ED8"
+				}
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"05470205F69715598B7BFA1EE1D676AB"
+					"encrypted_size_2"		"439FFA05833A2F700C448521BADD2E3F"
+				}
+				"ageratings"
+				{
+					"encrypted_gid_2"		"000423B36E056CED20BD10D866F37A33"
+					"encrypted_size_2"		"26ADB0F7E2E06C644E68AC52FC8C7AE7"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"38790D0C2DDC841EBA6CA8ABBD3805F4"
+					"encrypted_size_2"		"B44C4F0F16B6C0BF3BD5A3EDC03E933A"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"1A92126D2CEF56276514E2980E78808F"
+					"encrypted_size_2"		"DF497B2F944534B6B9C8973DE3E9BF7A"
+				}
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"402D6FFD047DC0EBED7CCA7A4DADD9F5"
+					"encrypted_size_2"		"2A6E79B4F2BA54BF0730D2958F70D16D"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"F19704024FA9035D27F1E96BDDD80CFE"
+					"encrypted_size_2"		"08AEA50973C94A3BC0993AD69AA35B3C"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"38FAFDB4A0BE1358989DB5024B8CE860"
+					"encrypted_size_2"		"D2ECD1944616E0A08214D56B7CB104EB"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"796BA313E4C57AD57561F24B5B2A6D91"
+					"encrypted_size_2"		"79929F5192F9D80314E3E385A23861B8"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"0FD7DE2F0131A835A08EEAD1F638B2E3"
+					"encrypted_size_2"		"70B8CEEF8BA63055E4C08808DE598233"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"B1A6BA73193D22DB9C8C36FC5296E90B"
+					"encrypted_size_2"		"9DEF5F5FD1CF0BD3F61ED4AD0A239AAB"
+				}
+			}
+		}
+		"200513"
+		{
+			"name"		"XCOMEU English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3099687951329262850"
+			}
+			"maxsize"		"61627"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"5A853E156528EA2347D397909D731A5B"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"F520663BDA5AEA300CD79200A2F3A821"
+					"encrypted_size_2"		"724F28BD200292C345FACB184E8BA00B"
+				}
+			}
+		}
+		"200514"
+		{
+			"name"		"XCOMEU French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6212317035773467878"
+			}
+			"maxsize"		"148064561"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"973B88D81ECE12B09863B57BE153F8E7"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"5902FBFD0AC0483BD5B74FFC1C6847E0"
+					"encrypted_size_2"		"06A0097D8F4DE45E50EF94EF1280CB2D"
+				}
+			}
+		}
+		"200515"
+		{
+			"name"		"XCOMEU Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1577923318058709357"
+			}
+			"maxsize"		"160571097"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"F232DD373EC55A6F67EA978D257C784B"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"7BCF90C0726CA19AA70C53515F587317"
+					"encrypted_size_2"		"E2A088AE7B04388271733EA373F8FD65"
+				}
+			}
+		}
+		"200516"
+		{
+			"name"		"XCOMEU German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6026286414314080611"
+			}
+			"maxsize"		"165884322"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"97CC3B68A4A587349331A7C7693B7506"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"0D84B93AF1177C359DD50E98E159CF32"
+					"encrypted_size_2"		"8F28674502FF5D275A3A785D6E476EED"
+				}
+			}
+		}
+		"200517"
+		{
+			"name"		"XCOMEU Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5677229579223170801"
+			}
+			"maxsize"		"158921323"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"AF7B086F5B88FB27581EDB68F8F496E1"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"A8E0BCA062E249965215DC9D20AB9934"
+					"encrypted_size_2"		"7D990B5E96D781AAB3F42F59ED9741B5"
+				}
+			}
+		}
+		"200518"
+		{
+			"name"		"XCOMEU Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2886096942775221998"
+			}
+			"maxsize"		"1363611"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"4816483B859CC1814A22F098C4EBCFD0"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"BBCE189E0EF7DD1F04BEB10B90218D64"
+					"encrypted_size_2"		"D9064B0852082D688B66BC5E6079FEFA"
+				}
+			}
+		}
+		"200519"
+		{
+			"name"		"XCOMEU Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5296737344089529933"
+			}
+			"maxsize"		"149502347"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"78667A2ADEC24225ECC48A5E24A81F23"
+					"encrypted_size_2"		"5E4CA5E408F3ACC4AEF60DE412AE63A1"
+				}
+				"ageratings"
+				{
+					"encrypted_gid_2"		"5BA64C0380AE5C6300EDF0862F87060B"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"1375C7E563CE83511BE7C995471F5A69"
+					"encrypted_size_2"		"B02B26D21A5972F0B50A2C77B4B52D7F"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"9021A3D1506AEA8AC6849D2400C9D4E6"
+					"encrypted_size_2"		"C160AF8921EFFF810C6EA6955DA1344B"
+				}
+			}
+		}
+		"200520"
+		{
+			"name"		"XCOMEU Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5911100840774877922"
+			}
+			"maxsize"		"161782181"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"05226C37AF81DF45E8A8107B3CC92BAA"
+					"encrypted_size_2"		"C09DC96E0DCE40779DBCD259B4395C81"
+				}
+				"ageratings"
+				{
+					"encrypted_gid_2"		"0B31FB0F6B9A75BB6E95B69E09A1AF5F"
+					"encrypted_size_2"		"58EB38D3856D5A47B184F5124C20369B"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"E6AE00B2AC5563DA42DE62BC88FD7075"
+					"encrypted_size_2"		"3F8B643D75CCAC42475EBF96E00D4A99"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"A56DF01BD8B7E4DF1E6E36DF2E3BF676"
+					"encrypted_size_2"		"38A69FA9941B7ABEEF042BCF58601CF5"
+				}
+			}
+		}
+		"200521"
+		{
+			"name"		"XCOMEU Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6630944259194067348"
+			}
+			"maxsize"		"1316651"
+			"encryptedmanifests"
+			{
+				"ageratings"
+				{
+					"encrypted_gid_2"		"DA80F5EB43E79CEB3695E2F661FBAD22"
+					"encrypted_size_2"		"F4774A434DA2F923F74EC5576FB67457"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"1200A9A59B66386029A5BF4E41A24921"
+					"encrypted_size_2"		"694E0D13703F075409CF958333ECB440"
+				}
+			}
+		}
+		"200523"
+		{
+			"name"		"XCOMEU Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1165427881625931821"
+			}
+			"maxsize"		"1265225"
+			"encryptedmanifests"
+			{
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"6C8A6C3A6CE64DBF81B8F30271909F36"
+					"encrypted_size_2"		"959EFB7675C31573F2B8CE9C9EF75089"
+				}
+			}
+		}
+		"209811"
+		{
+			"name"		"XCOM Elite Soldier Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7634295903848040649"
+			}
+			"maxsize"		"83175235"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"3A0716867CA84DB256CE60E20D716858"
+					"encrypted_size_2"		"4D3654569942DEE54228366206BFD940"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"73CA85FF087A9F9015DCB213625CA610"
+					"encrypted_size_2"		"1E306B8FF015E4A3EA69B28E80CE34D5"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"0A52FAA4588F4268CC59BDFB64BDFB4F"
+					"encrypted_size_2"		"3A5BED1D033D15395976AA88502615E8"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"C9230A102132B5209A9B8129312F6928"
+					"encrypted_size_2"		"12F94FDA01C7D9C4CE3BB538110A8E4C"
+				}
+			}
+			"dlcappid"		"209811"
+		}
+		"209812"
+		{
+			"name"		"XCOM Slingshot "
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4454258587194093660"
+			}
+			"maxsize"		"405625739"
+			"encryptedmanifests"
+			{
+				"2k_community"
+				{
+					"encrypted_gid_2"		"1949A229321D45DDA8EB080C3778C909"
+					"encrypted_size_2"		"5B98A71E5306A43A4BFBCF9B5AB04ED2"
+				}
+				"ihv"
+				{
+					"encrypted_gid_2"		"69F3477CB435FCD4B6F649846A08E070"
+					"encrypted_size_2"		"7890B7D10B67E7CA9BD112B5D2876B7B"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"0EF96C62C2B6A1179A25E1B0B0CBD441"
+					"encrypted_size_2"		"AC8FF69FD383ECC075B9C62409A85889"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"BF72AC59546ED2CB90CF42EAE66B7EFB"
+					"encrypted_size_2"		"D273FBE616098A1F5D9DAA7B9C7A5B92"
+				}
+			}
+			"dlcappid"		"209812"
+		}
+		"225341"
+		{
+			"name"		"XCOM EW BaseContent"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"41984338994600089"
+			}
+			"maxsize"		"8678995754"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"CBDB7320A028FB0D9DD711057FC04843"
+					"encrypted_size_2"		"D3C2D2DE0ADF7D44C6A56E4CFA674307"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"C8933343D8876246A0171D05719206B3"
+					"encrypted_size_2"		"7FFB44B9577BE986D93875191F2BC9F3"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"FA55AA7C6FEB95C1C30B5B5514E68311"
+					"encrypted_size_2"		"D10839519122EFA533256E44EAF61850"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"EAB237CC5E37357C9B93B0A1AED97308"
+					"encrypted_size_2"		"F0F35B8AC088954D2A92F61A7D514CFD"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"88BC53DB5F2CDEB243FC32E247EAB21D"
+					"encrypted_size_2"		"0F2EF31C065485A3DDA83F28AF6FBE6B"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"4426DA4D2927080D9B448269536BCF99"
+					"encrypted_size_2"		"8A2A6513044C622217EE81B0F51B9602"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"C5C493C5432ACE8F3320227D8D04EA25"
+					"encrypted_size_2"		"9BEE905E12509C6CCAB0BA0EF16408C0"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"4DFA0DC4FA42E44A70A4651147CD3B69"
+					"encrypted_size_2"		"B6844F5A97E8DB690FDB2955D162080E"
+				}
+			}
+		}
+		"225342"
+		{
+			"name"		"XCOM EW CEG"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7844243238583980363"
+			}
+			"maxsize"		"28987963"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"76D2CA4E3C216371F06AB250D85A8136"
+					"encrypted_size_2"		"94D8D601B463523BD26107F28AD880E7"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"6A17B31ABB804AEF6F05E4774FDEA275"
+					"encrypted_size_2"		"3C4150222AD56330701A50CF604310B1"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"4961D80BFE75AF5C919ACCA6E9EF92E8"
+					"encrypted_size_2"		"04554F4841FF14B4A0A8E9CD66175894"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"D79A334B9D5A2D5FF42BFF15D8D9DCD9"
+					"encrypted_size_2"		"A3F5F260B5A49013B8FCFB258D5D9A75"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"C766BD0E32232385F49A9650B29F9F17"
+					"encrypted_size_2"		"9635DBBB27C968BD219122C99833BFEA"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"5AF4E05EF303D45CFE6706DD997AD182"
+					"encrypted_size_2"		"21FFB00CBD0435264D1B07F3F5049C3B"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"08BA37C12396BEED668173E1587A1469"
+					"encrypted_size_2"		"F14E7D0E6C155867EAEAF8AF8DB40102"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"DDDC9D12E7BFC106C178CE778791D4FA"
+					"encrypted_size_2"		"D502D997792383578D71FDC42390408C"
+				}
+			}
+		}
+		"225343"
+		{
+			"name"		"XCOM EW English"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8726262043003245779"
+			}
+			"maxsize"		"55953"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"B47702EE19F653966F28687662B6A20B"
+					"encrypted_size_2"		"3B50D03A613A993BB2DE9B254151C8EA"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"61EB4B38A0307CF0F5BC27EEA62819FB"
+					"encrypted_size_2"		"E9C57B5A2747585246E1C5F03655402C"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"380466E07846F06141E03FFBA089A7B8"
+					"encrypted_size_2"		"184C829471EBC368DD9217DD8CE8326D"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"61ECFB26B973E03AB2D31E37A95C374C"
+					"encrypted_size_2"		"C9FBD2B22DFE28CA3FC9DAC18CD3A076"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"718659D3F742E5285B9E044797C4F8CC"
+					"encrypted_size_2"		"71893BF873F33931464E762E0BBB2A80"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"9FE3B2777B99FDAF0986DF9D3380C968"
+					"encrypted_size_2"		"A50C8E49AF63CB1F8F994E227DC2D734"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"42DAD02B805C402F9F111644ACD75714"
+					"encrypted_size_2"		"AFFD11A5B3DB82AA04398F17D70F088D"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"D0A5EA4477223C15FBE81710642101E1"
+					"encrypted_size_2"		"7DFF86FCD754AF2A557447FFE99BC488"
+				}
+			}
+		}
+		"225344"
+		{
+			"name"		"XCOM EW French"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"509212501326827016"
+			}
+			"maxsize"		"90251456"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"648787B8130F4AFA3670CCE81EBF403D"
+					"encrypted_size_2"		"923C2707308D1A1EBB6E1999714C3B73"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"DA0F7144789F6EA4549102989BF2F4AA"
+					"encrypted_size_2"		"0D29486526A58FD41ADE291CBF10E7CE"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"A56B7D69892A5552D684FA69167189F3"
+					"encrypted_size_2"		"A74A794533EFC990C3AC587BFE93DCE3"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"9C49C532984F8A938D484CE48CCE0457"
+					"encrypted_size_2"		"A6F3EEE11B2F2B33BEF02D81A638719D"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"A302C76D698E727539C3E34084CD06B8"
+					"encrypted_size_2"		"0617B4CA6935A212719034C7FDD4E5E9"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"8392DBEA9E7B1652C435F76F84D8FE45"
+					"encrypted_size_2"		"063975C7CC3AB8F4B5CC59247E630618"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"2BB60B1E295B11F6935500DC5113E1FE"
+					"encrypted_size_2"		"04646450E11DE88F99B50677C8D9843E"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"1348BDB9FA30A6DAC853E694F7C81EBB"
+					"encrypted_size_2"		"6D36EDBCED52EEBF04A35FD5BEDECAA9"
+				}
+			}
+		}
+		"225345"
+		{
+			"name"		"XCOM EW Italian"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8390507623073734667"
+			}
+			"maxsize"		"96322832"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"241E9F2F6EC4B9C9DFEFB34DD6C30A7B"
+					"encrypted_size_2"		"39E250E280518682921A8073F189C1C5"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"1BBF1F32C78556195F3A7F30E4A4D2CC"
+					"encrypted_size_2"		"662CE1D28E646D442352C6CE38C7048A"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"8500C391918DF4273B2A2060A419E75B"
+					"encrypted_size_2"		"996DDBE6C07B6DA423D42AC2478D74FB"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"E8578535586D40E6F2E3805C1F23BE45"
+					"encrypted_size_2"		"E9AC8CCBD45D1D5F3F81D1BF3BD4F577"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"8FF63392452C5B5C36C2E4C92C93CEA2"
+					"encrypted_size_2"		"C16D7F743F6A11CB5B79524A60F1A80D"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"170EF9D8896566CFE1B82843E0D18256"
+					"encrypted_size_2"		"8F00C4E290C04DC5B6593D52F5A5C9AD"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"86EDEF80AC6CA941FDBCC2A969305C6E"
+					"encrypted_size_2"		"E22CA562D48D40043A823C83BC66A076"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"E64605A35661506450FA49CA578BB288"
+					"encrypted_size_2"		"B7932E68928E423D90C80DAB02401859"
+				}
+			}
+		}
+		"225346"
+		{
+			"name"		"XCOM EW German"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2888771204645959997"
+			}
+			"maxsize"		"99494277"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"978A570606C3BE61B3C818D4B2BAC608"
+					"encrypted_size_2"		"9A6EDEBBCEFBA6740254187456722630"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"8585748B6184787356C5588146BC64E5"
+					"encrypted_size_2"		"D95FAA052D7F97AFDCEAA3A0768DC0B5"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"D3C3376394568612A91CFCCBA3CB4EDC"
+					"encrypted_size_2"		"6728C1FE7A8381489C162D7076A94BCC"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"59AF5C24E1CD44346B90A702BB18EA0F"
+					"encrypted_size_2"		"56F30BF9B6A6D0B9B330C6610EA935F6"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"513F1799C25F224D5263D4EF7D5CD770"
+					"encrypted_size_2"		"8B9B667DE3CCCB7B2A59562C55C869E0"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"AF33FEC4DDB0344A7646F2E93DD36BC7"
+					"encrypted_size_2"		"0B0B0406C46375F38B1722CCD67E683A"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"B647F43FBD2FDD7506B4B724FB0649ED"
+					"encrypted_size_2"		"CAD05E440F57CEF057E990BD3023E13C"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"DEA5D11A66191550DEEE8FD7F99ED0CD"
+					"encrypted_size_2"		"61A246EDCF49D50B863FE01EE25EABC4"
+				}
+			}
+		}
+		"225347"
+		{
+			"name"		"XCOM EW Spanish"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4751831833500987405"
+			}
+			"maxsize"		"93004738"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"0737532AB9AE00AE80906E7749A0D0EF"
+					"encrypted_size_2"		"786B53A6A086064EDD5F6AF69BCD117D"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"BD5D6FE0CDDB273B9E333BE6277CD658"
+					"encrypted_size_2"		"E35CDD6C0D66115F0D40F9DD21C3DE76"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"1A77229816DEEE1D8E937EDACCCB2CE4"
+					"encrypted_size_2"		"96A2B79237C96589E0429958A73C0764"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"8673A956D977FC80D18E3313555BEFFB"
+					"encrypted_size_2"		"81D818547ECF657C3EAFA5C5CCBEDC95"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"B245A8A6AB27B60758ADA99181746A56"
+					"encrypted_size_2"		"C7BEA3BB18013219921A0D488C4E7542"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"C6EDDE88DAD51021A92A7FA5D530020E"
+					"encrypted_size_2"		"CB033BB2A92EC682B54BE23D0A2244E3"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"3B9715FBA101CD8AFF64CFEAA3745E6B"
+					"encrypted_size_2"		"7588C2208D7EC82286BB5E964F5B35A7"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"F402247D9986AA7C6109479C6ABF2669"
+					"encrypted_size_2"		"8624789CF34E5410F4418115C99B9077"
+				}
+			}
+		}
+		"225348"
+		{
+			"name"		"XCOM EW Korean"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6015370350621072618"
+			}
+			"maxsize"		"1893305"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"6B00A5EA176DFDE789FAB9AC8DEB2199"
+					"encrypted_size_2"		"ED03A45B195CB219FA67B09572AE9412"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"D99F055DE1ADF9A1D5766D3A8EB62569"
+					"encrypted_size_2"		"C6121150A4E9368A29EE641C8B2A1472"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"2B6A0EC2FFBB94DC3188D8210D9AB7ED"
+					"encrypted_size_2"		"7FA286737FFDDC1E5F2168795CE3F3FC"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"26D2AF466115952FCC32E1CB47B2A00C"
+					"encrypted_size_2"		"DB45F985E4E029CBD7D2F313836B15E9"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"A1B94E287A2CBDEFD758CED66EA7B189"
+					"encrypted_size_2"		"6AF89D01A54C66B2A5609027921C81F5"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"676C09EF39551ED6CEE0F9A957E66A59"
+					"encrypted_size_2"		"0812C5A2EBCA050EFF94504C10F12B42"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"C85A2145F91C2A1AC61A44FC23E17252"
+					"encrypted_size_2"		"DE1CBFEED5E36420BD5FF294110C1578"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"EC8B671083CB988530C7DC58AFBADF43"
+					"encrypted_size_2"		"1B6837FCBBDD32E1D06ACA740E907466"
+				}
+			}
+		}
+		"225349"
+		{
+			"name"		"XCOM EW Polish"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3820334222046766522"
+			}
+			"maxsize"		"93501149"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"D2BBB03D30C356983272089DB4FABD5D"
+					"encrypted_size_2"		"029D332575C6D014C3CEBE8DEBADA253"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"EE21A9215D9A2E59FB46B6F3D0AB67B4"
+					"encrypted_size_2"		"5245D3F3F3BD92963AD7905465F0806E"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"A900AECF93032A17328A1A91CC8B483E"
+					"encrypted_size_2"		"596A2CDB345F05AE47237D343608E3C1"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"AF1B76FFE03FAB7B44BFD73AC48D2C7A"
+					"encrypted_size_2"		"3197392A31C2C197475235D6650693CE"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"9B7E7CC843CC19A6CD549B8C24F3F810"
+					"encrypted_size_2"		"A5F6B28D8B6E4C268B7893CAC863FF66"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"11A427FAFC59C084ED69F0E9A462F9B7"
+					"encrypted_size_2"		"3D732D06ED37A131AF266189781047BB"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"16979AD74F84345A7BFE9A56AE4C5190"
+					"encrypted_size_2"		"C63D09B8802053767FD96731B5C112B8"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"3E7284D7B48B9624AF21EC99AFF2CB60"
+					"encrypted_size_2"		"95FBADC1B5D0A8CDCA9D02A26C722460"
+				}
+			}
+		}
+		"225350"
+		{
+			"name"		"XCOM EW Russian"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8039983655628855754"
+			}
+			"maxsize"		"91692657"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"767B8B632B5A9224FC8ED3903834B484"
+					"encrypted_size_2"		"8E00874EED5539351CB83E180E29C108"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"03E20604F487BFD682497049923A3E92"
+					"encrypted_size_2"		"552ECF5F2919E2732DDAF0E78A283C19"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"5B845C38BA494CEBAB30AAF340770F04"
+					"encrypted_size_2"		"77F25FFECF32A01580EB7A2EB1949706"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"28509D5E2B334350720F3423C9F88A35"
+					"encrypted_size_2"		"10206E11EDD8C22574028005F19956AF"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"607640DC9C057801D523222950794982"
+					"encrypted_size_2"		"BDCD17DCED98337B49A2AAF9A0F33395"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"68CCB0EA0A8F54EE57F938CE1A831291"
+					"encrypted_size_2"		"086EE6208A7C643E720B0DF03C4FDFD1"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"50A11061C99B4509DF101CBC00B53CCE"
+					"encrypted_size_2"		"68D192BCEE142665E7784A1E8E1A62A9"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"43F5D81FEB41A6C35CDE3A7B7380CD65"
+					"encrypted_size_2"		"D370D5539503F46AE2CE1382CF8A047F"
+				}
+			}
+		}
+		"225351"
+		{
+			"name"		"XCOM EW Japanese"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8107601051431546875"
+			}
+			"maxsize"		"1850455"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"E1D46D15D56DCC3B3232D18DC6993D69"
+					"encrypted_size_2"		"C14A52D6F11F27564A4402539D8A0B5E"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"DA0F5C7C5033C45BF95A92BE28468AD5"
+					"encrypted_size_2"		"65B3AED1FBFB8B330100B4FB19700B41"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"5F716EC7996AE8F8232AC762C148A8D4"
+					"encrypted_size_2"		"6B777BBB092EAB3BF2E7DE4D252295F2"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"AC3ACC5ED6609C7AB7218803640B8ABB"
+					"encrypted_size_2"		"FFBE4E35C0624799E40CC8815191E5A9"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"B8D975F5B6E24AB03207ABE3DC118E19"
+					"encrypted_size_2"		"2D67A77D66A3A4183B3B63257357DB78"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"95407E3FDE431D15C266260F4E26E453"
+					"encrypted_size_2"		"96409AA1D6701F61EE67577EA661FE8D"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"C4FAE6AC46B15F3AB197BAD793AF1337"
+					"encrypted_size_2"		"B7A51A92CDF473E423D57C8F0D13B705"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"E93C3F508CBA0906E8E3B590D14F607A"
+					"encrypted_size_2"		"937BCAAEE34E31589D4F0A73B114AC05"
+				}
+			}
+		}
+		"225352"
+		{
+			"name"		"XCOM EW Chinese"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3603602085531634037"
+			}
+			"maxsize"		"1685415"
+			"encryptedmanifests"
+			{
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"FC6E156AD66F175C346DEC6891EC1838"
+					"encrypted_size_2"		"74298997FDD5C6D16B05901CF4F56BFD"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"D14A198C83B897E4CCA0A88920691F0C"
+					"encrypted_size_2"		"10EDF8F35785D38B446127AD1F81E67E"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"249229F4D7324BE489102D18F7A2AA16"
+					"encrypted_size_2"		"9BB5BD1108EEA12071331EB7D1EE450F"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"CE5046C0BF6AD2214240A109AEB29E1F"
+					"encrypted_size_2"		"562F835403496D066246BC0893F8BBF6"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"0288D946FB87109D30F2202B9F23A518"
+					"encrypted_size_2"		"12CDC9AE6C9CF6F552AD137D28DDFFC7"
+				}
+			}
+		}
+		"200522"
+		{
+			"name"		"XCOM EW Scripts"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4371073319003322090"
+			}
+			"maxsize"		"82500719"
+			"encryptedmanifests"
+			{
+				"age_rating_build_2"
+				{
+					"encrypted_gid_2"		"E83772D5599597CBECEA037C6DDB68A7"
+					"encrypted_size_2"		"13C664DF0ACC938830E6FB249DA554D0"
+				}
+				"firaxisbeta"
+				{
+					"encrypted_gid_2"		"F85690BE51CA144286571E74633D38F2"
+					"encrypted_size_2"		"69FB67041F64F0420E46CE88C9DFB7F2"
+				}
+				"qa_beta"
+				{
+					"encrypted_gid_2"		"F0685DD0DE9F873DF1A576E60F8E71BB"
+					"encrypted_size_2"		"ABD5EE36507351B72EB043D9F40AC92C"
+				}
+				"qacompat"
+				{
+					"encrypted_gid_2"		"DA3395F55A2D1A3DB80B1B784DF6B620"
+					"encrypted_size_2"		"22DAE75984C2807D034506992E638024"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"5C38224471E12667B1BD79AE4CDC9699"
+					"encrypted_size_2"		"606611EFB66FC618168D59588C63652C"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"0A0D239E34CFB5ACEFA1A83578D041FE"
+					"encrypted_size_2"		"82CB6676A1E9257FA8BAE218E72CBC2D"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"A9BDCC190399C3F69F60EC4C2EB95666"
+					"encrypted_size_2"		"78E402E3B0291D2B4184DE8F41C2DC0C"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"AADA7C93CD2E85B53D9D89A05DB9EB2D"
+					"encrypted_size_2"		"36FF728F87D7BD6DCED73A5DC8E7FE25"
+				}
+			}
+		}
+		"239613"
+		{
+			"name"		"XCOM_Executables"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5664537082215991606"
+			}
+			"maxsize"		"178257404"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"81AE90EF04F41AFCE3974806592B060A"
+					"encrypted_size_2"		"E280C0A0C095B5A12B7EC943918A2229"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"907C83017DFBC54557C2AEF59F36BF9F"
+					"encrypted_size_2"		"39F58B2A6A9EC8FF65E65F48EA2481E1"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"008D3A178BBBFA2597A22419194D1271"
+					"encrypted_size_2"		"1600ED4E53F205376A4ADA5B1BF501BA"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"FBBA6FCFFD513C14DC21134E4787DDBC"
+					"encrypted_size_2"		"53324FF21759ACCCD39F44C364178549"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"60957C156E1BE1824FEFA68326CCB494"
+					"encrypted_size_2"		"243FF41FB9DBB11A8BD35C90881CAD54"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"218E3F5A86D13C0571DCE607AB1E855A"
+					"encrypted_size_2"		"F5BF071C41164C7DEC4D0B00F1D825F5"
+				}
+			}
+		}
+		"239611"
+		{
+			"name"		"XCOM_Mac_BaseContent"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"768224438854273196"
+			}
+			"maxsize"		"13516794051"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"BD4A27F4EA8484095468EC2C36CCA2CD"
+					"encrypted_size_2"		"576FD889177BF25087916790246EC37B"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"2C4BFC3C89A0261568C4D9C6C16E0AB1"
+					"encrypted_size_2"		"DBE4E476A7A394A74EF47309E42D0ECC"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"91B19F6D4A32BA73CF0BFBA8B2EE4EDB"
+					"encrypted_size_2"		"2AA97E8E21C6CB5876DA61B459F53756"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"E569C3B3EEDA789223C6DD3BE4BED12F"
+					"encrypted_size_2"		"F49997BD9564B571BE87A081EF34F8DB"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"FD826DFEE8B2806F465DAF6C3A81E5FB"
+					"encrypted_size_2"		"8833DE532AE0371E353170820D07E683"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"E368D96B3C23ABF053AE90B5E7E9F989"
+					"encrypted_size_2"		"A2A16F4B3B5FCCF34BC2F617D7D1A0B6"
+				}
+			}
+		}
+		"239612"
+		{
+			"name"		"XCOM_Mac_BonusContent"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6036573672765503438"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"CF53C26D132E7EA34939EF65818FC20F"
+					"encrypted_size_2"		"E92C54C3E25B16DEA8E6CE49D04E4CB1"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"B47572E749677254F53C29C25671A605"
+					"encrypted_size_2"		"D73C3F307990877CECFC70B0BAC893CE"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"40368D653F12765C7D6F8853923F3110"
+					"encrypted_size_2"		"EC105AD0BE45E41DE989BA76CC5848A6"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"047FA7C870CE8863A701E5617056EFB3"
+					"encrypted_size_2"		"2DA9090FBC4483859FCD5A79E4B7FD4A"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"D1C48BDDEF267BF29403C66B174FA621"
+					"encrypted_size_2"		"900141FA815316A182D8CB8F62BEA5B1"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"E82BC5195BCA9776A7E16E37ED1E2E62"
+					"encrypted_size_2"		"B8601B15945E86060E7B9F754272BBA4"
+				}
+			}
+		}
+		"239614"
+		{
+			"name"		"XCOM Slingshot "
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"209812"
+			"manifests"
+			{
+				"public"		"4444569306026236615"
+			}
+			"maxsize"		"392380301"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"D01B927E212AFF6A2DA915A5E5C50CD4"
+					"encrypted_size_2"		"BB466EF69DC03048BB7D7B956F46341C"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"D1A27CA955176EA8C521269A3DD6D072"
+					"encrypted_size_2"		"678416009A58708D589EF6E6F4B97439"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"2C1D822E292D05200C118DB7601DB9A2"
+					"encrypted_size_2"		"CB4E1BF0C7931EF36D33A734491C5268"
+				}
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"E8093B69E7EF14FACF5C810B9FF872B0"
+					"encrypted_size_2"		"5EE09B7F31BFC15A8ED8BC4FE28EE8C5"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"B3983D951B96ECACDA2431C3DA4AE726"
+					"encrypted_size_2"		"C8D9F60E2ED0560F5DD7E51E6D1C0FBE"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"FC8BD428A601454EA5BB28F4B1CDF5A0"
+					"encrypted_size_2"		"62C27C2722429CF64B8B2069E13C7059"
+				}
+			}
+		}
+		"239615"
+		{
+			"name"		"XCOM Elite Soldier Pack"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"209811"
+			"manifests"
+			{
+				"public"		"2088330805415867293"
+			}
+			"maxsize"		"83175235"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"9F7EF32F03E1DDC4FDE51A1284B9796E"
+					"encrypted_size_2"		"6E1E393E3661F8DF6878DA60B2DD5AEF"
+				}
+				"xeu_traditional_chinese"
+				{
+					"encrypted_gid_2"		"151D60991E57B4D574F040B024A9F06C"
+					"encrypted_size_2"		"6CA6475031EC1A4110F4DE5BD9A2997B"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"A74E8B56772C831030E2AC6563C0AF2A"
+					"encrypted_size_2"		"3DEC88E4BD15C4AE435C1A685E583001"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"147C15F8099558C07E9ECDE01B701B36"
+					"encrypted_size_2"		"46513D31638BC15A34E6D0DBD6EA2FAC"
+				}
+				"xew_traditional_chinese"
+				{
+					"encrypted_gid_2"		"C3981F3B36ACE5297122253C819D589D"
+					"encrypted_size_2"		"1C380BF72EDE21F4907CFEBD12FD16E2"
+				}
+			}
+		}
+		"200524"
+		{
+			"name"		"XCOM_Mac_EW_Data"
+			"dlcappid"		"225340"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7430100694281347402"
+			}
+			"maxsize"		"9364649226"
+			"encryptedmanifests"
+			{
+				"xew_dayzero_approved_mac"
+				{
+					"encrypted_gid_2"		"574EC402F72FEE98F813724A10F99604"
+					"encrypted_size_2"		"85EF6459685AC77DB709064924D09652"
+				}
+			}
+		}
+		"239616"
+		{
+			"name"		"XCOM_Mac_en"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"284753000885733139"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"FF865C56AA5622E72DBA538D31F4009F"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"9F6DA625FE727874A6325F9D5AEA5B1F"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"98990D9706B23DE1608B7676CB67D23D"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239617"
+		{
+			"name"		"XCOM_Mac_fr"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"384780111558113330"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"8E7FB2E35888D6C0AC710E7ED0907B50"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"13262ABCC50C1B6A044D56BD6392FB2F"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"24823280EA270F657BF744E0A0CCA298"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239618"
+		{
+			"name"		"XCOM_Mac_de"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"116357021336944192"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"DD9EAE23215261A93DC3BCFB56C625EF"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"CA5D7C62FFA6C5DDED187332F5D478F1"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"3AB8F1F44DC8F355EC376DFB410BC216"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239619"
+		{
+			"name"		"XCOM_Mac_es"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"28728337118389002"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"A5FE08840960E98DE72FD2A43A88F085"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"37AB0EBAE5D960E61447C368A2E6ABDC"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"D2E9AA692996A797458BEA27721C3573"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239620"
+		{
+			"name"		"XCOM_Mac_it"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"104805678445749475"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"7CF0DCDB5878AD245E0CBC13EBBEDFA1"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"1AFD3627D6ADA1E49A8EA9ECD2277E48"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"0147A8322305581C030E8481CCF8FB14"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239621"
+		{
+			"name"		"XCOM_Mac_ja"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1044082872451034769"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"8F27224C1853F25385ABA98026425BAC"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"317020BCD67074F4C7F6CC023A3B5ABC"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"4AB98A96FA9E73061E50DB2C0C26EC64"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239622"
+		{
+			"name"		"XCOM_Mac_ko"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"393954813390701020"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"7316C4BD642E33A48614FBA0E186CCD5"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"60E60D173261A60E4042CA803D404294"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"B43CCB27B8DC1D96C7EA5B251CFAFACE"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239623"
+		{
+			"name"		"XCOM_Mac_pl"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2643480763377385141"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"0112BE8BE2A5AC9C2F6F9B49D139CF97"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"A4B38AD84B718FA2F2972C1F65B6DBCF"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"DE05932752907D31FC1348773D3B77E2"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"239624"
+		{
+			"name"		"XCOM_Mac_ru"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"712864875086334265"
+			}
+			"maxsize"		"2"
+			"encryptedmanifests"
+			{
+				"xeu_patch"
+				{
+					"encrypted_gid_2"		"7F5BB365F4E1DD300FB2FBEC99EDDF25"
+					"encrypted_size_2"		"98C5C7CAFB323A5580E52B441F9139BD"
+				}
+				"xew_dayzero_approved"
+				{
+					"encrypted_gid_2"		"A672E5D05C0DE1E1CC960338A9F68A63"
+					"encrypted_size_2"		"B90BC0C410B7472358B851355CFF3981"
+				}
+				"xew_rtm"
+				{
+					"encrypted_gid_2"		"A140A1006B231EEBE993A339DB041B4A"
+					"encrypted_size_2"		"7A733BB5F696E3CC04C3F5E5EC8417FB"
+				}
+			}
+		}
+		"209827"
+		{
+			"name"		"XCOM_Mac_zh-tw"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"595784257312450039"
+			}
+			"maxsize"		"5"
+		}
+		"200526"
+		{
+			"name"		"Test_XCOM_BaseContent"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1629131137455360719"
+				"linux_initial_release"		"6409306029094186572"
+			}
+			"maxsize"		"7045351897"
+			"encryptedmanifests"
+			{
+				"domesticated_alien"
+				{
+					"encrypted_gid_2"		"D5249B0B10212CAE284ED6EBA98D80C7"
+					"encrypted_size_2"		"163B8EB3FDE99EB989267C479E2E527F"
+				}
+				"domesticated_submission"
+				{
+					"encrypted_gid_2"		"3090474EC254ACC121C9E5E0D906C0C5"
+					"encrypted_size_2"		"2E2C1DDC95F386C1ED69F76288B97698"
+				}
+			}
+		}
+		"200527"
+		{
+			"name"		"Test_XCOM Slingshot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"209812"
+			"manifests"
+			{
+				"public"		"1681974268821304045"
+			}
+			"maxsize"		"352915986"
+		}
+		"200528"
+		{
+			"name"		"Test_XCOM Elite Soldier Pack"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"209811"
+			"manifests"
+			{
+				"public"		"6842305425258267873"
+				"linux_initial_release"		"8982516523555049918"
+			}
+			"maxsize"		"83187527"
+			"encryptedmanifests"
+			{
+				"domesticated_alien"
+				{
+					"encrypted_gid_2"		"58FB1F16971AB240C71B86857C343731"
+					"encrypted_size_2"		"9C35AB71DD433F7E88295A7101B5EE84"
+				}
+				"domesticated_submission"
+				{
+					"encrypted_gid_2"		"D1BB791BC587B5C5C38A545C897D9C58"
+					"encrypted_size_2"		"8541C7901E953D61AA66CFCD8A6900F1"
+				}
+			}
+		}
+		"200529"
+		{
+			"name"		"Test_XCOM_EW_Data"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"225340"
+			"manifests"
+			{
+				"public"		"3701567944219618496"
+				"linux_initial_release"		"8828354746812511740"
+			}
+			"maxsize"		"8264951106"
+			"encryptedmanifests"
+			{
+				"domesticated_alien"
+				{
+					"encrypted_gid_2"		"5D810E82FF362E66DD0C07F8B17DCE0B"
+					"encrypted_size_2"		"E45569B5432B8B1DAFD6EEB78651BC34"
+				}
+				"domesticated_submission"
+				{
+					"encrypted_gid_2"		"9B2081321380FFD085886D473C529321"
+					"encrypted_size_2"		"1D0F00A4152206D57D82A72997D1491F"
+				}
+			}
+		}
+		"200525"
+		{
+			"name"		"Test_XCOM_Executables"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"181782921911158240"
+				"linux_initial_release"		"6884109370970429012"
+			}
+			"maxsize"		"235462328"
+			"encryptedmanifests"
+			{
+				"domesticated_submission"
+				{
+					"encrypted_gid_2"		"F78A51943E2B5F410216364DFE218295"
+					"encrypted_size_2"		"DFFC187214C19B4F7FF009F0F5DC8AE2"
+				}
+				"linux_patch"
+				{
+					"encrypted_gid_2"		"8BBD6A81242A83C6200E2CEA2FCE2881"
+					"encrypted_size_2"		"A99582AD1B01323791B3E6CB3E70FCCC"
+				}
+			}
+		}
+		"209818"
+		{
+			"name"		"Test_XCOM_en"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2935536691900693364"
+			}
+			"maxsize"		"4"
+		}
+		"209819"
+		{
+			"name"		"Test_XCOM_fr"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8733079840784680818"
+			}
+			"maxsize"		"4"
+		}
+		"209820"
+		{
+			"name"		"Test_XCOM_de"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3787224929468610693"
+			}
+			"maxsize"		"4"
+		}
+		"209821"
+		{
+			"name"		"Test_XCOM_es"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3927655542541842475"
+			}
+			"maxsize"		"4"
+		}
+		"209822"
+		{
+			"name"		"Test_XCOM_it"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4036213561552691770"
+			}
+			"maxsize"		"4"
+		}
+		"209823"
+		{
+			"name"		"Test_XCOM_ja"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"9180666064602220386"
+			}
+			"maxsize"		"4"
+		}
+		"209824"
+		{
+			"name"		"Test_XCOM_ko"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2391596403993175906"
+			}
+			"maxsize"		"4"
+		}
+		"209825"
+		{
+			"name"		"Test_XCOM_pl"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3194485471142706381"
+			}
+			"maxsize"		"4"
+		}
+		"209826"
+		{
+			"name"		"Test_XCOM_ru"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2902298679741921499"
+			}
+			"maxsize"		"4"
+		}
+		"209828"
+		{
+			"name"		"Test_XCOM_zh_tw"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4610943139475535667"
+			}
+			"maxsize"		"10"
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"848157"
+			}
+			"2k_community"
+			{
+				"buildid"		"45812"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"2k_qa"
+			{
+				"buildid"		"206154"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"age_rating_build_2"
+			{
+				"buildid"		"90558"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"ageratings"
+			{
+				"buildid"		"4218"
+				"description"		"For PEGI age testing"
+				"pwdrequired"		"1"
+			}
+			"domesticated_alien"
+			{
+				"buildid"		"848153"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"domesticated_internal"
+			{
+				"buildid"		"848157"
+				"description"		"Internal QA Only"
+				"pwdrequired"		"1"
+			}
+			"domesticated_submission"
+			{
+				"buildid"		"272425"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"firaxis_qa"
+			{
+				"buildid"		"206154"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"firaxisbeta"
+			{
+				"buildid"		"181916"
+				"description"		"Private Beta for Clint"
+				"pwdrequired"		"1"
+			}
+			"ihv"
+			{
+				"buildid"		"11209"
+				"description"		"Branch for Nvidia & ATI"
+				"pwdrequired"		"1"
+			}
+			"linux_initial_release"
+			{
+				"buildid"		"272425"
+				"description"		""
+			}
+			"linux_patch"
+			{
+				"buildid"		"338167"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"qa_beta"
+			{
+				"buildid"		"148272"
+				"description"		"Post RTM"
+				"pwdrequired"		"1"
+			}
+			"qacompat"
+			{
+				"buildid"		"86069"
+				"description"		"For QA compat testing"
+				"pwdrequired"		"1"
+			}
+			"xeu_patch"
+			{
+				"buildid"		"119853"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"xeu_traditional_chinese"
+			{
+				"buildid"		"132206"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"xew_dayzero_approved"
+			{
+				"buildid"		"138829"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+			"xew_dayzero_approved_mac"
+			{
+				"buildid"		"141638"
+				"description"		"1.2RC1 Day 0 (Approved By 2K 12 Nov)"
+				"pwdrequired"		"1"
+			}
+			"xew_rtm"
+			{
+				"buildid"		"113954"
+				"description"		"Build approved for rtm"
+				"pwdrequired"		"1"
+			}
+			"xew_traditional_chinese"
+			{
+				"buildid"		"126478"
+				"description"		""
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/XCOM - Enemy Unknown/XComGame/SaveData"
+				"pattern"		"*"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/XCOM - Enemy Within/XComGame/SaveData"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"os"		"macos"
+				"oscompare"		"="
+				"root"		"WinMyDocuments"
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"1"
+					{
+						"find"		"My Games/XCOM - Enemy Unknown/XComGame"
+						"replace"		"Feral Interactive/XCOM Enemy Unknown"
+					}
+					"2"
+					{
+						"find"		"My Games/XCOM - Enemy Within/XComGame"
+						"replace"		"Feral Interactive/XCOM Enemy Unknown/XEW"
+					}
+				}
+			}
+			"2"
+			{
+				"os"		"linux"
+				"oscompare"		"="
+				"root"		"WinMyDocuments"
+				"useinstead"		"LinuxXdgDataHome"
+				"pathtransforms"
+				{
+					"1"
+					{
+						"find"		"My Games/XCOM - Enemy Unknown/XComGame"
+						"replace"		"feral-interactive/XCOM"
+					}
+					"2"
+					{
+						"find"		"My Games/XCOM - Enemy Within/XComGame"
+						"replace"		"feral-interactive/XCOM/XEW"
+					}
+				}
+			}
+		}
+	}
+}
+ 

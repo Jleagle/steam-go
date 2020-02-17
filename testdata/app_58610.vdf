@@ -1,0 +1,908 @@
+"appinfo"
+{
+	"appid"		"58610"
+	"common"
+	{
+		"name"		"Wargame: European Escalation"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+		}
+		"clienticon"		"ccbdbdd05ed8cfda40e2fb37492c26d849e648a0"
+		"clienttga"		"52c9e2c37e8b5e2313b0bc147348b5d38080d100"
+		"icon"		"6c9235652b1226bc2b262074467a1e5207bd8493"
+		"logo"		"a5e0edba040c31a910a12a1843f0bb9266bcae3e"
+		"logo_small"		"a5e0edba040c31a910a12a1843f0bb9266bcae3e_thumb"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"18ee51ca5cf63098f70283f629b9ec23564a841a"
+		"clienticns"		"d6672d10e794c5673ca3a22571b25188ca204d13"
+		"metacritic_name"		"Wargame: European Escalation"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1361825720"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eugen Systems"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Eugen Systems"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_8"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1329964680"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/wargame-european-escalation?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"58610"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"4168"
+			"3"		"5179"
+			"4"		"4684"
+			"5"		"4175"
+			"6"		"4598"
+			"7"		"3813"
+			"8"		"1678"
+			"9"		"19"
+			"10"		"599"
+			"11"		"4182"
+			"12"		"3859"
+			"13"		"4161"
+			"14"		"1708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Eugen Systems"
+		"gamedir"		"Wargame European Escalation"
+		"gamemanualurl"		"http://store.steampowered.com/manual/58610/"
+		"homepage"		"http://wargame-ee.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp58610\\SteamKey"
+		"nodefaultenglishcontent"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"58611"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+		"publisher"		"Eugen Systems"
+		"listofdlc"		"58625,58643,58645,58646,58647,58648,58649"
+	}
+	"config"
+	{
+		"installscriptsignature"		"9aa436da70330f052dc322e7fdda59c0eb34ea2fd62afa1c7b6deaf5de8dfd4883416f7d54525eb24553c28255d553d93b6dc9570fee157ae8050c6ad50742e2627ab30d2302e52974721b22c79530a23368f1e53432a354a61b35587bd7f351104a34afeb80644152bcbb95932ac4e30f7bd9db525a579bbf640a90b2d5cc71"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WarGame.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Wargame.app/Contents/MacOS/Wargame"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Wargame"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Wargame European Escalation"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\Software\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"DirectX Installation"
+				"nocleanup"		"1"
+			}
+			"vc++"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\Software\\vcredist_x86_2008_sp1.exe"
+				"command 1"		"/q:a"
+				"description"		"VC++ Redist Installation"
+				"nocleanup"		"1"
+			}
+			"vc++2012_x86"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\Software\\vcredist_x86.exe"
+				"command 1"		"/quiet /norestart"
+				"description"		"VC++ 2012 Redist Installation (x86)"
+			}
+			"vc++2012_x64"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\Software\\vcredist_x64.exe"
+				"command 1"		"/quiet /norestart"
+				"description"		"VC++ 2012 Redist Installation (x64)"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+				}
+			}
+		}
+		"run process on uninstall"
+		{
+			"revocation"
+			{
+				"process 1"		"acpc.exe"
+				"command 1"		"/lic:deactivate /nogui"
+			}
+		}
+		"firewall"
+		{
+			"wargame european escalation"		"%INSTALLDIR%\\Wargame.exe"
+		}
+		"chmod"
+		{
+			"wargame.app/contents/info.plist"		"100744"
+			"wargame.app/contents/pkginfo"		"100744"
+			"wargame.app/contents/macos/wargame"		"100744"
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"58611"
+		{
+			"name"		"Win32 Main App"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"406281860045328605"
+				"local"		"1335478814504641974"
+			}
+			"maxsize"		"11561744904"
+			"encryptedmanifests"
+			{
+				"eugen"
+				{
+					"encrypted_gid_2"		"0BA8E2F17405B2012B228C98A28E56FF"
+					"encrypted_size_2"		"E8055999757A587089FF789F4301274C"
+				}
+				"eugen_marshals"
+				{
+					"encrypted_gid_2"		"354B65036AF6AD874582B5709FDE5458"
+					"encrypted_size_2"		"56FA08950522AF737D6DF401419627C1"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"5295358D03ABD4439D36E25FDBE3F651"
+					"encrypted_size_2"		"FDAA3C49902C9F0992FECAB173BECD19"
+				}
+			}
+		}
+		"58645"
+		{
+			"name"		"Win32 DLC 1"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7202154189337977645"
+			}
+			"maxsize"		"407543808"
+			"dlcappid"		"58645"
+		}
+		"58646"
+		{
+			"name"		"Win32 DLC 2"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1657744366016748082"
+			}
+			"maxsize"		"126230528"
+			"dlcappid"		"58646"
+		}
+		"58648"
+		{
+			"name"		"Win32 DLC 3"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1233803376455565277"
+			}
+			"maxsize"		"416178176"
+			"dlcappid"		"58648"
+		}
+		"58643"
+		{
+			"name"		"Win32 DLC 4"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6232708431955687078"
+			}
+			"maxsize"		"817053696"
+			"dlcappid"		"58643"
+		}
+		"58612"
+		{
+			"name"		"Win32 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"334708624141603050"
+			}
+			"maxsize"		"6"
+		}
+		"58613"
+		{
+			"name"		"Win32 Czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6937625324741313677"
+			}
+			"maxsize"		"6"
+		}
+		"58614"
+		{
+			"name"		"Win32 Hungarian"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8543732744582128255"
+			}
+			"maxsize"		"6"
+		}
+		"58615"
+		{
+			"name"		"Win32 tchinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"861663680544669814"
+			}
+			"maxsize"		"6"
+		}
+		"58616"
+		{
+			"name"		"Win32 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1527521525283336679"
+			}
+			"maxsize"		"6"
+		}
+		"58617"
+		{
+			"name"		"Win32 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7638758147306121825"
+			}
+			"maxsize"		"6"
+		}
+		"58618"
+		{
+			"name"		"Win32 english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2117743311137889025"
+			}
+			"maxsize"		"6"
+		}
+		"58619"
+		{
+			"name"		"Win32 spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6380625999854707547"
+			}
+			"maxsize"		"6"
+		}
+		"58640"
+		{
+			"name"		"Win32 german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4549846099118087264"
+			}
+			"maxsize"		"6"
+		}
+		"58641"
+		{
+			"name"		"Win32 french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5726975266321820734"
+			}
+			"maxsize"		"6"
+		}
+		"58642"
+		{
+			"name"		"Win32 italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7806045566796278493"
+			}
+			"maxsize"		"6"
+		}
+		"58650"
+		{
+			"name"		"MAC Main App"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3927253571095830694"
+				"local"		"7897328975584408651"
+			}
+			"maxsize"		"9541538794"
+			"encryptedmanifests"
+			{
+				"eugen"
+				{
+					"encrypted_gid_2"		"1F96C886A7718FF6E7DF65A9E42877D0"
+					"encrypted_size_2"		"1E61B60067DC1812CA1BF2711F9AF794"
+				}
+				"eugen_marshals"
+				{
+					"encrypted_gid_2"		"551694CDB6AD98BA8FE43C9E092673C3"
+					"encrypted_size_2"		"418DDE44D8D5711998B057BABAD1CBDC"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"77A4282BA0CE20178BA92812DA3076C2"
+					"encrypted_size_2"		"96A51747A58C72A1D298E6C66A709A79"
+				}
+			}
+		}
+		"58651"
+		{
+			"name"		"MAC Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4213599724277575256"
+			}
+			"maxsize"		"6"
+		}
+		"58652"
+		{
+			"name"		"MAC Czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"193370397670839537"
+			}
+			"maxsize"		"6"
+		}
+		"58653"
+		{
+			"name"		"MAC Hungarian"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"527804859781063252"
+			}
+			"maxsize"		"6"
+		}
+		"58654"
+		{
+			"name"		"MAC tchinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"459361746460998685"
+			}
+			"maxsize"		"6"
+		}
+		"58655"
+		{
+			"name"		"MAC Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2055958861122745616"
+			}
+			"maxsize"		"6"
+		}
+		"58656"
+		{
+			"name"		"MAC Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5427868106528532373"
+			}
+			"maxsize"		"6"
+		}
+		"58657"
+		{
+			"name"		"MAC english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"439819754260895351"
+			}
+			"maxsize"		"6"
+		}
+		"58658"
+		{
+			"name"		"MAC spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2431830987966853416"
+			}
+			"maxsize"		"6"
+		}
+		"58659"
+		{
+			"name"		"MAC german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"31248618291896794"
+			}
+			"maxsize"		"6"
+		}
+		"58660"
+		{
+			"name"		"MAC french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"260052883796622879"
+			}
+			"maxsize"		"6"
+		}
+		"58661"
+		{
+			"name"		"MAC italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3600722329801785135"
+			}
+			"maxsize"		"6"
+		}
+		"58662"
+		{
+			"name"		"Linux Main App"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1195268844214000335"
+				"local"		"2875167962013374183"
+			}
+			"maxsize"		"9547683057"
+			"encryptedmanifests"
+			{
+				"eugen"
+				{
+					"encrypted_gid_2"		"4987B181B4AF205200BD740046B3E5D8"
+					"encrypted_size_2"		"681B1B9FED6687155968E8CBC531DB84"
+				}
+				"eugen_marshals"
+				{
+					"encrypted_gid_2"		"3F5B483237B6BD2191B6FC367D49031D"
+					"encrypted_size_2"		"2BA399702D51ADD6C62B0167A89C1BBA"
+				}
+				"qa_test"
+				{
+					"encrypted_gid_2"		"6A6EC85BB03C22BBC4F5CE0DA35BE1D7"
+					"encrypted_size_2"		"3B5F8189C9E0186EE66D3D69C09973EA"
+				}
+			}
+		}
+		"58663"
+		{
+			"name"		"Linux polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4072807417015342375"
+			}
+			"maxsize"		"6"
+		}
+		"58664"
+		{
+			"name"		"Linux czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3041024280745076958"
+			}
+			"maxsize"		"6"
+		}
+		"58665"
+		{
+			"name"		"Linux hungarian"
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1342558415469350452"
+			}
+			"maxsize"		"6"
+		}
+		"58666"
+		{
+			"name"		"Linux tchinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6998964259055532952"
+			}
+			"maxsize"		"6"
+		}
+		"58667"
+		{
+			"name"		"Linux russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1934381563646151180"
+			}
+			"maxsize"		"6"
+		}
+		"58668"
+		{
+			"name"		"Linux japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3088829664227849870"
+			}
+			"maxsize"		"6"
+		}
+		"58669"
+		{
+			"name"		"Linux english"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1713340550660548678"
+			}
+			"maxsize"		"6"
+		}
+		"58670"
+		{
+			"name"		"Linux spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3495573568102295511"
+			}
+			"maxsize"		"6"
+		}
+		"58671"
+		{
+			"name"		"Linux german"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5929827727034605234"
+			}
+			"maxsize"		"6"
+		}
+		"58672"
+		{
+			"name"		"Linux french"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1843851744586013440"
+			}
+			"maxsize"		"6"
+		}
+		"58673"
+		{
+			"name"		"Linux italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1260799722382055522"
+			}
+			"maxsize"		"6"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2911276"
+				"timeupdated"		"1530526100"
+			}
+			"eugen"
+			{
+				"buildid"		"92699"
+				"description"		"Internal eugen test version"
+				"pwdrequired"		"1"
+			}
+			"eugen_marshals"
+			{
+				"buildid"		"51101"
+				"description"		"Eugen's Marshals"
+				"pwdrequired"		"1"
+			}
+			"local"
+			{
+				"buildid"		"45613"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"qa_test"
+			{
+				"buildid"		"4179771"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568045293"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
+ 

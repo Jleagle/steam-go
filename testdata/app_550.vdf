@@ -1,0 +1,478 @@
+"appinfo"
+{
+	"appid"		"550"
+	"common"
+	{
+		"name"		"Left 4 Dead 2"
+		"name_linux"		"Left 4 Dead 2"
+		"logo"		"205863cc21e751a576d6fff851984b3170684142"
+		"logo_small"		"205863cc21e751a576d6fff851984b3170684142_thumb"
+		"icon"		"7d5a243f9500d2f8467312822f8af2a2928777ed"
+		"clienticon"		"1a8d50f6078b5d023582ea1793b0e53813d57b7f"
+		"clienttga"		"efcc6f5a8ba4ec2d60b7722a0b824621dfc3f3e8"
+		"metacritic_url"		"pc/left4dead2"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"thai"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"dutch"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"romanian"		"1"
+		}
+		"clienticns"		"fe361b13100350e12b860a0534eb0ffe985f0a2f"
+		"oslist"		"windows,macos,linux"
+		"has_adult_content"		"1"
+		"type"		"game"
+		"metacritic_name"		"Left 4 Dead 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35"
+				"height_pct"		"83"
+			}
+		}
+		"store_asset_mtime"		"1416966089"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Valve"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Valve"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_9"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_14"		"1"
+			"category_13"		"1"
+			"category_15"		"1"
+			"category_12"		"1"
+			"category_8"		"1"
+			"category_22"		"1"
+			"category_16"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/left-4-dead-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"550"
+		"store_tags"
+		{
+			"0"		"1659"
+			"1"		"1685"
+			"2"		"1663"
+			"3"		"3859"
+			"4"		"1774"
+			"5"		"19"
+			"6"		"3843"
+			"7"		"1662"
+			"8"		"1667"
+			"9"		"3839"
+			"10"		"4345"
+			"11"		"5711"
+			"12"		"1669"
+			"13"		"3978"
+			"14"		"3835"
+			"15"		"4182"
+			"16"		"21"
+			"17"		"3841"
+			"18"		"4711"
+			"19"		"1708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Valve"
+		"dlcavailableonstore"		"0"
+		"gamedir"		"left4dead2"
+		"guideappid"		"22825"
+		"homepage"		"http://www.l4d.com"
+		"icon"		""
+		"installscript_macos"		"installscript_osx.vdf"
+		"languages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish"
+		"languages_macos"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish"
+		"minclientversion"		"1036"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"551"
+		"serverbrowsername"		"Left 4 Dead"
+		"state"		"eStateAvailablePreloadable"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"validoslist"		"windows,macos"
+		"otten"		"Version1"
+		"publisher"		"Valve"
+		"listofdlc"		"565,590,22825,222860,271840,322070"
+	}
+	"config"
+	{
+		"signedfiles"
+		{
+			"engine.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B1260881BDFE84463D88C6AB8DB914A2E593893C10508B8A5ABDF692E9A5419A3EDBAE86A052849983B75E3B425C18178B260003D857DF0B6505C6CF9C84F5859FCE3B63F1FB2D4818501F6C5FA4AD1430EEB081A74ABD74CD1F4AA1FCCA3B88DD0548AED34443CEB52444EAE9099AA4FE66B2E6224D02381C248025C7044079020111"
+			"server.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B1260881BDFE84463D88C6AB8DB914A2E593893C10508B8A5ABDF692E9A5419A3EDBAE86A052849983B75E3B425C18178B260003D857DF0B6505C6CF9C84F5859FCE3B63F1FB2D4818501F6C5FA4AD1430EEB081A74ABD74CD1F4AA1FCCA3B88DD0548AED34443CEB52444EAE9099AA4FE66B2E6224D02381C248025C7044079020111"
+		}
+		"signaturescheckedonlaunch"
+		{
+			"windows"
+			{
+			}
+		}
+		"usemms"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"left4dead2.exe"
+				"arguments"		"-steam"
+				"description"		"Launch"
+				"vacmodulefilename"		"resource\\sourceinit.dat"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"hl2.sh"
+				"arguments"		"-game left4dead2 -steam"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./hl2.sh"
+				"arguments"		"-game left4dead2 -steam"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Left 4 Dead 2"
+		"systemprofile"		"1"
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"580869391"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B1260881BDFE84463D88C6AB8DB914A2E593893C10508B8A5ABDF692E9A5419A3EDBAE86A052849983B75E3B425C18178B260003D857DF0B6505C6CF9C84F5859FCE3B63F1FB2D4818501F6C5FA4AD1430EEB081A74ABD74CD1F4AA1FCCA3B88DD0548AED34443CEB52444EAE9099AA4FE66B2E6224D02381C248025C7044079020111"
+		"checkguid"		"client.dll"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish"
+		"551"
+		{
+			"name"		"left 4 dead 2 common"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4050944490529318656"
+			}
+			"maxsize"		"9703120192"
+		}
+		"552"
+		{
+			"name"		"left 4 dead 2 client"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4922633136383237508"
+			}
+			"maxsize"		"3634494390"
+		}
+		"553"
+		{
+			"name"		"left 4 dead 2 mac content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"926359557100294565"
+			}
+			"maxsize"		"575697538"
+		}
+		"554"
+		{
+			"name"		"Left 4 Dead 2 Linux Cotent"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8234302340856697956"
+			}
+			"maxsize"		"556242187"
+		}
+		"555"
+		{
+			"name"		"left 4 dead 2 lv content"
+			"lvcache"		"1"
+			"manifests"
+			{
+				"public"		"3743891888016194774"
+			}
+			"maxsize"		"767432498"
+		}
+		"556"
+		{
+			"name"		"Left 4 Dead 2 french"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"7090687144959917094"
+			}
+			"maxsize"		"2200182363"
+		}
+		"557"
+		{
+			"name"		"Left 4 Dead 2 german"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"5718068038656149616"
+			}
+			"maxsize"		"2197017972"
+		}
+		"558"
+		{
+			"name"		"Left 4 Dead 2 spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1261978360396669810"
+			}
+			"maxsize"		"2191754761"
+		}
+		"559"
+		{
+			"name"		"Left 4 Dead 2 russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"9175835556789846487"
+			}
+			"maxsize"		"3779019494"
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4017680"
+				"timeupdated"		"1563990886"
+			}
+			"beta"
+			{
+				"buildid"		"4017680"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563392725"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1000"
+	}
+	"sysreqs"
+	{
+		"macos"
+		{
+			"supported"		"1"
+			"wants_fast_gpu"		"1"
+			"intel900"		"warn"
+			"intelx3100"		"warn"
+			"8086"
+			{
+				"27a6"		"warn"
+				"2a02"		"warn"
+			}
+			"10de"
+			{
+				"009d"		"deny"
+				"0391"		"deny"
+				"0393"		"deny"
+				"0395"		"deny"
+			}
+		}
+		"macos104"
+		{
+			"supported"		"0"
+			"os_min"		"macos1064_slgu"
+		}
+		"macos105"
+		{
+			"supported"		"0"
+			"os_min"		"macos1064_slgu"
+		}
+		"macos1058"
+		{
+			"supported"		"0"
+			"os_min"		"macos1064_slgu"
+		}
+		"macos106"
+		{
+			"supported"		"0"
+			"os_min"		"macos1064_slgu"
+		}
+		"macos1063"
+		{
+			"supported"		"0"
+			"os_min"		"macos1064_slgu"
+		}
+	}
+}
+ 

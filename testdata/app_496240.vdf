@@ -1,0 +1,576 @@
+"appinfo"
+{
+	"appid"		"496240"
+	"common"
+	{
+		"name"		"Onward"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"oslist"		"windows"
+		"logo"		"051186f68717d6f429706af9ac48a188d464db3e"
+		"logo_small"		"051186f68717d6f429706af9ac48a188d464db3e_thumb"
+		"icon"		"0d79b153cbe725d074ac953389ff6a70af1a4b22"
+		"clienttga"		"51612e69199e2ef99659e2df3bc82638a1efb3df"
+		"clienticon"		"134ad60f38f0d4dd2e47938278cd022dc2e01449"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"496240_eula_0"
+				"name"		"Onward EULA"
+				"url"		"http://store.steampowered.com//eula/496240_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Onward"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1541722021"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Downpour Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Downpour Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_40"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1472540160"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"496240"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"599"
+			"2"		"3859"
+			"3"		"19"
+			"4"		"4168"
+			"5"		"493"
+			"6"		"1774"
+			"7"		"1663"
+			"8"		"9"
+			"9"		"492"
+			"10"		"1678"
+			"11"		"4175"
+			"12"		"3839"
+			"13"		"1708"
+			"14"		"4667"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Downpour Interactive"
+		"publisher"		"Downpour Interactive"
+		"homepage"		"http://www.downpourinteractive.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Onward"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OnwardLauncher.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"OnwardLauncher.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"11"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Non-EAC launcher"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"internaltesting"
+				}
+			}
+			"13"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non-EAC"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"qa_testing"
+				}
+			}
+			"14"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Non-EAC"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"qa_testing"
+				}
+			}
+			"15"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non-EAC launcher"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"internaltesting"
+				}
+			}
+			"16"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Non-EAC"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"lantest"
+				}
+			}
+			"17"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non-EAC"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"lantest"
+				}
+			}
+			"18"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Non EAC"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"qa_testing2"
+				}
+			}
+			"19"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non EAC"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"qa_testing2"
+				}
+			}
+			"20"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"ESL August Qualifiers"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"eslaugustobserver2018"
+				}
+			}
+			"21"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"publictesting_2"
+				}
+			}
+			"22"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"publictesting_2"
+				}
+			}
+			"23"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr, -lan, -stage"
+				"description"		"ESL Leicester"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"eslbranch"
+				}
+			}
+			"24"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus, -lan, -stage"
+				"description"		"ESL Leicester"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"eslbranch"
+				}
+			}
+			"25"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus, -lan"
+				"description"		"ESL Katowice"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"eslbranch2"
+				}
+			}
+			"26"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non EAC"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"perftest"
+				}
+			}
+			"27"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Non EAC"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"trailerbranch"
+				}
+			}
+			"28"
+			{
+				"executable"		"Onward.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Non EAC"
+				"type"		"othervr"
+				"config"
+				{
+					"betakey"		"trailerbranch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"496241"
+		{
+			"name"		"Onward Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2019729633125650744"
+			}
+			"maxsize"		"26587742983"
+			"encryptedmanifests"
+			{
+				"ai_testing"
+				{
+					"encrypted_gid_2"		"1C7053389AF512D035D09F0EBD8C3820"
+					"encrypted_size_2"		"2BC40BCD338CABFCA7678C64E8D2D7F7"
+				}
+				"backupbuild"
+				{
+					"encrypted_gid_2"		"386683832BB39CBC2344867DFC0CFF41"
+					"encrypted_size_2"		"C7ECD4F526DF8051073662D799DC237D"
+				}
+				"coats"
+				{
+					"encrypted_gid_2"		"0BB6A025977099585815FDB18E10B39B"
+					"encrypted_size_2"		"190B87365B32D3DEC3185F2B03DC0515"
+				}
+				"eslbranch"
+				{
+					"encrypted_gid_2"		"83CFB460414B9075602B44B0BD38A43B"
+					"encrypted_size_2"		"7A21205866677F3284B436680EFE1804"
+				}
+				"eslbranch2"
+				{
+					"encrypted_gid_2"		"39BC60BA6174DE9461D93494D6D1A142"
+					"encrypted_size_2"		"8AF97C3824A18012CF9462AB7F1DBF08"
+				}
+				"forcetube"
+				{
+					"encrypted_gid_2"		"FEAD3154F59679758E7116BE85F6317D"
+					"encrypted_size_2"		"AC3E1FF66B3329820EAA693AA5E87E69"
+				}
+				"internaltesting"
+				{
+					"encrypted_gid_2"		"AD7AB797C7D78941DE52E76B961B0E28"
+					"encrypted_size_2"		"1D351D356202DEE28A85AD9606148E09"
+				}
+				"internaltesting_2"
+				{
+					"encrypted_gid_2"		"CDC760BDF9A9E562C180451C242363D4"
+					"encrypted_size_2"		"5C471F8AFBA0BACEBF7CA4026BDE06A6"
+				}
+				"internaltesting_3"
+				{
+					"encrypted_gid_2"		"AEC60C0A521575D55AE893BF0D54A1ED"
+					"encrypted_size_2"		"78A470C06D68D4EA8EA5B22939A46DC1"
+				}
+				"lantest"
+				{
+					"encrypted_gid_2"		"497ECF2C0B61464208F4CE0D657840FF"
+					"encrypted_size_2"		"0D88C2E34384EE9EFBE74F2F292BC7BB"
+				}
+				"perftest"
+				{
+					"encrypted_gid_2"		"14E6960330ABA740C542D5E7358BFE43"
+					"encrypted_size_2"		"3E772B5F91095172B1CFA7F6112376CE"
+				}
+				"prelim-hotfix"
+				{
+					"encrypted_gid_2"		"D81860E3937A4616B9BE7F3A6EA1D8EE"
+					"encrypted_size_2"		"E4D57E5B5FFB96B6EE22000E2804744B"
+				}
+				"qa_testing"
+				{
+					"encrypted_gid_2"		"E70CB41B406AC2CA34672FDA6084FA81"
+					"encrypted_size_2"		"050EBCA20708382BC85D0BD93E1AB6EC"
+				}
+				"smoke1.3"
+				{
+					"encrypted_gid_2"		"E6DE9D33DD968320E322C33020F13DE9"
+					"encrypted_size_2"		"FB70F84E55DAF4D9649DFEF231A3E068"
+				}
+				"superspherebranch"
+				{
+					"encrypted_gid_2"		"7C02707132F44179BD92DCCC22628428"
+					"encrypted_size_2"		"F1255A8EC37ED78E506A0E94CB921BAA"
+				}
+				"trailerbranch"
+				{
+					"encrypted_gid_2"		"D7A5B7FFD7581C3A27CB4B9008A9231A"
+					"encrypted_size_2"		"618135DA131F145908A793EC2A64932A"
+				}
+				"vresport"
+				{
+					"encrypted_gid_2"		"D1DBC0B3F74E27E8B601DAA8A18BFA7E"
+					"encrypted_size_2"		"3C59A2227AB203C12D2EE49F108786E2"
+				}
+			}
+		}
+		"workshopdepot"		"496240"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4173860"
+				"timeupdated"		"1567804246"
+			}
+			"ai_testing"
+			{
+				"buildid"		"3800498"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557227376"
+			}
+			"backupbuild"
+			{
+				"buildid"		"4132244"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567641259"
+			}
+			"coats"
+			{
+				"buildid"		"3974625"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1562169052"
+			}
+			"eslbranch"
+			{
+				"buildid"		"3895278"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559844910"
+			}
+			"eslbranch2"
+			{
+				"buildid"		"3895278"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559844921"
+			}
+			"forcetube"
+			{
+				"buildid"		"3653473"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1552792758"
+			}
+			"internaltesting"
+			{
+				"buildid"		"4102219"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565729395"
+			}
+			"internaltesting_2"
+			{
+				"buildid"		"3479437"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547829608"
+			}
+			"internaltesting_3"
+			{
+				"buildid"		"3374195"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1544141438"
+			}
+			"lantest"
+			{
+				"buildid"		"3075206"
+				"description"		"Testing LAN Server"
+				"pwdrequired"		"1"
+				"timeupdated"		"1535565568"
+			}
+			"perftest"
+			{
+				"buildid"		"4106104"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565813535"
+			}
+			"prelim-hotfix"
+			{
+				"buildid"		"3887548"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1559676710"
+			}
+			"qa_testing"
+			{
+				"buildid"		"4179013"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568029212"
+			}
+			"qa_testing2"
+			{
+				"buildid"		"4173860"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567789519"
+			}
+			"smoke1.3"
+			{
+				"buildid"		"3062854"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536711457"
+			}
+			"superspherebranch"
+			{
+				"buildid"		"3156435"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1537920255"
+			}
+			"trailerbranch"
+			{
+				"buildid"		"4156608"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567277582"
+			}
+			"vresport"
+			{
+				"buildid"		"3966835"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1563650660"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"50"
+	}
+}
+ 

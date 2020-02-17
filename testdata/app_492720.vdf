@@ -1,0 +1,1849 @@
+"appinfo"
+{
+	"appid"		"492720"
+	"common"
+	{
+		"name"		"Tropico 6"
+		"type"		"Game"
+		"logo"		"836dff604fef527cdb06b3797e71515313c43139"
+		"logo_small"		"836dff604fef527cdb06b3797e71515313c43139_thumb"
+		"icon"		"0d9e15d9004733641812fa57dfd44f168e77c4d9"
+		"clienticon"		"2a12d340a5f67f5ae54cf8ac7a0995d4b2ad2965"
+		"clienttga"		"076adaa3b2bd068849a1f244046f6124b087dd9d"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"492720_eula_0"
+				"name"		"Tropico 6 EULA"
+				"url"		"https://store.steampowered.com//eula/492720_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"metacritic_name"		"Tropico 6"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561394016"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Limbic Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kalypso Media"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Tropico"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1553878800"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tropico-6?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"492720"
+		"store_tags"
+		{
+			"0"		"4328"
+			"1"		"9"
+			"2"		"4695"
+			"3"		"12472"
+			"4"		"599"
+			"5"		"3810"
+			"6"		"4754"
+			"7"		"3859"
+			"8"		"1643"
+			"9"		"4853"
+			"10"		"4182"
+			"11"		"1695"
+			"12"		"597"
+			"13"		"6426"
+			"14"		"4136"
+			"15"		"5363"
+			"16"		"6971"
+			"17"		"1716"
+			"18"		"1742"
+			"19"		"10397"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Limbic Entertainment"
+		"publisher"		"Kalypso Media"
+		"homepage"		"http://www.worldoftropico.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/492720/"
+		"listofdlc"		"881960,1100250"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tropico 6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tropico6.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Tropico6.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tropico6.app/Contents/MacOS/Tropico6"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"workshopdepot"		"492720"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"492721"
+		{
+			"name"		"Tropico 6 - Windows - MainContent"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"296502206506762655"
+				"publicmacosbeta"		"3767208933068438283"
+			}
+			"maxsize"		"13323307426"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"A906E66781D1A309B8B98A49E38C60EF"
+					"encrypted_size_2"		"7771D1BED7881994E715E1C998E78D86"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"955CE99B474B900583C654907C60EFA8"
+					"encrypted_size_2"		"85996AC47A0C4EACCB3F3541A2127904"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"468E99BC65C058871BE2D7E0791E9681"
+					"encrypted_size_2"		"C011D0A64CD134A9CF569E28A48A7557"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"BBDB84802A0C30A8CBE865ADC255D4BD"
+					"encrypted_size_2"		"F36565E98523172DC5C02EAE549A839C"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"4F05766299CCDEF6278F26A69AD0E40F"
+					"encrypted_size_2"		"263686975CCFA683A54A3D16820F2BCD"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"C8BDD0D177B81723C660FDF4BC37520E"
+					"encrypted_size_2"		"3E0EA2083CCC8091FB41BD9CAB28082D"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"4D724A5DB231CB7143473CABA2D92487"
+					"encrypted_size_2"		"F65C46AF8BAED384CFA5D21DD17AB4D0"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"7B87AF68AA54CD57CBDF7BF05CD65EA3"
+					"encrypted_size_2"		"E4E8FB078739B7111C15EB3B9E84D532"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"4A53E8FDFB19DBE7D7B019A4D8C98C77"
+					"encrypted_size_2"		"3410E2C954F55628F20A9558613595F4"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"41E061EBFEDED0EA07D2FF62022F09C2"
+					"encrypted_size_2"		"E7014D234D19E29AB12EA1380E8776B5"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"4E7063DA5189410B0C816B620046BE66"
+					"encrypted_size_2"		"C021E48926FF43A98AA425926B606AC6"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"73009BAC11585EF89D9831BE5874129E"
+					"encrypted_size_2"		"57F52A0047D05D1D206A63F683731324"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"7B596421E1CBD6CE099F62A04FC91A74"
+					"encrypted_size_2"		"4A0CDC503E2C7C3BAA795C38ADA6F8E9"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"23934B2500B06BCE584D2D313415AAB8"
+					"encrypted_size_2"		"4F2AD24A1996C6705F74E098DD1DC9E0"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"2EF313E8186EEC7921A3BBBD0AE04A9B"
+					"encrypted_size_2"		"169A3D7864C8DBDD144075D3C6C718EB"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"DCF5F1F77537BBEAF520D4C1BBDD33DA"
+					"encrypted_size_2"		"D3F958072D3B255BEFBDEA267EB1C12D"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"CF7EDB848CFD7641C3FDB8281C671447"
+					"encrypted_size_2"		"0CA3AE6ED9D84C3D6BF6616A3D0CF3E4"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"0B575B80916A44EEF76F0872BF4A2744"
+					"encrypted_size_2"		"B6222518B922BC17AB42DBE1B8252803"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"95CB34C4B5F01CB6FAB96CA1210CF0BF"
+					"encrypted_size_2"		"B42B11AFDF8756E6BDA51B5392DFF28C"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"1E9902077A38E7A6D8448BBC2E580D2F"
+					"encrypted_size_2"		"EB7C8C886824749EE8D86FF530E34B9C"
+				}
+			}
+		}
+		"881962"
+		{
+			"name"		"Tropico 6 - Mac - MainContent"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"833949089312614819"
+				"publicmacosbeta"		"3156388516966463005"
+			}
+			"maxsize"		"25655600924"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"419035B672F7C1A3B4DE9453B5B0F663"
+					"encrypted_size_2"		"E78E6FD5E7E93F92DEE262AAF2B426FE"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"46B7A9A1230145F3B756A41A3E798FF1"
+					"encrypted_size_2"		"538E0A7C873A69CB1C41C5F662BD417F"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"11163B248D62BCBFAA5F0A6DED5E269A"
+					"encrypted_size_2"		"E52FF887CA1478734D8CB54A6F7761D9"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"01413B844B557B2A9AB0526BDDC67512"
+					"encrypted_size_2"		"9A6206596A8E9D19663B30842348E31F"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"3D5D7E5D5891BE693D7C1E4BDAA94530"
+					"encrypted_size_2"		"A6D3819D05D87B0F22E71E78458B1AD0"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"7176176378C79A485B82C286CA93D5D2"
+					"encrypted_size_2"		"817719AFC6E04E90CD64F2C6B1BC31A4"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"2ED050D07B98DE06E0C087663D2C7840"
+					"encrypted_size_2"		"E196F456C5171BFD5484A18A9104323C"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"ABC0085DC5EA57D9722268955D51F740"
+					"encrypted_size_2"		"411E072733ACE3CFD0D08B166EC9AF2D"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"64F81EC30A7AA1351EB7A6CED6AE6DAC"
+					"encrypted_size_2"		"1A2CAC2F176C2C3ED9DA159720509E3D"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"B1442D7426F60828DA9F36A1A642CFF1"
+					"encrypted_size_2"		"A607D9704BC56217FAE574FD4A910A26"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"476079572D323BBFBA8BCD9A56F89669"
+					"encrypted_size_2"		"529F1DB3A4541179237B771C9DB08077"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"6C6B4C7B23ED0E39645F426F32BF3971"
+					"encrypted_size_2"		"4EFB674132C0B329D979DC970E3F3388"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"27246E8AAD718A4412C18BD75634EB54"
+					"encrypted_size_2"		"64605800374A22DFCEC1050497F07313"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"6CC22874CF7FBFE58D79FA249801CDE3"
+					"encrypted_size_2"		"6DB35093A32BA7A82416E84EB1275FA6"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"CA4E31AE3021C4B1BF22ABB3F95AAC74"
+					"encrypted_size_2"		"65A54DB89B91D911E7C8D0586E157806"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"D56A0545E8681A268AABAFC3E3553433"
+					"encrypted_size_2"		"25E1F5677758185AC015D8F6CD5D3DBC"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"F366F0793FA82D00CF0038A98AEE0D16"
+					"encrypted_size_2"		"0B068C42E9D1166573DC98DF84744D4E"
+				}
+			}
+		}
+		"881963"
+		{
+			"name"		"Tropico 6 - Linux - MainContent"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8507676783038314547"
+				"publicmacosbeta"		"866889989142190878"
+			}
+			"maxsize"		"16866272430"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"CF1759E13C7236D1BB18FFE8B4B881F5"
+					"encrypted_size_2"		"4F1A9EFC6552A3B303D0A27962300600"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"F83AD67BD20514634358E5EE010F0715"
+					"encrypted_size_2"		"49760DD0A98AB2B2BACDD7615D8403E8"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"1952B4BA885D28D2250C70E359CA0E61"
+					"encrypted_size_2"		"B744D554B89AEF568C355F0B5473BEB0"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"1055A9FE5394FC366FF7E690F84F35DB"
+					"encrypted_size_2"		"66231CD7263A19CEDDA35CBDA1801AC0"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"41D956B3B7BD83924A4F5D04853C457B"
+					"encrypted_size_2"		"E6B3CC2134CD42C38FECAEB6DD02A65D"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"621FCB9579E88AC14D7F40AE2340A113"
+					"encrypted_size_2"		"F65C46AF8BAED384CFA5D21DD17AB4D0"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"9990C81441FC117A21E6A69463F40AAD"
+					"encrypted_size_2"		"29D94B24185193B025B15189206E73A4"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"9EAC91B878700EDBB9E531C8F409ABD5"
+					"encrypted_size_2"		"2892DE317D079A664DAF5D48E1192316"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"E894C933B54DEE193C76B557A8FFBA09"
+					"encrypted_size_2"		"E0BFCF0FE1B8B5AE07BCFF012FAF0BC0"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"7C749DA4A9F88E40CF877C58A6FDDAF3"
+					"encrypted_size_2"		"CFAD0260C15EEC935C92547AFF35A137"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"C50F2960C1693BB296797ECAE4FCAA1C"
+					"encrypted_size_2"		"527A77F7B61A877CD4F4AC1B16CFE36D"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"35FB75F619CFB5D4CDBEA7170977CE76"
+					"encrypted_size_2"		"9EED5E3F43D3E4DE504F196199B3E9DC"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"AFCAAF72626A2C8B9E97D73B27B7651C"
+					"encrypted_size_2"		"F9015538087BCAE57E0A46E70D96ADC9"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"B1FFF3EF605D276AB2E3F9A0E9058129"
+					"encrypted_size_2"		"108B7BC69C90E9C4A8403BD72DD34D7A"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"5261FDA709F219A4AF11E818285B64FD"
+					"encrypted_size_2"		"08DCB68A49E9D453B614CB4EED175B57"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"53135E32CCA77304BB1B4AD8341ADB99"
+					"encrypted_size_2"		"2F4D1FD6F3D0B904044DA9697E3EFB98"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"0262741ABB4FDF866EBE8A58E59B85FC"
+					"encrypted_size_2"		"5325CC5A55496A80851A9C2C4DA75CD3"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"6BA886B686CD6E73A51C11E5D158B3D6"
+					"encrypted_size_2"		"9482B02F6A20B28C611571A060E30992"
+				}
+			}
+		}
+		"492722"
+		{
+			"sharedinstall"		""
+			"name"		"Tropico 6 - MainContent - English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5408915363856120096"
+				"publicmacosbeta"		"4047275886941528439"
+			}
+			"maxsize"		"1893424201"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"636842C46151815881FCCDADA8CB59AD"
+					"encrypted_size_2"		"571B02B7203E2AE28E43324C263C3A22"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"A07C2E595AC0D6EFC6B1839194E37C29"
+					"encrypted_size_2"		"963FF1E5FFABDE7BD1BA51951AB7AC7A"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"ECD34846A7372D6F70A2DFD308D3F3E4"
+					"encrypted_size_2"		"57EF1C12AEFF9DD70930B15A6F84F219"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"FD462D4F496CCB7CFD3EF5A9EFC1C9C0"
+					"encrypted_size_2"		"567D5AA8BA3A75F9F36649023783B09F"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"D2296F59334B120E1511AF8427181CF5"
+					"encrypted_size_2"		"29DB7C607ECAE26812147C7B89385253"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"3295FBA84C3F2F8BF11E48E8A65E6DD6"
+					"encrypted_size_2"		"01D06E4D1A9A2F18D8F98AA734BC48B2"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"297F8659CA254FBA2951BAF7971745AB"
+					"encrypted_size_2"		"D46B0A7026D42935CA8A1CEBF50F0A76"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"81F5270A602C0BDF4959AFD18A8A37FD"
+					"encrypted_size_2"		"032360D0BE33F41A9A90D320F6144476"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"ADA29BD31D0C2D1043E7EE052D5768D3"
+					"encrypted_size_2"		"A7ECACBFA8B3AF7E7CFB27BFD73BA85A"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"F8C98318539DB6986ABC58B0451D1754"
+					"encrypted_size_2"		"B01FBB7A979134E27ADAC46B3FCD538F"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"8E3520EDAF696F288CBB065D82666CFA"
+					"encrypted_size_2"		"7E434D544941E70A933B9931697AE82D"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"8E869EF9E0564B98357178534E86F17C"
+					"encrypted_size_2"		"F8771FE73A64918C7A6AE7B2DCB8C6A4"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"AD633089BC9C9AAB13F1E921CDFD8F4B"
+					"encrypted_size_2"		"EBD4A168BE31E11E7297088DE33F8D7C"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"3ED326DDBCFB43C023A492111F77D902"
+					"encrypted_size_2"		"8773A0C6E79D0117571440A86691BD5D"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"C0288B196112F197890FD70B44312204"
+					"encrypted_size_2"		"63198218B81D0C460A7EA148FB7A1002"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"DC26E6460415A7C63F196475902BC11B"
+					"encrypted_size_2"		"71539075A7CC5934F3E2A7CE563C8668"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"A8A97E503A1BCBCB43DC10D9CC8BD193"
+					"encrypted_size_2"		"1E99B5389707E52570CA00009E5D3628"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"453607466235A09D0C26EB3DCC594D73"
+					"encrypted_size_2"		"3331BAD932F29783B8F727D7C37A54E1"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"EFC86AC29501A293F4FAD77181B7A21A"
+					"encrypted_size_2"		"EAC9A13D832CECB053F5E916B3890AC5"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"CB51A7BE526E630F3213BFF833BD90A0"
+					"encrypted_size_2"		"1C3F30182A24689C33948260CD0EBEF6"
+				}
+			}
+		}
+		"492723"
+		{
+			"sharedinstall"		""
+			"name"		"Tropico 6 - MainContent - German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"2345146908571090301"
+				"publicmacosbeta"		"804177462327104083"
+			}
+			"maxsize"		"3051278771"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"F775FA750A5B792F463A3DCFCEF90E5A"
+					"encrypted_size_2"		"485F2985F0A39C3DDD0FCF1124F93BCC"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"DD0C65127E24C7DBD311BB005721A412"
+					"encrypted_size_2"		"F55EA59A66E4E9DA22B38E7D8F3DCD06"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"D144377464F63378DCF324EABA14B47A"
+					"encrypted_size_2"		"2E47D1E0E15CAEFCE6572246487814A9"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"C9FB6C74BB1F307407067897210EAFA0"
+					"encrypted_size_2"		"EDBC00CD9653636381EA0D1EFAC6E226"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"10C72A2CCA5F82E3333D1D97105DA5EF"
+					"encrypted_size_2"		"D1118CD828C73032E66FAED95E9C4794"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"4C71C433DAFE944CD7F4C0DF760BBF7A"
+					"encrypted_size_2"		"EE6CCA2CDDA44CBDDC0B6712E7D7607F"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"216B6B6209B037BD01A2A16A23F8EECF"
+					"encrypted_size_2"		"2219D22A0AFEF47DDC01FD449F4EE6EE"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"C0D32AF2B67285E38253DB758412A788"
+					"encrypted_size_2"		"D4F39363C57BA1421D3468EBF70702B6"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"178C8E09D1DE29567FAE1182951BEEC5"
+					"encrypted_size_2"		"F0E1E8ABB8B2D6D242031F0A4D269F50"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"A63BD4F22AF4D6D56CB293C91F4BC087"
+					"encrypted_size_2"		"86A85DB6F636F7CD2D47722C0B9BB94D"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"937DC5D82196BEBDA3980AD52CD598BE"
+					"encrypted_size_2"		"0E730E31051D77632554FDAB80DA8941"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"651A3DE495D67085CF2D26A98C743B14"
+					"encrypted_size_2"		"DEE35EECC5E456F2C1C4C5F71DB441F3"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"4FFBDB86C70E529FE370FC6EF6D2081E"
+					"encrypted_size_2"		"C17651D89CE6854EA35ACCDDBEB89C2A"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"9860162EB1D877EF7A41CF4ADAA1593A"
+					"encrypted_size_2"		"50F61089FDB2C50A059D4AF7B6711A58"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"629252E49D7F6B0D6838C4929A9A0FC8"
+					"encrypted_size_2"		"D3D347A7EDDA12945B4D7BE072504AEC"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"F30B34562382ADEF60C3E5E4AF99D17F"
+					"encrypted_size_2"		"5F448F4CBBDD89F5038A4983FB535854"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"0CB74F323B45BEFFEEC800D3FB16DFD2"
+					"encrypted_size_2"		"40EA0E0D10C1E0409723F79D7D8B7326"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"963A57EF10B2EC5DF9DE513695E1DED5"
+					"encrypted_size_2"		"46C6DAA6D3A4524489A36D715FED673F"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"233A11B51B20D201C5042C61B8A42942"
+					"encrypted_size_2"		"0BE1F20B180CF026A1FD2C6D91DDA3E7"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"2825143CC864F8C3BE16F6ED4EE4AEF3"
+					"encrypted_size_2"		"B1E8C0DC7CCD4CECCF36E24004879340"
+				}
+			}
+		}
+		"492724"
+		{
+			"name"		"Tropico 6 - MainContent - French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"2219330604104187621"
+				"publicmacosbeta"		"246959118624177829"
+			}
+			"maxsize"		"2893961235"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"FF4E617030A0010DFC45CAA5CB2297D0"
+					"encrypted_size_2"		"FCAED266BD0C421808506C9018E8CCF8"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"C9D235D9ACEB1D8DE11F01511453943B"
+					"encrypted_size_2"		"CC3B5E41632E37E71BCC561EB31CF96E"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"768B595CAF0FFE778AB9929DD948FAAC"
+					"encrypted_size_2"		"CAE534D4EAD5E24D74FC1C2C420C8DCD"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"F3BF74A05680D5E7979968365031EFEE"
+					"encrypted_size_2"		"9778A35A46B18F4CA1CD90896E23E17A"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"CABDA384A851AB8DDBD0E31FF3672FAA"
+					"encrypted_size_2"		"4E749D0957A7B521CEAA4746234939CA"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"4916A94ADD7649B8FEA7D781084FA630"
+					"encrypted_size_2"		"BB052D8EDC691F6C1714877F866C15FB"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"3CAE07F26904AA5F694A3287DCB8A82F"
+					"encrypted_size_2"		"1F884F53287C448F9D4DB39B762DDDCD"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"7BE8F4CBD32CBBC8CEBBF06E1FFA8E2A"
+					"encrypted_size_2"		"81F9B53E6EA9921243E6C901BEE91667"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"3C1F6DCDE222CD83EC16689BE8D1FCE0"
+					"encrypted_size_2"		"137F9A9177FC5ECE9B2A10EEC5F362C4"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"4F9AC211662EBE3D583CDEFA7793224D"
+					"encrypted_size_2"		"8ACBA727FF0563C82709451E96645632"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"8A16CF6C9FA0F2136D9F23FB6892601C"
+					"encrypted_size_2"		"DF2163136190B3689268E310D02127BC"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"0EA102FCEB573F1912C296830FB51827"
+					"encrypted_size_2"		"6A0783D52D91FD2DD9851B37890BD2D8"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"79C3C4C84EFC66D567DA317172300F98"
+					"encrypted_size_2"		"F84D34D5DA22FCA8385F932F8F2F9BCD"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"6CA89D371268DB3CFA68F95EB9FDD7D2"
+					"encrypted_size_2"		"94C9954036C523ABE085FF841ECA949E"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"119CEA42CCEE25908D5A1154EDE4534C"
+					"encrypted_size_2"		"9B76F076F05CD925AB3D95A5D9566FC3"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"D9861D1E890C84034F25AEFDF38F2F5A"
+					"encrypted_size_2"		"DB08C52DACB559BFEFDDFE8D34A78EA4"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"8208C0D5A8C0E70F322980D009276319"
+					"encrypted_size_2"		"E1443990404AD4716F00E1BD05AAE5A6"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"0687C66458156C67EE5C228DEB2B5182"
+					"encrypted_size_2"		"78C7B0677E35A57CB9A8947625C8CB63"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"7D7E4573C7574F206416403B34EAFA90"
+					"encrypted_size_2"		"BA3AE98E7B30F239D2A2DB69DEC691BC"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"B6C2AD5B0F08E1C2268786F544A14719"
+					"encrypted_size_2"		"739E92FFA61BF22E0A04A026E9AB291F"
+				}
+			}
+		}
+		"492725"
+		{
+			"name"		"Tropico 6 - MainContent - Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"6034269202432669839"
+				"publicmacosbeta"		"619816772186697571"
+			}
+			"maxsize"		"2915253296"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"A5D3C7C507F8C3821B3194C99C8604F5"
+					"encrypted_size_2"		"11E150C4106AEF09E78502079530AB6E"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"31D826304EEF1AB143C8B9F8FA12386C"
+					"encrypted_size_2"		"169D71AAB93509B6F23E9101EBDF46B4"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"41481C5ACCD144227E03C8617449A289"
+					"encrypted_size_2"		"45AC6547D31AEE5A2C2C24582677DAEF"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"1E924336B114E157178E7D76C8DE793B"
+					"encrypted_size_2"		"C187952B27D703A3C9281804C894158C"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"A0089A7B8D130B9AEA8A0AB806993C5B"
+					"encrypted_size_2"		"CE211372DF07F0521522EAE78C035300"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"C9FE0032B9A5F080ACAFC320FC5FD267"
+					"encrypted_size_2"		"78023C902C86CAA657DC547F2A160DB4"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"9CC9D097EF4882EC8C2155E2E68B62CC"
+					"encrypted_size_2"		"BD54DE38E0C82798A160DB770842D7E1"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"A3674AD216F8E087F244F8FFC36B063A"
+					"encrypted_size_2"		"2FA661942F5FCA830959E20308B17D3C"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"381B79F7B1353187D1A3B11CBC54EA01"
+					"encrypted_size_2"		"3DFA35E8B2E68F6450A2E1BB1E3E6017"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"D4556C68D25C0095BE75A22F17821C55"
+					"encrypted_size_2"		"AD023F549F9274DDE3BBF704F27FBE6F"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"3B6024EECF2A4B670FFA11BCC2CDC63B"
+					"encrypted_size_2"		"38F46284E15769EA62CA8930F0D193A4"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"B0D3956F8FE9535F0B308C0B14001622"
+					"encrypted_size_2"		"0365DE5B1E71B1BA494805E6D24E2C7A"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"5AE9835FCF592608DF91338CF6872A27"
+					"encrypted_size_2"		"9FC4075DD8DDF75872A84DB8829C71CF"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"759C172BA6B44B119C43DF34E6267579"
+					"encrypted_size_2"		"4C36D3FF1B0128AAA54D4C1957496F3E"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"D6265C974D3D2D2F357CDEE138F9DA7C"
+					"encrypted_size_2"		"82FA809E23C9DA5F9BD3283CB2DB569F"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"9BD70C12998326ACC1D2808D4FB3DA4A"
+					"encrypted_size_2"		"E70D873B148F342A437CC5E07AC3BAE9"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"E267436FCC14E56FBF2A864BB123722B"
+					"encrypted_size_2"		"280680F65D6D88608136607B15D5C62C"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"542D31321E6F458A5B4DE6CF229D7205"
+					"encrypted_size_2"		"9EA54917915D956A1E2C4EB4615F02E5"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"C73F4EAD4315BDC72917B24C89C7F5C4"
+					"encrypted_size_2"		"491CD21B0F64F24D8259C5E2427798A9"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"B324640882C4754D884AE531BB289638"
+					"encrypted_size_2"		"A074440ABA7988E107ADCBEFEDB9DA7F"
+				}
+			}
+		}
+		"492726"
+		{
+			"name"		"Tropico 6 - MainContent - Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"6302257336794444910"
+				"publicmacosbeta"		"4632049064210979825"
+			}
+			"maxsize"		"2853956725"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"B4260E875763D085F0527167E94ED58F"
+					"encrypted_size_2"		"F464CC0C638986477E99499520EAEB29"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"82D5BB1914A25685E52B5BF921532F6D"
+					"encrypted_size_2"		"3FA717963F1577E62B2DBD2EFCEEC881"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"7E6375A2CDBC3AD0F7A64C90DBF61490"
+					"encrypted_size_2"		"C93AD0DABB667EA5259C23DF9628502D"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"EC9235EDAAB49DF357347E7F75F6B0EF"
+					"encrypted_size_2"		"E4F59B47420472A40CDF0B2B12A0E217"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"8E13F605F5FF4299E5096D467AB17810"
+					"encrypted_size_2"		"F27DA87CC9315CE71AFB9DF01F5465AA"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"43EA2E2716B1B3FDC446A2F6E37CA1B6"
+					"encrypted_size_2"		"FC4B5B3D2BAE1A0F61F9F404E9A503F1"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"1ACE127A7B4CF22B2D0953F5B8807D25"
+					"encrypted_size_2"		"41C027C43D0F2B7421A59FBD7C3CB381"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"6750BB1E363AD29917D1138C118E3EE3"
+					"encrypted_size_2"		"33061DBFC28FA48103AFCDE2401EC27B"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"AC821015277C7F05DC05544A98E87EAF"
+					"encrypted_size_2"		"15B82BA8F558A3C7F97CCA057B26FC81"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"5918A6A3A78A026693D8C1933159EE9B"
+					"encrypted_size_2"		"74FF1D70F209C31DE56A9D5AD2698108"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"DAA0BA1B82DF602D86A2E26EF7C3B404"
+					"encrypted_size_2"		"2E7579A2AE0AC628548D72EB96F264C3"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"BBCC53290FA6AE121177BEC39A5D7DD6"
+					"encrypted_size_2"		"AD17EA95E922660F699F130F278E98EC"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"DD05AFBFF0609FEE7280ED5E0A4B16F9"
+					"encrypted_size_2"		"4916D55E1A1498B4FF43269283466F67"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"FEAD6012FAD2312FA9B41DE2F460FC78"
+					"encrypted_size_2"		"02A12167014A35763CFF7F72441C7484"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"EDA4E5FD871A2CCB79948AD47FF02117"
+					"encrypted_size_2"		"4C4A15E45AEF672208D5BD6E55502B5E"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"2EFA01B0717F2C435C1494B0B1E8757D"
+					"encrypted_size_2"		"F36AB32929C5EE2C15AE868026F57072"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"DE775EAD5D38E1AAEE89D3EC5B822807"
+					"encrypted_size_2"		"172AD7C9F38FFE7C6924208CC47F93E3"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"2A02C29AFE3061D7A3424E8E6C2A98DA"
+					"encrypted_size_2"		"456DE5604C738D83A19813A0EFE866DF"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"7D24926E1F8E85C3270A024789CD7663"
+					"encrypted_size_2"		"2DC3F5FEF84DE846CEBF4C1C122376E2"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"7345C11675C817095F58867BCADD4CA6"
+					"encrypted_size_2"		"A443E9A0CA7841A2E70A7ABEDFE2455D"
+				}
+			}
+		}
+		"492727"
+		{
+			"name"		"Tropico 6 - MainContent - Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"4891160102616580419"
+				"publicmacosbeta"		"4265763402563986815"
+			}
+			"maxsize"		"2257582405"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"BADF49F4B1DDED492FE0DA5776E74F7A"
+					"encrypted_size_2"		"D3C023C5BA39CE6F7373A970EF08B143"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"FF656277BDB5418BD958180EF04EFF2A"
+					"encrypted_size_2"		"03780D40D6366ACC88D3CB2EFF0D4AF1"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"8CF0DFAF7F8528B8E005299820F7BC75"
+					"encrypted_size_2"		"C1E686638BFA86B09C22245CA9625348"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"CFB6C6D9724D2489037551E68021BF81"
+					"encrypted_size_2"		"FBFF67673A34AD97B81B1F6DA1933458"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"E2FFD0F480B0CDFB28192BA48C636F51"
+					"encrypted_size_2"		"5F77717C10D5993599808B8AB217AAF2"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"BF4C8811890C7FE4754884BDC3B73FA4"
+					"encrypted_size_2"		"474FFE413FAE01365731C9B8D613E571"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"5331A89BF40C007EB859693FA2ABE872"
+					"encrypted_size_2"		"2AB3AFCEAB185632F00058585F359701"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"82CB9611C734E9576519FF968089BB8E"
+					"encrypted_size_2"		"042E456EDC349ED529E4E65616604887"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"DDCA2E49689111D5BD546F553186C4AA"
+					"encrypted_size_2"		"E05E25C58BA83724B74B6D044752BC73"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"37ADEA198838CFD295F94892B9AE914C"
+					"encrypted_size_2"		"44A403FEB93BB521567F52E9590A7D85"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"51387CB2E0A13D2E3610B694773495D6"
+					"encrypted_size_2"		"483E262844DE168FD131996B99C4533B"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"BDFD777A28DEF38831C6DB24872DC3D5"
+					"encrypted_size_2"		"F8B5ACABEC069DDB8D01DD92F750835B"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"54C1851AA38B47CFEFB7682B6A4A8F4C"
+					"encrypted_size_2"		"8E20143BCCFC4CCE91AD0BF6486B5F79"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"F55BC854677029231596199FF6B81635"
+					"encrypted_size_2"		"2B9D501C17289B8E335514A23A17DD81"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"7805154C7115ABFD4334B6672C6D10CB"
+					"encrypted_size_2"		"2C4A756F1C5A180D9E07430C0E3905B7"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"AFF93D2737D87C70D86AC0B8A53F104A"
+					"encrypted_size_2"		"76C7597017754C9F2B704BCE1549D2A2"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"B0A5B098D98356CACB044A42A6F838E6"
+					"encrypted_size_2"		"011FBC6627526E3C7AA866F97E65CD49"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"72A1F3F8FEBDB0B68AAB0B7DCB7771CE"
+					"encrypted_size_2"		"472F14273B302F8EED0E79F6A6C7ED1B"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"4FE9EF3115F215B9E1A8CA0A77CCE0AE"
+					"encrypted_size_2"		"306C6F709107CA4694FAD403AFFB31AE"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"849164CE604184F2ECB4B803C00CD7A9"
+					"encrypted_size_2"		"DDD65B8CB393FA07B895325D9A75944E"
+				}
+			}
+		}
+		"492728"
+		{
+			"name"		"Tropico 6 - MainContent - Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"2089478290477580611"
+				"publicmacosbeta"		"9044822759261539731"
+			}
+			"maxsize"		"2082124270"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"0FEB7E24F972F80D31A493C4A9FAB93E"
+					"encrypted_size_2"		"9487A5AE7B3D5928FEDEB5A8D3091AE4"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"BC1AA98C0641B46D98259659CDEED560"
+					"encrypted_size_2"		"467513BB25C151E728F4FD23BD82AEF5"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"62E3AE8600456575DACF0535002DEB01"
+					"encrypted_size_2"		"0E247BBE23F26C9AE715447C6E67C592"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"F710F66CEF007AD31314CB82989AB6B8"
+					"encrypted_size_2"		"1718FC521A3ADEE62CEC0D529B123B8E"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"585DB393E7B5487F87F2A56094AA3897"
+					"encrypted_size_2"		"C2123230CE45EA9B0113932731C3EC2E"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"04C29CA5B8EB7B7488744986D737AB6A"
+					"encrypted_size_2"		"8BCD7E23592B6B88490CFA442B3C22F4"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"8279C15F9D54240AED96A9DBF729DB4C"
+					"encrypted_size_2"		"022476A3F1C2A03F83A9A54BA01C3DB1"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"057F5E63CAA9E28651BD2B0F1AA952FC"
+					"encrypted_size_2"		"8FA8AD6F89F393D83EFCF2A697E10248"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"353E824C794741763BBD8E7766D55754"
+					"encrypted_size_2"		"A3D4CED5F10C0E862A1C91C6B27B0C7B"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"B996314190E6EAEFF7D55E09F2C2C86F"
+					"encrypted_size_2"		"ABE15629EE48A1DEC670D4424B0BC4E8"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"5EE9464CBB3495BBA4BC054422271109"
+					"encrypted_size_2"		"3FB2424C54349932C330ADE4EA363729"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"344C54F2B8D7C2760A337F88A1A53211"
+					"encrypted_size_2"		"DB5E47D45F3B65DF25F5F5429BE14625"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"85E48B97585246D9D2E3DB64972E66B4"
+					"encrypted_size_2"		"8C92DEA01FC3E707008F0FE05CADEEC0"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"2399EB9E3731BF3482E6C0ACEFE087B7"
+					"encrypted_size_2"		"47E1CB875C2758E6ACE527D9AB8F9B82"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"7B2AD914484CFD3563CB484622C7E22A"
+					"encrypted_size_2"		"E6F4B259AE141EA3C15B92A455405E75"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"71F6B22607246CF1BD9B775753F85435"
+					"encrypted_size_2"		"915A2A217825E7C45A4C577F29E81744"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"25503B6CEA71DF00943F6EB7A68F2776"
+					"encrypted_size_2"		"AC7CA44EE232C8C7BB6BC294AF3D7C6F"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"20EC3F851EA2ACBAEB3191250C8D939E"
+					"encrypted_size_2"		"0F96686038CAA03C83734B72FB0DFE32"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"16C14FE62F994E829A4062DE5393D380"
+					"encrypted_size_2"		"34A310245E7CB4689F02CDF3B77DB799"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"7B05C1C1E6BEE856FD1F28892BFA7A70"
+					"encrypted_size_2"		"183036A46DCB61D22D6A402A184A7751"
+				}
+			}
+		}
+		"492729"
+		{
+			"name"		"Tropico 6 - MainContent - Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"2665564832849157009"
+				"publicmacosbeta"		"1250630044190440283"
+			}
+			"maxsize"		"5950311829"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"F4AD820CA78D729C5F2850EE2E1DA0E4"
+					"encrypted_size_2"		"30033816A62207BDF9C5FD8675E4E002"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"ED35DA399D800A5BB01140EC7A7C4DC8"
+					"encrypted_size_2"		"5C86442BE71DFB1E8F8E7D9299CC22E5"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"B2D8DB6BA6D2311418C1CB94B08A5817"
+					"encrypted_size_2"		"182F0D7F4AE4E11ABF814B2F2A439264"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"2653E84F707A8938F467AC180EAD6E72"
+					"encrypted_size_2"		"3A1C46EDB7CB42CE88C4F525C6E61BF0"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"80BFC5EEE9581ABCE9AF6149652DF18D"
+					"encrypted_size_2"		"193CD5BEF9864832C994BD2F4F689693"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"208EA40F52AA5C1B68781046B6E20AB2"
+					"encrypted_size_2"		"6B35D5575E6483541D136D7B6774A1B8"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"57BD8690E6032ECE82441321A0801104"
+					"encrypted_size_2"		"DBA4D98839D8DF0C990739C715F92ED2"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"EB638E2D51EDA079C31CE177DE6C056C"
+					"encrypted_size_2"		"F8A1D2895ECAEB6B8A279CE84DED214A"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"3B9CC66F7EFC787B061E5030A67950F5"
+					"encrypted_size_2"		"12675C15448515B0306E6E945005E7D9"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"899BC42AF1DDF02386563106273CAC1F"
+					"encrypted_size_2"		"A373EB2A64175EA4E115B2A0E2AB1168"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"AA2E444D08CCEA8DC82DEF9E066CC8D5"
+					"encrypted_size_2"		"CD6C956F96890C8E2C16A53068462713"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"49F6A9656322DA24617BA054809AB07C"
+					"encrypted_size_2"		"BB600CF77B24BD822E2AA773DE432A9B"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"032768017503FAFB55097EED72B406D4"
+					"encrypted_size_2"		"D7BBB5AC85449F07851F62B3B4A98A22"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"AE04FBAE201FC5D6F15FC5B0AEFF6046"
+					"encrypted_size_2"		"B9F968331DBE4F643C8FF073E2ADA5BD"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"C5898A9C1B0E2FAE43577EE7966E1EC0"
+					"encrypted_size_2"		"9BC96D182A192C0F3AB84A34E6CF812E"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"3A5DB688299413C5F67CF3E1EE999690"
+					"encrypted_size_2"		"EFAF326615F304EF58640890A3D7938A"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"92AC7982BECDF227AFE5C22492F1279A"
+					"encrypted_size_2"		"F91C315EE3274F91E5DF0BE4285DCB15"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"1C375B49B2DCFB15FC9A3339C966E237"
+					"encrypted_size_2"		"A7BB6E5434D9DCE58D9B20E7DBA45113"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"F5744260974DA1FAE066F3C790577A41"
+					"encrypted_size_2"		"1C4CF8110720AB579347C395F653DE05"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"59F1FE44CFBA354B9FC934BBD62D779A"
+					"encrypted_size_2"		"AA2B7954B04ECB8F7D74BBF7CF229AF6"
+				}
+			}
+		}
+		"881961"
+		{
+			"name"		"Tropico 6 - MainContent - Korean"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"3000919053264686723"
+				"publicmacosbeta"		"1093541170286204965"
+			}
+			"maxsize"		"1891448149"
+			"encryptedmanifests"
+			{
+				"amd_testbuild"
+				{
+					"encrypted_gid_2"		"7F83EA8885349956ACF66D418436D135"
+					"encrypted_size_2"		"AC3AE737FB1661E8F45ED061AE86B9C1"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"27CB0CA6FB54E743A1C0B048A13362B9"
+					"encrypted_size_2"		"AFE9BEA9765A6A428A82DE151D53B95A"
+				}
+				"developer_testbuild"
+				{
+					"encrypted_gid_2"		"0D49C06AAE841870EA6D7DAE351F681F"
+					"encrypted_size_2"		"F24B7EFA09CF8565B2B3CD18CEFCA2ED"
+				}
+				"exclusive"
+				{
+					"encrypted_gid_2"		"2B1381CE0D6323C4992BD4C43290B1E8"
+					"encrypted_size_2"		"81F5C7A40E31F8E787FFFCC99DA0AC9A"
+				}
+				"ext_partner"
+				{
+					"encrypted_gid_2"		"2F3E0FE0AC8DC7A57CA52BAC6ABAD2C5"
+					"encrypted_size_2"		"42B2B0D520213000B6D87C24F58EB571"
+				}
+				"ext_qa"
+				{
+					"encrypted_gid_2"		"7E0D8289A04E199EC559E557D66E179A"
+					"encrypted_size_2"		"BDFE301179DA572EB9FEBF417E6414B8"
+				}
+				"ext_qa2"
+				{
+					"encrypted_gid_2"		"9047045031AE930AF59BFA79BEF7DDE9"
+					"encrypted_size_2"		"37514C8C957E1A5D64BB70E01E94441A"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"FFE9F2C5C2C3196C2C6799303AB2592A"
+					"encrypted_size_2"		"07C1D77E1CD7A8FA091CB32542A35FF8"
+				}
+				"intel_testbuild"
+				{
+					"encrypted_gid_2"		"DB528458E19CA28D760F10AA41926AE5"
+					"encrypted_size_2"		"42EE12CD0C57D351272F293D93327EAB"
+				}
+				"kalypso_intern"
+				{
+					"encrypted_gid_2"		"E1E90F4EC4A95F1B69DB5977EA4EC360"
+					"encrypted_size_2"		"4A2D2608F2CDE4D62FD6278F325B5FC5"
+				}
+				"kalypso_testbuild"
+				{
+					"encrypted_gid_2"		"4752C699D48056E329865A06098E3633"
+					"encrypted_size_2"		"18C38CB662A7804660B7ABD76EDBB2E3"
+				}
+				"patch1"
+				{
+					"encrypted_gid_2"		"A3E4736A0B14CCD2A948598FE31AA40F"
+					"encrypted_size_2"		"97F89F0995182C1957357CDC926FE548"
+				}
+				"patch2"
+				{
+					"encrypted_gid_2"		"169519657415C597F42B303D460B18B0"
+					"encrypted_size_2"		"82CB1F5776AA128480EFF9FC8EEACB25"
+				}
+				"patch3"
+				{
+					"encrypted_gid_2"		"3FE621236CD858AE1C6A3439A8B14066"
+					"encrypted_size_2"		"53EF7B01BC6EDF8F3A0A1B8021E7DC6D"
+				}
+				"patch4"
+				{
+					"encrypted_gid_2"		"B2E718D42C978EC86F875961E7532789"
+					"encrypted_size_2"		"620BAE2E1509C473EBF58352E0AA54F1"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"5850B5ADF35F05031A361EE47578B935"
+					"encrypted_size_2"		"4D43303306AE176F35760A2488D86230"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"E30A57030B5C1E49AC8EEA74CF3082E5"
+					"encrypted_size_2"		"0C862FCEAA76B6D36C1BC011554AFFF1"
+				}
+				"rtgame"
+				{
+					"encrypted_gid_2"		"6B1FB85B9ABCCC6CB05F96FABE8C0F89"
+					"encrypted_size_2"		"A5A7A1332B9DCA2601AB62C711812CDE"
+				}
+				"square_enix"
+				{
+					"encrypted_gid_2"		"84B140DA111F9FF79090811B020FBE8E"
+					"encrypted_size_2"		"0AF9A8744B537B3E9B50E4C5E6095902"
+				}
+				"whisper_games"
+				{
+					"encrypted_gid_2"		"F5A9E0A3B8C89939BF7482CC91DFE90C"
+					"encrypted_size_2"		"90F8D62DA5C0A42800A79F1AFF83F600"
+				}
+			}
+		}
+		"881960"
+		{
+			"name"		"Tropico 6 El Prez Edition Content (881960) Depot"
+			"manifests"
+			{
+				"public"		"1227314909265760908"
+			}
+			"maxsize"		"510304902"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"253F68EDFB02DCDC0E9870AAFA23F0CE"
+					"encrypted_size_2"		"7A2CDEEF7998DDEC2CCD249830F10AA2"
+				}
+				"h2int"
+				{
+					"encrypted_gid_2"		"7FE18204529446870D317D37EE040F97"
+					"encrypted_size_2"		"E1A24102A231689EF563CAB160618AB7"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"75CE263494E24B75F54D826B4C4CC99E"
+					"encrypted_size_2"		"4C1EF80CF23EDF57305E49815CB34AFD"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"4CF0B238E005623ED0ACC121DEA9B030"
+					"encrypted_size_2"		"71C98B0A28895A77B699A2DB752DEA0E"
+				}
+			}
+			"dlcappid"		"881960"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3958240"
+				"timeupdated"		"1561726457"
+			}
+			"amd_testbuild"
+			{
+				"buildid"		"3454114"
+				"description"		"Testing Build for AMD"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547824165"
+			}
+			"baseline"
+			{
+				"buildid"		"3682849"
+				"description"		"Baseline Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553952414"
+			}
+			"developer_testbuild"
+			{
+				"buildid"		"3979341"
+				"description"		"Testbuild Cheats enabled"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562317150"
+			}
+			"exclusive"
+			{
+				"buildid"		"3604480"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551444477"
+			}
+			"ext_partner"
+			{
+				"buildid"		"3826828"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1558077481"
+			}
+			"ext_qa"
+			{
+				"buildid"		"4154145"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567500131"
+			}
+			"ext_qa2"
+			{
+				"buildid"		"3910662"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1560341409"
+			}
+			"h2int"
+			{
+				"buildid"		"3618428"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551878007"
+			}
+			"intel_testbuild"
+			{
+				"buildid"		"3454114"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548079792"
+			}
+			"kalypso_intern"
+			{
+				"buildid"		"4154145"
+				"description"		"Kalypso QA Intern"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567409895"
+			}
+			"kalypso_testbuild"
+			{
+				"buildid"		"3979341"
+				"description"		"Testbuild Cheats enabled"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562225132"
+			}
+			"patch1"
+			{
+				"buildid"		"3693734"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554377522"
+			}
+			"patch2"
+			{
+				"buildid"		"3709629"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1554459760"
+			}
+			"patch3"
+			{
+				"buildid"		"3750082"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557993536"
+			}
+			"patch4"
+			{
+				"buildid"		"3825004"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1557999316"
+			}
+			"press"
+			{
+				"buildid"		"3645420"
+				"description"		"Don't touch without permission"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552895146"
+			}
+			"publicmacosbeta"
+			{
+				"buildid"		"3910662"
+				"description"		"MacOS Public Beta"
+				"timeupdated"		"1560348183"
+			}
+			"review"
+			{
+				"buildid"		"3645420"
+				"description"		"Build for press reviews"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553779797"
+			}
+			"rtgame"
+			{
+				"buildid"		"4154145"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567764670"
+			}
+			"square_enix"
+			{
+				"buildid"		"3533357"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1549441439"
+			}
+			"whisper_games"
+			{
+				"buildid"		"3778768"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1556607139"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Tropico6/Saved/SaveGames/"
+				"pattern"		"*.t6sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinMyDocuments"
+				"addpath"		"My Games/"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		""
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
+ 

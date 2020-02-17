@@ -1,0 +1,599 @@
+"appinfo"
+{
+	"appid"		"4920"
+	"common"
+	{
+		"name"		"Natural Selection 2"
+		"logo"		"ab7b1142e17865e6d3472d3fd4b345620ec5f36f"
+		"logo_small"		"ab7b1142e17865e6d3472d3fd4b345620ec5f36f_thumb"
+		"icon"		"6c2af07776e2042ee63bc3b6aeda129b88939829"
+		"oslist"		"windows,linux"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"russian"		"1"
+			"finnish"		"1"
+			"swedish"		"1"
+			"czech"		"1"
+		}
+		"clienticon"		"a0e0d97509fbe2b1155753a75c1f82a3492de774"
+		"clienttga"		"04eb29027cf80f669cadd350531168cb5cda7c4a"
+		"osarch"		"64"
+		"type"		"game"
+		"metacritic_name"		"Natural Selection 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"60.093348891481924"
+				"height_pct"		"65.95744606841549"
+			}
+		}
+		"store_asset_mtime"		"1560452200"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unknown Worlds Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Unknown Worlds Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_8"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_22"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1351641600"
+		"metacritic_score"		"80"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/natural-selection-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"4920"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"9"
+			"2"		"1663"
+			"3"		"5711"
+			"4"		"19"
+			"5"		"3942"
+			"6"		"1676"
+			"7"		"1673"
+			"8"		"492"
+			"9"		"3878"
+			"10"		"1774"
+			"11"		"1685"
+			"12"		"1669"
+			"13"		"1708"
+			"14"		"3839"
+			"15"		"1755"
+			"16"		"4166"
+			"17"		"4295"
+			"18"		"3843"
+			"19"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Unknown Worlds Entertainment"
+		"gamedir"		"Natural Selection 2"
+		"homepage"		"http://www.naturalselection2.com"
+		"icon"		""
+		"installscript"		"InstallScript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"4921"
+		"serverbrowsername"		"Natural Selection 2"
+		"state"		"eStateAvailable"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"publisher"		"Unknown Worlds Entertainment"
+		"listofdlc"		"4930,4931,4932,4940,250890,250891,250892,250893,274150,280760,280761,280762,280763,296360,310100,333230,441480,471240,494080,740650,740660,870920,926020"
+	}
+	"config"
+	{
+		"systemprofile"		"1"
+		"contenttype"		"3"
+		"installdir"		"Natural Selection 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ns2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"x64/ns2_linux"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"LaunchPad.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+			"4"
+			{
+				"executable"		"ns2.exe"
+				"arguments"		"-repair"
+				"description"		"Run repair routine"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"4921"
+		{
+			"name"		"Natural Selection 2 content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1260725911454178271"
+				"beta"		"6092589216706538755"
+				"hitreg-testing"		"8122032738372851982"
+			}
+			"maxsize"		"12480172796"
+			"encryptedmanifests"
+			{
+				"backup"
+				{
+					"encrypted_gid_2"		"EF637431A6BB52B6CBEFF7594D962D25"
+					"encrypted_size_2"		"CFDD4E19B222901BC0ED159EACAE9139"
+				}
+				"build_253"
+				{
+					"encrypted_gid_2"		"4ACE3FBF2DF283DF6D814BF116637BD0"
+					"encrypted_size_2"		"E2CCB3721072076D165DE9A76A7368B2"
+				}
+				"build_277"
+				{
+					"encrypted_gid_2"		"82781F462FB06A9F713F0B3943CDD239"
+					"encrypted_size_2"		"8B5DDA06622945B7265B804B6F5271E3"
+				}
+				"build_307"
+				{
+					"encrypted_gid_2"		"63C796370E0C8CED9DAFF1B65A5AD740"
+					"encrypted_size_2"		"C1D14AB59A8704EF222C746B480F575B"
+				}
+				"build_317"
+				{
+					"encrypted_gid_2"		"91D282FF9D3BAFA0EA68927937E887C3"
+					"encrypted_size_2"		"C4D72561DE2C8EA25544B1140CDC3244"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"5DD9EDE6C94AEBDC89DE2867316227A7"
+					"encrypted_size_2"		"826DFC8169657052EFCFE2EE331A3D9B"
+				}
+				"maptesting"
+				{
+					"encrypted_gid_2"		"A1766F2AF0E84E70692104D0B2356EEA"
+					"encrypted_size_2"		"7B18F2C30730FC93EE3302F3ADD1E013"
+				}
+				"nsl_season_10"
+				{
+					"encrypted_gid_2"		"2F6E3536F28F7B0A2339F6ADE9DDF98F"
+					"encrypted_size_2"		"3A3954A1CAC526CB1547410035E3E96A"
+				}
+				"nsl_season_9"
+				{
+					"encrypted_gid_2"		"D789F78754E19B00285D9DB4C02D315B"
+					"encrypted_size_2"		"ECBCA7937DCD4D3776F1B4A248F6ECC9"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"E60111A61561496EF07D06F7551AACFC"
+					"encrypted_size_2"		"6B62F9B6C3B3525289346501B245AFFA"
+				}
+				"throwback"
+				{
+					"encrypted_gid_2"		"C142486F8FD97CB5AA54921F2DE45AE1"
+					"encrypted_size_2"		"7746D5A8CCDA2917B8A144F8C017B8EE"
+				}
+			}
+		}
+		"4932"
+		{
+			"name"		"Deluxe Edition Content"
+			"manifests"
+			{
+				"public"		"736376647959871829"
+			}
+			"maxsize"		"221054901"
+			"encryptedmanifests"
+			{
+				"build_253"
+				{
+					"encrypted_gid_2"		"76CB850480809BDA2CAB5F09A2A4D6EC"
+					"encrypted_size_2"		"64772200B4C81AC54EED068AE4C79A54"
+				}
+				"throwback"
+				{
+					"encrypted_gid_2"		"3927805CD68BD3314DD3C3DE87957F01"
+					"encrypted_size_2"		"BF2CFEE2F4DB61665FA25F5DF7870B86"
+				}
+			}
+			"dlcappid"		"4932"
+		}
+		"4923"
+		{
+			"name"		"Natural Selection 2 Linux binaries"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1343021376433908259"
+				"beta"		"3227759492038114387"
+				"hitreg-testing"		"5237510094436513964"
+			}
+			"maxsize"		"226428300"
+			"encryptedmanifests"
+			{
+				"backup"
+				{
+					"encrypted_gid_2"		"69A51D95E0D74DE51A5B52DDFEF122FA"
+					"encrypted_size_2"		"1683CFC8BBFF1F1BE6ACB10F9C3E0DA9"
+				}
+				"build_253"
+				{
+					"encrypted_gid_2"		"789D33584163B8D2F9FB0E7E39D2B208"
+					"encrypted_size_2"		"7E6198420DC716906E612F2D69B4E225"
+				}
+				"build_277"
+				{
+					"encrypted_gid_2"		"747D31EA01D7E976D9D79A8B92345D03"
+					"encrypted_size_2"		"6BC2F40ADF9AA95F05A98355EE305021"
+				}
+				"build_307"
+				{
+					"encrypted_gid_2"		"1347DB771679475D7B9906457C663406"
+					"encrypted_size_2"		"9FCCBC03F06227222553420435631946"
+				}
+				"build_317"
+				{
+					"encrypted_gid_2"		"09DEBAECA0D5D815BF62658C84357458"
+					"encrypted_size_2"		"7EA9171C1673AF300E66C2E362131FE7"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"E6738296B219B675E16F345DA289DB40"
+					"encrypted_size_2"		"007327FB3A2644137960CDE06FA62023"
+				}
+				"nsl_season_10"
+				{
+					"encrypted_gid_2"		"1A0D25D9AF39759013F571C908B7B8F9"
+					"encrypted_size_2"		"7147CCC44844172B5D7034C0D021AE1C"
+				}
+				"nsl_season_9"
+				{
+					"encrypted_gid_2"		"6AF06FD0A92C226810121424A8DFFDA7"
+					"encrypted_size_2"		"15A21EB60E77C29EFE10DE8EFAEB8A2B"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"1215ABCCA3696A68BD39389022DC49FA"
+					"encrypted_size_2"		"50CFCC587351749DF6241DDED391B8A5"
+				}
+				"throwback"
+				{
+					"encrypted_gid_2"		"ED1AC9C6146A7F200C43ECBDFED10F07"
+					"encrypted_size_2"		"85D33D455965F763D368236DE223CED1"
+				}
+			}
+		}
+		"4924"
+		{
+			"name"		"Natural Selection 2 Windows binaries"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6525468833061972692"
+				"beta"		"6895816339759324349"
+				"hitreg-testing"		"1147237084021097916"
+			}
+			"maxsize"		"104341474"
+			"encryptedmanifests"
+			{
+				"backup"
+				{
+					"encrypted_gid_2"		"52FAE61F6A8A67C3F0DA24883A5B7F3D"
+					"encrypted_size_2"		"4B2FD5094573E8837F16F99B5A4597E7"
+				}
+				"build_253"
+				{
+					"encrypted_gid_2"		"7B6BDAC212B78473A271497402B3ED40"
+					"encrypted_size_2"		"826D9DB995091430FF6C74E7325EB3A1"
+				}
+				"build_277"
+				{
+					"encrypted_gid_2"		"222449C94732F9D1B4016266C3B4EDA2"
+					"encrypted_size_2"		"78E884B4C67AAB73C6CD6D35E58EBB75"
+				}
+				"build_307"
+				{
+					"encrypted_gid_2"		"3E301051F13C19896991CA619445263D"
+					"encrypted_size_2"		"600A369873847F15D22B0B18591BF7E6"
+				}
+				"build_317"
+				{
+					"encrypted_gid_2"		"F426FC7E061A7131CA469F652DA12DA4"
+					"encrypted_size_2"		"22BE07E6136751BBF45319921E48644D"
+				}
+				"experimental"
+				{
+					"encrypted_gid_2"		"31745408AA8BA74BFA11EA5433AB141A"
+					"encrypted_size_2"		"AEF9E828348B188F982F76DFEE143CCC"
+				}
+				"nsl_season_10"
+				{
+					"encrypted_gid_2"		"12083E6D638B4402F72880902E178D71"
+					"encrypted_size_2"		"7C41FBA2EE46AF09BE3E74F0E013220A"
+				}
+				"nsl_season_9"
+				{
+					"encrypted_gid_2"		"3F6B6AB697E5B160144AD9A544EA4EEF"
+					"encrypted_size_2"		"6FEE91E06A2D1A824864DC34EC415F73"
+				}
+				"testing"
+				{
+					"encrypted_gid_2"		"5A8EB1EC5D25F21D034901DBF47AE76F"
+					"encrypted_size_2"		"17D1CBB286591FC506C2D7870FB26A68"
+				}
+				"throwback"
+				{
+					"encrypted_gid_2"		"CBF8EC460E57C7644B94B214C1138B0C"
+					"encrypted_size_2"		"605BF367E87311EAC8C0B21747AC15D0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3957883"
+				"timeupdated"		"1561587266"
+			}
+			"backup"
+			{
+				"buildid"		"3102241"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547495254"
+			}
+			"beta"
+			{
+				"buildid"		"4178171"
+				"description"		"Patch beta release branch"
+				"timeupdated"		"1568006725"
+			}
+			"build_253"
+			{
+				"buildid"		"108901"
+				"description"		"Archived Reinforced (253) Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1547729825"
+			}
+			"build_277"
+			{
+				"buildid"		"836707"
+				"description"		"Archived Build 277"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526323373"
+			}
+			"build_307"
+			{
+				"buildid"		"1275761"
+				"description"		"Archived Build for Art Source"
+				"pwdrequired"		"1"
+				"timeupdated"		"1473365628"
+			}
+			"build_317"
+			{
+				"buildid"		"2063706"
+				"description"		"Archived last 32bit only build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1507300226"
+			}
+			"experimental"
+			{
+				"buildid"		"4102160"
+				"description"		"New features not quite ready for Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565722736"
+			}
+			"hitreg-testing"
+			{
+				"buildid"		"2587625"
+				"description"		"Current build with hitreg debug tools enabled"
+				"timeupdated"		"1520530028"
+			}
+			"maptesting"
+			{
+				"buildid"		"4050731"
+				"description"		"Maptesting branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564252381"
+			}
+			"nsl_season_10"
+			{
+				"buildid"		"1385228"
+				"description"		"ENSL Season 10"
+				"pwdrequired"		"1"
+				"timeupdated"		"1477328375"
+			}
+			"nsl_season_9"
+			{
+				"buildid"		"1040738"
+				"description"		"ENSL Season 9"
+				"pwdrequired"		"1"
+				"timeupdated"		"1459260567"
+			}
+			"testing"
+			{
+				"buildid"		"4114797"
+				"description"		"Testing branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566037407"
+			}
+			"throwback"
+			{
+				"buildid"		"3471652"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1547585376"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
+ 

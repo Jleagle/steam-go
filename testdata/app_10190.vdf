@@ -1,0 +1,414 @@
+"appinfo"
+{
+	"appid"		"10190"
+	"common"
+	{
+		"name"		"Call of Duty: Modern Warfare 2 - Multiplayer"
+		"clienticon"		"ebd9e091cf636fcbacce51d0bae3e5edf40d51c9"
+		"clienttga"		"358fae37bddfb5a43dd748e369ab01e0498298be"
+		"icon"		"7dd7c2d5bce2413131762d7cbee3f059614ed69d"
+		"logo"		"070cad064b3a81d6ede0f6054d9eb763004a07e0"
+		"logo_small"		"070cad064b3a81d6ede0f6054d9eb763004a07e0_thumb"
+		"clienticns"		"9197567257a08b3901378157cbfae74935143a93"
+		"type"		"game"
+		"metacritic_name"		"Call of Duty®: Modern Warfare® 2 - Multiplayer"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Infinity Ward"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"10190"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+	}
+	"extended"
+	{
+		"canskipinstallappchooser"		"1"
+		"dependantonapp"		"10180"
+		"developer"		"Infinity Ward"
+		"gamedir"		"Modern Warfare 2 - Multiplayer"
+		"homepage"		"http://www.infinityward.com"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"languages"		"english,french,german,italian,spanish,polish,russian,japanese"
+		"noservers"		"1"
+		"onquitdemomsg"		"http://cdn.store.steampowered.com/message/684719971963563875/"
+		"order"		"1"
+		"primarycache"		"10184"
+		"retailautostart"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"suppressims"		"1"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"no_revenue_accumulation"		"1"
+		"publisher"		"Activision"
+		"listofdlc"		"10195,10196,10197"
+	}
+	"config"
+	{
+		"usemms"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"iw4mp.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"COD_MW2_MP.app"
+				"description"		"Multiplayer"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"systemprofile"		"1"
+		"contenttype"		"3"
+		"installdir"		"Call of Duty Modern Warfare 2"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100E796335382143ED4C7941C6006AAAA58B6FA9E04B9ABF7B6B85C8592E3CC13F8C99C714B1A3AED7C4A8977F8BA3EEF03FC7ECB8A8FBA01B4AC9B795263904ED7AD08600270CAFD906EA9BF54D47017482FE8AFDCB5BC80F8C12AA712B2A0FE385536EA25A5DA0E074BD26E71D01FCDEB4D476C60F2874C5A9D96523558EF44FB020111"
+		"checkguid"		"iw4mp.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"10196"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 - Resurgence Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1027296475802215551"
+			}
+			"maxsize"		"372850898"
+			"dlcappid"		"10196"
+		}
+		"10195"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 - Stimulus Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4404426848645331640"
+			}
+			"maxsize"		"352805074"
+			"dlcappid"		"10195"
+		}
+		"10184"
+		{
+			"name"		"Call of Duty Modern Warfare 2 mp binaries"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6865674089963406760"
+			}
+			"maxsize"		"4702120"
+		}
+		"10182"
+		{
+			"name"		"Call of Duty Modern Warfare 2 content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"4435174963"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10186"
+		{
+			"name"		"Call of Duty Modern Warfare 2 LV DE content"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"7773907803"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10183"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7723140879"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10185"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7707597104"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10187"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7853722967"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10188"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7727353373"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10189"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7825589771"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10191"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7617964485"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10192"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7703582201"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"10193"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"maxsize"		"7773907803"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278300"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Binary"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"385996767344838275"
+			}
+			"maxsize"		"13964887"
+		}
+		"278301"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Stimulus Pack"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7480450085793114503"
+			}
+			"maxsize"		"352805074"
+		}
+		"278302"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Resurgence Pack"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8173601917745645979"
+			}
+			"maxsize"		"372850898"
+		}
+		"278280"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"maxsize"		"4323750035"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278282"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"maxsize"		"7723140765"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278283"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"maxsize"		"7707596984"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278284"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"maxsize"		"7853722856"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278285"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"maxsize"		"7727353262"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"278286"
+		{
+			"name"		"Call of Duty: Modern Warfare 2 Omicron German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"maxsize"		"7773907690"
+			"depotfromapp"		"10180"
+			"sharedinstall"		"2"
+		}
+		"baselanguages"		"english,german,french,italian,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2980862"
+				"timeupdated"		"1533229225"
+			}
+			"beta"
+			{
+				"buildid"		"2980862"
+				"description"		"MW2 Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533054955"
+			}
+			"omicron"
+			{
+				"buildid"		"2980862"
+				"description"		"Mac Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532642545"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"100"
+	}
+}
+ 

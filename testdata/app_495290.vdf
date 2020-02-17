@@ -1,0 +1,491 @@
+"appinfo"
+{
+	"appid"		"495290"
+	"common"
+	{
+		"name"		"AccuRC 2"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"495290_eula_0"
+				"name"		"AccuRC 2 EULA"
+				"url"		"http://store.steampowered.com//eula/495290_eula_0"
+			}
+		}
+		"clienttga"		"a5ff69559426697d0b4af91c6e30ffc3937a2ae9"
+		"clienticon"		"f7241ec114f8659d0d673d74bf1143d65b41efa1"
+		"icon"		"a256a8142e4ec2e275dc8e6669223dd7c4b655ba"
+		"logo"		"05e2658313109e1456e143e399f4f217f4b7cb83"
+		"logo_small"		"05e2658313109e1456e143e399f4f217f4b7cb83_thumb"
+		"releasestate"		"released"
+		"osarch"		""
+		"controllervr"
+		{
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"AccuRC 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1565810535"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"trasnatech"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"trasnatech"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1497250800"
+		"steam_release_date"		"1499893198"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"495290"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"699"
+			"2"		"701"
+			"3"		"15045"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"trasnatech"
+		"publisher"		"trasnatech"
+		"homepage"		"http://www.accurc.com"
+		"listofdlc"		"642810"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"AccuRC 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"arguments"		"-vrmode NONE"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"arguments"		"-force-glcore -vrmode NONE"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC (OpenGL)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"arguments"		"-window-mode exclusive -vrmode NONE"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC (Exclusive Window)"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"AccuRC.app"
+				"arguments"		"-vrmode NONE -force-glcore -screen-fullscreen 0"
+				"description"		"OSX"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"arguments"		"-show-screen-selector -vrmode NONE"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC (Resolution Dialog)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin\\AccuRC.exe"
+				"workingdir"		"bin\\"
+				"description"		"AccuRC"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"495290"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"495291"
+		{
+			"name"		"AccuRC 2 Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1588428355404655568"
+			}
+			"maxsize"		"9914417431"
+			"encryptedmanifests"
+			{
+				"2_0_5"
+				{
+					"encrypted_gid_2"		"7F5E6A61283CED31F6EB10CE63EEAD32"
+					"encrypted_size_2"		"010CC575E751315980ADD22B5522BD9D"
+				}
+				"2_0_6"
+				{
+					"encrypted_gid_2"		"BAC7B812AF66B1A0527B788439E37950"
+					"encrypted_size_2"		"CAE0B18E6BD361DEFC20320F760356F6"
+				}
+				"2_0_8"
+				{
+					"encrypted_gid_2"		"46FBCCCF520155E7905F8A9BDAF02DD2"
+					"encrypted_size_2"		"BC68228370C71D3297294E7C3E9548A6"
+				}
+				"patch_branch"
+				{
+					"encrypted_gid_2"		"E5B354C7FA2352071732DDDBF183F194"
+					"encrypted_size_2"		"0FDB5D1EE13ED98B5E5F56A7A25FC220"
+				}
+				"version_3"
+				{
+					"encrypted_gid_2"		"8113A0B1298A9FABF650B9A2A72916A0"
+					"encrypted_size_2"		"A62EBD7BBBEE2F5CF4C68EA6B2FD5183"
+				}
+				"version_3_dev"
+				{
+					"encrypted_gid_2"		"8863623210C39785A815413B10635786"
+					"encrypted_size_2"		"00405EBB898EF0D91728D87C672A80A3"
+				}
+			}
+		}
+		"495292"
+		{
+			"name"		"AccuRC 2 Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"495293"
+		{
+			"name"		"AccuRC 2 OSX Depot"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"2745959658949105298"
+			}
+			"maxsize"		"10111379572"
+			"encryptedmanifests"
+			{
+				"2_0_5"
+				{
+					"encrypted_gid_2"		"9F6A7978EDEF383C528728E438C819BE"
+					"encrypted_size_2"		"DCCB2D615AB31AF52930CCE3FFE3F556"
+				}
+				"2_0_6"
+				{
+					"encrypted_gid_2"		"1A1C439DE2F078F7760594BBC6FB4112"
+					"encrypted_size_2"		"386A622786652BEE3F43E32361896C5E"
+				}
+				"2_0_8"
+				{
+					"encrypted_gid_2"		"840E5C32F3FC4B1F06ABB1563823FC9D"
+					"encrypted_size_2"		"76A288C441F5915627CAB5DEF9FC7B96"
+				}
+				"patch_branch"
+				{
+					"encrypted_gid_2"		"38D40C6D87D9C1F39D5D1F7DE11DF5E8"
+					"encrypted_size_2"		"7A6EC41F2CD30214FD5BA3E6224B33D1"
+				}
+				"version_3"
+				{
+					"encrypted_gid_2"		"74B53CA4CA96E047E280825F5EB50ADD"
+					"encrypted_size_2"		"884C3E0709E9FB5013AB410F5D6D7984"
+				}
+				"version_3_dev"
+				{
+					"encrypted_gid_2"		"71D75C8EE3503F4AD6EAD5C986EECD25"
+					"encrypted_size_2"		"616E9CC4DBD159DCC8E9ABFAB994A0F4"
+				}
+			}
+		}
+		"495294"
+		{
+			"name"		"AccuRC 2 x64 Depot"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"8415378106023141333"
+			}
+			"maxsize"		"5157069548"
+		}
+		"495295"
+		{
+			"name"		"AccuRC 2 Linux Depot"
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4178489"
+				"timeupdated"		"1568017067"
+			}
+			"2_0_5"
+			{
+				"buildid"		"2728743"
+				"description"		"previous 2.0.5 build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524859908"
+			}
+			"2_0_6"
+			{
+				"buildid"		"3252758"
+				"description"		"final 2.0.6 build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1540834521"
+			}
+			"2_0_8"
+			{
+				"buildid"		"3972175"
+				"description"		"final 2.0.8 before update"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565782189"
+			}
+			"alpha"
+			{
+				"buildid"		"4178489"
+				"description"		"bleeding edge development"
+				"timeupdated"		"1568017048"
+			}
+			"beta"
+			{
+				"buildid"		"4178489"
+				"description"		"beta build"
+				"timeupdated"		"1568017036"
+			}
+			"developer"
+			{
+				"buildid"		"4178489"
+				"description"		"dev"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568016925"
+			}
+			"patch_branch"
+			{
+				"buildid"		"3497889"
+				"description"		"for patching"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548334069"
+			}
+			"version_3"
+			{
+				"buildid"		"4146891"
+				"description"		"v3"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567013019"
+			}
+			"version_3_dev"
+			{
+				"buildid"		"4173573"
+				"description"		"dev"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567783712"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Docs"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

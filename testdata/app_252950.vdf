@@ -1,0 +1,767 @@
+"appinfo"
+{
+	"appid"		"252950"
+	"common"
+	{
+		"name"		"Rocket League"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"3ea06e4358d60a692914fd961298de33ad4073b2"
+		"clienttga"		"c19bd4f2f1d45a8494ef89bc96370dc55176d733"
+		"icon"		"9ad6dd3d173523354385955b5fb2af87639c4163"
+		"logo"		"3854e40582bc14b8ba3c9ee163a0fa64bc538def"
+		"logo_small"		"3854e40582bc14b8ba3c9ee163a0fa64bc538def_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"252950_eula_1"
+				"name"		"Rocket League EULA"
+				"url"		"https://store.steampowered.com//eula/252950_eula_1"
+			}
+		}
+		"osarch"		""
+		"metacritic_name"		"Rocket League"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40"
+				"height_pct"		"53"
+			}
+		}
+		"store_asset_mtime"		"1566944395"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Psyonix, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Psyonix, Inc."
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_27"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1436252400"
+		"steam_release_date"		"1436252340"
+		"metacritic_score"		"86"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/rocket-league?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"252950"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"1679"
+			"2"		"3878"
+			"3"		"701"
+			"4"		"699"
+			"5"		"5711"
+			"6"		"3843"
+			"7"		"7226"
+			"8"		"1734"
+			"9"		"1685"
+			"10"		"4136"
+			"11"		"19"
+			"12"		"1756"
+			"13"		"7368"
+			"14"		"10816"
+			"15"		"3841"
+			"16"		"4182"
+			"17"		"597"
+			"18"		"4840"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Psyonix, Inc."
+		"publisher"		"Psyonix, Inc."
+		"homepage"		"http://www.rocketleague.com/"
+		"listofdlc"		"384260,391680,393580,399730,405170,408610,425610,438690,457160,457161,457162,457190,457191,457192,457193,457194,457195,457196,457197,457198,457199,675280,675290,772150,772820,823220,838770,848820,910940,919100,943740,971930,1002130,1018530,1077690"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"rocketleague"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/RocketLeague.exe"
+				"workingdir"		"Binaries/Win32"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RocketLeague.app/Contents/MacOS/TAGame"
+				"workingdir"		"RocketLeague.app/Contents/MacOS"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Binaries/Linux/RocketLeague"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"531000196"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		""
+			}
+			"1587909035"
+			{
+				"controller_type"		"controller_generic"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"true"
+			}
+			"1587913713"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1587916813"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1587924278"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1587928526"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1587929809"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700921585"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700930253"
+			{
+				"controller_type"		"controller_generic"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700933442"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700934224"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700935741"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+			"1700942943"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,devqa,enzyme,enzyme2,faceit,localize,preview,psyonix,psyonix2scrub,steamos,unstable"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"depotdeltapatches"		"0"
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"workshopdepot"		"252950"
+		"hasdepotsindlc"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229033"
+		{
+			"name"		"PhysX System Software 9.14.0702"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"60039803"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"252951"
+		{
+			"name"		"TAGame Win"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4497334411015826001"
+			}
+			"maxsize"		"10470853971"
+			"encryptedmanifests"
+			{
+				"devhttp"
+				{
+					"encrypted_gid_2"		"2B7A1929BBB6E5B3A1F1580FF0207AE4"
+					"encrypted_size_2"		"56E6EDFE6AFBC463783F5DBF25DA0B0C"
+				}
+				"devqa"
+				{
+					"encrypted_gid_2"		"DF57B35A02CA81C4237F396DC2348D12"
+					"encrypted_size_2"		"09AD6727638C7548A5A485C2D97FD9F0"
+				}
+				"enzyme"
+				{
+					"encrypted_gid_2"		"F49992FE5ABA5963BA25D134E2B56D3C"
+					"encrypted_size_2"		"E75D8BF9E24AFE0FE4E396FF885A51AA"
+				}
+				"localize"
+				{
+					"encrypted_gid_2"		"8E2BF20C7205554AFDA88772864FB8E4"
+					"encrypted_size_2"		"331EE50D569A3C62BAE70FDE0A84DCE5"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"5416C43D7EA272B39E6C8D67FEE0B799"
+					"encrypted_size_2"		"2AE951CA9E1342BD182A802A3251DA32"
+				}
+				"psyonix"
+				{
+					"encrypted_gid_2"		"01A2A28BF4C7D3FD9D441213A15F7609"
+					"encrypted_size_2"		"12C6CCA3FE9100842832EFED4237E776"
+				}
+			}
+		}
+		"252961"
+		{
+			"name"		"TAGame Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4746929395703614372"
+			}
+			"maxsize"		"10505682755"
+			"encryptedmanifests"
+			{
+				"devhttp"
+				{
+					"encrypted_gid_2"		"311829E869997A75E989F94669E53DC4"
+					"encrypted_size_2"		"24B6660A51D7ADBD1085FE179A508230"
+				}
+				"devqa"
+				{
+					"encrypted_gid_2"		"B4AFDF3E3157E4F4B97D9A37C9ACFE51"
+					"encrypted_size_2"		"9CDA15E62D7DC4829A5A1BD152AD97F2"
+				}
+				"enzyme"
+				{
+					"encrypted_gid_2"		"300193C607AE39E1952D680A7540170F"
+					"encrypted_size_2"		"06C47B867AC8BACD2ACC72591CBA5FAE"
+				}
+				"localize"
+				{
+					"encrypted_gid_2"		"85DE70F8A9B38E8BF7ECAC550763F670"
+					"encrypted_size_2"		"7807982BAE2D1A4F4E94E5B1F2E0DA8D"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"975DB09FD6B83B8DCB1440344F465F67"
+					"encrypted_size_2"		"19C1A2FCF5E2DE9352AFF3FF594CFB24"
+				}
+				"psyonix"
+				{
+					"encrypted_gid_2"		"664F32F985ECE6FE43E2EFAD62093A6D"
+					"encrypted_size_2"		"60E84B2F6D9106FF19C0FC08EB03B6E8"
+				}
+			}
+		}
+		"252963"
+		{
+			"name"		"TAGame Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7805635392573663686"
+			}
+			"maxsize"		"10607013910"
+			"encryptedmanifests"
+			{
+				"devhttp"
+				{
+					"encrypted_gid_2"		"9D2497490ADAE7D21874AD1A2036D56F"
+					"encrypted_size_2"		"075C34C7C0998983F70A805BBEEE42F5"
+				}
+				"devqa"
+				{
+					"encrypted_gid_2"		"C2AB95A978C8389BDDF2BEE82D744A95"
+					"encrypted_size_2"		"9173257A4BE2BD1318B85CB0F33A6252"
+				}
+				"enzyme"
+				{
+					"encrypted_gid_2"		"BB498A7ABC8CF28E371BB2E3A0A6BEA8"
+					"encrypted_size_2"		"C9830788B9A0B2B726E492445903CFFB"
+				}
+				"localize"
+				{
+					"encrypted_gid_2"		"C324977FD8296FCB9B796B15DCC1955B"
+					"encrypted_size_2"		"A2AB6DEE596FB2DBBB62C1B14B87A790"
+				}
+				"preview"
+				{
+					"encrypted_gid_2"		"184235F5288E51859703E3FC02F2A812"
+					"encrypted_size_2"		"1DBA381AF99E39316A8ACD4EECB35D66"
+				}
+				"psyonix"
+				{
+					"encrypted_gid_2"		"876D8956AB23BF40D77AD3D86EEC5639"
+					"encrypted_size_2"		"8BE4F8253773C42564528D7E9DE59027"
+				}
+			}
+		}
+		"252953"
+		{
+			"name"		"TAGame French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"562376916848938554"
+			}
+			"maxsize"		"3"
+		}
+		"252954"
+		{
+			"name"		"TAGame Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"140038837050076069"
+			}
+			"maxsize"		"3"
+		}
+		"252955"
+		{
+			"name"		"TAGame German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1265429403610756505"
+			}
+			"maxsize"		"3"
+		}
+		"252956"
+		{
+			"name"		"TAGame Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"316973403359005795"
+			}
+			"maxsize"		"3"
+		}
+		"252957"
+		{
+			"name"		"TAGame Dutch"
+			"config"
+			{
+				"language"		"dutch"
+			}
+			"manifests"
+			{
+				"public"		"29616691452858199"
+			}
+			"maxsize"		"3"
+		}
+		"252958"
+		{
+			"name"		"TAGame Portuguese"
+			"config"
+			{
+				"language"		"portuguese"
+			}
+			"manifests"
+			{
+				"public"		"694956167188929257"
+			}
+			"maxsize"		"3"
+		}
+		"252952"
+		{
+			"name"		"TAGame Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"271535255242157970"
+			}
+			"maxsize"		"3"
+		}
+		"252959"
+		{
+			"name"		"TAGame Korean"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"13963439397610975"
+			}
+			"maxsize"		"3"
+		}
+		"252960"
+		{
+			"name"		"TAGame Turkish"
+			"config"
+			{
+				"language"		"turkish"
+			}
+			"manifests"
+			{
+				"public"		"306653909262597028"
+			}
+			"maxsize"		"3"
+		}
+		"252962"
+		{
+			"name"		"TAGame Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"467559587395233596"
+			}
+			"maxsize"		"3"
+		}
+		"252964"
+		{
+			"name"		"TAGame Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"2238818691900901192"
+			}
+			"maxsize"		"3"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4171233"
+				"timeupdated"		"1567731095"
+			}
+			"devhttp"
+			{
+				"buildid"		"4154972"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567632724"
+			}
+			"devqa"
+			{
+				"buildid"		"4170582"
+				"description"		"for Barnes"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567722857"
+			}
+			"enzyme"
+			{
+				"buildid"		"4173746"
+				"description"		"Test it"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567798653"
+			}
+			"localize"
+			{
+				"buildid"		"4161338"
+				"description"		"words"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567487313"
+			}
+			"preview"
+			{
+				"buildid"		"4171055"
+				"description"		"preview"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567724958"
+			}
+			"psyonix"
+			{
+				"buildid"		"4178097"
+				"description"		"psyonix test branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568043267"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Rocket League/TAGame/SaveData"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Rocket League/TAGame/Demos"
+				"pattern"		"*.replay"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Rocket League/TAGame/SaveData"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Rocket League/TAGame/Demos"
+				"pattern"		"*.replay"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"4"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Rocket League/TAGame/SaveData"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Rocket League/TAGame/Demos"
+				"pattern"		"*.replay"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
+ 

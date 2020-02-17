@@ -1,0 +1,438 @@
+"appinfo"
+{
+	"appid"		"483950"
+	"common"
+	{
+		"name"		"SMILE GAME BUILDER"
+		"type"		"Application"
+		"releasestate"		"released"
+		"clienticon"		"0e40531dd7a618f339515299e36604adbb2ba258"
+		"clienttga"		"196a247050f853c7e35052caceeaf171894f1e83"
+		"icon"		"6bd510b982cbb65c6ba0c72a9647647867ba72de"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"483950_eula_0"
+				"name"		"Smile Game Builder EULA"
+				"url"		"http://store.steampowered.com//eula/483950_eula_0"
+			}
+		}
+		"logo"		"cbb70b0e0a80548668093fe1a9cbf0df093f663d"
+		"logo_small"		"cbb70b0e0a80548668093fe1a9cbf0df093f663d_thumb"
+		"metacritic_name"		"SMILE GAME BUILDER"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.74944315285566"
+				"height_pct"		"66.66666666666667"
+			}
+		}
+		"store_asset_mtime"		"1568011855"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SmileBoom Co.Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SmileBoom Co.Ltd."
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"53"
+			"1"		"59"
+			"2"		"60"
+		}
+		"category"
+		{
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1473317605"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"483950"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"13906"
+			"1"		"1038"
+			"2"		"84"
+		}
+	}
+	"extended"
+	{
+		"developer"		"SmileBoom Co.Ltd."
+		"publisher"		"SmileBoom Co.Ltd."
+		"homepage"		"http://smilegamebuilder.com"
+		"listofdlc"		"488100,512140,525390,525470,525471,588570,597660,601610,645170,645171,645172,645180,649690,679610,765680,766450,809660,809661,821540"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Smile Game Builder"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"sgb_rpgeditor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"sgbs_editor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"app_debug"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,japanese"
+		"483951"
+		{
+			"name"		"SMILE GAME BUILDER Content"
+			"manifests"
+			{
+				"public"		"6903288868812876143"
+				"ver1.10.1"		"4174404052981206679"
+				"ver1.10.2"		"2952727883664606123"
+				"ver1.11.3"		"8044535507556527792"
+			}
+			"maxsize"		"628192528"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"2D9243BBB25812C8B6496AAA0009ED90"
+					"encrypted_size_2"		"61909AD43A92F87AC72F3C057DA3B135"
+				}
+				"daily"
+				{
+					"encrypted_gid_2"		"15B42BAA3C76DA24E0576683BFC3AD81"
+					"encrypted_size_2"		"B5FBB0566644A8059BB49CF775F1B409"
+				}
+			}
+		}
+		"488100"
+		{
+			"name"		"SMILE GAME BUILDER Test DLC (488100) 個のデポ"
+			"dlcappid"		"488100"
+			"manifests"
+			{
+				"public"		"2630770244665063470"
+				"ver1.10.1"		"4924067890134178196"
+			}
+			"maxsize"		"717705250"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"40B24554F0439E517ED7F83453B00587"
+					"encrypted_size_2"		"51F0637A570F14E2F9AA4D7AFA15C602"
+				}
+			}
+		}
+		"525390"
+		{
+			"name"		"JOEDOWN 8bit style Sound Resource Pack (525390) 個のデポ"
+			"dlcappid"		"525390"
+			"manifests"
+			{
+				"public"		"161315938152068517"
+			}
+			"maxsize"		"21677338"
+			"config"
+			{
+				"optionaldlc"		"525390"
+			}
+		}
+		"525470"
+		{
+			"name"		"G-Style Modern city Resource Pack Vol.1 (525470) 個のデポ"
+			"dlcappid"		"525470"
+			"manifests"
+			{
+				"public"		"1427153259060645625"
+				"ver1.10.1"		"517240539361733182"
+			}
+			"maxsize"		"31500082"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"A50AC849D3E8246EB4D8EF550CD0FD33"
+					"encrypted_size_2"		"24E24C2701885C34CBF0CAB57BC18642"
+				}
+			}
+		}
+		"525471"
+		{
+			"name"		"Dignified Fantasy Music Vol.1 (525471) 個のデポ"
+			"dlcappid"		"525471"
+			"manifests"
+			{
+				"public"		"7654667172016800705"
+			}
+			"maxsize"		"130906407"
+		}
+		"588570"
+		{
+			"name"		"Corpse Party Tenjin primary school Pack (588570) 個のデポ"
+			"dlcappid"		"588570"
+			"manifests"
+			{
+				"public"		"869038820751229053"
+			}
+			"maxsize"		"15212220"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"27FB45E129A4EBB838D3036C051D586A"
+					"encrypted_size_2"		"771F88106660FBD7E37D78BA66E91B5E"
+				}
+			}
+		}
+		"597660"
+		{
+			"name"		"The Music Box Japanese Horror Complete Bundle (597660) 個のデポ"
+			"dlcappid"		"597660"
+			"manifests"
+			{
+				"public"		"2887325282546182106"
+			}
+			"maxsize"		"220879897"
+		}
+		"601610"
+		{
+			"name"		"BASIC Horror SE Mini Pack (601610) 個のデポ"
+			"dlcappid"		"601610"
+			"manifests"
+			{
+				"public"		"2562218748595829918"
+			}
+			"maxsize"		"1551817"
+		}
+		"645170"
+		{
+			"name"		"SMILE GAME BUILDER Jacob’s Monster Pack Vol. 1 (645170) 個のデポ"
+			"dlcappid"		"645170"
+			"manifests"
+			{
+				"public"		"185405936275629176"
+			}
+			"maxsize"		"31281028"
+		}
+		"645180"
+		{
+			"name"		"SMILE GAME BUILDER 3D Character Editor (645180) 個のデポ"
+			"dlcappid"		"645180"
+			"manifests"
+			{
+				"public"		"3977919966717266138"
+			}
+			"maxsize"		"31"
+		}
+		"649690"
+		{
+			"name"		"SMILE GAME BUILDER A Healer Only Lives Twice Character Resource Pack (649690) 個のデポ"
+			"dlcappid"		"649690"
+			"manifests"
+			{
+				"public"		"6259797681553737350"
+			}
+			"maxsize"		"42496800"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"031E9ED1906F8C1EDB7F11DA84AECAA3"
+					"encrypted_size_2"		"35F40738323968A75826FA6AECEBC329"
+				}
+			}
+		}
+		"679610"
+		{
+			"name"		"Dignified Fantasy Music Vol.2 (679610) 個のデポ"
+			"dlcappid"		"679610"
+			"manifests"
+			{
+				"public"		"1634840788865213538"
+			}
+			"maxsize"		"209537525"
+		}
+		"766450"
+		{
+			"name"		"SMILE GAME BUILDER Exporter for Unity 5.6 (766450) 個のデポ"
+			"dlcappid"		"766450"
+			"manifests"
+			{
+				"public"		"857017004883702337"
+				"ver1.10.1"		"3746654522410114470"
+				"ver1.10.2"		"747744445809081281"
+				"ver1.11.3"		"5034701038091733332"
+			}
+			"maxsize"		"1740744"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"ADDE8FCD874A53D61ABD29347DB1115E"
+					"encrypted_size_2"		"C6C13D42E5DE04D461AC545A6AA4BD7C"
+				}
+			}
+		}
+		"821540"
+		{
+			"name"		"SMILE GAME BUILDER  Extra Building & Objects Pack (821540) デポ"
+			"manifests"
+			{
+				"public"		"1363781544071158992"
+				"ver1.10.1"		"1839607786647482163"
+				"ver1.10.2"		"1839607786647482163"
+			}
+			"maxsize"		"12659093"
+			"encryptedmanifests"
+			{
+				"app_debug"
+				{
+					"encrypted_gid_2"		"3EE7CBFB4FBD0B6E9DA1DADF6711D748"
+					"encrypted_size_2"		"134096ACB1056B1F0C2894A597594703"
+				}
+			}
+			"dlcappid"		"821540"
+		}
+		"workshopdepot"		"483950"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3492841"
+				"timeupdated"		"1548210141"
+			}
+			"app_debug"
+			{
+				"buildid"		"3493668"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1548234756"
+			}
+			"daily"
+			{
+				"buildid"		"3542850"
+				"description"		"Daily build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1549607126"
+			}
+			"release_candidate"
+			{
+				"buildid"		"3492841"
+				"description"		"リリース候補版"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548210131"
+			}
+			"ver1.10.1"
+			{
+				"buildid"		"2606238"
+				"description"		""
+				"timeupdated"		"1521113771"
+			}
+			"ver1.10.2"
+			{
+				"buildid"		"2606399"
+				"description"		""
+				"timeupdated"		"1527211772"
+			}
+			"ver1.11.3"
+			{
+				"buildid"		"2911207"
+				"description"		""
+				"timeupdated"		"1548205830"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
+ 

@@ -1,0 +1,479 @@
+"appinfo"
+{
+	"appid"		"225600"
+	"common"
+	{
+		"name"		"Blade Symphony"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"808b009cee829b5b77f05c5bb4ae0099df728da7"
+		"clienttga"		"d1480187eb11a2ccb4bf540e369eb136732b055a"
+		"logo"		"0087b44e0aea02b07cc8a8794ff55dbfeeb2cfe9"
+		"logo_small"		"0087b44e0aea02b07cc8a8794ff55dbfeeb2cfe9_thumb"
+		"clienticon"		"c6b422b3d0df030eec5188e2423c544045a4b9a2"
+		"clienticns"		"137195563886aab6dcbae1e4ba8c356cd1577b46"
+		"linuxclienticon"		"7514d7f2678088ebb24f4385228eb34064ac3bd8"
+		"osarch"		""
+		"metacritic_name"		"Blade Symphony"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1551995646"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Puny Human"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Puny Human"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_12"		"1"
+			"category_17"		"1"
+			"category_16"		"1"
+			"category_30"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_27"		"1"
+			"category_35"		"1"
+			"category_15"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"1"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1399446000"
+		"steam_release_date"		"1399496340"
+		"metacritic_score"		"72"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/blade-symphony?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"225600"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"1743"
+			"1"		"19"
+			"2"		"3859"
+			"3"		"492"
+			"4"		"4608"
+			"5"		"3878"
+			"6"		"1697"
+			"7"		"1646"
+			"8"		"1688"
+			"9"		"4036"
+			"10"		"3942"
+			"11"		"9"
+			"12"		"493"
+			"13"		"1775"
+			"14"		"1708"
+			"15"		"5153"
+			"16"		"1684"
+			"17"		"1756"
+			"18"		"21"
+			"19"		"5144"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Puny Human"
+		"gamedir"		"berimbau"
+		"homepage"		"http://www.blade-symphony.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"serverbrowsername"		"Blade Symphony"
+		"publisher"		"Puny Human"
+		"isfreeapp"		"1"
+		"listofdlc"		"228780,301600,953860,1052830"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blade Symphony"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\win32\\berimbau.exe"
+				"workingdir"		"bin\\win32\\"
+				"description"		"Blade Symphony x32"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin\\win64\\berimbau.exe"
+				"workingdir"		"bin\\win64\\"
+				"description"		"Blade Symphony x64"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin\\berimbau.sh"
+				"arguments"		"-game berimbau"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin\\berimbau.sh"
+				"arguments"		"-game berimbau"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1654871719"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,candidate,local,release_candidate,unharmonious"
+			}
+		}
+		"steamconfigurator3rdpartynative"		"7"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,hungarian,czech,romanian,turkish,brazilian"
+		"workshopdepot"		"225600"
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"225601"
+		{
+			"name"		"Blade Symphony | Shared Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9043395697760452821"
+				"release_candidate"		"5905310032739877439"
+				"unharmonious"		"4086042479257867080"
+			}
+			"maxsize"		"6532983271"
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"encrypted_gid_2"		"2FD04925225959C4D44A5C70B4E276DF"
+					"encrypted_size_2"		"D51CC030A25040D05A2C03C4088BFF7D"
+				}
+			}
+		}
+		"225602"
+		{
+			"name"		"Blade Symphony | Win32 Client"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3366653736569725368"
+				"release_candidate"		"7530749151108641692"
+				"unharmonious"		"2913756756481304335"
+			}
+			"maxsize"		"192544802"
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"encrypted_gid_2"		"AC1165165FB71875B5C55E77CD9C574A"
+					"encrypted_size_2"		"F752B33E9A677E5B072572AC37601CBC"
+				}
+			}
+		}
+		"225603"
+		{
+			"name"		"Blade Symphony | Win64 Client"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2708429662366741105"
+				"release_candidate"		"2120370942037090367"
+			}
+			"maxsize"		"157818750"
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"encrypted_gid_2"		"01F83C5848D6EEAA78D4C23D27A8D221"
+					"encrypted_size_2"		"BBFA4ECA7D810DB2A835E146FA6318FA"
+				}
+			}
+		}
+		"225604"
+		{
+			"name"		"Blade Symphony | Linux/SteamOS Client"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2185316983162468442"
+				"release_candidate"		"5466762444170357512"
+			}
+			"maxsize"		"164872938"
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"encrypted_gid_2"		"6458AB01C96629213A7CE433F779AAE4"
+					"encrypted_size_2"		"B2256BFB2C6F652989DAD329F1195052"
+				}
+			}
+		}
+		"225605"
+		{
+			"name"		"Blade Symphony | MacOSX Client"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6020616538210674205"
+				"release_candidate"		"8013053957706890183"
+			}
+			"maxsize"		"123479020"
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"encrypted_gid_2"		"5EE1C1ED1F93DCE6E8DA0B8132EBACC9"
+					"encrypted_size_2"		"AAC791B388E15F6683F18FFA919FD83F"
+				}
+			}
+		}
+		"225619"
+		{
+			"name"		"Blade Symphony OST"
+			"manifests"
+			{
+				"public"		"7083914682582020929"
+			}
+			"maxsize"		"311214571"
+		}
+		"301600"
+		{
+			"name"		"Blade Symphony Soundtrack (301600) Depot"
+			"dlcappid"		"301600"
+			"manifests"
+			{
+				"public"		"2052425737682523307"
+			}
+			"maxsize"		"311214571"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3733280"
+				"timeupdated"		"1555092091"
+			}
+			"candidate"
+			{
+				"buildid"		"3168466"
+				"description"		"candidate, no dedicated API"
+				"pwdrequired"		"1"
+				"timeupdated"		"1538235183"
+			}
+			"release_candidate"
+			{
+				"buildid"		"3988775"
+				"description"		"Main Release Candidate"
+				"timeupdated"		"1562457914"
+			}
+			"unharmonious"
+			{
+				"buildid"		"1536479"
+				"description"		"The last public update before Harmonious Prelude."
+				"timeupdated"		"1537644560"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

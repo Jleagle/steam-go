@@ -1,0 +1,537 @@
+"appinfo"
+{
+	"appid"		"527230"
+	"common"
+	{
+		"name"		"For The King"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"527230_eula_1"
+				"name"		"For The King EULA"
+				"url"		"https://store.steampowered.com//eula/527230_eula_1"
+			}
+		}
+		"logo"		"c720262f506331e4732d5df05dc95ca1665420dd"
+		"logo_small"		"c720262f506331e4732d5df05dc95ca1665420dd_thumb"
+		"clienticon"		"ab3e878c342fb316af64fc7b151243d015645154"
+		"clienttga"		"10becaeac5ad2c39dc12cac5071c471d72de1c33"
+		"icon"		"790411a4c44e243fa19fe8b3b6a8ca15679c7fbf"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"linuxclienticon"		"7bb110eec76f252fb26a8337c5f78b805e172af9"
+		"clienticns"		"9b266a8ced2d65592ad77de6ed7b71354c3a6e9b"
+		"metacritic_name"		"For The King"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46"
+				"height_pct"		"46"
+			}
+		}
+		"store_asset_mtime"		"1556013689"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IronOak Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Curve Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Curve Digital"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1524150087"
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/for-the-king?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"527230"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4325"
+			"2"		"21"
+			"3"		"3843"
+			"4"		"1685"
+			"5"		"9"
+			"6"		"1677"
+			"7"		"1716"
+			"8"		"3859"
+			"9"		"1741"
+			"10"		"10695"
+			"11"		"492"
+			"12"		"1770"
+			"13"		"1684"
+			"14"		"3959"
+			"15"		"17305"
+			"16"		"1717"
+			"17"		"4026"
+			"18"		"3841"
+			"19"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IronOak Games"
+		"publisher"		"Curve Digital"
+		"homepage"		"http://www.ironoakgames.com"
+		"listofdlc"		"807700,844340,851990"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"For The King"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FTK.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"FTK.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"FTK.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"FTK in DirectX 9"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"FTK.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Configure For The King"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"FTK.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"527231"
+		{
+			"name"		"For The King Content Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6429016581215383416"
+				"32-bit"		"7759747440207356443"
+				"legacybranch"		"7525083928469013369"
+				"xbranch"		"7214960309584962632"
+			}
+			"maxsize"		"2396273820"
+			"encryptedmanifests"
+			{
+				"davidtest"
+				{
+					"encrypted_gid_2"		"2EA147676A842737FCB6BD6E38737006"
+					"encrypted_size_2"		"881E5DC1D1F00EA096ABC5FB2EF6D323"
+				}
+				"prerelease"
+				{
+					"encrypted_gid_2"		"2F201DE5E4CB27F79789CAB571CB88B3"
+					"encrypted_size_2"		"1CC80EB182C6A3B19A2794C0AAF5D9BB"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"42FBB5D62E62E53F1DDF04F35860D665"
+					"encrypted_size_2"		"11E2363F71E411ED72870EDFDC9DDCA7"
+				}
+				"qa_branch_release"
+				{
+					"encrypted_gid_2"		"1B828BE0BA69D64C0E8EE77E5930163C"
+					"encrypted_size_2"		"90739584FE155C68B7CA5941CC35D200"
+				}
+				"testerbuild"
+				{
+					"encrypted_gid_2"		"AA8CFB1417720ED9531DC7F702DFDA74"
+					"encrypted_size_2"		"0BA1844F52AF3AC212B322FB440E9F6B"
+				}
+			}
+		}
+		"527232"
+		{
+			"name"		"For The King Depot Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5053295128308458840"
+				"32-bit"		"3786103032275947454"
+				"legacybranch"		"6750623012856107550"
+				"xbranch"		"1709452225333342675"
+			}
+			"maxsize"		"2506699742"
+			"encryptedmanifests"
+			{
+				"davidtest"
+				{
+					"encrypted_gid_2"		"B85FC33C54D662CC6893407FDB54E1E2"
+					"encrypted_size_2"		"50BFAF97BC231F21E7A9911148DFCEC1"
+				}
+				"prerelease"
+				{
+					"encrypted_gid_2"		"7778273B13666C0755F9D3BC0498D807"
+					"encrypted_size_2"		"680D242FF97361607EA3D36B95DB4EBC"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"CA0773D48FEDD2F7A0F4801DA5848764"
+					"encrypted_size_2"		"F1B96D480ABCD379F17169E84EB8140E"
+				}
+				"qa_branch_release"
+				{
+					"encrypted_gid_2"		"B62C8C799764631FAF32A84769E85FE8"
+					"encrypted_size_2"		"54568EC2B9BA521A4E184A296E5B8F30"
+				}
+				"testerbuild"
+				{
+					"encrypted_gid_2"		"105FB50854C69135D1A63C09E8456256"
+					"encrypted_size_2"		"28C47D6357A34EDF73A18CFD55599FCD"
+				}
+			}
+		}
+		"527233"
+		{
+			"name"		"For The King Depot Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"652051196242153831"
+				"32-bit"		"8855626648131447684"
+				"xbranch"		"1291231593457446932"
+			}
+			"maxsize"		"2347880792"
+			"encryptedmanifests"
+			{
+				"davidtest"
+				{
+					"encrypted_gid_2"		"D604F34FF4AADD35BCD6C3E83088D5F9"
+					"encrypted_size_2"		"B3352D5EFEB5C504F85811C7D3CC2FB6"
+				}
+				"prerelease"
+				{
+					"encrypted_gid_2"		"659AF44A2243B0AB364BDF2FA73B7467"
+					"encrypted_size_2"		"0C6BECCAD333A1A456DCCAE0A178CF2E"
+				}
+				"qa_branch"
+				{
+					"encrypted_gid_2"		"F74165DF2DAB5A1C4A11CB76A5B6A3CF"
+					"encrypted_size_2"		"947E804D25B60C20B60923398AD24BB8"
+				}
+				"qa_branch_release"
+				{
+					"encrypted_gid_2"		"604E93139D5846554A95BA870B4034CE"
+					"encrypted_size_2"		"8B4FBF67DEFFD41940F72465F7D64464"
+				}
+				"testerbuild"
+				{
+					"encrypted_gid_2"		"07202562BBF6B5919874B010B91DDA5D"
+					"encrypted_size_2"		"B5FEFECA12B6EB17148DA5AB86A8485F"
+				}
+			}
+		}
+		"844340"
+		{
+			"name"		"For The King Official Soundtrack (844340) Depot"
+			"manifests"
+			{
+				"public"		"1417378849348383676"
+			}
+			"maxsize"		"164679321"
+			"dlcappid"		"844340"
+		}
+		"workshopdepot"		"527230"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4140837"
+				"timeupdated"		"1566927926"
+			}
+			"32-bit"
+			{
+				"buildid"		"2708659"
+				"description"		""
+				"timeupdated"		"1524266583"
+			}
+			"davidtest"
+			{
+				"buildid"		"3230444"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1539988004"
+			}
+			"legacybranch"
+			{
+				"buildid"		"2427482"
+				"description"		"Previous version"
+				"timeupdated"		"1524258661"
+			}
+			"prerelease"
+			{
+				"buildid"		"3324724"
+				"description"		"For pre-release access"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542739004"
+			}
+			"private"
+			{
+				"buildid"		"4140837"
+				"description"		"private test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566861255"
+			}
+			"qa_branch"
+			{
+				"buildid"		"3751382"
+				"description"		"QA Branch with DEVELOPER version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555618186"
+			}
+			"qa_branch_release"
+			{
+				"buildid"		"3324963"
+				"description"		"QA Branch with RELEASE version"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542744494"
+			}
+			"testerbuild"
+			{
+				"buildid"		"3304901"
+				"description"		"For private testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542158410"
+			}
+			"xbranch"
+			{
+				"buildid"		"2776836"
+				"description"		"Experimental"
+				"timeupdated"		"1526419233"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.bin"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"save"
+				"pattern"		"*.run"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"save"
+				"pattern"		"*.jpg"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"save"
+				"pattern"		"*.bin"
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"save"
+				"pattern"		"*.db"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"IronOak Games/FTK"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"IronOak Games/FTK"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"save"
+						"replace"		".config/unity3d/IronOak Games/FTK/save"
+					}
+				}
+			}
+		}
+	}
+}
+ 

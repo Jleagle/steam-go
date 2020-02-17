@@ -1,0 +1,525 @@
+"appinfo"
+{
+	"appid"		"552500"
+	"common"
+	{
+		"name"		"Warhammer: Vermintide 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"f11bbba8fb45091dc8ccc97e81b03ea8ea06b177"
+		"logo_small"		"f11bbba8fb45091dc8ccc97e81b03ea8ea06b177_thumb"
+		"icon"		"5b1a3298bd36a47272477b9a16512e060a7e2642"
+		"clienticon"		"4704551c0d9303458d6df7f51f9e45be88ab7541"
+		"clienttga"		"95f033c528f6e78f3a22cc04d6ab2f62789324ff"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"552500_eula_0"
+				"name"		"Warhammer: Vermintide 2 EULA"
+				"url"		"http://store.steampowered.com//eula/552500_eula_0"
+			}
+		}
+		"metacritic_name"		"Warhammer: Vermintide 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"75.91455571030801"
+				"height_pct"		"71.1811300993113"
+			}
+		}
+		"store_asset_mtime"		"1565100083"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fatshark"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fatshark"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Warhammer"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1520496000"
+		"steam_release_date"		"1520532000"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/warhammer-vermintide-2?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"552500"
+		"store_tags"
+		{
+			"0"		"1685"
+			"1"		"3839"
+			"2"		"1646"
+			"3"		"4345"
+			"4"		"3859"
+			"5"		"3843"
+			"6"		"4604"
+			"7"		"4667"
+			"8"		"19"
+			"9"		"1684"
+			"10"		"6730"
+			"11"		"5310"
+			"12"		"4166"
+			"13"		"4231"
+			"14"		"1663"
+			"15"		"4182"
+			"16"		"1662"
+			"17"		"21"
+			"18"		"1695"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=552500"
+		"developer"		"Fatshark"
+		"publisher"		"Fatshark"
+		"homepage"		"http://www.vermintide.com"
+		"listofdlc"		"737040,828790,831620,866060,872020,878550,975400,1033060,1040840"
+	}
+	"config"
+	{
+		"installdir"		"Warhammer Vermintide 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher\\launcher.exe"
+				"arguments"		"--bundle-dir ..\\bundle"
+				"workingdir"		"launcher\\"
+				"type"		"none"
+			}
+			"3"
+			{
+				"executable"		"launcher\\eac_launcher.exe"
+				"arguments"		"-eac_launcher_settings vermintide2.json"
+				"workingdir"		"launcher\\"
+				"description"		"Bypass Launcher"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"temporary_launcher_workaround"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.2 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"70000464"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,polish,brazilian"
+		"workshopdepot"		"552500"
+		"hasdepotsindlc"		"1"
+		"552501"
+		{
+			"name"		"Warhammer: Vermintide 2  | Content Depot"
+			"manifests"
+			{
+				"public"		"8321481566818917673"
+			}
+			"maxsize"		"65807872614"
+			"encryptedmanifests"
+			{
+				"blacktip"
+				{
+					"encrypted_gid_2"		"FB5448A92023E014422BF750C7CE172E"
+					"encrypted_size_2"		"D93E1AC1D9D7B2A3ACAE6E6C72C92D30"
+				}
+				"karl_test"
+				{
+					"encrypted_gid_2"		"036A6AC4C3C48F02E1798EED2ED2896F"
+					"encrypted_size_2"		"7694A1C8BB5E11BA7CA8F688388522DB"
+				}
+				"mock_review"
+				{
+					"encrypted_gid_2"		"E31FA375F468523F27AD77CC7FAE986F"
+					"encrypted_size_2"		"58E9484FA97DBB84C8C6A6FFFD0110DD"
+				}
+				"mod_test"
+				{
+					"encrypted_gid_2"		"A1ED2EBC0442CFBD99492A32B8A879DE"
+					"encrypted_size_2"		"B508D529CD77E1117CE542FCFFB00613"
+				}
+				"release_candidate_4"
+				{
+					"encrypted_gid_2"		"9FFDD3744F3DAA50D0B31A277699D621"
+					"encrypted_size_2"		"3F95582EBD612120DF18E91452E6200B"
+				}
+				"stable_release"
+				{
+					"encrypted_gid_2"		"418A188ACD03842CEF17448F2E8474E1"
+					"encrypted_size_2"		"626804BBF868F0292DBB8577571FA84E"
+				}
+			}
+		}
+		"552502"
+		{
+			"name"		"Warhammer: Vermintide 2 | Launcher Depot"
+			"manifests"
+			{
+				"public"		"4437632713841276559"
+			}
+			"maxsize"		"36392162"
+			"encryptedmanifests"
+			{
+				"blacktip"
+				{
+					"encrypted_gid_2"		"3CB95E902621B2F61F6CE58C42B3DCBA"
+					"encrypted_size_2"		"31EDE132B1D192D3A68A926D7539AD4E"
+				}
+				"karl_test"
+				{
+					"encrypted_gid_2"		"9182C4497C261738078D88DA28674699"
+					"encrypted_size_2"		"39363894FD0C320D9A95811E2B8603CE"
+				}
+				"mock_review"
+				{
+					"encrypted_gid_2"		"37485E038CBFFA821095C3A845CB33FB"
+					"encrypted_size_2"		"57D999171471CCEFA508F0E904F0ABD5"
+				}
+				"release_candidate_4"
+				{
+					"encrypted_gid_2"		"2CE1B8F65226B7008D7B9A438D933971"
+					"encrypted_size_2"		"5CF91355597D8F6997B96C08D6A14EBE"
+				}
+			}
+		}
+		"552503"
+		{
+			"name"		"Warhammer: Vermintide 2  | Binaries Depot"
+			"manifests"
+			{
+				"public"		"863165330993562539"
+			}
+			"maxsize"		"81902682"
+			"encryptedmanifests"
+			{
+				"blacktip"
+				{
+					"encrypted_gid_2"		"F1DAEA47ECD4B216A35A9DC30DF547B8"
+					"encrypted_size_2"		"6C7C5517FD4CD37AAB7397089AF626C4"
+				}
+				"karl_test"
+				{
+					"encrypted_gid_2"		"B8CC6E95BFA707C098BE614D67841860"
+					"encrypted_size_2"		"819CC720FE94F542529FB89AF61CC4AA"
+				}
+				"mock_review"
+				{
+					"encrypted_gid_2"		"0735292741E08FEC235442EB6E10E778"
+					"encrypted_size_2"		"FD96FC830B48ECC5D3D6D6BEA6F34C99"
+				}
+				"mod_test"
+				{
+					"encrypted_gid_2"		"95ADC0F8C3587108C46BBFAAF2FB3026"
+					"encrypted_size_2"		"4C54883E88D265877F26F6EC9628EA51"
+				}
+				"release_candidate_4"
+				{
+					"encrypted_gid_2"		"5E02A4B9BAB88B843018A44AF58B3795"
+					"encrypted_size_2"		"AB7287A4127D3B1B1868F4FDD78BCE83"
+				}
+				"stable_release"
+				{
+					"encrypted_gid_2"		"9DBF81E4F842EC9D9719EA9925AD99EB"
+					"encrypted_size_2"		"1E00C62CFC800C63F86B3109B9A5A778"
+				}
+			}
+		}
+		"552504"
+		{
+			"name"		"Warhammer: Vermintide 2  | Dev Depot"
+			"manifests"
+			{
+				"public"		"786865266402153094"
+			}
+			"maxsize"		"1704972138"
+			"encryptedmanifests"
+			{
+				"blacktip"
+				{
+					"encrypted_gid_2"		"EFCA6E19BC160027815B333F272BD547"
+					"encrypted_size_2"		"75D46A9E05DC3396BEF9A60AA2625EA4"
+				}
+				"karl_test"
+				{
+					"encrypted_gid_2"		"D576A60ADB9FF97CC908BDD6100693BD"
+					"encrypted_size_2"		"633F7A3DA9FC0132101F8646AAF2C546"
+				}
+				"mock_review"
+				{
+					"encrypted_gid_2"		"3B80A5E268712F7057CBE6B5497E5EA0"
+					"encrypted_size_2"		"FCA3A8B2E6353EE91DBE0DC421E514D8"
+				}
+				"mod_test"
+				{
+					"encrypted_gid_2"		"435050588ECADDA8EAEE215948A29E7C"
+					"encrypted_size_2"		"30632F18C7E200DBB5867FB96350B166"
+				}
+				"release_candidate_4"
+				{
+					"encrypted_gid_2"		"443CFDDA6C71EB8E2052867ADB67FF0E"
+					"encrypted_size_2"		"71C2BECE2E0D031CD6C74612196874CE"
+				}
+				"stable_release"
+				{
+					"encrypted_gid_2"		"015BD81F952E6673890E782110CF4EFB"
+					"encrypted_size_2"		"EC6213020248D05071227A5B2E23A081"
+				}
+			}
+		}
+		"552505"
+		{
+			"name"		"Warhammer: Vermintide 2  | VersionInfo Depot"
+		}
+		"737040"
+		{
+			"name"		"Warhammer: Vermintide 2 | Collector's Edition Content Depot"
+			"dlcappid"		"737040"
+			"manifests"
+			{
+				"public"		"1298502183486719736"
+			}
+			"maxsize"		"2046860810"
+			"encryptedmanifests"
+			{
+				"karl_test"
+				{
+					"encrypted_gid_2"		"A6C91D408587D9D84081C810C006E7C3"
+					"encrypted_size_2"		"7E8388BD1DCBFED2177C5127C6CE63F1"
+				}
+				"release_candidate_4"
+				{
+					"encrypted_gid_2"		"A5B973ECF5D2FFBDE9E4A6A0B2295F60"
+					"encrypted_size_2"		"545DB2845BBA94F0C29EC55ADF015F9E"
+				}
+			}
+		}
+		"878550"
+		{
+			"name"		"Warhammer: Vermintide 2 - Modding Source Content (878550) Depot"
+			"dlcappid"		"878550"
+			"config"
+			{
+				"optionaldlc"		"878550"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4169377"
+				"timeupdated"		"1567684057"
+			}
+			"blacktip"
+			{
+				"buildid"		"4100676"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1565691874"
+			}
+			"karl_test"
+			{
+				"buildid"		"3731725"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555058565"
+			}
+			"mock_review"
+			{
+				"buildid"		"3731726"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555058581"
+			}
+			"mod_test"
+			{
+				"buildid"		"4179916"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568048531"
+			}
+			"release_candidate_4"
+			{
+				"buildid"		"3731727"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555058596"
+			}
+			"stable_release"
+			{
+				"buildid"		"4178360"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1568013579"
+			}
+			"temporary_launcher_workaround"
+			{
+				"buildid"		"4169374"
+				"description"		"Bypass Launcher"
+				"timeupdated"		"1567684002"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

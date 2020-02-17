@@ -1,0 +1,424 @@
+"appinfo"
+{
+	"appid"		"617290"
+	"common"
+	{
+		"name"		"Remnant: From the Ashes"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"2c5e3ebf2588677b4cfc2cc3267eba440a1f5ad5"
+		"logo_small"		"2c5e3ebf2588677b4cfc2cc3267eba440a1f5ad5_thumb"
+		"icon"		"0fec2d481028011910bf6fc35c61d19386695128"
+		"clienttga"		"785d0f7da8c7d2d0d4711ea175b2ad2ac00e76ad"
+		"clienticon"		"5445775087de5f10f46117d9c978658df1562f6a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Remnant"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"37.6"
+				"height_pct"		"60.76388888888889"
+			}
+		}
+		"store_asset_mtime"		"1567375640"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gunfire Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Perfect World Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_38"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1566273600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"617290"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1685"
+			"2"		"3814"
+			"3"		"29482"
+			"4"		"122"
+			"5"		"3859"
+			"6"		"21"
+			"7"		"1774"
+			"8"		"3843"
+			"9"		"4667"
+			"10"		"3835"
+			"11"		"4026"
+			"12"		"1662"
+			"13"		"4182"
+			"14"		"7432"
+			"15"		"4166"
+			"16"		"4604"
+			"17"		"4345"
+			"18"		"5125"
+			"19"		"4711"
+		}
+		"has_adult_content"		"1"
+	}
+	"extended"
+	{
+		"developer"		"Gunfire Games"
+		"publisher"		"Perfect World Entertainment"
+		"listofdlc"		"1068790,1068791,1068792,1068793,1070870,1074850,1120500,1147300"
+	}
+	"config"
+	{
+		"installdir"		"Remnant"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Remnant.exe"
+				"workingdir"		"Remnant/"
+				"description"		"Release Build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"617291"
+		{
+			"name"		"Remnant Content"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8878558896709395261"
+			}
+			"maxsize"		"32459421878"
+			"encryptedmanifests"
+			{
+				"compattesting"
+				{
+					"encrypted_gid_2"		"02786B9B583C6582EA0A3617334B2EEF"
+					"encrypted_size_2"		"CA56EC0AEDA37D23CB7D07E8C4C84FC2"
+				}
+				"fnf_beta"
+				{
+					"encrypted_gid_2"		"6E80E5B6FD3082C810D420B386D76A25"
+					"encrypted_size_2"		"8C4CF7F5807D370C51C0064EAB7A4532"
+				}
+				"milestone"
+				{
+					"encrypted_gid_2"		"40C0460EE6FC129F3A5469924D04F012"
+					"encrypted_size_2"		"BE7DF79B008498D300AF6928F133AB03"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"95C841D08553D4E1EF02882C4E641A11"
+					"encrypted_size_2"		"7B9757FA242EB4A11D8BBBF279AC6F18"
+				}
+				"performance"
+				{
+					"encrypted_gid_2"		"1570105E92A6BDA8A918BDE331E102FB"
+					"encrypted_size_2"		"1EB63E100704BCCE3D9443302CEE87DA"
+				}
+				"petrol"
+				{
+					"encrypted_gid_2"		"1276A19F48DC69C0E9B433BE954E6692"
+					"encrypted_size_2"		"C5331EBFC59D20720E9A3EB3F9405597"
+				}
+				"streambuilds"
+				{
+					"encrypted_gid_2"		"FB814BB19447CF3FFA9AC3F125AE6878"
+					"encrypted_size_2"		"54C18699C4BFAE5F7AE7CA2E16BF1099"
+				}
+				"testbranch"
+				{
+					"encrypted_gid_2"		"45BE3A19CFCE4148FE6DD2008ED6FA8E"
+					"encrypted_size_2"		"253E9D25ECFF9546F6EB14A2155D9656"
+				}
+				"testbrancshipping"
+				{
+					"encrypted_gid_2"		"26D42E47F7300B433879705F70B13401"
+					"encrypted_size_2"		"2CD1BF6C8935493143390F9414F470A0"
+				}
+			}
+		}
+		"1068790"
+		{
+			"name"		"Remnant: From the Ashes - Doomsayer Cultist Armor (1068790) Depot"
+			"dlcappid"		"1068790"
+		}
+		"1068791"
+		{
+			"name"		"Remnant: From the Ashes - Gladiator Scrapper Armor (1068791) Depot"
+			"dlcappid"		"1068791"
+		}
+		"1068792"
+		{
+			"name"		"Remnant: From the Ashes - Nightstalker Hunter Armor (1068792) Depot"
+			"dlcappid"		"1068792"
+		}
+		"1068793"
+		{
+			"name"		"Remnant: From the Ashes - Survivor Pack (1068793) Depot"
+			"dlcappid"		"1068793"
+		}
+		"1070870"
+		{
+			"name"		"Remnant: From the Ashes - VIP Preview Weekend (1070870) Depot"
+			"dlcappid"		"1070870"
+		}
+		"1120500"
+		{
+			"name"		"Remnant: From the Ashes - Flight Team Cap (1120500) Depot"
+			"dlcappid"		"1120500"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4147991"
+				"timeupdated"		"1567112287"
+			}
+			"beta"
+			{
+				"buildid"		"4147991"
+				"description"		"for testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567112315"
+			}
+			"compattesting"
+			{
+				"buildid"		"4179649"
+				"description"		"Compatibility testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568044180"
+			}
+			"fnf_beta"
+			{
+				"buildid"		"4045204"
+				"description"		"Friends and Family"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565019938"
+			}
+			"milestone"
+			{
+				"buildid"		"4165729"
+				"description"		"PW milestone"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567592465"
+			}
+			"partners"
+			{
+				"buildid"		"4172386"
+				"description"		"External Partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567802772"
+			}
+			"performance"
+			{
+				"buildid"		"3689615"
+				"description"		"External Testing Partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1553805945"
+			}
+			"petrol"
+			{
+				"buildid"		"3950889"
+				"description"		"Per Mike Petrol"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561664931"
+			}
+			"playtest"
+			{
+				"buildid"		"4147991"
+				"description"		"External Playtest"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567090746"
+			}
+			"reviewbuild"
+			{
+				"buildid"		"4147991"
+				"description"		"For_reviews"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567112299"
+			}
+			"streambuilds"
+			{
+				"buildid"		"3997027"
+				"description"		"For Stream builds"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562712215"
+			}
+			"testbranch"
+			{
+				"buildid"		"4178140"
+				"description"		"For External QA Test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568005681"
+			}
+			"testbrancshipping"
+			{
+				"buildid"		"4172386"
+				"description"		"External QA Ship"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567760849"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"40000000"
+		"maxnumfiles"		"12"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Remnant/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Remnant\\Saved\\SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

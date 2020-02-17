@@ -1,0 +1,636 @@
+"appinfo"
+{
+	"appid"		"323190"
+	"common"
+	{
+		"name"		"Frostpunk"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"ff63d3a47b367f7c434e391d1bce02c9d717e4b7"
+		"clienttga"		"7d40ca0b9cc83bd4fc74f8b9ff6822e696b64cc4"
+		"icon"		"0561084dfe24c469c905fe0681da82aa31102836"
+		"logo"		"ca09848350a1b5d5be248ae5ed40e4de882c1ce8"
+		"logo_small"		"ca09848350a1b5d5be248ae5ed40e4de882c1ce8_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Frostpunk"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"62"
+				"height_pct"		"90"
+			}
+		}
+		"store_asset_mtime"		"1566920555"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"11 bit studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"11 bit studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1524574920"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/frostpunk?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"323190"
+		"store_tags"
+		{
+			"0"		"4328"
+			"1"		"1662"
+			"2"		"9"
+			"3"		"1643"
+			"4"		"1777"
+			"5"		"3835"
+			"6"		"8945"
+			"7"		"4182"
+			"8"		"12472"
+			"9"		"7332"
+			"10"		"6426"
+			"11"		"4166"
+			"12"		"599"
+			"13"		"4695"
+			"14"		"4342"
+			"15"		"1676"
+			"16"		"4026"
+			"17"		"7107"
+			"18"		"1756"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"11 bit studios"
+		"publisher"		"11 bit studios"
+		"homepage"		"http://www.frostpunkgame.com/"
+		"listofdlc"		"966350,1103840,1125020,1146960,1147010"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Frostpunk"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Frostpunk.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Frostpunk.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,polish"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13699237"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"name"		".NET 4.7 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"83944258"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"323191"
+		{
+			"name"		"Windows"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"7258440527367173061"
+			}
+			"maxsize"		"49805587"
+			"encryptedmanifests"
+			{
+				"ageratingusk"
+				{
+					"encrypted_gid_2"		"43EB54163298ADF575BCADC8F152FD05"
+					"encrypted_size_2"		"8DC543A363FE3CAF57EC35BBB4DB05DE"
+				}
+				"anselsdk"
+				{
+					"encrypted_gid_2"		"5EB459CB5F8AA7CB79AB4F16F5891CF5"
+					"encrypted_size_2"		"04DC61BDC2C091F041B9DEF5FAF1F98A"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"CC8D6463AE5680C9C42055977405508B"
+					"encrypted_size_2"		"298E2C3FA00B879DF49EABD2B5E614D7"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"CA60C53CEDCF0025EA2988F09F0B689A"
+					"encrypted_size_2"		"43DDA3122C0D6500E46EDAFECE56C8E9"
+				}
+				"macos_old"
+				{
+					"encrypted_gid_2"		"B6845CA22AF9B79DF80E5D3D4ECF3402"
+					"encrypted_size_2"		"4923057EF8A3EE3CF1DCE64F3C784B50"
+				}
+				"macos_port"
+				{
+					"encrypted_gid_2"		"6BFD648B87CE7FACEE3673B202938AA3"
+					"encrypted_size_2"		"7B60AAB4E31B9C518BFD9BF505E53764"
+				}
+				"macos_port_133"
+				{
+					"encrypted_gid_2"		"D1109CBF013272FC2FFFD507986890D0"
+					"encrypted_size_2"		"27447E54919645F9E1FDB53BADC24B33"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"BC2437CC46D8BB2180D907CB66670CF7"
+					"encrypted_size_2"		"6D09B2B571A767E8FDA784C111A403BD"
+				}
+				"master"
+				{
+					"encrypted_gid_2"		"318F5B57208F31F8541F3771C1F903E5"
+					"encrypted_size_2"		"9021DF95758E536DA960F26C535701C2"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"22B1667635851D5ECCB255901719D880"
+					"encrypted_size_2"		"11171511C26322E422CA5573DA2D800B"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"D50147F46415982F02DBEC80F5A820A5"
+					"encrypted_size_2"		"E4D6549B2BA51F9A9A958B6E5F033CE9"
+				}
+				"robotobranch"
+				{
+					"encrypted_gid_2"		"C117FB24DCA1B0075380E800176116BF"
+					"encrypted_size_2"		"BFA0CF0066D8D3DE2882793AB7882843"
+				}
+				"soundtrack"
+				{
+					"encrypted_gid_2"		"A0571C8A7737D1492C484C6A1EFC0F51"
+					"encrypted_size_2"		"D96BD5ABBBB3CDD3D08B626904E759BD"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"53002E7B503ED8A4631579AE0740384A"
+					"encrypted_size_2"		"7D510786BF3BCD483307F8F3010549E0"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"6E7A84CB94A2D6F91697E8446E3F15D7"
+					"encrypted_size_2"		"4C85CC2E56EAAA1346CA43BABDB9C701"
+				}
+				"winterhome"
+				{
+					"encrypted_gid_2"		"0828A5833302107351E441D496C93A27"
+					"encrypted_size_2"		"BFBA3BA748B68185137FF1C0D621B50F"
+				}
+			}
+		}
+		"323194"
+		{
+			"name"		"Shared"
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7538803554045284506"
+			}
+			"maxsize"		"6336077958"
+			"encryptedmanifests"
+			{
+				"ageratingusk"
+				{
+					"encrypted_gid_2"		"59B737D7E22C16E7EAE97EF4A52CD9BF"
+					"encrypted_size_2"		"EF1A681E15491F36F4827D706E5F72E0"
+				}
+				"anselsdk"
+				{
+					"encrypted_gid_2"		"26815F1C35022238781EDA233A612B45"
+					"encrypted_size_2"		"28EE65CDB674AEA5AABE888643FE7A6C"
+				}
+				"baseline"
+				{
+					"encrypted_gid_2"		"727FCA6A92F2FD57C776E3A7129CDF48"
+					"encrypted_size_2"		"C7483AFD6B8AD9F75CBE1588115230D8"
+				}
+				"localization"
+				{
+					"encrypted_gid_2"		"16405EB20B6E7037704568E51A2CEF30"
+					"encrypted_size_2"		"146FC9D5438E5F11B97499921651A047"
+				}
+				"macos_old"
+				{
+					"encrypted_gid_2"		"AF010907B0C85E528D01C1E70B3BC124"
+					"encrypted_size_2"		"825607867E57267232C8B3839A860C30"
+				}
+				"macos_port"
+				{
+					"encrypted_gid_2"		"11BBA620F0B518B3333D9789106BAB59"
+					"encrypted_size_2"		"69F1156476C12379A8E6C7721997BDE0"
+				}
+				"macos_port_133"
+				{
+					"encrypted_gid_2"		"84384CC11E12EA065B387B13047BC57D"
+					"encrypted_size_2"		"67752E98D5FBCFF5E1A42A52F0F34761"
+				}
+				"marketing"
+				{
+					"encrypted_gid_2"		"3A16854D652EDBA7905065DAE188BEB5"
+					"encrypted_size_2"		"9C912B96BD1525792AD2299CCA1E0CAE"
+				}
+				"master"
+				{
+					"encrypted_gid_2"		"ECB64BD72F91D5E5A80C7AE5C9E2EE1D"
+					"encrypted_size_2"		"9E2779749924A570E2D333EB07408363"
+				}
+				"partners"
+				{
+					"encrypted_gid_2"		"247B3BA63F4B2DE1891EC86F36B10330"
+					"encrypted_size_2"		"851157918503123337FEFF217CD7967F"
+				}
+				"review"
+				{
+					"encrypted_gid_2"		"3BE3CA8A59D6AB8954E7AC316842D879"
+					"encrypted_size_2"		"98CD3CF6DFA5D82ACC2B85B4449B3E54"
+				}
+				"robotobranch"
+				{
+					"encrypted_gid_2"		"3CCAF7686F96F17AA410A6152E59868E"
+					"encrypted_size_2"		"517F829313C5EAAB74AA14B63DC4E88D"
+				}
+				"soundtrack"
+				{
+					"encrypted_gid_2"		"0E5B27C5511F018BC4876D43FA3852CF"
+					"encrypted_size_2"		"39D4999CE83F8A45A23A917E9C483676"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"F6890CE8138418376ED2CD960B482A10"
+					"encrypted_size_2"		"2E9BDB87FA37EB4BEE43ED09BBB7B3C5"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"143FA433EEE61D7DF8B6520653013A0F"
+					"encrypted_size_2"		"977CF8D52A406E9B45DF12339C928221"
+				}
+				"winterhome"
+				{
+					"encrypted_gid_2"		"D08A680ED9C0B9492B244DD521C7E5FD"
+					"encrypted_size_2"		"1FDD1AD662AFBF0CD57B42B95146F0FB"
+				}
+			}
+		}
+		"966350"
+		{
+			"name"		"Frostpunk Original Soundtrack (966350) Depot"
+			"dlcappid"		"966350"
+			"manifests"
+			{
+				"public"		"3408926094576553641"
+			}
+			"maxsize"		"934306978"
+		}
+		"323192"
+		{
+			"name"		"macOS"
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"macos_old"
+				{
+					"encrypted_gid_2"		"77AAEB91CBA31993B65935CD73EA0790"
+					"encrypted_size_2"		"9AD1C502EA835E5231773A35209FDDFD"
+				}
+				"macos_port"
+				{
+					"encrypted_gid_2"		"75C6F716C3D6C7214E7F77ACD596B8B4"
+					"encrypted_size_2"		"A02523E94BBA165135226E8D1D135EBB"
+				}
+				"macos_port_133"
+				{
+					"encrypted_gid_2"		"D5F6AA309D41F91BD714AFB1FB516155"
+					"encrypted_size_2"		"C6B5A564F2592D1FE64C3D66CF03DC3C"
+				}
+				"test2"
+				{
+					"encrypted_gid_2"		"AC83FA5FEC38F8B60E63D4E39E261D29"
+					"encrypted_size_2"		"544D8EFD38026230FF54B12C3CE5A3AE"
+				}
+				"test3"
+				{
+					"encrypted_gid_2"		"DE4BFA9F3AC7C4848082C5434E59E33C"
+					"encrypted_size_2"		"4B3C68ADDFFFA72BAAD31BE44C18349C"
+				}
+			}
+		}
+		"1103840"
+		{
+			"name"		"Frostpunk: Digital Artbook (1103840) - magazyn zawartości"
+			"dlcappid"		"1103840"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4822668135599750534"
+			}
+			"maxsize"		"1154118375"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4153684"
+				"timeupdated"		"1567176170"
+			}
+			"ageratingusk"
+			{
+				"buildid"		"2606146"
+				"description"		"Build for age ratings"
+				"pwdrequired"		"1"
+				"timeupdated"		"1521118033"
+			}
+			"anselsdk"
+			{
+				"buildid"		"2846254"
+				"description"		"Build for Nvidia with Ansel SDK integration. Modified version 1.0.1."
+				"pwdrequired"		"1"
+				"timeupdated"		"1528471418"
+			}
+			"baseline"
+			{
+				"buildid"		"2606146"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1521658607"
+			}
+			"localization"
+			{
+				"buildid"		"2924580"
+				"description"		"localization branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530884577"
+			}
+			"macos_old"
+			{
+				"buildid"		"3467939"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550757330"
+			}
+			"macos_port"
+			{
+				"buildid"		"3536781"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1550053485"
+			}
+			"macos_port_133"
+			{
+				"buildid"		"3555708"
+				"description"		"Testowy branch wersji MAC"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550052901"
+			}
+			"marketing"
+			{
+				"buildid"		"3606550"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1551427472"
+			}
+			"master"
+			{
+				"buildid"		"2606146"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1521655853"
+			}
+			"partners"
+			{
+				"buildid"		"2978814"
+				"description"		"Branch for partners"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532674914"
+			}
+			"review"
+			{
+				"buildid"		"2700930"
+				"description"		"Review Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524090776"
+			}
+			"robotobranch"
+			{
+				"buildid"		"4139994"
+				"description"		"Build fo Roboto Translation"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566918458"
+			}
+			"soundtrack"
+			{
+				"buildid"		"3229141"
+				"description"		"test soundtrack"
+				"pwdrequired"		"1"
+				"timeupdated"		"1539959581"
+			}
+			"test"
+			{
+				"buildid"		"4153684"
+				"description"		"test"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567175557"
+			}
+			"test2"
+			{
+				"buildid"		"4142167"
+				"description"		"Testy wewnętrzne"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566899803"
+			}
+			"test3"
+			{
+				"buildid"		"4143054"
+				"description"		"Testy wewnętrzne 2"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566918429"
+			}
+			"winterhome"
+			{
+				"buildid"		"3112750"
+				"description"		"Fourth scenario"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536703061"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"25000000000"
+		"maxnumfiles"		"2000"
+	}
+}
+ 

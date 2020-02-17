@@ -1,0 +1,498 @@
+"appinfo"
+{
+	"appid"		"431240"
+	"common"
+	{
+		"name"		"Golf With Your Friends"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"2633e15724104e55a0ae4cb9e649e861ea106ae2"
+		"logo"		"2010132cceeb0c149f47af6770952befd126fe9a"
+		"logo_small"		"2010132cceeb0c149f47af6770952befd126fe9a_thumb"
+		"clienticon"		"bd1e290b28be130eda089ca8a1d887203c67f72d"
+		"clienttga"		"f4e7693c04551cf538567c5e14bd899277444194"
+		"metacritic_name"		"Golf With Your Friends"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1567588861"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blacklight Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team17 Digital Ltd"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Team17 Digital"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"18"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_27"		"1"
+			"category_36"		"1"
+			"category_15"		"1"
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1454111632"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"431240"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"22955"
+			"2"		"7038"
+			"3"		"493"
+			"4"		"597"
+			"5"		"701"
+			"6"		"4136"
+			"7"		"5350"
+			"8"		"492"
+			"9"		"1685"
+			"10"		"4182"
+			"11"		"1756"
+			"12"		"599"
+			"13"		"9"
+			"14"		"3968"
+			"15"		"1721"
+			"16"		"4026"
+			"17"		"128"
+			"18"		"10397"
+			"19"		"19"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Blacklight Interactive"
+		"publisher"		"Team17 Digital Ltd"
+		"homepage"		"https://www.team17.com/"
+		"listofdlc"		"564170"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Golf With Your Friends"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Golf With Your Friends.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Golf With Your Friends.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Golf With Your Friends.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Golf With Your Friends.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Golf With Your Friends.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Play Golf With Your Friends with DirectX 9"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Golf With Your Friends.x86"
+				"arguments"		"-force-opengl"
+				"description"		"Force OpenGL"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"6"
+			{
+				"executable"		"Golf With Your Friends.x86_64"
+				"arguments"		"-force-opengl"
+				"description"		"Force OpenGL"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"Golf With Your Friends.x86"
+				"arguments"		"-screen-fullscreen 0"
+				"description"		"Force windowed (Fix for recent launch issues)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"8"
+			{
+				"executable"		"Golf With Your Friends.x86_64"
+				"arguments"		"-screen-fullscreen 0"
+				"description"		"Force full screen"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"9"
+			{
+				"executable"		"Golf With Your Friends.app"
+				"arguments"		"-force-glcore"
+				"description"		"Force Glcore"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"431240"
+		"baselanguages"		"english"
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"431241"
+		{
+			"name"		"Golf With Your Friends Content"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7958935372924173508"
+				"crashtesting"		"6831896942234901331"
+			}
+			"maxsize"		"4294570960"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"7C449A56A959E8105AFCE4714CBF6B6E"
+					"encrypted_size_2"		"7A844389F0A5075188A1A3FA61F6485B"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid_2"		"A62A5187F7FDFCE9AEE1F0CB3C80683D"
+					"encrypted_size_2"		"EEEE7B8EA262A9566762EF7FF0EA0421"
+				}
+				"mainline"
+				{
+					"encrypted_gid_2"		"03A2C77C6AE8B2DFEBD43046042A935C"
+					"encrypted_size_2"		"DBDE3B89A6769083A5A65AA25AAB483C"
+				}
+				"qa_release"
+				{
+					"encrypted_gid_2"		"54FFA00E8E7AD0DB499F47D239A3C217"
+					"encrypted_size_2"		"AE960676F3B3F827B94C08993974B186"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"2949693B080D43F64163C841FBE77435"
+					"encrypted_size_2"		"F530BB709CCB835B9E9A7C9759CDDCBD"
+				}
+				"ui_rework"
+				{
+					"encrypted_gid_2"		"50AA3642BB0575525BCB72AB431EADB1"
+					"encrypted_size_2"		"2A4AB7B42642D858EC5991EF4D609A28"
+				}
+				"usability"
+				{
+					"encrypted_gid_2"		"53B5CE7D8794FB410B249B3F22EC16AD"
+					"encrypted_size_2"		"8ED0E0E329CE274F528C7EBC810E43AE"
+				}
+			}
+		}
+		"431242"
+		{
+			"name"		"Golf With Your Friends Linux"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7009722476434799275"
+				"crashtesting"		"7138164013088617173"
+			}
+			"maxsize"		"4281912562"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"CAAEA3ED16CDDEA98405443EF9675364"
+					"encrypted_size_2"		"9115CCDA5D2B7951060C2368CFF918F0"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid_2"		"93A8666A2439C443C486B34998E3FCCD"
+					"encrypted_size_2"		"87E263F2386AB87E5ECC711477EAABBE"
+				}
+				"mainline"
+				{
+					"encrypted_gid_2"		"BF6441DCF301D63C193B4F1F583AA8B4"
+					"encrypted_size_2"		"A94FF0C40080F52247794171C9B57301"
+				}
+				"qa_release"
+				{
+					"encrypted_gid_2"		"B7F28AFDA24C136B58D85CEB9D15E74B"
+					"encrypted_size_2"		"81579A74D944E12692BE373E1F6DCEAC"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"EB09CA7CDD2F6420FCCDB2BD31C00164"
+					"encrypted_size_2"		"BC8CB722BE5C7C6744F16C55AA49C534"
+				}
+				"ui_rework"
+				{
+					"encrypted_gid_2"		"A734EFA19061FBE7DFB35AA0D214791E"
+					"encrypted_size_2"		"4B7C49C312D84A2CA18CEBC67986BCD8"
+				}
+				"usability"
+				{
+					"encrypted_gid_2"		"E7C4BE8AC9ABD5E7B402B32D17367A11"
+					"encrypted_size_2"		"72CDDFE40BA5C06E79426507009EA14D"
+				}
+			}
+		}
+		"431243"
+		{
+			"name"		"Golf With Your Friends Mac"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5277482730958353988"
+				"crashtesting"		"3148096913880841364"
+			}
+			"maxsize"		"4280578008"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid_2"		"F45EBDC52725E4343E775E9956E58FB8"
+					"encrypted_size_2"		"76231D3B00722F3B86D03536200C6EBE"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid_2"		"E671EA48E674374793DD8383A6D24FE3"
+					"encrypted_size_2"		"0F8C991F8D89D5A7166ADD818F5FF6CC"
+				}
+				"mainline"
+				{
+					"encrypted_gid_2"		"A6FA1A2F9D65870CEC3990F167FE6FA6"
+					"encrypted_size_2"		"C147B2F2E09A9D74BAEBCBC0F414E633"
+				}
+				"qa_release"
+				{
+					"encrypted_gid_2"		"2E1BC8B4CCF95C44FE7BF3861C04FFDB"
+					"encrypted_size_2"		"91A50999DBD350D50377DAB71752665E"
+				}
+				"qatesting"
+				{
+					"encrypted_gid_2"		"4DCCA8B8A85625EF015A1FCA600827D4"
+					"encrypted_size_2"		"B5D4B5FBF4ECCF26E90E7091697A451C"
+				}
+				"ui_rework"
+				{
+					"encrypted_gid_2"		"23908FBC8552DD717E9F2C18B90C4DD9"
+					"encrypted_size_2"		"79D0146B18D13ADDA17B51E1A3F0251E"
+				}
+				"usability"
+				{
+					"encrypted_gid_2"		"6F9B13254898F3B59F5397C5C2E6CC82"
+					"encrypted_size_2"		"3496F3D7F6E41E433BFD8D4B5E5F01B9"
+				}
+			}
+		}
+		"564170"
+		{
+			"name"		"Golf With Your Friends - OST (564170) Depot"
+			"manifests"
+			{
+				"public"		"7416072267734417826"
+			}
+			"maxsize"		"36499720"
+			"dlcappid"		"564170"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4143281"
+				"timeupdated"		"1567430966"
+			}
+			"beta"
+			{
+				"buildid"		"3652263"
+				"description"		"Closed Testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1552729254"
+			}
+			"closedbeta"
+			{
+				"buildid"		"3490817"
+				"description"		"Closed Beta"
+				"pwdrequired"		"1"
+				"timeupdated"		"1548208832"
+			}
+			"crashtesting"
+			{
+				"buildid"		"2540056"
+				"description"		"Crash testing only"
+				"timeupdated"		"1519100184"
+			}
+			"mainline"
+			{
+				"buildid"		"4179226"
+				"description"		"T17 Mainline Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568033935"
+			}
+			"qa_release"
+			{
+				"buildid"		"4144178"
+				"description"		"T17 QA Release build (dev)"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566943475"
+			}
+			"qatesting"
+			{
+				"buildid"		"3734579"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1555316133"
+			}
+			"release"
+			{
+				"buildid"		"4143281"
+				"description"		"T17 Release Build"
+				"pwdrequired"		"1"
+				"timeupdated"		"1566922532"
+			}
+			"ui_rework"
+			{
+				"buildid"		"4155102"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1567207416"
+			}
+			"usability"
+			{
+				"buildid"		"3833351"
+				"description"		"Team17 Usability Branch"
+				"pwdrequired"		"1"
+				"timeupdated"		"1558100915"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#rp_frontend"		"Navigating menus"
+					"#rp_lobby"		"In the lobby"
+				}
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,481 @@
+"appinfo"
+{
+	"appid"		"233700"
+	"common"
+	{
+		"name"		"Sword of the Stars: The Pit"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"f410170426561ce2af3a21bb133b7b6ff75aa4dc"
+		"logo_small"		"f410170426561ce2af3a21bb133b7b6ff75aa4dc_thumb"
+		"icon"		"de6ac52fd4df9c2ac99c9381ab8387aa59a1ed5f"
+		"oslist"		"windows,macos,linux"
+		"clienttga"		"a84da86abab9faabd636707cf909b93d225aa3c5"
+		"clienticon"		"cee2b811db186da786c4f954f140c226a0747dba"
+		"osarch"		""
+		"metacritic_name"		"Sword of the Stars: The Pit"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1528312811"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kerberos Productions Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kerberos Productions Inc."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sword-of-the-stars-the-pit?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"233700"
+		"store_tags"
+		{
+			"0"		"1716"
+			"1"		"122"
+			"2"		"3942"
+			"3"		"492"
+			"4"		"1677"
+			"5"		"9"
+			"6"		"1702"
+			"7"		"7569"
+			"8"		"3871"
+			"9"		"4026"
+			"10"		"8945"
+			"11"		"6276"
+			"12"		"4182"
+			"13"		"1759"
+			"14"		"597"
+			"15"		"5125"
+			"16"		"1662"
+			"17"		"4711"
+			"18"		"1741"
+			"19"		"4747"
+		}
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Kerberos Productions Inc."
+		"gamedir"		"ValveTestApp233700"
+		"homepage"		"http://www.sots-thepit.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Kerberos Productions Inc."
+		"listofdlc"		"233710,238450,258930,267720,291790,323560,345470,449720"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Pit"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ThePit.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Pit.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ThePit"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"229002"
+		{
+			"name"		".NET 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"50450161"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"name"		"XNA 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"7061608"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"233701"
+		{
+			"name"		"The Pit Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5899942050849240682"
+			}
+			"maxsize"		"578794061"
+		}
+		"238450"
+		{
+			"name"		"Mind Games Content"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"238450"
+			"manifests"
+			{
+				"public"		"4464256656939105939"
+			}
+			"maxsize"		"995939117"
+		}
+		"258930"
+		{
+			"name"		"The Pit Special Edition DLC (258930) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"258930"
+			"manifests"
+			{
+				"public"		"6168395282742968318"
+			}
+			"maxsize"		"1325314896"
+		}
+		"258931"
+		{
+			"name"		"The Pit Gold (OSx)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"3889413684929566078"
+			}
+			"maxsize"		"1467173807"
+		}
+		"291790"
+		{
+			"name"		"The Pilgrim DLC (291790) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"291790"
+			"manifests"
+			{
+				"public"		"1873255316145000199"
+			}
+			"maxsize"		"19835551"
+		}
+		"267720"
+		{
+			"name"		"Sword of the Stars: The Pit Soundtrack (267720) Depot"
+			"dlcappid"		"267720"
+			"manifests"
+			{
+				"public"		"7754748944974958635"
+			}
+			"maxsize"		"575233198"
+		}
+		"258932"
+		{
+			"name"		"The Pit Gold (Linux)"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"4129087591063888404"
+			}
+			"maxsize"		"1457899883"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"4D14C693666D707DA3D64BF20E59FF9F"
+					"encrypted_size_2"		"FB5BFFC93473CFC889730FD372530D6F"
+				}
+			}
+		}
+		"291791"
+		{
+			"name"		"The Pilgrim DLC (OSx)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"291790"
+			"manifests"
+			{
+				"public"		"1038438764954332737"
+			}
+			"maxsize"		"30058414"
+		}
+		"291792"
+		{
+			"name"		"The Pilgrim DLC (Linux)"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"291790"
+			"manifests"
+			{
+				"public"		"8446877263046748221"
+			}
+			"maxsize"		"30058414"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"94AAB10171CDAD5527EC01B038B30F4E"
+					"encrypted_size_2"		"FB5BFFC93473CFC889730FD372530D6F"
+				}
+			}
+		}
+		"323560"
+		{
+			"name"		"Sword of the Stars: The Pit - Juggernaut (323560) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"323560"
+			"manifests"
+			{
+				"public"		"7006759746176180648"
+			}
+			"maxsize"		"19614904"
+		}
+		"323561"
+		{
+			"name"		"Juggernaut DLC (OSx)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"323560"
+			"manifests"
+			{
+				"public"		"8886820736949054893"
+			}
+			"maxsize"		"28477913"
+		}
+		"323562"
+		{
+			"name"		"Juggernaut DLC (Linux)"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"323560"
+			"manifests"
+			{
+				"public"		"5323191434314779679"
+			}
+			"maxsize"		"28477913"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"6646E22A1CA9FC4ED736C04E41189368"
+					"encrypted_size_2"		"FB5BFFC93473CFC889730FD372530D6F"
+				}
+			}
+		}
+		"345470"
+		{
+			"name"		"Sword of the Stars: The Pit - Necromancer (345470) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"345470"
+			"manifests"
+			{
+				"public"		"2099624225918449653"
+			}
+			"maxsize"		"38628015"
+		}
+		"345471"
+		{
+			"name"		"Necromancer DLC (OSx)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"345470"
+			"manifests"
+			{
+				"public"		"6693545596803324745"
+			}
+			"maxsize"		"65569395"
+		}
+		"345472"
+		{
+			"name"		"Necromancer DLC (Linux)"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"345470"
+			"manifests"
+			{
+				"public"		"8136879133638692529"
+			}
+			"maxsize"		"65569395"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"140998C299D7CC784D03461E8F5291E5"
+					"encrypted_size_2"		"FB5BFFC93473CFC889730FD372530D6F"
+				}
+			}
+		}
+		"449720"
+		{
+			"name"		"Sword of the Stars: The Pit - Healer (449720) Depot"
+			"dlcappid"		"449720"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6371908867439438465"
+			}
+			"maxsize"		"10369962"
+		}
+		"449721"
+		{
+			"name"		"Healer DLC (OSx)"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"449720"
+			"manifests"
+			{
+				"public"		"5089544769279756534"
+			}
+			"maxsize"		"16667795"
+		}
+		"449722"
+		{
+			"name"		"Healer DLC (Linux)"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"449720"
+			"manifests"
+			{
+				"public"		"4405804476646865446"
+			}
+			"maxsize"		"16667795"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid_2"		"485A304A0916CE35C807D4719DA51502"
+					"encrypted_size_2"		"FB5BFFC93473CFC889730FD372530D6F"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2355349"
+				"timeupdated"		"1512890330"
+			}
+			"internal"
+			{
+				"buildid"		"3666904"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1553157249"
+			}
+			"osmium"
+			{
+				"buildid"		"2355349"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1512890344"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+	}
+}
+ 

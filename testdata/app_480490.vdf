@@ -1,0 +1,1424 @@
+"appinfo"
+{
+	"appid"		"480490"
+	"common"
+	{
+		"name"		"Prey"
+		"type"		"Game"
+		"logo"		"537e5753f65f16b745e83aabe83ca0c6e1dcbbb8"
+		"logo_small"		"537e5753f65f16b745e83aabe83ca0c6e1dcbbb8_thumb"
+		"icon"		"5ef565e374f039469e4a5c332cd51584af7ec5db"
+		"releasestate"		"released"
+		"clienticon"		"1bdccf9e9ff8160454e386f848ecd4f735604284"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"480490_eula_0"
+				"name"		"Prey EULA"
+				"url"		"http://store.steampowered.com//eula/480490_eula_0"
+			}
+		}
+		"clienttga"		"b8a575982c3e05d867b608b2c11c29ec389d886d"
+		"metacritic_name"		"Project Danielle"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"65"
+				"height_pct"		"89"
+			}
+		}
+		"store_asset_mtime"		"1544471885"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arkane Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bethesda Softworks"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1493992800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"480490"
+		"store_tags"
+		{
+			"0"		"3942"
+			"1"		"1755"
+			"2"		"4182"
+			"3"		"4166"
+			"4"		"1667"
+			"5"		"1663"
+			"6"		"19"
+			"7"		"3839"
+			"8"		"1742"
+			"9"		"3834"
+			"10"		"1673"
+			"11"		"4295"
+			"12"		"1695"
+			"13"		"3978"
+			"14"		"21"
+			"15"		"1687"
+			"16"		"1721"
+			"17"		"122"
+			"18"		"9204"
+			"19"		"1756"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Arkane Studios"
+		"publisher"		"Bethesda Softworks"
+		"listofdlc"		"550030,601820,609380,865670"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Prey"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Binaries\\Danielle\\x64\\Release\\Prey.exe"
+				"type"		"none"
+			}
+			"2"
+			{
+				"executable"		"Binaries\\Danielle\\x64\\Release\\Prey.exe"
+				"arguments"		"-loadFrom=Whiplash -dlc=865670"
+				"description"		"Prey: Mooncrash"
+				"type"		"option1"
+				"config"
+				{
+					"ownsdlc"		"865670"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"922097098"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"922099935"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"922109667"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"922108660"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"922108038"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"922107221"
+			{
+				"controller_type"		"controller_xboxone"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"1111677442"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+			"1111714540"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,baseline,compat,denuvo,lyonbuild,press,public-beta-patch,qualityassurance,vendors"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"13742505"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"name"		"VC 2015 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29759921"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"name"		"VC 2017 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"29664201"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"480491"
+		{
+			"name"		"Prey Content"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"6103142374152534482"
+			}
+			"maxsize"		"19750738922"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"E5032F96A6EB640DC435E64D87C6AB80"
+					"encrypted_size_2"		"98AF5DA47DC8561C0CAAEDF3D502C515"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"6ACDE3ED7A6B678450EC003968BF1471"
+					"encrypted_size_2"		"F35C5364C3866F71B352D3DBE030A347"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"397D0BADB5F169312EE4D144FCF6921F"
+					"encrypted_size_2"		"634C67A87822A9EF7CD5158F4AABC9CE"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"B2A6C2AE6D9847379D924D20CAB3B580"
+					"encrypted_size_2"		"659CCA7437B78FD3F32A089F808E85A4"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"8EF8AFEC7E08025389995675CE529BD2"
+					"encrypted_size_2"		"395C9CDD318A4D44E562E4BD89B1B23B"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"05556461770DA08DC88326C18465ACE1"
+					"encrypted_size_2"		"035B918CA2931F2759E18C5D09048AC5"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"4F70BA59BEB9B85E9BE64757B60FC3DB"
+					"encrypted_size_2"		"B3B78BDFEC54BDA7B041C9DEC8B5B0C6"
+				}
+			}
+		}
+		"480492"
+		{
+			"name"		"Prey english"
+			"manifests"
+			{
+				"public"		"7477187854661880946"
+			}
+			"maxsize"		"728206836"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"AC70CE35DA259FD95C76762FDC90C5AE"
+					"encrypted_size_2"		"8C3AE7144399463E8D93963EE361936F"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"5D11656016700409BF3DC916C37F51BF"
+					"encrypted_size_2"		"CC461212480C40468AE306EC9FEC0293"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"58A5ED713355C1F0B81F7A742736B351"
+					"encrypted_size_2"		"CBB59E972A46987D6C0E8D4CA1FED4D7"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"2457B894C20AFBD3A31D5FDA8512DBBD"
+					"encrypted_size_2"		"B04F80F78C6833CB779EB0B91C6324D2"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"B1EAEB97A5A7873FF2FF58735FF6ACD7"
+					"encrypted_size_2"		"AD9FCF00ADC0F7DA278CDAF5D50CCC73"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"6E6E2BE879FD5CB7B1A9C3099E5C0BDD"
+					"encrypted_size_2"		"C066B15116E90887583564A4367747CF"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"1F4B83474032B1F55BF08C4853628372"
+					"encrypted_size_2"		"040FBFB3C5210ED62024D9C055B21FE3"
+				}
+			}
+		}
+		"480493"
+		{
+			"name"		"Prey german"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"6088894190635323468"
+			}
+			"maxsize"		"879128875"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"617C71E88413B43A44850161A71C58B3"
+					"encrypted_size_2"		"CE6DD8714CF07CE999C6AADA084F665F"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"B9374A9F75893D1B3D246BF54B581F6D"
+					"encrypted_size_2"		"3794FC65E9E67F0B59C548EF09A871C3"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"454DA78A0CDFFA777DDB6BB7EF03254C"
+					"encrypted_size_2"		"D5D5A85D99950468EB58E8192A243C78"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"C58262FF3B31D4B3E951891E9A26D99A"
+					"encrypted_size_2"		"1EB0E56AE2635F0A727DEFB7525F7BB4"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"68BCF3B833CEA4A1C4D9AC866CCBBD20"
+					"encrypted_size_2"		"EB74B4C95C02A3BC5D15BC3C1136A43B"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"7C3EDA497DF80266E9168C349277B658"
+					"encrypted_size_2"		"DBA5F6E82EB20A1A78B9CD6CE9BD8AC2"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"0FD0E94BE840EA0710CC227C2DC6D234"
+					"encrypted_size_2"		"5C3A33A9EF7FBCE5ABD717B9278821A6"
+				}
+			}
+		}
+		"480494"
+		{
+			"name"		"Prey french"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"6817012976900539291"
+			}
+			"maxsize"		"856259988"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"B33F3E87B7A7CE9D02CED74C3F892B96"
+					"encrypted_size_2"		"D3109F2E75D57D9C55C93D1C547BBAB4"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"BC2F5601B3A665D0B1744EB3FAB9C9A9"
+					"encrypted_size_2"		"0784F85CCCB2C8E8EE7CDAF5403AD9DA"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"D3086DF3323067BD8BD49BB938FCCEA4"
+					"encrypted_size_2"		"96111F402B3603F3F0D4BACA4DC6E93D"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"76A94111C407558CE3DFFA97E97E12C0"
+					"encrypted_size_2"		"BE107F0F0AA8D939FB25855DA2554F58"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"FE96A0759073C7C49F433E5CB0820E38"
+					"encrypted_size_2"		"9E505048A519C978F7184FEDBAE04FF7"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"402A2B382DF750A7E29BCF5E7BFBA4A7"
+					"encrypted_size_2"		"866493FBE1F3BC843395006E3747B584"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"40C797908FF1BEB0B13C9797DF5E1299"
+					"encrypted_size_2"		"1C624D0AE23E4E1DF60E27DBF45EFF1B"
+				}
+			}
+		}
+		"480495"
+		{
+			"name"		"Prey italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"3622006836870614424"
+			}
+			"maxsize"		"882378501"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"78B0E32E3AD40A51313855D46025EB1D"
+					"encrypted_size_2"		"278D681C4FF9CF272079CA88E9129D47"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"B22B94D2168B7CAFBBDB3B4EB1EF42F2"
+					"encrypted_size_2"		"DC78FCC36623F4BCFB4C168B11DB13EF"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"5AD25A083E9B7EC4EF5281F1D7F78836"
+					"encrypted_size_2"		"D0150E6AD01C6C030F932D03953A78B1"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"32E590D68D65F25286C6D62271428A2F"
+					"encrypted_size_2"		"155361C2C3B083B8EA372D8ECE58DF9C"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"53C73E4B7078EB8D42465D8C0221875D"
+					"encrypted_size_2"		"C72817132675AE4B95E01801089DBB4C"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"2E91AB509B06AD0156135CCD42D025F6"
+					"encrypted_size_2"		"C81180992ED48E413F58752D70A32A75"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"413678F8D1BE87940A7D04A558D3FC26"
+					"encrypted_size_2"		"BD7EA921504ABC609D530321E44B7478"
+				}
+			}
+		}
+		"480496"
+		{
+			"name"		"Prey spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1059598372229536311"
+			}
+			"maxsize"		"884332342"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"05753A429757336724A9933D26A8D0C7"
+					"encrypted_size_2"		"D894DB44C7EB56066558DE276CFBA3F4"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"4834E93B99B4E6F87138B9B247EB987C"
+					"encrypted_size_2"		"09C19AE56B67B47732E0D5EFCC619DC6"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"A031AA06FDA34C7C17C2FC5D45DCFB41"
+					"encrypted_size_2"		"E6DA64A220B5C2208D8864BE67828622"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"72E809CB72954BAA2D181A17DDDD2103"
+					"encrypted_size_2"		"96454F0373CC922543DE13E7308ECEDB"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"4BA4B36768469D9167AB4F7AA1418DC2"
+					"encrypted_size_2"		"14FC64F7D009D5A3922A9F82841FA769"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"A2D8BC992AC7EB82D0511673642FA623"
+					"encrypted_size_2"		"29E468F4AC17EE4F50610A096D60745A"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"0E8481114BE950538060853CBF463D6C"
+					"encrypted_size_2"		"E7004DDF8A4B9DBEDB1E10997607283B"
+				}
+			}
+		}
+		"480497"
+		{
+			"name"		"Prey russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"4139093324337911847"
+			}
+			"maxsize"		"852236191"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"DF7479420854DFA7B8D31CBCB7D4650F"
+					"encrypted_size_2"		"B8EDC397442047FCFFAE5DEB94F3D04C"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"B4F4E1FC92BF94172A2FAD197FD2080D"
+					"encrypted_size_2"		"2393B8A0621AC3836A71B098C708F7D4"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"9763ED2C683F442B09F24DC5D087A59A"
+					"encrypted_size_2"		"E898A7E71791C4B54AD78DB1132832B0"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"56F81DB551BA1B30CACC70692D2425EC"
+					"encrypted_size_2"		"60CFB30A56F89805E824BD82088E92F3"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"9D99D83E6DB71FF2A17C1BCB6FDAD10C"
+					"encrypted_size_2"		"DAA349AF5523423CE57254D4CF832687"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"7379D2032CCBA9271FFCD08B0B357964"
+					"encrypted_size_2"		"58FAA4072E33C49B770AE38C67959C55"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"73F2A358E87A6C3DF1336731B028357F"
+					"encrypted_size_2"		"CE1DD0AE7CF0FFC6B32EE97EF63EB999"
+				}
+			}
+		}
+		"480498"
+		{
+			"name"		"Prey polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"6193276620845427394"
+			}
+			"maxsize"		"898342862"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"6E6151790AB0F495503B679CB6026C86"
+					"encrypted_size_2"		"DF8CE6934A4197A72019F91513925B83"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"C3CF65E1F9BB8FC73865478259E5894E"
+					"encrypted_size_2"		"B85AEAC2C398552AD8838BA2F87E7B78"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"9C83F1722D5B4E691740BB92E4A6AECB"
+					"encrypted_size_2"		"A5B79320633E564A830858A54D6CBC05"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"B4239CD41E54462A55988DADACE3C321"
+					"encrypted_size_2"		"BCFDCBE0E5A66A4BD4751EC472AD4D2B"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"CDF4F2DA695C1CC4E311D0BFA40E8DA2"
+					"encrypted_size_2"		"2A4EA200CEE6A983E42BE95D3310E105"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"685970839930A377CF89E577F5DFA0A2"
+					"encrypted_size_2"		"4114618D9FEB99559A7F94C2EEDA3FD7"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"E74C7D0F33645AAE6F986AC5D5454FAF"
+					"encrypted_size_2"		"352C261C0F68A45349D5B386E9F300D8"
+				}
+			}
+		}
+		"480499"
+		{
+			"name"		"Prey latin_american_spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1837190703053379358"
+			}
+			"maxsize"		"876107937"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"1E2B0F3ACCCD40B2EBCF944E04079D50"
+					"encrypted_size_2"		"279ED2FE01F9799D09AFF7D031C7409C"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"FE4953F2E54452CC356778368FEE8429"
+					"encrypted_size_2"		"D230ACC8076BF8D5BA351C057A183922"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"5E57706B850B735DF852D87AB19E5580"
+					"encrypted_size_2"		"FDEF07445BAB2FA06840CE84C8A021F3"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"FF1A4146C701EF52EE756962284E3FC4"
+					"encrypted_size_2"		"42FA574D9B3E3DC59C621EED6C9570E7"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"5C1CE8E9A850491271C3620BE5F9A13F"
+					"encrypted_size_2"		"00BEBE47CB68DFC94F3EB83B42B18B57"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"68299A77F0109FAF1B6DE2856694D946"
+					"encrypted_size_2"		"A993A6A34CAA759EDE602721BD6D015D"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"C7A1F56C2748B6F1ECB3D02824120DF4"
+					"encrypted_size_2"		"0EA1E4C985D69CF38B29377AC21B7272"
+				}
+			}
+		}
+		"589350"
+		{
+			"name"		"Prey brazilian_portuguese"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"2251296819412708891"
+			}
+			"maxsize"		"900498863"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"E7541050E56B26FEDDDE01F11ADFBBED"
+					"encrypted_size_2"		"6AF4AC4483519F43BFBF0B829893D8FF"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"CBCC8572BC3C107277DF2179C29E938B"
+					"encrypted_size_2"		"5C8930C33DAF3E485BA44C658022200F"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"C981DD1B5A72224134965D554383DD1D"
+					"encrypted_size_2"		"7D657726BE55834B90A747C85DF50AAB"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"AF70FE99C0B7D89AAC919A673E4166BD"
+					"encrypted_size_2"		"491856C7805E44F21114CBB8846D5FE7"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"FBCDB79F88E8813AF182B34CC05138DA"
+					"encrypted_size_2"		"7D45F600BC91C76B4A3E697DF71122C5"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"1CC22D377419919DFA70246B44428AE5"
+					"encrypted_size_2"		"846B5B96671479DDB79FE8CA3E1BEA5E"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"8151005DB400B41B4588AAE486DD4B83"
+					"encrypted_size_2"		"0ACB49DE21364FFCC862EAF137207649"
+				}
+			}
+		}
+		"589351"
+		{
+			"name"		"Prey japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"8446636103348438683"
+			}
+			"maxsize"		"955203531"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"72ACBF0066527349DB0D297EBA0C3C0D"
+					"encrypted_size_2"		"EFB201F68340196CDA58B1C5F2BDE210"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"D5C8E30748FE5F349CDC838909CB270A"
+					"encrypted_size_2"		"390C8F4A8DFBD366ED7CF70E680BD640"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"61224544FF16057704ABA3B8787E0D46"
+					"encrypted_size_2"		"BFA12863109AB08E782F412CE55B8E77"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"DA728BC7F5A717BC074D4598521CE189"
+					"encrypted_size_2"		"ADF8A8465D5DD17C914DFA610C57C6E6"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"3CC06E678FBD0224BDEB22CA0177A221"
+					"encrypted_size_2"		"B98EDE67CEB799C578615D1F092C971F"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"84FE37DA374D7D0A05D266B14FD41B69"
+					"encrypted_size_2"		"00784407DBC7BBAFCF42E7517BBB7E9D"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"EB67DCF4DCDD012A03FF54EC50DB328F"
+					"encrypted_size_2"		"776EE2FA0F3CC6FFC9A2511E48F8EEF8"
+				}
+			}
+		}
+		"589352"
+		{
+			"name"		"Prey chineset"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"7955807492102647291"
+			}
+			"maxsize"		"17031480"
+			"encryptedmanifests"
+			{
+				"baseline"
+				{
+					"encrypted_gid_2"		"5BB389540D5B59A8E1368189D63C5D28"
+					"encrypted_size_2"		"81D7B964440BCE98D65708B2FD58CAA7"
+				}
+				"compat"
+				{
+					"encrypted_gid_2"		"5A7E054799BF9F4B621E187C7D1874E0"
+					"encrypted_size_2"		"690870872F3C26A6156AD4485FD9E262"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"4DDE9B629CC2C2D0A6364B3A8D688BC2"
+					"encrypted_size_2"		"1B83697B34F287E9BA8A4823AE237D8E"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"BCEA50CD23E6571BFEFCA42BFC867032"
+					"encrypted_size_2"		"29DC0F1C9522AD05DCC8192E7D416B54"
+				}
+				"press"
+				{
+					"encrypted_gid_2"		"96096A94A1C87B541EE5C4F9EFA5D193"
+					"encrypted_size_2"		"6BC4A3975EA5964B8219DED26DB01E7F"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"0F288C6FF31612F7B23FF4A3561BD05A"
+					"encrypted_size_2"		"E9494AB585B5484D6642C48513BEBEE5"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"610FEC609CA5092569EDA6706C87E8F2"
+					"encrypted_size_2"		"42B5585A7675618A63F9C35984BF724C"
+				}
+			}
+		}
+		"589353"
+		{
+			"name"		"Prey DLC 1"
+		}
+		"550031"
+		{
+			"name"		"01101011"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"6561167586715768575"
+			}
+			"maxsize"		"1025706"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"B5F4021EE8A46B4EC8FA7B160B36BC9A"
+					"encrypted_size_2"		"66D6A190D7FFA76908440DB3A3B10D56"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"2C89E889ED7083B5DA82CBAB04F2C545"
+					"encrypted_size_2"		"E7DDF4B2097114BAAF22A077C3921E21"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"9E3642D141C6E6A84FD0C7C046B03B4C"
+					"encrypted_size_2"		"C14E69B8CF859832A665AA9A7E2EA851"
+				}
+				"qualityassurance"
+				{
+					"encrypted_gid_2"		"CA5862E1FE61C2C670319927A7445BFB"
+					"encrypted_size_2"		"3DFE7026E8E493D3472460033061A286"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"4CDBB070E1518C5C2CF2CA3BC608C24D"
+					"encrypted_size_2"		"7FF7008EF97F6FBDACE64BAD7EAAC27F"
+				}
+			}
+		}
+		"550032"
+		{
+			"name"		"01100001"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"		"512551597004128108"
+			}
+			"maxsize"		"12541286139"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"B531883DDC220F2A1BA407D2E17D91FA"
+					"encrypted_size_2"		"5E58683B8ECC8311714043033EF65424"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"38FEE5A91A81BA30B3025C32B57018B8"
+					"encrypted_size_2"		"C4D5EAF8F386B9E7BEF5131ABA4E0148"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"7A23C72121D5673338230546713E647F"
+					"encrypted_size_2"		"37FF20D132D055386748F4CF70B6F709"
+				}
+				"test"
+				{
+					"encrypted_gid_2"		"C65971B0A5EABEBB7E7DC3233F40347F"
+					"encrypted_size_2"		"01271C43A3EBDEB5DA15090C23A9373C"
+				}
+			}
+		}
+		"550033"
+		{
+			"name"		"01110011"
+			"dlcappid"		"865670"
+			"manifests"
+			{
+				"public"		"5676650103104625600"
+			}
+			"maxsize"		"369318789"
+		}
+		"550034"
+		{
+			"name"		"01101101"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1692178481188241058"
+			}
+			"maxsize"		"430958693"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"C4D06408B3FEB80B32A039C48F1DBD4D"
+					"encrypted_size_2"		"90387CD9FAB99F79C4CE90C6DF95428E"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"C8985DF80F1838B045BD2AE26FE52F4B"
+					"encrypted_size_2"		"8E7280A7525BF6FB7DDC88C65730C76C"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"53BC1FBE8E221A8CADC27AA3E3AB2538"
+					"encrypted_size_2"		"FEC5A27F6172597BD96DD2F5F45B7938"
+				}
+			}
+		}
+		"550035"
+		{
+			"name"		"01100001"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"8228828974118656426"
+			}
+			"maxsize"		"412932652"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"52E4EC7624D4B477F87EA0B59D2D6A09"
+					"encrypted_size_2"		"BCFEE9EEE4C747A6291DB9061E16BF60"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"5908AE518B96E09329C6D9B07310FA9C"
+					"encrypted_size_2"		"27DE15804784267A00B70DC5A16E90E3"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"FAC417D9323E4272797954FED9CFFC09"
+					"encrypted_size_2"		"6F41ADB9C2EED55AB18330E08B34D18D"
+				}
+			}
+		}
+		"550036"
+		{
+			"name"		"01110011"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"4576111761233264246"
+			}
+			"maxsize"		"431975697"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"E4DB9388E4C0AB120B2FFC2ACFDD596F"
+					"encrypted_size_2"		"077038A75DFB07332BFBA1EB3BA0BE7E"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"E49DC8914978B670E1E5A9E6D5DD2FD3"
+					"encrypted_size_2"		"4F0518AE99384CD5D604492E738F73AB"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"EF750E8881FC512857100B8B6876642C"
+					"encrypted_size_2"		"D4DE7FAC4A924E2011871A89F3BE75DA"
+				}
+			}
+		}
+		"550037"
+		{
+			"name"		"01100101"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"2556184547016595586"
+			}
+			"maxsize"		"429439415"
+		}
+		"550038"
+		{
+			"name"		"01100101"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"5640385337942446039"
+			}
+			"maxsize"		"411775008"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"8186A59F16A34A66114B3E80A88DCF7E"
+					"encrypted_size_2"		"E67EB0CC1AAB6B7329425221A6F4A16A"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"2C27073B909DD57E2F131E4E8552C0D0"
+					"encrypted_size_2"		"271938B475CBFA771B93A18A19D5AF24"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"4CE4947E93162B54E8C0E8053913C351"
+					"encrypted_size_2"		"E42990B0FA05F52857CCA3764A605723"
+				}
+			}
+		}
+		"550039"
+		{
+			"name"		"01110011"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"1007247583197101600"
+			}
+			"maxsize"		"424314851"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"B2F97F5C3BFB5D8AC20E99BD02D7EB14"
+					"encrypted_size_2"		"E0B26962045397A5D41F7E08980C3521"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"335E1A3FE6FB532E7588C242A3AFA0FD"
+					"encrypted_size_2"		"37F85527CED5E56C246A7813D0015146"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"285BAF89E632089FAA9D722FE18FF21B"
+					"encrypted_size_2"		"C4F3A2AFD9199AD5A28F03791FFC2940"
+				}
+			}
+		}
+		"589354"
+		{
+			"name"		"01111001"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"6992238737509097319"
+			}
+			"maxsize"		"420012652"
+		}
+		"589355"
+		{
+			"name"		"01101111"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"7269158574421877666"
+			}
+			"maxsize"		"438919591"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"DE1F0A3FE1546DEA2F0C69378BABC671"
+					"encrypted_size_2"		"4D1E5F6637C5ECFAA41E8DA9769324AD"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"FF03E6027DE630B7F88FCD29F3767F82"
+					"encrypted_size_2"		"CEC4E5E8D1A2819B14623FAE40B48555"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"B7BB0767757DD775C3EB50A54CD7433A"
+					"encrypted_size_2"		"D0AD6FD01F525632042E32E321F8D309"
+				}
+			}
+		}
+		"589356"
+		{
+			"name"		"01110101"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"1264844909982911689"
+			}
+			"maxsize"		"456911971"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"1D4DBC58E4C293BFEB2DDF844941BBE9"
+					"encrypted_size_2"		"405BC887B320D69B8C15A63F3EE5B1EA"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"ACD95858CBAB1BA535F3291FC6E99254"
+					"encrypted_size_2"		"697F0E3B5B7CA5A78DFE85636E87E613"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"470E367B557BCB4501C750110C6FB9FD"
+					"encrypted_size_2"		"EA17B8DB01F96CC87DC7E04619EE2892"
+				}
+			}
+		}
+		"589357"
+		{
+			"name"		"00101110"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"2997352328656105565"
+			}
+			"maxsize"		"16964188"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"47E9D2CBFBA9B73559B5A030564DD034"
+					"encrypted_size_2"		"278ABF4F92353D8A39A84863E5A8C09D"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"65EB5E4D5C59CA9BF50716893DCFDAF0"
+					"encrypted_size_2"		"A32A7F126AC6D1A15C73357CA4D124EC"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"3471E70D7FABE9E4A78AF7C386474AC8"
+					"encrypted_size_2"		"CFE76355F37F2F115AC4BA2CFF10074A"
+				}
+			}
+		}
+		"589358"
+		{
+			"name"		"00000000"
+			"dlcappid"		"865670"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"2805460628259266455"
+			}
+			"maxsize"		"630445"
+			"encryptedmanifests"
+			{
+				"compat"
+				{
+					"encrypted_gid_2"		"26636D423EC5CAE477010E8EEEFB55FD"
+					"encrypted_size_2"		"452E3317B1F35C13DE9984C806D80163"
+				}
+				"denuvo"
+				{
+					"encrypted_gid_2"		"15A74AC9211036E91E965FEB510C29C6"
+					"encrypted_size_2"		"500095B7B44D44701FF2C72CF1566D8D"
+				}
+				"lyonbuild"
+				{
+					"encrypted_gid_2"		"9111E6075395ADCB1BAF1677346E4766"
+					"encrypted_size_2"		"98B3600F1A8289AC44D090C9437F8680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3076808"
+				"timeupdated"		"1536071845"
+			}
+			"baseline"
+			{
+				"buildid"		"1843890"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1501775443"
+			}
+			"compat"
+			{
+				"buildid"		"2828239"
+				"description"		"Compat testing"
+				"pwdrequired"		"1"
+				"timeupdated"		"1528683054"
+			}
+			"denuvo"
+			{
+				"buildid"		"2828239"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1528683086"
+			}
+			"lyonbuild"
+			{
+				"buildid"		"2828239"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1528683168"
+			}
+			"press"
+			{
+				"buildid"		"1996601"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1501769001"
+			}
+			"public-beta-patch"
+			{
+				"buildid"		"3076808"
+				"description"		"Public - beta patch"
+				"timeupdated"		"1536071865"
+			}
+			"qualityassurance"
+			{
+				"buildid"		"3994190"
+				"description"		"Dev & QA"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562646706"
+			}
+			"test"
+			{
+				"buildid"		"2931532"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1531173324"
+			}
+			"vendors"
+			{
+				"buildid"		"3076808"
+				"description"		""
+				"pwdrequired"		"1"
+				"timeupdated"		"1536071879"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Arkane Studios/Prey/SaveGames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Arkane Studios/Prey/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 
