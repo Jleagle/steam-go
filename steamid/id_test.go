@@ -6,7 +6,7 @@ import (
 
 func TestGettersSetters(t *testing.T) {
 
-	id := NewID(UniversePublic, AccountTypeIndividual, 1, 8360464)
+	id := NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, 8360464)
 
 	if id != 76561197968626192 {
 		t.Error(id, 76561197968626192)
@@ -20,8 +20,8 @@ func TestGettersSetters(t *testing.T) {
 		t.Error("GetAccountType", id.GetAccountType(), AccountTypeIndividual)
 	}
 
-	if id.GetInstanceID() != 1 {
-		t.Error("GetInstanceID", id.GetInstanceID(), 1)
+	if id.GetInstanceID() != InstanceDesktop {
+		t.Error("GetInstanceID", id.GetInstanceID(), InstanceDesktop)
 	}
 
 	if id.GetAccountID() != 8360464 {

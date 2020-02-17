@@ -11,6 +11,14 @@ type AccountID uint32
 
 type InstanceID uint32
 
+//noinspection GoUnusedConst
+const (
+	InstanceAll     InstanceID = 0
+	InstanceDesktop InstanceID = 1
+	InstanceConsole InstanceID = 2
+	InstanceWeb     InstanceID = 3
+)
+
 type ChatInstanceID InstanceID
 
 //noinspection GoUnusedConst
@@ -115,7 +123,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 		account := (uint32(part3) << 1) | uint32(part2)
 
 		//
-		return NewID(UniverseID(i), AccountTypeIndividual, 1, AccountID(account)), nil
+		return NewID(UniverseID(i), AccountTypeIndividual, InstanceDesktop, AccountID(account)), nil
 
 	case playerRegexpID3I.MatchString(id):
 
@@ -168,7 +176,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 			}
 
 			//
-			return NewID(UniverseID(part2), accountType, 1, AccountID(part3)), nil
+			return NewID(UniverseID(part2), accountType, InstanceDesktop, AccountID(part3)), nil
 		}
 
 		return out, ErrInvalidPlayerID
@@ -180,7 +188,7 @@ func ParsePlayerID(id string) (out ID, err error) {
 			return out, err
 		}
 
-		return NewID(UniversePublic, AccountTypeIndividual, 1, AccountID(i)), nil
+		return NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, AccountID(i)), nil
 
 	case playerRegexpID64.MatchString(id):
 
@@ -224,7 +232,7 @@ func ParseGroupID(id string) (out ID, err error) {
 			return out, err
 		}
 
-		return NewID(UniversePublic, AccountTypeClan, 0, AccountID(i)), nil
+		return NewID(UniversePublic, AccountTypeClan, InstanceAll, AccountID(i)), nil
 
 	default:
 
