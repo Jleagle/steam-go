@@ -175,8 +175,14 @@ func ParsePlayerID(id string) (out ID, err error) {
 				return out, err
 			}
 
+			// Instance
+			instanceID := InstanceDesktop
+			if accountType == AccountTypeClan || accountType == AccountTypeChat {
+				instanceID = InstanceAll
+			}
+
 			//
-			return NewID(UniverseID(part2), accountType, InstanceDesktop, AccountID(part3)), nil
+			return NewID(UniverseID(part2), accountType, instanceID, AccountID(part3)), nil
 		}
 
 		return out, ErrInvalidPlayerID
