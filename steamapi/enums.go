@@ -1,4 +1,4 @@
-package steam
+package steamapi
 
 import (
 	"strings"
