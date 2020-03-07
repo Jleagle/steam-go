@@ -208,9 +208,13 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetPackageDetails(id int, code ProductCC, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
 
-	idx := strconv.Itoa(id)
+	if id == 0 {
+		return pack, bytes, ErrPackageNotFound // Package 0 does exist but the API does not return it
+	}
+
+	idx := strconv.Itoa(int(id))
 
 	query := url.Values{}
 	query.Set("packageids", idx)
