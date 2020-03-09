@@ -57,7 +57,7 @@ func (s Steam) GetAppDetailsMulti(ids []int, cc ProductCC, language LanguageCode
 	var bytesString = string(bytes)
 
 	// Check invalid responses
-	if bytesString == "null" {
+	if bytesString == "null" || bytesString == "[]" {
 		return resp, bytes, ErrNullResponse
 	}
 	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
