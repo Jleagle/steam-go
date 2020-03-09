@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -62,10 +63,10 @@ func (s *Steam) SetCommunityRateLimit(duration time.Duration, burst int64) {
 	s.communityBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err error) {
+func (s Steam) getFromAPI(path string, query url.Values) (b []byte, err error) {
 
 	if s.key == "" {
-		return bytes, ErrMissingKey
+		return b, ErrMissingKey
 	}
 
 	if s.apiBucket != nil {
@@ -77,7 +78,7 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 
 	response, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
-		return bytes, err
+		return b, err
 	}
 
 	//noinspection GoUnhandledErrorResult
@@ -86,17 +87,20 @@ func (s Steam) getFromAPI(path string, query url.Values) (bytes []byte, err erro
 	// Handle errors
 	if response.StatusCode != 200 {
 		if val, ok := apiStatusCodes[response.StatusCode]; ok {
-			return bytes, Error{Err: val, Code: response.StatusCode, URL: path}
+			return b, Error{Err: val, Code: response.StatusCode, URL: path}
 		} else {
-			return bytes, errors.New("steam: something went wrong")
+			return b, errors.New("steam: something went wrong")
 		}
 	}
 
 	//
-	return ioutil.ReadAll(response.Body)
+	b, err = ioutil.ReadAll(response.Body)
+	b = bytes.TrimSpace(b)
+
+	return b, err
 }
 
-func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err error) {
+func (s Steam) getFromStore(path string, query url.Values) (b []byte, err error) {
 
 	if s.storeBucket != nil {
 		s.storeBucket.Wait(1)
@@ -104,13 +108,17 @@ func (s Steam) getFromStore(path string, query url.Values) (bytes []byte, err er
 
 	response, err := s.get("https://store.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
-		return bytes, err
+		return b, err
 	}
 
 	//noinspection GoUnhandledErrorResult
 	defer response.Body.Close()
 
-	return ioutil.ReadAll(response.Body)
+	//
+	b, err = ioutil.ReadAll(response.Body)
+	b = bytes.TrimSpace(b)
+
+	return b, err
 }
 
 func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Response, err error) {
