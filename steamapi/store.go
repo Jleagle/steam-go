@@ -18,14 +18,18 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (s Steam) GetAppDetails(id int, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, bytes []byte, err error) {
 
-	resp, bytes, err := s.GetAppDetailsMulti([]int{id}, cc, language, filters)
+	if id == 0 {
+		return app, bytes, ErrAppNotFound // App 0 does exist but the API does not return it
+	}
+
+	resp, bytes, err := s.GetAppDetailsMulti([]uint{id}, cc, language, filters)
 	if err != nil {
 		return app, bytes, err
 	}
 
-	idx := strconv.Itoa(id)
+	idx := strconv.FormatUint(uint64(id), 10)
 
 	if resp[idx].Success == false {
 		return app, bytes, ErrAppNotFound
@@ -34,11 +38,11 @@ func (s Steam) GetAppDetails(id int, cc ProductCC, language LanguageCode, filter
 	return resp[idx], bytes, nil
 }
 
-func (s Steam) GetAppDetailsMulti(ids []int, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
-		stringIDs = append(stringIDs, strconv.Itoa(id))
+		stringIDs = append(stringIDs, strconv.FormatUint(uint64(id), 10))
 	}
 
 	query := url.Values{}
@@ -214,7 +218,7 @@ func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode)
 		return pack, bytes, ErrPackageNotFound // Package 0 does exist but the API does not return it
 	}
 
-	idx := strconv.Itoa(int(id))
+	idx := strconv.FormatUint(uint64(id), 10)
 
 	query := url.Values{}
 	query.Set("packageids", idx)
