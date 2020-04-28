@@ -125,3 +125,39 @@ type SchemaForGameStat struct {
 	DefaultValue int    `json:"defaultvalue"`
 	DisplayName  string `json:"displayName"`
 }
+
+func (s Steam) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, bytes []byte, err error) {
+
+	options := url.Values{}
+	options.Set("steamid", strconv.FormatUint(playerID, 10))
+	options.Set("appid", strconv.FormatUint(uint64(appID), 10))
+	options.Set("l", string(LanguageEnglish))
+
+	bytes, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options)
+	if err != nil {
+		return schema, bytes, err
+	}
+
+	var resp PlayerAchievementsOuterResponse
+	err = json.Unmarshal(bytes, &resp)
+	if err != nil {
+		return schema, bytes, err
+	}
+
+	return resp.Playerstats, bytes, nil
+}
+
+type PlayerAchievementsOuterResponse struct {
+	Playerstats PlayerAchievementsResponse `json:"playerstats"`
+}
+
+type PlayerAchievementsResponse struct {
+	SteamID      ctypes.Int64 `json:"steamID"`
+	GameName     string       `json:"gameName"`
+	Achievements []struct {
+		Apiname    string      `json:"apiname"`
+		Achieved   ctypes.Bool `json:"achieved"`
+		Unlocktime int64       `json:"unlocktime"`
+	} `json:"achievements"`
+	Success bool `json:"success"`
+}
