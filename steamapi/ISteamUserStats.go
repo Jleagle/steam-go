@@ -159,5 +159,6 @@ type PlayerAchievementsResponse struct {
 		Achieved   ctypes.Bool `json:"achieved"`
 		Unlocktime int64       `json:"unlocktime"`
 	} `json:"achievements"`
-	Success bool `json:"success"`
+	Error   string `json:"error"`
+	Success bool   `json:"success"`
 }
