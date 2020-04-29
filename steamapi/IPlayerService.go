@@ -45,6 +45,9 @@ type RecentlyPlayedGame struct {
 	PlayTimeForever int    `json:"playtime_forever"`
 	ImgIconURL      string `json:"img_icon_url"`
 	ImgLogoURL      string `json:"img_logo_url"`
+	WindowsForever  int    `json:"playtime_windows_forever"`
+	MacForever      int    `json:"playtime_mac_forever"`
+	LinuxForever    int    `json:"playtime_linux_forever"`
 }
 
 // Return a list of games owned by the player
