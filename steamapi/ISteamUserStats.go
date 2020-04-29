@@ -155,9 +155,11 @@ type PlayerAchievementsResponse struct {
 	SteamID      ctypes.Int64 `json:"steamID"`
 	GameName     string       `json:"gameName"`
 	Achievements []struct {
-		Apiname    string      `json:"apiname"`
-		Achieved   ctypes.Bool `json:"achieved"`
-		Unlocktime int64       `json:"unlocktime"`
+		APIName     string      `json:"apiname"`
+		Achieved    ctypes.Bool `json:"achieved"`
+		UnlockTime  int64       `json:"unlocktime"`
+		Name        string      `json:"name"`
+		Description string      `json:"description"`
 	} `json:"achievements"`
 	Error   string `json:"error"`
 	Success bool   `json:"success"`
