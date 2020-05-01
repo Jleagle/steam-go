@@ -46,6 +46,7 @@ type Friend struct {
 	FriendSince  int64        `json:"friend_since"`
 }
 
+//noinspection GoUnusedConst
 const (
 	VanityURLProfile   = 1
 	VanityURLGroup     = 2
