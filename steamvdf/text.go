@@ -109,7 +109,7 @@ func readObject(tokens []*Token, root *KeyValue) int {
 		case TokenTypeChildEnd:
 			return i
 		default:
-			panic(fmt.Errorf("Unknown token type. %v", tokens[i]))
+			panic(fmt.Errorf("unknown token type. %v", tokens[i]))
 		}
 	}
 	return len(tokens)
