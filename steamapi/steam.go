@@ -63,7 +63,7 @@ func (s *Steam) SetCommunityRateLimit(duration time.Duration, burst int64) {
 	s.communityBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (s Steam) getFromAPI(path string, query url.Values) (b []byte, err error) {
+func (s Steam) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
 
 	if s.key == "" {
 		return b, ErrMissingKey
@@ -74,7 +74,10 @@ func (s Steam) getFromAPI(path string, query url.Values) (b []byte, err error) {
 	}
 
 	query.Set("format", "json")
-	query.Set("key", s.key)
+
+	if key {
+		query.Set("key", s.key)
+	}
 
 	response, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {

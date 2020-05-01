@@ -8,7 +8,7 @@ import (
 // Gets the list of supported API calls. This is used to build this documentation.
 func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, bytes []byte, err error) {
 
-	bytes, err = s.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{})
+	bytes, err = s.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{}, false)
 	if err != nil {
 		return percentages, bytes, err
 	}

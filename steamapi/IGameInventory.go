@@ -22,7 +22,7 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("digest", digest)
 
-	b, err = s.getFromAPI("IGameInventory/GetItemDefArchive/v1", options)
+	b, err = s.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
 	if err != nil {
 		return archives, b, err
 	}

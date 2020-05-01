@@ -30,7 +30,7 @@ func (s Steam) GetAppList(limit int, offset int, afterDate int64, language Langu
 		q.Set("max_results", strconv.Itoa(limit))
 	}
 
-	bytes, err = s.getFromAPI("IStoreService/GetAppList/v1", q)
+	bytes, err = s.getFromAPI("IStoreService/GetAppList/v1", q, true)
 	if err != nil {
 		return apps, bytes, err
 	}

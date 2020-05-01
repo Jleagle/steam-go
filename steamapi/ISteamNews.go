@@ -15,7 +15,7 @@ func (s Steam) GetNews(appID int, limit int) (articles News, bytes []byte, err e
 	options.Set("count", strconv.Itoa(limit))
 	options.Set("maxlength", "0")
 
-	bytes, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options)
+	bytes, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options, false)
 	if err != nil {
 		return articles, bytes, err
 	}

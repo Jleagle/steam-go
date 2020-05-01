@@ -14,7 +14,7 @@ func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages Glo
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
 		return percentages, bytes, err
 	}
@@ -55,7 +55,7 @@ func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
 	if err != nil {
 		return players, bytes, err
 	}
@@ -83,7 +83,7 @@ func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, 
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
 	if err != nil {
 		return schema, bytes, err
 	}
@@ -133,7 +133,7 @@ func (s Steam) GetPlayerAchievements(playerID uint64, appID uint32) (schema Play
 	options.Set("appid", strconv.FormatUint(uint64(appID), 10))
 	options.Set("l", string(LanguageEnglish))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options)
+	bytes, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
 	if err != nil {
 		return schema, bytes, err
 	}

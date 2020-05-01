@@ -15,7 +15,7 @@ func (s Steam) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGam
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("count", "0")
 
-	bytes, err = s.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options, true)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -58,7 +58,7 @@ func (s Steam) GetOwnedGames(playerID int64) (games OwnedGames, bytes []byte, er
 	options.Set("include_appinfo", "1")
 	options.Set("include_played_free_games", "1")
 
-	bytes, err = s.getFromAPI("IPlayerService/GetOwnedGames/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetOwnedGames/v1", options, true)
 	if err != nil {
 		return games, bytes, err
 	}
@@ -94,7 +94,7 @@ func (s Steam) GetSteamLevel(playerID int64) (level int, bytes []byte, err error
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options, true)
 	if err != nil {
 		return level, bytes, err
 	}
@@ -120,7 +120,7 @@ func (s Steam) GetBadges(playerID int64) (badges BadgesInfo, bytes []byte, err e
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("IPlayerService/GetBadges/v1", options)
+	bytes, err = s.getFromAPI("IPlayerService/GetBadges/v1", options, true)
 	if err != nil {
 		return badges, bytes, err
 	}

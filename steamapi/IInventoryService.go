@@ -11,7 +11,7 @@ func (s Steam) GetItemDefMeta(appID int) (meta ItemDefMeta, bytes []byte, err er
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	bytes, err = s.getFromAPI("IInventoryService/GetItemDefMeta/v1", options)
+	bytes, err = s.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
 	if err != nil {
 		return meta, bytes, err
 	}
