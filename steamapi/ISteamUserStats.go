@@ -13,6 +13,7 @@ func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages Glo
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
+	options.Set("x", "x") // Temporary to see if it fixes a cache issue on Steam's end
 
 	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
