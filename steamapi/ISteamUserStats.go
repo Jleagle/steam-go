@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"net/url"
 	"strconv"
+	"time"
 
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
@@ -13,7 +14,7 @@ func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages Glo
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
-	options.Set("x", "x") // Temporary to see if it fixes a cache issue on Steam's end
+	options.Set("x", strconv.FormatInt(time.Now().Unix(), 10)) // Fix a cache issue
 
 	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
