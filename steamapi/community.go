@@ -348,7 +348,7 @@ func (s Steam) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 	return resp, b, err
 }
 
-type Alias []struct {
+type Alias struct {
 	Alias string `json:"newname"`
 	Time  string `json:"timechanged"`
 }
