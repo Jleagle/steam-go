@@ -329,9 +329,9 @@ type Comments struct {
 	TimeLastPost int64      `json:"timelastpost"`
 }
 
-func (s Steam) GetAliases(playerURL string) (resp []Alias, b []byte, err error) {
+func (s Steam) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 
-	r, err := s.getFromCommunity("id/"+playerURL+"/ajaxaliases", nil)
+	r, err := s.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
 	if err != nil {
 		return resp, b, err
 	}
