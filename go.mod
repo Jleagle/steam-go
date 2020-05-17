@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/Jleagle/unmarshal-go v0.0.0-20200217225147-fd7db71d9ac0
-	github.com/buger/jsonparser v0.0.0-20200322175846-f7e751efca13 // indirect
+	github.com/buger/jsonparser v1.0.0 // indirect
 	github.com/google/go-cmp v0.4.0 // indirect
 	github.com/juju/ratelimit v1.0.1
 	github.com/kr/pretty v0.2.0 // indirect
