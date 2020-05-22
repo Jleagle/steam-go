@@ -6,6 +6,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"io/ioutil"
+	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
@@ -189,47 +190,20 @@ type PriceOverview struct {
 var ErrRateLimited = errors.New("rate limited")
 
 // Rate limited to once per minute
-func (s Steam) GetGroupByID(id string) (resp GroupInfo, b []byte, err error) {
+func (s Steam) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
+	vals.Set("p", strconv.Itoa(page))
 	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
-	vals.Set("p", "1")
 
-	r, err := s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
-	if err != nil {
-		return resp, b, err
+	var r *http.Response
+
+	if id != "" {
+		r, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
+	} else {
+		r, err = s.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer r.Body.Close()
-
-	b, err = ioutil.ReadAll(r.Body)
-	if err != nil {
-		return resp, b, err
-	}
-
-	if strings.TrimSpace(string(b)) == "null" {
-		return resp, b, ErrRateLimited
-	}
-
-	err = xml.Unmarshal(b, &resp)
-
-	if strings.Contains(r.Request.URL.Path, "/games/") {
-		resp.Type = "game"
-	} else if strings.Contains(r.Request.URL.Path, "/groups/") {
-		resp.Type = "group"
-	}
-
-	return resp, b, err
-}
-
-func (s Steam) GetGroupByName(name string) (resp GroupInfo, b []byte, err error) {
-
-	vals := url.Values{}
-	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
-	vals.Set("p", "1")
-
-	r, err := s.getFromCommunity("groups/"+name+"/memberslistxml", vals)
 	if err != nil {
 		return resp, b, err
 	}
@@ -276,12 +250,13 @@ type GroupInfo struct {
 		MembersInGame ctypes.Int `xml:"membersInGame"`
 		MembersOnline ctypes.Int `xml:"membersOnline"`
 	} `xml:"groupDetails"`
-	MemberCount    ctypes.Int `xml:"memberCount"`
-	TotalPages     ctypes.Int `xml:"totalPages"`
-	CurrentPage    ctypes.Int `xml:"currentPage"`
-	StartingMember ctypes.Int `xml:"startingMember"`
-	NextPageLink   string     `xml:"nextPageLink"`
-	Members        struct {
+	MemberCount      ctypes.Int `xml:"memberCount"`
+	TotalPages       ctypes.Int `xml:"totalPages"`
+	CurrentPage      ctypes.Int `xml:"currentPage"`
+	StartingMember   ctypes.Int `xml:"startingMember"`
+	NextPageLink     string     `xml:"nextPageLink"`
+	PreviousPageLink string     `xml:"previousPageLink"`
+	Members          struct {
 		Text      string         `xml:",chardata"`
 		SteamID64 []ctypes.Int64 `xml:"steamID64"`
 	} `xml:"members"`
