@@ -141,7 +141,9 @@ func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Respo
 func (s Steam) get(path string) (response *http.Response, err error) {
 
 	// Create request
-	client := &http.Client{}
+	client := &http.Client{
+		Timeout: time.Second * 5,
+	}
 
 	req, err := http.NewRequest("GET", path, nil)
 	if err != nil {
