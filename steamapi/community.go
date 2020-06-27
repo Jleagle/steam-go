@@ -319,6 +319,10 @@ func (s Steam) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 		return resp, b, err
 	}
 
+	if strings.HasPrefix(strings.TrimSpace(string(b)), "<") {
+		return resp, b, ErrNoUserFound
+	}
+
 	err = json.Unmarshal(b, &resp)
 	return resp, b, err
 }
