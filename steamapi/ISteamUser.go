@@ -5,6 +5,7 @@ import (
 	"errors"
 	"net/url"
 	"strconv"
+	"strings"
 
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
@@ -193,8 +194,8 @@ func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []b
 		return groups, bytes, err
 	}
 
-	if len(resp.Response.Groups) == 0 {
-		return resp.Response, bytes, nil
+	if !resp.Response.Success && strings.HasPrefix(resp.Response.Error, "Failed to get information about account") {
+		return groups, bytes, ErrNoUserFound
 	}
 
 	return resp.Response, bytes, nil
