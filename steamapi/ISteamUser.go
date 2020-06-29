@@ -130,6 +130,7 @@ type PlayerSummary struct {
 	Avatar                   string       `json:"avatar"`
 	AvatarMedium             string       `json:"avatarmedium"`
 	AvatarFull               string       `json:"avatarfull"`
+	AvatarHash               string       `json:"avatarhash"`
 	PersonaState             int          `json:"personastate"`
 	RealName                 string       `json:"realname"`
 	PrimaryClanID            string       `json:"primaryclanid"`
