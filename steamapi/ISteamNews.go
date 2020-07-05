@@ -8,26 +8,26 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
-func (s Steam) GetNews(appID int, limit int) (articles News, bytes []byte, err error) {
+func (s Steam) GetNews(appID int, limit int) (articles News, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("count", strconv.Itoa(limit))
 	options.Set("maxlength", "0")
 
-	bytes, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options, false)
+	b, err = s.getFromAPI("ISteamNews/GetNewsForApp/v2", options, false)
 	if err != nil {
-		return articles, bytes, err
+		return articles, b, err
 	}
 
 	// Unmarshal
 	var resp NewsResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return articles, bytes, err
+		return articles, b, err
 	}
 
-	return resp.App, bytes, nil
+	return resp.App, b, nil
 }
 
 type NewsResponse struct {

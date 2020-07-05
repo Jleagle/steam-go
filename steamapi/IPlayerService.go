@@ -9,24 +9,24 @@ import (
 )
 
 // Gets information about a player's recently played games
-func (s Steam) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, bytes []byte, err error) {
+func (s Steam) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("count", "0")
 
-	bytes, err = s.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options, true)
+	b, err = s.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options, true)
 	if err != nil {
-		return games, bytes, err
+		return games, b, err
 	}
 
 	var resp RecentlyPlayedGamesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return games, bytes, err
+		return games, b, err
 	}
 
-	return resp.Response.Games, bytes, nil
+	return resp.Response.Games, b, nil
 }
 
 type RecentlyPlayedGamesResponse struct {
@@ -51,25 +51,25 @@ type RecentlyPlayedGame struct {
 }
 
 // Return a list of games owned by the player
-func (s Steam) GetOwnedGames(playerID int64) (games OwnedGames, bytes []byte, err error) {
+func (s Steam) GetOwnedGames(playerID int64) (games OwnedGames, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("include_appinfo", "1")
 	options.Set("include_played_free_games", "1")
 
-	bytes, err = s.getFromAPI("IPlayerService/GetOwnedGames/v1", options, true)
+	b, err = s.getFromAPI("IPlayerService/GetOwnedGames/v1", options, true)
 	if err != nil {
-		return games, bytes, err
+		return games, b, err
 	}
 
 	var resp OwnedGamesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return games, bytes, err
+		return games, b, err
 	}
 
-	return resp.Response, bytes, nil
+	return resp.Response, b, nil
 }
 
 type OwnedGamesResponse struct {
@@ -89,23 +89,23 @@ type OwnedGames struct {
 }
 
 // Returns the Steam Level of a user
-func (s Steam) GetSteamLevel(playerID int64) (level int, bytes []byte, err error) {
+func (s Steam) GetSteamLevel(playerID int64) (level int, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options, true)
+	b, err = s.getFromAPI("IPlayerService/GetSteamLevel/v1", options, true)
 	if err != nil {
-		return level, bytes, err
+		return level, b, err
 	}
 
 	var resp LevelResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return level, bytes, err
+		return level, b, err
 	}
 
-	return resp.Response.PlayerLevel, bytes, nil
+	return resp.Response.PlayerLevel, b, nil
 }
 
 type LevelResponse struct {
@@ -115,23 +115,23 @@ type LevelResponse struct {
 }
 
 // Gets badges that are owned by a specific user
-func (s Steam) GetBadges(playerID int64) (badges BadgesInfo, bytes []byte, err error) {
+func (s Steam) GetBadges(playerID int64) (badges BadgesInfo, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("IPlayerService/GetBadges/v1", options, true)
+	b, err = s.getFromAPI("IPlayerService/GetBadges/v1", options, true)
 	if err != nil {
-		return badges, bytes, err
+		return badges, b, err
 	}
 
 	var resp BadgesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return badges, bytes, err
+		return badges, b, err
 	}
 
-	return resp.Response, bytes, nil
+	return resp.Response, b, nil
 }
 
 type BadgesResponse struct {

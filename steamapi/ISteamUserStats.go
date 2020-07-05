@@ -9,23 +9,23 @@ import (
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, bytes []byte, err error) {
+func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
+	b, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
-		return percentages, bytes, err
+		return percentages, b, err
 	}
 
 	var resp GlobalAchievementPercentagesResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return percentages, bytes, err
+		return percentages, b, err
 	}
 
-	return resp.GlobalAchievementPercentagesOuter, bytes, nil
+	return resp.GlobalAchievementPercentagesOuter, b, nil
 }
 
 type GlobalAchievementPercentagesResponse struct {
@@ -50,23 +50,23 @@ type GlobalAchievementAchievement struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, bytes []byte, err error) {
+func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
+	b, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
 	if err != nil {
-		return players, bytes, err
+		return players, b, err
 	}
 
 	var resp NumberOfCurrentPlayersResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return players, bytes, err
+		return players, b, err
 	}
 
-	return resp.Response.PlayerCount, bytes, nil
+	return resp.Response.PlayerCount, b, nil
 }
 
 type NumberOfCurrentPlayersResponse struct {
@@ -77,24 +77,24 @@ type NumberOfCurrentPlayersResponse struct {
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, bytes []byte, err error) {
+func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
+	b, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
 	if err != nil {
-		return schema, bytes, err
+		return schema, b, err
 	}
 
 	var resp SchemaForGameResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return schema, bytes, err
+		return schema, b, err
 	}
 
-	return resp.Game, bytes, nil
+	return resp.Game, b, nil
 }
 
 type SchemaForGameResponse struct {
@@ -126,25 +126,25 @@ type SchemaForGameStat struct {
 	DisplayName  string `json:"displayName"`
 }
 
-func (s Steam) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, bytes []byte, err error) {
+func (s Steam) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatUint(playerID, 10))
 	options.Set("appid", strconv.FormatUint(uint64(appID), 10))
 	options.Set("l", string(LanguageEnglish))
 
-	bytes, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
+	b, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
 	if err != nil {
-		return schema, bytes, err
+		return schema, b, err
 	}
 
 	var resp PlayerAchievementsOuterResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return schema, bytes, err
+		return schema, b, err
 	}
 
-	return resp.Playerstats, bytes, nil
+	return resp.Playerstats, b, nil
 }
 
 type PlayerAchievementsOuterResponse struct {

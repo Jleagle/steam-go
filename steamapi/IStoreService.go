@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, bytes []byte, err error) {
+func (s Steam) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, b []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -30,18 +30,18 @@ func (s Steam) GetAppList(limit int, offset int, afterDate int64, language Langu
 		q.Set("max_results", strconv.Itoa(limit))
 	}
 
-	bytes, err = s.getFromAPI("IStoreService/GetAppList/v1", q, true)
+	b, err = s.getFromAPI("IStoreService/GetAppList/v1", q, true)
 	if err != nil {
-		return apps, bytes, err
+		return apps, b, err
 	}
 
 	var resp AppListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return apps, bytes, err
+		return apps, b, err
 	}
 
-	return resp.AppListResponseInner, bytes, nil
+	return resp.AppListResponseInner, b, nil
 }
 
 type AppListResponse struct {

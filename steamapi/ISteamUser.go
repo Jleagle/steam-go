@@ -13,25 +13,25 @@ import (
 var ErrNoUserFound = errors.New("no user found")
 var ErrProfilePrivate = errors.New("private profile")
 
-func (s Steam) GetFriendList(playerID int64) (friends []Friend, bytes []byte, err error) {
+func (s Steam) GetFriendList(playerID int64) (friends []Friend, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("relationship", "friend")
 
-	bytes, err = s.getFromAPI("ISteamUser/GetFriendList/v1", options, true)
+	b, err = s.getFromAPI("ISteamUser/GetFriendList/v1", options, true)
 	if err != nil {
-		return friends, bytes, err
+		return friends, b, err
 	}
 
 	// Unmarhsal
 	var resp FriendListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return friends, bytes, err
+		return friends, b, err
 	}
 
-	return resp.Friendslist.Friends, bytes, nil
+	return resp.Friendslist.Friends, b, nil
 }
 
 type FriendListResponse struct {
@@ -55,29 +55,29 @@ const (
 	VanityURLGameGroup = 3
 )
 
-func (s Steam) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, bytes []byte, err error) {
+func (s Steam) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("vanityurl", vanityURL)
 	options.Set("url_type", strconv.Itoa(urlType))
 
-	bytes, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1", options, true)
+	b, err = s.getFromAPI("ISteamUser/ResolveVanityURL/v1", options, true)
 	if err != nil {
-		return info, bytes, err
+		return info, b, err
 	}
 
 	// Unmarhsal
 	var resp VanityURLRepsonse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return info, bytes, err
+		return info, b, err
 	}
 
 	if resp.Response.Success != 1 {
-		return resp.Response, bytes, ErrNoUserFound
+		return resp.Response, b, ErrNoUserFound
 	}
 
-	return resp.Response, bytes, nil
+	return resp.Response, b, nil
 }
 
 type VanityURLRepsonse struct {
@@ -90,28 +90,28 @@ type VanityURL struct {
 	Message string       `json:"message"`
 }
 
-func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, bytes []byte, err error) {
+func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2", options, true)
+	b, err = s.getFromAPI("ISteamUser/GetPlayerSummaries/v2", options, true)
 	if err != nil {
-		return player, bytes, err
+		return player, b, err
 	}
 
 	// Unmarshal
 	var resp PlayerResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return player, bytes, err
+		return player, b, err
 	}
 
 	if len(resp.Response.Players) == 0 {
-		return player, bytes, ErrNoUserFound
+		return player, b, ErrNoUserFound
 	}
 
-	return resp.Response.Players[0], bytes, nil
+	return resp.Response.Players[0], b, nil
 }
 
 type PlayerResponse struct {
@@ -141,28 +141,28 @@ type PlayerSummary struct {
 	StateCode                string       `json:"locstatecode"`
 }
 
-func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, bytes []byte, err error) {
+func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("ISteamUser/GetPlayerBans/v1", options, true)
+	b, err = s.getFromAPI("ISteamUser/GetPlayerBans/v1", options, true)
 	if err != nil {
-		return bans, bytes, err
+		return bans, b, err
 	}
 
 	// Unmarshal
 	var resp GetPlayerBansResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return bans, bytes, err
+		return bans, b, err
 	}
 
 	if len(resp.Players) == 0 {
-		return bans, bytes, ErrNoUserFound
+		return bans, b, ErrNoUserFound
 	}
 
-	return resp.Players[0], bytes, nil
+	return resp.Players[0], b, nil
 }
 
 type GetPlayerBansResponse struct {
@@ -179,33 +179,33 @@ type GetPlayerBanResponse struct {
 	EconomyBan       string       `json:"EconomyBan"`
 }
 
-func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []byte, err error) {
+func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	bytes, err = s.getFromAPI("ISteamUser/GetUserGroupList/v1", options, true)
+	b, err = s.getFromAPI("ISteamUser/GetUserGroupList/v1", options, true)
 	// err checked below
 
 	var resp UserGroupListResponse
-	err2 := json.Unmarshal(bytes, &resp)
+	err2 := json.Unmarshal(b, &resp)
 	if err2 != nil {
-		return groups, bytes, err2
+		return groups, b, err2
 	}
 
 	if !resp.Response.Success && strings.HasPrefix(resp.Response.Error, "Failed to get information about account") {
-		return groups, bytes, ErrNoUserFound
+		return groups, b, ErrNoUserFound
 	}
 
 	if !resp.Response.Success && resp.Response.Error == "Private profile" {
-		return groups, bytes, ErrProfilePrivate
+		return groups, b, ErrProfilePrivate
 	}
 
 	if err != nil {
-		return groups, bytes, err
+		return groups, b, err
 	}
 
-	return resp.Response, bytes, nil
+	return resp.Response, b, nil
 }
 
 type UserGroupListResponse struct {

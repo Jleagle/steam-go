@@ -18,27 +18,27 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (s Steam) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, b []byte, err error) {
 
 	if id == 0 {
-		return app, bytes, ErrAppNotFound // App 0 does exist but the API does not return it
+		return app, b, ErrAppNotFound // App 0 does exist but the API does not return it
 	}
 
-	resp, bytes, err := s.GetAppDetailsMulti([]uint{id}, cc, language, filters)
+	resp, b, err := s.GetAppDetailsMulti([]uint{id}, cc, language, filters)
 	if err != nil {
-		return app, bytes, err
+		return app, b, err
 	}
 
 	idx := strconv.FormatUint(uint64(id), 10)
 
 	if resp[idx].Success == false {
-		return app, bytes, ErrAppNotFound
+		return app, b, ErrAppNotFound
 	}
 
-	return resp[idx], bytes, nil
+	return resp[idx], b, nil
 }
 
-func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, bytes []byte, err error) {
+func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, b []byte, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -53,19 +53,19 @@ func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCod
 		query.Set("filters", strings.Join(filters, ","))
 	}
 
-	bytes, err = s.getFromStore("api/appdetails", query)
+	b, err = s.getFromStore("api/appdetails", query)
 	if err != nil {
-		return resp, bytes, err
+		return resp, b, err
 	}
 
-	var bytesString = string(bytes)
+	var bytesString = string(b)
 
 	// Check invalid responses
 	if bytesString == "null" || bytesString == "[]" {
-		return resp, bytes, ErrNullResponse
+		return resp, b, ErrNullResponse
 	}
 	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
-		return resp, bytes, ErrHTMLResponse
+		return resp, b, ErrHTMLResponse
 	}
 
 	// Fix arrays that should be objects
@@ -73,13 +73,13 @@ func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCod
 	bytesString = strings.Replace(bytesString, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
 	bytesString = strings.Replace(bytesString, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
 	bytesString = strings.Replace(bytesString, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
-	bytes = []byte(bytesString)
+	b = []byte(bytesString)
 
 	// Unmarshal JSON
 	resp = map[string]AppDetailsBody{}
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 
-	return resp, bytes, err
+	return resp, b, err
 }
 
 type AppDetailsBody struct {
@@ -212,10 +212,10 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, bytes []byte, err error) {
+func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, b []byte, err error) {
 
 	if id == 0 {
-		return pack, bytes, ErrPackageNotFound // Package 0 does exist but the API does not return it
+		return pack, b, ErrPackageNotFound // Package 0 does exist but the API does not return it
 	}
 
 	idx := strconv.FormatUint(uint64(id), 10)
@@ -225,33 +225,33 @@ func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode)
 	query.Set("cc", string(code))    // Price currency
 	query.Set("l", string(language)) // Text
 
-	bytes, err = s.getFromStore("api/packagedetails", query)
+	b, err = s.getFromStore("api/packagedetails", query)
 	if err != nil {
-		return pack, bytes, err
+		return pack, b, err
 	}
 
-	var bytesString = string(bytes)
+	var bytesString = string(b)
 
 	// Check invalid responses
 	if bytesString == "null" {
-		return pack, bytes, ErrNullResponse
+		return pack, b, ErrNullResponse
 	}
 	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
-		return pack, bytes, ErrHTMLResponse
+		return pack, b, ErrHTMLResponse
 	}
 
 	// Unmarshal JSON
 	resp := map[string]PackageDetailsBody{}
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return pack, bytes, err
+		return pack, b, err
 	}
 
 	if resp[idx].Success == false {
-		return pack, bytes, ErrPackageNotFound
+		return pack, b, ErrPackageNotFound
 	}
 
-	return resp[idx], bytes, nil
+	return resp[idx], b, nil
 }
 
 type PackageDetailsBody struct {
@@ -285,20 +285,20 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetTags() (tags Tags, bytes []byte, err error) {
+func (s Steam) GetTags() (tags Tags, b []byte, err error) {
 
-	bytes, err = s.getFromStore("tagdata/populartags/english", url.Values{})
+	b, err = s.getFromStore("tagdata/populartags/english", url.Values{})
 	if err != nil {
-		return tags, bytes, err
+		return tags, b, err
 	}
 
 	var resp []Tag
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return tags, bytes, err
+		return tags, b, err
 	}
 
-	return Tags{Tags: resp}, bytes, nil
+	return Tags{Tags: resp}, b, nil
 }
 
 type Tags struct {
@@ -327,7 +327,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err error) {
+func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -341,18 +341,18 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, bytes []byte, err
 	query.Set("end_date", "-1")
 	query.Set("cursor", "*")
 
-	bytes, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
+	b, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
-		return reviews, bytes, err
+		return reviews, b, err
 	}
 
 	// Unmarshal JSON
-	err = json.Unmarshal(bytes, &reviews)
+	err = json.Unmarshal(b, &reviews)
 	if err != nil {
-		return reviews, bytes, err
+		return reviews, b, err
 	}
 
-	return reviews, bytes, nil
+	return reviews, b, nil
 }
 
 type ReviewsResponse struct {
@@ -398,31 +398,31 @@ func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, bytes []byte, err error) {
+func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, b []byte, err error) {
 
 	query := url.Values{}
 	query.Set("p", "0")
 
-	bytes, err = s.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
+	b, err = s.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
 	if err != nil {
-		return wishlist, bytes, err
+		return wishlist, b, err
 	}
 
 	// No items
-	if strings.TrimSpace(string(bytes)) == "[]" {
-		return wishlist, bytes, err
+	if strings.TrimSpace(string(b)) == "[]" {
+		return wishlist, b, err
 	}
 
 	// Check for fail response
 	failResp := WishlistFail{}
-	err = json.Unmarshal(bytes, &failResp)
+	err = json.Unmarshal(b, &failResp)
 	if err == nil && failResp.Success > 0 {
-		return wishlist, bytes, ErrWishlistNotFound
+		return wishlist, b, ErrWishlistNotFound
 	}
 
 	// Unmarshal JSON
-	err = json.Unmarshal(bytes, &wishlist.Items)
-	return wishlist, bytes, err
+	err = json.Unmarshal(b, &wishlist.Items)
+	return wishlist, b, err
 }
 
 type WishlistFail struct {

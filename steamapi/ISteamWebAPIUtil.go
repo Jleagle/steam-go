@@ -6,21 +6,21 @@ import (
 )
 
 // Gets the list of supported API calls. This is used to build this documentation.
-func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, bytes []byte, err error) {
+func (s Steam) GetSupportedAPIList() (percentages APIInterfaces, b []byte, err error) {
 
-	bytes, err = s.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{}, false)
+	b, err = s.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{}, false)
 	if err != nil {
-		return percentages, bytes, err
+		return percentages, b, err
 	}
 
 	// Unmarshal JSON
 	var resp SupportedAPIListResponse
-	err = json.Unmarshal(bytes, &resp)
+	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return percentages, bytes, err
+		return percentages, b, err
 	}
 
-	return resp.APIList, bytes, nil
+	return resp.APIList, b, nil
 }
 
 type SupportedAPIListResponse struct {
