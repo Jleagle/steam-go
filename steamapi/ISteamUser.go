@@ -10,7 +10,7 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
-var ErrNoUserFound = errors.New("no user found")
+var ErrProfileMissing = errors.New("profile missing")
 var ErrProfilePrivate = errors.New("private profile")
 
 func (s Steam) GetFriendList(playerID int64) (friends []Friend, b []byte, err error) {
@@ -74,7 +74,7 @@ func (s Steam) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, 
 	}
 
 	if resp.Response.Success != 1 {
-		return resp.Response, b, ErrNoUserFound
+		return resp.Response, b, ErrProfileMissing
 	}
 
 	return resp.Response, b, nil
@@ -108,7 +108,7 @@ func (s Steam) GetPlayer(playerID int64) (player PlayerSummary, b []byte, err er
 	}
 
 	if len(resp.Response.Players) == 0 {
-		return player, b, ErrNoUserFound
+		return player, b, ErrProfileMissing
 	}
 
 	return resp.Response.Players[0], b, nil
@@ -159,7 +159,7 @@ func (s Steam) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, b []byt
 	}
 
 	if len(resp.Players) == 0 {
-		return bans, b, ErrNoUserFound
+		return bans, b, ErrProfileMissing
 	}
 
 	return resp.Players[0], b, nil
@@ -194,7 +194,7 @@ func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, b []byte,
 	}
 
 	if !resp.Response.Success && strings.HasPrefix(resp.Response.Error, "Failed to get information about account") {
-		return groups, b, ErrNoUserFound
+		return groups, b, ErrProfileMissing
 	}
 
 	if !resp.Response.Success && resp.Response.Error == "Private profile" {
