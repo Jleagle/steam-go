@@ -79,26 +79,19 @@ func (s Steam) getFromAPI(path string, query url.Values, key bool) (b []byte, er
 		query.Set("key", s.key)
 	}
 
-	response, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
+	b, code, _, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
 		return b, err
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer response.Body.Close()
-
 	// Handle errors
-	if response.StatusCode != 200 {
-		if val, ok := apiStatusCodes[response.StatusCode]; ok {
-			return b, Error{Err: val, Code: response.StatusCode, URL: path}
+	if code != 200 {
+		if val, ok := apiStatusCodes[code]; ok {
+			return b, Error{Err: val, Code: code, URL: path}
 		} else {
 			return b, errors.New("steam: something went wrong")
 		}
 	}
-
-	//
-	b, err = ioutil.ReadAll(response.Body)
-	b = bytes.TrimSpace(b)
 
 	return b, err
 }
@@ -109,22 +102,15 @@ func (s Steam) getFromStore(path string, query url.Values) (b []byte, err error)
 		s.storeBucket.Wait(1)
 	}
 
-	response, err := s.get("https://store.steampowered.com/" + path + "?" + query.Encode())
+	b, _, _, err = s.get("https://store.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
 		return b, err
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer response.Body.Close()
-
-	//
-	b, err = ioutil.ReadAll(response.Body)
-	b = bytes.TrimSpace(b)
-
 	return b, err
 }
 
-func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Response, err error) {
+func (s Steam) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
 
 	if s.communityBucket != nil {
 		s.communityBucket.Wait(1)
@@ -134,11 +120,11 @@ func (s Steam) getFromCommunity(path string, query url.Values) (resp *http.Respo
 		path += "?" + query.Encode()
 	}
 
-	// Response body gets closed in caller function
-	return s.get("https://steamcommunity.com/" + path)
+	b, _, url, err = s.get("https://steamcommunity.com/" + path)
+	return b, url, err
 }
 
-func (s Steam) get(path string) (response *http.Response, err error) {
+func (s Steam) get(path string) (b []byte, code int, url string, err error) {
 
 	// Create request
 	client := &http.Client{
@@ -147,7 +133,7 @@ func (s Steam) get(path string) (response *http.Response, err error) {
 
 	req, err := http.NewRequest("GET", path, nil)
 	if err != nil {
-		return response, err
+		return b, code, url, err
 	}
 
 	if s.userAgent == "" {
@@ -157,8 +143,26 @@ func (s Steam) get(path string) (response *http.Response, err error) {
 	}
 
 	start := time.Now()
-	response, err = client.Do(req)
+	response, err := client.Do(req)
 	elapsed := time.Since(start)
+
+	if err != nil {
+		return b, code, url, err
+	}
+
+	defer func() {
+		err = req.Body.Close()
+		fmt.Println(err)
+	}()
+
+	b, err = ioutil.ReadAll(req.Body)
+	if err != nil {
+		return b, code, url, err
+	}
+
+	b = bytes.TrimSpace(b)
+	code = response.StatusCode
+	url = response.Request.URL.Path
 
 	// Send log
 	if s.logger != nil && response != nil {
@@ -166,7 +170,7 @@ func (s Steam) get(path string) (response *http.Response, err error) {
 	}
 
 	//
-	return response, err
+	return b, code, url, err
 }
 
 type logger interface {

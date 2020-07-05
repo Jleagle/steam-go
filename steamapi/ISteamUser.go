@@ -11,6 +11,7 @@ import (
 )
 
 var ErrNoUserFound = errors.New("no user found")
+var ErrProfilePrivate = errors.New("private profile")
 
 func (s Steam) GetFriendList(playerID int64) (friends []Friend, bytes []byte, err error) {
 
@@ -184,19 +185,24 @@ func (s Steam) GetUserGroupList(playerID int64) (groups UserGroupList, bytes []b
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
 	bytes, err = s.getFromAPI("ISteamUser/GetUserGroupList/v1", options, true)
-	if err != nil {
-		return groups, bytes, err
-	}
+	// err checked below
 
-	// Unmarshal
 	var resp UserGroupListResponse
-	err = json.Unmarshal(bytes, &resp)
-	if err != nil {
-		return groups, bytes, err
+	err2 := json.Unmarshal(bytes, &resp)
+	if err2 != nil {
+		return groups, bytes, err2
 	}
 
 	if !resp.Response.Success && strings.HasPrefix(resp.Response.Error, "Failed to get information about account") {
 		return groups, bytes, ErrNoUserFound
+	}
+
+	if !resp.Response.Success && resp.Response.Error == "Private profile" {
+		return groups, bytes, ErrProfilePrivate
+	}
+
+	if err != nil {
+		return groups, bytes, err
 	}
 
 	return resp.Response, bytes, nil

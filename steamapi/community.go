@@ -1,12 +1,9 @@
 package steamapi
 
 import (
-	"bytes"
 	"encoding/json"
 	"encoding/xml"
 	"errors"
-	"io/ioutil"
-	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
@@ -196,35 +193,26 @@ func (s Steam) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, 
 	vals.Set("p", strconv.Itoa(page))
 	// vals.Set("xml", "1") // Without this, it redirects to a slug, so we can get the type
 
-	var r *http.Response
-
+	var urlx string
 	if id != "" {
-		r, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
+		b, urlx, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
 	} else {
-		r, err = s.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
+		b, urlx, err = s.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
 	}
 
 	if err != nil {
 		return resp, b, err
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer r.Body.Close()
-
-	b, err = ioutil.ReadAll(r.Body)
-	if err != nil {
-		return resp, b, err
-	}
-
-	if strings.TrimSpace(string(b)) == "null" {
+	if string(b) == "null" {
 		return resp, b, ErrRateLimited
 	}
 
 	err = xml.Unmarshal(b, &resp)
 
-	if strings.Contains(r.Request.URL.Path, "/games/") {
+	if strings.Contains(urlx, "/games/") {
 		resp.Type = "game"
-	} else if strings.Contains(r.Request.URL.Path, "/groups/") {
+	} else if strings.Contains(urlx, "/groups/") {
 		resp.Type = "group"
 	}
 
@@ -270,20 +258,12 @@ func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments
 		vals.Set("start", strconv.Itoa(offset))
 	}
 
-	r, err := s.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	b, _, err = s.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
 	if err != nil {
 		return resp, b, err
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer r.Body.Close()
-
-	b, err = ioutil.ReadAll(r.Body)
-	if err != nil {
-		return resp, b, err
-	}
-
-	if len(bytes.TrimSpace(b)) == 0 {
+	if len(b) == 0 {
 		return resp, b, nil
 	}
 
@@ -306,20 +286,12 @@ type Comments struct {
 
 func (s Steam) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 
-	r, err := s.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
+	b, _, err = s.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
 	if err != nil {
 		return resp, b, err
 	}
 
-	//noinspection GoUnhandledErrorResult
-	defer r.Body.Close()
-
-	b, err = ioutil.ReadAll(r.Body)
-	if err != nil {
-		return resp, b, err
-	}
-
-	if strings.HasPrefix(strings.TrimSpace(string(b)), "<") {
+	if strings.HasPrefix(string(b), "<") {
 		return resp, b, ErrNoUserFound
 	}
 
