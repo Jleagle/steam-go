@@ -6,18 +6,18 @@ import (
 	"strconv"
 )
 
-func (c Client) GetItemDefMeta(appID int) (meta ItemDefMeta, b []byte, err error) {
+func (c Client) GetItemDefMeta(appID int) (meta ItemDefMeta, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	b, err = c.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
+	b, err := c.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
 	if err != nil {
-		return meta, b, err
+		return meta, err
 	}
 
 	err = json.Unmarshal(b, &meta)
-	return meta, b, err
+	return meta, err
 }
 
 type ItemDefMeta struct {

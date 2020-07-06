@@ -9,23 +9,23 @@ import (
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func (c Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, b []byte, err error) {
+func (c Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	b, err = c.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
+	b, err := c.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
-		return percentages, b, err
+		return percentages, err
 	}
 
 	var resp GlobalAchievementPercentagesResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return percentages, b, err
+		return percentages, err
 	}
 
-	return resp.GlobalAchievementPercentagesOuter, b, nil
+	return resp.GlobalAchievementPercentagesOuter, nil
 }
 
 type GlobalAchievementPercentagesResponse struct {
@@ -50,23 +50,23 @@ type GlobalAchievementAchievement struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func (c Client) GetNumberOfCurrentPlayers(appID int) (players int, b []byte, err error) {
+func (c Client) GetNumberOfCurrentPlayers(appID int) (players int, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	b, err = c.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
+	b, err := c.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
 	if err != nil {
-		return players, b, err
+		return players, err
 	}
 
 	var resp NumberOfCurrentPlayersResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return players, b, err
+		return players, err
 	}
 
-	return resp.Response.PlayerCount, b, nil
+	return resp.Response.PlayerCount, nil
 }
 
 type NumberOfCurrentPlayersResponse struct {
@@ -77,24 +77,24 @@ type NumberOfCurrentPlayersResponse struct {
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func (c Client) GetSchemaForGame(appID int) (schema SchemaForGame, b []byte, err error) {
+func (c Client) GetSchemaForGame(appID int) (schema SchemaForGame, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	b, err = c.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
+	b, err := c.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
 	if err != nil {
-		return schema, b, err
+		return schema, err
 	}
 
 	var resp SchemaForGameResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return schema, b, err
+		return schema, err
 	}
 
-	return resp.Game, b, nil
+	return resp.Game, nil
 }
 
 type SchemaForGameResponse struct {
@@ -126,25 +126,25 @@ type SchemaForGameStat struct {
 	DisplayName  string `json:"displayName"`
 }
 
-func (c Client) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, b []byte, err error) {
+func (c Client) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatUint(playerID, 10))
 	options.Set("appid", strconv.FormatUint(uint64(appID), 10))
 	options.Set("l", string(LanguageEnglish))
 
-	b, err = c.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
+	b, err := c.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
 	if err != nil {
-		return schema, b, err
+		return schema, err
 	}
 
 	var resp PlayerAchievementsOuterResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return schema, b, err
+		return schema, err
 	}
 
-	return resp.Playerstats, b, nil
+	return resp.Playerstats, nil
 }
 
 type PlayerAchievementsOuterResponse struct {

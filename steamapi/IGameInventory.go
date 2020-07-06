@@ -12,30 +12,30 @@ import (
 
 var ErrInvalidDigest = errors.New("invalid digest")
 
-func (c Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, b []byte, err error) {
+func (c Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, err error) {
 
 	if digest == "" {
-		return archives, b, ErrInvalidDigest
+		return archives, ErrInvalidDigest
 	}
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("digest", digest)
 
-	b, err = c.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
+	b, err := c.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
 	if err != nil {
-		return archives, b, err
+		return archives, err
 	}
 
 	// The response has an empty byte at the end of it causing Unmarshal to fail
 	b = bytes.TrimSuffix(b, []byte{0x00})
 
 	if len(b) == 0 {
-		return archives, b, nil
+		return archives, nil
 	}
 
 	err = json.Unmarshal(b, &archives)
-	return archives, b, err
+	return archives, err
 }
 
 type ItemDefArchive struct {

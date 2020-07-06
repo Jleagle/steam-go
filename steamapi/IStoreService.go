@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (c Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, b []byte, err error) {
+func (c Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -30,18 +30,18 @@ func (c Client) GetAppList(limit int, offset int, afterDate int64, language Lang
 		q.Set("max_results", strconv.Itoa(limit))
 	}
 
-	b, err = c.getFromAPI("IStoreService/GetAppList/v1", q, true)
+	b, err := c.getFromAPI("IStoreService/GetAppList/v1", q, true)
 	if err != nil {
-		return apps, b, err
+		return apps, err
 	}
 
 	var resp AppListResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return apps, b, err
+		return apps, err
 	}
 
-	return resp.AppListResponseInner, b, nil
+	return resp.AppListResponseInner, nil
 }
 
 type AppListResponse struct {

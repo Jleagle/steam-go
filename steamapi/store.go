@@ -18,27 +18,27 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, b []byte, err error) {
+func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, err error) {
 
 	if id == 0 {
-		return app, b, ErrAppNotFound // App 0 does exist but the API does not return it
+		return app, ErrAppNotFound // App 0 does exist but the API does not return it
 	}
 
-	resp, b, err := c.GetAppDetailsMulti([]uint{id}, cc, language, filters)
+	resp, err := c.GetAppDetailsMulti([]uint{id}, cc, language, filters)
 	if err != nil {
-		return app, b, err
+		return app, err
 	}
 
 	idx := strconv.FormatUint(uint64(id), 10)
 
 	if resp[idx].Success == false {
-		return app, b, ErrAppNotFound
+		return app, ErrAppNotFound
 	}
 
-	return resp[idx], b, nil
+	return resp[idx], nil
 }
 
-func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, b []byte, err error) {
+func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -53,19 +53,19 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 		query.Set("filters", strings.Join(filters, ","))
 	}
 
-	b, err = c.getFromStore("api/appdetails", query)
+	b, err := c.getFromStore("api/appdetails", query)
 	if err != nil {
-		return resp, b, err
+		return resp, err
 	}
 
 	var bytesString = string(b)
 
 	// Check invalid responses
 	if bytesString == "null" || bytesString == "[]" {
-		return resp, b, ErrNullResponse
+		return resp, ErrNullResponse
 	}
 	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
-		return resp, b, ErrHTMLResponse
+		return resp, ErrHTMLResponse
 	}
 
 	// Fix arrays that should be objects
@@ -79,7 +79,7 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 	resp = map[string]AppDetailsBody{}
 	err = json.Unmarshal(b, &resp)
 
-	return resp, b, err
+	return resp, err
 }
 
 type AppDetailsBody struct {
@@ -212,10 +212,10 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, b []byte, err error) {
+func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
 
 	if id == 0 {
-		return pack, b, ErrPackageNotFound // Package 0 does exist but the API does not return it
+		return pack, ErrPackageNotFound // Package 0 does exist but the API does not return it
 	}
 
 	idx := strconv.FormatUint(uint64(id), 10)
@@ -225,33 +225,33 @@ func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode
 	query.Set("cc", string(code))    // Price currency
 	query.Set("l", string(language)) // Text
 
-	b, err = c.getFromStore("api/packagedetails", query)
+	b, err := c.getFromStore("api/packagedetails", query)
 	if err != nil {
-		return pack, b, err
+		return pack, err
 	}
 
 	var bytesString = string(b)
 
 	// Check invalid responses
 	if bytesString == "null" {
-		return pack, b, ErrNullResponse
+		return pack, ErrNullResponse
 	}
 	if strings.HasPrefix(strings.TrimSpace(bytesString), "<") {
-		return pack, b, ErrHTMLResponse
+		return pack, ErrHTMLResponse
 	}
 
 	// Unmarshal JSON
 	resp := map[string]PackageDetailsBody{}
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return pack, b, err
+		return pack, err
 	}
 
 	if resp[idx].Success == false {
-		return pack, b, ErrPackageNotFound
+		return pack, ErrPackageNotFound
 	}
 
-	return resp[idx], b, nil
+	return resp[idx], nil
 }
 
 type PackageDetailsBody struct {
@@ -285,20 +285,20 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func (c Client) GetTags() (tags Tags, b []byte, err error) {
+func (c Client) GetTags() (tags Tags, err error) {
 
-	b, err = c.getFromStore("tagdata/populartags/english", url.Values{})
+	b, err := c.getFromStore("tagdata/populartags/english", url.Values{})
 	if err != nil {
-		return tags, b, err
+		return tags, err
 	}
 
 	var resp []Tag
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
-		return tags, b, err
+		return tags, err
 	}
 
-	return Tags{Tags: resp}, b, nil
+	return Tags{Tags: resp}, nil
 }
 
 type Tags struct {
@@ -327,7 +327,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (c Client) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err error) {
+func (c Client) GetReviews(appID int) (reviews ReviewsResponse, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -341,18 +341,18 @@ func (c Client) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err er
 	query.Set("end_date", "-1")
 	query.Set("cursor", "*")
 
-	b, err = c.getFromStore("appreviews/"+strconv.Itoa(appID), query)
+	b, err := c.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
-		return reviews, b, err
+		return reviews, err
 	}
 
 	// Unmarshal JSON
 	err = json.Unmarshal(b, &reviews)
 	if err != nil {
-		return reviews, b, err
+		return reviews, err
 	}
 
-	return reviews, b, nil
+	return reviews, nil
 }
 
 type ReviewsResponse struct {
@@ -398,31 +398,31 @@ func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (c Client) GetWishlist(playerID int64) (wishlist Wishlist, b []byte, err error) {
+func (c Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
 
 	query := url.Values{}
 	query.Set("p", "0")
 
-	b, err = c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
+	b, err := c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
 	if err != nil {
-		return wishlist, b, err
+		return wishlist, err
 	}
 
 	// No items
 	if strings.TrimSpace(string(b)) == "[]" {
-		return wishlist, b, err
+		return wishlist, err
 	}
 
 	// Check for fail response
 	failResp := WishlistFail{}
 	err = json.Unmarshal(b, &failResp)
 	if err == nil && failResp.Success > 0 {
-		return wishlist, b, ErrWishlistNotFound
+		return wishlist, ErrWishlistNotFound
 	}
 
 	// Unmarshal JSON
 	err = json.Unmarshal(b, &wishlist.Items)
-	return wishlist, b, err
+	return wishlist, err
 }
 
 type WishlistFail struct {
