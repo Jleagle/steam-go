@@ -89,7 +89,7 @@ func (s Steam) getFromAPI(path string, query url.Values, key bool) (b []byte, er
 		if val, ok := apiStatusCodes[code]; ok {
 			return b, Error{Err: val, Code: code, URL: path}
 		} else {
-			return b, errors.New("steam: something went wrong")
+			return b, Error{Err: "something went wrong", Code: 0, URL: path}
 		}
 	}
 
@@ -152,7 +152,7 @@ func (s Steam) get(path string) (b []byte, code int, url string, err error) {
 
 	defer func() {
 		err = req.Body.Close()
-		fmt.Println(err)
+		c.logger.Err(err)
 	}()
 
 	b, err = ioutil.ReadAll(req.Body)
@@ -164,34 +164,26 @@ func (s Steam) get(path string) (b []byte, code int, url string, err error) {
 	code = response.StatusCode
 	url = response.Request.URL.Path
 
-	// Send log
-	if s.logger != nil && response != nil {
-		s.logger.Write(Log{path, response.StatusCode, elapsed})
-	}
+	c.logger.Info(path)
 
 	//
 	return b, code, url, err
 }
 
 type logger interface {
-	Write(log Log)
+	Info(string)
+	Err(error)
 }
 
 type DefaultLogger struct {
 }
 
-func (l DefaultLogger) Write(log Log) {
-	fmt.Println(log.String())
+func (l DefaultLogger) Info(s string) {
+	fmt.Println("INFO: " + s)
 }
 
-type Log struct {
-	Path     string
-	Code     int
-	Duration time.Duration
-}
-
-func (l Log) String() string {
-	return strconv.Itoa(l.Code) + " " + l.Path + " " + l.Duration.String()
+func (l DefaultLogger) Err(e error) {
+	fmt.Println("ERROR: " + e.Error())
 }
 
 type Error struct {
