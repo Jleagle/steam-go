@@ -148,11 +148,11 @@ func (c Client) get(path string) (b []byte, code int, url string, err error) {
 	}
 
 	defer func() {
-		err = req.Body.Close()
+		err = response.Body.Close()
 		c.logger.Err(err)
 	}()
 
-	b, err = ioutil.ReadAll(req.Body)
+	b, err = ioutil.ReadAll(response.Body)
 	if err != nil {
 		return b, code, url, err
 	}
