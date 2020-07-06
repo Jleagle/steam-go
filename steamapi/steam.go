@@ -13,8 +13,6 @@ import (
 	"github.com/juju/ratelimit"
 )
 
-const defaultUserAgent = "github.com/Jleagle/steam-go"
-
 var (
 	ErrMissingKey = errors.New("missing api key")
 
@@ -30,7 +28,14 @@ var (
 	}
 )
 
-type Steam struct {
+func NewClient() *Client {
+	c := &Client{}
+	c.SetLogger(DefaultLogger{})
+	c.SetUserAgent("github.com/Jleagle/steam-go")
+	return c
+}
+
+type Client struct {
 	key             string
 	logger          logger
 	userAgent       string
@@ -39,47 +44,47 @@ type Steam struct {
 	communityBucket *ratelimit.Bucket
 }
 
-func (s *Steam) SetKey(key string) {
-	s.key = key
+func (c *Client) SetKey(key string) {
+	c.key = key
 }
 
-func (s *Steam) SetLogger(logger logger) {
-	s.logger = logger
+func (c *Client) SetLogger(logger logger) {
+	c.logger = logger
 }
 
-func (s *Steam) SetUserAgent(userAgent string) {
-	s.userAgent = userAgent
+func (c *Client) SetUserAgent(userAgent string) {
+	c.userAgent = userAgent
 }
 
-func (s *Steam) SetAPIRateLimit(duration time.Duration, burst int64) {
-	s.apiBucket = ratelimit.NewBucket(duration, burst)
+func (c *Client) SetAPIRateLimit(duration time.Duration, burst int64) {
+	c.apiBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (s *Steam) SetStoreRateLimit(duration time.Duration, burst int64) {
-	s.storeBucket = ratelimit.NewBucket(duration, burst)
+func (c *Client) SetStoreRateLimit(duration time.Duration, burst int64) {
+	c.storeBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (s *Steam) SetCommunityRateLimit(duration time.Duration, burst int64) {
-	s.communityBucket = ratelimit.NewBucket(duration, burst)
+func (c *Client) SetCommunityRateLimit(duration time.Duration, burst int64) {
+	c.communityBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (s Steam) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
+func (c Client) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
 
-	if s.key == "" {
+	if c.key == "" {
 		return b, ErrMissingKey
 	}
 
-	if s.apiBucket != nil {
-		s.apiBucket.Wait(1)
+	if c.apiBucket != nil {
+		c.apiBucket.Wait(1)
 	}
 
 	query.Set("format", "json")
 
 	if key {
-		query.Set("key", s.key)
+		query.Set("key", c.key)
 	}
 
-	b, code, _, err := s.get("https://api.steampowered.com/" + path + "?" + query.Encode())
+	b, code, _, err := c.get("https://api.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
 		return b, err
 	}
@@ -96,13 +101,13 @@ func (s Steam) getFromAPI(path string, query url.Values, key bool) (b []byte, er
 	return b, err
 }
 
-func (s Steam) getFromStore(path string, query url.Values) (b []byte, err error) {
+func (c Client) getFromStore(path string, query url.Values) (b []byte, err error) {
 
-	if s.storeBucket != nil {
-		s.storeBucket.Wait(1)
+	if c.storeBucket != nil {
+		c.storeBucket.Wait(1)
 	}
 
-	b, _, _, err = s.get("https://store.steampowered.com/" + path + "?" + query.Encode())
+	b, _, _, err = c.get("https://store.steampowered.com/" + path + "?" + query.Encode())
 	if err != nil {
 		return b, err
 	}
@@ -110,23 +115,22 @@ func (s Steam) getFromStore(path string, query url.Values) (b []byte, err error)
 	return b, err
 }
 
-func (s Steam) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
+func (c Client) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
 
-	if s.communityBucket != nil {
-		s.communityBucket.Wait(1)
+	if c.communityBucket != nil {
+		c.communityBucket.Wait(1)
 	}
 
 	if query != nil {
 		path += "?" + query.Encode()
 	}
 
-	b, _, url, err = s.get("https://steamcommunity.com/" + path)
+	b, _, url, err = c.get("https://steamcommunity.com/" + path)
 	return b, url, err
 }
 
-func (s Steam) get(path string) (b []byte, code int, url string, err error) {
+func (c Client) get(path string) (b []byte, code int, url string, err error) {
 
-	// Create request
 	client := &http.Client{
 		Timeout: time.Second * 5,
 	}
@@ -136,16 +140,9 @@ func (s Steam) get(path string) (b []byte, code int, url string, err error) {
 		return b, code, url, err
 	}
 
-	if s.userAgent == "" {
-		req.Header.Set("User-Agent", defaultUserAgent)
-	} else {
-		req.Header.Set("User-Agent", s.userAgent)
-	}
+	req.Header.Set("User-Agent", c.userAgent)
 
-	start := time.Now()
 	response, err := client.Do(req)
-	elapsed := time.Since(start)
-
 	if err != nil {
 		return b, code, url, err
 	}
@@ -166,7 +163,6 @@ func (s Steam) get(path string) (b []byte, code int, url string, err error) {
 
 	c.logger.Info(path)
 
-	//
 	return b, code, url, err
 }
 

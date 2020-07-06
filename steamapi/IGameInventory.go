@@ -12,7 +12,7 @@ import (
 
 var ErrInvalidDigest = errors.New("invalid digest")
 
-func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, b []byte, err error) {
+func (c Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, b []byte, err error) {
 
 	if digest == "" {
 		return archives, b, ErrInvalidDigest
@@ -22,7 +22,7 @@ func (s Steam) GetItemDefArchive(appID int, digest string) (archives []ItemDefAr
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("digest", digest)
 
-	b, err = s.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
+	b, err = c.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
 	if err != nil {
 		return archives, b, err
 	}

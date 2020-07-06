@@ -18,13 +18,13 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (s Steam) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, b []byte, err error) {
+func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, b []byte, err error) {
 
 	if id == 0 {
 		return app, b, ErrAppNotFound // App 0 does exist but the API does not return it
 	}
 
-	resp, b, err := s.GetAppDetailsMulti([]uint{id}, cc, language, filters)
+	resp, b, err := c.GetAppDetailsMulti([]uint{id}, cc, language, filters)
 	if err != nil {
 		return app, b, err
 	}
@@ -38,7 +38,7 @@ func (s Steam) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filte
 	return resp[idx], b, nil
 }
 
-func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, b []byte, err error) {
+func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, b []byte, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -53,7 +53,7 @@ func (s Steam) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCod
 		query.Set("filters", strings.Join(filters, ","))
 	}
 
-	b, err = s.getFromStore("api/appdetails", query)
+	b, err = c.getFromStore("api/appdetails", query)
 	if err != nil {
 		return resp, b, err
 	}
@@ -212,7 +212,7 @@ type AppDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, b []byte, err error) {
+func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, b []byte, err error) {
 
 	if id == 0 {
 		return pack, b, ErrPackageNotFound // Package 0 does exist but the API does not return it
@@ -225,7 +225,7 @@ func (s Steam) GetPackageDetails(id uint, code ProductCC, language LanguageCode)
 	query.Set("cc", string(code))    // Price currency
 	query.Set("l", string(language)) // Text
 
-	b, err = s.getFromStore("api/packagedetails", query)
+	b, err = c.getFromStore("api/packagedetails", query)
 	if err != nil {
 		return pack, b, err
 	}
@@ -285,9 +285,9 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func (s Steam) GetTags() (tags Tags, b []byte, err error) {
+func (c Client) GetTags() (tags Tags, b []byte, err error) {
 
-	b, err = s.getFromStore("tagdata/populartags/english", url.Values{})
+	b, err = c.getFromStore("tagdata/populartags/english", url.Values{})
 	if err != nil {
 		return tags, b, err
 	}
@@ -327,7 +327,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err error) {
+func (c Client) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -341,7 +341,7 @@ func (s Steam) GetReviews(appID int) (reviews ReviewsResponse, b []byte, err err
 	query.Set("end_date", "-1")
 	query.Set("cursor", "*")
 
-	b, err = s.getFromStore("appreviews/"+strconv.Itoa(appID), query)
+	b, err = c.getFromStore("appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
 		return reviews, b, err
 	}
@@ -398,12 +398,12 @@ func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (s Steam) GetWishlist(playerID int64) (wishlist Wishlist, b []byte, err error) {
+func (c Client) GetWishlist(playerID int64) (wishlist Wishlist, b []byte, err error) {
 
 	query := url.Values{}
 	query.Set("p", "0")
 
-	b, err = s.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
+	b, err = c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
 	if err != nil {
 		return wishlist, b, err
 	}

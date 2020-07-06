@@ -9,12 +9,12 @@ import (
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func (s Steam) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, b []byte, err error) {
+func (c Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
 
-	b, err = s.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
+	b, err = c.getFromAPI("ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2", options, false)
 	if err != nil {
 		return percentages, b, err
 	}
@@ -50,12 +50,12 @@ type GlobalAchievementAchievement struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func (s Steam) GetNumberOfCurrentPlayers(appID int) (players int, b []byte, err error) {
+func (c Client) GetNumberOfCurrentPlayers(appID int) (players int, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	b, err = s.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
+	b, err = c.getFromAPI("ISteamUserStats/GetNumberOfCurrentPlayers/v1", options, false)
 	if err != nil {
 		return players, b, err
 	}
@@ -77,13 +77,13 @@ type NumberOfCurrentPlayersResponse struct {
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func (s Steam) GetSchemaForGame(appID int) (schema SchemaForGame, b []byte, err error) {
+func (c Client) GetSchemaForGame(appID int) (schema SchemaForGame, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("l", "english")
 
-	b, err = s.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
+	b, err = c.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
 	if err != nil {
 		return schema, b, err
 	}
@@ -126,14 +126,14 @@ type SchemaForGameStat struct {
 	DisplayName  string `json:"displayName"`
 }
 
-func (s Steam) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, b []byte, err error) {
+func (c Client) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatUint(playerID, 10))
 	options.Set("appid", strconv.FormatUint(uint64(appID), 10))
 	options.Set("l", string(LanguageEnglish))
 
-	b, err = s.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
+	b, err = c.getFromAPI("ISteamUserStats/GetPlayerAchievements/v1", options, true)
 	if err != nil {
 		return schema, b, err
 	}

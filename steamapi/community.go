@@ -11,9 +11,9 @@ import (
 	"github.com/Jleagle/unmarshal-go/ctypes"
 )
 
-func (s Steam) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
+func (c Client) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
 
-	b, err = s.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
+	b, err = c.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
 	if err != nil {
 		return resp, b, err
 	}
@@ -91,7 +91,7 @@ type MarketSearchPayload struct {
 	Offset               int
 }
 
-func (s Steam) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
+func (c Client) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
 
 	vals := url.Values{}
 	if payload.FriendlyDescriptions {
@@ -116,7 +116,7 @@ func (s Steam) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, 
 	vals.Set("start", strconv.Itoa(payload.Offset))
 	vals.Set("norender", "1")
 
-	b, err = s.getFromStore("market/search/render", vals)
+	b, err = c.getFromStore("market/search/render", vals)
 	if err != nil {
 		return resp, b, err
 	}
@@ -187,7 +187,7 @@ type PriceOverview struct {
 var ErrRateLimited = errors.New("rate limited")
 
 // Rate limited to once per minute
-func (s Steam) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
+func (c Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("p", strconv.Itoa(page))
@@ -195,9 +195,9 @@ func (s Steam) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, 
 
 	var urlx string
 	if id != "" {
-		b, urlx, err = s.getFromCommunity("gid/"+id+"/memberslistxml", vals)
+		b, urlx, err = c.getFromCommunity("gid/"+id+"/memberslistxml", vals)
 	} else {
-		b, urlx, err = s.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
+		b, urlx, err = c.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
 	}
 
 	if err != nil {
@@ -250,7 +250,7 @@ type GroupInfo struct {
 	} `xml:"members"`
 }
 
-func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
+func (c Client) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("count", strconv.Itoa(limit))
@@ -258,7 +258,7 @@ func (s Steam) GetComments(playerID int64, limit int, offset int) (resp Comments
 		vals.Set("start", strconv.Itoa(offset))
 	}
 
-	b, _, err = s.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	b, _, err = c.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
 	if err != nil {
 		return resp, b, err
 	}
@@ -284,9 +284,9 @@ type Comments struct {
 	TimeLastPost int64      `json:"timelastpost"`
 }
 
-func (s Steam) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
+func (c Client) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 
-	b, _, err = s.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
+	b, _, err = c.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
 	if err != nil {
 		return resp, b, err
 	}

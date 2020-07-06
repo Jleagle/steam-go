@@ -6,12 +6,12 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetItemDefMeta(appID int) (meta ItemDefMeta, b []byte, err error) {
+func (c Client) GetItemDefMeta(appID int) (meta ItemDefMeta, b []byte, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	b, err = s.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
+	b, err = c.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
 	if err != nil {
 		return meta, b, err
 	}

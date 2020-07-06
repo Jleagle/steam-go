@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (s Steam) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, b []byte, err error) {
+func (c Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, b []byte, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -30,7 +30,7 @@ func (s Steam) GetAppList(limit int, offset int, afterDate int64, language Langu
 		q.Set("max_results", strconv.Itoa(limit))
 	}
 
-	b, err = s.getFromAPI("IStoreService/GetAppList/v1", q, true)
+	b, err = c.getFromAPI("IStoreService/GetAppList/v1", q, true)
 	if err != nil {
 		return apps, b, err
 	}
