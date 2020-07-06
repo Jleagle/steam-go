@@ -175,11 +175,15 @@ type DefaultLogger struct {
 }
 
 func (l DefaultLogger) Info(s string) {
-	fmt.Println("INFO: " + s)
+	if s != "" {
+		fmt.Println("INFO: " + s)
+	}
 }
 
-func (l DefaultLogger) Err(e error) {
-	fmt.Println("ERROR: " + e.Error())
+func (l DefaultLogger) Err(err error) {
+	if err != nil {
+		fmt.Println("ERROR: " + err.Error())
+	}
 }
 
 type Error struct {
