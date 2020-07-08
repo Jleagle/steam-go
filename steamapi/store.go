@@ -124,7 +124,7 @@ type AppDetailsBody struct {
 			AppID       ctypes.Int `json:"appid"`
 			Description string     `json:"description"`
 		} `json:"demos"`
-		PriceOverview struct {
+		PriceOverview *struct {
 			Currency         CurrencyCode `json:"currency"`
 			Initial          int          `json:"initial"`
 			Final            int          `json:"final"`
