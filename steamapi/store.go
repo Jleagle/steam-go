@@ -69,10 +69,10 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 	}
 
 	// Fix arrays that should be objects
-	bytesString = strings.Replace(bytesString, "{\"success\":true,\"data\":[]}", "{\"success\":true,\"data\":{}}", 1)
-	bytesString = strings.Replace(bytesString, "\"pc_requirements\":[]", "\"pc_requirements\":{}", 1)
-	bytesString = strings.Replace(bytesString, "\"mac_requirements\":[]", "\"mac_requirements\":{}", 1)
-	bytesString = strings.Replace(bytesString, "\"linux_requirements\":[]", "\"linux_requirements\":{}", 1)
+	bytesString = strings.Replace(bytesString, `{"success":true,"data":[]}`, `{"success":true}`, 1)
+	bytesString = strings.Replace(bytesString, `"pc_requirements":[]`, `"pc_requirements":{}`, 1)
+	bytesString = strings.Replace(bytesString, `"mac_requirements":[]`, `"mac_requirements":{}`, 1)
+	bytesString = strings.Replace(bytesString, `"linux_requirements":[]`, `"linux_requirements":{}`, 1)
 	b = []byte(bytesString)
 
 	// Unmarshal JSON
@@ -84,7 +84,7 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 
 type AppDetailsBody struct {
 	Success bool `json:"success"`
-	Data    struct {
+	Data    *struct {
 		Type                string     `json:"type"`
 		Name                string     `json:"name"`
 		AppID               int        `json:"steam_appid"`
