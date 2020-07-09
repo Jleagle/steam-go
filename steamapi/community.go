@@ -52,10 +52,10 @@ type CommunityInventory struct {
 		MarketMarketableRestriction string `json:"market_marketable_restriction"`
 		Descriptions                []struct {
 			Value   string `json:"value"`
-			Color   string `json:"color,omitempty"`
+			Color   string `json:"color"`
 			AppData struct {
 				DefIndex string `json:"def_index"`
-			} `json:"app_data,omitempty"`
+			} `json:"app_data"`
 		} `json:"descriptions"`
 		Actions []struct {
 			Name string `json:"name"`
@@ -69,7 +69,7 @@ type CommunityInventory struct {
 			InternalName string `json:"internal_name"`
 			Name         string `json:"name"`
 			Category     string `json:"category"`
-			Color        string `json:"color,omitempty"`
+			Color        string `json:"color"`
 			CategoryName string `json:"category_name"`
 		} `json:"tags"`
 		AppData struct {

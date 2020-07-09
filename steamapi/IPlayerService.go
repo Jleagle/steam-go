@@ -87,7 +87,7 @@ type OwnedGames struct {
 		PlaytimeLinux            int    `json:"playtime_linux_forever"`
 		ImgIconURL               string `json:"img_icon_url"`
 		ImgLogoURL               string `json:"img_logo_url"`
-		HasCommunityVisibleStats bool   `json:"has_community_visible_stats,omitempty"`
+		HasCommunityVisibleStats bool   `json:"has_community_visible_stats"`
 	} `json:"games"`
 }
 
