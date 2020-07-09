@@ -82,6 +82,9 @@ type OwnedGames struct {
 		AppID                    int    `json:"appid"`
 		Name                     string `json:"name"`
 		PlaytimeForever          int    `json:"playtime_forever"`
+		PlaytimeWindows          int    `json:"playtime_windows_forever"`
+		PlaytimeMac              int    `json:"playtime_mac_forever"`
+		PlaytimeLinux            int    `json:"playtime_linux_forever"`
 		ImgIconURL               string `json:"img_icon_url"`
 		ImgLogoURL               string `json:"img_logo_url"`
 		HasCommunityVisibleStats bool   `json:"has_community_visible_stats,omitempty"`
