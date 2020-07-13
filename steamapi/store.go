@@ -327,12 +327,12 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (c Client) GetReviews(appID int) (reviews ReviewsResponse, err error) {
+func (c Client) GetReviews(appID int, language LanguageCode) (reviews ReviewsResponse, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
-	query.Set("language", string(LanguageEnglish))
-	query.Set("l", string(LanguageEnglish))
+	query.Set("language", string(language))
+	query.Set("l", string(language))
 	query.Set("filter", "all")
 	query.Set("purchase_type", "all")
 	query.Set("date_range_type", "all")
