@@ -139,6 +139,7 @@ type PlayerSummary struct {
 	PersonaStateFlags        int          `json:"personastateflags"`
 	CountryCode              string       `json:"loccountrycode"`
 	StateCode                string       `json:"locstatecode"`
+	CityID                   int          `json:"loccityid"`
 }
 
 func (c Client) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, err error) {
