@@ -18,7 +18,7 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetailsBody, err error) {
+func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
 
 	if id == 0 {
 		return app, ErrAppNotFound // App 0 does exist but the API does not return it
@@ -38,7 +38,7 @@ func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filt
 	return resp[idx], nil
 }
 
-func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetailsBody, err error) {
+func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -76,13 +76,13 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 	b = []byte(bytesString)
 
 	// Unmarshal JSON
-	resp = map[string]AppDetailsBody{}
+	resp = map[string]AppDetails{}
 	err = json.Unmarshal(b, &resp)
 
 	return resp, err
 }
 
-type AppDetailsBody struct {
+type AppDetails struct {
 	Success bool `json:"success"`
 	Data    *struct {
 		Type                string     `json:"type"`
@@ -163,14 +163,8 @@ type AppDetailsBody struct {
 			Score int8   `json:"score"`
 			URL   string `json:"url"`
 		} `json:"metacritic"`
-		Categories []struct {
-			ID          int8   `json:"id"`
-			Description string `json:"description"`
-		} `json:"categories"`
-		Genres []struct {
-			ID          ctypes.Int `json:"id"`
-			Description string     `json:"description"`
-		} `json:"genres"`
+		Categories  AppDetailsCategory `json:"categories"`
+		Genres      AppDetailsGenre    `json:"genres"`
 		Screenshots []struct {
 			ID            int    `json:"id"`
 			PathThumbnail string `json:"path_thumbnail"`
@@ -210,6 +204,44 @@ type AppDetailsBody struct {
 			Notes interface{}
 		} `json:"content_descriptors"`
 	} `json:"data"`
+}
+
+type AppDetailsGenre []struct {
+	ID          ctypes.Int `json:"id"`
+	Description string     `json:"description"`
+}
+
+func (g AppDetailsGenre) IDs() (IDs []int) {
+	for _, v := range g {
+		IDs = append(IDs, int(v.ID))
+	}
+	return IDs
+}
+
+func (g AppDetailsGenre) Names() (names []string) {
+	for _, v := range g {
+		names = append(names, v.Description)
+	}
+	return names
+}
+
+type AppDetailsCategory []struct {
+	ID          int8   `json:"id"`
+	Description string `json:"description"`
+}
+
+func (c AppDetailsCategory) IDs() (IDs []int) {
+	for _, v := range c {
+		IDs = append(IDs, int(v.ID))
+	}
+	return IDs
+}
+
+func (c AppDetailsCategory) Names() (names []string) {
+	for _, v := range c {
+		names = append(names, v.Description)
+	}
+	return names
 }
 
 func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
