@@ -45,7 +45,7 @@ type News struct {
 		Contents      string       `json:"contents"`
 		Feedlabel     string       `json:"feedlabel"`
 		Date          int64        `json:"date"`
-		Feedname      string       `json:"feedname"`
+		FeedName      string       `json:"feedname"`
 		FeedType      int          `json:"feed_type"`
 		AppID         int          `json:"appid"`
 	} `json:"newsitems"`
