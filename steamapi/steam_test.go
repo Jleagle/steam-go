@@ -18,7 +18,7 @@ func TestPlayers(t *testing.T) {
 
 	c := NewClient()
 
-	_, err := c.GetAliases(76561197968626192)
+	_, _, err := c.GetAliases(76561197968626192)
 	if err != nil {
 		t.Error(err)
 	}
@@ -28,7 +28,7 @@ func TestGroups(t *testing.T) {
 
 	c := NewClient()
 
-	group, err := c.GetGroup("103582791434672565", "", 1)
+	group, _, err := c.GetGroup("103582791434672565", "", 1)
 	if err != nil {
 		t.Error(err)
 	}
