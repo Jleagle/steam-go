@@ -158,6 +158,8 @@ func (c Client) get(path string) (b []byte, code int, url string, err error) {
 	}
 
 	b = bytes.TrimSpace(b)
+	b = bytes.TrimPrefix(b, []byte{239, 187, 191}) // Trim byte order mark
+
 	code = response.StatusCode
 	url = response.Request.URL.Path
 
