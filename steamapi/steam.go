@@ -32,6 +32,7 @@ func NewClient() *Client {
 	c := &Client{}
 	c.SetLogger(DefaultLogger{})
 	c.SetUserAgent("github.com/Jleagle/steam-go")
+	c.SetTimeout(time.Second * 5)
 	return c
 }
 
@@ -42,10 +43,15 @@ type Client struct {
 	apiBucket       *ratelimit.Bucket
 	storeBucket     *ratelimit.Bucket
 	communityBucket *ratelimit.Bucket
+	timeout         time.Duration
 }
 
 func (c *Client) SetKey(key string) {
 	c.key = key
+}
+
+func (c *Client) SetTimeout(timeout time.Duration) {
+	c.timeout = timeout
 }
 
 func (c *Client) SetLogger(logger logger) {
@@ -132,7 +138,7 @@ func (c Client) getFromCommunity(path string, query url.Values) (b []byte, url s
 func (c Client) get(path string) (b []byte, code int, url string, err error) {
 
 	client := &http.Client{
-		Timeout: time.Second * 5,
+		Timeout: c.timeout,
 	}
 
 	req, err := http.NewRequest("GET", path, nil)
