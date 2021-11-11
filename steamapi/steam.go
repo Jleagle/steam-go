@@ -76,7 +76,7 @@ func (c *Client) SetCommunityRateLimit(duration time.Duration, burst int64) {
 
 func (c Client) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
 
-	if c.key == "" {
+	if c.key == "" && key {
 		return b, ErrMissingKey
 	}
 
