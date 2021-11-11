@@ -153,10 +153,12 @@ func (c Client) get(path string) (b []byte, code int, url string, err error) {
 		return b, code, url, err
 	}
 
-	defer func() {
+	defer func(response *http.Response) {
 		err = response.Body.Close()
-		c.logger.Err(err)
-	}()
+		if err != nil {
+			c.logger.Err(err)
+		}
+	}(response)
 
 	b, err = ioutil.ReadAll(response.Body)
 	if err != nil {
