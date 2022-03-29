@@ -195,8 +195,10 @@ func (c Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo,
 	var urlx string
 	if id != "" {
 		b, urlx, err = c.getFromCommunity("gid/"+id+"/memberslistxml", vals)
-	} else {
+	} else if vanityURL != "" {
 		b, urlx, err = c.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
+	} else {
+		return resp, b, errors.New("missing id/vanity")
 	}
 
 	if err != nil {
