@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Jleagle/unmarshal-go/ctypes"
+	"github.com/Jleagle/unmarshal-go"
 )
 
 var (
@@ -85,19 +85,19 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 type AppDetails struct {
 	Success bool `json:"success"`
 	Data    *struct {
-		Type                string     `json:"type"`
-		Name                string     `json:"name"`
-		AppID               int        `json:"steam_appid"`
-		RequiredAge         ctypes.Int `json:"required_age"`
-		IsFree              bool       `json:"is_free"`
-		DLC                 []int      `json:"dlc"`
-		ControllerSupport   string     `json:"controller_support"`
-		DetailedDescription string     `json:"detailed_description"`
-		AboutTheGame        string     `json:"about_the_game"`
-		ShortDescription    string     `json:"short_description"`
+		Type                string        `json:"type"`
+		Name                string        `json:"name"`
+		AppID               int           `json:"steam_appid"`
+		RequiredAge         unmarshal.Int `json:"required_age"`
+		IsFree              bool          `json:"is_free"`
+		DLC                 []int         `json:"dlc"`
+		ControllerSupport   string        `json:"controller_support"`
+		DetailedDescription string        `json:"detailed_description"`
+		AboutTheGame        string        `json:"about_the_game"`
+		ShortDescription    string        `json:"short_description"`
 		Fullgame            struct {
-			AppID ctypes.Int `json:"appid"`
-			Name  string     `json:"name"`
+			AppID unmarshal.Int `json:"appid"`
+			Name  string        `json:"name"`
 		} `json:"fullgame"`
 		SupportedLanguages string `json:"supported_languages"`
 		Reviews            string `json:"reviews"`
@@ -121,8 +121,8 @@ type AppDetails struct {
 		Developers           []string `json:"developers"`
 		Publishers           []string `json:"publishers"`
 		Demos                []struct {
-			AppID       ctypes.Int `json:"appid"`
-			Description string     `json:"description"`
+			AppID       unmarshal.Int `json:"appid"`
+			Description string        `json:"description"`
 		} `json:"demos"`
 		PriceOverview *struct {
 			Currency         CurrencyCode `json:"currency"`
@@ -136,22 +136,22 @@ type AppDetails struct {
 		} `json:"price_overview"`
 		Packages      []int `json:"packages"`
 		PackageGroups []struct {
-			Name                    string        `json:"name"`
-			Title                   string        `json:"title"`
-			Description             string        `json:"description"`
-			SelectionText           string        `json:"selection_text"`
-			SaveText                string        `json:"save_text"`
-			DisplayType             ctypes.String `json:"display_type"`
-			IsRecurringSubscription ctypes.Bool   `json:"is_recurring_subscription"`
+			Name                    string           `json:"name"`
+			Title                   string           `json:"title"`
+			Description             string           `json:"description"`
+			SelectionText           string           `json:"selection_text"`
+			SaveText                string           `json:"save_text"`
+			DisplayType             unmarshal.String `json:"display_type"`
+			IsRecurringSubscription unmarshal.Bool   `json:"is_recurring_subscription"`
 			Subs                    []struct {
-				PackageID                int         `json:"packageid"`
-				PercentSavingsText       string      `json:"percent_savings_text"`
-				PercentSavings           int         `json:"percent_savings"`
-				OptionText               string      `json:"option_text"`
-				OptionDescription        string      `json:"option_description"`
-				CanGetFreeLicense        ctypes.Bool `json:"can_get_free_license"`
-				IsFreeLicense            bool        `json:"is_free_license"`
-				PriceInCentsWithDiscount int         `json:"price_in_cents_with_discount"`
+				PackageID                int            `json:"packageid"`
+				PercentSavingsText       string         `json:"percent_savings_text"`
+				PercentSavings           int            `json:"percent_savings"`
+				OptionText               string         `json:"option_text"`
+				OptionDescription        string         `json:"option_description"`
+				CanGetFreeLicense        unmarshal.Bool `json:"can_get_free_license"`
+				IsFreeLicense            bool           `json:"is_free_license"`
+				PriceInCentsWithDiscount int            `json:"price_in_cents_with_discount"`
 			} `json:"subs"`
 		} `json:"package_groups"`
 		Platforms struct {
@@ -207,8 +207,8 @@ type AppDetails struct {
 }
 
 type AppDetailsGenre []struct {
-	ID          ctypes.Int `json:"id"`
-	Description string     `json:"description"`
+	ID          unmarshal.Int `json:"id"`
+	Description string        `json:"description"`
 }
 
 func (g AppDetailsGenre) IDs() (IDs []int) {
@@ -400,25 +400,25 @@ type ReviewsResponse struct {
 	Reviews []struct {
 		Recommendationid string `json:"recommendationid"`
 		Author           struct {
-			SteamID              ctypes.Int64 `json:"steamid"`
-			NumGamesOwned        int          `json:"num_games_owned"`
-			NumReviews           int          `json:"num_reviews"`
-			PlaytimeForever      int          `json:"playtime_forever"`
-			PlaytimeLastTwoWeeks int          `json:"playtime_last_two_weeks"`
-			LastPlayed           int          `json:"last_played"`
+			SteamID              unmarshal.Int64 `json:"steamid"`
+			NumGamesOwned        int             `json:"num_games_owned"`
+			NumReviews           int             `json:"num_reviews"`
+			PlaytimeForever      int             `json:"playtime_forever"`
+			PlaytimeLastTwoWeeks int             `json:"playtime_last_two_weeks"`
+			LastPlayed           int             `json:"last_played"`
 		} `json:"author"`
-		Language                 string         `json:"language"`
-		Review                   string         `json:"review"`
-		TimestampCreated         int64          `json:"timestamp_created"`
-		TimestampUpdated         int64          `json:"timestamp_updated"`
-		VotedUp                  bool           `json:"voted_up"`
-		VotesUp                  int            `json:"votes_up"`
-		VotesFunny               int            `json:"votes_funny"`
-		WeightedVoteScore        ctypes.Float64 `json:"weighted_vote_score"`
-		CommentCount             int            `json:"comment_count"`
-		SteamPurchase            bool           `json:"steam_purchase"`
-		ReceivedForFree          bool           `json:"received_for_free"`
-		WrittenDuringEarlyAccess bool           `json:"written_during_early_access"`
+		Language                 string            `json:"language"`
+		Review                   string            `json:"review"`
+		TimestampCreated         int64             `json:"timestamp_created"`
+		TimestampUpdated         int64             `json:"timestamp_updated"`
+		VotedUp                  bool              `json:"voted_up"`
+		VotesUp                  int               `json:"votes_up"`
+		VotesFunny               int               `json:"votes_funny"`
+		WeightedVoteScore        unmarshal.Float64 `json:"weighted_vote_score"`
+		CommentCount             int               `json:"comment_count"`
+		SteamPurchase            bool              `json:"steam_purchase"`
+		ReceivedForFree          bool              `json:"received_for_free"`
+		WrittenDuringEarlyAccess bool              `json:"written_during_early_access"`
 	} `json:"reviews"`
 }
 
@@ -462,36 +462,36 @@ type WishlistFail struct {
 }
 
 type Wishlist struct {
-	Items map[ctypes.Int]WishlistItem
+	Items map[unmarshal.Int]WishlistItem
 }
 
 type WishlistItem struct {
-	Name           string       `json:"name"`
-	Capsule        string       `json:"capsule"`
-	ReviewScore    int          `json:"review_score"`
-	ReviewDesc     string       `json:"review_desc"`
-	ReviewsTotal   string       `json:"reviews_total"`
-	ReviewsPercent int          `json:"reviews_percent"`
-	ReleaseDate    ctypes.Int64 `json:"release_date"`
-	ReleaseString  string       `json:"release_string"`
-	PlatformIcons  string       `json:"platform_icons"`
+	Name           string          `json:"name"`
+	Capsule        string          `json:"capsule"`
+	ReviewScore    int             `json:"review_score"`
+	ReviewDesc     string          `json:"review_desc"`
+	ReviewsTotal   string          `json:"reviews_total"`
+	ReviewsPercent int             `json:"reviews_percent"`
+	ReleaseDate    unmarshal.Int64 `json:"release_date"`
+	ReleaseString  string          `json:"release_string"`
+	PlatformIcons  string          `json:"platform_icons"`
 	Subs           []struct {
 		ID            int    `json:"id"`
 		DiscountBlock string `json:"discount_block"`
 		DiscountPct   int    `json:"discount_pct"`
 		Price         int    `json:"price"`
 	} `json:"subs"`
-	Type        string      `json:"type"`
-	Screenshots []string    `json:"screenshots"`
-	ReviewCSS   string      `json:"review_css"`
-	Priority    int         `json:"priority"`
-	Added       int         `json:"added"`
-	Background  string      `json:"background"`
-	Rank        ctypes.Int  `json:"rank"`
-	Tags        []string    `json:"tags"`
-	EarlyAccess int         `json:"early_access"`
-	IsFreeGame  bool        `json:"is_free_game"`
-	Win         ctypes.Bool `json:"win"`
-	Mac         ctypes.Bool `json:"mac"`
-	Linux       ctypes.Bool `json:"linux"`
+	Type        string         `json:"type"`
+	Screenshots []string       `json:"screenshots"`
+	ReviewCSS   string         `json:"review_css"`
+	Priority    int            `json:"priority"`
+	Added       int            `json:"added"`
+	Background  string         `json:"background"`
+	Rank        unmarshal.Int  `json:"rank"`
+	Tags        []string       `json:"tags"`
+	EarlyAccess int            `json:"early_access"`
+	IsFreeGame  bool           `json:"is_free_game"`
+	Win         unmarshal.Bool `json:"win"`
+	Mac         unmarshal.Bool `json:"mac"`
+	Linux       unmarshal.Bool `json:"linux"`
 }

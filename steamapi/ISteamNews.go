@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/Jleagle/unmarshal-go/ctypes"
+	"github.com/Jleagle/unmarshal-go"
 )
 
 func (c Client) GetNews(appID int, limit int) (articles News, err error) {
@@ -37,17 +37,17 @@ type NewsResponse struct {
 type News struct {
 	AppID int `json:"appid"`
 	Items []struct {
-		GID           ctypes.Int64 `json:"gid"`
-		Title         string       `json:"title"`
-		URL           string       `json:"url"`
-		IsExternalURL bool         `json:"is_external_url"`
-		Author        string       `json:"author"`
-		Contents      string       `json:"contents"`
-		Feedlabel     string       `json:"feedlabel"`
-		Date          int64        `json:"date"`
-		FeedName      string       `json:"feedname"`
-		FeedType      int          `json:"feed_type"`
-		AppID         int          `json:"appid"`
+		GID           unmarshal.Int64 `json:"gid"`
+		Title         string          `json:"title"`
+		URL           string          `json:"url"`
+		IsExternalURL bool            `json:"is_external_url"`
+		Author        string          `json:"author"`
+		Contents      string          `json:"contents"`
+		Feedlabel     string          `json:"feedlabel"`
+		Date          int64           `json:"date"`
+		FeedName      string          `json:"feedname"`
+		FeedType      int             `json:"feed_type"`
+		AppID         int             `json:"appid"`
 	} `json:"newsitems"`
 	Count int `json:"count"`
 }

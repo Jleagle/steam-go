@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/Jleagle/unmarshal-go/ctypes"
+	"github.com/Jleagle/unmarshal-go"
 )
 
 // Retrieves the global achievement percentages for the specified app.
@@ -111,13 +111,13 @@ type SchemaForGame struct {
 }
 
 type SchemaForGameAchievement struct {
-	Name         string      `json:"name"`
-	DefaultValue int         `json:"defaultvalue"`
-	DisplayName  string      `json:"displayName"`
-	Hidden       ctypes.Bool `json:"hidden"`
-	Description  string      `json:"description"`
-	Icon         string      `json:"icon"`
-	IconGray     string      `json:"icongray"`
+	Name         string         `json:"name"`
+	DefaultValue int            `json:"defaultvalue"`
+	DisplayName  string         `json:"displayName"`
+	Hidden       unmarshal.Bool `json:"hidden"`
+	Description  string         `json:"description"`
+	Icon         string         `json:"icon"`
+	IconGray     string         `json:"icongray"`
 }
 
 type SchemaForGameStat struct {
@@ -152,14 +152,14 @@ type PlayerAchievementsOuterResponse struct {
 }
 
 type PlayerAchievementsResponse struct {
-	SteamID      ctypes.Int64 `json:"steamID"`
-	GameName     string       `json:"gameName"`
+	SteamID      unmarshal.Int64 `json:"steamID"`
+	GameName     string          `json:"gameName"`
 	Achievements []struct {
-		APIName     string      `json:"apiname"`
-		Achieved    ctypes.Bool `json:"achieved"`
-		UnlockTime  int64       `json:"unlocktime"`
-		Name        string      `json:"name"`
-		Description string      `json:"description"`
+		APIName     string         `json:"apiname"`
+		Achieved    unmarshal.Bool `json:"achieved"`
+		UnlockTime  int64          `json:"unlocktime"`
+		Name        string         `json:"name"`
+		Description string         `json:"description"`
 	} `json:"achievements"`
 	Error   string `json:"error"`
 	Success bool   `json:"success"`

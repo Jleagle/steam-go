@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Jleagle/unmarshal-go/ctypes"
+	"github.com/Jleagle/unmarshal-go"
 )
 
 func (c Client) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
@@ -226,28 +226,28 @@ type GroupInfo struct {
 	Text    string   `xml:",chardata"`
 	ID64    string   `xml:"groupID64"` // Too big for int64
 	Details struct {
-		Text          string     `xml:",chardata"`
-		Name          string     `xml:"groupName"`
-		URL           string     `xml:"groupURL"`
-		Headline      string     `xml:"headline"`
-		Summary       string     `xml:"summary"`
-		AvatarIcon    string     `xml:"avatarIcon"`
-		AvatarMedium  string     `xml:"avatarMedium"`
-		AvatarFull    string     `xml:"avatarFull"`
-		MemberCount   ctypes.Int `xml:"memberCount"`
-		MembersInChat ctypes.Int `xml:"membersInChat"`
-		MembersInGame ctypes.Int `xml:"membersInGame"`
-		MembersOnline ctypes.Int `xml:"membersOnline"`
+		Text          string        `xml:",chardata"`
+		Name          string        `xml:"groupName"`
+		URL           string        `xml:"groupURL"`
+		Headline      string        `xml:"headline"`
+		Summary       string        `xml:"summary"`
+		AvatarIcon    string        `xml:"avatarIcon"`
+		AvatarMedium  string        `xml:"avatarMedium"`
+		AvatarFull    string        `xml:"avatarFull"`
+		MemberCount   unmarshal.Int `xml:"memberCount"`
+		MembersInChat unmarshal.Int `xml:"membersInChat"`
+		MembersInGame unmarshal.Int `xml:"membersInGame"`
+		MembersOnline unmarshal.Int `xml:"membersOnline"`
 	} `xml:"groupDetails"`
-	MemberCount      ctypes.Int `xml:"memberCount"`
-	TotalPages       ctypes.Int `xml:"totalPages"`
-	CurrentPage      ctypes.Int `xml:"currentPage"`
-	StartingMember   ctypes.Int `xml:"startingMember"`
-	NextPageLink     string     `xml:"nextPageLink"`
-	PreviousPageLink string     `xml:"previousPageLink"`
+	MemberCount      unmarshal.Int `xml:"memberCount"`
+	TotalPages       unmarshal.Int `xml:"totalPages"`
+	CurrentPage      unmarshal.Int `xml:"currentPage"`
+	StartingMember   unmarshal.Int `xml:"startingMember"`
+	NextPageLink     string        `xml:"nextPageLink"`
+	PreviousPageLink string        `xml:"previousPageLink"`
 	Members          struct {
-		Text      string         `xml:",chardata"`
-		SteamID64 []ctypes.Int64 `xml:"steamID64"`
+		Text      string            `xml:",chardata"`
+		SteamID64 []unmarshal.Int64 `xml:"steamID64"`
 	} `xml:"members"`
 }
 
@@ -274,15 +274,15 @@ func (c Client) GetComments(playerID int64, limit int, offset int) (resp Comment
 }
 
 type Comments struct {
-	Success      bool       `json:"success"`
-	Name         string     `json:"name"`
-	Start        int        `json:"start"`
-	PageSize     ctypes.Int `json:"pagesize"`
-	TotalCount   int        `json:"total_count"`
-	Upvotes      int        `json:"upvotes"`
-	HasUpvoted   int        `json:"has_upvoted"`
-	CommentsHTML string     `json:"comments_html"`
-	TimeLastPost int64      `json:"timelastpost"`
+	Success      bool          `json:"success"`
+	Name         string        `json:"name"`
+	Start        int           `json:"start"`
+	PageSize     unmarshal.Int `json:"pagesize"`
+	TotalCount   int           `json:"total_count"`
+	Upvotes      int           `json:"upvotes"`
+	HasUpvoted   int           `json:"has_upvoted"`
+	CommentsHTML string        `json:"comments_html"`
+	TimeLastPost int64         `json:"timelastpost"`
 }
 
 func (c Client) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
