@@ -42,7 +42,7 @@ func TestApps(t *testing.T) {
 	c := NewClient()
 
 	// Paid game price overview
-	app, err := c.GetAppDetails(578080, ProductCCUS, LanguageEnglish, []string{"price_overview"})
+	app, err := c.GetAppDetails(252490, ProductCCUS, LanguageEnglish, []string{"price_overview"})
 	if err != nil {
 		t.Error(err)
 	}
