@@ -476,10 +476,10 @@ type WishlistItem struct {
 	ReleaseString  string          `json:"release_string"`
 	PlatformIcons  string          `json:"platform_icons"`
 	Subs           []struct {
-		ID            int    `json:"id"`
-		DiscountBlock string `json:"discount_block"`
-		DiscountPct   int    `json:"discount_pct"`
-		Price         int    `json:"price"`
+		ID            int           `json:"id"`
+		DiscountBlock string        `json:"discount_block"`
+		DiscountPct   int           `json:"discount_pct"`
+		Price         unmarshal.Int `json:"price"`
 	} `json:"subs"`
 	Type        string         `json:"type"`
 	Screenshots []string       `json:"screenshots"`
