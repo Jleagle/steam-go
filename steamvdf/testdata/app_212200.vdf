@@ -1,0 +1,290 @@
+"appinfo"
+{
+    "appid"		"212200"
+	"common"
+	{
+		"name"		"Mabinogi"
+		"type"		"Game"
+		"linuxclienticon"		"9a431be93206e256568d0cc8a472af0d687f4dde"
+		"clienticon"		"7fa79cb00af00bc97c8ba41906a5e1ca98649c29"
+		"clienttga"		"67ba1b90bc9b004b9670ff05d99cec8ced547361"
+		"icon"		"3c5bb76a73fcaa61fa2407134cca04f3d60574fa"
+		"logo"		"799a333b7e8f1925d49ea51d83aa111ea70887c7"
+		"logo_small"		"799a333b7e8f1925d49ea51d83aa111ea70887c7_thumb"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"212200_eula_0"
+				"name"		"Mabinogi EULA"
+				"url"		"http://store.steampowered.com//eula/212200_eula_0"
+			}
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1643932800"
+			"tested_build_id"		"7646791"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+			}
+		}
+		"metacritic_name"		"Mabinogi"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"17.527439671875584"
+				"height_pct"		"58.074966480290485"
+			}
+		}
+		"store_asset_mtime"		"1678990323"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NEXON Korea Corp."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nexon America Inc."
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"37"
+			"4"		"29"
+			"5"		"3"
+			"6"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1354816800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"212200"
+		"exfgls"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"4085"
+			"3"		"122"
+			"4"		"597"
+			"5"		"19"
+			"6"		"1754"
+			"7"		"599"
+			"8"		"21"
+			"9"		"1695"
+			"10"		"1684"
+			"11"		"3859"
+			"12"		"3810"
+			"13"		"4726"
+			"14"		"4747"
+			"15"		"4231"
+			"16"		"4434"
+			"17"		"1742"
+			"18"		"1756"
+			"19"		"10235"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+		"review_score_bombs"		"6"
+		"review_percentage_bombs"		"74"
+	}
+	"extended"
+	{
+		"AllowPurchaseFromRestrictedCountries"		"1"
+		"developer"		"NEXON Korea Corp."
+		"gamedir"		"Mabinogi"
+		"homepage"		"https://mabinogi.nexon.net/"
+		"icon"		""
+		"isfreeapp"		"1"
+		"noservers"		"0"
+		"PurchaseRestrictedCountries"		"US CA MX NZ AU"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Nexon America Inc."
+		"listofdlc"		"212210,212211"
+		"DLCAvailableOnStore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mabinogi"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		"\"Client.exe code:1622 locale:USA env:Regular ver:246 logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 setting:\\\"file://data/features.xml\\\" sn:{tracking_uid} sid:{tracking_sessionid} /P:{passport} -Steam\" --nx:title=Mabinogi --nx:serviceId=880915460"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch with Console"
+				}
+				"description"		"Launch with Console"
+			}
+			"1"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		"\"Client.exe code:1622 locale:USA env:Regular ver:246 logip:52.25.96.185 logport:11000 chatip:52.25.96.185 chatport:8002 setting:\\\"file://data/features.xml\\\" sn:{tracking_uid} sid:{tracking_sessionid} /P:{passport} -Steam\" --nx:title=Mabinogi --nx:serviceId=880915460"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"BetaKey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"Beta"
+				}
+				"description"		"Beta"
+			}
+			"2"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		"\"Client.exe code:1622 locale:USA env:Test  logip:35.162.133.173 logport:11000 chatip:35.162.133.173 chatport:8002 setting:\\\"file://data/features.xml\\\" sn:{tracking_uid} sid:{tracking_sessionid} /P:${passport} -Steam\" --nx:title=Mabinogi -- nx:serviceID=880915460"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"BetaKey"		"pts_test"
+				}
+				"description_loc"
+				{
+					"english"		"PTS test"
+				}
+				"description"		"PTS test"
+			}
+			"3"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		"\"Client.exe code:1622 locale:USA env:Test  logip:35.162.133.173 logport:11000 chatip:35.162.133.173 chatport:8002 setting:\\\"file://data/features.xml\\\" sn:{tracking_uid} sid:{tracking_sessionid} /P:${passport} -Steam\" --nx:title=Mabinogi --nx:serviceID=880915460 --nx:env=test"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"BetaKey"		"pts_test"
+				}
+				"description_loc"
+				{
+					"english"		"pts test test"
+				}
+				"description"		"pts test test"
+			}
+		}
+	}
+	"depots"
+	{
+		"212201"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7014967194690699317"
+					"size"		"10745454076"
+					"download"		"10116648912"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"pts_test"
+				{
+					"gid"		"AA5549D2206EC1EE38650EABAACCC913"
+					"size"		"4FEC364A29CD064847F27BE5AC8E9080"
+					"download"		"E81645B8549BB4D39E557703B8B9A2CB"
+				}
+				"test"
+				{
+					"gid"		"3B158BB691D596F88D908780542AA056"
+					"size"		"5BDFFACCB15CBDE4AEC4D17B18730578"
+					"download"		"23207915A58A8661FF7360A7D99B6C56"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11381942"
+				"timeupdated"		"1686233812"
+			}
+			"pts_test"
+			{
+				"buildid"		"11536375"
+				"pwdrequired"		"1"
+				"timeupdated"		"1687446852"
+			}
+			"test"
+			{
+				"buildid"		"11405850"
+				"pwdrequired"		"1"
+				"timeupdated"		"1686081519"
+			}
+		}
+	}
+}

@@ -44,6 +44,12 @@ func TestReadBinary(t *testing.T) {
 		}
 
 		switch file {
+		case "testdata/app_212200.vdf":
+
+			fmt.Println("Testing " + file)
+
+			assert.Assert(t, strings.Contains(kv.String(), `\\\"`))
+			
 		case "testdata/app_10.vdf":
 
 			fmt.Println("Testing " + file)
