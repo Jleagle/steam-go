@@ -39,7 +39,7 @@ func readText(data []byte) (kv KeyValue, err error) {
 					return kv, errors.New("EOF")
 				}
 				if data[j] == '"' {
-					if data[j-1] == '\\' && data[j-2] != '\\' {
+					if (j > 1 && data[j-1] == '\\' && data[j-2] != '\\') || (j > 2 && data[j-1] == '\\' && data[j-2] == '\\' && data[j-3] == '\\') {
 						j++
 						continue
 					}
@@ -74,9 +74,9 @@ func readText(data []byte) (kv KeyValue, err error) {
 			break
 
 		default:
-
+			i--
 			if len(tokens) != 0 {
-				fmt.Printf("Last token: %v", tokens[len(tokens)-1])
+				return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\nlast token: %v", string(data[i]), i, line, tokens[len(tokens)-1])
 			}
 			return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\n", string(data[i]), i, line)
 		}
