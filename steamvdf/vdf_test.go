@@ -1,6 +1,7 @@
 package steamvdf
 
 import (
+	"encoding/json"
 	"fmt"
 	"path/filepath"
 	"regexp"
@@ -44,12 +45,30 @@ func TestReadBinary(t *testing.T) {
 		}
 
 		switch file {
+		case "testdata/app_600760.vdf":
+
+			fmt.Println("Testing " + file)
+
+			str := kv.String()
+
+			assert.Assert(t, strings.Contains(str, "\"gamedir\":null"), "kv.String()", "empty value is not null")
+
+			var vdf struct {
+				Extended struct {
+					Gamedir string `json:"gamedir"`
+				} `json:"extended"`
+			}
+
+			err := json.Unmarshal([]byte(str), &vdf)
+
+			assert.Assert(t, err == nil, "json.Unmarshal()", "expected to unmarshal empty string value", "error", err)
+
 		case "testdata/app_212200.vdf":
 
 			fmt.Println("Testing " + file)
 
 			assert.Assert(t, strings.Contains(kv.String(), `\\\"`))
-			
+
 		case "testdata/app_10.vdf":
 
 			fmt.Println("Testing " + file)

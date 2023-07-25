@@ -72,6 +72,14 @@ func (kv KeyValue) String() string {
 		return kv.Value
 	}
 
+	if len(kv.Children) == 0 {
+		b, err := json.Marshal(map[string]interface{}{kv.Key: nil})
+		if err != nil || string(b) == "{}" {
+			return ""
+		}
+		return string(b)
+	}
+
 	b, err := json.Marshal(toMap(kv))
 	if err != nil || string(b) == "{}" {
 		return ""
@@ -103,10 +111,12 @@ func toMap(kv KeyValue) map[string]interface{} {
 
 	for _, child := range kv.Children {
 
-		if child.Value == "" {
-			m[child.Key] = toMap(child)
-		} else {
+		if child.Value != "" {
 			m[child.Key] = child.Value
+		} else if len(child.Children) == 0 {
+			m[child.Key] = nil
+		} else {
+			m[child.Key] = toMap(child)
 		}
 	}
 
