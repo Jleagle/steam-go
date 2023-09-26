@@ -1,0 +1,277 @@
+"appinfo"
+{
+    "appid"		"290320"
+	"common"
+	{
+		"name"		"Project Temporality"
+		"type"		"Game"
+		"ReleaseState"		"released"
+		"oslist"		"windows"
+		"clienticon"		"2a7695b54248a166f8c53372ac170c3c909a8211"
+		"clienttga"		"60f93a582390b7aafab598758fbf280cc0ad556c"
+		"icon"		"fde087ce07cab7ce76e06487cd75728029ff1304"
+		"logo"		"1cc8f695e46e69b693f83187c4c26c368394ad55"
+		"logo_small"		"1cc8f695e46e69b693f83187c4c26c368394ad55_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"290320_eula_0"
+				"name"		"Project Temporality EULA"
+				"url"		"http://store.steampowered.com/eula/290320_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1412687765"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Defrost Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Defrost Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1400569200"
+		"steam_release_date"		"1400601600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"290320"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"19"
+			"3"		"1664"
+			"4"		"6625"
+			"5"		"4182"
+			"6"		"1697"
+			"7"		"3942"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Defrost Games"
+		"publisher"		"Defrost Games"
+		"homepage"		"http://www.defrostgames.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Project Temporality"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Project Temporality.exe"
+				"description"		"Direct Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Launcher\\\\Project Temporality Launcher.exe"
+				"description"		"Troubleshooting mode"
+				"workingdir"		"Launcher\\\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"Project Temporality.exe"
+				"arguments"		"-forcewindowed"
+				"description"		"Force Windowed Mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"290321"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7922575617227977722"
+					"size"		"523114679"
+					"download"		"473541728"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"spanishtesting"
+				{
+					"gid"		"CF8129CAE94914BDDAF484645D6542C7"
+					"size"		"8E28B76B48CC4AE7EA052AA4F627319D"
+					"download"		"A3BBA00075DF6B163181044F4D9F8753"
+				}
+				"test"
+				{
+					"gid"		"2000B023AB19872E0229F144693A4C36"
+					"size"		"DCEBB6A531C4B0A61333722725596FF5"
+					"download"		"7C50887F9C58D7D10EF059DC6FB7D0CA"
+				}
+			}
+		}
+		"290322"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"681339662962024335"
+					"size"		"29138322"
+					"download"		"25076112"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"spanishtesting"
+				{
+					"gid"		"A42CBA3F2854AAFF92D1F1FB86452B51"
+					"size"		"AA7353C10754041B6E930E3940FEEE36"
+					"download"		"67E15136628C53F91B36FC02B5C1D14C"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1038954"
+				"timeupdated"		"1458803706"
+			}
+			"spanishtesting"
+			{
+				"buildid"		"427882"
+				"pwdrequired"		"1"
+			}
+			"test"
+			{
+				"buildid"		"347533"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"65536"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavedGames\\Project Temporality"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
