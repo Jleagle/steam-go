@@ -11,6 +11,8 @@ import (
 	"gotest.tools/v3/assert"
 )
 
+const improperlyEscapedQuote = "improperly parsed escaped quote (\\\")"
+
 func TestReadBinary(t *testing.T) {
 
 	ints := regexp.MustCompile("[0-9]+")
@@ -28,10 +30,10 @@ func TestReadBinary(t *testing.T) {
 
 		if isApp {
 
-			assert.Assert(t, kv.Key == "appinfo")
+			assert.Assert(t, kv.Key == "appinfo", "id", id)
 
 			appid, ok := kv.GetChild("appid")
-			assert.Assert(t, ok)
+			assert.Assert(t, ok, "id", id)
 			assert.Assert(t, appid.Value == id)
 
 		} else {
@@ -45,6 +47,34 @@ func TestReadBinary(t *testing.T) {
 		}
 
 		switch file {
+		case "testdata/app_574720.vdf":
+
+			fmt.Println("Testing " + file)
+
+			var vdf struct {
+				Ufs struct {
+					Rootoverrides map[string]struct {
+						Os             string `json:"os"`
+						Oscompare      string `json:"oscompare"`
+						Pathtransforms map[string]struct {
+							Find    string `json:"find"`
+							Replace string `json:"replace"`
+						} `json:"pathtransforms"`
+						Root       string `json:"root"`
+						Useinstead string `json:"useinstead"`
+					} `json:"rootoverrides"`
+				} `json:"ufs"`
+			}
+
+			err := json.Unmarshal([]byte(kv.String()), &vdf)
+			assert.Assert(t, err == nil, "json.Unmarshal()", "expected to unmarshal config value", "error", err)
+
+			assert.Assert(t, vdf.Ufs.Rootoverrides["0"].Pathtransforms["0"].Find == `Mirage Game Studios\\Little Big Workshop\\saves`, fmt.Sprintf("got `%s`\nerror in kv.String(): %s", vdf.Ufs.Rootoverrides["0"].Pathtransforms["0"].Find, improperlyEscapedQuote))
+			assert.Assert(t, vdf.Ufs.Rootoverrides["0"].Pathtransforms["0"].Replace == `Mirage Game Studios\\Little Big Workshop\\`, fmt.Sprintf("got `%s`\nerror in kv.String(): %s", vdf.Ufs.Rootoverrides["0"].Pathtransforms["0"].Replace, improperlyEscapedQuote))
+
+			assert.Assert(t, vdf.Ufs.Rootoverrides["1"].Pathtransforms["0"].Find == `Mirage Game Studios\\Little Big Workshop\\saves`, fmt.Sprintf("got `%s`\nerror in kv.String(): %s", vdf.Ufs.Rootoverrides["1"].Pathtransforms["0"].Find, improperlyEscapedQuote))
+			assert.Assert(t, vdf.Ufs.Rootoverrides["1"].Pathtransforms["0"].Replace == `unity.Mirage Game Studios.Little Big Workshop\\`, fmt.Sprintf("got `%s`\nerror in kv.String(): %s", vdf.Ufs.Rootoverrides["1"].Pathtransforms["0"].Replace, improperlyEscapedQuote))
+
 		case "testdata/app_600760.vdf":
 
 			fmt.Println("Testing " + file)
@@ -67,7 +97,27 @@ func TestReadBinary(t *testing.T) {
 
 			fmt.Println("Testing " + file)
 
-			assert.Assert(t, strings.Contains(kv.String(), `\\\"`))
+			var vdf struct {
+				Config struct {
+					Launch map[string]struct {
+						Arguments string `json:"arguments"`
+						Config    struct {
+							Oslist string `json:"oslist"`
+						} `json:"config"`
+						Description    string `json:"description"`
+						DescriptionLoc struct {
+							English string `json:"english"`
+						} `json:"description_loc"`
+						Executable string `json:"executable"`
+						Type       string `json:"type"`
+					} `json:"launch"`
+				} `json:"config"`
+			}
+
+			err := json.Unmarshal([]byte(kv.String()), &vdf)
+			assert.Assert(t, err == nil, "json.Unmarshal()", "expected to unmarshal config value", "error", err)
+
+			assert.Assert(t, vdf.Config.Launch["0"].Arguments == `\"Client.exe code:1622 locale:USA env:Regular ver:246 logip:35.162.171.43 logport:11000 chatip:54.214.176.167 chatport:8002 setting:\\\"file://data/features.xml\\\" sn:{tracking_uid} sid:{tracking_sessionid} /P:{passport} -Steam\" --nx:title=Mabinogi --nx:serviceId=880915460`, fmt.Sprintf("got `%s`\nerror in kv.String(): %s", vdf.Config.Launch["0"].Arguments, improperlyEscapedQuote))
 
 		case "testdata/app_10.vdf":
 

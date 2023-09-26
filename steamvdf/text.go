@@ -1,6 +1,7 @@
 package steamvdf
 
 import (
+	"bytes"
 	"errors"
 	"fmt"
 )
@@ -34,19 +35,26 @@ func readText(data []byte) (kv KeyValue, err error) {
 		case '"':
 
 			j := i + 1
+
 			for {
 				if j >= len(data) {
 					return kv, errors.New("EOF")
 				}
-				if data[j] == '"' {
-					if (j > 1 && data[j-1] == '\\' && data[j-2] != '\\') || (j > 2 && data[j-1] == '\\' && data[j-2] == '\\' && data[j-3] == '\\') {
-						j++
-						continue
+
+				if data[j] == '\n' || data[j] == '\r' {
+
+					d := data[j:]
+					d = bytes.TrimSpace(d)
+					if len(d) == 0 || d[0] == '"' || d[0] == '}' {
+						j--
+						break
 					}
-					break
-				} else {
-					j++
 				}
+				if data[j] == '"' && data[j-1] != '\\' {
+					break
+				}
+
+				j++
 			}
 			str := string(data[i+1 : j])
 			tokens = append(tokens, &Token{Type: TokenTypeString, Value: str})
