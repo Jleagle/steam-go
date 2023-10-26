@@ -3,6 +3,7 @@ package steamvdf
 import (
 	"bytes"
 	"encoding/binary"
+	"fmt"
 	"io"
 	"io/ioutil"
 )
@@ -29,6 +30,9 @@ func readBinaryReader(r io.Reader) (kv KeyValue, err error) {
 
 	var d float32
 	err = binary.Read(r, binary.LittleEndian, &d)
+	if err != nil {
+		return kv, fmt.Errorf("binary.Read failed: %w", err)
+	}
 
 	root := KeyValue{}
 	err = readBinary(r, &root, nil)

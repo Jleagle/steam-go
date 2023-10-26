@@ -22,6 +22,8 @@ type Token struct {
 // Thanks to https://github.com/marshauf/keyvalues
 func readText(data []byte) (kv KeyValue, err error) {
 
+	data = bytes.TrimSpace(data)
+
 	if len(data) == 0 {
 		return KeyValue{}, nil
 	}
@@ -36,29 +38,35 @@ func readText(data []byte) (kv KeyValue, err error) {
 
 			j := i + 1
 
-			for {
+			var escaping bool
+
+			for ; ; j++ {
 				if j >= len(data) {
 					return kv, errors.New("EOF")
 				}
 
-				if data[j] == '\n' || data[j] == '\r' {
+				if data[j] == '\\' {
+					escaping = !escaping
 
-					d := data[j:]
-					d = bytes.TrimSpace(d)
-					if len(d) == 0 || d[0] == '"' || d[0] == '}' {
-						j--
-						break
-					}
+					continue
 				}
-				if data[j] == '"' && data[j-1] != '\\' {
+
+				if data[j] == '"' {
+					if escaping {
+						escaping = false
+
+						continue
+					}
+
 					break
 				}
-
-				j++
 			}
+
 			str := string(data[i+1 : j])
+
 			tokens = append(tokens, &Token{Type: TokenTypeString, Value: str})
-			i = j + 1
+
+			i = j
 
 		case ' ', '\t':
 
@@ -81,12 +89,26 @@ func readText(data []byte) (kv KeyValue, err error) {
 
 			break
 
-		default:
-			i--
-			if len(tokens) != 0 {
-				return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\nlast token: %v", string(data[i]), i, line, tokens[len(tokens)-1])
+		case '/', '#':
+
+			for ; i < len(data); i++ {
+
+				if data[i] == '\n' || data[i] == '\r' {
+					line++
+
+					break
+				}
 			}
-			return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\n", string(data[i]), i, line)
+
+		default:
+            
+			i--
+
+			if len(tokens) != 0 {
+				return kv, fmt.Errorf("unhandled char \"%s\" at char %d in line %d\nlast token: %v", string(data[i]), i, line, tokens[len(tokens)-1])
+			}
+
+			return kv, fmt.Errorf("unhandled char \"%s\" at char %d in line %d", string(data[i]), i, line)
 		}
 	}
 

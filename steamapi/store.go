@@ -31,7 +31,7 @@ func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filt
 
 	idx := strconv.FormatUint(uint64(id), 10)
 
-	if resp[idx].Success == false {
+	if !resp[idx].Success {
 		return app, ErrAppNotFound
 	}
 
@@ -49,7 +49,7 @@ func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCo
 	query.Set("appids", strings.Join(stringIDs, ","))
 	query.Set("cc", string(cc))      // Country code (not from enum)
 	query.Set("l", string(language)) // Text language
-	if filters != nil && len(filters) > 0 {
+	if len(filters) > 0 {
 		query.Set("filters", strings.Join(filters, ","))
 	}
 
@@ -279,7 +279,7 @@ func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode
 		return pack, err
 	}
 
-	if resp[idx].Success == false {
+	if !resp[idx].Success{
 		return pack, ErrPackageNotFound
 	}
 
