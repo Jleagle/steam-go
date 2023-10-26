@@ -101,11 +101,14 @@ func readText(data []byte) (kv KeyValue, err error) {
 			}
 
 		default:
+            
 			i--
+
 			if len(tokens) != 0 {
-				return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\nlast token: %v", string(data[i]), i, line, tokens[len(tokens)-1])
+				return kv, fmt.Errorf("unhandled char \"%s\" at char %d in line %d\nlast token: %v", string(data[i]), i, line, tokens[len(tokens)-1])
 			}
-			return kv, fmt.Errorf("Unhandled char \"%s\" at char %d in line %d\n", string(data[i]), i, line)
+
+			return kv, fmt.Errorf("unhandled char \"%s\" at char %d in line %d", string(data[i]), i, line)
 		}
 	}
 
