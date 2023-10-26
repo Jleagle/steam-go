@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"264850"
+	"common"
+	{
+		"name"		"TrackMania² Canyon Demo"
+		"type"		"Demo"
+		"clienticon"		"791a6a31df29349b16549ebc99f70ad038cecfc0"
+		"clienttga"		"9614d2b6cd0569563ea387bc05c906257093db6a"
+		"icon"		"dc4f82a97a187a9fc5625a29345067b9f1aeee38"
+		"logo"		"2d813f2c573bc0521c2fb9b7a27d07c8bc138ff0"
+		"logo_small"		"2d813f2c573bc0521c2fb9b7a27d07c8bc138ff0_thumb"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"dutch"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"romanian"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"releasestate"		"released"
+		"parent"		"228760"
+		"metacritic_name"		"TrackMania² Canyon Demo"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1495208322"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nadeo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+			"schinese"
+			{
+				"supported"		"1"
+			}
+			"russian"
+			{
+				"supported"		"1"
+			}
+			"japanese"
+			{
+				"supported"		"1"
+			}
+			"portuguese"
+			{
+				"supported"		"1"
+			}
+			"polish"
+			{
+				"supported"		"1"
+			}
+			"danish"
+			{
+				"supported"		"1"
+			}
+			"dutch"
+			{
+				"supported"		"1"
+			}
+			"finnish"
+			{
+				"supported"		"1"
+			}
+			"norwegian"
+			{
+				"supported"		"1"
+			}
+			"swedish"
+			{
+				"supported"		"1"
+			}
+			"hungarian"
+			{
+				"supported"		"1"
+			}
+			"czech"
+			{
+				"supported"		"1"
+			}
+			"romanian"
+			{
+				"supported"		"1"
+			}
+			"turkish"
+			{
+				"supported"		"1"
+			}
+			"brazilian"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1383826920"
+		"workshop_visible"		"1"
+		"gameid"		"264850"
+		"review_score"		"8"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"demoofappid"		"228760"
+		"developer"		"Nadeo"
+		"publisher"		"Ubisoft"
+		"homepage"		"https://www.maniaplanet.com/titles/TMCanyon@nadeo"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ManiaPlanet_TMCanyon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ManiaPlanetLauncher.exe"
+				"arguments"		"/silent"
+				"workingdir"		".\\"
+				"description"		"Play"
+				"type"		"none"
+			}
+			"1"
+			{
+				"executable"		"ManiaPlanetLauncher.exe"
+				"description"		"Launcher"
+				"workingdir"		".\\"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228761"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"228760"
+			"sharedinstall"		"2"
+		}
+		"264851"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1040830161155643446"
+					"size"		"163171970"
+					"download"		"94912848"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_dev"
+				{
+					"gid"		"ABE9820B74968588A2615C944FB8BC76"
+					"size"		"01B4A4E68BB0762518355152E86E463C"
+					"download"		"849C7F032538878AF556C6EF8B8AC8C9"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,swedish,hungarian,czech,romanian,turkish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4411998"
+				"timeupdated"		"1574337340"
+			}
+			"private_dev"
+			{
+				"buildid"		"4411998"
+				"pwdrequired"		"1"
+				"timeupdated"		"1574335545"
+			}
+		}
+	}
+}

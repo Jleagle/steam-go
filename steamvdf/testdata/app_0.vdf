@@ -1,0 +1,45 @@
+// THIS IS A TEST VDF THAT MUST SUCCEED
+// Inspired via: https://developer.valvesoftware.com/wiki/KeyValues
+// Creator: https://github.com/Delicious-Bacon
+
+"appinfo"
+{
+	"appid"		"0"
+	"test"
+	{
+		"key"	"val"
+		""   	""
+		"   	"   "\\"
+		"{"   	"}"
+		"\""	"	"
+		"
+		"
+		"\"
+		"
+
+		// Comment
+		/ Comment
+		/* Block comment as line comment */		"ignoredKey"	"ignoredVal"
+
+		"emptyChild"
+		{
+		}
+		"populatedChild"
+		{
+			"key"		"val"
+			"nested"	{
+				"key"	"val"
+			}
+		}
+
+		#include "file path"
+		#base "file path"
+
+		"#base" "panelBase.res"
+
+		"Resource/specificPanel.res"
+		{
+			/* Specify panel-specific controls here */
+		}
+	}
+}

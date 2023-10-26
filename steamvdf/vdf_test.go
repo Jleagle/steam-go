@@ -47,6 +47,17 @@ func TestReadBinary(t *testing.T) {
 		}
 
 		switch file {
+		case "testdata/app_0.vdf":
+			fmt.Println("Testing " + file)
+
+			str := kv.String()
+
+			assert.Assert(t, !strings.Contains(str, "ignoredKey"), "block comment should consume keys and values on its line")
+
+			_, err := json.MarshalIndent(str, "", "    ")
+
+			assert.Assert(t, err == nil, fmt.Sprintf("json.MarshalIndent() failed to marshal kv.String() value: %v", err))
+
 		case "testdata/app_574720.vdf":
 
 			fmt.Println("Testing " + file)
