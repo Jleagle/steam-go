@@ -57,6 +57,7 @@ func TestReadBinary(t *testing.T) {
 			_, err := json.MarshalIndent(str, "", "    ")
 
 			assert.Assert(t, err == nil, fmt.Sprintf("json.MarshalIndent() failed to marshal kv.String() value: %v", err))
+			assert.Assert(t, json.Valid([]byte(str)), fmt.Sprintf("json.Valid() claims it's not a valid JSON:\n%s", str))
 
 		case "testdata/app_574720.vdf":
 
