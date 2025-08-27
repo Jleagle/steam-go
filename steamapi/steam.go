@@ -74,7 +74,7 @@ func (c *Client) SetCommunityRateLimit(duration time.Duration, burst int64) {
 	c.communityBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (c Client) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
+func (c *Client) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
 
 	if c.key == "" && key {
 		return b, ErrMissingKey
@@ -107,7 +107,7 @@ func (c Client) getFromAPI(path string, query url.Values, key bool) (b []byte, e
 	return b, err
 }
 
-func (c Client) getFromStore(path string, query url.Values) (b []byte, err error) {
+func (c *Client) getFromStore(path string, query url.Values) (b []byte, err error) {
 
 	if c.storeBucket != nil {
 		c.storeBucket.Wait(1)
@@ -121,7 +121,7 @@ func (c Client) getFromStore(path string, query url.Values) (b []byte, err error
 	return b, err
 }
 
-func (c Client) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
+func (c *Client) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
 
 	if c.communityBucket != nil {
 		c.communityBucket.Wait(1)
@@ -135,7 +135,7 @@ func (c Client) getFromCommunity(path string, query url.Values) (b []byte, url s
 	return b, url, err
 }
 
-func (c Client) get(path string) (b []byte, code int, url string, err error) {
+func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 
 	client := &http.Client{
 		Timeout: c.timeout,

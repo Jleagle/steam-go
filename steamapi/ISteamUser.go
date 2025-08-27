@@ -13,7 +13,7 @@ import (
 var ErrProfileMissing = errors.New("profile missing")
 var ErrProfilePrivate = errors.New("private profile")
 
-func (c Client) GetFriendList(playerID int64) (friends []Friend, err error) {
+func (c *Client) GetFriendList(playerID int64) (friends []Friend, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -48,14 +48,14 @@ type Friend struct {
 	FriendSince  int64           `json:"friend_since"`
 }
 
-//noinspection GoUnusedConst
+// noinspection GoUnusedConst
 const (
 	VanityURLProfile   = 1
 	VanityURLGroup     = 2
 	VanityURLGameGroup = 3
 )
 
-func (c Client) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, err error) {
+func (c *Client) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, err error) {
 
 	options := url.Values{}
 	options.Set("vanityurl", vanityURL)
@@ -90,7 +90,7 @@ type VanityURL struct {
 	Message string          `json:"message"`
 }
 
-func (c Client) GetPlayer(playerID int64) (player PlayerSummary, err error) {
+func (c *Client) GetPlayer(playerID int64) (player PlayerSummary, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
@@ -142,7 +142,7 @@ type PlayerSummary struct {
 	CityID                   int             `json:"loccityid"`
 }
 
-func (c Client) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, err error) {
+func (c *Client) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
@@ -180,7 +180,7 @@ type GetPlayerBanResponse struct {
 	EconomyBan       string          `json:"EconomyBan"`
 }
 
-func (c Client) GetUserGroupList(playerID int64) (groups UserGroupList, err error) {
+func (c *Client) GetUserGroupList(playerID int64) (groups UserGroupList, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))

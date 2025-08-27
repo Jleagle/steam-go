@@ -9,7 +9,7 @@ import (
 )
 
 // Gets information about a player's recently played games
-func (c Client) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, err error) {
+func (c *Client) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -51,7 +51,7 @@ type RecentlyPlayedGame struct {
 }
 
 // Return a list of games owned by the player
-func (c Client) GetOwnedGames(playerID int64) (games OwnedGames, err error) {
+func (c *Client) GetOwnedGames(playerID int64) (games OwnedGames, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -92,7 +92,7 @@ type OwnedGames struct {
 }
 
 // Returns the Steam Level of a user
-func (c Client) GetSteamLevel(playerID int64) (level int, err error) {
+func (c *Client) GetSteamLevel(playerID int64) (level int, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
@@ -118,7 +118,7 @@ type LevelResponse struct {
 }
 
 // Gets badges that are owned by a specific user
-func (c Client) GetBadges(playerID int64) (badges BadgesInfo, err error) {
+func (c *Client) GetBadges(playerID int64) (badges BadgesInfo, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))

@@ -12,7 +12,7 @@ import (
 
 var ErrInvalidDigest = errors.New("invalid digest")
 
-func (c Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, err error) {
+func (c *Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, err error) {
 
 	if digest == "" {
 		return archives, ErrInvalidDigest

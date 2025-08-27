@@ -8,7 +8,7 @@ import (
 	"github.com/Jleagle/unmarshal-go"
 )
 
-func (c Client) GetNews(appID int, limit int) (articles News, err error) {
+func (c *Client) GetNews(appID int, limit int) (articles News, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))

@@ -18,7 +18,7 @@ var (
 	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
 )
 
-func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
+func (c *Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
 
 	if id == 0 {
 		return app, ErrAppNotFound // App 0 does exist but the API does not return it
@@ -38,7 +38,7 @@ func (c Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filt
 	return resp[idx], nil
 }
 
-func (c Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
+func (c *Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -244,7 +244,7 @@ func (c AppDetailsCategory) Names() (names []string) {
 	return names
 }
 
-func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
+func (c *Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
 
 	if id == 0 {
 		return pack, ErrPackageNotFound // Package 0 does exist but the API does not return it
@@ -279,7 +279,7 @@ func (c Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode
 		return pack, err
 	}
 
-	if !resp[idx].Success{
+	if !resp[idx].Success {
 		return pack, ErrPackageNotFound
 	}
 
@@ -317,7 +317,7 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func (c Client) GetTags() (tags Tags, err error) {
+func (c *Client) GetTags() (tags Tags, err error) {
 
 	b, err := c.getFromStore("tagdata/populartags/english", url.Values{})
 	if err != nil {
@@ -359,7 +359,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (c Client) GetReviews(appID int, language LanguageCode) (reviews ReviewsResponse, err error) {
+func (c *Client) GetReviews(appID int, language LanguageCode) (reviews ReviewsResponse, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -430,7 +430,7 @@ func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (c Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
+func (c *Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
 
 	query := url.Values{}
 	query.Set("p", "0")

@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (c Client) GetItemDefMeta(appID int) (meta ItemDefMeta, err error) {
+func (c *Client) GetItemDefMeta(appID int) (meta ItemDefMeta, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))

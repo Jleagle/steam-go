@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func (c Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, err error) {
+func (c *Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")

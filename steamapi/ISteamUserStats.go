@@ -9,7 +9,7 @@ import (
 )
 
 // Retrieves the global achievement percentages for the specified app.
-func (c Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, err error) {
+func (c *Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, err error) {
 
 	options := url.Values{}
 	options.Set("gameid", strconv.Itoa(appID))
@@ -50,7 +50,7 @@ type GlobalAchievementAchievement struct {
 }
 
 // Gets the total number of players currently active in the specified app on Steam.
-func (c Client) GetNumberOfCurrentPlayers(appID int) (players int, err error) {
+func (c *Client) GetNumberOfCurrentPlayers(appID int) (players int, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
@@ -77,7 +77,7 @@ type NumberOfCurrentPlayersResponse struct {
 }
 
 // Gets the complete list of stats and achievements for the specified game.
-func (c Client) GetSchemaForGame(appID int) (schema SchemaForGame, err error) {
+func (c *Client) GetSchemaForGame(appID int) (schema SchemaForGame, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
@@ -126,7 +126,7 @@ type SchemaForGameStat struct {
 	DisplayName  string `json:"displayName"`
 }
 
-func (c Client) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, err error) {
+func (c *Client) GetPlayerAchievements(playerID uint64, appID uint32) (schema PlayerAchievementsResponse, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatUint(playerID, 10))

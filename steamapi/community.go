@@ -11,7 +11,7 @@ import (
 	"github.com/Jleagle/unmarshal-go"
 )
 
-func (c Client) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
+func (c *Client) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
 
 	b, err = c.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
 	if err != nil {
@@ -90,7 +90,7 @@ type MarketSearchPayload struct {
 	Offset               int
 }
 
-func (c Client) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
+func (c *Client) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
 
 	vals := url.Values{}
 	if payload.FriendlyDescriptions {
@@ -186,7 +186,7 @@ type PriceOverview struct {
 var ErrRateLimited = errors.New("rate limited")
 
 // Rate limited to once per minute
-func (c Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
+func (c *Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("p", strconv.Itoa(page))
@@ -251,7 +251,7 @@ type GroupInfo struct {
 	} `xml:"members"`
 }
 
-func (c Client) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
+func (c *Client) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("count", strconv.Itoa(limit))
@@ -285,7 +285,7 @@ type Comments struct {
 	TimeLastPost int64         `json:"timelastpost"`
 }
 
-func (c Client) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
+func (c *Client) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
 
 	b, _, err = c.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
 	if err != nil {
