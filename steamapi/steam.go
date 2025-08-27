@@ -155,7 +155,7 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 
 	defer func(response *http.Response) {
 		err = response.Body.Close()
-		if err != nil {
+		if err != nil && c.logger != nil {
 			c.logger.Err(err)
 		}
 	}(response)
@@ -171,7 +171,9 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 	code = response.StatusCode
 	url = response.Request.URL.Path
 
-	c.logger.Info(path)
+	if c.logger != nil {
+		c.logger.Info(path)
+	}
 
 	return b, code, url, err
 }
