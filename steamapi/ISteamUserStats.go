@@ -8,7 +8,7 @@ import (
 	"github.com/Jleagle/unmarshal-go"
 )
 
-// Retrieves the global achievement percentages for the specified app.
+// GetGlobalAchievementPercentagesForApp retrieves the global achievement percentages for the specified app.
 func (c *Client) GetGlobalAchievementPercentagesForApp(appID int) (percentages GlobalAchievementPercentages, err error) {
 
 	options := url.Values{}
@@ -49,7 +49,7 @@ type GlobalAchievementAchievement struct {
 	Percent float64 `json:"percent"`
 }
 
-// Gets the total number of players currently active in the specified app on Steam.
+// GetNumberOfCurrentPlayers gets the total number of players currently active in the specified app on Steam.
 func (c *Client) GetNumberOfCurrentPlayers(appID int) (players int, err error) {
 
 	options := url.Values{}
@@ -76,8 +76,8 @@ type NumberOfCurrentPlayersResponse struct {
 	} `json:"response"`
 }
 
-// Gets the complete list of stats and achievements for the specified game.
-func (c *Client) GetSchemaForGame(appID int) (schema SchemaForGame, err error) {
+// GetSchemaForGame gets the complete list of stats and achievements for the specified game.
+func (c *Client) GetSchemaForGame(appID int, language LanguageCode) (schema SchemaForGame, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
