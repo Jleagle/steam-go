@@ -5,12 +5,12 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-	"io/ioutil"
+	"os"
 )
 
 func ReadFile(path string) (kv KeyValue, err error) {
 
-	b, err := ioutil.ReadFile(path)
+	b, err := os.ReadFile(path)
 	if err != nil {
 		return kv, err
 	}

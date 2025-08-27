@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -160,7 +160,7 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 		}
 	}(response)
 
-	b, err = ioutil.ReadAll(response.Body)
+	b, err = io.ReadAll(response.Body)
 	if err != nil {
 		return b, code, url, err
 	}
