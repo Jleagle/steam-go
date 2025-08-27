@@ -81,7 +81,7 @@ func (c *Client) GetSchemaForGame(appID int, language LanguageCode) (schema Sche
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
-	options.Set("l", "english")
+	options.Set("l", string(language))
 
 	b, err := c.getFromAPI("ISteamUserStats/GetSchemaForGame/v2", options, true)
 	if err != nil {
