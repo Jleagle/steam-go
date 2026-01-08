@@ -87,7 +87,7 @@ func readText(data []byte) (kv KeyValue, err error) {
 
 		case byte(0):
 
-			break
+			// Nothing
 
 		case '/', '#':
 
@@ -101,7 +101,7 @@ func readText(data []byte) (kv KeyValue, err error) {
 			}
 
 		default:
-            
+
 			i--
 
 			if len(tokens) != 0 {

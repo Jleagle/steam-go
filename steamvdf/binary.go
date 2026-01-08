@@ -50,34 +50,44 @@ func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 
 			var child = KeyValue{}
 			err = readBinary(r, &child, current)
-			if err == nil {
-				break
+			if err != nil {
+				return err
 			}
 
 		case TypeString:
 
 			current.Value, err = readString(r)
+			if err != nil {
+				return err
+			}
 
 		case TypeColor:
 
 			var d color.NRGBA
 			err = binary.Read(r, binary.LittleEndian, &d)
+			if err != nil {
+				return err
+			}
 
 		case TypeInt32, TypePointer:
 
 			var d int32
 			err := binary.Read(r, binary.LittleEndian, &d)
-			if err == nil {
-				current.Value = strconv.Itoa(int(d))
+			if err != nil {
+				return err
 			}
+
+			current.Value = strconv.Itoa(int(d))
 
 		case TypeFloat32:
 
 			var d float32
 			err := binary.Read(r, binary.LittleEndian, &d)
-			if err == nil {
-				current.Value = strconv.FormatFloat(float64(d), 'f', -1, 32)
+			if err != nil {
+				return err
 			}
+
+			current.Value = strconv.FormatFloat(float64(d), 'f', -1, 32)
 
 		case TypeWideString:
 
@@ -87,26 +97,28 @@ func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
 
 			var d uint64
 			err := binary.Read(r, binary.LittleEndian, &d)
-			if err == nil {
-				current.Value = strconv.FormatUint(d, 10)
+			if err != nil {
+				return err
 			}
+
+			current.Value = strconv.FormatUint(d, 10)
 
 		case TypeInt64:
 
 			var d int64
 			err := binary.Read(r, binary.LittleEndian, &d)
-			if err == nil {
-				current.Value = strconv.FormatInt(d, 10)
+			if err != nil {
+				return err
 			}
+
+			current.Value = strconv.FormatInt(d, 10)
 
 		default:
 
 			err = fmt.Errorf("vdf: unknown pack type %d", b)
-
-		}
-
-		if err != nil {
-			return err
+			if err != nil {
+				return err
+			}
 		}
 
 		if parent != nil {
