@@ -430,68 +430,68 @@ func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
 
-func (c *Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
-
-	query := url.Values{}
-	query.Set("p", "0")
-
-	b, err := c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
-	if err != nil {
-		return wishlist, err
-	}
-
-	// No items
-	if strings.TrimSpace(string(b)) == "[]" {
-		return wishlist, err
-	}
-
-	// Check for fail response
-	failResp := WishlistFail{}
-	err = json.Unmarshal(b, &failResp)
-	if err == nil && failResp.Success > 0 {
-		return wishlist, ErrWishlistNotFound
-	}
-
-	// Unmarshal JSON
-	err = json.Unmarshal(b, &wishlist.Items)
-	return wishlist, err
-}
-
-type WishlistFail struct {
-	Success int `json:"success"`
-}
-
-type Wishlist struct {
-	Items map[unmarshal.Int]WishlistItem
-}
-
-type WishlistItem struct {
-	Name           string          `json:"name"`
-	Capsule        string          `json:"capsule"`
-	ReviewScore    int             `json:"review_score"`
-	ReviewDesc     string          `json:"review_desc"`
-	ReviewsTotal   string          `json:"reviews_total"`
-	ReviewsPercent int             `json:"reviews_percent"`
-	ReleaseDate    unmarshal.Int64 `json:"release_date"`
-	ReleaseString  string          `json:"release_string"`
-	PlatformIcons  string          `json:"platform_icons"`
-	Subs           []struct {
-		ID            int           `json:"id"`
-		DiscountBlock string        `json:"discount_block"`
-		DiscountPct   int           `json:"discount_pct"`
-		Price         unmarshal.Int `json:"price"`
-	} `json:"subs"`
-	Type        string         `json:"type"`
-	Screenshots []string       `json:"screenshots"`
-	ReviewCSS   string         `json:"review_css"`
-	Priority    int            `json:"priority"`
-	Added       int            `json:"added"`
-	Background  string         `json:"background"`
-	Rank        unmarshal.Int  `json:"rank"`
-	Tags        []string       `json:"tags"`
-	EarlyAccess int            `json:"early_access"`
-	IsFreeGame  bool           `json:"is_free_game"`
-	Win         unmarshal.Bool `json:"win"`
-	Mac         unmarshal.Bool `json:"mac"`
-	Linux       unmarshal.Bool `json:"linux"`
-}
+//func (c *Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
+//
+//	query := url.Values{}
+//	query.Set("p", "0")
+//
+//	b, err := c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
+//	if err != nil {
+//		return wishlist, err
+//	}
+//
+//	// No items
+//	if strings.TrimSpace(string(b)) == "[]" {
+//		return wishlist, err
+//	}
+//
+//	// Check for fail response
+//	failResp := WishlistFail{}
+//	err = json.Unmarshal(b, &failResp)
+//	if err == nil && failResp.Success > 0 {
+//		return wishlist, ErrWishlistNotFound
+//	}
+//
+//	// Unmarshal JSON
+//	err = json.Unmarshal(b, &wishlist.Items)
+//	return wishlist, err
+//}
+//
+//type WishlistFail struct {
+//	Success int `json:"success"`
+//}
+//
+//type Wishlist struct {
+//	Items map[unmarshal.Int]WishlistItem
+//}
+//
+//type WishlistItem struct {
+//	Name           string          `json:"name"`
+//	Capsule        string          `json:"capsule"`
+//	ReviewScore    int             `json:"review_score"`
+//	ReviewDesc     string          `json:"review_desc"`
+//	ReviewsTotal   string          `json:"reviews_total"`
+//	ReviewsPercent int             `json:"reviews_percent"`
+//	ReleaseDate    unmarshal.Int64 `json:"release_date"`
+//	ReleaseString  string          `json:"release_string"`
+//	PlatformIcons  string          `json:"platform_icons"`
+//	Subs           []struct {
+//		ID            int           `json:"id"`
+//		DiscountBlock string        `json:"discount_block"`
+//		DiscountPct   int           `json:"discount_pct"`
+//		Price         unmarshal.Int `json:"price"`
+//	} `json:"subs"`
+//	Type        string         `json:"type"`
+//	Screenshots []string       `json:"screenshots"`
+//	ReviewCSS   string         `json:"review_css"`
+//	Priority    int            `json:"priority"`
+//	Added       int            `json:"added"`
+//	Background  string         `json:"background"`
+//	Rank        unmarshal.Int  `json:"rank"`
+//	Tags        []string       `json:"tags"`
+//	EarlyAccess int            `json:"early_access"`
+//	IsFreeGame  bool           `json:"is_free_game"`
+//	Win         unmarshal.Bool `json:"win"`
+//	Mac         unmarshal.Bool `json:"mac"`
+//	Linux       unmarshal.Bool `json:"linux"`
+//}

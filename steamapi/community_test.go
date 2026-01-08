@@ -4,16 +4,6 @@ import (
 	"testing"
 )
 
-func TestWishlist(t *testing.T) {
-
-	c := NewClient()
-
-	_, err := c.GetWishlist(76561198004579722)
-	if err != nil {
-		t.Error(err)
-	}
-}
-
 func TestPlayers(t *testing.T) {
 
 	c := NewClient()
