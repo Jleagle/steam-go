@@ -398,7 +398,7 @@ type ReviewsResponse struct {
 		TotalReviews    int     `json:"total_reviews"`
 	} `json:"query_summary"`
 	Reviews []struct {
-		Recommendationid string `json:"recommendationid"`
+		RecommendationID string `json:"recommendationid"`
 		Author           struct {
 			SteamID              unmarshal.Int64 `json:"steamid"`
 			NumGamesOwned        int             `json:"num_games_owned"`
