@@ -168,12 +168,20 @@ type MarketSearch struct {
 	} `json:"results"`
 }
 
-func GetPriceOverview() (resp PriceOverview, b []byte, err error) {
+func (c *Client) GetPriceOverview(ctx context.Context, appID int, currency int, marketHashName string) (resp PriceOverview, b []byte, err error) {
 
-	// http://steamcommunity.com/market/priceoverview/?appid=730&currency=3&market_hash_name=StatTrak%E2%84%A2 M4A1-S | Hyper Beast (Minimal Wear)
+	vals := url.Values{}
+	vals.Set("appid", strconv.Itoa(appID))
+	vals.Set("currency", strconv.Itoa(currency))
+	vals.Set("market_hash_name", marketHashName)
 
+	b, _, err = c.getFromCommunity(ctx, "market/priceoverview/", vals)
+	if err != nil {
+		return resp, b, err
+	}
+
+	err = json.Unmarshal(b, &resp)
 	return resp, b, err
-
 }
 
 type PriceOverview struct {
