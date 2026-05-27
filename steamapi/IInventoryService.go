@@ -1,17 +1,18 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 	"strconv"
 )
 
-func (c *Client) GetItemDefMeta(appID int) (meta ItemDefMeta, err error) {
+func (c *Client) GetItemDefMeta(ctx context.Context, appID int) (meta ItemDefMeta, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 
-	b, err := c.getFromAPI("IInventoryService/GetItemDefMeta/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IInventoryService/GetItemDefMeta/v1", options, true)
 	if err != nil {
 		return meta, err
 	}

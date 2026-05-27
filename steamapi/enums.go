@@ -17,7 +17,11 @@ func (lc LanguageCode) Title() string {
 	case LanguageSpanishLatinAmerica:
 		return "Spanish (Latin America)"
 	default:
-		return strings.Title(string(lc))
+		s := string(lc)
+		if len(s) == 0 {
+			return s
+		}
+		return strings.ToUpper(s[:1]) + s[1:]
 	}
 }
 

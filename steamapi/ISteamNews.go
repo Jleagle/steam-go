@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 	"strconv"
@@ -8,14 +9,14 @@ import (
 	"github.com/Jleagle/unmarshal-go"
 )
 
-func (c *Client) GetNews(appID int, limit int) (articles News, err error) {
+func (c *Client) GetNews(ctx context.Context, appID int, limit int) (articles News, err error) {
 
 	options := url.Values{}
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("count", strconv.Itoa(limit))
 	options.Set("maxlength", "0")
 
-	b, err := c.getFromAPI("ISteamNews/GetNewsForApp/v2", options, false)
+	b, err := c.getFromAPI(ctx, "ISteamNews/GetNewsForApp/v2", options, false)
 	if err != nil {
 		return articles, err
 	}

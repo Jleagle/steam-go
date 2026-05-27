@@ -1,18 +1,19 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 	"strconv"
 )
 
-func (c *Client) GetTeamInfoByTeamID(teamID string) (team TeamSummary, err error) {
+func (c *Client) GetTeamInfoByTeamID(ctx context.Context, teamID string) (team TeamSummary, err error) {
 
 	options := url.Values{}
 	options.Set("start_at_team_id", teamID)
 	options.Set("teams_requested", strconv.Itoa(1))
 
-	b, err := c.getFromAPI("IDOTA2Match_570/GetTeamInfoByTeamID/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IDOTA2Match_570/GetTeamInfoByTeamID/v1", options, true)
 	if err != nil {
 		return team, err
 	}
@@ -44,14 +45,14 @@ type TeamSummary struct {
 	Abbreviation     string `json:"abbreviation"`
 	TimeCreated      int    `json:"time_created"`
 	CountryCode      string `json:"country_code"`
-	Url              string `json:"url"`
+	URL              string `json:"url"`
 	GamesPlayed      int    `json:"games_played"`
-	Player0AccountId int    `json:"player_0_account_id,omitempty"`
-	Player1AccountId int    `json:"player_1_account_id,omitempty"`
-	Player2AccountId int    `json:"player_2_account_id,omitempty"`
-	Player3AccountId int    `json:"player_3_account_id,omitempty"`
-	Player4AccountId int    `json:"player_4_account_id,omitempty"`
-	Player5AccountId int    `json:"player_5_account_id,omitempty"`
-	Player6AccountId int    `json:"player_6_account_id,omitempty"`
-	AdminAccountId   int    `json:"admin_account_id"`
+	Player0AccountID int    `json:"player_0_account_id,omitempty"`
+	Player1AccountID int    `json:"player_1_account_id,omitempty"`
+	Player2AccountID int    `json:"player_2_account_id,omitempty"`
+	Player3AccountID int    `json:"player_3_account_id,omitempty"`
+	Player4AccountID int    `json:"player_4_account_id,omitempty"`
+	Player5AccountID int    `json:"player_5_account_id,omitempty"`
+	Player6AccountID int    `json:"player_6_account_id,omitempty"`
+	AdminAccountID   int    `json:"admin_account_id"`
 }

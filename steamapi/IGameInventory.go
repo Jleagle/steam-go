@@ -2,6 +2,7 @@ package steamapi
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"errors"
 	"net/url"
@@ -12,7 +13,7 @@ import (
 
 var ErrInvalidDigest = errors.New("invalid digest")
 
-func (c *Client) GetItemDefArchive(appID int, digest string) (archives []ItemDefArchive, err error) {
+func (c *Client) GetItemDefArchive(ctx context.Context, appID int, digest string) (archives []ItemDefArchive, err error) {
 
 	if digest == "" {
 		return archives, ErrInvalidDigest
@@ -22,7 +23,7 @@ func (c *Client) GetItemDefArchive(appID int, digest string) (archives []ItemDef
 	options.Set("appid", strconv.Itoa(appID))
 	options.Set("digest", digest)
 
-	b, err := c.getFromAPI("IGameInventory/GetItemDefArchive/v1", options, false)
+	b, err := c.getFromAPI(ctx, "IGameInventory/GetItemDefArchive/v1", options, false)
 	if err != nil {
 		return archives, err
 	}

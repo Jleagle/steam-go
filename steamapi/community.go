@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"encoding/xml"
 	"errors"
@@ -11,9 +12,9 @@ import (
 	"github.com/Jleagle/unmarshal-go"
 )
 
-func (c *Client) GetInventory(playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
+func (c *Client) GetInventory(ctx context.Context, playerID int64, appID int) (resp CommunityInventory, b []byte, err error) {
 
-	b, err = c.getFromStore("profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
+	b, err = c.getFromStore(ctx, "profiles/"+strconv.FormatInt(playerID, 10)+"/inventory/json/"+strconv.Itoa(appID)+"/2", url.Values{})
 	if err != nil {
 		return resp, b, err
 	}
@@ -90,7 +91,7 @@ type MarketSearchPayload struct {
 	Offset               int
 }
 
-func (c *Client) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
+func (c *Client) GetMarketSearch(ctx context.Context, payload MarketSearchPayload) (resp MarketSearch, b []byte, err error) {
 
 	vals := url.Values{}
 	if payload.FriendlyDescriptions {
@@ -115,7 +116,7 @@ func (c *Client) GetMarketSearch(payload MarketSearchPayload) (resp MarketSearch
 	vals.Set("start", strconv.Itoa(payload.Offset))
 	vals.Set("norender", "1")
 
-	b, err = c.getFromStore("market/search/render", vals)
+	b, err = c.getFromStore(ctx, "market/search/render", vals)
 	if err != nil {
 		return resp, b, err
 	}
@@ -194,7 +195,7 @@ type PriceOverview struct {
 var ErrRateLimited = errors.New("rate limited")
 
 // Rate limited to once per minute
-func (c *Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
+func (c *Client) GetGroup(ctx context.Context, id string, vanityURL string, page int) (resp GroupInfo, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("p", strconv.Itoa(page))
@@ -202,9 +203,9 @@ func (c *Client) GetGroup(id string, vanityURL string, page int) (resp GroupInfo
 
 	var urlx string
 	if id != "" {
-		b, urlx, err = c.getFromCommunity("gid/"+id+"/memberslistxml", vals)
+		b, urlx, err = c.getFromCommunity(ctx, "gid/"+id+"/memberslistxml", vals)
 	} else if vanityURL != "" {
-		b, urlx, err = c.getFromCommunity("groups/"+vanityURL+"/memberslistxml", vals)
+		b, urlx, err = c.getFromCommunity(ctx, "groups/"+vanityURL+"/memberslistxml", vals)
 	} else {
 		return resp, b, errors.New("missing id/vanity")
 	}
@@ -259,7 +260,7 @@ type GroupInfo struct {
 	} `xml:"members"`
 }
 
-func (c *Client) GetComments(playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
+func (c *Client) GetComments(ctx context.Context, playerID int64, limit int, offset int) (resp Comments, b []byte, err error) {
 
 	vals := url.Values{}
 	vals.Set("count", strconv.Itoa(limit))
@@ -267,7 +268,7 @@ func (c *Client) GetComments(playerID int64, limit int, offset int) (resp Commen
 		vals.Set("start", strconv.Itoa(offset))
 	}
 
-	b, _, err = c.getFromCommunity("comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
+	b, _, err = c.getFromCommunity(ctx, "comment/Profile/render/"+strconv.FormatInt(playerID, 10), vals)
 	if err != nil {
 		return resp, b, err
 	}
@@ -293,9 +294,9 @@ type Comments struct {
 	TimeLastPost int64         `json:"timelastpost"`
 }
 
-func (c *Client) GetAliases(playerID int64) (resp []Alias, b []byte, err error) {
+func (c *Client) GetAliases(ctx context.Context, playerID int64) (resp []Alias, b []byte, err error) {
 
-	b, _, err = c.getFromCommunity("profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
+	b, _, err = c.getFromCommunity(ctx, "profiles/"+strconv.FormatInt(playerID, 10)+"/ajaxaliases", nil)
 	if err != nil {
 		return resp, b, err
 	}

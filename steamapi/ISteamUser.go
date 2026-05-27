@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"net/url"
@@ -13,18 +14,18 @@ import (
 var ErrProfileMissing = errors.New("profile missing")
 var ErrProfilePrivate = errors.New("private profile")
 
-func (c *Client) GetFriendList(playerID int64) (friends []Friend, err error) {
+func (c *Client) GetFriendList(ctx context.Context, playerID int64) (friends []Friend, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("relationship", "friend")
 
-	b, err := c.getFromAPI("ISteamUser/GetFriendList/v1", options, true)
+	b, err := c.getFromAPI(ctx, "ISteamUser/GetFriendList/v1", options, true)
 	if err != nil {
 		return friends, err
 	}
 
-	// Unmarhsal
+	// Unmarshal
 	var resp FriendListResponse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
@@ -55,13 +56,13 @@ const (
 	VanityURLGameGroup = 3
 )
 
-func (c *Client) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL, err error) {
+func (c *Client) ResolveVanityURL(ctx context.Context, vanityURL string, urlType int) (info VanityURL, err error) {
 
 	options := url.Values{}
 	options.Set("vanityurl", vanityURL)
 	options.Set("url_type", strconv.Itoa(urlType))
 
-	b, err := c.getFromAPI("ISteamUser/ResolveVanityURL/v1", options, true)
+	b, err := c.getFromAPI(ctx, "ISteamUser/ResolveVanityURL/v1", options, true)
 	if err != nil {
 		return info, err
 	}
@@ -90,12 +91,12 @@ type VanityURL struct {
 	Message string          `json:"message"`
 }
 
-func (c *Client) GetPlayer(playerID int64) (player PlayerSummary, err error) {
+func (c *Client) GetPlayer(ctx context.Context, playerID int64) (player PlayerSummary, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
-	b, err := c.getFromAPI("ISteamUser/GetPlayerSummaries/v2", options, true)
+	b, err := c.getFromAPI(ctx, "ISteamUser/GetPlayerSummaries/v2", options, true)
 	if err != nil {
 		return player, err
 	}
@@ -142,12 +143,12 @@ type PlayerSummary struct {
 	CityID                   int             `json:"loccityid"`
 }
 
-func (c *Client) GetPlayerBans(playerID int64) (bans GetPlayerBanResponse, err error) {
+func (c *Client) GetPlayerBans(ctx context.Context, playerID int64) (bans GetPlayerBanResponse, err error) {
 
 	options := url.Values{}
 	options.Set("steamids", strconv.FormatInt(playerID, 10))
 
-	b, err := c.getFromAPI("ISteamUser/GetPlayerBans/v1", options, true)
+	b, err := c.getFromAPI(ctx, "ISteamUser/GetPlayerBans/v1", options, true)
 	if err != nil {
 		return bans, err
 	}
@@ -180,12 +181,12 @@ type GetPlayerBanResponse struct {
 	EconomyBan       string          `json:"EconomyBan"`
 }
 
-func (c *Client) GetUserGroupList(playerID int64) (groups UserGroupList, err error) {
+func (c *Client) GetUserGroupList(ctx context.Context, playerID int64) (groups UserGroupList, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	b, err := c.getFromAPI("ISteamUser/GetUserGroupList/v1", options, true)
+	b, err := c.getFromAPI(ctx, "ISteamUser/GetUserGroupList/v1", options, true)
 	// err checked below
 
 	var resp UserGroupListResponse

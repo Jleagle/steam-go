@@ -1,16 +1,25 @@
+// Package steamapi provides a client for the Steam Web API and Store API.
 package steamapi
 
 import (
 	"bytes"
+	"context"
 	"errors"
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"net/url"
 	"strconv"
 	"time"
 
 	"github.com/juju/ratelimit"
+)
+
+const (
+	defaultAPIBaseURL       = "https://api.steampowered.com/"
+	defaultStoreBaseURL     = "https://store.steampowered.com/"
+	defaultCommunityBaseURL = "https://steamcommunity.com/"
 )
 
 var (
@@ -29,39 +38,88 @@ var (
 	}
 )
 
-func NewClient() *Client {
-	c := &Client{}
-	c.SetLogger(DefaultLogger{})
-	c.SetUserAgent("github.com/Jleagle/steam-go")
-	c.SetClient(http.DefaultClient)
+// Option is a functional option for configuring the Client.
+type Option func(*Client)
+
+// WithKey sets the Steam Web API key.
+func WithKey(key string) Option {
+	return func(c *Client) {
+		c.key = key
+	}
+}
+
+// WithHTTPClient sets a custom http.Client.
+func WithHTTPClient(client *http.Client) Option {
+	return func(c *Client) {
+		c.client = client
+	}
+}
+
+// WithLogger sets a custom slog.Logger.
+func WithLogger(logger *slog.Logger) Option {
+	return func(c *Client) {
+		c.logger = logger
+	}
+}
+
+// WithUserAgent sets a custom User-Agent header for requests.
+func WithUserAgent(userAgent string) Option {
+	return func(c *Client) {
+		c.userAgent = userAgent
+	}
+}
+
+// WithAPIBaseURL overrides the default Steam Web API base URL.
+func WithAPIBaseURL(url string) Option {
+	return func(c *Client) {
+		c.apiBaseURL = url
+	}
+}
+
+// WithStoreBaseURL overrides the default Steam Store API base URL.
+func WithStoreBaseURL(url string) Option {
+	return func(c *Client) {
+		c.storeBaseURL = url
+	}
+}
+
+// WithCommunityBaseURL overrides the default Steam Community base URL.
+func WithCommunityBaseURL(url string) Option {
+	return func(c *Client) {
+		c.communityBaseURL = url
+	}
+}
+
+// NewClient creates a new Steam API client with the given options.
+func NewClient(opts ...Option) *Client {
+	c := &Client{
+		userAgent:        "github.com/Jleagle/steam-go",
+		client:           http.DefaultClient,
+		logger:           slog.New(slog.NewTextHandler(io.Discard, nil)),
+		apiBaseURL:       defaultAPIBaseURL,
+		storeBaseURL:     defaultStoreBaseURL,
+		communityBaseURL: defaultCommunityBaseURL,
+	}
+
+	for _, opt := range opts {
+		opt(c)
+	}
+
 	return c
 }
 
 // Client is a Steam API client.
 type Client struct {
-	key             string
-	userAgent       string
-	logger          logger
-	client          *http.Client
-	apiBucket       *ratelimit.Bucket
-	storeBucket     *ratelimit.Bucket
-	communityBucket *ratelimit.Bucket
-}
-
-func (c *Client) SetKey(key string) {
-	c.key = key
-}
-
-func (c *Client) SetClient(client *http.Client) {
-	c.client = client
-}
-
-func (c *Client) SetLogger(logger logger) {
-	c.logger = logger
-}
-
-func (c *Client) SetUserAgent(userAgent string) {
-	c.userAgent = userAgent
+	key              string
+	userAgent        string
+	logger           *slog.Logger
+	client           *http.Client
+	apiBucket        *ratelimit.Bucket
+	storeBucket      *ratelimit.Bucket
+	communityBucket  *ratelimit.Bucket
+	apiBaseURL       string
+	storeBaseURL     string
+	communityBaseURL string
 }
 
 // SetAPIRateLimit sets the rate limit for Steam Web API requests.
@@ -79,7 +137,7 @@ func (c *Client) SetCommunityRateLimit(duration time.Duration, burst int64) {
 	c.communityBucket = ratelimit.NewBucket(duration, burst)
 }
 
-func (c *Client) getFromAPI(path string, query url.Values, key bool) (b []byte, err error) {
+func (c *Client) getFromAPI(ctx context.Context, path string, query url.Values, key bool) (b []byte, err error) {
 
 	if c.key == "" && key {
 		return b, ErrMissingKey
@@ -95,38 +153,37 @@ func (c *Client) getFromAPI(path string, query url.Values, key bool) (b []byte, 
 		query.Set("key", c.key)
 	}
 
-	b, code, _, err := c.get("https://api.steampowered.com/" + path + "?" + query.Encode())
+	b, code, _, err := c.get(ctx, c.apiBaseURL+path+"?"+query.Encode())
 	if err != nil {
-		return b, err
+		return b, fmt.Errorf("api request failed: %w", err)
 	}
 
 	// Handle errors
 	if code != 200 {
 		if val, ok := apiStatusCodes[code]; ok {
 			return b, Error{Err: val, Code: code, URL: path}
-		} else {
-			return b, Error{Err: "something went wrong", Code: 0, URL: path}
 		}
+		return b, Error{Err: "something went wrong", Code: code, URL: path}
 	}
 
 	return b, err
 }
 
-func (c *Client) getFromStore(path string, query url.Values) (b []byte, err error) {
+func (c *Client) getFromStore(ctx context.Context, path string, query url.Values) (b []byte, err error) {
 
 	if c.storeBucket != nil {
 		c.storeBucket.Wait(1)
 	}
 
-	b, _, _, err = c.get("https://store.steampowered.com/" + path + "?" + query.Encode())
+	b, _, _, err = c.get(ctx, c.storeBaseURL+path+"?"+query.Encode())
 	if err != nil {
-		return b, err
+		return b, fmt.Errorf("store request failed: %w", err)
 	}
 
 	return b, err
 }
 
-func (c *Client) getFromCommunity(path string, query url.Values) (b []byte, url string, err error) {
+func (c *Client) getFromCommunity(ctx context.Context, path string, query url.Values) (b []byte, url string, err error) {
 
 	if c.communityBucket != nil {
 		c.communityBucket.Wait(1)
@@ -136,13 +193,17 @@ func (c *Client) getFromCommunity(path string, query url.Values) (b []byte, url 
 		path += "?" + query.Encode()
 	}
 
-	b, _, url, err = c.get("https://steamcommunity.com/" + path)
+	b, _, url, err = c.get(ctx, c.communityBaseURL+path)
+	if err != nil {
+		return b, url, fmt.Errorf("community request failed: %w", err)
+	}
+
 	return b, url, err
 }
 
-func (c *Client) get(path string) (b []byte, code int, url string, err error) {
+func (c *Client) get(ctx context.Context, path string) (b []byte, code int, url string, err error) {
 
-	req, err := http.NewRequest("GET", path, nil)
+	req, err := http.NewRequestWithContext(ctx, "GET", path, nil)
 	if err != nil {
 		return b, code, url, err
 	}
@@ -154,12 +215,11 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 		return b, code, url, err
 	}
 
-	defer func(response *http.Response) {
-		err = response.Body.Close()
-		if err != nil && c.logger != nil {
-			c.logger.Err(err)
+	defer func() {
+		if closeErr := response.Body.Close(); closeErr != nil {
+			c.logger.Error("failed to close response body", "error", closeErr)
 		}
-	}(response)
+	}()
 
 	b, err = io.ReadAll(response.Body)
 	if err != nil {
@@ -172,9 +232,7 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 	code = response.StatusCode
 	url = response.Request.URL.Path
 
-	if c.logger != nil {
-		c.logger.Info(path)
-	}
+	c.logger.Info("steam api request", "path", path, "code", code)
 
 	return b, code, url, err
 }

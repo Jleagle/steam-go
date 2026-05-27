@@ -1,14 +1,15 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 )
 
 // Gets the list of supported API calls. This is used to build this documentation.
-func (c *Client) GetSupportedAPIList() (percentages APIInterfaces, err error) {
+func (c *Client) GetSupportedAPIList(ctx context.Context) (percentages APIInterfaces, err error) {
 
-	b, err := c.getFromAPI("ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{}, false)
+	b, err := c.getFromAPI(ctx, "ISteamWebAPIUtil/GetSupportedAPIList/v1", url.Values{}, false)
 	if err != nil {
 		return percentages, err
 	}

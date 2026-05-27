@@ -1,12 +1,13 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 	"strconv"
 )
 
-func (c *Client) GetAppList(limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, err error) {
+func (c *Client) GetAppList(ctx context.Context, limit int, offset int, afterDate int64, language LanguageCode) (apps AppList, err error) {
 
 	q := url.Values{}
 	q.Set("include_games", "1")
@@ -30,7 +31,7 @@ func (c *Client) GetAppList(limit int, offset int, afterDate int64, language Lan
 		q.Set("max_results", strconv.Itoa(limit))
 	}
 
-	b, err := c.getFromAPI("IStoreService/GetAppList/v1", q, true)
+	b, err := c.getFromAPI(ctx, "IStoreService/GetAppList/v1", q, true)
 	if err != nil {
 		return apps, err
 	}

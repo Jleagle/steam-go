@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"net/url"
 	"strconv"
@@ -9,13 +10,13 @@ import (
 )
 
 // Gets information about a player's recently played games
-func (c *Client) GetRecentlyPlayedGames(playerID int64) (games []RecentlyPlayedGame, err error) {
+func (c *Client) GetRecentlyPlayedGames(ctx context.Context, playerID int64) (games []RecentlyPlayedGame, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("count", "0")
 
-	b, err := c.getFromAPI("IPlayerService/GetRecentlyPlayedGames/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IPlayerService/GetRecentlyPlayedGames/v1", options, true)
 	if err != nil {
 		return games, err
 	}
@@ -51,14 +52,14 @@ type RecentlyPlayedGame struct {
 }
 
 // Return a list of games owned by the player
-func (c *Client) GetOwnedGames(playerID int64) (games OwnedGames, err error) {
+func (c *Client) GetOwnedGames(ctx context.Context, playerID int64) (games OwnedGames, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 	options.Set("include_appinfo", "1")
 	options.Set("include_played_free_games", "1")
 
-	b, err := c.getFromAPI("IPlayerService/GetOwnedGames/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IPlayerService/GetOwnedGames/v1", options, true)
 	if err != nil {
 		return games, err
 	}
@@ -92,12 +93,12 @@ type OwnedGames struct {
 }
 
 // Returns the Steam Level of a user
-func (c *Client) GetSteamLevel(playerID int64) (level int, err error) {
+func (c *Client) GetSteamLevel(ctx context.Context, playerID int64) (level int, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	b, err := c.getFromAPI("IPlayerService/GetSteamLevel/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IPlayerService/GetSteamLevel/v1", options, true)
 	if err != nil {
 		return level, err
 	}
@@ -118,12 +119,12 @@ type LevelResponse struct {
 }
 
 // Gets badges that are owned by a specific user
-func (c *Client) GetBadges(playerID int64) (badges BadgesInfo, err error) {
+func (c *Client) GetBadges(ctx context.Context, playerID int64) (badges BadgesInfo, err error) {
 
 	options := url.Values{}
 	options.Set("steamid", strconv.FormatInt(playerID, 10))
 
-	b, err := c.getFromAPI("IPlayerService/GetBadges/v1", options, true)
+	b, err := c.getFromAPI(ctx, "IPlayerService/GetBadges/v1", options, true)
 	if err != nil {
 		return badges, err
 	}

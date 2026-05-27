@@ -1,6 +1,7 @@
 package steamapi
 
 import (
+	"context"
 	"encoding/json"
 	"errors"
 	"net/url"
@@ -23,14 +24,14 @@ var (
 	ErrHTMLResponse = errors.New("steam: store: html response") // Probably down
 )
 
-func (c *Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
 // GetAppDetails returns the details of an app.
+func (c *Client) GetAppDetails(ctx context.Context, id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
 
 	if id == 0 {
 		return app, ErrAppNotFound // App 0 does exist but the API does not return it
 	}
 
-	resp, err := c.GetAppDetailsMulti([]uint{id}, cc, language, filters)
+	resp, err := c.GetAppDetailsMulti(ctx, []uint{id}, cc, language, filters)
 	if err != nil {
 		return app, err
 	}
@@ -44,8 +45,8 @@ func (c *Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, fil
 	return resp[idx], nil
 }
 
-func (c *Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
 // GetAppDetailsMulti returns the details of multiple apps.
+func (c *Client) GetAppDetailsMulti(ctx context.Context, ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -60,7 +61,7 @@ func (c *Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageC
 		query.Set("filters", strings.Join(filters, ","))
 	}
 
-	b, err := c.getFromStore("api/appdetails", query)
+	b, err := c.getFromStore(ctx, "api/appdetails", query)
 	if err != nil {
 		return resp, err
 	}
@@ -252,7 +253,7 @@ func (c AppDetailsCategory) Names() (names []string) {
 	return names
 }
 
-func (c *Client) GetPackageDetails(id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
+func (c *Client) GetPackageDetails(ctx context.Context, id uint, code ProductCC, language LanguageCode) (pack PackageDetailsBody, err error) {
 
 	if id == 0 {
 		return pack, ErrPackageNotFound // Package 0 does exist but the API does not return it
@@ -265,7 +266,7 @@ func (c *Client) GetPackageDetails(id uint, code ProductCC, language LanguageCod
 	query.Set("cc", string(code))    // Price currency
 	query.Set("l", string(language)) // Text
 
-	b, err := c.getFromStore("api/packagedetails", query)
+	b, err := c.getFromStore(ctx, "api/packagedetails", query)
 	if err != nil {
 		return pack, err
 	}
@@ -325,9 +326,9 @@ type PackageDetailsBody struct {
 	} `json:"data"`
 }
 
-func (c *Client) GetTags() (tags Tags, err error) {
+func (c *Client) GetTags(ctx context.Context) (tags Tags, err error) {
 
-	b, err := c.getFromStore("tagdata/populartags/english", url.Values{})
+	b, err := c.getFromStore(ctx, "tagdata/populartags/english", url.Values{})
 	if err != nil {
 		return tags, err
 	}
@@ -367,7 +368,7 @@ type Tag struct {
 	Name  string `json:"name"`
 }
 
-func (c *Client) GetReviews(appID int, language LanguageCode) (reviews ReviewsResponse, err error) {
+func (c *Client) GetReviews(ctx context.Context, appID int, language LanguageCode) (reviews ReviewsResponse, err error) {
 
 	query := url.Values{}
 	query.Set("json", "1")
@@ -381,7 +382,7 @@ func (c *Client) GetReviews(appID int, language LanguageCode) (reviews ReviewsRe
 	query.Set("end_date", "-1")
 	query.Set("cursor", "*")
 
-	b, err := c.getFromStore("appreviews/"+strconv.Itoa(appID), query)
+	b, err := c.getFromStore(ctx, "appreviews/"+strconv.Itoa(appID), query)
 	if err != nil {
 		return reviews, err
 	}
