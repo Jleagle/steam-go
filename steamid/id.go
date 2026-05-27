@@ -271,20 +271,20 @@ func NewID(universe UniverseID, accountType AccountType, instance InstanceID, ac
 }
 
 // Helpers
-func (id ID) get(offset uint, mask uint64) uint64 {
-	return (uint64(id) >> offset) & mask
+func (id *ID) get(offset uint, mask uint64) uint64 {
+	return (uint64(*id) >> offset) & mask
 }
 
 func (id *ID) set(offset uint, mask, value uint64) {
 	*id = ID((uint64(*id) & ^(mask << offset)) | (value&mask)<<offset)
 }
 
-func (id ID) String() string {
-	return strconv.FormatUint(uint64(id), 10)
+func (id *ID) String() string {
+	return strconv.FormatUint(uint64(*id), 10)
 }
 
 // GetAccountID returns the account ID.
-func (id ID) GetAccountID() AccountID {
+func (id *ID) GetAccountID() AccountID {
 	//nolint:gosec // account ID is 32-bit.
 	return AccountID(id.get(0, 0xFFFFFFFF))
 }
@@ -295,7 +295,7 @@ func (id *ID) SetAccountID(accountID AccountID) {
 }
 
 // GetInstanceID returns the instance ID.
-func (id ID) GetInstanceID() InstanceID {
+func (id *ID) GetInstanceID() InstanceID {
 	//nolint:gosec // instance ID is 20-bit.
 	return InstanceID(id.get(32, 0xFFFFF))
 }
@@ -306,7 +306,7 @@ func (id *ID) SetInstanceID(instanceID InstanceID) {
 }
 
 // GetAccountType returns the account type.
-func (id ID) GetAccountType() AccountType {
+func (id *ID) GetAccountType() AccountType {
 	//nolint:gosec // account type is 4-bit.
 	return AccountType(id.get(52, 0xF))
 }
@@ -317,7 +317,7 @@ func (id *ID) SetAccountType(accountType AccountType) {
 }
 
 // GetUniverseID returns the universe ID.
-func (id ID) GetUniverseID() UniverseID {
+func (id *ID) GetUniverseID() UniverseID {
 	//nolint:gosec // universe ID is 4-bit.
 	return UniverseID(id.get(56, 0xF))
 }
@@ -328,7 +328,7 @@ func (id *ID) SetUniverseID(universeID UniverseID) {
 }
 
 // ClanToChat converts a clan ID to a chat ID.
-func (id ID) ClanToChat() error {
+func (id *ID) ClanToChat() error {
 
 	if id.GetAccountType() != AccountTypeClan {
 		return ErrInvalidClanID
@@ -341,7 +341,7 @@ func (id ID) ClanToChat() error {
 }
 
 // ChatToClan converts a chat ID to a clan ID.
-func (id ID) ChatToClan() error {
+func (id *ID) ChatToClan() error {
 
 	if id.GetAccountType() != AccountTypeChat {
 		return ErrInvalidChatID
