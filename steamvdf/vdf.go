@@ -22,9 +22,8 @@ func ReadFile(path string) (kv KeyValue, err error) {
 func ReadBytes(b []byte) (kv KeyValue, err error) {
 	if IsBinary(b) {
 		return readBinaryReader(bytes.NewReader(b))
-	} else {
-		return readText(b)
 	}
+	return readText(b)
 }
 
 func readBinaryReader(r io.Reader) (kv KeyValue, err error) {
