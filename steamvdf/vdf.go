@@ -1,3 +1,4 @@
+// Package steamvdf provides a parser for Steam's KeyValue (VDF) text and binary formats.
 package steamvdf
 
 import (

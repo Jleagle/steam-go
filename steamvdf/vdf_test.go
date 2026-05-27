@@ -41,9 +41,9 @@ func TestReadBinary(t *testing.T) {
 			assert.Assert(t, kv.Key == id)
 			assert.Assert(t, len(kv.Children) > 0)
 
-			packageid, ok := kv.GetChild("packageid")
+			packageid, ok := kv.GetChild("packageid") //nolint:misspell
 			assert.Assert(t, ok)
-			assert.Assert(t, packageid.Value == id)
+			assert.Assert(t, packageid.Value == id) //nolint:misspell
 		}
 
 		switch file {

@@ -11,14 +11,20 @@ import (
 )
 
 var (
-	ErrAppNotFound      = errors.New("steam: store: app not found")
-	ErrPackageNotFound  = errors.New("steam: store: package not found")
+	// ErrAppNotFound is returned when an app is not found.
+	ErrAppNotFound = errors.New("steam: store: app not found")
+	// ErrPackageNotFound is returned when a package is not found.
+	ErrPackageNotFound = errors.New("steam: store: package not found")
+	// ErrWishlistNotFound is returned when a wishlist is not found.
 	ErrWishlistNotFound = errors.New("steam: store: wishlist not found")
-	ErrNullResponse     = errors.New("steam: store: null response") // Probably being rate limited
-	ErrHTMLResponse     = errors.New("steam: store: html response") // Probably down
+	// ErrNullResponse is returned when a null response is received.
+	ErrNullResponse = errors.New("steam: store: null response") // Probably being rate limited
+	// ErrHTMLResponse is returned when an HTML response is received.
+	ErrHTMLResponse = errors.New("steam: store: html response") // Probably down
 )
 
 func (c *Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, filters []string) (app AppDetails, err error) {
+// GetAppDetails returns the details of an app.
 
 	if id == 0 {
 		return app, ErrAppNotFound // App 0 does exist but the API does not return it
@@ -39,6 +45,7 @@ func (c *Client) GetAppDetails(id uint, cc ProductCC, language LanguageCode, fil
 }
 
 func (c *Client) GetAppDetailsMulti(ids []uint, cc ProductCC, language LanguageCode, filters []string) (resp map[string]AppDetails, err error) {
+// GetAppDetailsMulti returns the details of multiple apps.
 
 	var stringIDs []string
 	for _, id := range ids {
@@ -144,6 +151,7 @@ type AppDetails struct {
 			DisplayType             unmarshal.String `json:"display_type"`
 			IsRecurringSubscription unmarshal.Bool   `json:"is_recurring_subscription"`
 			Subs                    []struct {
+				//nolint:misspell // packageid is a Steam API term.
 				PackageID                int            `json:"packageid"`
 				PercentSavingsText       string         `json:"percent_savings_text"`
 				PercentSavings           int            `json:"percent_savings"`
@@ -429,69 +437,3 @@ func (r ReviewsResponse) GetPositivePercent() float64 {
 func (r ReviewsResponse) GetNegativePercent() float64 {
 	return float64(r.QuerySummary.TotalNegative) / float64(r.QuerySummary.TotalReviews) * 100
 }
-
-//func (c *Client) GetWishlist(playerID int64) (wishlist Wishlist, err error) {
-//
-//	query := url.Values{}
-//	query.Set("p", "0")
-//
-//	b, err := c.getFromStore("wishlist/profiles/"+strconv.FormatInt(playerID, 10)+"/wishlistdata", query)
-//	if err != nil {
-//		return wishlist, err
-//	}
-//
-//	// No items
-//	if strings.TrimSpace(string(b)) == "[]" {
-//		return wishlist, err
-//	}
-//
-//	// Check for fail response
-//	failResp := WishlistFail{}
-//	err = json.Unmarshal(b, &failResp)
-//	if err == nil && failResp.Success > 0 {
-//		return wishlist, ErrWishlistNotFound
-//	}
-//
-//	// Unmarshal JSON
-//	err = json.Unmarshal(b, &wishlist.Items)
-//	return wishlist, err
-//}
-//
-//type WishlistFail struct {
-//	Success int `json:"success"`
-//}
-//
-//type Wishlist struct {
-//	Items map[unmarshal.Int]WishlistItem
-//}
-//
-//type WishlistItem struct {
-//	Name           string          `json:"name"`
-//	Capsule        string          `json:"capsule"`
-//	ReviewScore    int             `json:"review_score"`
-//	ReviewDesc     string          `json:"review_desc"`
-//	ReviewsTotal   string          `json:"reviews_total"`
-//	ReviewsPercent int             `json:"reviews_percent"`
-//	ReleaseDate    unmarshal.Int64 `json:"release_date"`
-//	ReleaseString  string          `json:"release_string"`
-//	PlatformIcons  string          `json:"platform_icons"`
-//	Subs           []struct {
-//		ID            int           `json:"id"`
-//		DiscountBlock string        `json:"discount_block"`
-//		DiscountPct   int           `json:"discount_pct"`
-//		Price         unmarshal.Int `json:"price"`
-//	} `json:"subs"`
-//	Type        string         `json:"type"`
-//	Screenshots []string       `json:"screenshots"`
-//	ReviewCSS   string         `json:"review_css"`
-//	Priority    int            `json:"priority"`
-//	Added       int            `json:"added"`
-//	Background  string         `json:"background"`
-//	Rank        unmarshal.Int  `json:"rank"`
-//	Tags        []string       `json:"tags"`
-//	EarlyAccess int            `json:"early_access"`
-//	IsFreeGame  bool           `json:"is_free_game"`
-//	Win         unmarshal.Bool `json:"win"`
-//	Mac         unmarshal.Bool `json:"mac"`
-//	Linux       unmarshal.Bool `json:"linux"`
-//}

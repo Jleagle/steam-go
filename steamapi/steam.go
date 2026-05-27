@@ -14,6 +14,7 @@ import (
 )
 
 var (
+	// ErrMissingKey is returned when a Steam Web API key is missing.
 	ErrMissingKey = errors.New("missing api key")
 
 	apiStatusCodes = map[int]string{
@@ -36,6 +37,7 @@ func NewClient() *Client {
 	return c
 }
 
+// Client is a Steam API client.
 type Client struct {
 	key             string
 	userAgent       string
@@ -62,14 +64,17 @@ func (c *Client) SetUserAgent(userAgent string) {
 	c.userAgent = userAgent
 }
 
+// SetAPIRateLimit sets the rate limit for Steam Web API requests.
 func (c *Client) SetAPIRateLimit(duration time.Duration, burst int64) {
 	c.apiBucket = ratelimit.NewBucket(duration, burst)
 }
 
+// SetStoreRateLimit sets the rate limit for Steam Store API requests.
 func (c *Client) SetStoreRateLimit(duration time.Duration, burst int64) {
 	c.storeBucket = ratelimit.NewBucket(duration, burst)
 }
 
+// SetCommunityRateLimit sets the rate limit for Steam Community requests.
 func (c *Client) SetCommunityRateLimit(duration time.Duration, burst int64) {
 	c.communityBucket = ratelimit.NewBucket(duration, burst)
 }
@@ -174,26 +179,7 @@ func (c *Client) get(path string) (b []byte, code int, url string, err error) {
 	return b, code, url, err
 }
 
-type logger interface {
-	Info(string)
-	Err(error)
-}
-
-type DefaultLogger struct {
-}
-
-func (l DefaultLogger) Info(s string) {
-	if s != "" {
-		fmt.Println("INFO: " + s)
-	}
-}
-
-func (l DefaultLogger) Err(err error) {
-	if err != nil {
-		fmt.Println("ERROR: " + err.Error())
-	}
-}
-
+// Error represents a Steam API error.
 type Error struct {
 	Err  string
 	Code int

@@ -66,7 +66,7 @@ func (c *Client) ResolveVanityURL(vanityURL string, urlType int) (info VanityURL
 		return info, err
 	}
 
-	// Unmarhsal
+	// Unmarshal
 	var resp VanityURLRepsonse
 	err = json.Unmarshal(b, &resp)
 	if err != nil {
