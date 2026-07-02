@@ -1,6 +1,5 @@
-github.com/Jleagle/unmarshal-go v0.0.0-20210227002040-694f544f9265 h1:fpSEqYoXEvwmxXxSV0BF9+717wmpKgEiuPYFyX5nfI8=
-github.com/Jleagle/unmarshal-go v0.0.0-20210227002040-694f544f9265/go.mod h1:vwJZYoX2R0u86+2pqB/fUZyawS3mBEvlExliJaPuLvA=
-github.com/buger/jsonparser v1.1.1/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
+github.com/Jleagle/unmarshal-go v0.0.0-20260702203424-38325863b365 h1:CACdtg0U6Ou61NvVaflQedQALt2MMi0leYfRiqJtJys=
+github.com/Jleagle/unmarshal-go v0.0.0-20260702203424-38325863b365/go.mod h1:T9A2STL3DjRmatCLODlV2Zqgeli8fr3iaGm849t0TJo=
 github.com/buger/jsonparser v1.2.0 h1:4EFcvK1kD4jyj6YqNK6skK6w+y7FHHBR+XBCtxwu/6g=
 github.com/buger/jsonparser v1.2.0/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=

@@ -3,7 +3,7 @@ module github.com/Jleagle/steam-go
 go 1.22
 
 require (
-	github.com/Jleagle/unmarshal-go v0.0.0-20210227002040-694f544f9265
+	github.com/Jleagle/unmarshal-go v0.0.0-20260702203424-38325863b365
 	github.com/juju/ratelimit v1.0.2
 	gotest.tools/v3 v3.5.2
 )
