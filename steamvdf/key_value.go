@@ -56,6 +56,39 @@ func (kv *KeyValue) SetChild(value KeyValue) {
 	kv.Children = append(kv.Children, value)
 }
 
+// childIndexThreshold is the number of children at which childSetter starts
+// indexing keys. Below it, the linear scan in SetChild is cheaper than a map.
+const childIndexThreshold = 16
+
+// childSetter inserts children into kv with SetChild's replace-or-append
+// semantics while keeping each insert O(1) once the object is wide. The
+// parsers use it so that objects with thousands of children do not rescan
+// every existing child on each insert.
+type childSetter struct {
+	kv    *KeyValue
+	index map[string]int // key to position in kv.Children, built lazily
+}
+
+func (s *childSetter) set(child KeyValue) {
+	if s.index == nil {
+		if len(s.kv.Children) < childIndexThreshold {
+			s.kv.SetChild(child)
+			return
+		}
+		s.index = make(map[string]int, len(s.kv.Children)*2)
+		for i, existing := range s.kv.Children {
+			s.index[existing.Key] = i
+		}
+	}
+
+	if i, ok := s.index[child.Key]; ok {
+		s.kv.Children[i] = child
+		return
+	}
+	s.index[child.Key] = len(s.kv.Children)
+	s.kv.Children = append(s.kv.Children, child)
+}
+
 func (kv *KeyValue) HasChild(key string) bool {
 	for _, child := range kv.Children {
 		if child.Key == key {

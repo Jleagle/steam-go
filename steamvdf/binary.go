@@ -96,6 +96,7 @@ func (r *binaryReader) readString() (string, error) {
 
 // readObject reads entries into parent until the object's TypeEnd marker.
 func (r *binaryReader) readObject(parent *KeyValue) error {
+	setter := childSetter{kv: parent}
 	for {
 		typ, err := r.readByte()
 		if err != nil {
@@ -120,7 +121,7 @@ func (r *binaryReader) readObject(parent *KeyValue) error {
 			return err
 		}
 
-		parent.SetChild(child)
+		setter.set(child)
 	}
 }
 

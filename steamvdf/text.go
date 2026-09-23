@@ -118,6 +118,7 @@ func (p *textParser) next() (Token, bool) {
 // parseMembers reads key/value pairs into parent. At depth 0 it consumes the
 // whole token stream; deeper it stops at the closing brace of parent.
 func (p *textParser) parseMembers(parent *KeyValue, depth int) error {
+	setter := childSetter{kv: parent}
 	for {
 		key, ok := p.next()
 		if !ok {
@@ -154,6 +155,6 @@ func (p *textParser) parseMembers(parent *KeyValue, depth int) error {
 			return fmt.Errorf("vdf: key %q on line %d has no value", key.Value, key.Line)
 		}
 
-		parent.SetChild(child)
+		setter.set(child)
 	}
 }
