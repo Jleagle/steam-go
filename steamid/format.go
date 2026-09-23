@@ -1,6 +1,9 @@
 package steamid
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 // accountTypeToCharacter is the inverse of CharacterToAccountType, used when
 // rendering SteamID3 strings. Chat IDs render "c" or "L" from their instance
@@ -58,4 +61,36 @@ func (id ID) Steam3() string {
 		return fmt.Sprintf("[%s:%d:%d:%d]", char, id.GetUniverseID(), id.GetAccountID(), instance)
 	}
 	return fmt.Sprintf("[%s:%d:%d]", char, id.GetUniverseID(), id.GetAccountID())
+}
+
+// MarshalText implements encoding.TextMarshaler by rendering the decimal
+// SteamID64, so encoding/json writes the ID as a string and JavaScript
+// clients keep every digit.
+func (id ID) MarshalText() ([]byte, error) {
+	return []byte(id.String()), nil
+}
+
+// UnmarshalText implements encoding.TextUnmarshaler and accepts the decimal
+// SteamID64 that MarshalText writes.
+func (id *ID) UnmarshalText(b []byte) error {
+	v, err := strconv.ParseUint(string(b), 10, 64)
+	if err != nil {
+		return fmt.Errorf("steamid: %w", err)
+	}
+	*id = ID(v)
+	return nil
+}
+
+// UnmarshalJSON implements json.Unmarshaler. It accepts the decimal SteamID64
+// as a JSON string, as MarshalText writes it, or as a JSON number, which is
+// how documents encoded before ID implemented encoding.TextMarshaler hold it.
+// A JSON null leaves the ID unchanged.
+func (id *ID) UnmarshalJSON(b []byte) error {
+	if string(b) == "null" {
+		return nil
+	}
+	if len(b) >= 2 && b[0] == '"' && b[len(b)-1] == '"' {
+		b = b[1 : len(b)-1]
+	}
+	return id.UnmarshalText(b)
 }
