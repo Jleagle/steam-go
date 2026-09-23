@@ -2,58 +2,73 @@ package steamvdf
 
 import (
 	"encoding/json"
-	"sort"
+	"slices"
+	"strings"
 )
 
+// KeyValue is a node in a VDF document: a key with either a string value or
+// child nodes.
 type KeyValue struct {
 	Key      string     `json:"key"`
 	Value    string     `json:"value"`
 	Children []KeyValue `json:"children"`
 }
 
+// SortChildren sorts the children by key, recursively.
 func (kv *KeyValue) SortChildren() {
-
-	sort.Slice(kv.Children, func(i, j int) bool {
-		return kv.Children[i].Key < kv.Children[j].Key
+	slices.SortFunc(kv.Children, func(a, b KeyValue) int {
+		return strings.Compare(a.Key, b.Key)
 	})
-
-	for _, v := range kv.Children {
-		v.SortChildren()
+	for i := range kv.Children {
+		kv.Children[i].SortChildren()
 	}
 }
 
-func (kv KeyValue) GetChildrenAsSlice() (ret []string) {
-	for _, v := range kv.Children {
-		ret = append(ret, v.String())
-	}
-	return ret
-}
-
-func (kv KeyValue) GetChildrenAsMap() (ret map[string]string) {
-	ret = map[string]string{}
-	for _, v := range kv.Children {
-		ret[v.Key] = v.String()
+// GetChildrenAsSlice returns each child rendered with String, in order.
+func (kv KeyValue) GetChildrenAsSlice() []string {
+	ret := make([]string, 0, len(kv.Children))
+	for _, child := range kv.Children {
+		ret = append(ret, child.String())
 	}
 	return ret
 }
 
-func (kv KeyValue) GetChild(key string) (child KeyValue, found bool) {
+// GetChildrenAsMap returns the children keyed by Key, each rendered with
+// String.
+func (kv KeyValue) GetChildrenAsMap() map[string]string {
+	ret := make(map[string]string, len(kv.Children))
+	for _, child := range kv.Children {
+		ret[child.Key] = child.String()
+	}
+	return ret
+}
+
+// GetChild returns the child with the given key.
+func (kv KeyValue) GetChild(key string) (KeyValue, bool) {
 	for _, child := range kv.Children {
 		if child.Key == key {
 			return child, true
 		}
 	}
-	return child, false
+	return KeyValue{}, false
 }
 
-func (kv *KeyValue) SetChild(value KeyValue) {
-	for k, child := range kv.Children {
-		if child.Key == value.Key {
-			kv.Children[k] = value
+// SetChild replaces the child with the same key in place, or appends child
+// when there is none.
+func (kv *KeyValue) SetChild(child KeyValue) {
+	for i, existing := range kv.Children {
+		if existing.Key == child.Key {
+			kv.Children[i] = child
 			return
 		}
 	}
-	kv.Children = append(kv.Children, value)
+	kv.Children = append(kv.Children, child)
+}
+
+// HasChild reports whether a child with the given key exists.
+func (kv KeyValue) HasChild(key string) bool {
+	_, ok := kv.GetChild(key)
+	return ok
 }
 
 // childIndexThreshold is the number of children at which childSetter starts
@@ -89,94 +104,86 @@ func (s *childSetter) set(child KeyValue) {
 	s.kv.Children = append(s.kv.Children, child)
 }
 
-func (kv *KeyValue) HasChild(key string) bool {
-	for _, child := range kv.Children {
-		if child.Key == key {
-			return true
-		}
-	}
-	return false
-}
-
-// Returns kv.Value or the children in json form
+// String renders the node. A node with a Value returns it. A node with
+// children returns the JSON object of its children (as ToMapInner builds it).
+// A node with neither returns a JSON object mapping its key to null.
 func (kv KeyValue) String() string {
-
 	if kv.Value != "" {
 		return kv.Value
 	}
 
+	var m map[string]any
 	if len(kv.Children) == 0 {
-		b, err := json.Marshal(map[string]interface{}{kv.Key: nil})
-		if err != nil || string(b) == "{}" {
-			return ""
-		}
-		return string(b)
+		m = map[string]any{kv.Key: nil}
+	} else {
+		m = toMap(kv)
 	}
 
-	b, err := json.Marshal(toMap(kv))
-	if err != nil || string(b) == "{}" {
+	b, err := json.Marshal(m)
+	if err != nil {
 		return ""
 	}
-
 	return string(b)
 }
 
-// Transforms to nested maps
-// Includes top level
-func (kv KeyValue) ToMapOuter() (m map[string]interface{}) {
-
-	return toMap(KeyValue{
-		Key:      "",
-		Children: []KeyValue{kv},
-	})
+// ToMapOuter converts the node to nested maps with this node's Key as the
+// single top-level key.
+func (kv KeyValue) ToMapOuter() map[string]any {
+	return toMap(KeyValue{Children: []KeyValue{kv}})
 }
 
-// Transforms to nested maps
-// Does not include top level
-func (kv KeyValue) ToMapInner() (m map[string]interface{}) {
-
+// ToMapInner converts the node's children to nested maps.
+func (kv KeyValue) ToMapInner() map[string]any {
 	return toMap(kv)
 }
 
-func toMap(kv KeyValue) map[string]interface{} {
-
-	m := map[string]interface{}{}
-
+// toMap converts children to a map: a child with a Value becomes a string, a
+// child with neither Value nor children becomes nil, and a child with
+// children recurses.
+func toMap(kv KeyValue) map[string]any {
+	m := make(map[string]any, len(kv.Children))
 	for _, child := range kv.Children {
-
-		if child.Value != "" {
+		switch {
+		case child.Value != "":
 			m[child.Key] = child.Value
-		} else if len(child.Children) == 0 {
+		case len(child.Children) == 0:
 			m[child.Key] = nil
-		} else {
+		default:
 			m[child.Key] = toMap(child)
 		}
 	}
-
 	return m
 }
 
-func FromMap(m map[string]interface{}) KeyValue {
-
+// FromMap is the inverse of ToMapOuter: it converts nested maps back into a
+// KeyValue tree, with children ordered by key. A map with a single key returns
+// that key's node; a map with several keys returns a root node with an empty
+// Key holding one child per key.
+func FromMap(m map[string]any) KeyValue {
 	kv := fromMap("", m)
-	if len(kv.Children) > 0 {
+	if len(kv.Children) == 1 {
 		return kv.Children[0]
 	}
 	return kv
 }
 
-func fromMap(key string, m interface{}) (out KeyValue) {
+// fromMap converts one map entry. Strings become values, maps recurse, and
+// anything else (including nil) becomes an empty node.
+func fromMap(key string, v any) KeyValue {
+	out := KeyValue{Key: key}
 
-	out.Key = key
-
-	switch m := m.(type) {
-	case map[string]interface{}:
-		for k, v := range m {
-			out.Children = append(out.Children, fromMap(k, v))
+	switch v := v.(type) {
+	case map[string]any:
+		keys := make([]string, 0, len(v))
+		for k := range v {
+			keys = append(keys, k)
 		}
-		out.Value = ""
+		slices.Sort(keys)
+		for _, k := range keys {
+			out.Children = append(out.Children, fromMap(k, v[k]))
+		}
 	case string:
-		out.Value = m
+		out.Value = v
 	}
 
 	return out
