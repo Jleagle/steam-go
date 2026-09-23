@@ -1,74 +1,138 @@
 package steamid
 
 import (
+	"errors"
+	"fmt"
 	"testing"
 )
 
-func TestGettersSetters(t *testing.T) {
+const (
+	meAccountID AccountID = 8360464
+	meID        ID        = 76561197968626192
+)
 
-	id := NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, 8360464)
-
-	if id != 76561197968626192 {
-		t.Error(id, 76561197968626192)
+func TestNewIDAndGetters(t *testing.T) {
+	id := NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, meAccountID)
+	if id != meID {
+		t.Fatalf("NewID = %d, want %d", id, meID)
 	}
-
-	if id.GetUniverseID() != UniversePublic {
-		t.Error("GetUniverseID", id.GetUniverseID(), UniversePublic)
+	if got := id.GetUniverseID(); got != UniversePublic {
+		t.Errorf("GetUniverseID = %d, want %d", got, UniversePublic)
 	}
-
-	if id.GetAccountType() != AccountTypeIndividual {
-		t.Error("GetAccountType", id.GetAccountType(), AccountTypeIndividual)
+	if got := id.GetAccountType(); got != AccountTypeIndividual {
+		t.Errorf("GetAccountType = %d, want %d", got, AccountTypeIndividual)
 	}
-
-	if id.GetInstanceID() != InstanceDesktop {
-		t.Error("GetInstanceID", id.GetInstanceID(), InstanceDesktop)
+	if got := id.GetInstanceID(); got != InstanceDesktop {
+		t.Errorf("GetInstanceID = %d, want %d", got, InstanceDesktop)
 	}
-
-	if id.GetAccountID() != 8360464 {
-		t.Error("GetAccountID", id.GetAccountID(), 4180232)
-	}
-}
-
-func TestIDTypes(t *testing.T) {
-
-	ids := []string{
-		"STEAM_0:0:4180232",
-		"U:1:8360464",
-		"[U:1:8360464]",
-		"U:1:8360464:1",
-		"[U:1:8360464:1]",
-		"8360464",
-		"76561197968626192",
-	}
-
-	for _, idIn := range ids {
-
-		id, err := ParsePlayerID(idIn)
-		if err != nil {
-			t.Error(err, idIn)
-		}
-		if id != 76561197968626192 {
-			t.Error("not me", idIn)
-		}
+	if got := id.GetAccountID(); got != meAccountID {
+		t.Errorf("GetAccountID = %d, want %d", got, meAccountID)
 	}
 }
 
-func TestGroups(t *testing.T) {
+// TestGettersOnValues checks that read methods work on values that have no
+// address, such as a function result, and that a plain ID is a fmt.Stringer.
+func TestGettersOnValues(t *testing.T) {
+	if got := NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, meAccountID).GetAccountID(); got != meAccountID {
+		t.Errorf("GetAccountID on function result = %d, want %d", got, meAccountID)
+	}
+	var s fmt.Stringer = meID
+	if got := s.String(); got != "76561197968626192" {
+		t.Errorf("String = %q, want %q", got, "76561197968626192")
+	}
+	if got := fmt.Sprint(meID); got != "76561197968626192" {
+		t.Errorf("Sprint = %q, want %q", got, "76561197968626192")
+	}
+}
 
-	m := map[string]ID{
+func TestSettersLeaveOtherFieldsAlone(t *testing.T) {
+	var id ID
+	id.SetAccountID(meAccountID)
+	id.SetInstanceID(InstanceDesktop)
+	id.SetAccountType(AccountTypeIndividual)
+	id.SetUniverseID(UniversePublic)
+	if id != meID {
+		t.Fatalf("after setters id = %d, want %d", id, meID)
+	}
+
+	id.SetInstanceID(InstanceWeb)
+	if id.GetInstanceID() != InstanceWeb || id.GetAccountID() != meAccountID || id.GetAccountType() != AccountTypeIndividual || id.GetUniverseID() != UniversePublic {
+		t.Errorf("SetInstanceID disturbed other fields: %d", id)
+	}
+	id.SetAccountType(AccountTypeClan)
+	if id.GetAccountType() != AccountTypeClan || id.GetInstanceID() != InstanceWeb || id.GetAccountID() != meAccountID || id.GetUniverseID() != UniversePublic {
+		t.Errorf("SetAccountType disturbed other fields: %d", id)
+	}
+}
+
+func TestClanChatConversion(t *testing.T) {
+	clan := NewID(UniversePublic, AccountTypeClan, InstanceAll, 275018)
+
+	chat := clan
+	if err := chat.ClanToChat(); err != nil {
+		t.Fatalf("ClanToChat: %v", err)
+	}
+	if chat.GetAccountType() != AccountTypeChat || chat.GetInstanceID() != InstanceID(ChatInstanceClan) || chat.GetAccountID() != 275018 {
+		t.Errorf("ClanToChat produced %d (type %d, instance %#x)", chat, chat.GetAccountType(), chat.GetInstanceID())
+	}
+
+	back := chat
+	if err := back.ChatToClan(); err != nil {
+		t.Fatalf("ChatToClan: %v", err)
+	}
+	if back != clan {
+		t.Errorf("ChatToClan = %d, want %d", back, clan)
+	}
+
+	if err := clan.ChatToClan(); !errors.Is(err, ErrInvalidChatID) {
+		t.Errorf("ChatToClan on a clan ID: error = %v, want ErrInvalidChatID", err)
+	}
+	if err := chat.ClanToChat(); !errors.Is(err, ErrInvalidClanID) {
+		t.Errorf("ClanToChat on a chat ID: error = %v, want ErrInvalidClanID", err)
+	}
+}
+
+func TestParsePlayerID(t *testing.T) {
+	tests := []struct {
+		in   string
+		want ID
+	}{
+		{"STEAM_0:0:4180232", meID},
+		{"U:1:8360464", meID},
+		{"[U:1:8360464]", meID},
+		{"U:1:8360464:1", meID},
+		{"[U:1:8360464:1]", meID},
+		{"8360464", meID},
+		{"76561197968626192", meID},
+	}
+	for _, tc := range tests {
+		t.Run(tc.in, func(t *testing.T) {
+			got, err := ParsePlayerID(tc.in)
+			if err != nil {
+				t.Fatalf("ParsePlayerID(%q): %v", tc.in, err)
+			}
+			if got != tc.want {
+				t.Errorf("ParsePlayerID(%q) = %d, want %d", tc.in, got, tc.want)
+			}
+		})
+	}
+}
+
+func TestParseGroupID(t *testing.T) {
+	tests := map[string]ID{
 		"275018":             103582791429796426, // Reddit
 		"3381077":            103582791432902485, // Counter-Strike: Global Offensive
-		"103582791432902485": 103582791432902485, // Counter-Strike: Global Offensive
+		"103582791432902485": 103582791432902485,
 	}
-
-	for k, v := range m {
-
-		id, err := ParseGroupID(k)
-		if err != nil {
-			t.Error(err, k)
-		}
-		if id != v {
-			t.Error("wrong id", k, v, id)
-		}
+	for in, want := range tests {
+		t.Run(in, func(t *testing.T) {
+			got, err := ParseGroupID(in)
+			if err != nil {
+				t.Fatalf("ParseGroupID(%q): %v", in, err)
+			}
+			if got != want {
+				t.Errorf("ParseGroupID(%q) = %d, want %d", in, got, want)
+			}
+		})
 	}
 }
