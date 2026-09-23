@@ -11,8 +11,8 @@ func TestSteam2(t *testing.T) {
 		id   ID
 		want string
 	}{
-		{meID, "STEAM_1:0:4180232"},
-		{NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, 4294967295), "STEAM_1:1:2147483647"},
+		{meID, "STEAM_0:0:4180232"},
+		{NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, 4294967295), "STEAM_0:1:2147483647"},
 		{NewID(UniverseBeta, AccountTypeIndividual, InstanceDesktop, 3), "STEAM_2:1:1"},
 		{NewID(UniversePublic, AccountTypeClan, InstanceAll, 275018), "103582791429796426"},
 	}
@@ -61,7 +61,7 @@ func TestSteam3RoundTrip(t *testing.T) {
 }
 
 func TestSteam2RoundTrip(t *testing.T) {
-	for _, in := range []string{"STEAM_1:0:4180232", "STEAM_1:1:2147483647", "STEAM_2:1:1"} {
+	for _, in := range []string{"STEAM_0:0:4180232", "STEAM_0:1:2147483647", "STEAM_2:1:1"} {
 		id, err := ParsePlayerID(in)
 		if err != nil {
 			t.Errorf("ParsePlayerID(%q): %v", in, err)
@@ -70,6 +70,16 @@ func TestSteam2RoundTrip(t *testing.T) {
 		if got := id.Steam2(); got != in {
 			t.Errorf("ParsePlayerID(%q).Steam2() = %q", in, got)
 		}
+	}
+
+	// The STEAM_1 spelling of the public universe parses to the same ID and
+	// renders back in the STEAM_0 form.
+	id, err := ParsePlayerID("STEAM_1:0:4180232")
+	if err != nil {
+		t.Fatalf("ParsePlayerID: %v", err)
+	}
+	if got := id.Steam2(); got != "STEAM_0:0:4180232" {
+		t.Errorf("Steam2 = %q, want STEAM_0:0:4180232", got)
 	}
 }
 

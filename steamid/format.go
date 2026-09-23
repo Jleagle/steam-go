@@ -21,16 +21,21 @@ var accountTypeToCharacter = map[AccountType]string{
 	AccountTypeAnonUser:       "a",
 }
 
-// Steam2 renders an individual ID in the "STEAM_X:Y:Z" form: X is the
-// universe as stored (1 for public), Y the low bit of the account ID and Z the
-// remaining bits. Other account types have no SteamID2 form and render as the
-// decimal SteamID64.
+// Steam2 renders an individual ID in the "STEAM_X:Y:Z" form used by legacy
+// Source games: X is 0 for the public universe and the universe number
+// otherwise, Y is the low bit of the account ID and Z the remaining bits.
+// Other account types have no SteamID2 form and render as the decimal
+// SteamID64.
 func (id ID) Steam2() string {
 	if id.GetAccountType() != AccountTypeIndividual {
 		return id.String()
 	}
+	universe := id.GetUniverseID()
+	if universe <= UniversePublic {
+		universe = 0
+	}
 	account := uint32(id.GetAccountID())
-	return fmt.Sprintf("STEAM_%d:%d:%d", id.GetUniverseID(), account&1, account>>1)
+	return fmt.Sprintf("STEAM_%d:%d:%d", universe, account&1, account>>1)
 }
 
 // Steam3 renders the ID in the "[U:1:8360464]" form. The instance is appended
