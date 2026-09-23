@@ -10,8 +10,8 @@ import (
 )
 
 // binHeader is the 4-byte prefix found on PICS product-info blobs. The first
-// byte is non-zero so that every proper prefix of a document is still detected
-// as binary.
+// byte is non-zero so that any prefix of three bytes or more is still
+// detected as binary.
 var binHeader = []byte{1, 0, 0, 0}
 
 // binDoc builds a binary document: header, entries, closing TypeEnd.
@@ -147,9 +147,10 @@ func TestReadBinaryErrors(t *testing.T) {
 	}
 }
 
-// TestReadBinaryTruncated feeds every non-empty proper prefix of a document
-// to the parser: none may panic and all must return an error. (The empty
-// prefix is a valid empty text document, so it starts at one byte.)
+// TestReadBinaryTruncated feeds every proper prefix of at least three bytes
+// to the parser: each must be detected as binary, none may panic, and all
+// must return an error. Shorter prefixes hold no null byte after IsBinary
+// trims the trailing one and route to the text parser instead.
 func TestReadBinaryTruncated(t *testing.T) {
 	doc := binDoc(binObject("root",
 		binEntry(TypeString, "s", 'v', 0),
@@ -157,7 +158,8 @@ func TestReadBinaryTruncated(t *testing.T) {
 		binEntry(TypeFloat32, "f", 0, 0, 0, 0),
 	))
 
-	for n := 1; n < len(doc); n++ {
+	for n := 3; n < len(doc); n++ {
+		assert.Assert(t, IsBinary(doc[:n]), "prefix of length %d should be detected as binary", n)
 		_, err := ReadBytes(doc[:n])
 		assert.Assert(t, err != nil, "prefix of length %d should fail", n)
 	}

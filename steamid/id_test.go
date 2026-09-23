@@ -187,6 +187,7 @@ func TestParseGroupIDErrors(t *testing.T) {
 		"abc",
 		"0",
 		"99999999999",
+		"4294967296",         // 10 digits but above uint32
 		"76561197968626192",  // a player ID
 		"108086391057166922", // a chat ID
 		"103582791429796426x",
@@ -221,6 +222,7 @@ func TestIsValid(t *testing.T) {
 		{"clan", NewID(UniversePublic, AccountTypeClan, InstanceAll, 1), true},
 		{"clan with instance", NewID(UniversePublic, AccountTypeClan, InstanceDesktop, 1), false},
 		{"clan account zero", NewID(UniversePublic, AccountTypeClan, InstanceAll, 0), false},
+		{"game server", NewID(UniversePublic, AccountTypeGameServer, InstanceDesktop, 1), true},
 		{"game server account zero", NewID(UniversePublic, AccountTypeGameServer, InstanceDesktop, 0), false},
 		{"anon game server account zero", NewID(UniversePublic, AccountTypeAnonGameServer, 456, 0), true},
 		{"chat with clan flag", NewID(UniversePublic, AccountTypeChat, InstanceID(ChatInstanceClan), 1), true},

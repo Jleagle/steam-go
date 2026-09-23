@@ -36,7 +36,7 @@ func TestSteam3(t *testing.T) {
 		{NewID(UniversePublic, AccountTypeChat, InstanceID(ChatInstanceLobby), 275018), "[L:1:275018]"},
 		{NewID(UniversePublic, AccountTypeAnonGameServer, 456, 123), "[A:1:123:456]"},
 		{NewID(UniversePublic, AccountTypeMultiseat, 2, 123), "[M:1:123:2]"},
-		{NewID(UniversePublic, AccountTypeGameServer, InstanceDesktop, 9), "[G:1:9]"},
+		{NewID(UniversePublic, AccountTypeGameServer, InstanceConsole, 9), "[G:1:9]"},
 		{NewID(UniversePublic, AccountTypeConsoleUser, InstanceAll, 5), "[i:1:5]"},
 		{NewID(UniversePublic, AccountTypeInvalid, InstanceAll, 5), "[I:1:5]"},
 	}

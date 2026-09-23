@@ -273,9 +273,9 @@ func NewID(universe UniverseID, accountType AccountType, instance InstanceID, ac
 
 // IsValid reports whether every field is within Steam's defined range,
 // following SteamKit's SteamID.IsValid: the universe and account type are
-// defined values, individual and clan IDs have a non-zero account ID,
-// individual IDs use the desktop, console or web instance, clan IDs have no
-// instance, and game server IDs have a non-zero account ID.
+// defined values, individual, clan and game server IDs have a non-zero
+// account ID, individual IDs use the desktop, console or web instance, and
+// clan IDs have no instance.
 func (id ID) IsValid() bool {
 	accountType := id.GetAccountType()
 	if accountType <= AccountTypeInvalid || accountType >= AccountTypeMax {

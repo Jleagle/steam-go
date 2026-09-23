@@ -98,6 +98,8 @@ func TestReadTextErrors(t *testing.T) {
 		{name: "missing close brace", in: `"root" { "k" "v"`, wantIs: io.ErrUnexpectedEOF, wantText: `missing closing brace for "root"`},
 		{name: "extra close brace", in: "\"root\" { \"k\" \"v\" }\n}", wantText: "unexpected '}' on line 2"},
 		{name: "unterminated string", in: "\"root\"\n{\n\t\"k\" \"v", wantIs: io.ErrUnexpectedEOF, wantText: "unterminated string starting on line 3"},
+		{name: "backslash as final byte", in: "\"a\\", wantIs: io.ErrUnexpectedEOF, wantText: "unterminated string"},
+		{name: "lone quote", in: `"`, wantIs: io.ErrUnexpectedEOF, wantText: "unterminated string"},
 		{name: "unquoted token", in: `root { "k" "v" }`, wantText: "unexpected character 'r' on line 1"},
 		{name: "line numbers count newlines inside strings", in: "\"root\"\n{\n\t\"multi\n\nline\" \"v\"\n\t\"k\"\n}", wantText: `key "k" on line 6 has no value`},
 		{name: "two distinct roots", in: `"a" { } "b" { }`, wantIs: ErrMultipleRoots},

@@ -25,18 +25,12 @@ func TestChildSetterMatchesSetChild(t *testing.T) {
 			insert("k0", "replaced at "+strconv.Itoa(i)) // duplicate below and above the threshold
 		}
 	}
-	insert("k"+strconv.Itoa(childIndexThreshold-1), "replaced last below threshold")
+	insert("k"+strconv.Itoa(childIndexThreshold-1), "replaced entry inserted before the index existed")
 	insert("k"+strconv.Itoa(childIndexThreshold*2), "replaced above threshold")
 
 	assert.DeepEqual(t, indexed, direct)
 	assert.Equal(t, len(indexed.Children), childIndexThreshold*3)
 	assert.Equal(t, indexed.Children[0].Value, "replaced at "+strconv.Itoa(childIndexThreshold*3-3))
-}
-
-func TestChildSetterLeavesEmptyObjectNil(t *testing.T) {
-	var kv KeyValue
-	_ = childSetter{kv: &kv}
-	assert.Assert(t, kv.Children == nil)
 }
 
 func TestFromMapSingleKeyReturnsThatNode(t *testing.T) {
