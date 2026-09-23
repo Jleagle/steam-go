@@ -12,6 +12,15 @@ import (
 // top-level key.
 var ErrMultipleRoots = errors.New("vdf: document has more than one top-level key")
 
+// maxNestingDepth bounds how deeply objects may nest. Steam documents nest a
+// handful of levels; the bound keeps a hostile document from exhausting the
+// goroutine stack.
+const maxNestingDepth = 1000
+
+// ErrNestingTooDeep is returned when a document nests objects more than
+// maxNestingDepth levels deep.
+var ErrNestingTooDeep = errors.New("vdf: nesting too deep")
+
 // ReadFile parses the VDF document at path, detecting the text or binary
 // encoding automatically.
 func ReadFile(path string) (KeyValue, error) {

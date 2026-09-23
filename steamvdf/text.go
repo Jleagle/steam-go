@@ -148,6 +148,9 @@ func (p *textParser) parseMembers(parent *KeyValue, depth int) error {
 		case TokenTypeString:
 			child.Value = value.Value
 		case TokenTypeChildStart:
+			if depth+1 > maxNestingDepth {
+				return fmt.Errorf("%w: key %q on line %d", ErrNestingTooDeep, key.Value, key.Line)
+			}
 			if err := p.parseMembers(&child, depth+1); err != nil {
 				return err
 			}

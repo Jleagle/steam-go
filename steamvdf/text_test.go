@@ -116,3 +116,17 @@ func TestReadTextErrors(t *testing.T) {
 		})
 	}
 }
+
+// nestedText builds a document of depth nested objects: "a" { "a" { ... } }.
+func nestedText(depth int) string {
+	return strings.Repeat(`"a" { `, depth) + strings.Repeat("} ", depth)
+}
+
+func TestReadTextNestingDepth(t *testing.T) {
+	_, err := ReadBytes([]byte(nestedText(maxNestingDepth)))
+	assert.NilError(t, err)
+
+	_, err = ReadBytes([]byte(nestedText(maxNestingDepth + 1)))
+	assert.Assert(t, errors.Is(err, ErrNestingTooDeep), "error %q should wrap ErrNestingTooDeep", err)
+	assert.Assert(t, strings.Contains(err.Error(), `key "a" on line 1`), "error %q should name the key and line", err)
+}

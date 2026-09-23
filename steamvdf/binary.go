@@ -37,7 +37,8 @@ const binaryHeaderSize = 4
 // readBinary parses a binary-format document. Integers render in decimal,
 // floats with the shortest representation that round-trips, and colours as
 // "r g b a" to match Valve's text rendering. Duplicate keys within an object
-// replace the earlier value in place.
+// replace the earlier value in place. Errors name the byte offset at which
+// parsing stopped.
 func readBinary(data []byte) (KeyValue, error) {
 	r := binaryReader{data: data}
 	if _, err := r.take(binaryHeaderSize); err != nil {
@@ -45,8 +46,8 @@ func readBinary(data []byte) (KeyValue, error) {
 	}
 
 	var root KeyValue
-	if err := r.readObject(&root); err != nil {
-		return KeyValue{}, err
+	if err := r.readObject(&root, 0); err != nil {
+		return KeyValue{}, fmt.Errorf("vdf: at byte %d: %w", r.pos, err)
 	}
 
 	switch len(root.Children) {
@@ -95,7 +96,8 @@ func (r *binaryReader) readString() (string, error) {
 }
 
 // readObject reads entries into parent until the object's TypeEnd marker.
-func (r *binaryReader) readObject(parent *KeyValue) error {
+// depth is the nesting level of parent; the root object is at depth 0.
+func (r *binaryReader) readObject(parent *KeyValue, depth int) error {
 	setter := childSetter{kv: parent}
 	for {
 		typ, err := r.readByte()
@@ -113,7 +115,10 @@ func (r *binaryReader) readObject(parent *KeyValue) error {
 
 		child := KeyValue{Key: key}
 		if typ == TypeNone {
-			err = r.readObject(&child)
+			if depth+1 > maxNestingDepth {
+				return fmt.Errorf("%w: key %q", ErrNestingTooDeep, key)
+			}
+			err = r.readObject(&child, depth+1)
 		} else {
 			child.Value, err = r.readValue(typ, key)
 		}

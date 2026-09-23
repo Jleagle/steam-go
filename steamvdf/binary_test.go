@@ -126,7 +126,7 @@ func TestReadBinaryErrors(t *testing.T) {
 	}{
 		{name: "short header", in: []byte{1, 0, 0}, wantIs: io.ErrUnexpectedEOF, wantText: "binary header"},
 		{name: "header only", in: binHeader, wantIs: io.ErrUnexpectedEOF},
-		{name: "missing final end marker", in: append(append([]byte{}, binHeader...), binObject("root")...), wantIs: io.ErrUnexpectedEOF},
+		{name: "missing final end marker", in: append(append([]byte{}, binHeader...), binObject("root")...), wantIs: io.ErrUnexpectedEOF, wantText: "at byte"},
 		{name: "unterminated key", in: append(append([]byte{}, binHeader...), TypeString, 'k', 'e', 'y'), wantIs: io.ErrUnexpectedEOF},
 		{name: "wide string", in: binDoc(binObject("root", binEntry(TypeWideString, "w", 0, 0))), wantIs: ErrWideString},
 		{name: "unknown type", in: binDoc(binObject("root", binEntry(9, "x", 0))), wantText: `unknown value type 9 for key "x"`},
@@ -161,4 +161,24 @@ func TestReadBinaryTruncated(t *testing.T) {
 		_, err := ReadBytes(doc[:n])
 		assert.Assert(t, err != nil, "prefix of length %d should fail", n)
 	}
+}
+
+// nestedBinary builds a document of depth nested empty objects all keyed "a".
+func nestedBinary(depth int) []byte {
+	var body []byte
+	for i := 0; i < depth; i++ {
+		body = append(body, binEntry(TypeNone, "a")...)
+	}
+	for i := 0; i < depth; i++ {
+		body = append(body, TypeEnd)
+	}
+	return binDoc(body)
+}
+
+func TestReadBinaryNestingDepth(t *testing.T) {
+	_, err := ReadBytes(nestedBinary(maxNestingDepth))
+	assert.NilError(t, err)
+
+	_, err = ReadBytes(nestedBinary(maxNestingDepth + 1))
+	assert.Assert(t, errors.Is(err, ErrNestingTooDeep), "error %q should wrap ErrNestingTooDeep", err)
 }
