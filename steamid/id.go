@@ -1,17 +1,18 @@
-// Package steamid provides tools for parsing and handling Steam IDs.
+// Package steamid parses, validates and formats Steam IDs.
 package steamid
 
 import (
 	"errors"
+	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
 )
 
-// AccountID is a unique identifier for a Steam account.
+// AccountID is the 32-bit account number within a universe.
 type AccountID uint32
 
-// InstanceID is a unique identifier for a Steam instance.
+// InstanceID is the 20-bit instance field of a Steam ID.
 type InstanceID uint32
 
 // Steam instance IDs.
@@ -22,17 +23,18 @@ const (
 	InstanceWeb     InstanceID = 3
 )
 
-// ChatInstanceID is a unique identifier for a Steam chat instance.
+// ChatInstanceID holds the flag bits that a chat ID carries in its instance
+// field.
 type ChatInstanceID InstanceID
 
-// Steam chat instance IDs.
+// Steam chat instance flags.
 const (
 	ChatInstanceClan     ChatInstanceID = 0x100000 >> 1
 	ChatInstanceLobby    ChatInstanceID = 0x100000 >> 2
 	ChatInstanceMMSLobby ChatInstanceID = 0x100000 >> 3
 )
 
-// UniverseID is a unique identifier for a Steam universe.
+// UniverseID identifies the Steam universe an ID belongs to.
 type UniverseID uint8
 
 // Steam universe IDs.
@@ -45,7 +47,7 @@ const (
 	UniverseMax      UniverseID = 5
 )
 
-// AccountType is a unique identifier for a Steam account type.
+// AccountType identifies what kind of entity an ID refers to.
 type AccountType uint8
 
 // Steam account types.
@@ -64,9 +66,12 @@ const (
 	AccountTypeMax            AccountType = 11
 )
 
-// CharacterToAccountType maps Steam account type characters to their respective AccountType.
+// CharacterToAccountType maps the account type character of a SteamID3 string
+// to its AccountType. "c" and "L" are chat IDs whose instance carries the
+// clan or lobby flag; ParsePlayerID sets that flag.
 var CharacterToAccountType = map[string]AccountType{
 	"I": AccountTypeInvalid,
+	"i": AccountTypeInvalid,
 	"U": AccountTypeIndividual,
 	"M": AccountTypeMultiseat,
 	"G": AccountTypeGameServer,
@@ -80,7 +85,8 @@ var CharacterToAccountType = map[string]AccountType{
 	"a": AccountTypeAnonUser,
 }
 
-// ID is a unique identifier for a Steam object.
+// ID is a 64-bit Steam ID: universe (8 bits), account type (4 bits), instance
+// (20 bits) and account ID (32 bits).
 type ID uint64
 
 var (
@@ -94,180 +100,203 @@ var (
 	ErrInvalidGroupID = errors.New("invalid group id")
 )
 
-// Regexps for parsing Steam IDs.
 var (
-	RegexpPlayerID1  = regexp.MustCompile(`^STEAM_([0-5]):([01]):(\d+)$`)              // Universe ID, Lowest bit, Highest bit
-	RegexpPlayerID3  = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\]?$`)        // Account type character, Universe ID, Account ID
-	RegexpPlayerID3I = regexp.MustCompile(`^\[?([a-zA-Z])\:([0-5])\:(\d+)\:(\d+)\]?$`) // Account type character, Universe ID, Account ID, Instance ID
-	RegexpPlayerID32 = regexp.MustCompile(`^\d{1,16}$`)                                // Account ID
-	RegexpPlayerID64 = regexp.MustCompile(`^\d{17}$`)                                  // ID
+	regexpSteam2     = regexp.MustCompile(`^STEAM_([0-5]):([01]):(\d+)$`)          // universe, low bit, account ID >> 1
+	regexpSteam3     = regexp.MustCompile(`^([a-zA-Z]):([0-5]):(\d+)(?::(\d+))?$`) // type character, universe, account ID, optional instance
+	regexpAccountID  = regexp.MustCompile(`^\d{1,10}$`)
+	regexpPlayerID64 = regexp.MustCompile(`^\d{17}$`)
+	regexpGroupID64  = regexp.MustCompile(`^\d{18}$`)
 )
 
-// ParsePlayerID parses a Steam ID from a string.
-func ParsePlayerID(id string) (out ID, err error) {
+// ParsePlayerID parses a Steam ID written as SteamID2 ("STEAM_0:0:4180232"),
+// SteamID3 ("[U:1:8360464]", brackets optional, instance optional), a bare
+// account ID ("8360464") or a SteamID64 ("76561197968626192"). Surrounding
+// whitespace is ignored. The result satisfies IsValid; any other input
+// returns an error wrapping ErrInvalidPlayerID.
+func ParsePlayerID(s string) (ID, error) {
+	s = strings.TrimSpace(s)
 
-	id = strings.TrimSpace(id)
+	id, err := parsePlayerID(s)
+	if err != nil {
+		return 0, err
+	}
+	if !id.IsValid() {
+		return 0, fmt.Errorf("%w: %q", ErrInvalidPlayerID, s)
+	}
+	return id, nil
+}
 
+func parsePlayerID(s string) (ID, error) {
+	if m := regexpSteam2.FindStringSubmatch(s); m != nil {
+		universe := UniverseID(m[1][0] - '0')
+		if universe == UniverseInvalid {
+			universe = UniversePublic // the legacy "STEAM_0:" form means the public universe
+		}
+		lowBit := uint64(m[2][0] - '0')
+		high, err := parseField(m[3], 31, ErrInvalidPlayerID)
+		if err != nil {
+			return 0, err
+		}
+		return NewID(universe, AccountTypeIndividual, InstanceDesktop, AccountID(high<<1|lowBit)), nil
+	}
+
+	if body, ok := stripBrackets(s); ok {
+		if m := regexpSteam3.FindStringSubmatch(body); m != nil {
+			return parseSteam3(m)
+		}
+	}
+
+	if regexpAccountID.MatchString(s) {
+		account, err := parseField(s, 32, ErrInvalidPlayerID)
+		if err != nil {
+			return 0, err
+		}
+		return NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, AccountID(account)), nil
+	}
+
+	if regexpPlayerID64.MatchString(s) {
+		v, err := parseField(s, 64, ErrInvalidPlayerID)
+		if err != nil {
+			return 0, err
+		}
+		return ID(v), nil
+	}
+
+	return 0, fmt.Errorf("%w: %q", ErrInvalidPlayerID, s)
+}
+
+// parseSteam3 builds an ID from the submatches of regexpSteam3: type
+// character, universe, account ID and optional instance. Clan, chat, clan
+// chat and lobby chat IDs default to no instance; every other type defaults
+// to the desktop instance.
+func parseSteam3(m []string) (ID, error) {
+	char := m[1]
+	accountType, ok := CharacterToAccountType[char]
+	if !ok {
+		return 0, fmt.Errorf("%w: unknown account type character %q", ErrInvalidPlayerID, char)
+	}
+
+	universe := UniverseID(m[2][0] - '0')
+
+	account, err := parseField(m[3], 32, ErrInvalidPlayerID)
+	if err != nil {
+		return 0, err
+	}
+
+	instance := InstanceDesktop
+	switch char {
+	case "g", "T", "c", "L":
+		instance = InstanceAll
+	}
+	if m[4] != "" {
+		v, err := parseField(m[4], 20, ErrInvalidPlayerID)
+		if err != nil {
+			return 0, err
+		}
+		instance = InstanceID(v)
+	}
+	switch char {
+	case "c":
+		instance |= InstanceID(ChatInstanceClan)
+	case "L":
+		instance |= InstanceID(ChatInstanceLobby)
+	}
+
+	return NewID(universe, accountType, instance, AccountID(account)), nil
+}
+
+// stripBrackets removes a matched pair of surrounding square brackets. It
+// reports false when only one bracket is present.
+func stripBrackets(s string) (string, bool) {
+	open := strings.HasPrefix(s, "[")
+	closed := strings.HasSuffix(s, "]")
 	switch {
-	case RegexpPlayerID1.MatchString(id):
-
-		// Get universe
-		parts := RegexpPlayerID1.FindStringSubmatch(id)
-		i, err := strconv.ParseInt(parts[1], 10, 8)
-		if err != nil {
-			return out, err
-		}
-		if i == int64(UniverseInvalid) {
-			i = int64(UniversePublic)
-		}
-
-		// Get account
-		part2, err := strconv.ParseUint(parts[2], 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		// AccountID
-		part3, err := strconv.ParseUint(parts[3], 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		account := (uint32(part3) << 1) | uint32(part2)
-
-		//nolint:gosec // UniverseID(i) is safe as i is parsed as 8-bit int and checked against constants.
-		return NewID(UniverseID(i), AccountTypeIndividual, InstanceDesktop, AccountID(account)), nil
-
-	case RegexpPlayerID3I.MatchString(id):
-
-		parts := RegexpPlayerID3I.FindStringSubmatch(id)
-
-		// Account Type
-		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
-
-			// Universe ID
-			part2, err := strconv.ParseUint(parts[2], 10, 8)
-			if err != nil {
-				return out, err
-			}
-
-			// Account ID
-			part3, err := strconv.ParseUint(parts[3], 10, 32)
-			if err != nil {
-				return out, err
-			}
-
-			// Instance ID
-			part4, err := strconv.ParseUint(parts[4], 10, 32)
-			if err != nil {
-				return out, err
-			}
-
-			//
-			return NewID(UniverseID(part2), accountType, InstanceID(part4), AccountID(part3)), nil
-		}
-
-		return out, ErrInvalidPlayerID
-
-	case RegexpPlayerID3.MatchString(id):
-
-		parts := RegexpPlayerID3.FindStringSubmatch(id)
-
-		// Account Type
-		if accountType, ok := CharacterToAccountType[parts[1]]; ok {
-
-			// Universe ID
-			part2, err := strconv.ParseUint(parts[2], 10, 8)
-			if err != nil {
-				return out, err
-			}
-
-			// Account ID
-			part3, err := strconv.ParseUint(parts[3], 10, 32)
-			if err != nil {
-				return out, err
-			}
-
-			// Instance
-			instanceID := InstanceDesktop
-			if accountType == AccountTypeClan || accountType == AccountTypeChat {
-				instanceID = InstanceAll
-			}
-
-			//
-			return NewID(UniverseID(part2), accountType, instanceID, AccountID(part3)), nil
-		}
-
-		return out, ErrInvalidPlayerID
-
-	case RegexpPlayerID32.MatchString(id):
-
-		i, err := strconv.ParseUint(id, 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		return NewID(UniversePublic, AccountTypeIndividual, InstanceDesktop, AccountID(i)), nil
-
-	case RegexpPlayerID64.MatchString(id):
-
-		i, err := strconv.ParseUint(id, 10, 64)
-		if err != nil {
-			return out, err
-		}
-
-		return ID(i), nil
-
+	case open && closed:
+		return s[1 : len(s)-1], true
+	case open || closed:
+		return "", false
 	default:
-
-		return out, ErrInvalidPlayerID
+		return s, true
 	}
 }
 
-// Regexps for parsing Steam group IDs.
-var (
-	RegexpGroupID64 = regexp.MustCompile(`^\d{18}$`)   // ID
-	RegexpGroupID   = regexp.MustCompile(`^\d{1,17}$`) // Account ID
-)
-
-// ParseGroupID parses a Steam group ID from a string.
-func ParseGroupID(id string) (out ID, err error) {
-
-	id = strings.TrimSpace(id)
-
-	switch {
-	case RegexpGroupID64.MatchString(id):
-
-		i, err := strconv.ParseUint(id, 10, 64)
-		if err != nil {
-			return out, err
-		}
-
-		return ID(i), nil
-
-	case RegexpGroupID.MatchString(id):
-
-		// Account ID
-		i, err := strconv.ParseUint(id, 10, 32)
-		if err != nil {
-			return out, err
-		}
-
-		return NewID(UniversePublic, AccountTypeClan, InstanceAll, AccountID(i)), nil
-
-	default:
-
-		return out, ErrInvalidGroupID
+// parseField parses a decimal field that must fit in bitSize bits, wrapping
+// any failure in sentinel.
+func parseField(s string, bitSize int, sentinel error) (uint64, error) {
+	v, err := strconv.ParseUint(s, 10, bitSize)
+	if err != nil {
+		return 0, fmt.Errorf("%w: %v", sentinel, err)
 	}
+	return v, nil
 }
 
-// NewID creates a new Steam ID.
-func NewID(universe UniverseID, accountType AccountType, instance InstanceID, accountID AccountID) (id ID) {
+// ParseGroupID parses a Steam group (clan) ID written as a bare account ID
+// ("275018") or as a SteamID64 ("103582791429796426"). Surrounding whitespace
+// is ignored. The result is a valid clan ID; any other input returns an error
+// wrapping ErrInvalidGroupID.
+func ParseGroupID(s string) (ID, error) {
+	s = strings.TrimSpace(s)
+
+	var id ID
+	switch {
+	case regexpAccountID.MatchString(s):
+		account, err := parseField(s, 32, ErrInvalidGroupID)
+		if err != nil {
+			return 0, err
+		}
+		id = NewID(UniversePublic, AccountTypeClan, InstanceAll, AccountID(account))
+	case regexpGroupID64.MatchString(s):
+		v, err := parseField(s, 64, ErrInvalidGroupID)
+		if err != nil {
+			return 0, err
+		}
+		id = ID(v)
+	default:
+		return 0, fmt.Errorf("%w: %q", ErrInvalidGroupID, s)
+	}
+
+	if id.GetAccountType() != AccountTypeClan || !id.IsValid() {
+		return 0, fmt.Errorf("%w: %q", ErrInvalidGroupID, s)
+	}
+	return id, nil
+}
+
+// NewID builds an ID from its fields.
+func NewID(universe UniverseID, accountType AccountType, instance InstanceID, accountID AccountID) ID {
+	var id ID
 	id.SetAccountID(accountID)
 	id.SetInstanceID(instance)
 	id.SetUniverseID(universe)
 	id.SetAccountType(accountType)
 	return id
+}
+
+// IsValid reports whether every field is within Steam's defined range,
+// following SteamKit's SteamID.IsValid: the universe and account type are
+// defined values, individual and clan IDs have a non-zero account ID,
+// individual IDs use the desktop, console or web instance, clan IDs have no
+// instance, and game server IDs have a non-zero account ID.
+func (id ID) IsValid() bool {
+	accountType := id.GetAccountType()
+	if accountType <= AccountTypeInvalid || accountType >= AccountTypeMax {
+		return false
+	}
+
+	universe := id.GetUniverseID()
+	if universe <= UniverseInvalid || universe >= UniverseMax {
+		return false
+	}
+
+	account, instance := id.GetAccountID(), id.GetInstanceID()
+	switch accountType {
+	case AccountTypeIndividual:
+		return account != 0 && instance <= InstanceWeb
+	case AccountTypeClan:
+		return account != 0 && instance == InstanceAll
+	case AccountTypeGameServer:
+		return account != 0
+	}
+	return true
 }
 
 // Helpers
@@ -328,9 +357,8 @@ func (id *ID) SetUniverseID(universeID UniverseID) {
 	id.set(56, 0xF, uint64(universeID))
 }
 
-// ClanToChat converts a clan ID to a chat ID.
+// ClanToChat converts a clan ID into the ID of its group chat.
 func (id *ID) ClanToChat() error {
-
 	if id.GetAccountType() != AccountTypeClan {
 		return ErrInvalidClanID
 	}
@@ -341,14 +369,13 @@ func (id *ID) ClanToChat() error {
 	return nil
 }
 
-// ChatToClan converts a chat ID to a clan ID.
+// ChatToClan converts a group chat ID into the ID of its clan.
 func (id *ID) ChatToClan() error {
-
 	if id.GetAccountType() != AccountTypeChat {
 		return ErrInvalidChatID
 	}
 
-	id.SetInstanceID(0)
+	id.SetInstanceID(InstanceAll)
 	id.SetAccountType(AccountTypeClan)
 
 	return nil
