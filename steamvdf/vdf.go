@@ -4,10 +4,7 @@ package steamvdf
 
 import (
 	"bytes"
-	"encoding/binary"
 	"errors"
-	"fmt"
-	"io"
 	"os"
 )
 
@@ -29,22 +26,9 @@ func ReadFile(path string) (KeyValue, error) {
 // automatically.
 func ReadBytes(b []byte) (KeyValue, error) {
 	if IsBinary(b) {
-		return readBinaryReader(bytes.NewReader(b))
+		return readBinary(b)
 	}
 	return readText(b)
-}
-
-func readBinaryReader(r io.Reader) (kv KeyValue, err error) {
-
-	var d float32
-	err = binary.Read(r, binary.LittleEndian, &d)
-	if err != nil {
-		return kv, fmt.Errorf("binary.Read failed: %w", err)
-	}
-
-	root := KeyValue{}
-	err = readBinary(r, &root, nil)
-	return root, err
 }
 
 // IsBinary reports whether b is a binary-encoded document. Text documents may

@@ -1,16 +1,19 @@
 package steamvdf
 
 import (
+	"bytes"
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"image/color"
 	"io"
+	"math"
 	"strconv"
 )
 
+// Binary-format value type markers. Each entry in an object is a type byte, a
+// null-terminated key, then a payload whose layout the type determines.
 const (
-	TypeNone       byte = 0
+	TypeNone       byte = 0 // nested object; entries follow until TypeEnd
 	TypeString     byte = 1
 	TypeInt32      byte = 2
 	TypeFloat32    byte = 3
@@ -18,129 +21,147 @@ const (
 	TypeWideString byte = 5
 	TypeColor      byte = 6
 	TypeUint64     byte = 7
-	TypeEnd        byte = 8
+	TypeEnd        byte = 8 // closes the enclosing object
 	TypeInt64      byte = 10
 )
 
-var (
-	ErrWideString = errors.New("WideString not supported")
-)
+// ErrWideString is returned when a binary document contains a wide-string
+// value, which this package does not decode.
+var ErrWideString = errors.New("vdf: wide string values are not supported")
 
-// Thanks to https://github.com/SteamRE/SteamKit
-func readBinary(r io.Reader, current *KeyValue, parent *KeyValue) (err error) {
+// binaryHeaderSize is the length of the uint32 that precedes the root object
+// in PICS product-info blobs. Its meaning is undocumented; SteamKit skips it
+// too.
+const binaryHeaderSize = 4
 
-	for {
-		var b byte
-		err := binary.Read(r, binary.LittleEndian, &b)
-		if err != nil {
-			return err
-		}
-
-		if b == TypeEnd {
-			break
-		}
-
-		current.Key, err = readString(r)
-		if err != nil {
-			return err
-		}
-
-		switch b {
-		case TypeNone:
-
-			var child = KeyValue{}
-			err = readBinary(r, &child, current)
-			if err != nil {
-				return err
-			}
-
-		case TypeString:
-
-			current.Value, err = readString(r)
-			if err != nil {
-				return err
-			}
-
-		case TypeColor:
-
-			var d color.NRGBA
-			err = binary.Read(r, binary.LittleEndian, &d)
-			if err != nil {
-				return err
-			}
-
-		case TypeInt32, TypePointer:
-
-			var d int32
-			err := binary.Read(r, binary.LittleEndian, &d)
-			if err != nil {
-				return err
-			}
-
-			current.Value = strconv.Itoa(int(d))
-
-		case TypeFloat32:
-
-			var d float32
-			err := binary.Read(r, binary.LittleEndian, &d)
-			if err != nil {
-				return err
-			}
-
-			current.Value = strconv.FormatFloat(float64(d), 'f', -1, 32)
-
-		case TypeWideString:
-
-			return ErrWideString
-
-		case TypeUint64:
-
-			var d uint64
-			err := binary.Read(r, binary.LittleEndian, &d)
-			if err != nil {
-				return err
-			}
-
-			current.Value = strconv.FormatUint(d, 10)
-
-		case TypeInt64:
-
-			var d int64
-			err := binary.Read(r, binary.LittleEndian, &d)
-			if err != nil {
-				return err
-			}
-
-			current.Value = strconv.FormatInt(d, 10)
-
-		default:
-
-			err = fmt.Errorf("vdf: unknown pack type %d", b)
-			if err != nil {
-				return err
-			}
-		}
-
-		if parent != nil {
-			parent.SetChild(*current)
-		}
-
-		current = &KeyValue{}
+// readBinary parses a binary-format document. Integers render in decimal,
+// floats with the shortest representation that round-trips, and colours as
+// "r g b a" to match Valve's text rendering. Duplicate keys within an object
+// replace the earlier value in place.
+func readBinary(data []byte) (KeyValue, error) {
+	r := binaryReader{data: data}
+	if _, err := r.take(binaryHeaderSize); err != nil {
+		return KeyValue{}, fmt.Errorf("vdf: reading binary header: %w", err)
 	}
 
-	return nil
+	var root KeyValue
+	if err := r.readObject(&root); err != nil {
+		return KeyValue{}, err
+	}
+
+	switch len(root.Children) {
+	case 0:
+		return KeyValue{}, nil
+	case 1:
+		return root.Children[0], nil
+	default:
+		return KeyValue{}, ErrMultipleRoots
+	}
 }
 
-func readString(r io.Reader) (string, error) {
-	c := make([]byte, 0)
-	var err error
-	for {
-		var b byte
-		err = binary.Read(r, binary.LittleEndian, &b)
-		if b == byte(0x0) || err != nil {
-			break
-		}
-		c = append(c, b)
+// binaryReader is a cursor over a binary document.
+type binaryReader struct {
+	data []byte
+	pos  int
+}
+
+// take returns the next n bytes.
+func (r *binaryReader) take(n int) ([]byte, error) {
+	if len(r.data)-r.pos < n {
+		return nil, io.ErrUnexpectedEOF
 	}
-	return string(c), err
+	b := r.data[r.pos : r.pos+n]
+	r.pos += n
+	return b, nil
+}
+
+func (r *binaryReader) readByte() (byte, error) {
+	b, err := r.take(1)
+	if err != nil {
+		return 0, err
+	}
+	return b[0], nil
+}
+
+// readString returns the next null-terminated string.
+func (r *binaryReader) readString() (string, error) {
+	end := bytes.IndexByte(r.data[r.pos:], 0)
+	if end < 0 {
+		return "", io.ErrUnexpectedEOF
+	}
+	s := string(r.data[r.pos : r.pos+end])
+	r.pos += end + 1
+	return s, nil
+}
+
+// readObject reads entries into parent until the object's TypeEnd marker.
+func (r *binaryReader) readObject(parent *KeyValue) error {
+	for {
+		typ, err := r.readByte()
+		if err != nil {
+			return err
+		}
+		if typ == TypeEnd {
+			return nil
+		}
+
+		key, err := r.readString()
+		if err != nil {
+			return err
+		}
+
+		child := KeyValue{Key: key}
+		if typ == TypeNone {
+			err = r.readObject(&child)
+		} else {
+			child.Value, err = r.readValue(typ, key)
+		}
+		if err != nil {
+			return err
+		}
+
+		parent.SetChild(child)
+	}
+}
+
+// readValue decodes the payload of a scalar entry of type typ.
+func (r *binaryReader) readValue(typ byte, key string) (string, error) {
+	switch typ {
+	case TypeString:
+		return r.readString()
+	case TypeInt32, TypePointer:
+		b, err := r.take(4)
+		if err != nil {
+			return "", err
+		}
+		return strconv.FormatInt(int64(int32(binary.LittleEndian.Uint32(b))), 10), nil
+	case TypeFloat32:
+		b, err := r.take(4)
+		if err != nil {
+			return "", err
+		}
+		return strconv.FormatFloat(float64(math.Float32frombits(binary.LittleEndian.Uint32(b))), 'f', -1, 32), nil
+	case TypeColor:
+		b, err := r.take(4)
+		if err != nil {
+			return "", err
+		}
+		return fmt.Sprintf("%d %d %d %d", b[0], b[1], b[2], b[3]), nil
+	case TypeUint64:
+		b, err := r.take(8)
+		if err != nil {
+			return "", err
+		}
+		return strconv.FormatUint(binary.LittleEndian.Uint64(b), 10), nil
+	case TypeInt64:
+		b, err := r.take(8)
+		if err != nil {
+			return "", err
+		}
+		return strconv.FormatInt(int64(binary.LittleEndian.Uint64(b)), 10), nil
+	case TypeWideString:
+		return "", ErrWideString
+	default:
+		return "", fmt.Errorf("vdf: unknown value type %d for key %q", typ, key)
+	}
 }
