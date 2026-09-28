@@ -147,6 +147,18 @@ func TestReadBinaryErrors(t *testing.T) {
 	}
 }
 
+func TestReadBinaryKeepDuplicates(t *testing.T) {
+	in := binDoc(
+		binObject("root", binEntry(TypeString, "k", '1', 0), binEntry(TypeString, "o", 'x', 0), binEntry(TypeString, "k", '2', 0)),
+		binObject("root", binEntry(TypeString, "k", '3', 0)),
+	)
+	want := KeyValue{Key: "root", Children: []KeyValue{{Key: "k", Value: "1"}, {Key: "o", Value: "x"}, {Key: "k", Value: "2"}, {Key: "k", Value: "3"}}}
+
+	got, err := ReadBytes(in, KeepDuplicates())
+	assert.NilError(t, err)
+	assert.DeepEqual(t, got, want)
+}
+
 // TestReadBinaryTruncated feeds every proper prefix of at least three bytes
 // to the parser: each must be detected as binary, none may panic, and all
 // must return an error. Shorter prefixes hold no null byte after IsBinary

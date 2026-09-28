@@ -96,3 +96,9 @@ func TestGetSetHasChild(t *testing.T) {
 	assert.Equal(t, child.Value, "3")
 	assert.Assert(t, kv.HasChild("b"))
 }
+
+func TestGetChildren(t *testing.T) {
+	kv := KeyValue{Children: []KeyValue{{Key: "a", Value: "1"}, {Key: "b", Value: "2"}, {Key: "a", Value: "3"}}}
+	assert.DeepEqual(t, kv.GetChildren("a"), []KeyValue{{Key: "a", Value: "1"}, {Key: "a", Value: "3"}})
+	assert.Assert(t, kv.GetChildren("missing") == nil)
+}

@@ -119,6 +119,53 @@ func TestReadTextErrors(t *testing.T) {
 	}
 }
 
+func TestReadTextKeepDuplicates(t *testing.T) {
+	wide := make([]KeyValue, childIndexThreshold+1)
+	for i := range wide {
+		wide[i] = KeyValue{Key: "k", Value: "v"}
+	}
+
+	tests := []struct {
+		name string
+		in   string
+		want KeyValue
+	}{
+		{
+			name: "duplicate keys are kept in document order",
+			in:   `"root" { "k" "1" "other" "x" "k" "2" }`,
+			want: KeyValue{Key: "root", Children: []KeyValue{{Key: "k", Value: "1"}, {Key: "other", Value: "x"}, {Key: "k", Value: "2"}}},
+		},
+		{
+			name: "duplicate objects are kept",
+			in:   `"root" { "items" { "1" "a" } "items" { "2" "b" } }`,
+			want: KeyValue{Key: "root", Children: []KeyValue{{Key: "items", Children: []KeyValue{{Key: "1", Value: "a"}}}, {Key: "items", Children: []KeyValue{{Key: "2", Value: "b"}}}}},
+		},
+		{
+			name: "wide objects keep duplicates past the index threshold",
+			in:   `"root" { ` + strings.Repeat(`"k" "v" `, childIndexThreshold+1) + `}`,
+			want: KeyValue{Key: "root", Children: wide},
+		},
+		{
+			name: "repeated root key merges the children of every block",
+			in:   `"root" { "k" "1" } "root" { "k" "2" }`,
+			want: KeyValue{Key: "root", Children: []KeyValue{{Key: "k", Value: "1"}, {Key: "k", Value: "2"}}},
+		},
+	}
+
+	for _, tc := range tests {
+		t.Run(tc.name, func(t *testing.T) {
+			got, err := ReadBytes([]byte(tc.in), KeepDuplicates())
+			assert.NilError(t, err)
+			assert.DeepEqual(t, got, tc.want)
+		})
+	}
+}
+
+func TestReadTextKeepDuplicatesMultipleRoots(t *testing.T) {
+	_, err := ReadBytes([]byte(`"a" { } "b" { }`), KeepDuplicates())
+	assert.Assert(t, errors.Is(err, ErrMultipleRoots), "error %q should wrap ErrMultipleRoots", err)
+}
+
 // nestedText builds a document of depth nested objects: "a" { "a" { ... } }.
 func nestedText(depth int) string {
 	return strings.Repeat(`"a" { `, depth) + strings.Repeat("} ", depth)
