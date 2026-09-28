@@ -24,29 +24,22 @@ type Token struct {
 }
 
 // readText parses a text-format document. Values keep their escape sequences
-// exactly as written. Duplicate keys within an object replace the earlier
-// value in place, so a document that repeats its root key parses to the last
-// occurrence.
-func readText(data []byte) (KeyValue, error) {
+// exactly as written. Unless o keeps duplicates, duplicate keys within an
+// object replace the earlier value in place, so a document that repeats its
+// root key parses to the last occurrence.
+func readText(data []byte, o options) (KeyValue, error) {
 	tokens, err := tokenize(data)
 	if err != nil {
 		return KeyValue{}, err
 	}
 
-	p := textParser{tokens: tokens}
+	p := textParser{tokens: tokens, keepDuplicates: o.keepDuplicates}
 	var root KeyValue
 	if err := p.parseMembers(&root, 0); err != nil {
 		return KeyValue{}, err
 	}
 
-	switch len(root.Children) {
-	case 0:
-		return KeyValue{}, nil
-	case 1:
-		return root.Children[0], nil
-	default:
-		return KeyValue{}, ErrMultipleRoots
-	}
+	return singleRoot(root, o)
 }
 
 // tokenize splits data into tokens. Comments run from "/" or "#" to the end
@@ -102,8 +95,9 @@ func scanString(data []byte, open int) (int, bool) {
 
 // textParser is a cursor over the token stream.
 type textParser struct {
-	tokens []Token
-	pos    int
+	tokens         []Token
+	pos            int
+	keepDuplicates bool
 }
 
 func (p *textParser) next() (Token, bool) {
@@ -118,7 +112,7 @@ func (p *textParser) next() (Token, bool) {
 // parseMembers reads key/value pairs into parent. At depth 0 it consumes the
 // whole token stream; deeper it stops at the closing brace of parent.
 func (p *textParser) parseMembers(parent *KeyValue, depth int) error {
-	setter := childSetter{kv: parent}
+	setter := childSetter{kv: parent, keepDuplicates: p.keepDuplicates}
 	for {
 		key, ok := p.next()
 		if !ok {

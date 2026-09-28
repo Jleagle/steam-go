@@ -53,6 +53,18 @@ func (kv KeyValue) GetChild(key string) (KeyValue, bool) {
 	return KeyValue{}, false
 }
 
+// GetChildren returns every child with the given key, in order. Documents
+// read with KeepDuplicates can hold several.
+func (kv KeyValue) GetChildren(key string) []KeyValue {
+	var ret []KeyValue
+	for _, child := range kv.Children {
+		if child.Key == key {
+			ret = append(ret, child)
+		}
+	}
+	return ret
+}
+
 // SetChild replaces the child with the same key in place, or appends child
 // when there is none.
 func (kv *KeyValue) SetChild(child KeyValue) {
@@ -78,13 +90,19 @@ const childIndexThreshold = 16
 // childSetter inserts children into kv with SetChild's replace-or-append
 // semantics while keeping each insert O(1) once the object is wide. The
 // parsers use it so that objects with thousands of children do not rescan
-// every existing child on each insert.
+// every existing child on each insert. With keepDuplicates it always appends.
 type childSetter struct {
-	kv    *KeyValue
-	index map[string]int // key to position in kv.Children, built lazily
+	kv             *KeyValue
+	index          map[string]int // key to position in kv.Children, built lazily
+	keepDuplicates bool
 }
 
 func (s *childSetter) set(child KeyValue) {
+	if s.keepDuplicates {
+		s.kv.Children = append(s.kv.Children, child)
+		return
+	}
+
 	if s.index == nil {
 		if len(s.kv.Children) < childIndexThreshold {
 			s.kv.SetChild(child)

@@ -36,11 +36,11 @@ const binaryHeaderSize = 4
 
 // readBinary parses a binary-format document. Integers render in decimal,
 // floats with the shortest representation that round-trips, and colours as
-// "r g b a" to match Valve's text rendering. Duplicate keys within an object
-// replace the earlier value in place. Errors name the byte offset at which
-// parsing stopped.
-func readBinary(data []byte) (KeyValue, error) {
-	r := binaryReader{data: data}
+// "r g b a" to match Valve's text rendering. Unless o keeps duplicates,
+// duplicate keys within an object replace the earlier value in place. Errors
+// name the byte offset at which parsing stopped.
+func readBinary(data []byte, o options) (KeyValue, error) {
+	r := binaryReader{data: data, keepDuplicates: o.keepDuplicates}
 	if _, err := r.take(binaryHeaderSize); err != nil {
 		return KeyValue{}, fmt.Errorf("vdf: reading binary header: %w", err)
 	}
@@ -50,20 +50,14 @@ func readBinary(data []byte) (KeyValue, error) {
 		return KeyValue{}, fmt.Errorf("vdf: at byte %d: %w", r.pos, err)
 	}
 
-	switch len(root.Children) {
-	case 0:
-		return KeyValue{}, nil
-	case 1:
-		return root.Children[0], nil
-	default:
-		return KeyValue{}, ErrMultipleRoots
-	}
+	return singleRoot(root, o)
 }
 
 // binaryReader is a cursor over a binary document.
 type binaryReader struct {
-	data []byte
-	pos  int
+	data           []byte
+	pos            int
+	keepDuplicates bool
 }
 
 // take returns the next n bytes.
@@ -98,7 +92,7 @@ func (r *binaryReader) readString() (string, error) {
 // readObject reads entries into parent until the object's TypeEnd marker.
 // depth is the nesting level of parent; the root object is at depth 0.
 func (r *binaryReader) readObject(parent *KeyValue, depth int) error {
-	setter := childSetter{kv: parent}
+	setter := childSetter{kv: parent, keepDuplicates: r.keepDuplicates}
 	for {
 		typ, err := r.readByte()
 		if err != nil {
